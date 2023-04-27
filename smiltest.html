@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My SMIL Animation</title>
+</head>
+<body>
+	<svg width="200" height="200">
+		<rect id="myRect" x="0" y="0" width="50" height="50" fill="blue">
+			<animate attributeName="x" from="0" to="150" dur="1s" repeatCount="indefinite" />
+			<animate attributeName="y" from="0" to="150" dur="1s" repeatCount="indefinite" />
+			<animate attributeName="width" from="50" to="100" dur="1s" repeatCount="indefinite" />
+			<animate attributeName="height" from="50" to="100" dur="1s" repeatCount="indefinite" />
+			<animate attributeName="fill" values="blue;red;green;blue" dur="4s" repeatCount="indefinite" />
+		</rect>
+	</svg>
+</body>
+</html>
