@@ -23,8 +23,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install the PDF reader (Harris County posts results as a PDF)
-        run: sudo apt-get install -y -qq poppler-utils >/dev/null
+      - name: Install the PDF reader (Harris County) and a headless browser (Clarity's bot check)
+        run: |
+          sudo apt-get install -y -qq poppler-utils >/dev/null
+          pip install -q playwright==1.47.0
+          python3 -m playwright install --with-deps chromium >/dev/null
 
       - name: Fetch results from CivicAPI and the county election offices
         run: |

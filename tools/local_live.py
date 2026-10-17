@@ -43,13 +43,48 @@ RACES = [
 FORT_BEND = [('County Judge', r'^COUNTY JUDGE$'), ('Commissioner Pct 2', r'^COUNTY COMMISSIONER PRECINCT 2\b'), ('Commissioner Pct 4', r'^COUNTY COMMISSIONER PRECINCT 4\b')]
 
 
+_WAF = {}
+
+
+def waf_cookie(url):
+    """Clarity sits behind a bot check (AWS WAF) that answers some networks, such as GitHub's,
+    with HTTP 202 and a JavaScript challenge. A headless browser passes the challenge once; its
+    cookie then works for plain requests to the same site."""
+    host = url.split('/')[2]
+    if host in _WAF:
+        return _WAF[host]
+    _WAF[host] = None
+    try:
+        from playwright.sync_api import sync_playwright
+    except ImportError:
+        return None
+    with sync_playwright() as p:
+        b = p.chromium.launch()
+        ctx = b.new_context(user_agent=UA)
+        pg = ctx.new_page()
+        pg.goto(url.rsplit('/', 1)[0] + '/', timeout=60000)
+        for _ in range(20):
+            pg.wait_for_timeout(1000)
+            ck = {c['name']: c['value'] for c in ctx.cookies()}
+            if 'aws-waf-token' in ck:
+                break
+        b.close()
+    _WAF[host] = '; '.join(f'{k}={v}' for k, v in ck.items()) or None
+    return _WAF[host]
+
+
 def fetch(url, binary=False, tries=3):
-    code = '?'
-    for _ in range(tries):
-        p = subprocess.run(['curl', '-s', '--compressed', '-L', '-m', '90', '-A', UA, '-w', '\n%{http_code}', url], capture_output=True)
+    code, cookie = '?', None
+    for i in range(tries):
+        cmd = ['curl', '-s', '--compressed', '-L', '-m', '90', '-A', UA, '-w', '\n%{http_code}', url]
+        if cookie:
+            cmd[1:1] = ['-b', cookie]
+        p = subprocess.run(cmd, capture_output=True)
         body, _, code = p.stdout.rpartition(b'\n')
         if code == b'200':
             return body if binary else body.decode('utf-8', 'replace')
+        if code == b'202' and not cookie:  # bot challenge: get a pass from a real browser, then retry
+            cookie = waf_cookie(url)
     raise RuntimeError(f'{url}: HTTP {code.decode() if isinstance(code, bytes) else code}')
 
 
