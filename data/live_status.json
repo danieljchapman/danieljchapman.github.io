@@ -1,18 +1,20 @@
 [
  {
   "phase": "pre-election",
-  "updated_at": "2026-10-17T04:59:52Z",
+  "updated_at": "2026-10-17T05:02:01Z",
   "source": "CivicAPI (civicapi.org), unofficial",
   "races": 124,
   "called": 0,
   "counting": 0,
   "problems": [],
   "local_problems": [
+   "clarity:Tarrant: https://results.enr.clarityelections.com/TX/Tarrant/127297/current_ver.txt: HTTP 202",
    "collin: Collin: no results CSV for 2026-11-03 posted yet",
-   "clarity:Williamson: Williamson: no Clarity election on 2026-11-03 yet",
-   "clarity:Denton: Denton: no Clarity election on 2026-11-03 yet",
-   "clarity:Travis: Travis: no Clarity election on 2026-11-03 yet",
-   "clarity:Dallas: Dallas: no Clarity election on 2026-11-03 yet"
+   "clarity:Williamson: https://results.enr.clarityelections.com/TX/Williamson/elections.json: HTTP 202",
+   "clarity:Denton: https://results.enr.clarityelections.com/TX/Denton/elections.json: HTTP 202",
+   "clarity:Travis: https://results.enr.clarityelections.com/TX/Travis/elections.json: HTTP 202",
+   "clarity:Dallas: https://results.enr.clarityelections.com/TX/Dallas/elections.json: HTTP 202",
+   "fort bend: https://results.enr.clarityelections.com/TX/Fort_Bend/127480/current_ver.txt: HTTP 202"
   ]
  }
 ]
