@@ -370,8 +370,29 @@
       big.setAttribute('data-source', c.id + '_by_district'); big.setAttribute('data-field', 'c' + i + '_pct'); big.setAttribute('data-where', where);
       const vt = document.createElement('div'); vt.className = 'lx-cand-votes'; vt.textContent = r['c' + i + '_votes'] == null ? 'No vote total reported' : fmt(r['c' + i + '_votes']) + ' votes';
       const bar = document.createElement('div'); bar.className = 'lx-cand-bar'; const bi = document.createElement('i'); bi.style.width = ((r['c' + i + '_pct'] ?? 0) * 100).toFixed(1) + '%'; bi.style.background = col; bar.append(bi);
-      body.append(nm, sub, big, vt, bar); card.append(ini, body); return card;
+      body.append(nm, sub, big, vt, bar);
+      const bio = year === 2026 ? bioFor(c.id, r.district, name) : null;
+      if (bio) {
+        const p = document.createElement('p'); p.className = 'lx-cand-bio';
+        p.setAttribute('data-source', 'candidate_bios'); p.setAttribute('data-field', 'summary'); p.setAttribute('data-where', 'level=' + c.id + '&district=' + r.district + '&candidate=' + enc(name));
+        if (bio.summary) {
+          p.append(document.createTextNode(bio.summary + ' '));
+          const a = document.createElement('a'); a.href = bio.source_url; a.target = '_blank'; a.rel = 'noopener'; a.textContent = 'Source: ' + bio.source; p.append(a);
+        } else p.textContent = 'No background information found.';
+        card.append(ini, body, p); return card;
+      }
+      card.append(ini, body); return card;
     }));
+  }
+
+  // one- or two-sentence background for 2026 candidates (U.S. House, Texas House, Texas Senate)
+  const normName = (s) => String(s).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z]/g, '');
+  let bioIndex = null, bioRows = null;
+  function bioFor(level, district, name) {
+    const d = dash.data('candidate_bios');
+    if (d.status !== 'ok') return null;
+    if (bioRows !== d.data) { bioRows = d.data; bioIndex = new Map(d.data.map((b) => [b.level + '|' + Number(b.district) + '|' + normName(b.candidate), b])); }
+    return bioIndex.get(level + '|' + Number(district) + '|' + normName(name)) || null;
   }
 
   function drawSeats(c, sum, year, fullSize) {
