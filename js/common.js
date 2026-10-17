@@ -48,9 +48,13 @@
     fortbend: ['County Judge', 'Commissioner Pct 2', 'Commissioner Pct 4'],
   };
   LX.ELECTION_2026 = 'Tuesday, Nov. 3, 2026';
+  // areas on the Key Local Races tab (the tab's internal id stays 'fortbend' so old links keep working)
+  LX.LOCAL_AREAS = [['fortbend', 'Fort Bend County'], ['harris', 'Harris County'], ['tarrant', 'Tarrant County'], ['collin', 'Collin County'],
+    ['williamson', 'Williamson County'], ['denton', 'Denton County'], ['austin', 'City of Austin'], ['dallas', 'City of Dallas']];
+  LX.localArea = () => { const a = dash.params().lr_area; return LX.LOCAL_AREAS.some(([k]) => k === a) ? a : 'fortbend'; };
 
   // live 2026 status banner, shared by every tab
-  LX.liveBanner = (el, year) => {
+  LX.liveBanner = (el, year, source) => {
     if (!el) return;
     if (year !== 2026) { el.hidden = true; return; }
     const st = dash.data('live_status');
@@ -64,7 +68,7 @@
       : `Election Day is ${LX.ELECTION_2026}. Results will appear here as counties report after polls close at 7 p.m. Central.`;
     const src = document.createElement('span'); src.className = 'lx-live-src';
     src.setAttribute('data-source', 'live_status'); src.setAttribute('data-field', 'phase');
-    src.textContent = s.source ? ' Source: ' + s.source + '.' : '';
+    src.textContent = source ? ' Source: ' + source + '.' : s.source ? ' Source: ' + s.source + '.' : '';
     el.append(dot, t, src);
   };
 

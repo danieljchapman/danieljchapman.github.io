@@ -1,6 +1,7 @@
 name: Election-night results
 
-# Pulls unofficial 2026 Texas results from CivicAPI into data/live_2026.csv and
+# Pulls unofficial 2026 Texas results from CivicAPI and county election offices
+# (Clarity, Harris County Clerk, Collin County) into data/live_2026.csv and
 # data/live_status.json, and commits them so GitHub Pages republishes the site.
 on:
   schedule:
@@ -22,7 +23,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Fetch results from CivicAPI
+      - name: Install the PDF reader (Harris County posts results as a PDF)
+        run: sudo apt-get install -y -qq poppler-utils >/dev/null
+
+      - name: Fetch results from CivicAPI and the county election offices
         run: |
           for attempt in 1 2; do
             python3 tools/importer.py --date 2026-11-03 --out data && break

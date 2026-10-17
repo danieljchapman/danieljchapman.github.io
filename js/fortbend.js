@@ -95,9 +95,10 @@
   });
 
   // ---------- page ----------
-  let sortKey = 'precinct', sortDir = 1, query = '';
+  let sortKey = 'precinct', sortDir = 1, query = '', ready = false;
   function setup() {
-    if (!LX.mount('tab-fortbend')) return;
+    if (ready) return;
+    LX.mount('tab-fortbend'); ready = true;
     document.getElementById('fb-search').addEventListener('input', (e) => { query = e.target.value.trim().toLowerCase(); draw(); });
     document.querySelectorAll('#fb-table th button').forEach((b) => b.addEventListener('click', () => {
       const k = b.dataset.sort; if (sortKey === k) sortDir = -sortDir; else { sortKey = k; sortDir = k === 'precinct' ? 1 : -1; } draw();
@@ -107,6 +108,7 @@
   function draw() {
     if (LX.tab() !== 'fortbend') return;
     setup();
+    if (LX.localArea() !== 'fortbend') return;
     const res = dash.data('fortbend_results'), shp = dash.data('fortbend_shapes'), bp = dash.data('fb_by_precinct'), rc = dash.data('fb_races'), cd = dash.data('fb_candidates'), lv = dash.data('live_2026');
     const deps = [res, shp, bp, rc, cd, lv];
     if (!deps.every((d) => d.status === 'ok')) {
@@ -123,7 +125,7 @@
     const pending = R.pending || !R.total_votes && !(cd.data.find((c) => c.race === raceId && c.unopposed));
     const C = cd.data.filter((c) => c.race === raceId).sort((a, b) => a.rank - b.rank);
     const precincts = bp.data.filter((p) => p.race === raceId);
-    LX.liveBanner(document.getElementById('fb-live'), year);
+    LX.liveBanner(document.getElementById('fb-live'), year, 'Fort Bend County Elections (unofficial)');
     document.querySelectorAll('#tab-fortbend [data-source="fb_races"][data-field]').forEach((el) => el.setAttribute('data-where', 'race=' + enc(raceId)));
 
     // takeaway
@@ -161,7 +163,7 @@
     const setK = (id, v) => { const el = document.getElementById(id); el.textContent = v; el.classList.remove('dash-skeleton'); };
     setK('fb-k-margin', pending ? '—' : C.length === 1 ? 'Unopposed' : R.margin_label);
     document.getElementById('fb-k-margin').style.color = pending || C.length === 1 ? '' : R.margin > 0 ? css('--lx-rep') : css('--lx-dem');
-    document.getElementById('fb-k-shift').textContent = R.shift_label ? `Shift: ${R.shift_label}${R.prev_race ? ' vs ' + R.prev_race : ''}` : '';
+    document.getElementById('fb-k-shift').textContent = R.shift != null ? `Shift: ${R.shift_label}${R.prev_race ? ' vs ' + R.prev_race : ''}` : '';
     setK('fb-k-prec', pending ? '—' : `${R.precincts_r} R · ${R.precincts_d} D`);
     document.getElementById('fb-k-prec-sub').textContent = pending ? '' : R.status === 'counting' ? `${R.precincts_reporting} of ${R.precincts} precincts reporting` : `of ${R.precincts} precincts${office === 'County Judge' ? ' countywide' : ' in ' + office.replace('Commissioner ', '')}`;
     setK('fb-k-votes', pending ? '—' : fmt(R.total_votes));

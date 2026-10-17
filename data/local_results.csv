@@ -1,0 +1,66 @@
+area,year,office,candidate,party,votes,note,source
+collin,2010,County Judge,Keith Self,R,106111,,"Collin County Elections, official accumulated totals"
+collin,2010,County Judge,David M. Smith,D,44946,,"Collin County Elections, official accumulated totals"
+collin,2014,County Judge,Keith Self,R,119555,,"Collin County Elections, official accumulated totals"
+collin,2018,County Judge,Chris Hill,R,193990,,OpenElections (county canvass)
+collin,2018,County Judge,Danyell Lanier,D,145130,,OpenElections (county canvass)
+collin,2022,County Judge,Chris Hill,R,201969,,OpenElections (county canvass)
+collin,2022,County Judge,Joshua Murray,D,152154,,OpenElections (county canvass)
+denton,2010,County Judge,Mary Horn,R,,"Unopposed; not on the general-election ballot, so no vote count.",Ballotpedia
+denton,2014,County Judge,Mary Horn,R,,"Unopposed; not on the general-election ballot, so no vote count.",Ballotpedia
+denton,2018,County Judge,Andy Eads,R,163494,,OpenElections (county canvass)
+denton,2018,County Judge,Diana Leggett,D,123242,,OpenElections (county canvass)
+denton,2022,County Judge,Andy Eads,R,185232,,"Denton County Elections (Clarity), final results"
+denton,2022,County Judge,Fabian Thomas,D,126349,,"Denton County Elections (Clarity), final results"
+harris,2010,County Judge,Ed Emmett,R,469769,,"Harris County Clerk, official cumulative report"
+harris,2010,County Judge,Gordon Quan,D,305386,,"Harris County Clerk, official cumulative report"
+harris,2014,County Judge,Ed Emmett,R,403763,,OpenElections (county canvass)
+harris,2014,County Judge,David Collins,G,80486,,OpenElections (county canvass)
+harris,2018,County Judge,Lina Hidalgo,D,595221,,OpenElections (county canvass)
+harris,2018,County Judge,Ed Emmett,R,575944,,OpenElections (county canvass)
+harris,2018,County Judge,Eric Gatlin,L,24634,,OpenElections (county canvass)
+harris,2022,County Judge,Lina Hidalgo,D,552903,,"Harris County Clerk, official cumulative report"
+harris,2022,County Judge,Alexandra del Moral Mealer,R,534720,,"Harris County Clerk, official cumulative report"
+harris,2022,County Judge,Write-ins,W,241,,"Harris County Clerk, official cumulative report"
+tarrant,2012,Commissioner Pct 1,Roy Charles Brooks,D,91285,,"Tarrant County Elections, official cumulative report"
+tarrant,2016,Commissioner Pct 1,Roy Charles Brooks,D,83147,,OpenElections (county canvass)
+tarrant,2016,Commissioner Pct 1,Roy E. Lozano,R,60177,,OpenElections (county canvass)
+tarrant,2020,Commissioner Pct 1,Roy Charles Brooks,D,105982,,OpenElections (county canvass)
+tarrant,2020,Commissioner Pct 1,Roy E. Lozano,R,69481,,OpenElections (county canvass)
+tarrant,2024,Commissioner Pct 1,Roderick Miles Jr,D,96923,,OpenElections (county canvass)
+tarrant,2024,Commissioner Pct 1,Michael 'Mike' Barber,R,72230,,OpenElections (county canvass)
+tarrant,2010,Commissioner Pct 2,Andy Nguyen,R,55685,,"Tarrant County Elections, official cumulative report"
+tarrant,2014,Commissioner Pct 2,Andy Nguyen,R,51914,,OpenElections (county canvass)
+tarrant,2014,Commissioner Pct 2,Kenneth Sanders,D,39388,,OpenElections (county canvass)
+tarrant,2018,Commissioner Pct 2,Devan Allen,D,79713,,OpenElections (county canvass)
+tarrant,2018,Commissioner Pct 2,Andy Nguyen,R,75402,,OpenElections (county canvass)
+tarrant,2022,Commissioner Pct 2,Alisa Simmons,D,72228,,OpenElections (county canvass)
+tarrant,2022,Commissioner Pct 2,Andy Nguyen,R,68113,,OpenElections (county canvass)
+tarrant,2012,Commissioner Pct 3,Gary Fickes,R,127274,,"Tarrant County Elections, official cumulative report"
+tarrant,2012,Commissioner Pct 3,Norm Lyons,D,48790,,"Tarrant County Elections, official cumulative report"
+tarrant,2016,Commissioner Pct 3,Gary Fickes,R,150921,,OpenElections (county canvass)
+tarrant,2020,Commissioner Pct 3,Gary Fickes,R,156657,,OpenElections (county canvass)
+tarrant,2020,Commissioner Pct 3,Kathy Braatz,D,88104,,OpenElections (county canvass)
+tarrant,2024,Commissioner Pct 3,Matt Krause,R,156216,,OpenElections (county canvass)
+tarrant,2024,Commissioner Pct 3,Laura Leeman,D,88663,,OpenElections (county canvass)
+tarrant,2010,Commissioner Pct 4,J. D. Johnson,R,43569,,"Tarrant County Elections, official cumulative report"
+tarrant,2010,Commissioner Pct 4,Steve Lerma,D,22154,,"Tarrant County Elections, official cumulative report"
+tarrant,2014,Commissioner Pct 4,J. D. Johnson,R,48018,,OpenElections (county canvass)
+tarrant,2014,Commissioner Pct 4,Steve Lerma,D,25779,,OpenElections (county canvass)
+tarrant,2018,Commissioner Pct 4,J.D. Johnson,R,81801,,OpenElections (county canvass)
+tarrant,2022,Commissioner Pct 4,Manny Ramirez,R,76759,,OpenElections (county canvass)
+tarrant,2022,Commissioner Pct 4,Cedric C. Kanyinda,D,53104,,OpenElections (county canvass)
+tarrant,2010,County Judge,Glen Whitley,R,223343,,"Tarrant County Elections, official cumulative report"
+tarrant,2014,County Judge,Glen Whitley,R,230311,,OpenElections (county canvass)
+tarrant,2018,County Judge,Glen Whitley,R,323473,,OpenElections (county canvass)
+tarrant,2018,County Judge,Lawrence Larry Meyers,D,286171,,OpenElections (county canvass)
+tarrant,2022,County Judge,Tim O'Hare,R,309176,,OpenElections (county canvass)
+tarrant,2022,County Judge,Deborah W. Peoples,D,274326,,OpenElections (county canvass)
+williamson,2014,County Judge,Dan A. Gattis,R,63942,,OpenElections (county canvass)
+williamson,2014,County Judge,Michael H. Custer,D,36928,,OpenElections (county canvass)
+williamson,2018,County Judge,Bill Gravell,R,103740,,OpenElections (county canvass)
+williamson,2018,County Judge,Blane Conklin,D,91026,,OpenElections (county canvass)
+williamson,2018,County Judge,William (Bill) Kelberlau,L,7460,,OpenElections (county canvass)
+williamson,2022,County Judge,Bill Gravell,R,108778,,OpenElections (county canvass)
+williamson,2022,County Judge,Blane Conklin,D,103180,,OpenElections (county canvass)
+williamson,2022,County Judge,Wes Benedict,L,8614,,OpenElections (county canvass)

@@ -8,6 +8,11 @@ Usage: python3 importer.py [--date 2026-11-03] [--out DIR]
 The dashboard reads these two files; uploading them is done separately.
 """
 import argparse, csv, json, os, re, subprocess, sys, time, datetime, unicodedata
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+try:
+    import local_live  # county election offices, for the Key Local Races tab
+except ImportError:
+    local_live = None
 
 API = 'https://civicapi.org/api/v2'
 STATEWIDE = {'Texas Governor': 'Governor', 'Texas US Senate': 'Senate', 'Texas Lieutenant Governor': 'Lt. Governor', 'Texas Railroad Commissioner': 'Railroad Commissioner',
@@ -113,14 +118,22 @@ def main():
                 rows.append({'level': level, 'race': race_id, 'year': year, 'office': office, 'plan': plan, 'unit': district, 'unit_name': '',
                              'candidate': c['name'], 'party': party(c), 'votes': c.get('votes') or 0, 'status': st,
                              'reporting': d.get('percent_reporting') if d.get('percent_reporting') is not None else '', 'reporting_total': 100})
+    local_problems = []
+    if local_live:
+        try:
+            local_rows, local_problems = local_live.collect(a.date)
+            rows += local_rows
+        except Exception as e:  # never let the local races stop the statewide update
+            local_problems = [f'local races: {str(e)[:160]}']
     os.makedirs(a.out, exist_ok=True)
     with open(os.path.join(a.out, 'live_2026.csv'), 'w', newline='') as fh:
         w = csv.DictWriter(fh, fieldnames=FIELDS); w.writeheader(); w.writerows(rows)
     phase = 'pre-election' if not n_counting and not n_called else 'final' if n_called == len(races) and races else 'counting'
     now = datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
     json.dump([{'phase': phase, 'updated_at': now, 'source': 'CivicAPI (civicapi.org), unofficial', 'races': len(races), 'called': n_called,
-                'counting': n_counting, 'problems': problems[:20]}], open(os.path.join(a.out, 'live_status.json'), 'w'), indent=1)
-    print(json.dumps({'races': len(races), 'rows': len(rows), 'phase': phase, 'called': n_called, 'counting': n_counting, 'problems': len(problems)}))
+                'counting': n_counting, 'problems': problems[:20], 'local_problems': local_problems[:20]}], open(os.path.join(a.out, 'live_status.json'), 'w'), indent=1)
+    print(json.dumps({'races': len(races), 'rows': len(rows), 'phase': phase, 'called': n_called, 'counting': n_counting, 'problems': len(problems), 'local_rows': sum(r['level'] in ('local', 'fortbend') for r in rows)}))
+    for p in local_problems[:10]: print('local:', p, file=sys.stderr)
     for p in problems[:10]: print('problem:', p, file=sys.stderr)
 
 

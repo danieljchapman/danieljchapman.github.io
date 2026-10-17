@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Texas Election Results</title>
-<meta name="description" content="County- and district-level results for Texas statewide, legislative, congressional and State Board of Education elections, 2000–2026, plus Fort Bend County races.">
+<meta name="description" content="County- and district-level results for Texas statewide, legislative, congressional and State Board of Education elections, 2000–2026, plus key county and city races.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect x='1' y='7' width='4' height='8' rx='1' fill='%233b70d6'/%3E%3Crect x='6' y='3' width='4' height='12' rx='1' fill='%23d4473f'/%3E%3Crect x='11' y='5' width='4' height='10' rx='1' fill='%238b5cc4'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
@@ -118,6 +118,7 @@ button { font: inherit; }
 .lx-sub { display: grid; gap: var(--cds-gap-lg); }
 .lx-tabtitle { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-heading); margin: 0 0 var(--cds-gap-xs); }
 .lx-cand-cell { text-align: left !important; }
+#lr-history td { white-space: normal; } #lr-history td:first-child, #lr-history td:nth-child(4), #lr-history td:nth-child(5) { white-space: nowrap; }
 .lx-cell-pct { color: var(--color-fg-muted); }
 .lx-foot { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: 0; }
 [data-dash-source-state=refreshing] { opacity: .5; transition: opacity var(--cds-dur-slow); }
@@ -154,7 +155,7 @@ button { font: inherit; }
       <button class="lx-tab" role="tab" data-tab="statewide" aria-selected="true">Statewide &amp; federal</button>
       <button class="lx-tab" role="tab" data-tab="house" aria-selected="false">Texas House</button>
       <button class="lx-tab" role="tab" data-tab="senate" aria-selected="false">Texas Senate</button>
-      <button class="lx-tab" role="tab" data-tab="fortbend" aria-selected="false">Fort Bend</button>
+      <button class="lx-tab" role="tab" data-tab="fortbend" aria-selected="false">Key Local Races</button>
     </nav>
   </header>
 
@@ -460,10 +461,11 @@ button { font: inherit; }
 </template>
 <template id="tpl-tab-fortbend">
   <div class="lx-sub">
-    <header><h2 class="lx-tabtitle">Fort Bend County: County Judge and Commissioners</h2></header>
+    <header><h2 class="lx-tabtitle">Key local races: county judges, commissioners and city propositions</h2></header>
+    <section class="lx-row lx-pickers" aria-label="Choose an area and race"><span id="lr-area" style="display:contents"></span><span id="fb-race-rows" class="lx-row lx-pickers" style="display:contents"></span><span id="lr-race-rows" class="lx-row lx-pickers" style="display:contents" hidden></span></section>
+  <div id="fb-view" class="lx-sub">
     <div class="lx-live" id="fb-live" hidden></div>
     <p class="lx-take dash-skeleton" id="fb-take">—</p>
-    <section class="lx-row lx-pickers" id="fb-race-rows" aria-label="Choose a race"></section>
     <section aria-label="Candidates"><div class="lx-cands dash-skeleton" id="fb-cands" data-source="fb_candidates"></div></section>
     <section class="lx-kpis">
       <div class="lx-card"><div class="lx-kpi-label">Margin (R − D)</div><div class="lx-kpi-value dash-skeleton" id="fb-k-margin" data-source="fb_races" data-field="margin_label">—</div><div class="lx-kpi-sub" id="fb-k-shift"></div></div>
@@ -502,6 +504,34 @@ button { font: inherit; }
     </section>
     <p class="lx-foot">Fort Bend precinct results from OpenElections (Fort Bend County Elections, 2012–2024); County Judge totals match the Legislative Council's official returns exactly. Not yet included: Commissioner Precincts 1 and 3 in 2016 and 2020, and races before 2012. Those come from Fort Bend County's own archive, which this workspace can't reach yet. Precinct boundaries: Legislative Council 2020, 2022 and 2024 general-election and 2026 primary precinct files. 2026 results come from Fort Bend County's election-night reports and are unofficial until canvassed.</p>
   </div>
+  <div id="lr-view" class="lx-sub" hidden>
+    <div class="lx-live" id="lr-live" hidden></div>
+    <p class="lx-take dash-skeleton" id="lr-take">—</p>
+    <section aria-label="Candidates"><div class="lx-cands dash-skeleton" id="lr-cands" data-source="local_candidates"></div></section>
+    <section class="lx-kpis">
+      <div class="lx-card"><div class="lx-kpi-label" id="lr-k1-label">Margin (R − D)</div><div class="lx-kpi-value dash-skeleton" id="lr-k1" data-source="local_races" data-field="margin_label">—</div><div class="lx-kpi-sub" id="lr-k1-sub"></div></div>
+      <div class="lx-card"><div class="lx-kpi-label">Total votes</div><div class="lx-kpi-value dash-skeleton" id="lr-k2" data-source="local_races" data-field="total_votes">—</div></div>
+      <div class="lx-card"><div class="lx-kpi-label">Count</div><div class="lx-kpi-value dash-skeleton" id="lr-k3">—</div><div class="lx-kpi-sub" id="lr-k3-sub"></div></div>
+    </section>
+    <section class="lx-grid">
+      <div class="lx-card">
+        <h2 id="lr-side-title">Margin over time</h2><p class="lx-note" id="lr-side-note"></p>
+        <div class="lx-trend dash-skeleton" id="lr-trend" data-source="local_races local_parts" style="min-height:12rem"></div>
+        <div class="lx-legend" id="lr-trend-legend"></div>
+      </div>
+      <div class="lx-card">
+        <h2 id="lr-hist-title">Every race</h2><p class="lx-note">Click a row to open that race.</p>
+        <div class="lx-tablewrap">
+          <table class="lx-table" id="lr-history" data-source="local_races local_candidates" data-row-key="race">
+            <thead><tr><th style="padding:0.45rem 0.5rem;text-align:left">Year</th><th style="padding:0.45rem 0.5rem;text-align:left">Winner</th><th class="lx-hide-narrow" style="padding:0.45rem 0.5rem;text-align:left">Runner-up</th><th style="padding:0.45rem 0.5rem">Margin</th><th class="lx-hide-narrow" style="padding:0.45rem 0.5rem">Votes</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <p class="lx-foot" id="lr-foot"></p>
+  </div>
+  </div>
 </template>
 
 
@@ -514,7 +544,7 @@ button { font: inherit; }
         <li><a href="data/tx_statewide_results_by_county.csv" download>Statewide races by county (CSV)</a></li>
         <li><a href="data/tx_house_results.csv" download>Texas House by district (CSV)</a> · <a href="data/tx_senate_results.csv" download>Texas Senate (CSV)</a></li>
         <li><a href="data/tx_ushouse_results.csv" download>U.S. House by district (CSV)</a> · <a href="data/tx_sboe_results.csv" download>SBOE (CSV)</a></li>
-        <li><a href="data/fortbend_results.csv" download>Fort Bend by precinct (CSV)</a></li>
+        <li><a href="data/fortbend_results.csv" download>Fort Bend by precinct (CSV)</a> · <a href="data/local_results.csv" download>Key local races (CSV)</a></li>
         <li><a href="data/live_2026.csv" download>2026 results, unofficial (CSV)</a></li>
       </ul>
     </div>
@@ -525,13 +555,14 @@ button { font: inherit; }
         <li><a href="https://github.com/MEDSL">MIT Election Data + Science Lab</a></li>
         <li>Texas Legislative Council <a href="https://data.capitol.texas.gov/">Capitol Data Portal</a> (official returns, district and precinct maps)</li>
         <li><a href="https://civicapi.org">CivicAPI</a> (2024 results and 2026 election night)</li>
+        <li>County election offices: Harris County Clerk, Tarrant, Collin, Denton, Dallas, Travis, Williamson and Fort Bend County Elections</li>
         <li><a href="https://github.com/unitedstates/images">Official U.S. Congress portraits</a> (public domain)</li>
       </ul>
       <p>Results through 2024 are certified. 2026 results are unofficial until the state canvass. Site updated October 17, 2026.</p>
     </div>
   </div>
 </footer>
-<script>window.DASH_DATASETS = {"results": {"url": "data/tx_statewide_results_by_county.csv", "format": "csv"}, "county_shapes": {"url": "data/tx_county_shapes.json", "format": "json"}, "house_results": {"url": "data/tx_house_results.csv", "format": "csv"}, "senate_results": {"url": "data/tx_senate_results.csv", "format": "csv"}, "ushouse_results": {"url": "data/tx_ushouse_results.csv", "format": "csv"}, "sboe_results": {"url": "data/tx_sboe_results.csv", "format": "csv"}, "house_shapes": {"url": "data/tx_house_district_shapes.json", "format": "json"}, "senate_shapes": {"url": "data/tx_senate_district_shapes.json", "format": "json"}, "ushouse_shapes": {"url": "data/tx_ushouse_district_shapes.json", "format": "json"}, "sboe_shapes": {"url": "data/tx_sboe_district_shapes.json", "format": "json"}, "fortbend_results": {"url": "data/fortbend_results.csv", "format": "csv"}, "fortbend_shapes": {"url": "data/fortbend_precinct_shapes.json", "format": "json"}, "live_2026": {"url": "data/live_2026.csv", "format": "csv", "live": true}, "live_status": {"url": "data/live_status.json", "format": "json", "live": true}}; window.DASH_PARAMS = {"b_district": null, "b_year": 2024, "county": null, "fb_race": "2022 County Judge", "h_district": null, "h_year": 2024, "race": "2024 Senate", "s_district": null, "s_year": 2024, "sw_view": "offices", "tab": "statewide", "u_district": null, "u_year": 2024, "view": "result"};</script>
+<script>window.DASH_DATASETS = {"results": {"url": "data/tx_statewide_results_by_county.csv", "format": "csv"}, "county_shapes": {"url": "data/tx_county_shapes.json", "format": "json"}, "house_results": {"url": "data/tx_house_results.csv", "format": "csv"}, "senate_results": {"url": "data/tx_senate_results.csv", "format": "csv"}, "ushouse_results": {"url": "data/tx_ushouse_results.csv", "format": "csv"}, "sboe_results": {"url": "data/tx_sboe_results.csv", "format": "csv"}, "house_shapes": {"url": "data/tx_house_district_shapes.json", "format": "json"}, "senate_shapes": {"url": "data/tx_senate_district_shapes.json", "format": "json"}, "ushouse_shapes": {"url": "data/tx_ushouse_district_shapes.json", "format": "json"}, "sboe_shapes": {"url": "data/tx_sboe_district_shapes.json", "format": "json"}, "fortbend_results": {"url": "data/fortbend_results.csv", "format": "csv"}, "fortbend_shapes": {"url": "data/fortbend_precinct_shapes.json", "format": "json"}, "local_results": {"url": "data/local_results.csv", "format": "csv"}, "local_2026": {"url": "data/local_2026.csv", "format": "csv"}, "live_2026": {"url": "data/live_2026.csv", "format": "csv", "live": true}, "live_status": {"url": "data/live_status.json", "format": "json", "live": true}}; window.DASH_PARAMS = {"b_district": null, "b_year": 2024, "county": null, "fb_race": "2022 County Judge", "lr_area": "fortbend", "lr_race": null, "h_district": null, "h_year": 2024, "race": "2024 Senate", "s_district": null, "s_year": 2024, "sw_view": "offices", "tab": "statewide", "u_district": null, "u_year": 2024, "view": "result"};</script>
 <script src="js/d3.v7.9.0.min.js"></script>
 <script src="js/dash-runtime.js"></script>
 <script src="js/photos.js"></script>
@@ -539,5 +570,6 @@ button { font: inherit; }
 <script src="js/statewide.js"></script>
 <script src="js/districts.js"></script>
 <script src="js/fortbend.js"></script>
+<script src="js/local.js"></script>
 </body>
 </html>
