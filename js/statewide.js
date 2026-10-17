@@ -2,9 +2,15 @@
   const LX = window.LX;
   const { css, fmt, pct, enc, PARTY, partyCol } = LX;
   const lab = (m) => (m == null || isNaN(m)) ? '—' : Math.abs(m) < 0.0005 ? 'Even' : (m > 0 ? 'R+' : 'D+') + (Math.abs(m) * 100).toFixed(1);
-  const OFFICES = [['Governor', 'Governor'], ['Senate', 'U.S. Senate'], ['Lt. Governor', 'Lt. Governor'], ['Railroad Commissioner', 'Railroad Commissioner']];
-  const officeOf = (o) => o.startsWith('Railroad Commissioner') ? 'Railroad Commissioner' : o;
-  const OFFICE_NAME = { Governor: 'governor', Senate: 'U.S. Senate', 'Lt. Governor': 'lieutenant governor', 'Railroad Commissioner': 'Railroad Commission', 'Railroad Commissioner (unexpired term)': 'Railroad Commission (unexpired term)' };
+  const OFFICES = [['Governor', 'Governor'], ['Senate', 'U.S. Senate'], ['Lt. Governor', 'Lt. Governor'], ['Attorney General', 'Attorney General'], ['Comptroller', 'Comptroller'],
+    ['Land Commissioner', 'Land Commissioner'], ['Agriculture Commissioner', 'Agriculture Commissioner'], ['Railroad Commissioner', 'Railroad Commissioner'], ['Supreme Court', 'Texas Supreme Court']];
+  const officeOf = (o) => o.startsWith('Railroad Commissioner') ? 'Railroad Commissioner' : o.startsWith('Supreme Court') ? 'Supreme Court' : o;
+  const OFFICE_NAME = { Governor: 'governor', Senate: 'U.S. Senate', 'Lt. Governor': 'lieutenant governor', 'Attorney General': 'attorney general', Comptroller: 'comptroller',
+    'Land Commissioner': 'land commissioner', 'Agriculture Commissioner': 'agriculture commissioner', 'Railroad Commissioner': 'Railroad Commission', 'Railroad Commissioner (unexpired term)': 'Railroad Commission (unexpired term)' };
+  const officeName = (o) => OFFICE_NAME[o] || (o.startsWith('Supreme Court') ? 'Texas ' + o.replace(',', '').replace(' (unexpired term)', ' (unexpired term)') : o);
+  const seatLabel = (o) => o.replace('Supreme Court, ', '').replace(' (unexpired term)', ', unexpired term');
+  // county results the official canvass itself records in error; shown uncolored with a note
+  const FLAGS = { '2010 Attorney General|48257': 'The official canvass records only 1,470 votes for Abbott here, against 13,600–15,000 for every other Republican on this ballot — almost certainly a reporting error. Shown without color; the certified numbers are kept in the totals.' };
 
   // ---------- calculations ----------
   dash.calc('by_county', {
@@ -48,7 +54,8 @@
         return out;
       });
       // previous race for the same office (both Railroad Commission races count as one office)
-      const off = (o) => o.indexOf('Railroad Commissioner') === 0 ? 'Railroad Commissioner' : o;
+      // Railroad Commission races form one series; each Supreme Court seat is its own series (compared with its last election, usually six years earlier)
+      const off = (o) => o.indexOf('Railroad Commissioner') === 0 ? 'Railroad Commissioner' : o.replace(' (unexpired term)', '');
       // only races with both a Republican and a Democrat on the ballot are compared
       const hasR = new Set(all.filter((r) => r.party === 'R').map((r) => r.race)), hasD = new Set(all.filter((r) => r.party === 'D').map((r) => r.race));
       const seq = new Map();
@@ -150,7 +157,7 @@
     for (const r of sw) races.set(r.race, { race: r.race, year: r.year, office: r.office });
     for (const o of LX.SCHEDULE_2026.statewide) if (!races.has('2026 ' + o)) races.set('2026 ' + o, { race: '2026 ' + o, year: 2026, office: o });
     const list = [...races.values()].map((r) => ({ race: r.race, year: r.year, group: officeOf(r.office),
-      yearLabel: r.office.includes('unexpired') ? r.year + ' (unexpired term)' : r.year === 2026 ? '2026 (Nov. 3)' : String(r.year) }));
+      yearLabel: (r.year === 2026 ? '2026 (Nov. 3)' : String(r.year)) + (r.office.startsWith('Supreme Court') ? ' · ' + seatLabel(r.office) : r.office.includes('unexpired') ? ' (unexpired term)' : '') }));
     LX.racePicker(document.getElementById('race-rows'), OFFICES, list, current, (race) => dash.setParams({ race }));
   }
 
@@ -187,16 +194,21 @@
       if (mark) { n.setAttribute('data-source', 'statewide'); n.setAttribute('data-field', mark); n.setAttribute('data-where', 'race=' + enc(p.race)); }
       tk.append(n);
     };
-    const oname = OFFICE_NAME[office] || office;
+    const oname = officeName(office);
     if (pending) {
       add(`The ${year} ${oname} race is on the ballot ${LX.ELECTION_2026}. `);
       add(C.length ? `${C.length} candidates are listed below; results will fill in as counties report.` : 'Candidates and results will appear here on election night.');
     } else {
       const lead = C[0];
       add(lead.candidate, true);
-      add(status === 'final' ? ` won the ${year} ${oname} race by ` : ` leads the ${year} ${oname} race by `);
-      add(Math.abs(S.margin * 100).toFixed(1) + ' points', true);
-      add(` (${S.margin_label})`);
+      if (S.rep_votes && S.dem_votes) {
+        add(status === 'final' ? ` won the ${year} ${oname} race by ` : ` leads the ${year} ${oname} race by `);
+        add(Math.abs(S.margin * 100).toFixed(1) + ' points', true);
+        add(` (${S.margin_label})`);
+      } else {
+        add(status === 'final' ? ` won the ${year} ${oname} race with ` : ` leads the ${year} ${oname} race with `);
+        add(pct(lead.pct), true); add(' of the vote');
+      }
       if (status === 'counting') { add(', with '); add(String(S.counties_reporting), true, 'counties_reporting'); add(' of 254 counties reporting.'); }
       else { add(', carrying '); add(String(lead.party === 'R' ? S.counties_rep : lead.party === 'D' ? S.counties_dem : S.counties_other), true); add(' of 254 counties.'); }
       if (S.prev_race && S.shift != null) {
@@ -269,7 +281,7 @@
     const R = LX.RAMP, byF = new Map(rows.map((r) => [r.county_fips, r])), muted = css('--cds-chart-muted');
     const resultColor = (r) => r.winner_party !== 'R' && r.winner_party !== 'D' ? LX.rampColor('I', r.winner_lead) : LX.rampColor(r.margin >= 0 ? 'R' : 'D', r.margin);
     const shiftColor = (s) => s == null ? muted : [R.D[4], R.D[3], R.D[1], R.D[0], R.R[0], R.R[1], R.R[3], R.R[4]][d3.bisect(SHIFT_BINS, s)];
-    const fill = (r) => !r || !r.reported ? muted : p.view === 'shift' ? shiftColor(r.shift) : resultColor(r);
+    const fill = (r) => !r || !r.reported || FLAGS[p.race + '|' + r.county_fips] ? muted : p.view === 'shift' ? shiftColor(r.shift) : resultColor(r);
     let svg = d3.select(el).select('svg');
     if (svg.empty()) { el.replaceChildren(); svg = d3.select(el).append('svg').attr('viewBox', '0 0 678 645').attr('width', '100%').attr('role', 'img').attr('aria-label', 'Map of Texas counties'); svg.append('g').attr('class', 'cties'); svg.append('g').attr('class', 'selg'); }
     const card = document.getElementById('map-card'), tip = document.getElementById('map-tip');
@@ -278,6 +290,8 @@
       .on('mousemove', (event, d) => {
         const r = byF.get(d.county_fips); tip.replaceChildren();
         const t = document.createElement('div'); t.className = 't'; t.textContent = `${d.county} County · ${p.race}`; tip.append(t);
+        const flag = FLAGS[p.race + '|' + d.county_fips];
+        if (flag) { const n = document.createElement('div'); n.style.maxWidth = '15rem'; n.style.margin = '2px 0 4px'; n.style.color = 'var(--color-bad)'; n.textContent = flag; tip.append(n); }
         if (!r || !r.reported) LX.tipLine(tip, null, 'No results yet', '');
         else {
           const raw = (rawIdx.get(p.race + '|' + d.county_fips) || []).slice().sort((a, b) => (a.party === 'W') - (b.party === 'W') || Number(b.votes) - Number(a.votes));
@@ -322,7 +336,7 @@
     const focus = officeOf(office);
     const series = [];
     OFFICES.forEach(([o, label], i) => {
-      const col = dash.colors[i];
+      const col = dash.colors[i % dash.colors.length];
       const isF = o === focus;
       series.push({ office: o, label, col, kind: ctyName ? 'state' : 'main', focus: isF, pts: sw.filter((r) => officeOf(r.office) === o && r.margin != null).sort((a, b) => a.year - b.year).map((r) => ({ year: r.year, m: r.margin, race: r.race, label: r.margin_label })) });
       if (ctyName) series.push({ office: o, label, col, kind: 'county', focus: isF, pts: cty.filter((r) => officeOf(r.office) === o).sort((a, b) => a.year - b.year).map((r) => ({ year: r.year, m: r.margin, race: r.race, label: r.margin_label })) });
@@ -374,7 +388,7 @@
     document.getElementById('trend-note').textContent = (ctyName ? 'Solid: this county. Dashed: statewide. ' : '') + 'Republican minus Democratic share. Grey lines are the other offices. Click a point to open that race.';
     clearBtn.hidden = !ctyName; clearBtn.textContent = ctyName ? `${ctyName} ×` : '';
     const lg = document.getElementById('trend-legend'); lg.replaceChildren();
-    const g = document.createElement('span'); g.className = 'grp'; const s = document.createElement('i'); s.className = 'sw'; s.style.background = dash.colors[OFFICES.findIndex((o) => o[0] === focus)]; s.style.height = '3px'; s.style.verticalAlign = '3px'; g.append(s, document.createTextNode(flabel)); lg.append(g);
+    const g = document.createElement('span'); g.className = 'grp'; const s = document.createElement('i'); s.className = 'sw'; s.style.background = dash.colors[OFFICES.findIndex((o) => o[0] === focus) % dash.colors.length]; s.style.height = '3px'; s.style.verticalAlign = '3px'; g.append(s, document.createTextNode(flabel)); lg.append(g);
     const g2 = document.createElement('span'); g2.className = 'grp'; const s2 = document.createElement('i'); s2.className = 'sw'; s2.style.background = 'var(--cds-chart-muted)'; s2.style.height = '3px'; s2.style.verticalAlign = '3px'; g2.append(s2, document.createTextNode('Other offices')); lg.append(g2);
   }
 

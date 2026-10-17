@@ -43,7 +43,7 @@
 
   // 2026 races on the ballot (shown before any results exist)
   LX.SCHEDULE_2026 = {
-    statewide: ['Governor', 'Senate', 'Lt. Governor', 'Railroad Commissioner'],
+    statewide: ['Governor', 'Senate', 'Lt. Governor', 'Attorney General', 'Comptroller', 'Land Commissioner', 'Agriculture Commissioner', 'Railroad Commissioner'],
     plans: { house: 'planh2316', senate: 'plans2168', ushouse: 'planc2333', sboe: 'plane2106' },
     fortbend: ['County Judge', 'Commissioner Pct 2', 'Commissioner Pct 4'],
   };

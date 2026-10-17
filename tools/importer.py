@@ -10,7 +10,9 @@ The dashboard reads these two files; uploading them is done separately.
 import argparse, csv, json, os, re, subprocess, sys, time, datetime, unicodedata
 
 API = 'https://civicapi.org/api/v2'
-STATEWIDE = {'Texas Governor': 'Governor', 'Texas US Senate': 'Senate', 'Texas Lieutenant Governor': 'Lt. Governor', 'Texas Railroad Commissioner': 'Railroad Commissioner'}
+STATEWIDE = {'Texas Governor': 'Governor', 'Texas US Senate': 'Senate', 'Texas Lieutenant Governor': 'Lt. Governor', 'Texas Railroad Commissioner': 'Railroad Commissioner',
+             'Texas Attorney General': 'Attorney General', 'Texas Comptroller': 'Comptroller', 'Texas Land Commissioner': 'Land Commissioner',
+             'Texas Agriculture Commissioner': 'Agriculture Commissioner'}
 DISTRICT = [(r'^Texas State House (\d+)$', 'house', 'House', 'planh2316'), (r'^Texas State Senate (\d+)$', 'senate', 'Senate', 'plans2168'),
             (r'^Texas US House (\d+)$', 'ushouse', 'U.S. House', 'planc2333'), (r'^Texas State Board of Education (\d+)$', 'sboe', 'SBOE', 'plane2106')]
 PARTY = {'republican': 'R', 'democratic': 'D', 'democrat': 'D', 'libertarian': 'L', 'green': 'G', 'independent': 'I'}
@@ -41,7 +43,8 @@ def search(date):
         return get(base + '&limit=500')['races']
     except RuntimeError:
         races = {}
-        for q in ['Texas State House', 'Texas State Senate', 'Texas US House', 'Texas State Board of Education', 'Texas Governor', 'Texas US Senate', 'Texas Lieutenant Governor', 'Texas Railroad Commissioner']:
+        for q in ['Texas State House', 'Texas State Senate', 'Texas US House', 'Texas State Board of Education', 'Texas Governor', 'Texas US Senate', 'Texas Lieutenant Governor',
+                  'Texas Railroad Commissioner', 'Texas Attorney General', 'Texas Comptroller', 'Texas Land Commissioner', 'Texas Agriculture Commissioner', 'Texas Supreme Court']:
             for r in get(base + '&limit=200&query=' + q.replace(' ', '%20'))['races']:
                 races[r['id']] = r
         return list(races.values())
@@ -50,6 +53,10 @@ def search(date):
 def classify(name):
     if name in STATEWIDE:
         return ('statewide', STATEWIDE[name], '', None)
+    m = re.match(r'^Texas Supreme Court (?:Place (\d+)|(Chief Justice))(.*)$', name, re.I)
+    if m:
+        seat = f'Place {m.group(1)}' if m.group(1) else 'Chief Justice'
+        return ('statewide', f'Supreme Court, {seat}' + (' (unexpired term)' if re.search('unexpired', m.group(3), re.I) else ''), '', None)
     for pat, level, label, plan in DISTRICT:
         m = re.match(pat, name)
         if m:
@@ -74,7 +81,8 @@ def main():
     a = ap.parse_args()
     year = int(a.date[:4])
     fips = json.load(open(a.county_map))  # {normalized county name: fips}
-    races = [r for r in search(a.date) if classify(r['election_name']) and not re.search(r'special|primary|runoff', r['election_name'], re.I)]
+    keep = lambda n: classify(n) and not re.search(r'primary|runoff', n, re.I) and (not re.search(r'special', n, re.I) or 'Supreme Court' in n)
+    races = [r for r in search(a.date) if keep(r['election_name'])]
     rows, problems, n_called, n_counting = [], [], 0, 0
     for r in sorted(races, key=lambda x: x['election_name']):
         level, office, plan, district = classify(r['election_name'])
