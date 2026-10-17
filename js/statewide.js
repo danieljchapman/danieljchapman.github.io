@@ -136,7 +136,7 @@
   });
 
   // ---------- page ----------
-  const params = () => { const p = dash.params(); return { race: p.race || '2024 Senate', view: p.view || 'result', county: p.county || null }; };
+  const params = () => { const p = dash.params(); return { race: p.race || '2024 Senate', view: p.view || 'result', county: p.county ? String(p.county).padStart(5, '0') : null }; };
   document.querySelectorAll('[data-view]').forEach((b) => b.addEventListener('click', () => dash.setParams({ view: b.dataset.view })));
   const clearBtn = document.getElementById('clear-county');
   clearBtn.addEventListener('click', () => dash.setParams({ county: null }));
@@ -234,10 +234,18 @@
     set('#kpi-votes [data-field="other_votes"]', pending ? '—' : fmt(S.other_votes));
     document.getElementById('kpi-other-pct').textContent = pending ? '' : ' (' + pct(S.other_votes / S.total_votes) + ')';
     document.getElementById('kpi-votes-label').textContent = status === 'counting' ? 'Votes counted so far' : 'Total votes cast in race';
+    const T = LX.turnout(), TS = T ? T.county.get(year + '|TX') : null;
+    set('#kpi-turnout .lx-kpi-value', TS ? pct(TS.turnout) : '—');
+    document.getElementById('kpi-turnout-label').textContent = TS && TS.live && status === 'counting' ? 'Turnout counted so far' : 'Turnout';
+    const ts = document.getElementById('kpi-turnout-sub');
+    if (!TS) ts.textContent = year === 2026 ? 'Fills in on election night' : 'Not available for this year';
+    else {
+      ts.textContent = `${LX.short(TS.ballots)} of ${LX.short(TS.registered)} registered voters`;
+    }
 
-    drawMap(p, S, rows, shp.data, pending);
-    drawTrend(p, sw.data, bc.data, office);
-    drawTable(p, S, rows, C, pending);
+    drawMap(p, S, rows, shp.data, pending, T, year);
+    if (p.view === 'turnout') drawTurnoutTrend(p, sw.data, bc.data, office, T); else drawTrend(p, sw.data, bc.data, office);
+    drawTable(p, S, rows, C, pending, T, year);
   }
 
   function drawCands(list, status, pending) {
@@ -277,19 +285,21 @@
   }
 
   const SHIFT_BINS = [-0.1, -0.05, -0.02, 0, 0.02, 0.05, 0.1];
-  function drawMap(p, S, rows, shapes, pending) {
+  function drawMap(p, S, rows, shapes, pending, T, year) {
     const el = document.getElementById('map'); el.classList.remove('dash-skeleton');
     const R = LX.RAMP, byF = new Map(rows.map((r) => [r.county_fips, r])), muted = css('--cds-chart-muted');
     const resultColor = (r) => r.winner_party !== 'R' && r.winner_party !== 'D' ? LX.rampColor('I', r.winner_lead) : LX.rampColor(r.margin >= 0 ? 'R' : 'D', r.margin);
     const shiftColor = (s) => s == null ? muted : [R.D[4], R.D[3], R.D[1], R.D[0], R.R[0], R.R[1], R.R[3], R.R[4]][d3.bisect(SHIFT_BINS, s)];
     const stillCounting = (r) => !!r && r.reported && r.status === 'counting' && r.reporting_total != null && r.reporting < r.reporting_total;
-    const fill = (r) => !r || !r.reported || FLAGS[p.race + '|' + r.county_fips] ? muted : p.view === 'shift' ? shiftColor(r.shift) : resultColor(r);
+    const toOf = (f) => T ? T.county.get(year + '|' + f) : null;
+    const fill = (r, f) => p.view === 'turnout' ? (toOf(f) ? LX.turnoutColor(toOf(f).turnout) : muted)
+      : !r || !r.reported || FLAGS[p.race + '|' + r.county_fips] ? muted : p.view === 'shift' ? shiftColor(r.shift) : resultColor(r);
     let svg = d3.select(el).select('svg');
     if (svg.empty()) { el.replaceChildren(); svg = d3.select(el).append('svg').attr('viewBox', '0 0 678 645').attr('width', '100%').attr('role', 'img').attr('aria-label', 'Map of Texas counties'); svg.append('g').attr('class', 'cties'); svg.append('g').attr('class', 'selg'); }
     const card = document.getElementById('map-card'), tip = document.getElementById('map-tip');
     svg.select('g.cties').selectAll('path.cty').data(shapes, (d) => d.county_fips).join('path')
-      .attr('class', 'cty').attr('d', (d) => d.path).attr('fill', (d) => fill(byF.get(d.county_fips)))
-      .attr('fill-opacity', (d) => { const r = byF.get(d.county_fips); return stillCounting(r) ? 0.45 : 1; })
+      .attr('class', 'cty').attr('d', (d) => d.path).attr('fill', (d) => fill(byF.get(d.county_fips), d.county_fips))
+      .attr('fill-opacity', (d) => { const r = byF.get(d.county_fips); return stillCounting(r) && p.view !== 'turnout' ? 0.45 : 1; })
       .on('mousemove', (event, d) => {
         const r = byF.get(d.county_fips); tip.replaceChildren();
         const t = document.createElement('div'); t.className = 't'; t.textContent = `${d.county} County · ${p.race}`; tip.append(t);
@@ -303,18 +313,28 @@
           if (r.prev_race && r.shift != null) LX.tipLine(tip, null, `Shift vs ${r.prev_race}`, r.shift_label);
           if (r.status === 'counting' && r.reporting_total) LX.tipLine(tip, null, 'Precincts reporting', r.reporting_total === 100 ? `${r.reporting}%` : `${r.reporting} of ${r.reporting_total}`);
         }
+        const to = toOf(d.county_fips);
+        if (to) LX.tipLine(tip, p.view === 'turnout' ? LX.turnoutColor(to.turnout) : null, to.live ? 'Turnout so far' : 'Turnout', LX.turnoutText(to));
         LX.placeTip(tip, card, event);
       })
       .on('mouseleave', () => { tip.style.display = 'none'; })
       .on('click', (event, d) => dash.setParams({ county: p.county === d.county_fips ? null : d.county_fips }));
     svg.select('g.selg').selectAll('path').data(shapes.filter((d) => d.county_fips === p.county), (d) => d.county_fips).join('path')
       .attr('d', (d) => d.path).attr('fill', 'none').attr('stroke', css('--color-fg')).attr('stroke-width', 2.2).attr('pointer-events', 'none');
-    document.getElementById('map-title').textContent = p.view === 'shift' ? `${p.race}: shift since ${S && S.prev_race ? S.prev_race : '—'}` : `${p.race}: county results`;
-    document.getElementById('map-note').textContent = pending ? 'No county has reported yet. Counties fill in as results arrive on election night.'
+    document.getElementById('map-title').textContent = p.view === 'turnout' ? `${year} turnout by county` : p.view === 'shift' ? `${p.race}: shift since ${S && S.prev_race ? S.prev_race : '—'}` : `${p.race}: county results`;
+    document.getElementById('map-note').textContent = p.view === 'turnout' ? (T && T.county.has(year + '|TX') ? (T.county.get(year + '|TX').live ? 'Ballots counted so far as a share of registered voters. These rise through the night as counties report. ' : '') + `Share of registered voters who cast a ballot in the ${year} general election. It is the same for every race that year; some voters skip races further down the ballot. Click a county to follow it over time.` : year === 2026 ? 'Turnout fills in on election night as counties report ballots cast.' : `No turnout figures for ${year}.`)
+      : pending ? 'No county has reported yet. Counties fill in as results arrive on election night.'
       : p.view === 'shift' ? (S.prev_race ? `Change in each county's R − D margin compared with ${S.prev_race}.` : 'No earlier race for this office in the data, so there is no shift to show.')
       : 'Red: Republican margin, blue: Democratic margin. The darker the shade, the bigger the margin. Click a county to follow it over time.';
     const lg = document.getElementById('legend'); lg.replaceChildren();
     const sw = (c, t) => { const g = document.createElement('span'); g.className = 'grp'; const s = document.createElement('i'); s.className = 'sw'; s.style.background = c; g.append(s, document.createTextNode(t)); lg.append(g); };
+    if (p.view === 'turnout') {
+      const g = document.createElement('span'); g.className = 'grp'; g.append(document.createTextNode('Turnout '));
+      R.T.forEach((c) => { const s = document.createElement('i'); s.className = 'sw'; s.style.background = c; s.style.marginRight = '1px'; g.append(s); });
+      lg.append(g); const n = document.createElement('span'); n.textContent = LX.TO_LEGEND; lg.append(n);
+      if (shapes.some((d) => !toOf(d.county_fips))) sw(muted, 'No figure');
+      return;
+    }
     if (p.view === 'shift') {
       ['D >10', 'D 5–10', 'D 2–5', 'D 0–2', 'R 0–2', 'R 2–5', 'R 5–10', 'R >10'].forEach((t, i) => sw(shiftColor([-0.2, -0.07, -0.03, -0.01, 0.01, 0.03, 0.07, 0.2][i]), t));
       const n = document.createElement('span'); n.textContent = 'points of shift'; lg.append(n);
@@ -399,7 +419,64 @@
     const g2 = document.createElement('span'); g2.className = 'grp'; const s2 = document.createElement('i'); s2.className = 'sw'; s2.style.background = 'var(--cds-chart-muted)'; s2.style.height = '3px'; s2.style.verticalAlign = '3px'; g2.append(s2, document.createTextNode('Other offices')); lg.append(g2);
   }
 
-  function drawTable(p, S, rows, cands, pending) {
+  function drawTurnoutTrend(p, sw, bc, office, T) {
+    const el = document.getElementById('trend'); el.classList.remove('dash-skeleton'); el.replaceChildren();
+    const W = Math.max(280, el.clientWidth), H = 260;
+    const cty = p.county ? bc.find((r) => r.county_fips === p.county) : null, ctyName = cty ? cty.county : null;
+    const years = [];
+    for (let y = 2000; y <= 2026; y += 2) years.push(y);
+    const ser = (u) => years.map((y) => ({ year: y, t: T && T.county.get(y + '|' + u) })).filter((d) => d.t).map((d) => ({ year: d.year, v: d.t.turnout, t: d.t }));
+    const state = ser('TX'), county = ctyName ? ser(p.county) : [];
+    const all = state.concat(county).map((d) => d.v);
+    const y = d3.scaleLinear([Math.min(0.2, d3.min(all) ?? 0.2), Math.max(0.8, d3.max(all) ?? 0.8)], [H - 26, 10]).nice(6);
+    const svg = d3.select(el).append('svg').attr('viewBox', `0 0 ${W} ${H}`).attr('width', '100%').attr('role', 'img').attr('aria-label', 'Turnout over time');
+    const ticks = y.ticks(6), tg = svg.append('g');
+    const tl = tg.selectAll('text').data(ticks).join('text').attr('x', 0).attr('y', (d) => y(d)).attr('dy', '0.32em').attr('fill', 'var(--color-fg-muted)').attr('font-size', 'var(--cds-font-size-caption)').text((d) => d3.format('.0%')(d));
+    let ml = 0; tl.each(function () { ml = Math.max(ml, this.getComputedTextLength()); });
+    const left = ml + 8, right = 12, x = d3.scaleLinear([2000, 2026], [left, W - right]);
+    tg.selectAll('line').data(ticks).join('line').attr('x1', left).attr('x2', W - right).attr('y1', (d) => y(d)).attr('y2', (d) => y(d)).attr('stroke', 'var(--cds-chart-grid)');
+    const xt = [2000, 2006, 2012, 2018, 2026];
+    svg.append('g').selectAll('text').data(xt).join('text').attr('x', (d) => x(d)).attr('y', H - 6).attr('text-anchor', (d, i) => i === xt.length - 1 ? 'end' : 'middle').attr('fill', 'var(--color-fg-muted)').attr('font-size', 'var(--cds-font-size-caption)').text((d) => d);
+    const COL = LX.RAMP.T[3], line = d3.line().x((d) => x(d.year)).y((d) => y(d.v));
+    const curYear = Number(p.race.slice(0, 4));
+    const GREY = 'var(--cds-chart-reference)';
+    const draw1 = (pts, dashed, col = COL) => {
+      svg.append('path').datum(pts).attr('d', line).attr('fill', 'none').attr('stroke', col).attr('stroke-width', dashed ? 1.5 : 2.2).attr('stroke-dasharray', dashed ? '4 3' : null).attr('stroke-linejoin', 'round');
+      // presidential years filled, midterms hollow
+      svg.append('g').selectAll('circle').data(pts).join('circle').attr('cx', (d) => x(d.year)).attr('cy', (d) => y(d.v)).attr('r', (d) => d.year === curYear ? 5 : 3.2)
+        .attr('fill', (d) => d.year % 4 === 0 ? col : 'var(--color-panel)').attr('stroke', col).attr('stroke-width', (d) => d.year === curYear ? 2.5 : 1.5);
+    };
+    draw1(state, !!ctyName, ctyName ? GREY : COL); if (ctyName) draw1(county, false);
+    const card = document.getElementById('trend-card'), tip = document.getElementById('trend-tip');
+    const rule = svg.append('line').attr('y1', 10).attr('y2', H - 26).attr('stroke', 'var(--cds-chart-axis)').attr('opacity', 0);
+    const yrs = [...new Set(state.concat(county).map((d) => d.year))].sort((a, b) => a - b);
+    const near = (mx) => yrs.reduce((a, b) => Math.abs(x(b) - mx) < Math.abs(x(a) - mx) ? b : a);
+    svg.append('rect').attr('x', left).attr('y', 0).attr('width', W - left - right).attr('height', H).attr('fill', 'transparent')
+      .on('mousemove', (event) => {
+        if (!yrs.length) return;
+        const yr = near(d3.pointer(event)[0]); rule.attr('x1', x(yr)).attr('x2', x(yr)).attr('opacity', 1);
+        tip.replaceChildren(); const t = document.createElement('div'); t.className = 't'; t.textContent = yr + (yr % 4 === 0 ? ' · presidential' : ' · midterm'); tip.append(t);
+        const c = county.find((d) => d.year === yr), s = state.find((d) => d.year === yr);
+        if (c) LX.tipLine(tip, COL, ctyName, LX.turnoutText(c.t));
+        if (s) LX.tipLine(tip, ctyName ? GREY : COL, 'Statewide', LX.turnoutText(s.t));
+        LX.placeTip(tip, card, event);
+      })
+      .on('mouseleave', () => { tip.style.display = 'none'; rule.attr('opacity', 0); })
+      .on('click', (event) => {
+        if (!yrs.length) return;
+        const yr = near(d3.pointer(event)[0]), focus = officeOf(office);
+        const r = sw.filter((s) => s.year === yr && officeOf(s.office) === focus)[0] || sw.find((s) => s.year === yr);
+        if (r) dash.setParams({ race: r.race });
+      });
+    document.getElementById('trend-title').textContent = ctyName ? `Turnout over time: ${ctyName} County vs statewide` : 'Statewide turnout over time';
+    document.getElementById('trend-note').textContent = (ctyName ? 'Green: this county. Grey dashed: statewide. ' : '') + 'Ballots cast as a share of registered voters, November general elections. Filled dots: presidential years; hollow: midterms. Click a point to open that year.';
+    clearBtn.hidden = !ctyName; clearBtn.textContent = ctyName ? `${ctyName} ×` : '';
+    const lg = document.getElementById('trend-legend'); lg.replaceChildren();
+    for (const [fill, t] of [[COL, 'Presidential year'], ['var(--color-panel)', 'Midterm']]) { const g = document.createElement('span'); g.className = 'grp'; const s = document.createElement('i'); s.className = 'sw'; s.style.background = fill; s.style.border = '1.5px solid ' + COL; s.style.borderRadius = '50%'; g.append(s, document.createTextNode(t)); lg.append(g); }
+  }
+
+  function drawTable(p, S, rows, cands, pending, T, year) {
+    rows = rows.map((r) => { const t = T ? T.county.get(year + '|' + r.county_fips) : null; return { ...r, turnout: t ? t.turnout : null, _to: t }; });
     document.getElementById('table-title').textContent = `All 254 counties · ${p.race}`;
     document.querySelectorAll('#county-table th[data-field^="c"]').forEach((th) => {
       const f = th.dataset.field; if (!/^c\d_pct$/.test(f)) return;
@@ -434,6 +511,7 @@
       if (r.margin != null) { const bar = document.createElement('i'); bar.className = 'lx-bar'; bar.style.width = (Math.abs(r.margin) / maxAbs * 3.5).toFixed(2) + 'rem'; bar.style.background = r.margin > 0 ? RED : BLUE; bar.style.opacity = '.7'; mc.append(bar); }
       td(r.shift_label, r.shift == null ? '' : r.shift > 0 ? 'lx-r' : 'lx-d');
       td(r.reported ? fmt(r.total_votes) : '—', 'lx-hide-narrow');
+      td(r.turnout == null ? '—' : pct(r.turnout), 'lx-hide-narrow');
       return tr;
     }));
   }

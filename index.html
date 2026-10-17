@@ -184,13 +184,14 @@ button { font: inherit; }
     <div class="lx-card" id="kpi-margin"><div class="lx-kpi-label">Statewide margin (R − D)</div><div class="lx-kpi-value dash-skeleton" data-source="statewide" data-field="margin_label">—</div><div class="lx-kpi-sub">Shift from previous race: <span data-source="statewide" data-field="shift_label">—</span><span id="kpi-prev"></span></div></div>
     <div class="lx-card" id="kpi-counties"><div class="lx-kpi-label">Counties carried</div><div class="lx-kpi-value dash-skeleton"><span class="lx-r" data-source="statewide" data-field="counties_rep">—</span> <span style="font-size:var(--cds-font-size-heading);color:var(--color-fg-muted)">R</span> · <span class="lx-d" data-source="statewide" data-field="counties_dem">—</span> <span style="font-size:var(--cds-font-size-heading);color:var(--color-fg-muted)">D</span></div><div class="lx-kpi-sub" id="kpi-counties-other"></div></div>
     <div class="lx-card" id="kpi-votes"><div class="lx-kpi-label" id="kpi-votes-label">Total votes cast in race</div><div class="lx-kpi-value dash-skeleton" data-source="statewide" data-field="total_votes">—</div><div class="lx-kpi-sub">Third-party &amp; write-in: <span data-source="statewide" data-field="other_votes">—</span><span id="kpi-other-pct"></span></div></div>
+    <div class="lx-card" id="kpi-turnout"><div class="lx-kpi-label" id="kpi-turnout-label">Turnout</div><div class="lx-kpi-value dash-skeleton" data-source="turnout_county" data-field="ballots">—</div><div class="lx-kpi-sub" id="kpi-turnout-sub"></div></div>
   </section>
 
   <section class="lx-grid">
     <div class="lx-card" id="map-card">
       <div class="lx-cardhead">
         <div><h2 id="map-title">County results</h2><p class="lx-note" id="map-note">Color shows who won each county and by how much. Click a county to follow it over time.</p></div>
-        <div class="lx-row" role="group" aria-label="Map view"><button class="lx-pill" data-view="result">Winner &amp; margin</button><button class="lx-pill" data-view="shift">Shift from previous race</button></div>
+        <div class="lx-row" role="group" aria-label="Map view"><button class="lx-pill" data-view="result">Winner &amp; margin</button><button class="lx-pill" data-view="shift">Shift from previous race</button><button class="lx-pill" data-view="turnout">Turnout</button></div>
       </div>
       <div class="lx-map dash-skeleton" id="map" data-source="by_county county_shapes"></div>
       <div class="lx-legend" id="legend"></div>
@@ -222,13 +223,14 @@ button { font: inherit; }
           <th data-field="margin_label"><button data-sort="margin">Margin</button></th>
           <th data-field="shift_label"><button data-sort="shift">Shift</button></th>
           <th data-field="total_votes" class="lx-hide-narrow"><button data-sort="total_votes">Votes</button></th>
+          <th data-field="turnout" class="lx-hide-narrow"><button data-sort="turnout">Turnout</button></th>
         </tr></thead>
         <tbody></tbody>
       </table>
     </div>
   </section>
 
-  <p class="lx-foot" id="method">Margin is the Republican candidate's share minus the Democrat's, of all votes cast in the race. "Shift" compares a county with the previous race for the same office (both Railroad Commission seats count as one office). In 2006 the governor's race had two strong independents; counties they won are purple. The 2000 and 2012 unexpired-term Railroad Commission races, and several Supreme Court races, had no Democrat on the ballot. Each Supreme Court seat is compared with its own previous election, usually six years earlier. The source files had El Paso and Ellis counties swapped in 2014 and 2018 and a handful of single-county typos; all were corrected against the official returns. One error is in the certified canvass itself (Kaufman County, 2010 attorney general) and is flagged on the map. Results: Texas Secretary of State canvass via OpenElections (2000–2018), MIT Election Data + Science Lab (2020–2022), CivicAPI for 2024 and the official canvass for 2020; county totals were checked against the Legislative Council's official returns for 2012–2022. 2026 results come from the Texas Secretary of State's election-night results and are unofficial until canvassed.</p>
+  <p class="lx-foot" id="method">Margin is the Republican candidate's share minus the Democrat's, of all votes cast in the race. "Shift" compares a county with the previous race for the same office (both Railroad Commission seats count as one office). In 2006 the governor's race had two strong independents; counties they won are purple. The 2000 and 2012 unexpired-term Railroad Commission races, and several Supreme Court races, had no Democrat on the ballot. Each Supreme Court seat is compared with its own previous election, usually six years earlier. The source files had El Paso and Ellis counties swapped in 2014 and 2018 and a handful of single-county typos; all were corrected against the official returns. One error is in the certified canvass itself (Kaufman County, 2010 attorney general) and is flagged on the map. Results: Texas Secretary of State canvass via OpenElections (2000–2018), MIT Election Data + Science Lab (2020–2022), CivicAPI for 2024 and the official canvass for 2020; county totals were checked against the Legislative Council's official returns for 2012–2022. 2026 results come from the Texas Secretary of State's election-night results and are unofficial until canvassed. Turnout is ballots cast divided by registered voters, for the whole November ballot: county figures from the Secretary of State's county turnout history (2000–2022) and the Legislative Council's precinct data (2024, which runs about 0.6% above the state's count); statewide figures are the state's official numbers. Coleman County has no 2008 figure.</p>
     </section>
     <section id="view-ushouse" hidden></section>
     <section id="view-sboe" hidden></section>
@@ -254,7 +256,7 @@ button { font: inherit; }
       <div class="lx-card"><div class="lx-kpi-label">Seats on the ballot</div><div class="lx-kpi-value dash-skeleton" id="h-k-seats" data-source="house_summary" data-field="seats_total">—</div><div class="lx-kpi-sub" id="h-k-seats-sub"></div></div>
       <div class="lx-card"><div class="lx-kpi-label">Uncontested races</div><div class="lx-kpi-value dash-skeleton" id="h-k-unc" data-source="house_summary" data-field="uncontested">—</div><div class="lx-kpi-sub" id="h-k-unc-sub"></div></div>
       <div class="lx-card"><div class="lx-kpi-label">Closest Republican–Democratic race</div><div class="lx-kpi-value dash-skeleton" id="h-k-close" data-source="house_summary" data-field="closest_label" style="font-size:var(--cds-font-size-heading)">—</div></div>
-      <div class="lx-card"><div class="lx-kpi-label">Total votes reported</div><div class="lx-kpi-value dash-skeleton" id="h-k-votes" data-source="house_summary" data-field="total_votes">—</div></div>
+      <div class="lx-card"><div class="lx-kpi-label">Total votes reported</div><div class="lx-kpi-value dash-skeleton" id="h-k-votes" data-source="house_summary" data-field="total_votes">—</div><div class="lx-kpi-sub" id="h-k-votes-sub"></div></div>
     </section>
     <section class="lx-grid">
       <div class="lx-card" id="h-map-card">
@@ -289,11 +291,12 @@ button { font: inherit; }
             <th data-field="c4_label" class="lx-hide-narrow"><button data-sort="c4_label" data-label="4th">4th</button></th>
             <th data-field="margin_label"><button data-sort="margin" data-label="Margin">Margin</button></th>
             <th data-field="total_votes" class="lx-hide-narrow"><button data-sort="total_votes" data-label="Votes">Votes</button></th>
+            <th data-field="turnout" class="lx-hide-narrow"><button data-sort="turnout" data-label="Turnout">Turnout</button></th>
           </tr></thead><tbody></tbody>
         </table>
       </div>
     </section>
-    <p class="lx-foot">Texas House results: OpenElections county returns from the Texas Secretary of State (2002–2018), MIT Election Data + Science Lab (2020), the Texas Legislative Council's official returns (2022) and CivicAPI (2024, matching the certified canvass). Every year's seat totals match the official results. Winners of unopposed races that the official files leave out come from the Open States legislator roster; those races have no vote totals. Districts follow the map in force each year (Legislative Council plans H100, H309, H358, H2316), so a district number can cover different ground in different decades. 2026 results come from the Texas Secretary of State's election-night results and are unofficial until canvassed.</p>
+    <p class="lx-foot">Texas House results: OpenElections county returns from the Texas Secretary of State (2002–2018), MIT Election Data + Science Lab (2020), the Texas Legislative Council's official returns (2022) and CivicAPI (2024, matching the certified canvass). Every year's seat totals match the official results. Turnout (2012–2024) adds up the Legislative Council's precinct registration and ballots-cast figures by district; where a district had no precinct-level race result, precincts are placed by map location, so those figures are estimates (marked “est.”). Winners of unopposed races that the official files leave out come from the Open States legislator roster; those races have no vote totals. Districts follow the map in force each year (Legislative Council plans H100, H309, H358, H2316), so a district number can cover different ground in different decades. 2026 results come from the Texas Secretary of State's election-night results and are unofficial until canvassed.</p>
   </div>
 </template>
 <template id="tpl-tab-senate">
@@ -312,7 +315,7 @@ button { font: inherit; }
       <div class="lx-card"><div class="lx-kpi-label">Seats on the ballot</div><div class="lx-kpi-value dash-skeleton" id="s-k-seats" data-source="senate_summary" data-field="seats_total">—</div><div class="lx-kpi-sub" id="s-k-seats-sub"></div></div>
       <div class="lx-card"><div class="lx-kpi-label">Uncontested races</div><div class="lx-kpi-value dash-skeleton" id="s-k-unc" data-source="senate_summary" data-field="uncontested">—</div><div class="lx-kpi-sub" id="s-k-unc-sub"></div></div>
       <div class="lx-card"><div class="lx-kpi-label">Closest Republican–Democratic race</div><div class="lx-kpi-value dash-skeleton" id="s-k-close" data-source="senate_summary" data-field="closest_label" style="font-size:var(--cds-font-size-heading)">—</div></div>
-      <div class="lx-card"><div class="lx-kpi-label">Total votes reported</div><div class="lx-kpi-value dash-skeleton" id="s-k-votes" data-source="senate_summary" data-field="total_votes">—</div></div>
+      <div class="lx-card"><div class="lx-kpi-label">Total votes reported</div><div class="lx-kpi-value dash-skeleton" id="s-k-votes" data-source="senate_summary" data-field="total_votes">—</div><div class="lx-kpi-sub" id="s-k-votes-sub"></div></div>
     </section>
     <section class="lx-grid">
       <div class="lx-card" id="s-map-card">
@@ -347,11 +350,12 @@ button { font: inherit; }
             <th data-field="c4_label" class="lx-hide-narrow"><button data-sort="c4_label" data-label="4th">4th</button></th>
             <th data-field="margin_label"><button data-sort="margin" data-label="Margin">Margin</button></th>
             <th data-field="total_votes" class="lx-hide-narrow"><button data-sort="total_votes" data-label="Votes">Votes</button></th>
+            <th data-field="turnout" class="lx-hide-narrow"><button data-sort="turnout" data-label="Turnout">Turnout</button></th>
           </tr></thead><tbody></tbody>
         </table>
       </div>
     </section>
-    <p class="lx-foot">Texas Senate results: OpenElections county returns from the Texas Secretary of State (2002–2018), MIT Election Data + Science Lab (2020), the Texas Legislative Council's official returns (2022) and CivicAPI (2024, matching the certified canvass). Every year's seat totals match the official results. Winners of unopposed races that the official files leave out come from the Open States legislator roster; those races have no vote totals. Districts follow the map in force each year (Legislative Council plans S100, S172, S2168), so a district number can cover different ground in different decades. 2026 results come from the Texas Secretary of State's election-night results and are unofficial until canvassed.</p>
+    <p class="lx-foot">Texas Senate results: OpenElections county returns from the Texas Secretary of State (2002–2018), MIT Election Data + Science Lab (2020), the Texas Legislative Council's official returns (2022) and CivicAPI (2024, matching the certified canvass). Every year's seat totals match the official results. Turnout (2012–2024) adds up the Legislative Council's precinct registration and ballots-cast figures by district; where a district had no precinct-level race result, precincts are placed by map location, so those figures are estimates (marked “est.”). Winners of unopposed races that the official files leave out come from the Open States legislator roster; those races have no vote totals. Districts follow the map in force each year (Legislative Council plans S100, S172, S2168), so a district number can cover different ground in different decades. 2026 results come from the Texas Secretary of State's election-night results and are unofficial until canvassed.</p>
   </div>
 </template>
 <template id="tpl-view-ushouse">
@@ -366,7 +370,7 @@ button { font: inherit; }
       <div class="lx-card"><div class="lx-kpi-label">Seats on the ballot</div><div class="lx-kpi-value dash-skeleton" id="u-k-seats" data-source="ushouse_summary" data-field="seats_total">—</div><div class="lx-kpi-sub" id="u-k-seats-sub"></div></div>
       <div class="lx-card"><div class="lx-kpi-label">Uncontested races</div><div class="lx-kpi-value dash-skeleton" id="u-k-unc" data-source="ushouse_summary" data-field="uncontested">—</div><div class="lx-kpi-sub" id="u-k-unc-sub"></div></div>
       <div class="lx-card"><div class="lx-kpi-label">Closest Republican–Democratic race</div><div class="lx-kpi-value dash-skeleton" id="u-k-close" data-source="ushouse_summary" data-field="closest_label" style="font-size:var(--cds-font-size-heading)">—</div></div>
-      <div class="lx-card"><div class="lx-kpi-label">Total votes reported</div><div class="lx-kpi-value dash-skeleton" id="u-k-votes" data-source="ushouse_summary" data-field="total_votes">—</div></div>
+      <div class="lx-card"><div class="lx-kpi-label">Total votes reported</div><div class="lx-kpi-value dash-skeleton" id="u-k-votes" data-source="ushouse_summary" data-field="total_votes">—</div><div class="lx-kpi-sub" id="u-k-votes-sub"></div></div>
     </section>
     <section class="lx-grid">
       <div class="lx-card" id="u-map-card">
@@ -401,11 +405,12 @@ button { font: inherit; }
             <th data-field="c4_label" class="lx-hide-narrow"><button data-sort="c4_label" data-label="4th">4th</button></th>
             <th data-field="margin_label"><button data-sort="margin" data-label="Margin">Margin</button></th>
             <th data-field="total_votes" class="lx-hide-narrow"><button data-sort="total_votes" data-label="Votes">Votes</button></th>
+            <th data-field="turnout" class="lx-hide-narrow"><button data-sort="turnout" data-label="Turnout">Turnout</button></th>
           </tr></thead><tbody></tbody>
         </table>
       </div>
     </section>
-    <p class="lx-foot">U.S. House results: OpenElections county returns from the Texas Secretary of State (2002–2018) and MIT Election Data + Science Lab (2020–2022) and CivicAPI (2024), checked against the official returns for 2022; every year's seat totals match the official results. 2006 shows the five districts redrawn after LULAC v. Perry as their November special elections, with TX-23 decided in the Dec. 12 runoff (Secretary of State canvass). The 2002 and 2004 maps aren't in the Legislative Council's archive. Maps: plans C100 (2006–2010), C235 (2012–2020), C2193 (2022–2024) and C2333, drawn in 2025, for 2026. 2026 results are unofficial until canvassed.</p>
+    <p class="lx-foot">U.S. House results: OpenElections county returns from the Texas Secretary of State (2002–2018) and MIT Election Data + Science Lab (2020–2022) and CivicAPI (2024), checked against the official returns for 2022; every year's seat totals match the official results. 2006 shows the five districts redrawn after LULAC v. Perry as their November special elections, with TX-23 decided in the Dec. 12 runoff (Secretary of State canvass). The 2002 and 2004 maps aren't in the Legislative Council's archive. Maps: plans C100 (2006–2010), C235 (2012–2020), C2193 (2022–2024) and C2333, drawn in 2025, for 2026. 2026 results are unofficial until canvassed. Turnout (2012–2024) adds up the Legislative Council's precinct registration and ballots-cast figures by district; where a district had no precinct-level race result, precincts are placed by map location, so those figures are estimates (marked “est.”).</p>
   </div>
 </template>
 <template id="tpl-view-sboe">
@@ -420,7 +425,7 @@ button { font: inherit; }
       <div class="lx-card"><div class="lx-kpi-label">Seats on the ballot</div><div class="lx-kpi-value dash-skeleton" id="b-k-seats" data-source="sboe_summary" data-field="seats_total">—</div><div class="lx-kpi-sub" id="b-k-seats-sub"></div></div>
       <div class="lx-card"><div class="lx-kpi-label">Uncontested races</div><div class="lx-kpi-value dash-skeleton" id="b-k-unc" data-source="sboe_summary" data-field="uncontested">—</div><div class="lx-kpi-sub" id="b-k-unc-sub"></div></div>
       <div class="lx-card"><div class="lx-kpi-label">Closest Republican–Democratic race</div><div class="lx-kpi-value dash-skeleton" id="b-k-close" data-source="sboe_summary" data-field="closest_label" style="font-size:var(--cds-font-size-heading)">—</div></div>
-      <div class="lx-card"><div class="lx-kpi-label">Total votes reported</div><div class="lx-kpi-value dash-skeleton" id="b-k-votes" data-source="sboe_summary" data-field="total_votes">—</div></div>
+      <div class="lx-card"><div class="lx-kpi-label">Total votes reported</div><div class="lx-kpi-value dash-skeleton" id="b-k-votes" data-source="sboe_summary" data-field="total_votes">—</div><div class="lx-kpi-sub" id="b-k-votes-sub"></div></div>
     </section>
     <section class="lx-grid">
       <div class="lx-card" id="b-map-card">
@@ -455,11 +460,12 @@ button { font: inherit; }
             <th data-field="c4_label" class="lx-hide-narrow"><button data-sort="c4_label" data-label="4th">4th</button></th>
             <th data-field="margin_label"><button data-sort="margin" data-label="Margin">Margin</button></th>
             <th data-field="total_votes" class="lx-hide-narrow"><button data-sort="total_votes" data-label="Votes">Votes</button></th>
+            <th data-field="turnout" class="lx-hide-narrow"><button data-sort="turnout" data-label="Turnout">Turnout</button></th>
           </tr></thead><tbody></tbody>
         </table>
       </div>
     </section>
-    <p class="lx-foot">State Board of Education results: OpenElections county returns (2002–2018), MIT Election Data + Science Lab (2020–2022), the official 2022 returns and CivicAPI (2024). Members serve staggered four-year terms, so about half the 15 seats are up in most years and all 15 after redistricting (2002, 2012, 2022). Four unopposed 2022 seats are missing from every results file; their winners (Childs, Ellis, Maynard, Kinsey) are listed without vote totals. Maps: plans E100, E120 and E2106. 2026 results are unofficial until canvassed.</p>
+    <p class="lx-foot">State Board of Education results: OpenElections county returns (2002–2018), MIT Election Data + Science Lab (2020–2022), the official 2022 returns and CivicAPI (2024). Members serve staggered four-year terms, so about half the 15 seats are up in most years and all 15 after redistricting (2002, 2012, 2022). Four unopposed 2022 seats are missing from every results file; their winners (Childs, Ellis, Maynard, Kinsey) are listed without vote totals. Maps: plans E100, E120 and E2106. 2026 results are unofficial until canvassed. Turnout (2012–2024) adds up the Legislative Council's precinct registration and ballots-cast figures by district; where a district had no precinct-level race result, precincts are placed by map location, so those figures are estimates (marked “est.”).</p>
   </div>
 </template>
 <template id="tpl-tab-fortbend">
@@ -501,6 +507,7 @@ button { font: inherit; }
             <th data-field="c4_pct" class="lx-hide-narrow"><button data-sort="c4_pct" data-label="—">—</button></th>
             <th data-field="margin_label"><button data-sort="margin" data-label="Margin">Margin</button></th>
             <th data-field="total_votes" class="lx-hide-narrow"><button data-sort="total_votes" data-label="Votes">Votes</button></th>
+            <th data-field="turnout" class="lx-hide-narrow"><button data-sort="turnout" data-label="Turnout">Turnout</button></th>
           </tr></thead><tbody></tbody>
         </table>
       </div>
@@ -548,6 +555,7 @@ button { font: inherit; }
         <li><a href="data/tx_house_results.csv" download>Texas House by district (CSV)</a> · <a href="data/tx_senate_results.csv" download>Texas Senate (CSV)</a></li>
         <li><a href="data/tx_ushouse_results.csv" download>U.S. House by district (CSV)</a> · <a href="data/tx_sboe_results.csv" download>SBOE (CSV)</a></li>
         <li><a href="data/fortbend_results.csv" download>Fort Bend by precinct (CSV)</a> · <a href="data/local_results.csv" download>Key local races (CSV)</a></li>
+        <li><a href="data/turnout_county.csv" download>Turnout by county (CSV)</a> · <a href="data/turnout_district.csv" download>Turnout by district (CSV)</a></li>
         <li><a href="data/live_2026.csv" download>2026 results, unofficial (CSV)</a></li>
       </ul>
     </div>
@@ -556,7 +564,8 @@ button { font: inherit; }
       <ul>
         <li>Texas Secretary of State canvass via <a href="https://github.com/openelections/openelections-data-tx">OpenElections</a></li>
         <li><a href="https://github.com/MEDSL">MIT Election Data + Science Lab</a></li>
-        <li>Texas Legislative Council <a href="https://data.capitol.texas.gov/">Capitol Data Portal</a> (official returns, district and precinct maps)</li>
+        <li>Texas Legislative Council <a href="https://data.capitol.texas.gov/">Capitol Data Portal</a> (official returns, precinct turnout, district and precinct maps)</li>
+        <li>Texas Secretary of State <a href="https://www.sos.texas.gov/elections/historical/counties.shtml">county turnout history</a> and <a href="https://www.sos.texas.gov/elections/historical/70-92.shtml">statewide turnout figures</a></li>
         <li><a href="https://civicapi.org">CivicAPI</a> (2024 results)</li>
         <li><a href="https://goelect.txelections.civixapps.com/ivis-enr-ui/races">Texas Secretary of State election-night results</a> (2026, unofficial)</li>
         <li>County election offices: Harris County Clerk, Tarrant, Collin, Denton, Dallas, Travis, Williamson and Fort Bend County Elections</li>
@@ -566,7 +575,7 @@ button { font: inherit; }
     </div>
   </div>
 </footer>
-<script>window.DASH_DATASETS = {"results": {"url": "data/tx_statewide_results_by_county.csv", "format": "csv"}, "county_shapes": {"url": "data/tx_county_shapes.json", "format": "json"}, "house_results": {"url": "data/tx_house_results.csv", "format": "csv"}, "senate_results": {"url": "data/tx_senate_results.csv", "format": "csv"}, "ushouse_results": {"url": "data/tx_ushouse_results.csv", "format": "csv"}, "sboe_results": {"url": "data/tx_sboe_results.csv", "format": "csv"}, "house_shapes": {"url": "data/tx_house_district_shapes.json", "format": "json"}, "senate_shapes": {"url": "data/tx_senate_district_shapes.json", "format": "json"}, "ushouse_shapes": {"url": "data/tx_ushouse_district_shapes.json", "format": "json"}, "sboe_shapes": {"url": "data/tx_sboe_district_shapes.json", "format": "json"}, "fortbend_results": {"url": "data/fortbend_results.csv", "format": "csv"}, "fortbend_shapes": {"url": "data/fortbend_precinct_shapes.json", "format": "json"}, "local_results": {"url": "data/local_results.csv", "format": "csv"}, "local_2026": {"url": "data/local_2026.csv", "format": "csv"}, "candidate_bios": {"url": "data/candidate_bios.csv", "format": "csv"}, "live_2026": {"url": "data/live_2026.csv", "format": "csv", "live": true}, "live_status": {"url": "data/live_status.json", "format": "json", "live": true}}; window.DASH_PARAMS = {"b_district": null, "b_year": 2024, "county": null, "fb_race": "2022 County Judge", "lr_area": "fortbend", "lr_race": null, "h_district": null, "h_year": 2024, "race": "2024 Senate", "s_district": null, "s_year": 2024, "sw_view": "offices", "tab": "statewide", "u_district": null, "u_year": 2024, "view": "result"};</script>
+<script>window.DASH_DATASETS = {"results": {"url": "data/tx_statewide_results_by_county.csv", "format": "csv"}, "county_shapes": {"url": "data/tx_county_shapes.json", "format": "json"}, "house_results": {"url": "data/tx_house_results.csv", "format": "csv"}, "senate_results": {"url": "data/tx_senate_results.csv", "format": "csv"}, "ushouse_results": {"url": "data/tx_ushouse_results.csv", "format": "csv"}, "sboe_results": {"url": "data/tx_sboe_results.csv", "format": "csv"}, "house_shapes": {"url": "data/tx_house_district_shapes.json", "format": "json"}, "senate_shapes": {"url": "data/tx_senate_district_shapes.json", "format": "json"}, "ushouse_shapes": {"url": "data/tx_ushouse_district_shapes.json", "format": "json"}, "sboe_shapes": {"url": "data/tx_sboe_district_shapes.json", "format": "json"}, "fortbend_results": {"url": "data/fortbend_results.csv", "format": "csv"}, "fortbend_shapes": {"url": "data/fortbend_precinct_shapes.json", "format": "json"}, "local_results": {"url": "data/local_results.csv", "format": "csv"}, "local_2026": {"url": "data/local_2026.csv", "format": "csv"}, "candidate_bios": {"url": "data/candidate_bios.csv", "format": "csv"}, "turnout_county": {"url": "data/turnout_county.csv", "format": "csv"}, "turnout_district": {"url": "data/turnout_district.csv", "format": "csv"}, "live_2026": {"url": "data/live_2026.csv", "format": "csv", "live": true}, "live_status": {"url": "data/live_status.json", "format": "json", "live": true}}; window.DASH_PARAMS = {"b_district": null, "b_year": 2024, "county": null, "fb_race": "2022 County Judge", "lr_area": "fortbend", "lr_race": null, "h_district": null, "h_year": 2024, "race": "2024 Senate", "s_district": null, "s_year": 2024, "sw_view": "offices", "tab": "statewide", "u_district": null, "u_year": 2024, "view": "result"};</script>
 <script src="js/d3.v7.9.0.min.js"></script>
 <script src="js/dash-runtime.js"></script>
 <script src="js/photos.js"></script>

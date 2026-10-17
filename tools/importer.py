@@ -92,11 +92,13 @@ def main():
     year = int(a.date[:4])
     fips = json.load(open(a.county_map))  # {normalized county name: fips}
     rows, problems, n_called, n_counting = [], [], 0, 0
+    turnout = {}
     source, races = 'CivicAPI (civicapi.org), unofficial', []
     state_rows = None
     if sos_live:
         try:
             state_rows, state_info = sos_live.collect(a.date, fips)
+            turnout = state_info.get('turnout') or {}
             problems += state_info.get('problems') or []
         except Exception as e:  # fall back to CivicAPI
             problems.append(f'state feed: {str(e)[:160]}')
@@ -166,7 +168,8 @@ def main():
     phase = 'pre-election' if not n_counting and not n_called else 'final' if n_called == len(races) and races else 'counting'
     now = datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
     json.dump([{'phase': phase, 'updated_at': now, 'source': source, 'races': len(races), 'called': n_called,
-                'counting': n_counting, 'problems': problems[:20], 'local_problems': local_problems[:20]}], open(os.path.join(a.out, 'live_status.json'), 'w'), indent=1)
+                'counting': n_counting, 'problems': problems[:20], 'local_problems': local_problems[:20],
+                'turnout': {'counties': turnout} if turnout else None}], open(os.path.join(a.out, 'live_status.json'), 'w'), indent=1)
     print(json.dumps({'races': len(races), 'rows': len(rows), 'phase': phase, 'called': n_called, 'counting': n_counting, 'problems': len(problems), 'local_rows': sum(r['level'] in ('local', 'fortbend') for r in rows)}))
     for p in local_problems[:10]: print('local:', p, file=sys.stderr)
     for p in problems[:10]: print('problem:', p, file=sys.stderr)

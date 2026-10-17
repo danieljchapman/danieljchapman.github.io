@@ -15,6 +15,34 @@
   };
   LX.BINS = [0.1, 0.2, 0.4, 0.6];
   LX.rampColor = (side, m) => LX.RAMP[side][d3.bisect(LX.BINS, Math.abs(m))];
+  // turnout: ballots cast as a share of registered voters (one number per place and year, for every race on that ballot)
+  LX.RAMP.T = ['#dcefe9', '#a6d8c8', '#62b49d', '#2e8a6f', '#0f5a45'];
+  LX.TO_BINS = [0.35, 0.45, 0.55, 0.65];
+  LX.TO_LEGEND = 'turnout, light → dark: <35% · 35–45 · 45–55 · 55–65 · 65%+';
+  LX.turnoutColor = (t) => LX.RAMP.T[d3.bisect(LX.TO_BINS, t)];
+  LX.short = (n) => n >= 1e7 ? (n / 1e6).toFixed(1) + 'M' : n >= 1e6 ? (n / 1e6).toFixed(2) + 'M' : n >= 1e4 ? Math.round(n / 1e3) + 'K' : LX.fmt(n);
+  LX.turnoutText = (o) => o ? `${LX.pct(o.turnout)} (${LX.fmt(o.ballots)} of ${LX.fmt(o.registered)})` : '—';
+  // lookups: county '<year>|<fips>' (statewide is '<year>|TX'), district '<level>|<year>|<district>'; 2026 comes from the live state feed
+  LX.turnout = () => {
+    const tc = dash.data('turnout_county'), td = dash.data('turnout_district'), ls = dash.data('live_status');
+    if (tc.status !== 'ok') return null;
+    const key = [tc.data, td.status === 'ok' ? td.data : null, ls.status === 'ok' ? ls.data : null];
+    if (LX._to && LX._to.key.every((k, i) => k === key[i])) return LX._to;
+    const county = new Map(), district = new Map();
+    const put = (m, k, r, b, extra) => { r = Number(r); b = Number(b); if (r > 0 && b >= 0) m.set(k, { registered: r, ballots: b, turnout: b / r, ...extra }); };
+    const unit = (u) => { u = String(u); return /^\d+$/.test(u) ? u.padStart(5, '0') : u; };
+    for (const r of tc.data) put(county, r.year + '|' + unit(r.unit), r.registered, r.ballots, { source: r.source });
+    if (td.status === 'ok') for (const r of td.data) put(district, r.level + '|' + r.year + '|' + r.district, r.registered, r.ballots, { method: r.method });
+    const s = ls.status === 'ok' ? (Array.isArray(ls.data) ? ls.data[0] : ls.data) || {} : {};
+    const live = s.turnout && s.turnout.counties;
+    if (live && s.phase !== 'pre-election') {
+      let R = 0, B = 0;
+      for (const [f, v] of Object.entries(live)) { put(county, '2026|' + unit(f), v[0], v[1], { live: true }); R += Number(v[0]) || 0; B += Number(v[1]) || 0; }
+      if (R) put(county, '2026|TX', R, B, { live: true });
+    }
+    LX._to = { key, county, district };
+    return LX._to;
+  };
   LX.placeTip = (tip, card, event) => {
     const r = card.getBoundingClientRect();
     tip.style.display = 'block';

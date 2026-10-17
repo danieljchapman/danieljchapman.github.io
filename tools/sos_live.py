@@ -124,8 +124,14 @@ def collect(date, county_fips):
                 rows.append({'level': level, 'race': race_id, 'year': year, 'office': office, 'plan': plan, 'unit': district, 'unit_name': '',
                              'candidate': nice(cand['N']), 'party': PARTY.get(cand.get('P') or '', 'O'), 'votes': cand.get('V') or 0, 'status': status,
                              'reporting': pr, 'reporting_total': tp})
+    # registered voters and ballots cast per county (Summary.RV / Summary.VC)
+    turnout = {}
+    for c in counties.values():
+        f = county_fips.get(norm(c['N'])); sm = c.get('Summary') or {}
+        if f and sm.get('RV'):
+            turnout[f] = [int(sm.get('RV') or 0), int(sm.get('VC') or 0)]
     home = el.get('Home') or {}
-    return rows, {'election_id': eid, 'updated': home.get('LastUpdatedTime'), 'counties_reporting': home.get('CountiesReporting'), 'problems': sorted(set(problems))[:10]}
+    return rows, {'turnout': turnout, 'election_id': eid, 'updated': home.get('LastUpdatedTime'), 'counties_reporting': home.get('CountiesReporting'), 'problems': sorted(set(problems))[:10]}
 
 
 if __name__ == '__main__':

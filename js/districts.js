@@ -234,12 +234,16 @@
     setK('k-unc', S ? String(S.uncontested) : '—'); q('k-unc-sub').textContent = S ? `${S.uncontested_r} Republican · ${S.uncontested_d} Democratic` : '';
     setK('k-close', S ? S.closest_label : '—');
     setK('k-votes', S ? fmt(S.total_votes) : '—');
+    const T = LX.turnout(), toOf = (dist) => T ? T.district.get(c.level + '|' + year + '|' + dist) : null;
+    const tos = rows.map((r) => toOf(r.district)).filter(Boolean);
+    const vs = q('k-votes-sub');
+    if (vs) vs.textContent = tos.length ? `Turnout: ${pct(d3.sum(tos, (t) => t.ballots) / d3.sum(tos, (t) => t.registered))} of registered voters` : '';
 
     if (c.id === 'house' || c.id === 'senate') drawChamber(c, year);
-    drawMap(c, st, shapes, byD, year, sel, plan);
-    drawDetail(c, byD.get(sel), year, sel, pending);
+    drawMap(c, st, shapes, byD, year, sel, plan, toOf);
+    drawDetail(c, byD.get(sel), year, sel, pending, toOf);
     drawSeats(c, sm.data, year, fullSize);
-    drawTable(c, st, rows, sel, pending);
+    drawTable(c, st, rows.map((r) => { const t = toOf(r.district); return { ...r, turnout: t ? t.turnout : null }; }), sel, pending);
   }
 
   const CHAMBER_NOTES = { senate: { 2018: 'Republican Pete Flores won District 19 in a September 2018 special election, so the Senate seated in January 2019 was 19–12. This count uses general-election results only.' } };
@@ -303,7 +307,7 @@
     if (note && !before) line('lx-chamber-note', note);
   }
 
-  function drawMap(c, st, shapes, byD, year, sel, plan) {
+  function drawMap(c, st, shapes, byD, year, sel, plan, toOf) {
     const P = c.p, el = document.getElementById(P + '-map'); el.classList.remove('dash-skeleton');
     const card = document.getElementById(P + '-map-card'), tip = document.getElementById(P + '-map-tip');
     if (!shapes.length) {
@@ -328,6 +332,8 @@
           LX.tipLine(tip, null, 'Margin', r.margin_label);
           if (r.status === 'counting' && r.reporting_total) LX.tipLine(tip, null, 'Precincts reporting', r.reporting_total === 100 ? `${r.reporting}%` : `${r.reporting} of ${r.reporting_total}`);
         }
+        const to = toOf(d.district);
+        if (to) LX.tipLine(tip, null, to.method === 'map' ? 'Turnout (est.)' : 'Turnout', LX.turnoutText(to));
         LX.placeTip(tip, card, event);
       })
       .on('mouseleave', () => { tip.style.display = 'none'; })
@@ -344,7 +350,7 @@
     if (shapes.some((d) => !hasFill(byD.get(d.district)))) { const g = document.createElement('span'); g.className = 'grp'; const s = document.createElement('i'); s.className = 'sw'; s.style.background = muted; g.append(s, document.createTextNode(year === 2026 ? 'No results yet' : 'Not on the ballot')); lg.append(g); }
   }
 
-  function drawDetail(c, r, year, sel, pending) {
+  function drawDetail(c, r, year, sel, pending, toOf) {
     const P = c.p, box = document.getElementById(P + '-detail'); box.classList.remove('dash-skeleton');
     const title = document.getElementById(P + '-detail-title'), note = document.getElementById(P + '-detail-note'), clr = document.getElementById(P + '-clear');
     const chosen = dash.params()[P + '_district'] != null;
@@ -353,7 +359,8 @@
     if (!r) { box.replaceChildren(); note.textContent = sel ? (year === 2026 ? `No results for District ${sel} yet.` : `District ${sel} was not on the ballot in ${year}. Pick another district on the map or in the table.`) : 'Click a district on the map to see its candidates.'; return; }
     const counting = r.status === 'counting';
     note.textContent = (chosen ? '' : 'Closest race of the year, shown until you pick a district. ') + (!r.contested ? 'Unopposed' + (r.votes_reported ? ` · ${fmt(r.total_votes)} votes` : '') : r.votes_reported ? `Margin ${r.margin_label} · ${fmt(r.total_votes)} votes` : 'No votes counted yet') +
-      (counting && r.reporting_total ? (r.reporting_total === 100 ? ` · ${r.reporting}% of precincts reporting` : ` · ${r.reporting} of ${r.reporting_total} precincts reporting`) : '');
+      (counting && r.reporting_total ? (r.reporting_total === 100 ? ` · ${r.reporting}% of precincts reporting` : ` · ${r.reporting} of ${r.reporting_total} precincts reporting`) : '') +
+      (toOf(r.district) ? ` · Turnout ${pct(toOf(r.district).turnout)}` : '');
     const list = [1, 2, 3, 4].filter((i) => r['c' + i + '_name']);
     box.replaceChildren(...list.map((i) => {
       const name = r['c' + i + '_name'], party = r['c' + i + '_party'], col = partyCol(party), where = 'year=' + year + '&district=' + r.district;
@@ -465,6 +472,7 @@
       }
       td(r.margin_label, !r.contested ? '' : r.margin > 0 ? 'lx-r' : r.margin < 0 ? 'lx-d' : '');
       td(r.votes_reported ? fmt(r.total_votes) : '—', 'lx-hide-narrow');
+      td(r.turnout == null ? '—' : pct(r.turnout), 'lx-hide-narrow');
       return tr;
     }));
   }
