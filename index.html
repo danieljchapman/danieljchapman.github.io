@@ -129,6 +129,12 @@ button { font: inherit; }
 .lx-chamber-nums b { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); }
 .lx-chamber-note { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); border-left: 2px solid var(--color-border-line); padding-left: var(--cds-pad-sm); }
 [hidden] { display: none !important; }
+.lx-pickers { gap: var(--cds-gap-md); }
+.lx-select { display: inline-flex; align-items: center; gap: var(--cds-gap-sm); font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+.lx-select select { font: inherit; font-size: var(--cds-font-size-body); color: var(--color-fg); background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: 8px; padding: 0.35rem 2rem 0.35rem 0.7rem; min-height: 2.2rem; cursor: pointer; appearance: none; -webkit-appearance: none;
+  background-image: linear-gradient(45deg, transparent 50%, currentColor 50%), linear-gradient(135deg, currentColor 50%, transparent 50%); background-position: calc(100% - 15px) 52%, calc(100% - 10px) 52%; background-size: 5px 5px; background-repeat: no-repeat; }
+.lx-select select:hover { border-color: var(--color-fg-muted); }
+.lx-select select:focus-visible { outline: 2px solid var(--lx-dem); outline-offset: 1px; }
 .lx-subtabs { display: flex; gap: var(--cds-gap-xs); flex-wrap: wrap; }
 .lx-pill-new { border-style: dashed; }
 .lx-live { display: flex; gap: var(--cds-gap-sm); align-items: center; flex-wrap: wrap; font-size: var(--cds-font-size-caption); color: var(--color-fg); background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-sm) var(--cds-pad-md); }
@@ -162,7 +168,7 @@ button { font: inherit; }
   <div class="lx-live" id="sw-live" hidden></div>
   <p class="lx-take dash-skeleton" id="takeaway">—</p>
   <section class="lx-controls" id="controls" aria-label="Choose a race">
-    <div id="race-rows" class="lx-controls"></div>
+    <div id="race-rows" class="lx-row lx-pickers"></div>
   </section>
 
   <section id="candidates" aria-label="Candidates">
@@ -249,7 +255,7 @@ button { font: inherit; }
     <section class="lx-grid">
       <div class="lx-card" id="h-map-card">
         <div class="lx-cardhead"><div><h2>District results</h2><p class="lx-note">Red for Republican margins, blue for Democratic; darker means a bigger margin. Click a district to see its candidates.</p></div></div>
-        <div class="lx-row" id="h-zoom" role="group" aria-label="Zoom to area" style="margin-bottom:var(--cds-gap-sm)"></div>
+        <div class="lx-row" id="h-zoom" style="margin-bottom:var(--cds-gap-sm)"></div>
         <div class="lx-map dash-skeleton" id="h-map" data-source="house_by_district house_shapes"></div>
         <div class="lx-legend" id="h-legend"></div>
         <div class="lx-tip" id="h-map-tip"></div>
@@ -307,7 +313,7 @@ button { font: inherit; }
     <section class="lx-grid">
       <div class="lx-card" id="s-map-card">
         <div class="lx-cardhead"><div><h2>District results</h2><p class="lx-note">Red for Republican margins, blue for Democratic; darker means a bigger margin. Click a district to see its candidates.</p></div></div>
-        <div class="lx-row" id="s-zoom" role="group" aria-label="Zoom to area" style="margin-bottom:var(--cds-gap-sm)"></div>
+        <div class="lx-row" id="s-zoom" style="margin-bottom:var(--cds-gap-sm)"></div>
         <div class="lx-map dash-skeleton" id="s-map" data-source="senate_by_district senate_shapes"></div>
         <div class="lx-legend" id="s-legend"></div>
         <div class="lx-tip" id="s-map-tip"></div>
@@ -361,7 +367,7 @@ button { font: inherit; }
     <section class="lx-grid">
       <div class="lx-card" id="u-map-card">
         <div class="lx-cardhead"><div><h2>District results</h2><p class="lx-note">Red for Republican margins, blue for Democratic; darker means a bigger margin. Click a district to see its candidates.</p></div></div>
-        <div class="lx-row" id="u-zoom" role="group" aria-label="Zoom to area" style="margin-bottom:var(--cds-gap-sm)"></div>
+        <div class="lx-row" id="u-zoom" style="margin-bottom:var(--cds-gap-sm)"></div>
         <div class="lx-map dash-skeleton" id="u-map" data-source="ushouse_by_district ushouse_shapes"></div>
         <div class="lx-legend" id="u-legend"></div>
         <div class="lx-tip" id="u-map-tip"></div>
@@ -415,7 +421,7 @@ button { font: inherit; }
     <section class="lx-grid">
       <div class="lx-card" id="b-map-card">
         <div class="lx-cardhead"><div><h2>District results</h2><p class="lx-note">Red for Republican margins, blue for Democratic; darker means a bigger margin. Click a district to see its candidates.</p></div></div>
-        <div class="lx-row" id="b-zoom" role="group" aria-label="Zoom to area" style="margin-bottom:var(--cds-gap-sm)"></div>
+        <div class="lx-row" id="b-zoom" style="margin-bottom:var(--cds-gap-sm)"></div>
         <div class="lx-map dash-skeleton" id="b-map" data-source="sboe_by_district sboe_shapes"></div>
         <div class="lx-legend" id="b-legend"></div>
         <div class="lx-tip" id="b-map-tip"></div>
@@ -457,7 +463,7 @@ button { font: inherit; }
     <header><h2 class="lx-tabtitle">Fort Bend County: County Judge and Commissioners</h2></header>
     <div class="lx-live" id="fb-live" hidden></div>
     <p class="lx-take dash-skeleton" id="fb-take">—</p>
-    <section class="lx-controls" id="fb-race-rows" aria-label="Choose a race"></section>
+    <section class="lx-row lx-pickers" id="fb-race-rows" aria-label="Choose a race"></section>
     <section aria-label="Candidates"><div class="lx-cands dash-skeleton" id="fb-cands" data-source="fb_candidates"></div></section>
     <section class="lx-kpis">
       <div class="lx-card"><div class="lx-kpi-label">Margin (R − D)</div><div class="lx-kpi-value dash-skeleton" id="fb-k-margin" data-source="fb_races" data-field="margin_label">—</div><div class="lx-kpi-sub" id="fb-k-shift"></div></div>

@@ -68,6 +68,42 @@
     el.append(dot, t, src);
   };
 
+  // ---------- dropdowns ----------
+  // a <select> with an optional visible label; onChange gets the chosen value
+  LX.makeSelect = (label, onChange, ariaLabel) => {
+    const wrap = document.createElement('label'); wrap.className = 'lx-select';
+    if (label) { const s = document.createElement('span'); s.className = 'lx-select-label'; s.textContent = label; wrap.append(s); }
+    const sel = document.createElement('select'); if (ariaLabel || label) sel.setAttribute('aria-label', ariaLabel || label);
+    sel.addEventListener('change', () => onChange(sel.value));
+    wrap.append(sel); return { wrap, sel };
+  };
+  // replace options only when they change; keep the shown value in step with the page
+  LX.setOptions = (sel, opts, value) => {
+    const key = opts.map((o) => o[0] + '\u0001' + o[1]).join('\u0002');
+    if (sel._key !== key) { sel.replaceChildren(...opts.map(([v, t]) => new Option(t, v))); sel._key = key; }
+    if (document.activeElement !== sel || sel.value !== String(value)) sel.value = String(value);
+  };
+  // office + year pickers over a list of races: [{ race, year, group, yearLabel }]
+  LX.racePicker = (box, groups, races, current, onPick) => {
+    if (!box._picker) {
+      box.replaceChildren();
+      const office = LX.makeSelect('Office', (g) => {
+        const cur = box._races.find((r) => r.race === box._current) || {};
+        const list = box._races.filter((r) => r.group === g);
+        const pick = list.find((r) => r.year === cur.year) || list.filter((r) => r.year < 2026).pop() || list[list.length - 1];
+        if (pick) onPick(pick.race);
+      });
+      const year = LX.makeSelect('Year', (race) => onPick(race));
+      box.append(office.wrap, year.wrap);
+      box._picker = { office: office.sel, year: year.sel };
+    }
+    box._races = races; box._current = current;
+    const cur = races.find((r) => r.race === current) || races[races.length - 1];
+    LX.setOptions(box._picker.office, groups.filter(([g]) => races.some((r) => r.group === g)), cur.group);
+    const list = races.filter((r) => r.group === cur.group).sort((a, b) => b.year - a.year || b.race.length - a.race.length);
+    LX.setOptions(box._picker.year, list.map((r) => [r.race, r.yearLabel]), cur.race);
+  };
+
   // tabs
   const TABS = ['statewide', 'house', 'senate', 'fortbend'];
   LX.tab = () => { const t = dash.params().tab; return TABS.includes(t) ? t : 'statewide'; };

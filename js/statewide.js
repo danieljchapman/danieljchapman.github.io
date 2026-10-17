@@ -145,28 +145,13 @@
     if (tr) dash.setParams({ county: params().county === tr.dataset.fips ? null : tr.dataset.fips });
   });
 
-  let pillsKey = '';
-  function buildPills(sw) {
+  function buildPickers(sw, current) {
     const races = new Map();
     for (const r of sw) races.set(r.race, { race: r.race, year: r.year, office: r.office });
     for (const o of LX.SCHEDULE_2026.statewide) if (!races.has('2026 ' + o)) races.set('2026 ' + o, { race: '2026 ' + o, year: 2026, office: o });
-    const key = [...races.keys()].join('|');
-    if (key === pillsKey) return;
-    pillsKey = key;
-    const box = document.getElementById('race-rows'); box.replaceChildren();
-    for (const [office, label] of OFFICES) {
-      const list = [...races.values()].filter((r) => officeOf(r.office) === office).sort((a, b) => a.year - b.year || a.race.length - b.race.length);
-      const row = document.createElement('div'); row.className = 'lx-row';
-      const l = document.createElement('span'); l.className = 'lx-row-label'; l.textContent = label;
-      const pills = document.createElement('span'); pills.className = 'lx-row';
-      for (const r of list) {
-        const b = document.createElement('button'); b.className = 'lx-pill' + (r.year === 2026 ? ' lx-pill-new' : ''); b.dataset.race = r.race;
-        b.textContent = r.office.includes('unexpired') ? r.year + ' (unexpired)' : String(r.year);
-        b.addEventListener('click', () => dash.setParams({ race: r.race }));
-        pills.append(b);
-      }
-      row.append(l, pills); box.append(row);
-    }
+    const list = [...races.values()].map((r) => ({ race: r.race, year: r.year, group: officeOf(r.office),
+      yearLabel: r.office.includes('unexpired') ? r.year + ' (unexpired term)' : r.year === 2026 ? '2026 (Nov. 3)' : String(r.year) }));
+    LX.racePicker(document.getElementById('race-rows'), OFFICES, list, current, (race) => dash.setParams({ race }));
   }
 
   let cacheKey = null, byRace = null, rawIdx = null;
@@ -181,8 +166,7 @@
       if (deps.some((d) => d.status === 'error' || d.status === 'missing')) ['map', 'trend', 'cand-cards'].forEach((id) => LX.failLine(document.getElementById(id)));
       return;
     }
-    buildPills(sw.data);
-    document.querySelectorAll('#race-rows .lx-pill').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.race === p.race)));
+    buildPickers(sw.data, p.race);
     if (cacheKey !== bc.data) {
       cacheKey = bc.data; byRace = d3.group(bc.data, (d) => d.race);
       const raw = res.data.concat(live.data.filter((r) => r.level === 'statewide').map((r) => ({ race: r.race, county_fips: String(r.unit).padStart(5, '0'), candidate: r.candidate, party: r.party, votes: r.votes })));

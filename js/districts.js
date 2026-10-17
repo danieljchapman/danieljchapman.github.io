@@ -147,11 +147,10 @@
       const tr = e.target.closest('tr[data-district]');
       if (tr) { dash.setParams({ [P + '_district']: Number(tr.dataset.district) }); q('detail-card').scrollIntoView({ block: 'nearest', behavior: 'smooth' }); }
     });
-    q('zoom').replaceChildren(...METROS.map(([name, box]) => {
-      const b = document.createElement('button'); b.className = 'lx-pill'; b.textContent = name; b.dataset.metro = name;
-      b.addEventListener('click', () => { st.zoom = box; draw(); });
-      return b;
-    }));
+    const zoomSel = LX.makeSelect('Zoom to', (name) => { st.zoom = (METROS.find((m) => m[0] === name) || [])[1] || null; draw(); });
+    q('zoom').replaceChildren(zoomSel.wrap); st.zoomSel = zoomSel.sel;
+    const yearSel = LX.makeSelect('', (y) => dash.setParams({ [P + '_year']: Number(y) }), 'Election year');
+    q('years').replaceChildren(yearSel.wrap); st.yearSel = yearSel.sel;
   }
 
   function draw() {
@@ -170,12 +169,8 @@
     const years = sm.status === 'ok' ? [...new Set(sm.data.map((r) => r.year).concat([2026]))].sort((a, b) => a - b) : [];
     const pr = dash.params();
     const year = years.includes(Number(pr[P + '_year'])) ? Number(pr[P + '_year']) : 2024;
-    const yp = q('years');
-    if (years.length && yp.childElementCount !== years.length) {
-      yp.replaceChildren(...years.map((y) => { const b = document.createElement('button'); b.className = 'lx-pill' + (y === 2026 ? ' lx-pill-new' : ''); b.textContent = y; b.dataset.year = y; b.addEventListener('click', () => dash.setParams({ [P + '_year']: y })); return b; }));
-    }
-    yp.querySelectorAll('button').forEach((b) => b.setAttribute('aria-pressed', String(Number(b.dataset.year) === year)));
-    q('zoom').querySelectorAll('button').forEach((b) => b.setAttribute('aria-pressed', String((METROS.find((m) => m[0] === b.dataset.metro) || [])[1] === st.zoom)));
+    if (years.length) LX.setOptions(st.yearSel, years.slice().reverse().map((y) => [y, y === 2026 ? '2026 (Nov. 3)' : String(y)]), year);
+    LX.setOptions(st.zoomSel, METROS.map(([n]) => [n, n]), (METROS.find((m) => m[1] === st.zoom) || METROS[0])[0]);
     document.querySelectorAll(`#${c.host} [data-source="${c.id}_summary"][data-field]`).forEach((el) => el.setAttribute('data-where', 'year=' + year));
     if (!all.every((d) => d.status === 'ok')) {
       if (all.some((d) => d.status === 'error' || d.status === 'missing')) ['parties', 'map', 'seats', 'detail'].forEach((id) => LX.failLine(q(id)));

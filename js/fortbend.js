@@ -95,7 +95,7 @@
   });
 
   // ---------- page ----------
-  let sortKey = 'precinct', sortDir = 1, query = '', pillsKey = '';
+  let sortKey = 'precinct', sortDir = 1, query = '';
   function setup() {
     if (!LX.mount('tab-fortbend')) return;
     document.getElementById('fb-search').addEventListener('input', (e) => { query = e.target.value.trim().toLowerCase(); draw(); });
@@ -115,22 +115,10 @@
     }
     const races = new Map(rc.data.map((r) => [r.race, r]));
     for (const o of LX.SCHEDULE_2026.fortbend) if (!races.has('2026 ' + o)) races.set('2026 ' + o, { race: '2026 ' + o, year: 2026, office: o, pending: true });
-    const key = [...races.keys()].join('|');
-    if (key !== pillsKey) {
-      pillsKey = key;
-      const box = document.getElementById('fb-race-rows'); box.replaceChildren();
-      for (const o of OFFICES) {
-        const list = [...races.values()].filter((r) => r.office === o).sort((a, b) => a.year - b.year);
-        if (!list.length) continue;
-        const row = document.createElement('div'); row.className = 'lx-row';
-        const l = document.createElement('span'); l.className = 'lx-row-label'; l.textContent = o.replace('Commissioner Pct', 'Commissioner, Pct.');
-        const pills = document.createElement('span'); pills.className = 'lx-row';
-        for (const r of list) { const b = document.createElement('button'); b.className = 'lx-pill' + (r.year === 2026 ? ' lx-pill-new' : ''); b.dataset.race = r.race; b.textContent = r.year; b.addEventListener('click', () => dash.setParams({ fb_race: r.race })); pills.append(b); }
-        row.append(l, pills); box.append(row);
-      }
-    }
     const raceId = races.has(dash.params().fb_race) ? dash.params().fb_race : '2022 County Judge';
-    document.querySelectorAll('#fb-race-rows .lx-pill').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.race === raceId)));
+    LX.racePicker(document.getElementById('fb-race-rows'), OFFICES.map((o) => [o, o.replace('Commissioner Pct', 'Commissioner, Precinct')]),
+      [...races.values()].map((r) => ({ race: r.race, year: r.year, group: r.office, yearLabel: r.year === 2026 ? '2026 (Nov. 3)' : String(r.year) })),
+      raceId, (race) => dash.setParams({ fb_race: race }));
     const R = races.get(raceId), year = R.year, office = R.office;
     const pending = R.pending || !R.total_votes && !(cd.data.find((c) => c.race === raceId && c.unopposed));
     const C = cd.data.filter((c) => c.race === raceId).sort((a, b) => a.rank - b.rank);
