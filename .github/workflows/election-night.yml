@@ -1,0 +1,48 @@
+name: Election-night results
+
+# Pulls unofficial 2026 Texas results from CivicAPI into data/live_2026.csv and
+# data/live_status.json, and commits them so GitHub Pages republishes the site.
+on:
+  schedule:
+    # Every 10 minutes, Nov 3 7:00 pm to Nov 4 6:00 am Central (CST, UTC-6 after Nov 1).
+    - cron: '*/10 1-11 4 11 *'
+  workflow_dispatch: {}   # "Run workflow" button, for tests and manual refreshes
+
+permissions:
+  contents: write
+
+concurrency:
+  group: election-night
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch results from CivicAPI
+        run: |
+          for attempt in 1 2; do
+            python3 tools/importer.py --date 2026-11-03 --out data && break
+            [ "$attempt" = 2 ] && { git checkout -- data; exit 1; }
+            sleep 60
+          done
+
+      - name: Check the files before publishing
+        run: |
+          rows=$(($(wc -l < data/live_2026.csv) - 1))
+          echo "rows: $rows"
+          python3 -c "import json; print(json.load(open('data/live_status.json'))[0])"
+          if [ "$rows" -lt 1000 ]; then echo "Too few rows; not publishing"; git checkout -- data; exit 1; fi
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/live_2026.csv data/live_status.json
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "Update 2026 election results"
+          git pull --rebase origin main
+          git push origin main
