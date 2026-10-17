@@ -48,7 +48,7 @@ def nice(name):
             out.append(w if w.startswith(('I', 'V')) else w.title()); continue
         w = '-'.join(p[:1].upper() + p[1:].lower() for p in w.split('-'))
         w = re.sub(r'^(Mc|O\'|D\')([a-z])', lambda m: m.group(1) + m.group(2).upper(), w)
-        w = re.sub(r'^"(\w)', lambda m: '"' + m.group(1).upper(), w)
+        w = re.sub(r'^(["\'])(\w)', lambda m: m.group(1) + m.group(2).upper(), w)
         out.append(w)
     return ' '.join(out)
 
