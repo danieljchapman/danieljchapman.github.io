@@ -191,14 +191,14 @@
     // takeaway
     const tk = q('take'); tk.classList.remove('dash-skeleton'); tk.replaceChildren();
     const add = (t, b, field) => { const n = document.createElement(b ? 'b' : 'span'); n.textContent = t; if (field) { n.setAttribute('data-source', c.id + '_summary'); n.setAttribute('data-field', field); n.setAttribute('data-where', 'year=' + year); } tk.append(n); };
-    if (pending) add(S ? `${c.full && S.seats_total >= c.full ? `All ${c.full}` : S.seats_total} ${c.label} seats are on the ballot in ${year}${S.uncontested ? `, ${S.uncontested} with a single candidate` : ''}. Results fill in on election night, ${LX.ELECTION_2026}.` : `${year} ${c.label} races are on the ballot ${LX.ELECTION_2026}. Candidates and results will appear here as results come in on election night.`);
+    if (pending) add(S ? `${c.id === 'ushouse' || (c.full && S.seats_total >= c.full) ? `All ${S.seats_total}` : S.seats_total} ${c.label} seats are on the ballot in ${year}${S.uncontested ? `, ${S.uncontested} with a single candidate` : ''}. Results fill in on election night, ${LX.ELECTION_2026}.` : `${year} ${c.label} races are on the ballot ${LX.ELECTION_2026}. Candidates and results will appear here as results come in on election night.`);
     else {
       const lead = S.seats_r >= S.seats_d ? ['Republicans', S.seats_r, 'seats_r'] : ['Democrats', S.seats_d, 'seats_d'];
       add(`In ${year}, `); add(lead[0], true); add(counting ? ' have won or lead in ' : ' won '); add(String(lead[1]), true, lead[2]);
       add(` of the ${S.seats_total} ${c.label} seats on the ballot`);
       add(c.full && S.seats_total < c.full ? ` (the other ${c.full - S.seats_total} weren't up that year). ` : '. ');
-      if (counting && S.undecided) { add(String(S.undecided), true, 'undecided'); add(' races have no votes counted yet. '); }
-      add(String(S.uncontested), true, 'uncontested'); add(S.uncontested === 1 ? ' race had only one candidate on the ballot.' : ' races had only one candidate on the ballot.');
+      if (counting && S.undecided) { add(String(S.undecided), true, 'undecided'); add(S.undecided === 1 ? ' race has no votes counted yet. ' : ' races have no votes counted yet. '); }
+      if (S.uncontested) { add(String(S.uncontested), true, 'uncontested'); add(S.uncontested === 1 ? ' race had only one candidate on the ballot.' : ' races had only one candidate on the ballot.'); }
     }
 
     // party cards

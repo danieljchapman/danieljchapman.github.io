@@ -87,9 +87,10 @@
       for (const c of by_county) {
         let o = g.get(c.race);
         if (!o) { o = { race: c.race, year: c.year, office: c.office, status: c.status, prev_race: c.prev_race, rep_votes: 0, dem_votes: 0, other_votes: 0, total_votes: 0,
-          counties_rep: 0, counties_dem: 0, counties_other: 0, counties_reporting: 0, prec_rep: 0, prec_tot: 0 }; g.set(c.race, o); }
+          counties_rep: 0, counties_dem: 0, counties_other: 0, counties_reporting: 0, counties_complete: 0, prec_rep: 0, prec_tot: 0 }; g.set(c.race, o); }
         o.rep_votes += c.rep_votes; o.dem_votes += c.dem_votes; o.other_votes += c.other_votes; o.total_votes += c.total_votes;
         if (c.reported) { o.counties_reporting++; if (c.winner_party === 'R') o.counties_rep++; else if (c.winner_party === 'D') o.counties_dem++; else o.counties_other++; }
+        if (c.reporting != null && c.reporting_total && c.reporting >= c.reporting_total) o.counties_complete++;
         if (c.reporting != null) o.prec_rep += c.reporting;
         if (c.reporting_total != null) o.prec_tot += c.reporting_total;
       }
@@ -98,7 +99,7 @@
         return { race: o.race, year: o.year, office: o.office, status: o.status, prev_race: o.prev_race,
           rep_votes: o.rep_votes, dem_votes: o.dem_votes, other_votes: o.other_votes, total_votes: t,
           margin, margin_label: lab(margin), counties_rep: o.counties_rep, counties_dem: o.counties_dem, counties_other: o.counties_other,
-          counties_reporting: o.counties_reporting, precincts_reporting_pct: o.prec_tot ? o.prec_rep / o.prec_tot : null };
+          counties_reporting: o.counties_reporting, counties_complete: o.counties_complete, precincts_reporting_pct: o.prec_tot ? o.prec_rep / o.prec_tot : null };
       });
       const idx = new Map(rows.map((r) => [r.race, r]));
       for (const r of rows) {
@@ -209,7 +210,7 @@
         add(status === 'final' ? ` won the ${year} ${oname} race with ` : ` leads the ${year} ${oname} race with `);
         add(pct(lead.pct), true); add(' of the vote');
       }
-      if (status === 'counting') { add(', with '); add(String(S.counties_reporting), true, 'counties_reporting'); add(' of 254 counties reporting.'); }
+      if (status === 'counting') { if (S.precincts_reporting_pct != null) { add(', with '); add(pct(S.precincts_reporting_pct).replace('.0%', '%'), true, 'precincts_reporting_pct'); add(' of precincts reporting.'); } else { add(', with '); add(String(S.counties_reporting), true, 'counties_reporting'); add(' of 254 counties reporting.'); } }
       else { add(', carrying '); add(String(lead.party === 'R' ? S.counties_rep : lead.party === 'D' ? S.counties_dem : S.counties_other), true); add(' of 254 counties.'); }
       if (S.prev_race && S.shift != null) {
         add(` Compared with ${S.prev_race}, the statewide margin moved `);
@@ -228,7 +229,7 @@
     set('#kpi-counties [data-field="counties_rep"]', pending ? '—' : String(S.counties_rep));
     set('#kpi-counties [data-field="counties_dem"]', pending ? '—' : String(S.counties_dem));
     document.querySelector('#kpi-counties .lx-kpi-value').classList.remove('dash-skeleton');
-    document.getElementById('kpi-counties-other').textContent = pending ? '' : status === 'counting' ? `${S.counties_reporting} of 254 counties reporting` : S.counties_other ? `${S.counties_other} won by another candidate` : '';
+    document.getElementById('kpi-counties-other').textContent = pending ? '' : status === 'counting' ? (S.precincts_reporting_pct != null ? `${S.counties_complete} of 254 counties fully counted` : `${S.counties_reporting} of 254 counties reporting`) : S.counties_other ? `${S.counties_other} won by another candidate` : '';
     set('#kpi-votes .lx-kpi-value', pending ? '—' : fmt(S.total_votes));
     set('#kpi-votes [data-field="other_votes"]', pending ? '—' : fmt(S.other_votes));
     document.getElementById('kpi-other-pct').textContent = pending ? '' : ' (' + pct(S.other_votes / S.total_votes) + ')';
@@ -281,12 +282,14 @@
     const R = LX.RAMP, byF = new Map(rows.map((r) => [r.county_fips, r])), muted = css('--cds-chart-muted');
     const resultColor = (r) => r.winner_party !== 'R' && r.winner_party !== 'D' ? LX.rampColor('I', r.winner_lead) : LX.rampColor(r.margin >= 0 ? 'R' : 'D', r.margin);
     const shiftColor = (s) => s == null ? muted : [R.D[4], R.D[3], R.D[1], R.D[0], R.R[0], R.R[1], R.R[3], R.R[4]][d3.bisect(SHIFT_BINS, s)];
+    const stillCounting = (r) => !!r && r.reported && r.status === 'counting' && r.reporting_total != null && r.reporting < r.reporting_total;
     const fill = (r) => !r || !r.reported || FLAGS[p.race + '|' + r.county_fips] ? muted : p.view === 'shift' ? shiftColor(r.shift) : resultColor(r);
     let svg = d3.select(el).select('svg');
     if (svg.empty()) { el.replaceChildren(); svg = d3.select(el).append('svg').attr('viewBox', '0 0 678 645').attr('width', '100%').attr('role', 'img').attr('aria-label', 'Map of Texas counties'); svg.append('g').attr('class', 'cties'); svg.append('g').attr('class', 'selg'); }
     const card = document.getElementById('map-card'), tip = document.getElementById('map-tip');
     svg.select('g.cties').selectAll('path.cty').data(shapes, (d) => d.county_fips).join('path')
       .attr('class', 'cty').attr('d', (d) => d.path).attr('fill', (d) => fill(byF.get(d.county_fips)))
+      .attr('fill-opacity', (d) => { const r = byF.get(d.county_fips); return stillCounting(r) ? 0.45 : 1; })
       .on('mousemove', (event, d) => {
         const r = byF.get(d.county_fips); tip.replaceChildren();
         const t = document.createElement('div'); t.className = 't'; t.textContent = `${d.county} County · ${p.race}`; tip.append(t);
@@ -324,6 +327,10 @@
         lg.append(g);
       }
       const n = document.createElement('span'); n.textContent = 'margin, light → dark: <10 · 10–20 · 20–40 · 40–60 · 60+ pts'; lg.append(n);
+    }
+    if (p.view !== 'shift' && rows.some((r) => r.reported && r.status === 'counting' && r.reporting_total != null && r.reporting < r.reporting_total)) {
+      const g = document.createElement('span'); g.className = 'grp'; const s = document.createElement('i'); s.className = 'sw'; s.style.background = R.R[2]; s.style.opacity = 0.45;
+      const s2 = document.createElement('i'); s2.className = 'sw'; s2.style.background = R.D[2]; s2.style.opacity = 0.45; g.append(s, s2, document.createTextNode('Faded: still counting')); lg.append(g);
     }
     if (rows.length < 254 || rows.some((r) => !r.reported)) sw(muted, 'No results yet');
   }

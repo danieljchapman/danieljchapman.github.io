@@ -118,7 +118,7 @@ def collect(date, county_fips):
                 for cand in rr['C'].values():
                     rows.append({'level': 'statewide', 'race': race_id, 'year': year, 'office': office, 'plan': '', 'unit': f, 'unit_name': c['N'].title(),
                                  'candidate': nice(cand['N']), 'party': PARTY.get(cand.get('P') or '', 'O'), 'votes': cand.get('V') or 0, 'status': status,
-                                 'reporting': round(100 * (rr.get('PR') or 0) / rr['TP']) if rr.get('TP') else '', 'reporting_total': 100})
+                                 'reporting': rr.get('PR') or 0, 'reporting_total': rr.get('TP') or ''})  # precinct counts, so they add up statewide
         else:
             for cand in r['Candidates']:
                 rows.append({'level': level, 'race': race_id, 'year': year, 'office': office, 'plan': plan, 'unit': district, 'unit_name': '',
