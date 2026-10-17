@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Election-night importer for the Texas Election Results dashboard.
 
-Pulls Texas races for one election date from CivicAPI (civicapi.org) and writes:
+Pulls Texas races for one election date from the Texas Secretary of State's election-night
+feed (sos_live.py), falling back to CivicAPI (civicapi.org) if the state feed can't be read, and writes:
   live_2026.csv     one row per race, area (county or district) and candidate
   live_status.json  phase, update time, source
 Usage: python3 importer.py [--date 2026-11-03] [--out DIR]
@@ -13,6 +14,10 @@ try:
     import local_live  # county election offices, for the Key Local Races tab
 except ImportError:
     local_live = None
+try:
+    import sos_live  # Texas Secretary of State election-night results (every statewide and district race)
+except ImportError:
+    sos_live = None
 
 API = 'https://civicapi.org/api/v2'
 STATEWIDE = {'Texas Governor': 'Governor', 'Texas US Senate': 'Senate', 'Texas Lieutenant Governor': 'Lt. Governor', 'Texas Railroad Commissioner': 'Railroad Commissioner',
@@ -86,10 +91,27 @@ def main():
     a = ap.parse_args()
     year = int(a.date[:4])
     fips = json.load(open(a.county_map))  # {normalized county name: fips}
-    keep = lambda n: classify(n) and not re.search(r'primary|runoff', n, re.I) and (not re.search(r'special', n, re.I) or 'Supreme Court' in n)
-    races = [r for r in search(a.date) if keep(r['election_name'])]
     rows, problems, n_called, n_counting = [], [], 0, 0
-    for r in sorted(races, key=lambda x: x['election_name']):
+    source, races = 'CivicAPI (civicapi.org), unofficial', []
+    state_rows = None
+    if sos_live:
+        try:
+            state_rows, state_info = sos_live.collect(a.date, fips)
+            problems += state_info.get('problems') or []
+        except Exception as e:  # fall back to CivicAPI
+            problems.append(f'state feed: {str(e)[:160]}')
+    if state_rows:
+        rows = state_rows
+        source = 'Texas Secretary of State election-night results, unofficial'
+        st = {}
+        for r in rows:
+            st[(r['level'], r['race'], r['unit'] if r['level'] != 'statewide' else '')] = r['status']
+        races = list(st)
+        n_called = sum(v == 'final' for v in st.values()); n_counting = sum(v == 'counting' for v in st.values())
+    else:
+        keep = lambda n: classify(n) and not re.search(r'primary|runoff', n, re.I) and (not re.search(r'special', n, re.I) or 'Supreme Court' in n)
+        races = [r for r in search(a.date) if keep(r['election_name'])]
+    for r in ([] if state_rows else sorted(races, key=lambda x: x['election_name'])):
         level, office, plan, district = classify(r['election_name'])
         try:
             d = get(f"/race/{r['id']}")
@@ -118,6 +140,19 @@ def main():
                 rows.append({'level': level, 'race': race_id, 'year': year, 'office': office, 'plan': plan, 'unit': district, 'unit_name': '',
                              'candidate': c['name'], 'party': party(c), 'votes': c.get('votes') or 0, 'status': st,
                              'reporting': d.get('percent_reporting') if d.get('percent_reporting') is not None else '', 'reporting_total': 100})
+    # Seats the results sources don't list yet: add them from the certified candidate list (Ballotpedia's
+    # 2026 general-election tables), with zero votes, so every seat on the ballot shows on the dashboard.
+    sched = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'candidates_2026.csv')
+    if year == 2026 and os.path.exists(sched):
+        have = {(r['level'], int(r['unit'])) for r in rows if r['level'] in ('house', 'senate', 'ushouse', 'sboe')}
+        plans = {lv: (label, plan) for _, lv, label, plan in DISTRICT}
+        for c in csv.DictReader(open(sched)):
+            lv, d = c['level'], int(c['district'])
+            if (lv, d) in have or lv not in plans:
+                continue
+            label, plan = plans[lv]
+            rows.append({'level': lv, 'race': f'{year} {label}', 'year': year, 'office': label, 'plan': plan, 'unit': d, 'unit_name': '',
+                         'candidate': c['candidate'], 'party': c['party'], 'votes': 0, 'status': 'pending', 'reporting': '', 'reporting_total': ''})
     local_problems = []
     if local_live:
         try:
@@ -130,7 +165,7 @@ def main():
         w = csv.DictWriter(fh, fieldnames=FIELDS); w.writeheader(); w.writerows(rows)
     phase = 'pre-election' if not n_counting and not n_called else 'final' if n_called == len(races) and races else 'counting'
     now = datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
-    json.dump([{'phase': phase, 'updated_at': now, 'source': 'CivicAPI (civicapi.org), unofficial', 'races': len(races), 'called': n_called,
+    json.dump([{'phase': phase, 'updated_at': now, 'source': source, 'races': len(races), 'called': n_called,
                 'counting': n_counting, 'problems': problems[:20], 'local_problems': local_problems[:20]}], open(os.path.join(a.out, 'live_status.json'), 'w'), indent=1)
     print(json.dumps({'races': len(races), 'rows': len(rows), 'phase': phase, 'called': n_called, 'counting': n_counting, 'problems': len(problems), 'local_rows': sum(r['level'] in ('local', 'fortbend') for r in rows)}))
     for p in local_problems[:10]: print('local:', p, file=sys.stderr)

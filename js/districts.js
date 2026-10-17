@@ -191,7 +191,7 @@
     // takeaway
     const tk = q('take'); tk.classList.remove('dash-skeleton'); tk.replaceChildren();
     const add = (t, b, field) => { const n = document.createElement(b ? 'b' : 'span'); n.textContent = t; if (field) { n.setAttribute('data-source', c.id + '_summary'); n.setAttribute('data-field', field); n.setAttribute('data-where', 'year=' + year); } tk.append(n); };
-    if (pending) add(S ? `${S.seats_total} ${year} ${c.label} races are listed so far, ${S.uncontested} with a single candidate. Results fill in on election night, ${LX.ELECTION_2026}.` : `${year} ${c.label} races are on the ballot ${LX.ELECTION_2026}. Candidates and results will appear here as results come in on election night.`);
+    if (pending) add(S ? `${c.full && S.seats_total >= c.full ? `All ${c.full}` : S.seats_total} ${c.label} seats are on the ballot in ${year}${S.uncontested ? `, ${S.uncontested} with a single candidate` : ''}. Results fill in on election night, ${LX.ELECTION_2026}.` : `${year} ${c.label} races are on the ballot ${LX.ELECTION_2026}. Candidates and results will appear here as results come in on election night.`);
     else {
       const lead = S.seats_r >= S.seats_d ? ['Republicans', S.seats_r, 'seats_r'] : ['Democrats', S.seats_d, 'seats_d'];
       add(`In ${year}, `); add(lead[0], true); add(counting ? ' have won or lead in ' : ' won '); add(String(lead[1]), true, lead[2]);
@@ -371,7 +371,7 @@
       const vt = document.createElement('div'); vt.className = 'lx-cand-votes'; vt.textContent = r['c' + i + '_votes'] == null ? 'No vote total reported' : fmt(r['c' + i + '_votes']) + ' votes';
       const bar = document.createElement('div'); bar.className = 'lx-cand-bar'; const bi = document.createElement('i'); bi.style.width = ((r['c' + i + '_pct'] ?? 0) * 100).toFixed(1) + '%'; bi.style.background = col; bar.append(bi);
       body.append(nm, sub, big, vt, bar);
-      const bio = year === 2026 ? bioFor(c.id, r.district, name) : null;
+      const bio = year === 2026 ? bioFor(c.id, r.district, name, party) : null;
       if (bio) {
         const p = document.createElement('p'); p.className = 'lx-cand-bio';
         p.setAttribute('data-source', 'candidate_bios'); p.setAttribute('data-field', 'summary'); p.setAttribute('data-where', 'level=' + c.id + '&district=' + r.district + '&candidate=' + enc(name));
@@ -388,11 +388,18 @@
   // one- or two-sentence background for 2026 candidates (U.S. House, Texas House, Texas Senate)
   const normName = (s) => String(s).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z]/g, '');
   let bioIndex = null, bioRows = null;
-  function bioFor(level, district, name) {
+  function bioFor(level, district, name, party) {
     const d = dash.data('candidate_bios');
     if (d.status !== 'ok') return null;
-    if (bioRows !== d.data) { bioRows = d.data; bioIndex = new Map(d.data.map((b) => [b.level + '|' + Number(b.district) + '|' + normName(b.candidate), b])); }
-    return bioIndex.get(level + '|' + Number(district) + '|' + normName(name)) || null;
+    if (bioRows !== d.data) {
+      bioRows = d.data; bioIndex = new Map();
+      for (const b of d.data) {
+        bioIndex.set(b.level + '|' + Number(b.district) + '|' + normName(b.candidate), b);
+        const pk = b.level + '|' + Number(b.district) + '|party:' + b.party; // results feeds spell some names differently
+        bioIndex.set(pk, bioIndex.has(pk) ? null : b);
+      }
+    }
+    return bioIndex.get(level + '|' + Number(district) + '|' + normName(name)) || (party === 'D' || party === 'R' ? bioIndex.get(level + '|' + Number(district) + '|party:' + party) : null) || null;
   }
 
   function drawSeats(c, sum, year, fullSize) {
