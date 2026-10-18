@@ -117,7 +117,7 @@
     }
     const races = new Map(rc.data.map((r) => [r.race, r]));
     for (const o of LX.SCHEDULE_2026.fortbend) if (!races.has('2026 ' + o)) races.set('2026 ' + o, { race: '2026 ' + o, year: 2026, office: o, pending: true });
-    const raceId = races.has(dash.params().fb_race) ? dash.params().fb_race : '2022 County Judge';
+    const raceId = races.has(dash.params().fb_race) ? dash.params().fb_race : '2026 County Judge';
     LX.racePicker(document.getElementById('fb-race-rows'), OFFICES.map((o) => [o, o.replace('Commissioner Pct', 'Commissioner, Precinct')]),
       [...races.values()].map((r) => ({ race: r.race, year: r.year, group: r.office, yearLabel: r.year === 2026 ? '2026 (Nov. 3)' : String(r.year) })),
       raceId, (race) => dash.setParams({ fb_race: race }));
@@ -132,7 +132,7 @@
     const tk = document.getElementById('fb-take'); tk.classList.remove('dash-skeleton'); tk.replaceChildren();
     const add = (t, b, field) => { const n = document.createElement(b ? 'b' : 'span'); n.textContent = t; if (field) { n.setAttribute('data-source', 'fb_races'); n.setAttribute('data-field', field); n.setAttribute('data-where', 'race=' + enc(raceId)); } tk.append(n); };
     const oname = office === 'County Judge' ? 'county judge' : office.replace('Commissioner Pct ', 'Precinct ') + ' commissioner';
-    if (pending) add(`The ${year} ${oname} race is on the ballot ${LX.ELECTION_2026}. Candidates and results will appear here on election night.`);
+    if (pending) add(`The ${year} ${oname} race is on the ballot ${LX.ELECTION_2026}. ` + (C.length ? `${C.length} candidates are listed below; results will fill in as precincts report.` : 'Candidates and results will appear here on election night.'));
     else if (C.length === 1) { add(C[0].candidate, true); add(` (${C[0].party}) ran unopposed for ${oname} in ${year}.`); }
     else {
       add(C[0].candidate, true); add(R.status === 'counting' ? ` leads the ${year} ${oname} race by ` : ` won the ${year} ${oname} race by `);

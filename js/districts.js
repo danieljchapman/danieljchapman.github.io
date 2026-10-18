@@ -168,7 +168,7 @@
     const all = [dash.data(c.results), lv, bd, sm, pa, shp];
     const years = sm.status === 'ok' ? [...new Set(sm.data.map((r) => r.year).concat([2026]))].sort((a, b) => a - b) : [];
     const pr = dash.params();
-    const year = years.includes(Number(pr[P + '_year'])) ? Number(pr[P + '_year']) : 2024;
+    const year = years.includes(Number(pr[P + '_year'])) ? Number(pr[P + '_year']) : c.id === 'house' || c.id === 'senate' ? 2026 : 2024;
     if (years.length) LX.setOptions(st.yearSel, years.slice().reverse().map((y) => [y, y === 2026 ? '2026 (Nov. 3)' : String(y)]), year);
     LX.setOptions(st.zoomSel, METROS.map(([n]) => [n, n]), (METROS.find((m) => m[1] === st.zoom) || METROS[0])[0]);
     document.querySelectorAll(`#${c.host} [data-source="${c.id}_summary"][data-field]`).forEach((el) => el.setAttribute('data-where', 'year=' + year));

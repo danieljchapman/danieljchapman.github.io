@@ -136,7 +136,7 @@
   });
 
   // ---------- page ----------
-  const params = () => { const p = dash.params(); return { race: p.race || '2024 Senate', view: p.view || 'result', county: p.county ? String(p.county).padStart(5, '0') : null }; };
+  const params = () => { const p = dash.params(); return { race: p.race || '2026 Senate', view: p.view || 'result', county: p.county ? String(p.county).padStart(5, '0') : null }; };
   document.querySelectorAll('[data-view]').forEach((b) => b.addEventListener('click', () => dash.setParams({ view: b.dataset.view })));
   const clearBtn = document.getElementById('clear-county');
   clearBtn.addEventListener('click', () => dash.setParams({ county: null }));
