@@ -146,7 +146,7 @@
     else box.replaceChildren(...C.map((c) => {
       const card = document.createElement('div'); card.className = 'lx-card lx-cand' + (c.rank === 1 && !pending ? ' win' : '');
       const col = partyCol(c.party), where = 'race=' + enc(c.race) + '&rank=' + c.rank;
-      const ini = document.createElement('div'); ini.className = 'lx-initials'; ini.style.background = col; ini.textContent = LX.initials(c.candidate); ini.setAttribute('aria-hidden', 'true');
+      const ini = LX.avatar(c.candidate, col);
       const body = document.createElement('div'); body.className = 'lx-cand-body';
       const nm = document.createElement('div'); nm.className = 'lx-cand-name'; nm.textContent = c.candidate; nm.setAttribute('data-source', 'fb_candidates'); nm.setAttribute('data-field', 'candidate'); nm.setAttribute('data-where', where);
       const pt = document.createElement('div'); pt.className = 'lx-cand-party';
@@ -158,6 +158,7 @@
       const bar = document.createElement('div'); bar.className = 'lx-cand-bar'; const bi = document.createElement('i'); bi.style.width = ((c.pct || 0) * 100).toFixed(1) + '%'; bi.style.background = col; bar.append(bi);
       body.append(nm, pt, pc, vt, bar); card.append(ini, body); return card;
     }));
+    LX.photoCredit(LX.creditAfter(box, 'fb-photo-credit'), C.map((c) => c.candidate));
 
     // KPIs
     const setK = (id, v) => { const el = document.getElementById(id); el.textContent = v; el.classList.remove('dash-skeleton'); };

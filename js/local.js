@@ -173,7 +173,7 @@
     box.replaceChildren(...C.map((c) => {
       const card = document.createElement('div'); card.className = 'lx-card lx-cand' + ((c.winner || (!pending && c.leading)) ? ' win' : '');
       const col = prop ? css(c.candidate === 'For' ? '--color-ok' : '--color-bad') : partyCol(c.party), where = 'race=' + enc(c.race) + '&candidate=' + enc(c.candidate);
-      const ini = document.createElement('div'); ini.className = 'lx-initials'; ini.style.background = col; ini.textContent = prop ? (c.candidate === 'For' ? '✓' : '✕') : LX.initials(c.candidate); ini.setAttribute('aria-hidden', 'true');
+      const ini = prop ? LX.avatar('', col, c.candidate === 'For' ? '✓' : '✕') : LX.avatar(c.candidate, col);
       const body = document.createElement('div'); body.className = 'lx-cand-body';
       const nm = document.createElement('div'); nm.className = 'lx-cand-name'; nm.textContent = c.candidate; nm.setAttribute('data-source', 'local_candidates'); nm.setAttribute('data-field', 'candidate'); nm.setAttribute('data-where', where);
       const pl = document.createElement('div'); pl.className = 'lx-cand-party';
@@ -187,6 +187,7 @@
       const bar = document.createElement('div'); bar.className = 'lx-cand-bar'; const bi = document.createElement('i'); bi.style.width = ((pending ? 0 : c.pct || 0) * 100).toFixed(1) + '%'; bi.style.background = col; bar.append(bi);
       body.append(nm, pl, pc, vt, bar); card.append(ini, body); return card;
     }));
+    LX.photoCredit(LX.creditAfter(box, 'lr-photo-credit'), prop ? [] : C.map((c) => c.candidate));
 
     // KPIs
     const parts = pt.data.filter((p) => p.race === R.race);

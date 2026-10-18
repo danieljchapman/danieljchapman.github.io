@@ -259,8 +259,8 @@
     box.replaceChildren(...list.map((c) => {
       const card = document.createElement('div'); card.className = 'lx-card lx-cand' + (c.rank === 1 && !pending ? ' win' : ''); card.id = 'cand-' + c.rank;
       const col = partyCol(c.party), where = 'race=' + enc(c.race) + '&rank=' + c.rank;
-      if (photos[c.candidate]) { anyPhoto = true; const img = document.createElement('img'); img.className = 'lx-photo'; img.src = photos[c.candidate]; img.alt = 'Official portrait of ' + c.candidate; card.append(img); }
-      else { anyInitials = true; const ini = document.createElement('div'); ini.className = 'lx-initials'; ini.style.background = col; ini.setAttribute('aria-hidden', 'true'); ini.textContent = LX.initials(c.candidate); card.append(ini); }
+      if (photos[c.candidate]) anyPhoto = true; else anyInitials = true;
+      card.append(LX.avatar(c.candidate, col));
       const body = document.createElement('div'); body.className = 'lx-cand-body';
       const nm = document.createElement('div'); nm.className = 'lx-cand-name'; nm.textContent = c.candidate;
       nm.setAttribute('data-source', 'candidates_statewide'); nm.setAttribute('data-field', 'candidate'); nm.setAttribute('data-where', where);
@@ -278,10 +278,10 @@
       body.append(nm, pt, pc, vt, bar); card.append(body); return card;
     }));
     const n = list.length;
-    let note = n < 4 && !pending ? `Only ${n} candidates were on the ballot in this race. ` : '';
-    if (anyPhoto) note += 'Photos are official U.S. Congress portraits (public domain).';
-    if (anyInitials) note += (anyPhoto ? ' ' : '') + 'Initials stand in for candidates without a public-domain official portrait.';
-    document.getElementById('photo-credit').textContent = note;
+    const pc = document.getElementById('photo-credit');
+    LX.photoCredit(pc, list.map((c) => c.candidate));
+    if (n < 4 && !pending) { pc.hidden = false; pc.prepend(document.createTextNode(`Only ${n} candidates were on the ballot in this race. `)); }
+    if (!anyPhoto && anyInitials && pc.hidden === false && !pc.textContent.includes('Photos')) pc.append(document.createTextNode('Initials stand in for candidates without a freely licensed photo.'));
   }
 
   const SHIFT_BINS = [-0.1, -0.05, -0.02, 0, 0.02, 0.05, 0.1];

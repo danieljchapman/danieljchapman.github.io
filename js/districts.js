@@ -383,7 +383,7 @@
     const chosen = dash.params()[P + '_district'] != null;
     clr.hidden = !chosen; clr.textContent = 'Show closest race';
     title.textContent = sel ? `District ${sel} · ${year}` : `${year} races`;
-    if (!r) { box.replaceChildren(); note.textContent = sel ? (year === 2026 ? `No results for District ${sel} yet.` : `District ${sel} was not on the ballot in ${year}. Pick another district on the map or in the table.`) : 'Click a district on the map to see its candidates.'; return; }
+    if (!r) { box.replaceChildren(); const pcr = document.getElementById(P + '-photo-credit'); if (pcr) pcr.hidden = true; note.textContent = sel ? (year === 2026 ? `No results for District ${sel} yet.` : `District ${sel} was not on the ballot in ${year}. Pick another district on the map or in the table.`) : 'Click a district on the map to see its candidates.'; return; }
     const counting = r.status === 'counting';
     note.textContent = (chosen ? '' : 'Closest race of the year, shown until you pick a district. ') + (!r.contested ? 'Unopposed' + (r.votes_reported ? ` · ${fmt(r.total_votes)} votes` : '') : r.votes_reported ? `Margin ${r.margin_label} · ${fmt(r.total_votes)} votes` : 'No votes counted yet') +
       (counting && r.reporting_total ? (r.reporting_total === 100 ? ` · ${r.reporting}% of precincts reporting` : ` · ${r.reporting} of ${r.reporting_total} precincts reporting`) : '') +
@@ -392,7 +392,7 @@
     box.replaceChildren(...list.map((i) => {
       const name = r['c' + i + '_name'], party = r['c' + i + '_party'], col = partyCol(party), where = 'year=' + year + '&district=' + r.district;
       const card = document.createElement('div'); card.className = 'lx-card lx-cand' + (i === 1 && r.decided ? ' win' : '');
-      const ini = document.createElement('div'); ini.className = 'lx-initials'; ini.style.background = col; ini.textContent = LX.initials(name); ini.setAttribute('aria-hidden', 'true');
+      const ini = LX.avatar(name, col);
       const body = document.createElement('div'); body.className = 'lx-cand-body';
       const nm = document.createElement('div'); nm.className = 'lx-cand-name'; nm.textContent = name;
       nm.setAttribute('data-source', c.id + '_by_district'); nm.setAttribute('data-field', 'c' + i + '_name'); nm.setAttribute('data-where', where);
@@ -417,6 +417,7 @@
       }
       card.append(ini, body); return card;
     }));
+    LX.photoCredit(LX.creditAfter(box, P + '-photo-credit'), list.map((i) => r['c' + i + '_name']));
   }
 
   // one- or two-sentence background for 2026 candidates (U.S. House, Texas House, Texas Senate)

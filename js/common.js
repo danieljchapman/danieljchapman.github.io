@@ -67,6 +67,38 @@
     el.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;gap:6px;min-height:inherit;height:100%;font-size:var(--cds-font-size-caption);color:var(--color-fg-muted)"><span style="width:.375rem;height:.375rem;border-radius:50%;background:var(--color-bad)"></span>Failed to load</div>';
   };
   LX.initials = (name) => { const w = String(name).split(/\s+/).filter((x) => /^[A-ZÁÉÍÓÚÑ]/.test(x) && !/^(Jr|Sr|II|III|IV)\.?,?$/.test(x)); return ((w[0] || name)[0] + (w.length > 1 ? w[w.length - 1][0] : '')).toUpperCase(); };
+  // candidate picture: a photo when one is on file (LX_PHOTOS: name -> url), otherwise colored initials
+  LX.avatar = (name, color, text) => {
+    const src = (window.LX_PHOTOS || {})[name];
+    if (src) { const img = document.createElement('img'); img.className = 'lx-photo'; img.src = src; img.alt = 'Photo of ' + name; img.loading = 'lazy'; return img; }
+    const ini = document.createElement('div'); ini.className = 'lx-initials'; ini.style.background = color; ini.setAttribute('aria-hidden', 'true'); ini.textContent = text || LX.initials(name); return ini;
+  };
+  // photo credits for the candidates shown (LX_PHOTO_CREDITS: name -> {a: author, l: license, u: license url, f: file page})
+  LX.photoCredit = (el, names) => {
+    if (!el) return;
+    const P = window.LX_PHOTOS || {}, C = window.LX_PHOTO_CREDITS || {};
+    const shown = names.filter((n) => P[n]);
+    el.replaceChildren();
+    if (!shown.length) { el.hidden = true; return; }
+    el.hidden = false;
+    el.append(document.createTextNode('Photos: '));
+    shown.forEach((n, i) => {
+      const c = C[n];
+      if (i) el.append(document.createTextNode('; '));
+      if (!c) { el.append(document.createTextNode(n + ', official U.S. Congress portrait (public domain)')); return; }
+      el.append(document.createTextNode(n + ', '));
+      const a = document.createElement('a'); a.href = c.f; a.target = '_blank'; a.rel = 'noopener'; a.textContent = c.a ? c.a : 'Wikimedia Commons'; el.append(a);
+      el.append(document.createTextNode(', '));
+      if (c.u) { const l = document.createElement('a'); l.href = c.u; l.target = '_blank'; l.rel = 'noopener'; l.textContent = c.l; el.append(l); } else el.append(document.createTextNode(c.l));
+    });
+    el.append(document.createTextNode(shown.some((n) => C[n]) ? '. Wikimedia Commons photos are cropped. Candidates without a freely licensed photo are shown with initials.' : '.'));
+  };
+  // a credit line placed right after a card container, created on first use
+  LX.creditAfter = (box, id) => {
+    let el = document.getElementById(id);
+    if (!el) { el = document.createElement('p'); el.className = 'lx-credit lx-credit-after'; el.id = id; box.after(el); }
+    return el;
+  };
   LX.stateWord = (status, isFirst) => status === 'final' ? (isFirst ? 'Winner' : '') : status === 'counting' ? (isFirst ? 'Leading' : '') : '';
 
   // 2026 races on the ballot (shown before any results exist)
