@@ -124,10 +124,10 @@
     refresh(id) { if (DATASETS[id]) { load(id); schedule(); } },
   };
 
-  // reload election-night data periodically while counting
+  // reload election-night data every 2 minutes while counting
   setInterval(() => {
     const st = state.live_status;
     const phase = st && st.status === 'ok' && st.data && st.data[0] ? st.data[0].phase : null;
     if (phase === 'counting') { load('live_status'); load('live_2026'); }
-  }, 5 * 60 * 1000);
+  }, 2 * 60 * 1000);
 })();

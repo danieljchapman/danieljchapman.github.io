@@ -1,0 +1,55 @@
+name: Election-night results every 5 minutes
+
+# One long-running job that updates the results every 5 minutes from 7 pm to midnight Central
+# on Nov 3 (01:00–06:00 UTC Nov 4; Texas is on CST, UTC-6). A single job keeps the 5-minute pace,
+# where GitHub's scheduler would delay or skip frequent scheduled runs on a busy night.
+# Two start times, in case GitHub starts the first one late; the second waits behind the first
+# and ends right away if the first is still covering the window. The 10-minute workflow is the backup.
+on:
+  schedule:
+    - cron: '45 0 4 11 *'
+    - cron: '15 1 4 11 *'
+  workflow_dispatch:
+    inputs:
+      minutes:
+        description: 'Test run: how many minutes to keep updating'
+        default: '12'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: election-night-fast
+  cancel-in-progress: false
+
+jobs:
+  loop:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install the PDF reader (Harris County) and a headless browser (Clarity's bot check)
+        run: |
+          sudo apt-get install -y -qq poppler-utils >/dev/null
+          pip install -q playwright==1.47.0
+          python3 -m playwright install --with-deps chromium >/dev/null
+
+      - name: Update every 5 minutes
+        env:
+          MINUTES: ${{ github.event.inputs.minutes }}
+        run: |
+          if [ -n "${MINUTES:-}" ]; then end=$(( $(date +%s) + MINUTES * 60 ));
+          else end=$(date -u -d '2026-11-04T06:00:00Z' +%s); fi
+          n=0; fails=0
+          while [ "$(date +%s)" -lt "$end" ]; do
+            start=$(date +%s); n=$((n + 1))
+            echo "::group::Update $n at $(date -u +%H:%M:%S) UTC"
+            if bash tools/fetch_live.sh; then fails=0; else fails=$((fails + 1)); echo "::warning::Update $n failed"; fi
+            echo "::endgroup::"
+            # next update 5 minutes after this one started (sooner if the run took longer)
+            wait=$(( 300 - ($(date +%s) - start) ))
+            [ $(( $(date +%s) + wait )) -ge "$end" ] && break
+            [ "$wait" -gt 0 ] && sleep "$wait"
+          done
+          echo "Finished after $n updates"
