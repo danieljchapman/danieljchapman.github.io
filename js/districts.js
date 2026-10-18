@@ -161,6 +161,32 @@
     drawBody(key);
   }
 
+  // U.S. House: compare with the previous election — seats that flipped and districts whose margin moved,
+  // or (after redistricting) the net change in seats, since districts can't be matched one to one
+  function addChange(add, sums, rows, S, year) {
+    const P = sums.filter((r) => r.year < year && r.status !== 'pending').sort((a, b) => b.year - a.year)[0];
+    if (!P) return;
+    const s = (n, w) => `${n} ${w}${n === 1 ? '' : 's'}`;
+    if ((P.plan || 'y' + P.year) !== (S.plan || 'y' + S.year)) {
+      const dr = S.seats_r - P.seats_r, dd = S.seats_d - P.seats_d;
+      const ch = (n, who, noun) => n === 0 ? `${who} the same number` : `${who} ${Math.abs(n)} ${n > 0 ? 'more' : 'fewer'}${noun ? (Math.abs(n) === 1 ? ' seat' : ' seats') : ''}`;
+      add(` Districts were redrawn before the ${year} election, so they can't be matched one to one with ${P.year}. Compared with ${P.year}, `);
+      add(`${ch(dr, 'Republicans won', true)}`, true); add(' and '); add(`${ch(dd, 'Democrats')}`, true); add(S.seats_total !== P.seats_total ? ` (Texas had ${S.seats_total} seats, up from ${P.seats_total}).` : '.');
+      return;
+    }
+    const prev = new Map(rows.filter((r) => r.year === P.year).map((r) => [r.district, r]));
+    const both = (r) => r && r.votes_reported && r.contested && [1, 2, 3, 4].some((i) => r['c' + i + '_party'] === 'R') && [1, 2, 3, 4].some((i) => r['c' + i + '_party'] === 'D');
+    let toR = 0, toD = 0, mR = 0, mD = 0, n = 0;
+    for (const r of rows.filter((x) => x.year === year)) {
+      const q = prev.get(r.district); if (!q) continue;
+      if (r.decided && q.decided && r.winner_party !== q.winner_party) { if (r.winner_party === 'R') toR++; else if (r.winner_party === 'D') toD++; }
+      if (both(r) && both(q)) { n++; const d = r.margin - q.margin; if (d > 0) mR++; else if (d < 0) mD++; }
+    }
+    if (toR + toD) { add(` Compared with ${P.year}, `); add(s(toR + toD, 'seat'), true); add(` flipped (${toR} to Republicans, ${toD} to Democrats).`); }
+    else add(` No seats changed party compared with ${P.year}.`);
+    if (n) { add(` Of the ${s(n, 'district')} with both a Republican and a Democrat on the ballot both years, the margin moved toward Republicans in `); add(String(mR), true); add(' and toward Democrats in '); add(String(mD), true); add('.'); }
+  }
+
   function drawBody(key) {
     const c = CH[key], P = c.p, st = state[key];
     const q = (id) => document.getElementById(P + '-' + id);
@@ -168,7 +194,7 @@
     const all = [dash.data(c.results), lv, bd, sm, pa, shp];
     const years = sm.status === 'ok' ? [...new Set(sm.data.map((r) => r.year).concat([2026]))].sort((a, b) => a - b) : [];
     const pr = dash.params();
-    const year = years.includes(Number(pr[P + '_year'])) ? Number(pr[P + '_year']) : c.id === 'house' || c.id === 'senate' ? 2026 : 2024;
+    const year = years.includes(Number(pr[P + '_year'])) ? Number(pr[P + '_year']) : 2026;
     if (years.length) LX.setOptions(st.yearSel, years.slice().reverse().map((y) => [y, y === 2026 ? '2026 (Nov. 3)' : String(y)]), year);
     LX.setOptions(st.zoomSel, METROS.map(([n]) => [n, n]), (METROS.find((m) => m[1] === st.zoom) || METROS[0])[0]);
     document.querySelectorAll(`#${c.host} [data-source="${c.id}_summary"][data-field]`).forEach((el) => el.setAttribute('data-where', 'year=' + year));
@@ -199,6 +225,7 @@
       add(c.full && S.seats_total < c.full ? ` (the other ${c.full - S.seats_total} weren't up that year). ` : '. ');
       if (counting && S.undecided) { add(String(S.undecided), true, 'undecided'); add(S.undecided === 1 ? ' race has no votes counted yet. ' : ' races have no votes counted yet. '); }
       if (S.uncontested) { add(String(S.uncontested), true, 'uncontested'); add(S.uncontested === 1 ? ' race had only one candidate on the ballot.' : ' races had only one candidate on the ballot.'); }
+      if (c.id === 'ushouse' && !counting) addChange(add, sm.data, bd.data, S, year);
     }
 
     // party cards
