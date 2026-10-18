@@ -141,4 +141,18 @@
       load('live_2026', true);
     });
   }, 2 * 60 * 1000);
+
+  // early voting: re-check the early-vote status every 10 minutes through Election Day; reload the daily counts when it changes
+  let evStamp = null;
+  setInterval(() => {
+    if (!DATASETS.ev_status || Date.now() > Date.parse('2026-11-04T00:00:00Z')) return;
+    const s0 = state.ev_status && state.ev_status.status === 'ok' && state.ev_status.data && state.ev_status.data[0];
+    if (evStamp === null && s0) evStamp = s0.updated_at;
+    load('ev_status', true, () => {
+      const st = state.ev_status, s1 = st && st.status === 'ok' && st.data && st.data[0];
+      if (!s1 || s1.updated_at === evStamp) return;
+      evStamp = s1.updated_at;
+      load('ev_2026', true);
+    });
+  }, 10 * 60 * 1000);
 })();
