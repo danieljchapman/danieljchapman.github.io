@@ -35,10 +35,13 @@
   }
 
   // ---------- loading ----------
-  function load(id) {
+  // refresh: keep showing the current data while reloading, and keep it if the reload fails
+  function load(id, refresh, then) {
     const ds = DATASETS[id];
     if (!ds) { state[id] = { status: 'missing', data: [], message: 'Unknown data source ' + id }; return; }
-    state[id] = { status: 'loading', data: [] };
+    const prev = state[id];
+    const keep = refresh && prev && prev.status === 'ok';
+    if (!keep) state[id] = { status: 'loading', data: [] };
     const url = ds.url + (ds.live ? (ds.url.includes('?') ? '&' : '?') + 't=' + Date.now() : '');
     fetch(url, { cache: ds.live ? 'no-store' : 'default' })
       .then((r) => { if (!r.ok) throw new Error('HTTP ' + r.status + ' for ' + ds.url); return ds.format === 'json' ? r.json() : r.text(); })
@@ -51,8 +54,8 @@
           state[id] = { status: 'ok', data: p.data, columns: p.columns };
         }
       })
-      .catch((e) => { console.error(e); state[id] = { status: 'error', data: [], message: String(e.message || e) }; })
-      .finally(schedule);
+      .catch((e) => { console.error(e); if (!keep) state[id] = { status: 'error', data: [], message: String(e.message || e) }; })
+      .finally(() => { schedule(); if (then) then(); });
   }
 
   function compute(id) {
@@ -124,10 +127,18 @@
     refresh(id) { if (DATASETS[id]) { load(id); schedule(); } },
   };
 
-  // reload election-night data every 2 minutes while counting
+  // election night: every 2 minutes, re-check the status file until the count is final (pages opened
+  // before polls close start updating on their own); reload the results whenever the status changes
+  let stamp = null;
+  const liveStatus = () => { const st = state.live_status; return st && st.status === 'ok' && st.data && st.data[0] ? st.data[0] : null; };
   setInterval(() => {
-    const st = state.live_status;
-    const phase = st && st.status === 'ok' && st.data && st.data[0] ? st.data[0].phase : null;
-    if (phase === 'counting') { load('live_status'); load('live_2026'); }
+    const s0 = liveStatus();
+    if (s0 && s0.phase === 'final') return;
+    load('live_status', true, () => {
+      const s1 = liveStatus();
+      if (!s1 || s1.phase === 'pre-election' || s1.updated_at === stamp) return;
+      stamp = s1.updated_at;
+      load('live_2026', true);
+    });
   }, 2 * 60 * 1000);
 })();
