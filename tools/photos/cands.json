@@ -1,0 +1,2840 @@
+[
+{
+"name": "James Talarico",
+"party": "D",
+"level": "statewide",
+"race": "Senate"
+},
+{
+"name": "Ken Paxton",
+"party": "R",
+"level": "statewide",
+"race": "Senate"
+},
+{
+"name": "Ted Brown",
+"party": "L",
+"level": "statewide",
+"race": "Senate"
+},
+{
+"name": "Michael Cloud",
+"party": "R",
+"level": "ushouse",
+"race": "U.S. House 27"
+},
+{
+"name": "Tanya Lloyd",
+"party": "D",
+"level": "ushouse",
+"race": "U.S. House 27"
+},
+{
+"name": "Craig Goldman",
+"party": "R",
+"level": "ushouse",
+"race": "U.S. House 12"
+},
+{
+"name": "Angela \"Heli\" Rodriguez Prilliman",
+"party": "D",
+"level": "ushouse",
+"race": "U.S. House 12"
+},
+{
+"name": "Leticia Gutierrez",
+"party": "D",
+"level": "ushouse",
+"race": "U.S. House 9"
+},
+{
+"name": "Alex Mealer",
+"party": "R",
+"level": "ushouse",
+"race": "U.S. House 9"
+},
+{
+"name": "Kyle Rable",
+"party": "D",
+"level": "ushouse",
+"race": "U.S. House 19"
+},
+{
+"name": "Tom Sell",
+"party": "R",
+"level": "ushouse",
+"race": "U.S. House 19"
+},
+{
+"name": "Henry Cuellar",
+"party": "D",
+"level": "ushouse",
+"race": "U.S. House 28"
+},
+{
+"name": "Marl\u00f3n Dur\u00e1n",
+"party": "G",
+"level": "ushouse",
+"race": "U.S. House 28"
+},
+{
+"name": "Tano E. Tijerina",
+"party": "R",
+"level": "ushouse",
+"race": "U.S. House 28"
+},
+{
+"name": "Laura Jones",
+"party": "D",
+"level": "ushouse",
+"race": "U.S. House 8"
+},
+{
+"name": "Jessica Hart Steinmann",
+"party": "R",
+"level": "ushouse",
+"race": "U.S. House 8"
+},
+{
+"name": "Martha Fierro",
+"party": "R",
+"level": "ushouse",
+"race": "U.S. House 29"
+},
+{
+"name": "Sylvia Garcia",
+"party": "D",
+"level": "ushouse",
+"race": "U.S. House 29"
+},
+{
+"name": "Shaun Finnie",
+"party": "D",
+"level": "ushouse",
+"race": "U.S. House 2"
+},
+{
+"name": "Steve Toth",
+"party": "R",
+"level": "ushouse",
+"race": "U.S. House 2"
+},
+{
+"name": "Evan Hunt",
+"party": "D",
+"level": "ushouse",
+"race": "U.S. House 3"
+},
+{
+"name": "Keith Self",
+"party": "R",
+"level": "ushouse",
+"race": "U.S. House 3"
+},
+{
+"name": "Monica De La Cruz",
+"party": "R",
+"level": "ushouse",
+"race": "U.S. House 15"
+},
+{
+"name": "Bobby Pulido",
+"party": "D",
+"level": "ushouse",
+"race": "U.S. House 15"
+},
+{
+"name": "Edgardo Rafael Baez",
+"party": "R",
+"level": "ushouse",
+"race": "U.S. House 20"
+},
+{
+"name": "Joaquin Castro",
+"party": "D",
+"level": "ushouse",
+"race": "U.S. House 20"
+},
+{
+"name": "Frederick D. Haynes III",
+"party": "D",
+"level": "ushouse",
+"race": "U.S. House 30"
+},
+{
+"name": "Everett Jackson",
+"party": "R",
+"level": "ushouse",
+"race": "U.S. House 30"
+},
+{
+"name": "Lizzie Pannill Fletcher",
+"party": "D",
+"level": "ushouse",
+"race": "U.S. House 7"
+},
+{
+"name": "Alexander Hale",
+"party": "R",
+"level": "ushouse",
+"race": "U.S. House 7"
+},
+{
+"name": "Espoir Ngabo",
+"party": "G",
+"level": "ushouse",
+"race": "U.S. House 7"
+},
+{
+"name": "Chris Gober",
+"party": "R",
+"level": "ushouse",
+"race": "U.S. House 10"
+},
+{
+"name": "Caitlin Rourk",
+"party": "D",
+"level": "ushouse",
+"race": "U.S. House 10"
+},
+{
+"name": "John Carter",
+"party": "R",
+"level": "ushouse",
+"race": "U.S. House 31"
+},
+{
+"name": "Justin Early",
+"party": "D",
+"level": "ushouse",
+"race": "U.S. House 31"
+},
+{
+"name": "Greg Stoker",
+"party": "G",
+"level": "ushouse",
+"race": "U.S. House 31"
+},
+{
+"name": "Dan Barrios",
+"party": "D",
+"level": "ushouse",
+"race": "U.S. House 32"
+},
+{
+"name": "Jace Yarbrough",
+"party": "R",
+"level": "ushouse",
+"race": "U.S. House 32"
+},
+{
+"name": "Kristin Hook",
+"party": "D",
+"level": "ushouse",
+"race": "U.S. House 21"
+},
+{
+"name": "Mark Teixeira",
+"party": "R",
+"level": "ushouse",
+"race": "U.S. House 21"
+},
+{
+"name": "Jake Ellzey",
+"party": "R",
+"level": "ushouse",
+"race": "U.S. House 6"
+},
+{
+"name": "Danny Minton",
+"party": "D",
+"level": "ushouse",
+"race": "U.S. House 6"
+},
+{
+"name": "Ronny Jackson",
+"party": "R",
+"level": "ushouse",
+"race": "U.S. House 13"
+},
+{
+"name": "Mark Nair",
+"party": "D",
+"level": "ushouse",
+"race": "U.S. House 13"
+},
+{
+"name": "Colin Allred",
+"party": "D",
+"level": "ushouse",
+"race": "U.S. House 33"
+},
+{
+"name": "Patrick David Gillespie",
+"party": "R",
+"level": "ushouse",
+"race": "U.S. House 33"
+},
+{
+"name": "Carlos De La Cruz",
+"party": "R",
+"level": "ushouse",
+"race": "U.S. House 35"
+},
+{
+"name": "Johnny C. Garcia",
+"party": "D",
+"level": "ushouse",
+"race": "U.S. House 35"
+},
+{
+"name": "Adam Bauman",
+"party": "R",
+"level": "ushouse",
+"race": "U.S. House 16"
+},
+{
+"name": "Veronica Escobar",
+"party": "D",
+"level": "ushouse",
+"race": "U.S. House 16"
+},
+{
+"name": "Marquette Greene-Scott",
+"party": "D",
+"level": "ushouse",
+"race": "U.S. House 22"
+},
+{
+"name": "Trever Nehls",
+"party": "R",
+"level": "ushouse",
+"race": "U.S. House 22"
+},
+{
+"name": "Brian Babin",
+"party": "R",
+"level": "ushouse",
+"race": "U.S. House 36"
+},
+{
+"name": "Rhonda Hart",
+"party": "D",
+"level": "ushouse",
+"race": "U.S. House 36"
+},
+{
+"name": "Pete Sessions",
+"party": "R",
+"level": "ushouse",
+"race": "U.S. House 17"
+},
+{
+"name": "Casey Shepard",
+"party": "D",
+"level": "ushouse",
+"race": "U.S. House 17"
+},
+{
+"name": "Greg Casar",
+"party": "D",
+"level": "ushouse",
+"race": "U.S. House 37"
+},
+{
+"name": "Lauren B. Pe\u00f1a",
+"party": "R",
+"level": "ushouse",
+"race": "U.S. House 37"
+},
+{
+"name": "Jon Bonck",
+"party": "R",
+"level": "ushouse",
+"race": "U.S. House 38"
+},
+{
+"name": "Melissa McDonough",
+"party": "D",
+"level": "ushouse",
+"race": "U.S. House 38"
+},
+{
+"name": "Alex McMenemy",
+"party": "G",
+"level": "ushouse",
+"race": "U.S. House 38"
+},
+{
+"name": "Lance Gooden",
+"party": "R",
+"level": "ushouse",
+"race": "U.S. House 5"
+},
+{
+"name": "Chelsey Hockett",
+"party": "D",
+"level": "ushouse",
+"race": "U.S. House 5"
+},
+{
+"name": "Eddie Espinoza",
+"party": "G",
+"level": "ushouse",
+"race": "U.S. House 34"
+},
+{
+"name": "Eric Flores",
+"party": "R",
+"level": "ushouse",
+"race": "U.S. House 34"
+},
+{
+"name": "Vicente Gonzalez",
+"party": "D",
+"level": "ushouse",
+"race": "U.S. House 34"
+},
+{
+"name": "Chris Royal",
+"party": "L",
+"level": "ushouse",
+"race": "U.S. House 34"
+},
+{
+"name": "Pat Fallon",
+"party": "R",
+"level": "ushouse",
+"race": "U.S. House 4"
+},
+{
+"name": "Jason Pearce",
+"party": "D",
+"level": "ushouse",
+"race": "U.S. House 4"
+},
+{
+"name": "Nathaniel Moran",
+"party": "R",
+"level": "ushouse",
+"race": "U.S. House 1"
+},
+{
+"name": "Yolanda R. Prince",
+"party": "D",
+"level": "ushouse",
+"race": "U.S. House 1"
+},
+{
+"name": "Brandon Herrera",
+"party": "R",
+"level": "ushouse",
+"race": "U.S. House 23"
+},
+{
+"name": "Ben Mendoza",
+"party": "I",
+"level": "ushouse",
+"race": "U.S. House 23"
+},
+{
+"name": "Katy Padilla Stout",
+"party": "D",
+"level": "ushouse",
+"race": "U.S. House 23"
+},
+{
+"name": "Kevin Burge",
+"party": "D",
+"level": "ushouse",
+"race": "U.S. House 24"
+},
+{
+"name": "Beth Van Duyne",
+"party": "R",
+"level": "ushouse",
+"race": "U.S. House 24"
+},
+{
+"name": "August Pfluger",
+"party": "R",
+"level": "ushouse",
+"race": "U.S. House 11"
+},
+{
+"name": "Claire Reynolds",
+"party": "D",
+"level": "ushouse",
+"race": "U.S. House 11"
+},
+{
+"name": "Christian Dashaun Menefee",
+"party": "D",
+"level": "ushouse",
+"race": "U.S. House 18"
+},
+{
+"name": "Ronald Dwayne Whitfield",
+"party": "R",
+"level": "ushouse",
+"race": "U.S. House 18"
+},
+{
+"name": "Dione Sims",
+"party": "D",
+"level": "ushouse",
+"race": "U.S. House 25"
+},
+{
+"name": "Roger Williams",
+"party": "R",
+"level": "ushouse",
+"race": "U.S. House 25"
+},
+{
+"name": "Thurman Bill Bartie",
+"party": "D",
+"level": "ushouse",
+"race": "U.S. House 14"
+},
+{
+"name": "Randy Weber",
+"party": "R",
+"level": "ushouse",
+"race": "U.S. House 14"
+},
+{
+"name": "Brandon Gill",
+"party": "R",
+"level": "ushouse",
+"race": "U.S. House 26"
+},
+{
+"name": "Phil Gray",
+"party": "L",
+"level": "ushouse",
+"race": "U.S. House 26"
+},
+{
+"name": "Steven Shook",
+"party": "D",
+"level": "ushouse",
+"race": "U.S. House 26"
+},
+{
+"name": "Gina Hinojosa",
+"party": "D",
+"level": "statewide",
+"race": "Governor"
+},
+{
+"name": "Greg Abbott",
+"party": "R",
+"level": "statewide",
+"race": "Governor"
+},
+{
+"name": "Pat Dixon",
+"party": "L",
+"level": "statewide",
+"race": "Governor"
+},
+{
+"name": "Vikki Goodwin",
+"party": "D",
+"level": "statewide",
+"race": "Lt. Governor"
+},
+{
+"name": "Kevin McCormick",
+"party": "G",
+"level": "statewide",
+"race": "Lt. Governor"
+},
+{
+"name": "Dan Patrick",
+"party": "R",
+"level": "statewide",
+"race": "Lt. Governor"
+},
+{
+"name": "Anthony Cristo",
+"party": "L",
+"level": "statewide",
+"race": "Lt. Governor"
+},
+{
+"name": "Nathan Johnson",
+"party": "D",
+"level": "statewide",
+"race": "Attorney General"
+},
+{
+"name": "Mayes Middleton",
+"party": "R",
+"level": "statewide",
+"race": "Attorney General"
+},
+{
+"name": "Tom Oxford",
+"party": "L",
+"level": "statewide",
+"race": "Attorney General"
+},
+{
+"name": "Sarah Eckhardt",
+"party": "D",
+"level": "statewide",
+"race": "Comptroller"
+},
+{
+"name": "Shehla Faizi",
+"party": "G",
+"level": "statewide",
+"race": "Comptroller"
+},
+{
+"name": "Don Huffines",
+"party": "R",
+"level": "statewide",
+"race": "Comptroller"
+},
+{
+"name": "V. Alonzo Echavarria-Garza",
+"party": "L",
+"level": "statewide",
+"race": "Comptroller"
+},
+{
+"name": "Benjamin Flores",
+"party": "D",
+"level": "statewide",
+"race": "Land Commissioner"
+},
+{
+"name": "Dawn Buckingham",
+"party": "R",
+"level": "statewide",
+"race": "Land Commissioner"
+},
+{
+"name": "Neill Snider",
+"party": "L",
+"level": "statewide",
+"race": "Land Commissioner"
+},
+{
+"name": "Clayton Tucker",
+"party": "D",
+"level": "statewide",
+"race": "Agriculture Commissioner"
+},
+{
+"name": "Nate Sheets",
+"party": "R",
+"level": "statewide",
+"race": "Agriculture Commissioner"
+},
+{
+"name": "Austin R. Kelly",
+"party": "L",
+"level": "statewide",
+"race": "Agriculture Commissioner"
+},
+{
+"name": "Jon Rosenthal",
+"party": "D",
+"level": "statewide",
+"race": "Railroad Commissioner"
+},
+{
+"name": "Bo French",
+"party": "R",
+"level": "statewide",
+"race": "Railroad Commissioner"
+},
+{
+"name": "Arthur Dibianca",
+"party": "L",
+"level": "statewide",
+"race": "Railroad Commissioner"
+},
+{
+"name": "Maggie Ellis",
+"party": "D",
+"level": "statewide",
+"race": "Supreme Court, Chief Justice"
+},
+{
+"name": "Jimmy Blacklock",
+"party": "R",
+"level": "statewide",
+"race": "Supreme Court, Chief Justice"
+},
+{
+"name": "Chari Kelly",
+"party": "D",
+"level": "statewide",
+"race": "Supreme Court, Place 2 (unexpired term)"
+},
+{
+"name": "James P. Sullivan",
+"party": "R",
+"level": "statewide",
+"race": "Supreme Court, Place 2 (unexpired term)"
+},
+{
+"name": "Kristen Hawkins",
+"party": "D",
+"level": "statewide",
+"race": "Supreme Court, Place 7"
+},
+{
+"name": "Kyle Hawkins",
+"party": "R",
+"level": "statewide",
+"race": "Supreme Court, Place 7"
+},
+{
+"name": "Gisela D. Triana",
+"party": "D",
+"level": "statewide",
+"race": "Supreme Court, Place 8"
+},
+{
+"name": "Brett Busby",
+"party": "R",
+"level": "statewide",
+"race": "Supreme Court, Place 8"
+},
+{
+"name": "Tiffany Clark",
+"party": "D",
+"level": "sboe",
+"race": "SBOE 13"
+},
+{
+"name": "Carlos (charlie) Garza",
+"party": "R",
+"level": "sboe",
+"race": "SBOE 13"
+},
+{
+"name": "Mindy Bumgarner",
+"party": "R",
+"level": "sboe",
+"race": "SBOE 14"
+},
+{
+"name": "Amy Taylor",
+"party": "D",
+"level": "sboe",
+"race": "SBOE 14"
+},
+{
+"name": "Thomas Ray Garcia",
+"party": "D",
+"level": "sboe",
+"race": "SBOE 2"
+},
+{
+"name": "Victoria Hinojosa",
+"party": "R",
+"level": "sboe",
+"race": "SBOE 2"
+},
+{
+"name": "Mica Arellano",
+"party": "R",
+"level": "sboe",
+"race": "SBOE 5"
+},
+{
+"name": "Allison Bush",
+"party": "D",
+"level": "sboe",
+"race": "SBOE 5"
+},
+{
+"name": "Tiffany Nelson",
+"party": "R",
+"level": "sboe",
+"race": "SBOE 6"
+},
+{
+"name": "Michelle Palmer",
+"party": "D",
+"level": "sboe",
+"race": "SBOE 6"
+},
+{
+"name": "Tiffany Perkinz",
+"party": "D",
+"level": "sboe",
+"race": "SBOE 7"
+},
+{
+"name": "Julie Pickren",
+"party": "R",
+"level": "sboe",
+"race": "SBOE 7"
+},
+{
+"name": "Dana Van De Walker",
+"party": "D",
+"level": "sboe",
+"race": "SBOE 8"
+},
+{
+"name": "Audrey G. Young",
+"party": "R",
+"level": "sboe",
+"race": "SBOE 8"
+},
+{
+"name": "Kason Huddleston",
+"party": "R",
+"level": "sboe",
+"race": "SBOE 9"
+},
+{
+"name": "Ericka Ledferd",
+"party": "D",
+"level": "sboe",
+"race": "SBOE 9"
+},
+{
+"name": "Sean Huffman",
+"party": "D",
+"level": "house",
+"race": "House 1"
+},
+{
+"name": "Chris Spencer",
+"party": "R",
+"level": "house",
+"race": "House 1"
+},
+{
+"name": "Brian Harrison",
+"party": "R",
+"level": "house",
+"race": "House 10"
+},
+{
+"name": "Michael Myers",
+"party": "D",
+"level": "house",
+"race": "House 10"
+},
+{
+"name": "Jordan Scott Hoffnagle",
+"party": "R",
+"level": "house",
+"race": "House 100"
+},
+{
+"name": "Venton Jones",
+"party": "D",
+"level": "house",
+"race": "House 100"
+},
+{
+"name": "Junior Ezeonu",
+"party": "D",
+"level": "house",
+"race": "House 101"
+},
+{
+"name": "Bonnie Abadie",
+"party": "R",
+"level": "house",
+"race": "House 102"
+},
+{
+"name": "Ana-Maria Rodriguez Ramos",
+"party": "D",
+"level": "house",
+"race": "House 102"
+},
+{
+"name": "Rafael Anchia",
+"party": "D",
+"level": "house",
+"race": "House 103"
+},
+{
+"name": "Melanie Medley-Thomas",
+"party": "R",
+"level": "house",
+"race": "House 103"
+},
+{
+"name": "Jessica Gonzalez",
+"party": "D",
+"level": "house",
+"race": "House 104"
+},
+{
+"name": "Terry Meza",
+"party": "D",
+"level": "house",
+"race": "House 105"
+},
+{
+"name": "Joe Mayes",
+"party": "D",
+"level": "house",
+"race": "House 106"
+},
+{
+"name": "Jared Patterson",
+"party": "R",
+"level": "house",
+"race": "House 106"
+},
+{
+"name": "Linda Garcia",
+"party": "D",
+"level": "house",
+"race": "House 107"
+},
+{
+"name": "Morgan Meyer",
+"party": "R",
+"level": "house",
+"race": "House 108"
+},
+{
+"name": "Allison Mitchell",
+"party": "D",
+"level": "house",
+"race": "House 108"
+},
+{
+"name": "Will Campbell",
+"party": "R",
+"level": "house",
+"race": "House 109"
+},
+{
+"name": "Aicha Davis",
+"party": "D",
+"level": "house",
+"race": "House 109"
+},
+{
+"name": "Roxanne Lathan",
+"party": "D",
+"level": "house",
+"race": "House 11"
+},
+{
+"name": "Joanne Shofner",
+"party": "R",
+"level": "house",
+"race": "House 11"
+},
+{
+"name": "Toni Rose",
+"party": "D",
+"level": "house",
+"race": "House 110"
+},
+{
+"name": "Yvonne Davis",
+"party": "D",
+"level": "house",
+"race": "House 111"
+},
+{
+"name": "Angie Chen Button",
+"party": "R",
+"level": "house",
+"race": "House 112"
+},
+{
+"name": "Zach Herbert",
+"party": "D",
+"level": "house",
+"race": "House 112"
+},
+{
+"name": "Rhetta Andrews Bowers",
+"party": "D",
+"level": "house",
+"race": "House 113"
+},
+{
+"name": "Stephen W. Stanley",
+"party": "R",
+"level": "house",
+"race": "House 113"
+},
+{
+"name": "John Bryant",
+"party": "D",
+"level": "house",
+"race": "House 114"
+},
+{
+"name": "Tim McDonough",
+"party": "R",
+"level": "house",
+"race": "House 114"
+},
+{
+"name": "Cassandra Hernandez",
+"party": "D",
+"level": "house",
+"race": "House 115"
+},
+{
+"name": "Danny Rosellini",
+"party": "R",
+"level": "house",
+"race": "House 115"
+},
+{
+"name": "Trey Martinez Fischer",
+"party": "D",
+"level": "house",
+"race": "House 116"
+},
+{
+"name": "Rhett Rosenquest Smith",
+"party": "R",
+"level": "house",
+"race": "House 116"
+},
+{
+"name": "Philip Cortez",
+"party": "D",
+"level": "house",
+"race": "House 117"
+},
+{
+"name": "Ben Mostyn",
+"party": "R",
+"level": "house",
+"race": "House 117"
+},
+{
+"name": "Jorge Borrego",
+"party": "R",
+"level": "house",
+"race": "House 118"
+},
+{
+"name": "Kristian Carranza",
+"party": "D",
+"level": "house",
+"race": "House 118"
+},
+{
+"name": "Elizabeth \"Liz\" Campos",
+"party": "D",
+"level": "house",
+"race": "House 119"
+},
+{
+"name": "Melva Perez",
+"party": "R",
+"level": "house",
+"race": "House 119"
+},
+{
+"name": "Andie Ho",
+"party": "D",
+"level": "house",
+"race": "House 12"
+},
+{
+"name": "Trey Wharton",
+"party": "R",
+"level": "house",
+"race": "House 12"
+},
+{
+"name": "Barbara Gervin Hawkins",
+"party": "D",
+"level": "house",
+"race": "House 120"
+},
+{
+"name": "Zack Dunn",
+"party": "D",
+"level": "house",
+"race": "House 121"
+},
+{
+"name": "Marc Lahood",
+"party": "R",
+"level": "house",
+"race": "House 121"
+},
+{
+"name": "Mark Dorazio",
+"party": "R",
+"level": "house",
+"race": "House 122"
+},
+{
+"name": "Shelly Nickels",
+"party": "D",
+"level": "house",
+"race": "House 122"
+},
+{
+"name": "Diego Bernal",
+"party": "D",
+"level": "house",
+"race": "House 123"
+},
+{
+"name": "Josey Garcia",
+"party": "D",
+"level": "house",
+"race": "House 124"
+},
+{
+"name": "Sylvia Soto",
+"party": "R",
+"level": "house",
+"race": "House 124"
+},
+{
+"name": "Ricardo 'rick' Martinez",
+"party": "R",
+"level": "house",
+"race": "House 125"
+},
+{
+"name": "Adrian Reyna",
+"party": "D",
+"level": "house",
+"race": "House 125"
+},
+{
+"name": "Stefanie Bord",
+"party": "D",
+"level": "house",
+"race": "House 126"
+},
+{
+"name": "Stan Stanart",
+"party": "R",
+"level": "house",
+"race": "House 126"
+},
+{
+"name": "Charles Cunningham",
+"party": "R",
+"level": "house",
+"race": "House 127"
+},
+{
+"name": "Michelle Williams",
+"party": "D",
+"level": "house",
+"race": "House 127"
+},
+{
+"name": "Tom Butler",
+"party": "R",
+"level": "house",
+"race": "House 128"
+},
+{
+"name": "Desiree Klaus",
+"party": "D",
+"level": "house",
+"race": "House 128"
+},
+{
+"name": "Scott Bowen",
+"party": "R",
+"level": "house",
+"race": "House 129"
+},
+{
+"name": "Albert Wittliff",
+"party": "D",
+"level": "house",
+"race": "House 129"
+},
+{
+"name": "Albert Hunter",
+"party": "D",
+"level": "house",
+"race": "House 13"
+},
+{
+"name": "Angelia Orr",
+"party": "R",
+"level": "house",
+"race": "House 13"
+},
+{
+"name": "Tom Oliverson",
+"party": "R",
+"level": "house",
+"race": "House 130"
+},
+{
+"name": "Brett Robinson",
+"party": "D",
+"level": "house",
+"race": "House 130"
+},
+{
+"name": "Staci Childs",
+"party": "D",
+"level": "house",
+"race": "House 131"
+},
+{
+"name": "Scott Whitmarsh",
+"party": "R",
+"level": "house",
+"race": "House 131"
+},
+{
+"name": "Sara McGee",
+"party": "D",
+"level": "house",
+"race": "House 132"
+},
+{
+"name": "Mike Schofield",
+"party": "R",
+"level": "house",
+"race": "House 132"
+},
+{
+"name": "Mano Deayala",
+"party": "R",
+"level": "house",
+"race": "House 133"
+},
+{
+"name": "Josh Wallenstein",
+"party": "D",
+"level": "house",
+"race": "House 133"
+},
+{
+"name": "Ann Johnson",
+"party": "D",
+"level": "house",
+"race": "House 134"
+},
+{
+"name": "Mike Michna",
+"party": "R",
+"level": "house",
+"race": "House 134"
+},
+{
+"name": "Odus E. Evbagharu",
+"party": "D",
+"level": "house",
+"race": "House 135"
+},
+{
+"name": "Liz Ramos",
+"party": "R",
+"level": "house",
+"race": "House 135"
+},
+{
+"name": "John H. Bucy III",
+"party": "D",
+"level": "house",
+"race": "House 136"
+},
+{
+"name": "Theodore Schramm",
+"party": "R",
+"level": "house",
+"race": "House 136"
+},
+{
+"name": "Gene Wu",
+"party": "D",
+"level": "house",
+"race": "House 137"
+},
+{
+"name": "Helen Zhou",
+"party": "R",
+"level": "house",
+"race": "House 137"
+},
+{
+"name": "Lacey Hull",
+"party": "R",
+"level": "house",
+"race": "House 138"
+},
+{
+"name": "Tyler Smith",
+"party": "D",
+"level": "house",
+"race": "House 138"
+},
+{
+"name": "Kyle Harding",
+"party": "R",
+"level": "house",
+"race": "House 139"
+},
+{
+"name": "Charlene Ward Johnson",
+"party": "D",
+"level": "house",
+"race": "House 139"
+},
+{
+"name": "Janet Tycelia Dudding",
+"party": "D",
+"level": "house",
+"race": "House 14"
+},
+{
+"name": "Paul Dyson",
+"party": "R",
+"level": "house",
+"race": "House 14"
+},
+{
+"name": "Jeff Miller",
+"party": "L",
+"level": "house",
+"race": "House 14"
+},
+{
+"name": "Laura Garcia Deleon",
+"party": "R",
+"level": "house",
+"race": "House 140"
+},
+{
+"name": "Armando Lucio Walle",
+"party": "D",
+"level": "house",
+"race": "House 140"
+},
+{
+"name": "Julie Hunt",
+"party": "R",
+"level": "house",
+"race": "House 141"
+},
+{
+"name": "Senfronia Thompson",
+"party": "D",
+"level": "house",
+"race": "House 141"
+},
+{
+"name": "Harold V. Dutton Jr",
+"party": "D",
+"level": "house",
+"race": "House 142"
+},
+{
+"name": "Heidi Hall",
+"party": "R",
+"level": "house",
+"race": "House 142"
+},
+{
+"name": "Ana Hernandez",
+"party": "D",
+"level": "house",
+"race": "House 143"
+},
+{
+"name": "Frank Salazar",
+"party": "R",
+"level": "house",
+"race": "House 143"
+},
+{
+"name": "David Flores",
+"party": "R",
+"level": "house",
+"race": "House 144"
+},
+{
+"name": "Mary Ann Perez",
+"party": "D",
+"level": "house",
+"race": "House 144"
+},
+{
+"name": "Christina Morales",
+"party": "D",
+"level": "house",
+"race": "House 145"
+},
+{
+"name": "Inocensia Moreno",
+"party": "R",
+"level": "house",
+"race": "House 145"
+},
+{
+"name": "Alexandria Nicole Butler",
+"party": "R",
+"level": "house",
+"race": "House 146"
+},
+{
+"name": "Lauren Ashley Simmons",
+"party": "D",
+"level": "house",
+"race": "House 146"
+},
+{
+"name": "Theodis Daniel",
+"party": "R",
+"level": "house",
+"race": "House 147"
+},
+{
+"name": "Jolanda Jones",
+"party": "D",
+"level": "house",
+"race": "House 147"
+},
+{
+"name": "Amanda Labrie",
+"party": "R",
+"level": "house",
+"race": "House 148"
+},
+{
+"name": "Penny Morales Shaw",
+"party": "D",
+"level": "house",
+"race": "House 148"
+},
+{
+"name": "Dave Bennett",
+"party": "R",
+"level": "house",
+"race": "House 149"
+},
+{
+"name": "Darlene Breaux",
+"party": "D",
+"level": "house",
+"race": "House 149"
+},
+{
+"name": "Brad Bailey",
+"party": "R",
+"level": "house",
+"race": "House 15"
+},
+{
+"name": "Jessi Cowart",
+"party": "L",
+"level": "house",
+"race": "House 15"
+},
+{
+"name": "Moniqua' S. Scott",
+"party": "D",
+"level": "house",
+"race": "House 15"
+},
+{
+"name": "A'yonna Kellum",
+"party": "D",
+"level": "house",
+"race": "House 150"
+},
+{
+"name": "Valoree Swanson",
+"party": "R",
+"level": "house",
+"race": "House 150"
+},
+{
+"name": "Bobbie Clayton",
+"party": "D",
+"level": "house",
+"race": "House 16"
+},
+{
+"name": "Will Metcalf",
+"party": "R",
+"level": "house",
+"race": "House 16"
+},
+{
+"name": "Stan Gerdes",
+"party": "R",
+"level": "house",
+"race": "House 17"
+},
+{
+"name": "Mary Elizabeth Klenz",
+"party": "D",
+"level": "house",
+"race": "House 17"
+},
+{
+"name": "Valorie Barton",
+"party": "D",
+"level": "house",
+"race": "House 18"
+},
+{
+"name": "Janis Holt",
+"party": "R",
+"level": "house",
+"race": "House 18"
+},
+{
+"name": "Tom Luck",
+"party": "D",
+"level": "house",
+"race": "House 19"
+},
+{
+"name": "Ellen Troxclair",
+"party": "R",
+"level": "house",
+"race": "House 19"
+},
+{
+"name": "Fatima La'juan Muse",
+"party": "D",
+"level": "house",
+"race": "House 2"
+},
+{
+"name": "Brent A. Money",
+"party": "R",
+"level": "house",
+"race": "House 2"
+},
+{
+"name": "Matthias-Jonah Early",
+"party": "D",
+"level": "house",
+"race": "House 20"
+},
+{
+"name": "Terry M. Wilson",
+"party": "R",
+"level": "house",
+"race": "House 20"
+},
+{
+"name": "Ray Callas",
+"party": "R",
+"level": "house",
+"race": "House 21"
+},
+{
+"name": "Jacqueline \"Jacky\" Hernandez",
+"party": "D",
+"level": "house",
+"race": "House 21"
+},
+{
+"name": "Christian Manuel",
+"party": "D",
+"level": "house",
+"race": "House 22"
+},
+{
+"name": "Cheryl Lynn Clark",
+"party": "D",
+"level": "house",
+"race": "House 23"
+},
+{
+"name": "Terri Leo Wilson",
+"party": "R",
+"level": "house",
+"race": "House 23"
+},
+{
+"name": "Greg Bonnen",
+"party": "R",
+"level": "house",
+"race": "House 24"
+},
+{
+"name": "Frank N Carr",
+"party": "D",
+"level": "house",
+"race": "House 24"
+},
+{
+"name": "Mike Meadors",
+"party": "D",
+"level": "house",
+"race": "House 25"
+},
+{
+"name": "Cody Thane Vasut",
+"party": "R",
+"level": "house",
+"race": "House 25"
+},
+{
+"name": "Elizabeth \"Eliz\" Markowitz",
+"party": "D",
+"level": "house",
+"race": "House 26"
+},
+{
+"name": "Matt Morgan",
+"party": "R",
+"level": "house",
+"race": "House 26"
+},
+{
+"name": "Max Alalibo",
+"party": "R",
+"level": "house",
+"race": "House 27"
+},
+{
+"name": "Ron Reynolds",
+"party": "D",
+"level": "house",
+"race": "House 27"
+},
+{
+"name": "Gary Gates",
+"party": "R",
+"level": "house",
+"race": "House 28"
+},
+{
+"name": "Sandy Ibanez",
+"party": "D",
+"level": "house",
+"race": "House 28"
+},
+{
+"name": "Jeff Barry",
+"party": "R",
+"level": "house",
+"race": "House 29"
+},
+{
+"name": "Karen Reeder",
+"party": "D",
+"level": "house",
+"race": "House 29"
+},
+{
+"name": "Nicole King",
+"party": "D",
+"level": "house",
+"race": "House 3"
+},
+{
+"name": "Kristen Plaisance",
+"party": "R",
+"level": "house",
+"race": "House 3"
+},
+{
+"name": "Aj Louderback",
+"party": "R",
+"level": "house",
+"race": "House 30"
+},
+{
+"name": "Crystal Sedillo",
+"party": "D",
+"level": "house",
+"race": "House 30"
+},
+{
+"name": "Jennifer \"Jj\" Dominguez",
+"party": "D",
+"level": "house",
+"race": "House 31"
+},
+{
+"name": "Ryan Guillen",
+"party": "R",
+"level": "house",
+"race": "House 31"
+},
+{
+"name": "Todd Hunter",
+"party": "R",
+"level": "house",
+"race": "House 32"
+},
+{
+"name": "Gabriel \"Gabe\" Lozano Marroquin",
+"party": "D",
+"level": "house",
+"race": "House 32"
+},
+{
+"name": "Orlando Lopez",
+"party": "D",
+"level": "house",
+"race": "House 33"
+},
+{
+"name": "Katrina Pierson",
+"party": "R",
+"level": "house",
+"race": "House 33"
+},
+{
+"name": "Stephanie Guerrero Saenz",
+"party": "D",
+"level": "house",
+"race": "House 34"
+},
+{
+"name": "Denise Villalobos",
+"party": "R",
+"level": "house",
+"race": "House 34"
+},
+{
+"name": "Oscar Longoria",
+"party": "D",
+"level": "house",
+"race": "House 35"
+},
+{
+"name": "Oscar Rosa",
+"party": "R",
+"level": "house",
+"race": "House 35"
+},
+{
+"name": "Sergio Mu\u00f1oz Jr",
+"party": "D",
+"level": "house",
+"race": "House 36"
+},
+{
+"name": "Janie Lopez",
+"party": "R",
+"level": "house",
+"race": "House 37"
+},
+{
+"name": "Oziel \"Ozzie\" Ochoa Jr",
+"party": "D",
+"level": "house",
+"race": "House 37"
+},
+{
+"name": "Laura E. Cisneros",
+"party": "R",
+"level": "house",
+"race": "House 38"
+},
+{
+"name": "Erin Elizabeth Gamez",
+"party": "D",
+"level": "house",
+"race": "House 38"
+},
+{
+"name": "Armando Mando Martinez",
+"party": "D",
+"level": "house",
+"race": "House 39"
+},
+{
+"name": "Keith Bell",
+"party": "R",
+"level": "house",
+"race": "House 4"
+},
+{
+"name": "Mark A. Moseley",
+"party": "D",
+"level": "house",
+"race": "House 4"
+},
+{
+"name": "Celeste Cabrera-Huff",
+"party": "R",
+"level": "house",
+"race": "House 40"
+},
+{
+"name": "Terry Canales",
+"party": "D",
+"level": "house",
+"race": "House 40"
+},
+{
+"name": "Gary Groves",
+"party": "R",
+"level": "house",
+"race": "House 41"
+},
+{
+"name": "Julio Salinas",
+"party": "D",
+"level": "house",
+"race": "House 41"
+},
+{
+"name": "Teresa Johnson-Hernandez",
+"party": "R",
+"level": "house",
+"race": "House 42"
+},
+{
+"name": "Richard Pena Raymond",
+"party": "D",
+"level": "house",
+"race": "House 42"
+},
+{
+"name": "Jeffrey T Jackson",
+"party": "D",
+"level": "house",
+"race": "House 43"
+},
+{
+"name": "J.m. Lozano",
+"party": "R",
+"level": "house",
+"race": "House 43"
+},
+{
+"name": "Eric Norman",
+"party": "D",
+"level": "house",
+"race": "House 44"
+},
+{
+"name": "Alan Schoolcraft",
+"party": "R",
+"level": "house",
+"race": "House 44"
+},
+{
+"name": "Tennyson G. Moreno",
+"party": "R",
+"level": "house",
+"race": "House 45"
+},
+{
+"name": "Erin Zwiener",
+"party": "D",
+"level": "house",
+"race": "House 45"
+},
+{
+"name": "Sheryl Cole",
+"party": "D",
+"level": "house",
+"race": "House 46"
+},
+{
+"name": "Jennifer Mushtaler",
+"party": "R",
+"level": "house",
+"race": "House 47"
+},
+{
+"name": "Pooja Sethi",
+"party": "D",
+"level": "house",
+"race": "House 47"
+},
+{
+"name": "Anthony Gupta",
+"party": "R",
+"level": "house",
+"race": "House 48"
+},
+{
+"name": "Donna Howard",
+"party": "D",
+"level": "house",
+"race": "House 48"
+},
+{
+"name": "Montserrat Garibay",
+"party": "D",
+"level": "house",
+"race": "House 49"
+},
+{
+"name": "Arshia Papari",
+"party": "G",
+"level": "house",
+"race": "House 49"
+},
+{
+"name": "Hector Garza",
+"party": "D",
+"level": "house",
+"race": "House 5"
+},
+{
+"name": "Cole Hefner",
+"party": "R",
+"level": "house",
+"race": "House 5"
+},
+{
+"name": "Samantha Lopez-Resendez",
+"party": "D",
+"level": "house",
+"race": "House 50"
+},
+{
+"name": "Howard Olsen",
+"party": "R",
+"level": "house",
+"race": "House 50"
+},
+{
+"name": "Maria Luisa \"Lulu\" Flores",
+"party": "D",
+"level": "house",
+"race": "House 51"
+},
+{
+"name": "Jessica Martinez",
+"party": "R",
+"level": "house",
+"race": "House 51"
+},
+{
+"name": "Caroline Harris Davila",
+"party": "R",
+"level": "house",
+"race": "House 52"
+},
+{
+"name": "Chris Jimenez",
+"party": "D",
+"level": "house",
+"race": "House 52"
+},
+{
+"name": "Kathryn Hartmann",
+"party": "D",
+"level": "house",
+"race": "House 53"
+},
+{
+"name": "Wes Virdell",
+"party": "R",
+"level": "house",
+"race": "House 53"
+},
+{
+"name": "Brad Buckley",
+"party": "R",
+"level": "house",
+"race": "House 54"
+},
+{
+"name": "Dawn Richardson",
+"party": "D",
+"level": "house",
+"race": "House 54"
+},
+{
+"name": "Hillary Hickland",
+"party": "R",
+"level": "house",
+"race": "House 55"
+},
+{
+"name": "Amelia Rabroker",
+"party": "D",
+"level": "house",
+"race": "House 55"
+},
+{
+"name": "Pat Curry",
+"party": "R",
+"level": "house",
+"race": "House 56"
+},
+{
+"name": "Ashley Bean Thornton",
+"party": "D",
+"level": "house",
+"race": "House 56"
+},
+{
+"name": "Darren Hamilton",
+"party": "L",
+"level": "house",
+"race": "House 57"
+},
+{
+"name": "Richard Hayes",
+"party": "R",
+"level": "house",
+"race": "House 57"
+},
+{
+"name": "Ray Stith",
+"party": "D",
+"level": "house",
+"race": "House 57"
+},
+{
+"name": "Helen Kerwin",
+"party": "R",
+"level": "house",
+"race": "House 58"
+},
+{
+"name": "Chris Oldham",
+"party": "D",
+"level": "house",
+"race": "House 58"
+},
+{
+"name": "Shelby Slawson",
+"party": "R",
+"level": "house",
+"race": "House 59"
+},
+{
+"name": "Andrew Turner",
+"party": "D",
+"level": "house",
+"race": "House 59"
+},
+{
+"name": "Daniel Alders",
+"party": "R",
+"level": "house",
+"race": "House 6"
+},
+{
+"name": "Lorenzo Johnson",
+"party": "D",
+"level": "house",
+"race": "House 6"
+},
+{
+"name": "Krissy Guess",
+"party": "D",
+"level": "house",
+"race": "House 60"
+},
+{
+"name": "Mike Olcott",
+"party": "R",
+"level": "house",
+"race": "House 60"
+},
+{
+"name": "Brittany Black",
+"party": "D",
+"level": "house",
+"race": "House 61"
+},
+{
+"name": "Anissa Chilmeran",
+"party": "G",
+"level": "house",
+"race": "House 61"
+},
+{
+"name": "Keresa Richardson",
+"party": "R",
+"level": "house",
+"race": "House 61"
+},
+{
+"name": "Shelley Luther",
+"party": "R",
+"level": "house",
+"race": "House 62"
+},
+{
+"name": "Catherine Thorne",
+"party": "D",
+"level": "house",
+"race": "House 62"
+},
+{
+"name": "Ben Bumgarner",
+"party": "R",
+"level": "house",
+"race": "House 63"
+},
+{
+"name": "Denise Wooten",
+"party": "D",
+"level": "house",
+"race": "House 63"
+},
+{
+"name": "Julie Evans",
+"party": "D",
+"level": "house",
+"race": "House 64"
+},
+{
+"name": "Andy Hopper",
+"party": "R",
+"level": "house",
+"race": "House 64"
+},
+{
+"name": "Detrick Deburr",
+"party": "D",
+"level": "house",
+"race": "House 65"
+},
+{
+"name": "Mitch Little",
+"party": "R",
+"level": "house",
+"race": "House 65"
+},
+{
+"name": "Matt Shaheen",
+"party": "R",
+"level": "house",
+"race": "House 66"
+},
+{
+"name": "Sandeep Srivastava",
+"party": "D",
+"level": "house",
+"race": "House 66"
+},
+{
+"name": "Jeff Leach",
+"party": "R",
+"level": "house",
+"race": "House 67"
+},
+{
+"name": "Jordan Wheatley",
+"party": "D",
+"level": "house",
+"race": "House 67"
+},
+{
+"name": "Jasmine Henderson",
+"party": "D",
+"level": "house",
+"race": "House 68"
+},
+{
+"name": "David Spiller",
+"party": "R",
+"level": "house",
+"race": "House 68"
+},
+{
+"name": "Leilani Barnett",
+"party": "D",
+"level": "house",
+"race": "House 69"
+},
+{
+"name": "James B. Frank",
+"party": "R",
+"level": "house",
+"race": "House 69"
+},
+{
+"name": "Fantasha Allen",
+"party": "D",
+"level": "house",
+"race": "House 7"
+},
+{
+"name": "Jay Dean",
+"party": "R",
+"level": "house",
+"race": "House 7"
+},
+{
+"name": "George Flint",
+"party": "R",
+"level": "house",
+"race": "House 70"
+},
+{
+"name": "Mihaela Elizabeth Plesa",
+"party": "D",
+"level": "house",
+"race": "House 70"
+},
+{
+"name": "Jay Hardaway",
+"party": "R",
+"level": "house",
+"race": "House 71"
+},
+{
+"name": "Diana Luna",
+"party": "D",
+"level": "house",
+"race": "House 71"
+},
+{
+"name": "Drew Darby",
+"party": "R",
+"level": "house",
+"race": "House 72"
+},
+{
+"name": "Shiloh Salazar",
+"party": "D",
+"level": "house",
+"race": "House 72"
+},
+{
+"name": "Merrie Fox",
+"party": "D",
+"level": "house",
+"race": "House 73"
+},
+{
+"name": "Carrie Isaac",
+"party": "R",
+"level": "house",
+"race": "House 73"
+},
+{
+"name": "Robert Garza",
+"party": "R",
+"level": "house",
+"race": "House 74"
+},
+{
+"name": "Eddie Morales Jr",
+"party": "D",
+"level": "house",
+"race": "House 74"
+},
+{
+"name": "Mary E Gonzalez",
+"party": "D",
+"level": "house",
+"race": "House 75"
+},
+{
+"name": "Linda Howell",
+"party": "R",
+"level": "house",
+"race": "House 76"
+},
+{
+"name": "Suleman Lalani",
+"party": "D",
+"level": "house",
+"race": "House 76"
+},
+{
+"name": "Humberto Perez",
+"party": "R",
+"level": "house",
+"race": "House 77"
+},
+{
+"name": "Vincent \"Vince\" Perez",
+"party": "D",
+"level": "house",
+"race": "House 77"
+},
+{
+"name": "Joe Moody",
+"party": "D",
+"level": "house",
+"race": "House 78"
+},
+{
+"name": "Claudia Ordaz",
+"party": "D",
+"level": "house",
+"race": "House 79"
+},
+{
+"name": "Jesse Romero",
+"party": "R",
+"level": "house",
+"race": "House 79"
+},
+{
+"name": "Jeff Chavez",
+"party": "D",
+"level": "house",
+"race": "House 8"
+},
+{
+"name": "Cody Harris",
+"party": "R",
+"level": "house",
+"race": "House 8"
+},
+{
+"name": "Cecilia Castellano",
+"party": "D",
+"level": "house",
+"race": "House 80"
+},
+{
+"name": "Don McLaughlin",
+"party": "R",
+"level": "house",
+"race": "House 80"
+},
+{
+"name": "Brooks Landgraf",
+"party": "R",
+"level": "house",
+"race": "House 81"
+},
+{
+"name": "Ceasar Sanchez",
+"party": "D",
+"level": "house",
+"race": "House 81"
+},
+{
+"name": "Cathy Broadrick",
+"party": "D",
+"level": "house",
+"race": "House 82"
+},
+{
+"name": "Tom Craddick",
+"party": "R",
+"level": "house",
+"race": "House 82"
+},
+{
+"name": "Dustin Burrows",
+"party": "R",
+"level": "house",
+"race": "House 83"
+},
+{
+"name": "Malik Williams",
+"party": "D",
+"level": "house",
+"race": "House 83"
+},
+{
+"name": "Margaret Durham",
+"party": "D",
+"level": "house",
+"race": "House 84"
+},
+{
+"name": "Carl Tepper",
+"party": "R",
+"level": "house",
+"race": "House 84"
+},
+{
+"name": "Lawrence Brandyburg",
+"party": "D",
+"level": "house",
+"race": "House 85"
+},
+{
+"name": "Dennis \"Goose\" Geesaman",
+"party": "R",
+"level": "house",
+"race": "House 85"
+},
+{
+"name": "Holly Jeffreys",
+"party": "R",
+"level": "house",
+"race": "House 86"
+},
+{
+"name": "Cullin Knutson",
+"party": "D",
+"level": "house",
+"race": "House 86"
+},
+{
+"name": "Caroline Fairly",
+"party": "R",
+"level": "house",
+"race": "House 87"
+},
+{
+"name": "Diana Loya",
+"party": "D",
+"level": "house",
+"race": "House 87"
+},
+{
+"name": "Heather J. Wallace",
+"party": "D",
+"level": "house",
+"race": "House 88"
+},
+{
+"name": "Ken King",
+"party": "R",
+"level": "house",
+"race": "House 88"
+},
+{
+"name": "Angie Carraway",
+"party": "D",
+"level": "house",
+"race": "House 89"
+},
+{
+"name": "Candy Noble",
+"party": "R",
+"level": "house",
+"race": "House 89"
+},
+{
+"name": "Shelley Tatum",
+"party": "D",
+"level": "house",
+"race": "House 9"
+},
+{
+"name": "Rocky Thigpen",
+"party": "R",
+"level": "house",
+"race": "House 9"
+},
+{
+"name": "Ramon Romero Jr",
+"party": "D",
+"level": "house",
+"race": "House 90"
+},
+{
+"name": "David Lowe",
+"party": "R",
+"level": "house",
+"race": "House 91"
+},
+{
+"name": "Yisak Worku",
+"party": "D",
+"level": "house",
+"race": "House 91"
+},
+{
+"name": "Salman Bhojani",
+"party": "D",
+"level": "house",
+"race": "House 92"
+},
+{
+"name": "Jp Woodruff",
+"party": "R",
+"level": "house",
+"race": "House 92"
+},
+{
+"name": "Alan Blaylock",
+"party": "R",
+"level": "house",
+"race": "House 93"
+},
+{
+"name": "Ericka Lomick",
+"party": "D",
+"level": "house",
+"race": "House 93"
+},
+{
+"name": "Cheryl Bean",
+"party": "R",
+"level": "house",
+"race": "House 94"
+},
+{
+"name": "Katie O'Brien Duzan",
+"party": "D",
+"level": "house",
+"race": "House 94"
+},
+{
+"name": "Nicole Collier",
+"party": "D",
+"level": "house",
+"race": "House 95"
+},
+{
+"name": "Ellen Fleischmann",
+"party": "R",
+"level": "house",
+"race": "House 96"
+},
+{
+"name": "Ebony M. Turner",
+"party": "D",
+"level": "house",
+"race": "House 96"
+},
+{
+"name": "Beth Llewellyn McLaughlin",
+"party": "D",
+"level": "house",
+"race": "House 97"
+},
+{
+"name": "John W. McQueeney",
+"party": "R",
+"level": "house",
+"race": "House 97"
+},
+{
+"name": "Cate Brennan",
+"party": "D",
+"level": "house",
+"race": "House 98"
+},
+{
+"name": "Armin Mizani",
+"party": "R",
+"level": "house",
+"race": "House 98"
+},
+{
+"name": "Charlie Geren",
+"party": "R",
+"level": "house",
+"race": "House 99"
+},
+{
+"name": "Michelle Winder",
+"party": "D",
+"level": "house",
+"race": "House 99"
+},
+{
+"name": "Laticia Ambroz",
+"party": "D",
+"level": "senate",
+"race": "Senate 1"
+},
+{
+"name": "Bryan Hughes",
+"party": "R",
+"level": "senate",
+"race": "Senate 1"
+},
+{
+"name": "Shannon Dicely",
+"party": "D",
+"level": "senate",
+"race": "Senate 11"
+},
+{
+"name": "Dennis Paul",
+"party": "R",
+"level": "senate",
+"race": "Senate 11"
+},
+{
+"name": "Borris L. Miles",
+"party": "D",
+"level": "senate",
+"race": "Senate 13"
+},
+{
+"name": "Erica Gillum",
+"party": "D",
+"level": "senate",
+"race": "Senate 18"
+},
+{
+"name": "Lois W. Kolkhorst",
+"party": "R",
+"level": "senate",
+"race": "Senate 18"
+},
+{
+"name": "Marcus Cardenas",
+"party": "R",
+"level": "senate",
+"race": "Senate 19"
+},
+{
+"name": "Roland Gutierrez",
+"party": "D",
+"level": "senate",
+"race": "Senate 19"
+},
+{
+"name": "Keenen Colbert",
+"party": "D",
+"level": "senate",
+"race": "Senate 2"
+},
+{
+"name": "Bob Hall",
+"party": "R",
+"level": "senate",
+"race": "Senate 2"
+},
+{
+"name": "Julie Dahlberg",
+"party": "R",
+"level": "senate",
+"race": "Senate 21"
+},
+{
+"name": "Judith Zaffirini",
+"party": "D",
+"level": "senate",
+"race": "Senate 21"
+},
+{
+"name": "David Cook",
+"party": "R",
+"level": "senate",
+"race": "Senate 22"
+},
+{
+"name": "Amy Martinez-Salas",
+"party": "D",
+"level": "senate",
+"race": "Senate 22"
+},
+{
+"name": "Pete Flores",
+"party": "R",
+"level": "senate",
+"race": "Senate 24"
+},
+{
+"name": "Joe Paz Herrera",
+"party": "D",
+"level": "senate",
+"race": "Senate 24"
+},
+{
+"name": "Jose Menendez",
+"party": "D",
+"level": "senate",
+"race": "Senate 26"
+},
+{
+"name": "Juli\u00e1n Villarreal",
+"party": "G",
+"level": "senate",
+"race": "Senate 26"
+},
+{
+"name": "Charles Perry",
+"party": "R",
+"level": "senate",
+"race": "Senate 28"
+},
+{
+"name": "Riley Rodriquez",
+"party": "D",
+"level": "senate",
+"race": "Senate 28"
+},
+{
+"name": "Trent Ashby",
+"party": "R",
+"level": "senate",
+"race": "Senate 3"
+},
+{
+"name": "Bobby Tillman",
+"party": "D",
+"level": "senate",
+"race": "Senate 3"
+},
+{
+"name": "John Betancourt",
+"party": "D",
+"level": "senate",
+"race": "Senate 31"
+},
+{
+"name": "Kevin Sparks",
+"party": "R",
+"level": "senate",
+"race": "Senate 31"
+},
+{
+"name": "Ron C. Angeletti",
+"party": "D",
+"level": "senate",
+"race": "Senate 4"
+},
+{
+"name": "Brett W. Ligon",
+"party": "R",
+"level": "senate",
+"race": "Senate 4"
+},
+{
+"name": "Charles Schwertner",
+"party": "R",
+"level": "senate",
+"race": "Senate 5"
+},
+{
+"name": "Paul Thomasson",
+"party": "D",
+"level": "senate",
+"race": "Senate 5"
+},
+{
+"name": "Taylor Rehmet",
+"party": "D",
+"level": "senate",
+"race": "Senate 9"
+},
+{
+"name": "Leigh Wambsganss",
+"party": "R",
+"level": "senate",
+"race": "Senate 9"
+},
+{
+"name": "Orlando Sanchez",
+"party": "R",
+"level": "local",
+"race": "2026 harris County Judge"
+},
+{
+"name": "Letitia Plummer",
+"party": "D",
+"level": "local",
+"race": "2026 harris County Judge"
+},
+{
+"name": "Tim O'Hare",
+"party": "R",
+"level": "local",
+"race": "2026 tarrant County Judge"
+},
+{
+"name": "Alisa Simmons",
+"party": "D",
+"level": "local",
+"race": "2026 tarrant County Judge"
+},
+{
+"name": "Tony Tinderholt",
+"party": "R",
+"level": "local",
+"race": "2026 tarrant Commissioner Pct 2"
+},
+{
+"name": "Jared Williams",
+"party": "D",
+"level": "local",
+"race": "2026 tarrant Commissioner Pct 2"
+},
+{
+"name": "Manny Ramirez",
+"party": "R",
+"level": "local",
+"race": "2026 tarrant Commissioner Pct 4"
+},
+{
+"name": "Nydia Cardenas",
+"party": "D",
+"level": "local",
+"race": "2026 tarrant Commissioner Pct 4"
+},
+{
+"name": "Steven Snell",
+"party": "R",
+"level": "local",
+"race": "2026 williamson County Judge"
+},
+{
+"name": "Heather Jefts",
+"party": "D",
+"level": "local",
+"race": "2026 williamson County Judge"
+},
+{
+"name": "Andy Eads",
+"party": "R",
+"level": "local",
+"race": "2026 denton County Judge"
+},
+{
+"name": "Nick Pappas",
+"party": "D",
+"level": "local",
+"race": "2026 denton County Judge"
+},
+{
+"name": "Daniel Wong",
+"party": "R",
+"level": "local",
+"race": "Fort Bend County Judge"
+},
+{
+"name": "Dexter L McCoy",
+"party": "D",
+"level": "local",
+"race": "Fort Bend County Judge"
+},
+{
+"name": "Tony Aranda",
+"party": "R",
+"level": "local",
+"race": "Fort Bend Commissioner Pct 2"
+},
+{
+"name": "Grady Prestage",
+"party": "D",
+"level": "local",
+"race": "Fort Bend Commissioner Pct 2"
+},
+{
+"name": "Ken Mathews",
+"party": "R",
+"level": "local",
+"race": "Fort Bend Commissioner Pct 4"
+},
+{
+"name": "April L. Jones",
+"party": "D",
+"level": "local",
+"race": "Fort Bend Commissioner Pct 4"
+},
+{
+"name": "Chris Hill",
+"party": "R",
+"level": "local",
+"race": "collin County Judge"
+},
+{
+"name": "John R. \"Buster\" Brown",
+"party": "D",
+"level": "local",
+"race": "collin County Judge"
+}
+]

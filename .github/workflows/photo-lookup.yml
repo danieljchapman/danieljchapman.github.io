@@ -1,0 +1,32 @@
+name: Candidate photo lookup (review branch only)
+
+# Finds freely licensed photos of 2026 candidates on Wikipedia / Wikimedia Commons and commits the
+# results to this branch for review. Runs only on pushes to the photo-lookup branch; never touches main.
+on:
+  push:
+    branches: [photo-lookup]
+    paths: ['tools/photos/**', '.github/workflows/photo-lookup.yml']
+
+permissions:
+  contents: write
+
+jobs:
+  lookup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install -q pillow
+      - name: Find articles and lead images
+        working-directory: tools/photos
+        run: python3 find.py
+      - name: Check licenses and download thumbnails
+        working-directory: tools/photos
+        run: python3 lic.py
+      - name: Commit results to this branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add tools/photos
+          git commit -m "Photo lookup results" || exit 0
+          git push origin HEAD:photo-lookup
