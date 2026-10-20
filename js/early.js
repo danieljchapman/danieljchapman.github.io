@@ -13,7 +13,7 @@
 
   // ---------- data ----------
   // index: year -> ev_day -> unit -> {registered, in_person, mail, total, in_person_day}
-  let idxKey = null, IDX = null, LATEST = null;
+  let idxKey = null, IDX = null, LATEST = null, COMPLETE = 0, PARTIAL = null;
   function build(hist, cur) {
     if (idxKey && idxKey[0] === hist && idxKey[1] === cur) return;
     idxKey = [hist, cur]; IDX = new Map();
@@ -27,10 +27,22 @@
     }
     const days = IDX.has(2026) ? [...IDX.get(2026).keys()] : [];
     LATEST = days.length ? Math.max(...days) : null;
+    // a day of in-person voting counts as complete once counties holding 90% of registered voters have reported
+    // in-person votes for it; the state posts most big counties the next morning, so the newest day is often partial
+    COMPLETE = 0; PARTIAL = null;
+    // measure against the most registered voters seen on any day, in case a day's file leaves counties out
+    const regAll = Math.max(0, ...days.map((d) => (IDX.get(2026).get(d).get('TX') || {}).registered || 0));
+    for (const d of days.filter((d) => d >= 1).sort((a, b) => a - b)) {
+      const M = IDX.get(2026).get(d); let reg = regAll, regRep = 0, n = 0;
+      for (const [u, o] of M) { if (u === 'TX') continue; if (o.in_person > 0) { regRep += o.registered; n++; } }
+      const share = reg ? regRep / reg : 0;
+      if (share >= 0.9) COMPLETE = d; else PARTIAL = { day: d, counties: n, share, votes: (M.get('TX') || {}).in_person || 0 };
+    }
+    if (PARTIAL && PARTIAL.day <= COMPLETE) PARTIAL = null;
   }
   const at = (y, d, u) => { const Y = IDX.get(y); if (!Y) return null; const D = Y.get(Math.max(0, Math.min(12, d))); return D ? D.get(u) || null : null; };
   // the comparison day: 2026's latest reported day, clamped to the 12 days of in-person voting (day 0 = mail only, before day 1)
-  const cmpDay = () => LATEST == null ? null : Math.max(0, Math.min(12, LATEST));
+  const cmpDay = () => LATEST == null ? null : Math.max(0, Math.min(12, LATEST >= 1 ? COMPLETE : LATEST));
 
   // ---------- page ----------
   let ready = false, sortKey = 'total', sortDir = -1, query = '';
@@ -74,9 +86,10 @@
     const live = document.getElementById('ev-live'); live.replaceChildren();
     const dot = document.createElement('span'); dot.className = 'lx-live-dot' + (LATEST != null && LATEST >= 1 && LATEST <= 12 ? ' on' : '');
     const t = document.createElement('span');
-    const thru = LATEST == null ? null : at(2026, LATEST, 'TX');
+    const thru = LATEST == null ? null : at(2026, D, 'TX');
     t.textContent = LATEST == null ? 'In-person early voting runs Monday, Oct. 19 through Friday, Oct. 30. Counts will appear here as the state posts them.'
       : `Unofficial counts through ${thru && thru.date ? new Date(thru.date + 'T12:00:00Z').toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', timeZone: 'UTC' }) : '—'}${s.state_updated ? ', posted by the state ' + new Date(s.state_updated + 'T12:00:00Z').toLocaleDateString('en-US', { month: 'short', day: 'numeric', timeZone: 'UTC' }) : ''}. In-person early voting runs Oct. 19–30; the state posts each day's numbers the next morning.`;
+    if (PARTIAL) t.textContent += ` Day ${PARTIAL.day} (${wk(2026, PARTIAL.day)}, ${dayLabel(2026, PARTIAL.day)}) is still coming in: ${PARTIAL.counties} of 254 counties, with ${d3.format('.0%')(PARTIAL.share)} of registered voters, have reported ${fmt(PARTIAL.votes)} in-person votes so far. Comparisons use the last complete day until it fills in.`;
     live.append(dot, t);
 
     const T26 = D == null ? null : at(2026, D, 'TX'), T24 = D == null ? null : at(2024, D, 'TX'), T22 = D == null ? null : at(2022, D, 'TX');
@@ -91,8 +104,13 @@
     const add = (x, b) => { const n = document.createElement(b ? 'b' : 'span'); n.textContent = x; tk.append(n); };
     if (!T26) add('2026 early-voting counts will appear here once the state posts them. The chart and map show 2022 and 2024 for comparison.');
     else if (before) {
-      add(fmt(T26.total), true); add(` mail ballots have been reported so far, from ${rep26} of 254 counties. In-person early voting starts `); add('Monday, Oct. 19', true);
-      add(`. Comparisons with 2024 and 2022 begin then: before in-person voting, counties report mail ballots on different schedules (at this point in 2024, ${reporting(2024)} counties had reported ${fmt(T24.total)} mail ballots), so early mail totals aren't comparable yet.`);
+      if (PARTIAL) {
+        add('In-person early voting began '); add('Monday, Oct. 19', true); add('. The state posts most large counties\' counts the next morning; so far ');
+        add(`${PARTIAL.counties} of 254 counties`, true); add(` have reported ${fmt(PARTIAL.votes)} in-person votes for day ${PARTIAL.day}. Comparisons with 2024 and 2022 start once most counties have reported. Before in-person voting, ${fmt(T26.total)} mail ballots had been reported from ${rep26} counties.`);
+      } else {
+        add(fmt(T26.total), true); add(` mail ballots have been reported so far, from ${rep26} of 254 counties. In-person early voting starts `); add('Monday, Oct. 19', true);
+        add(`. Comparisons with 2024 and 2022 begin then: before in-person voting, counties report mail ballots on different schedules (at this point in 2024, ${reporting(2024)} counties had reported ${fmt(T24.total)} mail ballots), so early mail totals aren't comparable yet.`);
+      }
     } else {
       add(fmt(T26.total), true); add(` Texans have voted early ${dayTxt} (${pct(T26.total / T26.registered)} of registered voters). That is `);
       const r24 = T26.total / T24.total, r22 = T26.total / T22.total;
