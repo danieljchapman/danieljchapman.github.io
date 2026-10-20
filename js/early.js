@@ -34,7 +34,7 @@
     const regAll = Math.max(0, ...days.map((d) => (IDX.get(2026).get(d).get('TX') || {}).registered || 0));
     for (const d of days.filter((d) => d >= 1).sort((a, b) => a - b)) {
       const M = IDX.get(2026).get(d); let reg = regAll, regRep = 0, n = 0;
-      for (const [u, o] of M) { if (u === 'TX') continue; if (o.in_person_day > 0) { regRep += o.registered; n++; } }  // reported votes for this day itself
+      for (const [u, o] of M) { if (u === 'TX') continue; if (reportedDay(u, d)) { regRep += o.registered; n++; } }  // a plausible count for this day itself
       const share = reg ? regRep / reg : 0;
       // report the earliest unfinished day; a later complete day clears it
       if (share >= 0.9) { COMPLETE = d; PARTIAL = null; }
@@ -42,6 +42,13 @@
     }
     if (PARTIAL && PARTIAL.day <= COMPLETE) PARTIAL = null;
   }
+  // Some counties first post placeholder counts (Harris showed 4 votes for day 1 of 2026 while its own site had 104,000+).
+  // A county counts as having reported a day only if its count is at least 15% of what it recorded on the same day
+  // in 2024 (or 2022); counties with fewer than 50 votes that day in both years only need a nonzero count.
+  const sameDayPast = (u, d, field) => { const a = at(2024, d, u), b = at(2022, d, u); return Math.max(a ? a[field] : 0, b ? b[field] : 0); };
+  const plausible = (v, past) => past < 50 ? v > 0 : v >= 0.15 * past;
+  const reportedDay = (u, d) => { const o = at(2026, d, u); return !!o && plausible(o.in_person_day, sameDayPast(u, d, 'in_person_day')); };
+  const reportedThru = (u, d) => { if (d < 1) return true; const o = at(2026, d, u); return !!o && plausible(o.in_person, sameDayPast(u, d, 'in_person')); };
   const at = (y, d, u) => { const Y = IDX.get(y); if (!Y) return null; const D = Y.get(Math.max(0, Math.min(12, d))); return D ? D.get(u) || null : null; };
   // the comparison day: 2026's latest reported day, clamped to the 12 days of in-person voting (day 0 = mail only, before day 1)
   const cmpDay = () => LATEST == null ? null : Math.max(0, Math.min(12, LATEST >= 1 ? COMPLETE : LATEST));
@@ -200,7 +207,7 @@
     const cmpYear = p.view === 'vs2024' ? 2024 : p.view === 'vs2022' ? 2022 : null;
     const cur = (f) => D == null ? null : at(2026, D, f);
     const metric = (f) => {
-      const o = cur(f); if (!o || !o.registered) return null;
+      const o = cur(f); if (!o || !o.registered || !reportedThru(f, D)) return null;
       if (!cmpYear) return o.total / o.registered;
       const q = at(cmpYear, D, f); return q && q.total ? o.total / q.total : null;
     };
@@ -218,6 +225,7 @@
         tip.replaceChildren(); const t = document.createElement('div'); t.className = 't'; t.textContent = `${d.county} County`; tip.append(t);
         const o = cur(d.county_fips);
         if (!o) LX.tipLine(tip, null, 'No 2026 counts yet', '');
+        else if (!reportedThru(d.county_fips, D)) { LX.tipLine(tip, null, 'Not fully reported yet', `${fmt(o.total)} so far`); }
         else {
           LX.tipLine(tip, COL[2026], '2026 early votes', `${fmt(o.total)} · ${pct(o.total / (o.registered || 1))}`);
           LX.tipLine(tip, null, 'In person · by mail', `${fmt(o.in_person)} · ${fmt(o.mail)}`);
@@ -248,7 +256,9 @@
     for (const [f, nm] of names) {
       const o = D == null ? null : at(2026, D, f), a = D == null ? null : at(2024, D, f), b = D == null ? null : at(2022, D, f);
       rows.push({ unit: f, county: nm, registered: o ? o.registered : null, in_person: o ? o.in_person : null, mail: o ? o.mail : null, total: o ? o.total : null,
+        pending: D >= 1 && !reportedThru(f, D),
         pct: o && o.registered ? o.total / o.registered : null, vs2024: o && a && a.total ? o.total / a.total : null, vs2022: o && b && b.total ? o.total / b.total : null });
+      const last = rows[rows.length - 1]; if (last.pending) { last.pct = null; last.vs2024 = null; last.vs2022 = null; }  // sort unreported counties last
     }
     let list = rows.filter((r) => !query || r.county.toLowerCase().includes(query));
     list.sort((a, b) => { const va = a[sortKey], vb = b[sortKey]; if (va == null && vb == null) return 0; if (va == null) return 1; if (vb == null) return -1; return (typeof va === 'string' ? va.localeCompare(vb) : va - vb) * sortDir; });
@@ -266,9 +276,12 @@
       const td = (t, cls, col) => { const c = document.createElement('td'); c.textContent = t; if (cls) c.className = cls; if (col) c.style.color = col; tr.append(c); };
       const num = (v) => v == null ? '—' : fmt(v);
       td(r.county); td(num(r.registered), 'lx-hide-narrow'); td(num(r.in_person), 'lx-hide-narrow'); td(num(r.mail), 'lx-hide-narrow'); td(num(r.total));
-      td(r.pct == null ? '—' : pct(r.pct));
-      td(signed(r.vs2024), '', r.vs2024 == null ? '' : r.vs2024 >= 1 ? ok : bad);
-      td(signed(r.vs2022), 'lx-hide-narrow', r.vs2022 == null ? '' : r.vs2022 >= 1 ? ok : bad);
+      if (r.pending) { td('Not fully reported yet', 'lx-note'); td('—'); td('—', 'lx-hide-narrow'); }
+      else {
+        td(r.pct == null ? '—' : pct(r.pct));
+        td(signed(r.vs2024), '', r.vs2024 == null ? '' : r.vs2024 >= 1 ? ok : bad);
+        td(signed(r.vs2022), 'lx-hide-narrow', r.vs2022 == null ? '' : r.vs2022 >= 1 ? ok : bad);
+      }
       return tr;
     }));
   }
