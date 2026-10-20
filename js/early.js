@@ -34,9 +34,11 @@
     const regAll = Math.max(0, ...days.map((d) => (IDX.get(2026).get(d).get('TX') || {}).registered || 0));
     for (const d of days.filter((d) => d >= 1).sort((a, b) => a - b)) {
       const M = IDX.get(2026).get(d); let reg = regAll, regRep = 0, n = 0;
-      for (const [u, o] of M) { if (u === 'TX') continue; if (o.in_person > 0) { regRep += o.registered; n++; } }
+      for (const [u, o] of M) { if (u === 'TX') continue; if (o.in_person_day > 0) { regRep += o.registered; n++; } }  // reported votes for this day itself
       const share = reg ? regRep / reg : 0;
-      if (share >= 0.9) COMPLETE = d; else PARTIAL = { day: d, counties: n, share, votes: (M.get('TX') || {}).in_person || 0 };
+      // report the earliest unfinished day; a later complete day clears it
+      if (share >= 0.9) { COMPLETE = d; PARTIAL = null; }
+      else if (!PARTIAL) PARTIAL = { day: d, counties: n, share, votes: (M.get('TX') || {}).in_person_day || 0, in_person: (M.get('TX') || {}).in_person || 0 };
     }
     if (PARTIAL && PARTIAL.day <= COMPLETE) PARTIAL = null;
   }
