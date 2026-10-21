@@ -73,7 +73,15 @@ def tarrant():
 
 
 def travis():
-    t = pdf_text('https://votetravis.gov/wp-content/uploads/G26-Daily-Totals.pdf')
+    page = fetch('https://votetravis.gov/current-election-information/current-election/').decode('utf-8', 'replace')
+    links = sorted(set(re.findall(r'https://votetravis\.gov/wp-content/uploads/G26-Daily-Totals[^"\']*?\.pdf', page)))
+    if not links:
+        raise RuntimeError('no daily-totals PDF linked on the current-election page')
+    # newest by the MMDDYYYY date in the name (an undated name sorts first)
+    def stamp(u):
+        m = re.search(r'(\d\d)(\d\d)(\d{4})', u.rsplit('/', 1)[1])
+        return (m.group(3), m.group(1), m.group(2)) if m else ('0',)
+    t = pdf_text(max(links, key=stamp))
     head = next(l for l in t.splitlines() if re.search(r'\d{1,2}-Oct', l))
     dates = [iso(MON[mo.lower()], int(d)) for d, mo in re.findall(r'(\d{1,2})-(Oct|Nov)', head)]
     ip = nums(next(l for l in t.splitlines() if 'Early Voting Location Voters' in l))[:len(dates)]
@@ -130,7 +138,7 @@ def el_paso():
     page = fetch('https://epcountyvotestx.gov/voter-information/current-election').decode('utf-8', 'replace')
     links = re.findall(r'(https://ep-county-elections-production[^"\s]*?Day_(\d+)_Early_Voting_Statistics\.pdf[^"\s]*)', page)
     if not links:
-        return {}
+        raise RuntimeError('no Early Voting Statistics PDF linked on the current-election page')
     latest = max(links, key=lambda x: int(x[1]))  # (url, day number)
     day = latest[1]
     mail_url = next((m for m in re.findall(r'(https://ep-county-elections-production[^"\s]*?Day_(\d+)_Ballot_by_Mail_Statistics\.pdf[^"\s]*)', page) if m[1] == day), None)
@@ -155,10 +163,13 @@ def dallas():
     import io
     import openpyxl
     page = fetch('https://www.dallascountyvotes.org/election-results/historical/november-3-2026-general-and-joint-election/').decode('utf-8', 'replace')
-    links = re.findall(r'(https://www\.dallascountyvotes\.org/wp-content/uploads/[^"]*Turnout-By-Date-and-Location[^"]*?_(\d\d)\.(\d\d)\.(\d\d)\.xlsx)', page)
+    links = set(re.findall(r'(https?://www\.dallascountyvotes\.org/wp-content/uploads/[^"\'\s]*Turnout-By-Date-and-Location[^"\'\s]*\.xlsx)', page))
     if not links:
-        return {}
-    url = max(links, key=lambda x: (x[3], x[1], x[2]))[0]
+        raise RuntimeError('no Turnout-By-Date-and-Location spreadsheet linked on the election page')
+    def stamp(u):
+        m = re.search(r'(\d\d)\.(\d\d)\.(\d\d)', u.rsplit('/', 1)[1])
+        return (m.group(3), m.group(1), m.group(2), u) if m else ('0', '', '', u)
+    url = max(links, key=stamp)
     wb = openpyxl.load_workbook(io.BytesIO(fetch(url)), read_only=True, data_only=True)
     return dallas_parse([list(r) for r in wb.worksheets[0].iter_rows(values_only=True)])
 
@@ -175,6 +186,8 @@ def collect():
             days = fn()
             if days:
                 data[fips] = {'source': name, 'days': days}
+            else:
+                problems.append(f'{name}: report found but no in-person days in it')
         except Exception as e:
             problems.append(f'{name}: {str(e)[:120]}')
     return data, problems
