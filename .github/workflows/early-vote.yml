@@ -2,7 +2,7 @@ name: Early-vote counts
 
 # Pulls the Secretary of State's daily early-voting turnout by county for the Nov 3, 2026 general election
 # into data/ev_2026.csv and data/ev_status.json, using large counties' own daily reports where they are ahead of
-# the state's file (tools/ev_counties.py: Harris, Tarrant, Travis, Collin). The state posts each day's numbers the next morning;
+# the state's file (tools/ev_counties.py: Harris, Dallas, Tarrant, Travis, Collin, El Paso). The state posts each day's numbers the next morning;
 # this checks every hour from Oct 14 to Nov 3 and commits only when the counts change.
 on:
   schedule:
@@ -23,8 +23,10 @@ jobs:
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
-      - name: Install the PDF reader (county daily reports)
-        run: sudo apt-get install -y -qq poppler-utils >/dev/null
+      - name: Install the PDF and spreadsheet readers (county daily reports)
+        run: |
+          sudo apt-get install -y -qq poppler-utils >/dev/null
+          pip install -q openpyxl
       - name: Fetch early-vote counts
         run: |
           mkdir -p /tmp/ev

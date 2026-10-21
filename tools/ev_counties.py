@@ -6,6 +6,8 @@ Only summary reports are read; voter-by-voter rosters are never downloaded.
   Tarrant - Elections "Early Voting In Person Totals" and "Absentee Voting Totals" PDFs
   Travis  - County Clerk "Unofficial Early Voting In Person and By Mail Totals" (G26-Daily-Totals.pdf)
   Collin  - Elections "Check-in Summary by Location" PDFs on the rosters page (one per posted day; in person only)
+  El Paso - Elections "Early Voting Statistics" and "Ballot by Mail Statistics" PDFs linked from the current-election page
+  Dallas  - Elections "Early Voting Turnout By Date and Location" spreadsheet (in person only)
 """
 import datetime, re, subprocess, sys
 
@@ -102,8 +104,68 @@ def collin():
     return out
 
 
+def _date_row(text, label):
+    """Per-day values from a PDF table whose header has MM/DD/YY dates and a row starting with `label`."""
+    lines = text.splitlines()
+    head = next(l for l in lines if re.search(r'\d{1,2}/\d{1,2}/\d\d', l))
+    dates = [iso(int(m), int(d)) for m, d, _ in re.findall(r'(\d{1,2})/(\d{1,2})/(\d\d)', head)]
+    row = nums(next(l for l in lines if l.strip().startswith(label)).split(label, 1)[1] if True else '')
+    return dates, row
+
+
+def el_paso_parse(stats, mail):
+    dates, vals = _date_row(stats, 'Daily Totals')
+    vals = vals[:len(dates)] if len(vals) > len(dates) else vals
+    out = {d: {'in_person_day': v, 'mail_day': None} for d, v in zip(dates, vals) if v > 0}
+    if mail and out:
+        mdates, mvals = _date_row(mail, 'Boletas Regresadas')
+        for d, v in zip(mdates, mvals):
+            k = d if d in out else min(out) if d < min(out) else None
+            if k:
+                out[k]['mail_day'] = (out[k]['mail_day'] or 0) + v
+    return out
+
+
+def el_paso():
+    page = fetch('https://epcountyvotestx.gov/voter-information/current-election').decode('utf-8', 'replace')
+    links = [l.replace('&amp;', '&') for l in re.findall(r'(https://ep-county-elections-production[^"\s]*?Day_(\d+)_Early_Voting_Statistics\.pdf[^"\s]*)', page)]
+    if not links:
+        return {}
+    latest = max(re.findall(r'(https://ep-county-elections-production[^"\s]*?Day_(\d+)_Early_Voting_Statistics\.pdf[^"\s]*)', page), key=lambda x: int(x[1]))
+    day = latest[1]
+    mail_url = next((m for m in re.findall(r'(https://ep-county-elections-production[^"\s]*?Day_(\d+)_Ballot_by_Mail_Statistics\.pdf[^"\s]*)', page) if m[1] == day), None)
+    stats = pdf_text(latest[0].replace('&amp;', '&'))
+    mail = pdf_text(mail_url[0].replace('&amp;', '&')) if mail_url else ''
+    return el_paso_parse(stats, mail)
+
+
+def dallas_parse(rows):
+    head = next(r for r in rows if r and r[0] == 'Vote Center Name')
+    tot = next(r for r in rows if r and r[0] == 'Daily Unofficial Total')
+    out = {}
+    for h, v in zip(head, tot):
+        if hasattr(h, 'strftime') or (isinstance(h, str) and re.match(r'\d{4}-\d\d-\d\d', h)):
+            d = h.strftime('%Y-%m-%d') if hasattr(h, 'strftime') else h[:10]
+            if v and int(float(v)) > 0:
+                out[d] = {'in_person_day': int(float(v)), 'mail_day': None}
+    return out
+
+
+def dallas():
+    import io
+    import openpyxl
+    page = fetch('https://www.dallascountyvotes.org/election-results/historical/november-3-2026-general-and-joint-election/').decode('utf-8', 'replace')
+    links = re.findall(r'(https://www\.dallascountyvotes\.org/wp-content/uploads/[^"]*Turnout-By-Date-and-Location[^"]*?_(\d\d)\.(\d\d)\.(\d\d)\.xlsx)', page)
+    if not links:
+        return {}
+    url = max(links, key=lambda x: (x[3], x[1], x[2]))[0]
+    wb = openpyxl.load_workbook(io.BytesIO(fetch(url)), read_only=True, data_only=True)
+    return dallas_parse([list(r) for r in wb.worksheets[0].iter_rows(values_only=True)])
+
+
 READERS = {'48201': ('Harris County Clerk', harris), '48439': ('Tarrant County Elections', tarrant),
-           '48453': ('Travis County Clerk', travis), '48085': ('Collin County Elections', collin)}
+           '48453': ('Travis County Clerk', travis), '48085': ('Collin County Elections', collin),
+           '48141': ('El Paso County Elections', el_paso), '48113': ('Dallas County Elections', dallas)}
 
 
 def collect():

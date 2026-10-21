@@ -101,7 +101,7 @@
     const thru = LATEST == null ? null : at(2026, D, 'TX');
     t.textContent = LATEST == null ? 'In-person early voting runs Monday, Oct. 19 through Friday, Oct. 30. Counts will appear here as the state posts them.'
       : `Unofficial counts through ${thru && thru.date ? new Date(thru.date + 'T12:00:00Z').toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', timeZone: 'UTC' }) : '—'}${s.state_updated ? ', posted by the state ' + new Date(s.state_updated + 'T12:00:00Z').toLocaleDateString('en-US', { month: 'short', day: 'numeric', timeZone: 'UTC' }) : ''}. In-person early voting runs Oct. 19–30; the state posts each day's numbers the next morning.`;
-    if (s.county_sources && s.county_sources.length) t.textContent += ` Counts for ${s.county_sources.map((x) => x.replace(/ (County )?(Clerk|Elections)$/, '').replace(' County', '')).join(', ')} come from the counties' own daily reports, which have been running ahead of the state's file.`;
+    if (s.county_sources && s.county_sources.length) t.textContent += ` Counts for ${s.county_sources.map((x) => x.replace(/ (County )?(Clerk|Elections)$/, '').replace(' County', '')).join(', ')} come from the counties' own daily reports, which have been more current than the state's file.`;
     if (PARTIAL) t.textContent += ` Day ${PARTIAL.day} (${wk(2026, PARTIAL.day)}, ${dayLabel(2026, PARTIAL.day)}) is still coming in: ${PARTIAL.counties} of 254 counties, with ${d3.format('.0%')(PARTIAL.share)} of registered voters, have reported ${fmt(PARTIAL.votes)} in-person votes so far. Comparisons use the last complete day until it fills in. The state's counts can lag the counties' own reports by a day or more.`;
     live.append(dot, t);
 

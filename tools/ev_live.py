@@ -34,7 +34,7 @@ def norm(s):
 
 
 def merge_counties(rows, problems):
-    """Where a large county's own daily report is ahead of the state's file, use the county's numbers."""
+    """Use large counties' own daily reports for the days they have posted (the state's file lags or differs)."""
     sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
     try:
         import ev_counties
@@ -60,18 +60,18 @@ def merge_counties(rows, problems):
             if not past:
                 continue
             last = max(past)
-            # after the county's latest report, add whatever the state has recorded since that day
+            # the county is the original source: for days it has posted, its numbers are used even when the
+            # state's differ; after its latest report, add whatever the state has recorded since that day
             ip = cum_ip[last] + max(0, r['in_person'] - state_ip.get(last, r['in_person']))
-            if ip > r['in_person']:
+            if ip != r['in_person']:
                 r['in_person'] = ip
                 v = info['days'].get(r['date'])
-                if v and v['in_person_day'] > r['in_person_day']:
-                    r['in_person_day'] = v['in_person_day']
+                r['in_person_day'] = v['in_person_day'] if v else max(0, r['in_person_day'])
                 r['source'] = 'county'
                 used.add(info['source'])
             if has_m:
                 m = cum_m[last] + max(0, r['mail'] - state_m.get(last, r['mail']))
-                if m > r['mail']:
+                if m != r['mail']:
                     r['mail'] = m
                     r['source'] = 'county'
                     used.add(info['source'])
