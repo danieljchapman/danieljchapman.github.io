@@ -1,6 +1,7 @@
 """Daily early-vote totals posted by large counties themselves, used where the state's file lags.
 
-Each reader returns {date (YYYY-MM-DD): {'in_person_day': n, 'mail_day': m or None}} for days the county has posted.
+Each reader returns {date (YYYY-MM-DD): {'in_person_day': n, 'mail_day': m or None}} for days the county has posted;
+a reader may give 'in_person_cum' (running total from the first day) instead of 'in_person_day'.
 Only summary reports are read; voter-by-voter rosters are never downloaded.
   Harris  - County Clerk "Daily Record of Early Voting Check-ins" (EVPA_unofficial.pdf): per-day check-ins and mail ballots received
   Tarrant - Elections "Early Voting In Person Totals" and "Absentee Voting Totals" PDFs
@@ -104,11 +105,11 @@ def collin():
         n = int(tot.group(1).replace(',', ''))
         (per_day if a == b else cum)[(a, b)] = n
     out = {b: {'in_person_day': n, 'mail_day': None} for (a, b), n in per_day.items()}
-    # cumulative reports (first day through a later day) fill any day not posted on its own
+    # a report covering several days (first day through a later day) is a running total; the importer
+    # turns it into that day's count using the days it has already recorded
     for (a, b), n in sorted(cum.items()):
-        known = sum(v['in_person_day'] for d, v in out.items() if a <= d < b)
-        if b not in out and n > known:
-            out[b] = {'in_person_day': n - known, 'mail_day': None}
+        if b not in out:
+            out[b] = {'in_person_cum': n, 'mail_day': None}
     return out
 
 

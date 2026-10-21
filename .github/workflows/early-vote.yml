@@ -30,9 +30,10 @@ jobs:
       - name: Fetch early-vote counts
         run: |
           mkdir -p /tmp/ev
+          cp data/ev_county_cache.json /tmp/ev/ 2>/dev/null || true
           python3 tools/ev_live.py /tmp/ev
           if cmp -s /tmp/ev/ev_2026.csv data/ev_2026.csv; then echo "No new counts"; exit 0; fi
           rows=$(($(wc -l < /tmp/ev/ev_2026.csv) - 1)); echo "rows: $rows"
           if [ "$rows" -lt 254 ]; then echo "Too few rows; not publishing"; exit 1; fi
-          cp /tmp/ev/ev_2026.csv /tmp/ev/ev_status.json data/
-          bash tools/publish_live.sh "Update 2026 early-vote counts" data/ev_2026.csv data/ev_status.json
+          cp /tmp/ev/ev_2026.csv /tmp/ev/ev_status.json /tmp/ev/ev_county_cache.json data/
+          bash tools/publish_live.sh "Update 2026 early-vote counts" data/ev_2026.csv data/ev_status.json data/ev_county_cache.json

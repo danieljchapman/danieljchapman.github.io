@@ -33,7 +33,14 @@ def norm(s):
     return ''.join(c for c in unicodedata.normalize('NFD', s.lower()) if unicodedata.category(c) != 'Mn' and c.isalnum())
 
 
-def merge_counties(rows, problems):
+def load_cache(path):
+    try:
+        return json.load(open(path))
+    except Exception:
+        return {}
+
+
+def merge_counties(rows, problems, cache_path=None):
     """Use large counties' own daily reports for the days they have posted (the state's file lags or differs)."""
     sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
     try:
@@ -43,13 +50,28 @@ def merge_counties(rows, problems):
     except Exception as e:
         problems.append('county reports: ' + str(e)[:120])
         return []
-    used = set()
+    # Counties sometimes replace a day's file with a running total, so every county number read is kept in a
+    # small cache (data/ev_county_cache.json); fresh readings replace cached ones for the same date.
+    cache = load_cache(cache_path) if cache_path else {}
     for f, info in cty.items():
+        c = cache.setdefault(f, {'source': info['source'], 'days': {}})
+        c['source'] = info['source']
+        c['days'].update(info['days'])
+    if cache_path:
+        json.dump(cache, open(cache_path, 'w'), indent=1, sort_keys=True)
+    used = set()
+    for f, info in cache.items():
         days = sorted(info['days'].items())
-        cum_ip, cum_m, run_ip, run_m, has_m = {}, {}, 0, 0, any(v['mail_day'] is not None for _, v in days)
+        cum_ip, cum_m, run_ip, run_m, has_m = {}, {}, 0, 0, any(v.get('mail_day') is not None for _, v in days)
+        info['days'] = {}
         for d, v in days:
-            run_ip += v['in_person_day']; run_m += v['mail_day'] or 0
+            if v.get('in_person_cum') is not None:  # running total: that day's count is the increase
+                day = max(0, v['in_person_cum'] - run_ip); run_ip = v['in_person_cum']
+            else:
+                day = v['in_person_day']; run_ip += day
+            run_m += v.get('mail_day') or 0
             cum_ip[d], cum_m[d] = run_ip, run_m
+            info['days'][d] = {'in_person_day': day}
         mine = sorted((r for r in rows if r['unit'] == f), key=lambda r: r['date'])
         state_ip = {r['date']: r['in_person'] for r in mine}  # the state's own running totals, before any change
         state_m = {r['date']: r['mail'] for r in mine}
@@ -114,7 +136,7 @@ def main(out_dir):
         last = (d.isoformat(), tot, day.get('date_updated'))
     if not rows:
         raise SystemExit('no early-voting data posted yet')
-    county_sources = merge_counties(rows, problems)
+    county_sources = merge_counties(rows, problems, os.path.join(out_dir, 'ev_county_cache.json'))
     import csv
     with open(os.path.join(out_dir, 'ev_2026.csv'), 'w', newline='') as fh:
         w = csv.DictWriter(fh, fieldnames=['year', 'date', 'ev_day', 'unit', 'registered', 'in_person_day', 'in_person', 'mail', 'source'])
