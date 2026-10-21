@@ -128,10 +128,10 @@ def el_paso_parse(stats, mail):
 
 def el_paso():
     page = fetch('https://epcountyvotestx.gov/voter-information/current-election').decode('utf-8', 'replace')
-    links = [l.replace('&amp;', '&') for l in re.findall(r'(https://ep-county-elections-production[^"\s]*?Day_(\d+)_Early_Voting_Statistics\.pdf[^"\s]*)', page)]
+    links = re.findall(r'(https://ep-county-elections-production[^"\s]*?Day_(\d+)_Early_Voting_Statistics\.pdf[^"\s]*)', page)
     if not links:
         return {}
-    latest = max(re.findall(r'(https://ep-county-elections-production[^"\s]*?Day_(\d+)_Early_Voting_Statistics\.pdf[^"\s]*)', page), key=lambda x: int(x[1]))
+    latest = max(links, key=lambda x: int(x[1]))  # (url, day number)
     day = latest[1]
     mail_url = next((m for m in re.findall(r'(https://ep-county-elections-production[^"\s]*?Day_(\d+)_Ballot_by_Mail_Statistics\.pdf[^"\s]*)', page) if m[1] == day), None)
     stats = pdf_text(latest[0].replace('&amp;', '&'))
