@@ -163,11 +163,15 @@ def dallas():
     import io
     import openpyxl
     page = fetch('https://www.dallascountyvotes.org/election-results/historical/november-3-2026-general-and-joint-election/').decode('utf-8', 'replace')
-    links = set(re.findall(r'(https?://www\.dallascountyvotes\.org/wp-content/uploads/[^"\'\s]*Turnout-By-Date-and-Location[^"\'\s]*\.xlsx)', page))
+    from urllib.parse import urljoin, unquote
+    base = 'https://www.dallascountyvotes.org/election-results/historical/november-3-2026-general-and-joint-election/'
+    hrefs = [urljoin(base, h.replace('&amp;', '&')) for h in re.findall(r'href=["\']([^"\']+)["\']', page)]
+    links = {h for h in hrefs if re.search(r'turnout.{0,5}by.{0,5}date', unquote(h), re.I) and re.search(r'\.xlsx?(\?|$)', h, re.I)}
     if not links:
-        raise RuntimeError('no Turnout-By-Date-and-Location spreadsheet linked on the election page')
+        xl = [h.rsplit('/', 1)[-1] for h in hrefs if re.search(r'\.xlsx?(\?|$)', h, re.I)][:4]
+        raise RuntimeError(f'no turnout-by-date spreadsheet linked (page {len(page)} bytes; spreadsheets seen: {xl})')
     def stamp(u):
-        m = re.search(r'(\d\d)\.(\d\d)\.(\d\d)', u.rsplit('/', 1)[1])
+        m = re.search(r'(\d\d)[.-](\d\d)[.-](\d\d)', u.rsplit('/', 1)[1])
         return (m.group(3), m.group(1), m.group(2), u) if m else ('0', '', '', u)
     url = max(links, key=stamp)
     wb = openpyxl.load_workbook(io.BytesIO(fetch(url)), read_only=True, data_only=True)
