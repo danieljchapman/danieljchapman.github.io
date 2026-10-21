@@ -33,6 +33,58 @@ def norm(s):
     return ''.join(c for c in unicodedata.normalize('NFD', s.lower()) if unicodedata.category(c) != 'Mn' and c.isalnum())
 
 
+def merge_counties(rows, problems):
+    """Where a large county's own daily report is ahead of the state's file, use the county's numbers."""
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    try:
+        import ev_counties
+        cty, cprob = ev_counties.collect()
+        problems += cprob
+    except Exception as e:
+        problems.append('county reports: ' + str(e)[:120])
+        return []
+    used = set()
+    for f, info in cty.items():
+        days = sorted(info['days'].items())
+        cum_ip, cum_m, run_ip, run_m, has_m = {}, {}, 0, 0, any(v['mail_day'] is not None for _, v in days)
+        for d, v in days:
+            run_ip += v['in_person_day']; run_m += v['mail_day'] or 0
+            cum_ip[d], cum_m[d] = run_ip, run_m
+        mine = sorted((r for r in rows if r['unit'] == f), key=lambda r: r['date'])
+        state_ip = {r['date']: r['in_person'] for r in mine}  # the state's own running totals, before any change
+        state_m = {r['date']: r['mail'] for r in mine}
+        for r in mine:
+            if r['ev_day'] < 1:
+                continue
+            past = [d for d in cum_ip if d <= r['date']]
+            if not past:
+                continue
+            last = max(past)
+            # after the county's latest report, add whatever the state has recorded since that day
+            ip = cum_ip[last] + max(0, r['in_person'] - state_ip.get(last, r['in_person']))
+            if ip > r['in_person']:
+                r['in_person'] = ip
+                v = info['days'].get(r['date'])
+                if v and v['in_person_day'] > r['in_person_day']:
+                    r['in_person_day'] = v['in_person_day']
+                r['source'] = 'county'
+                used.add(info['source'])
+            if has_m:
+                m = cum_m[last] + max(0, r['mail'] - state_m.get(last, r['mail']))
+                if m > r['mail']:
+                    r['mail'] = m
+                    r['source'] = 'county'
+                    used.add(info['source'])
+    # statewide rows are the sum of the counties
+    for t in [r for r in rows if r['unit'] == 'TX']:
+        same = [r for r in rows if r['date'] == t['date'] and r['unit'] != 'TX']
+        for k in ('registered', 'in_person_day', 'in_person', 'mail'):
+            t[k] = sum(r[k] for r in same)
+    for r in rows:
+        r.setdefault('source', 'state')
+    return sorted(used)
+
+
 def main(out_dir):
     here = os.path.dirname(os.path.abspath(__file__))
     fips = json.load(open(os.path.join(here, 'tx_county_fips.json')))
@@ -62,14 +114,16 @@ def main(out_dir):
         last = (d.isoformat(), tot, day.get('date_updated'))
     if not rows:
         raise SystemExit('no early-voting data posted yet')
+    county_sources = merge_counties(rows, problems)
     import csv
     with open(os.path.join(out_dir, 'ev_2026.csv'), 'w', newline='') as fh:
-        w = csv.DictWriter(fh, fieldnames=list(rows[0]))
+        w = csv.DictWriter(fh, fieldnames=['year', 'date', 'ev_day', 'unit', 'registered', 'in_person_day', 'in_person', 'mail', 'source'])
         w.writeheader()
         w.writerows(rows)
     status = {'updated_at': datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'), 'latest_date': last[0],
               'latest_ev_day': (datetime.date.fromisoformat(last[0]) - FIRST_IN_PERSON).days + 1, 'state_updated': last[2],
-              'total_early': last[1]['in_person'] + last[1]['mail'], 'source': 'Texas Secretary of State early-voting turnout, unofficial',
+              'total_early': next(r['in_person'] + r['mail'] for r in rows if r['unit'] == 'TX' and r['date'] == last[0]), 'source': 'Texas Secretary of State early-voting turnout, unofficial' + ('; county reports for ' + ', '.join(county_sources) if county_sources else ''),
+              'county_sources': county_sources,
               'problems': sorted(set(problems))[:10]}
     json.dump([status], open(os.path.join(out_dir, 'ev_status.json'), 'w'), indent=1)
     print(json.dumps(status))

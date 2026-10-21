@@ -23,7 +23,7 @@
       const Y = IDX.get(y);
       if (!Y.has(d)) Y.set(d, new Map());
       const ip = Number(r.in_person) || 0, ml = Number(r.mail) || 0;
-      Y.get(d).set(String(r.unit), { registered: Number(r.registered) || 0, in_person: ip, mail: ml, total: ip + ml, in_person_day: Number(r.in_person_day) || 0, date: r.date });
+      Y.get(d).set(String(r.unit), { registered: Number(r.registered) || 0, in_person: ip, mail: ml, total: ip + ml, in_person_day: Number(r.in_person_day) || 0, date: r.date, county_src: r.source === 'county' });
     }
     const days = IDX.has(2026) ? [...IDX.get(2026).keys()] : [];
     LATEST = days.length ? Math.max(...days) : null;
@@ -101,6 +101,7 @@
     const thru = LATEST == null ? null : at(2026, D, 'TX');
     t.textContent = LATEST == null ? 'In-person early voting runs Monday, Oct. 19 through Friday, Oct. 30. Counts will appear here as the state posts them.'
       : `Unofficial counts through ${thru && thru.date ? new Date(thru.date + 'T12:00:00Z').toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', timeZone: 'UTC' }) : '—'}${s.state_updated ? ', posted by the state ' + new Date(s.state_updated + 'T12:00:00Z').toLocaleDateString('en-US', { month: 'short', day: 'numeric', timeZone: 'UTC' }) : ''}. In-person early voting runs Oct. 19–30; the state posts each day's numbers the next morning.`;
+    if (s.county_sources && s.county_sources.length) t.textContent += ` Counts for ${s.county_sources.map((x) => x.replace(/ (County )?(Clerk|Elections)$/, '').replace(' County', '')).join(', ')} come from the counties' own daily reports, which have been running ahead of the state's file.`;
     if (PARTIAL) t.textContent += ` Day ${PARTIAL.day} (${wk(2026, PARTIAL.day)}, ${dayLabel(2026, PARTIAL.day)}) is still coming in: ${PARTIAL.counties} of 254 counties, with ${d3.format('.0%')(PARTIAL.share)} of registered voters, have reported ${fmt(PARTIAL.votes)} in-person votes so far. Comparisons use the last complete day until it fills in. The state's counts can lag the counties' own reports by a day or more.`;
     live.append(dot, t);
 
@@ -129,6 +130,9 @@
       add(`${Math.abs((r24 - 1) * 100).toFixed(0)}% ${r24 >= 1 ? 'ahead of' : 'behind'}`, true); add(' 2024 and ');
       add(`${Math.abs((r22 - 1) * 100).toFixed(0)}% ${r22 >= 1 ? 'ahead of' : 'behind'}`, true); add(' 2022 on the same day.');
       if (D === 12) add(` Early voting is over; 2024 ended with ${short(final24.total)} early votes and 2022 with ${short(final22.total)}.`);
+      const lag = [...names].filter(([f]) => !reportedThru(f, D) && (at(2026, D, f) || {}).registered > 100000).map(([, n]) => n);
+      const list = lag.length > 1 ? lag.slice(0, -1).join(', ') + ' and ' + lag[lag.length - 1] + ' counties' : lag[0] + ' County';
+      if (lag.length) add(` Not yet complete in the state's counts: ${list}, so the statewide total runs a little low.`);
     }
 
     // KPIs
@@ -258,7 +262,7 @@
     const rows = [];
     for (const [f, nm] of names) {
       const o = D == null ? null : at(2026, D, f), a = D == null ? null : at(2024, D, f), b = D == null ? null : at(2022, D, f);
-      rows.push({ unit: f, county: nm, registered: o ? o.registered : null, in_person: o ? o.in_person : null, mail: o ? o.mail : null, total: o ? o.total : null,
+      rows.push({ county_src: !!(o && o.county_src), unit: f, county: nm, registered: o ? o.registered : null, in_person: o ? o.in_person : null, mail: o ? o.mail : null, total: o ? o.total : null,
         pending: D >= 1 && !reportedThru(f, D),
         pct: o && o.registered ? o.total / o.registered : null, vs2024: o && a && a.total ? o.total / a.total : null, vs2022: o && b && b.total ? o.total / b.total : null });
       const last = rows[rows.length - 1]; if (last.pending) { last.pct = null; last.vs2024 = null; last.vs2022 = null; }  // sort unreported counties last
@@ -279,7 +283,7 @@
       const tr = document.createElement('tr'); tr.dataset.unit = r.unit; tr.dataset.key = r.unit; if (r.unit === p.county) tr.className = 'sel';
       const td = (t, cls, col) => { const c = document.createElement('td'); c.textContent = t; if (cls) c.className = cls; if (col) c.style.color = col; tr.append(c); };
       const num = (v) => v == null ? '—' : fmt(v);
-      td(r.county); td(num(r.registered), 'lx-hide-narrow'); td(num(r.in_person), 'lx-hide-narrow'); td(num(r.mail), 'lx-hide-narrow'); td(num(r.total));
+      td(r.county + (r.county_src ? ' †' : '')); td(num(r.registered), 'lx-hide-narrow'); td(num(r.in_person), 'lx-hide-narrow'); td(num(r.mail), 'lx-hide-narrow'); td(num(r.total));
       if (r.pending) { td('Not fully reported yet', 'lx-note'); td('—'); td('—', 'lx-hide-narrow'); }
       else {
         td(r.pct == null ? '—' : pct(r.pct));
