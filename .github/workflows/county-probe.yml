@@ -1,0 +1,19 @@
+name: County early-vote report probe (review branch only)
+on:
+  push:
+    branches: [county-probe]
+    paths: ['tools/probe/**', '.github/workflows/county-probe.yml']
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get install -y -qq poppler-utils >/dev/null && pip install -q openpyxl
+      - run: bash tools/probe/probe.sh
+      - run: |
+          git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          rm -f tools/probe/out/*.html
+          git add tools/probe/out && git commit -m "Probe results" && git push origin HEAD:county-probe || true
