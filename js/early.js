@@ -45,10 +45,13 @@
   // Some counties first post placeholder counts (Harris showed 4 votes for day 1 of 2026 while its own site had 104,000+).
   // A county counts as having reported a day only if its count is at least 15% of what it recorded on the same day
   // in 2024 (or 2022); counties with fewer than 50 votes that day in both years only need a nonzero count.
-  const sameDayPast = (u, d, field) => { const a = at(2024, d, u), b = at(2022, d, u); return Math.max(a ? a[field] : 0, b ? b[field] : 0); };
-  const plausible = (v, past) => past < 50 ? v > 0 : v >= 0.15 * past;
-  const reportedDay = (u, d) => { const o = at(2026, d, u); return !!o && plausible(o.in_person_day, sameDayPast(u, d, 'in_person_day')); };
-  const reportedThru = (u, d) => { if (d < 1) return true; const o = at(2026, d, u); return !!o && plausible(o.in_person, sameDayPast(u, d, 'in_person')); };
+  // The state's file can lag the counties for a day or more (Oct. 20: Harris 28,755 in the state file vs 104,000+ on its own site).
+  // So a county counts as reported only if its count is at least half of the same day in 2024, or at least 90% of the
+  // same day in 2022 (the last midterm); counties with fewer than 50 votes that day in both years only need a nonzero count.
+  const pastAt = (y, u, d, field) => { const o = at(y, d, u); return o ? o[field] : 0; };
+  const plausible = (v, p24, p22) => Math.max(p24, p22) < 50 ? v > 0 : v >= 0.5 * Math.max(p24, p22) || (p22 >= 50 && v >= 0.9 * p22);
+  const reportedDay = (u, d) => { const o = at(2026, d, u); return !!o && plausible(o.in_person_day, pastAt(2024, u, d, 'in_person_day'), pastAt(2022, u, d, 'in_person_day')); };
+  const reportedThru = (u, d) => { if (d < 1) return true; const o = at(2026, d, u); return !!o && plausible(o.in_person, pastAt(2024, u, d, 'in_person'), pastAt(2022, u, d, 'in_person')); };
   const at = (y, d, u) => { const Y = IDX.get(y); if (!Y) return null; const D = Y.get(Math.max(0, Math.min(12, d))); return D ? D.get(u) || null : null; };
   // the comparison day: 2026's latest reported day, clamped to the 12 days of in-person voting (day 0 = mail only, before day 1)
   const cmpDay = () => LATEST == null ? null : Math.max(0, Math.min(12, LATEST >= 1 ? COMPLETE : LATEST));
@@ -98,7 +101,7 @@
     const thru = LATEST == null ? null : at(2026, D, 'TX');
     t.textContent = LATEST == null ? 'In-person early voting runs Monday, Oct. 19 through Friday, Oct. 30. Counts will appear here as the state posts them.'
       : `Unofficial counts through ${thru && thru.date ? new Date(thru.date + 'T12:00:00Z').toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', timeZone: 'UTC' }) : '—'}${s.state_updated ? ', posted by the state ' + new Date(s.state_updated + 'T12:00:00Z').toLocaleDateString('en-US', { month: 'short', day: 'numeric', timeZone: 'UTC' }) : ''}. In-person early voting runs Oct. 19–30; the state posts each day's numbers the next morning.`;
-    if (PARTIAL) t.textContent += ` Day ${PARTIAL.day} (${wk(2026, PARTIAL.day)}, ${dayLabel(2026, PARTIAL.day)}) is still coming in: ${PARTIAL.counties} of 254 counties, with ${d3.format('.0%')(PARTIAL.share)} of registered voters, have reported ${fmt(PARTIAL.votes)} in-person votes so far. Comparisons use the last complete day until it fills in.`;
+    if (PARTIAL) t.textContent += ` Day ${PARTIAL.day} (${wk(2026, PARTIAL.day)}, ${dayLabel(2026, PARTIAL.day)}) is still coming in: ${PARTIAL.counties} of 254 counties, with ${d3.format('.0%')(PARTIAL.share)} of registered voters, have reported ${fmt(PARTIAL.votes)} in-person votes so far. Comparisons use the last complete day until it fills in. The state's counts can lag the counties' own reports by a day or more.`;
     live.append(dot, t);
 
     const T26 = D == null ? null : at(2026, D, 'TX'), T24 = D == null ? null : at(2024, D, 'TX'), T22 = D == null ? null : at(2022, D, 'TX');
@@ -259,6 +262,7 @@
         pending: D >= 1 && !reportedThru(f, D),
         pct: o && o.registered ? o.total / o.registered : null, vs2024: o && a && a.total ? o.total / a.total : null, vs2022: o && b && b.total ? o.total / b.total : null });
       const last = rows[rows.length - 1]; if (last.pending) { last.pct = null; last.vs2024 = null; last.vs2022 = null; }  // sort unreported counties last
+      if (D === 0) { last.vs2024 = null; last.vs2022 = null; }  // mail-only counts before in-person voting aren't comparable
     }
     let list = rows.filter((r) => !query || r.county.toLowerCase().includes(query));
     list.sort((a, b) => { const va = a[sortKey], vb = b[sortKey]; if (va == null && vb == null) return 0; if (va == null) return 1; if (vb == null) return -1; return (typeof va === 'string' ? va.localeCompare(vb) : va - vb) * sortDir; });
