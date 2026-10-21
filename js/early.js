@@ -224,7 +224,7 @@
     const DIV = ['#b65a2a', '#e3a982', '#ece9e2', '#8fc5b3', '#2e8a6f'];
     const color = (v) => v == null ? muted : cmpYear ? DIV[d3.bisect(RATIO_BINS, v)] : LX.RAMP.T[d3.bisect(pctBins, v)];
     let svg = d3.select(el).select('svg');
-    if (svg.empty()) { el.replaceChildren(); svg = d3.select(el).append('svg').attr('viewBox', '0 0 678 645').attr('width', '100%').attr('role', 'img').attr('aria-label', 'Map of early votes by Texas county'); svg.append('g').attr('class', 'c'); svg.append('g').attr('class', 's'); }
+    if (svg.empty()) { el.replaceChildren(); svg = d3.select(el).append('svg').attr('viewBox', '0 0 678 645').attr('width', '100%').attr('role', 'img').attr('aria-label', 'Map of early votes by Texas county'); const zm = LX.zoomMap(el, svg, 678, 645); zm.layer.append('g').attr('class', 'c'); zm.layer.append('g').attr('class', 's'); }
     const card = document.getElementById('ev-map-card'), tip = document.getElementById('ev-map-tip');
     svg.select('g.c').selectAll('path').data(shapes, (d) => d.county_fips).join('path')
       .attr('d', (d) => d.path).attr('fill', (d) => color(metric(d.county_fips))).attr('stroke', 'var(--color-panel)').attr('stroke-width', 0.4).style('cursor', 'pointer')

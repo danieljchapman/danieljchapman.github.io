@@ -99,6 +99,81 @@
     if (!el) { el = document.createElement('p'); el.className = 'lx-credit lx-credit-after'; el.id = id; box.after(el); }
     return el;
   };
+  // ---------- zoomable maps with city labels (statewide frame: 678 x 645) ----------
+  // same projection the county and district shapes were drawn with
+  LX.projTX = (lon, lat) => [(lon + 106.7) * Math.cos(31 * Math.PI / 180) * 60, (36.6 - lat) * 60];
+  // [name, lat, lon, tier]: tier 1 always shown; tier 2 from 2x zoom; tier 3 from 4x
+  LX.CITIES_TX = [
+    ['Houston', 29.7604, -95.3698, 1], ['San Antonio', 29.4241, -98.4936, 1], ['Dallas', 32.7767, -96.797, 1], ['Austin', 30.2672, -97.7431, 1],
+    ['Fort Worth', 32.7555, -97.3308, 1], ['El Paso', 31.7619, -106.485, 1], ['Corpus Christi', 27.8006, -97.3964, 1], ['Lubbock', 33.5779, -101.8552, 1],
+    ['Amarillo', 35.222, -101.8313, 1], ['Laredo', 27.5306, -99.4803, 1], ['McAllen', 26.2034, -98.23, 1], ['Midland', 31.9973, -102.0779, 1],
+    ['Brownsville', 25.9017, -97.4975, 2], ['Arlington', 32.7357, -97.1081, 3], ['Plano', 33.0198, -96.6989, 2], ['Denton', 33.2148, -97.1331, 2],
+    ['Waco', 31.5493, -97.1467, 2], ['Killeen', 31.1171, -97.7278, 2], ['College Station', 30.628, -96.3344, 2], ['Tyler', 32.3513, -95.3011, 2],
+    ['Beaumont', 30.0802, -94.1266, 2], ['Wichita Falls', 33.9137, -98.4934, 2], ['Abilene', 32.4487, -99.7331, 2], ['San Angelo', 31.4638, -100.437, 2],
+    ['Odessa', 31.8457, -102.3676, 2], ['Galveston', 29.3013, -94.7977, 2], ['Victoria', 28.8053, -97.0036, 2], ['Longview', 32.5007, -94.7405, 2],
+    ['The Woodlands', 30.1658, -95.4613, 2], ['Round Rock', 30.5083, -97.6789, 2], ['New Braunfels', 29.703, -98.1245, 2], ['Texarkana', 33.4251, -94.0477, 2],
+    ['Del Rio', 29.3709, -100.8959, 2], ['Harlingen', 26.1906, -97.6961, 2], ['Sugar Land', 29.6197, -95.6349, 2], ['McKinney', 33.1972, -96.6398, 2],
+    ['Frisco', 33.1507, -96.8236, 3], ['Irving', 32.814, -96.9489, 3], ['Garland', 32.9126, -96.6389, 3], ['Grand Prairie', 32.7459, -96.9978, 3],
+    ['Mesquite', 32.7668, -96.5992, 3], ['Carrollton', 32.9756, -96.89, 3], ['Lewisville', 33.0462, -96.9942, 3], ['Allen', 33.1032, -96.6706, 3],
+    ['Richardson', 32.9483, -96.7299, 3], ['Mansfield', 32.5632, -97.1417, 3], ['Pasadena', 29.6911, -95.2091, 3], ['Pearland', 29.5636, -95.286, 3],
+    ['League City', 29.5075, -95.0949, 3], ['Katy', 29.7858, -95.8245, 3], ['Baytown', 29.7355, -94.9774, 3], ['Conroe', 30.3119, -95.4561, 3],
+    ['Spring', 30.0799, -95.4172, 3], ['Georgetown', 30.6333, -97.6772, 3], ['Cedar Park', 30.5052, -97.8203, 3],
+    ['Pflugerville', 30.4394, -97.62, 3], ['San Marcos', 29.8833, -97.9414, 3], ['Kyle', 29.9891, -97.8772, 3], ['Temple', 31.0982, -97.3428, 3],
+    ['Edinburg', 26.3017, -98.1633, 3], ['Mission', 26.2159, -98.3253, 3], ['Pharr', 26.1948, -98.1836, 3], ['Sherman', 33.6357, -96.6089, 3],
+    ['Huntsville', 30.7235, -95.5508, 3], ['Lufkin', 31.3382, -94.7291, 3], ['Nacogdoches', 31.6035, -94.6555, 3], ['Weatherford', 32.7593, -97.7973, 3],
+    ['Seguin', 29.5688, -97.9647, 3], ['Port Arthur', 29.885, -93.94, 3], ['Kingsville', 27.5159, -97.8561, 3], ['Eagle Pass', 28.7091, -100.4995, 3],
+    ['Big Spring', 32.2504, -101.4787, 3], ['Alpine', 30.3585, -103.661, 3], ['Pecos', 31.4229, -103.4932, 3], ['Bryan', 30.6744, -96.37, 3],
+  ];
+  // Wraps a map's shapes in a zoom layer: pinch or Ctrl/⌘ + scroll to zoom, drag to pan once zoomed, +/−/reset buttons,
+  // and city labels that stay the same size on screen. Returns { layer, zoomTo([x, y, w, h]) }.
+  LX.zoomMap = (el, svg, W, H, label) => {
+    if (svg.node()._zm) return svg.node()._zm;
+    const layer = svg.append('g').attr('class', 'lx-zl');
+    const cityG = svg.append('g').attr('class', 'lx-cities').attr('pointer-events', 'none');
+    const cities = LX.CITIES_TX.map(([n, la, lo, t]) => { const [x, y] = LX.projTX(lo, la); return { n, x, y, t }; });
+    const cg = cityG.selectAll('g').data(cities).join('g');
+    cg.append('circle').attr('fill', 'var(--color-fg)').attr('stroke', 'var(--color-panel)');
+    cg.append('text').text((d) => d.n).attr('fill', 'var(--color-fg)').attr('stroke', 'var(--color-panel)').attr('paint-order', 'stroke')
+      .attr('stroke-linejoin', 'round').attr('font-family', 'var(--font-anthropic-sans)').attr('font-weight', 500);
+    let k = 1, t = d3.zoomIdentity;
+    const place = () => {
+      layer.attr('transform', t); cityG.attr('transform', t);
+      cg.attr('display', (d) => (d.t === 1 || (d.t === 2 && k >= 2) || (d.t === 3 && k >= 4)) ? null : 'none');
+      cg.select('circle').attr('cx', (d) => d.x).attr('cy', (d) => d.y).attr('r', 2.6 / k).attr('stroke-width', 1 / k);
+      cg.select('text').attr('x', (d) => d.x + 5 / k).attr('y', (d) => d.y + 4.5 / k).attr('font-size', (d) => (d.t === 1 ? 14 : 12.5) / k).attr('stroke-width', 3.5 / k);
+      svg.style('touch-action', k > 1.01 ? 'none' : 'pan-y').style('cursor', k > 1.01 ? 'grab' : null);
+      reset.hidden = k <= 1.01;
+    };
+    const hint = document.createElement('div'); hint.className = 'lx-zoomhint'; hint.textContent = /Mac|iPhone|iPad/.test(navigator.platform) ? 'Use ⌘ + scroll to zoom the map' : 'Use Ctrl + scroll to zoom the map';
+    let hintT = null;
+    const zoom = d3.zoom().scaleExtent([1, 12]).extent([[0, 0], [W, H]]).translateExtent([[0, 0], [W, H]])
+      .filter((e) => {
+        if (e.type === 'wheel') {
+          if (e.ctrlKey || e.metaKey) return true;
+          hint.classList.add('on'); clearTimeout(hintT); hintT = setTimeout(() => hint.classList.remove('on'), 1200); return false;
+        }
+        if (e.type === 'touchstart') return e.touches.length > 1 || k > 1.01;
+        return !e.button && (k > 1.01 || e.type === 'dblclick');
+      })
+      .on('zoom', (e) => { t = e.transform; k = t.k; place(); });
+    svg.call(zoom).on('dblclick.zoom', null);
+    // buttons
+    el.style.position = 'relative';
+    const ctl = document.createElement('div'); ctl.className = 'lx-zoomctl';
+    const btn = (txt, aria, fn) => { const b = document.createElement('button'); b.type = 'button'; b.textContent = txt; b.setAttribute('aria-label', aria); b.addEventListener('click', fn); ctl.append(b); return b; };
+    btn('+', 'Zoom in', () => svg.transition().duration(250).call(zoom.scaleBy, 2));
+    btn('−', 'Zoom out', () => svg.transition().duration(250).call(zoom.scaleBy, 0.5));
+    const reset = btn('⟲', 'Reset zoom', () => svg.transition().duration(300).call(zoom.transform, d3.zoomIdentity));
+    el.append(ctl, hint);
+    const zoomTo = (box, animate = true) => {
+      const tr = !box ? d3.zoomIdentity : (() => { const [x, y, w, h] = box, s = Math.min(12, 0.95 * Math.min(W / w, H / h)); return d3.zoomIdentity.translate(W / 2, H / 2).scale(s).translate(-(x + w / 2), -(y + h / 2)); })();
+      (animate ? svg.transition().duration(400) : svg).call(zoom.transform, tr);
+    };
+    place();
+    const api = { layer, zoomTo, k: () => k };
+    svg.node()._zm = api;
+    return api;
+  };
   LX.stateWord = (status, isFirst) => status === 'final' ? (isFirst ? 'Winner' : '') : status === 'counting' ? (isFirst ? 'Leading' : '') : '';
 
   // 2026 races on the ballot (shown before any results exist)

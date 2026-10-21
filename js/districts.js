@@ -343,8 +343,9 @@
       document.getElementById(P + '-legend').replaceChildren(); return;
     }
     let svg = d3.select(el).select('svg');
-    if (svg.empty()) { el.replaceChildren(); svg = d3.select(el).append('svg').attr('width', '100%').attr('role', 'img').attr('aria-label', c.label + ' district map'); svg.append('g').attr('class', 'd'); svg.append('g').attr('class', 's'); }
-    svg.attr('viewBox', (st.zoom || [0, 0, 678, 645]).join(' '));
+    if (svg.empty()) { el.replaceChildren(); svg = d3.select(el).append('svg').attr('width', '100%').attr('role', 'img').attr('aria-label', c.label + ' district map'); st._zoomed = undefined; svg.attr('viewBox', '0 0 678 645'); const zm = LX.zoomMap(el, svg, 678, 645); zm.layer.append('g').attr('class', 'd'); zm.layer.append('g').attr('class', 's'); }
+    // the "Zoom to" menu animates the map's zoom; dragging or pinching takes over from there
+    if (st._zoomed !== st.zoom) { const first = st._zoomed === undefined; st._zoomed = st.zoom; svg.node()._zm.zoomTo(st.zoom, !first); }
     const muted = css('--cds-chart-muted');
     const hasFill = (r) => r && r.decided;
     svg.select('g.d').selectAll('path').data(shapes, (d) => d.plan + d.district).join('path')
