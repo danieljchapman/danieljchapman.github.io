@@ -1,1 +1,76 @@
-{"48085": {"source": "Collin County Elections", "days": {"2026-10-19": {"in_person_day": 34522, "mail_day": null}}}}
+{
+ "48085": {
+  "days": {
+   "2026-10-19": {
+    "in_person_day": 34522,
+    "mail_day": null
+   },
+   "2026-10-20": {
+    "in_person_cum": 68506,
+    "mail_day": null
+   }
+  },
+  "source": "Collin County Elections"
+ },
+ "48113": {
+  "days": {
+   "2026-10-19": {
+    "in_person_day": 77548,
+    "mail_day": null
+   },
+   "2026-10-20": {
+    "in_person_day": 63570,
+    "mail_day": null
+   }
+  },
+  "source": "Dallas County Elections"
+ },
+ "48141": {
+  "days": {
+   "2026-10-19": {
+    "in_person_day": 17517,
+    "mail_day": 4896
+   }
+  },
+  "source": "El Paso County Elections"
+ },
+ "48201": {
+  "days": {
+   "2026-10-19": {
+    "in_person_day": 104659,
+    "mail_day": 24794
+   },
+   "2026-10-20": {
+    "in_person_day": 99911,
+    "mail_day": 2755
+   }
+  },
+  "source": "Harris County Clerk"
+ },
+ "48439": {
+  "days": {
+   "2026-10-19": {
+    "in_person_day": 50409,
+    "mail_day": 11936
+   },
+   "2026-10-20": {
+    "in_person_day": 51019,
+    "mail_day": 147
+   }
+  },
+  "source": "Tarrant County Elections"
+ },
+ "48453": {
+  "days": {
+   "2026-10-19": {
+    "in_person_day": 40817,
+    "mail_day": 9170
+   },
+   "2026-10-20": {
+    "in_person_day": 40458,
+    "mail_day": 510
+   }
+  },
+  "source": "Travis County Clerk"
+ }
+}
