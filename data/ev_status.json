@@ -1,20 +1,19 @@
 [
  {
-  "updated_at": "2026-10-21T00:51:57Z",
+  "updated_at": "2026-10-21T00:52:43Z",
   "latest_date": "2026-10-20",
   "latest_ev_day": 2,
   "state_updated": "2026-10-20",
-  "total_early": 854763,
-  "source": "Texas Secretary of State early-voting turnout, unofficial; county reports for Collin County Elections, Dallas County Elections, Harris County Clerk, Tarrant County Elections, Travis County Clerk",
+  "total_early": 873041,
+  "source": "Texas Secretary of State early-voting turnout, unofficial; county reports for Collin County Elections, Dallas County Elections, El Paso County Elections, Harris County Clerk, Tarrant County Elections, Travis County Clerk",
   "county_sources": [
    "Collin County Elections",
    "Dallas County Elections",
+   "El Paso County Elections",
    "Harris County Clerk",
    "Tarrant County Elections",
    "Travis County Clerk"
   ],
-  "problems": [
-   "El Paso County Elections: 'tuple' object has no attribute 'replace'"
-  ]
+  "problems": []
  }
 ]
