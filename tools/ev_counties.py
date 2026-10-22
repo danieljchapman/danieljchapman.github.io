@@ -137,15 +137,24 @@ def el_paso_parse(stats, mail):
 
 def el_paso():
     page = fetch('https://epcountyvotestx.gov/voter-information/current-election').decode('utf-8', 'replace')
-    links = re.findall(r'(https://ep-county-elections-production[^"\s]*?Day_(\d+)_Early_Voting_Statistics\.pdf[^"\s]*)', page)
+    # file names change: Day_2_Early_Voting_Statistics.pdf, Nov_2026_stats_Day_2.pdf, ...
+    links = re.findall(r'(https://ep-county-elections-production[^"\s]*?(?:Day_(\d+)_Early_Voting_Statistics|stats_Day_(\d+))\.pdf[^"\s]*)', page)
+    links = [(u, a or b) for u, a, b in links]
     if not links:
         raise RuntimeError('no Early Voting Statistics PDF linked on the current-election page')
     latest = max(links, key=lambda x: int(x[1]))  # (url, day number)
     day = latest[1]
-    mail_url = next((m for m in re.findall(r'(https://ep-county-elections-production[^"\s]*?Day_(\d+)_Ballot_by_Mail_Statistics\.pdf[^"\s]*)', page) if m[1] == day), None)
+    mails = [(u, a or b) for u, a, b in re.findall(r'(https://ep-county-elections-production[^"\s]*?(?:Day_(\d+)_Ballot_by_Mail_Statistics|stats_mail_(\d+))\.pdf[^"\s]*)', page)]
+    mail_url = next((m for m in mails if m[1] == day), None)
     stats = pdf_text(latest[0].replace('&amp;', '&'))
     mail = pdf_text(mail_url[0].replace('&amp;', '&')) if mail_url else ''
-    return el_paso_parse(stats, mail)
+    try:
+        return el_paso_parse(stats, mail)
+    except Exception:
+        try:
+            return el_paso_parse(stats, '')  # mail report in a new layout: keep in-person numbers
+        except Exception as e:
+            raise RuntimeError(f'cannot read {latest[0].rsplit("/", 1)[-1][:60]}: {e}; text starts {stats[:200]!r}')
 
 
 def dallas_parse(rows):
