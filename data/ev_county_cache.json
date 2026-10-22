@@ -49,8 +49,12 @@
     "mail_day": 24794
    },
    "2026-10-20": {
-    "in_person_day": 99910,
+    "in_person_day": 99909,
     "mail_day": 2755
+   },
+   "2026-10-21": {
+    "in_person_day": 93417,
+    "mail_day": 2157
    }
   },
   "source": "Harris County Clerk"
