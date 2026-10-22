@@ -6,7 +6,11 @@
     "mail_day": null
    },
    "2026-10-20": {
-    "in_person_cum": 68506,
+    "in_person_day": 33984,
+    "mail_day": null
+   },
+   "2026-10-21": {
+    "in_person_day": 31248,
     "mail_day": null
    }
   },
