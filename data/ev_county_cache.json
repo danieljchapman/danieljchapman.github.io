@@ -42,6 +42,10 @@
    "2026-10-20": {
     "in_person_day": 16745,
     "mail_day": 591
+   },
+   "2026-10-21": {
+    "in_person_day": 14849,
+    "mail_day": 430
    }
   },
   "source": "El Paso County Elections"
@@ -49,7 +53,7 @@
  "48201": {
   "days": {
    "2026-10-19": {
-    "in_person_day": 104659,
+    "in_person_day": 104658,
     "mail_day": 24794
    },
    "2026-10-20": {
@@ -57,7 +61,7 @@
     "mail_day": 2755
    },
    "2026-10-21": {
-    "in_person_day": 93417,
+    "in_person_day": 93414,
     "mail_day": 2157
    }
   },
