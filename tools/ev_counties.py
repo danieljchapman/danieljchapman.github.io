@@ -93,11 +93,11 @@ def travis():
 
 def collin():
     page = fetch('https://www.collincountytx.gov/elections/rosters').decode('utf-8', 'replace')
-    links = sorted(set(re.findall(r'href="(/docs/default-source/elections/election-rosters/totals-by-site-through-[^"]+?\.pdf[^"]*)"', page)))
+    links = sorted(set(re.findall(r'href="(/docs/default-source/elections/election-rosters/totals-by-site-(?:for|through)-[^"]+?\.pdf[^"]*)"', page)))
     per_day, cum = {}, {}
     for l in links:
         t = pdf_text('https://www.collincountytx.gov' + l.replace('&amp;', '&'))
-        m = re.search(r'Date Range:\s*(\d\d)/(\d\d)/(\d{4})\s*-\s*(\d\d)/(\d\d)/(\d{4})', t)
+        m = re.search(r'Date Range:\s*(\d\d)/(\d\d)/(\d{4})\s*(?:-|through)\s*(\d\d)/(\d\d)/(\d{4})', t)
         tot = re.search(r'^Total\s+[\d,]+\s+[\d,]+\s+([\d,]+)\s*$', t, re.M) or re.search(r'^Total\s.*?([\d,]+)\s*$', t, re.M)
         if not m or not tot:
             continue
