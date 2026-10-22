@@ -181,6 +181,10 @@
       rawIdx = d3.group(raw, (d) => d.race + '|' + d.county_fips);
     }
     const year = Number(p.race.slice(0, 4)), office = p.race.slice(5);
+    // the Reporting view only applies to the live 2026 count; older races fall back to Winner & margin
+    const repBtn = document.querySelector('[data-view="reporting"]'); if (repBtn) repBtn.hidden = year !== 2026;
+    if (p.view === 'reporting' && year !== 2026) p.view = 'result';
+    document.querySelectorAll('[data-view]').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.view === p.view)));
     const S = sw.data.find((r) => r.race === p.race) || null;
     const pending = !S || S.total_votes === 0;
     const status = S ? S.status : 'pending';
@@ -285,6 +289,13 @@
   }
 
   const SHIFT_BINS = [-0.1, -0.05, -0.02, 0, 0.02, 0.05, 0.1];
+  // Reporting view: share of a county's precincts counted. Early and mail votes are counted first, before any
+  // precinct, so a county can have most of its votes in with 0 precincts reporting ("early votes only").
+  const REP_RAMP = ['#fdecc8', '#fbd38d', '#f6ae4b', '#e08a1e', '#b4650b', '#7a3f04'];
+  const REP_LABELS = ['Early votes only', 'Under 25%', '25–50%', '50–75%', '75–99%', 'All precincts'];
+  const repShare = (r) => r.status === 'final' ? 1 : r.reporting_total ? Math.min(1, r.reporting / r.reporting_total) : null;
+  const repBin = (r) => { const f = repShare(r); return f == null ? null : f >= 1 ? 5 : f <= 0 ? 0 : f < 0.25 ? 1 : f < 0.5 ? 2 : f < 0.75 ? 3 : 4; };
+  const repColor = (r) => { const b = repBin(r); return b == null ? css('--cds-chart-muted') : REP_RAMP[b]; };
   function drawMap(p, S, rows, shapes, pending, T, year) {
     const el = document.getElementById('map'); el.classList.remove('dash-skeleton');
     const R = LX.RAMP, byF = new Map(rows.map((r) => [r.county_fips, r])), muted = css('--cds-chart-muted');
@@ -293,13 +304,14 @@
     const stillCounting = (r) => !!r && r.reported && r.status === 'counting' && r.reporting_total != null && r.reporting < r.reporting_total;
     const toOf = (f) => T ? T.county.get(year + '|' + f) : null;
     const fill = (r, f) => p.view === 'turnout' ? (toOf(f) ? LX.turnoutColor(toOf(f).turnout) : muted)
+      : p.view === 'reporting' ? (r && r.reported ? repColor(r) : muted)
       : !r || !r.reported || FLAGS[p.race + '|' + r.county_fips] ? muted : p.view === 'shift' ? shiftColor(r.shift) : resultColor(r);
     let svg = d3.select(el).select('svg');
     if (svg.empty()) { el.replaceChildren(); svg = d3.select(el).append('svg').attr('viewBox', '0 0 678 645').attr('width', '100%').attr('role', 'img').attr('aria-label', 'Map of Texas counties'); const zm = LX.zoomMap(el, svg, 678, 645); zm.layer.append('g').attr('class', 'cties'); zm.layer.append('g').attr('class', 'selg'); }
     const card = document.getElementById('map-card'), tip = document.getElementById('map-tip');
     svg.select('g.cties').selectAll('path.cty').data(shapes, (d) => d.county_fips).join('path')
       .attr('class', 'cty').attr('d', (d) => d.path).attr('fill', (d) => fill(byF.get(d.county_fips), d.county_fips))
-      .attr('fill-opacity', (d) => { const r = byF.get(d.county_fips); return stillCounting(r) && p.view !== 'turnout' ? 0.45 : 1; })
+      .attr('fill-opacity', (d) => { const r = byF.get(d.county_fips); return stillCounting(r) && p.view !== 'turnout' && p.view !== 'reporting' ? 0.45 : 1; })
       .on('mousemove', (event, d) => {
         const r = byF.get(d.county_fips); tip.replaceChildren();
         const t = document.createElement('div'); t.className = 't'; t.textContent = `${d.county} County · ${p.race}`; tip.append(t);
@@ -311,7 +323,8 @@
           for (const c of raw) LX.tipLine(tip, partyCol(c.party), c.candidate + (c.party === 'W' ? '' : ' (' + c.party + ')'), `${fmt(Number(c.votes))} · ${pct(Number(c.votes) / (r.total_votes || 1))}`);
           LX.tipLine(tip, null, 'Margin', r.margin_label);
           if (r.prev_race && r.shift != null) LX.tipLine(tip, null, `Shift vs ${r.prev_race}`, r.shift_label);
-          if (r.status === 'counting' && r.reporting_total) LX.tipLine(tip, null, 'Precincts reporting', r.reporting_total === 100 ? `${r.reporting}%` : `${r.reporting} of ${r.reporting_total}`);
+          if (r.status === 'counting' && r.reporting_total) LX.tipLine(tip, p.view === 'reporting' ? repColor(r) : null, 'Precincts reporting', (r.reporting_total === 100 ? `${r.reporting}%` : `${r.reporting} of ${r.reporting_total} (${pct(r.reporting / r.reporting_total).replace('.0%', '%')})`) + (r.reporting === 0 ? ' · early votes only' : ''));
+          else if (p.view === 'reporting' && r.status === 'final') LX.tipLine(tip, repColor(r), 'Precincts reporting', 'All');
         }
         const to = toOf(d.county_fips);
         if (to) LX.tipLine(tip, p.view === 'turnout' ? LX.turnoutColor(to.turnout) : null, to.live ? 'Turnout so far' : 'Turnout', LX.turnoutText(to));
@@ -321,8 +334,9 @@
       .on('click', (event, d) => dash.setParams({ county: p.county === d.county_fips ? null : d.county_fips }));
     svg.select('g.selg').selectAll('path').data(shapes.filter((d) => d.county_fips === p.county), (d) => d.county_fips).join('path')
       .attr('d', (d) => d.path).attr('fill', 'none').attr('stroke', css('--color-fg')).attr('stroke-width', 2.2).attr('pointer-events', 'none');
-    document.getElementById('map-title').textContent = p.view === 'turnout' ? `${year} turnout by county` : p.view === 'shift' ? `${p.race}: shift since ${S && S.prev_race ? S.prev_race : '—'}` : `${p.race}: county results`;
+    document.getElementById('map-title').textContent = p.view === 'reporting' ? `${p.race}: precincts reporting` : p.view === 'turnout' ? `${year} turnout by county` : p.view === 'shift' ? `${p.race}: shift since ${S && S.prev_race ? S.prev_race : '—'}` : `${p.race}: county results`;
     document.getElementById('map-note').textContent = p.view === 'turnout' ? (T && T.county.has(year + '|TX') ? (T.county.get(year + '|TX').live ? 'Ballots counted so far as a share of registered voters. These rise through the night as counties report. ' : '') + `Share of registered voters who cast a ballot in the ${year} general election. It is the same for every race that year; some voters skip races further down the ballot. Click a county to follow it over time.` : year === 2026 ? 'Turnout fills in on election night as counties report ballots cast.' : `No turnout figures for ${year}.`)
+      : p.view === 'reporting' ? (pending ? 'No county has reported yet. Counties fill in as results arrive on election night.' : 'Share of each county\'s voting precincts counted so far. Counties release early and mail votes first, before any precinct, so a county marked "early votes only" may already have most of its votes in. Click a county to follow it over time.')
       : pending ? 'No county has reported yet. Counties fill in as results arrive on election night.'
       : p.view === 'shift' ? (S.prev_race ? `Change in each county's R − D margin compared with ${S.prev_race}.` : 'No earlier race for this office in the data, so there is no shift to show.')
       : 'Red: Republican margin, blue: Democratic margin. The darker the shade, the bigger the margin. Click a county to follow it over time.';
@@ -333,6 +347,12 @@
       R.T.forEach((c) => { const s = document.createElement('i'); s.className = 'sw'; s.style.background = c; s.style.marginRight = '1px'; g.append(s); });
       lg.append(g); const n = document.createElement('span'); n.textContent = LX.TO_LEGEND; lg.append(n);
       if (shapes.some((d) => !toOf(d.county_fips))) sw(muted, 'No figure');
+      return;
+    }
+    if (p.view === 'reporting') {
+      const g = document.createElement('span'); g.className = 'grp'; g.append(document.createTextNode('Precincts reporting '));
+      lg.append(g); REP_LABELS.forEach((t, i) => sw(REP_RAMP[i], t));
+      if (shapes.some((d) => { const r = byF.get(d.county_fips); return !r || !r.reported; })) sw(muted, 'No results yet');
       return;
     }
     if (p.view === 'shift') {
