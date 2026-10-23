@@ -96,7 +96,10 @@ def collin():
     links = sorted(set(re.findall(r'href="(/docs/default-source/elections/election-rosters/totals-by-site-(?:for|through)-[^"]+?\.pdf[^"]*)"', page)))
     per_day, cum = {}, {}
     for l in links:
-        t = pdf_text('https://www.collincountytx.gov' + l.replace('&amp;', '&'))
+        try:  # a file listed on the page can disappear when Collin replaces it; skip it and keep the rest
+            t = pdf_text('https://www.collincountytx.gov' + l.replace('&amp;', '&'))
+        except RuntimeError:
+            continue
         m = re.search(r'Date Range:\s*(\d\d)/(\d\d)/(\d{4})\s*(?:-|through)\s*(\d\d)/(\d\d)/(\d{4})', t)
         tot = re.search(r'^Total\s+[\d,]+\s+[\d,]+\s+([\d,]+)\s*$', t, re.M) or re.search(r'^Total\s.*?([\d,]+)\s*$', t, re.M)
         if not m or not tot:
