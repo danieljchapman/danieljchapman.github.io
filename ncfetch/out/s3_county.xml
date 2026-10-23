@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListBucketResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Name>dl.ncsbe.gov</Name><Prefix>ShapeFiles/CountyBoundary/</Prefix><Marker></Marker><MaxKeys>1000</MaxKeys><IsTruncated>false</IsTruncated><Contents><Key>ShapeFiles/CountyBoundary/NC_State_County_Boundary_NCGS_2017.zip</Key><LastModified>2017-10-16T13:44:51.000Z</LastModified><ETag>&quot;719a7b0203a86c171e5b626cc13ab99c&quot;</ETag><Size>7947185</Size><StorageClass>STANDARD_IA</StorageClass></Contents></ListBucketResult>
