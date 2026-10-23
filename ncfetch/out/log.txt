@@ -1,0 +1,31 @@
+{"races": 19, "rows": 1239, "phase": "pre-election", "final": 0, "counting": 0, "precincts": [0, 2626], "problems": 0}
+
+real	0m0.959s
+user	0m0.773s
+sys	0m0.021s
+{"races": 19, "rows": 1239, "phase": "pre-election", "final": 0, "counting": 0, "precincts": [0, 2626], "problems": 0}
+
+real	0m0.914s
+user	0m0.749s
+sys	0m0.030s
+{"races": 19, "rows": 1239, "phase": "pre-election", "final": 0, "counting": 0, "precincts": [0, 2626], "problems": 0}
+
+real	0m0.872s
+user	0m0.757s
+sys	0m0.027s
+[
+ {
+  "phase": "pre-election",
+  "updated_at": "2026-10-23T16:30:38Z",
+  "source": "North Carolina State Board of Elections, unofficial",
+  "races": 19,
+  "called": 0,
+  "counting": 0,
+  "precincts": [
+   0,
+   2626
+  ],
+  "problems": [],
+  "local_problems": []
+ }
+]
