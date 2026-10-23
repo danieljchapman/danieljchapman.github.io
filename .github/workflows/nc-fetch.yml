@@ -1,0 +1,18 @@
+name: NC source fetch
+on:
+  push:
+    branches: [nc-fetch]
+    paths: [ncfetch/fetch.sh, .github/workflows/nc-fetch.yml]
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: nc-fetch }
+      - run: bash ncfetch/fetch.sh
+      - run: |
+          git config user.name "github-actions"; git config user.email "actions@users.noreply.github.com"
+          find ncfetch/out -size +95M -print -delete
+          git add ncfetch/out && git commit -q -m "NC fetch results [skip ci]" && git push origin nc-fetch
