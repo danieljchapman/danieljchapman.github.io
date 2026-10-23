@@ -71,7 +71,7 @@ button { font: inherit; }
 .lx-card h2 { font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); margin: 0; }
 .lx-note { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: 2px 0 var(--cds-gap-md); }
 .lx-cardhead { display: flex; justify-content: space-between; align-items: flex-start; gap: var(--cds-gap-sm); flex-wrap: wrap; }
-.lx-map { min-height: 22rem; }
+.lx-map { min-height: 0; aspect-ratio: 900 / 351; }  /* the NC frame is wide and short */
 .lx-map svg path.cty { stroke: var(--color-panel); stroke-width: 0.5; cursor: pointer; }
 .lx-map svg path.cty:hover { stroke: var(--color-fg); stroke-width: 1.2; }
 .lx-map svg path.cty.sel { stroke: var(--color-fg); stroke-width: 2; }

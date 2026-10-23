@@ -283,7 +283,6 @@
     const pc = document.getElementById('photo-credit');
     LX.photoCredit(pc, list.map((c) => c.candidate));
     if (n < 4 && !pending) { pc.hidden = false; pc.prepend(document.createTextNode(`Only ${n} candidates were on the ballot in this race. `)); }
-    if (!anyPhoto && anyInitials && pc.hidden === false && !pc.textContent.includes('Photos')) pc.append(document.createTextNode('Initials stand in for candidates without a freely licensed photo.'));
   }
 
   const SHIFT_BINS = [-0.1, -0.05, -0.02, 0, 0.02, 0.05, 0.1];
