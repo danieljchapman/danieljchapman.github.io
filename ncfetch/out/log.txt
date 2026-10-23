@@ -1,0 +1,18 @@
+{"races": 19, "rows": 1239, "phase": "pre-election", "final": 0, "counting": 0, "precincts": [0, 2626], "problems": 0}
+{"races": 29, "rows": 4287, "phase": "final", "final": 29, "counting": 0, "precincts": [2658, 2658], "problems": 0}
+[
+ {
+  "phase": "pre-election",
+  "updated_at": "2026-10-23T16:32:31Z",
+  "source": "North Carolina State Board of Elections, unofficial",
+  "races": 19,
+  "called": 0,
+  "counting": 0,
+  "precincts": [
+   0,
+   2626
+  ],
+  "problems": [],
+  "local_problems": []
+ }
+]
