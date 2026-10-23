@@ -19,7 +19,7 @@ concurrency:
 
 jobs:
   update:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04  # pinned: ubuntu-latest moved to Ubuntu 26 on Oct 19, 2026, which broke the install step
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
@@ -34,7 +34,8 @@ jobs:
       - name: Install the PDF reader (Harris County) and a headless browser (Clarity's bot check)
         if: steps.fresh.outputs.skip != '1'
         run: |
-          sudo apt-get install -y -qq poppler-utils >/dev/null
+          sudo apt-get update -qq >/dev/null || true
+          sudo apt-get install -y -qq poppler-utils >/dev/null || (sleep 20; sudo apt-get update -qq >/dev/null; sudo apt-get install -y -qq poppler-utils >/dev/null)
           pip install -q playwright==1.47.0
           python3 -m playwright install --with-deps chromium >/dev/null
 
