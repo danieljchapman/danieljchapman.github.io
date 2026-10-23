@@ -1,0 +1,52 @@
+name: NC election-night results
+
+# North Carolina polls close at 7:30 pm Eastern (00:30 UTC Nov 4; EST, UTC-5).
+# Every 5 minutes from 00:15 to 06:05 UTC (7:15 pm – 1:05 am Eastern) in one long job; two start times in case
+# GitHub starts the first late (the second waits behind it and ends at once if the window is covered).
+# After that, single updates every 10 minutes until 11:50 UTC (6:50 am Eastern).
+# Source: the State Board of Elections results file (nc/tools/nc_live.py).
+on:
+  schedule:
+    - cron: '15 0 4 11 *'
+    - cron: '45 0 4 11 *'
+    - cron: '*/10 6-11 4 11 *'
+  workflow_dispatch:
+    inputs:
+      minutes:
+        description: 'Test run: how many minutes to keep updating (0 = one update)'
+        default: '0'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nc-election-night
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 355
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update
+        env:
+          MINUTES: ${{ github.event.inputs.minutes }}
+          SCHED: ${{ github.event.schedule }}
+        run: |
+          if [ "$SCHED" = '*/10 6-11 4 11 *' ] || [ "${MINUTES:-}" = "0" ]; then
+            bash nc/tools/fetch_live.sh; exit $?
+          fi
+          if [ -n "${MINUTES:-}" ]; then end=$(( $(date +%s) + MINUTES * 60 ));
+          else end=$(date -u -d '2026-11-04T06:05:00Z' +%s); fi
+          n=0
+          while [ "$(date +%s)" -lt "$end" ]; do
+            start=$(date +%s); n=$((n + 1))
+            echo "::group::Update $n at $(date -u +%H:%M:%S) UTC"
+            bash nc/tools/fetch_live.sh || echo "::warning::Update $n failed"
+            echo "::endgroup::"
+            wait=$(( 300 - ($(date +%s) - start) ))
+            [ $(( $(date +%s) + wait )) -ge "$end" ] && break
+            [ "$wait" -gt 0 ] && sleep "$wait"
+          done
+          echo "Finished after $n updates"
