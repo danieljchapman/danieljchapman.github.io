@@ -1,0 +1,1090 @@
+(function () {
+    'use strict';
+
+    // Track initialization and queued refreshes so DOM mutations do not recreate the mobile menu.
+    let responsiveNavigationInitialized = false;
+    let navigationRefreshPending = false;
+    let textZoomReflowFrame = null;
+    let textZoomReflowTimer = null;
+    const textZoomReflowStates = [
+        { className: 'text-zoom-reflow-320', maximumWidth: 320 },
+        { className: 'text-zoom-reflow-240', maximumWidth: 240 },
+        { className: 'text-zoom-reflow-192', maximumWidth: 192 }
+    ];
+
+    /**
+     * Converts WebKit's computed text-size adjustment into a scale factor.
+     * iOS text-only zoom keeps the layout viewport unchanged, so width media
+     * queries cannot otherwise respond to the user's effective reading width.
+     * @param {string} value A computed text-size-adjust value.
+     * @returns {number} A scale factor of at least 1.
+     */
+    function parseTextSizeAdjustment(value) {
+        if (typeof value !== 'string' || !value.endsWith('%')) {
+            return 1;
+        }
+
+        const percentage = Number.parseFloat(value);
+        return Number.isFinite(percentage) && percentage > 100 ? percentage / 100 : 1;
+    }
+
+    /**
+     * Gets the largest user-directed text adjustment or mobile viewport zoom scale.
+     * @returns {number} The current effective zoom scale.
+     */
+    function getTextSizeAdjustmentScale() {
+        const elements = [document.documentElement, document.body].filter(Boolean);
+        let adjustmentScale = 1;
+
+        for (const element of elements) {
+            const style = window.getComputedStyle(element);
+            adjustmentScale = Math.max(
+                adjustmentScale,
+                parseTextSizeAdjustment(style.textSizeAdjust),
+                parseTextSizeAdjustment(style.webkitTextSizeAdjust)
+            );
+        }
+
+        // Mobile pinch zoom can retain the layout viewport and leave text-size-adjust unchanged.
+        // Include its visual scale so the same narrow reflow rules still apply.
+        if (window.visualViewport && Number.isFinite(window.visualViewport.scale)) {
+            adjustmentScale = Math.max(adjustmentScale, window.visualViewport.scale);
+        }
+
+        return adjustmentScale;
+    }
+
+    /**
+     * Mirrors existing narrow-width reflow states when iOS applies text-only zoom.
+     * Normal mobile rendering is unchanged because "auto" and 100% resolve to 1.
+     */
+    function syncTextZoomReflowState() {
+        const root = document.documentElement;
+        const adjustmentScale = getTextSizeAdjustmentScale();
+        const layoutWidth = root.clientWidth || window.innerWidth;
+        const effectiveWidth = layoutWidth / adjustmentScale;
+        const hasTextZoom = adjustmentScale > 1;
+
+        for (const state of textZoomReflowStates) {
+            root.classList.toggle(
+                state.className,
+                hasTextZoom && effectiveWidth <= state.maximumWidth
+            );
+        }
+
+        syncMobileTableHeaderVisibility();
+    }
+
+    /**
+     * Samples zoom immediately and again after WebKit settles its viewport metrics.
+     * Rapid resize events replace pending samples so each resize burst stays inexpensive.
+     */
+    function scheduleTextZoomReflowSync() {
+        if (textZoomReflowFrame !== null) {
+            window.cancelAnimationFrame(textZoomReflowFrame);
+            textZoomReflowFrame = null;
+        }
+        if (textZoomReflowTimer !== null) {
+            window.clearTimeout(textZoomReflowTimer);
+            textZoomReflowTimer = null;
+        }
+
+        syncTextZoomReflowState();
+        textZoomReflowFrame = window.requestAnimationFrame(function () {
+            textZoomReflowFrame = null;
+            syncTextZoomReflowState();
+        });
+        textZoomReflowTimer = window.setTimeout(function () {
+            textZoomReflowTimer = null;
+            syncTextZoomReflowState();
+        }, 200);
+    }
+
+    /**
+     * Loads one text resource asynchronously and completes exactly once, including network failures.
+     * @param {XMLHttpRequest} request The request instance owned by the calling page.
+     * @param {string} url The text resource URL.
+     * @param {Function} onComplete The page-specific completion callback.
+     */
+    function loadTextFile(request, url, onComplete) {
+        let completed = false;
+
+        function finishRequest() {
+            if (completed) {
+                return;
+            }
+
+            completed = true;
+            request.onreadystatechange = null;
+            request.onerror = null;
+            onComplete();
+        }
+
+        // Ready-state and network-error paths share the guard so the batch counter advances once.
+        request.onreadystatechange = function () {
+            if (request.readyState === 4) {
+                finishRequest();
+            }
+        };
+        request.onerror = finishRequest;
+        request.open('get', url, true);
+        request.send(null);
+    }
+
+    // Disable jQuery-powered menu animation whenever the operating system requests reduced motion.
+    const reducedMotionMediaQuery = typeof window.matchMedia === 'function'
+        ? window.matchMedia('(prefers-reduced-motion: reduce)')
+        : null;
+
+    /**
+     * Reports whether the user currently requests reduced motion.
+     * @returns {boolean} True when nonessential animation should be minimized.
+     */
+    function prefersReducedMotion() {
+        return reducedMotionMediaQuery !== null && reducedMotionMediaQuery.matches;
+    }
+
+    /**
+     * Subscribes to reduced-motion changes across current and legacy MediaQueryList implementations.
+     * @param {Function} listener The callback that receives the MediaQueryList change event.
+     */
+    function addReducedMotionChangeListener(listener) {
+        if (reducedMotionMediaQuery === null || typeof listener !== 'function') {
+            return;
+        }
+
+        if (typeof reducedMotionMediaQuery.addEventListener === 'function') {
+            reducedMotionMediaQuery.addEventListener('change', listener);
+        } else if (typeof reducedMotionMediaQuery.addListener === 'function') {
+            // Older implementations expose only this deprecated compatibility alias.
+            reducedMotionMediaQuery.addListener(listener);
+        }
+    }
+
+    /**
+     * Applies the current reduced-motion preference to jQuery effects used by MeanMenu.
+     * @param {boolean} reduceMotion Whether nonessential animation should be disabled.
+     */
+    function applyJQueryMotionPreference(reduceMotion) {
+        if (!window.jQuery) {
+            return;
+        }
+        if (!window.jQuery.fx) {
+            return;
+        }
+
+        window.jQuery.fx.off = reduceMotion;
+    }
+
+    if (reducedMotionMediaQuery !== null) {
+        applyJQueryMotionPreference(prefersReducedMotion());
+
+        const handleReducedMotionPreferenceChange = function (event) {
+            applyJQueryMotionPreference(event.matches);
+        };
+        addReducedMotionChangeListener(handleReducedMotionPreferenceChange);
+    }
+
+    /**
+     * Resolves a map area name from reported and election-local county data.
+     * @param {string|number} id The generated map area ID.
+     * @param {string} reportedName The name supplied by reporting data, when available.
+     * @param {Array<{cid: string|number, cnm?: string}>} countyRecords The election-local county.txt metadata.
+     * @param {boolean} isStatewide Whether the map contains county rather than precinct areas.
+     * @returns {string} The best available area name.
+     */
+    function resolveMapAreaName(id, reportedName, countyRecords, isStatewide) {
+        const normalizedReportedName = String(reportedName || '').trim();
+        if (normalizedReportedName !== '') {
+            return normalizedReportedName;
+        }
+        if (!isStatewide) {
+            return String(id);
+        }
+
+        if (Array.isArray(countyRecords)) {
+            const county = countyRecords.find(function (record) { return record.cid == id; });
+            // county.txt defines cnm as the county name; tle is the full election page heading.
+            const electionCountyName = county ? String(county.cnm || '').trim() : '';
+            if (electionCountyName !== '') {
+                return electionCountyName;
+            }
+        }
+
+        return String(id);
+    }
+
+    /**
+     * Gets the accessible name of the desktop navigation used to label its mobile equivalent.
+     * @returns {string} The configured navigation name or a stable fallback.
+     */
+    function getSourceNavigationName() {
+        const sourceNavigation = document.getElementById('primary-navigation');
+        // Pages without a primary-navigation element still receive a meaningful default label.
+        return sourceNavigation ? sourceNavigation.getAttribute('aria-label') || 'Primary navigation' : 'Primary navigation';
+    }
+
+    /**
+     * Determines whether the source menu currently exposes actionable navigation entries.
+     * @param {Element|null} sourceMenu The dynamically populated source menu.
+     * @returns {boolean} True when the menu is intended to be visible and contains a link.
+     */
+    function sourceMenuHasAvailableEntries(sourceMenu) {
+        return Boolean(sourceMenu)
+            && window.getComputedStyle(sourceMenu).visibility !== 'hidden'
+            && sourceMenu.querySelector('a[href]') !== null;
+    }
+
+    /**
+     * Hides the generated mobile bar when its source menu has no available actions.
+     * @param {Element|null} sourceMenu The source menu represented by MeanMenu.
+     */
+    function syncMobileNavigationAvailability(sourceMenu) {
+        const mobileBar = document.querySelector('#mobile-navigation-container > .mean-bar');
+
+        if (mobileBar) {
+            mobileBar.hidden = !sourceMenuHasAvailableEntries(sourceMenu);
+        }
+    }
+
+    /**
+     * Finds the link text associated with a generated submenu expander.
+     * @param {Element} expander The MeanMenu control whose context is required.
+     * @returns {string} The related link text, or an empty string when none is available.
+     */
+    function getExpanderContext(expander) {
+        const siblings = expander.parentNode ? expander.parentNode.children : [];
+
+        // MeanMenu inserts the expander beside the source link, so inspect its sibling elements.
+        for (const sibling of siblings) {
+            if (sibling !== expander && sibling.tagName === 'A' && !sibling.classList.contains('mean-expand')) {
+                return sibling.textContent.trim();
+            }
+        }
+
+        return '';
+    }
+
+    /**
+     * Gives the generated mobile navigation a stable ID and accessible name.
+     * @param {Element|null} mobileNavigation The navigation generated by MeanMenu.
+     * @param {string} sourceName The accessible name of the source navigation.
+     */
+    function labelMobileNavigation(mobileNavigation, sourceName) {
+        if (!mobileNavigation) {
+            return;
+        }
+
+        // The stable ID lets the menu toggle reference the controlled navigation region.
+        if (!mobileNavigation.id) {
+            mobileNavigation.id = 'mobile-navigation';
+        }
+
+        mobileNavigation.setAttribute('aria-label', 'Mobile ' + sourceName.toLowerCase());
+    }
+
+    /**
+     * Synchronizes accessible names, relationships, and expanded states on MeanMenu controls.
+     */
+    function enhanceMobileNavigation() {
+        const sourceMenu = document.querySelector('#primary-navigation #main_menu');
+        const mobileNavigation = document.querySelector('nav.mean-nav');
+        const toggle = document.querySelector('.meanmenu-reveal');
+        const sourceName = getSourceNavigationName();
+
+        syncMobileNavigationAvailability(sourceMenu);
+        labelMobileNavigation(mobileNavigation, sourceName);
+
+        // Reflect the plugin's open/closed class as explicit state for assistive technology.
+        if (toggle && mobileNavigation) {
+            const navigationIsOpen = toggle.classList.contains('meanclose');
+            toggle.setAttribute('role', 'button');
+            toggle.setAttribute('aria-controls', mobileNavigation.id);
+            toggle.setAttribute('aria-expanded', String(navigationIsOpen));
+            toggle.setAttribute('aria-label', navigationIsOpen ? 'Close mobile navigation' : 'Open mobile navigation');
+        }
+
+        // Give every generated submenu control its own relationship, state, and contextual name.
+        const expanders = document.querySelectorAll('.mean-expand');
+        for (let i = 0; i < expanders.length; i++) {
+            const expander = expanders[i];
+            const submenu = expander.previousElementSibling;
+            const submenuIsOpen = expander.classList.contains('mean-clicked');
+            const context = getExpanderContext(expander);
+
+            expander.setAttribute('role', 'button');
+
+            if (submenu) {
+                // Generate an ID only when the plugin has not already supplied one.
+                if (!submenu.id) {
+                    submenu.id = 'mobile-submenu-' + (i + 1);
+                }
+                expander.setAttribute('aria-controls', submenu.id);
+            }
+
+            expander.setAttribute('aria-expanded', String(submenuIsOpen));
+            expander.setAttribute('aria-label', (submenuIsOpen ? 'Collapse' : 'Expand') + (context ? ' ' + context : '') + ' submenu');
+        }
+    }
+
+    /**
+     * Determines whether a generated disclosure control is currently expanded.
+     * @param {Element|null} control The generated MeanMenu control.
+     * @returns {boolean} True when the plugin's expanded-state class is present.
+     */
+    function isMobileDisclosureExpanded(control) {
+        if (!(control instanceof Element)) {
+            return false;
+        }
+
+        return control.classList.contains('meanclose') || control.classList.contains('mean-clicked');
+    }
+
+    /**
+     * Recognizes current and legacy Space key values used by supported browsers.
+     * @param {KeyboardEvent} event The keyboard event to inspect.
+     * @returns {boolean} True when the event represents Space.
+     */
+    function isSpaceKey(event) {
+        return event.key === ' ' || event.key === 'Spacebar';
+    }
+
+    /**
+     * Recognizes current and legacy Escape key values used by supported browsers.
+     * @param {KeyboardEvent} event The keyboard event to inspect.
+     * @returns {boolean} True when the event represents Escape.
+     */
+    function isEscapeKey(event) {
+        return event.key === 'Escape' || event.key === 'Esc';
+    }
+
+    /**
+     * Finds the innermost expanded submenu containing the current keyboard target.
+     * @param {Element} target The element receiving the keyboard event.
+     * @param {Element|null} mobileNavigation The generated mobile navigation.
+     * @returns {Element|null} The related submenu expander, if one is open.
+     */
+    function findExpandedSubmenuControl(target, mobileNavigation) {
+        if (target.classList.contains('mean-expand') && isMobileDisclosureExpanded(target)) {
+            return target;
+        }
+
+        let current = target;
+        while (current && current !== mobileNavigation) {
+            if (current.tagName === 'UL' && current.parentNode) {
+                const siblings = current.parentNode.children;
+                for (const sibling of siblings) {
+                    if (sibling.classList.contains('mean-expand') && isMobileDisclosureExpanded(sibling)) {
+                        return sibling;
+                    }
+                }
+            }
+
+            current = current.parentNode;
+        }
+
+        return null;
+    }
+
+    /**
+     * Determines whether an element is inside a specific container without relying on modern syntax.
+     * @param {Element} element The element whose ancestors should be inspected.
+     * @param {Element|null} container The possible containing element.
+     * @returns {boolean} True when the element is the container or one of its descendants.
+     */
+    function isWithinContainer(element, container) {
+        let current = element;
+        while (current) {
+            if (current === container) {
+                return true;
+            }
+
+            current = current.parentNode;
+        }
+
+        return false;
+    }
+
+    /**
+     * Adds button-style keyboard behavior to MeanMenu's generated action links.
+     * @param {KeyboardEvent} event The keyboard event raised by a generated control.
+     */
+    function handleMobileNavigationKeydown(event) {
+        const target = event.target;
+
+        if (!(target instanceof Element)) {
+            return;
+        }
+
+        const isGeneratedControl = target.classList.contains('meanmenu-reveal') || target.classList.contains('mean-expand');
+        if (isGeneratedControl && isSpaceKey(event)) {
+            event.preventDefault();
+            if (!event.repeat) {
+                target.click();
+                enhanceMobileNavigation();
+            }
+            return;
+        }
+
+        if (!isEscapeKey(event)) {
+            return;
+        }
+
+        const mobileNavigation = document.querySelector('nav.mean-nav');
+        const toggle = document.querySelector('.meanmenu-reveal');
+        const isInMobileNavigation = isWithinContainer(target, mobileNavigation);
+
+        if (target !== toggle && !isInMobileNavigation) {
+            return;
+        }
+
+        const expander = findExpandedSubmenuControl(target, mobileNavigation);
+        if (expander) {
+            event.preventDefault();
+            expander.click();
+            expander.focus();
+            enhanceMobileNavigation();
+            return;
+        }
+
+        if (isMobileDisclosureExpanded(toggle)) {
+            event.preventDefault();
+            toggle.click();
+            toggle.focus();
+            enhanceMobileNavigation();
+        }
+    }
+
+    /**
+     * Initializes MeanMenu after dynamic navigation items exist, or refreshes an existing menu.
+     */
+    function refreshResponsiveNavigation() {
+        // Clear the queue flag first so later DOM mutations can request another refresh.
+        navigationRefreshPending = false;
+
+        const sourceNavigation = document.getElementById('primary-navigation');
+        const sourceMenu = sourceNavigation ? sourceNavigation.querySelector('#main_menu') : null;
+
+        // Guard legacy jQuery layers explicitly to remain compatible with pre-ES2020 browsers.
+        if (!sourceNavigation || !sourceMenu || !window.jQuery) {
+            return;
+        }
+
+        if (!window.jQuery.fn) {
+            return;
+        }
+
+        if (typeof window.jQuery.fn.meanmenu !== 'function') {
+            return;
+        }
+
+        // Navigation entries are populated asynchronously and can become unavailable again.
+        if (!sourceMenuHasAvailableEntries(sourceMenu)) {
+            syncMobileNavigationAvailability(sourceMenu);
+            return;
+        }
+
+        if (!responsiveNavigationInitialized) {
+            window.jQuery(sourceNavigation).meanmenu({
+                meanMenuContainer: '#mobile-navigation-container',
+                meanRemoveAttrs: true
+            });
+            responsiveNavigationInitialized = true;
+        }
+        else {
+            // Let MeanMenu recalculate its layout without creating a duplicate mobile menu.
+            window.jQuery(window).trigger('resize');
+        }
+
+        // MeanMenu may recreate controls during a resize, so reapply their accessible state.
+        syncMobileNavigationAvailability(sourceMenu);
+        enhanceMobileNavigation();
+    }
+
+    /**
+     * Finds the BxSlider Start/Stop action containing an event target.
+     * @param {Element} target The event target to inspect.
+     * @param {Element} container The generated-control container.
+     * @returns {Element|null} The related action control, when present.
+     */
+    function findSliderAutoControl(target, container) {
+        let current = target;
+        while (current && current !== container) {
+            if (current.classList.contains('bx-start') || current.classList.contains('bx-stop')) {
+                return current;
+            }
+            current = current.parentNode;
+        }
+        return null;
+    }
+
+    /**
+     * Gives generated slider actions button semantics and keyboard support.
+     * @param {Element} container The generated-control container.
+     */
+    function enhanceSliderAutoControls(container) {
+        const controls = container.querySelectorAll('.bx-start, .bx-stop');
+        for (const control of controls) {
+            control.setAttribute('role', 'button');
+        }
+    }
+
+    /**
+     * Adds Space activation to BxSlider's generated auto controls.
+     * @param {KeyboardEvent} event The delegated keydown event.
+     */
+    function handleSliderAutoControlKeydown(event) {
+        const target = event.target;
+        const container = event.currentTarget;
+        if (!(target instanceof Element) ||
+            findSliderAutoControl(target, container) === null ||
+            !isSpaceKey(event)) {
+            return;
+        }
+
+        event.preventDefault();
+        if (!event.repeat) {
+            const control = findSliderAutoControl(target, container);
+            if (control !== null) {
+                control.click();
+            }
+        }
+    }
+
+    /**
+     * Reapplies semantics and restores focus only after keyboard activation replaces a control.
+     * @param {Event} event The delegated click event.
+     */
+    function handleSliderAutoControlClick(event) {
+        const target = event.target;
+        const container = event.currentTarget;
+        if (!(target instanceof Element) || findSliderAutoControl(target, container) === null) {
+            return;
+        }
+
+        const restoreFocus = event.detail === 0;
+        window.setTimeout(function () {
+            enhanceSliderAutoControls(container);
+            if (!restoreFocus) {
+                return;
+            }
+
+            const replacement = container.querySelector('.bx-start, .bx-stop');
+            if (replacement === null) {
+                return;
+            }
+            replacement.focus();
+        }, 0);
+    }
+
+    /**
+     * Enhances BxSlider auto controls without modifying the shared third-party library.
+     */
+    function initializeSliderAutoControlKeyboard() {
+        const autoControlContainer = document.getElementById('slider-start-stop');
+        if (autoControlContainer === null) {
+            return;
+        }
+
+        autoControlContainer.addEventListener('keydown', handleSliderAutoControlKeydown);
+        autoControlContainer.addEventListener('click', handleSliderAutoControlClick);
+
+        // BxSlider creates and replaces the combined Start/Stop action after page initialization.
+        if (window.MutationObserver) {
+            const autoControlObserver = new MutationObserver(function () {
+                enhanceSliderAutoControls(autoControlContainer);
+            });
+            autoControlObserver.observe(autoControlContainer, { childList: true, subtree: true });
+        }
+
+        enhanceSliderAutoControls(autoControlContainer);
+    }
+
+    /**
+     * Reads the first table row as the source for mobile field labels.
+     * @param {HTMLTableRowElement} headerRow The table's column-heading row.
+     * @returns {string[]} One normalized label for each represented column.
+     */
+    function getMobileTableLabels(headerRow) {
+        const labels = [];
+
+        for (const headerCell of headerRow.cells) {
+            const label = headerCell.textContent.replace(/\s+/g, ' ').trim();
+            let remainingColumns = headerCell.colSpan;
+
+            // Repeat a spanning heading so each stacked field receives its column context.
+            while (remainingColumns > 0) {
+                labels.push(label);
+                remainingColumns -= 1;
+            }
+        }
+
+        return labels;
+    }
+
+    /**
+     * Determines whether a cell contains content other than the injected mobile label.
+     * @param {HTMLTableCellElement} cell The data cell being prepared.
+     * @returns {boolean} True when the cell has text or an element to present.
+     */
+    function mobileTableCellHasContent(cell) {
+        for (const childNode of cell.childNodes) {
+            if (childNode.nodeType === Node.TEXT_NODE && childNode.textContent.trim() !== '') {
+                return true;
+            }
+
+            if (childNode.nodeType === Node.ELEMENT_NODE && !childNode.classList.contains('mobile-cell-label')) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    /**
+     * Adds a visible mobile label without duplicating the table headers for assistive technology.
+     * @param {HTMLTableCellElement} cell The data cell receiving its column label.
+     * @param {string} label The corresponding column-heading text.
+     */
+    function setMobileTableCellLabel(cell, label) {
+        let mobileLabel = cell.querySelector('.mobile-cell-label');
+
+        if (mobileLabel === null) {
+            mobileLabel = document.createElement('span');
+            mobileLabel.className = 'mobile-cell-label';
+            mobileLabel.setAttribute('aria-hidden', 'true');
+            cell.insertBefore(mobileLabel, cell.firstChild);
+        }
+
+        mobileLabel.textContent = label;
+    }
+
+    /**
+     * Uses the shared visually-hidden utility only while a table is using its stacked layout.
+     * Compact three- and four-column records retain their table presentation until 320px.
+     */
+    function syncMobileTableHeaderVisibility(newHeaderRow) {
+        const headerRows = newHeaderRow instanceof HTMLTableRowElement
+            ? [newHeaderRow]
+            : document.querySelectorAll('.mobile-stacked-header-row, .compact-stacked-header-row');
+
+        for (const headerRow of headerRows) {
+            const usesCompactTransition = headerRow.classList.contains('compact-stacked-header-row');
+            const stackedLayoutMaximum = usesCompactTransition ? 320 : 800;
+            const widthRequiresStacking = typeof window.matchMedia === 'function'
+                ? window.matchMedia('(max-width: ' + String(stackedLayoutMaximum) + 'px)').matches
+                : document.documentElement.clientWidth <= stackedLayoutMaximum;
+            const textZoomRequiresStacking = usesCompactTransition
+                && document.documentElement.classList.contains('text-zoom-reflow-320');
+            const useStackedLayout = widthRequiresStacking || textZoomRequiresStacking;
+            headerRow.classList.toggle('visually-hidden', useStackedLayout);
+        }
+    }
+
+    /**
+     * Prepares semantic data tables to display as single-column records where their column count requires it.
+     * Three- and four-column tables transition at 320px; wider tables retain their 800px transition.
+     * One- and two-column tables keep their native table presentation.
+     * @param {HTMLTableElement} table The completed data table to enhance.
+     */
+    function enhanceTableForMobile(table) {
+        if (!(table instanceof HTMLTableElement)
+            || table.getAttribute('role') === 'presentation'
+            || table.rows.length < 2
+            || (document.body === null ? false : document.body.classList.contains('map-prototype'))) {
+            return;
+        }
+
+        const headerRow = table.rows[0];
+        const labels = getMobileTableLabels(headerRow);
+        if (labels.length <= 2) {
+            return;
+        }
+
+        const usesCompactTransition = labels.length <= 4;
+        table.classList.add(usesCompactTransition ? 'compact-stacked-table' : 'mobile-stacked-table');
+        headerRow.classList.add(usesCompactTransition ? 'compact-stacked-header-row' : 'mobile-stacked-header-row');
+        // The table may still be detached, so update its header directly before insertion.
+        syncMobileTableHeaderVisibility(headerRow);
+
+        for (const row of Array.from(table.rows).slice(1)) {
+            let columnIndex = 0;
+            row.classList.add('mobile-stacked-data-row');
+
+            for (const cell of row.cells) {
+                const hasContent = mobileTableCellHasContent(cell);
+                cell.classList.add('mobile-stacked-cell');
+                cell.classList.toggle('mobile-stacked-empty-cell', !hasContent);
+                setMobileTableCellLabel(cell, labels[columnIndex] || 'Value');
+                columnIndex += cell.colSpan;
+            }
+        }
+    }
+
+    // Pages call this after completing each dynamic table so large DOM mutations are not observed globally.
+    window.electionTableAccessibility = {
+        enhanceForMobile: enhanceTableForMobile
+    };
+
+    /**
+     * Coalesces repeated mutation notifications into one responsive-navigation refresh.
+     */
+    function scheduleNavigationRefresh() {
+        // Ignore duplicate observer callbacks while a refresh is already queued.
+        if (navigationRefreshPending) {
+            return;
+        }
+
+        // Defer the refresh until the current DOM update has finished.
+        navigationRefreshPending = true;
+        window.setTimeout(refreshResponsiveNavigation, 0);
+    }
+
+    /**
+     * Observes source and generated navigation markup so accessibility metadata stays current.
+     */
+    function initializeNavigationSemantics() {
+        const sourceMenu = document.querySelector('#primary-navigation #main_menu');
+
+        if (!sourceMenu) {
+            return;
+        }
+
+        // A delegated listener also covers controls recreated by MeanMenu during resize.
+        document.addEventListener('keydown', handleMobileNavigationKeydown);
+
+        // Watch for page scripts that populate or replace desktop navigation entries.
+        if (window.MutationObserver) {
+            const menuObserver = new MutationObserver(scheduleNavigationRefresh);
+            menuObserver.observe(sourceMenu, {
+                attributes: true,
+                attributeFilter: ['class', 'style'],
+                childList: true,
+                subtree: true
+            });
+        }
+
+        // Watch generated mobile markup because MeanMenu can rebuild it during responsive changes.
+        if (window.MutationObserver && document.body) {
+            let mobileNavigationEnhancementTimeout;
+            const mobileObserver = new MutationObserver(function () {
+                // Coalesce page-wide mutation batches before querying generated navigation.
+                window.clearTimeout(mobileNavigationEnhancementTimeout);
+                mobileNavigationEnhancementTimeout = window.setTimeout(enhanceMobileNavigation, 0);
+            });
+            mobileObserver.observe(document.body, { childList: true, subtree: true });
+        }
+
+        // Cover both the current markup and any menu initialization queued by the page loader.
+        scheduleNavigationRefresh();
+        enhanceMobileNavigation();
+    }
+
+    /**
+     * Returns the rendered center of an SVG map area.
+     * @param {Element} mapArea The rendered SVG path.
+     * @returns {{x: number, y: number}} The viewport-relative center point.
+     */
+    function getMapAreaCenter(mapArea) {
+        const bounds = mapArea.getBoundingClientRect();
+        return {
+            x: (bounds.left + bounds.right) / 2,
+            y: (bounds.top + bounds.bottom) / 2
+        };
+    }
+
+    /**
+     * Converts an arrow key into the matching map-navigation direction.
+     * @param {string} key The pressed keyboard key.
+     * @returns {{x: number, y: number}|undefined} A directional unit vector.
+     */
+    function getMapDirection(key) {
+        const directions = {
+            ArrowLeft: { x: -1, y: 0 },
+            ArrowRight: { x: 1, y: 0 },
+            ArrowUp: { x: 0, y: -1 },
+            ArrowDown: { x: 0, y: 1 }
+        };
+        return directions[key];
+    }
+
+    /**
+     * Measures a candidate only when it lies meaningfully in the requested direction.
+     * @param {{x: number, y: number}} origin The focused area's center.
+     * @param {{x: number, y: number}} candidate The candidate area's center.
+     * @param {{x: number, y: number}} direction The requested direction.
+     * @returns {number} Squared distance, or infinity outside the directional cone.
+     */
+    function getDirectionalMapDistance(origin, candidate, direction) {
+        const horizontalDistance = candidate.x - origin.x;
+        const verticalDistance = candidate.y - origin.y;
+        const forwardDistance = (horizontalDistance * direction.x) + (verticalDistance * direction.y);
+        const lateralDistance = Math.abs((horizontalDistance * direction.y) - (verticalDistance * direction.x));
+
+        if (forwardDistance <= 0 || forwardDistance < lateralDistance * 0.5) {
+            return Number.POSITIVE_INFINITY;
+        }
+
+        return (horizontalDistance * horizontalDistance) + (verticalDistance * verticalDistance);
+    }
+
+    /**
+     * Finds the nearest actionable map area in the requested direction.
+     * @param {Element} currentArea The currently focused map area.
+     * @param {Element[]} mapAreas The actionable map areas.
+     * @param {string} key The pressed arrow key.
+     * @returns {Element|null} The nearest directional target, when one exists.
+     */
+    function findDirectionalMapTarget(currentArea, mapAreas, key) {
+        const direction = getMapDirection(key);
+        const origin = getMapAreaCenter(currentArea);
+        let nearestTarget = null;
+        let nearestDistance = Number.POSITIVE_INFINITY;
+
+        for (const mapArea of mapAreas) {
+            if (mapArea === currentArea) {
+                continue;
+            }
+
+            const distance = getDirectionalMapDistance(origin, getMapAreaCenter(mapArea), direction);
+            if (distance < nearestDistance) {
+                nearestDistance = distance;
+                nearestTarget = mapArea;
+            }
+        }
+
+        return nearestTarget;
+    }
+
+    /**
+     * Finds the spatial or alphabetical target for a map-navigation key.
+     * @param {Element} currentArea The currently focused map area.
+     * @param {Element[]} mapAreas The actionable map areas.
+     * @param {string} key The arrow, Home, or End key.
+     * @param {Function} getAccessibleName Returns the page-specific sort name.
+     * @returns {Element|null} The requested target, when one exists.
+     */
+    function findMapTarget(currentArea, mapAreas, key, getAccessibleName) {
+        if (!mapAreas.includes(currentArea)) {
+            return null;
+        }
+
+        const isBoundaryKey = key === 'Home' || key === 'End';
+        if (!isBoundaryKey && getMapDirection(key) === undefined) {
+            return null;
+        }
+
+        if (!isBoundaryKey) {
+            return findDirectionalMapTarget(currentArea, mapAreas, key);
+        }
+
+        const sortedAreas = mapAreas.slice().sort(function (firstArea, secondArea) {
+            return getAccessibleName(firstArea).localeCompare(getAccessibleName(secondArea));
+        });
+        return key === 'Home' ? sortedAreas[0] : sortedAreas.pop();
+    }
+
+    /**
+     * Maintains one Tab stop while arrow-key focus moves within a map.
+     * @param {Element[]} mapAreas The actionable map areas.
+     * @param {Element} activeArea The area that should remain in the page Tab order.
+     */
+    function setMapTabStop(mapAreas, activeArea) {
+        for (const mapArea of mapAreas) {
+            mapArea.setAttribute('tabindex', mapArea === activeArea ? '0' : '-1');
+        }
+    }
+
+    /**
+     * Converts one sRGB component to its linear value for luminance comparison.
+     * @param {string|number} component A red, green, or blue component from 0 through 255.
+     * @returns {number} The normalized linear-light component.
+     */
+    function getLinearMapColorComponent(component) {
+        const normalized = Number(component) / 255;
+        return normalized <= 0.04045
+            ? normalized / 12.92
+            : Math.pow((normalized + 0.055) / 1.055, 2.4);
+    }
+
+    /**
+     * Calculates the relative luminance of a computed RGB color.
+     * @param {string} color A computed CSS color value.
+     * @returns {number|null} The relative luminance, or null when the color cannot be parsed.
+     */
+    function getMapColorLuminance(color) {
+        const components = String(color).match(/[0-9.]+/g);
+        if (components === null) {
+            return null;
+        }
+
+        if (components.length < 3) {
+            return null;
+        }
+
+        return (0.2126 * getLinearMapColorComponent(components[0]))
+            + (0.7152 * getLinearMapColorComponent(components[1]))
+            + (0.0722 * getLinearMapColorComponent(components[2]));
+    }
+
+    /**
+     * Calculates the contrast ratio between two computed RGB colors.
+     * @param {string} firstColor The first computed CSS color value.
+     * @param {string} secondColor The second computed CSS color value.
+     * @returns {number} The contrast ratio, or zero when either color cannot be parsed.
+     */
+    function getMapColorContrastRatio(firstColor, secondColor) {
+        const firstLuminance = getMapColorLuminance(firstColor);
+        const secondLuminance = getMapColorLuminance(secondColor);
+        if (firstLuminance === null || secondLuminance === null) {
+            return 0;
+        }
+
+        const lighter = Math.max(firstLuminance, secondLuminance);
+        const darker = Math.min(firstLuminance, secondLuminance);
+        return (lighter + 0.05) / (darker + 0.05);
+    }
+
+    /**
+     * Chooses black or white so a map's shape-following boundary contrasts with its fill.
+     * @param {string} fillColor The computed CSS color for the map area.
+     * @returns {string} A black or white stroke color with the stronger contrast.
+     */
+    function getMapContrastStroke(fillColor) {
+        const luminance = getMapColorLuminance(fillColor);
+        if (luminance === null) {
+            return '#000';
+        }
+
+        return luminance < 0.179 ? '#fff' : '#000';
+    }
+
+    /**
+     * Chooses a distinct interaction accent that maintains at least 3:1 contrast with the area fill.
+     * @param {string} fillColor The computed CSS color for the map area.
+     * @returns {string} Yellow for compatible fills, otherwise a dark blue accent.
+     */
+    function getMapInteractionStroke(fillColor) {
+        if (getMapColorContrastRatio(fillColor, 'rgb(255, 255, 0)') >= 3) {
+            return 'yellow';
+        }
+
+        if (getMapColorContrastRatio(fillColor, 'rgb(0, 59, 92)') >= 3) {
+            return 'dark';
+        }
+
+        return getMapContrastStroke(fillColor) === '#fff' ? 'yellow' : 'dark';
+    }
+
+    /**
+     * Applies a contrasting default stroke without changing a map path's election-status fill.
+     * @param {Element|null} mapArea The SVG path whose boundary needs a contrast treatment.
+     */
+    function setMapAreaContrast(mapArea) {
+        if (mapArea === null) {
+            return;
+        }
+
+        if (String(mapArea.tagName).toLowerCase() !== 'path') {
+            return;
+        }
+
+        const fillColor = window.getComputedStyle(mapArea).fill;
+        const contrastStroke = getMapContrastStroke(fillColor);
+        mapArea.dataset.mapContrastStroke = contrastStroke;
+        mapArea.dataset.mapInteractionStroke = getMapInteractionStroke(fillColor);
+    }
+
+    /**
+     * Applies contrast-aware boundaries to every region currently rendered in a map.
+     * @param {Element} map The SVG map containing election-result paths.
+     */
+    function synchronizeMapAreaContrasts(map) {
+        for (const mapArea of map.querySelectorAll('path')) {
+            setMapAreaContrast(mapArea);
+        }
+    }
+
+    /**
+     * Updates the contrast treatment for the map path that raised an interaction event.
+     * @param {Event} event The focus or pointer event raised within the map.
+     */
+    function syncMapAreaContrast(event) {
+        setMapAreaContrast(event.target);
+    }
+
+    // Keep every rendered boundary legible, then increase its stroke for pointer and keyboard interaction.
+    function initializeMapContrastEvents() {
+        const map = document.getElementById('svg');
+        if (map === null) {
+            return;
+        }
+
+        map.addEventListener('focusin', syncMapAreaContrast);
+        map.addEventListener('mouseover', syncMapAreaContrast);
+        synchronizeMapAreaContrasts(map);
+        if (!window.MutationObserver) {
+            return;
+        }
+
+        const mapObserver = new MutationObserver(function () {
+            synchronizeMapAreaContrasts(map);
+        });
+        mapObserver.observe(map, { childList: true });
+    }
+
+    initializeMapContrastEvents();
+
+    // Preserve the source labels so the modern application matches the legacy election-results wording.
+    function preserveLegacyLabel(value) {
+        return value === null || value === undefined ? '' : String(value);
+    }
+
+    window.electionTerminology = {
+        clarifyStatus: preserveLegacyLabel,
+        clarifyValue: preserveLegacyLabel,
+        expandContestName: preserveLegacyLabel,
+        expandPartyCode: preserveLegacyLabel
+    };
+
+    // Share one map-navigation implementation while pages retain their own selectors and names.
+    window.electionMapNavigation = {
+        findTarget: findMapTarget,
+        resolveAreaName: resolveMapAreaName,
+        setTabStop: setMapTabStop
+    };
+
+    // Give each results page the same non-blocking, legacy-compatible data-loading primitive.
+    window.electionDataLoader = {
+        loadTextFile: loadTextFile
+    };
+
+    // Share one live motion preference and one compatibility-aware subscription path.
+    window.electionMotionPreference = {
+        prefersReducedMotion: prefersReducedMotion,
+        addChangeListener: addReducedMotionChangeListener
+    };
+
+    // Let modal entry points resample iOS zoom before calculating viewport-relative layout.
+    window.electionResponsiveLayout = {
+        refreshTextZoomReflow: scheduleTextZoomReflowSync
+    };
+
+    // Synchronize table headings and mobile zoom with the same effective reflow state.
+    scheduleTextZoomReflowSync();
+    window.addEventListener('resize', scheduleTextZoomReflowSync);
+    window.addEventListener('pageshow', scheduleTextZoomReflowSync);
+    if (window.visualViewport) {
+        window.visualViewport.addEventListener('resize', scheduleTextZoomReflowSync);
+    }
+
+    // Initialize only after the source navigation is available in the document.
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initializeNavigationSemantics);
+        document.addEventListener('DOMContentLoaded', initializeSliderAutoControlKeyboard);
+    }
+    else {
+        initializeNavigationSemantics();
+        initializeSliderAutoControlKeyboard();
+    }
+})();

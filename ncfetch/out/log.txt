@@ -1,0 +1,19 @@
+https://er.ncsbe.gov/ 200 81837 text/html
+https://er.ncsbe.gov/?election_dt=03/03/2026&county_id=0&office=FED&contest=0 200 81837 text/html
+https://er.ncsbe.gov/accessibility.js?v=23373 200 43795 application/javascript
+https://code.jquery.com/jquery-1.9.1.js 200 268381 application/javascript; charset=utf-8
+https://er.ncsbe.gov/jquery.bxslider.js?v=23373 200 50693 application/javascript
+https://er.ncsbe.gov/jquery.meanmenu.min.js?v=23373 200 4310 application/javascript
+requests 17
+total 556
+drwxr-xr-x 2 runner runner   4096 Oct 23 16:22 .
+drwxr-xr-x 3 runner runner   4096 Oct 23 16:21 ..
+-rw-r--r-- 1 runner runner  81837 Oct 23 16:21 er_mar.html
+-rw-r--r-- 1 runner runner   8385 Oct 23 16:22 er_rendered.txt
+-rw-r--r-- 1 runner runner   1603 Oct 23 16:22 er_requests.txt
+-rw-r--r-- 1 runner runner  81837 Oct 23 16:21 er_root.html
+-rw-r--r-- 1 runner runner  43795 Oct 23 16:21 js_accessibility.js_v_23373
+-rw-r--r-- 1 runner runner 268381 Oct 23 16:21 js_https:__code.jquery.com_jquery-1.9.1.js
+-rw-r--r-- 1 runner runner  50693 Oct 23 16:21 js_jquery.bxslider.js_v_23373
+-rw-r--r-- 1 runner runner   4310 Oct 23 16:21 js_jquery.meanmenu.min.js_v_23373
+-rw-r--r-- 1 runner runner    485 Oct 23 16:22 log.txt
