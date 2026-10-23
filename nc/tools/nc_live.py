@@ -8,9 +8,10 @@ snapshot every few minutes on election night:
   live_2026.csv     level, race, year, office, plan, unit, unit_name, candidate, party, votes, status, reporting, reporting_total
                     statewide races by county (unit = county FIPS); U.S. House by district (unit = district)
   live_status.json  phase, update time, source, problems
-reporting / reporting_total are real precincts with Election Day votes in / real precincts on the ballot.
-Early and absentee votes are counted first, often in administrative ("Real Precinct = N") precincts,
-so a county can show votes with 0 precincts reporting.
+reporting / reporting_total are precincts reported / precincts, as published by the State Board's results site
+(er.ncsbe.gov/enr/YYYYMMDD/data/county.txt per county, results_0.txt per contest). If those files can't be read,
+they are estimated from the results file: real precincts with Election Day votes / real precincts on the ballot.
+Early and absentee votes are counted first, so a county can show votes with 0 precincts reporting.
 
 Usage: python3 nc_live.py [--date 2026-11-03] [--zip FILE] [--out DIR]
 """
@@ -56,7 +57,26 @@ def num(x):
         return 0
 
 
-def build(rows, year, fips):
+def get_json(url):
+    p = subprocess.run(['curl', '-sS', '-L', '-m', '60', '-w', '\n%{http_code}', url + f'?v={int(time.time())}'], capture_output=True)
+    body, _, code = p.stdout.rpartition(b'\n')
+    if code != b'200':
+        raise RuntimeError(f'{url}: HTTP {code.decode() or "?"}')
+    return json.loads(body.decode('utf-8-sig'))
+
+
+def official_reporting(date):
+    """{county name: (reported, total)}, {(contest name, county name or 'STATE'): (reported, total)} from er.ncsbe.gov."""
+    base = f"https://er.ncsbe.gov/enr/{date.replace('-', '')}/data"
+    county = {c['cnm'].strip().upper(): (int(c['prt']), int(c['ptl'])) for c in get_json(f'{base}/county.txt') if c['cnm'].strip().upper() != 'STATE'}
+    contest = {}
+    for c in get_json(f'{base}/results_0.txt'):
+        name = re.sub(r'\s*\(VOTE FOR \d+\)\s*$', '', c['cnm']).strip().upper()
+        contest[name] = (int(c['prt']), int(c['ptl']))
+    return county, contest
+
+
+def build(rows, year, fips, official=None):
     problems = []
     real = defaultdict(set)            # county -> real precincts on the ballot
     done = defaultdict(set)            # county -> real precincts with Election Day votes
@@ -88,7 +108,13 @@ def build(rows, year, fips):
     if unknown:
         problems.append(f'unknown counties: {sorted(unknown)}')
     rep = {c: (len(done[c]), len(real[c])) for c in real}
-    all_in = bool(real) and all(a >= b for a, b in rep.values())
+    oc, ok = official or ({}, {})
+    if oc:
+        missing = set(rep) - set(oc)
+        if missing:
+            problems.append(f'no official precinct count for {sorted(missing)}; estimated')
+        rep.update({c: v for c, v in oc.items() if c in rep})
+    all_in = bool(rep) and all(a >= b for a, b in rep.values())
 
     out, races = [], {}
     offices = sorted({k[0] for k in sw})
@@ -105,6 +131,9 @@ def build(rows, year, fips):
         keys = [k for k in us if k[0] == d]
         votes = sum(us[k] for k in keys)
         tot = len(us_prec[d]); got = sum(1 for (c, pr) in us_prec[d] if pr in done[c])
+        o = ok.get(f'US HOUSE OF REPRESENTATIVES DISTRICT {d:02d}') or ok.get(f'US HOUSE OF REPRESENTATIVES DISTRICT {d}')
+        if oc and o:
+            got, tot = o
         st = 'final' if tot and got >= tot and votes else 'counting' if votes else 'pending'
         races[f'{year} U.S. House {d}'] = st
         for k in sorted(keys, key=lambda k: -us[k]):
@@ -118,6 +147,7 @@ def main():
     ap.add_argument('--date', default='2026-11-03')
     ap.add_argument('--zip', help='read this results_pct zip instead of downloading')
     ap.add_argument('--out', default='.')
+    ap.add_argument('--official', action='store_true', help='with --zip, still read precinct counts from er.ncsbe.gov')
     a = ap.parse_args()
     year = int(a.date[:4])
     fips = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'nc_county_fips.json')))
@@ -125,7 +155,15 @@ def main():
         zb, src = open(a.zip, 'rb').read(), a.zip
     else:
         zb, src = download(a.date)
-    rows, races, rep, problems = build(rows_of(zb), year, fips)
+    official, note = None, None
+    if not a.zip or a.official:
+        try:
+            official = official_reporting(a.date)
+        except Exception as e:  # noqa: BLE001 - fall back to the estimate from the results file
+            note = f'precincts reporting estimated (state results site: {str(e)[:120]})'
+    rows, races, rep, problems = build(rows_of(zb), year, fips, official)
+    if note:
+        problems.insert(0, note)
     if not races:
         raise SystemExit('no statewide or U.S. House contests found; not writing')
     n_final = sum(s == 'final' for s in races.values()); n_count = sum(s == 'counting' for s in races.values())
