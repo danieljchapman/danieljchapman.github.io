@@ -1,0 +1,57 @@
+2016NovGen data ok 837899 export Georgia/export-2016NovGen.json
+  try https://results.sos.ga.gov/cdn/results/Georgia/export-2016NovGen.json 200 2387993 
+  saved 2387993 gz 118051
+2016MayGenPri data ok 1217723 export Georgia/export-2016MayGenPri.json
+  try https://results.sos.ga.gov/cdn/results/Georgia/export-2016MayGenPri.json 200 3663442 
+  saved 3663442 gz 170716
+2018NovGen data ok 856662 export Georgia/export-2018NovGen.json
+  try https://results.sos.ga.gov/cdn/results/Georgia/export-2018NovGen.json 200 4360954 
+  saved 4360954 gz 190909
+2018DecGenRun data ok 332285 export Georgia/export-2018DecGenRun.json
+  try https://results.sos.ga.gov/cdn/results/Georgia/export-2018DecGenRun.json 200 373004 
+  saved 373004 gz 16723
+2018GenPri data ok 1197832 export Georgia/export-2018GenPri.json
+  try https://results.sos.ga.gov/cdn/results/Georgia/export-2018GenPri.json 200 7441333 
+  saved 7441333 gz 524194
+2020NovGen data ok 944435 export Georgia/export-2020NovGen.json
+  try https://results.sos.ga.gov/cdn/results/Georgia/export-2020NovGen.json 200 4226875 
+  saved 4226875 gz 192091
+2020NovGenRec data ok 335305 export Georgia/export-2020NovGenRec.json
+  try https://results.sos.ga.gov/cdn/results/Georgia/export-2020NovGenRec.json 200 275808 
+  saved 275808 gz 14061
+2020DecStateRun data ok 27465 export Georgia/export-2020DecStateRun.json
+  try https://results.sos.ga.gov/cdn/results/Georgia/export-2020DecStateRun.json 200 6410 
+  saved 6410 gz 921
+2020AugPPP data ok 1457471 export Georgia/export-2020AugPPP.json
+  try https://results.sos.ga.gov/cdn/results/Georgia/export-2020AugPPP.json 200 7002322 
+  saved 7002322 gz 456617
+2021JanFedRun data ok 336639 export Georgia/export-2021JanFedRun.json
+  try https://results.sos.ga.gov/cdn/results/Georgia/export-2021JanFedRun.json 200 573259 
+  saved 573259 gz 23958
+2022NovGen data ok 886387 export Georgia/export-2022NovGen.json
+  try https://results.sos.ga.gov/cdn/results/Georgia/export-2022NovGen.json 200 3891592 
+  saved 3891592 gz 175072
+2022DecGenRun data ok 333565 export Georgia/export-2022DecGenRun.json
+  try https://results.sos.ga.gov/cdn/results/Georgia/export-2022DecGenRun.json 200 199980 
+  saved 199980 gz 11447
+2022MayGenPri data ok 1383811 export Georgia/export-2022MayGenPri.json
+  try https://results.sos.ga.gov/cdn/results/Georgia/export-2022MayGenPri.json 200 11574530 
+  saved 11574530 gz 706260
+2024NovGen data ok 932971 export Georgia/export-2024NovGen.json
+  try https://results.sos.ga.gov/cdn/results/Georgia/export-2024NovGen.json 200 33718327 
+  saved 33718327 gz 1240638
+2024MayGenPri data ok 1392113 export Georgia/export-2024MayGenPri.json
+  try https://results.sos.ga.gov/cdn/results/Georgia/export-2024MayGenPri.json 200 6157934 
+  saved 6157934 gz 313271
+MunicipalGeneralSpecialElectionPSC11042025 data ok 483038 export Georgia/export-MunicipalGeneralSpecialElectionPSC11042025.json
+  try https://results.sos.ga.gov/cdn/results/Georgia/export-MunicipalGeneralSpecialElectionPSC11042025.json 200 13726605 
+  saved 13726605 gz 501510
+December2nd2025Runoffs data ok 24154 export Georgia/export-December2nd2025Runoffs.json
+  try https://results.sos.ga.gov/cdn/results/Georgia/export-December2nd2025Runoffs.json 200 13441 
+  saved 13441 gz 1192
+GeneralPrimary51926 data ok 1710746 export Georgia/export-GeneralPrimary51926.json
+  try https://results.sos.ga.gov/cdn/results/Georgia/export-GeneralPrimary51926.json 200 160959191 
+  saved 160959191 gz 5822670
+11032026GeneralAndSpecialElection data ok 1058215 export Georgia/export-11032026GeneralAndSpecialElection.json
+  try https://results.sos.ga.gov/cdn/results/Georgia/export-11032026GeneralAndSpecialElection.json 200 47288097 
+  saved 47288097 gz 1079535
