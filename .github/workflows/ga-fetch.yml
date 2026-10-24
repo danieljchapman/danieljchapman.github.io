@@ -1,0 +1,19 @@
+name: GA source fetch
+on:
+  push:
+    branches: [ga-fetch]
+    paths: [gafetch/fetch.sh]
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: ga-fetch }
+      - run: bash gafetch/fetch.sh
+      - if: always()
+        run: |
+          git config user.name "github-actions"; git config user.email "actions@users.noreply.github.com"
+          git add -A gafetch/out && git commit -q -m "GA fetch results [skip ci]" && git push origin ga-fetch
