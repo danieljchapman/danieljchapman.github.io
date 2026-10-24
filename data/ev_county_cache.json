@@ -64,8 +64,12 @@
     "mail_day": 430
    },
    "2026-10-22": {
-    "in_person_day": 13598,
+    "in_person_day": 13600,
     "mail_day": 69
+   },
+   "2026-10-23": {
+    "in_person_day": 13646,
+    "mail_day": 455
    }
   },
   "source": "El Paso County Elections"
