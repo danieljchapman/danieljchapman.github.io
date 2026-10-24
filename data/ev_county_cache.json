@@ -27,11 +27,11 @@
  "48113": {
   "days": {
    "2026-10-19": {
-    "in_person_day": 77848,
+    "in_person_day": 77855,
     "mail_day": null
    },
    "2026-10-20": {
-    "in_person_day": 65027,
+    "in_person_day": 65084,
     "mail_day": null
    },
    "2026-10-21": {
@@ -39,7 +39,11 @@
     "mail_day": null
    },
    "2026-10-22": {
-    "in_person_day": 49037,
+    "in_person_day": 49469,
+    "mail_day": null
+   },
+   "2026-10-23": {
+    "in_person_day": 54295,
     "mail_day": null
    }
   },
@@ -132,7 +136,11 @@
    },
    "2026-10-22": {
     "in_person_day": 37859,
-    "mail_day": 1055
+    "mail_day": 1115
+   },
+   "2026-10-23": {
+    "in_person_day": 40611,
+    "mail_day": 767
    }
   },
   "source": "Travis County Clerk"
