@@ -47,6 +47,12 @@ button { font: inherit; }
 /* North Carolina is wide and short: the county map gets the full width */
 #map-card, #trend-card, #u-map-card, #h-map-card, #s-map-card { grid-column: 1 / -1; }
 #u-map-card + div, #h-map-card + div, #s-map-card + div { grid-column: 1 / -1; grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr)); }
+/* site header: the state switcher above each state's section tabs */
+.lx-states { display: inline-flex; gap: 2px; padding: 3px; margin: var(--cds-gap-xs) 0 var(--cds-gap-xs); border: 1px solid var(--color-border-line); border-radius: 10px; background: var(--color-panel); }
+.lx-states a { font-size: var(--cds-font-size-body); font-weight: var(--cds-font-weight-medium); color: var(--color-fg-muted); text-decoration: none; padding: 0.45rem 1rem; border-radius: 7px; }
+.lx-states a:hover { color: var(--color-fg); background: var(--color-bg); }
+.lx-states a[aria-current="page"] { background: var(--color-fg); color: var(--color-bg); }
+.lx-states a:focus-visible { outline: 2px solid var(--lx-dem); outline-offset: 1px; }
 </style>
 </head>
 <body>
@@ -167,7 +173,8 @@ button { font: inherit; }
 
 <div class="lx">
   <header class="lx-head" id="top">
-    <h1>North Carolina election results</h1>
+    <h1>State-level election results</h1>
+    <nav class="lx-states" aria-label="States"><a href="../">Texas</a><a href="./" aria-current="page">North Carolina</a></nav>
     <nav class="lx-tabs" role="tablist" aria-label="Dashboard sections">
       <button class="lx-tab" role="tab" data-tab="statewide" aria-selected="true">Statewide &amp; federal</button>
       <button class="lx-tab" role="tab" data-tab="house" aria-selected="false">NC House</button>
@@ -444,7 +451,7 @@ button { font: inherit; }
         <li>North Carolina General Assembly <a href="https://www.ncleg.gov/Redistricting">redistricting plans</a> and State Board of Elections shapefiles (district and county maps)</li>
         <li>U.S. Census Bureau cartographic boundaries via <a href="https://github.com/topojson/us-atlas">us-atlas</a> (coastline)</li>
       </ul>
-      <p>Results through 2024 are certified. 2026 results are unofficial until the state canvass. Texas results: <a href="../">Texas election dashboard</a>. Site updated October 24, 2026.</p>
+      <p>Results through 2024 are certified. 2026 results are unofficial until the state canvass. Site updated October 24, 2026.</p>
     </div>
   </div>
 </footer>
