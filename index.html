@@ -178,6 +178,7 @@ button { font: inherit; }
       <button class="lx-tab" role="tab" data-tab="senate" aria-selected="false">Texas Senate</button>
       <button class="lx-tab" role="tab" data-tab="fortbend" aria-selected="false">Key Local Races</button>
       <button class="lx-tab" role="tab" data-tab="early" aria-selected="false">Early Vote</button>
+      <button class="lx-tab" role="tab" data-tab="groups" aria-selected="false">County Groups</button>
     </nav>
   </header>
 
@@ -258,6 +259,7 @@ button { font: inherit; }
   <section id="tab-senate" hidden></section>
   <section id="tab-fortbend" hidden></section>
   <section id="tab-early" hidden></section>
+  <section id="tab-groups" hidden></section>
 </div>
 
 <template id="tpl-tab-house">
@@ -536,6 +538,41 @@ button { font: inherit; }
     <p class="lx-foot" id="ev-foot">Early votes are in-person early votes plus mail ballots received, as reported each day by county election officials to the Texas Secretary of State; numbers are unofficial and counties sometimes revise or post late. "Compared with" uses the same day of early voting: each year has 12 days of in-person early voting starting on a Monday (Oct. 24, 2022; Oct. 21, 2024; Oct. 19, 2026), so day 5 is a Friday in every year. Before in-person voting starts, only mail ballots are counted, and counties report them on different schedules. Texas has no party registration, so early votes can't be split by party. Sources: Texas Secretary of State early-voting turnout reports (earlyvoting.texas-election.com for 2022 and 2024; the state's early-voting results system for 2026). For 2026, where a large county posts its own daily report, the county's numbers are used for the days it has posted: Harris County Clerk, Dallas County Elections, Tarrant County Elections, Travis County Clerk, Collin County Elections and El Paso County Elections.</p>
   </div>
 </template>
+<template id="tpl-tab-groups">
+  <div class="lx-sub">
+    <header><h2 class="lx-tabtitle">How candidates did across groups of counties</h2></header>
+    <p class="lx-take dash-skeleton" id="gr-take">—</p>
+    <div class="lx-row" id="gr-pick"></div>
+    <div class="lx-row" role="group" aria-label="Group counties by" style="margin-top:.5rem">
+      <button class="lx-pill" data-grby="cluster">Combined (machine learning)</button><button class="lx-pill" data-grby="race">Race &amp; ethnicity</button><button class="lx-pill" data-grby="income">Median income</button><button class="lx-pill" data-grby="urban">Urban–suburban–rural</button>
+    </div>
+    <p class="lx-note" id="gr-by-note"></p>
+    <section class="lx-grid">
+      <div class="lx-card" id="gr-radar-card" style="position:relative">
+        <div class="lx-cardhead"><div><h2>Vote share and turnout by county group</h2><p class="lx-note">Each point is a group of counties; the farther from the center, the bigger the candidate's share of the vote (or the turnout) there. Hover over a group for details.</p></div></div>
+        <div class="lx-row"><span role="group" aria-label="Measure" style="display:contents"><button class="lx-pill" data-grm="share">Vote share</button><button class="lx-pill" data-grm="turnout">Turnout</button></span><button class="lx-pill" id="gr-cmp" hidden></button></div>
+        <div class="dash-skeleton" id="gr-radar" data-source="by_county county_groups turnout_county" style="min-height:22rem"></div>
+        <div class="lx-legend" id="gr-legend"></div>
+        <div class="lx-tip" id="gr-radar-tip"></div>
+      </div>
+      <div class="lx-card" id="gr-map-card">
+        <h2 id="gr-map-title">Which counties are in each group</h2><p class="lx-note">Hover over a county for its demographics, or over a group on the chart to see its counties.</p>
+        <div class="lx-map dash-skeleton" id="gr-map" data-source="county_groups county_shapes"></div>
+        <div class="lx-legend" id="gr-map-legend"></div>
+        <div class="lx-tip" id="gr-map-tip"></div>
+      </div>
+    </section>
+    <section class="lx-card">
+      <div class="lx-cardhead"><div><h2>Groups</h2><p class="lx-note">Vote shares are of all votes cast in each group's counties. Margin = Republican minus Democratic share. Turnout = all ballots cast in the group's counties in that November election ÷ registered voters (the same for every race that year).</p></div></div>
+      <div class="lx-tablewrap">
+        <table class="lx-table" id="gr-table" data-source="by_county county_groups" data-row-key="group">
+          <thead><tr><th>Group</th><th>Counties</th><th class="lx-hide-narrow">Population</th><th class="lx-hide-narrow">Share of votes</th><th>Republican</th><th>Democrat</th><th>Margin</th><th class="lx-hide-narrow" id="gr-th-shift">Shift</th><th id="gr-th-to">Turnout</th><th class="lx-hide-narrow" id="gr-th-toch">Turnout change</th></tr></thead><tbody></tbody>
+        </table>
+      </div>
+    </section>
+    <p class="lx-foot">Demographics: U.S. Census Bureau, American Community Survey 2020–2024 5-year estimates (tables B03002, race and Hispanic origin; B19013, median household income). Urban–rural: CDC National Center for Health Statistics, 2023 Urban–Rural Classification Scheme for Counties. "Combined" groups: k-means clustering (8 groups) of each county's Hispanic, non-Hispanic white, Black and Asian shares, log median income, urban–rural class and log population, standardized so race, income and urbanicity carry equal weight; group names were written by hand from each group's typical county. Estimates for small counties have wide margins of error. Turnout: Texas Secretary of State county turnout history and Texas Legislative Council (2024); 2026 from the election-night feed. Results: certified county returns from the Texas Secretary of State; groups are made of whole counties, so they describe places, not individual voters.</p>
+  </div>
+</template>
 <template id="tpl-tab-fortbend">
   <div class="lx-sub">
     <header><h2 class="lx-tabtitle">Key local races: county judges, commissioners and city propositions</h2></header>
@@ -624,6 +661,7 @@ button { font: inherit; }
         <li><a href="data/fortbend_results.csv" download>Fort Bend by precinct (CSV)</a> · <a href="data/local_results.csv" download>Key local races (CSV)</a></li>
         <li><a href="data/turnout_county.csv" download>Turnout by county (CSV)</a> · <a href="data/turnout_district.csv" download>Turnout by district (CSV)</a></li>
         <li><a href="data/ev_history.csv" download>Early voting by county and day, 2022 and 2024 (CSV)</a> · <a href="data/ev_2026.csv" download>2026 (CSV)</a></li>
+        <li><a href="data/county_groups.csv" download>County groups and demographics (CSV)</a></li>
         <li><a href="data/live_2026.csv" download>2026 results, unofficial (CSV)</a></li>
       </ul>
     </div>
@@ -636,6 +674,8 @@ button { font: inherit; }
         <li>Texas Secretary of State <a href="https://www.sos.texas.gov/elections/historical/counties.shtml">county turnout history</a> and <a href="https://www.sos.texas.gov/elections/historical/70-92.shtml">statewide turnout figures</a></li>
         <li><a href="https://civicapi.org">CivicAPI</a> (2024 results)</li>
         <li><a href="https://earlyvoting.texas-election.com/">Texas Secretary of State early-voting turnout</a> (2022–2026)</li>
+        <li>U.S. Census Bureau <a href="https://www.census.gov/programs-surveys/acs">American Community Survey</a> 2020–2024 (county race, ethnicity and income)</li>
+        <li>CDC NCHS <a href="https://www.cdc.gov/nchs/data-analysis-tools/urban-rural.html">Urban–Rural Classification Scheme</a> (2023)</li>
         <li><a href="https://goelect.txelections.civixapps.com/ivis-enr-ui/races">Texas Secretary of State election-night results</a> (2026, unofficial)</li>
         <li>County election offices: Harris County Clerk, Tarrant, Collin, Denton, Dallas, Travis, Williamson and Fort Bend County Elections</li>
         <li><a href="https://github.com/unitedstates/images">Official U.S. Congress portraits</a> (public domain)</li>
@@ -644,7 +684,7 @@ button { font: inherit; }
     </div>
   </div>
 </footer>
-<script>window.DASH_DATASETS = {"results": {"url": "data/tx_statewide_results_by_county.csv", "format": "csv"}, "county_shapes": {"url": "data/tx_county_shapes.json", "format": "json"}, "house_results": {"url": "data/tx_house_results.csv", "format": "csv"}, "senate_results": {"url": "data/tx_senate_results.csv", "format": "csv"}, "ushouse_results": {"url": "data/tx_ushouse_results.csv", "format": "csv"}, "sboe_results": {"url": "data/tx_sboe_results.csv", "format": "csv"}, "house_shapes": {"url": "data/tx_house_district_shapes.json", "format": "json"}, "senate_shapes": {"url": "data/tx_senate_district_shapes.json", "format": "json"}, "ushouse_shapes": {"url": "data/tx_ushouse_district_shapes.json", "format": "json"}, "sboe_shapes": {"url": "data/tx_sboe_district_shapes.json", "format": "json"}, "fortbend_results": {"url": "data/fortbend_results.csv", "format": "csv"}, "fortbend_shapes": {"url": "data/fortbend_precinct_shapes.json", "format": "json"}, "local_results": {"url": "data/local_results.csv", "format": "csv"}, "local_2026": {"url": "data/local_2026.csv", "format": "csv"}, "candidate_bios": {"url": "data/candidate_bios.csv", "format": "csv"}, "turnout_county": {"url": "data/turnout_county.csv", "format": "csv"}, "ev_history": {"url": "data/ev_history.csv", "format": "csv"}, "turnout_district": {"url": "data/turnout_district.csv", "format": "csv"}, "live_2026": {"url": "data/live_2026.csv", "format": "csv", "live": true}, "live_status": {"url": "data/live_status.json", "format": "json", "live": true}, "ev_2026": {"url": "data/ev_2026.csv", "format": "csv", "live": true}, "ev_status": {"url": "data/ev_status.json", "format": "json", "live": true}}; window.DASH_PARAMS = {"b_district": null, "b_year": 2026, "county": null, "fb_race": "2026 County Judge", "lr_area": "fortbend", "lr_race": null, "h_district": null, "h_year": 2026, "race": "2026 Senate", "s_district": null, "s_year": 2026, "sw_view": "offices", "tab": "statewide", "u_district": null, "u_year": 2026, "view": "result", "ev_view": "pct", "ev_unit": "votes", "ev_county": null};</script>
+<script>window.DASH_DATASETS = {"results": {"url": "data/tx_statewide_results_by_county.csv", "format": "csv"}, "county_shapes": {"url": "data/tx_county_shapes.json", "format": "json"}, "house_results": {"url": "data/tx_house_results.csv", "format": "csv"}, "senate_results": {"url": "data/tx_senate_results.csv", "format": "csv"}, "ushouse_results": {"url": "data/tx_ushouse_results.csv", "format": "csv"}, "sboe_results": {"url": "data/tx_sboe_results.csv", "format": "csv"}, "house_shapes": {"url": "data/tx_house_district_shapes.json", "format": "json"}, "senate_shapes": {"url": "data/tx_senate_district_shapes.json", "format": "json"}, "ushouse_shapes": {"url": "data/tx_ushouse_district_shapes.json", "format": "json"}, "sboe_shapes": {"url": "data/tx_sboe_district_shapes.json", "format": "json"}, "fortbend_results": {"url": "data/fortbend_results.csv", "format": "csv"}, "fortbend_shapes": {"url": "data/fortbend_precinct_shapes.json", "format": "json"}, "local_results": {"url": "data/local_results.csv", "format": "csv"}, "local_2026": {"url": "data/local_2026.csv", "format": "csv"}, "candidate_bios": {"url": "data/candidate_bios.csv", "format": "csv"}, "turnout_county": {"url": "data/turnout_county.csv", "format": "csv"}, "ev_history": {"url": "data/ev_history.csv", "format": "csv"}, "turnout_district": {"url": "data/turnout_district.csv", "format": "csv"}, "live_2026": {"url": "data/live_2026.csv", "format": "csv", "live": true}, "live_status": {"url": "data/live_status.json", "format": "json", "live": true}, "ev_2026": {"url": "data/ev_2026.csv", "format": "csv", "live": true}, "ev_status": {"url": "data/ev_status.json", "format": "json", "live": true}, "county_groups": {"url": "data/county_groups.csv", "format": "csv"}}; window.DASH_PARAMS = {"b_district": null, "b_year": 2026, "county": null, "fb_race": "2026 County Judge", "lr_area": "fortbend", "lr_race": null, "h_district": null, "h_year": 2026, "race": "2026 Senate", "s_district": null, "s_year": 2026, "sw_view": "offices", "tab": "statewide", "u_district": null, "u_year": 2026, "view": "result", "ev_view": "pct", "ev_unit": "votes", "ev_county": null, "gr_race": null, "gr_by": "cluster", "gr_cmp": "on", "gr_measure": "share"};</script>
 <script src="js/d3.v7.9.0.min.js"></script>
 <script src="js/dash-runtime.js"></script>
 <script src="js/photos.js"></script>
@@ -654,5 +694,6 @@ button { font: inherit; }
 <script src="js/fortbend.js"></script>
 <script src="js/local.js"></script>
 <script src="js/early.js"></script>
+<script src="js/radar.js"></script>
 </body>
 </html>

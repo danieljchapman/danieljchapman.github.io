@@ -244,7 +244,7 @@
   };
 
   // tabs
-  const TABS = ['statewide', 'house', 'senate', 'fortbend', 'early'];
+  const TABS = ['statewide', 'house', 'senate', 'fortbend', 'early', 'groups'];
   LX.tab = () => { const t = dash.params().tab; return TABS.includes(t) ? t : 'statewide'; };
   LX.swView = () => { const v = dash.params().sw_view; return ['offices', 'ushouse', 'sboe'].includes(v) ? v : 'offices'; };
   document.querySelectorAll('.lx-tab').forEach((b) => b.addEventListener('click', () => {
