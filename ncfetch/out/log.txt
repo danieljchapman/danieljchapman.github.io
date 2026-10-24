@@ -1,0 +1,30 @@
+https://www.ncleg.gov/Files/GIS/Plans_Main/House_2011/shp.zip 200 5811461
+https://www.ncleg.gov/Files/GIS/Plans_Main/House_2017/2017%20House%20Redistricting%20Plan%20A2%20-%20Shapefile.zip 200 4908971
+https://www.ncleg.gov/Files/GIS/Plans_Main/House_2018_Court/House%2018%20USSupCt%20-%20Shapefile.zip 200 4852278
+https://www.ncleg.gov/Files/GIS/Plans_Main/House_2019/HB%201020%20H%20Red%20Comm%20CSBK-25_Shapefile.zip 200 4902289
+https://s3.amazonaws.com/dl.ncsbe.gov/ShapeFiles/LegislativeDistricts/Shapefiles/House/2019_state_house_with_HB1017.zip 200 4624687
+https://www.ncleg.gov/Files/GIS/Plans_Main/House_2022/SL%202022-4%20House%20-%20Shapefile.zip 200 5728784
+https://www.ncleg.gov/Files/GIS/Plans_Main/House_2023/SL%202023-149%20House%20-%20Shapefile.zip 200 6107158
+https://www.ncleg.gov/Files/GIS/Plans_Main/Senate_2011/shp.zip 200 3421534
+https://www.ncleg.gov/Files/GIS/Plans_Main/Senate_2017/2017%20Senate%20Floor%20Redistricting%20Plan%20%E2%80%93%204th%20Ed%20-%20Shapefile.zip 200 2782647
+https://www.ncleg.gov/Files/GIS/Plans_Main/Senate_2018_Court/Senate%2018%20USSupCt%20-%20Shapefile.zip 200 2750656
+https://www.ncleg.gov/Files/GIS/Plans_Main/Senate_2019/Senate%20Consensus%20Nonpartisan%20Map%20v3_Shapefile.zip 200 2650237
+https://www.ncleg.gov/Files/GIS/Plans_Main/Senate_2022/SL%202022-2%20Senate%20-%20Shapefile.zip 200 4147377
+https://www.ncleg.gov/Files/GIS/Plans_Main/Senate_2023/SL%202023-146%20Senate%20-%20Shapefile.zip 200 4433470
+total 55824
+drwxr-xr-x 2 runner runner    4096 Oct 24 01:48 .
+drwxr-xr-x 3 runner runner    4096 Oct 24 01:48 ..
+-rw-r--r-- 1 runner runner 5811461 Oct 24 01:48 h2011.zip
+-rw-r--r-- 1 runner runner 4908971 Oct 24 01:48 h2017.zip
+-rw-r--r-- 1 runner runner 4852278 Oct 24 01:48 h2018.zip
+-rw-r--r-- 1 runner runner 4902289 Oct 24 01:48 h2019.zip
+-rw-r--r-- 1 runner runner 4624687 Oct 24 01:48 h2019w.zip
+-rw-r--r-- 1 runner runner 5728784 Oct 24 01:48 h2022.zip
+-rw-r--r-- 1 runner runner 6107158 Oct 24 01:48 h2023.zip
+-rw-r--r-- 1 runner runner    1465 Oct 24 01:48 log.txt
+-rw-r--r-- 1 runner runner 3421534 Oct 24 01:48 s2011.zip
+-rw-r--r-- 1 runner runner 2782647 Oct 24 01:48 s2017.zip
+-rw-r--r-- 1 runner runner 2750656 Oct 24 01:48 s2018.zip
+-rw-r--r-- 1 runner runner 2650237 Oct 24 01:48 s2019.zip
+-rw-r--r-- 1 runner runner 4147377 Oct 24 01:48 s2022.zip
+-rw-r--r-- 1 runner runner 4433470 Oct 24 01:48 s2023.zip
