@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Download
         run: |
-          set -x
+          set -x; mkdir -p demo
           V=NAME,B01003_001E,B03002_001E,B03002_003E,B03002_004E,B03002_006E,B03002_012E,B19013_001E
           for y in 2024 2023; do
             curl -sS -m 120 -o demo/acs_$y.json "https://api.census.gov/data/$y/acs/acs5?get=$V&for=county:*&in=state:48" && head -c 300 demo/acs_$y.json && break
