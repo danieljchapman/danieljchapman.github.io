@@ -6,7 +6,7 @@ snapshot every few minutes on election night:
   https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/YYYY_MM_DD/results_pct_YYYYMMDD.zip
 (one tab-separated row per county, precinct, contest and choice). Writes:
   live_2026.csv     level, race, year, office, plan, unit, unit_name, candidate, party, votes, status, reporting, reporting_total
-                    statewide races by county (unit = county FIPS); U.S. House by district (unit = district)
+                    statewide races by county (unit = county FIPS); U.S. House, NC House, NC Senate by district (unit = district)
   live_status.json  phase, update time, source, problems
 reporting / reporting_total are precincts reported / precincts, as published by the State Board's results site
 (er.ncsbe.gov/enr/YYYYMMDD/data/county.txt per county, results_0.txt per contest). If those files can't be read,
@@ -19,9 +19,8 @@ import argparse, csv, datetime, io, json, os, re, subprocess, sys, time, zipfile
 from collections import defaultdict
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from build_history import office_of, party_of  # same office and party names as the history files
+from build_history import office_of, party_of, district_of, DISTRICT_CONTESTS  # same names and plans as the history files
 
-US_PLAN = {2016: 'c2016', 2018: 'c2016', 2020: 'c2019', 2022: 'c2022', 2024: 'c2023', 2026: 'c2025'}
 FIELDS = ['level', 'race', 'year', 'office', 'plan', 'unit', 'unit_name', 'candidate', 'party', 'votes', 'status', 'reporting', 'reporting_total']
 
 
@@ -81,8 +80,9 @@ def build(rows, year, fips, official=None):
     real = defaultdict(set)            # county -> real precincts on the ballot
     done = defaultdict(set)            # county -> real precincts with Election Day votes
     sw = defaultdict(int)              # (office, county, candidate, party) -> votes
-    us = defaultdict(int)              # (district, candidate, party) -> votes
-    us_prec = defaultdict(set)         # district -> {(county, precinct)} real precincts voting in the contest
+    us = defaultdict(int)              # (level, district, candidate, party) -> votes
+    us_prec = defaultdict(set)         # (level, district) -> {(county, precinct)} real precincts voting in the contest
+    cname = {}                         # (level, district) -> contest name as the state writes it
     for r in rows:
         cty, prec = r['County'].strip(), r['Precinct'].strip()
         is_real = (r.get('Real Precinct') or 'Y').strip() == 'Y'
@@ -98,12 +98,13 @@ def build(rows, year, fips, official=None):
         if off:
             sw[(off, cty, ch, p)] += v
             continue
-        m = re.match(r'^US HOUSE OF REPRESENTATIVES DISTRICT 0?(\d+)$', name)
-        if m:
-            d = int(m.group(1))
-            us[(d, ch, p)] += v
+        lvl, d = district_of(name)
+        if lvl:
+            p = party_of(ch, r['Choice Party'] or '', blank='I')
+            us[(lvl, d, ch, p)] += v
+            cname[(lvl, d)] = name.upper()
             if is_real:
-                us_prec[d].add((cty, prec))
+                us_prec[(lvl, d)].add((cty, prec))
     unknown = set(real) - set(fips)
     if unknown:
         problems.append(f'unknown counties: {sorted(unknown)}')
@@ -127,18 +128,20 @@ def build(rows, year, fips, official=None):
             a, b = rep.get(c, (0, 0))
             out.append({'level': 'statewide', 'race': f'{year} {off}', 'year': year, 'office': off, 'plan': '', 'unit': fips.get(c, ''), 'unit_name': county_title(c),
                         'candidate': ch, 'party': p, 'votes': sw[(o, c, ch, p)], 'status': st, 'reporting': a, 'reporting_total': b})
-    for d in sorted({k[0] for k in us}):
-        keys = [k for k in us if k[0] == d]
+    info = {lvl: (label, plans) for lvl, _, label, plans in DISTRICT_CONTESTS}
+    for (lvl, d) in sorted({k[:2] for k in us}, key=lambda k: ([x[0] for x in DISTRICT_CONTESTS].index(k[0]), k[1])):
+        label, plans = info[lvl]
+        keys = [k for k in us if k[:2] == (lvl, d)]
         votes = sum(us[k] for k in keys)
-        tot = len(us_prec[d]); got = sum(1 for (c, pr) in us_prec[d] if pr in done[c])
-        o = ok.get(f'US HOUSE OF REPRESENTATIVES DISTRICT {d:02d}') or ok.get(f'US HOUSE OF REPRESENTATIVES DISTRICT {d}')
+        tot = len(us_prec[(lvl, d)]); got = sum(1 for (c, pr) in us_prec[(lvl, d)] if pr in done[c])
+        o = ok.get(cname[(lvl, d)])
         if oc and o:
             got, tot = o
         st = 'final' if tot and got >= tot and votes else 'counting' if votes else 'pending'
-        races[f'{year} U.S. House {d}'] = st
+        races[f'{year} {label} {d}'] = st
         for k in sorted(keys, key=lambda k: -us[k]):
-            out.append({'level': 'ushouse', 'race': f'{year} U.S. House', 'year': year, 'office': 'U.S. House', 'plan': US_PLAN.get(year, ''), 'unit': d, 'unit_name': '',
-                        'candidate': k[1], 'party': k[2], 'votes': us[k], 'status': st, 'reporting': got, 'reporting_total': tot})
+            out.append({'level': lvl, 'race': f'{year} {label}', 'year': year, 'office': label, 'plan': plans.get(year, ''), 'unit': d, 'unit_name': '',
+                        'candidate': k[2], 'party': k[3], 'votes': us[k], 'status': st, 'reporting': got, 'reporting_total': tot})
     return out, races, rep, problems
 
 

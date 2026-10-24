@@ -171,7 +171,7 @@
   // 2026 races on the ballot (shown before any results exist)
   LX.SCHEDULE_2026 = {
     statewide: ['Senate', 'Supreme Court, Seat 1', 'Court of Appeals, Seat 1', 'Court of Appeals, Seat 2', 'Court of Appeals, Seat 3'],
-    plans: { ushouse: 'c2025' },
+    plans: { ushouse: 'c2025', house: 'h2023', senate: 's2023' },
     fortbend: ['County Judge', 'Commissioner Pct 2', 'Commissioner Pct 4'],
   };
   LX.ELECTION_2026 = 'Tuesday, Nov. 3, 2026';
@@ -236,7 +236,7 @@
   };
 
   // tabs
-  const TABS = ['statewide'];
+  const TABS = ['statewide', 'house', 'senate'];
   LX.tab = () => { const t = dash.params().tab; return TABS.includes(t) ? t : 'statewide'; };
   LX.swView = () => { const v = dash.params().sw_view; return ['offices', 'ushouse', 'sboe'].includes(v) ? v : 'offices'; };
   document.querySelectorAll('.lx-tab').forEach((b) => b.addEventListener('click', () => {

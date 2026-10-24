@@ -14,7 +14,11 @@ from shapely.ops import transform, unary_union
 import warnings; warnings.filterwarnings('ignore', category=DeprecationWarning)
 
 W = 900
-PLANS = {'c2016': 'c2016', 'c2019': 'c2019', 'c2022': 'c2022', 'c2023': 'c2023', 'c2025': 'c2025'}
+# output file -> (plan folders under SHAPE_DIR, simplification relative to the county map)
+# Legislative districts are drawn finer because city districts are small and get zoomed in on.
+PLANS = {'nc_ushouse_district_shapes.json': (['c2016', 'c2019', 'c2022', 'c2023', 'c2025'], 1),
+         'nc_house_district_shapes.json': (['h2011', 'h2018', 'h2019', 'h2022', 'h2023'], 0.4),
+         'nc_senate_district_shapes.json': (['s2011', 's2018', 's2019', 's2022', 's2023'], 0.5)}
 TARGET = CRS.from_epsg(32119)
 # [name, lat, lon, tier] for map labels: tier 1 always shown, tier 2 from 2x zoom, tier 3 from 4x
 CITIES = [['Charlotte', 35.2271, -80.8431, 1], ['Raleigh', 35.7796, -78.6382, 1], ['Greensboro', 36.0726, -79.792, 1], ['Durham', 35.994, -78.8986, 1],
@@ -78,15 +82,16 @@ def main(src, out):
     assert fips == json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'nc_county_fips.json')))
     cty = [{'county_fips': fips[n.upper()], 'county': 'McDowell' if n.upper() == 'MCDOWELL' else n.title(), 'path': path_of(unary_union(gs), fit, tol)} for n, gs in sorted(by.items())]
     json.dump(cty, open(os.path.join(out, 'nc_county_shapes.json'), 'w'), separators=(',', ':'))
-    dist = []
-    for d, plan in PLANS.items():
-        shp = glob.glob(os.path.join(src, d, '*.shp'))[0]
-        rows = list(load(shp))
-        key = next(f for f in rows[0][0] if f.upper() == 'DISTRICT')
-        print(plan, key, len(rows))
-        for rec, g in rows:
-            dist.append({'plan': plan, 'district': int(rec[key]), 'path': path_of(g.intersection(land), fit, tol)})
-    json.dump(dist, open(os.path.join(out, 'nc_ushouse_district_shapes.json'), 'w'), separators=(',', ':'))
+    for fname, (plans, rel) in PLANS.items():
+        dist = []
+        for plan in plans:
+            shp = glob.glob(os.path.join(src, plan, '**', '*.shp'), recursive=True)[0]
+            rows = list(load(shp))
+            key = next(f for f in rows[0][0] if f.upper() == 'DISTRICT')
+            print(plan, len(rows))
+            for rec, g in rows:
+                dist.append({'plan': plan, 'district': int(rec[key]), 'path': path_of(g.intersection(land), fit, tol * rel)})
+        json.dump(dist, open(os.path.join(out, fname), 'w'), separators=(',', ':'))
     cities = [[n, *[round(v, 1) for v in fit(*ll.transform(lo, la))], t] for n, la, lo, t in CITIES]
     json.dump({'width': W, 'height': H, 'cities': cities}, open(os.path.join(out, 'nc_map_size.json'), 'w'))
     print('viewBox', W, H)

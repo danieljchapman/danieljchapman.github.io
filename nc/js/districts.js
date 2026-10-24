@@ -104,19 +104,19 @@
   };
 
   const CH = {
-    house: { p: 'h', host: 'tab-house', label: 'Texas House', body: 'House', full: 150, results: 'house_results', shapes: 'house_shapes', id: 'house', level: 'house' },
-    senate: { p: 's', host: 'tab-senate', label: 'Texas Senate', body: 'Senate', full: 31, results: 'senate_results', shapes: 'senate_shapes', id: 'senate', level: 'senate' },
+    house: { p: 'h', host: 'tab-house', label: 'NC House', body: 'House', full: 120, results: 'house_results', shapes: 'house_shapes', id: 'house', level: 'house' },
+    senate: { p: 's', host: 'tab-senate', label: 'NC Senate', body: 'Senate', full: 50, results: 'senate_results', shapes: 'senate_shapes', id: 'senate', level: 'senate' },
     ushouse: { p: 'u', host: 'view-ushouse', label: 'U.S. House', body: 'North Carolina U.S. House delegation', full: null, results: 'ushouse_results', shapes: 'ushouse_shapes', id: 'ushouse', level: 'ushouse' },
     sboe: { p: 'b', host: 'view-sboe', label: 'State Board of Education', body: 'State Board of Education', full: 15, results: 'sboe_results', shapes: 'sboe_shapes', id: 'sboe', level: 'sboe' },
   };
-  dash.calc('house_by_district', { title: 'Texas House results per district', description: 'Each Texas House race: top four candidates with vote shares, winner or leader, and Republican-minus-Democratic margin (±100 for an unopposed race); 2026 comes from the election-night file.', inputs: ['house_results', 'live_2026'], fn: byDistrictFn });
-  dash.calc('house_summary', { title: 'Texas House seats per election', description: 'Seats won (or led) by party, uncontested races, closest race and total votes reported, for each Texas House election.', inputs: ['house_by_district'], fn: summaryFn });
-  dash.calc('house_chamber', { title: 'Texas House makeup after each election', description: 'All 150 seats after each general election, by party of the winner.', inputs: ['house_by_district'], fn: chamberFn });
-  dash.calc('house_parties', { title: 'Texas House results by party', description: 'Seats won and share of all reported votes for the top four parties in each Texas House election.', inputs: ['house_by_district'], fn: partiesFn });
-  dash.calc('senate_by_district', { title: 'Texas Senate results per district', description: 'Each Texas Senate race: top four candidates with vote shares, winner or leader, and Republican-minus-Democratic margin (±100 for an unopposed race); 2026 comes from the election-night file.', inputs: ['senate_results', 'live_2026'], fn: byDistrictFn });
-  dash.calc('senate_summary', { title: 'Texas Senate seats per election', description: 'Seats won (or led) by party, uncontested races, closest race and total votes reported, for each Texas Senate election.', inputs: ['senate_by_district'], fn: summaryFn });
-  dash.calc('senate_chamber', { title: 'Texas Senate makeup after each election', description: 'All 31 seats after each general election: seats won that year plus senators not up, carried from the last general election in their district under the same map. Special elections and party switches between general elections are not included.', inputs: ['senate_by_district'], fn: chamberFn });
-  dash.calc('senate_parties', { title: 'Texas Senate results by party', description: 'Seats won and share of all reported votes for the top four parties in each Texas Senate election.', inputs: ['senate_by_district'], fn: partiesFn });
+  dash.calc('house_by_district', { title: 'NC House results per district', description: 'Each NC House race: top four candidates with vote shares, winner or leader, and Republican-minus-Democratic margin (±100 for an unopposed race); 2026 comes from the election-night file.', inputs: ['house_results', 'live_2026'], fn: byDistrictFn });
+  dash.calc('house_summary', { title: 'NC House seats per election', description: 'Seats won (or led) by party, uncontested races, closest race and total votes reported, for each NC House election.', inputs: ['house_by_district'], fn: summaryFn });
+  dash.calc('house_chamber', { title: 'NC House makeup after each election', description: 'All 120 seats after each general election, by party of the winner.', inputs: ['house_by_district'], fn: chamberFn });
+  dash.calc('house_parties', { title: 'NC House results by party', description: 'Seats won and share of all reported votes for the top four parties in each NC House election.', inputs: ['house_by_district'], fn: partiesFn });
+  dash.calc('senate_by_district', { title: 'NC Senate results per district', description: 'Each NC Senate race: top four candidates with vote shares, winner or leader, and Republican-minus-Democratic margin (±100 for an unopposed race); 2026 comes from the election-night file.', inputs: ['senate_results', 'live_2026'], fn: byDistrictFn });
+  dash.calc('senate_summary', { title: 'NC Senate seats per election', description: 'Seats won (or led) by party, uncontested races, closest race and total votes reported, for each NC Senate election.', inputs: ['senate_by_district'], fn: summaryFn });
+  dash.calc('senate_chamber', { title: 'NC Senate makeup after each election', description: 'All 50 seats after each general election, by party of the winner (every seat is up every two years).', inputs: ['senate_by_district'], fn: chamberFn });
+  dash.calc('senate_parties', { title: 'NC Senate results by party', description: 'Seats won and share of all reported votes for the top four parties in each NC Senate election.', inputs: ['senate_by_district'], fn: partiesFn });
   dash.calc('ushouse_by_district', { title: 'U.S. House results per district', description: 'Each U.S. House race: top four candidates with vote shares, winner or leader, and Republican-minus-Democratic margin (±100 for an unopposed race); 2026 comes from the election-night file.', inputs: ['ushouse_results', 'live_2026'], fn: byDistrictFn });
   dash.calc('ushouse_summary', { title: 'U.S. House seats per election', description: 'Seats won (or led) by party, uncontested races, closest race and total votes reported, for each U.S. House election.', inputs: ['ushouse_by_district'], fn: summaryFn });
   dash.calc('ushouse_parties', { title: 'U.S. House results by party', description: 'Seats won and share of all reported votes for the top four parties in each U.S. House election.', inputs: ['ushouse_by_district'], fn: partiesFn });
@@ -272,7 +272,11 @@
     drawTable(c, st, rows.map((r) => { const t = toOf(r.district); return { ...r, turnout: t ? t.turnout : null }; }), sel, pending);
   }
 
-  const CHAMBER_NOTES = { senate: { 2018: 'Republican Pete Flores won District 19 in a September 2018 special election, so the Senate seated in January 2019 was 19–12. This count uses general-election results only.' } };
+  const CHAMBER_NOTES = {
+    house: { 2022: 'Rep. Tricia Cotham switched from Democrat to Republican in April 2023, giving Republicans 72 seats, exactly three-fifths. This count uses election results only.' },
+  };
+  // North Carolina's governor can veto bills; overriding takes three-fifths of the members present and voting (72 of 120 House seats, 30 of 50 Senate seats with full attendance)
+  const SUPER = { house: 72, senate: 30 };
   function drawChamber(c, year) {
     const P = c.p, el = document.getElementById(P + '-chamber'), txt = document.getElementById(P + '-chamber-text');
     const ch = dash.data(c.id + '_chamber');
@@ -326,7 +330,11 @@
       const sw = row.r_change;
       line('lx-kpi-sub', sw === 0 ? `No net change from ${row.prev_year}.` : `${sw > 0 ? 'Republicans' : 'Democrats'} gained ${Math.abs(sw)} seat${Math.abs(sw) === 1 ? '' : 's'} net since ${row.prev_year}.`).style.color = sw === 0 ? '' : sw > 0 ? col.R : col.D;
     }
-    if (row.majority && !row.undecided_seats) line('lx-kpi-sub', `${row.majority === 'R' ? 'Republican' : 'Democratic'} majority`);
+    if (row.majority && !row.undecided_seats) {
+      const sup = SUPER[c.id], have = row.majority === 'R' ? row.r_seats : row.d_seats, pn = row.majority === 'R' ? 'Republican' : 'Democratic';
+      line('lx-kpi-sub', !sup ? `${pn} majority` : have >= sup ? `${pn} supermajority: ${have} seats, enough to override a veto on party lines (${sup} needed)`
+        : `${pn} majority, ${sup - have} seat${sup - have === 1 ? '' : 's'} short of the ${sup} needed to override a veto on party lines`);
+    }
     if (showUp) line('lx-kpi-sub', c.id === 'house' ? `Solid dots: the ${row.seats_up} seats with ${year} results. Outlined: seats not yet in the ${year} results, shown with their current party.` : `Solid dots: the ${row.seats_up} seats on the ${year} ballot. Outlined: senators not up that year, from their last election.`);
     if (before && year === 2026) line('lx-kpi-sub', 'Seats fill in from the 2026 results on election night.');
     const note = (CHAMBER_NOTES[c.id] || {})[row.year];
@@ -420,7 +428,7 @@
     LX.photoCredit(LX.creditAfter(box, P + '-photo-credit'), list.map((i) => r['c' + i + '_name']));
   }
 
-  // one- or two-sentence background for 2026 candidates (U.S. House, Texas House, Texas Senate)
+  // one- or two-sentence background for 2026 candidates (U.S. House, NC House, NC Senate)
   const normName = (s) => String(s).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z]/g, '');
   let bioIndex = null, bioRows = null;
   function bioFor(level, district, name, party) {

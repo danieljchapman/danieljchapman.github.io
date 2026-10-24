@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>North Carolina Election Results</title>
-<meta name="description" content="County- and district-level results for North Carolina statewide, judicial and congressional elections, 2016–2026, with live 2026 results on election night.">
+<meta name="description" content="County- and district-level results for North Carolina statewide, judicial, congressional and legislative elections, 2016–2026, with live 2026 results on election night.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect x='1' y='7' width='4' height='8' rx='1' fill='%233b70d6'/%3E%3Crect x='6' y='3' width='4' height='12' rx='1' fill='%23d4473f'/%3E%3Crect x='11' y='5' width='4' height='10' rx='1' fill='%238b5cc4'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
@@ -45,8 +45,8 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
 .site-foot .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr)); gap: 8px 32px; border-top: 1px solid var(--color-border-line); padding-top: 20px; }
 button { font: inherit; }
 /* North Carolina is wide and short: the county map gets the full width */
-#map-card, #trend-card, #u-map-card { grid-column: 1 / -1; }
-#u-map-card + div { grid-column: 1 / -1; grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr)); }
+#map-card, #trend-card, #u-map-card, #h-map-card, #s-map-card { grid-column: 1 / -1; }
+#u-map-card + div, #h-map-card + div, #s-map-card + div { grid-column: 1 / -1; grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr)); }
 </style>
 </head>
 <body>
@@ -170,6 +170,8 @@ button { font: inherit; }
     <h1>North Carolina election results</h1>
     <nav class="lx-tabs" role="tablist" aria-label="Dashboard sections">
       <button class="lx-tab" role="tab" data-tab="statewide" aria-selected="true">Statewide &amp; federal</button>
+      <button class="lx-tab" role="tab" data-tab="house" aria-selected="false">NC House</button>
+      <button class="lx-tab" role="tab" data-tab="senate" aria-selected="false">NC Senate</button>
     </nav>
   </header>
 
@@ -242,10 +244,128 @@ button { font: inherit; }
     </section>
     <section id="view-ushouse" hidden></section>
   </section>
+  <section id="tab-house" hidden></section>
+  <section id="tab-senate" hidden></section>
 </div>
 
 
 
+<template id="tpl-tab-house">
+  <div class="lx-sub">
+    <header><h2 class="lx-tabtitle">NC House elections by district</h2></header>
+    <div class="lx-live" id="h-live" hidden></div>
+    <p class="lx-take dash-skeleton" id="h-take">—</p>
+    <section class="lx-controls"><div class="lx-row"><span class="lx-row-label">Election</span><span class="lx-row" id="h-years"></span></div></section>
+    <section class="lx-card lx-chamber" id="h-chamber-card" aria-label="Whole chamber">
+      <div class="lx-chamber-svg dash-skeleton" id="h-chamber" data-source="house_chamber"></div>
+      <div class="lx-chamber-text" id="h-chamber-text"></div>
+    </section>
+    <section aria-label="Results by party"><div class="lx-cands dash-skeleton" id="h-parties" data-source="house_parties"></div></section>
+    <p class="lx-credit" id="h-parties-note"></p>
+    <section class="lx-kpis">
+      <div class="lx-card"><div class="lx-kpi-label">Seats on the ballot</div><div class="lx-kpi-value dash-skeleton" id="h-k-seats" data-source="house_summary" data-field="seats_total">—</div><div class="lx-kpi-sub" id="h-k-seats-sub"></div></div>
+      <div class="lx-card"><div class="lx-kpi-label">Uncontested races</div><div class="lx-kpi-value dash-skeleton" id="h-k-unc" data-source="house_summary" data-field="uncontested">—</div><div class="lx-kpi-sub" id="h-k-unc-sub"></div></div>
+      <div class="lx-card"><div class="lx-kpi-label">Closest Republican–Democratic race</div><div class="lx-kpi-value dash-skeleton" id="h-k-close" data-source="house_summary" data-field="closest_label" style="font-size:var(--cds-font-size-heading)">—</div></div>
+      <div class="lx-card"><div class="lx-kpi-label">Total votes reported</div><div class="lx-kpi-value dash-skeleton" id="h-k-votes" data-source="house_summary" data-field="total_votes">—</div><div class="lx-kpi-sub" id="h-k-votes-sub"></div></div>
+    </section>
+    <section class="lx-grid">
+      <div class="lx-card" id="h-map-card">
+        <div class="lx-cardhead"><div><h2>District results</h2><p class="lx-note">Red for Republican margins, blue for Democratic; darker means a bigger margin. Click a district to see its candidates.</p></div></div>
+        <div class="lx-row" id="h-zoom" style="margin-bottom:var(--cds-gap-sm)"></div>
+        <div class="lx-map dash-skeleton" id="h-map" data-source="house_by_district house_shapes"></div>
+        <div class="lx-legend" id="h-legend"></div>
+        <div class="lx-tip" id="h-map-tip"></div>
+      </div>
+      <div style="display:grid;gap:var(--cds-gap-md);align-content:start">
+        <div class="lx-card" id="h-detail-card">
+          <div class="lx-cardhead"><div><h2 id="h-detail-title">District</h2><p class="lx-note" id="h-detail-note"></p></div><button class="lx-clear" id="h-clear" hidden></button></div>
+          <div class="lx-cands dash-skeleton" id="h-detail" data-source="house_by_district" style="grid-template-columns:repeat(auto-fit,minmax(min(100%,12rem),1fr))"></div>
+        </div>
+        <div class="lx-card" id="h-seats-card">
+          <h2>Seats won in each election</h2><p class="lx-note" id="h-seats-note"></p>
+          <div class="lx-trend dash-skeleton" id="h-seats" data-source="house_summary" style="min-height:15rem"></div>
+          <div class="lx-tip" id="h-seats-tip"></div>
+        </div>
+      </div>
+    </section>
+    <section class="lx-card">
+      <div class="lx-cardhead"><div><h2>All districts</h2><p class="lx-note">Top four candidates in each race with their share of the vote; sort by any column, click a row to see the race.</p></div></div>
+      <div class="lx-tablebar"><input class="lx-search" id="h-search" type="search" placeholder="Search district or candidate" aria-label="Search districts"><span class="lx-note" id="h-count" style="margin:0"></span></div>
+      <div class="lx-tablewrap">
+        <table class="lx-table" id="h-table" data-source="house_by_district" data-row-key="year,district">
+          <thead><tr>
+            <th data-field="district"><button data-sort="district" data-label="District">District</button></th>
+            <th data-field="c1_label"><button data-sort="c1_label" data-label="Winner">Winner</button></th>
+            <th data-field="c2_label"><button data-sort="c2_label" data-label="2nd">2nd</button></th>
+            <th data-field="c3_label" class="lx-hide-narrow"><button data-sort="c3_label" data-label="3rd">3rd</button></th>
+            <th data-field="c4_label" class="lx-hide-narrow"><button data-sort="c4_label" data-label="4th">4th</button></th>
+            <th data-field="margin_label"><button data-sort="margin" data-label="Margin">Margin</button></th>
+            <th data-field="total_votes" class="lx-hide-narrow"><button data-sort="total_votes" data-label="Votes">Votes</button></th>
+          </tr></thead><tbody></tbody>
+        </table>
+      </div>
+    </section>
+    <p class="lx-foot">NC House results: North Carolina State Board of Elections official results files, summed to districts; each year's seat totals match the official results. Uncontested races are shown with the winner's votes. Districts follow the map in force each year: the 2011 plan (2016); the 2017 plan with the court-appointed special master's changes the U.S. Supreme Court upheld (2018); the 2019 remedial plan, HB 1020, ordered in Common Cause v. Lewis (2020); the 2022 plan, SL 2022-4 (2022); and the 2023 plan, SL 2023-149 (2024 and 2026). A district number can cover different ground in different years. Each map was checked against the results: in every county, the districts with votes match the districts the map places there. The chamber count uses election results only; party switches and appointments between elections aren't included. 2026 results come from the State Board's election-night file and are unofficial until canvassed.</p>
+  </div>
+</template>
+<template id="tpl-tab-senate">
+  <div class="lx-sub">
+    <header><h2 class="lx-tabtitle">NC Senate elections by district</h2></header>
+    <div class="lx-live" id="s-live" hidden></div>
+    <p class="lx-take dash-skeleton" id="s-take">—</p>
+    <section class="lx-controls"><div class="lx-row"><span class="lx-row-label">Election</span><span class="lx-row" id="s-years"></span></div></section>
+    <section class="lx-card lx-chamber" id="s-chamber-card" aria-label="Whole chamber">
+      <div class="lx-chamber-svg dash-skeleton" id="s-chamber" data-source="senate_chamber"></div>
+      <div class="lx-chamber-text" id="s-chamber-text"></div>
+    </section>
+    <section aria-label="Results by party"><div class="lx-cands dash-skeleton" id="s-parties" data-source="senate_parties"></div></section>
+    <p class="lx-credit" id="s-parties-note"></p>
+    <section class="lx-kpis">
+      <div class="lx-card"><div class="lx-kpi-label">Seats on the ballot</div><div class="lx-kpi-value dash-skeleton" id="s-k-seats" data-source="senate_summary" data-field="seats_total">—</div><div class="lx-kpi-sub" id="s-k-seats-sub"></div></div>
+      <div class="lx-card"><div class="lx-kpi-label">Uncontested races</div><div class="lx-kpi-value dash-skeleton" id="s-k-unc" data-source="senate_summary" data-field="uncontested">—</div><div class="lx-kpi-sub" id="s-k-unc-sub"></div></div>
+      <div class="lx-card"><div class="lx-kpi-label">Closest Republican–Democratic race</div><div class="lx-kpi-value dash-skeleton" id="s-k-close" data-source="senate_summary" data-field="closest_label" style="font-size:var(--cds-font-size-heading)">—</div></div>
+      <div class="lx-card"><div class="lx-kpi-label">Total votes reported</div><div class="lx-kpi-value dash-skeleton" id="s-k-votes" data-source="senate_summary" data-field="total_votes">—</div><div class="lx-kpi-sub" id="s-k-votes-sub"></div></div>
+    </section>
+    <section class="lx-grid">
+      <div class="lx-card" id="s-map-card">
+        <div class="lx-cardhead"><div><h2>District results</h2><p class="lx-note">Red for Republican margins, blue for Democratic; darker means a bigger margin. Click a district to see its candidates.</p></div></div>
+        <div class="lx-row" id="s-zoom" style="margin-bottom:var(--cds-gap-sm)"></div>
+        <div class="lx-map dash-skeleton" id="s-map" data-source="senate_by_district senate_shapes"></div>
+        <div class="lx-legend" id="s-legend"></div>
+        <div class="lx-tip" id="s-map-tip"></div>
+      </div>
+      <div style="display:grid;gap:var(--cds-gap-md);align-content:start">
+        <div class="lx-card" id="s-detail-card">
+          <div class="lx-cardhead"><div><h2 id="s-detail-title">District</h2><p class="lx-note" id="s-detail-note"></p></div><button class="lx-clear" id="s-clear" hidden></button></div>
+          <div class="lx-cands dash-skeleton" id="s-detail" data-source="senate_by_district" style="grid-template-columns:repeat(auto-fit,minmax(min(100%,12rem),1fr))"></div>
+        </div>
+        <div class="lx-card" id="s-seats-card">
+          <h2>Seats won in each election</h2><p class="lx-note" id="s-seats-note"></p>
+          <div class="lx-trend dash-skeleton" id="s-seats" data-source="senate_summary" style="min-height:15rem"></div>
+          <div class="lx-tip" id="s-seats-tip"></div>
+        </div>
+      </div>
+    </section>
+    <section class="lx-card">
+      <div class="lx-cardhead"><div><h2>All districts</h2><p class="lx-note">Top four candidates in each race with their share of the vote; sort by any column, click a row to see the race.</p></div></div>
+      <div class="lx-tablebar"><input class="lx-search" id="s-search" type="search" placeholder="Search district or candidate" aria-label="Search districts"><span class="lx-note" id="s-count" style="margin:0"></span></div>
+      <div class="lx-tablewrap">
+        <table class="lx-table" id="s-table" data-source="senate_by_district" data-row-key="year,district">
+          <thead><tr>
+            <th data-field="district"><button data-sort="district" data-label="District">District</button></th>
+            <th data-field="c1_label"><button data-sort="c1_label" data-label="Winner">Winner</button></th>
+            <th data-field="c2_label"><button data-sort="c2_label" data-label="2nd">2nd</button></th>
+            <th data-field="c3_label" class="lx-hide-narrow"><button data-sort="c3_label" data-label="3rd">3rd</button></th>
+            <th data-field="c4_label" class="lx-hide-narrow"><button data-sort="c4_label" data-label="4th">4th</button></th>
+            <th data-field="margin_label"><button data-sort="margin" data-label="Margin">Margin</button></th>
+            <th data-field="total_votes" class="lx-hide-narrow"><button data-sort="total_votes" data-label="Votes">Votes</button></th>
+          </tr></thead><tbody></tbody>
+        </table>
+      </div>
+    </section>
+    <p class="lx-foot">NC Senate results: North Carolina State Board of Elections official results files, summed to districts; each year's seat totals match the official results. All 50 seats are up every two years. Districts follow the map in force each year: the 2011 plan (2016); the 2017 plan with the special master's changes in Cumberland and Guilford counties (2018); the 2019 remedial plan from Common Cause v. Lewis (2020); the 2022 plan, SL 2022-2 (2022); and the 2023 plan, SL 2023-146 (2024 and 2026; a federal judge rejected a challenge to two northeastern districts in September 2025). Each map was checked against the results county by county. 2026 results come from the State Board's election-night file and are unofficial until canvassed.</p>
+  </div>
+</template>
 <template id="tpl-view-ushouse">
   <div class="lx-sub">
     <header><h2 class="lx-tabtitle">U.S. House elections by district</h2></header>
@@ -313,6 +433,7 @@ button { font: inherit; }
       <ul>
         <li><a href="data/nc_statewide_results_by_county.csv" download>Statewide races by county (CSV)</a></li>
         <li><a href="data/nc_ushouse_results.csv" download>U.S. House by district (CSV)</a></li>
+        <li><a href="data/nc_house_results.csv" download>NC House by district (CSV)</a> · <a href="data/nc_senate_results.csv" download>NC Senate (CSV)</a></li>
         <li><a href="data/live_2026.csv" download>2026 results, unofficial (CSV)</a></li>
       </ul>
     </div>
@@ -327,7 +448,7 @@ button { font: inherit; }
     </div>
   </div>
 </footer>
-<script>window.DASH_DATASETS = {"results": {"url": "data/nc_statewide_results_by_county.csv", "format": "csv"}, "county_shapes": {"url": "data/nc_county_shapes.json", "format": "json"}, "ushouse_results": {"url": "data/nc_ushouse_results.csv", "format": "csv"}, "ushouse_shapes": {"url": "data/nc_ushouse_district_shapes.json", "format": "json"}, "live_2026": {"url": "data/live_2026.csv", "format": "csv", "live": true}, "live_status": {"url": "data/live_status.json", "format": "json", "live": true}}; window.DASH_PARAMS = {"county": null, "race": "2026 Senate", "sw_view": "offices", "tab": "statewide", "u_district": null, "u_year": 2026, "view": "result"};</script>
+<script>window.DASH_DATASETS = {"house_results": {"url": "data/nc_house_results.csv", "format": "csv"}, "senate_results": {"url": "data/nc_senate_results.csv", "format": "csv"}, "house_shapes": {"url": "data/nc_house_district_shapes.json", "format": "json"}, "senate_shapes": {"url": "data/nc_senate_district_shapes.json", "format": "json"}, "results": {"url": "data/nc_statewide_results_by_county.csv", "format": "csv"}, "county_shapes": {"url": "data/nc_county_shapes.json", "format": "json"}, "ushouse_results": {"url": "data/nc_ushouse_results.csv", "format": "csv"}, "ushouse_shapes": {"url": "data/nc_ushouse_district_shapes.json", "format": "json"}, "live_2026": {"url": "data/live_2026.csv", "format": "csv", "live": true}, "live_status": {"url": "data/live_status.json", "format": "json", "live": true}}; window.DASH_PARAMS = {"county": null, "h_district": null, "h_year": 2026, "s_district": null, "s_year": 2026, "race": "2026 Senate", "sw_view": "offices", "tab": "statewide", "u_district": null, "u_year": 2026, "view": "result"};</script>
 <script src="js/d3.v7.9.0.min.js"></script>
 <script src="js/dash-runtime.js"></script>
 <script src="js/common.js"></script>
