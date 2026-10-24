@@ -16,6 +16,10 @@
    "2026-10-22": {
     "in_person_day": 29553,
     "mail_day": null
+   },
+   "2026-10-23": {
+    "in_person_day": 34724,
+    "mail_day": null
    }
   },
   "source": "Collin County Elections"
@@ -69,7 +73,7 @@
     "mail_day": 24794
    },
    "2026-10-20": {
-    "in_person_day": 99907,
+    "in_person_day": 99906,
     "mail_day": 2755
    },
    "2026-10-21": {
@@ -77,8 +81,12 @@
     "mail_day": 2157
    },
    "2026-10-22": {
-    "in_person_day": 86328,
+    "in_person_day": 86326,
     "mail_day": 1715
+   },
+   "2026-10-23": {
+    "in_person_day": 95108,
+    "mail_day": 1292
    }
   },
   "source": "Harris County Clerk"
@@ -100,6 +108,10 @@
    "2026-10-22": {
     "in_person_day": 46365,
     "mail_day": 1185
+   },
+   "2026-10-23": {
+    "in_person_day": 50949,
+    "mail_day": 1385
    }
   },
   "source": "Tarrant County Elections"
