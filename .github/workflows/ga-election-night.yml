@@ -1,0 +1,61 @@
+name: GA election-night results
+
+# Georgia polls close at 7 pm Eastern (00:00 UTC Nov 4; EST, UTC-5).
+# Every 5 minutes from 23:45 UTC Nov 3 to 06:05 UTC Nov 4 (6:45 pm – 1:05 am Eastern) in one long job; two start times in case
+# GitHub starts the first late (the second waits behind it and ends at once if the window is covered).
+# After that: every 10 minutes until 11:50 UTC, then hourly through Nov 20 while counties finish and certify.
+# Dec 1 general-election runoff (only if a statewide race goes to one): the same pattern on Dec 1-2.
+# Source: the Secretary of State's results site (ga/tools/ga_live.py).
+on:
+  schedule:
+    - cron: '45 23 3 11 *'
+    - cron: '15 0 4 11 *'
+    - cron: '*/10 6-11 4 11 *'
+    - cron: '17 12-23 4 11 *'
+    - cron: '17 * 5-20 11 *'
+    - cron: '45 23 1 12 *'
+    - cron: '15 0 2 12 *'
+    - cron: '*/10 5-11 2 12 *'
+    - cron: '17 12-23 2 12 *'
+  workflow_dispatch:
+    inputs:
+      minutes:
+        description: 'Test run: how many minutes to keep updating (0 = one update)'
+        default: '0'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ga-election-night
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 400
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update
+        env:
+          MINUTES: ${{ github.event.inputs.minutes }}
+          SCHED: ${{ github.event.schedule }}
+        run: |
+          case "$SCHED" in
+            '45 23 3 11 *'|'15 0 4 11 *') end=$(date -u -d '2026-11-04T06:05:00Z' +%s) ;;
+            '45 23 1 12 *'|'15 0 2 12 *') end=$(date -u -d '2026-12-02T05:05:00Z' +%s) ;;
+            '') if [ "${MINUTES:-0}" = "0" ]; then bash ga/tools/fetch_live.sh; exit $?; fi
+                end=$(( $(date +%s) + MINUTES * 60 )) ;;
+            *) bash ga/tools/fetch_live.sh; exit $? ;;
+          esac
+          n=0
+          while [ "$(date +%s)" -lt "$end" ]; do
+            start=$(date +%s); n=$((n + 1))
+            echo "::group::Update $n at $(date -u +%H:%M:%S) UTC"
+            bash ga/tools/fetch_live.sh || echo "::warning::Update $n failed"
+            echo "::endgroup::"
+            wait=$(( 300 - ($(date +%s) - start) ))
+            [ $(( $(date +%s) + wait )) -ge "$end" ] && break
+            [ "$wait" -gt 0 ] && sleep "$wait"
+          done
+          echo "Finished after $n updates"

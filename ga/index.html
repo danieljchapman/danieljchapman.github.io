@@ -1,0 +1,462 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Georgia Election Results</title>
+<meta name="description" content="County- and district-level results for Georgia statewide, congressional and legislative elections and runoffs, 2016–2026, with live 2026 results on election night.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect x='1' y='7' width='4' height='8' rx='1' fill='%233b70d6'/%3E%3Crect x='6' y='3' width='4' height='12' rx='1' fill='%23d4473f'/%3E%3Crect x='11' y='5' width='4' height='10' rx='1' fill='%238b5cc4'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --font-anthropic-sans: Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-anthropic-serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --color-bg: #f6f5f1; --color-panel: #ffffff; --color-fg: #1f1e1c; --color-fg-muted: #6b6862; --color-border-line: #e3e0d8;
+  --color-ok: #2f7d4f; --color-warn: #a96a12; --color-bad: #c43c32;
+  --cds-chart-grid: #ece9e2; --cds-chart-axis: #9a968e; --cds-chart-reference: #8a867e; --cds-chart-muted: #c9c5bc;
+  --cds-surface-popover: #ffffff; --cds-border: #dcd8cf; --cds-text-secondary: #6b6862; --cds-shadow-popover: 0 6px 24px rgba(0,0,0,.12);
+  --cds-font-size-caption: 0.78rem; --cds-font-size-body: 0.92rem; --cds-font-size-heading: 1.05rem; --cds-font-size-title: 1.9rem; --cds-font-weight-medium: 600;
+  --cds-gap-xs: 4px; --cds-gap-sm: 8px; --cds-gap-md: 14px; --cds-gap-lg: 22px; --cds-gap-xl: 32px;
+  --cds-pad-xs: 4px; --cds-pad-sm: 8px; --cds-pad-md: 12px; --cds-pad-lg: 16px; --cds-pad-xl: 24px;
+  --cds-radius: 10px; --cds-dur-slow: 300ms; --cds-ease-out: cubic-bezier(.2,.7,.2,1);
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #191817; --color-panel: #232220; --color-fg: #ecebe7; --color-fg-muted: #a5a29b; --color-border-line: #36342f;
+    --cds-chart-grid: #2f2d29; --cds-chart-axis: #77736c; --cds-chart-reference: #8a867e; --cds-chart-muted: #4a4741;
+    --cds-surface-popover: #2b2a27; --cds-border: #3d3b36; --cds-text-secondary: #a5a29b; --cds-shadow-popover: 0 6px 24px rgba(0,0,0,.5);
+    color-scheme: dark;
+  }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-family: var(--font-anthropic-sans); font-size: var(--cds-font-size-body); line-height: 1.45; }
+#dash-root { max-width: 1240px; margin: 0 auto; padding: clamp(16px, 3vw, 36px) clamp(16px, 3vw, 36px) 48px; }
+.dash-skeleton { position: relative; color: transparent !important; }
+.dash-skeleton::after { content: ""; position: absolute; inset: 0; border-radius: 6px; background: linear-gradient(90deg, var(--color-border-line), var(--color-panel), var(--color-border-line)); background-size: 200% 100%; opacity: .7; }
+@media (prefers-reduced-motion: no-preference) { .dash-skeleton::after { animation: skel 1.4s linear infinite; } @keyframes skel { to { background-position: -200% 0; } } }
+.lx-kpi-value.dash-skeleton, .lx-take.dash-skeleton { min-height: 1.3em; }
+.site-foot { max-width: 1240px; margin: 0 auto; padding: 0 clamp(16px, 3vw, 36px) 40px; color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+.site-foot h2 { font-size: var(--cds-font-size-body); color: var(--color-fg); margin: 0 0 6px; font-weight: 600; }
+.site-foot a { color: inherit; }
+.site-foot ul { margin: 4px 0 12px; padding-left: 18px; }
+.site-foot .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr)); gap: 8px 32px; border-top: 1px solid var(--color-border-line); padding-top: 20px; }
+button { font: inherit; }
+/* Georgia is taller than wide: maps sit beside the chart or the race details */
+/* site header: the state switcher above each state's section tabs */
+.lx-states { display: inline-flex; gap: 2px; padding: 3px; margin: var(--cds-gap-xs) 0 var(--cds-gap-xs); border: 1px solid var(--color-border-line); border-radius: 10px; background: var(--color-panel); }
+.lx-states a { font-size: var(--cds-font-size-body); font-weight: var(--cds-font-weight-medium); color: var(--color-fg-muted); text-decoration: none; padding: 0.45rem 1rem; border-radius: 7px; }
+.lx-states a:hover { color: var(--color-fg); background: var(--color-bg); }
+.lx-states a[aria-current="page"] { background: var(--color-fg); color: var(--color-bg); }
+.lx-states a:focus-visible { outline: 2px solid var(--lx-dem); outline-offset: 1px; }
+</style>
+</head>
+<body>
+<main id="dash-root">
+<style>
+.lx { --lx-rep: #d4473f; --lx-dem: #3b70d6; --lx-ind: #8b5cc4; font-family: var(--font-anthropic-sans); display: grid; gap: var(--cds-gap-lg); }
+.lx-head h1 { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); margin: 0 0 var(--cds-gap-xs); }
+.lx-take { margin: 0; color: var(--color-fg-muted); font-size: var(--cds-font-size-body); max-width: 60rem; }
+.lx-take b { color: var(--color-fg); font-weight: 600; }
+.lx-controls { display: grid; gap: var(--cds-gap-sm); }
+.lx-row { display: flex; flex-wrap: wrap; align-items: center; gap: var(--cds-gap-xs); }
+.lx-row-label { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); width: 6.5rem; flex: none; }
+.lx-pill { font: inherit; font-size: var(--cds-font-size-caption); font-variant-numeric: tabular-nums; padding: 0.3rem 0.7rem; border-radius: 999px; border: 1px solid var(--color-border-line); background: var(--color-panel); color: var(--color-fg); cursor: pointer; }
+.lx-pill:hover { border-color: var(--color-fg-muted); }
+.lx-pill[aria-pressed="true"] { background: var(--color-fg); color: var(--color-bg); border-color: var(--color-fg); }
+.lx-kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 11rem), 1fr)); gap: var(--cds-gap-md); }
+.lx-card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); min-width: 0; position: relative; }
+.lx-kpi-label { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+.lx-kpi-value { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); margin-top: var(--cds-gap-xs); font-variant-numeric: tabular-nums; min-height: 1.3em; }
+.lx-kpi-sub { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin-top: 2px; font-variant-numeric: tabular-nums; min-height: 1.2em; }
+.lx-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 24rem), 1fr)); gap: var(--cds-gap-md); }
+.lx-card h2 { font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); margin: 0; }
+.lx-note { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: 2px 0 var(--cds-gap-md); }
+.lx-cardhead { display: flex; justify-content: space-between; align-items: flex-start; gap: var(--cds-gap-sm); flex-wrap: wrap; }
+.lx-map { min-height: 0; aspect-ratio: 600 / 695; }  /* the Georgia frame is taller than wide */
+.lx-map svg path.cty { stroke: var(--color-panel); stroke-width: 0.5; cursor: pointer; }
+.lx-map svg path.cty:hover { stroke: var(--color-fg); stroke-width: 1.2; }
+.lx-map svg path.cty.sel { stroke: var(--color-fg); stroke-width: 2; }
+.lx-legend { display: flex; flex-wrap: wrap; gap: var(--cds-gap-sm); font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin-top: var(--cds-gap-sm); align-items: center; }
+.lx-legend .sw { display: inline-block; width: 0.8rem; height: 0.8rem; border-radius: 2px; vertical-align: -2px; margin-right: 3px; }
+.lx-legend .grp { display: inline-flex; align-items: center; gap: 2px; }
+.lx-trend { min-height: 17rem; }
+.lx-tip { position: absolute; pointer-events: none; background: var(--cds-surface-popover); border: 1px solid var(--cds-border); border-radius: var(--cds-radius); box-shadow: var(--cds-shadow-popover); padding: var(--cds-pad-xs) var(--cds-pad-sm); font-size: var(--cds-font-size-caption); font-variant-numeric: tabular-nums; z-index: 5; max-width: 16rem; display: none; }
+.lx-tip .t { color: var(--cds-text-secondary); margin-bottom: 2px; }
+.lx-tip .l { display: flex; gap: 6px; align-items: center; justify-content: space-between; }
+.lx-tip .l span:first-child { display: inline-flex; gap: 5px; align-items: center; }
+.lx-tip .sw { width: 0.6rem; height: 0.6rem; border-radius: 2px; display: inline-block; }
+.lx-clear { font: inherit; font-size: var(--cds-font-size-caption); background: none; border: 1px solid var(--color-border-line); border-radius: 999px; padding: 0.2rem 0.6rem; color: var(--color-fg); cursor: pointer; }
+.lx-tablebar { display: flex; gap: var(--cds-gap-sm); align-items: center; flex-wrap: wrap; margin-bottom: var(--cds-gap-sm); }
+.lx-search { font: inherit; font-size: var(--cds-font-size-caption); padding: 0.35rem 0.6rem; border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); background: var(--color-bg); color: var(--color-fg); min-width: 12rem; }
+.lx-tablewrap { max-height: 30rem; overflow: auto; }
+.lx-table { width: 100%; border-collapse: collapse; font-size: var(--cds-font-size-caption); font-variant-numeric: tabular-nums; }
+.lx-table th { position: sticky; top: 0; background: var(--color-panel); text-align: right; padding: 0; border-bottom: 1px solid var(--color-border-line); z-index: 1; }
+.lx-table th:first-child, .lx-table td:first-child { text-align: left; }
+.lx-table th button { font: inherit; font-weight: var(--cds-font-weight-medium); background: none; border: 0; color: var(--color-fg); padding: 0.45rem 0.5rem; cursor: pointer; width: 100%; text-align: inherit; white-space: nowrap; }
+.lx-table td { padding: 0.35rem 0.5rem; border-bottom: 1px solid var(--color-border-line); text-align: right; white-space: nowrap; }
+.lx-table tbody tr { cursor: pointer; }
+.lx-table tbody tr:hover td { background: var(--color-bg); }
+.lx-table tbody tr.sel td { background: var(--color-bg); font-weight: 600; }
+.lx-r { color: var(--lx-rep); } .lx-d { color: var(--lx-dem); } .lx-i { color: var(--lx-ind); }
+.lx-bar { display: inline-block; height: 0.5rem; border-radius: 2px; vertical-align: middle; margin-left: 6px; }
+@media (max-width: 40rem) { .lx-hide-narrow { display: none; } .lx-row-label { width: 100%; } }
+.lx { --lx-lib: #c9a227; --lx-grn: #3f9a5a; }
+.lx-cands { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 13rem), 1fr)); gap: var(--cds-gap-md); }
+.lx-cand { display: flex; gap: var(--cds-gap-md); align-items: center; min-height: 7.5rem; }
+.lx-cand.win { border-color: var(--color-fg-muted); }
+.lx-photo { width: 4.2rem; height: 5.15rem; border-radius: var(--cds-radius); object-fit: cover; flex: none; background: var(--color-bg); }
+.lx-initials { width: 4.2rem; height: 5.15rem; border-radius: var(--cds-radius); flex: none; display: flex; align-items: center; justify-content: center; font-family: var(--font-anthropic-serif); font-size: var(--cds-font-size-title); color: #fff; }
+.lx-cand-body { min-width: 0; flex: 1; }
+.lx-cand-name { font-weight: var(--cds-font-weight-medium); font-size: var(--cds-font-size-body); overflow: hidden; text-overflow: ellipsis; }
+.lx-cand-party { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+.lx-badge { font-size: 0.68rem; letter-spacing: .04em; text-transform: uppercase; border: 1px solid currentColor; border-radius: 999px; padding: 0 0.4rem; }
+.lx-cand-pct { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); font-variant-numeric: tabular-nums; line-height: 1.15; margin-top: 2px; }
+.lx-cand-votes { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); font-variant-numeric: tabular-nums; }
+.lx-cand-bar { height: 4px; border-radius: 2px; background: var(--color-border-line); margin-top: 6px; overflow: hidden; }
+.lx-cand-bar i { display: block; height: 100%; border-radius: 2px; }
+.lx-cand-bio { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); line-height: 1.45; margin: 0; flex-basis: 100%; border-top: 1px solid var(--color-border-line); padding-top: var(--cds-gap-sm); }
+.lx-cand-bio a { color: inherit; }
+.lx-cand:has(.lx-cand-bio) { flex-wrap: wrap; row-gap: var(--cds-gap-sm); }
+.lx-credit { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: calc(-1 * var(--cds-gap-sm)) 0 0; }
+.lx-credit a { color: inherit; }
+.lx-zoomctl { position: absolute; top: 8px; right: 8px; display: flex; flex-direction: column; gap: 4px; z-index: 2; }
+.lx-zoomctl button { width: 28px; height: 28px; border-radius: 6px; border: 1px solid var(--cds-border); background: var(--color-panel); color: var(--color-fg); font: 600 15px/1 var(--font-anthropic-sans); cursor: pointer; box-shadow: 0 1px 3px rgba(0,0,0,.08); }
+.lx-zoomctl button:hover { background: var(--color-bg); }
+.lx-zoomctl button[hidden] { display: none; }
+.lx-zoomhint { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); background: rgba(31,30,28,.78); color: #fff; padding: 6px 12px; border-radius: 6px; font-size: var(--cds-font-size-caption); pointer-events: none; opacity: 0; transition: opacity .2s; z-index: 2; }
+.lx-zoomhint.on { opacity: 1; }
+.lx-cities text { user-select: none; }
+.lx-zl path { vector-effect: non-scaling-stroke; }
+.lx-map > svg { overflow: hidden; }
+.lx-credit-after { margin: var(--cds-gap-sm) 0 0; line-height: 1.4; }
+.lx-tabs { display: flex; gap: var(--cds-gap-xs); flex-wrap: wrap; border-bottom: 1px solid var(--color-border-line); margin-top: var(--cds-gap-sm); }
+.lx-tab { font: inherit; font-size: var(--cds-font-size-body); background: none; border: 0; border-bottom: 2px solid transparent; padding: 0.5rem 0.8rem; color: var(--color-fg-muted); cursor: pointer; margin-bottom: -1px; }
+.lx-tab:hover { color: var(--color-fg); }
+.lx-tab[aria-selected="true"] { color: var(--color-fg); border-bottom-color: var(--color-fg); font-weight: var(--cds-font-weight-medium); }
+.lx-sub { display: grid; gap: var(--cds-gap-lg); }
+.lx-tabtitle { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-heading); margin: 0 0 var(--cds-gap-xs); }
+.lx-cand-cell { text-align: left !important; }
+#lr-history td { white-space: normal; } #lr-history td:first-child, #lr-history td:nth-child(4), #lr-history td:nth-child(5) { white-space: nowrap; }
+.lx-cell-pct { color: var(--color-fg-muted); }
+.lx-foot { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: 0; }
+[data-dash-source-state=refreshing] { opacity: .5; transition: opacity var(--cds-dur-slow); }
+.lx-chamber { display: grid; grid-template-columns: minmax(0, 22rem) minmax(0, 1fr); gap: var(--cds-gap-lg); align-items: center; }
+@media (max-width: 40rem) { .lx-chamber { grid-template-columns: 1fr; } }
+.lx-chamber-svg { min-height: 11rem; }
+.lx-chamber-text { display: grid; gap: var(--cds-gap-xs); }
+.lx-chamber-nums { display: flex; gap: var(--cds-gap-lg); flex-wrap: wrap; font-size: var(--cds-font-size-body); font-variant-numeric: tabular-nums; }
+.lx-chamber-nums b { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); }
+.lx-chamber-note { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); border-left: 2px solid var(--color-border-line); padding-left: var(--cds-pad-sm); }
+[hidden] { display: none !important; }
+.lx-pickers { gap: var(--cds-gap-md); }
+.lx-select { display: inline-flex; align-items: center; gap: var(--cds-gap-sm); font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+.lx-select select { font: inherit; font-size: var(--cds-font-size-body); color: var(--color-fg); background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: 8px; padding: 0.35rem 2rem 0.35rem 0.7rem; min-height: 2.2rem; cursor: pointer; appearance: none; -webkit-appearance: none;
+  background-image: linear-gradient(45deg, transparent 50%, currentColor 50%), linear-gradient(135deg, currentColor 50%, transparent 50%); background-position: calc(100% - 15px) 52%, calc(100% - 10px) 52%; background-size: 5px 5px; background-repeat: no-repeat; }
+.lx-select select:hover { border-color: var(--color-fg-muted); }
+.lx-select select:focus-visible { outline: 2px solid var(--lx-dem); outline-offset: 1px; }
+.lx-subtabs { display: flex; gap: var(--cds-gap-xs); flex-wrap: wrap; }
+.lx-pill-new { border-style: dashed; }
+.lx-live { display: flex; gap: var(--cds-gap-sm); align-items: center; flex-wrap: wrap; font-size: var(--cds-font-size-caption); color: var(--color-fg); background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-sm) var(--cds-pad-md); }
+.lx-live-dot { width: .5rem; height: .5rem; border-radius: 50%; background: var(--cds-chart-muted); flex: none; }
+.lx-live-dot.on { background: var(--color-bad); }
+@media (prefers-reduced-motion: no-preference) { .lx-live-dot.on { animation: lxpulse 1.6s var(--cds-ease-out) infinite; } }
+@keyframes lxpulse { 50% { opacity: .35; } }
+.lx-live-src { color: var(--color-fg-muted); }
+.lx-empty { color: var(--color-fg-muted); font-size: var(--cds-font-size-body); display: flex; align-items: center; min-height: 5rem; grid-column: 1 / -1; }
+.lx-empty-map { min-height: 18rem; display: flex; align-items: center; justify-content: center; text-align: center; color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); padding: var(--cds-pad-lg); border: 1px dashed var(--color-border-line); border-radius: var(--cds-radius); }
+</style>
+
+<div class="lx">
+  <header class="lx-head" id="top">
+    <h1>State-level election results</h1>
+    <nav class="lx-states" aria-label="States"><a href="../">Texas</a><a href="../nc/">North Carolina</a><a href="./" aria-current="page">Georgia</a></nav>
+    <nav class="lx-tabs" role="tablist" aria-label="Dashboard sections">
+      <button class="lx-tab" role="tab" data-tab="statewide" aria-selected="true">Statewide &amp; federal</button>
+      <button class="lx-tab" role="tab" data-tab="house" aria-selected="false">Georgia House</button>
+      <button class="lx-tab" role="tab" data-tab="senate" aria-selected="false">Georgia Senate</button>
+    </nav>
+  </header>
+
+  <section id="tab-statewide" class="lx-sub">
+    <div class="lx-subtabs" role="group" aria-label="Statewide and federal views">
+      <button class="lx-pill lx-subtab" data-sub="offices" aria-pressed="true">Statewide offices</button>
+      <button class="lx-pill lx-subtab" data-sub="ushouse" aria-pressed="false">U.S. House</button>
+    </div>
+    <section id="view-offices" class="lx-sub">
+  <div class="lx-live" id="sw-live" hidden></div>
+  <p class="lx-take dash-skeleton" id="takeaway">—</p>
+  <section class="lx-controls" id="controls" aria-label="Choose a race">
+    <div id="race-rows" class="lx-row lx-pickers"></div>
+  </section>
+
+  <section id="candidates" aria-label="Candidates">
+    <div class="lx-cands dash-skeleton" id="cand-cards" data-source="candidates_statewide"></div>
+  </section>
+  <p class="lx-credit" id="photo-credit"></p>
+
+  <section class="lx-kpis" id="kpis">
+    <div class="lx-card" id="kpi-margin"><div class="lx-kpi-label">Statewide margin (R − D)</div><div class="lx-kpi-value dash-skeleton" data-source="statewide" data-field="margin_label">—</div><div class="lx-kpi-sub">Shift from previous race: <span data-source="statewide" data-field="shift_label">—</span><span id="kpi-prev"></span></div></div>
+    <div class="lx-card" id="kpi-counties"><div class="lx-kpi-label">Counties carried</div><div class="lx-kpi-value dash-skeleton"><span class="lx-r" data-source="statewide" data-field="counties_rep">—</span> <span style="font-size:var(--cds-font-size-heading);color:var(--color-fg-muted)">R</span> · <span class="lx-d" data-source="statewide" data-field="counties_dem">—</span> <span style="font-size:var(--cds-font-size-heading);color:var(--color-fg-muted)">D</span></div><div class="lx-kpi-sub" id="kpi-counties-other"></div></div>
+    <div class="lx-card" id="kpi-votes"><div class="lx-kpi-label" id="kpi-votes-label">Total votes cast in race</div><div class="lx-kpi-value dash-skeleton" data-source="statewide" data-field="total_votes">—</div><div class="lx-kpi-sub">Third-party &amp; write-in: <span data-source="statewide" data-field="other_votes">—</span><span id="kpi-other-pct"></span></div></div>
+  </section>
+
+  <section class="lx-grid">
+    <div class="lx-card" id="map-card">
+      <div class="lx-cardhead">
+        <div><h2 id="map-title">County results</h2><p class="lx-note" id="map-note">Color shows who won each county and by how much. Click a county to follow it over time.</p></div>
+        <div class="lx-row" role="group" aria-label="Map view"><button class="lx-pill" data-view="result">Winner &amp; margin</button><button class="lx-pill" data-view="shift">Shift from previous race</button><button class="lx-pill" data-view="reporting" hidden>Reporting</button></div>
+      </div>
+      <div class="lx-map dash-skeleton" id="map" data-source="by_county county_shapes"></div>
+      <div class="lx-legend" id="legend"></div>
+      <div class="lx-tip" id="map-tip"></div>
+    </div>
+
+    <div class="lx-card" id="trend-card">
+      <div class="lx-cardhead">
+        <div><h2 id="trend-title">Margin over time</h2><p class="lx-note" id="trend-note">Republican minus Democratic share of the vote, every race 2016–2025.</p></div>
+        <button class="lx-clear" id="clear-county" hidden></button>
+      </div>
+      <div class="lx-trend dash-skeleton" id="trend" data-source="statewide by_county"></div>
+      <div class="lx-legend" id="trend-legend"></div>
+      <div class="lx-tip" id="trend-tip"></div>
+    </div>
+  </section>
+
+  <section class="lx-card" id="county-table-card">
+    <div class="lx-cardhead"><div><h2 id="table-title">All 159 counties</h2><p class="lx-note">Sort by any column; click a row to highlight it on the map and chart.</p></div></div>
+    <div class="lx-tablebar"><input class="lx-search" id="search" type="search" placeholder="Search counties" aria-label="Search counties"><span class="lx-note" id="count" style="margin:0"></span></div>
+    <div class="lx-tablewrap">
+      <table class="lx-table" id="county-table" data-source="by_county" data-row-key="race,county_fips">
+        <thead><tr>
+          <th data-field="county"><button data-sort="county">County</button></th>
+          <th data-field="c1_pct"><button data-sort="c1_pct">—</button></th>
+          <th data-field="c2_pct"><button data-sort="c2_pct">—</button></th>
+          <th data-field="c3_pct" class="lx-hide-narrow"><button data-sort="c3_pct">—</button></th>
+          <th data-field="c4_pct" class="lx-hide-narrow"><button data-sort="c4_pct">—</button></th>
+          <th data-field="margin_label"><button data-sort="margin">Margin</button></th>
+          <th data-field="shift_label"><button data-sort="shift">Shift</button></th>
+          <th data-field="total_votes" class="lx-hide-narrow"><button data-sort="total_votes">Votes</button></th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <p class="lx-foot" id="method">Margin is the Republican candidate's share minus the Democrat's, of all votes cast in the race. "Shift" compares a county with the previous general election for the same office; a runoff is compared with the general election it followed. Both U.S. Senate seats form one series, as do the Public Service Commission seats, whose members are elected statewide though each must live in a district. The 2020 special Senate election was an all-party contest with 20 candidates; its margin counts every Republican and every Democrat. No PSC elections were held in 2022 or 2024 while a voting-rights lawsuit and a new election schedule were worked out; Districts 2 and 3 were elected in November 2025, and Districts 3 and 5 are on the 2026 ballot. Supreme Court and Court of Appeals elections are nonpartisan and held with the May primary; only contested seats are shown, with no margin or shift. Results: Georgia Secretary of State official results (results.sos.ga.gov), statewide and by county; the 2020 presidential count is the state's certified recount. County results add up exactly to the state's totals in every race. 2026 November results come from the Secretary of State's election-night results and are unofficial until certified. Write-in votes aren't reported in the state's files. Turnout isn't included yet.</p>
+    </section>
+    <section id="view-ushouse" hidden></section>
+  </section>
+  <section id="tab-house" hidden></section>
+  <section id="tab-senate" hidden></section>
+</div>
+
+
+
+<template id="tpl-tab-house">
+  <div class="lx-sub">
+    <header><h2 class="lx-tabtitle">Georgia House elections by district</h2></header>
+    <div class="lx-live" id="h-live" hidden></div>
+    <p class="lx-take dash-skeleton" id="h-take">—</p>
+    <section class="lx-controls"><div class="lx-row"><span class="lx-row-label">Election</span><span class="lx-row" id="h-years"></span></div></section>
+    <section class="lx-card lx-chamber" id="h-chamber-card" aria-label="Whole chamber">
+      <div class="lx-chamber-svg dash-skeleton" id="h-chamber" data-source="house_chamber"></div>
+      <div class="lx-chamber-text" id="h-chamber-text"></div>
+    </section>
+    <section aria-label="Results by party"><div class="lx-cands dash-skeleton" id="h-parties" data-source="house_parties"></div></section>
+    <p class="lx-credit" id="h-parties-note"></p>
+    <section class="lx-kpis">
+      <div class="lx-card"><div class="lx-kpi-label">Seats on the ballot</div><div class="lx-kpi-value dash-skeleton" id="h-k-seats" data-source="house_summary" data-field="seats_total">—</div><div class="lx-kpi-sub" id="h-k-seats-sub"></div></div>
+      <div class="lx-card"><div class="lx-kpi-label">Uncontested races</div><div class="lx-kpi-value dash-skeleton" id="h-k-unc" data-source="house_summary" data-field="uncontested">—</div><div class="lx-kpi-sub" id="h-k-unc-sub"></div></div>
+      <div class="lx-card"><div class="lx-kpi-label">Closest Republican–Democratic race</div><div class="lx-kpi-value dash-skeleton" id="h-k-close" data-source="house_summary" data-field="closest_label" style="font-size:var(--cds-font-size-heading)">—</div></div>
+      <div class="lx-card"><div class="lx-kpi-label">Total votes reported</div><div class="lx-kpi-value dash-skeleton" id="h-k-votes" data-source="house_summary" data-field="total_votes">—</div><div class="lx-kpi-sub" id="h-k-votes-sub"></div></div>
+    </section>
+    <section class="lx-grid">
+      <div class="lx-card" id="h-map-card">
+        <div class="lx-cardhead"><div><h2>District results</h2><p class="lx-note">Red for Republican margins, blue for Democratic; darker means a bigger margin. Click a district to see its candidates.</p></div></div>
+        <div class="lx-row" id="h-zoom" style="margin-bottom:var(--cds-gap-sm)"></div>
+        <div class="lx-map dash-skeleton" id="h-map" data-source="house_by_district house_shapes"></div>
+        <div class="lx-legend" id="h-legend"></div>
+        <div class="lx-tip" id="h-map-tip"></div>
+      </div>
+      <div style="display:grid;gap:var(--cds-gap-md);align-content:start">
+        <div class="lx-card" id="h-detail-card">
+          <div class="lx-cardhead"><div><h2 id="h-detail-title">District</h2><p class="lx-note" id="h-detail-note"></p></div><button class="lx-clear" id="h-clear" hidden></button></div>
+          <div class="lx-cands dash-skeleton" id="h-detail" data-source="house_by_district" style="grid-template-columns:repeat(auto-fit,minmax(min(100%,12rem),1fr))"></div>
+        </div>
+        <div class="lx-card" id="h-seats-card">
+          <h2>Seats won in each election</h2><p class="lx-note" id="h-seats-note"></p>
+          <div class="lx-trend dash-skeleton" id="h-seats" data-source="house_summary" style="min-height:15rem"></div>
+          <div class="lx-tip" id="h-seats-tip"></div>
+        </div>
+      </div>
+    </section>
+    <section class="lx-card">
+      <div class="lx-cardhead"><div><h2>All districts</h2><p class="lx-note">Top four candidates in each race with their share of the vote; sort by any column, click a row to see the race.</p></div></div>
+      <div class="lx-tablebar"><input class="lx-search" id="h-search" type="search" placeholder="Search district or candidate" aria-label="Search districts"><span class="lx-note" id="h-count" style="margin:0"></span></div>
+      <div class="lx-tablewrap">
+        <table class="lx-table" id="h-table" data-source="house_by_district" data-row-key="year,district">
+          <thead><tr>
+            <th data-field="district"><button data-sort="district" data-label="District">District</button></th>
+            <th data-field="c1_label"><button data-sort="c1_label" data-label="Winner">Winner</button></th>
+            <th data-field="c2_label"><button data-sort="c2_label" data-label="2nd">2nd</button></th>
+            <th data-field="c3_label" class="lx-hide-narrow"><button data-sort="c3_label" data-label="3rd">3rd</button></th>
+            <th data-field="c4_label" class="lx-hide-narrow"><button data-sort="c4_label" data-label="4th">4th</button></th>
+            <th data-field="margin_label"><button data-sort="margin" data-label="Margin">Margin</button></th>
+            <th data-field="total_votes" class="lx-hide-narrow"><button data-sort="total_votes" data-label="Votes">Votes</button></th>
+          </tr></thead><tbody></tbody>
+        </table>
+      </div>
+    </section>
+    <p class="lx-foot">Georgia House results: Georgia Secretary of State official results; each year's seat totals match the official results. All 180 seats are up every two years. Uncontested races are shown with the winner's votes. In 2018, Districts 14 and 28 had no general-election contest after the Republican nominees were chosen in special primaries in December (Mitchell Scoggins and Chris Erwin); they are listed as unopposed without a vote total. Districts follow the map in force each year: the 2012 plan with later amendments (2016–2020), the 2021 plan (2022), and the 2023 plan drawn after a federal court ruled the 2021 map diluted Black voting strength (2024 and 2026). A district number can cover different ground in different years. Maps: U.S. Census Bureau cartographic boundary files; each was checked against the results county by county. The chamber count uses election results only; resignations and special elections between general elections aren't included. 2026 results come from the Secretary of State's election-night results and are unofficial until certified.</p>
+  </div>
+</template>
+<template id="tpl-tab-senate">
+  <div class="lx-sub">
+    <header><h2 class="lx-tabtitle">Georgia Senate elections by district</h2></header>
+    <div class="lx-live" id="s-live" hidden></div>
+    <p class="lx-take dash-skeleton" id="s-take">—</p>
+    <section class="lx-controls"><div class="lx-row"><span class="lx-row-label">Election</span><span class="lx-row" id="s-years"></span></div></section>
+    <section class="lx-card lx-chamber" id="s-chamber-card" aria-label="Whole chamber">
+      <div class="lx-chamber-svg dash-skeleton" id="s-chamber" data-source="senate_chamber"></div>
+      <div class="lx-chamber-text" id="s-chamber-text"></div>
+    </section>
+    <section aria-label="Results by party"><div class="lx-cands dash-skeleton" id="s-parties" data-source="senate_parties"></div></section>
+    <p class="lx-credit" id="s-parties-note"></p>
+    <section class="lx-kpis">
+      <div class="lx-card"><div class="lx-kpi-label">Seats on the ballot</div><div class="lx-kpi-value dash-skeleton" id="s-k-seats" data-source="senate_summary" data-field="seats_total">—</div><div class="lx-kpi-sub" id="s-k-seats-sub"></div></div>
+      <div class="lx-card"><div class="lx-kpi-label">Uncontested races</div><div class="lx-kpi-value dash-skeleton" id="s-k-unc" data-source="senate_summary" data-field="uncontested">—</div><div class="lx-kpi-sub" id="s-k-unc-sub"></div></div>
+      <div class="lx-card"><div class="lx-kpi-label">Closest Republican–Democratic race</div><div class="lx-kpi-value dash-skeleton" id="s-k-close" data-source="senate_summary" data-field="closest_label" style="font-size:var(--cds-font-size-heading)">—</div></div>
+      <div class="lx-card"><div class="lx-kpi-label">Total votes reported</div><div class="lx-kpi-value dash-skeleton" id="s-k-votes" data-source="senate_summary" data-field="total_votes">—</div><div class="lx-kpi-sub" id="s-k-votes-sub"></div></div>
+    </section>
+    <section class="lx-grid">
+      <div class="lx-card" id="s-map-card">
+        <div class="lx-cardhead"><div><h2>District results</h2><p class="lx-note">Red for Republican margins, blue for Democratic; darker means a bigger margin. Click a district to see its candidates.</p></div></div>
+        <div class="lx-row" id="s-zoom" style="margin-bottom:var(--cds-gap-sm)"></div>
+        <div class="lx-map dash-skeleton" id="s-map" data-source="senate_by_district senate_shapes"></div>
+        <div class="lx-legend" id="s-legend"></div>
+        <div class="lx-tip" id="s-map-tip"></div>
+      </div>
+      <div style="display:grid;gap:var(--cds-gap-md);align-content:start">
+        <div class="lx-card" id="s-detail-card">
+          <div class="lx-cardhead"><div><h2 id="s-detail-title">District</h2><p class="lx-note" id="s-detail-note"></p></div><button class="lx-clear" id="s-clear" hidden></button></div>
+          <div class="lx-cands dash-skeleton" id="s-detail" data-source="senate_by_district" style="grid-template-columns:repeat(auto-fit,minmax(min(100%,12rem),1fr))"></div>
+        </div>
+        <div class="lx-card" id="s-seats-card">
+          <h2>Seats won in each election</h2><p class="lx-note" id="s-seats-note"></p>
+          <div class="lx-trend dash-skeleton" id="s-seats" data-source="senate_summary" style="min-height:15rem"></div>
+          <div class="lx-tip" id="s-seats-tip"></div>
+        </div>
+      </div>
+    </section>
+    <section class="lx-card">
+      <div class="lx-cardhead"><div><h2>All districts</h2><p class="lx-note">Top four candidates in each race with their share of the vote; sort by any column, click a row to see the race.</p></div></div>
+      <div class="lx-tablebar"><input class="lx-search" id="s-search" type="search" placeholder="Search district or candidate" aria-label="Search districts"><span class="lx-note" id="s-count" style="margin:0"></span></div>
+      <div class="lx-tablewrap">
+        <table class="lx-table" id="s-table" data-source="senate_by_district" data-row-key="year,district">
+          <thead><tr>
+            <th data-field="district"><button data-sort="district" data-label="District">District</button></th>
+            <th data-field="c1_label"><button data-sort="c1_label" data-label="Winner">Winner</button></th>
+            <th data-field="c2_label"><button data-sort="c2_label" data-label="2nd">2nd</button></th>
+            <th data-field="c3_label" class="lx-hide-narrow"><button data-sort="c3_label" data-label="3rd">3rd</button></th>
+            <th data-field="c4_label" class="lx-hide-narrow"><button data-sort="c4_label" data-label="4th">4th</button></th>
+            <th data-field="margin_label"><button data-sort="margin" data-label="Margin">Margin</button></th>
+            <th data-field="total_votes" class="lx-hide-narrow"><button data-sort="total_votes" data-label="Votes">Votes</button></th>
+          </tr></thead><tbody></tbody>
+        </table>
+      </div>
+    </section>
+    <p class="lx-foot">Georgia Senate results: Georgia Secretary of State official results; each year's seat totals match the official results. All 56 seats are up every two years. In 2020 the District 39 Democratic nominee, Nikema Williams, withdrew to run for Congress; Sonya Halpern won the special primary and its December runoff and had no general-election opponent, so the seat is listed as unopposed without a vote total. Districts follow the map in force each year: the 2012 plan with later amendments (2016–2020), the 2021 plan (2022) and the 2023 court-ordered plan (2024 and 2026). Maps: U.S. Census Bureau cartographic boundary files, checked against the results county by county. 2026 results come from the Secretary of State's election-night results and are unofficial until certified.</p>
+  </div>
+</template>
+<template id="tpl-view-ushouse">
+  <div class="lx-sub">
+    <header><h2 class="lx-tabtitle">U.S. House elections by district</h2></header>
+    <div class="lx-live" id="u-live" hidden></div>
+    <p class="lx-take dash-skeleton" id="u-take">—</p>
+    <section class="lx-controls"><div class="lx-row"><span class="lx-row-label">Election</span><span class="lx-row" id="u-years"></span></div></section>
+    <section aria-label="Results by party"><div class="lx-cands dash-skeleton" id="u-parties" data-source="ushouse_parties"></div></section>
+    <p class="lx-credit" id="u-parties-note"></p>
+    <section class="lx-kpis">
+      <div class="lx-card"><div class="lx-kpi-label">Seats on the ballot</div><div class="lx-kpi-value dash-skeleton" id="u-k-seats" data-source="ushouse_summary" data-field="seats_total">—</div><div class="lx-kpi-sub" id="u-k-seats-sub"></div></div>
+      <div class="lx-card"><div class="lx-kpi-label">Uncontested races</div><div class="lx-kpi-value dash-skeleton" id="u-k-unc" data-source="ushouse_summary" data-field="uncontested">—</div><div class="lx-kpi-sub" id="u-k-unc-sub"></div></div>
+      <div class="lx-card"><div class="lx-kpi-label">Closest Republican–Democratic race</div><div class="lx-kpi-value dash-skeleton" id="u-k-close" data-source="ushouse_summary" data-field="closest_label" style="font-size:var(--cds-font-size-heading)">—</div></div>
+      <div class="lx-card"><div class="lx-kpi-label">Total votes reported</div><div class="lx-kpi-value dash-skeleton" id="u-k-votes" data-source="ushouse_summary" data-field="total_votes">—</div><div class="lx-kpi-sub" id="u-k-votes-sub"></div></div>
+    </section>
+    <section class="lx-grid">
+      <div class="lx-card" id="u-map-card">
+        <div class="lx-cardhead"><div><h2>District results</h2><p class="lx-note">Red for Republican margins, blue for Democratic; darker means a bigger margin. Click a district to see its candidates.</p></div></div>
+        <div class="lx-row" id="u-zoom" style="margin-bottom:var(--cds-gap-sm)"></div>
+        <div class="lx-map dash-skeleton" id="u-map" data-source="ushouse_by_district ushouse_shapes"></div>
+        <div class="lx-legend" id="u-legend"></div>
+        <div class="lx-tip" id="u-map-tip"></div>
+      </div>
+      <div style="display:grid;gap:var(--cds-gap-md);align-content:start">
+        <div class="lx-card" id="u-detail-card">
+          <div class="lx-cardhead"><div><h2 id="u-detail-title">District</h2><p class="lx-note" id="u-detail-note"></p></div><button class="lx-clear" id="u-clear" hidden></button></div>
+          <div class="lx-cands dash-skeleton" id="u-detail" data-source="ushouse_by_district" style="grid-template-columns:repeat(auto-fit,minmax(min(100%,12rem),1fr))"></div>
+        </div>
+        <div class="lx-card" id="u-seats-card">
+          <h2>Seats won in each election</h2><p class="lx-note" id="u-seats-note"></p>
+          <div class="lx-trend dash-skeleton" id="u-seats" data-source="ushouse_summary" style="min-height:15rem"></div>
+          <div class="lx-tip" id="u-seats-tip"></div>
+        </div>
+      </div>
+    </section>
+    <section class="lx-card">
+      <div class="lx-cardhead"><div><h2>All districts</h2><p class="lx-note">Top four candidates in each race with their share of the vote; sort by any column, click a row to see the race.</p></div></div>
+      <div class="lx-tablebar"><input class="lx-search" id="u-search" type="search" placeholder="Search district or candidate" aria-label="Search districts"><span class="lx-note" id="u-count" style="margin:0"></span></div>
+      <div class="lx-tablewrap">
+        <table class="lx-table" id="u-table" data-source="ushouse_by_district" data-row-key="year,district">
+          <thead><tr>
+            <th data-field="district"><button data-sort="district" data-label="District">District</button></th>
+            <th data-field="c1_label"><button data-sort="c1_label" data-label="Winner">Winner</button></th>
+            <th data-field="c2_label"><button data-sort="c2_label" data-label="2nd">2nd</button></th>
+            <th data-field="c3_label" class="lx-hide-narrow"><button data-sort="c3_label" data-label="3rd">3rd</button></th>
+            <th data-field="c4_label" class="lx-hide-narrow"><button data-sort="c4_label" data-label="4th">4th</button></th>
+            <th data-field="margin_label"><button data-sort="margin" data-label="Margin">Margin</button></th>
+            <th data-field="total_votes" class="lx-hide-narrow"><button data-sort="total_votes" data-label="Votes">Votes</button></th>
+          </tr></thead><tbody></tbody>
+        </table>
+      </div>
+    </section>
+    <p class="lx-foot">U.S. House results: Georgia Secretary of State official results. Districts: the 2012 plan (2016–2020), the 2021 plan (2022) and the 2023 plan, redrawn after a federal court found the 2021 map violated the Voting Rights Act (2024 and 2026). Georgia has had 14 seats throughout. Maps from the U.S. Census Bureau. Special elections between general elections aren't shown. 2026 results are unofficial until certified.</p>
+  </div>
+</template>
+
+
+
+
+
+</main>
+<footer class="site-foot">
+  <div class="grid">
+    <div>
+      <h2>Download the data</h2>
+      <ul>
+        <li><a href="data/ga_statewide_results_by_county.csv" download>Statewide races by county (CSV)</a></li>
+        <li><a href="data/ga_ushouse_results.csv" download>U.S. House by district (CSV)</a></li>
+        <li><a href="data/ga_house_results.csv" download>Georgia House by district (CSV)</a> · <a href="data/ga_senate_results.csv" download>Georgia Senate (CSV)</a></li>
+        <li><a href="data/live_2026.csv" download>2026 results, unofficial (CSV)</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2>Sources</h2>
+      <ul>
+        <li>Georgia Secretary of State <a href="https://results.sos.ga.gov/results/public/Georgia">election results</a> (official results 2016–2025; election-night results 2026)</li>
+        <li>U.S. Census Bureau <a href="https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html">cartographic boundary files</a> (county, congressional and legislative district maps)</li>
+      </ul>
+      <p>Results through 2025 are certified. 2026 results are unofficial until the state certifies them. Site updated October 24, 2026.</p>
+    </div>
+  </div>
+</footer>
+<script>window.DASH_DATASETS = {"house_results": {"url": "data/ga_house_results.csv", "format": "csv"}, "senate_results": {"url": "data/ga_senate_results.csv", "format": "csv"}, "house_shapes": {"url": "data/ga_house_district_shapes.json", "format": "json"}, "senate_shapes": {"url": "data/ga_senate_district_shapes.json", "format": "json"}, "results": {"url": "data/ga_statewide_results_by_county.csv", "format": "csv"}, "county_shapes": {"url": "data/ga_county_shapes.json", "format": "json"}, "ushouse_results": {"url": "data/ga_ushouse_results.csv", "format": "csv"}, "ushouse_shapes": {"url": "data/ga_ushouse_district_shapes.json", "format": "json"}, "live_2026": {"url": "data/live_2026.csv", "format": "csv", "live": true}, "live_status": {"url": "data/live_status.json", "format": "json", "live": true}}; window.DASH_PARAMS = {"county": null, "h_district": null, "h_year": 2026, "s_district": null, "s_year": 2026, "race": "2026 Governor", "sw_view": "offices", "tab": "statewide", "u_district": null, "u_year": 2026, "view": "result"};</script>
+<script src="js/d3.v7.9.0.min.js"></script>
+<script src="js/dash-runtime.js"></script>
+<script src="js/common.js"></script>
+<script src="js/statewide.js"></script>
+<script src="js/districts.js"></script>
+</body>
+</html>
