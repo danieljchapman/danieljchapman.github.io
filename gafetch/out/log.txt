@@ -1,0 +1,47 @@
+census county 200 12587934
+  features 159 ['STATEFP', 'COUNTYFP', 'COUNTYNS', 'AFFGEOID', 'GEOID', 'NAME', 'NAMELSAD', 'STUSPS', 'STATE_NAME', 'LSAD', 'ALAND', 'AWATER']
+census cd115 200 7243093
+  features 14 ['STATEFP', 'CD115FP', 'AFFGEOID', 'GEOID', 'LSAD', 'CDSESSN', 'ALAND', 'AWATER']
+census cd118 200 6966121
+  features 14 ['STATEFP', 'CD118FP', 'AFFGEOID', 'GEOID', 'NAMELSAD', 'LSAD', 'CDSESSN', 'ALAND', 'AWATER']
+census cd119 200 7045981
+  features 14 ['STATEFP', 'CD119FP', 'GEOIDFQ', 'GEOID', 'NAMELSAD', 'LSAD', 'CDSESSN', 'ALAND', 'AWATER']
+census sldl2018 200 696922
+  features 180 ['STATEFP', 'SLDLST', 'AFFGEOID', 'GEOID', 'NAME', 'LSAD', 'LSY', 'ALAND', 'AWATER']
+census sldu2018 200 386636
+  features 56 ['STATEFP', 'SLDUST', 'AFFGEOID', 'GEOID', 'NAME', 'LSAD', 'LSY', 'ALAND', 'AWATER']
+census sldl2016 200 703461
+  features 180 ['STATEFP', 'SLDLST', 'AFFGEOID', 'GEOID', 'NAME', 'LSAD', 'LSY', 'ALAND', 'AWATER']
+census sldu2016 200 381323
+  features 56 ['STATEFP', 'SLDUST', 'AFFGEOID', 'GEOID', 'NAME', 'LSAD', 'LSY', 'ALAND', 'AWATER']
+census sldl2022 200 693401
+  features 180 ['STATEFP', 'SLDLST', 'AFFGEOID', 'GEOID', 'NAME', 'NAMELSAD', 'STUSPS', 'STATE_NAME', 'LSAD', 'LSY', 'ALAND', 'AWATER']
+census sldu2022 200 361405
+  features 56 ['STATEFP', 'SLDUST', 'AFFGEOID', 'GEOID', 'NAME', 'NAMELSAD', 'STUSPS', 'STATE_NAME', 'LSAD', 'LSY', 'ALAND', 'AWATER']
+census sldl2024 200 690520
+  features 180 ['STATEFP', 'SLDLST', 'GEOIDFQ', 'GEOID', 'NAME', 'NAMELSAD', 'STUSPS', 'STATE_NAME', 'LSAD', 'LSY', 'ALAND', 'AWATER']
+census sldu2024 200 385540
+  features 56 ['STATEFP', 'SLDUST', 'GEOIDFQ', 'GEOID', 'NAME', 'NAMELSAD', 'STUSPS', 'STATE_NAME', 'LSAD', 'LSY', 'ALAND', 'AWATER']
+census sldl2024t 200 5651555
+  features 180 ['STATEFP', 'SLDLST', 'GEOID', 'GEOIDFQ', 'NAMELSAD', 'LSAD', 'LSY', 'MTFCC', 'FUNCSTAT', 'ALAND', 'AWATER', 'INTPTLAT', 'INTPTLON']
+census sldu2024t 200 3241250
+  features 56 ['STATEFP', 'SLDUST', 'GEOID', 'GEOIDFQ', 'NAMELSAD', 'LSAD', 'LSY', 'MTFCC', 'FUNCSTAT', 'ALAND', 'AWATER', 'INTPTLAT', 'INTPTLON']
+cookies ['aws-waf-token']
+elections.json 200 14980
+match {'State': 'GA', 'StateId': '605', 'County': '', 'CountyId': '', 'EID': '116564', 'ElectionName': 'December 6, 2022 - General Election Runoff', 'Date': '12/6/2022 12:00:00 AM'}
+match {'State': 'GA', 'StateId': '605', 'County': '', 'CountyId': '', 'EID': '115465', 'ElectionName': 'November 8, 2022 - General/Special Election', 'Date': '11/8/2022 12:00:00 AM'}
+match {'State': 'GA', 'StateId': '605', 'County': '', 'CountyId': '', 'EID': '107556', 'ElectionName': 'January 5, 2021 Federal Runoff', 'Date': '1/5/2021 12:00:00 AM'}
+match {'State': 'GA', 'StateId': '605', 'County': '', 'CountyId': '', 'EID': '105369', 'ElectionName': 'November 3,2020-General Election', 'Date': '11/3/2020 12:00:00 AM'}
+match {'State': 'GA', 'StateId': '605', 'County': '', 'CountyId': '', 'EID': '93227', 'ElectionName': 'December 4, 2018 HD 28 Special Republican Primary', 'Date': '12/4/2018 12:00:00 AM'}
+match {'State': 'GA', 'StateId': '605', 'County': '', 'CountyId': '', 'EID': '93711', 'ElectionName': 'December 4, 2018 General Election Runoff', 'Date': '12/4/2018 12:00:00 AM'}
+match {'State': 'GA', 'StateId': '605', 'County': '', 'CountyId': '', 'EID': '91639', 'ElectionName': 'November 6, 2018 - General Election', 'Date': '11/6/2018 12:00:00 AM'}
+match {'State': 'GA', 'StateId': '605', 'County': '', 'CountyId': '', 'EID': '63991', 'ElectionName': 'November 8, 2016 - General Election', 'Date': '11/8/2016 12:00:00 AM'}
+ver 116564 403
+ver 115465 403
+ver 107556 403
+ver 105369 403
+ver 93711 403
+ver 91639 403
+ver 63991 403
+ev page https://results.sos.ga.gov/results/public/Georgia https://results.sos.ga.gov/results/public/Georgia Election Results
+ev page https://results.sos.ga.gov/results/public/Georgia/elections https://results.sos.ga.gov/results/public/Georgia/elections/elections Election Results
