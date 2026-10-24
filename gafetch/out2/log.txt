@@ -1,0 +1,13 @@
+page 2024NovGen State Election Results 283
+ text Export 1
+ text Download 1
+ text Reports 1
+page MunicipalGeneralSpecialElectionPSC11042025 State Election Results 189
+ text Export 1
+ text Download 1
+ text Reports 1
+page 11032026GeneralAndSpecialElection State Election Results 281
+ text Export 1
+ text Download 1
+ text Reports 1
+curl https://results.sos.ga.gov/results/public/api/jurisdictions/Georgia 200
