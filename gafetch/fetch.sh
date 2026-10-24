@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# run 3
-pip install -q playwright pyshp && python -m playwright install --with-deps chromium >/dev/null 2>&1
-python3 gafetch/probe3.py
+# run 4: election-night importer against the live state site
+mkdir -p gafetch/out4
+python3 ga/tools/ga_live.py --out gafetch/out4 > gafetch/out4/log.txt 2>&1; echo "exit $?" >> gafetch/out4/log.txt
