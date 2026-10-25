@@ -47,7 +47,11 @@
     "mail_day": null
    },
    "2026-10-23": {
-    "in_person_day": 54295,
+    "in_person_day": 54384,
+    "mail_day": null
+   },
+   "2026-10-24": {
+    "in_person_day": 36510,
     "mail_day": null
    }
   },
@@ -114,7 +118,7 @@
     "mail_day": 11936
    },
    "2026-10-20": {
-    "in_person_day": 51019,
+    "in_person_day": 51018,
     "mail_day": 147
    },
    "2026-10-21": {
@@ -122,12 +126,16 @@
     "mail_day": 1689
    },
    "2026-10-22": {
-    "in_person_day": 46365,
+    "in_person_day": 46364,
     "mail_day": 1185
    },
    "2026-10-23": {
     "in_person_day": 50949,
     "mail_day": 1385
+   },
+   "2026-10-24": {
+    "in_person_day": 51080,
+    "mail_day": 982
    }
   },
   "source": "Tarrant County Elections"
