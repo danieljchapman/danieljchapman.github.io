@@ -1,7 +1,7 @@
 [
  {
   "phase": "pre-election",
-  "updated_at": "2026-10-25T15:06:58Z",
+  "updated_at": "2026-10-25T15:12:28Z",
   "source": "Ohio Secretary of State, unofficial",
   "races": 139,
   "called": 0,
@@ -10,7 +10,7 @@
    0,
    8834
   ],
-  "feed_generated": "2026-10-25T12:09:10Z",
+  "feed_generated": "2026-10-25T03:12:10Z",
   "problems": [
    "the state feed is still a test file (mock votes set to zero)"
   ],
