@@ -1,0 +1,19 @@
+countypres.tab 400 122 https://dataverse.harvard.edu/api/access/datafile/13573089
+tlc2020.zip 200 54629265 https://data.capitol.texas.gov/dataset/35b16aee-0bb0-4866-b1ec-859f1f044241/resource/5af9f5e2-ca14-4e5d-880e-3c3cd891d3ed/download/2020-general-vtd-election-data-2020.zip
+tlc2024.zip 200 82066995 https://data.capitol.texas.gov/dataset/35b16aee-0bb0-4866-b1ec-859f1f044241/resource/e1cd6332-6a7a-4c78-ad2a-852268f6c7a2/download/2024-general-vtds-election-data.zip
+total 2904
+drwxr-xr-x 4 runner runner    4096 Oct 25 12:10 .
+drwxr-xr-x 5 runner runner    4096 Oct 25 12:07 ..
+-rw-r--r-- 1 runner runner  395171 Oct 25 12:09 bundle.js
+-rw-r--r-- 1 runner runner    3228 Oct 25 12:09 cookies.json
+-rw-r--r-- 1 runner runner     140 Oct 25 12:07 countypres.tab.gz
+-rw-r--r-- 1 runner runner       0 Oct 25 12:07 err.txt
+-rw-r--r-- 1 runner runner 1218530 Oct 25 12:09 feed_11032026GenUnTotCanSumm10252026-1209.xml
+-rw-r--r-- 1 runner runner     470 Oct 25 12:08 log.txt
+-rw-r--r-- 1 runner runner     148 Oct 25 12:10 pw.txt
+-rw-r--r-- 1 runner runner    3063 Oct 25 12:09 reqs.txt
+-rw-r--r-- 1 runner runner 1284757 Oct 25 12:10 sos.html
+drwxr-xr-x 2 runner runner    4096 Oct 25 12:08 tlc2020
+-rw-r--r-- 1 runner runner   13055 Oct 25 12:08 tlc2020.list
+drwxr-xr-x 2 runner runner    4096 Oct 25 12:08 tlc2024
+-rw-r--r-- 1 runner runner   16298 Oct 25 12:08 tlc2024.list
