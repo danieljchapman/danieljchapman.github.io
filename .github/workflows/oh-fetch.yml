@@ -1,0 +1,20 @@
+name: OH source fetch
+on:
+  push:
+    branches: [oh-fetch]
+    paths: [f/fetch.sh]
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: oh-fetch }
+      - run: bash f/fetch.sh
+      - if: always()
+        run: |
+          git config user.name "github-actions"; git config user.email "actions@users.noreply.github.com"
+          git pull -q --rebase origin oh-fetch || true
+          git add -A f/out* && git commit -q -m "OH fetch results [skip ci]" && git push origin oh-fetch
