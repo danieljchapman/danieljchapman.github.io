@@ -1,0 +1,60 @@
+name: OH election-night results
+
+# Ohio polls close at 7:30 pm Eastern (00:30 UTC Nov 4; EST, UTC-5).
+# Every 5 minutes from 00:15 to 06:05 UTC Nov 4 (7:15 pm – 1:05 am Eastern) in one long job; two start times in case
+# GitHub starts the first late (the second waits behind it and ends at once if the window is covered).
+# After that: every 10 minutes until 11:50 UTC, then hourly through Nov 20 while counties finish.
+# Source: the Secretary of State's "Ohio Decides" XML feed (oh/tools/oh_live.py), read through a headless Chromium
+# because the site's bot check refuses plain requests.
+on:
+  schedule:
+    - cron: '15 0 4 11 *'
+    - cron: '45 0 4 11 *'
+    - cron: '*/10 6-11 4 11 *'
+    - cron: '23 12-23 4 11 *'
+    - cron: '23 * 5-20 11 *'
+  workflow_dispatch:
+    inputs:
+      minutes:
+        description: 'Test run: how many minutes to keep updating (0 = one update)'
+        default: '0'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: oh-election-night
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 400
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install a headless browser
+        run: |
+          pip install -q playwright || (sleep 20; pip install -q playwright)
+          python3 -m playwright install --with-deps chromium >/dev/null || (sleep 20; sudo apt-get update -qq; python3 -m playwright install --with-deps chromium >/dev/null)
+      - name: Update
+        env:
+          MINUTES: ${{ github.event.inputs.minutes }}
+          SCHED: ${{ github.event.schedule }}
+        run: |
+          case "$SCHED" in
+            '15 0 4 11 *'|'45 0 4 11 *') end=$(date -u -d '2026-11-04T06:05:00Z' +%s) ;;
+            '') if [ "${MINUTES:-0}" = "0" ]; then bash oh/tools/fetch_live.sh; exit $?; fi
+                end=$(( $(date +%s) + MINUTES * 60 )) ;;
+            *) bash oh/tools/fetch_live.sh; exit $? ;;
+          esac
+          n=0
+          while [ "$(date +%s)" -lt "$end" ]; do
+            start=$(date +%s); n=$((n + 1))
+            echo "::group::Update $n at $(date -u +%H:%M:%S) UTC"
+            bash oh/tools/fetch_live.sh || echo "::warning::Update $n failed"
+            echo "::endgroup::"
+            wait=$(( 300 - ($(date +%s) - start) ))
+            [ $(( $(date +%s) + wait )) -ge "$end" ] && break
+            [ "$wait" -gt 0 ] && sleep "$wait"
+          done
+          echo "Finished after $n updates"
