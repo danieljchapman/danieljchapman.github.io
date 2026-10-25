@@ -1,18 +1,6 @@
-O=f/out7; mkdir -p $O
-get(){ curl -sSL -m 300 -o "$O/$1" -w "$1 %{http_code} %{size_download}\n" "$2" >> $O/log.txt; sleep 3; }
-get "2016_gen_county.xlsx" "https://web.archive.org/web/20180803222240id_/https://www.sos.state.oh.us/globalassets/elections/2016/gen/county.xlsx"
-get "2016_gen_countycanvass.xlsx" "https://web.archive.org/web/20201030210517id_/https://www.sos.state.oh.us/globalassets/elections/2016/gen/countycanvass.xlsx"
-get "2016_gen_turnoutbycounty.xlsx" "https://web.archive.org/web/20210520080123id_/https://www.sos.state.oh.us/globalassets/elections/2016/gen/turnoutbycounty.xlsx"
-get "2018_gen_2018-11-06_countyresultscounty.xlsx" "https://web.archive.org/web/20250306210100id_/https://www.ohiosos.gov/globalassets/elections/2018/gen/2018-11-06_countyresultscounty.xlsx"
-get "2018_gen_2018-11-06_stateissuecounty.xlsx" "https://web.archive.org/web/20230123155015id_/https://www.ohiosos.gov/globalassets/elections/2018/gen/2018-11-06_stateissuecounty.xlsx"
-get "2018_gen_2018-11-06_statewidecounty.xlsx" "https://web.archive.org/web/20230404044509id_/https://www.ohiosos.gov/globalassets/elections/2018/gen/2018-11-06_statewidecounty.xlsx"
-get "2018_gen_2018-11-06_statewidecounty_miami.xlsx" "https://web.archive.org/web/20201031164559id_/https://www.sos.state.oh.us/globalassets/elections/2018/gen/2018-11-06_statewidecounty_miami.xlsx"
-get "2018_gen_2018-11-06_turnoutcounty.xlsx" "https://web.archive.org/web/20250308153612id_/https://www.ohiosos.gov/globalassets/elections/2018/gen/2018-11-06_turnoutcounty.xlsx"
-get "2018_gen_2018-11-06_turnoutcounty_miami.xlsx" "https://web.archive.org/web/20250308190142id_/https://www.ohiosos.gov/globalassets/elections/2018/gen/2018-11-06_turnoutcounty_miami.xlsx"
-get "2020_gen_audit-montgomerycounty.xlsx" "https://web.archive.org/web/20210128132143id_/https://www.ohiosos.gov/globalassets/elections/2020/gen/audit-montgomerycounty.xlsx"
-get "2020_gen_countyracebycounty.xlsx" "https://web.archive.org/web/20210128140907id_/https://www.ohiosos.gov/globalassets/elections/2020/gen/countyracebycounty.xlsx"
-get "2020_gen_statewideresultsbycounty.xlsx" "https://web.archive.org/web/20210101092711id_/https://www.sos.state.oh.us/globalassets/elections/2020/gen/statewideresultsbycounty.xlsx"
-get "2020_gen_turnoutbycounty.xlsx" "https://web.archive.org/web/20210111162642id_/https://www.sos.state.oh.us/globalassets/elections/2020/gen/turnoutbycounty.xlsx"
-get "2022_gen_statewide-races-summary.xlsx" "https://web.archive.org/web/20221229143511id_/https://www.ohiosos.gov/globalassets/elections/2022/gen/statewide-races-summary.xlsx"
-get "2024_gen_official_statewide-races-precint-level.xlsx" "https://web.archive.org/web/20241222221124id_/https://www.ohiosos.gov/globalassets/elections/2024/gen/official/statewide-races-precint-level.xlsx"
-get "2024_gen_official_turnout-by-county.xlsx" "https://web.archive.org/web/20241214031934id_/https://www.ohiosos.gov/globalassets/elections/2024/gen/official/turnout-by-county.xlsx"
+O=f/out8; mkdir -p $O
+curl -sSL -m 600 -o $O/tl_2020_39_tabblock20.zip https://www2.census.gov/geo/tiger/TIGER2020/TABBLOCK20/tl_2020_39_tabblock20.zip -w "%{http_code} %{size_download}\n" > $O/log.txt
+pip install -q geopandas pyogrio openpyxl >> $O/log.txt 2>&1
+python3 f/dissolve.py $O >> $O/log.txt 2>&1
+rm -f $O/tl_2020_39_tabblock20.zip
+ls -la $O >> $O/log.txt
