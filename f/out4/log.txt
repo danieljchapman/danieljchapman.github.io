@@ -1,0 +1,42 @@
+countypres.tab 400 122 https://dataverse.harvard.edu/api/access/datafile/13573089?format=original
+countypres2.tab 400 122 https://dataverse.harvard.edu/api/access/datafile/13573089?format=tab
+shp/cb_2020_us_county_500k.zip 200 12587934 https://www2.census.gov/geo/tiger/GENZ2020/shp/cb_2020_us_county_500k.zip
+shp/cb_2018_39_sldl_500k.zip 200 341678 https://www2.census.gov/geo/tiger/GENZ2018/shp/cb_2018_39_sldl_500k.zip
+shp/cb_2018_39_sldu_500k.zip 200 198694 https://www2.census.gov/geo/tiger/GENZ2018/shp/cb_2018_39_sldu_500k.zip
+shp/cb_2022_39_sldl_500k.zip 200 309821 https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_39_sldl_500k.zip
+shp/cb_2022_39_sldu_500k.zip 200 189560 https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_39_sldu_500k.zip
+shp/cb_2024_39_sldl_500k.zip 200 317475 https://www2.census.gov/geo/tiger/GENZ2024/shp/cb_2024_39_sldl_500k.zip
+shp/cb_2024_39_sldu_500k.zip 200 179377 https://www2.census.gov/geo/tiger/GENZ2024/shp/cb_2024_39_sldu_500k.zip
+shp/cb_2018_us_cd116_500k.zip 200 7179215 https://www2.census.gov/geo/tiger/GENZ2018/shp/cb_2018_us_cd116_500k.zip
+shp/cb_2022_us_cd118_500k.zip 200 6966121 https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_us_cd118_500k.zip
+shp/cb_2024_us_cd119_500k.zip 200 7045981 https://www2.census.gov/geo/tiger/GENZ2024/shp/cb_2024_us_cd119_500k.zip
+4.0K	f/out4/countypres.tab.gz
+4.0K	f/out4/countypres2.tab.gz
+4.0K	f/out4/countypres_head.txt
+0	f/out4/err.txt
+4.0K	f/out4/live_cookies.json
+4.0K	f/out4/live_getBallotsCastByCounty.txt
+4.0K	f/out4/live_getContestList.txt
+4.0K	f/out4/live_getCountyList.txt
+4.0K	f/out4/live_getReportList.txt
+4.0K	f/out4/live_getStatistics.txt
+4.0K	f/out4/live_getTabs.txt
+4.0K	f/out4/log.txt
+4.0K	f/out4/oh.txt
+4.0K	f/out4/redist_links.txt
+34M	f/out4/shp
+32K	f/out4/tlc_pres_2012.csv
+32K	f/out4/tlc_pres_2016.csv
+36K	f/out4/tlc_pres_2020.csv
+32K	f/out4/tlc_pres_2024.csv
+4.0K	f/out4/tx.txt
+144K	f/out4/tx_114_pres.htm
+32K	f/out4/tx_114_raceselect.htm
+144K	f/out4/tx_141_pres.htm
+32K	f/out4/tx_141_raceselect.htm
+152K	f/out4/tx_164_pres.htm
+36K	f/out4/tx_164_raceselect.htm
+208K	f/out4/tx_319_pres.htm
+36K	f/out4/tx_319_raceselect.htm
+124K	f/out4/tx_82_pres.htm
+32K	f/out4/tx_82_raceselect.htm
