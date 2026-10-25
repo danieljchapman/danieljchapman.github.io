@@ -148,11 +148,15 @@
    },
    "2026-10-22": {
     "in_person_day": 37859,
-    "mail_day": 1115
+    "mail_day": 1113
    },
    "2026-10-23": {
     "in_person_day": 40611,
     "mail_day": 767
+   },
+   "2026-10-24": {
+    "in_person_day": 24697,
+    "mail_day": 753
    }
   },
   "source": "Travis County Clerk"
