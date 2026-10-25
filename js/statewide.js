@@ -2,10 +2,10 @@
   const LX = window.LX;
   const { css, fmt, pct, enc, PARTY, partyCol } = LX;
   const lab = (m) => (m == null || isNaN(m)) ? '—' : Math.abs(m) < 0.0005 ? 'Even' : (m > 0 ? 'R+' : 'D+') + (Math.abs(m) * 100).toFixed(1);
-  const OFFICES = [['Governor', 'Governor'], ['Senate', 'U.S. Senate'], ['Lt. Governor', 'Lt. Governor'], ['Attorney General', 'Attorney General'], ['Comptroller', 'Comptroller'],
+  const OFFICES = [['President', 'President'], ['Governor', 'Governor'], ['Senate', 'U.S. Senate'], ['Lt. Governor', 'Lt. Governor'], ['Attorney General', 'Attorney General'], ['Comptroller', 'Comptroller'],
     ['Land Commissioner', 'Land Commissioner'], ['Agriculture Commissioner', 'Agriculture Commissioner'], ['Railroad Commissioner', 'Railroad Commissioner'], ['Supreme Court', 'Texas Supreme Court']];
   const officeOf = (o) => o.startsWith('Railroad Commissioner') ? 'Railroad Commissioner' : o.startsWith('Supreme Court') ? 'Supreme Court' : o;
-  const OFFICE_NAME = { Governor: 'governor', Senate: 'U.S. Senate', 'Lt. Governor': 'lieutenant governor', 'Attorney General': 'attorney general', Comptroller: 'comptroller',
+  const OFFICE_NAME = { President: 'presidential', Governor: 'governor', Senate: 'U.S. Senate', 'Lt. Governor': 'lieutenant governor', 'Attorney General': 'attorney general', Comptroller: 'comptroller',
     'Land Commissioner': 'land commissioner', 'Agriculture Commissioner': 'agriculture commissioner', 'Railroad Commissioner': 'Railroad Commission', 'Railroad Commissioner (unexpired term)': 'Railroad Commission (unexpired term)' };
   const officeName = (o) => OFFICE_NAME[o] || (o.startsWith('Supreme Court') ? 'Texas ' + o.replace(',', '').replace(' (unexpired term)', ' (unexpired term)') : o);
   const seatLabel = (o) => o.replace('Supreme Court, ', '').replace(' (unexpired term)', ', unexpired term');

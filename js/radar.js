@@ -4,7 +4,7 @@
   // and a k-means clustering of all three); votes come from by_county, the same county results the Statewide tab uses.
   const LX = window.LX;
   const { css, fmt, pct } = LX;
-  const OFFICES = [['Governor', 'Governor'], ['Senate', 'U.S. Senate'], ['Lt. Governor', 'Lt. Governor'], ['Attorney General', 'Attorney General'], ['Comptroller', 'Comptroller'],
+  const OFFICES = [['President', 'President'], ['Governor', 'Governor'], ['Senate', 'U.S. Senate'], ['Lt. Governor', 'Lt. Governor'], ['Attorney General', 'Attorney General'], ['Comptroller', 'Comptroller'],
     ['Land Commissioner', 'Land Commissioner'], ['Agriculture Commissioner', 'Agriculture Commissioner'], ['Railroad Commissioner', 'Railroad Commissioner'], ['Supreme Court', 'Texas Supreme Court']];
   const officeOf = (o) => o.startsWith('Railroad Commissioner') ? 'Railroad Commissioner' : o.startsWith('Supreme Court') ? 'Supreme Court' : o;
   const BY = {
