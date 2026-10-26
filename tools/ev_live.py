@@ -122,6 +122,7 @@ def main(out_dir):
         if not day or not day.get('turnout_by_county'):
             continue  # not posted yet
         tot = {'registered': 0, 'in_person_day': 0, 'in_person': 0, 'mail': 0}
+        day_rows = []
         for c in day['turnout_by_county']:
             f = fips.get(norm(c['name']))
             if not f:
@@ -131,7 +132,12 @@ def main(out_dir):
                  'in_person': c.get('total_in_person_votes_for_election') or 0, 'mail': c.get('total_mail_votes_for_election') or 0}
             for k in tot:
                 tot[k] += r[k]
-            rows.append({'year': 2026, 'date': d.isoformat(), 'ev_day': (d - FIRST_IN_PERSON).days + 1, 'unit': f, **r})
+            day_rows.append({'year': 2026, 'date': d.isoformat(), 'ev_day': (d - FIRST_IN_PERSON).days + 1, 'unit': f, **r})
+        # The state posts a file for an in-person day before the count starts (Oct 26, 1:38 am: 0 in-person votes
+        # statewide, totals copied from the day before). Skip such a day until it has votes.
+        if d >= FIRST_IN_PERSON and tot['in_person_day'] == 0:
+            continue
+        rows.extend(day_rows)
         rows.append({'year': 2026, 'date': d.isoformat(), 'ev_day': (d - FIRST_IN_PERSON).days + 1, 'unit': 'TX', **tot})
         last = (d.isoformat(), tot, day.get('date_updated'))
     if not rows:
