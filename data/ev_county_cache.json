@@ -55,7 +55,11 @@
     "mail_day": null
    },
    "2026-10-24": {
-    "in_person_day": 36510,
+    "in_person_day": 36687,
+    "mail_day": null
+   },
+   "2026-10-25": {
+    "in_person_day": 19180,
     "mail_day": null
    }
   },
@@ -111,6 +115,10 @@
    "2026-10-24": {
     "in_person_day": 67242,
     "mail_day": 2241
+   },
+   "2026-10-25": {
+    "in_person_day": 40865,
+    "mail_day": 2088
    }
   },
   "source": "Harris County Clerk"
@@ -173,6 +181,10 @@
    "2026-10-24": {
     "in_person_day": 24697,
     "mail_day": 753
+   },
+   "2026-10-25": {
+    "in_person_day": 18733,
+    "mail_day": 0
    }
   },
   "source": "Travis County Clerk"
