@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Wisconsin Election Results</title>
-<meta name="description" content="County- and district-level results for Wisconsin statewide and legislative elections, 2016–2024.">
+<meta name="description" content="County- and district-level results for Wisconsin statewide and legislative elections, 2016–2026, with 2026 results on election night.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect x='1' y='7' width='4' height='8' rx='1' fill='%233b70d6'/%3E%3Crect x='6' y='3' width='4' height='12' rx='1' fill='%23d4473f'/%3E%3Crect x='11' y='5' width='4' height='10' rx='1' fill='%238b5cc4'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
@@ -244,7 +244,7 @@ button { font: inherit; }
     </div>
   </section>
 
-  <p class="lx-foot" id="method">Margin is the Republican candidate's share minus the Democrat's, of all votes cast in the race. "Shift" compares a county with the previous general election for the same office; both U.S. Senate seats form one series. Governor and lieutenant governor run as a ticket and are listed under the governor; presidential tickets under the presidential candidate. Wisconsin Supreme Court elections are nonpartisan and held in April, so they aren't included. Results: the Wisconsin Elections Commission's official canvass reports, county by county or ward by ward; the Commission's website blocks automated downloads past its first results page, so the 2016–2022 files come from the Internet Archive's copies and 2024 directly from the Commission. Presidential results are after the recounts: 2016 statewide, and 2020 in Dane and Milwaukee counties (certified Nov. 30, 2020). Every race's county numbers add up to the state's own totals, which match the certified results. Write-in candidates and scattered votes are combined. Some candidates are listed as independents because their party wasn't recognized in Wisconsin that year (Jo Jorgensen in 2020, for example), as on the ballot. Turnout isn't included.</p>
+  <p class="lx-foot" id="method">Margin is the Republican candidate's share minus the Democrat's, of all votes cast in the race. "Shift" compares a county with the previous general election for the same office; both U.S. Senate seats form one series. Governor and lieutenant governor run as a ticket and are listed under the governor; presidential tickets under the presidential candidate. Wisconsin Supreme Court elections are nonpartisan and held in April, so they aren't included. Results: the Wisconsin Elections Commission's official canvass reports, county by county or ward by ward; the Commission's website blocks automated downloads past its first results page, so the 2016–2022 files come from the Internet Archive's copies and 2024 directly from the Commission. Presidential results are after the recounts: 2016 statewide, and 2020 in Dane and Milwaukee counties (certified Nov. 30, 2020). Every race's county numbers add up to the state's own totals, which match the certified results. Write-in candidates and scattered votes are combined. Some candidates are listed as independents because their party wasn't recognized in Wisconsin that year (Jo Jorgensen in 2020, for example), as on the ballot. Turnout isn't included. 2026: the candidates are the Elections Commission's certified primary nominees plus the independents it approved for the ballot (the 2026 U.S. Senate seat isn't up). Wisconsin has no statewide election-night feed, so 2026 results come from CivicAPI, which collects county reports; they are unofficial until the state canvass.</p>
     </section>
   </section>
   <section id="tab-house" hidden></section>
@@ -308,7 +308,7 @@ button { font: inherit; }
         </table>
       </div>
     </section>
-    <p class="lx-foot">Wisconsin Assembly results: the Wisconsin Elections Commission's official canvass; each year's seat totals match the official results (Republicans won 64, 63, 61, 64 and 54 seats from 2016 to 2024). All 99 seats are up every two years. Uncontested races are shown with the winner's votes. Districts follow the map in force each year: the 2011 plan (2016–2020), the Legislature's plan that the Wisconsin Supreme Court adopted in April 2022 (2022), and the plan enacted in February 2024 after the court struck down the earlier maps (2024). A district number can cover different ground in different years. Maps: U.S. Census Bureau cartographic boundary files; each was checked against the results county by county. The chamber count uses election results only; special elections and resignations between general elections aren't included.</p>
+    <p class="lx-foot">Wisconsin Assembly results: the Wisconsin Elections Commission's official canvass; each year's seat totals match the official results (Republicans won 64, 63, 61, 64 and 54 seats from 2016 to 2024). All 99 seats are up every two years. Uncontested races are shown with the winner's votes. Districts follow the map in force each year: the 2011 plan (2016–2020), the Legislature's plan that the Wisconsin Supreme Court adopted in April 2022 (2022), and the plan enacted in February 2024 after the court struck down the earlier maps (2024). A district number can cover different ground in different years. Maps: U.S. Census Bureau cartographic boundary files; each was checked against the results county by county. The chamber count uses election results only; special elections and resignations between general elections aren't included. 2026: all 99 seats, on the 2024 map; candidates are the certified primary nominees (including one write-in nominee, Michael J. Goodwin in District 3) and approved independents. Election-night results come from CivicAPI; as of Oct. 26 it doesn't list the Assembly races, so they show the candidates without results unless it adds them.</p>
   </div>
 </template>
 <template id="tpl-tab-senate">
@@ -366,7 +366,7 @@ button { font: inherit; }
         </table>
       </div>
     </section>
-    <p class="lx-foot">Wisconsin Senate results: the Wisconsin Elections Commission's official canvass. Senators serve four-year terms: even-numbered districts are elected in presidential years and odd-numbered ones in midterm years. The chamber makeup adds senators not up that year, carried from their last general election, including across the 2022 and 2024 map changes; it matches the official makeup in every year except 2018, where it shows 20–13 instead of 19–14 because Democrat Patty Schachtner won District 10 in a January 2018 special election (special elections aren't included). The 2016 count covers only the 16 seats elected that year. Districts follow the map in force each year: the 2011 plan (2016–2020), the April 2022 plan (2022) and the February 2024 plan (2024). Maps: U.S. Census Bureau cartographic boundary files, checked against the results county by county.</p>
+    <p class="lx-foot">Wisconsin Senate results: the Wisconsin Elections Commission's official canvass. Senators serve four-year terms: even-numbered districts are elected in presidential years and odd-numbered ones in midterm years. The chamber makeup adds senators not up that year, carried from their last general election, including across the 2022 and 2024 map changes; it matches the official makeup in every year except 2018, where it shows 20–13 instead of 19–14 because Democrat Patty Schachtner won District 10 in a January 2018 special election (special elections aren't included). The 2016 count covers only the 16 seats elected that year. Districts follow the map in force each year: the 2011 plan (2016–2020), the April 2022 plan (2022) and the February 2024 plan (2024). Maps: U.S. Census Bureau cartographic boundary files, checked against the results county by county. 2026: the 17 odd-numbered seats, on the 2024 map, with the same candidate sources and the same caveat about election-night results.</p>
   </div>
 </template>
 
@@ -382,19 +382,21 @@ button { font: inherit; }
       <ul>
         <li><a href="data/wi_statewide_results_by_county.csv" download>Statewide races by county (CSV)</a></li>
         <li><a href="data/wi_house_results.csv" download>Wisconsin Assembly by district (CSV)</a> · <a href="data/wi_senate_results.csv" download>Wisconsin Senate (CSV)</a></li>
+        <li><a href="data/live_2026.csv" download>2026 results, unofficial (CSV)</a> · <a href="tools/candidates_2026.csv" download>2026 candidates (CSV)</a></li>
       </ul>
     </div>
     <div>
       <h2>Sources</h2>
       <ul>
-        <li>Wisconsin Elections Commission <a href="https://elections.wi.gov/elections/election-results">official election results</a> (2024; 2016–2022 via the <a href="https://web.archive.org/">Internet Archive</a>)</li>
+        <li>Wisconsin Elections Commission <a href="https://elections.wi.gov/elections/election-results">official election results</a> (2024; 2016–2022 and the 2026 primary results and ballot access report via the <a href="https://web.archive.org/">Internet Archive</a>)</li>
+        <li><a href="https://civicapi.org">CivicAPI</a> (2026 election-night results, unofficial)</li>
         <li>U.S. Census Bureau <a href="https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html">cartographic boundary files</a> (county, congressional and legislative district maps)</li>
       </ul>
-      <p>All results are certified. Site updated October 26, 2026.</p>
+      <p>Results through 2024 are certified. 2026 results are unofficial until the state certifies them. Site updated October 26, 2026.</p>
     </div>
   </div>
 </footer>
-<script>window.DASH_DATASETS = {"house_results": {"url": "data/wi_house_results.csv", "format": "csv"}, "senate_results": {"url": "data/wi_senate_results.csv", "format": "csv"}, "house_shapes": {"url": "data/wi_house_district_shapes.json", "format": "json"}, "senate_shapes": {"url": "data/wi_senate_district_shapes.json", "format": "json"}, "results": {"url": "data/wi_statewide_results_by_county.csv", "format": "csv"}, "county_shapes": {"url": "data/wi_county_shapes.json", "format": "json"}, "live_2026": {"url": "data/live_2026.csv", "format": "csv", "live": true}, "live_status": {"url": "data/live_status.json", "format": "json", "live": true}}; window.DASH_PARAMS = {"county": null, "h_district": null, "h_year": 2024, "s_district": null, "s_year": 2024, "race": "2024 President", "sw_view": "offices", "tab": "statewide", "view": "result"};</script>
+<script>window.DASH_DATASETS = {"house_results": {"url": "data/wi_house_results.csv", "format": "csv"}, "senate_results": {"url": "data/wi_senate_results.csv", "format": "csv"}, "house_shapes": {"url": "data/wi_house_district_shapes.json", "format": "json"}, "senate_shapes": {"url": "data/wi_senate_district_shapes.json", "format": "json"}, "results": {"url": "data/wi_statewide_results_by_county.csv", "format": "csv"}, "county_shapes": {"url": "data/wi_county_shapes.json", "format": "json"}, "live_2026": {"url": "data/live_2026.csv", "format": "csv", "live": true}, "live_status": {"url": "data/live_status.json", "format": "json", "live": true}}; window.DASH_PARAMS = {"county": null, "h_district": null, "h_year": 2026, "s_district": null, "s_year": 2026, "race": "2026 Governor", "sw_view": "offices", "tab": "statewide", "view": "result"};</script>
 <script src="js/d3.v7.9.0.min.js"></script>
 <script src="js/dash-runtime.js"></script>
 <script src="js/common.js"></script>

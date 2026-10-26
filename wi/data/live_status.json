@@ -1,8 +1,15 @@
 [
  {
-  "phase": "none",
-  "source": "No 2026 results on this page",
-  "problems": [],
+  "phase": "pre-election",
+  "updated_at": "2026-10-26T14:08:00Z",
+  "source": "CivicAPI (county results), unofficial",
+  "races": 120,
+  "called": 0,
+  "counting": 0,
+  "problems": [
+   "no live source yet for 17 Senate races, 99 Assembly races",
+   "CivicAPI still serves test numbers for some races (set to zero)"
+  ],
   "local_problems": []
  }
 ]

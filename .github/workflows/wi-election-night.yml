@@ -1,0 +1,55 @@
+name: WI election-night results
+
+# Wisconsin polls close at 8 pm Central (02:00 UTC Nov 4; CST, UTC-6).
+# Every 5 minutes from 01:45 to 07:05 UTC Nov 4 (7:45 pm – 1:05 am Central) in one long job; two start times in case
+# GitHub starts the first late (the second waits behind it and ends at once if the window is covered).
+# After that: every 10 minutes until 11:50 UTC, then hourly through Nov 20 while counties finish.
+# Source: CivicAPI, which collects Wisconsin county results (wi/tools/wi_live.py); the ballot comes from wi/tools/candidates_2026.csv.
+on:
+  schedule:
+    - cron: '45 1 4 11 *'
+    - cron: '15 2 4 11 *'
+    - cron: '*/10 7-11 4 11 *'
+    - cron: '29 12-23 4 11 *'
+    - cron: '29 * 5-20 11 *'
+  workflow_dispatch:
+    inputs:
+      minutes:
+        description: 'Test run: how many minutes to keep updating (0 = one update)'
+        default: '0'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: wi-election-night
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 400
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update
+        env:
+          MINUTES: ${{ github.event.inputs.minutes }}
+          SCHED: ${{ github.event.schedule }}
+        run: |
+          case "$SCHED" in
+            '45 1 4 11 *'|'15 2 4 11 *') end=$(date -u -d '2026-11-04T07:05:00Z' +%s) ;;
+            '') if [ "${MINUTES:-0}" = "0" ]; then bash wi/tools/fetch_live.sh; exit $?; fi
+                end=$(( $(date +%s) + MINUTES * 60 )) ;;
+            *) bash wi/tools/fetch_live.sh; exit $? ;;
+          esac
+          n=0
+          while [ "$(date +%s)" -lt "$end" ]; do
+            start=$(date +%s); n=$((n + 1))
+            echo "::group::Update $n at $(date -u +%H:%M:%S) UTC"
+            bash wi/tools/fetch_live.sh || echo "::warning::Update $n failed"
+            echo "::endgroup::"
+            wait=$(( 300 - ($(date +%s) - start) ))
+            [ $(( $(date +%s) + wait )) -ge "$end" ] && break
+            [ "$wait" -gt 0 ] && sleep "$wait"
+          done
+          echo "Finished after $n updates"

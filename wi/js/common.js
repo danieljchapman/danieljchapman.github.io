@@ -170,12 +170,12 @@
 
   // 2026 races on the ballot (shown before any results exist)
   LX.SCHEDULE_2026 = {
-    statewide: [],   // Wisconsin: results 2016-2024 only, no 2026 election-night feed
-    plans: {},
+    statewide: ['Governor', 'Attorney General', 'Secretary of State', 'Treasurer'],
+    plans: { house: 'a2024', senate: 's2024' },
     fortbend: ['County Judge', 'Commissioner Pct 2', 'Commissioner Pct 4'],
   };
   LX.ELECTION_2026 = 'Tuesday, Nov. 3, 2026';
-  LX.LIVE = false;      // no 2026 races or election-night results on this page
+  LX.LIVE = true;       // 2026 races, filled in on election night (wi/tools/wi_live.py)
   LX.LAST_YEAR = 2024;
   // areas on the Key Local Races tab (the tab's internal id stays 'fortbend' so old links keep working)
   LX.LOCAL_AREAS = [['fortbend', 'Fort Bend County'], ['harris', 'Harris County'], ['tarrant', 'Tarrant County'], ['collin', 'Collin County'],
@@ -191,10 +191,10 @@
     el.hidden = false; el.replaceChildren();
     const dot = document.createElement('span'); dot.className = 'lx-live-dot' + (s.phase === 'counting' ? ' on' : '');
     const t = document.createElement('span');
-    const when = s.updated_at ? new Date(s.updated_at).toLocaleString('en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', timeZone: 'America/New_York', timeZoneName: 'short' }) : null;
+    const when = s.updated_at ? new Date(s.updated_at).toLocaleString('en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', timeZone: 'America/Chicago', timeZoneName: 'short' }) : null;
     t.textContent = s.phase === 'counting' ? `Unofficial results, still being counted. Last updated ${when || '—'}.`
       : s.phase === 'final' ? `Election-night count complete${when ? ' (' + when + ')' : ''}. Results stay unofficial until the state canvass.`
-      : `Election Day is ${LX.ELECTION_2026}. Results will appear here as counties report after polls close at 7:30 p.m. Eastern.`;
+      : `Election Day is ${LX.ELECTION_2026}. Results will appear here as counties report after polls close at 8 p.m. Central. Wisconsin has no statewide election-night results feed, so results come from CivicAPI, which collects county reports.`;
     const src = document.createElement('span'); src.className = 'lx-live-src';
     src.setAttribute('data-source', 'live_status'); src.setAttribute('data-field', 'phase');
     src.textContent = source ? ' Source: ' + source + '.' : s.source ? ' Source: ' + s.source + '.' : '';

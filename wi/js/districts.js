@@ -5,7 +5,7 @@
   // ---------- calculations (each function is self-contained) ----------
   const byDistrictFn = (results, live_2026) => {
     const lab = (m) => (m == null || isNaN(m)) ? '—' : Math.abs(m) < 0.0005 ? 'Even' : (m > 0 ? 'R+' : 'D+') + (Math.abs(m) * 100).toFixed(1);
-    const LEVEL = { 'House': 'house', 'Senate': 'senate', 'U.S. House': 'ushouse', 'SBOE': 'sboe' };
+    const LEVEL = { 'House': 'house', 'Assembly': 'house', 'Senate': 'senate', 'U.S. House': 'ushouse', 'SBOE': 'sboe' };
     const level = results.length ? LEVEL[String(results[0].race).slice(5)] : null;
     const all = results.map((r) => ({ ...r, status: 'final' })).concat(live_2026.filter((r) => r.level === level).map((r) => ({
       year: r.year, race: r.race, plan: r.plan, district: r.unit, candidate: r.candidate, party: r.party, votes: r.votes, status: r.status, reporting: r.reporting, reporting_total: r.reporting_total })));
