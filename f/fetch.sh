@@ -1,4 +1,6 @@
-O=f/out6; mkdir -p $O
-u=$(grep -i "Recount%2011-30-20%20final" f/out3/cdx_xlsx.txt | sort -k4 | tail -1)
-set -- $u
-curl -sSL -m 300 -o "$O/2020_recount_final.xlsx" -w "%{http_code} %{size_download}\n" "https://web.archive.org/web/${4}id_/$1" > $O/log.txt
+O=f/out7; mkdir -p $O
+for pre in elections.wi.gov/sites/default/files/documents/ elections.wi.gov/sites/default/files/; do
+  curl -s -m 300 "https://web.archive.org/cdx/search/cdx?url=${pre}*&output=txt&fl=original,statuscode,timestamp&collapse=urlkey&filter=statuscode:200&from=2026&limit=20000" >> $O/cdx2026.txt
+done
+wc -l $O/cdx2026.txt > $O/log.txt
+grep -iE "candidate|tracking|ballot|partisan|primary|november" $O/cdx2026.txt | head -80 >> $O/log.txt
