@@ -96,9 +96,11 @@
       const c = { R: 0, D: 0, O: 0, U: 0 }, cu = { R: 0, D: 0, O: 0, U: 0 };
       for (const [d, p] of comp) { const k = p === 'R' || p === 'D' ? p : p === '?' ? 'U' : 'O'; c[k]++; if (up.has(d)) cu[k]++; }
       const total = comp.size;
+      // compare with the previous election only when both counts cover the whole chamber (a staggered senate's first year covers half)
+      const cmp = prev && prev.seats_total === total;
       const row = { race: rows[0].race, year: y, plan, status: rows[0].status, seats_total: total, seats_up: rows.length,
         r_seats: c.R, d_seats: c.D, other_seats: c.O, undecided_seats: c.U, r_up: cu.R, d_up: cu.D, other_up: cu.O, undecided_up: cu.U,
-        r_change: prev ? c.R - prev.r_seats : null, d_change: prev ? c.D - prev.d_seats : null, prev_year: prev ? prev.year : null,
+        r_change: cmp ? c.R - prev.r_seats : null, d_change: cmp ? c.D - prev.d_seats : null, prev_year: cmp ? prev.year : null,
         majority: c.R > total / 2 ? 'R' : c.D > total / 2 ? 'D' : null };
       out.push(row); prev = row;
     }
