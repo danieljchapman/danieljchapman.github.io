@@ -24,6 +24,10 @@
    "2026-10-24": {
     "in_person_day": 34061,
     "mail_day": null
+   },
+   "2026-10-25": {
+    "in_person_day": 16650,
+    "mail_day": null
    }
   },
   "source": "Collin County Elections"
@@ -136,6 +140,10 @@
    "2026-10-24": {
     "in_person_day": 51080,
     "mail_day": 982
+   },
+   "2026-10-25": {
+    "in_person_day": 24798,
+    "mail_day": null
    }
   },
   "source": "Tarrant County Elections"
