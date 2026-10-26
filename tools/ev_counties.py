@@ -144,7 +144,8 @@ def el_paso():
     links = re.findall(r'(https://ep-county-elections-production[^"\s]*?(?:Day_(\d+)_Early_Voting_Statistics|stats_Day_(\d+))\.pdf[^"\s]*)', page)
     links = [(u, a or b) for u, a, b in links]
     if not links:
-        raise RuntimeError('no Early Voting Statistics PDF linked on the current-election page')
+        pdfs = sorted(set(u.split('?')[0].rsplit('/', 1)[-1] for u in re.findall(r'https://ep-county-elections-production[^"\s]*?\.pdf', page)))
+        raise RuntimeError(f'no Early Voting Statistics PDF linked on the current-election page (PDFs seen: {pdfs[-6:]})')
     latest = max(links, key=lambda x: int(x[1]))  # (url, day number)
     day = latest[1]
     mails = [(u, a or b) for u, a, b in re.findall(r'(https://ep-county-elections-production[^"\s]*?(?:Day_(\d+)_Ballot_by_Mail_Statistics|stats_mail_(\d+))\.pdf[^"\s]*)', page)]
