@@ -1,6 +1,4 @@
-O=f/out7; mkdir -p $O
-for pre in elections.wi.gov/sites/default/files/documents/ elections.wi.gov/sites/default/files/; do
-  curl -s -m 300 "https://web.archive.org/cdx/search/cdx?url=${pre}*&output=txt&fl=original,statuscode,timestamp&collapse=urlkey&filter=statuscode:200&from=2026&limit=20000" >> $O/cdx2026.txt
-done
-wc -l $O/cdx2026.txt > $O/log.txt
-grep -iE "candidate|tracking|ballot|partisan|primary|november" $O/cdx2026.txt | head -80 >> $O/log.txt
+O=f/out8; mkdir -p $O
+grep -E "August%202026%20Partisan%20Primary_Summary|D\.%20Ballot%20Access%20Report|Ballot%20Access%20Report" f/out7/cdx2026.txt | sort -u | while read u s t; do
+  n=$(basename "$u" | sed 's/%20/_/g'); curl -sSL -m 300 -o "$O/$n" -w "$n %{http_code} %{size_download}\n" "https://web.archive.org/web/${t}id_/$u" >> $O/log.txt; sleep 3; done
+grep -i "ballot\|candidate" f/out7/cdx2026.txt | sed 's#.*/files/##' | sort -u > $O/related.txt
