@@ -1,10 +1,10 @@
 [
  {
-  "updated_at": "2026-10-26T03:46:03Z",
+  "updated_at": "2026-10-26T03:48:51Z",
   "latest_date": "2026-10-25",
   "latest_ev_day": 7,
   "state_updated": "2026-10-25",
-  "total_early": 4300926,
+  "total_early": 4300979,
   "source": "Texas Secretary of State early-voting turnout, unofficial; county reports for Collin County Elections, Dallas County Elections, El Paso County Elections, Harris County Clerk, Tarrant County Elections, Travis County Clerk",
   "county_sources": [
    "Collin County Elections",
@@ -14,8 +14,6 @@
    "Tarrant County Elections",
    "Travis County Clerk"
   ],
-  "problems": [
-   "El Paso County Elections: no Early Voting Statistics PDF linked on the current-election page"
-  ]
+  "problems": []
  }
 ]
