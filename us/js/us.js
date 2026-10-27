@@ -441,6 +441,7 @@
       const rest = r.cands.slice(shown.length);
       box.append(el('p', 'lx-note', `Also on the ballot: ${rest.map((c) => `${c.name} (${c.party}${r.total ? ', ' + fmt(c.votes) : ''})`).join('; ')}.`));
     }
+    drawPolls(box, level, r, year);
     const facts = [];
     if (r.holder) facts.push((year === 2026 ? 'Seat now held by ' : 'Seat held before the election by ') + `${r.holder.name} (${r.holder.party})` + (r.holder.vacant ? ' — vacant since that member left' : '') + '.');
     if (r.flip) facts.push(`${PLURAL[r.wc] || 'The winner'} flipped this seat.`);
@@ -459,6 +460,124 @@
   const sameName = (a, b) => lastName(a) === lastName(b);
   const S = () => dash.data('model').data[0].S;
 
+  // ---------- polls (data/polls.json: us/tools/us_polls.py; New York Times poll data via pollresults.org, CC BY 4.0) ----------
+  const POLLS = () => { const d = dash.data('polls'); return d.status === 'ok' ? (Array.isArray(d.data) ? d.data[0] : d.data) : null; };
+  const pollRec = (level, r) => { const P = POLLS(); return P && r ? (P.races || {})[`${level}|${r.key}`] || null : null; };
+  // a margin from the pair's point of view (first minus second): "D+3.2" for a D-v-R race, otherwise "Osborn +1.4"
+  const pairLabel = (pair, m) => {
+    if (m == null || isNaN(m)) return '—';
+    const lead = m >= 0 ? pair[0] : pair[1];
+    const dr = new Set(pair.map((x) => x[1])).size === 2 && pair.every((x) => x[1] === 'D' || x[1] === 'R');
+    if (Math.abs(m) < 0.05) return 'Tied';
+    return (dr ? lead[1] + '+' : lastCap(lead[0]) + ' +') + Math.abs(m).toFixed(1);
+  };
+  const lastCap = (n) => String(n).replace(/,?\s+(Jr|Sr|II|III|IV)\.?$/i, '').trim().split(/\s+/).pop();
+  // actual margin between the pair's two candidates, in points of all votes cast (null until votes are counted)
+  const actualPair = (rec, r) => {
+    if (!rec || !r || !r.total) return null;
+    const find = (name) => r.cands.find((c) => sameName(c.name, name));
+    const a = find(rec.pair[0][0]), b = find(rec.pair[1][0]);
+    if (!a || !b) return null;
+    return (a.votes - b.votes) / r.total * 100;
+  };
+  // poll miss: positive = polls underestimated the pair's first candidate
+  const pollMiss = (rec, r) => { const act = actualPair(rec, r); return act == null || !rec.final ? null : act - rec.final.m; };
+  const missText = (rec, miss) => {
+    if (miss == null) return '';
+    if (Math.abs(miss) < 0.5) return 'Polls were within half a point.';
+    const who = miss > 0 ? rec.pair[0] : rec.pair[1];
+    return `Polls underestimated ${who[0]} (${who[1]}) by ${Math.abs(miss).toFixed(1)} points.`;
+  };
+  const fmtDate = (iso) => new Date(iso + 'T12:00:00Z').toLocaleDateString('en-US', { month: 'short', day: 'numeric', timeZone: 'UTC' });
+
+  function pollChart(box, rec, r, opts = {}) {
+    const act0 = opts.actual != null ? opts.actual : actualPair(rec, r);
+    const longest = Math.max(`Avg ${pairLabel(rec.pair, rec.final.m)}`.length, act0 != null ? `Result ${pairLabel(rec.pair, act0)}`.length : 0);
+    const W = opts.w || 360, H = opts.h || 190, m = { l: 34, r: Math.max(opts.r || 64, longest * 6.3 + 16), t: 10, b: 24 };
+    const sameParty = rec.pair[0][1] === rec.pair[1][1];
+    const sideTag = (side) => (sameParty ? lastCap(side[0]).slice(0, 4) : side[1]);
+    const x0 = new Date((POLLS().since || '2026-08-01') + 'T00:00:00Z'), x1 = new Date('2026-11-04T00:00:00Z');
+    const x = d3.scaleUtc().domain([x0, x1]).range([m.l, W - m.r]);
+    const act = act0;
+    const final = r && (r.status === 'final');
+    const vals = rec.polls.map((p) => p.m).concat(rec.curve ? rec.curve.map((c) => c[1]) : []).concat([0, rec.final.m]).concat(act != null ? [act] : []);
+    const lo = d3.min(vals), hi = d3.max(vals), pad = Math.max(2, (hi - lo) * 0.12);
+    const y = d3.scaleLinear().domain([lo - pad, hi + pad]).nice().range([H - m.b, m.t]);
+    const col = (v) => pcol(v >= 0 ? rec.pair[0][1] : rec.pair[1][1]);
+    const svg = d3.select(box).append('svg').attr('viewBox', `0 0 ${W} ${H}`).attr('class', 'lx-pollchart').attr('role', 'img')
+      .attr('aria-label', `Polling margin since August: ${pairLabel(rec.pair, rec.final.m)} final average`);
+    // axes
+    svg.append('g').attr('class', 'ax').attr('transform', `translate(0,${H - m.b})`).call(d3.axisBottom(x).ticks(d3.utcMonth.every(1)).tickFormat(d3.utcFormat('%b')).tickSize(3));
+    svg.select('.ax text').attr('text-anchor', 'start').attr('dx', 2);   // first month label clear of the y-axis labels
+    svg.append('g').attr('class', 'ax').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(5).tickSize(-(W - m.l - m.r)).tickFormat((v) => (v === 0 ? '0' : `${sideTag(v > 0 ? rec.pair[0] : rec.pair[1])}+${Math.abs(v)}`)));
+    svg.append('line').attr('class', 'zero').attr('x1', m.l).attr('x2', W - m.r).attr('y1', y(0)).attr('y2', y(0));
+    const ed = x(new Date('2026-11-03T12:00:00Z'));
+    svg.append('line').attr('class', 'eday').attr('x1', ed).attr('x2', ed).attr('y1', m.t).attr('y2', H - m.b);
+    svg.append('text').attr('class', 'eday-l').attr('x', ed - 3).attr('y', m.t + 8).attr('text-anchor', 'end').text('Nov 3');
+    // polls: filled = independent pollster, hollow = partisan sponsor; size by weight (repeat polls by one pollster count less)
+    svg.append('g').selectAll('circle').data(rec.polls).join('circle')
+      .attr('cx', (p) => x(new Date(p.e + 'T12:00:00Z'))).attr('cy', (p) => y(p.m)).attr('r', (p) => 2 + 2.2 * Math.sqrt(p.w))
+      .attr('fill', (p) => (p.part ? 'none' : col(p.m))).attr('fill-opacity', 0.55).attr('stroke', (p) => col(p.m)).attr('stroke-width', (p) => (p.part ? 1.3 : 0.6))
+      .append('title').text((p) => `${p.p}${p.part ? ` (sponsor: ${PARTY[p.part] || p.part})` : ''}\n${fmtDate(p.s)}–${fmtDate(p.e)} · ${p.n ? fmt(p.n) + ' likely voters' : 'likely voters'}\n${rec.pair[0][0]} ${p.a}% · ${rec.pair[1][0]} ${p.b}% → ${pairLabel(rec.pair, p.m)}${p.w < 1 ? `\nCounted as ${p.w.toFixed(2)} of a poll (repeat polling)` : ''}`);
+    // average: LOESS curve, or a flat line over the last 30 days
+    if (rec.curve) {
+      svg.append('path').attr('class', 'curve').attr('d', d3.line().x((c) => x(new Date(c[0] + 'T12:00:00Z'))).y((c) => y(c[1]))(rec.curve));
+    } else {
+      const end = new Date(rec.final.asof + 'T12:00:00Z'), start = new Date(end - 30 * 864e5);
+      svg.append('line').attr('class', 'curve flat').attr('x1', x(start < x0 ? x0 : start)).attr('x2', x(end)).attr('y1', y(rec.final.m)).attr('y2', y(rec.final.m));
+    }
+    const fx = x(new Date(rec.final.asof + 'T12:00:00Z'));
+    svg.append('circle').attr('class', 'fin').attr('cx', fx).attr('cy', y(rec.final.m)).attr('r', 3.2);
+    svg.append('text').attr('class', 'fin-l').attr('x', W - m.r + 11).attr('y', y(rec.final.m) + 4).text(`Avg ${pairLabel(rec.pair, rec.final.m)}`);
+    if (act != null) {
+      const ay = y(act);
+      svg.append('path').attr('class', 'res' + (final ? '' : ' partial')).attr('d', d3.symbol(d3.symbolDiamond, 70)()).attr('transform', `translate(${ed},${ay})`).attr('fill', col(act));
+      svg.append('text').attr('class', 'res-l').attr('x', W - m.r + 11).attr('y', ay + 4 + (Math.abs(ay - y(rec.final.m)) < 12 ? (ay > y(rec.final.m) ? 9 : -9) : 0))
+        .text(`${final || opts.actual != null ? 'Result' : 'So far'} ${pairLabel(rec.pair, act)}`);
+    }
+    return svg;
+  }
+
+  function drawPolls(box, level, r, year) {
+    if (year !== 2026) return;
+    const P = POLLS();
+    if (!P) return;
+    const rec = pollRec(level, r);
+    const wrap = el('div', 'lx-polls');
+    wrap.append(el('h3', 'lx-polls-h', 'Polls since August'));
+    if (!rec) {
+      wrap.append(el('p', 'lx-note', 'No likely-voter polls of this race since Aug. 1.'));
+      box.append(wrap); return;
+    }
+    pollChart(wrap, rec, r);
+    const act = actualPair(rec, r), miss = pollMiss(rec, r);
+    const how = rec.final.method === 'loess' ? `trend line through ${rec.final.n} polls` : `average of ${rec.final.n} ${rec.final.n === 1 ? 'poll' : 'polls'} in the last 30 days`;
+    let line = `Final polling average: ${pairLabel(rec.pair, rec.final.m)} (${rec.pair[0][0]} vs. ${rec.pair[1][0]}; ${how}, as of ${fmtDate(rec.final.asof)}).`;
+    if (act != null) line += r.status === 'final' ? ` Result: ${pairLabel(rec.pair, act)}. ${missText(rec, miss)}` : ` Current count: ${pairLabel(rec.pair, act)} (not final).`;
+    wrap.append(el('p', 'lx-note', line));
+    const part = rec.polls.filter((p) => p.part).length;
+    wrap.append(el('p', 'lx-note lx-polls-key', `Dots are polls of likely voters (hover for details); hollow dots${part ? ` (${part})` : ''} were sponsored by a party or campaign. Larger dots count fully; a pollster's repeat polls within two weeks share one poll's weight.${r && r.state === 'AK' ? ' Alaska polls show first choices.' : ''}`));
+    box.append(wrap);
+  }
+
+  function drawGeneric(level, year, races) {
+    const card = $('generic-card');
+    card.hidden = !(level === 'house' && year === 2026);
+    if (card.hidden) return;
+    const P = POLLS(), box = $('generic-chart');
+    box.replaceChildren();
+    if (!P || !P.generic) { box.append(el('p', 'lx-note', 'Polls not loaded.')); return; }
+    const g = P.generic;
+    const R = d3.sum(races, (r) => d3.sum(r.cands.filter((c) => c.party === 'R'), (c) => c.votes)), D = d3.sum(races, (r) => d3.sum(r.cands.filter((c) => c.party === 'D'), (c) => c.votes)), T = d3.sum(races, (r) => r.total);
+    const act = T ? (D - R) / T * 100 : null;
+    const done = races.length && races.every((r) => r.status === 'final');
+    pollChart(box, g, done ? { status: 'final' } : null, { w: 760, h: 220, r: 70, actual: act });
+    let line = `Final generic-ballot average: ${pairLabel(g.pair, g.final.m)} (trend line through ${g.final.n} national polls of likely voters, as of ${fmtDate(g.final.asof)}).`;
+    if (act != null) line += ` National House vote ${done ? '' : 'counted so far'}: ${pairLabel(g.pair, act)}${done ? '. ' + missText(g, act - g.final.m) : ' (not final).'}`;
+    line += ' The national vote adds up contested races only, so uncontested seats pull it away from the generic ballot a little.';
+    $('generic-note').textContent = line;
+  }
+
   // ---------- table ----------
   let sortBy = 'race', sortDir = 1;
   document.querySelectorAll('#race-table th button').forEach((b) => b.addEventListener('click', () => {
@@ -475,10 +594,15 @@
       margin: (r) => (r.unopposed ? 2 : r.margin == null ? 3 : (r.wc === 'D' ? -r.margin : r.margin)),
       change: (r) => (r.flip ? 0 : r.leadFlip ? 1 : 2),
       counted: (r) => (r.reporting == null ? -1 : r.reporting),
+      polls: (r) => { const rec = pollRec(r.level, r); return rec ? Math.abs(rec.final.m) : 999; },
+      miss: (r) => { const mi = pollMiss(pollRec(r.level, r), r); return mi == null ? -1 : -Math.abs(mi); },
     }[sortBy];
     list.sort((a, b) => sortDir * d3.ascending(key(a), key(b)));
     $('race-count').textContent = `${list.length} of ${races.length} races`;
     $('col-counted').hidden = year !== 2026;
+    $('col-polls').hidden = year !== 2026;
+    const showMiss = year === 2026 && races.some((r) => r.status === 'final' && pollMiss(pollRec(r.level, r), r) != null);
+    $('col-miss').hidden = !showMiss;
     d3.select(tb).selectAll('tr').data(list, (r) => r.key).join('tr')
       .classed('sel', (r) => r.key === sel)
       .on('click', (e, r) => set({ sel: r.key === sel ? null : r.key }))
@@ -492,6 +616,11 @@
         td(mshort(r));
         td(r.flip ? `${r.wc} flip` : r.leadFlip ? `${r.wc} leading flip` : r.redrawn ? 'New map' : r.win ? 'Hold' : r.hc ? `${r.hc} seat now` : '');
         if (year === 2026) td(r.unopposed ? '' : r.status === 'final' ? 'Called' : r.reporting == null ? '' : Math.round(r.reporting) + '%');
+        if (year === 2026) {
+          const rec = pollRec(r.level, r);
+          td(rec ? pairLabel(rec.pair, rec.final.m) : '', 'lx-cell-pct');
+          if (showMiss) { const mi = r.status === 'final' ? pollMiss(rec, r) : null; td(mi == null ? '' : (mi > 0 ? lastCap(rec.pair[0][0]) : lastCap(rec.pair[1][0])) + ' +' + Math.abs(mi).toFixed(1) + ' vs polls'); }
+        }
       });
   }
 
@@ -606,6 +735,7 @@
     drawLegend(level, year);
     drawDetails(races.find((r) => r.key === sel) || null, races, level, year);
     drawTable(races, sel, p.q, year);
+    drawGeneric(level, year, races);
     const foot = { senate: $('foot-senate'), house: $('foot-house'), governor: $('foot-governor') };
     for (const [k, e] of Object.entries(foot)) e.hidden = k !== level;
   }

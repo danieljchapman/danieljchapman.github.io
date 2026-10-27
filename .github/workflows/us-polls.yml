@@ -1,0 +1,26 @@
+name: National polling averages
+
+# Polls for the National page (us/tools/us_polls.py → us/data/polls.json): New York Times poll data via pollresults.org.
+# Updated once, on Saturday, Oct 31, 2026 (owner's choice: no later updates), at 18:00 UTC (2 pm Eastern).
+# The date guard stops the same calendar date from running in later years.
+on:
+  schedule:
+    - cron: '0 18 31 10 *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update polls
+        env:
+          SCHED: ${{ github.event.schedule }}
+        run: |
+          if [ -n "$SCHED" ] && [ "$(date -u +%Y)" != "2026" ]; then echo "Only runs in 2026"; exit 0; fi
+          python3 us/tools/us_polls.py --out us/data
+          python3 -c "import json; d=json.load(open('us/data/polls.json')); assert len(d['races']) >= 50 and d['generic'], 'too few races'"
+          bash tools/publish_live.sh "Update 2026 polling averages" us/data/polls.json

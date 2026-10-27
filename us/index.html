@@ -218,6 +218,24 @@ button { font: inherit; }
 .lx-cands-tight .lx-initials { width: 3rem; height: 3.6rem; font-size: 1.3rem; }
 .lx-cands-tight .lx-cand-pct { font-size: 1.4rem; }
 .lx-badge-muted { color: var(--color-fg-muted); }
+.lx-polls { margin-top: var(--cds-gap-md); border-top: 1px solid var(--color-border-line); padding-top: var(--cds-gap-sm); }
+.lx-polls-h { font-size: var(--cds-font-size-body); font-weight: 600; margin: 0 0 4px; }
+.lx-pollchart { width: 100%; height: auto; display: block; overflow: visible; }
+.lx-pollchart .ax text { font-size: 10px; fill: var(--color-fg-muted); font-family: var(--font-anthropic-sans); }
+.lx-pollchart .ax path { display: none; }
+.lx-pollchart .ax line { stroke: var(--cds-chart-grid); }
+.lx-pollchart .zero { stroke: var(--cds-chart-axis); stroke-width: 1; }
+.lx-pollchart .eday { stroke: var(--cds-chart-axis); stroke-dasharray: 3 3; }
+.lx-pollchart .eday-l { font-size: 9.5px; fill: var(--color-fg-muted); }
+.lx-pollchart .curve { fill: none; stroke: var(--color-fg); stroke-width: 2; }
+.lx-pollchart .curve.flat { stroke-dasharray: 5 3; }
+.lx-pollchart .fin { fill: var(--color-fg); }
+.lx-pollchart .fin-l, .lx-pollchart .res-l { font-size: 10.5px; font-weight: 600; fill: var(--color-fg); }
+.lx-pollchart .res { stroke: var(--color-fg); stroke-width: 1.2; }
+.lx-pollchart .res.partial { opacity: .55; }
+.lx-pollchart circle title { pointer-events: auto; }
+.lx-polls-key { font-size: 0.72rem; }
+#generic-chart .lx-pollchart { max-width: 52rem; }
 #details .lx-note { margin: var(--cds-gap-sm) 0 0; }
 #details .lx-note a { color: inherit; }
 </style>
@@ -273,11 +291,18 @@ button { font: inherit; }
     </section>
   </div>
 
+  <section class="lx-card" id="generic-card" aria-labelledby="generic-title" hidden>
+    <h2 id="generic-title">Generic congressional ballot</h2>
+    <p class="lx-note">National polls asking which party's House candidate people will vote for, likely voters only, since August. Hover a dot for the poll.</p>
+    <div id="generic-chart"></div>
+    <p class="lx-note" id="generic-note" style="margin-top:var(--cds-gap-sm)"></p>
+  </section>
+
   <section class="lx-card" aria-label="All races">
     <div class="lx-tablebar"><h2 style="margin-right:auto">All races</h2><input class="lx-search" id="race-search" type="search" placeholder="Search" aria-label="Search races"><span class="lx-note" style="margin:0" id="race-count"></span></div>
     <div class="lx-tablewrap">
       <table class="lx-table" id="race-table">
-        <thead><tr><th><button data-k="race">Race</button></th><th style="text-align:left"><button data-k="winner" style="text-align:left">Winner or leader</button></th><th><button data-k="margin">Margin</button></th><th><button data-k="change">Change</button></th><th id="col-counted"><button data-k="counted">Counted</button></th></tr></thead>
+        <thead><tr><th><button data-k="race">Race</button></th><th style="text-align:left"><button data-k="winner" style="text-align:left">Winner or leader</button></th><th><button data-k="margin">Margin</button></th><th><button data-k="change">Change</button></th><th id="col-counted"><button data-k="counted">Counted</button></th><th id="col-polls" title="Final polling average (likely voters)"><button data-k="polls">Poll avg</button></th><th id="col-miss" hidden title="How far the final polling average was from the result, and whom the polls underestimated"><button data-k="miss">Poll miss</button></th></tr></thead>
         <tbody id="race-tbody"></tbody>
       </table>
     </div>
@@ -295,6 +320,7 @@ button { font: inherit; }
       <ul>
         <li><a href="data/us_results.csv" download>2024 Senate, House and governor results (CSV)</a></li>
         <li><a href="data/live_2026.csv" download>2026 results, unofficial (CSV)</a></li>
+        <li><a href="data/polls.json" download>2026 polls and polling averages (JSON)</a></li>
         <li><a href="data/us_seats.json" download>Seat holders before each election (JSON)</a></li>
       </ul>
     </div>
@@ -304,6 +330,7 @@ button { font: inherit; }
         <li>Clerk of the U.S. House, <a href="https://clerk.house.gov/Members/ElectionStatistics">election statistics</a> (2024 Senate and House, official)</li>
         <li>State election offices (2024 governor results)</li>
         <li><a href="https://civicapi.org">CivicAPI</a> (2026 candidates and election-night results, unofficial)</li>
+        <li>Polls: <a href="https://www.nytimes.com/interactive/polls/latest-polls.html">The New York Times</a> poll data (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>), via <a href="https://pollresults.org/api/">pollresults.org</a>; polling averages computed here</li>
         <li><a href="https://github.com/unitedstates/congress-legislators">congress-legislators</a> (who held each seat on Election Day)</li>
         <li>U.S. Census Bureau congressional district gazetteer; <a href="https://github.com/topojson/us-atlas">us-atlas</a> state shapes</li>
       </ul>
@@ -311,7 +338,7 @@ button { font: inherit; }
     </div>
   </div>
 </footer>
-<script>window.DASH_DATASETS = {"results": {"url": "data/us_results.csv", "format": "csv"}, "seats": {"url": "data/us_seats.json", "format": "json"}, "hex": {"url": "data/us_hex.json", "format": "json"}, "states": {"url": "data/us_states_albers.json", "format": "json"}, "live_2026": {"url": "data/live_2026.csv", "format": "csv", "live": true}, "live_status": {"url": "data/live_status.json", "format": "json", "live": true}}; window.DASH_PARAMS = {"tab": "senate", "year": 2026, "sel": null, "q": null};</script>
+<script>window.DASH_DATASETS = {"results": {"url": "data/us_results.csv", "format": "csv"}, "seats": {"url": "data/us_seats.json", "format": "json"}, "hex": {"url": "data/us_hex.json", "format": "json"}, "states": {"url": "data/us_states_albers.json", "format": "json"}, "live_2026": {"url": "data/live_2026.csv", "format": "csv", "live": true}, "live_status": {"url": "data/live_status.json", "format": "json", "live": true}, "polls": {"url": "data/polls.json", "format": "json"}}; window.DASH_PARAMS = {"tab": "senate", "year": 2026, "sel": null, "q": null};</script>
 <script src="js/d3.v7.9.0.min.js"></script>
 <script src="js/topojson-client.min.js"></script>
 <script src="js/dash-runtime.js"></script>
