@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="referrer" content="always">
+   <title>Office of the Clerk, U.S. House of Representatives</title>
+   <script type="text/javascript" nonce="B2yPHKaXnvFWtRChIbabYmUBFZdVfKKXHbWtWidDVF8">
+            window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(16),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,s){try{p?p-=1:o(s||new UncaughtException(t,n,e),!0)}catch(f){try{i("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t,n){var e=n?null:c.now();i("err",[t,e])}var i=t("handle"),a=t(17),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError",p=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),d=!0)}s.on("fn-start",function(t,n,e){d&&(p+=1)}),s.on("fn-err",function(t,n,e){d&&!e[l]&&(f(e,l,function(){return!0}),this.thrown=!0,o(e))}),s.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,v="fn"+h,w="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(v,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(v,function(t,n){i(w,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(v,function(t,n){i(w,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(19)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(19)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(19)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(19)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):v?v(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(19)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,v=l.SI,w="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(w,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!v&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===w||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(16),s=t(17),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],e),t}finally{c.emit("fn-end",[f.now()],e)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t,n){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now(),!1,n])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){if(!o)return!1;if(t!==o)return!1;if(!n)return!0;if(!i)return!1;for(var e=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==e[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf("Chrome")===-1&&s.indexOf("Chromium")===-1&&(o="Safari",i=c[1])}n.exports={agent:o,version:i,match:r}},{}],16:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],17:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],18:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],19:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(17),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=m(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[g[e]];return d&&d.push([b,e,r,a]),a}}function p(t,n){y[t]=m(t).concat(n)}function h(t,n){var e=y[t];if(e)for(var r=0;r<e.length;r++)e[r]===n&&e.splice(r,1)}function m(t){return y[t]||[]}function v(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",g[e]=n,n in u||(u[n]=[])})}var y={},g={},b={on:p,addEventListener:p,removeEventListener:h,emit:e,get:v,listeners:m,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(16),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!E++){var t=x.info=NREUM.info,n=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(g,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+x.offset],null,"api");var e=p.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===p.readyState&&i()}function i(){c("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-x.offset}var s=(new Date).getTime(),c=t("handle"),f=t(16),u=t("ee"),d=t(15),l=window,p=l.document,h="addEventListener",m="attachEvent",v=l.XMLHttpRequest,w=v&&v.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:v,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var y=""+location,g={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1118.min.js"},b=v&&w&&w[h]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:s,now:a,origin:y,features:{},xhrWrappable:b,userAgent:d};t(12),p[h]?(p[h]("DOMContentLoaded",i,!1),l[h]("load",r,!1)):(p[m]("onreadystatechange",o),l[m]("onload",r)),c("mark",["firstbyte",s],null,"api");var E=0,O=t(18)},{}]},{},["loader",2,10,4,3]);
+        ;NREUM.info={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",licenseKey:"9993044f26",applicationID:"1120177994",sa:1}
+   </script>
+
+   <!-- Google tag (gtag.js) -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=G-N512ZD1JJT"></script>
+   <script type="text/javascript" nonce="B2yPHKaXnvFWtRChIbabYmUBFZdVfKKXHbWtWidDVF8">
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'G-N512ZD1JJT');
+   </script>
+
+   
+
+   <link rel="stylesheet" href="/assets/css/site.min.css" />
+   <link rel="stylesheet" href="/assets/css/introjs.min.css" />
+
+   <!-- Bitmovin Player -->
+   <script type="text/javascript" src="/scripts/bitmovinplayer.js" nonce="B2yPHKaXnvFWtRChIbabYmUBFZdVfKKXHbWtWidDVF8"></script>
+
+   <script type="text/javascript" nonce="B2yPHKaXnvFWtRChIbabYmUBFZdVfKKXHbWtWidDVF8">(function (H) { H.className = H.className.replace(/\bno-js\b/, 'js') })(document.documentElement)</script>
+   <script type="text/javascript" src="/scripts/modernizr-custom.js" nonce="B2yPHKaXnvFWtRChIbabYmUBFZdVfKKXHbWtWidDVF8"></script>
+
+   <!--[if lte IE9]>
+         <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+       <![endif]-->
+
+      <link rel="stylesheet" href="/assets/vendor/Keyoti_SearchEngine_Web_Common/SearchUnit.css" />
+      <script src="/assets/vendor/Keyoti_SearchEngine_Web_Common/searchunit.js" nonce="B2yPHKaXnvFWtRChIbabYmUBFZdVfKKXHbWtWidDVF8"></script>
+
+   <script src="/scripts/main.min.js" nonce="B2yPHKaXnvFWtRChIbabYmUBFZdVfKKXHbWtWidDVF8"></script>
+
+   
+</head>
+<body id="homepage" class="in-session">
+
+    
+<header id="header" class="navbar-fixed-top">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 hidden-xs logo">
+                <a href="/">
+                    <img src="/assets/img/clerk-logo-web.svg" title="Office of the Clerk, U.S. House of Representatives" alt="Office of the Clerk, U.S. House of Representatives" />
+                </a>
+            </div>
+            <div class="hidden-xs col-sm-6 hidden-print">
+                <div class="header-search-grp">
+                    <ul class="inline-list">
+                        <li><a href="/Members#FindRepresentative" class="partial-view-link" title="Find Your Representative">Find Your Representative</a></li>
+                    </ul>
+                    <div class="col-sm-12" style="padding-right: 5px">
+<form action="/Search" class="search expanded" id="searchform" method="get">                            <label for="clerk-search">Search Office of the Clerk</label>
+                            <input type="text" name="searchQuery" class="site-search" autocomplete="off" />
+                            <i class="fa fa-search">&nbsp;</i>
+                            <input type="submit" value="Submit">
+</form>                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="search-container"></div>
+
+    
+      <!--keyoti_search_ignore_begin-->
+      <nav id="main-navbar" class="navbar navbar-static" role="navigation" arial-label="Main Menu">
+         <div class="container">
+            <div class="row">
+               <div class="navbar-header">
+                  <div class="logo visible-xs">
+                     <a href="/" title="Office of the Clerk, U.S. House of Representatives">
+                        <img src="/assets/img/clerk-logo-web.svg" title="Office of the Clerk, U.S. House of Representatives" alt="Office of the Clerk, U.S. House of Representatives" />
+                     </a>
+                  </div>
+                  <button class="navbar-toggle" type="button" data-target=".bs-js-navbar-collapse" id="ui-collapse-485" data-toggle="collapse">
+                     <span class="sr-only">Toggle navigation</span>
+                     <span class="icon-bar">&nbsp;</span>
+                     <span class="icon-bar">&nbsp;</span>
+                     <span class="icon-bar">&nbsp;</span>
+                  </button>
+               </div>
+               <div class="collapse navbar-collapse bs-js-navbar-collapse col-md-12 col-lg-12">
+
+                  <ul id="blue-nav" class="nav navbar-nav lcs-nav" role="menubar">
+
+                     <li class="hidden-xs hidden-sm nav-prepend">
+                        <svg role="img" aria-label="Yellow Star" xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="8.5 -3.9 19 17.8">
+                           <polygon points="27.5 3 20.3 3 18.1 -3.9 15.8 3 8.5 3 14.4 7.1 12.2 13.9 18 9.7 23.9 13.9 21.7 7.1 " fill="#FFD262" />
+                        </svg>
+                     </li>
+
+                     <li class="search-mobile hidden-sm hidden-md hidden-lg">
+                        <form action="/Search/" method="get" class="search-mobile_form">
+                           <div>
+                              <label class="sr-only" for="searchQuery">Search Office of the Clerk</label>
+                              <input type="text" name="searchQuery" id="searchQuery" value="" tabindex="0" placeholder="Search Office of the Clerk" />
+                              <button class="btn btn-default" type="submit" style="margin-top: 7px;">
+                                 <i class="fa fa-search"></i>
+                                 <span class="sr-only">Search button</span>
+                              </button>
+                           </div>
+                        </form>
+                     </li>
+
+                     <li class="dropdown">
+                        <a id="drop1" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" tabindex="0">Legislative Information</a>
+                        <div id="legis-info" class="dropdown-menu has-datapicker" aria-labelledby="drop1">
+                           <div class="dropdown-menu_left">
+                              <ul role="menu" aria-label="legislative information">
+                                 <li>
+                                    <h3 class="menu-title">Legislative Information</h3>
+                                 </li>
+                                 <li role="menuitem">
+                                    <a tabindex="0" href="/FloorSummary" title="Legislative Activity">Legislative Activity</a>
+                                 </li>
+                                 <li role="menuitem">
+                                    <a tabindex="0" href="/Votes" title="Votes">Roll Call Votes</a>
+                                 </li>
+                                 <li role="menuitem">
+                                    <a tabindex="0" href="/DischargePetition" title="Discharge Petitions">Discharge Petitions</a>
+                                 </li>
+                                 <li role="menuitem">
+                                    <a tabindex="0" href="https://live.house.gov" title="live.house.gov" target="_blank" rel="noreferrer">live.house.gov</a>
+                                 </li>
+                                 <li role="menuitem">
+                                    <a tabindex="0" href="/SelectedMemorial" title="Selected Memorials">Selected Memorials</a>
+                                 </li>
+                                 <li role="menuitem">
+                                    <a tabindex="0" href="/ConsensusCalendarMotions" title="Consensus Calendar Motions">Consensus Calendar Motions</a>
+                                 </li>
+                              </ul>
+                              <ul class="menu-session-status">
+                                 <li>
+                                    <h5 id="menu-session-event-name" tabindex="0">119th Congress, 2nd Session</h5>
+                                 </li>
+                                 <li>
+                                    <h3 id="menu-session-status" tabindex="0" class="menu-subtitle">House Not In Session</h3>
+                                 </li>
+                                 <li>
+                                    <h5 id="menu-session-status-date" tabindex="0">Next Session: October 29th, 2026 at 12:00 PM</h5>
+                                 </li>
+                              </ul>
+                           </div>
+                           <div class="mega-bucket dropdown-menu_right">
+                              <ul class="list-unstyled equal-height-list" role="list" aria-label="House Floor Proceedings">
+                                 <li role="listitem">
+                                    <h3 class="menu-subtitle">House Floor Proceedings</h3>
+                                 </li>
+                                 <li>
+                                    <div id="datepicker"></div>
+                                 </li>
+                                 <li>
+                                    <a class="btn btn-small btn-yellow btn-houselive" tabindex="0" href="https://live.house.gov" title="live.house.gov" target="_blank" rel="noreferrer">Watch live.house.gov</a>
+                                 </li>
+                              </ul>
+                           </div>
+                           <div class="mega-bucket dropdown-menu_right">
+                              <ul class="list-unstyled equal-height-list" role="list" aria-label="Additional Resources">
+                                 <li>
+                                    <h3 class="menu-subtitle">Additional Resources</h3>
+                                 </li>
+                                 <li role="listitem">
+                                    <i class="fa fa-angle-double-right"></i>&nbsp;<a tabindex="0" href="https://clerk.house.gov/evs/2024/index.asp" title="Votes Legacy View" target="_blank" rel="noreferrer">Votes Legacy View - 2024</a>
+                                 </li>
+                                 <li role="listitem">
+                                    <i class="fa fa-angle-double-right"></i>&nbsp;<span tabindex="0"><a tabindex="0" href="/member_info/electionInfo/2026/120-nominations.pdf" title="120th Congress Nominees" target="_blank" rel="noreferrer">120th Congress Nominees</a></span>
+                                 </li>
+                                 <li role="listitem">
+                                    <i class="fa fa-angle-double-right"></i>&nbsp;<span tabindex="0"><a tabindex="0" href="/member_info/electionInfo/2024/statistics2024.pdf" title="Statistics of the 2024 Congressional Election" target="_blank" rel="noreferrer">Statistics of the 2024 Congressional Election</a></span>
+                                 </li>
+                                 <li role="listitem">
+                                    <i class="fa fa-angle-double-right"></i>&nbsp;<span tabindex="0"><a tabindex="0" href="/reference-files/House-Calendar-118th-Congress.pdf" title="Final House Calendar" target="_blank" rel="noreferrer">Final House Calendar (118th Congress)</a></span>
+                                 </li>
+                                 <li role="listitem">
+                                    <i class="fa fa-angle-double-right"></i>&nbsp;<a tabindex="0" href="https://www.govinfo.gov/link/crec/type/ddresumeongoing?link-type=pdf" title="Résumé of Congressional Activity" target="_blank" rel="noreferrer">Résumé of Congressional Activity</a>
+                                 </li>
+                                 <li role="listitem">
+                                    <i class="fa fa-angle-double-right"></i>&nbsp;<a tabindex="0" href="https://www.congress.gov/search" title="Legislative Search" target="_blank" rel="noreferrer">Legislative Search</a>
+                                 </li>
+                                 <li role="listitem">
+                                    <i class="fa fa-angle-double-right"></i>&nbsp;<a tabindex="0" href="https://www.congress.gov/congressional-record" title="Congressional Record" target="_blank" rel="noreferrer">Congressional Record</a>
+                                 </li>
+                                 <li role="listitem">
+                                    <i class="fa fa-angle-double-right"></i>&nbsp;<a tabindex="0" href="http://www.senate.gov/index.htm" title="U.S. Senate" target="_blank" rel="noreferrer">U.S. Senate</a>
+                                 </li>
+                                 <li role="listitem">
+                                    <i class="fa fa-angle-double-right"></i>&nbsp;<a tabindex="0" href="https://www.majorityleader.gov/schedule/weekly-schedule.htm" title="House Schedule" target="_blank" rel="noreferrer">House Schedule</a>
+                                 </li>
+                                 <li role="listitem">
+                                    <i class="fa fa-angle-double-right"></i>&nbsp;<a tabindex="0" href="http://docs.house.gov/floor" title="Bills This Week" target="_blank" rel="noreferrer">Bills This Week</a>
+                                 </li>
+                                 <li role="listitem">
+                                    <i class="fa fa-angle-double-right"></i>&nbsp;<a tabindex="0" href="https://www.house.gov/voting-days" title="House Voting Days" target="_blank" rel="noreferrer">House Voting Days</a>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                     </li>
+
+                     <li class="dropdown">
+                        <a id="drop2" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" tabindex="0">Member Information</a>
+                        <div id="member-info" class="dropdown-menu mega-menu" aria-labelledby="drop2">
+                           <div class="dropdown-menu_left">
+                              <ul role="menu" aria-label="member information">
+                                 <li>
+                                    <h3 class="menu-title">Member Information</h3>
+                                 </li>
+                                 <li role="menuitem">
+                                    <a tabindex="0" href="/Members" title="Member Profiles" target="_self">Member Profiles</a>
+                                 </li>
+                                 <li role="menuitem">
+                                    <a tabindex="0" class="partial-view-link" href="/Members#Leadership" title="Leadership" target="_self">Leadership</a>
+                                 </li>
+                                 <li role="menuitem">
+                                    <a tabindex="0" class="partial-view-link" href="/Members#ElectionInformation" title="Election Information" target="_self">Election Information</a>
+                                 </li>
+                                 <li role="menuitem">
+                                    <a tabindex="0" class="partial-view-link" href="/Members#Vacancies" title="Vacancies" target="_self">Current Vacancies</a>
+                                 </li>
+                                 <li role="menuitem">
+                                    <a tabindex="0" class="partial-view-link" href="/Members#Demographics" title="Vacancies" target="_self">Demographics</a>
+                                 </li>
+                                 <li role="menuitem">
+                                    <a tabindex="0" class="partial-view-link" href="/Members#MemberOaths" title="Vacancies" target="_self">Member Oaths</a>
+                                 </li>
+                              </ul>
+                                    <ul class="list-unstyled equal-height-list" style="max-width: 230px">
+                                       <li>
+                                          <div id="menu-member-stats" class="member-stats_chart">
+                                             <dl id="chart-nav">
+                                                <dt>Republicans<span>218</span></dt>
+                                                <dd><span id="data-one-nav" style="width:51%;">218</span></dd>
+                                                <dt>Democrats<span>214</span></dt>
+                                                <dd><span id="data-two-nav" style="width:50%;">214</span></dd>
+                                                <dt>Independents<span>1</span></dt>
+                                                <dd><span id="data-three-nav" style="width:1%;">1</span></dd>
+                                                <dt>Vacancies<span>2</span></dt>
+                                                <dd><span id="data-four-nav" style="width:1%;">2</span></dd>
+                                             </dl>
+                                          </div>
+                                       </li>
+                                    </ul>
+                           </div>
+                           <div class="mega-bucket dropdown-menu_right">
+                              <ul role="list" aria-label="majority leadership" class="list-unstyled equal-height-list" style="line-height: 1.2;">
+                                       <li>
+                                          <h3 class="menu-subtitle">Republican Leadership</h3>
+                                       </li>
+                                          <li role="listitem" style="max-width:290px;">
+                                             <b>Rep. Mike Johnson</b><br />
+                                                <a href="https://www.speaker.gov/" title="Speaker of the House" aria-label="Rep. Mike Johnson, Speaker of the House" target="_blank" rel="noreferrer">Speaker of the House</a>
+                                          </li>
+                                          <li role="listitem" style="max-width:290px;">
+                                             <b>Rep. Steve Scalise</b><br />
+                                                <a href="https://www.majorityleader.gov/" title="Majority Leader" aria-label="Rep. Steve Scalise, Majority Leader" target="_blank" rel="noreferrer">Majority Leader</a>
+                                          </li>
+                                          <li role="listitem" style="max-width:290px;">
+                                             <b>Rep. Tom Emmer</b><br />
+                                                <a href="https://www.majoritywhip.gov/" title="Majority Whip" aria-label="Rep. Tom Emmer, Majority Whip" target="_blank" rel="noreferrer">Majority Whip</a>
+                                          </li>
+                                          <li role="listitem" style="max-width:290px;">
+                                             <b>Rep. Lisa C. McClain</b><br />
+                                                <a href="https://www.gop.gov/" title="Republican Conference Chair" aria-label="Rep. Lisa C. McClain, Republican Conference Chair" target="_blank" rel="noreferrer">Republican Conference Chair</a>
+                                          </li>
+                                          <li role="listitem" style="max-width:290px;">
+                                             <b>Rep. Jay Obernolte</b><br />
+                                                <a href="https://republicanpolicy.house.gov/" title="Republican Policy Committee Chair" aria-label="Rep. Jay Obernolte, Republican Policy Committee Chair" target="_blank" rel="noreferrer">Republican Policy Committee Chair</a>
+                                          </li>
+                              </ul>
+                           </div>
+                           <div class="mega-bucket dropdown-menu_right">
+                              <ul role="list" aria-label="republican leadership" class="list-unstyled equal-height-list" style="line-height: 1.2;">
+                                       <li>
+                                          <h3 class="menu-subtitle">Democratic Leadership</h3>
+                                       </li>
+                                          <li role="listitem" style="max-width:220px;">
+                                             <b>Rep. Hakeem S. Jeffries</b><br />
+                                                <a href="https://democraticleader.house.gov/" title="Minority Leader" aria-label="Rep. Hakeem S. Jeffries, Minority Leader" target="_blank" rel="noreferrer">Minority Leader</a>
+                                          </li>
+                                          <li role="listitem" style="max-width:220px;">
+                                             <b>Rep. Katherine M. Clark</b><br />
+                                                <a href="https://www.democraticwhip.gov/" title="Minority Whip" aria-label="Rep. Katherine M. Clark, Minority Whip" target="_blank" rel="noreferrer">Minority Whip</a>
+                                          </li>
+                                          <li role="listitem" style="max-width:220px;">
+                                             <b>Rep. Pete Aguilar</b><br />
+                                                <a href="https://www.dems.gov/" title="Democratic Caucus Chair" aria-label="Rep. Pete Aguilar, Democratic Caucus Chair" target="_blank" rel="noreferrer">Democratic Caucus Chair</a>
+                                          </li>
+                                          <li role="listitem" style="max-width:220px;">
+                                             <b>Rep. Ted Lieu</b><br />
+                                                <a href="https://www.dems.gov/" title="Democratic Caucus Vice Chair" aria-label="Rep. Ted Lieu, Democratic Caucus Vice Chair" target="_blank" rel="noreferrer">Democratic Caucus Vice Chair</a>
+                                          </li>
+                              </ul>
+                           </div>
+                           <div class="mega-bucket dropdown-menu_right">
+                              <ul role="list" aria-label="additional resources" class="list-unstyled equal-height-list" style="line-height:1.2;">
+                                 <li>
+                                    <h3 class="menu-subtitle">Additional Resources</h3>
+                                 </li>
+                                 <li role="listitem">
+                                    <i class="fa fa-angle-double-right"></i>&nbsp;<a class="partial-view-link" href="/Members#FindRepresentative" title="Find Your Representative">Find Your Representative</a>
+                                 </li>
+                                 <li role="listitem" style="white-space:nowrap;">
+                                    <i class="fa fa-angle-double-right"></i>&nbsp;<span tabindex="0"><a href="/member_info/olm-119.pdf" title="Official List of Members by State" target="_blank" rel="noreferrer">Official List of Members by State</a></span>
+                                 </li>
+                                 <li role="listitem">
+                                    <i class="fa fa-angle-double-right"></i>&nbsp;<span tabindex="0"><a href="/member_info/TTD-119.pdf" title="Official Member Telephone Directory" target="_blank" rel="noreferrer">Official Member Telephone Directory</a></span>
+                                 </li>
+                                 <li role="listitem">
+                                    <i class="fa fa-angle-double-right"></i>&nbsp;<span tabindex="0"><a href="/member_info/duplicate-names-119.pdf" title="Duplicate and Similar Names of Members" target="_blank" rel="noreferrer">Duplicate and Similar Names of Members</a></span>
+                                 </li>
+                                 <li role="listitem">
+                                    <i class="fa fa-angle-double-right"></i>&nbsp;<span tabindex="0"><a href="/member_info/Terms_of_Service.pdf" title="Terms of Service" target="_blank" rel="noreferrer">Terms of Service</a></span>
+                                 </li>
+                                 <li role="listitem">
+                                    <i class="fa fa-angle-double-right"></i>&nbsp;<span tabindex="0">Mailing Labels</span><br />
+                                    [<a href="/Members/WordMailingLabel" title="Mailing Labels" target="_blank" rel="noreferrer">MS Word</a> | <a tabindex="-1" href="/Members/TextMailingLabel" title="Mailing Labels" target="_blank" rel="noreferrer">Text File</a>]
+                                 </li>
+                                 <li role="listitem">
+                                    <i class="fa fa-angle-double-right"></i>&nbsp;<span tabindex="0">Member Data</span><br />
+                                    [<a href="/Members/ExcelMemberData" title="Member Data" target="_blank" rel="noreferrer">Excel</a> | <a href="/xml/lists/MemberData.xml" title="Member Data" target="_blank" rel="noreferrer">XML</a> | <a tabindex="-1" href="/member_info/MemberData_UserGuide.pdf" title="Official Lists" target="_blank" rel="noreferrer">User Guide</a>]
+                                 </li>
+                                 <li role="listitem">
+                                    <i class="fa fa-angle-double-right"></i>&nbsp;<a href="http://bioguide.congress.gov/biosearch/biosearch.asp" title="Bioguide" target="_blank" rel="noreferrer">Biographical Directory</a>
+                                 </li>
+                                 <li role="listitem">
+                                    <i class="fa fa-angle-double-right"></i>&nbsp;<a href="https://www.congress.gov/members" title="Members on Congress.gov" target="_blank" rel="noreferrer">Members on Congress.gov</a>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                     </li>
+
+                     <li class="dropdown">
+                        <a id="drop3" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" tabindex="0">Committee Information</a>
+                        <div id="committee-info" class="dropdown-menu mega-menu" aria-labelledby="drop3">
+                                 <div class="dropdown-menu_left">
+                                    <h3 class="menu-title">COMMITTEE INFORMATION</h3>
+
+                                       <div class="dropdown-menu_left">
+                                          <ul role="menu" class="library-list_ul" aria-label="committee profiles">
+                                                <li class="no-bullet" style="white-space: nowrap !important">
+                                                   <a href="/committees" title="Committee Profiles">COMMITTEE PROFILES</a>
+                                                </li>
+                                                <li role="menuitem">
+                                                   <a href="/committees/AG00" title="Committee on Agriculture">Agriculture</a>
+                                                </li>
+                                                <li role="menuitem">
+                                                   <a href="/committees/AP00" title="Committee on Appropriations">Appropriations</a>
+                                                </li>
+                                                <li role="menuitem">
+                                                   <a href="/committees/AS00" title="Committee on Armed Services">Armed Services</a>
+                                                </li>
+                                                <li role="menuitem">
+                                                   <a href="/committees/BU00" title="Committee on the Budget">Budget</a>
+                                                </li>
+                                                <li role="menuitem">
+                                                   <a href="/committees/ED00" title="Committee on Education and Workforce">Education and Workforce</a>
+                                                </li>
+                                                <li role="menuitem">
+                                                   <a href="/committees/IF00" title="Committee on Energy and Commerce">Energy and Commerce</a>
+                                                </li>
+                                                <li role="menuitem">
+                                                   <a href="/committees/SO00" title="Committee on Ethics">Ethics</a>
+                                                </li>
+                                          </ul>
+                                       </div>
+                                       <div class="dropdown-menu_left">
+                                          <ul role="menu" class="library-list_ul" aria-label="committee profiles">
+                                                <li role="listitem" class="list-spacer">&nbsp;</li>
+                                                <li role="menuitem">
+                                                   <a href="/committees/BA00" title="Committee on Financial Services">Financial Services</a>
+                                                </li>
+                                                <li role="menuitem">
+                                                   <a href="/committees/FA00" title="Committee on Foreign Affairs">Foreign Affairs</a>
+                                                </li>
+                                                <li role="menuitem">
+                                                   <a href="/committees/HM00" title="Committee on Homeland Security">Homeland Security</a>
+                                                </li>
+                                                <li role="menuitem">
+                                                   <a href="/committees/HA00" title="Committee on House Administration">House Administration</a>
+                                                </li>
+                                                <li role="menuitem">
+                                                   <a href="/committees/JU00" title="Committee on the Judiciary">Judiciary</a>
+                                                </li>
+                                                <li role="menuitem">
+                                                   <a href="/committees/II00" title="Committee on Natural Resources">Natural Resources</a>
+                                                </li>
+                                                <li role="menuitem">
+                                                   <a href="/committees/GO00" title="Committee on Oversight and Government Reform">Oversight and Government Reform</a>
+                                                </li>
+                                          </ul>
+                                       </div>
+                                       <div class="dropdown-menu_left">
+                                          <ul role="menu" class="library-list_ul" aria-label="committee profiles">
+                                                <li role="listitem" class="list-spacer">&nbsp;</li>
+                                                <li role="menuitem">
+                                                   <a href="/committees/RU00" title="Committee on Rules">Rules</a>
+                                                </li>
+                                                <li role="menuitem">
+                                                   <a href="/committees/SY00" title="Committee on Science, Space, and Technology">Science, Space, and Technology</a>
+                                                </li>
+                                                <li role="menuitem">
+                                                   <a href="/committees/SM00" title="Committee on Small Business">Small Business</a>
+                                                </li>
+                                                <li role="menuitem">
+                                                   <a href="/committees/PW00" title="Committee on Transportation and Infrastructure">Transportation and Infrastructure</a>
+                                                </li>
+                                                <li role="menuitem">
+                                                   <a href="/committees/VR00" title="Committee on Veterans&#x27; Affairs">Veterans&#x27; Affairs</a>
+                                                </li>
+                                                <li role="menuitem">
+                                                   <a href="/committees/WM00" title="Committee on Ways and Means">Ways and Means</a>
+                                                </li>
+                                          </ul>
+                                       </div>
+                                       <div class="dropdown-menu_left">
+                                          <ul role="menu" class="library-list_ul" aria-label="committee profiles">
+                                                <li role="listitem" class="list-spacer">&nbsp;</li>
+                                                <li role="menuitem">
+                                                   <a href="/committees/IG00" title="Permanent Select Committee on Intelligence">Select Intelligence</a>
+                                                </li>
+                                                <li role="menuitem">
+                                                   <a href="/committees/ZS00" title="Select Committee on the Strategic Competition Between the United States and the Chinese Communist Party">Select Strategic Competition</a>
+                                                </li>
+                                                <li role="menuitem">
+                                                   <a href="/committees/EC00" title="Joint Economic Committee">Joint Economic</a>
+                                                </li>
+                                                <li role="menuitem">
+                                                   <a href="/committees/JL00" title="Joint Committee on the Library">Joint Library</a>
+                                                </li>
+                                                <li role="menuitem">
+                                                   <a href="/committees/JP00" title="Joint Committee on Printing">Joint Printing</a>
+                                                </li>
+                                                <li role="menuitem">
+                                                   <a href="/committees/IT00" title="Joint Committee on Taxation">Joint Taxation</a>
+                                                </li>
+                                          </ul>
+                                       </div>
+
+                                 </div>
+                           <div class="mega-bucket dropdown-menu_right">
+                              <ul class="list-unstyled equal-height-list" role="list" aria-label="additional resources">
+                                 <li>
+                                    <h3 class="menu-subtitle">Additional Resources</h3>
+                                 </li>
+								         <li role="listitem">
+                                    <i class="fa fa-angle-double-right"></i>&nbsp;<span tabindex="0"><a tabindex="0" href="/committee_info/oal.pdf" title="Official List of Members with Committee Assignments" target="_blank" rel="noreferrer">Official List of Members with Committee Assignments</a></span>
+                                 </li>
+                                 <li role="listitem">
+                                    <i class="fa fa-angle-double-right"></i>&nbsp;<span tabindex="0"><a tabindex="0" href="/committee_info/scsoal.pdf" title="Official List of Standing Committees and Subcommittees" target="_blank" rel="noreferrer">Official List of Standing Committees and Subcommittees</a></span>
+                                 </li>								 
+                                 <li role="listitem">
+                                    <i class="fa fa-angle-double-right"></i>&nbsp;<a tabindex="0" href="http://docs.house.gov/Committee" title="Committee Repository" target="_blank" rel="noreferrer">Committee Repository</a>
+                                 </li>
+                                 <li role="listitem">
+                                    <i class="fa fa-angle-double-right"></i>&nbsp;<a tabindex="0" href="https://www.govinfo.gov/app/collection/crpt" title="Committee Reports" target="_blank" rel="noreferrer">Committee Reports</a>
+                                 </li>
+                                 <li role="listitem">
+                                    <i class="fa fa-angle-double-right"></i>&nbsp;<a tabindex="0" href="https://www.congress.gov/committees" title="Committees on Congress.gov" target="_blank" rel="noreferrer">Committees on Congress.gov</a>
+                                 </li>
+                                 <li role="listitem">
+                                    <i class="fa fa-angle-double-right"></i>&nbsp;<span tabindex="0">Committee Data</span>
+                                    [<a href="/Committees/ExcelCommitteeData" title="Committee Excel Data" target="_blank" rel="noreferrer">Excel</a>]
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                     </li>
+
+                     <li class="dropdown">
+                        <a id="drop4" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" tabindex="0">Disclosures</a>
+                        <div id="disclosures-info" class="dropdown-menu menu-right" aria-labelledby="drop4">
+                           <div class="dropdown-menu_left">
+                              <h3 class="menu-title">Disclosures</h3>
+                              <div class="dropdown-menu_left">
+                                 <ul role="menu" class="library-list_ul" aria-label="disclosures">
+                                    <li class="no-bullet" style="white-space: nowrap !important">
+                                       <a href="https://disclosures-clerk.house.gov" title="Public Disclosure" target="_blank" rel="noreferrer">PUBLIC DISCLOSURE</a>
+                                    </li>
+                                    <li role="menuitem">
+                                       <a tabindex="0" href="https://disclosures-clerk.house.gov/FinancialDisclosure" title="Financial Disclosures" rel="noreferrer">Financial Disclosure Reports</a>
+                                    </li>
+                                    <li role="menuitem">
+                                       <a tabindex="0" href="https://disclosures-clerk.house.gov/ForeignTravel" title="Foreign Travel Reports and Expenditures" rel="noreferrer">Foreign Travel Reports and Expenditures</a>
+                                    </li>
+                                    <li role="menuitem">
+                                       <a tabindex="0" href="https://disclosures-clerk.house.gov/FrankedMaterials" title="Unsolicited Mass Communications" rel="noreferrer">Unsolicited Mass Communications</a>
+                                    </li>
+                                    <li role="menuitem">
+                                       <a tabindex="0" href="https://disclosures-clerk.house.gov/GiftTravelFilings" title="Gift Travel Filings" rel="noreferrer">Gift Travel Filings</a>
+                                    </li>
+                                 </ul>
+                              </div>
+                              <div class="dropdown-menu_left">
+                                 <ul role="menu" class="library-list_ul">
+                                    <li role="listitem" class="list-spacer">&nbsp;</li>
+                                    <li role="menuitem">
+                                       <a tabindex="0" href="https://disclosures-clerk.house.gov/LegalExpenseFund" title="Legal Expense Fund Disclosures" rel="noreferrer">Legal Expense Fund Disclosures</a>
+                                    </li>
+                                    <li role="menuitem">
+                                       <a tabindex="0" href="https://disclosures-clerk.house.gov/OfficeOfCongressionalConduct" title="Office of Congressional Conduct" rel="noreferrer">Office of Congressional Conduct</a>
+                                    </li>
+                                    <li role="menuitem">
+                                       <a tabindex="0" href="https://disclosures-clerk.house.gov/PostEmploymentNotification" title="Post-Employment Notifications" rel="noreferrer">Post-Employment Notifications</a>
+                                    </li>
+                                 </ul>
+                              </div>
+                           </div>
+                           <div class="mega-bucket dropdown-menu_right">
+                              <ul class="list-unstyled equal-height-list" role="list" aria-label="additional resources">
+                                 <li>
+                                    <h3 class="menu-subtitle">Additional Resources</h3>
+                                 </li>
+                                 <li role="listitem">
+                                    <i class="fa fa-angle-double-right"></i>&nbsp;<a tabindex="0" href="http://lobbyingdisclosure.house.gov" title="Lobbying Disclosures" target="_blank" rel="noreferrer">Lobbying Disclosures</a>
+                                 </li>
+                                 <li role="listitem">
+                                    <i class="fa fa-angle-double-right"></i>&nbsp;<a href="https://www.congress.gov/public-laws" title="Public Laws" target="_blank" rel="noreferrer">Public Laws</a>
+                                 </li>
+                                 <li role="listitem">
+                                    <i class="fa fa-angle-double-right"></i>&nbsp;<a tabindex="0" href="https://lobbyingdisclosure.house.gov/ldaguidance.pdf" title="Lobbying Disclosure Act" target="_blank" rel="noreferrer">Lobbying Disclosure Act</a>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                     </li>
+
+                     <li class="dropdown">
+                        <a href="#" id="drop5" role="button" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" tabindex="0">About the Clerk</a>
+                        <div id="about-clerk-info" class="dropdown-menu menu-right mega-menu" aria-labelledby="drop5">
+                           <div class="dropdown-menu_left">
+                              <ul role="menuitem" aria-label="about the clerk">
+                                 <li>
+                                    <h3 class="menu-title">About the Clerk</h3>
+                                 </li>
+                                 <li role="menuitem">
+                                    <a tabindex="0" class="partial-view-link" href="/About#OverviewContact" title="The Clerk of the House" target="_self">Overview and Contact</a>
+                                 </li>
+                                 <li role="menuitem">
+                                    <a tabindex="0" class="partial-view-link" href="/About#DutyOfClerk" title="Duties of the Clerk" target="_self">Duties of the Clerk</a>
+                                 </li>
+                                 <li role="menuitem">
+                                    <a tabindex="0" class="partial-view-link" href="/About#OfficeService" title="Offices and Services" target="_self">Offices and Services</a>
+                                 </li>
+                                 <li role="menuitem">
+                                    <a tabindex="0" class="partial-view-link" href="/About#HistoryOfOffice" title="History of the Office" target="_self">History of the Office</a>
+                                 </li>
+                              </ul>
+                           </div>
+                           <div class="mega-bucket dropdown-menu_right">
+                              <ul class="list-unstyled equal-height-list" role="list" tabindex="0" aria-label="the clerk of the house">
+                                 <li><h3 class="menu-subtitle">The Clerk of the House</h3></li>
+                                 <li role="listitem" tabindex="0" aria-label="the honorable karen l haas, clerk of the u s house of representatives">
+                                    <b>The Honorable Kevin F. McCumber</b><br>
+                                    <i>Clerk of the U.S. House of Representatives</i><br>
+                                 </li>
+                              </ul>
+                           </div>
+                           <div class="mega-bucket dropdown-menu_right">
+                              <ul class="list-unstyled equal-height-list" role="list" tabindex="0" aria-label="deputy clerks">
+                                 <li><h3 class="menu-subtitle">Deputy Clerk</h3></li>
+                                  <li role="listitem" tabindex="0" aria-label="Michelle H. Reinshuttle, deputy clerk">
+                                    <b>Michelle H. Reinshuttle</b>
+                                    <br />
+                                    <i>Deputy Clerk</i>
+                                 </li>
+                              </ul>
+                           </div>
+                           <div class="mega-bucket dropdown-menu_right">
+                              <ul class="list-unstyled equal-height-list" role="list" tabindex="0" aria-label="contact information">
+                                 <li>
+                                    <h3 class="menu-subtitle">Contact Information</h3>
+                                 </li>
+                                 <li role="listitem" tabindex="0" aria-label="mailing address, u s capitol, room h154, washington, d c 20515 6601">
+                                    <b>Mailing Address</b>
+                                    <br />
+                                    U.S. Capitol
+                                    <br />
+                                    Room H154
+                                    <br />
+                                    Washington, DC 20515&ndash;6601
+                                 </li>
+                                 <li role="listitem" tabindex="0" aria-label="telephone number, (202) 225-7000">
+                                    <b>Telephone Number</b>
+                                    <br />
+                                    (202) 225&ndash;7000
+                                 </li>
+                                 <li role="listitem" tabindex="0" aria-label="office hours, 9:00 a m to 6:00 p m, monday to friday">
+                                    <b>Office Hours</b>
+                                    <br />
+                                    9:00 AM&ndash;6:00 PM, Monday&ndash;Friday
+                                 </li>
+                              </ul>
+                           </div>
+							 <div class="mega-bucket dropdown-menu_right">
+                              <ul class="list-unstyled equal-height-list" role="list" aria-label="additional resources">
+                                 <li>
+                                    <h3 class="menu-subtitle">Additional Resources</h3>
+                                 </li>
+                                 <li role="listitem">
+                                    <i class="fa fa-angle-double-right"></i>&nbsp;<span tabindex="0">Artificial Intelligence Use Case Inventory</span><br />
+                                    [<a href="/reference-files/Artificial-Intelligence-Use-Case-Inventory.pdf" title="Member Data" target="_blank" rel="noreferrer">USHouse-Clerk-1: Comparative Print Suite </a>]
+                                 </li>
+                                
+                              </ul>
+                           </div>	 
+                        </div>
+                     </li>
+
+                     <li class="hidden-xs hidden-sm nav-append">
+                        <svg role="img" aria-label="Yellow Star" xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="8.5 -3.9 19 17.8">
+                           <polygon points="27.5 3 20.3 3 18.1 -3.9 15.8 3 8.5 3 14.4 7.1 12.2 13.9 18 9.7 23.9 13.9 21.7 7.1 " fill="#FFD262" />
+                        </svg>
+                     </li>
+
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </nav>
+      <!--keyoti_search_ignore_end-->
+      <input type="hidden" id="inSessionDateList" value="20150106,20150107,20150108,20150109,20150112,20150113,20150114,20150116,20150120,20150121,20150122,20150126,20150127,20150128,20150130,20150202,20150203,20150204,20150205,20150209,20150210,20150211,20150212,20150213,20150217,20150220,20150224,20150225,20150226,20150227,20150302,20150303,20150304,20150306,20150310,20150313,20150316,20150317,20150318,20150319,20150323,20150324,20150325,20150326,20150413,20150414,20150415,20150416,20150417,20150420,20150421,20150422,20150423,20150427,20150428,20150429,20150430,20150501,20150505,20150508,20150512,20150513,20150514,20150515,20150518,20150519,20150520,20150521,20150522,20150526,20150529,20150601,20150602,20150603,20150604,20150608,20150609,20150610,20150611,20150612,20150615,20150616,20150617,20150618,20150619,20150623,20150624,20150625,20150707,20150708,20150709,20150710,20150713,20150714,20150715,20150716,20150720,20150721,20150722,20150723,20150727,20150728,20150729,20150731,20150804,20150908,20150909,20150910,20150911,20150915,20150916,20150917,20150918,20150922,20150924,20150925,20150928,20150929,20150930,20151001,20151002,20151005,20151006,20151007,20151008,20151009,20151013,20151016,20151020,20151021,20151022,20151023,20151026,20151027,20151028,20151029,20151102,20151103,20151104,20151105,20151116,20151117,20151118,20151119,20151130,20151201,20151202,20151203,20151207,20151208,20151209,20151210,20151211,20151215,20151216,20151217,20151218,20160104,20160105,20160106,20160107,20160108,20160111,20160112,20160113,20160125,20160128,20160201,20160202,20160203,20160204,20160208,20160209,20160210,20160211,20160212,20160223,20160224,20160225,20160226,20160229,20160301,20160302,20160303,20160307,20160310,20160314,20160315,20160316,20160317,20160321,20160322,20160323,20160411,20160412,20160413,20160414,20160415,20160418,20160419,20160420,20160421,20160425,20160426,20160427,20160428,20160429,20160503,20160506,20160510,20160511,20160512,20160513,20160516,20160517,20160518,20160519,20160523,20160524,20160525,20160526,20160527,20160531,20160603,20160607,20160608,20160609,20160610,20160613,20160614,20160615,20160616,20160620,20160621,20160622,20160623,20160624,20160628,20160701,20160705,20160706,20160707,20160708,20160711,20160712,20160713,20160714,20160718,20160721,20160725,20160906,20160907,20160908,20160909,20160912,20160913,20160914,20160915,20160919,20160920,20160921,20160922,20160926,20160927,20160928,20161114,20161115,20161116,20161117,20161118,20161122,20161125,20161129,20161130,20161201,20161202,20161205,20161206,20161207,20161208,20161212,20161213,20161216,20161220,20161223,20161227,20161230,20170103,20170104,20170105,20170106,20170109,20170110,20170111,20170112,20170113,20170117,20170120,20170123,20170124,20170127,20170130,20170131,20170201,20170202,20170203,20170206,20170207,20170209,20170213,20170214,20170215,20170216,20170217,20170221,20170224,20170227,20170228,20170301,20170302,20170306,20170307,20170308,20170309,20170310,20170313,20170315,20170316,20170317,20170320,20170321,20170322,20170323,20170324,20170327,20170328,20170329,20170330,20170403,20170404,20170405,20170406,20170408,20170412,20170414,20170417,20170420,20170424,20170425,20170426,20170427,20170428,20170501,20170502,20170503,20170504,20170508,20170511,20170515,20170516,20170517,20170518,20170519,20170522,20170523,20170524,20170525,20170526,20170530,20170602,20170606,20170607,20170608,20170612,20170613,20170614,20170615,20170616,20170620,20170621,20170622,20170623,20170626,20170627,20170628,20170629,20170703,20170706,20170710,20170711,20170712,20170713,20170714,20170717,20170718,20170719,20170720,20170724,20170725,20170726,20170727,20170728,20170801,20170804,20170808,20170811,20170815,20170818,20170822,20170825,20170829,20170901,20170905,20170906,20170907,20170908,20170911,20170912,20170913,20170914,20170918,20170921,20170925,20170926,20170927,20170928,20171002,20171003,20171004,20171005,20171006,20171010,20171011,20171012,20171016,20171019,20171023,20171024,20171025,20171026,20171027,20171031,20171101,20171102,20171103,20171106,20171107,20171108,20171109,20171110,20171113,20171114,20171115,20171116,20171117,20171121,20171124,20171128,20171129,20171130,20171201,20171204,20171205,20171206,20171207,20171211,20171212,20171213,20171214,20171215,20171218,20171219,20171220,20171221,20171222,20171226,20171229,20180102,20180103,20180105,20180108,20180109,20180110,20180111,20180112,20180116,20180117,20180118,20180119,20180120,20180121,20180122,20180125,20180129,20180130,20180202,20180205,20180206,20180207,20180208,20180213,20180214,20180215,20180216,20180220,20180223,20180226,20180227,20180301,20180305,20180306,20180307,20180308,20180309,20180313,20180314,20180315,20180319,20180320,20180321,20180322,20180323,20180326,20180329,20180402,20180405,20180409,20180410,20180411,20180412,20180413,20180416,20180417,20180418,20180419,20180423,20180424,20180425,20180426,20180427,20180501,20180503,20180507,20180508,20180509,20180510,20180511,20180515,20180516,20180517,20180518,20180521,20180522,20180523,20180524,20180525,20180529,20180601,20180605,20180606,20180607,20180608,20180612,20180613,20180614,20180615,20180619,20180620,20180621,20180622,20180625,20180626,20180627,20180628,20180629,20180703,20180706,20180710,20180711,20180712,20180713,20180716,20180717,20180718,20180719,20180723,20180724,20180725,20180726,20180727,20180731,20180803,20180807,20180810,20180814,20180817,20180821,20180824,20180828,20180831,20180904,20180905,20180906,20180907,20180910,20180912,20180913,20180917,20180920,20180924,20180925,20180926,20180927,20180928,20181002,20181005,20181009,20181012,20181016,20181019,20181023,20181026,20181030,20181102,20181106,20181109,20181113,20181114,20181115,20181116,20181120,20181123,20181127,20181128,20181129,20181130,20181203,20181206,20181210,20181211,20181212,20181213,20181217,20181219,20181220,20181221,20181222,20181224,20181227,20181231,20190102,20190103,20190104,20190108,20190109,20190110,20190111,20190114,20190115,20190116,20190117,20190118,20190122,20190123,20190124,20190125,20190128,20190129,20190130,20190131,20190204,20190205,20190206,20190207,20190208,20190211,20190212,20190213,20190214,20190215,20190219,20190222,20190225,20190226,20190227,20190228,20190304,20190305,20190306,20190307,20190308,20190311,20190312,20190313,20190314,20190318,20190321,20190325,20190326,20190327,20190328,20190329,20190401,20190402,20190403,20190404,20190408,20190409,20190410,20190412,20190415,20190418,20190422,20190425,20190429,20190430,20190501,20190502,20190503,20190507,20190508,20190509,20190510,20190514,20190515,20190516,20190517,20190520,20190521,20190522,20190523,20190524,20190528,20190530,20190603,20190604,20190605,20190606,20190610,20190611,20190612,20190613,20190614,20190618,20190619,20190620,20190621,20190624,20190625,20190626,20190627,20190628,20190702,20190705,20190709,20190710,20190711,20190712,20190715,20190716,20190717,20190718,20190719,20190722,20190723,20190724,20190725,20190726,20190730,20190802,20190806,20190809,20190813,20190816,20190820,20190823,20190827,20190830,20190903,20190906,20190909,20190910,20190911,20190912,20190913,20190916,20190917,20190918,20190919,20190920,20190924,20190925,20190926,20190927,20191001,20191004,20191008,20191011,20191015,20191016,20191017,20191018,20191021,20191022,20191023,20191024,20191028,20191029,20191030,20191031,20191101,20191105,20191108,20191112,20191113,20191114,20191115,20191118,20191119,20191120,20191121,20191122,20191126,20191129,20191203,20191204,20191205,20191206,20191209,20191210,20191211,20191212,20191213,20191215,20191216,20191217,20191218,20191219,20191223,20191226,20191230,20200102,20200103,20200107,20200108,20200109,20200110,20200113,20200114,20200115,20200116,20200117,20200121,20200124,20200127,20200128,20200129,20200130,20200203,20200204,20200205,20200206,20200207,20200210,20200211,20200212,20200213,20200214,20200218,20200221,20200225,20200226,20200227,20200228,20200302,20200303,20200304,20200305,20200309,20200310,20200311,20200312,20200313,20200316,20200319,20200323,20200324,20200325,20200326,20200327,20200331,20200403,20200407,20200410,20200414,20200417,20200421,20200422,20200423,20200424,20200428,20200501,20200505,20200508,20200512,20200513,20200514,20200515,20200519,20200522,20200526,20200527,20200528,20200601,20200604,20200608,20200611,20200615,20200618,20200622,20200624,20200625,20200626,20200629,20200630,20200701,20200702,20200706,20200709,20200713,20200716,20200720,20200721,20200722,20200723,20200724,20200727,20200729,20200730,20200731,20200804,20200807,20200811,20200814,20200818,20200821,20200822,20200825,20200828,20200901,20200904,20200908,20200911,20200914,20200915,20200916,20200917,20200918,20200921,20200922,20200923,20200924,20200925,20200929,20200930,20201001,20201002,20201006,20201009,20201013,20201016,20201020,20201023,20201027,20201030,20201102,20201105,20201109,20201112,20201116,20201117,20201118,20201119,20201120,20201124,20201127,20201130,20201202,20201203,20201204,20201207,20201208,20201209,20201210,20201214,20201215,20201216,20201217,20201218,20201220,20201221,20201224,20201228,20201231,20210103,20210104,20210105,20210106,20210111,20210112,20210113,20210115,20210119,20210121,20210125,20210128,20210201,20210202,20210203,20210204,20210205,20210208,20210211,20210215,20210218,20210222,20210223,20210224,20210225,20210226,20210301,20210302,20210303,20210308,20210309,20210310,20210311,20210312,20210316,20210317,20210318,20210319,20210323,20210326,20210329,20210401,20210405,20210408,20210412,20210413,20210414,20210415,20210416,20210419,20210420,20210421,20210422,20210426,20210428,20210430,20210504,20210507,20210511,20210512,20210513,20210514,20210517,20210518,20210519,20210520,20210521,20210525,20210528,20210601,20210604,20210608,20210611,20210614,20210615,20210616,20210617,20210621,20210622,20210623,20210624,20210625,20210628,20210629,20210630,20210701,20210702,20210706,20210709,20210713,20210716,20210719,20210720,20210721,20210722,20210726,20210727,20210728,20210729,20210730,20210803,20210806,20210810,20210813,20210817,20210820,20210823,20210824,20210827,20210831,20210903,20210907,20210910,20210914,20210917,20210920,20210921,20210922,20210923,20210924,20210926,20210927,20210928,20210929,20210930,20211005,20211008,20211012,20211015,20211019,20211020,20211021,20211022,20211025,20211026,20211027,20211028,20211101,20211102,20211103,20211104,20211105,20211109,20211112,20211115,20211116,20211117,20211118,20211119,20211123,20211126,20211130,20211201,20211202,20211203,20211207,20211208,20211209,20211213,20211214,20211216,20211220,20211223,20211227,20211230,20220103,20220106,20220110,20220111,20220112,20220113,20220114,20220118,20220119,20220120,20220121,20220125,20220128,20220201,20220202,20220203,20220204,20220207,20220208,20220209,20220211,20220215,20220218,20220222,20220225,20220228,20220301,20220302,20220303,20220307,20220308,20220309,20220311,20220315,20220316,20220317,20220318,20220321,20220324,20220328,20220329,20220330,20220331,20220401,20220404,20220405,20220406,20220407,20220411,20220414,20220418,20220421,20220425,20220426,20220427,20220428,20220429,20220503,20220506,20220510,20220511,20220512,20220513,20220516,20220517,20220518,20220519,20220520,20220524,20220527,20220531,20220603,20220607,20220608,20220609,20220613,20220614,20220615,20220616,20220617,20220621,20220622,20220623,20220624,20220628,20220701,20220705,20220707,20220711,20220712,20220713,20220714,20220715,20220718,20220719,20220720,20220721,20220722,20220726,20220727,20220728,20220729,20220802,20220805,20220809,20220812,20220816,20220819,20220823,20220826,20220830,20220902,20220906,20220909,20220913,20220914,20220915,20220919,20220920,20220921,20220922,20220926,20220928,20220929,20220930,20221004,20221007,20221011,20221014,20221018,20221021,20221025,20221028,20221031,20221103,20221107,20221110,20221114,20221115,20221116,20221117,20221118,20221122,20221125,20221129,20221130,20221201,20221202,20221205,20221206,20221207,20221208,20221212,20221213,20221214,20221215,20221216,20221220,20221221,20221222,20221223,20221227,20221230,20230103,20230104,20230105,20230106,20230109,20230110,20230111,20230112,20230113,20230117,20230120,20230124,20230125,20230126,20230127,20230130,20230131,20230201,20230202,20230206,20230207,20230208,20230209,20230210,20230214,20230217,20230221,20230224,20230227,20230228,20230301,20230303,20230307,20230308,20230309,20230310,20230314,20230317,20230321,20230322,20230323,20230324,20230327,20230328,20230329,20230330,20230403,20230406,20230410,20230413,20230417,20230418,20230419,20230420,20230424,20230425,20230426,20230427,20230428,20230502,20230505,20230509,20230510,20230511,20230515,20230516,20230517,20230518,20230522,20230523,20230524,20230525,20230526,20230529,20230530,20230531,20230601,20230605,20230606,20230607,20230609,20230612,20230613,20230614,20230615,20230616,20230620,20230621,20230622,20230623,20230627,20230630,20230703,20230706,20230710,20230711,20230712,20230713,20230714,20230717,20230718,20230719,20230720,20230724,20230725,20230726,20230727,20230728,20230801,20230804,20230808,20230811,20230815,20230818,20230822,20230825,20230829,20230901,20230905,20230908,20230912,20230913,20230914,20230918,20230919,20230920,20230921,20230922,20230923,20230926,20230927,20230928,20230929,20230930,20231002,20231003,20231006,20231010,20231011,20231012,20231013,20231016,20231017,20231018,20231019,20231020,20231024,20231025,20231026,20231030,20231101,20231102,20231103,20231106,20231107,20231108,20231109,20231113,20231114,20231115,20231117,20231121,20231124,20231128,20231129,20231130,20231201,20231204,20231205,20231206,20231207,20231211,20231212,20231213,20231214,20231215,20231219,20231222,20231226,20231229,20240102,20240103,20240105,20240109,20240110,20240111,20240112,20240116,20240117,20240118,20240122,20240125,20240129,20240130,20240131,20240201,20240205,20240206,20240207,20240209,20240213,20240214,20240215,20240216,20240220,20240223,20240226,20240228,20240229,20240301,20240305,20240306,20240307,20240308,20240311,20240312,20240313,20240315,20240319,20240320,20240321,20240322,20240326,20240329,20240402,20240405,20240409,20240410,20240411,20240412,20240415,20240416,20240417,20240418,20240419,20240420,20240423,20240426,20240429,20240430,20240501,20240502,20240506,20240507,20240508,20240510,20240514,20240515,20240516,20240517,20240521,20240522,20240523,20240524,20240528,20240531,20240603,20240604,20240605,20240607,20240611,20240612,20240613,20240614,20240618,20240621,20240625,20240626,20240627,20240628,20240702,20240705,20240708,20240709,20240710,20240711,20240715,20240718,20240722,20240723,20240724,20240725,20240726,20240730,20240802,20240806,20240809,20240813,20240816,20240820,20240823,20240827,20240830,20240903,20240906,20240909,20240910,20240911,20240912,20240916,20240917,20240918,20240919,20240920,20240923,20240924,20240925,20240927,20241001,20241004,20241008,20241011,20241015,20241018,20241022,20241025,20241029,20241101,20241105,20241108,20241112,20241113,20241114,20241115,20241118,20241119,20241120,20241121,20241122,20241126,20241129,20241203,20241204,20241205,20241206,20241209,20241210,20241211,20241212,20241216,20241217,20241218,20241219,20241220,20241224,20241227,20241231,20250103,20250106,20250107,20250109,20250113,20250114,20250115,20250116,20250120,20250121,20250122,20250123,20250124,20250128,20250131,20250204,20250205,20250206,20250207,20250210,20250211,20250212,20250213,20250214,20250218,20250221,20250224,20250225,20250226,20250227,20250303,20250304,20250305,20250306,20250310,20250311,20250314,20250318,20250321,20250324,20250325,20250326,20250327,20250331,20250401,20250402,20250403,20250407,20250408,20250409,20250410,20250414,20250417,20250421,20250424,20250428,20250429,20250430,20250501,20250505,20250506,20250507,20250508,20250509,20250513,20250514,20250515,20250517,20250519,20250520,20250521,20250523,20250526,20250529,20250602,20250603,20250604,20250605,20250606,20250609,20250610,20250611,20250612,20250613,20250617,20250620,20250623,20250624,20250625,20250626,20250627,20250630,20250702,20250707,20250710,20250714,20250715,20250716,20250717,20250721,20250722,20250723,20250725,20250729,20250801,20250805,20250808,20250812,20250815,20250819,20250822,20250826,20250829,20250902,20250903,20250904,20250908,20250909,20250910,20250911,20250915,20250916,20250917,20250918,20250919,20250923,20250926,20250930,20251003,20251006,20251008,20251010,20251014,20251017,20251021,20251024,20251028,20251031,20251104,20251107,20251110,20251112,20251113,20251117,20251118,20251119,20251120,20251121,20251125,20251128,20251201,20251202,20251203,20251204,20251205,20251209,20251210,20251211,20251212,20251215,20251216,20251217,20251218,20251219,20251223,20251226,20251230,20260102,20260103,20260106,20260107,20260108,20260109,20260112,20260113,20260114,20260115,20260116,20260120,20260121,20260122,20260123,20260127,20260130,20260202,20260203,20260204,20260205,20260209,20260210,20260211,20260212,20260213,20260217,20260220,20260223,20260224,20260225,20260226,20260302,20260303,20260304,20260305,20260309,20260312,20260316,20260317,20260318,20260319,20260320,20260324,20260325,20260326,20260327,20260330,20260402,20260406,20260409,20260413,20260414,20260415,20260416,20260420,20260421,20260422,20260423,20260427,20260428,20260429,20260430,20260504,20260507,20260511,20260512,20260513,20260514,20260515,20260519,20260520,20260521,20260522,20260526,20260529,20260602,20260603,20260604,20260608,20260609,20260610,20260611,20260615,20260618,20260622,20260623,20260624,20260625,20260629,20260630,20260702,20260706,20260709,20260713,20260714,20260715,20260716,20260718,20260720,20260721,20260722,20260723,20260727,20260730,20260803,20260806,20260810,20260813,20260817,20260820,20260824,20260827,20260831,20260901,20260902,20260903,20260904,20260908,20260910,20260914,20260915,20260916,20260917,20260921,20260924,20260928,20261001,20261005,20261006,20261009,20261013,20261015,20261019,20261022,20261026">
+
+<script nonce="B2yPHKaXnvFWtRChIbabYmUBFZdVfKKXHbWtWidDVF8">
+   document.addEventListener('DOMContentLoaded', function () {
+      datePicker();
+   }, false);
+</script>
+
+</header>
+
+    
+
+<div class="jumbotron not_in_session">
+    <div class="container">
+        <div id="feature">
+            <div class="col-xs-12">
+                <p><span class="session-id hidden-xs"></span></p>
+                <h1>
+                    <span class="date" style="text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);">
+                        Requested resource not found. Please try again.
+                    </span>
+                </h1>
+                <span class="date" style="text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);">October 27, 2026 4:13:23 AM</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!--keyoti_search_ignore_begin-->
+<div class="footer_wrapper">
+    <footer id="footer" class="container">
+        <div class="row footer-links">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+                <div class="vcard">
+                    <h3 class="library-h3 fn" tabindex="0" aria-label="Contact InformationU.S. Capitol">Contact Information</h3>
+                    <p class="adr" tabindex="0" aria-label="room h154, The Capitol">
+                        <span class="street-address">Room H154, The Capitol</span><br>
+                        <span class="region">Washington, DC</span><br>
+                        <span class="postal-code">20515-6601</span><br>
+                    </p>
+                    <p class="tel"><a href="tel:(202)225-7000" aria-label="telephone: (202) 225 7000">p: (202) 225-7000</a></p>
+                </div>
+                <dl>
+                    <dt>For general inquiries:</dt>
+                    <dd>
+                        <a href="mailto:info.clerkweb@mail.house.gov" title="" aria-label="for general inquiries, info.clerkweb@mail.house.gov">info.clerkweb@mail.house.gov</a>
+                    </dd>
+                    <dt>For general technical support:</dt>
+                    <dd>
+                        <a href="mailto:techsupport.clerkweb@mail.house.gov" title="" aria-label="for general technical support, techsupport.clerkweb@mail.house.gov">techsupport.clerkweb@mail.house.gov</a>
+                    </dd>
+                </dl>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+                <h3 class="library-h3" tabindex="0" aria-label="Legislative Information">Legislative Information</h3>
+                <a href="/FloorSummary" title="Legislative Activity">Legislative Activity</a>
+                <a href="/Votes" title="Votes">Roll Call Votes</a>
+                <a href="/DischargePetition" title="Discharge Petitions">Discharge Petitions</a>
+                <a href="https://live.house.gov" title="live.house.gov" target="_blank" rel="noreferrer">live.house.gov</a>
+                <a href="/SelectedMemorial" title="Selected Memorials">Selected Memorials</a>
+                <a href="/ConsensusCalendarMotions" title="Consensus Calendar Motions">Consensus Calendar Motions</a>
+
+                <h3 class="library-h3" tabindex="0" aria-label="Member Information">Member Information</h3>
+                <a href="/Members" title="Member Profiles">Member Profiles</a>
+                <a class="partial-view-link" href="/Members#Leadership" title="Leadership">Leadership</a>
+                <a class="partial-view-link" href="/Members#ElectionInformation" title="Election Information">Election Information</a>
+                <a class="partial-view-link" href="/Members#Vacancies" title="Current Vacancies">Current Vacancies</a>
+                <a tabindex="0" class="partial-view-link" href="/Members#Demographics" title="Demographics" target="_self">Demographics</a>
+                <a tabindex="0" class="partial-view-link" href="/Members#MemberOaths" title="MemberOaths" target="_self">Member Oaths</a>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+                <h3 class="library-h3" tabindex="0" aria-label="Disclosures">Disclosures</h3>
+                <a href="https://disclosures-clerk.house.gov/FinancialDisclosure" title="Financial Disclosure Reports" rel="noreferrer">Financial Disclosure Reports</a>
+                <a href="https://disclosures-clerk.house.gov/ForeignTravel" title="Foreign Travel Reports and Expenditures" rel="noreferrer">Foreign Travel Reports and Expenditures</a>
+                <a href="https://disclosures-clerk.house.gov/FrankedMaterials" title="Unsolicited Mass Communications" rel="noreferrer">Unsolicited Mass Communications</a>
+                <a href="https://disclosures-clerk.house.gov/GiftTravelFilings" title="Gift Travel Filings" rel="noreferrer">Gift Travel Filings</a>
+                <a href="https://disclosures-clerk.house.gov/LegalExpenseFund" title="Legal Expense Fund Disclosures" rel="noreferrer">Legal Expense Fund Disclosures</a>
+                <a href="https://disclosures-clerk.house.gov/OfficeOfCongressionalConduct" title="Office of Congressional Conduct" rel="noreferrer">Office of Congressional Conduct</a>
+                <a href="https://disclosures-clerk.house.gov/PostEmploymentNotification" title="Post-Employment Notifications" rel="noreferrer">Post-Employment Notifications</a>
+                <h3 class="library-h3" tabindex="0" aria-label="About the Clerk">About the Clerk</h3>
+                <a class="partial-view-link" href="/About#OverviewContact" title="The Clerk of the House">Overview and Contact</a>
+                <a class="partial-view-link" href="/About#DutyOfClerk" title="Duties of the Clerk">Duties of the Clerk</a>
+                <a class="partial-view-link" href="/About#OfficeService" title="Offices and Services">Offices and Services</a>
+                <a class="partial-view-link" href="/About#HistoryOfOffice" title="History of the Office">History of the Office</a>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+                <h3 class="library-h3" tabindex="0" aria-label="Committee Information">Committee Information</h3>
+                <a href="/committees" title="Committee Profiles">Committee Profiles</a>
+                <h3 class="library-h3" tabindex="0" aria-label="Clerk Sites">Clerk Sites</h3>
+                <a href="https://docs.house.gov/floor" title="Bills This Week" target="_blank" rel="noreferrer">Bills This Week</a>
+                <a href="https://bioguide.congress.gov/" title="Bioguide" target="_blank" rel="noreferrer">Biographical Directory</a>
+                <a href="https://history.house.gov/Kids-in-the-House/" title="Clerk Kids" target="_blank" rel="noreferrer">Clerk Kids</a>
+                <a href="https://docs.house.gov/committee" title="Committee Repository" target="_blank" rel="noreferrer">Committee Repository</a>
+                <a href="https://history.house.gov" title="History" target="_blank" rel="noreferrer">History, Art & Archives</a>
+                <a href="https://chaplain.house.gov/" title="History" target="_blank" rel="noreferrer">Office of the Chaplain</a>
+                <h3 class="library-h3" tabindex="0" aria-label="Help and Resources">Help & Resources</h3>
+				 <a href="/Help" title="FAQs" rel="noreferrer">FAQs</a>
+                <a href="/PrivacyPolicy" title="Privacy Policy">Privacy Policy</a>
+                <a href="/SiteMap" title="Site Map">Site Map</a>
+            </div>
+        </div>
+
+        <div class="row footer-social">
+            <div class="col-sm-12 col-md-8 col-lg-6 footer-social_logo">
+                <a href="/" title="Office of the Clerk, U.S. House of Representatives">
+                    <img src="/assets/img/clerk-logo-footer.svg" title="Office of the Clerk, U.S. House of Representatives" alt="Office of the Clerk, U.S. House of Representatives" />
+                </a>
+            </div>
+        </div>
+    </footer>
+</div>
+<!--keyoti_search_ignore_end-->
+
+    <!--[if lte IE 9]>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
+    <![endif]-->
+
+    <div id='scrollUp'>
+        <i class='fa fa-chevron-up'></i>
+    </div>
+
+</body>
+</html>
