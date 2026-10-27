@@ -1,0 +1,27 @@
+name: us-fetch
+on:
+  push:
+    branches: [us-fetch]
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch sources
+        run: |
+          mkdir -p fetched
+          cd fetched
+          UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+          curl -sSL -A "$UA" -m 120 -o fec_page.html https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/ || true
+          curl -sSL -A "$UA" -m 120 -o fec_2024.xlsx https://www.fec.gov/documents/5644/federalelections2024.xlsx || true
+          curl -sSL -A "$UA" -m 120 -o fec_2024_results.xlsx https://www.fec.gov/documents/5664/2024presgeresults.xlsx || true
+          curl -sSL -A "$UA" -m 120 -o clerk_page.html https://clerk.house.gov/Members/ElectionStatistics || true
+          curl -sSL -m 120 -o house_meta.json "https://dataverse.harvard.edu/api/datasets/:persistentId/?persistentId=doi:10.7910/DVN/IG0UN2" || true
+          curl -sSL -m 120 -o senate_meta.json "https://dataverse.harvard.edu/api/datasets/:persistentId/?persistentId=doi:10.7910/DVN/PEJ5QU" || true
+          ls -la
+      - name: Commit
+        run: |
+          git config user.name "github-actions"; git config user.email "actions@github.com"
+          git add fetched; git commit -m "fetched sources" || true; git push
