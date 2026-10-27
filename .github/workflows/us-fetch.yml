@@ -14,10 +14,9 @@ jobs:
           mkdir -p fetched
           cd fetched
           UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
-          for pg in 2024_Delaware_gubernatorial_election 2024_Indiana_gubernatorial_election 2024_Missouri_gubernatorial_election 2024_Montana_gubernatorial_election 2024_New_Hampshire_gubernatorial_election 2024_North_Carolina_gubernatorial_election 2024_North_Dakota_gubernatorial_election 2024_Utah_gubernatorial_election 2024_Vermont_gubernatorial_election 2024_Washington_gubernatorial_election 2024_West_Virginia_gubernatorial_election; do
-            curl -sSL -A "election-dashboard/1.0 (danieljchapman.github.io)" -m 120 -o "wiki_$pg.json" "https://en.wikipedia.org/w/api.php?action=parse&page=$pg&prop=wikitext&format=json&formatversion=2&redirects=1" || true
-            sleep 2
-          done
+          curl -sSL -m 300 -o gaz_cd119.zip https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_119CDs_national.zip || true
+          curl -sSL -m 300 -o gaz_cd118.zip https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2023_Gazetteer/2023_Gaz_118CDs_national.zip || true
+          ls -la gaz_*
           ls -la
       - name: Commit
         run: |
