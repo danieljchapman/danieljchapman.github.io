@@ -1,0 +1,15 @@
+name: poll-probe
+on:
+  push:
+    branches: [poll-probe]
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 probe/fetch_polls.py
+      - run: |
+          git config user.name "github-actions"; git config user.email "actions@github.com"
+          git add probe; git commit -m "probe results" || true; git push
