@@ -283,12 +283,17 @@
     const box = holder('map-hex');
     const R = 10, w = Math.sqrt(3) * R;   // pointy-top hexes; layout units: x = col + .5*(row&1), y = row*sqrt(3)/2 (width 1)
     const sc = w;                          // one layout unit = one hex width
-    const pos = (c, r) => [(c + 0.5 * (r & 1)) * sc + w, r * (Math.sqrt(3) / 2) * sc + R + 2];
+    // states are pulled slightly apart (hexL.offsets, per state, in hex widths; us/tools/hex_separate.py)
+    const OFF = hexL.offsets || {};
+    const raw = (c, r, st) => { const o = OFF[st] || [0, 0]; return [c + 0.5 * (r & 1) + o[0], r * (Math.sqrt(3) / 2) + o[1]]; };
+    const all = Object.entries(hexL.hexes).map(([k, [c, r]]) => raw(c, r, k.slice(0, 2)));
+    const mnx = d3.min(all, (p) => p[0]), mny = d3.min(all, (p) => p[1]);
+    const pos = (c, r, st) => { const [x, y] = raw(c, r, st); return [(x - mnx) * sc + w, (y - mny) * sc + R + 2]; };
     const corner = (i) => { const a = Math.PI / 180 * (60 * i - 30); return [R * Math.cos(a), R * Math.sin(a)]; };
     const hexPath = 'M' + d3.range(6).map((i) => corner(i).map((v) => v.toFixed(2)).join(',')).join('L') + 'Z';
     const byKey = new Map(races.map((r) => [r.key, r]));
-    const items = Object.entries(hexL.hexes).map(([k, [c, r]]) => ({ k, st: k.slice(0, 2), c, r, xy: pos(c, r) }));
-    const W = (hexL.ncols + 1) * sc + w, H = (hexL.nrows + 1) * (Math.sqrt(3) / 2) * sc + 2 * R;
+    const items = Object.entries(hexL.hexes).map(([k, [c, r]]) => ({ k, st: k.slice(0, 2), c, r, xy: pos(c, r, k.slice(0, 2)) }));
+    const W = d3.max(items, (d) => d.xy[0]) + w, H = d3.max(items, (d) => d.xy[1]) + R + 2;
     const svg = d3.select(box).selectAll('svg').data([0]).join('svg').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img')
       .attr('aria-label', 'Tile map of the 435 House districts, one hexagon each, grouped by state');
     const g0 = zoomable(box, svg, [0, 0, W, H], null);
@@ -320,9 +325,9 @@
         segs.push(`M${(d.xy[0] + R * Math.cos(a1)).toFixed(1)},${(d.xy[1] + R * Math.sin(a1)).toFixed(1)}L${(d.xy[0] + R * Math.cos(a2)).toFixed(1)},${(d.xy[1] + R * Math.sin(a2)).toFixed(1)}`);
       }
     }
-    g.selectAll('path.border').data([0]).join('path').attr('class', 'border').attr('d', segs.join(''));
+    g.selectAll('path.border').data(hexL.offsets ? [] : [0]).join('path').attr('class', 'border').attr('d', segs.join(''));
     // state labels beside the blob's middle
-    const lab = Object.entries(hexL.labels).map(([st, [x, y]]) => ({ st, x: x * sc + w, y: y * sc + R + 2 }));
+    const lab = Object.entries(hexL.labels).map(([st, [x, y]]) => { const o = OFF[st] || [0, 0]; return { st, x: (x + o[0] - mnx) * sc + w, y: (y + o[1] - mny) * sc + R + 2 }; });
     const stl = g.selectAll('text.stl').data(lab, (d) => d.st).join('text').attr('class', 'stl').attr('x', (d) => d.x).text((d) => d.st);
     // district labels ("TX 7"), shown once zoomed in; dark text on light fills, white on dark
     const light = (c) => { const x = d3.color(c); if (!x) return true; const { r, g: gg, b } = x.rgb(); return 0.299 * r + 0.587 * gg + 0.114 * b > 150; };
