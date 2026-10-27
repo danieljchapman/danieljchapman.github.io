@@ -181,11 +181,57 @@
   };
   const hideTip = () => { tip.style.display = 'none'; };
 
+  // ---------- zoom: pinch or Ctrl/⌘ + scroll to zoom, drag to pan once zoomed, +/−/reset buttons (as on the state pages) ----------
+  function holder(id) {
+    const box = $('map');
+    let h = document.getElementById(id);
+    if (!h) { h = el('div', 'lx-maphold'); h.id = id; box.append(h); }
+    for (const c of box.querySelectorAll('.lx-maphold')) c.hidden = c !== h;
+    return h;
+  }
+  function zoomable(hold, svg, vb, onZoom) {
+    const node = svg.node();
+    if (node._zm) { node._zm.onZoom = onZoom; return node._zm; }
+    const [X0, Y0, W, H] = vb;
+    const layer = svg.append('g').attr('class', 'lx-zl');
+    let t = d3.zoomIdentity;
+    const api = { layer, k: () => t.k, onZoom };
+    const hint = el('div', 'lx-zoomhint', /Mac|iPhone|iPad/.test(navigator.platform) ? 'Use ⌘ + scroll to zoom the map' : 'Use Ctrl + scroll to zoom the map');
+    let hintT = null;
+    const zoom = d3.zoom().scaleExtent([1, 10]).extent([[X0, Y0], [X0 + W, Y0 + H]]).translateExtent([[X0, Y0], [X0 + W, Y0 + H]]).clickDistance(4)
+      .filter((e) => {
+        if (e.type === 'wheel') {
+          if (e.ctrlKey || e.metaKey) return true;
+          hint.classList.add('on'); clearTimeout(hintT); hintT = setTimeout(() => hint.classList.remove('on'), 1200); return false;
+        }
+        if (e.type === 'touchstart') return e.touches.length > 1 || t.k > 1.01;
+        return !e.button && (t.k > 1.01 || e.type === 'dblclick');
+      })
+      .on('zoom', (e) => { t = e.transform; place(); });
+    const place = () => {
+      layer.attr('transform', t);
+      svg.style('touch-action', t.k > 1.01 ? 'none' : 'pan-y').style('cursor', t.k > 1.01 ? 'grab' : null);
+      reset.hidden = t.k <= 1.01;
+      if (api.onZoom) api.onZoom(t.k);
+    };
+    svg.call(zoom).on('dblclick.zoom', null);
+    hold.style.position = 'relative';
+    const ctl = el('div', 'lx-zoomctl');
+    const btn = (txt, aria, fn) => { const b = el('button', null, txt); b.type = 'button'; b.setAttribute('aria-label', aria); b.addEventListener('click', fn); ctl.append(b); return b; };
+    btn('+', 'Zoom in', () => svg.transition().duration(250).call(zoom.scaleBy, 2));
+    btn('−', 'Zoom out', () => svg.transition().duration(250).call(zoom.scaleBy, 0.5));
+    const reset = btn('⟲', 'Reset zoom', () => svg.transition().duration(300).call(zoom.transform, d3.zoomIdentity));
+    hold.append(ctl, hint);
+    node._zm = api;
+    place();
+    return api;
+  }
+
   // ---------- state map (Senate, governor) ----------
   let stateGeo = null;
   function drawStateMap(races, sel) {
     const topo = dash.data('states');
-    const box = $('map');
+    const box = holder('map-states');
     if (topo.status !== 'ok') { if (topo.status === 'error') box.textContent = 'Map failed to load'; return; }
     const T = Array.isArray(topo.data) ? topo.data[0] : topo.data;
     if (!stateGeo) stateGeo = topojson.feature(T, T.objects.states).features.filter((f) => FIPS[f.id] && FIPS[f.id] !== 'DC');
@@ -194,8 +240,9 @@
     const W = 1010, H = 610, path = d3.geoPath();
     const svg = d3.select(box).selectAll('svg').data([0]).join('svg').attr('viewBox', `-30 0 ${W} ${H}`).attr('role', 'img')
       .attr('aria-label', 'Map of the states, colored by the winner or leader of each race');
-    svg.selectAll('g.hexes').remove();
-    const g = svg.selectAll('g.states').data([0]).join('g').attr('class', 'states');
+    const zm = zoomable(box, svg, [-30, 0, W, H], null);
+    zm.onZoom = (k) => g.selectAll('circle.flip').attr('r', 4.5 / k).attr('stroke-width', 1.2 / k);
+    const g = zm.layer.selectAll('g.states').data([0]).join('g').attr('class', 'states');
     g.selectAll('path').data(stateGeo, (f) => f.id).join('path')
       .attr('d', path)
       .attr('class', (f) => 'st' + (byState.has(FIPS[f.id]) ? ' has' : '') + (sel && sel.startsWith(FIPS[f.id]) ? ' sel' : ''))
@@ -226,13 +273,14 @@
       .on('mouseleave', hideTip)
       .on('click', (e, d) => { const r = main(d); if (r) set({ sel: r.key }); });
     sb.select('rect').attr('fill', (d) => fillOf(main(d))).attr('stroke', (d) => (main(d) ? css('--color-fg-muted') : css('--color-border-line')));
+    zm.onZoom(zm.k());
     sb.select('text').text((d) => d).attr('fill', (d) => { const r = main(d); return r && (r.total || r.unopposed) && (r.margin == null || r.margin >= 0.1) ? '#fff' : css('--color-fg'); });
     svg.selectAll('text.small-note').data([0]).join('text').attr('class', 'small-note').attr('x', 947).attr('y', 160).attr('text-anchor', 'middle').text('');
   }
 
   // ---------- House tile map ----------
   function drawHexMap(races, sel, hexL) {
-    const box = $('map');
+    const box = holder('map-hex');
     const R = 10, w = Math.sqrt(3) * R;   // pointy-top hexes; layout units: x = col + .5*(row&1), y = row*sqrt(3)/2 (width 1)
     const sc = w;                          // one layout unit = one hex width
     const pos = (c, r) => [(c + 0.5 * (r & 1)) * sc + w, r * (Math.sqrt(3) / 2) * sc + R + 2];
@@ -243,14 +291,14 @@
     const W = (hexL.ncols + 1) * sc + w, H = (hexL.nrows + 1) * (Math.sqrt(3) / 2) * sc + 2 * R;
     const svg = d3.select(box).selectAll('svg').data([0]).join('svg').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img')
       .attr('aria-label', 'Tile map of the 435 House districts, one hexagon each, grouped by state');
-    svg.selectAll('g.states').remove();
-    const g = svg.selectAll('g.hexes').data([0]).join('g').attr('class', 'hexes');
+    const g0 = zoomable(box, svg, [0, 0, W, H], null);
+    const g = g0.layer.selectAll('g.hexes').data([0]).join('g').attr('class', 'hexes');
     g.selectAll('path.hx').data(items, (d) => d.k).join('path').attr('class', (d) => 'hx' + (sel === d.k ? ' sel' : ''))
       .attr('d', hexPath).attr('transform', (d) => `translate(${d.xy[0]},${d.xy[1]})`)
       .attr('fill', (d) => fillOf(byKey.get(d.k)))
       .attr('tabindex', 0)
-      .on('mousemove', (e, d) => showTip(e, byKey.get(d.k)))
-      .on('mouseleave', hideTip)
+      .on('mousemove', (e, d) => { showTip(e, byKey.get(d.k)); hov.attr('display', null).attr('transform', `translate(${d.xy[0]},${d.xy[1]})`); })
+      .on('mouseleave', () => { hideTip(); hov.attr('display', 'none'); })
       .on('click', (e, d) => set({ sel: d.k }))
       .on('keydown', (e, d) => { if (e.key === 'Enter') set({ sel: d.k }); });
     // flip markers
@@ -275,8 +323,27 @@
     g.selectAll('path.border').data([0]).join('path').attr('class', 'border').attr('d', segs.join(''));
     // state labels beside the blob's middle
     const lab = Object.entries(hexL.labels).map(([st, [x, y]]) => ({ st, x: x * sc + w, y: y * sc + R + 2 }));
-    g.selectAll('text.stl').data(lab, (d) => d.st).join('text').attr('class', 'stl').attr('x', (d) => d.x).attr('y', (d) => d.y + 3.5).text((d) => d.st);
-    g.selectAll('path.hx.sel').raise();
+    const stl = g.selectAll('text.stl').data(lab, (d) => d.st).join('text').attr('class', 'stl').attr('x', (d) => d.x).text((d) => d.st);
+    // district labels ("TX 7"), shown once zoomed in; dark text on light fills, white on dark
+    const light = (c) => { const x = d3.color(c); if (!x) return true; const { r, g: gg, b } = x.rgb(); return 0.299 * r + 0.587 * gg + 0.114 * b > 150; };
+    const dl = g.selectAll('text.dl').data(items, (d) => d.k).join('text').attr('class', 'dl').attr('x', (d) => d.xy[0])
+      .text((d) => `${d.st} ${Number(d.k.slice(3)) || 'AL'}`).attr('fill', (d) => (light(fillOf(byKey.get(d.k))) ? '#1f1e1c' : '#fff'));
+    // outlines for the selected and hovered hex, drawn above everything so neighbors can't cover them
+    const sItem = items.find((d) => d.k === sel);
+    g.selectAll('path.hsel').data(sItem ? [sItem] : []).join('path').attr('class', 'hsel').attr('d', hexPath).attr('transform', (d) => `translate(${d.xy[0]},${d.xy[1]})`);
+    const hov = g.selectAll('path.hov').data([0]).join('path').attr('class', 'hov').attr('d', hexPath).attr('display', 'none');
+    g.selectAll('path.border').raise();
+    g.selectAll('circle.flip').raise();
+    stl.raise(); dl.raise();
+    g.selectAll('path.hsel').raise(); hov.raise();
+    g0.onZoom = (k) => {
+      const near = k >= 2.5;
+      // labels grow with zoom, but less than the map does
+      stl.attr('display', near ? 'none' : null).attr('font-size', 7.5 / Math.sqrt(k)).attr('stroke-width', 2.2 / Math.sqrt(k)).attr('y', (d) => d.y + 2.6 / Math.sqrt(k));
+      dl.attr('display', near ? null : 'none').attr('font-size', 4.4).attr('y', (d) => d.xy[1] + 1.6);
+      g.selectAll('circle.flip').attr('display', near ? 'none' : null);
+    };
+    g0.onZoom(g0.k());
   }
 
   // ---------- balance bar ----------

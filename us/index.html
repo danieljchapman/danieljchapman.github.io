@@ -190,8 +190,16 @@ button { font: inherit; }
 #map g.small text { font-size: 11px; font-weight: 600; pointer-events: none; }
 #map g.small.sel rect { stroke: var(--color-fg); stroke-width: 2.5; }
 #map path.hx { stroke: var(--color-panel); stroke-width: 0.6; cursor: pointer; }
-#map path.hx:hover, #map path.hx.sel { stroke: var(--color-fg); stroke-width: 2; }
-#map path.border { fill: none; stroke: var(--color-panel); stroke-width: 2.6; pointer-events: none; stroke-linecap: round; }
+#map path.hsel, #map path.hov { fill: none; stroke: var(--color-fg); stroke-width: 2.2; vector-effect: non-scaling-stroke; pointer-events: none; stroke-linejoin: round; }
+#map path.hsel { stroke-width: 2.8; }
+#map path.border { fill: none; stroke: var(--color-panel); stroke-width: 3.2; pointer-events: none; stroke-linecap: round; vector-effect: non-scaling-stroke; }
+#map path.hx, #map path.st { vector-effect: non-scaling-stroke; }
+#map text.dl { font-weight: 600; text-anchor: middle; pointer-events: none; }
+.lx-maphold { position: relative; }
+#map .lx-zoomctl { top: auto; bottom: 8px; }
+
+.lx-maphold[hidden] { display: none; }
+#map svg { overflow: hidden; }
 #map text.stl { font-size: 7.5px; font-weight: 600; text-anchor: middle; fill: var(--color-fg); paint-order: stroke; stroke: var(--color-panel); stroke-width: 2.2px; stroke-opacity: .85; pointer-events: none; }
 .lx-legend .sw.dot { border-radius: 50%; border: 1px solid var(--color-fg); width: .6rem; height: .6rem; }
 .lx-balance svg { width: 100%; height: 3.6rem; display: block; overflow: visible; }
@@ -254,7 +262,7 @@ button { font: inherit; }
   <div class="lx-mapgrid">
     <section class="lx-card" aria-labelledby="map-title">
       <div class="lx-cardhead"><h2 id="map-title">Results</h2></div>
-      <p class="lx-note">Hover for the count; click for candidates and votes.</p>
+      <p class="lx-note">Hover for the count; click for candidates and votes. Zoom with the +/− buttons, Ctrl/⌘ + scroll or a pinch; drag to move around once zoomed.</p>
       <div class="lx-map dash-skeleton" id="map"></div>
       <div class="lx-legend" id="map-legend"></div>
       <div class="lx-tip" id="map-tip" style="display:none"></div>
@@ -276,7 +284,7 @@ button { font: inherit; }
   </section>
 
   <p class="lx-foot" id="foot-senate">Margin is the winner's share of all votes minus the runner-up's. Seat counts include seats not on the ballot that year; independents Bernie Sanders and Angus King (and, before 2025, Kyrsten Sinema and Joe Manchin) caucus with Democrats and are counted with them. A flip compares the winner's party with the party holding the seat on Election Day. Vice President JD Vance breaks 50–50 ties. 2024 shows the 34 contests that decided seats; California's same-day contest for the last weeks of the term is left out. 2024 results: Clerk of the U.S. House, <i>Statistics of the Presidential and Congressional Election of November 5, 2024</i> (official returns from each state; fusion-party votes in New York and Connecticut are added to the candidate). 2026 results come from CivicAPI and are unofficial; Georgia requires a majority, so a race there can go to a Dec. 1 runoff, and Alaska and Maine count ranked-choice ballots after Election Day. Senators on each date: the congress-legislators project.</p>
-  <p class="lx-foot" id="foot-house" hidden>Each hexagon is one of the 435 districts, grouped by state and placed roughly where it is (district centers from the Census Bureau's 2024 gazetteer for the 119th Congress). Nine states use new maps in 2026 (Alabama, California, Florida, Louisiana, North Carolina, Ohio, Tennessee, Texas and Utah), and five did in 2024 (Alabama, Georgia, Louisiana, New York and North Carolina); in those states a district's hexagon is only approximately placed and seats aren't marked as flips, because the district isn't the same place it was. A flip compares the winner's party with the party of the seat's member on Election Day (a vacant seat counts as its last member's party). 2024 results: Clerk of the U.S. House, official statistics (blank and void ballots left out; fusion-party votes added to the candidate; Maine's 2nd District is the final ranked-choice round and Alaska's first choices). Two 2024 members were unopposed and not on the ballot in their states' count: Sheila Cherfilus-McCormick (FL-20) and Frank Lucas (OK-3). 2026 results come from CivicAPI and are unofficial; candidates are as CivicAPI lists them. The national House vote adds up the votes of every contested race.</p>
+  <p class="lx-foot" id="foot-house" hidden>Each hexagon is one of the 435 districts. The map is a lightly warped outline of the country (crowded areas such as the Northeast corridor are enlarged so every district gets an equal hexagon); each state is one connected group, and districts sit roughly where they are inside their state (district centers from the Census Bureau's 2024 gazetteer for the 119th Congress). Nine states use new maps in 2026 (Alabama, California, Florida, Louisiana, North Carolina, Ohio, Tennessee, Texas and Utah), and five did in 2024 (Alabama, Georgia, Louisiana, New York and North Carolina); in those states a district's hexagon is only approximately placed and seats aren't marked as flips, because the district isn't the same place it was. A flip compares the winner's party with the party of the seat's member on Election Day (a vacant seat counts as its last member's party). 2024 results: Clerk of the U.S. House, official statistics (blank and void ballots left out; fusion-party votes added to the candidate; Maine's 2nd District is the final ranked-choice round and Alaska's first choices). Two 2024 members were unopposed and not on the ballot in their states' count: Sheila Cherfilus-McCormick (FL-20) and Frank Lucas (OK-3). 2026 results come from CivicAPI and are unofficial; candidates are as CivicAPI lists them. The national House vote adds up the votes of every contested race.</p>
   <p class="lx-foot" id="foot-governor" hidden>Margin is the winner's share of all votes minus the runner-up's. Seat counts include governors not on the ballot that year. 2024 results: each state's certified canvass (West Virginia from the Secretary of State; others as compiled on Wikipedia, checked against North Carolina's State Board of Elections file); Utah's Phil Lyman ran as a write-in. 2026 results come from CivicAPI and are unofficial; Georgia requires a majority, so a race there can go to a Dec. 1 runoff, and Maine and Alaska count ranked-choice ballots after Election Day. Vermont and New Hampshire elect governors every two years.</p>
 </div>
 </main>
