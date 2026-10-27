@@ -1,0 +1,58 @@
+name: National election-night results
+
+# U.S. Senate, House and governor results for the National page (us/), from CivicAPI (us/tools/us_live.py).
+# First polls close at 6 pm Eastern (23:00 UTC Nov 3); Alaska's last close at 1 am Eastern (06:00 UTC Nov 4).
+# Every 5 minutes in two long jobs (a GitHub job may run at most 6 hours): 22:45 UTC Nov 3 – 04:05 UTC Nov 4, then
+# 04:05 – 09:05 UTC. Each has a second start time in case GitHub starts the first late; a queued start ends at once
+# when its window is already covered. After that: every 10 minutes to 11:50 UTC, then hourly through Nov 20.
+on:
+  schedule:
+    - cron: '45 22 3 11 *'
+    - cron: '10 23 3 11 *'
+    - cron: '0 4 4 11 *'
+    - cron: '20 4 4 11 *'
+    - cron: '*/10 9-11 4 11 *'
+    - cron: '37 12-23 4 11 *'
+    - cron: '37 * 5-20 11 *'
+  workflow_dispatch:
+    inputs:
+      minutes:
+        description: 'Test run: how many minutes to keep updating (0 = one update)'
+        default: '0'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: us-election-night
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update
+        env:
+          MINUTES: ${{ github.event.inputs.minutes }}
+          SCHED: ${{ github.event.schedule }}
+        run: |
+          case "$SCHED" in
+            '45 22 3 11 *'|'10 23 3 11 *') end=$(date -u -d '2026-11-04T04:05:00Z' +%s) ;;
+            '0 4 4 11 *'|'20 4 4 11 *') end=$(date -u -d '2026-11-04T09:05:00Z' +%s) ;;
+            '') if [ "${MINUTES:-0}" = "0" ]; then bash us/tools/fetch_live.sh; exit $?; fi
+                end=$(( $(date +%s) + MINUTES * 60 )) ;;
+            *) bash us/tools/fetch_live.sh; exit $? ;;
+          esac
+          n=0
+          while [ "$(date +%s)" -lt "$end" ]; do
+            start=$(date +%s); n=$((n + 1))
+            echo "::group::Update $n at $(date -u +%H:%M:%S) UTC"
+            bash us/tools/fetch_live.sh || echo "::warning::Update $n failed"
+            echo "::endgroup::"
+            wait=$(( 300 - ($(date +%s) - start) ))
+            [ $(( $(date +%s) + wait )) -ge "$end" ] && break
+            [ "$wait" -gt 0 ] && sleep "$wait"
+          done
+          echo "Finished after $n updates"

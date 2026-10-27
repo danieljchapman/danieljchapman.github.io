@@ -1,0 +1,17 @@
+[
+ {
+  "phase": "pre-election",
+  "updated_at": "2026-10-27T08:27:55Z",
+  "source": "CivicAPI (civicapi.org), unofficial",
+  "races": 506,
+  "called": 5,
+  "counting": 0,
+  "counts": {
+   "senate": 35,
+   "house": 435,
+   "governor": 36
+  },
+  "test_data_zeroed": false,
+  "problems": []
+ }
+]

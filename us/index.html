@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>National Election Results</title>
+<meta name="description" content="U.S. Senate, U.S. House and governor results for every state, 2024 and 2026, with 2026 results on election night.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect x='1' y='7' width='4' height='8' rx='1' fill='%233b70d6'/%3E%3Crect x='6' y='3' width='4' height='12' rx='1' fill='%23d4473f'/%3E%3Crect x='11' y='5' width='4' height='10' rx='1' fill='%238b5cc4'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --font-anthropic-sans: Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-anthropic-serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --color-bg: #f6f5f1; --color-panel: #ffffff; --color-fg: #1f1e1c; --color-fg-muted: #6b6862; --color-border-line: #e3e0d8;
+  --color-ok: #2f7d4f; --color-warn: #a96a12; --color-bad: #c43c32;
+  --cds-chart-grid: #ece9e2; --cds-chart-axis: #9a968e; --cds-chart-reference: #8a867e; --cds-chart-muted: #c9c5bc;
+  --cds-surface-popover: #ffffff; --cds-border: #dcd8cf; --cds-text-secondary: #6b6862; --cds-shadow-popover: 0 6px 24px rgba(0,0,0,.12);
+  --cds-font-size-caption: 0.78rem; --cds-font-size-body: 0.92rem; --cds-font-size-heading: 1.05rem; --cds-font-size-title: 1.9rem; --cds-font-weight-medium: 600;
+  --cds-gap-xs: 4px; --cds-gap-sm: 8px; --cds-gap-md: 14px; --cds-gap-lg: 22px; --cds-gap-xl: 32px;
+  --cds-pad-xs: 4px; --cds-pad-sm: 8px; --cds-pad-md: 12px; --cds-pad-lg: 16px; --cds-pad-xl: 24px;
+  --cds-radius: 10px; --cds-dur-slow: 300ms; --cds-ease-out: cubic-bezier(.2,.7,.2,1);
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #191817; --color-panel: #232220; --color-fg: #ecebe7; --color-fg-muted: #a5a29b; --color-border-line: #36342f;
+    --cds-chart-grid: #2f2d29; --cds-chart-axis: #77736c; --cds-chart-reference: #8a867e; --cds-chart-muted: #4a4741;
+    --cds-surface-popover: #2b2a27; --cds-border: #3d3b36; --cds-text-secondary: #a5a29b; --cds-shadow-popover: 0 6px 24px rgba(0,0,0,.5);
+    color-scheme: dark;
+  }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-family: var(--font-anthropic-sans); font-size: var(--cds-font-size-body); line-height: 1.45; }
+#dash-root { max-width: 1240px; margin: 0 auto; padding: clamp(16px, 3vw, 36px) clamp(16px, 3vw, 36px) 48px; }
+.dash-skeleton { position: relative; color: transparent !important; }
+.dash-skeleton::after { content: ""; position: absolute; inset: 0; border-radius: 6px; background: linear-gradient(90deg, var(--color-border-line), var(--color-panel), var(--color-border-line)); background-size: 200% 100%; opacity: .7; }
+@media (prefers-reduced-motion: no-preference) { .dash-skeleton::after { animation: skel 1.4s linear infinite; } @keyframes skel { to { background-position: -200% 0; } } }
+.lx-kpi-value.dash-skeleton, .lx-take.dash-skeleton { min-height: 1.3em; }
+.site-foot { max-width: 1240px; margin: 0 auto; padding: 0 clamp(16px, 3vw, 36px) 40px; color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+.site-foot h2 { font-size: var(--cds-font-size-body); color: var(--color-fg); margin: 0 0 6px; font-weight: 600; }
+.site-foot a { color: inherit; }
+.site-foot ul { margin: 4px 0 12px; padding-left: 18px; }
+.site-foot .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr)); gap: 8px 32px; border-top: 1px solid var(--color-border-line); padding-top: 20px; }
+button { font: inherit; }
+/* Wisconsin is about as tall as wide: maps sit beside the chart or the race details */
+/* site header: the state switcher above each state's section tabs */
+.lx-states { display: inline-flex; gap: 2px; padding: 3px; margin: var(--cds-gap-xs) 0 var(--cds-gap-xs); border: 1px solid var(--color-border-line); border-radius: 10px; background: var(--color-panel); }
+.lx-states a { font-size: var(--cds-font-size-body); font-weight: var(--cds-font-weight-medium); color: var(--color-fg-muted); text-decoration: none; padding: 0.45rem 1rem; border-radius: 7px; }
+.lx-states { flex-wrap: wrap; max-width: 100%; }
+.lx-states a { white-space: nowrap; }
+.lx-states a:hover { color: var(--color-fg); background: var(--color-bg); }
+.lx-states a[aria-current="page"] { background: var(--color-fg); color: var(--color-bg); }
+.lx-states a:focus-visible { outline: 2px solid var(--lx-dem); outline-offset: 1px; }
+</style>
+</head>
+<body>
+<main id="dash-root">
+<style>
+.lx { --lx-rep: #d4473f; --lx-dem: #3b70d6; --lx-ind: #8b5cc4; font-family: var(--font-anthropic-sans); display: grid; gap: var(--cds-gap-lg); }
+.lx-head h1 { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); margin: 0 0 var(--cds-gap-xs); }
+.lx-take { margin: 0; color: var(--color-fg-muted); font-size: var(--cds-font-size-body); max-width: 60rem; }
+.lx-take b { color: var(--color-fg); font-weight: 600; }
+.lx-controls { display: grid; gap: var(--cds-gap-sm); }
+.lx-row { display: flex; flex-wrap: wrap; align-items: center; gap: var(--cds-gap-xs); }
+.lx-row-label { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); width: 6.5rem; flex: none; }
+.lx-pill { font: inherit; font-size: var(--cds-font-size-caption); font-variant-numeric: tabular-nums; padding: 0.3rem 0.7rem; border-radius: 999px; border: 1px solid var(--color-border-line); background: var(--color-panel); color: var(--color-fg); cursor: pointer; }
+.lx-pill:hover { border-color: var(--color-fg-muted); }
+.lx-pill[aria-pressed="true"] { background: var(--color-fg); color: var(--color-bg); border-color: var(--color-fg); }
+.lx-kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 11rem), 1fr)); gap: var(--cds-gap-md); }
+.lx-card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); min-width: 0; position: relative; }
+.lx-kpi-label { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+.lx-kpi-value { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); margin-top: var(--cds-gap-xs); font-variant-numeric: tabular-nums; min-height: 1.3em; }
+.lx-kpi-sub { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin-top: 2px; font-variant-numeric: tabular-nums; min-height: 1.2em; }
+.lx-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 24rem), 1fr)); gap: var(--cds-gap-md); }
+.lx-card h2 { font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); margin: 0; }
+.lx-note { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: 2px 0 var(--cds-gap-md); }
+.lx-cardhead { display: flex; justify-content: space-between; align-items: flex-start; gap: var(--cds-gap-sm); flex-wrap: wrap; }
+.lx-map { min-height: 0; position: relative; }
+.lx-map svg path.cty { stroke: var(--color-panel); stroke-width: 0.5; cursor: pointer; }
+.lx-map svg path.cty:hover { stroke: var(--color-fg); stroke-width: 1.2; }
+.lx-map svg path.cty.sel { stroke: var(--color-fg); stroke-width: 2; }
+.lx-legend { display: flex; flex-wrap: wrap; gap: var(--cds-gap-sm); font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin-top: var(--cds-gap-sm); align-items: center; }
+.lx-legend .sw { display: inline-block; width: 0.8rem; height: 0.8rem; border-radius: 2px; vertical-align: -2px; margin-right: 3px; }
+.lx-legend .grp { display: inline-flex; align-items: center; gap: 2px; }
+.lx-trend { min-height: 17rem; }
+.lx-tip { position: absolute; pointer-events: none; background: var(--cds-surface-popover); border: 1px solid var(--cds-border); border-radius: var(--cds-radius); box-shadow: var(--cds-shadow-popover); padding: var(--cds-pad-xs) var(--cds-pad-sm); font-size: var(--cds-font-size-caption); font-variant-numeric: tabular-nums; z-index: 5; max-width: 16rem; display: none; }
+.lx-tip .t { color: var(--cds-text-secondary); margin-bottom: 2px; }
+.lx-tip .l { display: flex; gap: 6px; align-items: center; justify-content: space-between; }
+.lx-tip .l span:first-child { display: inline-flex; gap: 5px; align-items: center; }
+.lx-tip .sw { width: 0.6rem; height: 0.6rem; border-radius: 2px; display: inline-block; }
+.lx-clear { font: inherit; font-size: var(--cds-font-size-caption); background: none; border: 1px solid var(--color-border-line); border-radius: 999px; padding: 0.2rem 0.6rem; color: var(--color-fg); cursor: pointer; }
+.lx-tablebar { display: flex; gap: var(--cds-gap-sm); align-items: center; flex-wrap: wrap; margin-bottom: var(--cds-gap-sm); }
+.lx-search { font: inherit; font-size: var(--cds-font-size-caption); padding: 0.35rem 0.6rem; border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); background: var(--color-bg); color: var(--color-fg); min-width: 12rem; }
+.lx-tablewrap { max-height: 30rem; overflow: auto; }
+.lx-table { width: 100%; border-collapse: collapse; font-size: var(--cds-font-size-caption); font-variant-numeric: tabular-nums; }
+.lx-table th { position: sticky; top: 0; background: var(--color-panel); text-align: right; padding: 0; border-bottom: 1px solid var(--color-border-line); z-index: 1; }
+.lx-table th:first-child, .lx-table td:first-child { text-align: left; }
+.lx-table th button { font: inherit; font-weight: var(--cds-font-weight-medium); background: none; border: 0; color: var(--color-fg); padding: 0.45rem 0.5rem; cursor: pointer; width: 100%; text-align: inherit; white-space: nowrap; }
+.lx-table td { padding: 0.35rem 0.5rem; border-bottom: 1px solid var(--color-border-line); text-align: right; white-space: nowrap; }
+.lx-table tbody tr { cursor: pointer; }
+.lx-table tbody tr:hover td { background: var(--color-bg); }
+.lx-table tbody tr.sel td { background: var(--color-bg); font-weight: 600; }
+.lx-r { color: var(--lx-rep); } .lx-d { color: var(--lx-dem); } .lx-i { color: var(--lx-ind); }
+.lx-bar { display: inline-block; height: 0.5rem; border-radius: 2px; vertical-align: middle; margin-left: 6px; }
+@media (max-width: 40rem) { .lx-hide-narrow { display: none; } .lx-row-label { width: 100%; } }
+.lx { --lx-lib: #c9a227; --lx-grn: #3f9a5a; }
+.lx-cands { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 13rem), 1fr)); gap: var(--cds-gap-md); }
+.lx-cand { display: flex; gap: var(--cds-gap-md); align-items: center; min-height: 7.5rem; }
+.lx-cand.win { border-color: var(--color-fg-muted); }
+.lx-photo { width: 4.2rem; height: 5.15rem; border-radius: var(--cds-radius); object-fit: cover; flex: none; background: var(--color-bg); }
+.lx-initials { width: 4.2rem; height: 5.15rem; border-radius: var(--cds-radius); flex: none; display: flex; align-items: center; justify-content: center; font-family: var(--font-anthropic-serif); font-size: var(--cds-font-size-title); color: #fff; }
+.lx-cand-body { min-width: 0; flex: 1; }
+.lx-cand-name { font-weight: var(--cds-font-weight-medium); font-size: var(--cds-font-size-body); overflow: hidden; text-overflow: ellipsis; }
+.lx-cand-party { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+.lx-badge { font-size: 0.68rem; letter-spacing: .04em; text-transform: uppercase; border: 1px solid currentColor; border-radius: 999px; padding: 0 0.4rem; }
+.lx-cand-pct { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); font-variant-numeric: tabular-nums; line-height: 1.15; margin-top: 2px; }
+.lx-cand-votes { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); font-variant-numeric: tabular-nums; }
+.lx-cand-bar { height: 4px; border-radius: 2px; background: var(--color-border-line); margin-top: 6px; overflow: hidden; }
+.lx-cand-bar i { display: block; height: 100%; border-radius: 2px; }
+.lx-cand-bio { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); line-height: 1.45; margin: 0; flex-basis: 100%; border-top: 1px solid var(--color-border-line); padding-top: var(--cds-gap-sm); }
+.lx-cand-bio a { color: inherit; }
+.lx-cand:has(.lx-cand-bio) { flex-wrap: wrap; row-gap: var(--cds-gap-sm); }
+.lx-credit { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: calc(-1 * var(--cds-gap-sm)) 0 0; }
+.lx-credit a { color: inherit; }
+.lx-zoomctl { position: absolute; top: 8px; right: 8px; display: flex; flex-direction: column; gap: 4px; z-index: 2; }
+.lx-zoomctl button { width: 28px; height: 28px; border-radius: 6px; border: 1px solid var(--cds-border); background: var(--color-panel); color: var(--color-fg); font: 600 15px/1 var(--font-anthropic-sans); cursor: pointer; box-shadow: 0 1px 3px rgba(0,0,0,.08); }
+.lx-zoomctl button:hover { background: var(--color-bg); }
+.lx-zoomctl button[hidden] { display: none; }
+.lx-zoomhint { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); background: rgba(31,30,28,.78); color: #fff; padding: 6px 12px; border-radius: 6px; font-size: var(--cds-font-size-caption); pointer-events: none; opacity: 0; transition: opacity .2s; z-index: 2; }
+.lx-zoomhint.on { opacity: 1; }
+.lx-cities text { user-select: none; }
+.lx-zl path { vector-effect: non-scaling-stroke; }
+.lx-map > svg { overflow: hidden; }
+.lx-credit-after { margin: var(--cds-gap-sm) 0 0; line-height: 1.4; }
+.lx-tabs { display: flex; gap: var(--cds-gap-xs); flex-wrap: wrap; border-bottom: 1px solid var(--color-border-line); margin-top: var(--cds-gap-sm); }
+.lx-tab { font: inherit; font-size: var(--cds-font-size-body); background: none; border: 0; border-bottom: 2px solid transparent; padding: 0.5rem 0.8rem; color: var(--color-fg-muted); cursor: pointer; margin-bottom: -1px; }
+.lx-tab:hover { color: var(--color-fg); }
+.lx-tab[aria-selected="true"] { color: var(--color-fg); border-bottom-color: var(--color-fg); font-weight: var(--cds-font-weight-medium); }
+.lx-sub { display: grid; gap: var(--cds-gap-lg); }
+.lx-tabtitle { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-heading); margin: 0 0 var(--cds-gap-xs); }
+.lx-cand-cell { text-align: left !important; }
+#lr-history td { white-space: normal; } #lr-history td:first-child, #lr-history td:nth-child(4), #lr-history td:nth-child(5) { white-space: nowrap; }
+.lx-cell-pct { color: var(--color-fg-muted); }
+.lx-foot { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: 0; }
+[data-dash-source-state=refreshing] { opacity: .5; transition: opacity var(--cds-dur-slow); }
+.lx-chamber { display: grid; grid-template-columns: minmax(0, 22rem) minmax(0, 1fr); gap: var(--cds-gap-lg); align-items: center; }
+@media (max-width: 40rem) { .lx-chamber { grid-template-columns: 1fr; } }
+.lx-chamber-svg { min-height: 11rem; }
+.lx-chamber-text { display: grid; gap: var(--cds-gap-xs); }
+.lx-chamber-nums { display: flex; gap: var(--cds-gap-lg); flex-wrap: wrap; font-size: var(--cds-font-size-body); font-variant-numeric: tabular-nums; }
+.lx-chamber-nums b { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); }
+.lx-chamber-note { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); border-left: 2px solid var(--color-border-line); padding-left: var(--cds-pad-sm); }
+[hidden] { display: none !important; }
+.lx-pickers { gap: var(--cds-gap-md); }
+.lx-select { display: inline-flex; align-items: center; gap: var(--cds-gap-sm); font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+.lx-select select { font: inherit; font-size: var(--cds-font-size-body); color: var(--color-fg); background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: 8px; padding: 0.35rem 2rem 0.35rem 0.7rem; min-height: 2.2rem; cursor: pointer; appearance: none; -webkit-appearance: none;
+  background-image: linear-gradient(45deg, transparent 50%, currentColor 50%), linear-gradient(135deg, currentColor 50%, transparent 50%); background-position: calc(100% - 15px) 52%, calc(100% - 10px) 52%; background-size: 5px 5px; background-repeat: no-repeat; }
+.lx-select select:hover { border-color: var(--color-fg-muted); }
+.lx-select select:focus-visible { outline: 2px solid var(--lx-dem); outline-offset: 1px; }
+.lx-subtabs { display: flex; gap: var(--cds-gap-xs); flex-wrap: wrap; }
+.lx-pill-new { border-style: dashed; }
+.lx-live { display: flex; gap: var(--cds-gap-sm); align-items: center; flex-wrap: wrap; font-size: var(--cds-font-size-caption); color: var(--color-fg); background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-sm) var(--cds-pad-md); }
+.lx-live-dot { width: .5rem; height: .5rem; border-radius: 50%; background: var(--cds-chart-muted); flex: none; }
+.lx-live-dot.on { background: var(--color-bad); }
+@media (prefers-reduced-motion: no-preference) { .lx-live-dot.on { animation: lxpulse 1.6s var(--cds-ease-out) infinite; } }
+@keyframes lxpulse { 50% { opacity: .35; } }
+.lx-live-src { color: var(--color-fg-muted); }
+.lx-empty { color: var(--color-fg-muted); font-size: var(--cds-font-size-body); display: flex; align-items: center; min-height: 5rem; grid-column: 1 / -1; }
+.lx-empty-map { min-height: 18rem; display: flex; align-items: center; justify-content: center; text-align: center; color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); padding: var(--cds-pad-lg); border: 1px dashed var(--color-border-line); border-radius: var(--cds-radius); }
+</style>
+
+<style>
+/* National page */
+.lx { --lx-pending: #e4e1d9; }
+@media (prefers-color-scheme: dark) { .lx { --lx-pending: #3a3833; } }
+.lx-years { display: inline-flex; gap: var(--cds-gap-xs); }
+.lx-topbar { display: flex; justify-content: space-between; align-items: center; gap: var(--cds-gap-md); flex-wrap: wrap; }
+.lx-mapgrid { display: grid; grid-template-columns: minmax(0, 1.75fr) minmax(min(100%, 20rem), 1fr); gap: var(--cds-gap-md); align-items: start; }
+@media (max-width: 60rem) { .lx-mapgrid { grid-template-columns: 1fr; } }
+#map { aspect-ratio: 1010 / 610; }
+#map.lx-hexmap { aspect-ratio: auto; }
+#map svg { width: 100%; height: auto; display: block; }
+#map path.st { stroke: var(--color-panel); stroke-width: 0.8; }
+#map path.st.has { cursor: pointer; }
+#map path.st.has:hover, #map path.st.sel { stroke: var(--color-fg); stroke-width: 2; }
+#map path.st.sel { stroke-width: 2.5; }
+#map g.small { cursor: pointer; }
+#map g.small text { font-size: 11px; font-weight: 600; pointer-events: none; }
+#map g.small.sel rect { stroke: var(--color-fg); stroke-width: 2.5; }
+#map path.hx { stroke: var(--color-panel); stroke-width: 0.6; cursor: pointer; }
+#map path.hx:hover, #map path.hx.sel { stroke: var(--color-fg); stroke-width: 2; }
+#map path.border { fill: none; stroke: var(--color-panel); stroke-width: 2.6; pointer-events: none; stroke-linecap: round; }
+#map text.stl { font-size: 7.5px; font-weight: 600; text-anchor: middle; fill: var(--color-fg); paint-order: stroke; stroke: var(--color-panel); stroke-width: 2.2px; stroke-opacity: .85; pointer-events: none; }
+.lx-legend .sw.dot { border-radius: 50%; border: 1px solid var(--color-fg); width: .6rem; height: .6rem; }
+.lx-balance svg { width: 100%; height: 3.6rem; display: block; overflow: visible; }
+.lx-balance text.maj { font-size: 12px; fill: var(--color-fg); }
+.lx-balance-nums { display: flex; justify-content: space-between; align-items: flex-end; gap: var(--cds-gap-md); margin-bottom: var(--cds-gap-sm); flex-wrap: wrap; }
+.lx-balance-nums b { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); font-variant-numeric: tabular-nums; display: block; line-height: 1.1; }
+.lx-balance-nums .r { text-align: right; }
+.lx-balance-nums .mid { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); align-self: center; }
+.lx-balance-nums small { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+.lx-close { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
+.lx-linkbtn { font: inherit; font-size: var(--cds-font-size-body); width: 100%; display: flex; justify-content: space-between; gap: var(--cds-gap-sm); background: none; border: 0; border-bottom: 1px solid var(--color-border-line); padding: 0.45rem 0; color: var(--color-fg); cursor: pointer; text-align: left; }
+.lx-linkbtn:hover { color: var(--lx-dem); }
+.lx-close-m { font-variant-numeric: tabular-nums; white-space: nowrap; }
+.lx-cands-tight { grid-template-columns: 1fr; gap: var(--cds-gap-sm); }
+.lx-cands-tight .lx-cand { min-height: 0; padding: var(--cds-pad-md); }
+.lx-cands-tight .lx-initials { width: 3rem; height: 3.6rem; font-size: 1.3rem; }
+.lx-cands-tight .lx-cand-pct { font-size: 1.4rem; }
+.lx-badge-muted { color: var(--color-fg-muted); }
+#details .lx-note { margin: var(--cds-gap-sm) 0 0; }
+#details .lx-note a { color: inherit; }
+</style>
+
+<div class="lx">
+  <header class="lx-head" id="top">
+    <h1>National election results</h1>
+    <nav class="lx-states" aria-label="States"><a href="./" aria-current="page">National</a><a href="../">Texas</a><a href="../nc/">North Carolina</a><a href="../ga/">Georgia</a><a href="../oh/">Ohio</a><a href="../wi/">Wisconsin</a></nav>
+    <div class="lx-topbar">
+      <nav class="lx-tabs" role="tablist" aria-label="Offices">
+        <button class="lx-tab" role="tab" data-tab="senate" aria-selected="true">U.S. Senate</button>
+        <button class="lx-tab" role="tab" data-tab="house" aria-selected="false">U.S. House</button>
+        <button class="lx-tab" role="tab" data-tab="governor" aria-selected="false">Governors</button>
+      </nav>
+      <div class="lx-years" role="group" aria-label="Election year">
+        <button class="lx-pill" data-year="2026" aria-pressed="true">2026</button>
+        <button class="lx-pill" data-year="2024" aria-pressed="false">2024</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="lx-live" id="live" hidden></div>
+  <p class="lx-take dash-skeleton" id="takeaway">—</p>
+
+  <section class="lx-card lx-balance" aria-label="Balance of power">
+    <div class="lx-balance-nums">
+      <div><small id="bal-d-label">Democrats</small><b class="lx-d" id="bal-d">—</b><small id="bal-d-sub"></small></div>
+      <div class="mid" id="bal-mid"></div>
+      <div class="r"><small id="bal-r-label">Republicans</small><b class="lx-r" id="bal-r">—</b><small id="bal-r-sub"></small></div>
+    </div>
+    <div id="balance"></div>
+    <div class="lx-legend" id="bal-legend"></div>
+  </section>
+
+  <section class="lx-kpis">
+    <div class="lx-card" id="k1"><div class="lx-kpi-label">—</div><div class="lx-kpi-value dash-skeleton">—</div><div class="lx-kpi-sub"></div></div>
+    <div class="lx-card" id="k2"><div class="lx-kpi-label">—</div><div class="lx-kpi-value dash-skeleton">—</div><div class="lx-kpi-sub"></div></div>
+    <div class="lx-card" id="k3"><div class="lx-kpi-label">—</div><div class="lx-kpi-value dash-skeleton">—</div><div class="lx-kpi-sub"></div></div>
+    <div class="lx-card" id="k4"><div class="lx-kpi-label">—</div><div class="lx-kpi-value dash-skeleton">—</div><div class="lx-kpi-sub"></div></div>
+  </section>
+
+  <div class="lx-mapgrid">
+    <section class="lx-card" aria-labelledby="map-title">
+      <div class="lx-cardhead"><h2 id="map-title">Results</h2></div>
+      <p class="lx-note">Hover for the count; click for candidates and votes.</p>
+      <div class="lx-map dash-skeleton" id="map"></div>
+      <div class="lx-legend" id="map-legend"></div>
+      <div class="lx-tip" id="map-tip" style="display:none"></div>
+    </section>
+    <section class="lx-card" aria-labelledby="details-title" aria-live="polite">
+      <div class="lx-cardhead"><h2 id="details-title">Race details</h2><button class="lx-clear" id="clear-sel" hidden>Clear</button></div>
+      <div id="details"></div>
+    </section>
+  </div>
+
+  <section class="lx-card" aria-label="All races">
+    <div class="lx-tablebar"><h2 style="margin-right:auto">All races</h2><input class="lx-search" id="race-search" type="search" placeholder="Search" aria-label="Search races"><span class="lx-note" style="margin:0" id="race-count"></span></div>
+    <div class="lx-tablewrap">
+      <table class="lx-table" id="race-table">
+        <thead><tr><th><button data-k="race">Race</button></th><th style="text-align:left"><button data-k="winner" style="text-align:left">Winner or leader</button></th><th><button data-k="margin">Margin</button></th><th><button data-k="change">Change</button></th><th id="col-counted"><button data-k="counted">Counted</button></th></tr></thead>
+        <tbody id="race-tbody"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <p class="lx-foot" id="foot-senate">Margin is the winner's share of all votes minus the runner-up's. Seat counts include seats not on the ballot that year; independents Bernie Sanders and Angus King (and, before 2025, Kyrsten Sinema and Joe Manchin) caucus with Democrats and are counted with them. A flip compares the winner's party with the party holding the seat on Election Day. Vice President JD Vance breaks 50–50 ties. 2024 shows the 34 contests that decided seats; California's same-day contest for the last weeks of the term is left out. 2024 results: Clerk of the U.S. House, <i>Statistics of the Presidential and Congressional Election of November 5, 2024</i> (official returns from each state; fusion-party votes in New York and Connecticut are added to the candidate). 2026 results come from CivicAPI and are unofficial; Georgia requires a majority, so a race there can go to a Dec. 1 runoff, and Alaska and Maine count ranked-choice ballots after Election Day. Senators on each date: the congress-legislators project.</p>
+  <p class="lx-foot" id="foot-house" hidden>Each hexagon is one of the 435 districts, grouped by state and placed roughly where it is (district centers from the Census Bureau's 2024 gazetteer for the 119th Congress). Nine states use new maps in 2026 (Alabama, California, Florida, Louisiana, North Carolina, Ohio, Tennessee, Texas and Utah), and five did in 2024 (Alabama, Georgia, Louisiana, New York and North Carolina); in those states a district's hexagon is only approximately placed and seats aren't marked as flips, because the district isn't the same place it was. A flip compares the winner's party with the party of the seat's member on Election Day (a vacant seat counts as its last member's party). 2024 results: Clerk of the U.S. House, official statistics (blank and void ballots left out; fusion-party votes added to the candidate; Maine's 2nd District is the final ranked-choice round and Alaska's first choices). Two 2024 members were unopposed and not on the ballot in their states' count: Sheila Cherfilus-McCormick (FL-20) and Frank Lucas (OK-3). 2026 results come from CivicAPI and are unofficial; candidates are as CivicAPI lists them. The national House vote adds up the votes of every contested race.</p>
+  <p class="lx-foot" id="foot-governor" hidden>Margin is the winner's share of all votes minus the runner-up's. Seat counts include governors not on the ballot that year. 2024 results: each state's certified canvass (West Virginia from the Secretary of State; others as compiled on Wikipedia, checked against North Carolina's State Board of Elections file); Utah's Phil Lyman ran as a write-in. 2026 results come from CivicAPI and are unofficial; Georgia requires a majority, so a race there can go to a Dec. 1 runoff, and Maine and Alaska count ranked-choice ballots after Election Day. Vermont and New Hampshire elect governors every two years.</p>
+</div>
+</main>
+<footer class="site-foot">
+  <div class="grid">
+    <div>
+      <h2>Download the data</h2>
+      <ul>
+        <li><a href="data/us_results.csv" download>2024 Senate, House and governor results (CSV)</a></li>
+        <li><a href="data/live_2026.csv" download>2026 results, unofficial (CSV)</a></li>
+        <li><a href="data/us_seats.json" download>Seat holders before each election (JSON)</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2>Sources</h2>
+      <ul>
+        <li>Clerk of the U.S. House, <a href="https://clerk.house.gov/Members/ElectionStatistics">election statistics</a> (2024 Senate and House, official)</li>
+        <li>State election offices (2024 governor results)</li>
+        <li><a href="https://civicapi.org">CivicAPI</a> (2026 candidates and election-night results, unofficial)</li>
+        <li><a href="https://github.com/unitedstates/congress-legislators">congress-legislators</a> (who held each seat on Election Day)</li>
+        <li>U.S. Census Bureau congressional district gazetteer; <a href="https://github.com/topojson/us-atlas">us-atlas</a> state shapes</li>
+      </ul>
+      <p>Results through 2024 are certified. 2026 results are unofficial until each state certifies them. Site updated October 27, 2026.</p>
+    </div>
+  </div>
+</footer>
+<script>window.DASH_DATASETS = {"results": {"url": "data/us_results.csv", "format": "csv"}, "seats": {"url": "data/us_seats.json", "format": "json"}, "hex": {"url": "data/us_hex.json", "format": "json"}, "states": {"url": "data/us_states_albers.json", "format": "json"}, "live_2026": {"url": "data/live_2026.csv", "format": "csv", "live": true}, "live_status": {"url": "data/live_status.json", "format": "json", "live": true}}; window.DASH_PARAMS = {"tab": "senate", "year": 2026, "sel": null, "q": null};</script>
+<script src="js/d3.v7.9.0.min.js"></script>
+<script src="js/topojson-client.min.js"></script>
+<script src="js/dash-runtime.js"></script>
+<script src="js/us.js"></script>
+</body>
+</html>
