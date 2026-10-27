@@ -14,14 +14,16 @@ jobs:
           mkdir -p fetched
           cd fetched
           UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
-          curl -sSL -A "$UA" -m 120 -o fec_page.html https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/ || true
-          curl -sSL -A "$UA" -m 120 -o fec_2024.xlsx https://www.fec.gov/documents/5644/federalelections2024.xlsx || true
-          curl -sSL -A "$UA" -m 120 -o fec_2024_results.xlsx https://www.fec.gov/documents/5664/2024presgeresults.xlsx || true
-          curl -sSL -A "$UA" -m 120 -o clerk_page.html https://clerk.house.gov/Members/ElectionStatistics || true
-          curl -sSL -m 120 -o house_meta.json "https://dataverse.harvard.edu/api/datasets/:persistentId/?persistentId=doi:10.7910/DVN/IG0UN2" || true
-          curl -sSL -m 120 -o senate_meta.json "https://dataverse.harvard.edu/api/datasets/:persistentId/?persistentId=doi:10.7910/DVN/PEJ5QU" || true
+          curl -sSL -m 300 -o medsl_house.tab "https://dataverse.harvard.edu/api/access/datafile/13592823?format=original" || true
+          curl -sSL -m 300 -o medsl_senate.tab "https://dataverse.harvard.edu/api/access/datafile/13887039?format=original" || true
+          curl -sSL -A "$UA" -m 300 -o clerk_statistics2024.pdf https://clerk.house.gov/member_info/electionInfo/2024/statistics2024.pdf || true
+          curl -sSL -A "$UA" -m 120 -o fec_congress_cands_2024.xlsx https://www.fec.gov/documents/5548/2024congressgecands.xlsx || true
+          for pg in 2024_United_States_gubernatorial_elections List_of_current_United_States_governors 2026_United_States_gubernatorial_elections 2026_United_States_Senate_elections; do
+            curl -sSL -A "election-dashboard/1.0 (danieljchapman.github.io)" -m 120 -o "wiki_$pg.json" "https://en.wikipedia.org/w/api.php?action=parse&page=$pg&prop=wikitext&format=json&formatversion=2" || true
+            sleep 2
+          done
           ls -la
       - name: Commit
         run: |
           git config user.name "github-actions"; git config user.email "actions@github.com"
-          git add fetched; git commit -m "fetched sources" || true; git push
+          git rm -rq --cached fetched/fec_2024.xlsx fetched/fec_2024_results.xlsx || true; rm -f fec_2024.xlsx fec_2024_results.xlsx; git add fetched; git commit -m "fetched sources" || true; git push
