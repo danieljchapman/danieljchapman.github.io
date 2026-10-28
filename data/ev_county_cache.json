@@ -32,6 +32,10 @@
    "2026-10-26": {
     "in_person_day": 30065,
     "mail_day": null
+   },
+   "2026-10-27": {
+    "in_person_day": 28365,
+    "mail_day": null
    }
   },
   "source": "Collin County Elections"
@@ -47,11 +51,11 @@
     "mail_day": null
    },
    "2026-10-21": {
-    "in_person_day": 56092,
+    "in_person_day": 56093,
     "mail_day": null
    },
    "2026-10-22": {
-    "in_person_day": 49469,
+    "in_person_day": 49470,
     "mail_day": null
    },
    "2026-10-23": {
@@ -68,6 +72,10 @@
    },
    "2026-10-26": {
     "in_person_day": 44231,
+    "mail_day": null
+   },
+   "2026-10-27": {
+    "in_person_day": 42078,
     "mail_day": null
    }
   },
@@ -105,7 +113,7 @@
  "48201": {
   "days": {
    "2026-10-19": {
-    "in_person_day": 104657,
+    "in_person_day": 104656,
     "mail_day": 24794
    },
    "2026-10-20": {
@@ -113,7 +121,7 @@
     "mail_day": 2755
    },
    "2026-10-21": {
-    "in_person_day": 93410,
+    "in_person_day": 93409,
     "mail_day": 2157
    },
    "2026-10-22": {
@@ -135,6 +143,10 @@
    "2026-10-26": {
     "in_person_day": 79474,
     "mail_day": 1995
+   },
+   "2026-10-27": {
+    "in_person_day": 75248,
+    "mail_day": 695
    }
   },
   "source": "Harris County Clerk"
@@ -172,6 +184,10 @@
    "2026-10-26": {
     "in_person_day": 49556,
     "mail_day": 878
+   },
+   "2026-10-27": {
+    "in_person_day": 45598,
+    "mail_day": 528
    }
   },
   "source": "Tarrant County Elections"
@@ -208,7 +224,11 @@
    },
    "2026-10-26": {
     "in_person_day": 33500,
-    "mail_day": 710
+    "mail_day": 798
+   },
+   "2026-10-27": {
+    "in_person_day": 34093,
+    "mail_day": 391
    }
   },
   "source": "Travis County Clerk"
