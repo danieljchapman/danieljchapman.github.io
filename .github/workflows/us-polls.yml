@@ -23,4 +23,5 @@ jobs:
           if [ -n "$SCHED" ] && [ "$(date -u +%Y)" != "2026" ]; then echo "Only runs in 2026"; exit 0; fi
           python3 us/tools/us_polls.py --out us/data
           python3 -c "import json; d=json.load(open('us/data/polls.json')); assert len(d['races']) >= 50 and d['generic'], 'too few races'"
-          bash tools/publish_live.sh "Update 2026 polling averages" us/data/polls.json
+          python3 us/tools/us_retro.py --data us/data --out us/retro || git checkout -- us/retro
+          bash tools/publish_live.sh "Update 2026 polling averages" us/data/polls.json us/retro
