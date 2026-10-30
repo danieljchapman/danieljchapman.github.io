@@ -1,0 +1,44 @@
+arv_home.html 403 5592 https://results.arizona.vote/
+arv_robots.txt 403 5622 https://results.arizona.vote/robots.txt
+arv_results_public_api_jurisdictions_Arizona.json 403 5755 https://results.arizona.vote/results/public/api/jurisdictions/Arizona
+arv_api_elections.json 403 5652 https://results.arizona.vote/api/elections
+arv_api_v1_elections.json 403 5661 https://results.arizona.vote/api/v1/elections
+arv_electionResults_.json 403 5661 https://results.arizona.vote/electionResults/
+arv_api_election.json 403 5628 https://results.arizona.vote/api/election
+azsos_results.html 200 267209 https://azsos.gov/elections/election-information
+azsos_home.html 200 232182 https://azsos.gov/
+azsos_2024.html 404 241508 https://azsos.gov/elections/results-data/2024-election-results
+cb_2020_county.zip 000 0 
+cb_2018_sldu.zip 200 210273 https://www2.census.gov/geo/tiger/GENZ2018/shp/cb_2018_04_sldu_500k.zip
+cb_2022_sldu.zip 200 183614 https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_04_sldu_500k.zip
+cb_2024_sldu.zip 200 183575 https://www2.census.gov/geo/tiger/GENZ2024/shp/cb_2024_04_sldu_500k.zip
+cb_2018_cd116.zip 200 7179215 https://www2.census.gov/geo/tiger/GENZ2018/shp/cb_2018_us_cd116_500k.zip
+cb_2022_cd118.zip 200 6966121 https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_us_cd118_500k.zip
+cb_2020_county.zip 200 12587934 https://www2.census.gov/geo/tiger/GENZ2020/shp/cb_2020_us_county_500k.zip
+total 28900
+drwxr-xr-x 2 runner runner     4096 Oct 30 11:52 .
+drwxr-xr-x 3 runner runner     4096 Oct 30 11:51 ..
+-rw-r--r-- 1 runner runner     5628 Oct 30 11:51 arv_api_election.json
+-rw-r--r-- 1 runner runner     5652 Oct 30 11:51 arv_api_elections.json
+-rw-r--r-- 1 runner runner     5661 Oct 30 11:51 arv_api_v1_elections.json
+-rw-r--r-- 1 runner runner     5661 Oct 30 11:51 arv_electionResults_.json
+-rw-r--r-- 1 runner runner     5592 Oct 30 11:51 arv_home.html
+-rw-r--r-- 1 runner runner     5755 Oct 30 11:51 arv_results_public_api_jurisdictions_Arizona.json
+-rw-r--r-- 1 runner runner     5622 Oct 30 11:51 arv_robots.txt
+-rw-r--r-- 1 runner runner   241508 Oct 30 11:51 azsos_2024.html
+-rw-r--r-- 1 runner runner   232182 Oct 30 11:51 azsos_home.html
+-rw-r--r-- 1 runner runner   267209 Oct 30 11:51 azsos_results.html
+-rw-r--r-- 1 runner runner  7179215 Oct 30 11:52 cb_2018_cd116.zip
+-rw-r--r-- 1 runner runner   210273 Oct 30 11:52 cb_2018_sldu.zip
+-rw-r--r-- 1 runner runner 12587934 Oct 30 11:52 cb_2020_county.zip
+-rw-r--r-- 1 runner runner  6966121 Oct 30 11:52 cb_2022_cd118.zip
+-rw-r--r-- 1 runner runner   183614 Oct 30 11:52 cb_2022_sldu.zip
+-rw-r--r-- 1 runner runner   183575 Oct 30 11:52 cb_2024_sldu.zip
+-rw-r--r-- 1 runner runner   997029 Oct 30 11:51 cdx_apps.azsos.gov_election__.txt
+-rw-r--r-- 1 runner runner    11832 Oct 30 11:51 cdx_azsos.gov_sites_default_files__.txt
+-rw-r--r-- 1 runner runner    99645 Oct 30 11:51 cdx_results.arizona.vote__.txt
+-rw-r--r-- 1 runner runner       48 Oct 30 11:52 err.txt
+-rw-r--r-- 1 runner runner     1409 Oct 30 11:52 log.txt
+-rw-r--r-- 1 runner runner   290171 Oct 30 11:52 pw_azsos.gov.html
+-rw-r--r-- 1 runner runner    16267 Oct 30 11:52 pw_requests.txt
+-rw-r--r-- 1 runner runner    28834 Oct 30 11:52 pw_results.arizona.vote.html
