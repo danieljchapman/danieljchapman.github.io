@@ -1,33 +1,10 @@
-O=f/out2; mkdir -p $O
+O=f/out3; mkdir -p $O
 UA='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36'
-g(){ curl -sSL -A "$UA" -m 300 -o "$O/$1" -w "$1 %{http_code} %{size_download} %{content_type} %{url_effective}\n" "$2" >> $O/log.txt 2>>$O/err.txt; }
-g node248.html https://azsos.gov/node/248
-g node875.html https://azsos.gov/node/875
-g elec_results.html https://azsos.gov/elections/results-data
-g elec_hist.html https://azsos.gov/elections/election-results
-g canvass2026ev.html https://azsos.gov/events/official-statewide-canvass-november-3-2026-general/921
-for u in docs/2024_General_State_Canvass.pdf 2024_General_State_Canvass.pdf 2022_General_State_Canvass.pdf 2022_General_Canvass.pdf docs/2022_General_State_Canvass.pdf 2020_General_State_Canvass.pdf 2020_1130_General_Canvass.pdf 2018_General_State_Canvass.pdf 2018_1203_Signed_Official_Canvass.pdf 2016_General_State_Canvass.pdf 2016_general_state_canvass.pdf; do g "try_$(basename $u)" "https://azsos.gov/sites/default/files/$u"; done
-for u in 'azsos.gov/sites/default/files/*' 'azsos.gov/elections/*' 'azsos.gov/sites/default/files/docs/*'; do
-  n=$(echo "$u"|tr '/*' '__'); for t in 1 2 3; do curl -sS -m 300 "https://web.archive.org/cdx/search/cdx?url=$u&output=txt&fl=original,statuscode,timestamp,mimetype&collapse=urlkey&filter=statuscode:200&limit=60000" > $O/cdx_$n.txt 2>>$O/err.txt; grep -q 'Temporarily Offline' $O/cdx_$n.txt || break; sleep 60; done; sleep 5; done
-cat > /tmp/pw.py <<'P'
-import sys
-from playwright.sync_api import sync_playwright
-out=sys.argv[1]; reqs=[]
-with sync_playwright() as p:
-    b=p.chromium.launch(); ctx=b.new_context(user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36'); pg=ctx.new_page()
-    def onresp(r):
-        reqs.append(f'{r.status} {r.url}')
-        try:
-            if any(k in r.url for k in ['.json','api','data','Data']) and r.status==200:
-                n=out+'/pwresp_'+str(len(reqs))+'.txt'; open(n,'wb').write(r.body()[:3000000]); reqs.append('  saved '+n)
-        except Exception as e: pass
-    pg.on('response', onresp)
-    for u in ['https://results.arizona.vote/', 'https://results.arizona.vote/#/featured/47/0']:
-        try:
-            pg.goto(u, timeout=90000); pg.wait_for_timeout(15000)
-            open(out+'/pw_'+str(len(reqs))+'.html','w').write(pg.content())
-        except Exception as e: reqs.append('ERR '+u+' '+str(e)[:300])
-    b.close()
-open(out+'/pw_requests.txt','w').write('\n'.join(reqs))
-P
-python3 /tmp/pw.py $O 2>>$O/err.txt
+get(){ n=$1; shift; for u in "$@"; do code=$(curl -sSL -A "$UA" -m 400 -o "$O/$n" -w "%{http_code}" "$u" 2>>$O/err.txt); echo "$n $code $(stat -c%s $O/$n 2>/dev/null) $u" >> $O/log.txt; if [ "$code" = 200 ] && head -c 5 $O/$n | grep -q '%PDF'; then return; fi; sleep 3; done; }
+get c2016.pdf "https://apps.azsos.gov/election/2016/General/Official%20Signed%20State%20Canvass.pdf" "https://web.archive.org/web/20161220192915id_/http://apps.azsos.gov/election/2016/General/Official%20Signed%20State%20Canvass.pdf"
+get c2018.pdf "https://apps.azsos.gov/election/2018/2018_1203_signed_official_statewide_canvass.pdf" "https://azsos.gov/sites/default/files/2018%201203%20Signed%20Official%20Statewide%20Canvass.pdf" "https://web.archive.org/web/20181207054635id_/https://azsos.gov/sites/default/files/2018%201203%20Signed%20Official%20Statewide%20Canvass.pdf"
+get c2020.pdf "https://apps.azsos.gov/election/2020/2020_general_state_canvass.pdf" "https://web.archive.org/web/20201130193108id_/https://azsos.gov/sites/default/files/2020_General_State_Canvass.pdf"
+get c2022.pdf "http://apps.azsos.gov/election/2022/General/canvass/2022dec05_general_election_canvass_web.pdf" "https://web.archive.org/web/20221205195258id_/https://azsos.gov/sites/default/files/2022Dec05_General_Election_Canvass_Web.pdf"
+get c2022recount.pdf "https://azsos.gov/sites/default/files/2022_GE_Statewide_Recount_Results_for_Website.pdf" "https://web.archive.org/web/20221229234553id_/https://azsos.gov/sites/default/files/2022_GE_Statewide_Recount_Results_for_Website.pdf"
+get c2024.pdf "http://apps.azsos.gov/election/2024/ge/canvass/20241105_GeneralCanvass_Signed.pdf"
+get c2026primary_page.html "https://azsos.gov/elections/election-information/2026-election-info"
