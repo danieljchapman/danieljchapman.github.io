@@ -40,6 +40,10 @@
    "2026-10-28": {
     "in_person_day": 26933,
     "mail_day": null
+   },
+   "2026-10-29": {
+    "in_person_day": 29320,
+    "mail_day": null
    }
   },
   "source": "Collin County Elections"
@@ -145,7 +149,7 @@
     "mail_day": 2241
    },
    "2026-10-25": {
-    "in_person_day": 40865,
+    "in_person_day": 40864,
     "mail_day": 2088
    },
    "2026-10-26": {
@@ -153,12 +157,16 @@
     "mail_day": 1995
    },
    "2026-10-27": {
-    "in_person_day": 75247,
+    "in_person_day": 75245,
     "mail_day": 695
    },
    "2026-10-28": {
     "in_person_day": 78747,
     "mail_day": 1974
+   },
+   "2026-10-29": {
+    "in_person_day": 88984,
+    "mail_day": 1592
    }
   },
   "source": "Harris County Clerk"
