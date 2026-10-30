@@ -1,0 +1,97 @@
+307 https://results.arizona.vote/
+200 https://results.arizona.vote/
+403 https://results.arizona.vote/app/lib/cookieList.js?v1.0.0
+200 https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css
+403 https://results.arizona.vote/app/lib/js.cookie.js?v1.0.0
+200 https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css
+200 https://fonts.googleapis.com/css?family=Open+Sans:400,300italic,400italic,600,600italic,700,700italic,800,300
+200 https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-touch.min.js
+200 https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-resource.js
+200 https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-cookies.js
+200 https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js
+200 https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-sanitize.js
+  saved f/out2/pwresp_7.txt
+  saved f/out2/pwresp_8.txt
+  saved f/out2/pwresp_9.txt
+  saved f/out2/pwresp_10.txt
+  saved f/out2/pwresp_11.txt
+  saved f/out2/pwresp_12.txt
+200 https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-animate.min.js
+200 https://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-2.5.0.js
+200 https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js
+200 https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.26.0/polyfill.js
+403 https://results.arizona.vote/app/js/site.js?v1.0.0
+403 https://results.arizona.vote/app/js/core.js?v1.0.0
+403 https://results.arizona.vote/app/lib/angular-locale_es-us.js?v1.0.0
+403 https://results.arizona.vote/app/lib/bootstrap.min.js?v1.0.0
+200 https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092
+403 https://results.arizona.vote/app/lib/angular-ui-router.min.js?v1.0.19
+  saved f/out2/pwresp_19.txt
+200 https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/fonts/fontawesome-webfont.woff2?v=4.4.0
+403 https://results.arizona.vote/app/lib/ui-router-tabs.js?v1.0.0
+403 https://results.arizona.vote/app/lib/bootstrap.hover.dropdown.js?v1.0.0
+  saved f/out2/pwresp_21.txt
+403 https://results.arizona.vote/app/lib/angular-linq.min.js?v1.0.0
+403 https://results.arizona.vote/app/lib/CryptoJSCipher.js?v1.0.0
+403 https://results.arizona.vote/app/lib/angularjs-crypto.js?v1.0.0
+403 https://results.arizona.vote/app/lib/aes.js?v1.0.0
+403 https://results.arizona.vote/app/lib/mode-ecb.js?v1.0.0
+403 https://results.arizona.vote/app/lib/angular-spinner.min.js?v1.0.0
+403 https://results.arizona.vote/app/lib/moment-with-locales.js?v072920201918
+403 https://results.arizona.vote/app/lib/angular-fallback-image.min.js?v1.0.0
+403 https://results.arizona.vote/app/lib/moment-timezone.js?v072920201918
+403 https://results.arizona.vote/app/js/ie10-viewport-bug-workaround.js?v1.0.0
+403 https://results.arizona.vote/app/lib/angular-uuid.js?v070120250846
+200 https://www.googletagmanager.com/gtag/js?id=G-TKF6R992ED
+403 https://results.arizona.vote/app/js/respond.js?v1.0.0
+403 https://results.arizona.vote/app/filters/myRacesFilter.js?v1.0.2
+403 https://results.arizona.vote/app/enrApp.js?v1.0.2
+403 https://results.arizona.vote/app/filters/districtGroupRaceFilter.js?v1.0.2
+403 https://results.arizona.vote/app/js/gatedScope.js?v1.0.2
+403 https://results.arizona.vote/app/filters/contestMatchFilter.js?v1.0.2
+403 https://results.arizona.vote/app/services/pingService.js?v1.0.0
+403 https://results.arizona.vote/app/filters/partyFilter.js?v1.0.2
+403 https://results.arizona.vote/app/services/electionRouteService.js?v1.0.0
+403 https://results.arizona.vote/app/services/cryptoService.js?v1.0.0
+403 https://results.arizona.vote/app/services/enrCache.js?v1.0.0
+403 https://results.arizona.vote/app/services/enrService.js?v1.0.0
+403 https://results.arizona.vote/app/services/dataShareService.js?v1.0.0
+403 https://results.arizona.vote/app/services/cookieService.js?v1.0.0
+403 https://results.arizona.vote/app/services/languageService.js?v1.0.0
+403 https://results.arizona.vote/app/services/cookieListService.js?v1.0.0
+403 https://results.arizona.vote/app/services/translationService.js?v1.0.0
+403 https://results.arizona.vote/app/services/headerService.js?v1.0.1
+403 https://results.arizona.vote/app/services/topnavService.js?v1.0.0
+403 https://results.arizona.vote/app/services/districtGroupService.js?v1.0.0
+403 https://results.arizona.vote/app/services/voterTurnoutService.js?v1.0.0
+403 https://results.arizona.vote/app/services/precinctsReportingService.js?v1.0.0
+403 https://results.arizona.vote/app/services/footerService.js?v1.0.0
+204 https://www.google-analytics.com/g/collect?v=2&tid=G-TKF6R992ED&gtm=45je6as1h1v877950619za208zd877950619xf1&_p=1793361418955&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1464477922.1793361419&frm=0&ngs=1&pscdl=noapi&rcb=6&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4%7CHeadlessChrome%3B156.0.8078.4&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~123691370&sid=1793361419&sct=1&seg=0&dl=https%3A%2F%2Fresults.arizona.vote%2F&dt=Arizona%20Election%20Results&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1005
+403 https://results.arizona.vote/app/services/featuredService.js?v1.0.0
+403 https://results.arizona.vote/app/services/modalService.js?v1.0.0
+403 https://results.arizona.vote/app/services/viewTypeService.js?v1.0.0
+403 https://results.arizona.vote/app/services/allRacesService.js?v1.0.0
+403 https://results.arizona.vote/app/services/partyService.js?v1.0.0
+403 https://results.arizona.vote/app/services/countyRacesService.js?v1.0.0
+403 https://results.arizona.vote/app/enr.directives/directives/enrEvaluate.js?v1.0.0
+403 https://results.arizona.vote/app/enr.directives/directives/enrRepeat.js?v1.0.0
+403 https://results.arizona.vote/app/enr.directives/directives/myRaces.js?v070720202149
+403 https://results.arizona.vote/app/enr.directives/directives/enrViewType.js?v070720202149
+403 https://results.arizona.vote/app/enr.directives/directives/candidateCountyView.js?v070720202149
+403 https://results.arizona.vote/app/enr.directives/directives/keepScrollPosition.js?v070720202149
+403 https://results.arizona.vote/app/enr.directives/directives/isRouteLoading.js?v070720202149
+403 https://results.arizona.vote/app/controllers/headerController.js?v102820251258
+403 https://results.arizona.vote/app/controllers/topnavController.js?v102820251258
+403 https://results.arizona.vote/app/controllers/footerController.js?v070720202149
+403 https://results.arizona.vote/app/controllers/precinctsReportingController.js?v070720202149
+403 https://results.arizona.vote/app/controllers/mainController.js?v070720202149
+403 https://results.arizona.vote/app/controllers/featuredController.js?v073020201931
+403 https://results.arizona.vote/app/controllers/myRacesController.js?v073020201931
+403 https://results.arizona.vote/app/controllers/voterTurnoutController.js?v070720202149
+403 https://results.arizona.vote/app/controllers/racesController.js?v073020201931
+403 https://results.arizona.vote/app/controllers/countyRacesController.js?v070720202149
+204 https://results.arizona.vote/cdn-cgi/rum?
+302 https://results.arizona.vote/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a52a3d620895e09f
+200 https://results.arizona.vote/cdn-cgi/challenge-platform/h/g/scripts/jsd/c787ce48cf6b/main.js?ray=a52a3d620895e09f
+200 https://results.arizona.vote/cdn-cgi/challenge-platform/h/g/jsd/oneshot/c787ce48cf6b/0.3273828235997509:1793358667:LGYLE9_DCSJMUI2zeBPl6A9v4OjWNHL2BSKHHfcZjcQ/a52a3d620895e09f
+204 https://www.google-analytics.com/g/collect?v=2&tid=G-TKF6R992ED&gtm=45je6as1h1v877950619za200zd877950619xf1&_p=1793361418955&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&cid=1464477922.1793361419&frm=0&ngs=1&pscdl=noapi&rcb=6&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4%7CHeadlessChrome%3B156.0.8078.4&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=2&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~123691370&sid=1793361419&sct=1&seg=0&dl=https%3A%2F%2Fresults.arizona.vote%2F&dt=Arizona%20Election%20Results&en=scroll&epn.percent_scrolled=90&_et=12&tfd=6018

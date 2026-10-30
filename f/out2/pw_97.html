@@ -1,0 +1,200 @@
+<!DOCTYPE html><html ng-app="enrApp"><head><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+    <base href="/">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--<meta name="viewport" content="width=device-width">-->
+    <title>Arizona Election Results</title>
+    <meta charset="utf-8">
+
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:400,300italic,400italic,600,600italic,700,700italic,800,300" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+
+    <!--<link href="css/bootstrap.css" rel="stylesheet" />-->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <!-- build:css css/enr.results-v1.0.0.min.css -->
+    <link href="css/ie10-viewport-bug-workaround.css?v1.0.0" rel="stylesheet">
+    <link href="css/non-responsive.css?v1.0.0" rel="stylesheet">
+    <!--<link href="css/enr.results-v1.0.0.min.css" rel="stylesheet" />-->
+    <link href="css/enr-site.css?v1.0.1" rel="stylesheet">
+    <link href="css/angular-csp.css?v1.0.0" rel="stylesheet">
+    <!-- /build -->
+    <!--[if lt IE 9]>
+        <script src="//css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+        <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-TKF6R992ED"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-TKF6R992ED');
+    </script>
+
+</head>
+<body>
+    <header ng-cloak="">
+        <div class="container" ng-include="'views/partials/topnav.html?v=071620260952'" ng-controller="TopnavController as vm"></div>
+        <div class="container" ng-include="'views/partials/header.html?v=102820251258'" ng-controller="HeaderController as vm"></div>
+        <div class="container ng-hide" ng-include="'views/partials/voterturnout.html'" ng-controller="VoterTurnoutController as vm" ng-show="!vm.IsPreElectionMode" ng-cloak=""></div>
+    </header>
+
+    <div class="container m-b20">
+        <div class="m-t10">
+            <div ng-cloak="" ng-controller="MainController as vm">
+                <uib-tabset active="vm.active" ng-if="!vm.IsPreElectionMode">
+                    <uib-tab ng-repeat="t in vm.tabs" index="$index" heading="{{t.heading}}" params="{ tabId: t.tabId }" select="go(t.route, t.tabId, t.headingLong, $index); send(); vm.tabSelected(t.route, $index);" ui-sref="{{t.route}}" class="enr-nav-tab">
+                    </uib-tab>
+
+                    <div class="navbar-collapse pull-right" ng-if="vm.IsPrimary || vm.IsPpe">
+                        <ul class="nav navbar-nav enr-navbar" ng-hide="{{vm.eid == '53' || vm.eid == '79'}}">
+                            <li>
+                                <form id="partyFilter">
+                                    <select id="party" class="party-filter" ng-model="vm.party" ng-change="vm.setPartyFilter()">
+                                        <option value="">{{vm.translation.AllParties}}</option>
+                                        <option ng-repeat="p in vm.partyList" value="{{p.Id}}">{{p.Name}}</option>
+                                    </select>
+                                </form>
+                            </li>
+                        </ul>
+                    </div>
+                </uib-tabset>
+
+                <div id="electionMessage" ng-if="vm.IsPreElectionMode" class="row" ng-cloak="">
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                        <div class="panel panel-default box-shadow-3dp">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                                        <span class="font-120">
+                                            {{vm.NoResultsMessage !== "" ? vm.NoResultsMessage : vm.translation.NoResults}}
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--<div ng-show="{{vm.eid < 32}}" ui-view="featured"></div>
+            <div ng-show="{{vm.eid < 32}}" ui-view="myraces"></div>-->
+            <!--<div ui-view="featured" ng-show="vm.jid != '14'"></div>-->
+            <div ui-view="featured"></div>
+            <div ui-view="myraces"></div>
+            <div ui-view=""></div>
+        </div>
+    </div>
+
+    <div class="scroll-top-wrapper circle h3 visible-md visible-lg">
+        <span class="scroll-top-inner">
+            <i class="fa fa-chevron-up"></i>
+        </span>
+    </div>
+
+    <footer ng-cloak="">
+        <div class="container">
+            <hr>
+        </div>
+        <div class="container" ng-include="'views/partials/footer.html'" ng-controller="FooterController as vm"></div>
+    </footer>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-animate.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-touch.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-sanitize.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-resource.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-cookies.js"></script>
+    <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-2.5.0.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.26.0/polyfill.js"></script>
+    <!-- build:js app/enr.results-v1.0.0.min.js -->
+    <script src="app/lib/js.cookie.js?v1.0.0"></script>
+    <script src="app/lib/cookieList.js?v1.0.0"></script>
+    <script src="app/lib/bootstrap.min.js?v1.0.0"></script>
+
+    <script src="app/js/core.js?v1.0.0"></script>
+    <script src="app/js/site.js?v1.0.0"></script>
+
+    <script src="app/lib/angular-locale_es-us.js?v1.0.0"></script>
+    <!--<script src="app/lib/ui-bootstrap-tpls.js?v1.0.0"></script>-->
+    <script src="app/lib/angular-ui-router.min.js?v1.0.19"></script>
+    <script src="app/lib/ui-router-tabs.js?v1.0.0"></script>
+    <script src="app/lib/bootstrap.hover.dropdown.js?v1.0.0"></script>
+    <script src="app/lib/angular-linq.min.js?v1.0.0"></script>
+    <script src="app/lib/CryptoJSCipher.js?v1.0.0"></script>
+    <script src="app/lib/angularjs-crypto.js?v1.0.0"></script>
+    <script src="app/lib/aes.js?v1.0.0"></script>
+    <script src="app/lib/mode-ecb.js?v1.0.0"></script>
+    <script src="app/lib/angular-spinner.min.js?v1.0.0"></script>
+    <script src="app/lib/angular-fallback-image.min.js?v1.0.0"></script>
+    <script src="app/lib/moment-with-locales.js?v072920201918"></script>
+    <script src="app/lib/moment-timezone.js?v072920201918"></script>
+    <script src="app/lib/angular-uuid.js?v070120250846"></script>
+
+    <script src="app/js/ie10-viewport-bug-workaround.js?v1.0.0"></script>
+    <script src="app/js/respond.js?v1.0.0"></script>
+
+    <script src="app/enrApp.js?v1.0.2"></script>
+    <script src="app/js/gatedScope.js?v1.0.2"></script>
+
+    <script src="app/filters/myRacesFilter.js?v1.0.2"></script>
+    <script src="app/filters/districtGroupRaceFilter.js?v1.0.2"></script>
+    <script src="app/filters/contestMatchFilter.js?v1.0.2"></script>
+    <script src="app/filters/partyFilter.js?v1.0.2"></script>
+
+
+    <script src="app/services/cryptoService.js?v1.0.0"></script>
+    <script src="app/services/pingService.js?v1.0.0"></script>
+    <script src="app/services/electionRouteService.js?v1.0.0"></script>
+    <script src="app/services/enrService.js?v1.0.0"></script>
+    <script src="app/services/enrCache.js?v1.0.0"></script>
+    <script src="app/services/dataShareService.js?v1.0.0"></script>
+    <script src="app/services/languageService.js?v1.0.0"></script>
+    <script src="app/services/cookieService.js?v1.0.0"></script>
+    <script src="app/services/cookieListService.js?v1.0.0"></script>
+    <script src="app/services/translationService.js?v1.0.0"></script>
+    <script src="app/services/topnavService.js?v1.0.0"></script>
+    <script src="app/services/headerService.js?v1.0.1"></script>
+    <script src="app/services/districtGroupService.js?v1.0.0"></script>
+    <script src="app/services/voterTurnoutService.js?v1.0.0"></script>
+    <script src="app/services/precinctsReportingService.js?v1.0.0"></script>
+
+    <script src="app/services/footerService.js?v1.0.0"></script>
+    <script src="app/services/featuredService.js?v1.0.0"></script>
+    <script src="app/services/allRacesService.js?v1.0.0"></script>
+    <script src="app/services/modalService.js?v1.0.0"></script>
+    <script src="app/services/viewTypeService.js?v1.0.0"></script>
+    <script src="app/services/countyRacesService.js?v1.0.0"></script>
+    <script src="app/services/partyService.js?v1.0.0"></script>
+
+    <script src="app/enr.directives/directives/enrRepeat.js?v1.0.0"></script>
+    <script src="app/enr.directives/directives/enrEvaluate.js?v1.0.0"></script>
+    <script src="app/enr.directives/directives/enrViewType.js?v070720202149"></script>
+    <script src="app/enr.directives/directives/myRaces.js?v070720202149"></script>
+    <script src="app/enr.directives/directives/candidateCountyView.js?v070720202149"></script>
+    <script src="app/enr.directives/directives/keepScrollPosition.js?v070720202149"></script>
+    <script src="app/enr.directives/directives/isRouteLoading.js?v070720202149"></script>
+
+    <script src="app/controllers/topnavController.js?v102820251258"></script>
+    <script src="app/controllers/headerController.js?v102820251258"></script>
+
+    <script src="app/controllers/voterTurnoutController.js?v070720202149"></script>
+    <script src="app/controllers/precinctsReportingController.js?v070720202149"></script>
+    <script src="app/controllers/mainController.js?v070720202149"></script>
+    <script src="app/controllers/footerController.js?v070720202149"></script>
+    <script src="app/controllers/featuredController.js?v073020201931"></script>
+    <script src="app/controllers/myRacesController.js?v073020201931"></script>
+    <script src="app/controllers/racesController.js?v073020201931"></script>
+    <script src="app/controllers/countyRacesController.js?v070720202149"></script>
+    <!-- /build -->
+
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon="{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;1c0342784c0945d7816a7e2c8bfa1961&quot;,&quot;spa&quot;:2}" crossorigin="anonymous"></script>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a52a3d620895e09f',t:'MTc5MzM2MTQxOA=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a52a3d620895e09f',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><iframe height="1" width="1" style="position: absolute; top: 0px; left: 0px; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; visibility: hidden;"></iframe>
+
+</body></html>
