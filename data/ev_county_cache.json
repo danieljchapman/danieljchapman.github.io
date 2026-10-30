@@ -79,7 +79,7 @@
     "mail_day": null
    },
    "2026-10-26": {
-    "in_person_day": 44231,
+    "in_person_day": 44230,
     "mail_day": null
    },
    "2026-10-27": {
@@ -87,7 +87,11 @@
     "mail_day": null
    },
    "2026-10-28": {
-    "in_person_day": 42709,
+    "in_person_day": 42711,
+    "mail_day": null
+   },
+   "2026-10-29": {
+    "in_person_day": 46384,
     "mail_day": null
    }
   },
@@ -212,6 +216,10 @@
    "2026-10-28": {
     "in_person_day": 44162,
     "mail_day": 952
+   },
+   "2026-10-29": {
+    "in_person_day": 46434,
+    "mail_day": 800
    }
   },
   "source": "Tarrant County Elections"
@@ -256,7 +264,11 @@
    },
    "2026-10-28": {
     "in_person_day": 34509,
-    "mail_day": 789
+    "mail_day": 846
+   },
+   "2026-10-29": {
+    "in_person_day": 37134,
+    "mail_day": 697
    }
   },
   "source": "Travis County Clerk"
