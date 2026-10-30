@@ -1,0 +1,212 @@
+level,office,district,candidate,party,civicapi_race
+statewide,Attorney General,,Kris Mayes,D,86930
+statewide,Attorney General,,Warren Petersen,R,86930
+statewide,Corporation Commission,,Clara Pratte,D,86927
+statewide,Corporation Commission,,Jonathon Hill,D,86927
+statewide,Corporation Commission,,Mike Cease,G,86927
+statewide,Corporation Commission,,Kevin Thompson,R,86927
+statewide,Corporation Commission,,Ralph Heap,R,86927
+statewide,Governor,,Katie Hobbs,D,86928
+statewide,Governor,,Risa Lombardo,G,86928
+statewide,Governor,,Teri Hourihan,NL,86928
+statewide,Governor,,Andy Biggs,R,86928
+statewide,Mine Inspector,,Brian Matlock,D,86926
+statewide,Mine Inspector,,Les Presmyk,R,86926
+statewide,Secretary of State,,Adrian Fontes,D,86929
+statewide,Secretary of State,,Duwayne Collier,G,86929
+statewide,Secretary of State,,Alexander Kolodin,R,86929
+statewide,Superintendent of Public Instruction,,Teresa Ruiz,D,86932
+statewide,Superintendent of Public Instruction,,Davis Gerard,G,86932
+statewide,Superintendent of Public Instruction,,"Stephen ""Dr.Stephen Neal"" Neal jr.",NL,86932
+statewide,Superintendent of Public Instruction,,Kimberly Yee,R,86932
+statewide,Treasurer,,Nick Mansour,D,86933
+statewide,Treasurer,,Elijah Norton,R,86933
+ushouse,U.S. House,1,Amish Shah,D,86917
+ushouse,U.S. House,1,Dev Gupta,I,86917
+ushouse,U.S. House,1,Gage Dylan Thunder,I,86917
+ushouse,U.S. House,1,Monica Alponte,L,86917
+ushouse,U.S. House,1,Jay Feely,R,86917
+ushouse,U.S. House,2,Jonathan Nez,D,86918
+ushouse,U.S. House,2,Curtis Goodwin,L,86918
+ushouse,U.S. House,2,Eli Crane,R,86918
+ushouse,U.S. House,3,Yassamin Ansari,D,86919
+ushouse,U.S. House,3,David Redkey,G,86919
+ushouse,U.S. House,3,Alan Aversa,NL,86919
+ushouse,U.S. House,3,Jacob Parkman,R,86919
+ushouse,U.S. House,4,Greg Stanton,D,86920
+ushouse,U.S. House,4,Steven Sanders,NL,86920
+ushouse,U.S. House,4,Tisha Benoit,NL,86920
+ushouse,U.S. House,4,Zuhdi Jasser,R,86920
+ushouse,U.S. House,5,Elizabeth Lee,D,86921
+ushouse,U.S. House,5,Mark Lamb,R,86921
+ushouse,U.S. House,6,JoAnna Mendoza,D,86922
+ushouse,U.S. House,6,Gary Swing,G,86922
+ushouse,U.S. House,6,Michael Dorland,I,86922
+ushouse,U.S. House,6,Jereme Peters,L,86922
+ushouse,U.S. House,6,Juan Ciscomani,R,86922
+ushouse,U.S. House,7,Adelita Grijalva,D,86923
+ushouse,U.S. House,7,Daniel Butierez,R,86923
+ushouse,U.S. House,8,Bernadette Greene-Placentia,D,86924
+ushouse,U.S. House,8,Abraham Hamadeh,R,86924
+ushouse,U.S. House,9,Danielle Sterbinsky,D,86925
+ushouse,U.S. House,9,G. Seville Hatch,I,86925
+ushouse,U.S. House,9,William Perry,I,86925
+ushouse,U.S. House,9,Paul Gosar,R,86925
+senate,Senate,1,Christine Ellen Dargon,D,149205
+senate,Senate,1,Mark Finchem,R,149205
+senate,Senate,2,Amelia Gallitano,D,149216
+senate,Senate,2,Shawnna Bolick,R,149216
+senate,Senate,3,Jeffrey Fortney,D,149227
+senate,Senate,3,John Kavanagh,R,149227
+senate,Senate,4,Aaron Lieberman,D,149229
+senate,Senate,4,Carine Werner,R,149229
+senate,Senate,5,Christine Marsh,D,149230
+senate,Senate,5,Jason LaForest,NL,149230
+senate,Senate,6,Jamescita Peshlakai,D,149231
+senate,Senate,6,Lloyd Johnson,R,149231
+senate,Senate,7,"Michiel ""Mike"" Montiel",D,149232
+senate,Senate,7,Wendy Rogers,R,149232
+senate,Senate,8,Lauren Kuby,D,149233
+senate,Senate,8,Bill Loughrige,R,149233
+senate,Senate,9,Kiana Maria Sears,D,149234
+senate,Senate,9,Bridget Fitzgibbons,R,149234
+senate,Senate,10,Blair Moses,D,149206
+senate,Senate,10,Nick Fierro,I,149206
+senate,Senate,10,David Christian Farnsworth,R,149206
+senate,Senate,11,Catherine Miranda,D,149207
+senate,Senate,11,Joshua Ayala,R,149207
+senate,Senate,12,"Patricia ""Patty"" Contreras",D,149208
+senate,Senate,12,Anthony Jason Ramirez,NL,149208
+senate,Senate,13,Kristie O'Brien,D,149209
+senate,Senate,13,Julie Willoughby,R,149209
+senate,Senate,14,Stephanie Walsh,D,149210
+senate,Senate,14,Mylie Biggs,R,149210
+senate,Senate,15,Jayme Accalia,D,149211
+senate,Senate,15,Jake Hoffman,R,149211
+senate,Senate,16,Elaine Aldrete,D,149212
+senate,Senate,16,"Thomas ""T.J."" Shope",R,149212
+senate,Senate,17,Edgar Soto,D,149213
+senate,Senate,17,Christopher King,R,149213
+senate,Senate,18,Priya Sundareshan,D,149214
+senate,Senate,18,Douglas Everett,R,149214
+senate,Senate,19,Bob Karp,D,149215
+senate,Senate,19,Gail Griffin,R,149215
+senate,Senate,20,Alma Hernandez,D,149217
+senate,Senate,21,Rosanna Gabaldon,D,149218
+senate,Senate,21,Esteban Flores,R,149218
+senate,Senate,22,Eva Diaz,D,149219
+senate,Senate,23,Brian Fernandez,D,149220
+senate,Senate,23,Michelle Altherr,R,149220
+senate,Senate,24,Analise Ortiz,D,149221
+senate,Senate,24,Frank Steele,R,149221
+senate,Senate,25,Laura Huber,D,149222
+senate,Senate,25,"Timothy ""Tim"" Dunn",R,149222
+senate,Senate,26,Flavio Bravo,D,149223
+senate,Senate,26,Jim Bishop,R,149223
+senate,Senate,27,Kyle Clayton,D,149224
+senate,Senate,27,Kevin Payne,R,149224
+senate,Senate,28,Michael Braun,D,149225
+senate,Senate,28,Frank Carroll,R,149225
+senate,Senate,29,Eric Stafford,D,149226
+senate,Senate,29,Janae Shamp,R,149226
+senate,Senate,30,Leo Biasiucci,R,149228
+house,House,1,Sandy Zalecki,D,149175
+house,House,1,Quang Huu Nguyen,R,149175
+house,House,1,Selina Bliss,R,149175
+house,House,2,Stephanie Simacek,D,149186
+house,House,2,Justin Wilmeth,R,149186
+house,House,2,Paul Carver,R,149186
+house,House,3,Julie Gable,D,149197
+house,House,3,"Richard ""Rick"" Robert Spargo",D,149197
+house,House,3,John Skirbst,NL,149197
+house,House,3,Cody Reim,R,149197
+house,House,3,George Khalaf,R,149197
+house,House,4,Karen Gresham,D,149199
+house,House,4,Tammy Caputi,D,149199
+house,House,4,Matt Gress,R,149199
+house,House,4,Pamela Carter,R,149199
+house,House,5,Aaron Marquez,D,149200
+house,House,5,Sarah Liguori,D,149200
+house,House,6,Ian Teller,D,149201
+house,House,6,Mae Peshlakai,D,149201
+house,House,6,Brendan Trachsel,G,149201
+house,House,7,"Samuel ""Sam"" Martin",D,149202
+house,House,7,Richard Grayson,G,149202
+house,House,7,David Cook Sr.,R,149202
+house,House,7,"Walter ""Walt"" Blackman",R,149202
+house,House,8,Brian Garcia,D,149203
+house,House,8,Janeen Connolly,D,149203
+house,House,8,Donald Hawker,R,149203
+house,House,9,Jacob D. Martinez,D,149204
+house,House,9,Lorena Austin,D,149204
+house,House,9,Bradley D. Bettencourt,R,149204
+house,House,10,Brian Calaway,D,149176
+house,House,10,Helen Hunter,D,149176
+house,House,10,David Scott,NL,149176
+house,House,10,James Rogers,R,149176
+house,House,10,Justin Olson,R,149176
+house,House,11,Junelle Cavero,D,149177
+house,House,11,Oscar De Los Santos,D,149177
+house,House,11,Cesar Aleman,R,149177
+house,House,11,Joseph Charles Dailey,R,149177
+house,House,12,Armando Montero,D,149178
+house,House,12,Stacey Travers,D,149178
+house,House,12,David Richardson,R,149178
+house,House,13,Jacob Weinberg,D,149179
+house,House,13,"Racquel ""Rockee"" Armstrong",D,149179
+house,House,13,Janet Weninger,R,149179
+house,House,13,Kevin Hartke,R,149179
+house,House,14,Mary Rose,D,149180
+house,House,14,Laurin Hendrix,R,149180
+house,House,14,Tyler Andrew Farnsworth,R,149180
+house,House,15,Michael Way,R,149181
+house,House,15,Neal Carter,R,149181
+house,House,16,Julia Romero Gusse,D,149182
+house,House,16,Chris Lopez,R,149182
+house,House,16,Teresa Martinez,R,149182
+house,House,17,"Hollace ""Holly"" Lyon",D,149183
+house,House,17,Kevin Volk,D,149183
+house,House,17,John Winchester,R,149183
+house,House,17,"Rachel ""Jones"" Keshel",R,149183
+house,House,18,Chris Mathis,D,149184
+house,House,18,Nancy Gutierrez,D,149184
+house,House,18,Bob Dohse,R,149184
+house,House,19,Aiden Nicholette Swallow,D,149185
+house,House,19,Jackie O'Donnell Anderson,D,149185
+house,House,19,David Gowan,R,149185
+house,House,19,Lupe Diaz,R,149185
+house,House,20,Betty Villegas,D,149187
+house,House,20,Sally Ann Gonzales,D,149187
+house,House,21,Consuelo Hernandez,D,149188
+house,House,21,Miranda Lopez,D,149188
+house,House,21,Christopher Kibbey,R,149188
+house,House,22,Betsy Munoz,D,149189
+house,House,22,Elda Luna-Nájera,D,149189
+house,House,23,Emilia Cortez,D,149190
+house,House,23,Mariana Sandoval,D,149190
+house,House,23,Gary Garcia Snyder,R,149190
+house,House,23,Michele Pena,R,149190
+house,House,24,Alberto Flores,D,149191
+house,House,24,Lisbeth Arescurenaga,D,149191
+house,House,24,Delores McLaughlin,R,149191
+house,House,25,Tiffany Byrne,D,149192
+house,House,25,Michael Carbone,R,149192
+house,House,25,"Nickolas ""Nick"" Kupper",R,149192
+house,House,26,Cesar Aguilar,D,149193
+house,House,26,Quanta Crews,D,149193
+house,House,26,Hector Gomez,G,149193
+house,House,26,Frank Roberts,R,149193
+house,House,26,Jonathan McKenna,R,149193
+house,House,27,Deborah Howard,D,149194
+house,House,27,Lisa Fink,R,149194
+house,House,27,Tony Rivero,R,149194
+house,House,28,Barbara Fike,D,149195
+house,House,28,Marc Graham,D,149195
+house,House,28,Beverly Pingerelli,R,149195
+house,House,28,David Livingston,R,149195
+house,House,29,Christine Marie Scianna,D,149196
+house,House,29,James Taylor,R,149196
+house,House,29,Steve Montenegro,R,149196
+house,House,30,Brian McMahan,D,149198
+house,House,30,David Rose,R,149198
+house,House,30,Mike Gannuscio,R,149198

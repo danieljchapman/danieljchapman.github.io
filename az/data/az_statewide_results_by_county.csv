@@ -1,0 +1,1408 @@
+race,year,office,county_fips,county,candidate,party,votes
+2016 President,2016,President,04001,Apache,Hillary Clinton,D,17083
+2016 President,2016,President,04003,Cochise,Hillary Clinton,D,17450
+2016 President,2016,President,04005,Coconino,Hillary Clinton,D,32404
+2016 President,2016,President,04007,Gila,Hillary Clinton,D,7003
+2016 President,2016,President,04009,Graham,Hillary Clinton,D,3301
+2016 President,2016,President,04011,Greenlee,Hillary Clinton,D,1092
+2016 President,2016,President,04012,La Paz,Hillary Clinton,D,1575
+2016 President,2016,President,04013,Maricopa,Hillary Clinton,D,702907
+2016 President,2016,President,04015,Mohave,Hillary Clinton,D,17455
+2016 President,2016,President,04017,Navajo,Hillary Clinton,D,16459
+2016 President,2016,President,04019,Pima,Hillary Clinton,D,224661
+2016 President,2016,President,04021,Pinal,Hillary Clinton,D,47892
+2016 President,2016,President,04023,Santa Cruz,Hillary Clinton,D,11690
+2016 President,2016,President,04025,Yavapai,Hillary Clinton,D,35590
+2016 President,2016,President,04027,Yuma,Hillary Clinton,D,24605
+2016 President,2016,President,04001,Apache,Gary Johnson,L,1221
+2016 President,2016,President,04003,Cochise,Gary Johnson,L,2394
+2016 President,2016,President,04005,Coconino,Gary Johnson,L,2978
+2016 President,2016,President,04007,Gila,Gary Johnson,L,803
+2016 President,2016,President,04009,Graham,Gary Johnson,L,497
+2016 President,2016,President,04011,Greenlee,Gary Johnson,L,200
+2016 President,2016,President,04012,La Paz,Gary Johnson,L,211
+2016 President,2016,President,04013,Maricopa,Gary Johnson,L,67043
+2016 President,2016,President,04015,Mohave,Gary Johnson,L,2639
+2016 President,2016,President,04017,Navajo,Gary Johnson,L,1410
+2016 President,2016,President,04019,Pima,Gary Johnson,L,15620
+2016 President,2016,President,04021,Pinal,Gary Johnson,L,5010
+2016 President,2016,President,04023,Santa Cruz,Gary Johnson,L,432
+2016 President,2016,President,04025,Yavapai,Gary Johnson,L,3996
+2016 President,2016,President,04027,Yuma,Gary Johnson,L,1873
+2016 President,2016,President,04001,Apache,Jill Stein,G,469
+2016 President,2016,President,04003,Cochise,Jill Stein,G,993
+2016 President,2016,President,04005,Coconino,Jill Stein,G,1414
+2016 President,2016,President,04007,Gila,Jill Stein,G,212
+2016 President,2016,President,04009,Graham,Jill Stein,G,116
+2016 President,2016,President,04011,Greenlee,Jill Stein,G,59
+2016 President,2016,President,04012,La Paz,Jill Stein,G,73
+2016 President,2016,President,04013,Maricopa,Jill Stein,G,19432
+2016 President,2016,President,04015,Mohave,Jill Stein,G,740
+2016 President,2016,President,04017,Navajo,Jill Stein,G,703
+2016 President,2016,President,04019,Pima,Jill Stein,G,6200
+2016 President,2016,President,04021,Pinal,Jill Stein,G,1476
+2016 President,2016,President,04023,Santa Cruz,Jill Stein,G,221
+2016 President,2016,President,04025,Yavapai,Jill Stein,G,1588
+2016 President,2016,President,04027,Yuma,Jill Stein,G,649
+2016 President,2016,President,04001,Apache,Donald J. Trump,R,8240
+2016 President,2016,President,04003,Cochise,Donald J. Trump,R,28092
+2016 President,2016,President,04005,Coconino,Donald J. Trump,R,21108
+2016 President,2016,President,04007,Gila,Donald J. Trump,R,14182
+2016 President,2016,President,04009,Graham,Donald J. Trump,R,8025
+2016 President,2016,President,04011,Greenlee,Donald J. Trump,R,1892
+2016 President,2016,President,04012,La Paz,Donald J. Trump,R,4003
+2016 President,2016,President,04013,Maricopa,Donald J. Trump,R,747361
+2016 President,2016,President,04015,Mohave,Donald J. Trump,R,58282
+2016 President,2016,President,04017,Navajo,Donald J. Trump,R,20577
+2016 President,2016,President,04019,Pima,Donald J. Trump,R,167428
+2016 President,2016,President,04021,Pinal,Donald J. Trump,R,72819
+2016 President,2016,President,04023,Santa Cruz,Donald J. Trump,R,3897
+2016 President,2016,President,04025,Yavapai,Donald J. Trump,R,71330
+2016 President,2016,President,04027,Yuma,Donald J. Trump,R,25165
+2016 Senate,2016,Senate,04001,Apache,Ann Kirkpatrick,D,18446
+2016 Senate,2016,Senate,04003,Cochise,Ann Kirkpatrick,D,17642
+2016 Senate,2016,Senate,04005,Coconino,Ann Kirkpatrick,D,31695
+2016 Senate,2016,Senate,04007,Gila,Ann Kirkpatrick,D,6701
+2016 Senate,2016,Senate,04009,Graham,Ann Kirkpatrick,D,3280
+2016 Senate,2016,Senate,04011,Greenlee,Ann Kirkpatrick,D,1189
+2016 Senate,2016,Senate,04012,La Paz,Ann Kirkpatrick,D,1629
+2016 Senate,2016,Senate,04013,Maricopa,Ann Kirkpatrick,D,602635
+2016 Senate,2016,Senate,04015,Mohave,Ann Kirkpatrick,D,19045
+2016 Senate,2016,Senate,04017,Navajo,Ann Kirkpatrick,D,17645
+2016 Senate,2016,Senate,04019,Pima,Ann Kirkpatrick,D,202213
+2016 Senate,2016,Senate,04021,Pinal,Ann Kirkpatrick,D,45402
+2016 Senate,2016,Senate,04023,Santa Cruz,Ann Kirkpatrick,D,9745
+2016 Senate,2016,Senate,04025,Yavapai,Ann Kirkpatrick,D,34527
+2016 Senate,2016,Senate,04027,Yuma,Ann Kirkpatrick,D,19451
+2016 Senate,2016,Senate,04001,Apache,Gary Swing,G,1312
+2016 Senate,2016,Senate,04003,Cochise,Gary Swing,G,3163
+2016 Senate,2016,Senate,04005,Coconino,Gary Swing,G,3129
+2016 Senate,2016,Senate,04007,Gila,Gary Swing,G,1620
+2016 Senate,2016,Senate,04009,Graham,Gary Swing,G,871
+2016 Senate,2016,Senate,04011,Greenlee,Gary Swing,G,268
+2016 Senate,2016,Senate,04012,La Paz,Gary Swing,G,450
+2016 Senate,2016,Senate,04013,Maricopa,Gary Swing,G,79724
+2016 Senate,2016,Senate,04015,Mohave,Gary Swing,G,6615
+2016 Senate,2016,Senate,04017,Navajo,Gary Swing,G,2727
+2016 Senate,2016,Senate,04019,Pima,Gary Swing,G,19403
+2016 Senate,2016,Senate,04021,Pinal,Gary Swing,G,8405
+2016 Senate,2016,Senate,04023,Santa Cruz,Gary Swing,G,589
+2016 Senate,2016,Senate,04025,Yavapai,Gary Swing,G,7619
+2016 Senate,2016,Senate,04027,Yuma,Gary Swing,G,2739
+2016 Senate,2016,Senate,04001,Apache,John McCain,R,7944
+2016 Senate,2016,Senate,04003,Cochise,John McCain,R,27636
+2016 Senate,2016,Senate,04005,Coconino,John McCain,R,24031
+2016 Senate,2016,Senate,04007,Gila,John McCain,R,13157
+2016 Senate,2016,Senate,04009,Graham,John McCain,R,7728
+2016 Senate,2016,Senate,04011,Greenlee,John McCain,R,1784
+2016 Senate,2016,Senate,04012,La Paz,John McCain,R,3662
+2016 Senate,2016,Senate,04013,Maricopa,John McCain,R,842425
+2016 Senate,2016,Senate,04015,Mohave,John McCain,R,50486
+2016 Senate,2016,Senate,04017,Navajo,John McCain,R,18760
+2016 Senate,2016,Senate,04019,Pima,John McCain,R,187910
+2016 Senate,2016,Senate,04021,Pinal,John McCain,R,72787
+2016 Senate,2016,Senate,04023,Santa Cruz,John McCain,R,5635
+2016 Senate,2016,Senate,04025,Yavapai,John McCain,R,68032
+2016 Senate,2016,Senate,04027,Yuma,John McCain,R,27290
+2016 Corporation Commission,2016,Corporation Commission,04001,Apache,Tom Chasin,D,14736
+2016 Corporation Commission,2016,Corporation Commission,04003,Cochise,Tom Chasin,D,17387
+2016 Corporation Commission,2016,Corporation Commission,04005,Coconino,Tom Chasin,D,31420
+2016 Corporation Commission,2016,Corporation Commission,04007,Gila,Tom Chasin,D,7569
+2016 Corporation Commission,2016,Corporation Commission,04009,Graham,Tom Chasin,D,3214
+2016 Corporation Commission,2016,Corporation Commission,04011,Greenlee,Tom Chasin,D,1243
+2016 Corporation Commission,2016,Corporation Commission,04012,La Paz,Tom Chasin,D,1368
+2016 Corporation Commission,2016,Corporation Commission,04013,Maricopa,Tom Chasin,D,584571
+2016 Corporation Commission,2016,Corporation Commission,04015,Mohave,Tom Chasin,D,17219
+2016 Corporation Commission,2016,Corporation Commission,04017,Navajo,Tom Chasin,D,15905
+2016 Corporation Commission,2016,Corporation Commission,04019,Pima,Tom Chasin,D,186680
+2016 Corporation Commission,2016,Corporation Commission,04021,Pinal,Tom Chasin,D,44150
+2016 Corporation Commission,2016,Corporation Commission,04023,Santa Cruz,Tom Chasin,D,8393
+2016 Corporation Commission,2016,Corporation Commission,04025,Yavapai,Tom Chasin,D,35828
+2016 Corporation Commission,2016,Corporation Commission,04027,Yuma,Tom Chasin,D,18983
+2016 Corporation Commission,2016,Corporation Commission,04001,Apache,"William ""Bill"" Mundell",D,12018
+2016 Corporation Commission,2016,Corporation Commission,04003,Cochise,"William ""Bill"" Mundell",D,18413
+2016 Corporation Commission,2016,Corporation Commission,04005,Coconino,"William ""Bill"" Mundell",D,27087
+2016 Corporation Commission,2016,Corporation Commission,04007,Gila,"William ""Bill"" Mundell",D,7993
+2016 Corporation Commission,2016,Corporation Commission,04009,Graham,"William ""Bill"" Mundell",D,3445
+2016 Corporation Commission,2016,Corporation Commission,04011,Greenlee,"William ""Bill"" Mundell",D,1245
+2016 Corporation Commission,2016,Corporation Commission,04012,La Paz,"William ""Bill"" Mundell",D,1568
+2016 Corporation Commission,2016,Corporation Commission,04013,Maricopa,"William ""Bill"" Mundell",D,618157
+2016 Corporation Commission,2016,Corporation Commission,04015,Mohave,"William ""Bill"" Mundell",D,18855
+2016 Corporation Commission,2016,Corporation Commission,04017,Navajo,"William ""Bill"" Mundell",D,14211
+2016 Corporation Commission,2016,Corporation Commission,04019,Pima,"William ""Bill"" Mundell",D,189843
+2016 Corporation Commission,2016,Corporation Commission,04021,Pinal,"William ""Bill"" Mundell",D,46015
+2016 Corporation Commission,2016,Corporation Commission,04023,Santa Cruz,"William ""Bill"" Mundell",D,9204
+2016 Corporation Commission,2016,Corporation Commission,04025,Yavapai,"William ""Bill"" Mundell",D,36525
+2016 Corporation Commission,2016,Corporation Commission,04027,Yuma,"William ""Bill"" Mundell",D,19922
+2016 Corporation Commission,2016,Corporation Commission,04001,Apache,"Robert ""Bob"" Burns",R,7122
+2016 Corporation Commission,2016,Corporation Commission,04003,Cochise,"Robert ""Bob"" Burns",R,29097
+2016 Corporation Commission,2016,Corporation Commission,04005,Coconino,"Robert ""Bob"" Burns",R,21730
+2016 Corporation Commission,2016,Corporation Commission,04007,Gila,"Robert ""Bob"" Burns",R,12358
+2016 Corporation Commission,2016,Corporation Commission,04009,Graham,"Robert ""Bob"" Burns",R,6758
+2016 Corporation Commission,2016,Corporation Commission,04011,Greenlee,"Robert ""Bob"" Burns",R,1666
+2016 Corporation Commission,2016,Corporation Commission,04012,La Paz,"Robert ""Bob"" Burns",R,3054
+2016 Corporation Commission,2016,Corporation Commission,04013,Maricopa,"Robert ""Bob"" Burns",R,732085
+2016 Corporation Commission,2016,Corporation Commission,04015,Mohave,"Robert ""Bob"" Burns",R,43838
+2016 Corporation Commission,2016,Corporation Commission,04017,Navajo,"Robert ""Bob"" Burns",R,18303
+2016 Corporation Commission,2016,Corporation Commission,04019,Pima,"Robert ""Bob"" Burns",R,177413
+2016 Corporation Commission,2016,Corporation Commission,04021,Pinal,"Robert ""Bob"" Burns",R,64676
+2016 Corporation Commission,2016,Corporation Commission,04023,Santa Cruz,"Robert ""Bob"" Burns",R,4991
+2016 Corporation Commission,2016,Corporation Commission,04025,Yavapai,"Robert ""Bob"" Burns",R,63005
+2016 Corporation Commission,2016,Corporation Commission,04027,Yuma,"Robert ""Bob"" Burns",R,21906
+2016 Corporation Commission,2016,Corporation Commission,04001,Apache,Boyd Dunn,R,6738
+2016 Corporation Commission,2016,Corporation Commission,04003,Cochise,Boyd Dunn,R,26386
+2016 Corporation Commission,2016,Corporation Commission,04005,Coconino,Boyd Dunn,R,17041
+2016 Corporation Commission,2016,Corporation Commission,04007,Gila,Boyd Dunn,R,10429
+2016 Corporation Commission,2016,Corporation Commission,04009,Graham,Boyd Dunn,R,6256
+2016 Corporation Commission,2016,Corporation Commission,04011,Greenlee,Boyd Dunn,R,1580
+2016 Corporation Commission,2016,Corporation Commission,04012,La Paz,Boyd Dunn,R,2649
+2016 Corporation Commission,2016,Corporation Commission,04013,Maricopa,Boyd Dunn,R,646517
+2016 Corporation Commission,2016,Corporation Commission,04015,Mohave,Boyd Dunn,R,40092
+2016 Corporation Commission,2016,Corporation Commission,04017,Navajo,Boyd Dunn,R,16809
+2016 Corporation Commission,2016,Corporation Commission,04019,Pima,Boyd Dunn,R,151646
+2016 Corporation Commission,2016,Corporation Commission,04021,Pinal,Boyd Dunn,R,59509
+2016 Corporation Commission,2016,Corporation Commission,04023,Santa Cruz,Boyd Dunn,R,3707
+2016 Corporation Commission,2016,Corporation Commission,04025,Yavapai,Boyd Dunn,R,52532
+2016 Corporation Commission,2016,Corporation Commission,04027,Yuma,Boyd Dunn,R,19203
+2016 Corporation Commission,2016,Corporation Commission,04001,Apache,Andy Tobin,R,7702
+2016 Corporation Commission,2016,Corporation Commission,04003,Cochise,Andy Tobin,R,26542
+2016 Corporation Commission,2016,Corporation Commission,04005,Coconino,Andy Tobin,R,21011
+2016 Corporation Commission,2016,Corporation Commission,04007,Gila,Andy Tobin,R,11406
+2016 Corporation Commission,2016,Corporation Commission,04009,Graham,Andy Tobin,R,6994
+2016 Corporation Commission,2016,Corporation Commission,04011,Greenlee,Andy Tobin,R,1673
+2016 Corporation Commission,2016,Corporation Commission,04012,La Paz,Andy Tobin,R,2935
+2016 Corporation Commission,2016,Corporation Commission,04013,Maricopa,Andy Tobin,R,674209
+2016 Corporation Commission,2016,Corporation Commission,04015,Mohave,Andy Tobin,R,43959
+2016 Corporation Commission,2016,Corporation Commission,04017,Navajo,Andy Tobin,R,18909
+2016 Corporation Commission,2016,Corporation Commission,04019,Pima,Andy Tobin,R,158854
+2016 Corporation Commission,2016,Corporation Commission,04021,Pinal,Andy Tobin,R,63455
+2016 Corporation Commission,2016,Corporation Commission,04023,Santa Cruz,Andy Tobin,R,4092
+2016 Corporation Commission,2016,Corporation Commission,04025,Yavapai,Andy Tobin,R,61246
+2016 Corporation Commission,2016,Corporation Commission,04027,Yuma,Andy Tobin,R,19862
+2016 President,2016,President,04001,Apache,Write-ins,W,116
+2016 President,2016,President,04003,Cochise,Write-ins,W,453
+2016 President,2016,President,04005,Coconino,Write-ins,W,532
+2016 President,2016,President,04007,Gila,Write-ins,W,108
+2016 President,2016,President,04009,Graham,Write-ins,W,195
+2016 President,2016,President,04011,Greenlee,Write-ins,W,26
+2016 President,2016,President,04012,La Paz,Write-ins,W,15
+2016 President,2016,President,04013,Maricopa,Write-ins,W,12378
+2016 President,2016,President,04015,Mohave,Write-ins,W,228
+2016 President,2016,President,04017,Navajo,Write-ins,W,498
+2016 President,2016,President,04019,Pima,Write-ins,W,2508
+2016 President,2016,President,04021,Pinal,Write-ins,W,1072
+2016 President,2016,President,04023,Santa Cruz,Write-ins,W,47
+2016 President,2016,President,04025,Yavapai,Write-ins,W,651
+2016 President,2016,President,04027,Yuma,Write-ins,W,121
+2016 Senate,2016,Senate,04001,Apache,Write-ins,W,34
+2016 Senate,2016,Senate,04003,Cochise,Write-ins,W,47
+2016 Senate,2016,Senate,04005,Coconino,Write-ins,W,40
+2016 Senate,2016,Senate,04007,Gila,Write-ins,W,17
+2016 Senate,2016,Senate,04009,Graham,Write-ins,W,14
+2016 Senate,2016,Senate,04013,Maricopa,Write-ins,W,972
+2016 Senate,2016,Senate,04015,Mohave,Write-ins,W,16
+2016 Senate,2016,Senate,04017,Navajo,Write-ins,W,18
+2016 Senate,2016,Senate,04019,Pima,Write-ins,W,211
+2016 Senate,2016,Senate,04021,Pinal,Write-ins,W,86
+2016 Senate,2016,Senate,04023,Santa Cruz,Write-ins,W,19
+2016 Senate,2016,Senate,04025,Yavapai,Write-ins,W,89
+2016 Senate,2016,Senate,04027,Yuma,Write-ins,W,21
+2018 Senate,2018,Senate,04001,Apache,Martha McSally,R,7810
+2018 Senate,2018,Senate,04003,Cochise,Martha McSally,R,26929
+2018 Senate,2018,Senate,04005,Coconino,Martha McSally,R,19249
+2018 Senate,2018,Senate,04007,Gila,Martha McSally,R,12180
+2018 Senate,2018,Senate,04009,Graham,Martha McSally,R,6870
+2018 Senate,2018,Senate,04011,Greenlee,Martha McSally,R,1416
+2018 Senate,2018,Senate,04012,La Paz,Martha McSally,R,3265
+2018 Senate,2018,Senate,04013,Maricopa,Martha McSally,R,672505
+2018 Senate,2018,Senate,04015,Mohave,Martha McSally,R,50209
+2018 Senate,2018,Senate,04017,Navajo,Martha McSally,R,18767
+2018 Senate,2018,Senate,04019,Pima,Martha McSally,R,160550
+2018 Senate,2018,Senate,04021,Pinal,Martha McSally,R,63782
+2018 Senate,2018,Senate,04023,Santa Cruz,Martha McSally,R,3828
+2018 Senate,2018,Senate,04025,Yavapai,Martha McSally,R,65308
+2018 Senate,2018,Senate,04027,Yuma,Martha McSally,R,22532
+2018 Senate,2018,Senate,04001,Apache,Kyrsten Sinema,D,16298
+2018 Senate,2018,Senate,04003,Cochise,Kyrsten Sinema,D,17383
+2018 Senate,2018,Senate,04005,Coconino,Kyrsten Sinema,D,34240
+2018 Senate,2018,Senate,04007,Gila,Kyrsten Sinema,D,7643
+2018 Senate,2018,Senate,04009,Graham,Kyrsten Sinema,D,3368
+2018 Senate,2018,Senate,04011,Greenlee,Kyrsten Sinema,D,1042
+2018 Senate,2018,Senate,04012,La Paz,Kyrsten Sinema,D,1609
+2018 Senate,2018,Senate,04013,Maricopa,Kyrsten Sinema,D,732761
+2018 Senate,2018,Senate,04015,Mohave,Kyrsten Sinema,D,19214
+2018 Senate,2018,Senate,04017,Navajo,Kyrsten Sinema,D,16624
+2018 Senate,2018,Senate,04019,Pima,Kyrsten Sinema,D,221242
+2018 Senate,2018,Senate,04021,Pinal,Kyrsten Sinema,D,50395
+2018 Senate,2018,Senate,04023,Santa Cruz,Kyrsten Sinema,D,9241
+2018 Senate,2018,Senate,04025,Yavapai,Kyrsten Sinema,D,40160
+2018 Senate,2018,Senate,04027,Yuma,Kyrsten Sinema,D,19880
+2018 Senate,2018,Senate,04001,Apache,Angela Green,G,961
+2018 Senate,2018,Senate,04003,Cochise,Angela Green,G,1212
+2018 Senate,2018,Senate,04005,Coconino,Angela Green,G,1757
+2018 Senate,2018,Senate,04007,Gila,Angela Green,G,674
+2018 Senate,2018,Senate,04009,Graham,Angela Green,G,363
+2018 Senate,2018,Senate,04011,Greenlee,Angela Green,G,108
+2018 Senate,2018,Senate,04012,La Paz,Angela Green,G,199
+2018 Senate,2018,Senate,04013,Maricopa,Angela Green,G,32371
+2018 Senate,2018,Senate,04015,Mohave,Angela Green,G,2027
+2018 Senate,2018,Senate,04017,Navajo,Angela Green,G,1238
+2018 Senate,2018,Senate,04019,Pima,Angela Green,G,8710
+2018 Senate,2018,Senate,04021,Pinal,Angela Green,G,3183
+2018 Senate,2018,Senate,04023,Santa Cruz,Angela Green,G,418
+2018 Senate,2018,Senate,04025,Yavapai,Angela Green,G,2870
+2018 Senate,2018,Senate,04027,Yuma,Angela Green,G,1351
+2018 Governor,2018,Governor,04001,Apache,Doug Ducey,R,9175
+2018 Governor,2018,Governor,04003,Cochise,Doug Ducey,R,29638
+2018 Governor,2018,Governor,04005,Coconino,Doug Ducey,R,22778
+2018 Governor,2018,Governor,04007,Gila,Doug Ducey,R,14444
+2018 Governor,2018,Governor,04009,Graham,Doug Ducey,R,7776
+2018 Governor,2018,Governor,04011,Greenlee,Doug Ducey,R,1637
+2018 Governor,2018,Governor,04012,La Paz,Doug Ducey,R,3852
+2018 Governor,2018,Governor,04013,Maricopa,Doug Ducey,R,800210
+2018 Governor,2018,Governor,04015,Mohave,Doug Ducey,R,56682
+2018 Governor,2018,Governor,04017,Navajo,Doug Ducey,R,21880
+2018 Governor,2018,Governor,04019,Pima,Doug Ducey,R,184621
+2018 Governor,2018,Governor,04021,Pinal,Doug Ducey,R,75272
+2018 Governor,2018,Governor,04023,Santa Cruz,Doug Ducey,R,4792
+2018 Governor,2018,Governor,04025,Yavapai,Doug Ducey,R,74148
+2018 Governor,2018,Governor,04027,Yuma,Doug Ducey,R,23958
+2018 Governor,2018,Governor,04001,Apache,David Garcia,D,14955
+2018 Governor,2018,Governor,04003,Cochise,David Garcia,D,14576
+2018 Governor,2018,Governor,04005,Coconino,David Garcia,D,30712
+2018 Governor,2018,Governor,04007,Gila,David Garcia,D,5623
+2018 Governor,2018,Governor,04009,Graham,David Garcia,D,2569
+2018 Governor,2018,Governor,04011,Greenlee,David Garcia,D,832
+2018 Governor,2018,Governor,04012,La Paz,David Garcia,D,1122
+2018 Governor,2018,Governor,04013,Maricopa,David Garcia,D,603055
+2018 Governor,2018,Governor,04015,Mohave,David Garcia,D,13580
+2018 Governor,2018,Governor,04017,Navajo,David Garcia,D,13646
+2018 Governor,2018,Governor,04019,Pima,David Garcia,D,195227
+2018 Governor,2018,Governor,04021,Pinal,David Garcia,D,38801
+2018 Governor,2018,Governor,04023,Santa Cruz,David Garcia,D,8407
+2018 Governor,2018,Governor,04025,Yavapai,David Garcia,D,32159
+2018 Governor,2018,Governor,04027,Yuma,David Garcia,D,19077
+2018 Governor,2018,Governor,04001,Apache,Angel Torres,G,912
+2018 Governor,2018,Governor,04003,Cochise,Angel Torres,G,1201
+2018 Governor,2018,Governor,04005,Coconino,Angel Torres,G,1440
+2018 Governor,2018,Governor,04007,Gila,Angel Torres,G,468
+2018 Governor,2018,Governor,04009,Graham,Angel Torres,G,276
+2018 Governor,2018,Governor,04011,Greenlee,Angel Torres,G,80
+2018 Governor,2018,Governor,04012,La Paz,Angel Torres,G,129
+2018 Governor,2018,Governor,04013,Maricopa,Angel Torres,G,29495
+2018 Governor,2018,Governor,04015,Mohave,Angel Torres,G,1325
+2018 Governor,2018,Governor,04017,Navajo,Angel Torres,G,1055
+2018 Governor,2018,Governor,04019,Pima,Angel Torres,G,8678
+2018 Governor,2018,Governor,04021,Pinal,Angel Torres,G,2767
+2018 Governor,2018,Governor,04023,Santa Cruz,Angel Torres,G,261
+2018 Governor,2018,Governor,04025,Yavapai,Angel Torres,G,2029
+2018 Governor,2018,Governor,04027,Yuma,Angel Torres,G,846
+2018 Secretary of State,2018,Secretary of State,04001,Apache,Steve Gaynor,R,7889
+2018 Secretary of State,2018,Secretary of State,04003,Cochise,Steve Gaynor,R,26204
+2018 Secretary of State,2018,Secretary of State,04005,Coconino,Steve Gaynor,R,19851
+2018 Secretary of State,2018,Secretary of State,04007,Gila,Steve Gaynor,R,12804
+2018 Secretary of State,2018,Secretary of State,04009,Graham,Steve Gaynor,R,7061
+2018 Secretary of State,2018,Secretary of State,04011,Greenlee,Steve Gaynor,R,1437
+2018 Secretary of State,2018,Secretary of State,04012,La Paz,Steve Gaynor,R,3408
+2018 Secretary of State,2018,Secretary of State,04013,Maricopa,Steve Gaynor,R,692690
+2018 Secretary of State,2018,Secretary of State,04015,Mohave,Steve Gaynor,R,51900
+2018 Secretary of State,2018,Secretary of State,04017,Navajo,Steve Gaynor,R,19040
+2018 Secretary of State,2018,Secretary of State,04019,Pima,Steve Gaynor,R,155501
+2018 Secretary of State,2018,Secretary of State,04021,Pinal,Steve Gaynor,R,66211
+2018 Secretary of State,2018,Secretary of State,04023,Santa Cruz,Steve Gaynor,R,3729
+2018 Secretary of State,2018,Secretary of State,04025,Yavapai,Steve Gaynor,R,66088
+2018 Secretary of State,2018,Secretary of State,04027,Yuma,Steve Gaynor,R,22319
+2018 Secretary of State,2018,Secretary of State,04001,Apache,Katie Hobbs,D,17029
+2018 Secretary of State,2018,Secretary of State,04003,Cochise,Katie Hobbs,D,18721
+2018 Secretary of State,2018,Secretary of State,04005,Coconino,Katie Hobbs,D,34120
+2018 Secretary of State,2018,Secretary of State,04007,Gila,Katie Hobbs,D,7524
+2018 Secretary of State,2018,Secretary of State,04009,Graham,Katie Hobbs,D,3476
+2018 Secretary of State,2018,Secretary of State,04011,Greenlee,Katie Hobbs,D,1084
+2018 Secretary of State,2018,Secretary of State,04012,La Paz,Katie Hobbs,D,1608
+2018 Secretary of State,2018,Secretary of State,04013,Maricopa,Katie Hobbs,D,713045
+2018 Secretary of State,2018,Secretary of State,04015,Mohave,Katie Hobbs,D,18775
+2018 Secretary of State,2018,Secretary of State,04017,Navajo,Katie Hobbs,D,16930
+2018 Secretary of State,2018,Secretary of State,04019,Pima,Katie Hobbs,D,226034
+2018 Secretary of State,2018,Secretary of State,04021,Pinal,Katie Hobbs,D,49756
+2018 Secretary of State,2018,Secretary of State,04023,Santa Cruz,Katie Hobbs,D,9497
+2018 Secretary of State,2018,Secretary of State,04025,Yavapai,Katie Hobbs,D,38259
+2018 Secretary of State,2018,Secretary of State,04027,Yuma,Katie Hobbs,D,20526
+2018 Attorney General,2018,Attorney General,04001,Apache,Mark Brnovich,R,8401
+2018 Attorney General,2018,Attorney General,04003,Cochise,Mark Brnovich,R,26722
+2018 Attorney General,2018,Attorney General,04005,Coconino,Mark Brnovich,R,20715
+2018 Attorney General,2018,Attorney General,04007,Gila,Mark Brnovich,R,13226
+2018 Attorney General,2018,Attorney General,04009,Graham,Mark Brnovich,R,7275
+2018 Attorney General,2018,Attorney General,04011,Greenlee,Mark Brnovich,R,1493
+2018 Attorney General,2018,Attorney General,04012,La Paz,Mark Brnovich,R,3524
+2018 Attorney General,2018,Attorney General,04013,Maricopa,Mark Brnovich,R,727133
+2018 Attorney General,2018,Attorney General,04015,Mohave,Mark Brnovich,R,52936
+2018 Attorney General,2018,Attorney General,04017,Navajo,Mark Brnovich,R,19854
+2018 Attorney General,2018,Attorney General,04019,Pima,Mark Brnovich,R,157997
+2018 Attorney General,2018,Attorney General,04021,Pinal,Mark Brnovich,R,68428
+2018 Attorney General,2018,Attorney General,04023,Santa Cruz,Mark Brnovich,R,3768
+2018 Attorney General,2018,Attorney General,04025,Yavapai,Mark Brnovich,R,67693
+2018 Attorney General,2018,Attorney General,04027,Yuma,Mark Brnovich,R,22233
+2018 Attorney General,2018,Attorney General,04001,Apache,January Contreras,D,16309
+2018 Attorney General,2018,Attorney General,04003,Cochise,January Contreras,D,18024
+2018 Attorney General,2018,Attorney General,04005,Coconino,January Contreras,D,32889
+2018 Attorney General,2018,Attorney General,04007,Gila,January Contreras,D,6891
+2018 Attorney General,2018,Attorney General,04009,Graham,January Contreras,D,3129
+2018 Attorney General,2018,Attorney General,04011,Greenlee,January Contreras,D,999
+2018 Attorney General,2018,Attorney General,04012,La Paz,January Contreras,D,1430
+2018 Attorney General,2018,Attorney General,04013,Maricopa,January Contreras,D,672560
+2018 Attorney General,2018,Attorney General,04015,Mohave,January Contreras,D,17229
+2018 Attorney General,2018,Attorney General,04017,Navajo,January Contreras,D,16015
+2018 Attorney General,2018,Attorney General,04019,Pima,January Contreras,D,222055
+2018 Attorney General,2018,Attorney General,04021,Pinal,January Contreras,D,46792
+2018 Attorney General,2018,Attorney General,04023,Santa Cruz,January Contreras,D,9310
+2018 Attorney General,2018,Attorney General,04025,Yavapai,January Contreras,D,36483
+2018 Attorney General,2018,Attorney General,04027,Yuma,January Contreras,D,20611
+2018 Treasurer,2018,Treasurer,04001,Apache,Kimberly Yee,R,8496
+2018 Treasurer,2018,Treasurer,04003,Cochise,Kimberly Yee,R,27850
+2018 Treasurer,2018,Treasurer,04005,Coconino,Kimberly Yee,R,21370
+2018 Treasurer,2018,Treasurer,04007,Gila,Kimberly Yee,R,13416
+2018 Treasurer,2018,Treasurer,04009,Graham,Kimberly Yee,R,7357
+2018 Treasurer,2018,Treasurer,04011,Greenlee,Kimberly Yee,R,1473
+2018 Treasurer,2018,Treasurer,04012,La Paz,Kimberly Yee,R,3542
+2018 Treasurer,2018,Treasurer,04013,Maricopa,Kimberly Yee,R,754919
+2018 Treasurer,2018,Treasurer,04015,Mohave,Kimberly Yee,R,53106
+2018 Treasurer,2018,Treasurer,04017,Navajo,Kimberly Yee,R,20143
+2018 Treasurer,2018,Treasurer,04019,Pima,Kimberly Yee,R,171373
+2018 Treasurer,2018,Treasurer,04021,Pinal,Kimberly Yee,R,69323
+2018 Treasurer,2018,Treasurer,04023,Santa Cruz,Kimberly Yee,R,4129
+2018 Treasurer,2018,Treasurer,04025,Yavapai,Kimberly Yee,R,69199
+2018 Treasurer,2018,Treasurer,04027,Yuma,Kimberly Yee,R,23424
+2018 Treasurer,2018,Treasurer,04001,Apache,Mark Manoil,D,16203
+2018 Treasurer,2018,Treasurer,04003,Cochise,Mark Manoil,D,16629
+2018 Treasurer,2018,Treasurer,04005,Coconino,Mark Manoil,D,31712
+2018 Treasurer,2018,Treasurer,04007,Gila,Mark Manoil,D,6709
+2018 Treasurer,2018,Treasurer,04009,Graham,Mark Manoil,D,3083
+2018 Treasurer,2018,Treasurer,04011,Greenlee,Mark Manoil,D,1034
+2018 Treasurer,2018,Treasurer,04012,La Paz,Mark Manoil,D,1402
+2018 Treasurer,2018,Treasurer,04013,Maricopa,Mark Manoil,D,628856
+2018 Treasurer,2018,Treasurer,04015,Mohave,Mark Manoil,D,16958
+2018 Treasurer,2018,Treasurer,04017,Navajo,Mark Manoil,D,15644
+2018 Treasurer,2018,Treasurer,04019,Pima,Mark Manoil,D,206369
+2018 Treasurer,2018,Treasurer,04021,Pinal,Mark Manoil,D,44891
+2018 Treasurer,2018,Treasurer,04023,Santa Cruz,Mark Manoil,D,9144
+2018 Treasurer,2018,Treasurer,04025,Yavapai,Mark Manoil,D,34282
+2018 Treasurer,2018,Treasurer,04027,Yuma,Mark Manoil,D,19281
+2018 Superintendent of Public Instruction,2018,Superintendent of Public Instruction,04001,Apache,Frank Riggs,R,7656
+2018 Superintendent of Public Instruction,2018,Superintendent of Public Instruction,04003,Cochise,Frank Riggs,R,25718
+2018 Superintendent of Public Instruction,2018,Superintendent of Public Instruction,04005,Coconino,Frank Riggs,R,18907
+2018 Superintendent of Public Instruction,2018,Superintendent of Public Instruction,04007,Gila,Frank Riggs,R,12381
+2018 Superintendent of Public Instruction,2018,Superintendent of Public Instruction,04009,Graham,Frank Riggs,R,6789
+2018 Superintendent of Public Instruction,2018,Superintendent of Public Instruction,04011,Greenlee,Frank Riggs,R,1382
+2018 Superintendent of Public Instruction,2018,Superintendent of Public Instruction,04012,La Paz,Frank Riggs,R,3332
+2018 Superintendent of Public Instruction,2018,Superintendent of Public Instruction,04013,Maricopa,Frank Riggs,R,662200
+2018 Superintendent of Public Instruction,2018,Superintendent of Public Instruction,04015,Mohave,Frank Riggs,R,50874
+2018 Superintendent of Public Instruction,2018,Superintendent of Public Instruction,04017,Navajo,Frank Riggs,R,18511
+2018 Superintendent of Public Instruction,2018,Superintendent of Public Instruction,04019,Pima,Frank Riggs,R,152072
+2018 Superintendent of Public Instruction,2018,Superintendent of Public Instruction,04021,Pinal,Frank Riggs,R,64875
+2018 Superintendent of Public Instruction,2018,Superintendent of Public Instruction,04023,Santa Cruz,Frank Riggs,R,3743
+2018 Superintendent of Public Instruction,2018,Superintendent of Public Instruction,04025,Yavapai,Frank Riggs,R,63669
+2018 Superintendent of Public Instruction,2018,Superintendent of Public Instruction,04027,Yuma,Frank Riggs,R,21672
+2018 Superintendent of Public Instruction,2018,Superintendent of Public Instruction,04001,Apache,Kathy Hoffman,D,17057
+2018 Superintendent of Public Instruction,2018,Superintendent of Public Instruction,04003,Cochise,Kathy Hoffman,D,18846
+2018 Superintendent of Public Instruction,2018,Superintendent of Public Instruction,04005,Coconino,Kathy Hoffman,D,34349
+2018 Superintendent of Public Instruction,2018,Superintendent of Public Instruction,04007,Gila,Kathy Hoffman,D,7812
+2018 Superintendent of Public Instruction,2018,Superintendent of Public Instruction,04009,Graham,Kathy Hoffman,D,3664
+2018 Superintendent of Public Instruction,2018,Superintendent of Public Instruction,04011,Greenlee,Kathy Hoffman,D,1124
+2018 Superintendent of Public Instruction,2018,Superintendent of Public Instruction,04012,La Paz,Kathy Hoffman,D,1625
+2018 Superintendent of Public Instruction,2018,Superintendent of Public Instruction,04013,Maricopa,Kathy Hoffman,D,717879
+2018 Superintendent of Public Instruction,2018,Superintendent of Public Instruction,04015,Mohave,Kathy Hoffman,D,19073
+2018 Superintendent of Public Instruction,2018,Superintendent of Public Instruction,04017,Navajo,Kathy Hoffman,D,17520
+2018 Superintendent of Public Instruction,2018,Superintendent of Public Instruction,04019,Pima,Kathy Hoffman,D,226003
+2018 Superintendent of Public Instruction,2018,Superintendent of Public Instruction,04021,Pinal,Kathy Hoffman,D,50382
+2018 Superintendent of Public Instruction,2018,Superintendent of Public Instruction,04023,Santa Cruz,Kathy Hoffman,D,9494
+2018 Superintendent of Public Instruction,2018,Superintendent of Public Instruction,04025,Yavapai,Kathy Hoffman,D,39675
+2018 Superintendent of Public Instruction,2018,Superintendent of Public Instruction,04027,Yuma,Kathy Hoffman,D,20954
+2018 Mine Inspector,2018,Mine Inspector,04001,Apache,Joe Hart,R,7991
+2018 Mine Inspector,2018,Mine Inspector,04003,Cochise,Joe Hart,R,26975
+2018 Mine Inspector,2018,Mine Inspector,04005,Coconino,Joe Hart,R,19945
+2018 Mine Inspector,2018,Mine Inspector,04007,Gila,Joe Hart,R,13044
+2018 Mine Inspector,2018,Mine Inspector,04009,Graham,Joe Hart,R,7135
+2018 Mine Inspector,2018,Mine Inspector,04011,Greenlee,Joe Hart,R,1459
+2018 Mine Inspector,2018,Mine Inspector,04012,La Paz,Joe Hart,R,3425
+2018 Mine Inspector,2018,Mine Inspector,04013,Maricopa,Joe Hart,R,695082
+2018 Mine Inspector,2018,Mine Inspector,04015,Mohave,Joe Hart,R,52221
+2018 Mine Inspector,2018,Mine Inspector,04017,Navajo,Joe Hart,R,19189
+2018 Mine Inspector,2018,Mine Inspector,04019,Pima,Joe Hart,R,162658
+2018 Mine Inspector,2018,Mine Inspector,04021,Pinal,Joe Hart,R,66877
+2018 Mine Inspector,2018,Mine Inspector,04023,Santa Cruz,Joe Hart,R,3848
+2018 Mine Inspector,2018,Mine Inspector,04025,Yavapai,Joe Hart,R,66428
+2018 Mine Inspector,2018,Mine Inspector,04027,Yuma,Joe Hart,R,22521
+2018 Mine Inspector,2018,Mine Inspector,04001,Apache,"William ""Bill"" Pierce",D,16658
+2018 Mine Inspector,2018,Mine Inspector,04003,Cochise,"William ""Bill"" Pierce",D,17320
+2018 Mine Inspector,2018,Mine Inspector,04005,Coconino,"William ""Bill"" Pierce",D,32607
+2018 Mine Inspector,2018,Mine Inspector,04007,Gila,"William ""Bill"" Pierce",D,6955
+2018 Mine Inspector,2018,Mine Inspector,04009,Graham,"William ""Bill"" Pierce",D,3249
+2018 Mine Inspector,2018,Mine Inspector,04011,Greenlee,"William ""Bill"" Pierce",D,1038
+2018 Mine Inspector,2018,Mine Inspector,04012,La Paz,"William ""Bill"" Pierce",D,1519
+2018 Mine Inspector,2018,Mine Inspector,04013,Maricopa,"William ""Bill"" Pierce",D,651433
+2018 Mine Inspector,2018,Mine Inspector,04015,Mohave,"William ""Bill"" Pierce",D,17404
+2018 Mine Inspector,2018,Mine Inspector,04017,Navajo,"William ""Bill"" Pierce",D,16427
+2018 Mine Inspector,2018,Mine Inspector,04019,Pima,"William ""Bill"" Pierce",D,213164
+2018 Mine Inspector,2018,Mine Inspector,04021,Pinal,"William ""Bill"" Pierce",D,46650
+2018 Mine Inspector,2018,Mine Inspector,04023,Santa Cruz,"William ""Bill"" Pierce",D,9285
+2018 Mine Inspector,2018,Mine Inspector,04025,Yavapai,"William ""Bill"" Pierce",D,36905
+2018 Mine Inspector,2018,Mine Inspector,04027,Yuma,"William ""Bill"" Pierce",D,19732
+2018 Corporation Commission,2018,Corporation Commission,04001,Apache,Rodney Glassman,R,6375
+2018 Corporation Commission,2018,Corporation Commission,04003,Cochise,Rodney Glassman,R,24767
+2018 Corporation Commission,2018,Corporation Commission,04005,Coconino,Rodney Glassman,R,17719
+2018 Corporation Commission,2018,Corporation Commission,04007,Gila,Rodney Glassman,R,11541
+2018 Corporation Commission,2018,Corporation Commission,04009,Graham,Rodney Glassman,R,6325
+2018 Corporation Commission,2018,Corporation Commission,04011,Greenlee,Rodney Glassman,R,1300
+2018 Corporation Commission,2018,Corporation Commission,04012,La Paz,Rodney Glassman,R,2934
+2018 Corporation Commission,2018,Corporation Commission,04013,Maricopa,Rodney Glassman,R,634921
+2018 Corporation Commission,2018,Corporation Commission,04015,Mohave,Rodney Glassman,R,43552
+2018 Corporation Commission,2018,Corporation Commission,04017,Navajo,Rodney Glassman,R,16787
+2018 Corporation Commission,2018,Corporation Commission,04019,Pima,Rodney Glassman,R,140467
+2018 Corporation Commission,2018,Corporation Commission,04021,Pinal,Rodney Glassman,R,58269
+2018 Corporation Commission,2018,Corporation Commission,04023,Santa Cruz,Rodney Glassman,R,3352
+2018 Corporation Commission,2018,Corporation Commission,04025,Yavapai,Rodney Glassman,R,61450
+2018 Corporation Commission,2018,Corporation Commission,04027,Yuma,Rodney Glassman,R,19635
+2018 Corporation Commission,2018,Corporation Commission,04001,Apache,Justin Olson,R,6533
+2018 Corporation Commission,2018,Corporation Commission,04003,Cochise,Justin Olson,R,24489
+2018 Corporation Commission,2018,Corporation Commission,04005,Coconino,Justin Olson,R,17466
+2018 Corporation Commission,2018,Corporation Commission,04007,Gila,Justin Olson,R,11415
+2018 Corporation Commission,2018,Corporation Commission,04009,Graham,Justin Olson,R,6371
+2018 Corporation Commission,2018,Corporation Commission,04011,Greenlee,Justin Olson,R,1325
+2018 Corporation Commission,2018,Corporation Commission,04012,La Paz,Justin Olson,R,2803
+2018 Corporation Commission,2018,Corporation Commission,04013,Maricopa,Justin Olson,R,640523
+2018 Corporation Commission,2018,Corporation Commission,04015,Mohave,Justin Olson,R,42773
+2018 Corporation Commission,2018,Corporation Commission,04017,Navajo,Justin Olson,R,16753
+2018 Corporation Commission,2018,Corporation Commission,04019,Pima,Justin Olson,R,142448
+2018 Corporation Commission,2018,Corporation Commission,04021,Pinal,Justin Olson,R,58835
+2018 Corporation Commission,2018,Corporation Commission,04023,Santa Cruz,Justin Olson,R,3264
+2018 Corporation Commission,2018,Corporation Commission,04025,Yavapai,Justin Olson,R,59778
+2018 Corporation Commission,2018,Corporation Commission,04027,Yuma,Justin Olson,R,19086
+2018 Corporation Commission,2018,Corporation Commission,04001,Apache,Sandra Kennedy,D,14620
+2018 Corporation Commission,2018,Corporation Commission,04003,Cochise,Sandra Kennedy,D,17328
+2018 Corporation Commission,2018,Corporation Commission,04005,Coconino,Sandra Kennedy,D,31541
+2018 Corporation Commission,2018,Corporation Commission,04007,Gila,Sandra Kennedy,D,7461
+2018 Corporation Commission,2018,Corporation Commission,04009,Graham,Sandra Kennedy,D,3071
+2018 Corporation Commission,2018,Corporation Commission,04011,Greenlee,Sandra Kennedy,D,982
+2018 Corporation Commission,2018,Corporation Commission,04012,La Paz,Sandra Kennedy,D,1505
+2018 Corporation Commission,2018,Corporation Commission,04013,Maricopa,Sandra Kennedy,D,655565
+2018 Corporation Commission,2018,Corporation Commission,04015,Mohave,Sandra Kennedy,D,16912
+2018 Corporation Commission,2018,Corporation Commission,04017,Navajo,Sandra Kennedy,D,15400
+2018 Corporation Commission,2018,Corporation Commission,04019,Pima,Sandra Kennedy,D,202496
+2018 Corporation Commission,2018,Corporation Commission,04021,Pinal,Sandra Kennedy,D,45511
+2018 Corporation Commission,2018,Corporation Commission,04023,Santa Cruz,Sandra Kennedy,D,8532
+2018 Corporation Commission,2018,Corporation Commission,04025,Yavapai,Sandra Kennedy,D,37650
+2018 Corporation Commission,2018,Corporation Commission,04027,Yuma,Sandra Kennedy,D,18226
+2018 Corporation Commission,2018,Corporation Commission,04001,Apache,Kiana Maria Sears,D,10195
+2018 Corporation Commission,2018,Corporation Commission,04003,Cochise,Kiana Maria Sears,D,15830
+2018 Corporation Commission,2018,Corporation Commission,04005,Coconino,Kiana Maria Sears,D,29144
+2018 Corporation Commission,2018,Corporation Commission,04007,Gila,Kiana Maria Sears,D,6566
+2018 Corporation Commission,2018,Corporation Commission,04009,Graham,Kiana Maria Sears,D,2611
+2018 Corporation Commission,2018,Corporation Commission,04011,Greenlee,Kiana Maria Sears,D,952
+2018 Corporation Commission,2018,Corporation Commission,04012,La Paz,Kiana Maria Sears,D,1270
+2018 Corporation Commission,2018,Corporation Commission,04013,Maricopa,Kiana Maria Sears,D,618697
+2018 Corporation Commission,2018,Corporation Commission,04015,Mohave,Kiana Maria Sears,D,15111
+2018 Corporation Commission,2018,Corporation Commission,04017,Navajo,Kiana Maria Sears,D,12409
+2018 Corporation Commission,2018,Corporation Commission,04019,Pima,Kiana Maria Sears,D,194779
+2018 Corporation Commission,2018,Corporation Commission,04021,Pinal,Kiana Maria Sears,D,40988
+2018 Corporation Commission,2018,Corporation Commission,04023,Santa Cruz,Kiana Maria Sears,D,7551
+2018 Corporation Commission,2018,Corporation Commission,04025,Yavapai,Kiana Maria Sears,D,34176
+2018 Corporation Commission,2018,Corporation Commission,04027,Yuma,Kiana Maria Sears,D,16375
+2018 Senate,2018,Senate,04001,Apache,Write-ins,W,38
+2018 Senate,2018,Senate,04003,Cochise,Write-ins,W,24
+2018 Senate,2018,Senate,04005,Coconino,Write-ins,W,34
+2018 Senate,2018,Senate,04007,Gila,Write-ins,W,2
+2018 Senate,2018,Senate,04009,Graham,Write-ins,W,5
+2018 Senate,2018,Senate,04011,Greenlee,Write-ins,W,1
+2018 Senate,2018,Senate,04013,Maricopa,Write-ins,W,306
+2018 Senate,2018,Senate,04015,Mohave,Write-ins,W,21
+2018 Senate,2018,Senate,04017,Navajo,Write-ins,W,9
+2018 Senate,2018,Senate,04019,Pima,Write-ins,W,56
+2018 Senate,2018,Senate,04021,Pinal,Write-ins,W,32
+2018 Senate,2018,Senate,04023,Santa Cruz,Write-ins,W,5
+2018 Senate,2018,Senate,04025,Yavapai,Write-ins,W,36
+2018 Senate,2018,Senate,04027,Yuma,Write-ins,W,3
+2018 Governor,2018,Governor,04001,Apache,Write-ins,W,7
+2018 Governor,2018,Governor,04003,Cochise,Write-ins,W,9
+2018 Governor,2018,Governor,04005,Coconino,Write-ins,W,14
+2018 Governor,2018,Governor,04009,Graham,Write-ins,W,3
+2018 Governor,2018,Governor,04013,Maricopa,Write-ins,W,46
+2018 Governor,2018,Governor,04015,Mohave,Write-ins,W,6
+2018 Governor,2018,Governor,04017,Navajo,Write-ins,W,4
+2018 Governor,2018,Governor,04019,Pima,Write-ins,W,28
+2018 Governor,2018,Governor,04021,Pinal,Write-ins,W,12
+2018 Governor,2018,Governor,04025,Yavapai,Write-ins,W,8
+2018 Governor,2018,Governor,04027,Yuma,Write-ins,W,3
+2018 Secretary of State,2018,Secretary of State,04001,Apache,Write-ins,W,4
+2018 Secretary of State,2018,Secretary of State,04003,Cochise,Write-ins,W,17
+2018 Secretary of State,2018,Secretary of State,04005,Coconino,Write-ins,W,8
+2018 Secretary of State,2018,Secretary of State,04007,Gila,Write-ins,W,2
+2018 Secretary of State,2018,Secretary of State,04013,Maricopa,Write-ins,W,92
+2018 Secretary of State,2018,Secretary of State,04015,Mohave,Write-ins,W,5
+2018 Secretary of State,2018,Secretary of State,04017,Navajo,Write-ins,W,3
+2018 Secretary of State,2018,Secretary of State,04019,Pima,Write-ins,W,23
+2018 Secretary of State,2018,Secretary of State,04025,Yavapai,Write-ins,W,13
+2018 Secretary of State,2018,Secretary of State,04027,Yuma,Write-ins,W,2
+2018 Attorney General,2018,Attorney General,04001,Apache,Write-ins,W,11
+2018 Attorney General,2018,Attorney General,04003,Cochise,Write-ins,W,8
+2018 Attorney General,2018,Attorney General,04005,Coconino,Write-ins,W,12
+2018 Attorney General,2018,Attorney General,04007,Gila,Write-ins,W,1
+2018 Attorney General,2018,Attorney General,04012,La Paz,Write-ins,W,4
+2018 Attorney General,2018,Attorney General,04013,Maricopa,Write-ins,W,219
+2018 Attorney General,2018,Attorney General,04015,Mohave,Write-ins,W,5
+2018 Attorney General,2018,Attorney General,04017,Navajo,Write-ins,W,7
+2018 Attorney General,2018,Attorney General,04019,Pima,Write-ins,W,33
+2018 Attorney General,2018,Attorney General,04021,Pinal,Write-ins,W,17
+2018 Attorney General,2018,Attorney General,04025,Yavapai,Write-ins,W,21
+2018 Attorney General,2018,Attorney General,04027,Yuma,Write-ins,W,8
+2018 Superintendent of Public Instruction,2018,Superintendent of Public Instruction,04001,Apache,Write-ins,W,10
+2018 Superintendent of Public Instruction,2018,Superintendent of Public Instruction,04003,Cochise,Write-ins,W,5
+2018 Superintendent of Public Instruction,2018,Superintendent of Public Instruction,04005,Coconino,Write-ins,W,6
+2018 Superintendent of Public Instruction,2018,Superintendent of Public Instruction,04012,La Paz,Write-ins,W,1
+2018 Superintendent of Public Instruction,2018,Superintendent of Public Instruction,04013,Maricopa,Write-ins,W,47
+2018 Superintendent of Public Instruction,2018,Superintendent of Public Instruction,04015,Mohave,Write-ins,W,1
+2018 Superintendent of Public Instruction,2018,Superintendent of Public Instruction,04017,Navajo,Write-ins,W,1
+2018 Superintendent of Public Instruction,2018,Superintendent of Public Instruction,04019,Pima,Write-ins,W,8
+2018 Superintendent of Public Instruction,2018,Superintendent of Public Instruction,04021,Pinal,Write-ins,W,3
+2018 Superintendent of Public Instruction,2018,Superintendent of Public Instruction,04025,Yavapai,Write-ins,W,6
+2018 Superintendent of Public Instruction,2018,Superintendent of Public Instruction,04027,Yuma,Write-ins,W,1
+2018 Corporation Commission,2018,Corporation Commission,04023,Santa Cruz,Write-ins,W,3
+2018 Corporation Commission,2018,Corporation Commission,04025,Yavapai,Write-ins,W,1
+2020 President,2020,President,04001,Apache,Donald J. Trump,R,11442
+2020 President,2020,President,04003,Cochise,Donald J. Trump,R,35557
+2020 President,2020,President,04005,Coconino,Donald J. Trump,R,27052
+2020 President,2020,President,04007,Gila,Donald J. Trump,R,18377
+2020 President,2020,President,04009,Graham,Donald J. Trump,R,10749
+2020 President,2020,President,04011,Greenlee,Donald J. Trump,R,2433
+2020 President,2020,President,04012,La Paz,Donald J. Trump,R,5129
+2020 President,2020,President,04013,Maricopa,Donald J. Trump,R,995665
+2020 President,2020,President,04015,Mohave,Donald J. Trump,R,78535
+2020 President,2020,President,04017,Navajo,Donald J. Trump,R,27657
+2020 President,2020,President,04019,Pima,Donald J. Trump,R,207758
+2020 President,2020,President,04021,Pinal,Donald J. Trump,R,107077
+2020 President,2020,President,04023,Santa Cruz,Donald J. Trump,R,6194
+2020 President,2020,President,04025,Yavapai,Donald J. Trump,R,91527
+2020 President,2020,President,04027,Yuma,Donald J. Trump,R,36534
+2020 President,2020,President,04001,Apache,Joseph Biden,D,23293
+2020 President,2020,President,04003,Cochise,Joseph Biden,D,23732
+2020 President,2020,President,04005,Coconino,Joseph Biden,D,44698
+2020 President,2020,President,04007,Gila,Joseph Biden,D,8943
+2020 President,2020,President,04009,Graham,Joseph Biden,D,4034
+2020 President,2020,President,04011,Greenlee,Joseph Biden,D,1182
+2020 President,2020,President,04012,La Paz,Joseph Biden,D,2236
+2020 President,2020,President,04013,Maricopa,Joseph Biden,D,1040774
+2020 President,2020,President,04015,Mohave,Joseph Biden,D,24831
+2020 President,2020,President,04017,Navajo,Joseph Biden,D,23383
+2020 President,2020,President,04019,Pima,Joseph Biden,D,304981
+2020 President,2020,President,04021,Pinal,Joseph Biden,D,75106
+2020 President,2020,President,04023,Santa Cruz,Joseph Biden,D,13138
+2020 President,2020,President,04025,Yavapai,Joseph Biden,D,49602
+2020 President,2020,President,04027,Yuma,Joseph Biden,D,32210
+2020 President,2020,President,04001,Apache,Jo Jorgensen,L,437
+2020 President,2020,President,04003,Cochise,Jo Jorgensen,L,1153
+2020 President,2020,President,04005,Coconino,Jo Jorgensen,L,1522
+2020 President,2020,President,04007,Gila,Jo Jorgensen,L,342
+2020 President,2020,President,04009,Graham,Jo Jorgensen,L,212
+2020 President,2020,President,04011,Greenlee,Jo Jorgensen,L,70
+2020 President,2020,President,04012,La Paz,Jo Jorgensen,L,93
+2020 President,2020,President,04013,Maricopa,Jo Jorgensen,L,31705
+2020 President,2020,President,04015,Mohave,Jo Jorgensen,L,1302
+2020 President,2020,President,04017,Navajo,Jo Jorgensen,L,727
+2020 President,2020,President,04019,Pima,Jo Jorgensen,L,7658
+2020 President,2020,President,04021,Pinal,Jo Jorgensen,L,2791
+2020 President,2020,President,04023,Santa Cruz,Jo Jorgensen,L,224
+2020 President,2020,President,04025,Yavapai,Jo Jorgensen,L,2092
+2020 President,2020,President,04027,Yuma,Jo Jorgensen,L,1137
+2020 Senate (special),2020,Senate (special),04001,Apache,Martha McSally,R,11052
+2020 Senate (special),2020,Senate (special),04003,Cochise,Martha McSally,R,35214
+2020 Senate (special),2020,Senate (special),04005,Coconino,Martha McSally,R,27255
+2020 Senate (special),2020,Senate (special),04007,Gila,Martha McSally,R,17889
+2020 Senate (special),2020,Senate (special),04009,Graham,Martha McSally,R,10303
+2020 Senate (special),2020,Senate (special),04011,Greenlee,Martha McSally,R,2225
+2020 Senate (special),2020,Senate (special),04012,La Paz,Martha McSally,R,4835
+2020 Senate (special),2020,Senate (special),04013,Maricopa,Martha McSally,R,984203
+2020 Senate (special),2020,Senate (special),04015,Mohave,Martha McSally,R,75359
+2020 Senate (special),2020,Senate (special),04017,Navajo,Martha McSally,R,26952
+2020 Senate (special),2020,Senate (special),04019,Pima,Martha McSally,R,207317
+2020 Senate (special),2020,Senate (special),04021,Pinal,Martha McSally,R,104048
+2020 Senate (special),2020,Senate (special),04023,Santa Cruz,Martha McSally,R,5685
+2020 Senate (special),2020,Senate (special),04025,Yavapai,Martha McSally,R,90180
+2020 Senate (special),2020,Senate (special),04027,Yuma,Martha McSally,R,35144
+2020 Senate (special),2020,Senate (special),04001,Apache,"Mohammad ""Mike Obama"" Arif",D,0
+2020 Senate (special),2020,Senate (special),04003,Cochise,"Mohammad ""Mike Obama"" Arif",D,2
+2020 Senate (special),2020,Senate (special),04005,Coconino,"Mohammad ""Mike Obama"" Arif",D,0
+2020 Senate (special),2020,Senate (special),04007,Gila,"Mohammad ""Mike Obama"" Arif",D,0
+2020 Senate (special),2020,Senate (special),04009,Graham,"Mohammad ""Mike Obama"" Arif",D,0
+2020 Senate (special),2020,Senate (special),04011,Greenlee,"Mohammad ""Mike Obama"" Arif",D,0
+2020 Senate (special),2020,Senate (special),04012,La Paz,"Mohammad ""Mike Obama"" Arif",D,0
+2020 Senate (special),2020,Senate (special),04013,Maricopa,"Mohammad ""Mike Obama"" Arif",D,37
+2020 Senate (special),2020,Senate (special),04015,Mohave,"Mohammad ""Mike Obama"" Arif",D,3
+2020 Senate (special),2020,Senate (special),04017,Navajo,"Mohammad ""Mike Obama"" Arif",D,2
+2020 Senate (special),2020,Senate (special),04019,Pima,"Mohammad ""Mike Obama"" Arif",D,13
+2020 Senate (special),2020,Senate (special),04021,Pinal,"Mohammad ""Mike Obama"" Arif",D,8
+2020 Senate (special),2020,Senate (special),04023,Santa Cruz,"Mohammad ""Mike Obama"" Arif",D,0
+2020 Senate (special),2020,Senate (special),04025,Yavapai,"Mohammad ""Mike Obama"" Arif",D,3
+2020 Senate (special),2020,Senate (special),04027,Yuma,"Mohammad ""Mike Obama"" Arif",D,0
+2020 Senate (special),2020,Senate (special),04001,Apache,Mark Kelly,D,24050
+2020 Senate (special),2020,Senate (special),04003,Cochise,Mark Kelly,D,24843
+2020 Senate (special),2020,Senate (special),04005,Coconino,Mark Kelly,D,45561
+2020 Senate (special),2020,Senate (special),04007,Gila,Mark Kelly,D,9648
+2020 Senate (special),2020,Senate (special),04009,Graham,Mark Kelly,D,4506
+2020 Senate (special),2020,Senate (special),04011,Greenlee,Mark Kelly,D,1403
+2020 Senate (special),2020,Senate (special),04012,La Paz,Mark Kelly,D,2492
+2020 Senate (special),2020,Senate (special),04013,Maricopa,Mark Kelly,D,1064396
+2020 Senate (special),2020,Senate (special),04015,Mohave,Mark Kelly,D,27414
+2020 Senate (special),2020,Senate (special),04017,Navajo,Mark Kelly,D,24396
+2020 Senate (special),2020,Senate (special),04019,Pima,Mark Kelly,D,309142
+2020 Senate (special),2020,Senate (special),04021,Pinal,Mark Kelly,D,79114
+2020 Senate (special),2020,Senate (special),04023,Santa Cruz,Mark Kelly,D,13689
+2020 Senate (special),2020,Senate (special),04025,Yavapai,Mark Kelly,D,51852
+2020 Senate (special),2020,Senate (special),04027,Yuma,Mark Kelly,D,33961
+2020 Corporation Commission,2020,Corporation Commission,04001,Apache,Lea Marquez Peterson,R,7912
+2020 Corporation Commission,2020,Corporation Commission,04003,Cochise,Lea Marquez Peterson,R,33046
+2020 Corporation Commission,2020,Corporation Commission,04005,Coconino,Lea Marquez Peterson,R,22431
+2020 Corporation Commission,2020,Corporation Commission,04007,Gila,Lea Marquez Peterson,R,14911
+2020 Corporation Commission,2020,Corporation Commission,04009,Graham,Lea Marquez Peterson,R,8487
+2020 Corporation Commission,2020,Corporation Commission,04011,Greenlee,Lea Marquez Peterson,R,1985
+2020 Corporation Commission,2020,Corporation Commission,04012,La Paz,Lea Marquez Peterson,R,3845
+2020 Corporation Commission,2020,Corporation Commission,04013,Maricopa,Lea Marquez Peterson,R,891072
+2020 Corporation Commission,2020,Corporation Commission,04015,Mohave,Lea Marquez Peterson,R,56329
+2020 Corporation Commission,2020,Corporation Commission,04017,Navajo,Lea Marquez Peterson,R,21507
+2020 Corporation Commission,2020,Corporation Commission,04019,Pima,Lea Marquez Peterson,R,191306
+2020 Corporation Commission,2020,Corporation Commission,04021,Pinal,Lea Marquez Peterson,R,84793
+2020 Corporation Commission,2020,Corporation Commission,04023,Santa Cruz,Lea Marquez Peterson,R,5303
+2020 Corporation Commission,2020,Corporation Commission,04025,Yavapai,Lea Marquez Peterson,R,77390
+2020 Corporation Commission,2020,Corporation Commission,04027,Yuma,Lea Marquez Peterson,R,29646
+2020 Corporation Commission,2020,Corporation Commission,04001,Apache,"James ""Jim"" O'Connor",R,9076
+2020 Corporation Commission,2020,Corporation Commission,04003,Cochise,"James ""Jim"" O'Connor",R,32631
+2020 Corporation Commission,2020,Corporation Commission,04005,Coconino,"James ""Jim"" O'Connor",R,23598
+2020 Corporation Commission,2020,Corporation Commission,04007,Gila,"James ""Jim"" O'Connor",R,15748
+2020 Corporation Commission,2020,Corporation Commission,04009,Graham,"James ""Jim"" O'Connor",R,8817
+2020 Corporation Commission,2020,Corporation Commission,04011,Greenlee,"James ""Jim"" O'Connor",R,1993
+2020 Corporation Commission,2020,Corporation Commission,04012,La Paz,"James ""Jim"" O'Connor",R,4118
+2020 Corporation Commission,2020,Corporation Commission,04013,Maricopa,"James ""Jim"" O'Connor",R,866823
+2020 Corporation Commission,2020,Corporation Commission,04015,Mohave,"James ""Jim"" O'Connor",R,62806
+2020 Corporation Commission,2020,Corporation Commission,04017,Navajo,"James ""Jim"" O'Connor",R,23132
+2020 Corporation Commission,2020,Corporation Commission,04019,Pima,"James ""Jim"" O'Connor",R,182489
+2020 Corporation Commission,2020,Corporation Commission,04021,Pinal,"James ""Jim"" O'Connor",R,89025
+2020 Corporation Commission,2020,Corporation Commission,04023,Santa Cruz,"James ""Jim"" O'Connor",R,4702
+2020 Corporation Commission,2020,Corporation Commission,04025,Yavapai,"James ""Jim"" O'Connor",R,79957
+2020 Corporation Commission,2020,Corporation Commission,04027,Yuma,"James ""Jim"" O'Connor",R,29321
+2020 Corporation Commission,2020,Corporation Commission,04001,Apache,Eric Sloan,R,8756
+2020 Corporation Commission,2020,Corporation Commission,04003,Cochise,Eric Sloan,R,31288
+2020 Corporation Commission,2020,Corporation Commission,04005,Coconino,Eric Sloan,R,22245
+2020 Corporation Commission,2020,Corporation Commission,04007,Gila,Eric Sloan,R,14816
+2020 Corporation Commission,2020,Corporation Commission,04009,Graham,Eric Sloan,R,8283
+2020 Corporation Commission,2020,Corporation Commission,04011,Greenlee,Eric Sloan,R,1924
+2020 Corporation Commission,2020,Corporation Commission,04012,La Paz,Eric Sloan,R,3827
+2020 Corporation Commission,2020,Corporation Commission,04013,Maricopa,Eric Sloan,R,847156
+2020 Corporation Commission,2020,Corporation Commission,04015,Mohave,Eric Sloan,R,58113
+2020 Corporation Commission,2020,Corporation Commission,04017,Navajo,Eric Sloan,R,21643
+2020 Corporation Commission,2020,Corporation Commission,04019,Pima,Eric Sloan,R,172046
+2020 Corporation Commission,2020,Corporation Commission,04021,Pinal,Eric Sloan,R,83234
+2020 Corporation Commission,2020,Corporation Commission,04023,Santa Cruz,Eric Sloan,R,4230
+2020 Corporation Commission,2020,Corporation Commission,04025,Yavapai,Eric Sloan,R,74690
+2020 Corporation Commission,2020,Corporation Commission,04027,Yuma,Eric Sloan,R,27553
+2020 Corporation Commission,2020,Corporation Commission,04001,Apache,"William ""Bill"" Mundell",D,15449
+2020 Corporation Commission,2020,Corporation Commission,04003,Cochise,"William ""Bill"" Mundell",D,19326
+2020 Corporation Commission,2020,Corporation Commission,04005,Coconino,"William ""Bill"" Mundell",D,36500
+2020 Corporation Commission,2020,Corporation Commission,04007,Gila,"William ""Bill"" Mundell",D,7766
+2020 Corporation Commission,2020,Corporation Commission,04009,Graham,"William ""Bill"" Mundell",D,3043
+2020 Corporation Commission,2020,Corporation Commission,04011,Greenlee,"William ""Bill"" Mundell",D,1058
+2020 Corporation Commission,2020,Corporation Commission,04012,La Paz,"William ""Bill"" Mundell",D,1729
+2020 Corporation Commission,2020,Corporation Commission,04013,Maricopa,"William ""Bill"" Mundell",D,811651
+2020 Corporation Commission,2020,Corporation Commission,04015,Mohave,"William ""Bill"" Mundell",D,19525
+2020 Corporation Commission,2020,Corporation Commission,04017,Navajo,"William ""Bill"" Mundell",D,17498
+2020 Corporation Commission,2020,Corporation Commission,04019,Pima,"William ""Bill"" Mundell",D,231891
+2020 Corporation Commission,2020,Corporation Commission,04021,Pinal,"William ""Bill"" Mundell",D,56282
+2020 Corporation Commission,2020,Corporation Commission,04023,Santa Cruz,"William ""Bill"" Mundell",D,9090
+2020 Corporation Commission,2020,Corporation Commission,04025,Yavapai,"William ""Bill"" Mundell",D,42985
+2020 Corporation Commission,2020,Corporation Commission,04027,Yuma,"William ""Bill"" Mundell",D,22043
+2020 Corporation Commission,2020,Corporation Commission,04001,Apache,Shea Stanfield,D,15170
+2020 Corporation Commission,2020,Corporation Commission,04003,Cochise,Shea Stanfield,D,18693
+2020 Corporation Commission,2020,Corporation Commission,04005,Coconino,Shea Stanfield,D,34711
+2020 Corporation Commission,2020,Corporation Commission,04007,Gila,Shea Stanfield,D,7223
+2020 Corporation Commission,2020,Corporation Commission,04009,Graham,Shea Stanfield,D,2931
+2020 Corporation Commission,2020,Corporation Commission,04011,Greenlee,Shea Stanfield,D,979
+2020 Corporation Commission,2020,Corporation Commission,04012,La Paz,Shea Stanfield,D,1599
+2020 Corporation Commission,2020,Corporation Commission,04013,Maricopa,Shea Stanfield,D,791907
+2020 Corporation Commission,2020,Corporation Commission,04015,Mohave,Shea Stanfield,D,18221
+2020 Corporation Commission,2020,Corporation Commission,04017,Navajo,Shea Stanfield,D,17070
+2020 Corporation Commission,2020,Corporation Commission,04019,Pima,Shea Stanfield,D,230201
+2020 Corporation Commission,2020,Corporation Commission,04021,Pinal,Shea Stanfield,D,55895
+2020 Corporation Commission,2020,Corporation Commission,04023,Santa Cruz,Shea Stanfield,D,8757
+2020 Corporation Commission,2020,Corporation Commission,04025,Yavapai,Shea Stanfield,D,40382
+2020 Corporation Commission,2020,Corporation Commission,04027,Yuma,Shea Stanfield,D,21170
+2020 Corporation Commission,2020,Corporation Commission,04001,Apache,Anna Tovar,D,16172
+2020 Corporation Commission,2020,Corporation Commission,04003,Cochise,Anna Tovar,D,21895
+2020 Corporation Commission,2020,Corporation Commission,04005,Coconino,Anna Tovar,D,37670
+2020 Corporation Commission,2020,Corporation Commission,04007,Gila,Anna Tovar,D,8291
+2020 Corporation Commission,2020,Corporation Commission,04009,Graham,Anna Tovar,D,3692
+2020 Corporation Commission,2020,Corporation Commission,04011,Greenlee,Anna Tovar,D,1211
+2020 Corporation Commission,2020,Corporation Commission,04012,La Paz,Anna Tovar,D,1985
+2020 Corporation Commission,2020,Corporation Commission,04013,Maricopa,Anna Tovar,D,902889
+2020 Corporation Commission,2020,Corporation Commission,04015,Mohave,Anna Tovar,D,21767
+2020 Corporation Commission,2020,Corporation Commission,04017,Navajo,Anna Tovar,D,18425
+2020 Corporation Commission,2020,Corporation Commission,04019,Pima,Anna Tovar,D,263380
+2020 Corporation Commission,2020,Corporation Commission,04021,Pinal,Anna Tovar,D,66491
+2020 Corporation Commission,2020,Corporation Commission,04023,Santa Cruz,Anna Tovar,D,12145
+2020 Corporation Commission,2020,Corporation Commission,04025,Yavapai,Anna Tovar,D,44545
+2020 Corporation Commission,2020,Corporation Commission,04027,Yuma,Anna Tovar,D,29636
+2020 President,2020,President,04001,Apache,Write-ins,W,11
+2020 President,2020,President,04003,Cochise,Write-ins,W,31
+2020 President,2020,President,04005,Coconino,Write-ins,W,70
+2020 President,2020,President,04007,Gila,Write-ins,W,16
+2020 President,2020,President,04009,Graham,Write-ins,W,1
+2020 President,2020,President,04011,Greenlee,Write-ins,W,3
+2020 President,2020,President,04012,La Paz,Write-ins,W,2
+2020 President,2020,President,04013,Maricopa,Write-ins,W,1313
+2020 President,2020,President,04015,Mohave,Write-ins,W,35
+2020 President,2020,President,04017,Navajo,Write-ins,W,14
+2020 President,2020,President,04019,Pima,Write-ins,W,329
+2020 President,2020,President,04021,Pinal,Write-ins,W,62
+2020 President,2020,President,04023,Santa Cruz,Write-ins,W,5
+2020 President,2020,President,04025,Yavapai,Write-ins,W,59
+2020 President,2020,President,04027,Yuma,Write-ins,W,45
+2020 Senate (special),2020,Senate (special),04001,Apache,Write-ins,W,19
+2020 Senate (special),2020,Senate (special),04003,Cochise,Write-ins,W,22
+2020 Senate (special),2020,Senate (special),04005,Coconino,Write-ins,W,23
+2020 Senate (special),2020,Senate (special),04007,Gila,Write-ins,W,11
+2020 Senate (special),2020,Senate (special),04009,Graham,Write-ins,W,3
+2020 Senate (special),2020,Senate (special),04011,Greenlee,Write-ins,W,2
+2020 Senate (special),2020,Senate (special),04012,La Paz,Write-ins,W,4
+2020 Senate (special),2020,Senate (special),04013,Maricopa,Write-ins,W,420
+2020 Senate (special),2020,Senate (special),04015,Mohave,Write-ins,W,26
+2020 Senate (special),2020,Senate (special),04017,Navajo,Write-ins,W,18
+2020 Senate (special),2020,Senate (special),04019,Pima,Write-ins,W,112
+2020 Senate (special),2020,Senate (special),04021,Pinal,Write-ins,W,45
+2020 Senate (special),2020,Senate (special),04023,Santa Cruz,Write-ins,W,1
+2020 Senate (special),2020,Senate (special),04025,Yavapai,Write-ins,W,27
+2020 Senate (special),2020,Senate (special),04027,Yuma,Write-ins,W,9
+2020 Corporation Commission,2020,Corporation Commission,04001,Apache,Write-ins,W,19
+2020 Corporation Commission,2020,Corporation Commission,04003,Cochise,Write-ins,W,20
+2020 Corporation Commission,2020,Corporation Commission,04005,Coconino,Write-ins,W,16
+2020 Corporation Commission,2020,Corporation Commission,04007,Gila,Write-ins,W,2
+2020 Corporation Commission,2020,Corporation Commission,04009,Graham,Write-ins,W,3
+2020 Corporation Commission,2020,Corporation Commission,04011,Greenlee,Write-ins,W,4
+2020 Corporation Commission,2020,Corporation Commission,04013,Maricopa,Write-ins,W,346
+2020 Corporation Commission,2020,Corporation Commission,04015,Mohave,Write-ins,W,33
+2020 Corporation Commission,2020,Corporation Commission,04017,Navajo,Write-ins,W,39
+2020 Corporation Commission,2020,Corporation Commission,04019,Pima,Write-ins,W,71
+2020 Corporation Commission,2020,Corporation Commission,04021,Pinal,Write-ins,W,39
+2020 Corporation Commission,2020,Corporation Commission,04023,Santa Cruz,Write-ins,W,1
+2020 Corporation Commission,2020,Corporation Commission,04025,Yavapai,Write-ins,W,46
+2020 Corporation Commission,2020,Corporation Commission,04027,Yuma,Write-ins,W,4
+2022 Senate,2022,Senate,04001,Apache,Blake Masters,R,8163
+2022 Senate,2022,Senate,04003,Cochise,Blake Masters,R,25539
+2022 Senate,2022,Senate,04005,Coconino,Blake Masters,R,18697
+2022 Senate,2022,Senate,04007,Gila,Blake Masters,R,13958
+2022 Senate,2022,Senate,04009,Graham,Blake Masters,R,7388
+2022 Senate,2022,Senate,04011,Greenlee,Blake Masters,R,1392
+2022 Senate,2022,Senate,04012,La Paz,Blake Masters,R,3656
+2022 Senate,2022,Senate,04013,Maricopa,Blake Masters,R,710491
+2022 Senate,2022,Senate,04015,Mohave,Blake Masters,R,58737
+2022 Senate,2022,Senate,04017,Navajo,Blake Masters,R,20970
+2022 Senate,2022,Senate,04019,Pima,Blake Masters,R,144936
+2022 Senate,2022,Senate,04021,Pinal,Blake Masters,R,78820
+2022 Senate,2022,Senate,04023,Santa Cruz,Blake Masters,R,3892
+2022 Senate,2022,Senate,04025,Yavapai,Blake Masters,R,75752
+2022 Senate,2022,Senate,04027,Yuma,Blake Masters,R,23917
+2022 Senate,2022,Senate,04001,Apache,Mark Kelly,D,18005
+2022 Senate,2022,Senate,04003,Cochise,Mark Kelly,D,20002
+2022 Senate,2022,Senate,04005,Coconino,Mark Kelly,D,35149
+2022 Senate,2022,Senate,04007,Gila,Mark Kelly,D,7984
+2022 Senate,2022,Senate,04009,Graham,Mark Kelly,D,3243
+2022 Senate,2022,Senate,04011,Greenlee,Mark Kelly,D,970
+2022 Senate,2022,Senate,04012,La Paz,Mark Kelly,D,1711
+2022 Senate,2022,Senate,04013,Maricopa,Mark Kelly,D,809573
+2022 Senate,2022,Senate,04015,Mohave,Mark Kelly,D,21040
+2022 Senate,2022,Senate,04017,Navajo,Mark Kelly,D,18724
+2022 Senate,2022,Senate,04019,Pima,Mark Kelly,D,248230
+2022 Senate,2022,Senate,04021,Pinal,Mark Kelly,D,62009
+2022 Senate,2022,Senate,04023,Santa Cruz,Mark Kelly,D,8988
+2022 Senate,2022,Senate,04025,Yavapai,Mark Kelly,D,45258
+2022 Senate,2022,Senate,04027,Yuma,Mark Kelly,D,21141
+2022 Senate,2022,Senate,04001,Apache,Marc J. Victor,L,549
+2022 Senate,2022,Senate,04003,Cochise,Marc J. Victor,L,1383
+2022 Senate,2022,Senate,04005,Coconino,Marc J. Victor,L,1199
+2022 Senate,2022,Senate,04007,Gila,Marc J. Victor,L,601
+2022 Senate,2022,Senate,04009,Graham,Marc J. Victor,L,255
+2022 Senate,2022,Senate,04011,Greenlee,Marc J. Victor,L,100
+2022 Senate,2022,Senate,04012,La Paz,Marc J. Victor,L,160
+2022 Senate,2022,Senate,04013,Maricopa,Marc J. Victor,L,31099
+2022 Senate,2022,Senate,04015,Mohave,Marc J. Victor,L,2117
+2022 Senate,2022,Senate,04017,Navajo,Marc J. Victor,L,927
+2022 Senate,2022,Senate,04019,Pima,Marc J. Victor,L,7544
+2022 Senate,2022,Senate,04021,Pinal,Marc J. Victor,L,3650
+2022 Senate,2022,Senate,04023,Santa Cruz,Marc J. Victor,L,304
+2022 Senate,2022,Senate,04025,Yavapai,Marc J. Victor,L,2633
+2022 Senate,2022,Senate,04027,Yuma,Marc J. Victor,L,1241
+2022 Governor,2022,Governor,04001,Apache,Kari Lake,R,8870
+2022 Governor,2022,Governor,04003,Cochise,Kari Lake,R,27481
+2022 Governor,2022,Governor,04005,Coconino,Kari Lake,R,20298
+2022 Governor,2022,Governor,04007,Gila,Kari Lake,R,14763
+2022 Governor,2022,Governor,04009,Graham,Kari Lake,R,7760
+2022 Governor,2022,Governor,04011,Greenlee,Kari Lake,R,1526
+2022 Governor,2022,Governor,04012,La Paz,Kari Lake,R,3847
+2022 Governor,2022,Governor,04013,Maricopa,Kari Lake,R,752714
+2022 Governor,2022,Governor,04015,Mohave,Kari Lake,R,61125
+2022 Governor,2022,Governor,04017,Navajo,Kari Lake,R,22340
+2022 Governor,2022,Governor,04019,Pima,Kari Lake,R,157034
+2022 Governor,2022,Governor,04021,Pinal,Kari Lake,R,83773
+2022 Governor,2022,Governor,04023,Santa Cruz,Kari Lake,R,4371
+2022 Governor,2022,Governor,04025,Yavapai,Kari Lake,R,78832
+2022 Governor,2022,Governor,04027,Yuma,Kari Lake,R,26040
+2022 Governor,2022,Governor,04001,Apache,Katie Hobbs,D,17739
+2022 Governor,2022,Governor,04003,Cochise,Katie Hobbs,D,19137
+2022 Governor,2022,Governor,04005,Coconino,Katie Hobbs,D,34389
+2022 Governor,2022,Governor,04007,Gila,Katie Hobbs,D,7674
+2022 Governor,2022,Governor,04009,Graham,Katie Hobbs,D,3087
+2022 Governor,2022,Governor,04011,Greenlee,Katie Hobbs,D,920
+2022 Governor,2022,Governor,04012,La Paz,Katie Hobbs,D,1646
+2022 Governor,2022,Governor,04013,Maricopa,Katie Hobbs,D,790352
+2022 Governor,2022,Governor,04015,Mohave,Katie Hobbs,D,20369
+2022 Governor,2022,Governor,04017,Navajo,Katie Hobbs,D,18058
+2022 Governor,2022,Governor,04019,Pima,Katie Hobbs,D,241398
+2022 Governor,2022,Governor,04021,Pinal,Katie Hobbs,D,60019
+2022 Governor,2022,Governor,04023,Santa Cruz,Katie Hobbs,D,8724
+2022 Governor,2022,Governor,04025,Yavapai,Katie Hobbs,D,44316
+2022 Governor,2022,Governor,04027,Yuma,Katie Hobbs,D,20063
+2022 Secretary of State,2022,Secretary of State,04001,Apache,Mark Finchem,R,8776
+2022 Secretary of State,2022,Secretary of State,04003,Cochise,Mark Finchem,R,26827
+2022 Secretary of State,2022,Secretary of State,04005,Coconino,Mark Finchem,R,19270
+2022 Secretary of State,2022,Secretary of State,04007,Gila,Mark Finchem,R,14103
+2022 Secretary of State,2022,Secretary of State,04009,Graham,Mark Finchem,R,7478
+2022 Secretary of State,2022,Secretary of State,04011,Greenlee,Mark Finchem,R,1429
+2022 Secretary of State,2022,Secretary of State,04012,La Paz,Mark Finchem,R,3708
+2022 Secretary of State,2022,Secretary of State,04013,Maricopa,Mark Finchem,R,702376
+2022 Secretary of State,2022,Secretary of State,04015,Mohave,Mark Finchem,R,59320
+2022 Secretary of State,2022,Secretary of State,04017,Navajo,Mark Finchem,R,21280
+2022 Secretary of State,2022,Secretary of State,04019,Pima,Mark Finchem,R,150680
+2022 Secretary of State,2022,Secretary of State,04021,Pinal,Mark Finchem,R,79696
+2022 Secretary of State,2022,Secretary of State,04023,Santa Cruz,Mark Finchem,R,3909
+2022 Secretary of State,2022,Secretary of State,04025,Yavapai,Mark Finchem,R,76162
+2022 Secretary of State,2022,Secretary of State,04027,Yuma,Mark Finchem,R,25397
+2022 Secretary of State,2022,Secretary of State,04001,Apache,Adrian Fontes,D,17476
+2022 Secretary of State,2022,Secretary of State,04003,Cochise,Adrian Fontes,D,19402
+2022 Secretary of State,2022,Secretary of State,04005,Coconino,Adrian Fontes,D,34482
+2022 Secretary of State,2022,Secretary of State,04007,Gila,Adrian Fontes,D,8176
+2022 Secretary of State,2022,Secretary of State,04009,Graham,Adrian Fontes,D,3246
+2022 Secretary of State,2022,Secretary of State,04011,Greenlee,Adrian Fontes,D,978
+2022 Secretary of State,2022,Secretary of State,04012,La Paz,Adrian Fontes,D,1736
+2022 Secretary of State,2022,Secretary of State,04013,Maricopa,Adrian Fontes,D,813492
+2022 Secretary of State,2022,Secretary of State,04015,Mohave,Adrian Fontes,D,20901
+2022 Secretary of State,2022,Secretary of State,04017,Navajo,Adrian Fontes,D,18701
+2022 Secretary of State,2022,Secretary of State,04019,Pima,Adrian Fontes,D,244349
+2022 Secretary of State,2022,Secretary of State,04021,Pinal,Adrian Fontes,D,62618
+2022 Secretary of State,2022,Secretary of State,04023,Santa Cruz,Adrian Fontes,D,9181
+2022 Secretary of State,2022,Secretary of State,04025,Yavapai,Adrian Fontes,D,45876
+2022 Secretary of State,2022,Secretary of State,04027,Yuma,Adrian Fontes,D,20005
+2022 Treasurer,2022,Treasurer,04001,Apache,Kimberly Yee,R,9758
+2022 Treasurer,2022,Treasurer,04003,Cochise,Kimberly Yee,R,29624
+2022 Treasurer,2022,Treasurer,04005,Coconino,Kimberly Yee,R,22159
+2022 Treasurer,2022,Treasurer,04007,Gila,Kimberly Yee,R,15685
+2022 Treasurer,2022,Treasurer,04009,Graham,Kimberly Yee,R,8122
+2022 Treasurer,2022,Treasurer,04011,Greenlee,Kimberly Yee,R,1545
+2022 Treasurer,2022,Treasurer,04012,La Paz,Kimberly Yee,R,4013
+2022 Treasurer,2022,Treasurer,04013,Maricopa,Kimberly Yee,R,830056
+2022 Treasurer,2022,Treasurer,04015,Mohave,Kimberly Yee,R,63562
+2022 Treasurer,2022,Treasurer,04017,Navajo,Kimberly Yee,R,23492
+2022 Treasurer,2022,Treasurer,04019,Pima,Kimberly Yee,R,177369
+2022 Treasurer,2022,Treasurer,04021,Pinal,Kimberly Yee,R,89559
+2022 Treasurer,2022,Treasurer,04023,Santa Cruz,Kimberly Yee,R,4666
+2022 Treasurer,2022,Treasurer,04025,Yavapai,Kimberly Yee,R,83417
+2022 Treasurer,2022,Treasurer,04027,Yuma,Kimberly Yee,R,27108
+2022 Treasurer,2022,Treasurer,04001,Apache,Martín Quezada,D,16518
+2022 Treasurer,2022,Treasurer,04003,Cochise,Martín Quezada,D,16524
+2022 Treasurer,2022,Treasurer,04005,Coconino,Martín Quezada,D,31244
+2022 Treasurer,2022,Treasurer,04007,Gila,Martín Quezada,D,6553
+2022 Treasurer,2022,Treasurer,04009,Graham,Martín Quezada,D,2623
+2022 Treasurer,2022,Treasurer,04011,Greenlee,Martín Quezada,D,853
+2022 Treasurer,2022,Treasurer,04012,La Paz,Martín Quezada,D,1419
+2022 Treasurer,2022,Treasurer,04013,Maricopa,Martín Quezada,D,668142
+2022 Treasurer,2022,Treasurer,04015,Mohave,Martín Quezada,D,16586
+2022 Treasurer,2022,Treasurer,04017,Navajo,Martín Quezada,D,16319
+2022 Treasurer,2022,Treasurer,04019,Pima,Martín Quezada,D,215239
+2022 Treasurer,2022,Treasurer,04021,Pinal,Martín Quezada,D,51978
+2022 Treasurer,2022,Treasurer,04023,Santa Cruz,Martín Quezada,D,8292
+2022 Treasurer,2022,Treasurer,04025,Yavapai,Martín Quezada,D,36555
+2022 Treasurer,2022,Treasurer,04027,Yuma,Martín Quezada,D,18192
+2022 Mine Inspector,2022,Mine Inspector,04001,Apache,Paul Marsh,R,18163
+2022 Mine Inspector,2022,Mine Inspector,04003,Cochise,Paul Marsh,R,35741
+2022 Mine Inspector,2022,Mine Inspector,04005,Coconino,Paul Marsh,R,32262
+2022 Mine Inspector,2022,Mine Inspector,04007,Gila,Paul Marsh,R,17459
+2022 Mine Inspector,2022,Mine Inspector,04009,Graham,Paul Marsh,R,9115
+2022 Mine Inspector,2022,Mine Inspector,04011,Greenlee,Paul Marsh,R,1892
+2022 Mine Inspector,2022,Mine Inspector,04012,La Paz,Paul Marsh,R,4385
+2022 Mine Inspector,2022,Mine Inspector,04013,Maricopa,Paul Marsh,R,969210
+2022 Mine Inspector,2022,Mine Inspector,04015,Mohave,Paul Marsh,R,65911
+2022 Mine Inspector,2022,Mine Inspector,04017,Navajo,Paul Marsh,R,29607
+2022 Mine Inspector,2022,Mine Inspector,04019,Pima,Paul Marsh,R,264532
+2022 Mine Inspector,2022,Mine Inspector,04021,Pinal,Paul Marsh,R,105429
+2022 Mine Inspector,2022,Mine Inspector,04023,Santa Cruz,Paul Marsh,R,8442
+2022 Mine Inspector,2022,Mine Inspector,04025,Yavapai,Paul Marsh,R,92850
+2022 Mine Inspector,2022,Mine Inspector,04027,Yuma,Paul Marsh,R,34584
+2022 Corporation Commission,2022,Corporation Commission,04001,Apache,"Nicholas ""Nick"" Myers",R,7415
+2022 Corporation Commission,2022,Corporation Commission,04003,Cochise,"Nicholas ""Nick"" Myers",R,26367
+2022 Corporation Commission,2022,Corporation Commission,04005,Coconino,"Nicholas ""Nick"" Myers",R,18345
+2022 Corporation Commission,2022,Corporation Commission,04007,Gila,"Nicholas ""Nick"" Myers",R,13627
+2022 Corporation Commission,2022,Corporation Commission,04009,Graham,"Nicholas ""Nick"" Myers",R,6972
+2022 Corporation Commission,2022,Corporation Commission,04011,Greenlee,"Nicholas ""Nick"" Myers",R,1391
+2022 Corporation Commission,2022,Corporation Commission,04012,La Paz,"Nicholas ""Nick"" Myers",R,3385
+2022 Corporation Commission,2022,Corporation Commission,04013,Maricopa,"Nicholas ""Nick"" Myers",R,712394
+2022 Corporation Commission,2022,Corporation Commission,04015,Mohave,"Nicholas ""Nick"" Myers",R,52547
+2022 Corporation Commission,2022,Corporation Commission,04017,Navajo,"Nicholas ""Nick"" Myers",R,19775
+2022 Corporation Commission,2022,Corporation Commission,04019,Pima,"Nicholas ""Nick"" Myers",R,150225
+2022 Corporation Commission,2022,Corporation Commission,04021,Pinal,"Nicholas ""Nick"" Myers",R,75266
+2022 Corporation Commission,2022,Corporation Commission,04023,Santa Cruz,"Nicholas ""Nick"" Myers",R,3942
+2022 Corporation Commission,2022,Corporation Commission,04025,Yavapai,"Nicholas ""Nick"" Myers",R,74946
+2022 Corporation Commission,2022,Corporation Commission,04027,Yuma,"Nicholas ""Nick"" Myers",R,23394
+2022 Corporation Commission,2022,Corporation Commission,04001,Apache,Kevin Thompson,R,8011
+2022 Corporation Commission,2022,Corporation Commission,04003,Cochise,Kevin Thompson,R,26646
+2022 Corporation Commission,2022,Corporation Commission,04005,Coconino,Kevin Thompson,R,17940
+2022 Corporation Commission,2022,Corporation Commission,04007,Gila,Kevin Thompson,R,13603
+2022 Corporation Commission,2022,Corporation Commission,04009,Graham,Kevin Thompson,R,6892
+2022 Corporation Commission,2022,Corporation Commission,04011,Greenlee,Kevin Thompson,R,1393
+2022 Corporation Commission,2022,Corporation Commission,04012,La Paz,Kevin Thompson,R,3388
+2022 Corporation Commission,2022,Corporation Commission,04013,Maricopa,Kevin Thompson,R,715183
+2022 Corporation Commission,2022,Corporation Commission,04015,Mohave,Kevin Thompson,R,51950
+2022 Corporation Commission,2022,Corporation Commission,04017,Navajo,Kevin Thompson,R,19732
+2022 Corporation Commission,2022,Corporation Commission,04019,Pima,Kevin Thompson,R,149719
+2022 Corporation Commission,2022,Corporation Commission,04021,Pinal,Kevin Thompson,R,75033
+2022 Corporation Commission,2022,Corporation Commission,04023,Santa Cruz,Kevin Thompson,R,3799
+2022 Corporation Commission,2022,Corporation Commission,04025,Yavapai,Kevin Thompson,R,74267
+2022 Corporation Commission,2022,Corporation Commission,04027,Yuma,Kevin Thompson,R,22999
+2022 Corporation Commission,2022,Corporation Commission,04001,Apache,Sandra Kennedy,D,14960
+2022 Corporation Commission,2022,Corporation Commission,04003,Cochise,Sandra Kennedy,D,17351
+2022 Corporation Commission,2022,Corporation Commission,04005,Coconino,Sandra Kennedy,D,30915
+2022 Corporation Commission,2022,Corporation Commission,04007,Gila,Sandra Kennedy,D,7150
+2022 Corporation Commission,2022,Corporation Commission,04009,Graham,Sandra Kennedy,D,2754
+2022 Corporation Commission,2022,Corporation Commission,04011,Greenlee,Sandra Kennedy,D,886
+2022 Corporation Commission,2022,Corporation Commission,04012,La Paz,Sandra Kennedy,D,1455
+2022 Corporation Commission,2022,Corporation Commission,04013,Maricopa,Sandra Kennedy,D,688399
+2022 Corporation Commission,2022,Corporation Commission,04015,Mohave,Sandra Kennedy,D,17374
+2022 Corporation Commission,2022,Corporation Commission,04017,Navajo,Sandra Kennedy,D,16040
+2022 Corporation Commission,2022,Corporation Commission,04019,Pima,Sandra Kennedy,D,216886
+2022 Corporation Commission,2022,Corporation Commission,04021,Pinal,Sandra Kennedy,D,52757
+2022 Corporation Commission,2022,Corporation Commission,04023,Santa Cruz,Sandra Kennedy,D,8094
+2022 Corporation Commission,2022,Corporation Commission,04025,Yavapai,Sandra Kennedy,D,40130
+2022 Corporation Commission,2022,Corporation Commission,04027,Yuma,Sandra Kennedy,D,18141
+2022 Corporation Commission,2022,Corporation Commission,04001,Apache,Lauren Kuby,D,11953
+2022 Corporation Commission,2022,Corporation Commission,04003,Cochise,Lauren Kuby,D,15313
+2022 Corporation Commission,2022,Corporation Commission,04005,Coconino,Lauren Kuby,D,29060
+2022 Corporation Commission,2022,Corporation Commission,04007,Gila,Lauren Kuby,D,6311
+2022 Corporation Commission,2022,Corporation Commission,04009,Graham,Lauren Kuby,D,2271
+2022 Corporation Commission,2022,Corporation Commission,04011,Greenlee,Lauren Kuby,D,742
+2022 Corporation Commission,2022,Corporation Commission,04012,La Paz,Lauren Kuby,D,1216
+2022 Corporation Commission,2022,Corporation Commission,04013,Maricopa,Lauren Kuby,D,652999
+2022 Corporation Commission,2022,Corporation Commission,04015,Mohave,Lauren Kuby,D,15290
+2022 Corporation Commission,2022,Corporation Commission,04017,Navajo,Lauren Kuby,D,13455
+2022 Corporation Commission,2022,Corporation Commission,04019,Pima,Lauren Kuby,D,204797
+2022 Corporation Commission,2022,Corporation Commission,04021,Pinal,Lauren Kuby,D,47689
+2022 Corporation Commission,2022,Corporation Commission,04023,Santa Cruz,Lauren Kuby,D,6769
+2022 Corporation Commission,2022,Corporation Commission,04025,Yavapai,Lauren Kuby,D,37879
+2022 Corporation Commission,2022,Corporation Commission,04027,Yuma,Lauren Kuby,D,15277
+2022 Attorney General,2022,Attorney General,04001,Apache,"Abraham ""Abe"" Hamadeh",R,8494
+2022 Attorney General,2022,Attorney General,04003,Cochise,"Abraham ""Abe"" Hamadeh",R,27664
+2022 Attorney General,2022,Attorney General,04005,Coconino,"Abraham ""Abe"" Hamadeh",R,19700
+2022 Attorney General,2022,Attorney General,04007,Gila,"Abraham ""Abe"" Hamadeh",R,14538
+2022 Attorney General,2022,Attorney General,04009,Graham,"Abraham ""Abe"" Hamadeh",R,7640
+2022 Attorney General,2022,Attorney General,04011,Greenlee,"Abraham ""Abe"" Hamadeh",R,1462
+2022 Attorney General,2022,Attorney General,04012,La Paz,"Abraham ""Abe"" Hamadeh",R,3788
+2022 Attorney General,2022,Attorney General,04013,Maricopa,"Abraham ""Abe"" Hamadeh",R,740965
+2022 Attorney General,2022,Attorney General,04015,Mohave,"Abraham ""Abe"" Hamadeh",R,60593
+2022 Attorney General,2022,Attorney General,04017,Navajo,"Abraham ""Abe"" Hamadeh",R,21747
+2022 Attorney General,2022,Attorney General,04019,Pima,"Abraham ""Abe"" Hamadeh",R,157348
+2022 Attorney General,2022,Attorney General,04021,Pinal,"Abraham ""Abe"" Hamadeh",R,83116
+2022 Attorney General,2022,Attorney General,04023,Santa Cruz,"Abraham ""Abe"" Hamadeh",R,4283
+2022 Attorney General,2022,Attorney General,04025,Yavapai,"Abraham ""Abe"" Hamadeh",R,77487
+2022 Attorney General,2022,Attorney General,04027,Yuma,"Abraham ""Abe"" Hamadeh",R,25704
+2022 Attorney General,2022,Attorney General,04001,Apache,Kris Mayes,D,17930
+2022 Attorney General,2022,Attorney General,04003,Cochise,Kris Mayes,D,18480
+2022 Attorney General,2022,Attorney General,04005,Coconino,Kris Mayes,D,34043
+2022 Attorney General,2022,Attorney General,04007,Gila,Kris Mayes,D,7727
+2022 Attorney General,2022,Attorney General,04009,Graham,Kris Mayes,D,3085
+2022 Attorney General,2022,Attorney General,04011,Greenlee,Kris Mayes,D,938
+2022 Attorney General,2022,Attorney General,04012,La Paz,Kris Mayes,D,1653
+2022 Attorney General,2022,Attorney General,04013,Maricopa,Kris Mayes,D,766874
+2022 Attorney General,2022,Attorney General,04015,Mohave,Kris Mayes,D,19585
+2022 Attorney General,2022,Attorney General,04017,Navajo,Kris Mayes,D,18129
+2022 Attorney General,2022,Attorney General,04019,Pima,Kris Mayes,D,236264
+2022 Attorney General,2022,Attorney General,04021,Pinal,Kris Mayes,D,59068
+2022 Attorney General,2022,Attorney General,04023,Santa Cruz,Kris Mayes,D,8721
+2022 Attorney General,2022,Attorney General,04025,Yavapai,Kris Mayes,D,42813
+2022 Attorney General,2022,Attorney General,04027,Yuma,Kris Mayes,D,19499
+2022 Superintendent of Public Instruction,2022,Superintendent of Public Instruction,04001,Apache,Tom Horne,R,9030
+2022 Superintendent of Public Instruction,2022,Superintendent of Public Instruction,04003,Cochise,Tom Horne,R,27767
+2022 Superintendent of Public Instruction,2022,Superintendent of Public Instruction,04005,Coconino,Tom Horne,R,20151
+2022 Superintendent of Public Instruction,2022,Superintendent of Public Instruction,04007,Gila,Tom Horne,R,14554
+2022 Superintendent of Public Instruction,2022,Superintendent of Public Instruction,04009,Graham,Tom Horne,R,7525
+2022 Superintendent of Public Instruction,2022,Superintendent of Public Instruction,04011,Greenlee,Tom Horne,R,1465
+2022 Superintendent of Public Instruction,2022,Superintendent of Public Instruction,04012,La Paz,Tom Horne,R,3828
+2022 Superintendent of Public Instruction,2022,Superintendent of Public Instruction,04013,Maricopa,Tom Horne,R,738713
+2022 Superintendent of Public Instruction,2022,Superintendent of Public Instruction,04015,Mohave,Tom Horne,R,60812
+2022 Superintendent of Public Instruction,2022,Superintendent of Public Instruction,04017,Navajo,Tom Horne,R,21692
+2022 Superintendent of Public Instruction,2022,Superintendent of Public Instruction,04019,Pima,Tom Horne,R,159638
+2022 Superintendent of Public Instruction,2022,Superintendent of Public Instruction,04021,Pinal,Tom Horne,R,83533
+2022 Superintendent of Public Instruction,2022,Superintendent of Public Instruction,04023,Santa Cruz,Tom Horne,R,4343
+2022 Superintendent of Public Instruction,2022,Superintendent of Public Instruction,04025,Yavapai,Tom Horne,R,77326
+2022 Superintendent of Public Instruction,2022,Superintendent of Public Instruction,04027,Yuma,Tom Horne,R,26029
+2022 Superintendent of Public Instruction,2022,Superintendent of Public Instruction,04001,Apache,Kathy Hoffman,D,17337
+2022 Superintendent of Public Instruction,2022,Superintendent of Public Instruction,04003,Cochise,Kathy Hoffman,D,18457
+2022 Superintendent of Public Instruction,2022,Superintendent of Public Instruction,04005,Coconino,Kathy Hoffman,D,33526
+2022 Superintendent of Public Instruction,2022,Superintendent of Public Instruction,04007,Gila,Kathy Hoffman,D,7756
+2022 Superintendent of Public Instruction,2022,Superintendent of Public Instruction,04009,Graham,Kathy Hoffman,D,3223
+2022 Superintendent of Public Instruction,2022,Superintendent of Public Instruction,04011,Greenlee,Kathy Hoffman,D,941
+2022 Superintendent of Public Instruction,2022,Superintendent of Public Instruction,04012,La Paz,Kathy Hoffman,D,1632
+2022 Superintendent of Public Instruction,2022,Superintendent of Public Instruction,04013,Maricopa,Kathy Hoffman,D,763704
+2022 Superintendent of Public Instruction,2022,Superintendent of Public Instruction,04015,Mohave,Kathy Hoffman,D,19400
+2022 Superintendent of Public Instruction,2022,Superintendent of Public Instruction,04017,Navajo,Kathy Hoffman,D,18291
+2022 Superintendent of Public Instruction,2022,Superintendent of Public Instruction,04019,Pima,Kathy Hoffman,D,233592
+2022 Superintendent of Public Instruction,2022,Superintendent of Public Instruction,04021,Pinal,Kathy Hoffman,D,58919
+2022 Superintendent of Public Instruction,2022,Superintendent of Public Instruction,04023,Santa Cruz,Kathy Hoffman,D,8441
+2022 Superintendent of Public Instruction,2022,Superintendent of Public Instruction,04025,Yavapai,Kathy Hoffman,D,42628
+2022 Superintendent of Public Instruction,2022,Superintendent of Public Instruction,04027,Yuma,Kathy Hoffman,D,19371
+2022 Senate,2022,Senate,04001,Apache,Write-ins,W,2
+2022 Senate,2022,Senate,04003,Cochise,Write-ins,W,67
+2022 Senate,2022,Senate,04005,Coconino,Write-ins,W,13
+2022 Senate,2022,Senate,04007,Gila,Write-ins,W,1
+2022 Senate,2022,Senate,04012,La Paz,Write-ins,W,3
+2022 Senate,2022,Senate,04013,Maricopa,Write-ins,W,63
+2022 Senate,2022,Senate,04015,Mohave,Write-ins,W,5
+2022 Senate,2022,Senate,04017,Navajo,Write-ins,W,9
+2022 Senate,2022,Senate,04019,Pima,Write-ins,W,15
+2022 Senate,2022,Senate,04021,Pinal,Write-ins,W,7
+2022 Senate,2022,Senate,04023,Santa Cruz,Write-ins,W,2
+2022 Senate,2022,Senate,04025,Yavapai,Write-ins,W,8
+2022 Senate,2022,Senate,04027,Yuma,Write-ins,W,2
+2022 Governor,2022,Governor,04001,Apache,Write-ins,W,5
+2022 Governor,2022,Governor,04003,Cochise,Write-ins,W,48
+2022 Governor,2022,Governor,04005,Coconino,Write-ins,W,40
+2022 Governor,2022,Governor,04007,Gila,Write-ins,W,13
+2022 Governor,2022,Governor,04012,La Paz,Write-ins,W,6
+2022 Governor,2022,Governor,04013,Maricopa,Write-ins,W,469
+2022 Governor,2022,Governor,04015,Mohave,Write-ins,W,16
+2022 Governor,2022,Governor,04017,Navajo,Write-ins,W,13
+2022 Governor,2022,Governor,04019,Pima,Write-ins,W,121
+2022 Governor,2022,Governor,04021,Pinal,Write-ins,W,34
+2022 Governor,2022,Governor,04023,Santa Cruz,Write-ins,W,4
+2022 Governor,2022,Governor,04025,Yavapai,Write-ins,W,43
+2022 Governor,2022,Governor,04027,Yuma,Write-ins,W,8
+2022 Mine Inspector,2022,Mine Inspector,04001,Apache,Write-ins,W,374
+2022 Mine Inspector,2022,Mine Inspector,04003,Cochise,Write-ins,W,346
+2022 Mine Inspector,2022,Mine Inspector,04005,Coconino,Write-ins,W,953
+2022 Mine Inspector,2022,Mine Inspector,04007,Gila,Write-ins,W,64
+2022 Mine Inspector,2022,Mine Inspector,04009,Graham,Write-ins,W,9
+2022 Mine Inspector,2022,Mine Inspector,04011,Greenlee,Write-ins,W,8
+2022 Mine Inspector,2022,Mine Inspector,04012,La Paz,Write-ins,W,43
+2022 Mine Inspector,2022,Mine Inspector,04013,Maricopa,Write-ins,W,13338
+2022 Mine Inspector,2022,Mine Inspector,04015,Mohave,Write-ins,W,307
+2022 Mine Inspector,2022,Mine Inspector,04017,Navajo,Write-ins,W,268
+2022 Mine Inspector,2022,Mine Inspector,04019,Pima,Write-ins,W,5006
+2022 Mine Inspector,2022,Mine Inspector,04021,Pinal,Write-ins,W,667
+2022 Mine Inspector,2022,Mine Inspector,04023,Santa Cruz,Write-ins,W,129
+2022 Mine Inspector,2022,Mine Inspector,04025,Yavapai,Write-ins,W,439
+2022 Mine Inspector,2022,Mine Inspector,04027,Yuma,Write-ins,W,251
+2022 Corporation Commission,2022,Corporation Commission,04001,Apache,Write-ins,W,4
+2022 Corporation Commission,2022,Corporation Commission,04003,Cochise,Write-ins,W,11
+2022 Corporation Commission,2022,Corporation Commission,04005,Coconino,Write-ins,W,40
+2022 Corporation Commission,2022,Corporation Commission,04007,Gila,Write-ins,W,4
+2022 Corporation Commission,2022,Corporation Commission,04011,Greenlee,Write-ins,W,1
+2022 Corporation Commission,2022,Corporation Commission,04012,La Paz,Write-ins,W,2
+2022 Corporation Commission,2022,Corporation Commission,04013,Maricopa,Write-ins,W,235
+2022 Corporation Commission,2022,Corporation Commission,04015,Mohave,Write-ins,W,16
+2022 Corporation Commission,2022,Corporation Commission,04017,Navajo,Write-ins,W,13
+2022 Corporation Commission,2022,Corporation Commission,04019,Pima,Write-ins,W,54
+2022 Corporation Commission,2022,Corporation Commission,04021,Pinal,Write-ins,W,19
+2022 Corporation Commission,2022,Corporation Commission,04023,Santa Cruz,Write-ins,W,1
+2022 Corporation Commission,2022,Corporation Commission,04025,Yavapai,Write-ins,W,18
+2022 Corporation Commission,2022,Corporation Commission,04027,Yuma,Write-ins,W,2
+2022 Attorney General,2022,Attorney General,04001,Apache,Write-ins,W,62
+2022 Attorney General,2022,Attorney General,04003,Cochise,Write-ins,W,80
+2022 Attorney General,2022,Attorney General,04005,Coconino,Write-ins,W,88
+2022 Attorney General,2022,Attorney General,04007,Gila,Write-ins,W,28
+2022 Attorney General,2022,Attorney General,04009,Graham,Write-ins,W,17
+2022 Attorney General,2022,Attorney General,04011,Greenlee,Write-ins,W,7
+2022 Attorney General,2022,Attorney General,04012,La Paz,Write-ins,W,9
+2022 Attorney General,2022,Attorney General,04013,Maricopa,Write-ins,W,1706
+2022 Attorney General,2022,Attorney General,04015,Mohave,Write-ins,W,134
+2022 Attorney General,2022,Attorney General,04017,Navajo,Write-ins,W,89
+2022 Attorney General,2022,Attorney General,04019,Pima,Write-ins,W,452
+2022 Attorney General,2022,Attorney General,04021,Pinal,Write-ins,W,188
+2022 Attorney General,2022,Attorney General,04023,Santa Cruz,Write-ins,W,15
+2022 Attorney General,2022,Attorney General,04025,Yavapai,Write-ins,W,119
+2022 Attorney General,2022,Attorney General,04027,Yuma,Write-ins,W,58
+2022 Superintendent of Public Instruction,2022,Superintendent of Public Instruction,04001,Apache,Write-ins,W,57
+2022 Superintendent of Public Instruction,2022,Superintendent of Public Instruction,04003,Cochise,Write-ins,W,90
+2022 Superintendent of Public Instruction,2022,Superintendent of Public Instruction,04005,Coconino,Write-ins,W,116
+2022 Superintendent of Public Instruction,2022,Superintendent of Public Instruction,04007,Gila,Write-ins,W,24
+2022 Superintendent of Public Instruction,2022,Superintendent of Public Instruction,04009,Graham,Write-ins,W,13
+2022 Superintendent of Public Instruction,2022,Superintendent of Public Instruction,04011,Greenlee,Write-ins,W,4
+2022 Superintendent of Public Instruction,2022,Superintendent of Public Instruction,04012,La Paz,Write-ins,W,6
+2022 Superintendent of Public Instruction,2022,Superintendent of Public Instruction,04013,Maricopa,Write-ins,W,1601
+2022 Superintendent of Public Instruction,2022,Superintendent of Public Instruction,04015,Mohave,Write-ins,W,90
+2022 Superintendent of Public Instruction,2022,Superintendent of Public Instruction,04017,Navajo,Write-ins,W,82
+2022 Superintendent of Public Instruction,2022,Superintendent of Public Instruction,04019,Pima,Write-ins,W,459
+2022 Superintendent of Public Instruction,2022,Superintendent of Public Instruction,04021,Pinal,Write-ins,W,169
+2022 Superintendent of Public Instruction,2022,Superintendent of Public Instruction,04023,Santa Cruz,Write-ins,W,17
+2022 Superintendent of Public Instruction,2022,Superintendent of Public Instruction,04025,Yavapai,Write-ins,W,126
+2022 Superintendent of Public Instruction,2022,Superintendent of Public Instruction,04027,Yuma,Write-ins,W,46
+2024 President,2024,President,04001,Apache,Donald J. Trump,R,12795
+2024 President,2024,President,04003,Cochise,Donald J. Trump,R,35936
+2024 President,2024,President,04005,Coconino,Donald J. Trump,R,27576
+2024 President,2024,President,04007,Gila,Donald J. Trump,R,18901
+2024 President,2024,President,04009,Graham,Donald J. Trump,R,11177
+2024 President,2024,President,04011,Greenlee,Donald J. Trump,R,2308
+2024 President,2024,President,04012,La Paz,Donald J. Trump,R,5470
+2024 President,2024,President,04013,Maricopa,Donald J. Trump,R,1051531
+2024 President,2024,President,04015,Mohave,Donald J. Trump,R,85683
+2024 President,2024,President,04017,Navajo,Donald J. Trump,R,29480
+2024 President,2024,President,04019,Pima,Donald J. Trump,R,214669
+2024 President,2024,President,04021,Pinal,Donald J. Trump,R,126926
+2024 President,2024,President,04023,Santa Cruz,Donald J. Trump,R,7699
+2024 President,2024,President,04025,Yavapai,Donald J. Trump,R,99346
+2024 President,2024,President,04027,Yuma,Donald J. Trump,R,40745
+2024 President,2024,President,04001,Apache,Kamala D. Harris,D,18872
+2024 President,2024,President,04003,Cochise,Kamala D. Harris,D,22296
+2024 President,2024,President,04005,Coconino,Kamala D. Harris,D,41504
+2024 President,2024,President,04007,Gila,Kamala D. Harris,D,8504
+2024 President,2024,President,04009,Graham,Kamala D. Harris,D,3867
+2024 President,2024,President,04011,Greenlee,Kamala D. Harris,D,954
+2024 President,2024,President,04012,La Paz,Kamala D. Harris,D,2101
+2024 President,2024,President,04013,Maricopa,Kamala D. Harris,D,980016
+2024 President,2024,President,04015,Mohave,Kamala D. Harris,D,24081
+2024 President,2024,President,04017,Navajo,Kamala D. Harris,D,20754
+2024 President,2024,President,04019,Pima,Kamala D. Harris,D,292450
+2024 President,2024,President,04021,Pinal,Kamala D. Harris,D,80656
+2024 President,2024,President,04023,Santa Cruz,Kamala D. Harris,D,11265
+2024 President,2024,President,04025,Yavapai,Kamala D. Harris,D,48717
+2024 President,2024,President,04027,Yuma,Kamala D. Harris,D,26823
+2024 President,2024,President,04001,Apache,Chase Oliver,L,192
+2024 President,2024,President,04003,Cochise,Chase Oliver,L,380
+2024 President,2024,President,04005,Coconino,Chase Oliver,L,508
+2024 President,2024,President,04007,Gila,Chase Oliver,L,138
+2024 President,2024,President,04009,Graham,Chase Oliver,L,87
+2024 President,2024,President,04011,Greenlee,Chase Oliver,L,27
+2024 President,2024,President,04012,La Paz,Chase Oliver,L,28
+2024 President,2024,President,04013,Maricopa,Chase Oliver,L,10737
+2024 President,2024,President,04015,Mohave,Chase Oliver,L,401
+2024 President,2024,President,04017,Navajo,Chase Oliver,L,275
+2024 President,2024,President,04019,Pima,Chase Oliver,L,2848
+2024 President,2024,President,04021,Pinal,Chase Oliver,L,1084
+2024 President,2024,President,04023,Santa Cruz,Chase Oliver,L,81
+2024 President,2024,President,04025,Yavapai,Chase Oliver,L,784
+2024 President,2024,President,04027,Yuma,Chase Oliver,L,328
+2024 President,2024,President,04001,Apache,Jill Stein,G,160
+2024 President,2024,President,04003,Cochise,Jill Stein,G,311
+2024 President,2024,President,04005,Coconino,Jill Stein,G,479
+2024 President,2024,President,04007,Gila,Jill Stein,G,105
+2024 President,2024,President,04009,Graham,Jill Stein,G,52
+2024 President,2024,President,04011,Greenlee,Jill Stein,G,19
+2024 President,2024,President,04012,La Paz,Jill Stein,G,25
+2024 President,2024,President,04013,Maricopa,Jill Stein,G,11661
+2024 President,2024,President,04015,Mohave,Jill Stein,G,285
+2024 President,2024,President,04017,Navajo,Jill Stein,G,197
+2024 President,2024,President,04019,Pima,Jill Stein,G,3209
+2024 President,2024,President,04021,Pinal,Jill Stein,G,886
+2024 President,2024,President,04023,Santa Cruz,Jill Stein,G,76
+2024 President,2024,President,04025,Yavapai,Jill Stein,G,555
+2024 President,2024,President,04027,Yuma,Jill Stein,G,299
+2024 Senate,2024,Senate,04001,Apache,Kari Lake,R,11283
+2024 Senate,2024,Senate,04003,Cochise,Kari Lake,R,33184
+2024 Senate,2024,Senate,04005,Coconino,Kari Lake,R,24825
+2024 Senate,2024,Senate,04007,Gila,Kari Lake,R,17433
+2024 Senate,2024,Senate,04009,Graham,Kari Lake,R,10385
+2024 Senate,2024,Senate,04011,Greenlee,Kari Lake,R,2078
+2024 Senate,2024,Senate,04012,La Paz,Kari Lake,R,4998
+2024 Senate,2024,Senate,04013,Maricopa,Kari Lake,R,940465
+2024 Senate,2024,Senate,04015,Mohave,Kari Lake,R,79494
+2024 Senate,2024,Senate,04017,Navajo,Kari Lake,R,27218
+2024 Senate,2024,Senate,04019,Pima,Kari Lake,R,193021
+2024 Senate,2024,Senate,04021,Pinal,Kari Lake,R,115595
+2024 Senate,2024,Senate,04023,Santa Cruz,Kari Lake,R,6370
+2024 Senate,2024,Senate,04025,Yavapai,Kari Lake,R,93200
+2024 Senate,2024,Senate,04027,Yuma,Kari Lake,R,36212
+2024 Senate,2024,Senate,04001,Apache,Ruben Gallego,D,19901
+2024 Senate,2024,Senate,04003,Cochise,Ruben Gallego,D,23347
+2024 Senate,2024,Senate,04005,Coconino,Ruben Gallego,D,42924
+2024 Senate,2024,Senate,04007,Gila,Ruben Gallego,D,9330
+2024 Senate,2024,Senate,04009,Graham,Ruben Gallego,D,4235
+2024 Senate,2024,Senate,04011,Greenlee,Ruben Gallego,D,1102
+2024 Senate,2024,Senate,04012,La Paz,Ruben Gallego,D,2292
+2024 Senate,2024,Senate,04013,Maricopa,Ruben Gallego,D,1045766
+2024 Senate,2024,Senate,04015,Mohave,Ruben Gallego,D,26578
+2024 Senate,2024,Senate,04017,Navajo,Ruben Gallego,D,22173
+2024 Senate,2024,Senate,04019,Pima,Ruben Gallego,D,298751
+2024 Senate,2024,Senate,04021,Pinal,Ruben Gallego,D,86674
+2024 Senate,2024,Senate,04023,Santa Cruz,Ruben Gallego,D,11986
+2024 Senate,2024,Senate,04025,Yavapai,Ruben Gallego,D,52077
+2024 Senate,2024,Senate,04027,Yuma,Ruben Gallego,D,29199
+2024 Senate,2024,Senate,04001,Apache,Eduardo Quintana,G,675
+2024 Senate,2024,Senate,04003,Cochise,Eduardo Quintana,G,1562
+2024 Senate,2024,Senate,04005,Coconino,Eduardo Quintana,G,1721
+2024 Senate,2024,Senate,04007,Gila,Eduardo Quintana,G,564
+2024 Senate,2024,Senate,04009,Graham,Eduardo Quintana,G,373
+2024 Senate,2024,Senate,04011,Greenlee,Eduardo Quintana,G,103
+2024 Senate,2024,Senate,04012,La Paz,Eduardo Quintana,G,219
+2024 Senate,2024,Senate,04013,Maricopa,Eduardo Quintana,G,43852
+2024 Senate,2024,Senate,04015,Mohave,Eduardo Quintana,G,2398
+2024 Senate,2024,Senate,04017,Navajo,Eduardo Quintana,G,1078
+2024 Senate,2024,Senate,04019,Pima,Eduardo Quintana,G,13859
+2024 Senate,2024,Senate,04021,Pinal,Eduardo Quintana,G,4622
+2024 Senate,2024,Senate,04023,Santa Cruz,Eduardo Quintana,G,596
+2024 Senate,2024,Senate,04025,Yavapai,Eduardo Quintana,G,2555
+2024 Senate,2024,Senate,04027,Yuma,Eduardo Quintana,G,1691
+2024 Corporation Commission,2024,Corporation Commission,04001,Apache,Rene Lopez,R,8820
+2024 Corporation Commission,2024,Corporation Commission,04003,Cochise,Rene Lopez,R,30936
+2024 Corporation Commission,2024,Corporation Commission,04005,Coconino,Rene Lopez,R,22247
+2024 Corporation Commission,2024,Corporation Commission,04007,Gila,Rene Lopez,R,15565
+2024 Corporation Commission,2024,Corporation Commission,04009,Graham,Rene Lopez,R,9098
+2024 Corporation Commission,2024,Corporation Commission,04011,Greenlee,Rene Lopez,R,1892
+2024 Corporation Commission,2024,Corporation Commission,04012,La Paz,Rene Lopez,R,4248
+2024 Corporation Commission,2024,Corporation Commission,04013,Maricopa,Rene Lopez,R,888869
+2024 Corporation Commission,2024,Corporation Commission,04015,Mohave,Rene Lopez,R,65309
+2024 Corporation Commission,2024,Corporation Commission,04017,Navajo,Rene Lopez,R,24314
+2024 Corporation Commission,2024,Corporation Commission,04019,Pima,Rene Lopez,R,177612
+2024 Corporation Commission,2024,Corporation Commission,04021,Pinal,Rene Lopez,R,108185
+2024 Corporation Commission,2024,Corporation Commission,04023,Santa Cruz,Rene Lopez,R,6398
+2024 Corporation Commission,2024,Corporation Commission,04025,Yavapai,Rene Lopez,R,85426
+2024 Corporation Commission,2024,Corporation Commission,04027,Yuma,Rene Lopez,R,33073
+2024 Corporation Commission,2024,Corporation Commission,04001,Apache,Lea Marquez Peterson,R,8281
+2024 Corporation Commission,2024,Corporation Commission,04003,Cochise,Lea Marquez Peterson,R,30247
+2024 Corporation Commission,2024,Corporation Commission,04005,Coconino,Lea Marquez Peterson,R,20809
+2024 Corporation Commission,2024,Corporation Commission,04007,Gila,Lea Marquez Peterson,R,15035
+2024 Corporation Commission,2024,Corporation Commission,04009,Graham,Lea Marquez Peterson,R,8640
+2024 Corporation Commission,2024,Corporation Commission,04011,Greenlee,Lea Marquez Peterson,R,1733
+2024 Corporation Commission,2024,Corporation Commission,04012,La Paz,Lea Marquez Peterson,R,4064
+2024 Corporation Commission,2024,Corporation Commission,04013,Maricopa,Lea Marquez Peterson,R,865101
+2024 Corporation Commission,2024,Corporation Commission,04015,Mohave,Lea Marquez Peterson,R,63675
+2024 Corporation Commission,2024,Corporation Commission,04017,Navajo,Lea Marquez Peterson,R,23436
+2024 Corporation Commission,2024,Corporation Commission,04019,Pima,Lea Marquez Peterson,R,174869
+2024 Corporation Commission,2024,Corporation Commission,04021,Pinal,Lea Marquez Peterson,R,104305
+2024 Corporation Commission,2024,Corporation Commission,04023,Santa Cruz,Lea Marquez Peterson,R,5259
+2024 Corporation Commission,2024,Corporation Commission,04025,Yavapai,Lea Marquez Peterson,R,83780
+2024 Corporation Commission,2024,Corporation Commission,04027,Yuma,Lea Marquez Peterson,R,31447
+2024 Corporation Commission,2024,Corporation Commission,04001,Apache,Rachel Walden,R,9602
+2024 Corporation Commission,2024,Corporation Commission,04003,Cochise,Rachel Walden,R,31832
+2024 Corporation Commission,2024,Corporation Commission,04005,Coconino,Rachel Walden,R,22963
+2024 Corporation Commission,2024,Corporation Commission,04007,Gila,Rachel Walden,R,16335
+2024 Corporation Commission,2024,Corporation Commission,04009,Graham,Rachel Walden,R,9476
+2024 Corporation Commission,2024,Corporation Commission,04011,Greenlee,Rachel Walden,R,1900
+2024 Corporation Commission,2024,Corporation Commission,04012,La Paz,Rachel Walden,R,4578
+2024 Corporation Commission,2024,Corporation Commission,04013,Maricopa,Rachel Walden,R,911918
+2024 Corporation Commission,2024,Corporation Commission,04015,Mohave,Rachel Walden,R,71003
+2024 Corporation Commission,2024,Corporation Commission,04017,Navajo,Rachel Walden,R,25365
+2024 Corporation Commission,2024,Corporation Commission,04019,Pima,Rachel Walden,R,182483
+2024 Corporation Commission,2024,Corporation Commission,04021,Pinal,Rachel Walden,R,111012
+2024 Corporation Commission,2024,Corporation Commission,04023,Santa Cruz,Rachel Walden,R,5301
+2024 Corporation Commission,2024,Corporation Commission,04025,Yavapai,Rachel Walden,R,88983
+2024 Corporation Commission,2024,Corporation Commission,04027,Yuma,Rachel Walden,R,32871
+2024 Corporation Commission,2024,Corporation Commission,04001,Apache,Ylenia Aguilar,D,13536
+2024 Corporation Commission,2024,Corporation Commission,04003,Cochise,Ylenia Aguilar,D,19283
+2024 Corporation Commission,2024,Corporation Commission,04005,Coconino,Ylenia Aguilar,D,35536
+2024 Corporation Commission,2024,Corporation Commission,04007,Gila,Ylenia Aguilar,D,7231
+2024 Corporation Commission,2024,Corporation Commission,04009,Graham,Ylenia Aguilar,D,3273
+2024 Corporation Commission,2024,Corporation Commission,04011,Greenlee,Ylenia Aguilar,D,956
+2024 Corporation Commission,2024,Corporation Commission,04012,La Paz,Ylenia Aguilar,D,1731
+2024 Corporation Commission,2024,Corporation Commission,04013,Maricopa,Ylenia Aguilar,D,824856
+2024 Corporation Commission,2024,Corporation Commission,04015,Mohave,Ylenia Aguilar,D,19566
+2024 Corporation Commission,2024,Corporation Commission,04017,Navajo,Ylenia Aguilar,D,16194
+2024 Corporation Commission,2024,Corporation Commission,04019,Pima,Ylenia Aguilar,D,251810
+2024 Corporation Commission,2024,Corporation Commission,04021,Pinal,Ylenia Aguilar,D,68079
+2024 Corporation Commission,2024,Corporation Commission,04023,Santa Cruz,Ylenia Aguilar,D,10214
+2024 Corporation Commission,2024,Corporation Commission,04025,Yavapai,Ylenia Aguilar,D,40686
+2024 Corporation Commission,2024,Corporation Commission,04027,Yuma,Ylenia Aguilar,D,23917
+2024 Corporation Commission,2024,Corporation Commission,04001,Apache,Jonathon Hill,D,15656
+2024 Corporation Commission,2024,Corporation Commission,04003,Cochise,Jonathon Hill,D,18256
+2024 Corporation Commission,2024,Corporation Commission,04005,Coconino,Jonathon Hill,D,36051
+2024 Corporation Commission,2024,Corporation Commission,04007,Gila,Jonathon Hill,D,7376
+2024 Corporation Commission,2024,Corporation Commission,04009,Graham,Jonathon Hill,D,3063
+2024 Corporation Commission,2024,Corporation Commission,04011,Greenlee,Jonathon Hill,D,820
+2024 Corporation Commission,2024,Corporation Commission,04012,La Paz,Jonathon Hill,D,1656
+2024 Corporation Commission,2024,Corporation Commission,04013,Maricopa,Jonathon Hill,D,805080
+2024 Corporation Commission,2024,Corporation Commission,04015,Mohave,Jonathon Hill,D,20294
+2024 Corporation Commission,2024,Corporation Commission,04017,Navajo,Jonathon Hill,D,17675
+2024 Corporation Commission,2024,Corporation Commission,04019,Pima,Jonathon Hill,D,239166
+2024 Corporation Commission,2024,Corporation Commission,04021,Pinal,Jonathon Hill,D,66450
+2024 Corporation Commission,2024,Corporation Commission,04023,Santa Cruz,Jonathon Hill,D,8129
+2024 Corporation Commission,2024,Corporation Commission,04025,Yavapai,Jonathon Hill,D,41767
+2024 Corporation Commission,2024,Corporation Commission,04027,Yuma,Jonathon Hill,D,20465
+2024 Corporation Commission,2024,Corporation Commission,04001,Apache,Joshua Polacheck,D,12754
+2024 Corporation Commission,2024,Corporation Commission,04003,Cochise,Joshua Polacheck,D,16950
+2024 Corporation Commission,2024,Corporation Commission,04005,Coconino,Joshua Polacheck,D,33782
+2024 Corporation Commission,2024,Corporation Commission,04007,Gila,Joshua Polacheck,D,6628
+2024 Corporation Commission,2024,Corporation Commission,04009,Graham,Joshua Polacheck,D,2683
+2024 Corporation Commission,2024,Corporation Commission,04011,Greenlee,Joshua Polacheck,D,744
+2024 Corporation Commission,2024,Corporation Commission,04012,La Paz,Joshua Polacheck,D,1452
+2024 Corporation Commission,2024,Corporation Commission,04013,Maricopa,Joshua Polacheck,D,767309
+2024 Corporation Commission,2024,Corporation Commission,04015,Mohave,Joshua Polacheck,D,18033
+2024 Corporation Commission,2024,Corporation Commission,04017,Navajo,Joshua Polacheck,D,14992
+2024 Corporation Commission,2024,Corporation Commission,04019,Pima,Joshua Polacheck,D,229070
+2024 Corporation Commission,2024,Corporation Commission,04021,Pinal,Joshua Polacheck,D,60560
+2024 Corporation Commission,2024,Corporation Commission,04023,Santa Cruz,Joshua Polacheck,D,7531
+2024 Corporation Commission,2024,Corporation Commission,04025,Yavapai,Joshua Polacheck,D,38902
+2024 Corporation Commission,2024,Corporation Commission,04027,Yuma,Joshua Polacheck,D,19050
+2024 Corporation Commission,2024,Corporation Commission,04001,Apache,Mike Cease,G,1009
+2024 Corporation Commission,2024,Corporation Commission,04003,Cochise,Mike Cease,G,1792
+2024 Corporation Commission,2024,Corporation Commission,04005,Coconino,Mike Cease,G,2804
+2024 Corporation Commission,2024,Corporation Commission,04007,Gila,Mike Cease,G,817
+2024 Corporation Commission,2024,Corporation Commission,04009,Graham,Mike Cease,G,375
+2024 Corporation Commission,2024,Corporation Commission,04011,Greenlee,Mike Cease,G,147
+2024 Corporation Commission,2024,Corporation Commission,04012,La Paz,Mike Cease,G,246
+2024 Corporation Commission,2024,Corporation Commission,04013,Maricopa,Mike Cease,G,60764
+2024 Corporation Commission,2024,Corporation Commission,04015,Mohave,Mike Cease,G,2749
+2024 Corporation Commission,2024,Corporation Commission,04017,Navajo,Mike Cease,G,1676
+2024 Corporation Commission,2024,Corporation Commission,04019,Pima,Mike Cease,G,16594
+2024 Corporation Commission,2024,Corporation Commission,04021,Pinal,Mike Cease,G,6100
+2024 Corporation Commission,2024,Corporation Commission,04023,Santa Cruz,Mike Cease,G,581
+2024 Corporation Commission,2024,Corporation Commission,04025,Yavapai,Mike Cease,G,3823
+2024 Corporation Commission,2024,Corporation Commission,04027,Yuma,Mike Cease,G,1996
+2024 Corporation Commission,2024,Corporation Commission,04001,Apache,Nina Luxenberg,G,826
+2024 Corporation Commission,2024,Corporation Commission,04003,Cochise,Nina Luxenberg,G,2250
+2024 Corporation Commission,2024,Corporation Commission,04005,Coconino,Nina Luxenberg,G,3125
+2024 Corporation Commission,2024,Corporation Commission,04007,Gila,Nina Luxenberg,G,894
+2024 Corporation Commission,2024,Corporation Commission,04009,Graham,Nina Luxenberg,G,391
+2024 Corporation Commission,2024,Corporation Commission,04011,Greenlee,Nina Luxenberg,G,108
+2024 Corporation Commission,2024,Corporation Commission,04012,La Paz,Nina Luxenberg,G,255
+2024 Corporation Commission,2024,Corporation Commission,04013,Maricopa,Nina Luxenberg,G,64390
+2024 Corporation Commission,2024,Corporation Commission,04015,Mohave,Nina Luxenberg,G,2949
+2024 Corporation Commission,2024,Corporation Commission,04017,Navajo,Nina Luxenberg,G,1803
+2024 Corporation Commission,2024,Corporation Commission,04019,Pima,Nina Luxenberg,G,19222
+2024 Corporation Commission,2024,Corporation Commission,04021,Pinal,Nina Luxenberg,G,6673
+2024 Corporation Commission,2024,Corporation Commission,04023,Santa Cruz,Nina Luxenberg,G,616
+2024 Corporation Commission,2024,Corporation Commission,04025,Yavapai,Nina Luxenberg,G,4619
+2024 Corporation Commission,2024,Corporation Commission,04027,Yuma,Nina Luxenberg,G,2365
+2024 President,2024,President,04001,Apache,Write-ins,W,4
+2024 President,2024,President,04003,Cochise,Write-ins,W,12
+2024 President,2024,President,04005,Coconino,Write-ins,W,22
+2024 President,2024,President,04012,La Paz,Write-ins,W,2
+2024 President,2024,President,04013,Maricopa,Write-ins,W,470
+2024 President,2024,President,04015,Mohave,Write-ins,W,10
+2024 President,2024,President,04017,Navajo,Write-ins,W,10
+2024 President,2024,President,04019,Pima,Write-ins,W,260
+2024 President,2024,President,04021,Pinal,Write-ins,W,14
+2024 President,2024,President,04023,Santa Cruz,Write-ins,W,8
+2024 President,2024,President,04025,Yavapai,Write-ins,W,26
+2024 President,2024,President,04027,Yuma,Write-ins,W,4
+2024 Senate,2024,Senate,04001,Apache,Write-ins,W,7
+2024 Senate,2024,Senate,04003,Cochise,Write-ins,W,27
+2024 Senate,2024,Senate,04005,Coconino,Write-ins,W,15
+2024 Senate,2024,Senate,04007,Gila,Write-ins,W,1
+2024 Senate,2024,Senate,04011,Greenlee,Write-ins,W,1
+2024 Senate,2024,Senate,04013,Maricopa,Write-ins,W,556
+2024 Senate,2024,Senate,04015,Mohave,Write-ins,W,20
+2024 Senate,2024,Senate,04017,Navajo,Write-ins,W,7
+2024 Senate,2024,Senate,04019,Pima,Write-ins,W,111
+2024 Senate,2024,Senate,04021,Pinal,Write-ins,W,50
+2024 Senate,2024,Senate,04023,Santa Cruz,Write-ins,W,6
+2024 Senate,2024,Senate,04025,Yavapai,Write-ins,W,30
+2024 Senate,2024,Senate,04027,Yuma,Write-ins,W,19
+2024 Corporation Commission,2024,Corporation Commission,04001,Apache,Write-ins,W,3
+2024 Corporation Commission,2024,Corporation Commission,04003,Cochise,Write-ins,W,8
+2024 Corporation Commission,2024,Corporation Commission,04013,Maricopa,Write-ins,W,86
+2024 Corporation Commission,2024,Corporation Commission,04015,Mohave,Write-ins,W,4
+2024 Corporation Commission,2024,Corporation Commission,04017,Navajo,Write-ins,W,1
+2024 Corporation Commission,2024,Corporation Commission,04019,Pima,Write-ins,W,23
+2024 Corporation Commission,2024,Corporation Commission,04021,Pinal,Write-ins,W,5
+2024 Corporation Commission,2024,Corporation Commission,04023,Santa Cruz,Write-ins,W,2
+2024 Corporation Commission,2024,Corporation Commission,04025,Yavapai,Write-ins,W,6
+2024 Corporation Commission,2024,Corporation Commission,04027,Yuma,Write-ins,W,6
