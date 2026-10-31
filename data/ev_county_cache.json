@@ -44,6 +44,10 @@
    "2026-10-29": {
     "in_person_day": 29320,
     "mail_day": null
+   },
+   "2026-10-30": {
+    "in_person_day": 44838,
+    "mail_day": null
    }
   },
   "source": "Collin County Elections"
@@ -51,15 +55,15 @@
  "48113": {
   "days": {
    "2026-10-19": {
-    "in_person_day": 78062,
+    "in_person_day": 78064,
     "mail_day": null
    },
    "2026-10-20": {
-    "in_person_day": 65121,
+    "in_person_day": 65129,
     "mail_day": null
    },
    "2026-10-21": {
-    "in_person_day": 56093,
+    "in_person_day": 56094,
     "mail_day": null
    },
    "2026-10-22": {
@@ -91,7 +95,11 @@
     "mail_day": null
    },
    "2026-10-29": {
-    "in_person_day": 46384,
+    "in_person_day": 46425,
+    "mail_day": null
+   },
+   "2026-10-30": {
+    "in_person_day": 73430,
     "mail_day": null
    }
   },
@@ -133,7 +141,7 @@
     "mail_day": 24794
    },
    "2026-10-20": {
-    "in_person_day": 99906,
+    "in_person_day": 99904,
     "mail_day": 2755
    },
    "2026-10-21": {
@@ -157,7 +165,7 @@
     "mail_day": 2088
    },
    "2026-10-26": {
-    "in_person_day": 79474,
+    "in_person_day": 79473,
     "mail_day": 1995
    },
    "2026-10-27": {
@@ -165,12 +173,16 @@
     "mail_day": 695
    },
    "2026-10-28": {
-    "in_person_day": 78747,
+    "in_person_day": 78746,
     "mail_day": 1974
    },
    "2026-10-29": {
-    "in_person_day": 88984,
+    "in_person_day": 88981,
     "mail_day": 1592
+   },
+   "2026-10-30": {
+    "in_person_day": 126397,
+    "mail_day": 1388
    }
   },
   "source": "Harris County Clerk"
@@ -220,6 +232,10 @@
    "2026-10-29": {
     "in_person_day": 46434,
     "mail_day": 800
+   },
+   "2026-10-30": {
+    "in_person_day": 62656,
+    "mail_day": 640
    }
   },
   "source": "Tarrant County Elections"
@@ -267,8 +283,12 @@
     "mail_day": 846
    },
    "2026-10-29": {
-    "in_person_day": 37134,
+    "in_person_day": 37235,
     "mail_day": 697
+   },
+   "2026-10-30": {
+    "in_person_day": 48786,
+    "mail_day": 612
    }
   },
   "source": "Travis County Clerk"
