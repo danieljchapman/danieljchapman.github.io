@@ -191,6 +191,72 @@ def us_grid(shapes, cols=100):
     return grid
 
 
+def mosaic_grid(shapes, cols=88, aspect=1.5, keep=0.4):
+    """Teletext-style block map: rows of cells, each the state covering most of it (coverage >= keep) or None.
+    A cell whose right or lower neighbour is another state is marked as a border (drawn black), so states
+    with the same color stay apart. Returns (rows of [st or '', border 0/1], label spots {st: (row, col)})."""
+    global ASPECT
+    old, ASPECT = ASPECT, aspect
+    try:
+        allp = np.vstack([p.vertices for ps in shapes.values() for p in ps])
+        x0, y0 = allp.min(0) - 2; x1, y1 = allp.max(0) + 2
+        gx, gy, cw, ch, rows = _grid((x0, y0, x1, y1), cols)
+        pts = _samples(gx, gy, cw, ch, rows, cols)
+    finally:
+        ASPECT = old
+    owner = np.full(len(pts), -1)
+    names = sorted(s for s in shapes if s != 'DC')
+    for i, st in enumerate(names):
+        allv = np.vstack([q.vertices for q in shapes[st]])
+        bx0, by0 = allv.min(0); bx1, by1 = allv.max(0)
+        m = (pts[:, 0] >= bx0) & (pts[:, 0] <= bx1) & (pts[:, 1] >= by0) & (pts[:, 1] <= by1)
+        idx = np.where(m)[0]
+        if len(idx):
+            owner[idx[_inside(shapes[st], pts[idx])]] = i
+    owner = owner.reshape(rows, cols, SUB * SUB)
+    grid = []
+    for r in range(rows):
+        row = []
+        for c in range(cols):
+            o = owner[r, c]
+            o = o[o >= 0]
+            if len(o) < keep * SUB * SUB:
+                row.append(''); continue
+            vals, cnt = np.unique(o, return_counts=True)
+            row.append(names[vals[cnt.argmax()]])
+        grid.append(row)
+    while grid and not any(grid[0]):
+        grid.pop(0)
+    while grid and not any(grid[-1]):
+        grid.pop()
+    rows = len(grid)
+    out = []
+    for r in range(rows):
+        line = []
+        for c in range(cols):
+            st = grid[r][c]
+            right = grid[r][c + 1] if c + 1 < cols else ''
+            below = grid[r + 1][c] if r + 1 < rows else ''
+            line.append([st, 1 if st and ((right and right != st) or (below and below != st)) else 0])
+        out.append(line)
+    # labels: two side-by-side non-border cells of the state, farthest from anything else
+    best = {}
+    for r in range(rows):
+        for c in range(cols - 1):
+            a, b = out[r][c], out[r][c + 1]
+            if not a[0] or a[0] != b[0] or a[1] or b[1]:
+                continue
+            st, d = a[0], 99
+            for rr in range(max(0, r - 5), min(rows, r + 6)):
+                for cc in range(max(0, c - 8), min(cols, c + 10)):
+                    o = out[rr][cc]
+                    if o[0] != st or o[1]:
+                        d = min(d, max(abs(rr - r) * aspect, min(abs(cc - c), abs(cc - c - 1))))
+            if d > best.get(st, (-1,))[0]:
+                best[st] = (d, r, c)
+    return out, {st: (v[1], v[2]) for st, v in best.items()}
+
+
 def label_spots(grid, states):
     """Best cell to start each state's two-letter label: two adjacent fill cells farthest from the state's edge.
     States with no room are left out (the page lists them beside the map)."""

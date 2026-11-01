@@ -1,14 +1,16 @@
 #!/usr/bin/env python3
-"""Retro National pages (us/retro/): plain HTML 3.2 for old browsers (an iMac G3 with IE 5, Classilla, early Safari).
+"""Retro National pages (us/retro/): plain HTML 3.2 for old browsers (an iMac G3 with IE 5, Classilla, early Safari),
+styled like 1980s teletext ("Ballotfax"): black screen, the eight teletext colors, numbered pages (P100 Senate block
+map, P101 national overview, P110 Senate, P120 House, P130 governors, P150 states, P201-250 states; 2024 in the 600s/700s).
 
-No JavaScript, no CSS, no images: tables, <FONT> colors and ASCII-art maps in <PRE>. Built from the same files as
+No JavaScript, no CSS, no images: tables, <FONT> colors, a block map made of colored table cells, ASCII-art state maps in <PRE>. Built from the same files as
 the National page, and rebuilt by the election-night workflow after every update (us/tools/fetch_live.sh), so it
 is as current as the main page. Pages reload themselves every 2 minutes until every 2026 race is called.
 
 Usage: python3 us/tools/us_retro.py [--data us/data] [--out us/retro]
        python3 us/tools/us_retro.py --ascii   (redraw data/retro_ascii.json from the state shapes; needs numpy + matplotlib)
 The ASCII art is drawn once (retro_ascii.py) and saved, so the election-night build needs only the standard library.
-Writes: index.html, senate.html, house.html, governors.html, states.html, st/XX.html, and the same set for 2024
+Writes: index.html (Senate block map), national.html, senate.html, house.html, governors.html, states.html, st/XX.html, and the same set for 2024
 under 2024/. Text is ISO-8859-1 with entities; anything outside Latin-1 is folded to plain ASCII.
 """
 import argparse, csv, datetime, html, json, os, re, sys, unicodedata
@@ -24,13 +26,18 @@ MAJ = {'senate': 51, 'house': 218, 'governor': 26}
 PARTY = {'R': 'Republican', 'D': 'Democrat', 'I': 'Independent', 'L': 'Libertarian', 'G': 'Green', 'C': 'Constitution', 'O': 'Other', 'W': 'Write-in'}
 PLURAL = {'R': 'Republicans', 'D': 'Democrats', 'I': 'Independents'}
 CAUCUS_D = re.compile(r'^(Bern(ie|ard) Sanders|Angus S?\.? ?King|Kyrsten Sinema|Joe Manchin)')
-# colors: dark = won, light = leading (web-safe-ish, readable on white)
-COL = {'R': '#CC0000', 'D': '#0033CC', 'I': '#663399', 'L': '#996600', 'G': '#006600'}
-LIGHT = {'R': '#FF9999', 'D': '#99BBFF', 'I': '#CC99FF'}
-GREY, DIM, PEND = '#808080', '#C0C0C0', '#999999'
-NAVY = '#000080'
+# Teletext look: black screen, the eight teletext colors only. Democrats are cyan (teletext blue is unreadable
+# on black, so blue is used only as a background band, and on the map for states with no race).
+BLACK, WHITE, RED, GREEN, YELLOW, BLUE, MAGENTA, CYAN = '#000000', '#FFFFFF', '#FF0000', '#00FF00', '#FFFF00', '#0000FF', '#FF00FF', '#00FFFF'
+COL = {'R': RED, 'D': CYAN, 'I': MAGENTA, 'L': YELLOW, 'G': GREEN}
+GREY = YELLOW            # secondary text ("not counted yet", "no polls"): teletext has no grey
+FACE = 'Courier New,Courier'
 REFRESH = 120
 SMALL_NOTE = ['VT', 'NH', 'MA', 'RI', 'CT', 'NJ', 'DE', 'MD', 'HI']
+# teletext page numbers; 2024 pages are the same set in the 600s, state pages 201-250 (2026) / 701-750 (2024)
+PNO = {'front': 100, 'national': 101, 'senate': 110, 'house': 120, 'governor': 130, 'states': 150}
+FILES = {'front': 'index.html', 'national': 'national.html', 'senate': 'senate.html', 'house': 'house.html', 'governor': 'governors.html', 'states': 'states.html'}
+MAP_W, MAP_H = 8, 12     # one teletext block on the map, in pixels
 
 
 # ---------- text ----------
@@ -67,7 +74,7 @@ def side(p):
 
 
 def pcol(p):
-    return COL.get(p, GREY)
+    return COL.get(p, WHITE)
 
 
 def et(iso):
@@ -203,42 +210,68 @@ def margin_txt(r):
 
 
 # ---------- page pieces ----------
-def page(title, body, depth, year, status, refresh):
+def pno(kind, year):
+    return PNO[kind] + (500 if year == 2024 else 0)
+
+
+def clock(status):
+    iso = (status or {}).get('updated_at')
+    d = datetime.datetime.fromisoformat(iso.replace('Z', '+00:00')) if iso else datetime.datetime.now(datetime.timezone.utc)
+    d = d.astimezone(ZoneInfo('America/New_York'))
+    return d.strftime('%a %d %b'), d.strftime('%H:%M')
+
+
+def band(text, bg, fg, right='', size=6):
+    """A teletext title bar: big letters on a colored background."""
+    r = f'<TD BGCOLOR="{bg}" ALIGN="RIGHT"><FONT FACE="{FACE}" SIZE="{size}" COLOR="{fg}"><B>{right}</B></FONT></TD>' if right else ''
+    return (f'<TABLE WIDTH="100%" CELLPADDING="6" CELLSPACING="0" BORDER="0"><TR><TD BGCOLOR="{bg}"><FONT FACE="{FACE}" SIZE="{size}" COLOR="{fg}"><B>{text}</B></FONT></TD>'
+            f'{r}</TR></TABLE>\n')
+
+
+def page(title, body, depth, year, status, refresh, kind, band_text, band_bg, band_fg, num=None):
     up = '../' * depth
     yr = '' if year == 2026 else '2024/'
-    other = f'{up}2024/index.html' if year == 2026 else f'{up}index.html'
-    nav = ' | '.join([f'<A HREF="{up}{yr}index.html">Home</A>', f'<A HREF="{up}{yr}senate.html">Senate</A>', f'<A HREF="{up}{yr}house.html">House</A>',
-                      f'<A HREF="{up}{yr}governors.html">Governors</A>', f'<A HREF="{up}{yr}states.html">States A-Z</A>',
-                      f'<A HREF="{other}">{"2024 results" if year == 2026 else "2026 results"}</A>'])
+    n = num or pno(kind, year)
+    link = lambda k, label: f'<A HREF="{up}{yr}{FILES[k]}">{label}</A> <FONT COLOR="{YELLOW}">{pno(k, year)}</FONT>'
+    other = (f'<A HREF="{up}2024/index.html">2024 results</A> <FONT COLOR="{YELLOW}">600</FONT>' if year == 2026
+             else f'<A HREF="{up}index.html">2026 results</A> <FONT COLOR="{YELLOW}">100</FONT>')
+    nav = ' &nbsp; '.join([link('front', 'Map'), link('national', 'National'), link('senate', 'Senate'), link('house', 'House'),
+                           link('governor', 'Governors'), link('states', 'States'), other])
     meta = f'<META HTTP-EQUIV="Refresh" CONTENT="{REFRESH}">\n' if refresh else ''
+    day, hm = clock(status)
     live = ''
     if year == 2026 and status:
         if status['phase'] == 'pre-election':
-            msg = 'Election Day is Tuesday, Nov. 3. Results appear here as polls close (first closings 6 pm ET) and update every few minutes through the night.'
+            msg = f'<FONT COLOR="{YELLOW}">ELECTION DAY TUESDAY 3 NOVEMBER.</FONT> Results from 6pm ET as polls close, updated every few minutes.'
         elif status['phase'] == 'counting':
-            msg = f"<B>COUNTING</B> &nbsp; {status['called']} of {status['races']} races called"
+            msg = f"<FONT COLOR=\"{YELLOW}\"><B>COUNTING</B></FONT> &nbsp; {status['called']} of {status['races']} races called"
         else:
             msg = f"All {status['races']} races called. Unofficial until certified."
-        live = (f'<TABLE WIDTH="100%" CELLPADDING="4" CELLSPACING="0" BORDER="0"><TR><TD BGCOLOR="#FFFFCC"><FONT FACE="Arial,Helvetica" SIZE="2">{msg}'
-                f'<BR>Last update: {h(et(status["updated_at"]))}{" &nbsp; This page reloads every 2 minutes." if refresh else ""}</FONT></TD></TR></TABLE>\n')
+        live = (f'<TABLE WIDTH="100%" CELLPADDING="4" CELLSPACING="0" BORDER="0"><TR><TD BGCOLOR="{BLUE}"><FONT FACE="{FACE}" SIZE="2" COLOR="{WHITE}">{msg}'
+                f'<BR>Last update {h(et(status["updated_at"]))}.{" Page reloads every 2 minutes." if refresh else ""}</FONT></TD></TR></TABLE><BR>\n')
+    fast = [('senate', RED, 'Senate'), ('house', GREEN, 'House'), ('governor', YELLOW, 'Governors')]
+    fcells = ''.join(f'<TD WIDTH="25%"><A HREF="{up}{yr}{FILES[k]}"><FONT COLOR="{c}"><B>{t}</B></FONT></A></TD>' for k, c, t in fast)
+    fcells += (f'<TD WIDTH="25%"><A HREF="{up}{"2024/index.html" if year == 2026 else "index.html"}"><FONT COLOR="{CYAN}"><B>{"2024" if year == 2026 else "2026"}</B></FONT></A></TD>')
     return f"""<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
 <HTML>
 <HEAD>
 <TITLE>{h(title)}</TITLE>
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
 {meta}</HEAD>
-<BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#0000CC" VLINK="#551A8B" ALINK="#FF0000">
-<TABLE WIDTH="100%" CELLPADDING="6" CELLSPACING="0" BORDER="0"><TR><TD BGCOLOR="{NAVY}">
-<FONT FACE="Arial,Helvetica" COLOR="#FFFFFF" SIZE="5"><B>U.S. ELECTION RESULTS {year}</B></FONT><BR>
-<FONT FACE="Arial,Helvetica" COLOR="#CCCCFF" SIZE="2">Senate &middot; House &middot; Governors &nbsp;--&nbsp; retro edition</FONT>
-</TD></TR></TABLE>
-<FONT FACE="Arial,Helvetica" SIZE="2">[ {nav} ]</FONT>
-<HR>
+<BODY BGCOLOR="{BLACK}" TEXT="{WHITE}" LINK="{CYAN}" VLINK="{CYAN}" ALINK="{YELLOW}">
+<FONT FACE="{FACE}">
+<TABLE WIDTH="100%" CELLPADDING="2" CELLSPACING="0" BORDER="0"><TR>
+<TD><FONT FACE="{FACE}" SIZE="4">P{n}</FONT></TD><TD><FONT FACE="{FACE}" SIZE="4" COLOR="{YELLOW}"><B>BALLOTFAX {n}</B></FONT></TD>
+<TD><FONT FACE="{FACE}" SIZE="4">{day}</FONT></TD><TD ALIGN="RIGHT"><FONT FACE="{FACE}" SIZE="4" COLOR="{YELLOW}">{hm}</FONT></TD>
+</TR></TABLE>
+{band(band_text, band_bg, band_fg, str(year))}<FONT FACE="{FACE}" SIZE="2">{nav}</FONT><BR><BR>
 {live}{body}
-<HR>
-<FONT FACE="Arial,Helvetica" SIZE="1">{source_line(year, status)}<BR>
-Plain-HTML edition for older computers: no scripts, no images. The full interactive page is at
+<BR>
+<TABLE WIDTH="100%" CELLPADDING="4" CELLSPACING="0" BORDER="0"><TR>{fcells}</TR></TABLE>
+<FONT FACE="{FACE}" SIZE="1" COLOR="{WHITE}">{source_line(year, status)}<BR>
+Teletext-style plain-HTML edition for older computers: no scripts, no images. Times are Eastern. The full interactive page is at
 <A HREF="{up}../index.html?year={year}">danieljchapman.github.io/us/</A> (needs a modern browser).</FONT>
+</FONT>
 </BODY>
 </HTML>
 """
@@ -253,17 +286,37 @@ def source_line(year, status):
 
 
 def h2(text):
-    return f'<P><FONT FACE="Arial,Helvetica" SIZE="4" COLOR="{NAVY}"><B>{text}</B></FONT></P>\n'
+    """Section heading: yellow on a blue bar."""
+    return (f'<BR><TABLE WIDTH="100%" CELLPADDING="3" CELLSPACING="0" BORDER="0"><TR><TD BGCOLOR="{BLUE}"><FONT FACE="{FACE}" SIZE="3" COLOR="{YELLOW}">'
+            f'<B>{text}</B></FONT></TD></TR></TABLE>\n')
+
+
+def block(ring, fill, w, hgt):
+    """One mosaic block: a solid square (ring == fill) or an outline (fill black)."""
+    return (f'<TD BGCOLOR="{ring}"><TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0" WIDTH="{w}" HEIGHT="{hgt}"><TR>'
+            f'<TD BGCOLOR="{fill}"><FONT SIZE="1">&nbsp;</FONT></TD></TR></TABLE></TD>')
+
+
+BAR = {'senate': (2, 8), 'house': (9, 6), 'governor': (1, 8)}   # rows, block width
 
 
 def balance(level, t, year):
-    """Seat bar as a row of colored table cells (600 pixels = the whole chamber)."""
-    W = 600
-    segs = [('D', t['total']['D'], COL['D']), ('Dl', t['lead']['D'], LIGHT['D']), ('I', t['total']['I'], COL['I']), ('Il', t['lead']['I'], LIGHT['I']),
-            ('U', 0, '#E0E0E0'), ('Rl', t['lead']['R'], LIGHT['R']), ('R', t['total']['R'], COL['R'])]
-    used = sum(s[1] for s in segs)
-    segs[4] = ('U', SIZE[level] - used, '#E0E0E0')
-    cells = ''.join(f'<TD BGCOLOR="{c}" WIDTH="{max(1, round(n * W / SIZE[level]))}">&nbsp;</TD>' for _, n, c in segs if n > 0)
+    """Seats as teletext blocks, one per seat: solid = won (or not up this year), outline = leading,
+    white outline = not decided. Filled column by column, Democrats from the left, Republicans from the right."""
+    segs = [(t['total']['D'], COL['D'], COL['D']), (t['lead']['D'], COL['D'], BLACK), (t['total']['I'], COL['I'], COL['I']), (t['lead']['I'], COL['I'], BLACK),
+            (0, WHITE, BLACK), (t['lead']['R'], COL['R'], BLACK), (t['total']['R'], COL['R'], COL['R'])]
+    used = sum(s[0] for s in segs)
+    rest = max(0, SIZE[level] - used)
+    segs[4] = (rest, WHITE, BLACK)
+    seats = [(ring, fill) for n, ring, fill in segs for _ in range(n)]
+    rows, w = BAR[level]
+    cols = -(-len(seats) // rows)
+    grid = [[None] * cols for _ in range(rows)]
+    for i, s in enumerate(seats):
+        grid[i % rows][i // rows] = s
+    hgt = 6 if level == 'house' else 14
+    trs = ''.join('<TR>' + ''.join(block(s[0], s[1], w, hgt) if s else '<TD></TD>' for s in row) + '</TR>' for row in grid)
+    bar = f'<TABLE BORDER="0" CELLPADDING="2" CELLSPACING="2" BGCOLOR="{BLACK}">{trs}</TABLE>\n'
     what = {'senate': 'seats', 'house': 'seats', 'governor': 'governorships'}[level]
     dlab = 'Democrats + independents' if level == 'senate' else 'Democrats'
     din = t['total']['D'] + (t['total']['I'] if level == 'senate' else 0)
@@ -272,15 +325,13 @@ def balance(level, t, year):
     if level != 'senate' and t['total']['I']:
         parts.append(font(f"Independents {t['total']['I']}", COL['I'], True))
     parts.append(font(f"Republicans {t['total']['R']}{lead('R')}", COL['R'], True))
-    rest = SIZE[level] - used
     note = f"{rest} not decided yet" if year == 2026 and rest else ''
     maj = f"; {MAJ[level]} for a majority" if level != 'governor' else ''
     if level == 'senate' and year == 2026:
         maj += " (a 50-50 tie goes to Vice President Vance's party)"
-    key = 'Dark = won or not up this year, light = leading.' if year == 2026 else 'Includes seats not up this year.'
-    return (f'<TABLE CELLPADDING="0" CELLSPACING="0" BORDER="1"><TR><TD><TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0" WIDTH="{W}" HEIGHT="22"><TR>{cells}</TR></TABLE></TD></TR></TABLE>\n'
-            f'<FONT FACE="Arial,Helvetica" SIZE="2">{" &nbsp;|&nbsp; ".join(parts)}{" &nbsp;|&nbsp; " + note if note else ""}<BR>'
-            f'<FONT COLOR="{GREY}">{SIZE[level]} {what}{maj}. {key}</FONT></FONT>\n')
+    key = 'Solid = won or not up this year. Outline = leading. White outline = not decided.' if year == 2026 else 'Includes seats not up this year.'
+    return (bar + f'<FONT FACE="{FACE}" SIZE="2">{" &nbsp;|&nbsp; ".join(parts)}{" &nbsp;|&nbsp; " + note if note else ""}<BR>'
+            f'<FONT COLOR="{GREEN}">{SIZE[level]} {what}{maj}. {key}</FONT></FONT>\n')
 
 
 def takeaway(level, year, races, t, S):
@@ -365,11 +416,11 @@ def status_cell(r):
 
 
 def TH(cols):
-    return '<TR BGCOLOR="#DDDDEE">' + ''.join(f'<TH ALIGN="LEFT"><FONT FACE="Arial,Helvetica" SIZE="2">{c}</FONT></TH>' for c in cols) + '</TR>\n'
+    return f'<TR BGCOLOR="{BLUE}">' + ''.join(f'<TH ALIGN="LEFT"><FONT FACE="{FACE}" SIZE="2" COLOR="{YELLOW}">{c}</FONT></TH>' for c in cols) + '</TR>\n'
 
 
 def TD(x, extra=''):
-    return f'<TD VALIGN="TOP"{extra}><FONT SIZE="2">{x}</FONT></TD>'
+    return f'<TD VALIGN="TOP"{extra}><FONT FACE="{FACE}" SIZE="2">{x}</FONT></TD>'
 
 
 def race_table(level, races, polls, link_prefix, show_poll):
@@ -377,27 +428,26 @@ def race_table(level, races, polls, link_prefix, show_poll):
     cols = ['Race', 'Candidates (votes, share)', 'Margin', 'Status', 'Seat held by']
     if show_poll:
         cols.append('Final poll avg')
-    out = ['<TABLE BORDER="1" CELLPADDING="3" CELLSPACING="0" WIDTH="100%">\n', TH(cols)]
-    for i, r in enumerate(races):
-        bg = ' BGCOLOR="#F4F4F4"' if i % 2 else ''
+    out = ['<TABLE BORDER="0" CELLPADDING="4" CELLSPACING="0" WIDTH="100%">\n', TH(cols)]
+    for r in races:
         row = [TD(f'<A HREF="{link_prefix}st/{r["state"]}.html"><B>{h(r["label"])}</B></A>'), TD(cand_lines(r, 4)), TD(margin_txt(r)), TD(status_cell(r)), TD(holder_txt(r))]
         if show_poll:
             rec = poll_rec(polls, level, r)
             row.append(TD(pair_label(rec['pair'], rec['final']['m']) if rec else f'<FONT COLOR="{GREY}">no polls</FONT>'))
-        out.append(f'<TR{bg}>' + ''.join(row) + '</TR>\n')
+        out.append('<TR>' + ''.join(row) + '</TR>\n')
     out.append('</TABLE>\n')
     return ''.join(out)
 
 
 def house_table(races, S, link_prefix):
     """Compact: one row per district, grouped by state."""
-    out = ['<TABLE BORDER="1" CELLPADDING="2" CELLSPACING="0" WIDTH="100%">\n', TH(['District', 'Leader / winner', 'Votes', 'Margin', 'Status', 'Held by'])]
+    out = ['<TABLE BORDER="0" CELLPADDING="3" CELLSPACING="0" WIDTH="100%">\n', TH(['District', 'Leader / winner', 'Votes', 'Margin', 'Status', 'Held by'])]
     cur = None
     for r in races:
         if r['state'] != cur:
             cur = r['state']
             k = sum(1 for x in races if x['state'] == cur)
-            out.append(f'<TR BGCOLOR="#EEEEEE"><TD COLSPAN="6"><FONT FACE="Arial,Helvetica" SIZE="2"><B><A HREF="{link_prefix}st/{cur}.html">{h(S["names"][cur])}</A></B>'
+            out.append(f'<TR><TD COLSPAN="6"><BR><FONT FACE="{FACE}" SIZE="3" COLOR="{YELLOW}"><A NAME="{cur}"></A><B><A HREF="{link_prefix}st/{cur}.html">{h(S["names"][cur]).upper()}</A></B>'
                        f' &nbsp; {k} seat{"s" if k > 1 else ""}{" &nbsp; (new map this year)" if r["redrawn"] else ""}</FONT></TD></TR>\n')
         top = r['top']
         if top:
@@ -405,81 +455,98 @@ def house_table(races, S, link_prefix):
             who = f"{font(h(top['name']), pcol(top['party']), bool(r['win']))} ({top['party']}){mark}"
         else:
             names = [c for c in r['cands'] if c['party'] in ('R', 'D') or c['incumbent']][:3]
-            who = ' v. '.join(f"{font(h(c['name']), pcol(c['party']))} ({c['party']})" for c in names) or f'<FONT COLOR="{GREY}">-</FONT>'
+            who = ' v '.join(f"{font(h(c['name']), pcol(c['party']))} ({c['party']})" for c in names) or f'<FONT COLOR="{GREY}">-</FONT>'
         votes = f"{num(top['votes'])} ({pct(top['share'])})" if r['total'] and top else ''
         out.append('<TR>' + TD(h(r['short'])) + TD(who) + TD(votes) + TD(margin_txt(r)) + TD(status_cell(r)) + TD(holder_txt(r)) + '</TR>\n')
     out.append('</TABLE>\n')
     return ''.join(out)
 
 
-# ---------- ASCII maps ----------
+# ---------- teletext block map ----------
 def map_color(r):
-    """(color, fill char) for a state's race on the national map."""
+    """(color, pattern) for a state's race: solid = won, check = leading, white = not counted yet, blue = no race."""
     if not r:
-        return DIM, '.'
+        return BLUE, 'solid'
     if r['win']:
-        return COL.get(side(r['wc'])), '#'
+        return COL.get(side(r['wc']), WHITE), 'solid'
     if r['total'] and r['lead']:
-        return COL.get(side(r['wc'])), '+'
-    return PEND, ':'
+        return COL.get(side(r['wc']), WHITE), 'check'
+    return WHITE, 'solid'
 
 
-def us_map(grid, spots, color_of, link_prefix, labels_linked=True):
-    """National ASCII map in <PRE>, states colored by color_of(st) -> (color, fill), labels link to state pages."""
-    lines = []
-    for ri, row in enumerate(grid):
-        cells = []   # (color, html)
+def label_fg(bg):
+    return WHITE if bg == BLUE else BLACK
+
+
+def block_map(mosaic, spots, color_of, link_prefix):
+    """The U.S. drawn in teletext blocks: one table cell per block, runs of one color merged, two-letter state
+    labels linking to the state pages. A spacer row of single cells pins every column's width for old browsers."""
+    cols = len(mosaic[0])
+    at = {tuple(v): st for st, v in spots.items()}
+    trs = ['<TR>' + ''.join(f'<TD WIDTH="{MAP_W}"></TD>' for _ in range(cols)) + '</TR>']
+    for ri, row in enumerate(mosaic):
+        cells = []   # [bg, span, label]
         c = 0
-        while c < len(row):
-            cell = row[c]
-            if cell and (ri, c) == spots.get(cell['st']):
-                st = cell['st']; col, _ = color_of(st)
-                lab = font(f'<B>{st}</B>', GREY if col == DIM else col)
-                cells.append((None, f'<A HREF="{link_prefix}st/{st}.html">{lab}</A>' if labels_linked else lab))
-                c += 2; continue
-            if not cell:
-                cells.append(('', ' '))
+        while c < cols:
+            st, border = row[c]
+            if (ri, c) in at:
+                lab = at[(ri, c)]
+                bg, _ = color_of(lab)
+                cells.append([bg, 2, f'<A HREF="{link_prefix}st/{lab}.html"><FONT SIZE="1" COLOR="{label_fg(bg)}"><B>{lab}</B></FONT></A>'])
+                c += 2
+                continue
+            if not st or border:
+                bg = BLACK
             else:
-                col, fill = color_of(cell['st'])
-                ch = cell['ch'] if cell['ch'] else fill
-                cells.append((col, html.escape(ch, quote=False)))
+                col, pat = color_of(st)
+                bg = col if pat == 'solid' or (ri + c) % 2 == 0 else BLACK
+            if cells and cells[-1][0] == bg and not cells[-1][2]:
+                cells[-1][1] += 1
+            else:
+                cells.append([bg, 1, ''])
             c += 1
-        # merge runs of the same color into one <FONT>
-        out, run_col, run = [], None, []
-        def flush():
-            if run:
-                txt = ''.join(run)
-                out.append(f'<FONT COLOR="{run_col}">{txt}</FONT>' if run_col else txt)
-        for col, txt in cells:
-            if col is None:
-                flush(); run.clear(); run_col = None; out.append(txt); continue
-            if col != run_col:
-                flush(); run.clear(); run_col = col
-            run.append(txt)
-        flush()
-        lines.append(''.join(out).rstrip())
-    return '<PRE>' + '\n'.join(lines) + '</PRE>\n'
+        tds = []
+        for bg, span, lab in cells:
+            cs = f' COLSPAN="{span}"' if span > 1 else ''
+            tds.append(f'<TD BGCOLOR="{bg}"{cs} HEIGHT="{MAP_H}"{" ALIGN=CENTER" if lab else ""}>{lab or "<FONT SIZE=1>&nbsp;</FONT>"}</TD>')
+        trs.append('<TR>' + ''.join(tds) + '</TR>')
+    return (f'<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0" BGCOLOR="{BLACK}" WIDTH="{cols * MAP_W}">\n' + '\n'.join(trs) + '\n</TABLE>\n')
+
+
+def swatch(col, pat='solid'):
+    if pat == 'check':
+        return (f'<TD><TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0"><TR><TD BGCOLOR="{col}" WIDTH="8" HEIGHT="7"></TD><TD BGCOLOR="{BLACK}" WIDTH="8"></TD></TR>'
+                f'<TR><TD BGCOLOR="{BLACK}" WIDTH="8" HEIGHT="7"></TD><TD BGCOLOR="{col}" WIDTH="8"></TD></TR></TABLE></TD>')
+    return f'<TD BGCOLOR="{col}" WIDTH="16"><FONT SIZE="1">&nbsp;</FONT></TD>'
 
 
 def small_boxes(color_of, spots, link_prefix, states):
-    """States too small to label on the map, as a row of colored links."""
+    """States too small to label on the map, each as a block of its color plus a link."""
     miss = [s for s in SMALL_NOTE if s in states and s not in spots] + sorted(s for s in states if s not in spots and s not in SMALL_NOTE)
     if not miss:
         return ''
-    parts = []
+    cells = []
     for st in miss:
-        col, fill = color_of(st)
-        parts.append(f'<A HREF="{link_prefix}st/{st}.html">{font("<B>" + st + "</B>", GREY if col == DIM else col)}</A> <TT>{font(fill * 2, col)}</TT>')
-    return f'<FONT FACE="Arial,Helvetica" SIZE="2">Small states: &nbsp; {" &nbsp; ".join(parts)}</FONT><BR>\n'
+        col, pat = color_of(st)
+        cells.append(swatch(col, pat) + f'<TD><FONT FACE="{FACE}" SIZE="2">&nbsp;<A HREF="{link_prefix}st/{st}.html"><B>{st}</B></A>&nbsp;&nbsp;</FONT></TD>')
+    return (f'<TABLE BORDER="0" CELLPADDING="1" CELLSPACING="2"><TR><TD><FONT FACE="{FACE}" SIZE="2" COLOR="{GREEN}">Small states:&nbsp;</FONT></TD>'
+            + ''.join(cells) + '</TR></TABLE>\n')
 
 
 def map_legend(year):
-    k = lambda ch, col, txt: f'<TT>{font(ch * 3, col)}</TT> {txt}'
-    items = [k('#', COL['D'], 'Democrat won'), k('#', COL['R'], 'Republican won'), k('#', COL['I'], 'Independent won')]
+    items = [(COL['D'], 'solid', 'Dem. won'), (COL['R'], 'solid', 'Rep. won'), (COL['I'], 'solid', 'Ind. won')]
     if year == 2026:
-        items += [k('+', COL['D'], 'Dem. leading'), k('+', COL['R'], 'Rep. leading'), k(':', PEND, 'not counted yet')]
-    items.append(k('.', DIM, 'no race'))
-    return f'<FONT FACE="Arial,Helvetica" SIZE="2">{" &nbsp; ".join(items)}</FONT><BR>\n'
+        items += [(COL['D'], 'check', 'Dem. leads'), (COL['R'], 'check', 'Rep. leads'), (WHITE, 'solid', 'not counted yet')]
+    items.append((BLUE, 'solid', 'no race'))
+    cells = ''.join(swatch(c, p) + f'<TD><FONT FACE="{FACE}" SIZE="2">&nbsp;{t}&nbsp;&nbsp;</FONT></TD>' for c, p, t in items)
+    return f'<TABLE BORDER="0" CELLPADDING="1" CELLSPACING="2"><TR>{cells}</TR></TABLE>\n'
+
+
+def menu(year, links):
+    """Teletext index lines: name ...... page number."""
+    rows = ''.join(f'<TR><TD><FONT FACE="{FACE}" SIZE="3"><A HREF="{href}">{label}</A></FONT></TD><TD ALIGN="RIGHT"><FONT FACE="{FACE}" SIZE="3" COLOR="{YELLOW}">{n}</FONT></TD></TR>'
+                   for label, href, n in links)
+    return f'<TABLE BORDER="0" CELLPADDING="2" CELLSPACING="0" WIDTH="420">{rows}</TABLE>\n'
 
 
 # ---------- pages ----------
@@ -489,7 +556,7 @@ def write(path, text):
         f.write(text)
 
 
-def build_year(year, M, S, polls, status, grid, spots, arts, out_dir):
+def build_year(year, M, S, polls, status, mosaic, mspots, arts, out_dir):
     depth0 = 0 if year == 2026 else 1
     refresh = year == 2026 and status and status['phase'] != 'final'
     races = {lv: M[lv][year] for lv in LEVELS}
@@ -501,6 +568,7 @@ def build_year(year, M, S, polls, status, grid, spots, arts, out_dir):
     states = sorted(S['names'])
     states = [s for s in states if s != 'DC']
     show_poll = year == 2026 and bool(polls)
+    P = lambda k: pno(k, year)
 
     def colorer(level):
         def f(st):
@@ -512,29 +580,49 @@ def build_year(year, M, S, polls, status, grid, spots, arts, out_dir):
             return map_color(rs[0])
         return f
 
-    # --- home ---
+    def para(x):
+        return f'<P><FONT FACE="{FACE}" SIZE="2">{x}</FONT></P>\n'
+
+    def emit(kind, title, body, band_text, bg, fg):
+        write(os.path.join(out_dir, FILES[kind]), page(title, body, depth0, year, status, refresh, kind, band_text, bg, fg))
+
+    index_links = [('National overview', FILES['national'], P('national')), ('Senate race by race', FILES['senate'], P('senate')),
+                   ('House, all 435 seats', FILES['house'], P('house')), ('Governors', FILES['governor'], P('governor')),
+                   ('States A-Z', FILES['states'], P('states'))]
+    index_links.append(('2024 results', '2024/index.html', 600) if year == 2026 else ('2026 results', '../index.html', 100))
+
+    # --- front page: the Senate map in blocks ---
+    sen = colorer('senate')
+    body = [block_map(mosaic, mspots, sen, ''), small_boxes(sen, mspots, '', states), map_legend(year),
+            para('Pick a state for every race there.'),
+            h2(f'<A HREF="{FILES["senate"]}">SENATE</A> &nbsp; {P("senate")}'), balance('senate', T['senate'], year),
+            para(takeaway('senate', year, races['senate'], T['senate'], S)),
+            h2('INDEX'), menu(year, index_links)]
+    emit('front', f'Senate map {year} (retro)', ''.join(body), 'SENATE MAP', RED, WHITE)
+
+    # --- national overview ---
     body = []
     for lv in LEVELS:
-        body.append(h2(f'<A HREF="{PAGE[lv]}">{LNAME[lv]}{"s" if lv == "governor" else ""}</A>'))
+        body.append(h2(f'<A HREF="{PAGE[lv]}">{LNAME[lv].upper()}{"S" if lv == "governor" else ""}</A> &nbsp; {P(lv)}'))
         body.append(balance(lv, T[lv], year))
-        body.append(f'<P><FONT FACE="Arial,Helvetica" SIZE="2">{takeaway(lv, year, races[lv], T[lv], S)}</FONT></P>\n')
-    body.append(h2('Pick a state'))
-    body.append('<FONT FACE="Arial,Helvetica" SIZE="2">Click a state\'s initials for every race in that state. Map colors show the Senate races.</FONT>\n')
-    body.append(us_map(grid, spots, colorer('senate'), ''))
-    body.append(small_boxes(colorer('senate'), spots, '', states))
-    body.append(map_legend(year))
-    write(os.path.join(out_dir, 'index.html'), page(f'U.S. Election Results {year} (retro)', ''.join(body), depth0, year, status, refresh))
+        body.append(para(takeaway(lv, year, races[lv], T[lv], S)))
+    body += [h2('PAGES IN THIS SECTION'), menu(year, [('Senate map', FILES['front'], P('front'))] + index_links[1:])]
+    emit('national', f'U.S. Election Results {year} (retro)', ''.join(body), 'NATIONAL', BLUE, WHITE)
 
     # --- Senate / Governor ---
-    for lv in ['senate', 'governor']:
-        b = [h2(f'{LNAME[lv]} {year}'), balance(lv, T[lv], year),
-             f'<P><FONT FACE="Arial,Helvetica" SIZE="2">{takeaway(lv, year, races[lv], T[lv], S)}</FONT></P>\n',
-             us_map(grid, spots, colorer(lv), ''), small_boxes(colorer(lv), spots, '', states), map_legend(year),
-             h2(f'All {len(races[lv])} races'),
-             f'<FONT FACE="Arial,Helvetica" SIZE="2"><B>*</B> = winner{" (called by CivicAPI; unofficial until certified)" if year == 2026 else ""}. (i) = incumbent. '
-             f'Margin = leader minus runner-up, in points.{" Poll average: D+ means the Democrat led (likely voters, since Aug. 1)." if show_poll else ""}</FONT><BR><BR>\n',
-             race_table(lv, races[lv], polls, '', show_poll)]
-        write(os.path.join(out_dir, PAGE[lv]), page(f'{LNAME[lv]} {year} (retro)', ''.join(b), depth0, year, status, refresh))
+    for lv, bg, fg in [('senate', RED, WHITE), ('governor', YELLOW, BLACK)]:
+        kind = lv
+        b = [balance(lv, T[lv], year), para(takeaway(lv, year, races[lv], T[lv], S))]
+        if lv == 'senate':
+            b.append(para(f'Map of the Senate races: <A HREF="{FILES["front"]}">page {P("front")}</A>.'))
+        else:
+            col = colorer(lv)
+            b += [block_map(mosaic, mspots, col, ''), small_boxes(col, mspots, '', states), map_legend(year)]
+        b += [h2(f'ALL {len(races[lv])} RACES'),
+              para(f'<B>*</B> = winner{" (called by CivicAPI; unofficial until certified)" if year == 2026 else ""}. (i) = incumbent. '
+                   f'Margin = leader minus runner-up, in points.{" Poll average: D+ means the Democrat led (likely voters, since Aug. 1)." if show_poll else ""}'),
+              race_table(lv, races[lv], polls, '', show_poll)]
+        emit(kind, f'{LNAME[lv]} {year} (retro)', ''.join(b), 'SENATE' if lv == 'senate' else 'GOVERNORS', bg, fg)
 
     # --- House ---
     hr = races['house']
@@ -546,44 +634,41 @@ def build_year(year, M, S, polls, status, grid, spots, arts, out_dir):
     if year == 2026 and polls and polls.get('generic'):
         g = polls['generic']
         gen = f" Final generic-ballot polling average: {pair_label(g['pair'], g['final']['m'])} ({g['final']['n']} national polls of likely voters)."
-    b = [h2(f'U.S. House {year}'), balance('house', T['house'], year),
-         f'<P><FONT FACE="Arial,Helvetica" SIZE="2">{takeaway("house", year, hr, T["house"], S)}<BR><BR>{nat}{gen}</FONT></P>\n',
-         '<FONT FACE="Arial,Helvetica" SIZE="2">Jump to: ' + ' '.join(f'<A HREF="#{s}">{s}</A>' for s in sorted({r["state"] for r in hr})) + '</FONT><BR><BR>\n',
-         f'<FONT FACE="Arial,Helvetica" SIZE="2"><B>*</B> = winner. Click a state for every candidate. Flips are not marked in states with a new map this year.</FONT><BR><BR>\n',
-         house_table(hr, S, '').replace('<TR BGCOLOR="#EEEEEE"><TD COLSPAN="6"><FONT FACE="Arial,Helvetica" SIZE="2"><B><A HREF="st/',
-                                         '<TR BGCOLOR="#EEEEEE"><TD COLSPAN="6"><FONT FACE="Arial,Helvetica" SIZE="2"><B><A NAME="@@"></A><A HREF="st/')]
-    body = ''.join(b)
-    # anchors for the jump list
-    body = re.sub(r'<A NAME="@@"></A><A HREF="st/(\w\w)\.html">', lambda m: f'<A NAME="{m.group(1)}"></A><A HREF="st/{m.group(1)}.html">', body)
-    write(os.path.join(out_dir, 'house.html'), page(f'U.S. House {year} (retro)', body, depth0, year, status, refresh))
+    b = [balance('house', T['house'], year),
+         para(f'{takeaway("house", year, hr, T["house"], S)}<BR><BR>{nat}{gen}'),
+         h2('JUMP TO A STATE'),
+         para(' '.join(f'<A HREF="#{s}">{s}</A>' for s in sorted({r["state"] for r in hr}))),
+         para('<B>*</B> = winner. Pick a state for every candidate. Flips are not marked in states with a new map this year.'),
+         house_table(hr, S, '')]
+    emit('house', f'U.S. House {year} (retro)', ''.join(b), 'HOUSE', GREEN, BLACK)
 
     # --- States A-Z ---
-    rows = ['<TABLE BORDER="1" CELLPADDING="3" CELLSPACING="0">\n', TH(['State', 'Senate', 'Governor', 'House seats'])]
+    snum = {st: (200 if year == 2026 else 700) + i + 1 for i, st in enumerate(states)}
+    rows = ['<TABLE BORDER="0" CELLPADDING="3" CELLSPACING="0" WIDTH="100%">\n', TH(['Page', 'State', 'Senate', 'Governor', 'House seats'])]
     for st in states:
         s = by_state.get(st, {})
         def cell(lv):
             rs = s.get(lv, [])
             if not rs:
-                return f'<FONT COLOR="{GREY}">-</FONT>'
+                return '<FONT COLOR="{}">-</FONT>'.format(GREEN)
             return '<BR>'.join((font(h(r['top']['name']), pcol(r['top']['party']), bool(r['win'])) + f" ({r['top']['party']}) {'won' if r['win'] else 'leads'}")
                                if r['top'] else ('up' if lv != 'senate' or len(rs) == 1 else 'up (special)') for r in rs)
         hs = s.get('house', [])
         hcount = {p: sum(1 for r in hs if r['top'] and side(r['wc']) == p) for p in 'DRI'}
         hc = f"{len(hs)}" + (f" &nbsp; {font(str(hcount['D']) + ' D', COL['D'])} {font(str(hcount['R']) + ' R', COL['R'])}" if any(hcount.values()) else '')
-        rows.append('<TR>' + TD(f'<A HREF="st/{st}.html"><B>{h(S["names"][st])}</B></A>') + TD(cell('senate')) + TD(cell('governor')) + TD(hc) + '</TR>\n')
+        rows.append('<TR>' + TD(font(str(snum[st]), YELLOW)) + TD(f'<A HREF="st/{st}.html"><B>{h(S["names"][st])}</B></A>') + TD(cell('senate')) + TD(cell('governor')) + TD(hc) + '</TR>\n')
     rows.append('</TABLE>\n')
-    write(os.path.join(out_dir, 'states.html'), page(f'States A-Z {year} (retro)', h2(f'Every state, {year}') + ''.join(rows), depth0, year, status, refresh))
+    emit('states', f'States A-Z {year} (retro)', ''.join(rows), 'STATES A-Z', CYAN, BLACK)
 
     # --- one page per state ---
     for i, st in enumerate(states):
         s = by_state.get(st, {})
         name = S['names'][st]
         prev_st, next_st = states[i - 1], states[(i + 1) % len(states)]
-        b = [f'<FONT FACE="Arial,Helvetica" SIZE="2">&lt;&lt; <A HREF="{prev_st}.html">{h(S["names"][prev_st])}</A> &nbsp; | &nbsp; '
-             f'<A HREF="../states.html">All states</A> &nbsp; | &nbsp; <A HREF="{next_st}.html">{h(S["names"][next_st])}</A> &gt;&gt;</FONT>\n',
-             h2(f'{h(name).upper()} &nbsp; {year}'),
-             '<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0"><TR><TD BGCOLOR="#000000"><PRE><FONT COLOR="#33FF33">\n'
-             + '\n'.join(html.escape(' ' + l, quote=False) for l in arts[st]) + '\n</FONT></PRE></TD></TR></TABLE>\n']
+        b = [f'<FONT FACE="{FACE}" SIZE="2">&lt;&lt; <A HREF="{prev_st}.html">{h(S["names"][prev_st])}</A> <FONT COLOR="{YELLOW}">{snum[prev_st]}</FONT> &nbsp; | &nbsp; '
+             f'<A HREF="../states.html">All states</A> <FONT COLOR="{YELLOW}">{P("states")}</FONT> &nbsp; | &nbsp; '
+             f'<A HREF="{next_st}.html">{h(S["names"][next_st])}</A> <FONT COLOR="{YELLOW}">{snum[next_st]}</FONT> &gt;&gt;</FONT>\n',
+             f'<PRE><FONT COLOR="{GREEN}">\n' + '\n'.join(html.escape(' ' + l, quote=False) for l in arts[st]) + '\n</FONT></PRE>\n']
         summary = []
         for lv in LEVELS:
             for r in s.get(lv, []):
@@ -596,27 +681,27 @@ def build_year(year, M, S, polls, status, grid, spots, arts, out_dir):
             summary.append(f"U.S. House: {font(str(hcount['D']) + ' D', COL['D'], True)}, {font(str(hcount['R']) + ' R', COL['R'], True)}"
                            + (f", {hcount['I']} other" if hcount['I'] else '') + (' (won or leading)' if year == 2026 else ''))
         if summary:
-            b.append('<P><FONT FACE="Arial,Helvetica" SIZE="2">' + '<BR>'.join(summary) + '</FONT></P>\n')
+            b.append(para('<BR>'.join(summary)))
         for lv in ['senate', 'governor']:
             rs = s.get(lv, [])
-            title = LNAME[lv]
+            title = LNAME[lv].upper()
             if not rs:
-                b.append(h2(title) + f'<FONT FACE="Arial,Helvetica" SIZE="2" COLOR="{GREY}">Not on the ballot in {year}.</FONT>\n')
+                b.append(h2(title) + para(f'<FONT COLOR="{GREEN}">Not on the ballot in {year}.</FONT>'))
                 continue
             b.append(h2(title))
             b.append(race_table(lv, rs, polls, '../', show_poll).replace('<A HREF="../st/', '<A HREF="'))
-        b.append(h2(f'U.S. House ({len(hs)} seat{"s" if len(hs) != 1 else ""})'))
+        b.append(h2(f'U.S. HOUSE ({len(hs)} SEAT{"S" if len(hs) != 1 else ""})'))
         if hs and hs[0]['redrawn']:
-            b.append(f'<FONT FACE="Arial,Helvetica" SIZE="2">New district map this year; seat holders are from the old districts, so flips are not marked.</FONT><BR><BR>\n')
+            b.append(para('New district map this year; seat holders are from the old districts, so flips are not marked.'))
         if hs:
-            tb = ['<TABLE BORDER="1" CELLPADDING="3" CELLSPACING="0" WIDTH="100%">\n', TH(['District', 'Candidates (votes, share)', 'Margin', 'Status', 'Seat held by'])]
-            for j, r in enumerate(hs):
-                bg = ' BGCOLOR="#F4F4F4"' if j % 2 else ''
-                tb.append(f'<TR{bg}>' + TD(f'<B>{h(r["short"])}</B>') + TD(cand_lines(r)) + TD(margin_txt(r)) + TD(status_cell(r)) + TD(holder_txt(r)) + '</TR>\n')
+            tb = ['<TABLE BORDER="0" CELLPADDING="4" CELLSPACING="0" WIDTH="100%">\n', TH(['District', 'Candidates (votes, share)', 'Margin', 'Status', 'Seat held by'])]
+            for r in hs:
+                tb.append('<TR>' + TD(f'<B>{h(r["short"])}</B>') + TD(cand_lines(r)) + TD(margin_txt(r)) + TD(status_cell(r)) + TD(holder_txt(r)) + '</TR>\n')
             tb.append('</TABLE>\n')
             b.append(''.join(tb))
-        b.append(f'<P><FONT FACE="Arial,Helvetica" SIZE="2"><B>*</B> = winner. (i) = incumbent.</FONT></P>\n')
-        write(os.path.join(out_dir, 'st', f'{st}.html'), page(f'{name} {year} (retro)', ''.join(b), depth0 + 1, year, status, refresh))
+        b.append(para('<B>*</B> = winner. (i) = incumbent.'))
+        write(os.path.join(out_dir, 'st', f'{st}.html'),
+              page(f'{name} {year} (retro)', ''.join(b), depth0 + 1, year, status, refresh, 'states', h(name).upper(), MAGENTA, WHITE, num=snum[st]))
 
 
 def main():
@@ -624,16 +709,18 @@ def main():
     ap.add_argument('--data', default='us/data')
     ap.add_argument('--out', default='us/retro')
     ap.add_argument('--years', default='2026,2024')
-    ap.add_argument('--ascii', action='store_true', help='redraw the ASCII art file first')
+    ap.add_argument('--ascii', action='store_true', help='redraw the ASCII art and block map file first')
     a = ap.parse_args()
     art_file = os.path.join(a.data, 'retro_ascii.json')
-    if a.ascii or not os.path.exists(art_file):
+    art = json.load(open(art_file)) if os.path.exists(art_file) and not a.ascii else None
+    if art is None or 'mosaic' not in art:
         import retro_ascii as A
         shapes = A.load_shapes(os.path.join(a.data, 'us_states_albers.json'))
-        g = A.us_grid(shapes, 100)
-        spots = A.label_spots(g, set(shapes) - {'DC'})
-        art = {'grid': [[[c['st'], c['ch']] if c else None for c in row] for row in g], 'spots': spots,
-               'states': {s: A.state_art(shapes[s]) for s in sorted(shapes) if s != 'DC'}}
+        if art is None:
+            g = A.us_grid(shapes, 100)
+            art = {'grid': [[[c['st'], c['ch']] if c else None for c in row] for row in g], 'spots': A.label_spots(g, set(shapes) - {'DC'}),
+                   'states': {s: A.state_art(shapes[s]) for s in sorted(shapes) if s != 'DC'}}
+        art['mosaic'], art['mosaic_spots'] = A.mosaic_grid(shapes)
         json.dump(art, open(art_file, 'w'), separators=(',', ':'))
     rd = lambda f: list(csv.DictReader(open(os.path.join(a.data, f), encoding='utf-8')))
     results, live = rd('us_results.csv'), rd('live_2026.csv')
@@ -648,12 +735,9 @@ def main():
     except (OSError, ValueError):
         polls = None
     M = {lv: {y: build(lv, y, results, live, S) for y in (2024, 2026)} for lv in LEVELS}
-    art = json.load(open(art_file))
-    grid = [[{'st': c[0], 'ch': c[1]} if c else None for c in row] for row in art['grid']]
-    spots = {k: tuple(v) for k, v in art['spots'].items()}
-    arts = art['states']
+    mspots = {k: tuple(v) for k, v in art['mosaic_spots'].items()}
     for y in [int(x) for x in a.years.split(',')]:
-        build_year(y, M, S, polls, status, grid, spots, arts, a.out if y == 2026 else os.path.join(a.out, str(y)))
+        build_year(y, M, S, polls, status, art['mosaic'], mspots, art['states'], a.out if y == 2026 else os.path.join(a.out, str(y)))
     n = sum(len(fs) for _, _, fs in os.walk(a.out))
     print(json.dumps({'out': a.out, 'files': n, 'phase': (status or {}).get('phase')}))
 
