@@ -10,8 +10,8 @@
   const PLURAL = { R: 'Republicans', D: 'Democrats', I: 'Independents' };
   const pcol = (p) => css({ R: '--lx-rep', D: '--lx-dem', I: '--lx-ind', L: '--lx-lib', G: '--lx-grn' }[p] || '--cds-chart-muted');
   const RAMP = {
-    R: ['#fcd5d0', '#f09a8f', '#da5a4c', '#b02a1f', '#73110b'],
-    D: ['#d3e1fb', '#93b4ef', '#5583dc', '#2a56b4', '#0f2d70'],
+    R: ['#ffd0cc', '#ff8a7e', '#ff4536', '#e8202a', '#a8000f'],
+    D: ['#cce2ff', '#7db3ff', '#3a8aff', '#0a6cff', '#003fc4'],
     I: ['#e6dbf4', '#c3a9e6', '#9c74d3', '#7446b3', '#4a2580'],
   };
   const BINS = [0.05, 0.1, 0.2, 0.4];

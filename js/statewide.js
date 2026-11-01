@@ -305,7 +305,7 @@
     const toOf = (f) => T ? T.county.get(year + '|' + f) : null;
     const fill = (r, f) => p.view === 'turnout' ? (toOf(f) ? LX.turnoutColor(toOf(f).turnout) : muted)
       : p.view === 'reporting' ? (r && r.reported ? repColor(r) : muted)
-      : !r || !r.reported || FLAGS[p.race + '|' + r.county_fips] ? muted : p.view === 'shift' ? shiftColor(r.shift) : resultColor(r);
+      : !r || !r.reported ? css('--lx-pending') : FLAGS[p.race + '|' + r.county_fips] ? muted : p.view === 'shift' ? shiftColor(r.shift) : resultColor(r);
     let svg = d3.select(el).select('svg');
     if (svg.empty()) { el.replaceChildren(); svg = d3.select(el).append('svg').attr('viewBox', '0 0 678 645').attr('width', '100%').attr('role', 'img').attr('aria-label', 'Map of Texas counties'); const zm = LX.zoomMap(el, svg, 678, 645); zm.layer.append('g').attr('class', 'cties'); zm.layer.append('g').attr('class', 'selg'); }
     const card = document.getElementById('map-card'), tip = document.getElementById('map-tip');
@@ -372,7 +372,7 @@
       const g = document.createElement('span'); g.className = 'grp'; const s = document.createElement('i'); s.className = 'sw'; s.style.background = R.R[2]; s.style.opacity = 0.45;
       const s2 = document.createElement('i'); s2.className = 'sw'; s2.style.background = R.D[2]; s2.style.opacity = 0.45; g.append(s, s2, document.createTextNode('Faded: still counting')); lg.append(g);
     }
-    if (rows.length < 254 || rows.some((r) => !r.reported)) sw(muted, 'No results yet');
+    if (rows.length < 254 || rows.some((r) => !r.reported)) sw(css('--lx-pending'), 'No results yet');
   }
 
   function drawTrend(p, sw, bc, office) {

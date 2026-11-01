@@ -302,7 +302,7 @@
     radii.forEach((r, i) => { const n = counts[i]; for (let j = 0; j < n; j++) { const a = Math.PI - (n === 1 ? Math.PI / 2 : Math.PI * j / (n - 1)); pts.push({ a, r, x: cx + r * Math.cos(a), y: cy - r * Math.sin(a) }); } });
     pts.sort((p, q) => q.a - p.a || p.r - q.r);
     const dotR = Math.min(((R1 - R0) / (rows - 1 || 1)) * 0.42, (Math.PI * R0 / (counts[0] || 1)) * 0.42);
-    const col = { R: css('--lx-rep'), D: css('--lx-dem'), O: css('--lx-ind'), U: css('--cds-chart-muted') };
+    const col = { R: css('--lx-rep'), D: css('--lx-dem'), O: css('--lx-ind'), U: css('--lx-pending') };
     el.replaceChildren();
     const svg = d3.select(el).append('svg').attr('viewBox', `0 0 ${W} ${H}`).attr('width', '100%').attr('role', 'img')
       .attr('aria-label', `${c.label}: ${row.r_seats} Republicans, ${row.d_seats} Democrats` + (row.undecided_seats ? `, ${row.undecided_seats} undecided` : ''));
@@ -349,7 +349,7 @@
     const muted = css('--cds-chart-muted');
     const hasFill = (r) => r && r.decided;
     svg.select('g.d').selectAll('path').data(shapes, (d) => d.plan + d.district).join('path')
-      .attr('d', (d) => d.path).attr('fill', (d) => hasFill(byD.get(d.district)) ? fillFor(byD.get(d.district)) : muted).attr('fill-rule', 'evenodd')
+      .attr('d', (d) => d.path).attr('fill', (d) => hasFill(byD.get(d.district)) ? fillFor(byD.get(d.district)) : byD.get(d.district) && year === 2026 ? css('--lx-pending') : muted).attr('fill-rule', 'evenodd')
       .attr('stroke', 'var(--color-panel)').attr('stroke-width', 0.6).attr('vector-effect', 'non-scaling-stroke').style('cursor', 'pointer')
       .on('mousemove', (event, d) => {
         const r = byD.get(d.district); tip.replaceChildren();
@@ -375,7 +375,9 @@
       lg.append(g);
     }
     const n = document.createElement('span'); n.textContent = 'margin, light → dark: <10 · 10–20 · 20–40 · 40–60 · 60+ pts (unopposed = darkest)'; lg.append(n);
-    if (shapes.some((d) => !hasFill(byD.get(d.district)))) { const g = document.createElement('span'); g.className = 'grp'; const s = document.createElement('i'); s.className = 'sw'; s.style.background = muted; g.append(s, document.createTextNode(year === 2026 ? 'No results yet' : 'Not on the ballot')); lg.append(g); }
+    const swatch = (bg, text) => { const g = document.createElement('span'); g.className = 'grp'; const s = document.createElement('i'); s.className = 'sw'; s.style.background = bg; g.append(s, document.createTextNode(text)); lg.append(g); };
+    if (year === 2026 && shapes.some((d) => { const r = byD.get(d.district); return r && !hasFill(r); })) swatch(css('--lx-pending'), 'No results yet');
+    if (shapes.some((d) => !byD.get(d.district) || (year !== 2026 && !hasFill(byD.get(d.district))))) swatch(muted, 'Not on the ballot');
   }
 
   function drawDetail(c, r, year, sel, pending, toOf) {

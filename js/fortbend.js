@@ -183,7 +183,7 @@
     let svg = d3.select(el).select('svg');
     if (svg.empty()) { el.replaceChildren(); svg = d3.select(el).append('svg').attr('viewBox', '0 0 700 637').attr('width', '100%').attr('role', 'img').attr('aria-label', 'Fort Bend County precinct map'); svg.append('g').attr('class', 'p'); }
     const card = document.getElementById('fb-map-card'), tip = document.getElementById('fb-map-tip');
-    const fill = (p) => !p ? blank : !p.reported ? muted : p.margin == null ? muted : LX.rampColor(p.margin >= 0 ? 'R' : 'D', p.margin);
+    const fill = (p) => !p ? blank : !p.reported ? css('--lx-pending') : p.margin == null ? muted : LX.rampColor(p.margin >= 0 ? 'R' : 'D', p.margin);
     svg.select('g.p').selectAll('path').data(list, (d) => d.set + d.precinct).join('path')
       .attr('d', (d) => d.path).attr('fill', (d) => fill(byP.get(d.precinct))).attr('fill-rule', 'evenodd').attr('stroke', 'var(--color-border-line)').attr('stroke-width', 0.5)
       .on('mousemove', (event, d) => {
