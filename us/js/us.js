@@ -360,12 +360,14 @@
       : [['D', t.notUp.D + t.notUp.I, 'not up', 0.3], ['D', t.won.D, 'won', 1], ['D', t.lead.D, 'leading', 0.6], ['U', t.undecided - t.lead.D - t.lead.R - t.lead.I, 'not yet counted', 1],
         ['I', t.won.I + t.lead.I, 'independent', 0.8], ['R', t.lead.R, 'leading', 0.6], ['R', t.won.R, 'won', 1], ['R', t.notUp.R, 'not up', 0.3]];
     const Wd = 1000, Hd = 40;
+    // solid tints from the party ramps (not see-through), so the bar stays bright on dark backgrounds too
+    const shade = (p, op) => op >= 1 || !RAMP[p] || p === 'I' ? pcol(p) : RAMP[p][op >= 0.5 ? 2 : 1];
     const x = d3.scaleLinear().domain([0, N]).range([0, Wd]);
     let acc = 0;
     const segs = parts.filter((p) => p[1] > 0).map((p) => { const s = { party: p[0], n: p[1], what: p[2], op: p[3], x0: acc }; acc += p[1]; return s; });
     const svg = d3.select(box).selectAll('svg').data([0]).join('svg').attr('viewBox', `0 0 ${Wd} ${Hd + 22}`).attr('preserveAspectRatio', 'none');
     svg.selectAll('rect.seg').data(segs).join('rect').attr('class', 'seg').attr('x', (d) => x(d.x0)).attr('width', (d) => Math.max(0, x(d.n) - x(0)))
-      .attr('y', 0).attr('height', Hd).attr('fill', (d) => (d.party === 'U' ? css('--lx-pending') : pcol(d.party))).attr('fill-opacity', (d) => d.op)
+      .attr('y', 0).attr('height', Hd).attr('fill', (d) => (d.party === 'U' ? css('--lx-pending') : shade(d.party, d.op))).attr('fill-opacity', 1)
       .attr('stroke', css('--color-panel')).attr('stroke-width', 1)
       .selectAll('title').data((d) => [d]).join('title').text((d) => `${d.n} ${d.party === 'U' ? 'races not yet counted' : (PLURAL[d.party] || '') + ' — ' + d.what}`);
     const half = level === 'governor' ? null : maj;
@@ -384,8 +386,8 @@
     $('bal-mid').textContent = t.undecided ? `${t.undecided} ${t.undecided === 1 ? 'race' : 'races'} not decided` + (t.won.I && level !== 'senate' ? '' : '') : '';
     const legend = $('bal-legend');
     legend.replaceChildren();
-    const item = (color, op, text) => { const s = el('span', 'grp'); const sw = el('i', 'sw'); sw.style.background = color; sw.style.opacity = op; s.append(sw, document.createTextNode(text)); legend.append(s); };
-    item(pcol('D'), 1, 'won'); if (level !== 'house') item(pcol('D'), 0.3, 'seat not up'); if (year === 2026) { item(pcol('D'), 0.6, 'leading'); item(css('--lx-pending'), 1, 'not decided'); }
+    const item = (color, op, text) => { const s = el('span', 'grp'); const sw = el('i', 'sw'); sw.style.background = color; s.append(sw, document.createTextNode(text)); legend.append(s); };
+    item(pcol('D'), 1, 'won'); if (level !== 'house') item(RAMP.D[1], 1, 'seat not up'); if (year === 2026) { item(RAMP.D[2], 1, 'leading'); item(css('--lx-pending'), 1, 'not decided'); }
     if (t.won.I || t.lead.I) item(pcol('I'), 0.8, 'independent (caucus not declared)');
   }
 
