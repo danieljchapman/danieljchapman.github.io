@@ -221,20 +221,62 @@ def clock(status):
     return d.strftime('%a %d %b'), d.strftime('%H:%M')
 
 
-def band(text, bg, fg, right='', size=6):
-    """A teletext title bar: big letters on a colored background."""
-    r = f'<TD BGCOLOR="{bg}" ALIGN="RIGHT"><FONT FACE="{FACE}" SIZE="{size}" COLOR="{fg}"><B>{right}</B></FONT></TD>' if right else ''
-    return (f'<TABLE WIDTH="100%" CELLPADDING="6" CELLSPACING="0" BORDER="0"><TR><TD BGCOLOR="{bg}"><FONT FACE="{FACE}" SIZE="{size}" COLOR="{fg}"><B>{text}</B></FONT></TD>'
-            f'{r}</TR></TABLE>\n')
+# A ticked ballot going into a ballot box, in teletext blocks (Y ballot, K black, W box, B stripe). 14 x 10 blocks of 7 x 12 px.
+BALLOT_ICON = ['....YYYYYY....',
+               '....YYYYYK....',
+               '....YYYYKY....',
+               '....YKYKYY....',
+               '....YYKYYY....',
+               'WWWKYYYYYYKWWW',
+               'WWWWWWWWWWWWWW',
+               'WWBBBBBBBBBBWW',
+               'WWWWWWWWWWWWWW',
+               '.WW........WW.']
+ICON_COL = {'Y': YELLOW, 'W': WHITE, 'K': BLACK, 'B': BLUE, '.': BLACK}
+
+
+def icon(rows=BALLOT_ICON, w=7, hgt=12):
+    """A block-graphics picture on a black panel (runs of one color merged into one cell)."""
+    n = len(rows[0])
+    trs = ['<TR>' + ''.join(f'<TD WIDTH="{w}"></TD>' for _ in range(n)) + '</TR>']
+    for row in rows:
+        cells, i = [], 0
+        while i < n:
+            j = i
+            while j < n and ICON_COL[row[j]] == ICON_COL[row[i]]:
+                j += 1
+            cells.append(f'<TD BGCOLOR="{ICON_COL[row[i]]}"{f" COLSPAN={j - i}" if j - i > 1 else ""} HEIGHT="{hgt}"><FONT SIZE="1">&nbsp;</FONT></TD>')
+            i = j
+        trs.append('<TR>' + ''.join(cells) + '</TR>')
+    return f'<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0" BGCOLOR="{BLACK}" WIDTH="{n * w}">' + ''.join(trs) + '</TABLE>'
+
+
+def strip(n=48):
+    """A row of separated blocks in the teletext colors, like the test-card bars."""
+    cyc = [RED, GREEN, YELLOW, BLUE, MAGENTA, CYAN, WHITE]
+    cells = ''.join(f'<TD BGCOLOR="{cyc[i % len(cyc)]}" HEIGHT="6"><FONT SIZE="1">&nbsp;</FONT></TD>' for i in range(n))
+    return f'<TABLE WIDTH="100%" BORDER="0" CELLPADDING="0" CELLSPACING="3" BGCOLOR="{BLACK}"><TR>{cells}</TR></TABLE>\n'
+
+
+def band(text, bg, fg, right=''):
+    """The teletext title screen: ballot-box icon on a black panel, the service name, a big title, the year,
+    then a strip of colored blocks."""
+    return (f'<TABLE WIDTH="100%" CELLPADDING="0" CELLSPACING="0" BORDER="0" BGCOLOR="{bg}"><TR>'
+            f'<TD BGCOLOR="{bg}" WIDTH="130" VALIGN="MIDDLE"><TABLE BORDER="0" CELLPADDING="6" CELLSPACING="8" BGCOLOR="{bg}"><TR><TD BGCOLOR="{BLACK}">{icon()}</TD></TR></TABLE></TD>'
+            f'<TD BGCOLOR="{bg}" VALIGN="MIDDLE"><FONT FACE="{FACE}" SIZE="3" COLOR="{fg}"><B>BALLOTFAX &nbsp;&middot;&nbsp; U.S. ELECTIONS</B></FONT><BR>'
+            f'<FONT FACE="{FACE}" SIZE="7" COLOR="{fg}"><B>{text}</B></FONT></TD>'
+            f'<TD BGCOLOR="{bg}" ALIGN="RIGHT" VALIGN="MIDDLE"><TABLE BORDER="0" CELLPADDING="6" CELLSPACING="0"><TR><TD BGCOLOR="{BLACK}">'
+            f'<FONT FACE="{FACE}" SIZE="6" COLOR="{YELLOW}"><B>{right}</B></FONT></TD></TR></TABLE></TD><TD BGCOLOR="{bg}" WIDTH="8"></TD>'
+            f'</TR></TABLE>\n' + strip())
 
 
 def page(title, body, depth, year, status, refresh, kind, band_text, band_bg, band_fg, num=None):
     up = '../' * depth
     yr = '' if year == 2026 else '2024/'
     n = num or pno(kind, year)
-    link = lambda k, label: f'<A HREF="{up}{yr}{FILES[k]}">{label}</A> <FONT COLOR="{YELLOW}">{pno(k, year)}</FONT>'
-    other = (f'<A HREF="{up}2024/index.html">2024 results</A> <FONT COLOR="{YELLOW}">600</FONT>' if year == 2026
-             else f'<A HREF="{up}index.html">2026 results</A> <FONT COLOR="{YELLOW}">100</FONT>')
+    link = lambda k, label: f'<FONT COLOR="{YELLOW}">{pno(k, year)}</FONT> <A HREF="{up}{yr}{FILES[k]}">{label}</A>'
+    other = (f'<FONT COLOR="{YELLOW}">600</FONT> <A HREF="{up}2024/index.html">2024 results</A>' if year == 2026
+             else f'<FONT COLOR="{YELLOW}">100</FONT> <A HREF="{up}index.html">2026 results</A>')
     nav = ' &nbsp; '.join([link('front', 'Map'), link('national', 'National'), link('senate', 'Senate'), link('house', 'House'),
                            link('governor', 'Governors'), link('states', 'States'), other])
     meta = f'<META HTTP-EQUIV="Refresh" CONTENT="{REFRESH}">\n' if refresh else ''
