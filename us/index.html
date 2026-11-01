@@ -200,7 +200,7 @@ button { font: inherit; }
 
 .lx-maphold[hidden] { display: none; }
 #map svg { overflow: hidden; }
-#map text.stl { font-size: 7.5px; font-weight: 600; text-anchor: middle; fill: var(--color-fg); paint-order: stroke; stroke: var(--color-panel); stroke-width: 2.2px; stroke-opacity: .85; pointer-events: none; }
+#map text.stl { font-size: 7.5px; font-weight: 600; text-anchor: middle; fill: #ffffff; paint-order: stroke; stroke: #000000; stroke-width: 2.2px; stroke-linejoin: round; pointer-events: none; }
 .lx-legend .sw.dot { border-radius: 50%; border: 1px solid var(--color-fg); width: .6rem; height: .6rem; }
 .lx-balance svg { width: 100%; height: 3.6rem; display: block; overflow: visible; }
 .lx-balance text.maj { font-size: 12px; fill: var(--color-fg); }
@@ -244,8 +244,8 @@ button { font: inherit; }
 /* Theme (Nov 1, 2026): Jost type, brighter party colors, yellow = no results yet */
 :root { --font-anthropic-sans: Jost, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
         --font-anthropic-serif: Jost, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
-.lx { --lx-rep: #e8202a; --lx-dem: #0a6cff; --lx-pending: #ffcf1f; }
-@media (prefers-color-scheme: dark) { .lx { --lx-rep: #ff4a4a; --lx-dem: #4d94ff; --lx-pending: #e0b000; } }
+.lx { --lx-rep: #e8202a; --lx-dem: #0a6cff; --lx-pending: #ffcf1f; --lx-lib: #e8700f; }
+@media (prefers-color-scheme: dark) { .lx { --lx-rep: #ff4a4a; --lx-dem: #4d94ff; --lx-pending: #e0b000; --lx-lib: #ff8c33; } }
 </style>
 <div class="lx">
   <header class="lx-head" id="top">
