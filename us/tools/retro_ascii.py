@@ -279,3 +279,29 @@ def label_spots(grid, states):
             if d > best.get(st, (-1,))[0]:
                 best[st] = (d, r, c)
     return {st: (v[1], v[2]) for st, v in best.items() if st in states}
+
+
+def state_blocks(paths, cols=48, max_rows=24, aspect=1.5, keep=0.4):
+    """A single state in teletext blocks: list of strings, '#' = block lit, ' ' = empty. Blocks are 1.5 times as
+    tall as wide (drawn 12 x 18 px). Islands and lakes under 1% of the state's largest ring are left out."""
+    global ASPECT
+    big = max(_area(p) for p in paths)
+    paths = [p for p in paths if _area(p) >= 0.01 * big]
+    allp = np.vstack([p.vertices for p in paths])
+    x0, y0 = allp.min(0); x1, y1 = allp.max(0)
+    w, h = x1 - x0, y1 - y0
+    c = cols
+    if h / (w / c * aspect) > max_rows:
+        c = max(8, int(max_rows * aspect * w / h))
+    old, ASPECT = ASPECT, aspect
+    try:
+        gx, gy, cw, ch, rows = _grid((x0, y0, x1, y1), c)
+        cov = _inside(paths, _samples(gx, gy, cw, ch, rows, c)).reshape(rows, c, SUB, SUB).mean(axis=(-1, -2))
+    finally:
+        ASPECT = old
+    lines = [''.join('#' if cov[r, k] >= keep else ' ' for k in range(c)).rstrip() for r in range(rows)]
+    while lines and not lines[0].strip():
+        lines.pop(0)
+    while lines and not lines[-1].strip():
+        lines.pop()
+    return lines

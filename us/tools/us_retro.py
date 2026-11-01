@@ -3,7 +3,7 @@
 styled like 1980s teletext ("Ballotfax"): black screen, the eight teletext colors, numbered pages (P100 Senate block
 map, P101 national overview, P110 Senate, P120 House, P130 governors, P150 states, P201-250 states; 2024 in the 600s/700s).
 
-No JavaScript, no CSS, no images: tables, <FONT> colors, a block map made of colored table cells, ASCII-art state maps in <PRE>. Built from the same files as
+No JavaScript, no CSS, no images: tables, <FONT> colors, a block map made of colored table cells, and each state drawn in blocks. Built from the same files as
 the National page, and rebuilt by the election-night workflow after every update (us/tools/fetch_live.sh), so it
 is as current as the main page. Pages reload themselves every 2 minutes until every 2026 race is called.
 
@@ -464,9 +464,10 @@ def house_table(races, S, link_prefix):
 
 # ---------- teletext block map ----------
 def map_color(r):
-    """(color, pattern) for a state's race: solid = won, check = leading, white = not counted yet, blue = no race."""
+    """(color, pattern) for a state's race: solid = won, check = leading, white = not counted yet,
+    sparse white dots = no race (a pattern, not a color, so it can't be read as a party)."""
     if not r:
-        return BLUE, 'solid'
+        return WHITE, 'dots'
     if r['win']:
         return COL.get(side(r['wc']), WHITE), 'solid'
     if r['total'] and r['lead']:
@@ -475,7 +476,12 @@ def map_color(r):
 
 
 def label_fg(bg):
-    return WHITE if bg == BLUE else BLACK
+    return WHITE if bg in (BLUE, BLACK) else BLACK
+
+
+def lit(pat, r, c):
+    """Is this block lit for the pattern? solid: all; check: every other; dots: one in four."""
+    return pat == 'solid' or (pat == 'check' and (r + c) % 2 == 0) or (pat == 'dots' and r % 2 == 0 and c % 2 == 0)
 
 
 def block_map(mosaic, spots, color_of, link_prefix):
@@ -491,7 +497,8 @@ def block_map(mosaic, spots, color_of, link_prefix):
             st, border = row[c]
             if (ri, c) in at:
                 lab = at[(ri, c)]
-                bg, _ = color_of(lab)
+                bg, pat = color_of(lab)
+                bg = BLACK if pat == 'dots' else bg
                 cells.append([bg, 2, f'<A HREF="{link_prefix}st/{lab}.html"><FONT SIZE="1" COLOR="{label_fg(bg)}"><B>{lab}</B></FONT></A>'])
                 c += 2
                 continue
@@ -499,7 +506,7 @@ def block_map(mosaic, spots, color_of, link_prefix):
                 bg = BLACK
             else:
                 col, pat = color_of(st)
-                bg = col if pat == 'solid' or (ri + c) % 2 == 0 else BLACK
+                bg = col if lit(pat, ri, c) else BLACK
             if cells and cells[-1][0] == bg and not cells[-1][2]:
                 cells[-1][1] += 1
             else:
@@ -513,10 +520,31 @@ def block_map(mosaic, spots, color_of, link_prefix):
     return (f'<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0" BGCOLOR="{BLACK}" WIDTH="{cols * MAP_W}">\n' + '\n'.join(trs) + '\n</TABLE>\n')
 
 
+STATE_W, STATE_H = 12, 18   # one block of a state outline, in pixels
+
+
+def state_blocks(lines, col=YELLOW):
+    """One state's outline in yellow teletext blocks (runs of lit or dark blocks merged into one cell)."""
+    cols = max(len(l) for l in lines)
+    trs = ['<TR>' + ''.join(f'<TD WIDTH="{STATE_W}"></TD>' for _ in range(cols)) + '</TR>']
+    for l in lines:
+        l = l.ljust(cols)
+        runs, i = [], 0
+        while i < cols:
+            j = i
+            while j < cols and l[j] == l[i]:
+                j += 1
+            runs.append((l[i] == '#', j - i)); i = j
+        trs.append('<TR>' + ''.join(f'<TD BGCOLOR="{col if on else BLACK}"{f" COLSPAN={n}" if n > 1 else ""} HEIGHT="{STATE_H}"><FONT SIZE="1">&nbsp;</FONT></TD>'
+                                    for on, n in runs) + '</TR>')
+    return f'<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0" BGCOLOR="{BLACK}" WIDTH="{cols * STATE_W}">\n' + '\n'.join(trs) + '\n</TABLE>\n'
+
+
 def swatch(col, pat='solid'):
-    if pat == 'check':
-        return (f'<TD><TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0"><TR><TD BGCOLOR="{col}" WIDTH="8" HEIGHT="7"></TD><TD BGCOLOR="{BLACK}" WIDTH="8"></TD></TR>'
-                f'<TR><TD BGCOLOR="{BLACK}" WIDTH="8" HEIGHT="7"></TD><TD BGCOLOR="{col}" WIDTH="8"></TD></TR></TABLE></TD>')
+    if pat in ('check', 'dots'):
+        q = [col if lit(pat, r, c) else BLACK for r in (0, 1) for c in (0, 1)]
+        return (f'<TD><TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0"><TR><TD BGCOLOR="{q[0]}" WIDTH="8" HEIGHT="7"></TD><TD BGCOLOR="{q[1]}" WIDTH="8"></TD></TR>'
+                f'<TR><TD BGCOLOR="{q[2]}" WIDTH="8" HEIGHT="7"></TD><TD BGCOLOR="{q[3]}" WIDTH="8"></TD></TR></TABLE></TD>')
     return f'<TD BGCOLOR="{col}" WIDTH="16"><FONT SIZE="1">&nbsp;</FONT></TD>'
 
 
@@ -537,7 +565,7 @@ def map_legend(year):
     items = [(COL['D'], 'solid', 'Dem. won'), (COL['R'], 'solid', 'Rep. won'), (COL['I'], 'solid', 'Ind. won')]
     if year == 2026:
         items += [(COL['D'], 'check', 'Dem. leads'), (COL['R'], 'check', 'Rep. leads'), (WHITE, 'solid', 'not counted yet')]
-    items.append((BLUE, 'solid', 'no race'))
+    items.append((WHITE, 'dots', 'no race'))
     cells = ''.join(swatch(c, p) + f'<TD><FONT FACE="{FACE}" SIZE="2">&nbsp;{t}&nbsp;&nbsp;</FONT></TD>' for c, p, t in items)
     return f'<TABLE BORDER="0" CELLPADDING="1" CELLSPACING="2"><TR>{cells}</TR></TABLE>\n'
 
@@ -668,7 +696,7 @@ def build_year(year, M, S, polls, status, mosaic, mspots, arts, out_dir):
         b = [f'<FONT FACE="{FACE}" SIZE="2">&lt;&lt; <A HREF="{prev_st}.html">{h(S["names"][prev_st])}</A> <FONT COLOR="{YELLOW}">{snum[prev_st]}</FONT> &nbsp; | &nbsp; '
              f'<A HREF="../states.html">All states</A> <FONT COLOR="{YELLOW}">{P("states")}</FONT> &nbsp; | &nbsp; '
              f'<A HREF="{next_st}.html">{h(S["names"][next_st])}</A> <FONT COLOR="{YELLOW}">{snum[next_st]}</FONT> &gt;&gt;</FONT>\n',
-             f'<PRE><FONT COLOR="{GREEN}">\n' + '\n'.join(html.escape(' ' + l, quote=False) for l in arts[st]) + '\n</FONT></PRE>\n']
+             '<BR>' + state_blocks(arts[st])]
         summary = []
         for lv in LEVELS:
             for r in s.get(lv, []):
@@ -713,7 +741,7 @@ def main():
     a = ap.parse_args()
     art_file = os.path.join(a.data, 'retro_ascii.json')
     art = json.load(open(art_file)) if os.path.exists(art_file) and not a.ascii else None
-    if art is None or 'mosaic' not in art:
+    if art is None or 'mosaic' not in art or 'state_blocks' not in art:
         import retro_ascii as A
         shapes = A.load_shapes(os.path.join(a.data, 'us_states_albers.json'))
         if art is None:
@@ -721,6 +749,7 @@ def main():
             art = {'grid': [[[c['st'], c['ch']] if c else None for c in row] for row in g], 'spots': A.label_spots(g, set(shapes) - {'DC'}),
                    'states': {s: A.state_art(shapes[s]) for s in sorted(shapes) if s != 'DC'}}
         art['mosaic'], art['mosaic_spots'] = A.mosaic_grid(shapes)
+        art['state_blocks'] = {s: A.state_blocks(shapes[s]) for s in sorted(shapes) if s != 'DC'}
         json.dump(art, open(art_file, 'w'), separators=(',', ':'))
     rd = lambda f: list(csv.DictReader(open(os.path.join(a.data, f), encoding='utf-8')))
     results, live = rd('us_results.csv'), rd('live_2026.csv')
@@ -737,7 +766,7 @@ def main():
     M = {lv: {y: build(lv, y, results, live, S) for y in (2024, 2026)} for lv in LEVELS}
     mspots = {k: tuple(v) for k, v in art['mosaic_spots'].items()}
     for y in [int(x) for x in a.years.split(',')]:
-        build_year(y, M, S, polls, status, art['mosaic'], mspots, art['states'], a.out if y == 2026 else os.path.join(a.out, str(y)))
+        build_year(y, M, S, polls, status, art['mosaic'], mspots, art['state_blocks'], a.out if y == 2026 else os.path.join(a.out, str(y)))
     n = sum(len(fs) for _, _, fs in os.walk(a.out))
     print(json.dumps({'out': a.out, 'files': n, 'phase': (status or {}).get('phase')}))
 
