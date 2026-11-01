@@ -175,8 +175,13 @@ button { font: inherit; }
 :root { --font-anthropic-sans: Jost, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
         --font-anthropic-serif: Jost, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
         --cds-font-size-caption: 0.86rem; --cds-font-size-body: 1.02rem; --cds-font-size-heading: 1.16rem; --cds-font-size-title: 2.1rem; }
-.lx { --lx-rep: #e8202a; --lx-dem: #0a6cff; --lx-pending: #ffcf1f; --lx-lib: #e8700f; }
-@media (prefers-color-scheme: dark) { .lx { --lx-rep: #ff4a4a; --lx-dem: #4d94ff; --lx-pending: #e0b000; --lx-lib: #ff8c33; } }
+/* Orbit slate background (Nov 1, 2026): one fixed dark look, whatever the device's light/dark setting */
+:root {
+  --color-bg: #1b2430; --color-panel: #253141; --color-fg: #eaf0f5; --color-fg-muted: #9fb0c0; --color-border-line: #34445a;
+  --cds-chart-grid: #2a3646; --cds-chart-axis: #73879b; --cds-chart-reference: #8fa0b2; --cds-chart-muted: #455568;
+  --cds-surface-popover: #2a3747; --cds-border: #3c4d63; --cds-text-secondary: #9fb0c0; --cds-shadow-popover: 0 6px 24px rgba(0,0,0,.5);
+  color-scheme: dark; }
+.lx { --lx-rep: #ff4a4a; --lx-dem: #4d94ff; --lx-pending: #e8bc0c; --lx-lib: #ff8c33; }
 /* Open layout (Nov 1, 2026): no boxes; each section sits on the page background with a hairline above it */
 .lx-card { background: none; border: 0; border-radius: 0; border-top: 1px solid var(--color-border-line); padding: var(--cds-pad-md) 0 0; }
 .lx-cand.win { border-top: 3px solid var(--color-fg); padding-top: calc(var(--cds-pad-md) - 2px); }
