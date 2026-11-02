@@ -1,12 +1,15 @@
 #!/bin/bash
-# round 7: more Crane A1 file-name guesses (the media server ignores the extension)
-O=f/out7; mkdir -p $O; cd $O
+# round 8: Internet Archive copies of the Crane A1 page and files
+O=f/out8; mkdir -p $O; cd $O
 UA="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130 Safari/537.36"
-B=https://www.michigan.gov/micrc/-/media/Project/Websites/MiCRC/405CraneA1
-for s in Shape_File Shape_Files ShapeFiles Shapefiles Shapefile Shape_file Shape_files SHAPEFILE SHAPEFILES Shp_Files Shapefile_Zip Shapefiles_Zip GeoJSON Geojson KML KMZ Kmz Plan Block_Equivalency BlockEquivalency BEF Assignment Assignments Block_Assignment_File BAF_File Data_Files Files GIS_Files Map_Files Shape Shapes Partisan_Fairness PartisanFairness Core_Retention CoreRetention Legal_Description; do
-  c=$(curl -s -A "$UA" -m 30 -o /tmp/x -w '%{http_code}' "$B/405_CraneA1_$s.zip"); if [ "$c" = 200 ]; then cp /tmp/x "405_CraneA1_$s.bin"; echo "HIT $s $(file -b /tmp/x | cut -c1-40)" >> log.txt; fi
+C="https://web.archive.org/cdx/search/cdx?output=txt&fl=timestamp,original,statuscode,length&collapse=urlkey&matchType=prefix"
+curl -sS -m 180 "$C&url=michigan.gov/micrc/-/media/Project/Websites/MiCRC/405CraneA1/" > cdx_crane.txt 2>>err.txt
+curl -sS -m 180 "$C&url=michigan.gov/micrc/mapping-process-2024" > cdx_pages.txt 2>>err.txt
+curl -sS -m 180 "$C&url=www.michigan.gov/micrc/-/media/Project/Websites/MiCRC/405" > cdx_405.txt 2>>err.txt
+ts=$(grep -i 'final-remedial-state-senate' cdx_pages.txt | awk '$3==200{print $1; exit}')
+[ -n "$ts" ] && curl -sSL -m 200 -o sen_page.html "https://web.archive.org/web/${ts}id_/https://www.michigan.gov/micrc/mapping-process-2024/final-remedial-state-senate-plan"
+for h in $(grep -oiE '/micrc/-/media/[^"]*405CraneA1[^"]*' sen_page.html cdx_crane.txt cdx_405.txt 2>/dev/null | sed 's/^[^:]*://; s/&amp;/\&/g' | grep -iE 'zip|shape|shp' | sort -u | head -5); do
+  u="https://www.michigan.gov${h#*michigan.gov}"; case $h in /*) u="https://www.michigan.gov$h";; esac
+  curl -sSL -A "$UA" -m 200 -o "crane_$(basename ${h%%\?*})" -w "direct $u %{http_code} %{size_download}\n" "$u" >> log.txt
 done
-for s in 405_CraneA1 405CraneA1 CraneA1 Crane_A1; do c=$(curl -s -A "$UA" -m 30 -o /tmp/x -w '%{http_code}' "$B/$s.zip"); [ "$c" = 200 ] && { cp /tmp/x "$s.bin"; echo "HIT $s" >> log.txt; }; done
-get(){ curl -sSL -A "$UA" -m 200 -o "$1" -w "$1 %{http_code} %{size_download}\n" "${@:2}" >> log.txt 2>>err.txt; }
-get report.html https://www.michigan.gov/micrc/reports/commission-report-2024
 echo done >> log.txt; ls -la > ls.txt
