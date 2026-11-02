@@ -1,14 +1,15 @@
 #!/bin/bash
-# round 3: latest archived copy of each certified county results file
-O=f/out3; mkdir -p $O; cd $O
+# round 4: MICRC remedial Senate plan (Crane A1) shapefile; 2024 archived results variants
+O=f/out4; mkdir -p $O; cd $O
 UA="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130 Safari/537.36"
-for y in 2016 2018 2020 2022 2024; do
-  for f in ${y}GEN_MI_CENR_BY_COUNTY.xls ${y}GEN_MI_CENR_BY_COUNTY.txt ${y}GEN_MI_CENR_BY_COUNTY.csv; do
-    u=mielections.us/election/results/DATA/$f
-    curl -sS -m 120 "https://web.archive.org/cdx/search/cdx?url=$u&output=txt&fl=timestamp,statuscode,length,digest" > cdx_$f.txt 2>>err.txt
-    ts=$(awk '$2==200{t=$1} END{print t}' cdx_$f.txt)
-    [ -n "$ts" ] && curl -sSL -A "$UA" -m 300 -o $f -w "$f $ts %{http_code} %{size_download}\n" "https://web.archive.org/web/${ts}id_/https://$u" >> log.txt 2>>err.txt
+get(){ curl -sSL -A "$UA" -m 200 -o "$1" -w "$1 %{http_code} %{size_download}\n" "${@:2}" >> log.txt 2>>err.txt || echo "$1 FAIL $2" >> log.txt; }
+get sen.html https://michigan.gov/micrc/mapping-process-2024/final-remedial-state-senate-plan
+get house.html https://michigan.gov/micrc/mapping-process-2024/final-remedial-state-house-plan
+for p in sen house; do
+  for h in $(grep -oiE 'href="[^"]*\.zip[^"]*"' $p.html | sed 's/href="//; s/"$//; s/&amp;/\&/g' | sort -u); do
+    case $h in http*) u=$h;; *) u=https://michigan.gov$h;; esac
+    n=$(basename "${h%%\?*}"); get "${p}_$n" "$u"
   done
 done
-echo done >> log.txt
+curl -sS -m 120 "https://web.archive.org/cdx/search/cdx?url=mielections.us/election/results/DATA/2024*&matchType=prefix&output=txt&fl=timestamp,original,statuscode,length" > cdx_2024.txt
 ls -la > ls.txt
