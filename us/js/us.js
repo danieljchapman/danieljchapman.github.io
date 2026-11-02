@@ -522,10 +522,11 @@
     svg.append('line').attr('class', 'eday').attr('x1', ed).attr('x2', ed).attr('y1', m.t).attr('y2', H - m.b);
     svg.append('text').attr('class', 'eday-l').attr('x', ed - 3).attr('y', m.t + 8).attr('text-anchor', 'end').text('Nov 3');
     // polls: filled = independent pollster, hollow = partisan sponsor; size by weight (repeat polls by one pollster count less)
-    svg.append('g').selectAll('circle').data(rec.polls).join('circle')
-      .attr('cx', (p) => x(new Date(p.e + 'T12:00:00Z'))).attr('cy', (p) => y(p.m)).attr('r', (p) => 2 + 2.2 * Math.sqrt(p.w))
-      .attr('fill', (p) => (p.part ? 'none' : col(p.m))).attr('fill-opacity', 0.55).attr('stroke', (p) => col(p.m)).attr('stroke-width', (p) => (p.part ? 1.3 : 0.6))
-      .append('title').text((p) => `${p.p}${p.part ? ` (sponsor: ${PARTY[p.part] || p.part})` : ''}\n${fmtDate(p.s)}–${fmtDate(p.e)} · ${p.n ? fmt(p.n) + ' likely voters' : 'likely voters'}\n${rec.pair[0][0]} ${p.a}% · ${rec.pair[1][0]} ${p.b}% → ${pairLabel(rec.pair, p.m)}${p.w < 1 ? `\nCounted as ${p.w.toFixed(2)} of a poll (repeat polling)` : ''}`);
+    const px = (p) => x(new Date(p.e + 'T12:00:00Z')), py = (p) => y(p.m), pr = (p) => 2 + 2.2 * Math.sqrt(p.w);
+    const dots = svg.append('g').selectAll('circle').data(rec.polls).join('circle').attr('class', 'poll')
+      .attr('cx', px).attr('cy', py).attr('r', pr)
+      .attr('fill', (p) => (p.part ? 'none' : col(p.m))).attr('fill-opacity', 0.55).attr('stroke', (p) => col(p.m)).attr('stroke-width', (p) => (p.part ? 1.3 : 0.6));
+    const ring = svg.append('circle').attr('class', 'poll-ring').attr('r', 0).attr('display', 'none');
     // average: LOESS curve, or a flat line over the last 30 days
     if (rec.curve) {
       svg.append('path').attr('class', 'curve').attr('d', d3.line().x((c) => x(new Date(c[0] + 'T12:00:00Z'))).y((c) => y(c[1]))(rec.curve));
@@ -542,6 +543,52 @@
       svg.append('text').attr('class', 'res-l').attr('x', W - m.r + 11).attr('y', ay + 4 + (Math.abs(ay - y(rec.final.m)) < 12 ? (ay > y(rec.final.m) ? 9 : -9) : 0))
         .text(`${final || opts.actual != null ? 'Result' : 'So far'} ${pairLabel(rec.pair, act)}`);
     }
+    // click/tap a dot to show that poll below the chart (works on phones, where hover doesn't).
+    // A transparent layer over the plot picks the nearest dot, so small or overlapping dots are easy to hit.
+    const order = rec.polls.map((p, i) => i).sort((i, j) => d3.ascending(rec.polls[i].e, rec.polls[j].e) || d3.ascending(rec.polls[i].s, rec.polls[j].s));
+    const panel = el('div', 'lx-poll-pick');
+    panel.setAttribute('aria-live', 'polite');
+    box.append(panel);
+    let cur = -1;
+    const show = (i) => {
+      cur = i;
+      dots.classed('on', (p, k) => k === i).classed('dim', (p, k) => i >= 0 && k !== i);
+      panel.replaceChildren();
+      if (i < 0) { ring.attr('display', 'none'); panel.append(el('span', 'lx-poll-hint', 'Tap or click a dot to see that poll.')); return; }
+      const p = rec.polls[i];
+      ring.attr('display', null).attr('cx', px(p)).attr('cy', py(p)).attr('r', pr(p) + 3).attr('stroke', col(p.m));
+      const head = el('div', 'lx-poll-head');
+      const name = p.url ? el('a', 'lx-poll-name', p.p) : el('strong', 'lx-poll-name', p.p);
+      if (p.url) { name.href = p.url; name.target = '_blank'; name.rel = 'noopener'; }
+      head.append(name);
+      if (p.part) head.append(el('span', 'lx-poll-tag', `Sponsor: ${PARTY[p.part] || p.part}`));
+      const nav = el('span', 'lx-poll-nav');
+      const pos = order.indexOf(i);
+      const btn = (t, lbl, to) => { const b = el('button', null, t); b.type = 'button'; b.setAttribute('aria-label', lbl); b.disabled = to < 0 || to >= order.length; b.addEventListener('click', () => show(order[to])); return b; };
+      nav.append(btn('‹', 'Earlier poll', pos - 1), el('span', 'lx-poll-pos', `${pos + 1} of ${order.length}`), btn('›', 'Later poll', pos + 1));
+      const xb = el('button', 'lx-poll-x', '×'); xb.type = 'button'; xb.setAttribute('aria-label', 'Close poll details'); xb.addEventListener('click', () => show(-1));
+      nav.append(xb);
+      head.append(nav);
+      const lead = p.m >= 0 ? rec.pair[0] : rec.pair[1];
+      const res = el('div', 'lx-poll-res');
+      res.append(document.createTextNode(`${rec.pair[0][0]} ${p.a}% · ${rec.pair[1][0]} ${p.b}% → `));
+      const mg = el('strong', null, pairLabel(rec.pair, p.m)); mg.style.color = pcol(lead[1]); res.append(mg);
+      panel.append(head, res,
+        el('div', 'lx-poll-meta', `${fmtDate(p.s)}–${fmtDate(p.e)} · ${p.n ? fmt(p.n) + ' likely voters' : 'likely voters'}${p.w < 1 ? ` · counted as ${p.w.toFixed(2)} of a poll (repeat polling)` : ''}`));
+    };
+    const pt = svg.node().createSVGPoint();
+    svg.append('rect').attr('class', 'poll-hit').attr('x', m.l).attr('y', 0).attr('width', W - m.r - m.l + 8).attr('height', H - m.b + 4)
+      .on('click', (e) => {
+        pt.x = e.clientX; pt.y = e.clientY;
+        const q = pt.matrixTransform(svg.node().getScreenCTM().inverse());
+        const scale = svg.node().getBoundingClientRect().width / W || 1;
+        const reach = Math.max(10, 22 / scale);   // ~22 screen pixels, whatever the chart's size
+        let best = -1, bd = Infinity;
+        rec.polls.forEach((p, k) => { const d = Math.hypot(px(p) - q.x, py(p) - q.y) - pr(p); if (d < bd) { bd = d; best = k; } });
+        if (best >= 0 && bd <= reach) show(best === cur ? -1 : best);
+        else if (cur >= 0) show(-1);
+      });
+    show(-1);
     return svg;
   }
 
@@ -563,7 +610,7 @@
     if (act != null) line += r.status === 'final' ? ` Result: ${pairLabel(rec.pair, act)}. ${missText(rec, miss)}` : ` Current count: ${pairLabel(rec.pair, act)} (not final).`;
     wrap.append(el('p', 'lx-note', line));
     const part = rec.polls.filter((p) => p.part).length;
-    wrap.append(el('p', 'lx-note lx-polls-key', `Dots are polls of likely voters (hover for details); hollow dots${part ? ` (${part})` : ''} were sponsored by a party or campaign. Larger dots count fully; a pollster's repeat polls within two weeks share one poll's weight.${r && r.state === 'AK' ? ' Alaska polls show first choices.' : ''}`));
+    wrap.append(el('p', 'lx-note lx-polls-key', `Dots are polls of likely voters (tap or click one for details); hollow dots${part ? ` (${part})` : ''} were sponsored by a party or campaign. Larger dots count fully; a pollster's repeat polls within two weeks share one poll's weight.${r && r.state === 'AK' ? ' Alaska polls show first choices.' : ''}`));
     box.append(wrap);
   }
 
