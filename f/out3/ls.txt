@@ -1,0 +1,25 @@
+total 4160
+drwxr-xr-x 2 runner runner    4096 Nov  2 14:13 .
+drwxr-xr-x 5 runner runner    4096 Nov  2 14:12 ..
+-rw-r--r-- 1 runner runner  903605 Nov  2 14:13 2016GEN_MI_CENR_BY_COUNTY.xls
+-rw-r--r-- 1 runner runner 1246019 Nov  2 14:13 2018GEN_MI_CENR_BY_COUNTY.xls
+-rw-r--r-- 1 runner runner 1024750 Nov  2 14:13 2020GEN_MI_CENR_BY_COUNTY.xls
+-rw-r--r-- 1 runner runner 1046714 Nov  2 14:13 2022GEN_MI_CENR_BY_COUNTY.xls
+-rw-r--r-- 1 runner runner       0 Nov  2 14:13 cdx_2016GEN_MI_CENR_BY_COUNTY.csv.txt
+-rw-r--r-- 1 runner runner       0 Nov  2 14:13 cdx_2016GEN_MI_CENR_BY_COUNTY.txt.txt
+-rw-r--r-- 1 runner runner     884 Nov  2 14:12 cdx_2016GEN_MI_CENR_BY_COUNTY.xls.txt
+-rw-r--r-- 1 runner runner       0 Nov  2 14:13 cdx_2018GEN_MI_CENR_BY_COUNTY.csv.txt
+-rw-r--r-- 1 runner runner       0 Nov  2 14:13 cdx_2018GEN_MI_CENR_BY_COUNTY.txt.txt
+-rw-r--r-- 1 runner runner    1050 Nov  2 14:13 cdx_2018GEN_MI_CENR_BY_COUNTY.xls.txt
+-rw-r--r-- 1 runner runner       0 Nov  2 14:13 cdx_2020GEN_MI_CENR_BY_COUNTY.csv.txt
+-rw-r--r-- 1 runner runner       0 Nov  2 14:13 cdx_2020GEN_MI_CENR_BY_COUNTY.txt.txt
+-rw-r--r-- 1 runner runner    1576 Nov  2 14:13 cdx_2020GEN_MI_CENR_BY_COUNTY.xls.txt
+-rw-r--r-- 1 runner runner       0 Nov  2 14:13 cdx_2022GEN_MI_CENR_BY_COUNTY.csv.txt
+-rw-r--r-- 1 runner runner       0 Nov  2 14:13 cdx_2022GEN_MI_CENR_BY_COUNTY.txt.txt
+-rw-r--r-- 1 runner runner     738 Nov  2 14:13 cdx_2022GEN_MI_CENR_BY_COUNTY.xls.txt
+-rw-r--r-- 1 runner runner       0 Nov  2 14:13 cdx_2024GEN_MI_CENR_BY_COUNTY.csv.txt
+-rw-r--r-- 1 runner runner       0 Nov  2 14:13 cdx_2024GEN_MI_CENR_BY_COUNTY.txt.txt
+-rw-r--r-- 1 runner runner       0 Nov  2 14:13 cdx_2024GEN_MI_CENR_BY_COUNTY.xls.txt
+-rw-r--r-- 1 runner runner       0 Nov  2 14:12 err.txt
+-rw-r--r-- 1 runner runner     232 Nov  2 14:13 log.txt
+-rw-r--r-- 1 runner runner       0 Nov  2 14:13 ls.txt
