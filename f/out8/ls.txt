@@ -1,0 +1,10 @@
+total 36
+drwxr-xr-x  2 runner runner  4096 Nov  2 14:25 .
+drwxr-xr-x 10 runner runner  4096 Nov  2 14:22 ..
+-rw-r--r--  1 runner runner   160 Nov  2 14:25 cdx_405.txt
+-rw-r--r--  1 runner runner   160 Nov  2 14:23 cdx_crane.txt
+-rw-r--r--  1 runner runner  1116 Nov  2 14:24 cdx_pages.txt
+-rw-r--r--  1 runner runner     0 Nov  2 14:22 err.txt
+-rw-r--r--  1 runner runner     5 Nov  2 14:25 log.txt
+-rw-r--r--  1 runner runner     0 Nov  2 14:25 ls.txt
+-rw-r--r--  1 runner runner 11832 Nov  2 14:25 sen_page.html
