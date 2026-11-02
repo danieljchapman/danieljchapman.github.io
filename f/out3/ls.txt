@@ -1,0 +1,22 @@
+total 1704
+drwxr-xr-x 2 runner runner   4096 Nov  2 13:09 .
+drwxr-xr-x 5 runner runner   4096 Nov  2 13:09 ..
+-rw-r--r-- 1 runner runner 392733 Nov  2 13:09 20241105_ElecResultsFL.txt
+-rw-r--r-- 1 runner runner    478 Nov  2 13:09 20241105_ElecResultsFL.txt.hdr
+-rw-r--r-- 1 runner runner 312565 Nov  2 13:09 20260818_ElecResultsFL.txt
+-rw-r--r-- 1 runner runner    478 Nov  2 13:09 20260818_ElecResultsFL.txt.hdr
+-rw-r--r-- 1 runner runner  50456 Nov  2 13:09 20260818_ElecResultsFL_PipeDlm_Info.txt
+-rw-r--r-- 1 runner runner    477 Nov  2 13:09 20260818_ElecResultsFL_PipeDlm_Info.txt.hdr
+-rw-r--r-- 1 runner runner 138750 Nov  2 13:09 20260818_ElecResultsFL_PipeDlm_Votes.txt
+-rw-r--r-- 1 runner runner    478 Nov  2 13:09 20260818_ElecResultsFL_PipeDlm_Votes.txt.hdr
+-rw-r--r-- 1 runner runner 352661 Nov  2 13:09 20261103_ElecResultsFL.txt
+-rw-r--r-- 1 runner runner    505 Nov  2 13:09 20261103_ElecResultsFL.txt.hdr
+-rw-r--r-- 1 runner runner  68873 Nov  2 13:09 20261103_ElecResultsFL_PipeDlm_Info.txt
+-rw-r--r-- 1 runner runner    504 Nov  2 13:09 20261103_ElecResultsFL_PipeDlm_Info.txt.hdr
+-rw-r--r-- 1 runner runner 121362 Nov  2 13:09 20261103_ElecResultsFL_PipeDlm_Votes.txt
+-rw-r--r-- 1 runner runner    505 Nov  2 13:09 20261103_ElecResultsFL_PipeDlm_Votes.txt.hdr
+-rw-r--r-- 1 runner runner 249019 Nov  2 13:09 ResultsFileLayoutPipeDelimited.pdf
+-rw-r--r-- 1 runner runner    496 Nov  2 13:09 ResultsFileLayoutPipeDelimited.pdf.hdr
+-rw-r--r-- 1 runner runner      0 Nov  2 13:09 err.txt
+-rw-r--r-- 1 runner runner    364 Nov  2 13:09 log.txt
+-rw-r--r-- 1 runner runner      0 Nov  2 13:09 ls.txt

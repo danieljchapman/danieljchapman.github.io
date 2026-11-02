@@ -1,0 +1,15 @@
+HTTP/2 200 
+date: Mon, 02 Nov 2026 13:09:34 GMT
+content-type: application/octet-stream
+content-length: 392733
+last-modified: Mon, 18 Nov 2024 18:02:43 GMT
+etag: 0x8DD07FB33913659
+x-ms-request-id: 4eb3b650-901e-0001-10cb-6a7951000000
+x-ms-version: 2009-09-19
+x-ms-lease-status: unlocked
+x-ms-blob-type: BlockBlob
+x-azure-ref: 20261102T130934Z-15f8b46f6965dhdmhC1MSPuu700000000m200000000017v8
+x-fd-int-roxy-purgeid: 83088765
+x-cache: TCP_MISS
+accept-ranges: bytes
+
