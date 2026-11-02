@@ -1,0 +1,26 @@
+total 18324
+drwxr-xr-x 2 runner runner    4096 Nov  2 14:07 .
+drwxr-xr-x 3 runner runner    4096 Nov  2 13:48 ..
+-rw-r--r-- 1 runner runner    5187 Nov  2 14:04 boe_precinct.html
+-rw-r--r-- 1 runner runner  326042 Nov  2 14:04 cb_2016_sldl.zip
+-rw-r--r-- 1 runner runner  244875 Nov  2 14:04 cb_2016_sldu.zip
+-rw-r--r-- 1 runner runner  319908 Nov  2 14:04 cb_2018_sldl.zip
+-rw-r--r-- 1 runner runner  240247 Nov  2 14:04 cb_2018_sldu.zip
+-rw-r--r-- 1 runner runner 7179215 Nov  2 14:04 cb_2018_us_cd116_500k.zip
+-rw-r--r-- 1 runner runner  322585 Nov  2 14:04 cb_2022_sldl.zip
+-rw-r--r-- 1 runner runner  237866 Nov  2 14:04 cb_2022_sldu.zip
+-rw-r--r-- 1 runner runner 6966121 Nov  2 14:04 cb_2022_us_cd118_500k.zip
+-rw-r--r-- 1 runner runner  318195 Nov  2 14:04 cb_2024_sldl.zip
+-rw-r--r-- 1 runner runner  238089 Nov  2 14:04 cb_2024_sldu.zip
+-rw-r--r-- 1 runner runner     700 Nov  2 14:04 err.txt
+-rw-r--r-- 1 runner runner    1182 Nov  2 14:04 log.txt
+-rw-r--r-- 1 runner runner       0 Nov  2 14:07 ls.txt
+-rw-r--r-- 1 runner runner  105455 Nov  2 14:04 micrc_home.html
+-rw-r--r-- 1 runner runner   92814 Nov  2 14:04 micrc_maps.html
+-rw-r--r-- 1 runner runner    5806 Nov  2 14:04 mvic_2024.html
+-rw-r--r-- 1 runner runner    5628 Nov  2 14:04 mvic_home.html
+-rw-r--r-- 1 runner runner     883 Nov  2 14:04 pw.py
+-rw-r--r-- 1 runner runner    5462 Nov  2 14:07 pw_requests.json
+-rw-r--r-- 1 runner runner  364781 Nov  2 14:04 sos_bycounty.html
+-rw-r--r-- 1 runner runner 1068959 Nov  2 14:04 tl_2025_26_sldl.zip
+-rw-r--r-- 1 runner runner  656055 Nov  2 14:04 tl_2025_26_sldu.zip
