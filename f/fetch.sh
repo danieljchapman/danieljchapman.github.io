@@ -23,5 +23,4 @@ get cb_2020_county.zip ${B}2020/shp/cb_2020_us_county_500k.zip
 get cb_2018_cd116.zip ${B}2018/shp/cb_2018_us_cd116_500k.zip
 get cb_2022_cd118.zip ${B}2022/shp/cb_2022_us_cd118_500k.zip
 for y in 2016 2018 2022 2024; do get cb_${y}_sldu.zip ${B}$y/shp/cb_${y}_12_sldu_500k.zip; get cb_${y}_sldl.zip ${B}$y/shp/cb_${y}_12_sldl_500k.zip; done
-get tl_2020_12_tabblock20.zip https://www2.census.gov/geo/tiger/TIGER2020/TABBLOCK20/tl_2020_12_tabblock20.zip
 ls -la > ls.txt
