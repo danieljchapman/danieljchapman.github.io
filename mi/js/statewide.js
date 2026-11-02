@@ -151,9 +151,11 @@
         const v = Number(r.votes) || 0; o.total += v;
         if (r.party !== 'W') { const c = o.cand.get(r.candidate) || { party: r.party, votes: 0 }; c.votes += v; o.cand.set(r.candidate, c); }
       }
+      // before votes are counted, list the Republican and Democrat first rather than alphabetically
+      const pRank = (p) => p === 'R' ? 0 : p === 'D' ? 1 : 2;
       const rows = [];
       for (const [race, o] of races) {
-        [...o.cand.entries()].sort((a, b) => b[1].votes - a[1].votes || a[0].localeCompare(b[0])).slice(0, 4).forEach(([candidate, c], i) => {
+        [...o.cand.entries()].sort((a, b) => b[1].votes - a[1].votes || pRank(a[1].party) - pRank(b[1].party) || a[0].localeCompare(b[0])).slice(0, 4).forEach(([candidate, c], i) => {
           rows.push({ race, rank: i + 1, candidate, party: c.party, votes: c.votes, pct: o.total ? c.votes / o.total : null, status: o.status, winner: o.status === 'final' && i === 0 && o.total > 0 });
         });
       }
