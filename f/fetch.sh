@@ -1,15 +1,15 @@
 #!/bin/bash
-# round 8: Internet Archive copies of the Crane A1 page and files
-O=f/out8; mkdir -p $O; cd $O
+# round 9: archived Crane A1 page (retries), then its shapefile link
+O=f/out9; mkdir -p $O; cd $O
 UA="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130 Safari/537.36"
-C="https://web.archive.org/cdx/search/cdx?output=txt&fl=timestamp,original,statuscode,length&collapse=urlkey&matchType=prefix"
-curl -sS -m 180 "$C&url=michigan.gov/micrc/-/media/Project/Websites/MiCRC/405CraneA1/" > cdx_crane.txt 2>>err.txt
-curl -sS -m 180 "$C&url=michigan.gov/micrc/mapping-process-2024" > cdx_pages.txt 2>>err.txt
-curl -sS -m 180 "$C&url=www.michigan.gov/micrc/-/media/Project/Websites/MiCRC/405" > cdx_405.txt 2>>err.txt
-ts=$(grep -i 'final-remedial-state-senate' cdx_pages.txt | awk '$3==200{print $1; exit}')
-[ -n "$ts" ] && curl -sSL -m 200 -o sen_page.html "https://web.archive.org/web/${ts}id_/https://www.michigan.gov/micrc/mapping-process-2024/final-remedial-state-senate-plan"
-for h in $(grep -oiE '/micrc/-/media/[^"]*405CraneA1[^"]*' sen_page.html cdx_crane.txt cdx_405.txt 2>/dev/null | sed 's/^[^:]*://; s/&amp;/\&/g' | grep -iE 'zip|shape|shp' | sort -u | head -5); do
-  u="https://www.michigan.gov${h#*michigan.gov}"; case $h in /*) u="https://www.michigan.gov$h";; esac
-  curl -sSL -A "$UA" -m 200 -o "crane_$(basename ${h%%\?*})" -w "direct $u %{http_code} %{size_download}\n" "$u" >> log.txt
+for i in 1 2 3 4 5 6; do
+  curl -sSL -m 200 -o sen_page.html "https://web.archive.org/web/20240709005747id_/https://www.michigan.gov/micrc/mapping-process-2024/final-remedial-state-senate-plan"
+  grep -q '405' sen_page.html && break; sleep 30
+done
+grep -oiE 'href="[^"]*"' sen_page.html | sed 's/href="//; s/"$//; s/&amp;/\&/g' | grep -i media > links.txt
+for h in $(grep -iE 'shape|zip|shp' links.txt | head -5); do
+  case $h in http*) u=$h;; *) u="https://www.michigan.gov$h";; esac
+  for t in 1 2 3; do curl -sSL -A "$UA" -m 200 -o "crane_shp.zip" -w "direct $u %{http_code} %{size_download}\n" "$u" >> log.txt && file crane_shp.zip | grep -qi zip && break; sleep 10; done
+  file crane_shp.zip | grep -qi zip || curl -sSL -m 300 -o crane_shp.zip -w "archive %{http_code} %{size_download}\n" "https://web.archive.org/web/2024id_/$u" >> log.txt
 done
 echo done >> log.txt; ls -la > ls.txt
