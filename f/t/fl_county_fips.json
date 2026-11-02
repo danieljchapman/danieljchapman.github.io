@@ -1,0 +1,270 @@
+{
+"ALA": {
+"fips": "12001",
+"name": "Alachua"
+},
+"BAK": {
+"fips": "12003",
+"name": "Baker"
+},
+"BAY": {
+"fips": "12005",
+"name": "Bay"
+},
+"BRA": {
+"fips": "12007",
+"name": "Bradford"
+},
+"BRE": {
+"fips": "12009",
+"name": "Brevard"
+},
+"BRO": {
+"fips": "12011",
+"name": "Broward"
+},
+"CAL": {
+"fips": "12013",
+"name": "Calhoun"
+},
+"CHA": {
+"fips": "12015",
+"name": "Charlotte"
+},
+"CIT": {
+"fips": "12017",
+"name": "Citrus"
+},
+"CLA": {
+"fips": "12019",
+"name": "Clay"
+},
+"CLL": {
+"fips": "12021",
+"name": "Collier"
+},
+"CLM": {
+"fips": "12023",
+"name": "Columbia"
+},
+"DAD": {
+"fips": "12086",
+"name": "Miami-Dade"
+},
+"DES": {
+"fips": "12027",
+"name": "DeSoto"
+},
+"DIX": {
+"fips": "12029",
+"name": "Dixie"
+},
+"DUV": {
+"fips": "12031",
+"name": "Duval"
+},
+"ESC": {
+"fips": "12033",
+"name": "Escambia"
+},
+"FLA": {
+"fips": "12035",
+"name": "Flagler"
+},
+"FRA": {
+"fips": "12037",
+"name": "Franklin"
+},
+"GAD": {
+"fips": "12039",
+"name": "Gadsden"
+},
+"GIL": {
+"fips": "12041",
+"name": "Gilchrist"
+},
+"GLA": {
+"fips": "12043",
+"name": "Glades"
+},
+"GUL": {
+"fips": "12045",
+"name": "Gulf"
+},
+"HAM": {
+"fips": "12047",
+"name": "Hamilton"
+},
+"HAR": {
+"fips": "12049",
+"name": "Hardee"
+},
+"HEN": {
+"fips": "12051",
+"name": "Hendry"
+},
+"HER": {
+"fips": "12053",
+"name": "Hernando"
+},
+"HIG": {
+"fips": "12055",
+"name": "Highlands"
+},
+"HIL": {
+"fips": "12057",
+"name": "Hillsborough"
+},
+"HOL": {
+"fips": "12059",
+"name": "Holmes"
+},
+"IND": {
+"fips": "12061",
+"name": "Indian River"
+},
+"JAC": {
+"fips": "12063",
+"name": "Jackson"
+},
+"JEF": {
+"fips": "12065",
+"name": "Jefferson"
+},
+"LAF": {
+"fips": "12067",
+"name": "Lafayette"
+},
+"LAK": {
+"fips": "12069",
+"name": "Lake"
+},
+"LEE": {
+"fips": "12071",
+"name": "Lee"
+},
+"LEO": {
+"fips": "12073",
+"name": "Leon"
+},
+"LEV": {
+"fips": "12075",
+"name": "Levy"
+},
+"LIB": {
+"fips": "12077",
+"name": "Liberty"
+},
+"MAD": {
+"fips": "12079",
+"name": "Madison"
+},
+"MAN": {
+"fips": "12081",
+"name": "Manatee"
+},
+"MON": {
+"fips": "12087",
+"name": "Monroe"
+},
+"MRN": {
+"fips": "12083",
+"name": "Marion"
+},
+"MRT": {
+"fips": "12085",
+"name": "Martin"
+},
+"NAS": {
+"fips": "12089",
+"name": "Nassau"
+},
+"OKA": {
+"fips": "12091",
+"name": "Okaloosa"
+},
+"OKE": {
+"fips": "12093",
+"name": "Okeechobee"
+},
+"ORA": {
+"fips": "12095",
+"name": "Orange"
+},
+"OSC": {
+"fips": "12097",
+"name": "Osceola"
+},
+"PAL": {
+"fips": "12099",
+"name": "Palm Beach"
+},
+"PAS": {
+"fips": "12101",
+"name": "Pasco"
+},
+"PIN": {
+"fips": "12103",
+"name": "Pinellas"
+},
+"POL": {
+"fips": "12105",
+"name": "Polk"
+},
+"PUT": {
+"fips": "12107",
+"name": "Putnam"
+},
+"SAN": {
+"fips": "12113",
+"name": "Santa Rosa"
+},
+"SAR": {
+"fips": "12115",
+"name": "Sarasota"
+},
+"SEM": {
+"fips": "12117",
+"name": "Seminole"
+},
+"STJ": {
+"fips": "12109",
+"name": "St. Johns"
+},
+"STL": {
+"fips": "12111",
+"name": "St. Lucie"
+},
+"SUM": {
+"fips": "12119",
+"name": "Sumter"
+},
+"SUW": {
+"fips": "12121",
+"name": "Suwannee"
+},
+"TAY": {
+"fips": "12123",
+"name": "Taylor"
+},
+"UNI": {
+"fips": "12125",
+"name": "Union"
+},
+"VOL": {
+"fips": "12127",
+"name": "Volusia"
+},
+"WAK": {
+"fips": "12129",
+"name": "Wakulla"
+},
+"WAL": {
+"fips": "12131",
+"name": "Walton"
+},
+"WAS": {
+"fips": "12133",
+"name": "Washington"
+}
+}
