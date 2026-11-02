@@ -1,0 +1,13 @@
+total 6156
+drwxr-xr-x 2 runner runner    4096 Nov  2 14:11 .
+drwxr-xr-x 4 runner runner    4096 Nov  2 14:09 ..
+-rw-r--r-- 1 runner runner 1121539 Nov  2 14:10 cdx_boe.txt
+-rw-r--r-- 1 runner runner 4444620 Nov  2 14:11 cdx_boe2.txt
+-rw-r--r-- 1 runner runner  425575 Nov  2 14:09 cdx_mie.txt
+-rw-r--r-- 1 runner runner    9518 Nov  2 14:10 cdx_mie_data.txt
+-rw-r--r-- 1 runner runner       0 Nov  2 14:09 err.txt
+-rw-r--r-- 1 runner runner     176 Nov  2 14:11 log.txt
+-rw-r--r-- 1 runner runner       0 Nov  2 14:11 ls.txt
+-rw-r--r-- 1 runner runner   92814 Nov  2 14:11 micrc_2024.html
+-rw-r--r-- 1 runner runner   92814 Nov  2 14:11 micrc_house.html
+-rw-r--r-- 1 runner runner   92814 Nov  2 14:11 micrc_sen.html
