@@ -1,0 +1,16 @@
+total 1108
+drwxr-xr-x 2 runner runner   4096 Nov  2 14:18 .
+drwxr-xr-x 8 runner runner   4096 Nov  2 14:17 ..
+-rw-r--r-- 1 runner runner 191157 Nov  2 14:18 405_CraneA1_Population.csv
+-rw-r--r-- 1 runner runner 191157 Nov  2 14:18 405_CraneA1_Population.txt
+-rw-r--r-- 1 runner runner 191157 Nov  2 14:18 405_CraneA1_Population.xlsx
+-rw-r--r-- 1 runner runner 191157 Nov  2 14:18 405_CraneA1_Population.zip
+-rw-r--r-- 1 runner runner  75842 Nov  2 14:18 405_CraneA1_VRA_Data.csv
+-rw-r--r-- 1 runner runner  75842 Nov  2 14:18 405_CraneA1_VRA_Data.txt
+-rw-r--r-- 1 runner runner  75842 Nov  2 14:18 405_CraneA1_VRA_Data.xlsx
+-rw-r--r-- 1 runner runner  75842 Nov  2 14:18 405_CraneA1_VRA_Data.zip
+-rw-r--r-- 1 runner runner      0 Nov  2 14:18 err.txt
+-rw-r--r-- 1 runner runner  34478 Nov  2 14:18 links.json
+-rw-r--r-- 1 runner runner    247 Nov  2 14:18 log.txt
+-rw-r--r-- 1 runner runner      0 Nov  2 14:18 ls.txt
+-rw-r--r-- 1 runner runner    910 Nov  2 14:18 pw.py
