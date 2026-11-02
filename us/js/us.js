@@ -365,7 +365,7 @@
     const x = d3.scaleLinear().domain([0, N]).range([0, Wd]);
     let acc = 0;
     const segs = parts.filter((p) => p[1] > 0).map((p) => { const s = { party: p[0], n: p[1], what: p[2], op: p[3], x0: acc }; acc += p[1]; return s; });
-    const svg = d3.select(box).selectAll('svg').data([0]).join('svg').attr('viewBox', `0 0 ${Wd} ${Hd + 22}`).attr('preserveAspectRatio', 'none');
+    const svg = d3.select(box).selectAll('svg').data([0]).join('svg').attr('viewBox', `0 0 ${Wd} ${Hd}`).attr('preserveAspectRatio', 'none');
     svg.selectAll('rect.seg').data(segs).join('rect').attr('class', 'seg').attr('x', (d) => x(d.x0)).attr('width', (d) => Math.max(0, x(d.n) - x(0)))
       .attr('y', 0).attr('height', Hd).attr('fill', (d) => (d.party === 'U' ? css('--lx-pending') : shade(d.party, d.op))).attr('fill-opacity', 1)
       .attr('stroke', css('--color-panel')).attr('stroke-width', 1)
@@ -373,8 +373,8 @@
     const half = level === 'governor' ? null : maj;
     svg.selectAll('line.maj').data(half ? [half] : []).join('line').attr('class', 'maj').attr('x1', (d) => x(N / 2)).attr('x2', (d) => x(N / 2))
       .attr('y1', -2).attr('y2', Hd + 4).attr('stroke', css('--color-fg')).attr('stroke-width', 2).attr('vector-effect', 'non-scaling-stroke');
-    svg.selectAll('text.maj').data(half ? [half] : []).join('text').attr('class', 'maj').attr('x', x(N / 2)).attr('y', Hd + 17).attr('text-anchor', 'middle')
-      .text((d) => `${d} for majority`);
+    // the label is HTML, not SVG text: the bar's viewBox stretches to the card width (preserveAspectRatio none), which distorted SVG text on phones
+    d3.select(box).selectAll('div.maj').data(half ? [half] : []).join('div').attr('class', 'maj').text((d) => `${d} for majority`);
     // numbers under the bar
     const dTot = t.total.D, rTot = t.total.R;
     $('bal-d').textContent = dTot; $('bal-r').textContent = rTot;
@@ -424,6 +424,11 @@
     st.textContent = line; box.append(st);
     const cards = el('div', 'lx-cands lx-cands-tight');
     const shown = r.cands.filter((c, i) => i < 4 || c.winner);
+    // Incumbent badge: trust the feed's incumbent flag; fall back to matching the seat holder's last name only when
+    // no candidate is flagged and exactly one candidate shares it (Alaska 2026 lists both Dan Sullivan and Daniel J. Jr. Sullivan)
+    const flagged = r.cands.some((c) => c.incumbent);
+    const byName = r.holder && !r.holder.vacant ? r.cands.filter((c) => sameName(r.holder.name, c.name)) : [];
+    const isInc = (c) => (flagged ? c.incumbent : byName.length === 1 && byName[0] === c);
     for (const c of shown) {
       const cd = el('div', 'lx-card lx-cand' + (c.winner ? ' win' : ''));
       const ini = el('div', 'lx-initials', initials(c.name)); ini.style.background = pcol(c.party); ini.setAttribute('aria-hidden', 'true');
@@ -431,7 +436,7 @@
       body.append(el('div', 'lx-cand-name', c.name));
       const pp = el('div', 'lx-cand-party', PARTY[c.party] || c.party);
       if (c.winner) pp.append(el('span', 'lx-badge', c.unopposed ? 'Unopposed' : year === 2024 ? 'Won' : 'Projected'));
-      if (c.incumbent || (r.holder && !r.holder.vacant && sameName(r.holder.name, c.name))) pp.append(el('span', 'lx-badge lx-badge-muted', 'Incumbent'));
+      if (isInc(c)) pp.append(el('span', 'lx-badge lx-badge-muted', 'Incumbent'));
       body.append(pp);
       body.append(el('div', 'lx-cand-pct', c.share == null ? (r.total ? '0%' : '—') : pct(c.share)));
       body.append(el('div', 'lx-cand-votes', r.total ? fmt(c.votes) + ' votes' : c.unopposed ? 'No vote needed' : ''));
