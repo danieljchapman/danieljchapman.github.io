@@ -1,0 +1,21 @@
+name: MI source fetch
+on:
+  push:
+    branches: [mi-fetch]
+    paths: [f/fetch.sh]
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: mi-fetch }
+      - run: pip install -q playwright && python3 -m playwright install --with-deps chromium >/dev/null 2>&1 || true
+      - run: bash f/fetch.sh
+      - if: always()
+        run: |
+          git config user.name "github-actions"; git config user.email "actions@users.noreply.github.com"
+          git pull -q --rebase origin mi-fetch || true
+          git add -A f/out* && git commit -q -m "MI fetch results [skip ci]" && git push origin mi-fetch
