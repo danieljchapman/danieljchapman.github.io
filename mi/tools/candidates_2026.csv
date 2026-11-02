@@ -1,0 +1,414 @@
+level,office,district,candidate,party,civicapi_race
+statewide,Attorney General,,Doug Lloyd,R,87217
+statewide,Attorney General,,Eli Savit,D,87217
+statewide,Attorney General,,Doug Dern,O,87217
+statewide,Attorney General,,Jason Dye,L,87217
+statewide,Attorney General,,Jeff Polonowski,G,87217
+statewide,Attorney General,,John Perry Ludtke Jr.,T,87217
+statewide,Governor,,John James,R,87215
+statewide,Governor,,Jocelyn Benson,D,87215
+statewide,Governor,,Anthony Hudson,L,87215
+statewide,Governor,,Donna Brandenburg,T,87215
+statewide,Governor,,Douglas Campbell,G,87215
+statewide,Secretary of State,,Anthony Forlini,R,87216
+statewide,Secretary of State,,Garlin Gilchrist II,D,87216
+statewide,Secretary of State,,Christine Sloan,L,87216
+statewide,Secretary of State,,Eric Borregard,G,87216
+statewide,Secretary of State,,Scott E. Aughney,T,87216
+statewide,Senate,,Mike Rogers,R,87214
+statewide,Senate,,Abdul El-Sayed,D,87214
+statewide,Senate,,Douglas P. Marsh,G,87214
+statewide,Senate,,Lydia Christensen,L,87214
+statewide,Senate,,Tim Long,T,87214
+statewide,Senate,,Walter P. Kristy,O,87214
+ushouse,U.S. House,1,Jack Bergman,R,87201
+ushouse,U.S. House,1,Callie Barr,D,87201
+ushouse,U.S. House,1,Arnett Satterla,L,87201
+ushouse,U.S. House,1,Doc Kovaly,T,87201
+ushouse,U.S. House,1,LaVeta Davenport,G,87201
+ushouse,U.S. House,1,Liz Hakola,O,87201
+ushouse,U.S. House,1,Zebulon Featherly,I,87201
+ushouse,U.S. House,2,John Moolenaar,R,87202
+ushouse,U.S. House,2,Benjamin Ambrose,D,87202
+ushouse,U.S. House,2,Charlotte Magoon,G,87202
+ushouse,U.S. House,2,Richard Sills,O,87202
+ushouse,U.S. House,3,Terri DeBoer,R,87203
+ushouse,U.S. House,3,Hillary Scholten,D,87203
+ushouse,U.S. House,3,Joe Jock,G,87203
+ushouse,U.S. House,4,Bill Huizenga,R,87204
+ushouse,U.S. House,4,Sean McCann,D,87204
+ushouse,U.S. House,4,Shafina Che Barnett,G,87204
+ushouse,U.S. House,5,Tim Walberg,R,87205
+ushouse,U.S. House,5,Christian Vukasovich,D,87205
+ushouse,U.S. House,5,Jim Bronke,G,87205
+ushouse,U.S. House,5,Ronald A Muszynski,L,87205
+ushouse,U.S. House,5,Sharon Marie Renier,T,87205
+ushouse,U.S. House,6,Heather Smiley,R,87206
+ushouse,U.S. House,6,Debbie Dingell,D,87206
+ushouse,U.S. House,6,Clyde Shabazz,G,87206
+ushouse,U.S. House,6,Linda Rayburn,O,87206
+ushouse,U.S. House,6,Mike Mickevicius,T,87206
+ushouse,U.S. House,6,Timothy A. Teagan,L,87206
+ushouse,U.S. House,7,Tom Barrett,R,87207
+ushouse,U.S. House,7,William Lawrence,D,87207
+ushouse,U.S. House,7,Shane Dedrick,G,87207
+ushouse,U.S. House,8,Tom Smith,R,87208
+ushouse,U.S. House,8,Kristen McDonald Rivet,D,87208
+ushouse,U.S. House,8,C. Mia Pettus,L,87208
+ushouse,U.S. House,8,Jim Casha,G,87208
+ushouse,U.S. House,8,Kathy Goodwin,O,87208
+ushouse,U.S. House,9,Lisa McClain,R,87209
+ushouse,U.S. House,9,Ray Pooley,D,87209
+ushouse,U.S. House,9,Destiny Clayton,G,87209
+ushouse,U.S. House,9,Jim Walkowicz,O,87209
+ushouse,U.S. House,9,John Vlahos,T,87209
+ushouse,U.S. House,9,Kevin Vayko,L,87209
+ushouse,U.S. House,10,Michael Bouchard Jr.,R,87210
+ushouse,U.S. House,10,Christina Hines,D,87210
+ushouse,U.S. House,10,Andrea L. Kirby,O,87210
+ushouse,U.S. House,10,Kwabena Nkromo,G,87210
+ushouse,U.S. House,10,Mike Saliba,L,87210
+ushouse,U.S. House,11,Ethan Baker,R,87211
+ushouse,U.S. House,11,Jeremy Moss,D,87211
+ushouse,U.S. House,11,Anil Kumar,I,87211
+ushouse,U.S. House,11,Farid Ishac,L,87211
+ushouse,U.S. House,11,Ryan Teasdale,G,87211
+ushouse,U.S. House,12,James Hooper,R,87212
+ushouse,U.S. House,12,Rashida Tlaib,D,87212
+ushouse,U.S. House,12,Brenda K. Sanders,G,87212
+ushouse,U.S. House,12,Gary Walkowicz,O,87212
+ushouse,U.S. House,12,Marc Joseph Sosnowski,T,87212
+ushouse,U.S. House,13,T.P. Nykoriak,R,87213
+ushouse,U.S. House,13,Donavan McKinney,D,87213
+ushouse,U.S. House,13,Chris Dardzinski,T,87213
+ushouse,U.S. House,13,Raelyn Light,G,87213
+ushouse,U.S. House,13,Simone R. Coleman,O,87213
+senate,Senate,1,Patrick O'Connell,R,155600
+senate,Senate,1,Justin Onwenu,D,155600
+senate,Senate,2,Harry Sawicki,R,155601
+senate,Senate,2,Abbas Alawieh,D,155601
+senate,Senate,2,Larry Darnell Betts,O,155601
+senate,Senate,3,Mark Ashley Price,R,155602
+senate,Senate,3,John Conyers III,D,155602
+senate,Senate,3,David Roehrig,O,155602
+senate,Senate,4,Marcie Grzywacz,R,155603
+senate,Senate,4,Darrin Camilleri,D,155603
+senate,Senate,4,Beth Ann Socia,T,155603
+senate,Senate,4,Walter Willis,O,155603
+senate,Senate,5,Estelle Oliansky,R,155604
+senate,Senate,5,Matt Koleszar,D,155604
+senate,Senate,6,Joi Pokerwinski,R,155605
+senate,Senate,6,Mary Cavanagh,D,155605
+senate,Senate,7,Anthony Paesano,R,155606
+senate,Senate,7,Jason Hoskins,D,155606
+senate,Senate,8,Kenneth D. Massey,R,155607
+senate,Senate,8,Dayna Polehanki,D,155607
+senate,Senate,9,Michael Webber,R,155608
+senate,Senate,9,Theresa Brooks,D,155608
+senate,Senate,9,Jacob R. Schodowski,O,155608
+senate,Senate,9,Philippe M. Cicchini,I,155608
+senate,Senate,10,Michelle Nard,R,155609
+senate,Senate,10,Natalie Price,D,155609
+senate,Senate,11,Johnnie S. Townsend,R,155610
+senate,Senate,11,Veronica Klinefelt,D,155610
+senate,Senate,12,John Goldwater,R,155611
+senate,Senate,12,Kevin Hertel,D,155611
+senate,Senate,13,Ryan Berman,R,155612
+senate,Senate,13,Sean Carlson,D,155612
+senate,Senate,14,Tawn Shawnelle Beliger,R,155613
+senate,Senate,14,Sue Shink,D,155613
+senate,Senate,15,Jason Rogers,R,155614
+senate,Senate,15,Felicia Brabec,D,155614
+senate,Senate,16,Joseph Bellino Jr.,R,155615
+senate,Senate,16,Deandre Barnes,D,155615
+senate,Senate,17,Jonathan Lindsey,R,155616
+senate,Senate,17,Ashleigh Baker,D,155616
+senate,Senate,18,Thomas A. Albert,R,155617
+senate,Senate,18,Anthony Pennock,D,155617
+senate,Senate,19,Shaun Young,R,155618
+senate,Senate,19,Julie M. Rogers,D,155618
+senate,Senate,20,Chris Moraitis,R,155619
+senate,Senate,20,Dale Murney,D,155619
+senate,Senate,20,Shamara Clay,G,155619
+senate,Senate,21,Josh Burns,R,155620
+senate,Senate,21,Sarah Anthony,D,155620
+senate,Senate,22,Mike Murphy,R,155621
+senate,Senate,22,Robert Hower,D,155621
+senate,Senate,23,Donni Steele,R,155622
+senate,Senate,23,Greg Hill,D,155622
+senate,Senate,24,Douglas Chester Wozniak,R,155623
+senate,Senate,24,Edlira Sako,D,155623
+senate,Senate,25,Andrew Beeler,R,155624
+senate,Senate,25,April L. Osentoski,D,155624
+senate,Senate,26,Matthew Bierlein,R,155625
+senate,Senate,26,Brendan J. Johnson,D,155625
+senate,Senate,27,Bill Bain,R,155626
+senate,Senate,27,John D. Cherry,D,155626
+senate,Senate,28,Julie L. DeRose,R,155627
+senate,Senate,28,Rashida Harrison,D,155627
+senate,Senate,28,Brandon Crabill,L,155627
+senate,Senate,28,Wes Peterson,O,155627
+senate,Senate,29,Brady A. Middleton,R,155628
+senate,Senate,29,Abbie Groff-Blaszak,D,155628
+senate,Senate,30,Mark E. Huizenga,R,155629
+senate,Senate,30,Carol Glanville,D,155629
+senate,Senate,31,John Wetzel,R,155630
+senate,Senate,31,Chris Kleinjans,D,155630
+senate,Senate,32,Kim Cole,R,155631
+senate,Senate,32,Rebecca Amidon,D,155631
+senate,Senate,33,Gina Johnsen,R,155632
+senate,Senate,33,Stan Opal,D,155632
+senate,Senate,34,Roger Hauck,R,155633
+senate,Senate,34,Tyler Landgraf,D,155633
+senate,Senate,35,Jason Tunney,R,155634
+senate,Senate,35,Chedrick Greene,D,155634
+senate,Senate,35,Laurie Atwood,T,155634
+senate,Senate,36,Michele Hoitenga,R,155635
+senate,Senate,36,Mark W. Yonkman,D,155635
+senate,Senate,37,John Damoose,R,155636
+senate,Senate,37,Kate Gallup,D,155636
+senate,Senate,38,David Prestin,R,155637
+senate,Senate,38,Kelli J. Van Ginhoven,D,155637
+senate,Senate,38,Sara Cambensy,I,155637
+house,House,1,Valerie Whittaker,R,155638
+house,House,1,Tyrone Carter,D,155638
+house,House,2,Ron Kokinda,R,155639
+house,House,2,Joanna Whaley,D,155639
+house,House,3,Gus Tarraf,R,155640
+house,House,3,Alabas Farhat,D,155640
+house,House,4,Everett Davis,R,155641
+house,House,4,Regina Ross,D,155641
+house,House,5,Chris Venable,R,155642
+house,House,5,Candace Calloway,D,155642
+house,House,6,Mike Steger,R,155643
+house,House,6,Melanie Macey,D,155643
+house,House,7,Reginald Moorer,R,155644
+house,House,7,Tonya Myers Phillips,D,155644
+house,House,8,Bruce P. Langran,R,155645
+house,House,8,Chris Gilmer-Hill,D,155645
+house,House,8,Stephen Boyle,G,155645
+house,House,9,Michele Lundgren,R,155646
+house,House,9,Willie Burton,D,155646
+house,House,9,Jahdante John Elijah Smith,G,155646
+house,House,9,Logan Ausherman,O,155646
+house,House,10,Peter Ochs,R,155647
+house,House,10,Veronica Paiz,D,155647
+house,House,10,Piper Willow Smith,O,155647
+house,House,11,Matthew Stafford,R,155648
+house,House,11,Kimberly Fisher,D,155648
+house,House,12,Randell J. Shafer,R,155649
+house,House,12,Kimberly L. Edwards,D,155649
+house,House,13,Mark Thomas Foster,R,155650
+house,House,13,Mai Xiong,D,155650
+house,House,14,Larry Szyska,R,155651
+house,House,14,Mike McFall,D,155651
+house,House,14,Jeff Sparling,G,155651
+house,House,15,Hassan H Nehme,R,155652
+house,House,15,Jalal Abdallah,D,155652
+house,House,16,Brian M. Duggan,R,155653
+house,House,16,Stephanie A. Young,D,155653
+house,House,17,Ken Crider,R,155654
+house,House,17,Laurie Pohutsky,D,155654
+house,House,18,Ryan Foster,R,155655
+house,House,18,Kelly Garrett,D,155655
+house,House,19,Kevin J. Hammer,R,155656
+house,House,19,Samantha Steckloff,D,155656
+house,House,20,S. David Sullivan,R,155657
+house,House,20,Noah Arbit,D,155657
+house,House,21,Ross Barranco,R,155658
+house,House,21,Kelly Breen,D,155658
+house,House,22,Casey J. Noce,R,155659
+house,House,22,Lisa McIntyre,D,155659
+house,House,23,Miriam Corvino,R,155660
+house,House,23,Jason Morgan,D,155660
+house,House,23,Christina Marudas,G,155660
+house,House,24,Allison Kay Fuller,R,155661
+house,House,24,Ranjeev Puri,D,155661
+house,House,25,Dawn Udell,R,155662
+house,House,25,Peter Herzberg,D,155662
+house,House,26,Chris Dobis,R,155663
+house,House,26,Dylan Wegela,D,155663
+house,House,27,Rylee Linting,R,155664
+house,House,27,Jaime Churches,D,155664
+house,House,28,Jamie Thompson,R,155665
+house,House,28,Sherry A. Berecz,D,155665
+house,House,29,James DeSana,R,155666
+house,House,29,Darian Counts,D,155666
+house,House,30,William Bruck,R,155667
+house,House,30,Omar G. Ferdin,D,155667
+house,House,31,Laura M. Perry,R,155668
+house,House,31,Shannon Dare Wayne,D,155668
+house,House,32,Mike Eller,R,155669
+house,House,32,Jimmie Wilson Jr.,D,155669
+house,House,32,John R. Tatar,T,155669
+house,House,32,Ryan Sample,G,155669
+house,House,33,Catherine Rogers,R,155670
+house,House,33,Morgan Foreman,D,155670
+house,House,34,Nancy Jenkins-Arno,R,155671
+house,House,34,John Dahlgren,D,155671
+house,House,35,Jennifer Wortz,R,155672
+house,House,35,Jeff Cooley,D,155672
+house,House,36,Steve Carra,R,155673
+house,House,36,Cole Slaski,D,155673
+house,House,37,Brad Paquette,R,155674
+house,House,37,Angela M. Jones,D,155674
+house,House,38,Mark Krieger,R,155675
+house,House,38,Joey Andrews,D,155675
+house,House,38,Jett Newton,G,155675
+house,House,39,Pauline Wendzel,R,155676
+house,House,39,Kerry Tapper,D,155676
+house,House,39,Jared Polonowski,G,155676
+house,House,40,Robert M. Sitarski,R,155677
+house,House,40,Matt Longjohn,D,155677
+house,House,41,Nicole C. Sabel,R,155678
+house,House,41,Jen Strebs,D,155678
+house,House,41,Rafael Wolf,L,155678
+house,House,42,Matt Hall,R,155679
+house,House,42,Nick Rowe,D,155679
+house,House,43,Rachelle Smit,R,155680
+house,House,43,Alan Swank,D,155680
+house,House,44,Steve Frisbie,R,155681
+house,House,44,Jim Haadsma,D,155681
+house,House,45,Sarah Lightner,R,155682
+house,House,45,Randy Davis,D,155682
+house,House,46,Kathy Schmaltz,R,155683
+house,House,46,Jan Maino,D,155683
+house,House,47,Justin Griffis,R,155684
+house,House,47,Carrie A. Rheingans,D,155684
+house,House,48,Brian Ignatowski,R,155685
+house,House,48,Jennifer A. Conlin,D,155685
+house,House,49,Ann M. Bollin,R,155686
+house,House,49,Dan Pelchat,D,155686
+house,House,49,Trevor Step,L,155686
+house,House,50,Jason Woolford,R,155687
+house,House,50,Cassie Canedo,D,155687
+house,House,51,Matt Maddock,R,155688
+house,House,51,Stacey McDuffie,D,155688
+house,House,52,Mike Harris,R,155689
+house,House,52,Brendan P. Leddy,D,155689
+house,House,53,Melissa Schultz,R,155690
+house,House,53,Brenda Carter,D,155690
+house,House,54,Roman Gaskey,R,155691
+house,House,54,Sarah Pounds,D,155691
+house,House,55,Mark Tisdel,R,155692
+house,House,55,Alex Hawkins,D,155692
+house,House,56,Ashok Baddi,R,155693
+house,House,56,Sharon MacDonell,D,155693
+house,House,57,Thomas E. Kuhn,R,155694
+house,House,57,Tom Turner,D,155694
+house,House,58,Ron Robinson,R,155695
+house,House,58,Katrina Manetta,D,155695
+house,House,59,Sylvia Grot,R,155696
+house,House,59,Jason Robbins,D,155696
+house,House,60,Joseph Aragona,R,155697
+house,House,60,Amy Gray,D,155697
+house,House,61,Robert Wojtowicz,R,155698
+house,House,61,Denise Mentzer,D,155698
+house,House,62,Alicia St. Germaine,R,155699
+house,House,62,Matthew Smith,D,155699
+house,House,63,Pamela Hornberger,R,155700
+house,House,63,Jamie Sonneberger,D,155700
+house,House,64,Joseph G. Pavlov,R,155701
+house,House,64,Ken Heuvelman,D,155701
+house,House,65,Jaime Greene,R,155702
+house,House,65,James M. O'Brien,D,155702
+house,House,66,Josh Schriver,R,155703
+house,House,66,Ned Zimmer,D,155703
+house,House,67,Phil Green,R,155704
+house,House,67,Leslie Getz,D,155704
+house,House,68,David W. Martin,R,155705
+house,House,68,Matt Schlinker,D,155705
+house,House,68,Deanna L Martin,L,155705
+house,House,68,Joe McHugh,I,155705
+house,House,69,Patrick Duvendeck,R,155706
+house,House,69,Jasper Ryan Martus,D,155706
+house,House,69,Adam Blake Childress,L,155706
+house,House,70,Larry Hutchinson,R,155707
+house,House,70,Cynthia R. Neeley,D,155707
+house,House,71,Brian BeGole,R,155708
+house,House,71,Stephen Schlaack,D,155708
+house,House,72,Mike Mueller,R,155709
+house,House,72,Thomas Ryan,D,155709
+house,House,73,Joshua Jon Rockey,R,155710
+house,House,73,Julie Brixie,D,155710
+house,House,74,Clinton Tarver,R,155711
+house,House,74,Harold A. Pope,D,155711
+house,House,75,Frank Lambert,R,155712
+house,House,75,Penelope Tsernoglou,D,155712
+house,House,76,Bill Kaiser,R,155713
+house,House,76,Angela Witwer,D,155713
+house,House,77,Sally Jo Nelton,R,155714
+house,House,77,Emily Dievendorf,D,155714
+house,House,77,Jennifer Long,L,155714
+house,House,78,Brandon L. Strong,R,155715
+house,House,78,Rachel Gross,D,155715
+house,House,78,Ben DeJong,L,155715
+house,House,79,Angela Rigas,R,155716
+house,House,79,Zach Abbott,D,155716
+house,House,80,Doug Lee,R,155717
+house,House,80,Lily Cheng-Schulting,D,155717
+house,House,81,Holly DeBoer,R,155718
+house,House,81,Stephen Wooden,D,155718
+house,House,82,Ryan Malinoski,R,155719
+house,House,82,Kristian C. Grant,D,155719
+house,House,83,Cindy Ramirez,R,155720
+house,House,83,John Fitzgerald,D,155720
+house,House,84,Drew Jake Robbins,R,155721
+house,House,84,Khristian Silvis,D,155721
+house,House,85,Bradley Slagh,R,155722
+house,House,85,Richard Abraham,D,155722
+house,House,86,Nancy DeBoer,R,155723
+house,House,86,Joseph McClusky,D,155723
+house,House,87,Cody A. Chipman,R,155724
+house,House,87,Will Snyder,D,155724
+house,House,88,Greg VanWoerkom,R,155725
+house,House,88,Kiel Reid,D,155725
+house,House,89,Joe Moss,R,155726
+house,House,89,Meegan Zickus,D,155726
+house,House,90,Lynn Afendoulis,R,155727
+house,House,90,Rachel Crowther,D,155727
+house,House,91,Pat Outman,R,155728
+house,House,91,Frank Lafata,D,155728
+house,House,92,Jerry Neyer,R,155729
+house,House,92,Luke Del Castillo,D,155729
+house,House,93,Tim Kelly,R,155730
+house,House,93,Serenity Hope Salak,D,155730
+house,House,94,Don Sugg,R,155731
+house,House,94,Amos O'Neal,D,155731
+house,House,95,Bill G. Schuette,R,155732
+house,House,95,AnnMarie Horseman,D,155732
+house,House,96,Timothy Beson,R,155733
+house,House,96,Christopher R. Girard,D,155733
+house,House,97,Briar Bearss,R,155734
+house,House,97,Jack Bader,D,155734
+house,House,98,Gregory L. Alexander,R,155735
+house,House,98,Keith Brusseau,D,155735
+house,House,99,Mike Hoadley,R,155736
+house,House,99,David Forgione,D,155736
+house,House,99,Steven Jacob Lull,L,155736
+house,House,100,Tom Kunse,R,155737
+house,House,100,Tracy Ruell,D,155737
+house,House,101,Jaxon Deur,R,155738
+house,House,101,Christopher R. Crain,D,155738
+house,House,102,Curt Vanderwall,R,155739
+house,House,102,Angel Coon,D,155739
+house,House,102,Shawn Orton,L,155739
+house,House,103,Edwin B. Dean,R,155740
+house,House,103,Betsy Coffia,D,155740
+house,House,103,Michael Gorbe,L,155740
+house,House,104,John R. Roth,R,155741
+house,House,104,Mitchell Ryan Distin,D,155741
+house,House,104,Alexander Jarvis,L,155741
+house,House,105,Ken Borton,R,155742
+house,House,105,Rachel Longendyke Teeter,D,155742
+house,House,105,Frank Tillman,L,155742
+house,House,106,Cam Cavitt,R,155743
+house,House,106,Mary Lucille Hamilton,D,155743
+house,House,107,Parker Fairbairn,R,155744
+house,House,107,Melissa Perron,D,155744
+house,House,108,Larry Johnson,R,155745
+house,House,108,Rachel M. Keys,D,155745
+house,House,109,Karl Bohnak,R,155746
+house,House,109,Anna Aho Rink,D,155746
+house,House,110,Gregory Markkanen,R,155747
+house,House,110,Brian Irizarry,D,155747

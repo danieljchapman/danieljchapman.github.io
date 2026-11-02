@@ -1,0 +1,14 @@
+[
+ {
+  "phase": "pre-election",
+  "updated_at": "2026-11-02T14:26:53Z",
+  "source": "CivicAPI, unofficial",
+  "races": 165,
+  "called": 0,
+  "counting": 0,
+  "problems": [
+   "CivicAPI still serves test numbers for some races (set to zero)"
+  ],
+  "local_problems": []
+ }
+]

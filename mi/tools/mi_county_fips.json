@@ -1,0 +1,334 @@
+{
+"1": {
+"fips": "26001",
+"name": "Alcona"
+},
+"2": {
+"fips": "26003",
+"name": "Alger"
+},
+"3": {
+"fips": "26005",
+"name": "Allegan"
+},
+"4": {
+"fips": "26007",
+"name": "Alpena"
+},
+"5": {
+"fips": "26009",
+"name": "Antrim"
+},
+"6": {
+"fips": "26011",
+"name": "Arenac"
+},
+"7": {
+"fips": "26013",
+"name": "Baraga"
+},
+"8": {
+"fips": "26015",
+"name": "Barry"
+},
+"9": {
+"fips": "26017",
+"name": "Bay"
+},
+"10": {
+"fips": "26019",
+"name": "Benzie"
+},
+"11": {
+"fips": "26021",
+"name": "Berrien"
+},
+"12": {
+"fips": "26023",
+"name": "Branch"
+},
+"13": {
+"fips": "26025",
+"name": "Calhoun"
+},
+"14": {
+"fips": "26027",
+"name": "Cass"
+},
+"15": {
+"fips": "26029",
+"name": "Charlevoix"
+},
+"16": {
+"fips": "26031",
+"name": "Cheboygan"
+},
+"17": {
+"fips": "26033",
+"name": "Chippewa"
+},
+"18": {
+"fips": "26035",
+"name": "Clare"
+},
+"19": {
+"fips": "26037",
+"name": "Clinton"
+},
+"20": {
+"fips": "26039",
+"name": "Crawford"
+},
+"21": {
+"fips": "26041",
+"name": "Delta"
+},
+"22": {
+"fips": "26043",
+"name": "Dickinson"
+},
+"23": {
+"fips": "26045",
+"name": "Eaton"
+},
+"24": {
+"fips": "26047",
+"name": "Emmet"
+},
+"25": {
+"fips": "26049",
+"name": "Genesee"
+},
+"26": {
+"fips": "26051",
+"name": "Gladwin"
+},
+"27": {
+"fips": "26053",
+"name": "Gogebic"
+},
+"28": {
+"fips": "26055",
+"name": "Grand Traverse"
+},
+"29": {
+"fips": "26057",
+"name": "Gratiot"
+},
+"30": {
+"fips": "26059",
+"name": "Hillsdale"
+},
+"31": {
+"fips": "26061",
+"name": "Houghton"
+},
+"32": {
+"fips": "26063",
+"name": "Huron"
+},
+"33": {
+"fips": "26065",
+"name": "Ingham"
+},
+"34": {
+"fips": "26067",
+"name": "Ionia"
+},
+"35": {
+"fips": "26069",
+"name": "Iosco"
+},
+"36": {
+"fips": "26071",
+"name": "Iron"
+},
+"37": {
+"fips": "26073",
+"name": "Isabella"
+},
+"38": {
+"fips": "26075",
+"name": "Jackson"
+},
+"39": {
+"fips": "26077",
+"name": "Kalamazoo"
+},
+"40": {
+"fips": "26079",
+"name": "Kalkaska"
+},
+"41": {
+"fips": "26081",
+"name": "Kent"
+},
+"42": {
+"fips": "26083",
+"name": "Keweenaw"
+},
+"43": {
+"fips": "26085",
+"name": "Lake"
+},
+"44": {
+"fips": "26087",
+"name": "Lapeer"
+},
+"45": {
+"fips": "26089",
+"name": "Leelanau"
+},
+"46": {
+"fips": "26091",
+"name": "Lenawee"
+},
+"47": {
+"fips": "26093",
+"name": "Livingston"
+},
+"48": {
+"fips": "26095",
+"name": "Luce"
+},
+"49": {
+"fips": "26097",
+"name": "Mackinac"
+},
+"50": {
+"fips": "26099",
+"name": "Macomb"
+},
+"51": {
+"fips": "26101",
+"name": "Manistee"
+},
+"52": {
+"fips": "26103",
+"name": "Marquette"
+},
+"53": {
+"fips": "26105",
+"name": "Mason"
+},
+"54": {
+"fips": "26107",
+"name": "Mecosta"
+},
+"55": {
+"fips": "26109",
+"name": "Menominee"
+},
+"56": {
+"fips": "26111",
+"name": "Midland"
+},
+"57": {
+"fips": "26113",
+"name": "Missaukee"
+},
+"58": {
+"fips": "26115",
+"name": "Monroe"
+},
+"59": {
+"fips": "26117",
+"name": "Montcalm"
+},
+"60": {
+"fips": "26119",
+"name": "Montmorency"
+},
+"61": {
+"fips": "26121",
+"name": "Muskegon"
+},
+"62": {
+"fips": "26123",
+"name": "Newaygo"
+},
+"63": {
+"fips": "26125",
+"name": "Oakland"
+},
+"64": {
+"fips": "26127",
+"name": "Oceana"
+},
+"65": {
+"fips": "26129",
+"name": "Ogemaw"
+},
+"66": {
+"fips": "26131",
+"name": "Ontonagon"
+},
+"67": {
+"fips": "26133",
+"name": "Osceola"
+},
+"68": {
+"fips": "26135",
+"name": "Oscoda"
+},
+"69": {
+"fips": "26137",
+"name": "Otsego"
+},
+"70": {
+"fips": "26139",
+"name": "Ottawa"
+},
+"71": {
+"fips": "26141",
+"name": "Presque Isle"
+},
+"72": {
+"fips": "26143",
+"name": "Roscommon"
+},
+"73": {
+"fips": "26145",
+"name": "Saginaw"
+},
+"74": {
+"fips": "26147",
+"name": "St. Clair"
+},
+"75": {
+"fips": "26149",
+"name": "St. Joseph"
+},
+"76": {
+"fips": "26151",
+"name": "Sanilac"
+},
+"77": {
+"fips": "26153",
+"name": "Schoolcraft"
+},
+"78": {
+"fips": "26155",
+"name": "Shiawassee"
+},
+"79": {
+"fips": "26157",
+"name": "Tuscola"
+},
+"80": {
+"fips": "26159",
+"name": "Van Buren"
+},
+"81": {
+"fips": "26161",
+"name": "Washtenaw"
+},
+"82": {
+"fips": "26163",
+"name": "Wayne"
+},
+"83": {
+"fips": "26165",
+"name": "Wexford"
+}
+}
