@@ -1,0 +1,2799 @@
+level,office_or_district,county,candidate,party,votes
+house,1,Dickinson,John H. Wills,R,6495
+house,1,Dickinson,Write-ins,W,69
+house,1,Lyon,John H. Wills,R,5437
+house,1,Lyon,Write-ins,W,36
+house,1,Osceola,John H. Wills,R,2695
+house,1,Osceola,Write-ins,W,17
+house,10,Calhoun,Mike Sexton,R,4192
+house,10,Calhoun,Write-ins,W,88
+house,10,Humboldt,Mike Sexton,R,4236
+house,10,Humboldt,Write-ins,W,24
+house,10,Pocahontas,Mike Sexton,R,3139
+house,10,Pocahontas,Write-ins,W,25
+house,10,Webster,Mike Sexton,R,1496
+house,10,Webster,Write-ins,W,14
+house,100,Dubuque,Charles Isenhart,D,9213
+house,100,Dubuque,Write-ins,W,192
+house,11,Buena Vista,Gary Worthan,R,4798
+house,11,Buena Vista,Sara Huddleston,D,3126
+house,11,Buena Vista,Write-ins,W,9
+house,11,Sac,Gary Worthan,R,3481
+house,11,Sac,Sara Huddleston,D,1349
+house,11,Sac,Write-ins,W,6
+house,12,Audubon,Brian Best,R,2144
+house,12,Audubon,Ken Myers,D,852
+house,12,Audubon,Write-ins,W,1
+house,12,Carroll,Brian Best,R,7100
+house,12,Carroll,Ken Myers,D,2971
+house,12,Carroll,Write-ins,W,7
+house,12,Crawford,Brian Best,R,1105
+house,12,Crawford,Ken Myers,D,546
+house,13,Woodbury,Chris Hall,D,7027
+house,13,Woodbury,Shaun Broyhill,R,4365
+house,13,Woodbury,Write-ins,W,16
+house,14,Woodbury,Timothy H Kacena,D,5365
+house,14,Woodbury,Robert Henderson,R,5126
+house,14,Woodbury,Write-ins,W,22
+house,15,Pottawattamie,Charlie McConkey,D,5424
+house,15,Pottawattamie,Bill Riley,R,5056
+house,15,Pottawattamie,Write-ins,W,17
+house,16,Pottawattamie,Mary Ann Hanusa,R,6847
+house,16,Pottawattamie,Steve Gorman,D,5120
+house,16,Pottawattamie,Write-ins,W,16
+house,17,Harrison,Matt W. Windschitl,R,3350
+house,17,Harrison,Jan Creasman,D,1462
+house,17,Harrison,Write-ins,W,6
+house,17,Ida,Matt W. Windschitl,R,2624
+house,17,Ida,Jan Creasman,D,723
+house,17,Ida,Write-ins,W,3
+house,17,Monona,Matt W. Windschitl,R,3192
+house,17,Monona,Jan Creasman,D,1191
+house,17,Monona,Write-ins,W,2
+house,17,Woodbury,Matt W. Windschitl,R,1546
+house,17,Woodbury,Jan Creasman,D,490
+house,17,Woodbury,Write-ins,W,5
+house,18,Crawford,Steven Holt,R,3821
+house,18,Crawford,Write-ins,W,61
+house,18,Harrison,Steven Holt,R,1964
+house,18,Harrison,Write-ins,W,36
+house,18,Shelby,Steven Holt,R,4818
+house,18,Shelby,Write-ins,W,42
+house,19,Dallas,Ralph Watts,R,8622
+house,19,Dallas,Bryce Smith,D,5551
+house,19,Dallas,Write-ins,W,16
+house,19,Polk,Ralph Watts,R,1771
+house,19,Polk,Bryce Smith,D,1046
+house,19,Polk,Write-ins,W,4
+house,2,Clay,Megan Lee Hess Jones,R,6983
+house,2,Clay,Write-ins,W,131
+house,2,Dickinson,Megan Lee Hess Jones,R,2003
+house,2,Dickinson,Write-ins,W,24
+house,2,Palo Alto,Megan Lee Hess Jones,R,3770
+house,2,Palo Alto,Write-ins,W,31
+house,20,Adair,Clel Baudler,R,2504
+house,20,Adair,Scott Heldt,D,838
+house,20,Adair,Bob Boyle,L,299
+house,20,Adair,Ryan M. Ketelsen,I,78
+house,20,Adair,Write-ins,W,4
+house,20,Cass,Clel Baudler,R,622
+house,20,Cass,Scott Heldt,D,230
+house,20,Cass,Bob Boyle,L,59
+house,20,Cass,Ryan M. Ketelsen,I,16
+house,20,Dallas,Scott Heldt,D,1607
+house,20,Dallas,Clel Baudler,R,1037
+house,20,Dallas,Bob Boyle,L,639
+house,20,Dallas,Ryan M. Ketelsen,I,151
+house,20,Dallas,Write-ins,W,3
+house,20,Guthrie,Clel Baudler,R,3041
+house,20,Guthrie,Scott Heldt,D,1331
+house,20,Guthrie,Ryan M. Ketelsen,I,740
+house,20,Guthrie,Bob Boyle,L,501
+house,20,Guthrie,Write-ins,W,2
+house,21,Adams,Tom Moore,R,1721
+house,21,Adams,Write-ins,W,25
+house,21,Cass,Tom Moore,R,4838
+house,21,Cass,Write-ins,W,55
+house,21,Pottawattamie,Tom Moore,R,808
+house,21,Pottawattamie,Write-ins,W,11
+house,21,Union,Tom Moore,R,4349
+house,21,Union,Write-ins,W,36
+house,22,Pottawattamie,Greg Forristall,R,14015
+house,22,Pottawattamie,Write-ins,W,258
+house,23,Fremont,David Sieck,R,2427
+house,23,Fremont,Craig Florian,D,938
+house,23,Fremont,Write-ins,W,4
+house,23,Mills,David Sieck,R,5149
+house,23,Mills,Craig Florian,D,2233
+house,23,Mills,Write-ins,W,9
+house,23,Montgomery,David Sieck,R,2492
+house,23,Montgomery,Craig Florian,D,890
+house,23,Montgomery,Write-ins,W,4
+house,24,Montgomery,Cecil Dolecheck,R,1185
+house,24,Montgomery,Write-ins,W,15
+house,24,Page,Cecil Dolecheck,R,5707
+house,24,Page,Write-ins,W,50
+house,24,Ringgold,Cecil Dolecheck,R,2321
+house,24,Ringgold,Write-ins,W,16
+house,24,Taylor,Cecil Dolecheck,R,2489
+house,24,Taylor,Write-ins,W,16
+house,25,Madison,Stan Gustafson,R,5579
+house,25,Madison,Justin Knight,D,2641
+house,25,Madison,Write-ins,W,19
+house,25,Warren,Stan Gustafson,R,5701
+house,25,Warren,Justin Knight,D,3209
+house,25,Warren,Write-ins,W,13
+house,26,Warren,Scott Ourth,D,9122
+house,26,Warren,Rebel Snodgrass,R,7769
+house,26,Warren,Write-ins,W,24
+house,27,Clarke,Joel Fry,R,3003
+house,27,Clarke,Rich Higdon,D,1314
+house,27,Clarke,Write-ins,W,3
+house,27,Decatur,Joel Fry,R,2325
+house,27,Decatur,Rich Higdon,D,1255
+house,27,Decatur,Write-ins,W,4
+house,27,Lucas,Joel Fry,R,1935
+house,27,Lucas,Rich Higdon,D,713
+house,27,Lucas,Write-ins,W,3
+house,27,Wayne,Joel Fry,R,2215
+house,27,Wayne,Rich Higdon,D,603
+house,27,Wayne,Write-ins,W,5
+house,28,Jasper,Greg T. Heartsill,R,2378
+house,28,Jasper,Martin H. Duffy IV,D,755
+house,28,Jasper,Write-ins,W,3
+house,28,Lucas,Greg T. Heartsill,R,1049
+house,28,Lucas,Martin H. Duffy IV,D,360
+house,28,Marion,Greg T. Heartsill,R,6166
+house,28,Marion,Martin H. Duffy IV,D,4115
+house,28,Marion,Write-ins,W,11
+house,29,Jasper,Wesley C. Breckenridge,D,7903
+house,29,Jasper,Patrick Payton,R,5831
+house,29,Jasper,Dan Kelley,O,1758
+house,29,Jasper,Write-ins,W,9
+house,3,Cherokee,Dan Huseman,R,4627
+house,3,Cherokee,Mason McCoy,D,1421
+house,3,Cherokee,Write-ins,W,7
+house,3,O'Brien,Dan Huseman,R,5715
+house,3,O'Brien,Mason McCoy,D,1190
+house,3,O'Brien,Write-ins,W,9
+house,3,Plymouth,Dan Huseman,R,356
+house,3,Plymouth,Mason McCoy,D,71
+house,3,Sioux,Dan Huseman,R,1398
+house,3,Sioux,Mason McCoy,D,166
+house,3,Sioux,Write-ins,W,1
+house,30,Polk,Zach Nunn,R,11442
+house,30,Polk,Joe Riding,D,6999
+house,30,Polk,Write-ins,W,31
+house,31,Polk,Rick L. Olson,D,7160
+house,31,Polk,Matt Christoffersen,R,5027
+house,31,Polk,Joe Gleason,L,794
+house,31,Polk,Write-ins,W,30
+house,32,Polk,Ruth Ann Gaines,D,7142
+house,32,Polk,Bill Charlier,R,2920
+house,32,Polk,Seth Bartmess,L,466
+house,32,Polk,Write-ins,W,26
+house,33,Polk,Brian Meyer,D,7785
+house,33,Polk,Jeremy Tomlinson,L,2373
+house,33,Polk,Write-ins,W,79
+house,34,Polk,Bruce Hunter,D,9677
+house,34,Polk,Write-ins,W,268
+house,35,Polk,Ako Abdul-Samad,D,6458
+house,35,Polk,Jocelyn Fry,L,2057
+house,35,Polk,Write-ins,W,63
+house,36,Polk,Marti Anderson,D,10348
+house,36,Polk,Scott Miller,R,5853
+house,36,Polk,Write-ins,W,43
+house,37,Polk,John Landon,R,12059
+house,37,Polk,Andrea Phillips,D,8954
+house,37,Polk,Write-ins,W,35
+house,38,Polk,Kevin Koester,R,8793
+house,38,Polk,Heather Matson,D,7264
+house,38,Polk,Jeffrey Meyers,L,610
+house,38,Polk,Brett H. Nelson,I,183
+house,38,Polk,Write-ins,W,28
+house,39,Polk,Jake Highfill,R,11492
+house,39,Polk,Maridith Morris,D,8549
+house,39,Polk,Write-ins,W,44
+house,4,Sioux,Skyler Wheeler,R,9815
+house,4,Sioux,Jeff VanDerWerff,I,5838
+house,4,Sioux,Write-ins,W,10
+house,40,Polk,John Forbes,D,9660
+house,40,Polk,Scott Reed,R,7332
+house,40,Polk,Write-ins,W,45
+house,41,Polk,Jo Oldson,D,13363
+house,41,Polk,Write-ins,W,287
+house,42,Polk,Peter Cownie,R,8808
+house,42,Polk,Claire Celsi,D,7843
+house,42,Polk,Write-ins,W,26
+house,42,Warren,Peter Cownie,R,257
+house,42,Warren,Claire Celsi,D,105
+house,43,Polk,Chris Hagenow,R,8809
+house,43,Polk,Jennifer Konfrst,D,8273
+house,43,Polk,Write-ins,W,33
+house,44,Dallas,Rob Taylor,R,13818
+house,44,Dallas,Write-ins,W,258
+house,45,Story,Beth Wessel-Kroeschell,D,9036
+house,45,Story,Sondra Childs-Smith,R,5730
+house,45,Story,Eric Cooper,L,1277
+house,45,Story,Write-ins,W,28
+house,46,Story,Lisa K. Heddens,D,11927
+house,46,Story,Write-ins,W,247
+house,47,Boone,Chip Baltimore,R,6270
+house,47,Boone,Deb Duncan,D,4463
+house,47,Boone,Write-ins,W,15
+house,47,Greene,Chip Baltimore,R,2895
+house,47,Greene,Deb Duncan,D,1520
+house,47,Greene,Write-ins,W,3
+house,48,Boone,Robert Bacon,R,1745
+house,48,Boone,Sherrie Taha,D,1154
+house,48,Boone,Write-ins,W,5
+house,48,Hamilton,Robert Bacon,R,4819
+house,48,Hamilton,Sherrie Taha,D,2358
+house,48,Hamilton,Write-ins,W,7
+house,48,Story,Robert Bacon,R,1969
+house,48,Story,Sherrie Taha,D,1235
+house,48,Story,Write-ins,W,3
+house,48,Webster,Robert Bacon,R,1296
+house,48,Webster,Sherrie Taha,D,650
+house,48,Webster,Write-ins,W,1
+house,49,Hardin,Dave Deyoe,R,2129
+house,49,Hardin,Mickie Franklin,D,814
+house,49,Hardin,John Evans,L,194
+house,49,Hardin,Mike Knox,I,94
+house,49,Hardin,Write-ins,W,4
+house,49,Story,Dave Deyoe,R,7186
+house,49,Story,Mickie Franklin,D,3568
+house,49,Story,John Evans,L,932
+house,49,Story,Mike Knox,I,647
+house,49,Story,Write-ins,W,13
+house,5,Plymouth,Chuck Holz,R,9405
+house,5,Plymouth,Patrick E. Ritz,D,2713
+house,5,Plymouth,Write-ins,W,6
+house,5,Woodbury,Chuck Holz,R,2369
+house,5,Woodbury,Patrick E. Ritz,D,732
+house,5,Woodbury,Write-ins,W,3
+house,50,Butler,Pat Grassley,R,2815
+house,50,Butler,Doris Fritz,D,896
+house,50,Butler,Write-ins,W,5
+house,50,Grundy,Pat Grassley,R,5227
+house,50,Grundy,Doris Fritz,D,1498
+house,50,Grundy,Write-ins,W,8
+house,50,Hardin,Pat Grassley,R,3451
+house,50,Hardin,Doris Fritz,D,1507
+house,50,Hardin,Write-ins,W,5
+house,51,Howard,Jane E. Bloomingdale,R,2401
+house,51,Howard,Tim Hejhal,D,1972
+house,51,Howard,Write-ins,W,2
+house,51,Mitchell,Jane E. Bloomingdale,R,3389
+house,51,Mitchell,Tim Hejhal,D,1868
+house,51,Mitchell,Write-ins,W,6
+house,51,Winneshiek,Jane E. Bloomingdale,R,788
+house,51,Winneshiek,Tim Hejhal,D,430
+house,51,Winneshiek,Write-ins,W,2
+house,51,Worth,Jane E. Bloomingdale,R,2830
+house,51,Worth,Tim Hejhal,D,1377
+house,51,Worth,Write-ins,W,3
+house,52,Cerro Gordo,Stacie Stokes,R,568
+house,52,Cerro Gordo,Todd Prichard,D,420
+house,52,Cerro Gordo,Write-ins,W,1
+house,52,Chickasaw,Todd Prichard,D,3243
+house,52,Chickasaw,Stacie Stokes,R,2885
+house,52,Chickasaw,Write-ins,W,2
+house,52,Floyd,Todd Prichard,D,4497
+house,52,Floyd,Stacie Stokes,R,3394
+house,52,Floyd,Write-ins,W,7
+house,53,Cerro Gordo,Sharon Steckman,D,8977
+house,53,Cerro Gordo,Barbara Hovland,R,5869
+house,53,Cerro Gordo,Write-ins,W,20
+house,54,Butler,Linda Upmeyer,R,2976
+house,54,Butler,Write-ins,W,50
+house,54,Cerro Gordo,Linda Upmeyer,R,5504
+house,54,Cerro Gordo,Write-ins,W,66
+house,54,Franklin,Linda Upmeyer,R,4195
+house,54,Franklin,Write-ins,W,35
+house,55,Clayton,Michael Bergan,R,711
+house,55,Clayton,Pat Ritter,D,565
+house,55,Clayton,Write-ins,W,3
+house,55,Fayette,Michael Bergan,R,2745
+house,55,Fayette,Pat Ritter,D,1839
+house,55,Fayette,Write-ins,W,8
+house,55,Winneshiek,Michael Bergan,R,5487
+house,55,Winneshiek,Pat Ritter,D,4293
+house,55,Winneshiek,Write-ins,W,7
+house,56,Allamakee,Kristi Hager,R,4150
+house,56,Allamakee,Patti Ruff,D,2723
+house,56,Allamakee,Write-ins,W,3
+house,56,Clayton,Patti Ruff,D,3882
+house,56,Clayton,Kristi Hager,R,3760
+house,56,Clayton,Write-ins,W,7
+house,57,Dubuque,Shannon Lundgren,R,9023
+house,57,Dubuque,Tom Stecher,D,8249
+house,57,Dubuque,Write-ins,W,15
+house,58,Dubuque,Andy McKean,R,759
+house,58,Dubuque,Jessica Kean,D,547
+house,58,Dubuque,Write-ins,W,1
+house,58,Jackson,Andy McKean,R,5354
+house,58,Jackson,Jessica Kean,D,4475
+house,58,Jackson,Write-ins,W,7
+house,58,Jones,Andy McKean,R,2935
+house,58,Jones,Jessica Kean,D,1274
+house,58,Jones,Write-ins,W,8
+house,59,Black Hawk,Bob Kressig,D,8567
+house,59,Black Hawk,Drew Speer,R,4891
+house,59,Black Hawk,Nick Taiber,I,2319
+house,59,Black Hawk,Write-ins,W,10
+house,6,Woodbury,Jim Carlin,R,9655
+house,6,Woodbury,Perla J. Alarcon-Flory,D,5086
+house,6,Woodbury,Write-ins,W,38
+house,60,Black Hawk,Walt Rogers,R,10115
+house,60,Black Hawk,Gary Kroeger,D,7267
+house,60,Black Hawk,Write-ins,W,17
+house,61,Black Hawk,Timi Brown-Powers,D,9206
+house,61,Black Hawk,Write-ins,W,152
+house,62,Black Hawk,Ras Smith,D,7113
+house,62,Black Hawk,Todd Obadal,R,3354
+house,62,Black Hawk,John Patterson,I,797
+house,62,Black Hawk,Write-ins,W,19
+house,63,Black Hawk,Sandy Salmon,R,2236
+house,63,Black Hawk,Teresa L. Meyer,D,1208
+house,63,Black Hawk,Write-ins,W,5
+house,63,Bremer,Sandy Salmon,R,7691
+house,63,Bremer,Teresa L. Meyer,D,5436
+house,63,Bremer,Write-ins,W,24
+house,64,Buchanan,Bruce Bearinger,D,5047
+house,64,Buchanan,Zach Michael Schulz,R,3976
+house,64,Buchanan,Write-ins,W,12
+house,64,Fayette,Bruce Bearinger,D,3241
+house,64,Fayette,Zach Michael Schulz,R,1936
+house,64,Fayette,Write-ins,W,8
+house,65,Linn,Liz Bennett,D,9724
+house,65,Linn,Harry Foster,R,4881
+house,65,Linn,Write-ins,W,43
+house,66,Linn,Art Staed,D,11669
+house,66,Linn,Write-ins,W,287
+house,67,Linn,Ashley Hinson,R,11248
+house,67,Linn,Mark John Seidl,D,6749
+house,67,Linn,Write-ins,W,15
+house,68,Linn,Ken Rizer,R,9317
+house,68,Linn,Molly Donahue,D,7921
+house,68,Linn,Write-ins,W,20
+house,69,Linn,Kirsten Running-Marquardt,D,10730
+house,69,Linn,Write-ins,W,236
+house,7,Emmet,Tedd Gassman,R,2854
+house,7,Emmet,Dave Grussing,D,1760
+house,7,Emmet,Write-ins,W,3
+house,7,Kossuth,Tedd Gassman,R,3124
+house,7,Kossuth,Dave Grussing,D,1854
+house,7,Kossuth,Write-ins,W,2
+house,7,Winnebago,Tedd Gassman,R,3687
+house,7,Winnebago,Dave Grussing,D,1994
+house,7,Winnebago,Write-ins,W,6
+house,70,Linn,Todd Taylor,D,8877
+house,70,Linn,Steven C. Van Fleet,R,5698
+house,70,Linn,Dave Cork,L,1050
+house,70,Linn,Write-ins,W,24
+house,71,Marshall,Mark Smith,D,8668
+house,71,Marshall,Write-ins,W,205
+house,72,Black Hawk,Dean Fisher,R,947
+house,72,Black Hawk,Nathan Wrage,D,594
+house,72,Marshall,Dean Fisher,R,3446
+house,72,Marshall,Nathan Wrage,D,1659
+house,72,Marshall,Write-ins,W,5
+house,72,Tama,Dean Fisher,R,5004
+house,72,Tama,Nathan Wrage,D,3588
+house,72,Tama,Write-ins,W,15
+house,73,Cedar,Bobby Kaufmann,R,7447
+house,73,Cedar,Write-ins,W,96
+house,73,Johnson,Bobby Kaufmann,R,3821
+house,73,Johnson,Write-ins,W,130
+house,73,Muscatine,Bobby Kaufmann,R,1120
+house,73,Muscatine,Write-ins,W,21
+house,74,Johnson,Dave Jacoby,D,12839
+house,74,Johnson,Write-ins,W,201
+house,75,Benton,Dawn Pettengill,R,9024
+house,75,Benton,Paula G. Denison,D,4200
+house,75,Benton,Write-ins,W,18
+house,75,Iowa,Dawn Pettengill,R,1424
+house,75,Iowa,Paula G. Denison,D,724
+house,75,Iowa,Write-ins,W,3
+house,76,Iowa,David Maxwell,R,4131
+house,76,Iowa,Jacob Tornholm,D,2086
+house,76,Iowa,Write-ins,W,6
+house,76,Poweshiek,David Maxwell,R,5623
+house,76,Poweshiek,Jacob Tornholm,D,3821
+house,76,Poweshiek,Write-ins,W,21
+house,77,Johnson,Amy Nielsen,D,10217
+house,77,Johnson,Royce W. Phillips,R,7461
+house,77,Johnson,Write-ins,W,26
+house,78,Keokuk,Jarad Klein,R,3550
+house,78,Keokuk,Joshua N. Miller,L,766
+house,78,Keokuk,Write-ins,W,6
+house,78,Washington,Jarad Klein,R,6588
+house,78,Washington,Joshua N. Miller,L,2024
+house,78,Washington,Write-ins,W,38
+house,79,Mahaska,Guy M. Vander Linden,R,6677
+house,79,Mahaska,Write-ins,W,73
+house,79,Marion,Guy M. Vander Linden,R,5938
+house,79,Marion,Write-ins,W,41
+house,8,Hancock,Terry C. Baxter,R,4056
+house,8,Hancock,Nancy Paule Huisinga,D,1643
+house,8,Hancock,Write-ins,W,3
+house,8,Kossuth,Terry C. Baxter,R,2323
+house,8,Kossuth,Nancy Paule Huisinga,D,990
+house,8,Kossuth,Write-ins,W,2
+house,8,Wright,Terry C. Baxter,R,3699
+house,8,Wright,Nancy Paule Huisinga,D,2068
+house,8,Wright,Write-ins,W,3
+house,80,Appanoose,Larry Sheets,R,3108
+house,80,Appanoose,Levi Grenko,D,2638
+house,80,Appanoose,Garrett W. Byrd,L,195
+house,80,Appanoose,Write-ins,W,5
+house,80,Mahaska,Larry Sheets,R,1606
+house,80,Mahaska,Levi Grenko,D,403
+house,80,Mahaska,Garrett W. Byrd,L,61
+house,80,Mahaska,Write-ins,W,2
+house,80,Monroe,Larry Sheets,R,2280
+house,80,Monroe,Levi Grenko,D,1240
+house,80,Monroe,Garrett W. Byrd,L,122
+house,80,Monroe,Write-ins,W,3
+house,80,Wapello,Larry Sheets,R,1563
+house,80,Wapello,Levi Grenko,D,728
+house,80,Wapello,Garrett W. Byrd,L,119
+house,80,Wapello,Write-ins,W,5
+house,81,Wapello,Mary Gaskill,D,8356
+house,81,Wapello,Write-ins,W,302
+house,82,Davis,Curt Hanson,D,2776
+house,82,Davis,Write-ins,W,58
+house,82,Jefferson,Curt Hanson,D,5488
+house,82,Jefferson,Write-ins,W,135
+house,82,Van Buren,Curt Hanson,D,2224
+house,82,Van Buren,Write-ins,W,109
+house,83,Lee,Jerry Kearns,D,9617
+house,83,Lee,Write-ins,W,236
+house,84,Henry,David E. Heaton,R,6344
+house,84,Henry,Carrie L. Duncan,D,2884
+house,84,Henry,Write-ins,W,7
+house,84,Jefferson,David E. Heaton,R,657
+house,84,Jefferson,Carrie L. Duncan,D,224
+house,84,Jefferson,Write-ins,W,1
+house,84,Lee,David E. Heaton,R,1875
+house,84,Lee,Carrie L. Duncan,D,900
+house,84,Washington,David E. Heaton,R,760
+house,84,Washington,Carrie L. Duncan,D,217
+house,84,Washington,Write-ins,W,1
+house,85,Johnson,Vicki Lensing,D,15213
+house,85,Johnson,Write-ins,W,209
+house,86,Johnson,Mary Mascher,D,12689
+house,86,Johnson,Write-ins,W,194
+house,87,Des Moines,Dennis M. Cohoon,D,9333
+house,87,Des Moines,Write-ins,W,196
+house,88,Des Moines,David Kerr,R,3201
+house,88,Des Moines,Ryan Drew,D,2082
+house,88,Des Moines,Write-ins,W,5
+house,88,Louisa,David Kerr,R,3291
+house,88,Louisa,Ryan Drew,D,1599
+house,88,Louisa,Write-ins,W,5
+house,88,Muscatine,David Kerr,R,2127
+house,88,Muscatine,Ryan Drew,D,1788
+house,88,Muscatine,Write-ins,W,8
+house,89,Scott,Jim Lykam,D,10549
+house,89,Scott,Write-ins,W,302
+house,9,Webster,Helen Miller,D,7461
+house,9,Webster,Gary Waechter,R,5562
+house,9,Webster,Write-ins,W,14
+house,90,Scott,Cindy Winckler,D,8442
+house,90,Scott,Write-ins,W,219
+house,91,Muscatine,Gary Carlson,R,7293
+house,91,Muscatine,Phil Wiese,D,6229
+house,91,Muscatine,Write-ins,W,20
+house,92,Scott,Ross C. Paustian,R,8676
+house,92,Scott,Ken Krumwiede,D,6782
+house,92,Scott,Write-ins,W,21
+house,93,Scott,Phyllis Thede,D,8470
+house,93,Scott,Kurt Whalen,R,7865
+house,93,Scott,Write-ins,W,22
+house,94,Scott,Gary M. Mohr,R,14696
+house,94,Scott,Write-ins,W,285
+house,95,Buchanan,Louis J. Zumbach,R,606
+house,95,Buchanan,Richard T. Whitehead,D,288
+house,95,Buchanan,Write-ins,W,1
+house,95,Linn,Louis J. Zumbach,R,9262
+house,95,Linn,Richard T. Whitehead,D,6797
+house,95,Linn,Write-ins,W,17
+house,96,Delaware,Lee Hein,R,5811
+house,96,Delaware,Matt Hanlon,D,2808
+house,96,Delaware,Write-ins,W,7
+house,96,Jones,Lee Hein,R,3465
+house,96,Jones,Matt Hanlon,D,2142
+house,96,Jones,Write-ins,W,7
+house,97,Clinton,Norlin Mommsen,R,5396
+house,97,Clinton,Jeff Wolf,D,3749
+house,97,Clinton,David Melchert Jr.,L,525
+house,97,Clinton,Write-ins,W,5
+house,97,Scott,Norlin Mommsen,R,3949
+house,97,Scott,Jeff Wolf,D,2453
+house,97,Scott,David Melchert Jr.,L,722
+house,97,Scott,Write-ins,W,3
+house,98,Clinton,Mary Wolfe,D,8547
+house,98,Clinton,Jeannine Eldrenkamp,R,4306
+house,98,Clinton,Write-ins,W,19
+house,99,Dubuque,Abby Finkenauer,D,10780
+house,99,Dubuque,Write-ins,W,234
+senate,10,Adair,Jake Chapman,R,2499
+senate,10,Adair,Matt Paladino,D,1022
+senate,10,Adair,Write-ins,W,7
+senate,10,Cass,Jake Chapman,R,615
+senate,10,Cass,Matt Paladino,D,262
+senate,10,Cass,Write-ins,W,1
+senate,10,Dallas,Jake Chapman,R,11304
+senate,10,Dallas,Matt Paladino,D,6138
+senate,10,Dallas,Write-ins,W,28
+senate,10,Guthrie,Jake Chapman,R,3780
+senate,10,Guthrie,Matt Paladino,D,1616
+senate,10,Guthrie,Write-ins,W,12
+senate,10,Polk,Jake Chapman,R,1855
+senate,10,Polk,Matt Paladino,D,968
+senate,10,Polk,Write-ins,W,5
+senate,12,Fremont,Mark Costello,R,2476
+senate,12,Fremont,Don W. Brantz,L,727
+senate,12,Fremont,Write-ins,W,9
+senate,12,Mills,Mark Costello,R,5155
+senate,12,Mills,Don W. Brantz,L,1624
+senate,12,Mills,Write-ins,W,10
+senate,12,Montgomery,Mark Costello,R,3527
+senate,12,Montgomery,Don W. Brantz,L,1003
+senate,12,Montgomery,Write-ins,W,9
+senate,12,Page,Mark Costello,R,5158
+senate,12,Page,Don W. Brantz,L,1094
+senate,12,Page,Write-ins,W,11
+senate,12,Ringgold,Mark Costello,R,1667
+senate,12,Ringgold,Don W. Brantz,L,541
+senate,12,Ringgold,Write-ins,W,5
+senate,12,Taylor,Mark Costello,R,2029
+senate,12,Taylor,Don W. Brantz,L,535
+senate,12,Taylor,Write-ins,W,2
+senate,14,Clarke,Amy Sinclair,R,2757
+senate,14,Clarke,Ruth Smith,I,1279
+senate,14,Clarke,Write-ins,W,1
+senate,14,Decatur,Amy Sinclair,R,2200
+senate,14,Decatur,Ruth Smith,I,1275
+senate,14,Decatur,Write-ins,W,4
+senate,14,Jasper,Amy Sinclair,R,2348
+senate,14,Jasper,Ruth Smith,I,534
+senate,14,Jasper,Write-ins,W,3
+senate,14,Lucas,Amy Sinclair,R,2914
+senate,14,Lucas,Ruth Smith,I,1050
+senate,14,Lucas,Write-ins,W,4
+senate,14,Marion,Amy Sinclair,R,6841
+senate,14,Marion,Ruth Smith,I,2244
+senate,14,Marion,Write-ins,W,12
+senate,14,Wayne,Amy Sinclair,R,2422
+senate,14,Wayne,Ruth Smith,I,373
+senate,14,Wayne,Write-ins,W,1
+senate,16,Polk,Nate Boulton,D,14046
+senate,16,Polk,Mike Pryor,R,8114
+senate,16,Polk,Christopher Whiteing,L,1254
+senate,16,Polk,Write-ins,W,71
+senate,18,Polk,Janet Petersen,D,20388
+senate,18,Polk,Write-ins,W,469
+senate,2,Cherokee,Randy Feenstra,R,4685
+senate,2,Cherokee,Write-ins,W,28
+senate,2,O'Brien,Randy Feenstra,R,6173
+senate,2,O'Brien,Write-ins,W,25
+senate,2,Plymouth,Randy Feenstra,R,358
+senate,2,Plymouth,Write-ins,W,2
+senate,2,Sioux,Randy Feenstra,R,16306
+senate,2,Sioux,Write-ins,W,48
+senate,20,Polk,Brad Zaun,R,22431
+senate,20,Polk,Miyoko Hikiji,D,15238
+senate,20,Polk,Write-ins,W,69
+senate,22,Dallas,Charles Schneider,R,10937
+senate,22,Dallas,Andrew Barnes,D,7243
+senate,22,Dallas,Write-ins,W,23
+senate,22,Polk,Charles Schneider,R,8476
+senate,22,Polk,Andrew Barnes,D,8100
+senate,22,Polk,Write-ins,W,30
+senate,24,Boone,Jerry Behn,R,8568
+senate,24,Boone,Keith Puntenney,D,5164
+senate,24,Boone,Write-ins,W,21
+senate,24,Greene,Jerry Behn,R,3025
+senate,24,Greene,Keith Puntenney,D,1370
+senate,24,Greene,Write-ins,W,4
+senate,24,Hamilton,Jerry Behn,R,4650
+senate,24,Hamilton,Keith Puntenney,D,2505
+senate,24,Hamilton,Write-ins,W,8
+senate,24,Story,Jerry Behn,R,1926
+senate,24,Story,Keith Puntenney,D,1267
+senate,24,Story,Write-ins,W,6
+senate,24,Webster,Jerry Behn,R,1266
+senate,24,Webster,Keith Puntenney,D,700
+senate,24,Webster,Write-ins,W,2
+senate,26,Cerro Gordo,Waylon Brown,R,666
+senate,26,Cerro Gordo,Mary Jo Wilhelm,D,361
+senate,26,Cerro Gordo,Write-ins,W,1
+senate,26,Chickasaw,Waylon Brown,R,3869
+senate,26,Chickasaw,Mary Jo Wilhelm,D,2463
+senate,26,Chickasaw,Write-ins,W,5
+senate,26,Floyd,Waylon Brown,R,4722
+senate,26,Floyd,Mary Jo Wilhelm,D,3234
+senate,26,Floyd,Write-ins,W,7
+senate,26,Howard,Waylon Brown,R,2605
+senate,26,Howard,Mary Jo Wilhelm,D,1931
+senate,26,Howard,Write-ins,W,4
+senate,26,Mitchell,Waylon Brown,R,3705
+senate,26,Mitchell,Mary Jo Wilhelm,D,1688
+senate,26,Mitchell,Write-ins,W,5
+senate,26,Winneshiek,Waylon Brown,R,797
+senate,26,Winneshiek,Mary Jo Wilhelm,D,467
+senate,26,Winneshiek,Write-ins,W,1
+senate,26,Worth,Waylon Brown,R,2801
+senate,26,Worth,Mary Jo Wilhelm,D,1413
+senate,26,Worth,Write-ins,W,5
+senate,28,Allamakee,Michael Breitbach,R,4185
+senate,28,Allamakee,Jan Heikes,D,2190
+senate,28,Allamakee,Troy Hageman,L,327
+senate,28,Allamakee,Write-ins,W,2
+senate,28,Clayton,Michael Breitbach,R,5768
+senate,28,Clayton,Jan Heikes,D,2763
+senate,28,Clayton,Troy Hageman,L,341
+senate,28,Clayton,Write-ins,W,6
+senate,28,Fayette,Michael Breitbach,R,3056
+senate,28,Fayette,Jan Heikes,D,1242
+senate,28,Fayette,Troy Hageman,L,272
+senate,28,Fayette,Write-ins,W,4
+senate,28,Winneshiek,Jan Heikes,D,4628
+senate,28,Winneshiek,Michael Breitbach,R,4492
+senate,28,Winneshiek,Troy Hageman,L,708
+senate,28,Winneshiek,Write-ins,W,4
+senate,30,Black Hawk,Jeff Danielson,D,19568
+senate,30,Black Hawk,Bonnie Sadler,R,13754
+senate,30,Black Hawk,Write-ins,W,33
+senate,32,Black Hawk,Craig Johnson,R,2306
+senate,32,Black Hawk,Brian Schoenjahn,D,1169
+senate,32,Black Hawk,Write-ins,W,1
+senate,32,Bremer,Craig Johnson,R,8133
+senate,32,Bremer,Brian Schoenjahn,D,5073
+senate,32,Bremer,Write-ins,W,12
+senate,32,Buchanan,Craig Johnson,R,5472
+senate,32,Buchanan,Brian Schoenjahn,D,3735
+senate,32,Buchanan,Write-ins,W,6
+senate,32,Fayette,Craig Johnson,R,2730
+senate,32,Fayette,Brian Schoenjahn,D,2464
+senate,32,Fayette,Write-ins,W,10
+senate,34,Linn,Liz Mathis,D,20008
+senate,34,Linn,Rene Gadelha,R,15673
+senate,34,Linn,Write-ins,W,30
+senate,36,Black Hawk,Jeff Edler,R,958
+senate,36,Black Hawk,Steven Sodders,D,593
+senate,36,Marshall,Jeff Edler,R,8920
+senate,36,Marshall,Steven Sodders,D,8795
+senate,36,Marshall,Write-ins,W,21
+senate,36,Tama,Jeff Edler,R,4853
+senate,36,Tama,Steven Sodders,D,3723
+senate,36,Tama,Write-ins,W,12
+senate,38,Benton,Tim Kapucian,R,8669
+senate,38,Benton,Dennis Mathahs,D,3842
+senate,38,Benton,John George,L,645
+senate,38,Benton,Write-ins,W,9
+senate,38,Iowa,Tim Kapucian,R,4971
+senate,38,Iowa,Dennis Mathahs,D,2844
+senate,38,Iowa,John George,L,583
+senate,38,Iowa,Write-ins,W,9
+senate,38,Poweshiek,Tim Kapucian,R,4927
+senate,38,Poweshiek,Dennis Mathahs,D,3838
+senate,38,Poweshiek,John George,L,582
+senate,38,Poweshiek,Write-ins,W,9
+senate,4,Emmet,Dennis Guth,R,2785
+senate,4,Emmet,Susan Bangert,D,1749
+senate,4,Emmet,Write-ins,W,4
+senate,4,Hancock,Dennis Guth,R,3887
+senate,4,Hancock,Susan Bangert,D,1885
+senate,4,Hancock,Write-ins,W,4
+senate,4,Kossuth,Dennis Guth,R,4593
+senate,4,Kossuth,Susan Bangert,D,3896
+senate,4,Kossuth,Write-ins,W,4
+senate,4,Winnebago,Dennis Guth,R,3319
+senate,4,Winnebago,Susan Bangert,D,2329
+senate,4,Winnebago,Write-ins,W,6
+senate,4,Wright,Dennis Guth,R,3775
+senate,4,Wright,Susan Bangert,D,2030
+senate,4,Wright,Write-ins,W,4
+senate,40,Appanoose,Ken Rozenboom,R,4282
+senate,40,Appanoose,Write-ins,W,47
+senate,40,Mahaska,Ken Rozenboom,R,8649
+senate,40,Mahaska,Write-ins,W,67
+senate,40,Marion,Ken Rozenboom,R,5984
+senate,40,Marion,Write-ins,W,46
+senate,40,Monroe,Ken Rozenboom,R,2974
+senate,40,Monroe,Write-ins,W,20
+senate,40,Wapello,Ken Rozenboom,R,1879
+senate,40,Wapello,Write-ins,W,20
+senate,42,Henry,Danny Graber,R,5199
+senate,42,Henry,Rich Taylor,D,3965
+senate,42,Henry,Write-ins,W,11
+senate,42,Jefferson,Danny Graber,R,579
+senate,42,Jefferson,Rich Taylor,D,301
+senate,42,Jefferson,Write-ins,W,1
+senate,42,Lee,Rich Taylor,D,8900
+senate,42,Lee,Danny Graber,R,6794
+senate,42,Lee,Write-ins,W,23
+senate,42,Washington,Danny Graber,R,694
+senate,42,Washington,Rich Taylor,D,268
+senate,44,Des Moines,Thomas A. Greene,R,9653
+senate,44,Des Moines,Thomas Courtney,D,9030
+senate,44,Des Moines,Write-ins,W,22
+senate,44,Louisa,Thomas A. Greene,R,2738
+senate,44,Louisa,Thomas Courtney,D,2131
+senate,44,Louisa,Write-ins,W,6
+senate,44,Muscatine,Thomas A. Greene,R,2019
+senate,44,Muscatine,Thomas Courtney,D,1839
+senate,44,Muscatine,Write-ins,W,9
+senate,46,Muscatine,Mark S. Lofgren,R,7662
+senate,46,Muscatine,Chris Brase,D,5968
+senate,46,Muscatine,Write-ins,W,16
+senate,46,Scott,Mark S. Lofgren,R,8914
+senate,46,Scott,Chris Brase,D,6647
+senate,46,Scott,Write-ins,W,23
+senate,48,Buchanan,Dan Zumbach,R,611
+senate,48,Buchanan,Scott Peterson,D,256
+senate,48,Buchanan,Brian W. Cook,L,43
+senate,48,Delaware,Dan Zumbach,R,6590
+senate,48,Delaware,Scott Peterson,D,2243
+senate,48,Delaware,Brian W. Cook,L,296
+senate,48,Delaware,Write-ins,W,2
+senate,48,Jones,Dan Zumbach,R,3584
+senate,48,Jones,Scott Peterson,D,1876
+senate,48,Jones,Brian W. Cook,L,236
+senate,48,Jones,Write-ins,W,2
+senate,48,Linn,Dan Zumbach,R,9280
+senate,48,Linn,Scott Peterson,D,6221
+senate,48,Linn,Brian W. Cook,L,657
+senate,48,Linn,Write-ins,W,8
+senate,50,Dubuque,Pam Jochum,D,18345
+senate,50,Dubuque,John Hulsizer Jr.,R,10635
+senate,50,Dubuque,Write-ins,W,42
+senate,6,Audubon,Mark Segebart,R,2123
+senate,6,Audubon,Nick Serianni,L,450
+senate,6,Audubon,Write-ins,W,4
+senate,6,Buena Vista,Mark Segebart,R,5230
+senate,6,Buena Vista,Nick Serianni,L,1456
+senate,6,Buena Vista,Write-ins,W,22
+senate,6,Carroll,Mark Segebart,R,7491
+senate,6,Carroll,Nick Serianni,L,1375
+senate,6,Carroll,Write-ins,W,22
+senate,6,Crawford,Mark Segebart,R,1395
+senate,6,Crawford,Nick Serianni,L,210
+senate,6,Crawford,Write-ins,W,4
+senate,6,Sac,Mark Segebart,R,3984
+senate,6,Sac,Nick Serianni,L,553
+senate,6,Sac,Write-ins,W,9
+senate,8,Pottawattamie,Dan Dawson,R,12379
+senate,8,Pottawattamie,Michael E. Gronstal,D,10510
+senate,8,Pottawattamie,Write-ins,W,44
+statewide,President,Adair,Donald J. Trump,R,2461
+statewide,President,Adair,Hillary Clinton,D,1133
+statewide,President,Adair,Gary Johnson,L,127
+statewide,President,Adair,Write-ins,W,38
+statewide,President,Adair,Jill Stein,G,14
+statewide,President,Adair,Darrell L. Castle,C,10
+statewide,President,Adair,Dan R. Vacek,O,10
+statewide,President,Adair,Evan McMullin,I,10
+statewide,President,Adair,Lynn Kahn,O,5
+statewide,President,Adair,Rocky Roque De La Fuente,I,3
+statewide,President,Adair,Gloria La Riva,O,0
+statewide,President,Adams,Donald J. Trump,R,1395
+statewide,President,Adams,Hillary Clinton,D,565
+statewide,President,Adams,Gary Johnson,L,93
+statewide,President,Adams,Write-ins,W,22
+statewide,President,Adams,Darrell L. Castle,C,13
+statewide,President,Adams,Jill Stein,G,9
+statewide,President,Adams,Evan McMullin,I,6
+statewide,President,Adams,Dan R. Vacek,O,1
+statewide,President,Adams,Lynn Kahn,O,1
+statewide,President,Adams,Rocky Roque De La Fuente,I,1
+statewide,President,Adams,Gloria La Riva,O,0
+statewide,President,Allamakee,Donald J. Trump,R,4093
+statewide,President,Allamakee,Hillary Clinton,D,2421
+statewide,President,Allamakee,Gary Johnson,L,227
+statewide,President,Allamakee,Write-ins,W,49
+statewide,President,Allamakee,Jill Stein,G,46
+statewide,President,Allamakee,Darrell L. Castle,C,35
+statewide,President,Allamakee,Evan McMullin,I,34
+statewide,President,Allamakee,Lynn Kahn,O,10
+statewide,President,Allamakee,Dan R. Vacek,O,6
+statewide,President,Allamakee,Rocky Roque De La Fuente,I,1
+statewide,President,Allamakee,Gloria La Riva,O,1
+statewide,President,Appanoose,Donald J. Trump,R,4033
+statewide,President,Appanoose,Hillary Clinton,D,1814
+statewide,President,Appanoose,Gary Johnson,L,139
+statewide,President,Appanoose,Jill Stein,G,42
+statewide,President,Appanoose,Write-ins,W,37
+statewide,President,Appanoose,Darrell L. Castle,C,25
+statewide,President,Appanoose,Evan McMullin,I,24
+statewide,President,Appanoose,Dan R. Vacek,O,11
+statewide,President,Appanoose,Lynn Kahn,O,8
+statewide,President,Appanoose,Gloria La Riva,O,2
+statewide,President,Appanoose,Rocky Roque De La Fuente,I,1
+statewide,President,Audubon,Donald J. Trump,R,2136
+statewide,President,Audubon,Hillary Clinton,D,1080
+statewide,President,Audubon,Gary Johnson,L,107
+statewide,President,Audubon,Write-ins,W,30
+statewide,President,Audubon,Jill Stein,G,24
+statewide,President,Audubon,Darrell L. Castle,C,17
+statewide,President,Audubon,Evan McMullin,I,9
+statewide,President,Audubon,Dan R. Vacek,O,4
+statewide,President,Audubon,Lynn Kahn,O,2
+statewide,President,Audubon,Rocky Roque De La Fuente,I,2
+statewide,President,Audubon,Gloria La Riva,O,1
+statewide,President,Benton,Donald J. Trump,R,8232
+statewide,President,Benton,Hillary Clinton,D,4678
+statewide,President,Benton,Gary Johnson,L,542
+statewide,President,Benton,Write-ins,W,139
+statewide,President,Benton,Jill Stein,G,86
+statewide,President,Benton,Evan McMullin,I,70
+statewide,President,Benton,Darrell L. Castle,C,61
+statewide,President,Benton,Lynn Kahn,O,17
+statewide,President,Benton,Dan R. Vacek,O,13
+statewide,President,Benton,Gloria La Riva,O,4
+statewide,President,Benton,Rocky Roque De La Fuente,I,2
+statewide,President,Black Hawk,Hillary Clinton,D,32233
+statewide,President,Black Hawk,Donald J. Trump,R,27476
+statewide,President,Black Hawk,Gary Johnson,L,2368
+statewide,President,Black Hawk,Write-ins,W,835
+statewide,President,Black Hawk,Jill Stein,G,610
+statewide,President,Black Hawk,Evan McMullin,I,490
+statewide,President,Black Hawk,Darrell L. Castle,C,203
+statewide,President,Black Hawk,Dan R. Vacek,O,97
+statewide,President,Black Hawk,Lynn Kahn,O,60
+statewide,President,Black Hawk,Rocky Roque De La Fuente,I,22
+statewide,President,Black Hawk,Gloria La Riva,O,11
+statewide,President,Boone,Donald J. Trump,R,7484
+statewide,President,Boone,Hillary Clinton,D,5541
+statewide,President,Boone,Gary Johnson,L,643
+statewide,President,Boone,Write-ins,W,162
+statewide,President,Boone,Evan McMullin,I,158
+statewide,President,Boone,Jill Stein,G,104
+statewide,President,Boone,Darrell L. Castle,C,56
+statewide,President,Boone,Lynn Kahn,O,22
+statewide,President,Boone,Dan R. Vacek,O,20
+statewide,President,Boone,Rocky Roque De La Fuente,I,6
+statewide,President,Boone,Gloria La Riva,O,0
+statewide,President,Bremer,Donald J. Trump,R,7208
+statewide,President,Bremer,Hillary Clinton,D,5356
+statewide,President,Bremer,Gary Johnson,L,543
+statewide,President,Bremer,Write-ins,W,171
+statewide,President,Bremer,Evan McMullin,I,88
+statewide,President,Bremer,Jill Stein,G,81
+statewide,President,Bremer,Darrell L. Castle,C,54
+statewide,President,Bremer,Dan R. Vacek,O,21
+statewide,President,Bremer,Lynn Kahn,O,10
+statewide,President,Bremer,Rocky Roque De La Fuente,I,5
+statewide,President,Bremer,Gloria La Riva,O,1
+statewide,President,Buchanan,Donald J. Trump,R,5510
+statewide,President,Buchanan,Hillary Clinton,D,3970
+statewide,President,Buchanan,Gary Johnson,L,478
+statewide,President,Buchanan,Write-ins,W,105
+statewide,President,Buchanan,Darrell L. Castle,C,58
+statewide,President,Buchanan,Jill Stein,G,54
+statewide,President,Buchanan,Evan McMullin,I,48
+statewide,President,Buchanan,Lynn Kahn,O,17
+statewide,President,Buchanan,Dan R. Vacek,O,9
+statewide,President,Buchanan,Rocky Roque De La Fuente,I,2
+statewide,President,Buchanan,Gloria La Riva,O,1
+statewide,President,Buena Vista,Donald J. Trump,R,4903
+statewide,President,Buena Vista,Hillary Clinton,D,2856
+statewide,President,Buena Vista,Gary Johnson,L,288
+statewide,President,Buena Vista,Write-ins,W,84
+statewide,President,Buena Vista,Evan McMullin,I,58
+statewide,President,Buena Vista,Jill Stein,G,48
+statewide,President,Buena Vista,Darrell L. Castle,C,23
+statewide,President,Buena Vista,Lynn Kahn,O,13
+statewide,President,Buena Vista,Dan R. Vacek,O,4
+statewide,President,Buena Vista,Rocky Roque De La Fuente,I,1
+statewide,President,Buena Vista,Gloria La Riva,O,0
+statewide,President,Butler,Donald J. Trump,R,4921
+statewide,President,Butler,Hillary Clinton,D,2157
+statewide,President,Butler,Gary Johnson,L,219
+statewide,President,Butler,Write-ins,W,57
+statewide,President,Butler,Evan McMullin,I,50
+statewide,President,Butler,Darrell L. Castle,C,47
+statewide,President,Butler,Jill Stein,G,43
+statewide,President,Butler,Dan R. Vacek,O,11
+statewide,President,Butler,Lynn Kahn,O,5
+statewide,President,Butler,Rocky Roque De La Fuente,I,3
+statewide,President,Butler,Gloria La Riva,O,0
+statewide,President,Calhoun,Donald J. Trump,R,3468
+statewide,President,Calhoun,Hillary Clinton,D,1398
+statewide,President,Calhoun,Gary Johnson,L,173
+statewide,President,Calhoun,Write-ins,W,49
+statewide,President,Calhoun,Darrell L. Castle,C,29
+statewide,President,Calhoun,Jill Stein,G,18
+statewide,President,Calhoun,Evan McMullin,I,17
+statewide,President,Calhoun,Lynn Kahn,O,4
+statewide,President,Calhoun,Dan R. Vacek,O,2
+statewide,President,Calhoun,Gloria La Riva,O,1
+statewide,President,Calhoun,Rocky Roque De La Fuente,I,0
+statewide,President,Carroll,Donald J. Trump,R,6638
+statewide,President,Carroll,Hillary Clinton,D,3309
+statewide,President,Carroll,Gary Johnson,L,318
+statewide,President,Carroll,Write-ins,W,90
+statewide,President,Carroll,Jill Stein,G,61
+statewide,President,Carroll,Evan McMullin,I,54
+statewide,President,Carroll,Darrell L. Castle,C,41
+statewide,President,Carroll,Lynn Kahn,O,19
+statewide,President,Carroll,Dan R. Vacek,O,13
+statewide,President,Carroll,Rocky Roque De La Fuente,I,1
+statewide,President,Carroll,Gloria La Riva,O,0
+statewide,President,Cass,Donald J. Trump,R,4761
+statewide,President,Cass,Hillary Clinton,D,1951
+statewide,President,Cass,Gary Johnson,L,206
+statewide,President,Cass,Write-ins,W,57
+statewide,President,Cass,Jill Stein,G,52
+statewide,President,Cass,Evan McMullin,I,51
+statewide,President,Cass,Darrell L. Castle,C,25
+statewide,President,Cass,Lynn Kahn,O,13
+statewide,President,Cass,Dan R. Vacek,O,8
+statewide,President,Cass,Gloria La Riva,O,1
+statewide,President,Cass,Rocky Roque De La Fuente,I,0
+statewide,President,Cedar,Donald J. Trump,R,5295
+statewide,President,Cedar,Hillary Clinton,D,3599
+statewide,President,Cedar,Gary Johnson,L,365
+statewide,President,Cedar,Write-ins,W,111
+statewide,President,Cedar,Jill Stein,G,70
+statewide,President,Cedar,Evan McMullin,I,38
+statewide,President,Cedar,Darrell L. Castle,C,35
+statewide,President,Cedar,Dan R. Vacek,O,16
+statewide,President,Cedar,Lynn Kahn,O,10
+statewide,President,Cedar,Rocky Roque De La Fuente,I,2
+statewide,President,Cedar,Gloria La Riva,O,0
+statewide,President,Cerro Gordo,Donald J. Trump,R,11621
+statewide,President,Cerro Gordo,Hillary Clinton,D,9862
+statewide,President,Cerro Gordo,Gary Johnson,L,851
+statewide,President,Cerro Gordo,Write-ins,W,256
+statewide,President,Cerro Gordo,Evan McMullin,I,145
+statewide,President,Cerro Gordo,Jill Stein,G,130
+statewide,President,Cerro Gordo,Lynn Kahn,O,43
+statewide,President,Cerro Gordo,Darrell L. Castle,C,26
+statewide,President,Cerro Gordo,Dan R. Vacek,O,21
+statewide,President,Cerro Gordo,Rocky Roque De La Fuente,I,8
+statewide,President,Cerro Gordo,Gloria La Riva,O,2
+statewide,President,Cherokee,Donald J. Trump,R,4192
+statewide,President,Cherokee,Hillary Clinton,D,1679
+statewide,President,Cherokee,Gary Johnson,L,206
+statewide,President,Cherokee,Write-ins,W,65
+statewide,President,Cherokee,Evan McMullin,I,41
+statewide,President,Cherokee,Darrell L. Castle,C,29
+statewide,President,Cherokee,Jill Stein,G,29
+statewide,President,Cherokee,Lynn Kahn,O,9
+statewide,President,Cherokee,Dan R. Vacek,O,7
+statewide,President,Cherokee,Rocky Roque De La Fuente,I,1
+statewide,President,Cherokee,Gloria La Riva,O,0
+statewide,President,Chickasaw,Donald J. Trump,R,3742
+statewide,President,Chickasaw,Hillary Clinton,D,2266
+statewide,President,Chickasaw,Gary Johnson,L,236
+statewide,President,Chickasaw,Write-ins,W,63
+statewide,President,Chickasaw,Jill Stein,G,48
+statewide,President,Chickasaw,Darrell L. Castle,C,33
+statewide,President,Chickasaw,Evan McMullin,I,28
+statewide,President,Chickasaw,Lynn Kahn,O,10
+statewide,President,Chickasaw,Dan R. Vacek,O,5
+statewide,President,Chickasaw,Gloria La Riva,O,3
+statewide,President,Chickasaw,Rocky Roque De La Fuente,I,1
+statewide,President,Clarke,Donald J. Trump,R,2713
+statewide,President,Clarke,Hillary Clinton,D,1465
+statewide,President,Clarke,Gary Johnson,L,160
+statewide,President,Clarke,Write-ins,W,39
+statewide,President,Clarke,Darrell L. Castle,C,26
+statewide,President,Clarke,Evan McMullin,I,20
+statewide,President,Clarke,Jill Stein,G,18
+statewide,President,Clarke,Lynn Kahn,O,9
+statewide,President,Clarke,Dan R. Vacek,O,4
+statewide,President,Clarke,Rocky Roque De La Fuente,I,0
+statewide,President,Clarke,Gloria La Riva,O,0
+statewide,President,Clay,Donald J. Trump,R,5877
+statewide,President,Clay,Hillary Clinton,D,2249
+statewide,President,Clay,Gary Johnson,L,288
+statewide,President,Clay,Write-ins,W,63
+statewide,President,Clay,Evan McMullin,I,58
+statewide,President,Clay,Jill Stein,G,35
+statewide,President,Clay,Darrell L. Castle,C,25
+statewide,President,Clay,Lynn Kahn,O,13
+statewide,President,Clay,Dan R. Vacek,O,6
+statewide,President,Clay,Rocky Roque De La Fuente,I,2
+statewide,President,Clay,Gloria La Riva,O,1
+statewide,President,Clayton,Donald J. Trump,R,5317
+statewide,President,Clayton,Hillary Clinton,D,3237
+statewide,President,Clayton,Gary Johnson,L,334
+statewide,President,Clayton,Write-ins,W,70
+statewide,President,Clayton,Jill Stein,G,51
+statewide,President,Clayton,Evan McMullin,I,47
+statewide,President,Clayton,Lynn Kahn,O,30
+statewide,President,Clayton,Dan R. Vacek,O,23
+statewide,President,Clayton,Darrell L. Castle,C,16
+statewide,President,Clayton,Rocky Roque De La Fuente,I,3
+statewide,President,Clayton,Gloria La Riva,O,1
+statewide,President,Clinton,Donald J. Trump,R,11276
+statewide,President,Clinton,Hillary Clinton,D,10095
+statewide,President,Clinton,Gary Johnson,L,825
+statewide,President,Clinton,Write-ins,W,267
+statewide,President,Clinton,Jill Stein,G,184
+statewide,President,Clinton,Evan McMullin,I,135
+statewide,President,Clinton,Darrell L. Castle,C,105
+statewide,President,Clinton,Dan R. Vacek,O,103
+statewide,President,Clinton,Lynn Kahn,O,66
+statewide,President,Clinton,Gloria La Riva,O,6
+statewide,President,Clinton,Rocky Roque De La Fuente,I,5
+statewide,President,Crawford,Donald J. Trump,R,4617
+statewide,President,Crawford,Hillary Clinton,D,1991
+statewide,President,Crawford,Gary Johnson,L,172
+statewide,President,Crawford,Write-ins,W,57
+statewide,President,Crawford,Jill Stein,G,33
+statewide,President,Crawford,Darrell L. Castle,C,25
+statewide,President,Crawford,Evan McMullin,I,19
+statewide,President,Crawford,Lynn Kahn,O,7
+statewide,President,Crawford,Dan R. Vacek,O,6
+statewide,President,Crawford,Rocky Roque De La Fuente,I,6
+statewide,President,Crawford,Gloria La Riva,O,2
+statewide,President,Dallas,Donald J. Trump,R,19339
+statewide,President,Dallas,Hillary Clinton,D,15701
+statewide,President,Dallas,Gary Johnson,L,1757
+statewide,President,Dallas,Write-ins,W,535
+statewide,President,Dallas,Evan McMullin,I,519
+statewide,President,Dallas,Jill Stein,G,181
+statewide,President,Dallas,Darrell L. Castle,C,143
+statewide,President,Dallas,Lynn Kahn,O,28
+statewide,President,Dallas,Dan R. Vacek,O,26
+statewide,President,Dallas,Rocky Roque De La Fuente,I,15
+statewide,President,Dallas,Gloria La Riva,O,8
+statewide,President,Davis,Donald J. Trump,R,2723
+statewide,President,Davis,Hillary Clinton,D,977
+statewide,President,Davis,Gary Johnson,L,85
+statewide,President,Davis,Jill Stein,G,25
+statewide,President,Davis,Evan McMullin,I,21
+statewide,President,Davis,Write-ins,W,20
+statewide,President,Davis,Darrell L. Castle,C,17
+statewide,President,Davis,Lynn Kahn,O,7
+statewide,President,Davis,Dan R. Vacek,O,6
+statewide,President,Davis,Rocky Roque De La Fuente,I,1
+statewide,President,Davis,Gloria La Riva,O,0
+statewide,President,Decatur,Donald J. Trump,R,2296
+statewide,President,Decatur,Hillary Clinton,D,1201
+statewide,President,Decatur,Gary Johnson,L,123
+statewide,President,Decatur,Write-ins,W,31
+statewide,President,Decatur,Jill Stein,G,29
+statewide,President,Decatur,Darrell L. Castle,C,26
+statewide,President,Decatur,Evan McMullin,I,20
+statewide,President,Decatur,Lynn Kahn,O,5
+statewide,President,Decatur,Dan R. Vacek,O,1
+statewide,President,Decatur,Rocky Roque De La Fuente,I,1
+statewide,President,Decatur,Gloria La Riva,O,1
+statewide,President,Delaware,Donald J. Trump,R,5694
+statewide,President,Delaware,Hillary Clinton,D,2957
+statewide,President,Delaware,Gary Johnson,L,337
+statewide,President,Delaware,Write-ins,W,69
+statewide,President,Delaware,Evan McMullin,I,47
+statewide,President,Delaware,Jill Stein,G,40
+statewide,President,Delaware,Lynn Kahn,O,39
+statewide,President,Delaware,Darrell L. Castle,C,38
+statewide,President,Delaware,Dan R. Vacek,O,18
+statewide,President,Delaware,Gloria La Riva,O,2
+statewide,President,Delaware,Rocky Roque De La Fuente,I,0
+statewide,President,Des Moines,Donald J. Trump,R,9529
+statewide,President,Des Moines,Hillary Clinton,D,8212
+statewide,President,Des Moines,Gary Johnson,L,635
+statewide,President,Des Moines,Write-ins,W,300
+statewide,President,Des Moines,Jill Stein,G,134
+statewide,President,Des Moines,Evan McMullin,I,130
+statewide,President,Des Moines,Darrell L. Castle,C,75
+statewide,President,Des Moines,Lynn Kahn,O,40
+statewide,President,Des Moines,Dan R. Vacek,O,36
+statewide,President,Des Moines,Rocky Roque De La Fuente,I,8
+statewide,President,Des Moines,Gloria La Riva,O,4
+statewide,President,Dickinson,Donald J. Trump,R,6753
+statewide,President,Dickinson,Hillary Clinton,D,3056
+statewide,President,Dickinson,Gary Johnson,L,292
+statewide,President,Dickinson,Write-ins,W,89
+statewide,President,Dickinson,Jill Stein,G,54
+statewide,President,Dickinson,Evan McMullin,I,51
+statewide,President,Dickinson,Darrell L. Castle,C,31
+statewide,President,Dickinson,Dan R. Vacek,O,14
+statewide,President,Dickinson,Lynn Kahn,O,8
+statewide,President,Dickinson,Rocky Roque De La Fuente,I,6
+statewide,President,Dickinson,Gloria La Riva,O,0
+statewide,President,Dubuque,Donald J. Trump,R,23460
+statewide,President,Dubuque,Hillary Clinton,D,22850
+statewide,President,Dubuque,Gary Johnson,L,2013
+statewide,President,Dubuque,Write-ins,W,504
+statewide,President,Dubuque,Jill Stein,G,379
+statewide,President,Dubuque,Evan McMullin,I,305
+statewide,President,Dubuque,Lynn Kahn,O,88
+statewide,President,Dubuque,Darrell L. Castle,C,60
+statewide,President,Dubuque,Dan R. Vacek,O,38
+statewide,President,Dubuque,Rocky Roque De La Fuente,I,12
+statewide,President,Dubuque,Gloria La Riva,O,12
+statewide,President,Emmet,Donald J. Trump,R,3124
+statewide,President,Emmet,Hillary Clinton,D,1357
+statewide,President,Emmet,Gary Johnson,L,139
+statewide,President,Emmet,Write-ins,W,41
+statewide,President,Emmet,Jill Stein,G,26
+statewide,President,Emmet,Darrell L. Castle,C,20
+statewide,President,Emmet,Lynn Kahn,O,16
+statewide,President,Emmet,Evan McMullin,I,16
+statewide,President,Emmet,Dan R. Vacek,O,13
+statewide,President,Emmet,Gloria La Riva,O,1
+statewide,President,Emmet,Rocky Roque De La Fuente,I,0
+statewide,President,Fayette,Donald J. Trump,R,5620
+statewide,President,Fayette,Hillary Clinton,D,3689
+statewide,President,Fayette,Gary Johnson,L,328
+statewide,President,Fayette,Write-ins,W,104
+statewide,President,Fayette,Evan McMullin,I,65
+statewide,President,Fayette,Jill Stein,G,62
+statewide,President,Fayette,Darrell L. Castle,C,43
+statewide,President,Fayette,Dan R. Vacek,O,35
+statewide,President,Fayette,Lynn Kahn,O,24
+statewide,President,Fayette,Rocky Roque De La Fuente,I,4
+statewide,President,Fayette,Gloria La Riva,O,1
+statewide,President,Floyd,Donald J. Trump,R,4375
+statewide,President,Floyd,Hillary Clinton,D,3179
+statewide,President,Floyd,Gary Johnson,L,241
+statewide,President,Floyd,Write-ins,W,69
+statewide,President,Floyd,Evan McMullin,I,63
+statewide,President,Floyd,Jill Stein,G,60
+statewide,President,Floyd,Darrell L. Castle,C,43
+statewide,President,Floyd,Lynn Kahn,O,16
+statewide,President,Floyd,Dan R. Vacek,O,8
+statewide,President,Floyd,Rocky Roque De La Fuente,I,3
+statewide,President,Floyd,Gloria La Riva,O,3
+statewide,President,Franklin,Donald J. Trump,R,3163
+statewide,President,Franklin,Hillary Clinton,D,1493
+statewide,President,Franklin,Gary Johnson,L,188
+statewide,President,Franklin,Write-ins,W,38
+statewide,President,Franklin,Jill Stein,G,31
+statewide,President,Franklin,Evan McMullin,I,28
+statewide,President,Franklin,Darrell L. Castle,C,16
+statewide,President,Franklin,Dan R. Vacek,O,5
+statewide,President,Franklin,Lynn Kahn,O,4
+statewide,President,Franklin,Rocky Roque De La Fuente,I,2
+statewide,President,Franklin,Gloria La Riva,O,0
+statewide,President,Fremont,Donald J. Trump,R,2407
+statewide,President,Fremont,Hillary Clinton,D,963
+statewide,President,Fremont,Gary Johnson,L,115
+statewide,President,Fremont,Write-ins,W,31
+statewide,President,Fremont,Jill Stein,G,21
+statewide,President,Fremont,Evan McMullin,I,19
+statewide,President,Fremont,Darrell L. Castle,C,15
+statewide,President,Fremont,Dan R. Vacek,O,10
+statewide,President,Fremont,Lynn Kahn,O,9
+statewide,President,Fremont,Rocky Roque De La Fuente,I,3
+statewide,President,Fremont,Gloria La Riva,O,2
+statewide,President,Greene,Donald J. Trump,R,2820
+statewide,President,Greene,Hillary Clinton,D,1691
+statewide,President,Greene,Gary Johnson,L,160
+statewide,President,Greene,Write-ins,W,55
+statewide,President,Greene,Jill Stein,G,31
+statewide,President,Greene,Evan McMullin,I,29
+statewide,President,Greene,Darrell L. Castle,C,20
+statewide,President,Greene,Dan R. Vacek,O,9
+statewide,President,Greene,Lynn Kahn,O,4
+statewide,President,Greene,Rocky Roque De La Fuente,I,1
+statewide,President,Greene,Gloria La Riva,O,1
+statewide,President,Grundy,Donald J. Trump,R,4527
+statewide,President,Grundy,Hillary Clinton,D,1856
+statewide,President,Grundy,Gary Johnson,L,233
+statewide,President,Grundy,Write-ins,W,96
+statewide,President,Grundy,Evan McMullin,I,50
+statewide,President,Grundy,Jill Stein,G,38
+statewide,President,Grundy,Darrell L. Castle,C,37
+statewide,President,Grundy,Lynn Kahn,O,21
+statewide,President,Grundy,Dan R. Vacek,O,11
+statewide,President,Grundy,Rocky Roque De La Fuente,I,3
+statewide,President,Grundy,Gloria La Riva,O,0
+statewide,President,Guthrie,Donald J. Trump,R,3628
+statewide,President,Guthrie,Hillary Clinton,D,1732
+statewide,President,Guthrie,Gary Johnson,L,258
+statewide,President,Guthrie,Write-ins,W,53
+statewide,President,Guthrie,Darrell L. Castle,C,20
+statewide,President,Guthrie,Jill Stein,G,19
+statewide,President,Guthrie,Evan McMullin,I,18
+statewide,President,Guthrie,Dan R. Vacek,O,15
+statewide,President,Guthrie,Lynn Kahn,O,7
+statewide,President,Guthrie,Rocky Roque De La Fuente,I,0
+statewide,President,Guthrie,Gloria La Riva,O,0
+statewide,President,Hamilton,Donald J. Trump,R,4463
+statewide,President,Hamilton,Hillary Clinton,D,2726
+statewide,President,Hamilton,Gary Johnson,L,259
+statewide,President,Hamilton,Write-ins,W,80
+statewide,President,Hamilton,Evan McMullin,I,68
+statewide,President,Hamilton,Darrell L. Castle,C,51
+statewide,President,Hamilton,Jill Stein,G,31
+statewide,President,Hamilton,Lynn Kahn,O,8
+statewide,President,Hamilton,Dan R. Vacek,O,5
+statewide,President,Hamilton,Rocky Roque De La Fuente,I,3
+statewide,President,Hamilton,Gloria La Riva,O,0
+statewide,President,Hancock,Donald J. Trump,R,3977
+statewide,President,Hancock,Hillary Clinton,D,1587
+statewide,President,Hancock,Gary Johnson,L,166
+statewide,President,Hancock,Write-ins,W,41
+statewide,President,Hancock,Evan McMullin,I,31
+statewide,President,Hancock,Jill Stein,G,24
+statewide,President,Hancock,Darrell L. Castle,C,23
+statewide,President,Hancock,Lynn Kahn,O,13
+statewide,President,Hancock,Dan R. Vacek,O,8
+statewide,President,Hancock,Rocky Roque De La Fuente,I,1
+statewide,President,Hancock,Gloria La Riva,O,0
+statewide,President,Hardin,Donald J. Trump,R,5254
+statewide,President,Hardin,Hillary Clinton,D,2787
+statewide,President,Hardin,Gary Johnson,L,298
+statewide,President,Hardin,Evan McMullin,I,69
+statewide,President,Hardin,Write-ins,W,69
+statewide,President,Hardin,Jill Stein,G,28
+statewide,President,Hardin,Lynn Kahn,O,9
+statewide,President,Hardin,Darrell L. Castle,C,8
+statewide,President,Hardin,Rocky Roque De La Fuente,I,4
+statewide,President,Hardin,Gloria La Riva,O,4
+statewide,President,Hardin,Dan R. Vacek,O,3
+statewide,President,Harrison,Donald J. Trump,R,4902
+statewide,President,Harrison,Hillary Clinton,D,2131
+statewide,President,Harrison,Gary Johnson,L,210
+statewide,President,Harrison,Write-ins,W,68
+statewide,President,Harrison,Jill Stein,G,50
+statewide,President,Harrison,Evan McMullin,I,39
+statewide,President,Harrison,Darrell L. Castle,C,37
+statewide,President,Harrison,Lynn Kahn,O,17
+statewide,President,Harrison,Dan R. Vacek,O,7
+statewide,President,Harrison,Rocky Roque De La Fuente,I,3
+statewide,President,Harrison,Gloria La Riva,O,1
+statewide,President,Henry,Donald J. Trump,R,5779
+statewide,President,Henry,Hillary Clinton,D,2904
+statewide,President,Henry,Gary Johnson,L,337
+statewide,President,Henry,Jill Stein,G,113
+statewide,President,Henry,Evan McMullin,I,100
+statewide,President,Henry,Write-ins,W,94
+statewide,President,Henry,Darrell L. Castle,C,40
+statewide,President,Henry,Dan R. Vacek,O,15
+statewide,President,Henry,Lynn Kahn,O,14
+statewide,President,Henry,Rocky Roque De La Fuente,I,4
+statewide,President,Henry,Gloria La Riva,O,4
+statewide,President,Howard,Donald J. Trump,R,2611
+statewide,President,Howard,Hillary Clinton,D,1677
+statewide,President,Howard,Gary Johnson,L,131
+statewide,President,Howard,Write-ins,W,47
+statewide,President,Howard,Jill Stein,G,38
+statewide,President,Howard,Darrell L. Castle,C,15
+statewide,President,Howard,Evan McMullin,I,15
+statewide,President,Howard,Dan R. Vacek,O,13
+statewide,President,Howard,Lynn Kahn,O,11
+statewide,President,Howard,Gloria La Riva,O,1
+statewide,President,Howard,Rocky Roque De La Fuente,I,0
+statewide,President,Humboldt,Donald J. Trump,R,3568
+statewide,President,Humboldt,Hillary Clinton,D,1252
+statewide,President,Humboldt,Gary Johnson,L,127
+statewide,President,Humboldt,Write-ins,W,49
+statewide,President,Humboldt,Evan McMullin,I,40
+statewide,President,Humboldt,Jill Stein,G,20
+statewide,President,Humboldt,Darrell L. Castle,C,13
+statewide,President,Humboldt,Lynn Kahn,O,8
+statewide,President,Humboldt,Dan R. Vacek,O,6
+statewide,President,Humboldt,Rocky Roque De La Fuente,I,2
+statewide,President,Humboldt,Gloria La Riva,O,2
+statewide,President,Ida,Donald J. Trump,R,2655
+statewide,President,Ida,Hillary Clinton,D,792
+statewide,President,Ida,Gary Johnson,L,103
+statewide,President,Ida,Write-ins,W,21
+statewide,President,Ida,Evan McMullin,I,16
+statewide,President,Ida,Jill Stein,G,9
+statewide,President,Ida,Darrell L. Castle,C,8
+statewide,President,Ida,Dan R. Vacek,O,4
+statewide,President,Ida,Lynn Kahn,O,2
+statewide,President,Ida,Gloria La Riva,O,2
+statewide,President,Ida,Rocky Roque De La Fuente,I,0
+statewide,President,Iowa,Donald J. Trump,R,5205
+statewide,President,Iowa,Hillary Clinton,D,3084
+statewide,President,Iowa,Gary Johnson,L,317
+statewide,President,Iowa,Write-ins,W,85
+statewide,President,Iowa,Darrell L. Castle,C,69
+statewide,President,Iowa,Jill Stein,G,61
+statewide,President,Iowa,Evan McMullin,I,54
+statewide,President,Iowa,Lynn Kahn,O,14
+statewide,President,Iowa,Dan R. Vacek,O,9
+statewide,President,Iowa,Rocky Roque De La Fuente,I,6
+statewide,President,Iowa,Gloria La Riva,O,0
+statewide,President,Jackson,Donald J. Trump,R,5824
+statewide,President,Jackson,Hillary Clinton,D,3837
+statewide,President,Jackson,Gary Johnson,L,319
+statewide,President,Jackson,Write-ins,W,102
+statewide,President,Jackson,Jill Stein,G,85
+statewide,President,Jackson,Evan McMullin,I,55
+statewide,President,Jackson,Darrell L. Castle,C,53
+statewide,President,Jackson,Dan R. Vacek,O,14
+statewide,President,Jackson,Lynn Kahn,O,12
+statewide,President,Jackson,Rocky Roque De La Fuente,I,7
+statewide,President,Jackson,Gloria La Riva,O,2
+statewide,President,Jasper,Donald J. Trump,R,10560
+statewide,President,Jasper,Hillary Clinton,D,7109
+statewide,President,Jasper,Gary Johnson,L,715
+statewide,President,Jasper,Write-ins,W,253
+statewide,President,Jasper,Jill Stein,G,95
+statewide,President,Jasper,Evan McMullin,I,91
+statewide,President,Jasper,Darrell L. Castle,C,90
+statewide,President,Jasper,Dan R. Vacek,O,76
+statewide,President,Jasper,Lynn Kahn,O,39
+statewide,President,Jasper,Rocky Roque De La Fuente,I,4
+statewide,President,Jasper,Gloria La Riva,O,2
+statewide,President,Jefferson,Donald J. Trump,R,3748
+statewide,President,Jefferson,Hillary Clinton,D,3710
+statewide,President,Jefferson,Jill Stein,G,256
+statewide,President,Jefferson,Gary Johnson,L,246
+statewide,President,Jefferson,Write-ins,W,136
+statewide,President,Jefferson,Evan McMullin,I,25
+statewide,President,Jefferson,Darrell L. Castle,C,22
+statewide,President,Jefferson,Lynn Kahn,O,6
+statewide,President,Jefferson,Dan R. Vacek,O,5
+statewide,President,Jefferson,Gloria La Riva,O,2
+statewide,President,Jefferson,Rocky Roque De La Fuente,I,0
+statewide,President,Johnson,Hillary Clinton,D,50200
+statewide,President,Johnson,Donald J. Trump,R,21044
+statewide,President,Johnson,Gary Johnson,L,2758
+statewide,President,Johnson,Write-ins,W,964
+statewide,President,Johnson,Jill Stein,G,878
+statewide,President,Johnson,Evan McMullin,I,721
+statewide,President,Johnson,Darrell L. Castle,C,130
+statewide,President,Johnson,Dan R. Vacek,O,125
+statewide,President,Johnson,Lynn Kahn,O,67
+statewide,President,Johnson,Gloria La Riva,O,35
+statewide,President,Johnson,Rocky Roque De La Fuente,I,18
+statewide,President,Jones,Donald J. Trump,R,5720
+statewide,President,Jones,Hillary Clinton,D,3787
+statewide,President,Jones,Gary Johnson,L,305
+statewide,President,Jones,Write-ins,W,109
+statewide,President,Jones,Jill Stein,G,62
+statewide,President,Jones,Evan McMullin,I,50
+statewide,President,Jones,Darrell L. Castle,C,40
+statewide,President,Jones,Dan R. Vacek,O,32
+statewide,President,Jones,Lynn Kahn,O,25
+statewide,President,Jones,Gloria La Riva,O,2
+statewide,President,Jones,Rocky Roque De La Fuente,I,1
+statewide,President,Keokuk,Donald J. Trump,R,3390
+statewide,President,Keokuk,Hillary Clinton,D,1342
+statewide,President,Keokuk,Gary Johnson,L,139
+statewide,President,Keokuk,Write-ins,W,44
+statewide,President,Keokuk,Jill Stein,G,28
+statewide,President,Keokuk,Darrell L. Castle,C,17
+statewide,President,Keokuk,Evan McMullin,I,15
+statewide,President,Keokuk,Lynn Kahn,O,7
+statewide,President,Keokuk,Dan R. Vacek,O,1
+statewide,President,Keokuk,Rocky Roque De La Fuente,I,1
+statewide,President,Keokuk,Gloria La Riva,O,1
+statewide,President,Kossuth,Donald J. Trump,R,5653
+statewide,President,Kossuth,Hillary Clinton,D,2543
+statewide,President,Kossuth,Gary Johnson,L,194
+statewide,President,Kossuth,Write-ins,W,70
+statewide,President,Kossuth,Evan McMullin,I,36
+statewide,President,Kossuth,Jill Stein,G,33
+statewide,President,Kossuth,Lynn Kahn,O,28
+statewide,President,Kossuth,Dan R. Vacek,O,26
+statewide,President,Kossuth,Darrell L. Castle,C,22
+statewide,President,Kossuth,Rocky Roque De La Fuente,I,1
+statewide,President,Kossuth,Gloria La Riva,O,1
+statewide,President,Lee,Donald J. Trump,R,8803
+statewide,President,Lee,Hillary Clinton,D,6215
+statewide,President,Lee,Gary Johnson,L,510
+statewide,President,Lee,Write-ins,W,187
+statewide,President,Lee,Jill Stein,G,145
+statewide,President,Lee,Evan McMullin,I,84
+statewide,President,Lee,Dan R. Vacek,O,78
+statewide,President,Lee,Darrell L. Castle,C,77
+statewide,President,Lee,Lynn Kahn,O,39
+statewide,President,Lee,Rocky Roque De La Fuente,I,8
+statewide,President,Lee,Gloria La Riva,O,5
+statewide,President,Linn,Hillary Clinton,D,58935
+statewide,President,Linn,Donald J. Trump,R,48390
+statewide,President,Linn,Gary Johnson,L,5557
+statewide,President,Linn,Write-ins,W,1703
+statewide,President,Linn,Jill Stein,G,1005
+statewide,President,Linn,Evan McMullin,I,933
+statewide,President,Linn,Darrell L. Castle,C,266
+statewide,President,Linn,Lynn Kahn,O,133
+statewide,President,Linn,Dan R. Vacek,O,119
+statewide,President,Linn,Rocky Roque De La Fuente,I,34
+statewide,President,Linn,Gloria La Riva,O,23
+statewide,President,Louisa,Donald J. Trump,R,3069
+statewide,President,Louisa,Hillary Clinton,D,1648
+statewide,President,Louisa,Gary Johnson,L,136
+statewide,President,Louisa,Write-ins,W,48
+statewide,President,Louisa,Evan McMullin,I,39
+statewide,President,Louisa,Jill Stein,G,28
+statewide,President,Louisa,Darrell L. Castle,C,26
+statewide,President,Louisa,Lynn Kahn,O,5
+statewide,President,Louisa,Dan R. Vacek,O,4
+statewide,President,Louisa,Gloria La Riva,O,4
+statewide,President,Louisa,Rocky Roque De La Fuente,I,1
+statewide,President,Lucas,Donald J. Trump,R,2877
+statewide,President,Lucas,Hillary Clinton,D,1239
+statewide,President,Lucas,Gary Johnson,L,115
+statewide,President,Lucas,Write-ins,W,50
+statewide,President,Lucas,Jill Stein,G,28
+statewide,President,Lucas,Darrell L. Castle,C,18
+statewide,President,Lucas,Evan McMullin,I,16
+statewide,President,Lucas,Dan R. Vacek,O,6
+statewide,President,Lucas,Lynn Kahn,O,4
+statewide,President,Lucas,Gloria La Riva,O,1
+statewide,President,Lucas,Rocky Roque De La Fuente,I,0
+statewide,President,Lyon,Donald J. Trump,R,5192
+statewide,President,Lyon,Hillary Clinton,D,920
+statewide,President,Lyon,Gary Johnson,L,137
+statewide,President,Lyon,Evan McMullin,I,35
+statewide,President,Lyon,Write-ins,W,32
+statewide,President,Lyon,Darrell L. Castle,C,18
+statewide,President,Lyon,Jill Stein,G,18
+statewide,President,Lyon,Lynn Kahn,O,16
+statewide,President,Lyon,Dan R. Vacek,O,7
+statewide,President,Lyon,Rocky Roque De La Fuente,I,1
+statewide,President,Lyon,Gloria La Riva,O,1
+statewide,President,Madison,Donald J. Trump,R,5360
+statewide,President,Madison,Hillary Clinton,D,2678
+statewide,President,Madison,Gary Johnson,L,347
+statewide,President,Madison,Evan McMullin,I,84
+statewide,President,Madison,Write-ins,W,71
+statewide,President,Madison,Jill Stein,G,41
+statewide,President,Madison,Darrell L. Castle,C,37
+statewide,President,Madison,Lynn Kahn,O,11
+statewide,President,Madison,Dan R. Vacek,O,5
+statewide,President,Madison,Rocky Roque De La Fuente,I,1
+statewide,President,Madison,Gloria La Riva,O,1
+statewide,President,Mahaska,Donald J. Trump,R,7432
+statewide,President,Mahaska,Hillary Clinton,D,2619
+statewide,President,Mahaska,Gary Johnson,L,318
+statewide,President,Mahaska,Write-ins,W,95
+statewide,President,Mahaska,Evan McMullin,I,73
+statewide,President,Mahaska,Jill Stein,G,38
+statewide,President,Mahaska,Darrell L. Castle,C,35
+statewide,President,Mahaska,Lynn Kahn,O,13
+statewide,President,Mahaska,Dan R. Vacek,O,9
+statewide,President,Mahaska,Rocky Roque De La Fuente,I,0
+statewide,President,Mahaska,Gloria La Riva,O,0
+statewide,President,Marion,Donald J. Trump,R,10962
+statewide,President,Marion,Hillary Clinton,D,5482
+statewide,President,Marion,Gary Johnson,L,706
+statewide,President,Marion,Write-ins,W,223
+statewide,President,Marion,Evan McMullin,I,204
+statewide,President,Marion,Darrell L. Castle,C,111
+statewide,President,Marion,Jill Stein,G,73
+statewide,President,Marion,Lynn Kahn,O,28
+statewide,President,Marion,Dan R. Vacek,O,19
+statewide,President,Marion,Rocky Roque De La Fuente,I,7
+statewide,President,Marion,Gloria La Riva,O,1
+statewide,President,Marshall,Donald J. Trump,R,9146
+statewide,President,Marshall,Hillary Clinton,D,7652
+statewide,President,Marshall,Gary Johnson,L,577
+statewide,President,Marshall,Write-ins,W,228
+statewide,President,Marshall,Jill Stein,G,117
+statewide,President,Marshall,Evan McMullin,I,104
+statewide,President,Marshall,Darrell L. Castle,C,77
+statewide,President,Marshall,Dan R. Vacek,O,34
+statewide,President,Marshall,Lynn Kahn,O,33
+statewide,President,Marshall,Gloria La Riva,O,7
+statewide,President,Marshall,Rocky Roque De La Fuente,I,5
+statewide,President,Mills,Donald J. Trump,R,5067
+statewide,President,Mills,Hillary Clinton,D,2090
+statewide,President,Mills,Gary Johnson,L,307
+statewide,President,Mills,Evan McMullin,I,76
+statewide,President,Mills,Write-ins,W,59
+statewide,President,Mills,Jill Stein,G,56
+statewide,President,Mills,Darrell L. Castle,C,26
+statewide,President,Mills,Dan R. Vacek,O,8
+statewide,President,Mills,Lynn Kahn,O,7
+statewide,President,Mills,Rocky Roque De La Fuente,I,2
+statewide,President,Mills,Gloria La Riva,O,0
+statewide,President,Mitchell,Donald J. Trump,R,3190
+statewide,President,Mitchell,Hillary Clinton,D,1888
+statewide,President,Mitchell,Gary Johnson,L,210
+statewide,President,Mitchell,Write-ins,W,34
+statewide,President,Mitchell,Jill Stein,G,28
+statewide,President,Mitchell,Evan McMullin,I,25
+statewide,President,Mitchell,Darrell L. Castle,C,16
+statewide,President,Mitchell,Lynn Kahn,O,14
+statewide,President,Mitchell,Dan R. Vacek,O,10
+statewide,President,Mitchell,Rocky Roque De La Fuente,I,1
+statewide,President,Mitchell,Gloria La Riva,O,1
+statewide,President,Monona,Donald J. Trump,R,3120
+statewide,President,Monona,Hillary Clinton,D,1247
+statewide,President,Monona,Gary Johnson,L,112
+statewide,President,Monona,Write-ins,W,39
+statewide,President,Monona,Jill Stein,G,22
+statewide,President,Monona,Evan McMullin,I,12
+statewide,President,Monona,Darrell L. Castle,C,10
+statewide,President,Monona,Dan R. Vacek,O,4
+statewide,President,Monona,Lynn Kahn,O,4
+statewide,President,Monona,Gloria La Riva,O,2
+statewide,President,Monona,Rocky Roque De La Fuente,I,0
+statewide,President,Monroe,Donald J. Trump,R,2638
+statewide,President,Monroe,Hillary Clinton,D,1056
+statewide,President,Monroe,Gary Johnson,L,104
+statewide,President,Monroe,Darrell L. Castle,C,20
+statewide,President,Monroe,Evan McMullin,I,15
+statewide,President,Monroe,Write-ins,W,14
+statewide,President,Monroe,Jill Stein,G,13
+statewide,President,Monroe,Dan R. Vacek,O,3
+statewide,President,Monroe,Lynn Kahn,O,1
+statewide,President,Monroe,Rocky Roque De La Fuente,I,1
+statewide,President,Monroe,Gloria La Riva,O,0
+statewide,President,Montgomery,Donald J. Trump,R,3436
+statewide,President,Montgomery,Hillary Clinton,D,1314
+statewide,President,Montgomery,Gary Johnson,L,152
+statewide,President,Montgomery,Write-ins,W,39
+statewide,President,Montgomery,Jill Stein,G,38
+statewide,President,Montgomery,Evan McMullin,I,27
+statewide,President,Montgomery,Darrell L. Castle,C,21
+statewide,President,Montgomery,Lynn Kahn,O,8
+statewide,President,Montgomery,Dan R. Vacek,O,5
+statewide,President,Montgomery,Gloria La Riva,O,3
+statewide,President,Montgomery,Rocky Roque De La Fuente,I,1
+statewide,President,Muscatine,Donald J. Trump,R,9584
+statewide,President,Muscatine,Hillary Clinton,D,8368
+statewide,President,Muscatine,Gary Johnson,L,748
+statewide,President,Muscatine,Write-ins,W,213
+statewide,President,Muscatine,Jill Stein,G,183
+statewide,President,Muscatine,Evan McMullin,I,136
+statewide,President,Muscatine,Darrell L. Castle,C,87
+statewide,President,Muscatine,Dan R. Vacek,O,63
+statewide,President,Muscatine,Lynn Kahn,O,42
+statewide,President,Muscatine,Gloria La Riva,O,7
+statewide,President,Muscatine,Rocky Roque De La Fuente,I,3
+statewide,President,O'Brien,Donald J. Trump,R,5752
+statewide,President,O'Brien,Hillary Clinton,D,1315
+statewide,President,O'Brien,Gary Johnson,L,197
+statewide,President,O'Brien,Write-ins,W,36
+statewide,President,O'Brien,Evan McMullin,I,31
+statewide,President,O'Brien,Jill Stein,G,28
+statewide,President,O'Brien,Darrell L. Castle,C,22
+statewide,President,O'Brien,Lynn Kahn,O,16
+statewide,President,O'Brien,Dan R. Vacek,O,4
+statewide,President,O'Brien,Rocky Roque De La Fuente,I,3
+statewide,President,O'Brien,Gloria La Riva,O,2
+statewide,President,Osceola,Donald J. Trump,R,2531
+statewide,President,Osceola,Hillary Clinton,D,552
+statewide,President,Osceola,Gary Johnson,L,73
+statewide,President,Osceola,Evan McMullin,I,20
+statewide,President,Osceola,Write-ins,W,13
+statewide,President,Osceola,Darrell L. Castle,C,10
+statewide,President,Osceola,Jill Stein,G,10
+statewide,President,Osceola,Lynn Kahn,O,3
+statewide,President,Osceola,Gloria La Riva,O,1
+statewide,President,Osceola,Dan R. Vacek,O,0
+statewide,President,Osceola,Rocky Roque De La Fuente,I,0
+statewide,President,Page,Donald J. Trump,R,4893
+statewide,President,Page,Hillary Clinton,D,1807
+statewide,President,Page,Gary Johnson,L,176
+statewide,President,Page,Write-ins,W,49
+statewide,President,Page,Jill Stein,G,37
+statewide,President,Page,Evan McMullin,I,35
+statewide,President,Page,Darrell L. Castle,C,30
+statewide,President,Page,Dan R. Vacek,O,7
+statewide,President,Page,Lynn Kahn,O,7
+statewide,President,Page,Rocky Roque De La Fuente,I,3
+statewide,President,Page,Gloria La Riva,O,0
+statewide,President,Palo Alto,Donald J. Trump,R,3081
+statewide,President,Palo Alto,Hillary Clinton,D,1398
+statewide,President,Palo Alto,Gary Johnson,L,131
+statewide,President,Palo Alto,Write-ins,W,24
+statewide,President,Palo Alto,Jill Stein,G,20
+statewide,President,Palo Alto,Lynn Kahn,O,14
+statewide,President,Palo Alto,Evan McMullin,I,13
+statewide,President,Palo Alto,Darrell L. Castle,C,12
+statewide,President,Palo Alto,Dan R. Vacek,O,9
+statewide,President,Palo Alto,Gloria La Riva,O,1
+statewide,President,Palo Alto,Rocky Roque De La Fuente,I,0
+statewide,President,Plymouth,Donald J. Trump,R,9680
+statewide,President,Plymouth,Hillary Clinton,D,2885
+statewide,President,Plymouth,Gary Johnson,L,343
+statewide,President,Plymouth,Write-ins,W,102
+statewide,President,Plymouth,Evan McMullin,I,72
+statewide,President,Plymouth,Jill Stein,G,52
+statewide,President,Plymouth,Darrell L. Castle,C,33
+statewide,President,Plymouth,Lynn Kahn,O,14
+statewide,President,Plymouth,Dan R. Vacek,O,5
+statewide,President,Plymouth,Gloria La Riva,O,3
+statewide,President,Plymouth,Rocky Roque De La Fuente,I,1
+statewide,President,Pocahontas,Donald J. Trump,R,2702
+statewide,President,Pocahontas,Hillary Clinton,D,963
+statewide,President,Pocahontas,Gary Johnson,L,115
+statewide,President,Pocahontas,Write-ins,W,23
+statewide,President,Pocahontas,Darrell L. Castle,C,21
+statewide,President,Pocahontas,Jill Stein,G,14
+statewide,President,Pocahontas,Evan McMullin,I,14
+statewide,President,Pocahontas,Dan R. Vacek,O,6
+statewide,President,Pocahontas,Lynn Kahn,O,6
+statewide,President,Pocahontas,Rocky Roque De La Fuente,I,1
+statewide,President,Pocahontas,Gloria La Riva,O,0
+statewide,President,Polk,Hillary Clinton,D,119804
+statewide,President,Polk,Donald J. Trump,R,93492
+statewide,President,Polk,Gary Johnson,L,10029
+statewide,President,Polk,Write-ins,W,2896
+statewide,President,Polk,Evan McMullin,I,2380
+statewide,President,Polk,Jill Stein,G,1737
+statewide,President,Polk,Darrell L. Castle,C,672
+statewide,President,Polk,Lynn Kahn,O,221
+statewide,President,Polk,Dan R. Vacek,O,200
+statewide,President,Polk,Rocky Roque De La Fuente,I,73
+statewide,President,Polk,Gloria La Riva,O,51
+statewide,President,Pottawattamie,Donald J. Trump,R,24447
+statewide,President,Pottawattamie,Hillary Clinton,D,15355
+statewide,President,Pottawattamie,Gary Johnson,L,1469
+statewide,President,Pottawattamie,Write-ins,W,431
+statewide,President,Pottawattamie,Jill Stein,G,327
+statewide,President,Pottawattamie,Evan McMullin,I,253
+statewide,President,Pottawattamie,Lynn Kahn,O,154
+statewide,President,Pottawattamie,Dan R. Vacek,O,137
+statewide,President,Pottawattamie,Darrell L. Castle,C,93
+statewide,President,Pottawattamie,Rocky Roque De La Fuente,I,8
+statewide,President,Pottawattamie,Gloria La Riva,O,6
+statewide,President,Poweshiek,Donald J. Trump,R,4946
+statewide,President,Poweshiek,Hillary Clinton,D,4304
+statewide,President,Poweshiek,Gary Johnson,L,283
+statewide,President,Poweshiek,Write-ins,W,95
+statewide,President,Poweshiek,Jill Stein,G,73
+statewide,President,Poweshiek,Evan McMullin,I,46
+statewide,President,Poweshiek,Darrell L. Castle,C,44
+statewide,President,Poweshiek,Dan R. Vacek,O,20
+statewide,President,Poweshiek,Lynn Kahn,O,11
+statewide,President,Poweshiek,Gloria La Riva,O,8
+statewide,President,Poweshiek,Rocky Roque De La Fuente,I,3
+statewide,President,Ringgold,Donald J. Trump,R,1824
+statewide,President,Ringgold,Hillary Clinton,D,753
+statewide,President,Ringgold,Gary Johnson,L,72
+statewide,President,Ringgold,Write-ins,W,19
+statewide,President,Ringgold,Darrell L. Castle,C,15
+statewide,President,Ringgold,Jill Stein,G,8
+statewide,President,Ringgold,Evan McMullin,I,7
+statewide,President,Ringgold,Lynn Kahn,O,5
+statewide,President,Ringgold,Dan R. Vacek,O,2
+statewide,President,Ringgold,Rocky Roque De La Fuente,I,2
+statewide,President,Ringgold,Gloria La Riva,O,0
+statewide,President,Sac,Donald J. Trump,R,3703
+statewide,President,Sac,Hillary Clinton,D,1270
+statewide,President,Sac,Gary Johnson,L,129
+statewide,President,Sac,Write-ins,W,42
+statewide,President,Sac,Jill Stein,G,23
+statewide,President,Sac,Darrell L. Castle,C,17
+statewide,President,Sac,Evan McMullin,I,15
+statewide,President,Sac,Lynn Kahn,O,8
+statewide,President,Sac,Dan R. Vacek,O,4
+statewide,President,Sac,Rocky Roque De La Fuente,I,1
+statewide,President,Sac,Gloria La Riva,O,0
+statewide,President,Scott,Hillary Clinton,D,40440
+statewide,President,Scott,Donald J. Trump,R,39149
+statewide,President,Scott,Gary Johnson,L,3555
+statewide,President,Scott,Write-ins,W,1119
+statewide,President,Scott,Jill Stein,G,784
+statewide,President,Scott,Evan McMullin,I,647
+statewide,President,Scott,Darrell L. Castle,C,298
+statewide,President,Scott,Dan R. Vacek,O,99
+statewide,President,Scott,Lynn Kahn,O,85
+statewide,President,Scott,Rocky Roque De La Fuente,I,28
+statewide,President,Scott,Gloria La Riva,O,16
+statewide,President,Shelby,Donald J. Trump,R,4362
+statewide,President,Shelby,Hillary Clinton,D,1662
+statewide,President,Shelby,Gary Johnson,L,174
+statewide,President,Shelby,Write-ins,W,63
+statewide,President,Shelby,Evan McMullin,I,39
+statewide,President,Shelby,Jill Stein,G,28
+statewide,President,Shelby,Darrell L. Castle,C,21
+statewide,President,Shelby,Lynn Kahn,O,13
+statewide,President,Shelby,Dan R. Vacek,O,5
+statewide,President,Shelby,Rocky Roque De La Fuente,I,2
+statewide,President,Shelby,Gloria La Riva,O,1
+statewide,President,Sioux,Donald J. Trump,R,14785
+statewide,President,Sioux,Hillary Clinton,D,2300
+statewide,President,Sioux,Gary Johnson,L,435
+statewide,President,Sioux,Evan McMullin,I,352
+statewide,President,Sioux,Write-ins,W,165
+statewide,President,Sioux,Darrell L. Castle,C,86
+statewide,President,Sioux,Jill Stein,G,53
+statewide,President,Sioux,Lynn Kahn,O,9
+statewide,President,Sioux,Dan R. Vacek,O,5
+statewide,President,Sioux,Rocky Roque De La Fuente,I,4
+statewide,President,Sioux,Gloria La Riva,O,0
+statewide,President,Story,Hillary Clinton,D,25709
+statewide,President,Story,Donald J. Trump,R,19458
+statewide,President,Story,Gary Johnson,L,3014
+statewide,President,Story,Evan McMullin,I,1061
+statewide,President,Story,Write-ins,W,691
+statewide,President,Story,Jill Stein,G,491
+statewide,President,Story,Darrell L. Castle,C,126
+statewide,President,Story,Lynn Kahn,O,63
+statewide,President,Story,Dan R. Vacek,O,24
+statewide,President,Story,Rocky Roque De La Fuente,I,15
+statewide,President,Story,Gloria La Riva,O,15
+statewide,President,Tama,Donald J. Trump,R,4971
+statewide,President,Tama,Hillary Clinton,D,3196
+statewide,President,Tama,Gary Johnson,L,245
+statewide,President,Tama,Write-ins,W,110
+statewide,President,Tama,Jill Stein,G,79
+statewide,President,Tama,Darrell L. Castle,C,46
+statewide,President,Tama,Evan McMullin,I,44
+statewide,President,Tama,Dan R. Vacek,O,37
+statewide,President,Tama,Lynn Kahn,O,20
+statewide,President,Tama,Gloria La Riva,O,3
+statewide,President,Tama,Rocky Roque De La Fuente,I,1
+statewide,President,Taylor,Donald J. Trump,R,2111
+statewide,President,Taylor,Hillary Clinton,D,758
+statewide,President,Taylor,Gary Johnson,L,97
+statewide,President,Taylor,Write-ins,W,20
+statewide,President,Taylor,Darrell L. Castle,C,14
+statewide,President,Taylor,Evan McMullin,I,12
+statewide,President,Taylor,Jill Stein,G,10
+statewide,President,Taylor,Lynn Kahn,O,3
+statewide,President,Taylor,Dan R. Vacek,O,2
+statewide,President,Taylor,Rocky Roque De La Fuente,I,2
+statewide,President,Taylor,Gloria La Riva,O,0
+statewide,President,Union,Donald J. Trump,R,3525
+statewide,President,Union,Hillary Clinton,D,1922
+statewide,President,Union,Gary Johnson,L,213
+statewide,President,Union,Write-ins,W,57
+statewide,President,Union,Jill Stein,G,52
+statewide,President,Union,Darrell L. Castle,C,26
+statewide,President,Union,Evan McMullin,I,18
+statewide,President,Union,Dan R. Vacek,O,9
+statewide,President,Union,Lynn Kahn,O,9
+statewide,President,Union,Rocky Roque De La Fuente,I,1
+statewide,President,Union,Gloria La Riva,O,0
+statewide,President,Van Buren,Donald J. Trump,R,2527
+statewide,President,Van Buren,Hillary Clinton,D,845
+statewide,President,Van Buren,Gary Johnson,L,83
+statewide,President,Van Buren,Write-ins,W,32
+statewide,President,Van Buren,Darrell L. Castle,C,22
+statewide,President,Van Buren,Evan McMullin,I,21
+statewide,President,Van Buren,Jill Stein,G,19
+statewide,President,Van Buren,Lynn Kahn,O,8
+statewide,President,Van Buren,Dan R. Vacek,O,3
+statewide,President,Van Buren,Rocky Roque De La Fuente,I,1
+statewide,President,Van Buren,Gloria La Riva,O,0
+statewide,President,Wapello,Donald J. Trump,R,8715
+statewide,President,Wapello,Hillary Clinton,D,5594
+statewide,President,Wapello,Gary Johnson,L,380
+statewide,President,Wapello,Write-ins,W,144
+statewide,President,Wapello,Jill Stein,G,122
+statewide,President,Wapello,Evan McMullin,I,65
+statewide,President,Wapello,Darrell L. Castle,C,49
+statewide,President,Wapello,Dan R. Vacek,O,45
+statewide,President,Wapello,Lynn Kahn,O,30
+statewide,President,Wapello,Rocky Roque De La Fuente,I,4
+statewide,President,Wapello,Gloria La Riva,O,1
+statewide,President,Warren,Donald J. Trump,R,14814
+statewide,President,Warren,Hillary Clinton,D,10411
+statewide,President,Warren,Gary Johnson,L,1275
+statewide,President,Warren,Write-ins,W,295
+statewide,President,Warren,Evan McMullin,I,194
+statewide,President,Warren,Darrell L. Castle,C,124
+statewide,President,Warren,Jill Stein,G,123
+statewide,President,Warren,Lynn Kahn,O,28
+statewide,President,Warren,Dan R. Vacek,O,17
+statewide,President,Warren,Rocky Roque De La Fuente,I,12
+statewide,President,Warren,Gloria La Riva,O,7
+statewide,President,Washington,Donald J. Trump,R,6173
+statewide,President,Washington,Hillary Clinton,D,3943
+statewide,President,Washington,Gary Johnson,L,459
+statewide,President,Washington,Write-ins,W,96
+statewide,President,Washington,Evan McMullin,I,92
+statewide,President,Washington,Jill Stein,G,79
+statewide,President,Washington,Darrell L. Castle,C,63
+statewide,President,Washington,Dan R. Vacek,O,10
+statewide,President,Washington,Lynn Kahn,O,10
+statewide,President,Washington,Rocky Roque De La Fuente,I,2
+statewide,President,Washington,Gloria La Riva,O,2
+statewide,President,Wayne,Donald J. Trump,R,2069
+statewide,President,Wayne,Hillary Clinton,D,719
+statewide,President,Wayne,Gary Johnson,L,78
+statewide,President,Wayne,Evan McMullin,I,20
+statewide,President,Wayne,Write-ins,W,19
+statewide,President,Wayne,Jill Stein,G,17
+statewide,President,Wayne,Darrell L. Castle,C,10
+statewide,President,Wayne,Lynn Kahn,O,4
+statewide,President,Wayne,Dan R. Vacek,O,3
+statewide,President,Wayne,Rocky Roque De La Fuente,I,1
+statewide,President,Wayne,Gloria La Riva,O,0
+statewide,President,Webster,Donald J. Trump,R,10056
+statewide,President,Webster,Hillary Clinton,D,6305
+statewide,President,Webster,Gary Johnson,L,569
+statewide,President,Webster,Write-ins,W,170
+statewide,President,Webster,Jill Stein,G,113
+statewide,President,Webster,Evan McMullin,I,104
+statewide,President,Webster,Darrell L. Castle,C,65
+statewide,President,Webster,Dan R. Vacek,O,24
+statewide,President,Webster,Lynn Kahn,O,16
+statewide,President,Webster,Rocky Roque De La Fuente,I,5
+statewide,President,Webster,Gloria La Riva,O,3
+statewide,President,Winnebago,Donald J. Trump,R,3447
+statewide,President,Winnebago,Hillary Clinton,D,1931
+statewide,President,Winnebago,Gary Johnson,L,218
+statewide,President,Winnebago,Evan McMullin,I,49
+statewide,President,Winnebago,Write-ins,W,48
+statewide,President,Winnebago,Darrell L. Castle,C,36
+statewide,President,Winnebago,Jill Stein,G,34
+statewide,President,Winnebago,Lynn Kahn,O,10
+statewide,President,Winnebago,Rocky Roque De La Fuente,I,7
+statewide,President,Winnebago,Dan R. Vacek,O,6
+statewide,President,Winnebago,Gloria La Riva,O,1
+statewide,President,Winneshiek,Donald J. Trump,R,5344
+statewide,President,Winneshiek,Hillary Clinton,D,5254
+statewide,President,Winneshiek,Gary Johnson,L,382
+statewide,President,Winneshiek,Write-ins,W,116
+statewide,President,Winneshiek,Evan McMullin,I,102
+statewide,President,Winneshiek,Jill Stein,G,99
+statewide,President,Winneshiek,Darrell L. Castle,C,35
+statewide,President,Winneshiek,Lynn Kahn,O,17
+statewide,President,Winneshiek,Dan R. Vacek,O,13
+statewide,President,Winneshiek,Rocky Roque De La Fuente,I,0
+statewide,President,Winneshiek,Gloria La Riva,O,0
+statewide,President,Woodbury,Donald J. Trump,R,24727
+statewide,President,Woodbury,Hillary Clinton,D,16210
+statewide,President,Woodbury,Gary Johnson,L,1179
+statewide,President,Woodbury,Write-ins,W,569
+statewide,President,Woodbury,Jill Stein,G,324
+statewide,President,Woodbury,Evan McMullin,I,234
+statewide,President,Woodbury,Darrell L. Castle,C,207
+statewide,President,Woodbury,Dan R. Vacek,O,151
+statewide,President,Woodbury,Lynn Kahn,O,93
+statewide,President,Woodbury,Rocky Roque De La Fuente,I,12
+statewide,President,Woodbury,Gloria La Riva,O,12
+statewide,President,Worth,Donald J. Trump,R,2453
+statewide,President,Worth,Hillary Clinton,D,1530
+statewide,President,Worth,Gary Johnson,L,165
+statewide,President,Worth,Evan McMullin,I,34
+statewide,President,Worth,Jill Stein,G,24
+statewide,President,Worth,Write-ins,W,24
+statewide,President,Worth,Darrell L. Castle,C,15
+statewide,President,Worth,Lynn Kahn,O,7
+statewide,President,Worth,Dan R. Vacek,O,4
+statewide,President,Worth,Rocky Roque De La Fuente,I,1
+statewide,President,Worth,Gloria La Riva,O,0
+statewide,President,Wright,Donald J. Trump,R,3800
+statewide,President,Wright,Hillary Clinton,D,1896
+statewide,President,Wright,Gary Johnson,L,176
+statewide,President,Wright,Write-ins,W,60
+statewide,President,Wright,Jill Stein,G,35
+statewide,President,Wright,Evan McMullin,I,25
+statewide,President,Wright,Darrell L. Castle,C,19
+statewide,President,Wright,Dan R. Vacek,O,6
+statewide,President,Wright,Lynn Kahn,O,6
+statewide,President,Wright,Gloria La Riva,O,2
+statewide,President,Wright,Rocky Roque De La Fuente,I,1
+statewide,Senate,Adair,Charles E. Grassley,R,2708
+statewide,Senate,Adair,Patty Judge,D,894
+statewide,Senate,Adair,Charles Aldrich,L,111
+statewide,Senate,Adair,Jim Hennager,O,46
+statewide,Senate,Adair,Michael Luick-Thrams,I,11
+statewide,Senate,Adair,Write-ins,W,2
+statewide,Senate,Adams,Charles E. Grassley,R,1515
+statewide,Senate,Adams,Patty Judge,D,454
+statewide,Senate,Adams,Charles Aldrich,L,58
+statewide,Senate,Adams,Jim Hennager,O,25
+statewide,Senate,Adams,Michael Luick-Thrams,I,9
+statewide,Senate,Adams,Write-ins,W,1
+statewide,Senate,Allamakee,Charles E. Grassley,R,4473
+statewide,Senate,Allamakee,Patty Judge,D,2099
+statewide,Senate,Allamakee,Charles Aldrich,L,168
+statewide,Senate,Allamakee,Jim Hennager,O,62
+statewide,Senate,Allamakee,Michael Luick-Thrams,I,24
+statewide,Senate,Allamakee,Write-ins,W,1
+statewide,Senate,Appanoose,Charles E. Grassley,R,4122
+statewide,Senate,Appanoose,Patty Judge,D,1690
+statewide,Senate,Appanoose,Charles Aldrich,L,121
+statewide,Senate,Appanoose,Jim Hennager,O,56
+statewide,Senate,Appanoose,Michael Luick-Thrams,I,18
+statewide,Senate,Appanoose,Write-ins,W,6
+statewide,Senate,Audubon,Charles E. Grassley,R,2323
+statewide,Senate,Audubon,Patty Judge,D,847
+statewide,Senate,Audubon,Charles Aldrich,L,70
+statewide,Senate,Audubon,Jim Hennager,O,35
+statewide,Senate,Audubon,Michael Luick-Thrams,I,7
+statewide,Senate,Audubon,Write-ins,W,0
+statewide,Senate,Benton,Charles E. Grassley,R,9351
+statewide,Senate,Benton,Patty Judge,D,3811
+statewide,Senate,Benton,Charles Aldrich,L,355
+statewide,Senate,Benton,Jim Hennager,O,134
+statewide,Senate,Benton,Michael Luick-Thrams,I,26
+statewide,Senate,Benton,Write-ins,W,8
+statewide,Senate,Black Hawk,Charles E. Grassley,R,33884
+statewide,Senate,Black Hawk,Patty Judge,D,27245
+statewide,Senate,Black Hawk,Charles Aldrich,L,1643
+statewide,Senate,Black Hawk,Jim Hennager,O,551
+statewide,Senate,Black Hawk,Michael Luick-Thrams,I,143
+statewide,Senate,Black Hawk,Write-ins,W,61
+statewide,Senate,Boone,Charles E. Grassley,R,8593
+statewide,Senate,Boone,Patty Judge,D,4820
+statewide,Senate,Boone,Charles Aldrich,L,455
+statewide,Senate,Boone,Jim Hennager,O,142
+statewide,Senate,Boone,Michael Luick-Thrams,I,34
+statewide,Senate,Boone,Write-ins,W,12
+statewide,Senate,Bremer,Charles E. Grassley,R,8583
+statewide,Senate,Bremer,Patty Judge,D,4357
+statewide,Senate,Bremer,Charles Aldrich,L,334
+statewide,Senate,Bremer,Jim Hennager,O,100
+statewide,Senate,Bremer,Michael Luick-Thrams,I,28
+statewide,Senate,Bremer,Write-ins,W,13
+statewide,Senate,Buchanan,Charles E. Grassley,R,6382
+statewide,Senate,Buchanan,Patty Judge,D,3313
+statewide,Senate,Buchanan,Charles Aldrich,L,298
+statewide,Senate,Buchanan,Jim Hennager,O,121
+statewide,Senate,Buchanan,Michael Luick-Thrams,I,28
+statewide,Senate,Buchanan,Write-ins,W,7
+statewide,Senate,Buena Vista,Charles E. Grassley,R,5369
+statewide,Senate,Buena Vista,Patty Judge,D,2382
+statewide,Senate,Buena Vista,Charles Aldrich,L,210
+statewide,Senate,Buena Vista,Jim Hennager,O,72
+statewide,Senate,Buena Vista,Michael Luick-Thrams,I,13
+statewide,Senate,Buena Vista,Write-ins,W,4
+statewide,Senate,Butler,Charles E. Grassley,R,5433
+statewide,Senate,Butler,Patty Judge,D,1782
+statewide,Senate,Butler,Charles Aldrich,L,146
+statewide,Senate,Butler,Jim Hennager,O,81
+statewide,Senate,Butler,Michael Luick-Thrams,I,16
+statewide,Senate,Butler,Write-ins,W,6
+statewide,Senate,Calhoun,Charles E. Grassley,R,3798
+statewide,Senate,Calhoun,Patty Judge,D,1154
+statewide,Senate,Calhoun,Charles Aldrich,L,119
+statewide,Senate,Calhoun,Jim Hennager,O,32
+statewide,Senate,Calhoun,Michael Luick-Thrams,I,10
+statewide,Senate,Calhoun,Write-ins,W,5
+statewide,Senate,Carroll,Charles E. Grassley,R,7259
+statewide,Senate,Carroll,Patty Judge,D,2714
+statewide,Senate,Carroll,Charles Aldrich,L,244
+statewide,Senate,Carroll,Jim Hennager,O,104
+statewide,Senate,Carroll,Michael Luick-Thrams,I,20
+statewide,Senate,Carroll,Write-ins,W,3
+statewide,Senate,Cass,Charles E. Grassley,R,5081
+statewide,Senate,Cass,Patty Judge,D,1558
+statewide,Senate,Cass,Charles Aldrich,L,161
+statewide,Senate,Cass,Jim Hennager,O,103
+statewide,Senate,Cass,Michael Luick-Thrams,I,21
+statewide,Senate,Cass,Write-ins,W,5
+statewide,Senate,Cedar,Charles E. Grassley,R,6103
+statewide,Senate,Cedar,Patty Judge,D,2908
+statewide,Senate,Cedar,Charles Aldrich,L,268
+statewide,Senate,Cedar,Jim Hennager,O,91
+statewide,Senate,Cedar,Michael Luick-Thrams,I,31
+statewide,Senate,Cedar,Write-ins,W,9
+statewide,Senate,Cerro Gordo,Charles E. Grassley,R,13417
+statewide,Senate,Cerro Gordo,Patty Judge,D,8173
+statewide,Senate,Cerro Gordo,Charles Aldrich,L,588
+statewide,Senate,Cerro Gordo,Jim Hennager,O,276
+statewide,Senate,Cerro Gordo,Michael Luick-Thrams,I,158
+statewide,Senate,Cerro Gordo,Write-ins,W,21
+statewide,Senate,Cherokee,Charles E. Grassley,R,4670
+statewide,Senate,Cherokee,Patty Judge,D,1331
+statewide,Senate,Cherokee,Charles Aldrich,L,128
+statewide,Senate,Cherokee,Jim Hennager,O,44
+statewide,Senate,Cherokee,Michael Luick-Thrams,I,16
+statewide,Senate,Cherokee,Write-ins,W,4
+statewide,Senate,Chickasaw,Charles E. Grassley,R,4177
+statewide,Senate,Chickasaw,Patty Judge,D,1956
+statewide,Senate,Chickasaw,Charles Aldrich,L,153
+statewide,Senate,Chickasaw,Jim Hennager,O,73
+statewide,Senate,Chickasaw,Michael Luick-Thrams,I,22
+statewide,Senate,Chickasaw,Write-ins,W,1
+statewide,Senate,Clarke,Charles E. Grassley,R,2903
+statewide,Senate,Clarke,Patty Judge,D,1273
+statewide,Senate,Clarke,Charles Aldrich,L,118
+statewide,Senate,Clarke,Jim Hennager,O,73
+statewide,Senate,Clarke,Michael Luick-Thrams,I,12
+statewide,Senate,Clarke,Write-ins,W,6
+statewide,Senate,Clay,Charles E. Grassley,R,6260
+statewide,Senate,Clay,Patty Judge,D,1894
+statewide,Senate,Clay,Charles Aldrich,L,227
+statewide,Senate,Clay,Jim Hennager,O,61
+statewide,Senate,Clay,Michael Luick-Thrams,I,25
+statewide,Senate,Clay,Write-ins,W,5
+statewide,Senate,Clayton,Charles E. Grassley,R,5851
+statewide,Senate,Clayton,Patty Judge,D,2779
+statewide,Senate,Clayton,Jim Hennager,O,190
+statewide,Senate,Clayton,Charles Aldrich,L,175
+statewide,Senate,Clayton,Michael Luick-Thrams,I,16
+statewide,Senate,Clayton,Write-ins,W,1
+statewide,Senate,Clinton,Charles E. Grassley,R,12821
+statewide,Senate,Clinton,Patty Judge,D,8852
+statewide,Senate,Clinton,Charles Aldrich,L,584
+statewide,Senate,Clinton,Jim Hennager,O,445
+statewide,Senate,Clinton,Michael Luick-Thrams,I,37
+statewide,Senate,Clinton,Write-ins,W,15
+statewide,Senate,Crawford,Charles E. Grassley,R,4674
+statewide,Senate,Crawford,Patty Judge,D,1771
+statewide,Senate,Crawford,Charles Aldrich,L,182
+statewide,Senate,Crawford,Jim Hennager,O,74
+statewide,Senate,Crawford,Michael Luick-Thrams,I,17
+statewide,Senate,Crawford,Write-ins,W,3
+statewide,Senate,Dallas,Charles E. Grassley,R,24374
+statewide,Senate,Dallas,Patty Judge,D,11876
+statewide,Senate,Dallas,Charles Aldrich,L,1072
+statewide,Senate,Dallas,Jim Hennager,O,315
+statewide,Senate,Dallas,Michael Luick-Thrams,I,103
+statewide,Senate,Dallas,Write-ins,W,35
+statewide,Senate,Davis,Charles E. Grassley,R,2750
+statewide,Senate,Davis,Patty Judge,D,972
+statewide,Senate,Davis,Charles Aldrich,L,82
+statewide,Senate,Davis,Jim Hennager,O,23
+statewide,Senate,Davis,Michael Luick-Thrams,I,13
+statewide,Senate,Davis,Write-ins,W,3
+statewide,Senate,Decatur,Charles E. Grassley,R,2488
+statewide,Senate,Decatur,Patty Judge,D,1037
+statewide,Senate,Decatur,Charles Aldrich,L,91
+statewide,Senate,Decatur,Jim Hennager,O,45
+statewide,Senate,Decatur,Michael Luick-Thrams,I,15
+statewide,Senate,Decatur,Write-ins,W,5
+statewide,Senate,Delaware,Charles E. Grassley,R,6445
+statewide,Senate,Delaware,Patty Judge,D,2369
+statewide,Senate,Delaware,Charles Aldrich,L,191
+statewide,Senate,Delaware,Jim Hennager,O,160
+statewide,Senate,Delaware,Michael Luick-Thrams,I,15
+statewide,Senate,Delaware,Write-ins,W,0
+statewide,Senate,Des Moines,Charles E. Grassley,R,10353
+statewide,Senate,Des Moines,Patty Judge,D,7589
+statewide,Senate,Des Moines,Charles Aldrich,L,475
+statewide,Senate,Des Moines,Jim Hennager,O,186
+statewide,Senate,Des Moines,Michael Luick-Thrams,I,40
+statewide,Senate,Des Moines,Write-ins,W,26
+statewide,Senate,Dickinson,Charles E. Grassley,R,7489
+statewide,Senate,Dickinson,Patty Judge,D,2421
+statewide,Senate,Dickinson,Charles Aldrich,L,204
+statewide,Senate,Dickinson,Jim Hennager,O,85
+statewide,Senate,Dickinson,Michael Luick-Thrams,I,30
+statewide,Senate,Dickinson,Write-ins,W,6
+statewide,Senate,Dubuque,Charles E. Grassley,R,27348
+statewide,Senate,Dubuque,Patty Judge,D,19291
+statewide,Senate,Dubuque,Charles Aldrich,L,1266
+statewide,Senate,Dubuque,Jim Hennager,O,416
+statewide,Senate,Dubuque,Michael Luick-Thrams,I,133
+statewide,Senate,Dubuque,Write-ins,W,46
+statewide,Senate,Emmet,Charles E. Grassley,R,3341
+statewide,Senate,Emmet,Patty Judge,D,1171
+statewide,Senate,Emmet,Jim Hennager,O,108
+statewide,Senate,Emmet,Charles Aldrich,L,83
+statewide,Senate,Emmet,Michael Luick-Thrams,I,7
+statewide,Senate,Emmet,Write-ins,W,1
+statewide,Senate,Fayette,Charles E. Grassley,R,6412
+statewide,Senate,Fayette,Patty Judge,D,3069
+statewide,Senate,Fayette,Jim Hennager,O,220
+statewide,Senate,Fayette,Charles Aldrich,L,216
+statewide,Senate,Fayette,Michael Luick-Thrams,I,17
+statewide,Senate,Fayette,Write-ins,W,13
+statewide,Senate,Floyd,Charles E. Grassley,R,4947
+statewide,Senate,Floyd,Patty Judge,D,2725
+statewide,Senate,Floyd,Charles Aldrich,L,183
+statewide,Senate,Floyd,Jim Hennager,O,97
+statewide,Senate,Floyd,Michael Luick-Thrams,I,21
+statewide,Senate,Floyd,Write-ins,W,5
+statewide,Senate,Franklin,Charles E. Grassley,R,3550
+statewide,Senate,Franklin,Patty Judge,D,1172
+statewide,Senate,Franklin,Charles Aldrich,L,150
+statewide,Senate,Franklin,Jim Hennager,O,50
+statewide,Senate,Franklin,Michael Luick-Thrams,I,16
+statewide,Senate,Franklin,Write-ins,W,2
+statewide,Senate,Fremont,Charles E. Grassley,R,2582
+statewide,Senate,Fremont,Patty Judge,D,735
+statewide,Senate,Fremont,Charles Aldrich,L,120
+statewide,Senate,Fremont,Jim Hennager,O,54
+statewide,Senate,Fremont,Michael Luick-Thrams,I,13
+statewide,Senate,Fremont,Write-ins,W,1
+statewide,Senate,Greene,Charles E. Grassley,R,3197
+statewide,Senate,Greene,Patty Judge,D,1344
+statewide,Senate,Greene,Charles Aldrich,L,123
+statewide,Senate,Greene,Jim Hennager,O,61
+statewide,Senate,Greene,Michael Luick-Thrams,I,13
+statewide,Senate,Greene,Write-ins,W,5
+statewide,Senate,Grundy,Charles E. Grassley,R,5261
+statewide,Senate,Grundy,Patty Judge,D,1370
+statewide,Senate,Grundy,Charles Aldrich,L,127
+statewide,Senate,Grundy,Jim Hennager,O,95
+statewide,Senate,Grundy,Michael Luick-Thrams,I,11
+statewide,Senate,Grundy,Write-ins,W,4
+statewide,Senate,Guthrie,Charles E. Grassley,R,4004
+statewide,Senate,Guthrie,Patty Judge,D,1413
+statewide,Senate,Guthrie,Charles Aldrich,L,225
+statewide,Senate,Guthrie,Jim Hennager,O,55
+statewide,Senate,Guthrie,Michael Luick-Thrams,I,21
+statewide,Senate,Guthrie,Write-ins,W,6
+statewide,Senate,Hamilton,Charles E. Grassley,R,5142
+statewide,Senate,Hamilton,Patty Judge,D,2170
+statewide,Senate,Hamilton,Charles Aldrich,L,187
+statewide,Senate,Hamilton,Jim Hennager,O,94
+statewide,Senate,Hamilton,Michael Luick-Thrams,I,20
+statewide,Senate,Hamilton,Write-ins,W,6
+statewide,Senate,Hancock,Charles E. Grassley,R,4232
+statewide,Senate,Hancock,Patty Judge,D,1324
+statewide,Senate,Hancock,Charles Aldrich,L,170
+statewide,Senate,Hancock,Jim Hennager,O,69
+statewide,Senate,Hancock,Michael Luick-Thrams,I,18
+statewide,Senate,Hancock,Write-ins,W,6
+statewide,Senate,Hardin,Charles E. Grassley,R,5841
+statewide,Senate,Hardin,Patty Judge,D,2284
+statewide,Senate,Hardin,Charles Aldrich,L,234
+statewide,Senate,Hardin,Jim Hennager,O,80
+statewide,Senate,Hardin,Michael Luick-Thrams,I,21
+statewide,Senate,Hardin,Write-ins,W,4
+statewide,Senate,Harrison,Charles E. Grassley,R,5108
+statewide,Senate,Harrison,Patty Judge,D,1788
+statewide,Senate,Harrison,Charles Aldrich,L,248
+statewide,Senate,Harrison,Jim Hennager,O,119
+statewide,Senate,Harrison,Michael Luick-Thrams,I,27
+statewide,Senate,Harrison,Write-ins,W,8
+statewide,Senate,Henry,Charles E. Grassley,R,6294
+statewide,Senate,Henry,Patty Judge,D,2535
+statewide,Senate,Henry,Charles Aldrich,L,248
+statewide,Senate,Henry,Jim Hennager,O,109
+statewide,Senate,Henry,Michael Luick-Thrams,I,26
+statewide,Senate,Henry,Write-ins,W,13
+statewide,Senate,Howard,Charles E. Grassley,R,2859
+statewide,Senate,Howard,Patty Judge,D,1459
+statewide,Senate,Howard,Charles Aldrich,L,129
+statewide,Senate,Howard,Jim Hennager,O,50
+statewide,Senate,Howard,Michael Luick-Thrams,I,11
+statewide,Senate,Howard,Write-ins,W,2
+statewide,Senate,Humboldt,Charles E. Grassley,R,3860
+statewide,Senate,Humboldt,Patty Judge,D,999
+statewide,Senate,Humboldt,Charles Aldrich,L,110
+statewide,Senate,Humboldt,Jim Hennager,O,46
+statewide,Senate,Humboldt,Michael Luick-Thrams,I,18
+statewide,Senate,Humboldt,Write-ins,W,6
+statewide,Senate,Ida,Charles E. Grassley,R,2868
+statewide,Senate,Ida,Patty Judge,D,590
+statewide,Senate,Ida,Charles Aldrich,L,78
+statewide,Senate,Ida,Jim Hennager,O,24
+statewide,Senate,Ida,Michael Luick-Thrams,I,7
+statewide,Senate,Ida,Write-ins,W,4
+statewide,Senate,Iowa,Charles E. Grassley,R,6062
+statewide,Senate,Iowa,Patty Judge,D,2443
+statewide,Senate,Iowa,Charles Aldrich,L,209
+statewide,Senate,Iowa,Jim Hennager,O,82
+statewide,Senate,Iowa,Michael Luick-Thrams,I,24
+statewide,Senate,Iowa,Write-ins,W,4
+statewide,Senate,Jackson,Charles E. Grassley,R,6283
+statewide,Senate,Jackson,Patty Judge,D,3450
+statewide,Senate,Jackson,Charles Aldrich,L,212
+statewide,Senate,Jackson,Jim Hennager,O,81
+statewide,Senate,Jackson,Michael Luick-Thrams,I,26
+statewide,Senate,Jackson,Write-ins,W,5
+statewide,Senate,Jasper,Charles E. Grassley,R,11688
+statewide,Senate,Jasper,Patty Judge,D,6170
+statewide,Senate,Jasper,Charles Aldrich,L,525
+statewide,Senate,Jasper,Jim Hennager,O,421
+statewide,Senate,Jasper,Michael Luick-Thrams,I,31
+statewide,Senate,Jasper,Write-ins,W,20
+statewide,Senate,Jefferson,Charles E. Grassley,R,4094
+statewide,Senate,Jefferson,Patty Judge,D,3447
+statewide,Senate,Jefferson,Charles Aldrich,L,271
+statewide,Senate,Jefferson,Jim Hennager,O,74
+statewide,Senate,Jefferson,Michael Luick-Thrams,I,31
+statewide,Senate,Jefferson,Write-ins,W,19
+statewide,Senate,Johnson,Patty Judge,D,42699
+statewide,Senate,Johnson,Charles E. Grassley,R,28914
+statewide,Senate,Johnson,Charles Aldrich,L,1891
+statewide,Senate,Johnson,Jim Hennager,O,827
+statewide,Senate,Johnson,Michael Luick-Thrams,I,378
+statewide,Senate,Johnson,Write-ins,W,124
+statewide,Senate,Jones,Charles E. Grassley,R,6551
+statewide,Senate,Jones,Patty Judge,D,3063
+statewide,Senate,Jones,Charles Aldrich,L,261
+statewide,Senate,Jones,Jim Hennager,O,172
+statewide,Senate,Jones,Michael Luick-Thrams,I,18
+statewide,Senate,Jones,Write-ins,W,6
+statewide,Senate,Keokuk,Charles E. Grassley,R,3697
+statewide,Senate,Keokuk,Patty Judge,D,1045
+statewide,Senate,Keokuk,Charles Aldrich,L,111
+statewide,Senate,Keokuk,Jim Hennager,O,43
+statewide,Senate,Keokuk,Michael Luick-Thrams,I,16
+statewide,Senate,Keokuk,Write-ins,W,3
+statewide,Senate,Kossuth,Charles E. Grassley,R,6027
+statewide,Senate,Kossuth,Patty Judge,D,2247
+statewide,Senate,Kossuth,Jim Hennager,O,157
+statewide,Senate,Kossuth,Charles Aldrich,L,114
+statewide,Senate,Kossuth,Michael Luick-Thrams,I,24
+statewide,Senate,Kossuth,Write-ins,W,5
+statewide,Senate,Lee,Charles E. Grassley,R,8441
+statewide,Senate,Lee,Patty Judge,D,6382
+statewide,Senate,Lee,Charles Aldrich,L,504
+statewide,Senate,Lee,Jim Hennager,O,474
+statewide,Senate,Lee,Michael Luick-Thrams,I,26
+statewide,Senate,Lee,Write-ins,W,19
+statewide,Senate,Linn,Charles E. Grassley,R,62737
+statewide,Senate,Linn,Patty Judge,D,47635
+statewide,Senate,Linn,Charles Aldrich,L,3818
+statewide,Senate,Linn,Jim Hennager,O,994
+statewide,Senate,Linn,Michael Luick-Thrams,I,305
+statewide,Senate,Linn,Write-ins,W,125
+statewide,Senate,Louisa,Charles E. Grassley,R,3303
+statewide,Senate,Louisa,Patty Judge,D,1429
+statewide,Senate,Louisa,Charles Aldrich,L,146
+statewide,Senate,Louisa,Jim Hennager,O,43
+statewide,Senate,Louisa,Michael Luick-Thrams,I,11
+statewide,Senate,Louisa,Write-ins,W,7
+statewide,Senate,Lucas,Charles E. Grassley,R,3064
+statewide,Senate,Lucas,Patty Judge,D,1068
+statewide,Senate,Lucas,Charles Aldrich,L,99
+statewide,Senate,Lucas,Jim Hennager,O,37
+statewide,Senate,Lucas,Michael Luick-Thrams,I,8
+statewide,Senate,Lucas,Write-ins,W,1
+statewide,Senate,Lyon,Charles E. Grassley,R,5328
+statewide,Senate,Lyon,Patty Judge,D,761
+statewide,Senate,Lyon,Charles Aldrich,L,107
+statewide,Senate,Lyon,Jim Hennager,O,44
+statewide,Senate,Lyon,Michael Luick-Thrams,I,11
+statewide,Senate,Lyon,Write-ins,W,3
+statewide,Senate,Madison,Charles E. Grassley,R,5921
+statewide,Senate,Madison,Patty Judge,D,2205
+statewide,Senate,Madison,Charles Aldrich,L,279
+statewide,Senate,Madison,Jim Hennager,O,89
+statewide,Senate,Madison,Michael Luick-Thrams,I,18
+statewide,Senate,Madison,Write-ins,W,8
+statewide,Senate,Mahaska,Charles E. Grassley,R,7812
+statewide,Senate,Mahaska,Patty Judge,D,2302
+statewide,Senate,Mahaska,Charles Aldrich,L,248
+statewide,Senate,Mahaska,Jim Hennager,O,88
+statewide,Senate,Mahaska,Michael Luick-Thrams,I,27
+statewide,Senate,Mahaska,Write-ins,W,5
+statewide,Senate,Marion,Charles E. Grassley,R,12407
+statewide,Senate,Marion,Patty Judge,D,4562
+statewide,Senate,Marion,Charles Aldrich,L,429
+statewide,Senate,Marion,Jim Hennager,O,166
+statewide,Senate,Marion,Michael Luick-Thrams,I,44
+statewide,Senate,Marion,Write-ins,W,13
+statewide,Senate,Marshall,Charles E. Grassley,R,10432
+statewide,Senate,Marshall,Patty Judge,D,6585
+statewide,Senate,Marshall,Charles Aldrich,L,481
+statewide,Senate,Marshall,Jim Hennager,O,182
+statewide,Senate,Marshall,Michael Luick-Thrams,I,49
+statewide,Senate,Marshall,Write-ins,W,10
+statewide,Senate,Mills,Charles E. Grassley,R,5290
+statewide,Senate,Mills,Patty Judge,D,1740
+statewide,Senate,Mills,Charles Aldrich,L,259
+statewide,Senate,Mills,Jim Hennager,O,93
+statewide,Senate,Mills,Michael Luick-Thrams,I,30
+statewide,Senate,Mills,Write-ins,W,10
+statewide,Senate,Mitchell,Charles E. Grassley,R,3680
+statewide,Senate,Mitchell,Patty Judge,D,1536
+statewide,Senate,Mitchell,Charles Aldrich,L,102
+statewide,Senate,Mitchell,Jim Hennager,O,46
+statewide,Senate,Mitchell,Michael Luick-Thrams,I,11
+statewide,Senate,Mitchell,Write-ins,W,4
+statewide,Senate,Monona,Charles E. Grassley,R,3315
+statewide,Senate,Monona,Patty Judge,D,1049
+statewide,Senate,Monona,Charles Aldrich,L,107
+statewide,Senate,Monona,Jim Hennager,O,46
+statewide,Senate,Monona,Michael Luick-Thrams,I,9
+statewide,Senate,Monona,Write-ins,W,4
+statewide,Senate,Monroe,Charles E. Grassley,R,2458
+statewide,Senate,Monroe,Patty Judge,D,1280
+statewide,Senate,Monroe,Charles Aldrich,L,75
+statewide,Senate,Monroe,Jim Hennager,O,16
+statewide,Senate,Monroe,Michael Luick-Thrams,I,7
+statewide,Senate,Monroe,Write-ins,W,1
+statewide,Senate,Montgomery,Charles E. Grassley,R,3646
+statewide,Senate,Montgomery,Patty Judge,D,1067
+statewide,Senate,Montgomery,Charles Aldrich,L,148
+statewide,Senate,Montgomery,Jim Hennager,O,68
+statewide,Senate,Montgomery,Michael Luick-Thrams,I,16
+statewide,Senate,Montgomery,Write-ins,W,4
+statewide,Senate,Muscatine,Charles E. Grassley,R,11157
+statewide,Senate,Muscatine,Patty Judge,D,6963
+statewide,Senate,Muscatine,Charles Aldrich,L,543
+statewide,Senate,Muscatine,Jim Hennager,O,371
+statewide,Senate,Muscatine,Michael Luick-Thrams,I,41
+statewide,Senate,Muscatine,Write-ins,W,20
+statewide,Senate,O'Brien,Charles E. Grassley,R,6076
+statewide,Senate,O'Brien,Patty Judge,D,1060
+statewide,Senate,O'Brien,Charles Aldrich,L,109
+statewide,Senate,O'Brien,Jim Hennager,O,37
+statewide,Senate,O'Brien,Michael Luick-Thrams,I,15
+statewide,Senate,O'Brien,Write-ins,W,7
+statewide,Senate,Osceola,Charles E. Grassley,R,2601
+statewide,Senate,Osceola,Patty Judge,D,455
+statewide,Senate,Osceola,Charles Aldrich,L,53
+statewide,Senate,Osceola,Jim Hennager,O,21
+statewide,Senate,Osceola,Michael Luick-Thrams,I,10
+statewide,Senate,Osceola,Write-ins,W,3
+statewide,Senate,Page,Charles E. Grassley,R,5208
+statewide,Senate,Page,Patty Judge,D,1461
+statewide,Senate,Page,Charles Aldrich,L,176
+statewide,Senate,Page,Jim Hennager,O,61
+statewide,Senate,Page,Michael Luick-Thrams,I,11
+statewide,Senate,Page,Write-ins,W,4
+statewide,Senate,Palo Alto,Charles E. Grassley,R,3377
+statewide,Senate,Palo Alto,Patty Judge,D,1109
+statewide,Senate,Palo Alto,Charles Aldrich,L,83
+statewide,Senate,Palo Alto,Jim Hennager,O,73
+statewide,Senate,Palo Alto,Michael Luick-Thrams,I,9
+statewide,Senate,Palo Alto,Write-ins,W,2
+statewide,Senate,Plymouth,Charles E. Grassley,R,10338
+statewide,Senate,Plymouth,Patty Judge,D,2300
+statewide,Senate,Plymouth,Charles Aldrich,L,234
+statewide,Senate,Plymouth,Jim Hennager,O,75
+statewide,Senate,Plymouth,Michael Luick-Thrams,I,20
+statewide,Senate,Plymouth,Write-ins,W,3
+statewide,Senate,Pocahontas,Charles E. Grassley,R,2891
+statewide,Senate,Pocahontas,Patty Judge,D,784
+statewide,Senate,Pocahontas,Charles Aldrich,L,96
+statewide,Senate,Pocahontas,Jim Hennager,O,41
+statewide,Senate,Pocahontas,Michael Luick-Thrams,I,11
+statewide,Senate,Pocahontas,Write-ins,W,1
+statewide,Senate,Polk,Charles E. Grassley,R,118164
+statewide,Senate,Polk,Patty Judge,D,100317
+statewide,Senate,Polk,Charles Aldrich,L,6594
+statewide,Senate,Polk,Jim Hennager,O,2168
+statewide,Senate,Polk,Michael Luick-Thrams,I,786
+statewide,Senate,Polk,Write-ins,W,362
+statewide,Senate,Pottawattamie,Charles E. Grassley,R,25721
+statewide,Senate,Pottawattamie,Patty Judge,D,12943
+statewide,Senate,Pottawattamie,Jim Hennager,O,1333
+statewide,Senate,Pottawattamie,Charles Aldrich,L,1264
+statewide,Senate,Pottawattamie,Michael Luick-Thrams,I,148
+statewide,Senate,Pottawattamie,Write-ins,W,57
+statewide,Senate,Poweshiek,Charles E. Grassley,R,5617
+statewide,Senate,Poweshiek,Patty Judge,D,3748
+statewide,Senate,Poweshiek,Charles Aldrich,L,244
+statewide,Senate,Poweshiek,Jim Hennager,O,87
+statewide,Senate,Poweshiek,Michael Luick-Thrams,I,28
+statewide,Senate,Poweshiek,Write-ins,W,7
+statewide,Senate,Ringgold,Charles E. Grassley,R,1989
+statewide,Senate,Ringgold,Patty Judge,D,617
+statewide,Senate,Ringgold,Charles Aldrich,L,54
+statewide,Senate,Ringgold,Jim Hennager,O,20
+statewide,Senate,Ringgold,Michael Luick-Thrams,I,5
+statewide,Senate,Ringgold,Write-ins,W,1
+statewide,Senate,Sac,Charles E. Grassley,R,3965
+statewide,Senate,Sac,Patty Judge,D,1015
+statewide,Senate,Sac,Charles Aldrich,L,97
+statewide,Senate,Sac,Jim Hennager,O,37
+statewide,Senate,Sac,Michael Luick-Thrams,I,11
+statewide,Senate,Sac,Write-ins,W,6
+statewide,Senate,Scott,Charles E. Grassley,R,46415
+statewide,Senate,Scott,Patty Judge,D,34503
+statewide,Senate,Scott,Charles Aldrich,L,2717
+statewide,Senate,Scott,Jim Hennager,O,626
+statewide,Senate,Scott,Michael Luick-Thrams,I,239
+statewide,Senate,Scott,Write-ins,W,192
+statewide,Senate,Shelby,Charles E. Grassley,R,4480
+statewide,Senate,Shelby,Patty Judge,D,1409
+statewide,Senate,Shelby,Charles Aldrich,L,153
+statewide,Senate,Shelby,Jim Hennager,O,51
+statewide,Senate,Shelby,Michael Luick-Thrams,I,13
+statewide,Senate,Shelby,Write-ins,W,4
+statewide,Senate,Sioux,Charles E. Grassley,R,15902
+statewide,Senate,Sioux,Patty Judge,D,1709
+statewide,Senate,Sioux,Charles Aldrich,L,225
+statewide,Senate,Sioux,Jim Hennager,O,72
+statewide,Senate,Sioux,Michael Luick-Thrams,I,16
+statewide,Senate,Sioux,Write-ins,W,8
+statewide,Senate,Story,Charles E. Grassley,R,25475
+statewide,Senate,Story,Patty Judge,D,21472
+statewide,Senate,Story,Charles Aldrich,L,1658
+statewide,Senate,Story,Jim Hennager,O,456
+statewide,Senate,Story,Michael Luick-Thrams,I,194
+statewide,Senate,Story,Write-ins,W,61
+statewide,Senate,Tama,Charles E. Grassley,R,5536
+statewide,Senate,Tama,Patty Judge,D,2769
+statewide,Senate,Tama,Charles Aldrich,L,204
+statewide,Senate,Tama,Jim Hennager,O,191
+statewide,Senate,Tama,Write-ins,W,12
+statewide,Senate,Tama,Michael Luick-Thrams,I,10
+statewide,Senate,Taylor,Charles E. Grassley,R,2220
+statewide,Senate,Taylor,Patty Judge,D,613
+statewide,Senate,Taylor,Charles Aldrich,L,70
+statewide,Senate,Taylor,Jim Hennager,O,29
+statewide,Senate,Taylor,Michael Luick-Thrams,I,7
+statewide,Senate,Taylor,Write-ins,W,2
+statewide,Senate,Union,Charles E. Grassley,R,3913
+statewide,Senate,Union,Patty Judge,D,1625
+statewide,Senate,Union,Charles Aldrich,L,140
+statewide,Senate,Union,Jim Hennager,O,79
+statewide,Senate,Union,Michael Luick-Thrams,I,16
+statewide,Senate,Union,Write-ins,W,2
+statewide,Senate,Van Buren,Charles E. Grassley,R,2618
+statewide,Senate,Van Buren,Patty Judge,D,764
+statewide,Senate,Van Buren,Charles Aldrich,L,76
+statewide,Senate,Van Buren,Jim Hennager,O,64
+statewide,Senate,Van Buren,Michael Luick-Thrams,I,5
+statewide,Senate,Van Buren,Write-ins,W,4
+statewide,Senate,Wapello,Charles E. Grassley,R,8692
+statewide,Senate,Wapello,Patty Judge,D,5365
+statewide,Senate,Wapello,Charles Aldrich,L,352
+statewide,Senate,Wapello,Jim Hennager,O,337
+statewide,Senate,Wapello,Michael Luick-Thrams,I,27
+statewide,Senate,Wapello,Write-ins,W,17
+statewide,Senate,Warren,Charles E. Grassley,R,17081
+statewide,Senate,Warren,Patty Judge,D,8700
+statewide,Senate,Warren,Charles Aldrich,L,762
+statewide,Senate,Warren,Jim Hennager,O,233
+statewide,Senate,Warren,Michael Luick-Thrams,I,78
+statewide,Senate,Warren,Write-ins,W,25
+statewide,Senate,Washington,Charles E. Grassley,R,7251
+statewide,Senate,Washington,Patty Judge,D,3062
+statewide,Senate,Washington,Charles Aldrich,L,343
+statewide,Senate,Washington,Jim Hennager,O,83
+statewide,Senate,Washington,Michael Luick-Thrams,I,28
+statewide,Senate,Washington,Write-ins,W,10
+statewide,Senate,Wayne,Charles E. Grassley,R,2195
+statewide,Senate,Wayne,Patty Judge,D,645
+statewide,Senate,Wayne,Charles Aldrich,L,56
+statewide,Senate,Wayne,Jim Hennager,O,28
+statewide,Senate,Wayne,Michael Luick-Thrams,I,4
+statewide,Senate,Wayne,Write-ins,W,1
+statewide,Senate,Webster,Charles E. Grassley,R,11045
+statewide,Senate,Webster,Patty Judge,D,5396
+statewide,Senate,Webster,Charles Aldrich,L,415
+statewide,Senate,Webster,Jim Hennager,O,222
+statewide,Senate,Webster,Michael Luick-Thrams,I,65
+statewide,Senate,Webster,Write-ins,W,16
+statewide,Senate,Winnebago,Charles E. Grassley,R,3938
+statewide,Senate,Winnebago,Patty Judge,D,1590
+statewide,Senate,Winnebago,Charles Aldrich,L,153
+statewide,Senate,Winnebago,Jim Hennager,O,62
+statewide,Senate,Winnebago,Michael Luick-Thrams,I,15
+statewide,Senate,Winnebago,Write-ins,W,3
+statewide,Senate,Winneshiek,Charles E. Grassley,R,6349
+statewide,Senate,Winneshiek,Patty Judge,D,4436
+statewide,Senate,Winneshiek,Charles Aldrich,L,296
+statewide,Senate,Winneshiek,Jim Hennager,O,97
+statewide,Senate,Winneshiek,Michael Luick-Thrams,I,36
+statewide,Senate,Winneshiek,Write-ins,W,5
+statewide,Senate,Woodbury,Charles E. Grassley,R,27166
+statewide,Senate,Woodbury,Patty Judge,D,13909
+statewide,Senate,Woodbury,Charles Aldrich,L,1015
+statewide,Senate,Woodbury,Jim Hennager,O,790
+statewide,Senate,Woodbury,Michael Luick-Thrams,I,95
+statewide,Senate,Woodbury,Write-ins,W,37
+statewide,Senate,Worth,Charles E. Grassley,R,2774
+statewide,Senate,Worth,Patty Judge,D,1246
+statewide,Senate,Worth,Charles Aldrich,L,120
+statewide,Senate,Worth,Jim Hennager,O,71
+statewide,Senate,Worth,Michael Luick-Thrams,I,8
+statewide,Senate,Worth,Write-ins,W,3
+statewide,Senate,Wright,Charles E. Grassley,R,4208
+statewide,Senate,Wright,Patty Judge,D,1550
+statewide,Senate,Wright,Charles Aldrich,L,168
+statewide,Senate,Wright,Jim Hennager,O,39
+statewide,Senate,Wright,Michael Luick-Thrams,I,12
+statewide,Senate,Wright,Write-ins,W,4
+ushouse,1,Allamakee,Rod Blum,R,4067
+ushouse,1,Allamakee,Monica Vernon,D,2573
+ushouse,1,Allamakee,Write-ins,W,13
+ushouse,1,Benton,Rod Blum,R,8394
+ushouse,1,Benton,Monica Vernon,D,5001
+ushouse,1,Benton,Write-ins,W,23
+ushouse,1,Black Hawk,Monica Vernon,D,31948
+ushouse,1,Black Hawk,Rod Blum,R,30853
+ushouse,1,Black Hawk,Write-ins,W,91
+ushouse,1,Bremer,Rod Blum,R,7943
+ushouse,1,Bremer,Monica Vernon,D,5301
+ushouse,1,Bremer,Write-ins,W,21
+ushouse,1,Buchanan,Rod Blum,R,5739
+ushouse,1,Buchanan,Monica Vernon,D,4250
+ushouse,1,Buchanan,Write-ins,W,14
+ushouse,1,Clayton,Rod Blum,R,5393
+ushouse,1,Clayton,Monica Vernon,D,3504
+ushouse,1,Clayton,Write-ins,W,11
+ushouse,1,Delaware,Rod Blum,R,6010
+ushouse,1,Delaware,Monica Vernon,D,3062
+ushouse,1,Delaware,Write-ins,W,13
+ushouse,1,Dubuque,Rod Blum,R,26515
+ushouse,1,Dubuque,Monica Vernon,D,22025
+ushouse,1,Dubuque,Write-ins,W,63
+ushouse,1,Fayette,Rod Blum,R,5854
+ushouse,1,Fayette,Monica Vernon,D,3910
+ushouse,1,Fayette,Write-ins,W,19
+ushouse,1,Howard,Rod Blum,R,2532
+ushouse,1,Howard,Monica Vernon,D,1845
+ushouse,1,Howard,Write-ins,W,3
+ushouse,1,Iowa,Rod Blum,R,5412
+ushouse,1,Iowa,Monica Vernon,D,3172
+ushouse,1,Iowa,Write-ins,W,18
+ushouse,1,Jackson,Rod Blum,R,5493
+ushouse,1,Jackson,Monica Vernon,D,4158
+ushouse,1,Jackson,Write-ins,W,11
+ushouse,1,Jones,Rod Blum,R,5941
+ushouse,1,Jones,Monica Vernon,D,3959
+ushouse,1,Jones,Write-ins,W,23
+ushouse,1,Linn,Monica Vernon,D,58744
+ushouse,1,Linn,Rod Blum,R,55383
+ushouse,1,Linn,Write-ins,W,274
+ushouse,1,Marshall,Rod Blum,R,9587
+ushouse,1,Marshall,Monica Vernon,D,7558
+ushouse,1,Marshall,Write-ins,W,25
+ushouse,1,Mitchell,Rod Blum,R,3357
+ushouse,1,Mitchell,Monica Vernon,D,1864
+ushouse,1,Mitchell,Write-ins,W,3
+ushouse,1,Poweshiek,Rod Blum,R,5069
+ushouse,1,Poweshiek,Monica Vernon,D,4322
+ushouse,1,Poweshiek,Write-ins,W,14
+ushouse,1,Tama,Rod Blum,R,5058
+ushouse,1,Tama,Monica Vernon,D,3489
+ushouse,1,Tama,Write-ins,W,14
+ushouse,1,Winneshiek,Rod Blum,R,5793
+ushouse,1,Winneshiek,Monica Vernon,D,5168
+ushouse,1,Winneshiek,Write-ins,W,9
+ushouse,1,Worth,Rod Blum,R,2510
+ushouse,1,Worth,Monica Vernon,D,1550
+ushouse,1,Worth,Write-ins,W,9
+ushouse,2,Appanoose,Christopher Peters,R,3253
+ushouse,2,Appanoose,Dave Loebsack,D,2590
+ushouse,2,Appanoose,Write-ins,W,6
+ushouse,2,Cedar,Dave Loebsack,D,4658
+ushouse,2,Cedar,Christopher Peters,R,4549
+ushouse,2,Cedar,Write-ins,W,13
+ushouse,2,Clarke,Christopher Peters,R,2246
+ushouse,2,Clarke,Dave Loebsack,D,1925
+ushouse,2,Clarke,Write-ins,W,5
+ushouse,2,Clinton,Dave Loebsack,D,12185
+ushouse,2,Clinton,Christopher Peters,R,10214
+ushouse,2,Clinton,Write-ins,W,34
+ushouse,2,Davis,Christopher Peters,R,1959
+ushouse,2,Davis,Dave Loebsack,D,1795
+ushouse,2,Davis,Write-ins,W,11
+ushouse,2,Decatur,Christopher Peters,R,1914
+ushouse,2,Decatur,Dave Loebsack,D,1577
+ushouse,2,Decatur,Write-ins,W,8
+ushouse,2,Des Moines,Dave Loebsack,D,10190
+ushouse,2,Des Moines,Christopher Peters,R,8089
+ushouse,2,Des Moines,Write-ins,W,25
+ushouse,2,Henry,Christopher Peters,R,4861
+ushouse,2,Henry,Dave Loebsack,D,4141
+ushouse,2,Henry,Write-ins,W,13
+ushouse,2,Jasper,Christopher Peters,R,9455
+ushouse,2,Jasper,Dave Loebsack,D,8809
+ushouse,2,Jasper,Write-ins,W,25
+ushouse,2,Jefferson,Dave Loebsack,D,4572
+ushouse,2,Jefferson,Christopher Peters,R,3194
+ushouse,2,Jefferson,Write-ins,W,18
+ushouse,2,Johnson,Dave Loebsack,D,50691
+ushouse,2,Johnson,Christopher Peters,R,23386
+ushouse,2,Johnson,Write-ins,W,112
+ushouse,2,Keokuk,Christopher Peters,R,2754
+ushouse,2,Keokuk,Dave Loebsack,D,1945
+ushouse,2,Keokuk,Write-ins,W,4
+ushouse,2,Lee,Dave Loebsack,D,8543
+ushouse,2,Lee,Christopher Peters,R,7152
+ushouse,2,Lee,Write-ins,W,27
+ushouse,2,Louisa,Christopher Peters,R,2639
+ushouse,2,Louisa,Dave Loebsack,D,2179
+ushouse,2,Louisa,Write-ins,W,8
+ushouse,2,Lucas,Christopher Peters,R,2511
+ushouse,2,Lucas,Dave Loebsack,D,1585
+ushouse,2,Lucas,Write-ins,W,2
+ushouse,2,Mahaska,Christopher Peters,R,6585
+ushouse,2,Mahaska,Dave Loebsack,D,3384
+ushouse,2,Mahaska,Write-ins,W,11
+ushouse,2,Marion,Christopher Peters,R,10276
+ushouse,2,Marion,Dave Loebsack,D,6611
+ushouse,2,Marion,Write-ins,W,20
+ushouse,2,Monroe,Christopher Peters,R,1898
+ushouse,2,Monroe,Dave Loebsack,D,1731
+ushouse,2,Monroe,Write-ins,W,5
+ushouse,2,Muscatine,Dave Loebsack,D,9946
+ushouse,2,Muscatine,Christopher Peters,R,8780
+ushouse,2,Muscatine,Write-ins,W,18
+ushouse,2,Scott,Dave Loebsack,D,44445
+ushouse,2,Scott,Christopher Peters,R,38997
+ushouse,2,Scott,Write-ins,W,108
+ushouse,2,Van Buren,Christopher Peters,R,2001
+ushouse,2,Van Buren,Dave Loebsack,D,1455
+ushouse,2,Van Buren,Write-ins,W,7
+ushouse,2,Wapello,Dave Loebsack,D,7574
+ushouse,2,Wapello,Christopher Peters,R,6912
+ushouse,2,Wapello,Write-ins,W,32
+ushouse,2,Washington,Christopher Peters,R,5621
+ushouse,2,Washington,Dave Loebsack,D,4905
+ushouse,2,Washington,Write-ins,W,13
+ushouse,2,Wayne,Christopher Peters,R,1687
+ushouse,2,Wayne,Dave Loebsack,D,1135
+ushouse,2,Wayne,Write-ins,W,3
+ushouse,3,Adair,David Young,R,2563
+ushouse,3,Adair,Jim Mowrer,D,951
+ushouse,3,Adair,Bryan Jack Holder,L,146
+ushouse,3,Adair,Claudia Addy,I,52
+ushouse,3,Adair,Joe Grandanette,I,22
+ushouse,3,Adair,Write-ins,W,1
+ushouse,3,Adams,David Young,R,1448
+ushouse,3,Adams,Jim Mowrer,D,476
+ushouse,3,Adams,Bryan Jack Holder,L,77
+ushouse,3,Adams,Claudia Addy,I,30
+ushouse,3,Adams,Joe Grandanette,I,5
+ushouse,3,Adams,Write-ins,W,2
+ushouse,3,Cass,David Young,R,4875
+ushouse,3,Cass,Jim Mowrer,D,1570
+ushouse,3,Cass,Bryan Jack Holder,L,234
+ushouse,3,Cass,Claudia Addy,I,125
+ushouse,3,Cass,Joe Grandanette,I,32
+ushouse,3,Cass,Write-ins,W,4
+ushouse,3,Dallas,David Young,R,22491
+ushouse,3,Dallas,Jim Mowrer,D,12663
+ushouse,3,Dallas,Bryan Jack Holder,L,1231
+ushouse,3,Dallas,Claudia Addy,I,504
+ushouse,3,Dallas,Joe Grandanette,I,281
+ushouse,3,Dallas,Write-ins,W,34
+ushouse,3,Fremont,David Young,R,2477
+ushouse,3,Fremont,Jim Mowrer,D,714
+ushouse,3,Fremont,Bryan Jack Holder,L,140
+ushouse,3,Fremont,Claudia Addy,I,115
+ushouse,3,Fremont,Joe Grandanette,I,19
+ushouse,3,Fremont,Write-ins,W,2
+ushouse,3,Guthrie,David Young,R,3751
+ushouse,3,Guthrie,Jim Mowrer,D,1473
+ushouse,3,Guthrie,Bryan Jack Holder,L,267
+ushouse,3,Guthrie,Claudia Addy,I,102
+ushouse,3,Guthrie,Joe Grandanette,I,38
+ushouse,3,Guthrie,Write-ins,W,4
+ushouse,3,Madison,David Young,R,5653
+ushouse,3,Madison,Jim Mowrer,D,2281
+ushouse,3,Madison,Bryan Jack Holder,L,328
+ushouse,3,Madison,Claudia Addy,I,124
+ushouse,3,Madison,Joe Grandanette,I,74
+ushouse,3,Madison,Write-ins,W,4
+ushouse,3,Mills,David Young,R,5050
+ushouse,3,Mills,Jim Mowrer,D,1751
+ushouse,3,Mills,Bryan Jack Holder,L,358
+ushouse,3,Mills,Claudia Addy,I,124
+ushouse,3,Mills,Joe Grandanette,I,36
+ushouse,3,Mills,Write-ins,W,7
+ushouse,3,Montgomery,David Young,R,3553
+ushouse,3,Montgomery,Jim Mowrer,D,1069
+ushouse,3,Montgomery,Bryan Jack Holder,L,174
+ushouse,3,Montgomery,Claudia Addy,I,77
+ushouse,3,Montgomery,Joe Grandanette,I,29
+ushouse,3,Montgomery,Write-ins,W,5
+ushouse,3,Page,David Young,R,5069
+ushouse,3,Page,Jim Mowrer,D,1471
+ushouse,3,Page,Bryan Jack Holder,L,184
+ushouse,3,Page,Claudia Addy,I,107
+ushouse,3,Page,Joe Grandanette,I,31
+ushouse,3,Page,Write-ins,W,2
+ushouse,3,Polk,Jim Mowrer,D,105062
+ushouse,3,Polk,David Young,R,104791
+ushouse,3,Polk,Bryan Jack Holder,L,7970
+ushouse,3,Polk,Claudia Addy,I,3805
+ushouse,3,Polk,Joe Grandanette,I,3288
+ushouse,3,Polk,Write-ins,W,317
+ushouse,3,Pottawattamie,David Young,R,23975
+ushouse,3,Pottawattamie,Jim Mowrer,D,13062
+ushouse,3,Pottawattamie,Bryan Jack Holder,L,2898
+ushouse,3,Pottawattamie,Claudia Addy,I,663
+ushouse,3,Pottawattamie,Joe Grandanette,I,286
+ushouse,3,Pottawattamie,Write-ins,W,43
+ushouse,3,Ringgold,David Young,R,1820
+ushouse,3,Ringgold,Jim Mowrer,D,653
+ushouse,3,Ringgold,Bryan Jack Holder,L,70
+ushouse,3,Ringgold,Claudia Addy,I,38
+ushouse,3,Ringgold,Joe Grandanette,I,18
+ushouse,3,Ringgold,Write-ins,W,3
+ushouse,3,Taylor,David Young,R,2101
+ushouse,3,Taylor,Jim Mowrer,D,612
+ushouse,3,Taylor,Bryan Jack Holder,L,92
+ushouse,3,Taylor,Claudia Addy,I,55
+ushouse,3,Taylor,Joe Grandanette,I,24
+ushouse,3,Union,David Young,R,3588
+ushouse,3,Union,Jim Mowrer,D,1723
+ushouse,3,Union,Bryan Jack Holder,L,217
+ushouse,3,Union,Claudia Addy,I,84
+ushouse,3,Union,Joe Grandanette,I,48
+ushouse,3,Union,Write-ins,W,5
+ushouse,3,Warren,David Young,R,15393
+ushouse,3,Warren,Jim Mowrer,D,9471
+ushouse,3,Warren,Bryan Jack Holder,L,986
+ushouse,3,Warren,Claudia Addy,I,343
+ushouse,3,Warren,Joe Grandanette,I,287
+ushouse,3,Warren,Write-ins,W,16
+ushouse,4,Audubon,Steve King,R,2011
+ushouse,4,Audubon,Kim Weaver,D,1167
+ushouse,4,Audubon,Write-ins,W,2
+ushouse,4,Boone,Steve King,R,7421
+ushouse,4,Boone,Kim Weaver,D,6292
+ushouse,4,Boone,Write-ins,W,17
+ushouse,4,Buena Vista,Steve King,R,4655
+ushouse,4,Buena Vista,Kim Weaver,D,3322
+ushouse,4,Buena Vista,Write-ins,W,4
+ushouse,4,Butler,Steve King,R,4898
+ushouse,4,Butler,Kim Weaver,D,2235
+ushouse,4,Butler,Write-ins,W,12
+ushouse,4,Calhoun,Steve King,R,3339
+ushouse,4,Calhoun,Kim Weaver,D,1586
+ushouse,4,Calhoun,Write-ins,W,11
+ushouse,4,Carroll,Steve King,R,6305
+ushouse,4,Carroll,Kim Weaver,D,3800
+ushouse,4,Carroll,Write-ins,W,11
+ushouse,4,Cerro Gordo,Steve King,R,11563
+ushouse,4,Cerro Gordo,Kim Weaver,D,10450
+ushouse,4,Cerro Gordo,Write-ins,W,25
+ushouse,4,Cherokee,Steve King,R,3888
+ushouse,4,Cherokee,Kim Weaver,D,2226
+ushouse,4,Cherokee,Write-ins,W,9
+ushouse,4,Chickasaw,Steve King,R,3664
+ushouse,4,Chickasaw,Kim Weaver,D,2446
+ushouse,4,Chickasaw,Write-ins,W,5
+ushouse,4,Clay,Steve King,R,5331
+ushouse,4,Clay,Kim Weaver,D,3015
+ushouse,4,Clay,Write-ins,W,9
+ushouse,4,Crawford,Steve King,R,4315
+ushouse,4,Crawford,Kim Weaver,D,2368
+ushouse,4,Crawford,Write-ins,W,6
+ushouse,4,Dickinson,Steve King,R,6503
+ushouse,4,Dickinson,Kim Weaver,D,3619
+ushouse,4,Dickinson,Write-ins,W,11
+ushouse,4,Emmet,Steve King,R,2955
+ushouse,4,Emmet,Kim Weaver,D,1671
+ushouse,4,Emmet,Write-ins,W,6
+ushouse,4,Floyd,Steve King,R,4314
+ushouse,4,Floyd,Kim Weaver,D,3446
+ushouse,4,Floyd,Write-ins,W,7
+ushouse,4,Franklin,Steve King,R,3118
+ushouse,4,Franklin,Kim Weaver,D,1653
+ushouse,4,Franklin,Write-ins,W,7
+ushouse,4,Greene,Steve King,R,2707
+ushouse,4,Greene,Kim Weaver,D,1902
+ushouse,4,Greene,Write-ins,W,3
+ushouse,4,Grundy,Steve King,R,4823
+ushouse,4,Grundy,Kim Weaver,D,1823
+ushouse,4,Grundy,Write-ins,W,5
+ushouse,4,Hamilton,Steve King,R,4513
+ushouse,4,Hamilton,Kim Weaver,D,2913
+ushouse,4,Hamilton,Write-ins,W,13
+ushouse,4,Hancock,Steve King,R,3826
+ushouse,4,Hancock,Kim Weaver,D,1877
+ushouse,4,Hancock,Write-ins,W,5
+ushouse,4,Hardin,Steve King,R,5252
+ushouse,4,Hardin,Kim Weaver,D,3056
+ushouse,4,Hardin,Write-ins,W,4
+ushouse,4,Harrison,Steve King,R,4811
+ushouse,4,Harrison,Kim Weaver,D,2361
+ushouse,4,Harrison,Write-ins,W,15
+ushouse,4,Humboldt,Steve King,R,3522
+ushouse,4,Humboldt,Kim Weaver,D,1344
+ushouse,4,Humboldt,Write-ins,W,10
+ushouse,4,Ida,Steve King,R,2424
+ushouse,4,Ida,Kim Weaver,D,1106
+ushouse,4,Ida,Write-ins,W,5
+ushouse,4,Kossuth,Steve King,R,5238
+ushouse,4,Kossuth,Kim Weaver,D,3232
+ushouse,4,Kossuth,Write-ins,W,5
+ushouse,4,Lyon,Steve King,R,5066
+ushouse,4,Lyon,Kim Weaver,D,1099
+ushouse,4,Lyon,Write-ins,W,10
+ushouse,4,Monona,Steve King,R,2914
+ushouse,4,Monona,Kim Weaver,D,1571
+ushouse,4,Monona,Write-ins,W,8
+ushouse,4,O'Brien,Steve King,R,5398
+ushouse,4,O'Brien,Kim Weaver,D,1819
+ushouse,4,O'Brien,Write-ins,W,10
+ushouse,4,Osceola,Steve King,R,2375
+ushouse,4,Osceola,Kim Weaver,D,694
+ushouse,4,Osceola,Write-ins,W,2
+ushouse,4,Palo Alto,Steve King,R,2875
+ushouse,4,Palo Alto,Kim Weaver,D,1703
+ushouse,4,Palo Alto,Write-ins,W,7
+ushouse,4,Plymouth,Steve King,R,9207
+ushouse,4,Plymouth,Kim Weaver,D,3575
+ushouse,4,Plymouth,Write-ins,W,18
+ushouse,4,Pocahontas,Steve King,R,2642
+ushouse,4,Pocahontas,Kim Weaver,D,1096
+ushouse,4,Pocahontas,Write-ins,W,4
+ushouse,4,Sac,Steve King,R,3490
+ushouse,4,Sac,Kim Weaver,D,1585
+ushouse,4,Sac,Write-ins,W,12
+ushouse,4,Shelby,Steve King,R,4185
+ushouse,4,Shelby,Kim Weaver,D,1809
+ushouse,4,Shelby,Write-ins,W,3
+ushouse,4,Sioux,Steve King,R,14774
+ushouse,4,Sioux,Kim Weaver,D,2928
+ushouse,4,Sioux,Write-ins,W,27
+ushouse,4,Story,Kim Weaver,D,26405
+ushouse,4,Story,Steve King,R,21590
+ushouse,4,Story,Write-ins,W,112
+ushouse,4,Webster,Steve King,R,9809
+ushouse,4,Webster,Kim Weaver,D,6929
+ushouse,4,Webster,Write-ins,W,27
+ushouse,4,Winnebago,Steve King,R,3405
+ushouse,4,Winnebago,Kim Weaver,D,2201
+ushouse,4,Winnebago,Write-ins,W,7
+ushouse,4,Woodbury,Steve King,R,23877
+ushouse,4,Woodbury,Kim Weaver,D,18567
+ushouse,4,Woodbury,Write-ins,W,90
+ushouse,4,Wright,Steve King,R,3716
+ushouse,4,Wright,Kim Weaver,D,2102
+ushouse,4,Wright,Write-ins,W,3

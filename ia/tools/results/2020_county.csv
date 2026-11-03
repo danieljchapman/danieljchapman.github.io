@@ -1,0 +1,2554 @@
+level,office_or_district,county,candidate,party,votes
+house,1,Dickinson,John H. Wills,R,6757
+house,1,Dickinson,Write-ins,W,137
+house,1,Lyon,John H. Wills,R,5768
+house,1,Lyon,Write-ins,W,47
+house,1,Osceola,John H. Wills,R,2842
+house,1,Osceola,Write-ins,W,28
+house,10,Calhoun,Mike Sexton,R,3805
+house,10,Calhoun,Carmella Schultes,D,1330
+house,10,Calhoun,Write-ins,W,11
+house,10,Humboldt,Mike Sexton,R,3888
+house,10,Humboldt,Carmella Schultes,D,1187
+house,10,Humboldt,Write-ins,W,4
+house,10,Pocahontas,Mike Sexton,R,2768
+house,10,Pocahontas,Carmella Schultes,D,905
+house,10,Pocahontas,Write-ins,W,9
+house,10,Webster,Mike Sexton,R,1410
+house,10,Webster,Carmella Schultes,D,401
+house,10,Webster,Write-ins,W,5
+house,100,Dubuque,Charles Isenhart,D,9953
+house,100,Dubuque,Write-ins,W,367
+house,11,Buena Vista,Gary Worthan,R,4724
+house,11,Buena Vista,Sara Huddleston,D,2995
+house,11,Buena Vista,Write-ins,W,9
+house,11,Sac,Gary Worthan,R,3750
+house,11,Sac,Sara Huddleston,D,1416
+house,11,Sac,Write-ins,W,2
+house,12,Audubon,Brian Best,R,2240
+house,12,Audubon,Sam Muhr,D,722
+house,12,Audubon,Blake Johannes,L,117
+house,12,Audubon,Write-ins,W,0
+house,12,Carroll,Brian Best,R,8121
+house,12,Carroll,Sam Muhr,D,2204
+house,12,Carroll,Blake Johannes,L,253
+house,12,Carroll,Write-ins,W,15
+house,12,Crawford,Brian Best,R,1341
+house,12,Crawford,Sam Muhr,D,354
+house,12,Crawford,Blake Johannes,L,70
+house,12,Crawford,Write-ins,W,2
+house,13,Woodbury,Chris Hall,D,6625
+house,13,Woodbury,Ernest J. Gigaroa,R,4719
+house,13,Woodbury,Write-ins,W,25
+house,14,Woodbury,Steve Hansen,D,5980
+house,14,Woodbury,Robert Henderson,R,4711
+house,14,Woodbury,Write-ins,W,13
+house,15,Pottawattamie,Charlie McConkey,D,5718
+house,15,Pottawattamie,Sarah Abdouch,R,4990
+house,15,Pottawattamie,Write-ins,W,13
+house,16,Pottawattamie,Brent Siegrist,R,6615
+house,16,Pottawattamie,Jen Pellant,D,5889
+house,16,Pottawattamie,Robert Fairchild,L,540
+house,16,Pottawattamie,Write-ins,W,7
+house,17,Harrison,Matt W. Windschitl,R,3615
+house,17,Harrison,Jan Creasman,D,1410
+house,17,Harrison,Write-ins,W,13
+house,17,Ida,Matt W. Windschitl,R,2792
+house,17,Ida,Jan Creasman,D,739
+house,17,Ida,Write-ins,W,3
+house,17,Monona,Matt W. Windschitl,R,3308
+house,17,Monona,Jan Creasman,D,1076
+house,17,Monona,Write-ins,W,6
+house,17,Woodbury,Matt W. Windschitl,R,1682
+house,17,Woodbury,Jan Creasman,D,457
+house,17,Woodbury,Write-ins,W,3
+house,18,Crawford,Steven Holt,R,3504
+house,18,Crawford,Damon Hopkins,D,1509
+house,18,Crawford,Write-ins,W,5
+house,18,Harrison,Steven Holt,R,2004
+house,18,Harrison,Damon Hopkins,D,687
+house,18,Harrison,Write-ins,W,4
+house,18,Shelby,Steven Holt,R,4813
+house,18,Shelby,Damon Hopkins,D,1566
+house,18,Shelby,Write-ins,W,6
+house,19,Dallas,Carter Nordman,R,12637
+house,19,Dallas,Nick Miller,D,7882
+house,19,Dallas,Write-ins,W,21
+house,19,Polk,Carter Nordman,R,2128
+house,19,Polk,Nick Miller,D,1587
+house,19,Polk,Write-ins,W,12
+house,2,Clay,Megan Jones,R,7309
+house,2,Clay,Write-ins,W,157
+house,2,Dickinson,Megan Jones,R,2146
+house,2,Dickinson,Write-ins,W,18
+house,2,Palo Alto,Megan Jones,R,4142
+house,2,Palo Alto,Write-ins,W,41
+house,20,Adair,Ray Bubba Sorensen,R,3287
+house,20,Adair,Ryan Morrison,D,788
+house,20,Adair,Write-ins,W,8
+house,20,Cass,Ray Bubba Sorensen,R,748
+house,20,Cass,Ryan Morrison,D,184
+house,20,Cass,Write-ins,W,0
+house,20,Dallas,Ray Bubba Sorensen,R,2050
+house,20,Dallas,Ryan Morrison,D,1761
+house,20,Dallas,Write-ins,W,9
+house,20,Guthrie,Ray Bubba Sorensen,R,4737
+house,20,Guthrie,Ryan Morrison,D,1424
+house,20,Guthrie,Write-ins,W,12
+house,21,Adams,Tom Moore,R,1542
+house,21,Adams,Shaun Kelley,D,485
+house,21,Adams,Write-ins,W,5
+house,21,Cass,Tom Moore,R,4341
+house,21,Cass,Shaun Kelley,D,1454
+house,21,Cass,Write-ins,W,7
+house,21,Pottawattamie,Tom Moore,R,728
+house,21,Pottawattamie,Shaun Kelley,D,267
+house,21,Pottawattamie,Write-ins,W,3
+house,21,Union,Tom Moore,R,3583
+house,21,Union,Shaun Kelley,D,2142
+house,21,Union,Write-ins,W,15
+house,22,Pottawattamie,Jon Jacobsen,R,13308
+house,22,Pottawattamie,Shawna Anderson,D,5840
+house,22,Pottawattamie,Write-ins,W,12
+house,23,Fremont,David A. Sieck,R,3123
+house,23,Fremont,Write-ins,W,51
+house,23,Mills,David A. Sieck,R,6692
+house,23,Mills,Write-ins,W,120
+house,23,Montgomery,David A. Sieck,R,3102
+house,23,Montgomery,Write-ins,W,48
+house,24,Montgomery,Cecil Dolecheck,R,1038
+house,24,Montgomery,Chris Adcock,D,360
+house,24,Montgomery,Write-ins,W,1
+house,24,Page,Cecil Dolecheck,R,4995
+house,24,Page,Chris Adcock,D,2151
+house,24,Page,Write-ins,W,7
+house,24,Ringgold,Cecil Dolecheck,R,2086
+house,24,Ringgold,Chris Adcock,D,569
+house,24,Ringgold,Write-ins,W,5
+house,24,Taylor,Cecil Dolecheck,R,2455
+house,24,Taylor,Chris Adcock,D,614
+house,24,Taylor,Write-ins,W,1
+house,25,Madison,Stan Gustafson,R,6161
+house,25,Madison,Ryan Marquardt,D,3133
+house,25,Madison,Write-ins,W,10
+house,25,Warren,Stan Gustafson,R,6783
+house,25,Warren,Ryan Marquardt,D,4283
+house,25,Warren,Write-ins,W,12
+house,26,Warren,Brooke Boden,R,9784
+house,26,Warren,Scott Ourth,D,8431
+house,26,Warren,Write-ins,W,26
+house,27,Clarke,Joel Fry,R,3163
+house,27,Clarke,Cody Dilliner,D,1283
+house,27,Clarke,Write-ins,W,11
+house,27,Decatur,Joel Fry,R,2606
+house,27,Decatur,Cody Dilliner,D,959
+house,27,Decatur,Write-ins,W,12
+house,27,Lucas,Joel Fry,R,2055
+house,27,Lucas,Cody Dilliner,D,724
+house,27,Lucas,Write-ins,W,4
+house,27,Wayne,Joel Fry,R,2285
+house,27,Wayne,Cody Dilliner,D,599
+house,27,Wayne,Write-ins,W,6
+house,28,Jasper,Jon Thorup,R,2764
+house,28,Jasper,Write-ins,W,26
+house,28,Lucas,Jon Thorup,R,1212
+house,28,Lucas,Write-ins,W,28
+house,28,Marion,Jon Thorup,R,8731
+house,28,Marion,Write-ins,W,131
+house,29,Jasper,Wes Breckenridge,D,8471
+house,29,Jasper,Jon Dunwell,R,7954
+house,29,Jasper,Write-ins,W,12
+house,3,Cherokee,Dennis J. Bush,R,4922
+house,3,Cherokee,Write-ins,W,59
+house,3,O'Brien,Dennis J. Bush,R,5752
+house,3,O'Brien,Write-ins,W,37
+house,3,Plymouth,Dennis J. Bush,R,349
+house,3,Plymouth,Write-ins,W,0
+house,3,Sioux,Dennis J. Bush,R,1422
+house,3,Sioux,Write-ins,W,13
+house,30,Polk,Brian K. Lohse,R,12924
+house,30,Polk,Lori L. Slings,D,8384
+house,30,Polk,Write-ins,W,26
+house,31,Polk,Rick L. Olson,D,10070
+house,31,Polk,Write-ins,W,435
+house,32,Polk,Ruth Ann Gaines,D,9000
+house,32,Polk,Write-ins,W,287
+house,33,Polk,Brian Meyer,D,8248
+house,33,Polk,Gregory T. Malone,R,4666
+house,33,Polk,Write-ins,W,38
+house,34,Polk,Bruce Hunter,D,9470
+house,34,Polk,Jerry Cheevers,R,4787
+house,34,Polk,Write-ins,W,48
+house,35,Polk,Ako Abdul-Samad,D,7542
+house,35,Polk,Write-ins,W,235
+house,36,Polk,Marti Anderson,D,13198
+house,36,Polk,Write-ins,W,374
+house,37,Polk,John Landon,R,14309
+house,37,Polk,Andrea Phillips,D,12578
+house,37,Polk,Write-ins,W,37
+house,38,Polk,Garrett Gobble,R,10084
+house,38,Polk,Heather Matson,D,9927
+house,38,Polk,Write-ins,W,22
+house,39,Polk,Eddie Andrews,R,12455
+house,39,Polk,Karin Derry,D,12040
+house,39,Polk,Write-ins,W,24
+house,4,Sioux,Skyler Wheeler,R,13149
+house,4,Sioux,Björn Johnson,D,2870
+house,4,Sioux,Write-ins,W,43
+house,40,Polk,John Forbes,D,10589
+house,40,Polk,Jon Coen,R,7108
+house,40,Polk,Write-ins,W,28
+house,41,Polk,Jo Oldson,D,13914
+house,41,Polk,Write-ins,W,329
+house,42,Polk,Kristin Sunde,D,9921
+house,42,Polk,Aaron Sewell,R,7609
+house,42,Polk,Write-ins,W,30
+house,42,Warren,Aaron Sewell,R,287
+house,42,Warren,Kristin Sunde,D,181
+house,42,Warren,Write-ins,W,0
+house,43,Polk,Jennifer Konfrst,D,9948
+house,43,Polk,Sonya Swan,R,7375
+house,43,Polk,Write-ins,W,14
+house,44,Dallas,Kenan Judge,D,15244
+house,44,Dallas,Dave Lorenzen,R,13138
+house,44,Dallas,Dave Stock,I,346
+house,44,Dallas,Write-ins,W,21
+house,45,Story,Beth Wessel-Kroeschell,D,11399
+house,45,Story,Eric Cooper,L,4116
+house,45,Story,Write-ins,W,110
+house,46,Story,Ross Wilburn,D,10689
+house,46,Story,Write-ins,W,251
+house,47,Boone,Phil Thompson,R,6174
+house,47,Boone,Shelly L. Stotts,D,5041
+house,47,Boone,Write-ins,W,16
+house,47,Greene,Phil Thompson,R,3329
+house,47,Greene,Shelly L. Stotts,D,1471
+house,47,Greene,Write-ins,W,4
+house,48,Boone,Robert Bacon,R,1896
+house,48,Boone,Jack Friend,D,1317
+house,48,Boone,Write-ins,W,3
+house,48,Hamilton,Robert Bacon,R,4788
+house,48,Hamilton,Jack Friend,D,2631
+house,48,Hamilton,Write-ins,W,7
+house,48,Story,Robert Bacon,R,2269
+house,48,Story,Jack Friend,D,1646
+house,48,Story,Write-ins,W,2
+house,48,Webster,Robert Bacon,R,1428
+house,48,Webster,Jack Friend,D,686
+house,48,Webster,Write-ins,W,5
+house,49,Hardin,Dave Deyoe,R,2417
+house,49,Hardin,Selden Spencer,D,1073
+house,49,Hardin,Write-ins,W,3
+house,49,Story,Dave Deyoe,R,8047
+house,49,Story,Selden Spencer,D,5747
+house,49,Story,Write-ins,W,23
+house,5,Plymouth,Thomas Jeneary,R,11218
+house,5,Plymouth,Write-ins,W,110
+house,5,Woodbury,Thomas Jeneary,R,2724
+house,5,Woodbury,Write-ins,W,40
+house,50,Butler,Pat Grassley,R,2958
+house,50,Butler,Dennis J. Evans,D,1102
+house,50,Butler,Write-ins,W,4
+house,50,Grundy,Pat Grassley,R,5150
+house,50,Grundy,Dennis J. Evans,D,1994
+house,50,Grundy,Write-ins,W,12
+house,50,Hardin,Pat Grassley,R,3575
+house,50,Hardin,Dennis J. Evans,D,1637
+house,50,Hardin,Write-ins,W,4
+house,51,Howard,Jane Bloomingdale,R,3285
+house,51,Howard,Jane Podgorniak,D,1486
+house,51,Howard,Write-ins,W,2
+house,51,Mitchell,Jane Bloomingdale,R,4002
+house,51,Mitchell,Jane Podgorniak,D,1666
+house,51,Mitchell,Write-ins,W,1
+house,51,Winneshiek,Jane Bloomingdale,R,978
+house,51,Winneshiek,Jane Podgorniak,D,399
+house,51,Winneshiek,Write-ins,W,2
+house,51,Worth,Jane Bloomingdale,R,3123
+house,51,Worth,Jane Podgorniak,D,1221
+house,51,Worth,Write-ins,W,6
+house,52,Cerro Gordo,Craig A. Clark,R,577
+house,52,Cerro Gordo,Todd Prichard,D,454
+house,52,Cerro Gordo,Write-ins,W,0
+house,52,Chickasaw,Todd Prichard,D,3309
+house,52,Chickasaw,Craig A. Clark,R,3106
+house,52,Chickasaw,Write-ins,W,3
+house,52,Floyd,Todd Prichard,D,4447
+house,52,Floyd,Craig A. Clark,R,3389
+house,52,Floyd,Write-ins,W,8
+house,53,Cerro Gordo,Sharon Steckman,D,9772
+house,53,Cerro Gordo,Simon Thomas Abela,R,5081
+house,53,Cerro Gordo,Write-ins,W,20
+house,54,Butler,Shannon Latham,R,2742
+house,54,Butler,Karen Koenig,D,878
+house,54,Butler,Bennett Smith,I,107
+house,54,Butler,Write-ins,W,7
+house,54,Cerro Gordo,Shannon Latham,R,3995
+house,54,Cerro Gordo,Bennett Smith,I,1580
+house,54,Cerro Gordo,Karen Koenig,D,1416
+house,54,Cerro Gordo,Write-ins,W,9
+house,54,Franklin,Shannon Latham,R,3480
+house,54,Franklin,Karen Koenig,D,1308
+house,54,Franklin,Bennett Smith,I,213
+house,54,Franklin,Write-ins,W,3
+house,55,Clayton,Michael R. Bergan,R,689
+house,55,Clayton,Kayla Koether,D,595
+house,55,Clayton,Write-ins,W,0
+house,55,Fayette,Michael R. Bergan,R,2964
+house,55,Fayette,Kayla Koether,D,1732
+house,55,Fayette,Write-ins,W,2
+house,55,Winneshiek,Michael R. Bergan,R,5233
+house,55,Winneshiek,Kayla Koether,D,5136
+house,55,Winneshiek,Write-ins,W,12
+house,56,Allamakee,Anne Osmundson,R,4843
+house,56,Allamakee,Angela Reed,D,2220
+house,56,Allamakee,Write-ins,W,9
+house,56,Clayton,Anne Osmundson,R,5526
+house,56,Clayton,Angela Reed,D,2397
+house,56,Clayton,Write-ins,W,13
+house,57,Dubuque,Shannon Lundgren,R,12878
+house,57,Dubuque,Ryan Patrick Quinn,D,6330
+house,57,Dubuque,Write-ins,W,13
+house,58,Dubuque,Steven P. Bradley,R,1049
+house,58,Dubuque,Andy McKean,R,545
+house,58,Dubuque,Write-ins,W,1
+house,58,Jackson,Steven P. Bradley,R,5378
+house,58,Jackson,Andy McKean,R,5349
+house,58,Jackson,Write-ins,W,8
+house,58,Jones,Steven P. Bradley,R,2696
+house,58,Jones,Andy McKean,R,1990
+house,58,Jones,Write-ins,W,3
+house,59,Black Hawk,Bob Kressig,D,11606
+house,59,Black Hawk,Write-ins,W,341
+house,6,Woodbury,Jacob Bossman,R,12097
+house,6,Woodbury,Write-ins,W,303
+house,60,Black Hawk,Dave Williams,D,9558
+house,60,Black Hawk,Ryan Howard,R,9082
+house,60,Black Hawk,Write-ins,W,26
+house,61,Black Hawk,Timi Brown-Powers,D,9589
+house,61,Black Hawk,Write-ins,W,248
+house,62,Black Hawk,Ras Smith,D,8801
+house,62,Black Hawk,Write-ins,W,192
+house,63,Black Hawk,Sandy Salmon,R,2506
+house,63,Black Hawk,Carissa Froyum,D,1117
+house,63,Black Hawk,Write-ins,W,0
+house,63,Bremer,Sandy Salmon,R,8703
+house,63,Bremer,Carissa Froyum,D,5372
+house,63,Bremer,Write-ins,W,6
+house,64,Buchanan,Chad Ingels,R,5027
+house,64,Buchanan,Jodi Grover,D,4468
+house,64,Buchanan,Write-ins,W,2
+house,64,Fayette,Chad Ingels,R,3257
+house,64,Fayette,Jodi Grover,D,1967
+house,64,Fayette,Write-ins,W,2
+house,65,Linn,Liz Bennett,D,11841
+house,65,Linn,Write-ins,W,393
+house,66,Linn,Art Staed,D,10271
+house,66,Linn,Barrett Hubbard,R,6766
+house,66,Linn,Write-ins,W,27
+house,67,Linn,Eric Gjerde,D,10541
+house,67,Linn,Sally Ann Abbott,R,9274
+house,67,Linn,Write-ins,W,20
+house,68,Linn,Molly Donahue,D,10201
+house,68,Linn,Lou Rogers,R,8484
+house,68,Linn,Write-ins,W,20
+house,69,Linn,Kirsten Running-Marquardt,D,11932
+house,69,Linn,Write-ins,W,411
+house,7,Emmet,Henry Stone,R,2811
+house,7,Emmet,Debra Jensen,D,1669
+house,7,Emmet,Write-ins,W,4
+house,7,Kossuth,Henry Stone,R,3184
+house,7,Kossuth,Debra Jensen,D,1875
+house,7,Kossuth,Write-ins,W,3
+house,7,Winnebago,Henry Stone,R,3469
+house,7,Winnebago,Debra Jensen,D,2303
+house,7,Winnebago,Write-ins,W,6
+house,70,Linn,Tracy Ehlert,D,10916
+house,70,Linn,Myra Matejka,L,3692
+house,70,Linn,Write-ins,W,127
+house,71,Marshall,Sue Cahill,D,6800
+house,71,Marshall,Tony Reed,R,5315
+house,71,Marshall,Write-ins,W,15
+house,72,Black Hawk,Dean Fisher,R,1095
+house,72,Black Hawk,Christina Blackcloud,D,601
+house,72,Black Hawk,Write-ins,W,4
+house,72,Marshall,Dean Fisher,R,3494
+house,72,Marshall,Christina Blackcloud,D,1837
+house,72,Marshall,Write-ins,W,5
+house,72,Tama,Dean Fisher,R,5150
+house,72,Tama,Christina Blackcloud,D,3681
+house,72,Tama,Write-ins,W,14
+house,73,Cedar,Bobby Kaufmann,R,6997
+house,73,Cedar,Lonny L. Pulkrabek,D,3426
+house,73,Cedar,Write-ins,W,10
+house,73,Johnson,Lonny L. Pulkrabek,D,3460
+house,73,Johnson,Bobby Kaufmann,R,3025
+house,73,Johnson,Write-ins,W,5
+house,73,Muscatine,Bobby Kaufmann,R,1045
+house,73,Muscatine,Lonny L. Pulkrabek,D,421
+house,73,Muscatine,Write-ins,W,3
+house,74,Johnson,Dave Jacoby,D,15407
+house,74,Johnson,Write-ins,W,245
+house,75,Benton,Thomas Gerhold,R,8919
+house,75,Benton,Ruby Bodeker,D,5049
+house,75,Benton,Write-ins,W,15
+house,75,Iowa,Thomas Gerhold,R,1458
+house,75,Iowa,Ruby Bodeker,D,858
+house,75,Iowa,Write-ins,W,6
+house,76,Iowa,David E. Maxwell,R,4467
+house,76,Iowa,Sarah Smith,D,2337
+house,76,Iowa,Kamal Hammouda,O,87
+house,76,Iowa,Write-ins,W,14
+house,76,Poweshiek,David E. Maxwell,R,5293
+house,76,Poweshiek,Sarah Smith,D,4154
+house,76,Poweshiek,Kamal Hammouda,O,435
+house,76,Poweshiek,Write-ins,W,15
+house,77,Johnson,Amy Nielsen,D,15416
+house,77,Johnson,Write-ins,W,506
+house,78,Keokuk,Jarad Klein,R,3749
+house,78,Keokuk,Kimberly K. Davis,D,1237
+house,78,Keokuk,Write-ins,W,11
+house,78,Washington,Jarad Klein,R,6535
+house,78,Washington,Kimberly K. Davis,D,3605
+house,78,Washington,Write-ins,W,16
+house,79,Mahaska,Dustin D. Hite,R,7177
+house,79,Mahaska,Write-ins,W,105
+house,79,Marion,Dustin D. Hite,R,6257
+house,79,Marion,Write-ins,W,82
+house,8,Hancock,Terry Baxter,R,4405
+house,8,Hancock,Glenn Kiss,D,1449
+house,8,Hancock,Write-ins,W,8
+house,8,Kossuth,Terry Baxter,R,2717
+house,8,Kossuth,Glenn Kiss,D,813
+house,8,Kossuth,Write-ins,W,5
+house,8,Wright,Terry Baxter,R,4128
+house,8,Wright,Glenn Kiss,D,1576
+house,8,Wright,Write-ins,W,10
+house,80,Appanoose,Holly Brink,R,4884
+house,80,Appanoose,Write-ins,W,78
+house,80,Mahaska,Holly Brink,R,1991
+house,80,Mahaska,Write-ins,W,20
+house,80,Monroe,Holly Brink,R,3156
+house,80,Monroe,Write-ins,W,40
+house,80,Wapello,Holly Brink,R,2082
+house,80,Wapello,Write-ins,W,19
+house,81,Wapello,Cherielynn Westrich,R,6684
+house,81,Wapello,Mary Gaskill,D,5894
+house,81,Wapello,Write-ins,W,22
+house,82,Davis,Jeff Shipley,R,2433
+house,82,Davis,Phil Miller,D,1504
+house,82,Davis,Write-ins,W,5
+house,82,Jefferson,Phil Miller,D,4837
+house,82,Jefferson,Jeff Shipley,R,2911
+house,82,Jefferson,Write-ins,W,17
+house,82,Van Buren,Jeff Shipley,R,2426
+house,82,Van Buren,Phil Miller,D,1263
+house,82,Van Buren,Write-ins,W,4
+house,83,Lee,Martin L. Graber,R,6967
+house,83,Lee,Jeff Kurtz,D,6197
+house,83,Lee,Write-ins,W,11
+house,84,Henry,Joe Mitchell,R,6655
+house,84,Henry,Jeff Fager,D,2778
+house,84,Henry,Write-ins,W,17
+house,84,Jefferson,Joe Mitchell,R,717
+house,84,Jefferson,Jeff Fager,D,221
+house,84,Jefferson,Write-ins,W,3
+house,84,Lee,Joe Mitchell,R,2073
+house,84,Lee,Jeff Fager,D,933
+house,84,Lee,Write-ins,W,2
+house,84,Washington,Joe Mitchell,R,837
+house,84,Washington,Jeff Fager,D,214
+house,84,Washington,Write-ins,W,1
+house,85,Johnson,Christina Bohannan,D,15107
+house,85,Johnson,Write-ins,W,195
+house,86,Johnson,Mary Mascher,D,13758
+house,86,Johnson,Write-ins,W,202
+house,87,Des Moines,Dennis M. Cohoon,D,9992
+house,87,Des Moines,Write-ins,W,331
+house,88,Des Moines,David L. Kerr,R,3772
+house,88,Des Moines,Sandy Dockendorff,D,1799
+house,88,Des Moines,Write-ins,W,12
+house,88,Louisa,David L. Kerr,R,3679
+house,88,Louisa,Sandy Dockendorff,D,1456
+house,88,Louisa,Write-ins,W,7
+house,88,Muscatine,David L. Kerr,R,2429
+house,88,Muscatine,Sandy Dockendorff,D,1886
+house,88,Muscatine,Write-ins,W,3
+house,89,Scott,Monica Kurth,D,7967
+house,89,Scott,Sean Hanley,R,6159
+house,89,Scott,Jonathan Vance,I,414
+house,89,Scott,Write-ins,W,7
+house,9,Webster,Ann Meyer,R,7717
+house,9,Webster,Charles Clayton,D,5720
+house,9,Webster,Write-ins,W,20
+house,90,Scott,Cindy Winckler,D,8363
+house,90,Scott,Write-ins,W,310
+house,91,Muscatine,Mark Cisneros,R,8093
+house,91,Muscatine,Kelcey Brackett,D,6130
+house,91,Muscatine,Write-ins,W,19
+house,92,Scott,Ross C. Paustian,R,9302
+house,92,Scott,Jennifer Kakert,D,7304
+house,92,Scott,Write-ins,W,13
+house,93,Scott,Phyllis Thede,D,9530
+house,93,Scott,Mike Vondran,R,7549
+house,93,Scott,Write-ins,W,20
+house,94,Scott,Gary M. Mohr,R,12042
+house,94,Scott,Marie Gleason,D,9727
+house,94,Scott,Write-ins,W,16
+house,95,Buchanan,Charlie McClintock,R,582
+house,95,Buchanan,Christian Andrews,D,363
+house,95,Buchanan,Write-ins,W,1
+house,95,Linn,Charlie McClintock,R,9489
+house,95,Linn,Christian Andrews,D,8256
+house,95,Linn,Write-ins,W,12
+house,96,Delaware,Lee Hein,R,6862
+house,96,Delaware,Everett Chase,D,2595
+house,96,Delaware,Write-ins,W,18
+house,96,Jones,Lee Hein,R,3903
+house,96,Jones,Everett Chase,D,2098
+house,96,Jones,Write-ins,W,8
+house,97,Clinton,Norlin Mommsen,R,6403
+house,97,Clinton,Ryan Zeskey,D,3696
+house,97,Clinton,Write-ins,W,11
+house,97,Scott,Norlin Mommsen,R,5000
+house,97,Scott,Ryan Zeskey,D,2934
+house,97,Scott,Write-ins,W,8
+house,98,Clinton,Mary Wolfe,D,7872
+house,98,Clinton,Joma Short,R,5329
+house,98,Clinton,Write-ins,W,16
+house,99,Dubuque,Lindsay James,D,9449
+house,99,Dubuque,Pauline Chilton,R,7232
+house,99,Dubuque,Write-ins,W,30
+senate,10,Adair,Jake Chapman,R,2608
+senate,10,Adair,Warren Andrew Varley,D,1417
+senate,10,Adair,Write-ins,W,5
+senate,10,Cass,Jake Chapman,R,592
+senate,10,Cass,Warren Andrew Varley,D,304
+senate,10,Cass,Write-ins,W,0
+senate,10,Dallas,Jake Chapman,R,15023
+senate,10,Dallas,Warren Andrew Varley,D,9525
+senate,10,Dallas,Write-ins,W,34
+senate,10,Guthrie,Jake Chapman,R,3982
+senate,10,Guthrie,Warren Andrew Varley,D,2129
+senate,10,Guthrie,Write-ins,W,6
+senate,10,Polk,Jake Chapman,R,2333
+senate,10,Polk,Warren Andrew Varley,D,1329
+senate,10,Polk,Write-ins,W,4
+senate,12,Fremont,Mark Costello,R,2543
+senate,12,Fremont,Joseph Norris,D,1059
+senate,12,Fremont,Write-ins,W,12
+senate,12,Mills,Mark Costello,R,5451
+senate,12,Mills,Joseph Norris,D,2297
+senate,12,Mills,Write-ins,W,18
+senate,12,Montgomery,Mark Costello,R,3146
+senate,12,Montgomery,Joseph Norris,D,1979
+senate,12,Montgomery,Write-ins,W,2
+senate,12,Page,Mark Costello,R,5059
+senate,12,Page,Joseph Norris,D,2092
+senate,12,Page,Write-ins,W,11
+senate,12,Ringgold,Mark Costello,R,1764
+senate,12,Ringgold,Joseph Norris,D,766
+senate,12,Ringgold,Write-ins,W,5
+senate,12,Taylor,Mark Costello,R,2202
+senate,12,Taylor,Joseph Norris,D,806
+senate,12,Taylor,Write-ins,W,3
+senate,14,Clarke,Amy Sinclair,R,3723
+senate,14,Clarke,Write-ins,W,89
+senate,14,Decatur,Amy Sinclair,R,3054
+senate,14,Decatur,Write-ins,W,75
+senate,14,Jasper,Amy Sinclair,R,2812
+senate,14,Jasper,Write-ins,W,27
+senate,14,Lucas,Amy Sinclair,R,3688
+senate,14,Lucas,Write-ins,W,76
+senate,14,Marion,Amy Sinclair,R,8783
+senate,14,Marion,Write-ins,W,134
+senate,14,Wayne,Amy Sinclair,R,2563
+senate,14,Wayne,Write-ins,W,51
+senate,16,Polk,Nate Boulton,D,16868
+senate,16,Polk,ToyA S. Johnson,L,5097
+senate,16,Polk,Write-ins,W,320
+senate,18,Polk,Janet Petersen,D,20696
+senate,18,Polk,Write-ins,W,565
+senate,2,Cherokee,Jeff Taylor,R,4691
+senate,2,Cherokee,Write-ins,W,30
+senate,2,O'Brien,Jeff Taylor,R,5801
+senate,2,O'Brien,Write-ins,W,37
+senate,2,Plymouth,Jeff Taylor,R,348
+senate,2,Plymouth,Write-ins,W,0
+senate,2,Sioux,Jeff Taylor,R,15555
+senate,2,Sioux,Write-ins,W,111
+senate,20,Polk,Brad Zaun,R,21943
+senate,20,Polk,Rhonda Martin,D,20968
+senate,20,Polk,Write-ins,W,51
+senate,22,Dallas,Scott Cirksena,R,15061
+senate,22,Dallas,Sarah Trone Garriott,D,13490
+senate,22,Dallas,Write-ins,W,44
+senate,22,Polk,Sarah Trone Garriott,D,9620
+senate,22,Polk,Scott Cirksena,R,7885
+senate,22,Polk,Write-ins,W,17
+senate,24,Boone,Jesse Green,R,9187
+senate,24,Boone,Cynthia Oppedal Paschen,D,5461
+senate,24,Boone,Write-ins,W,19
+senate,24,Greene,Jesse Green,R,3311
+senate,24,Greene,Cynthia Oppedal Paschen,D,1375
+senate,24,Greene,Write-ins,W,2
+senate,24,Hamilton,Jesse Green,R,5232
+senate,24,Hamilton,Cynthia Oppedal Paschen,D,2312
+senate,24,Hamilton,Write-ins,W,7
+senate,24,Story,Jesse Green,R,2279
+senate,24,Story,Cynthia Oppedal Paschen,D,1674
+senate,24,Story,Write-ins,W,2
+senate,24,Webster,Jesse Green,R,1723
+senate,24,Webster,Cynthia Oppedal Paschen,D,505
+senate,24,Webster,Write-ins,W,0
+senate,26,Cerro Gordo,Waylon Brown,R,652
+senate,26,Cerro Gordo,Deb Scharper,D,380
+senate,26,Cerro Gordo,Write-ins,W,0
+senate,26,Chickasaw,Waylon Brown,R,4458
+senate,26,Chickasaw,Deb Scharper,D,1939
+senate,26,Chickasaw,Write-ins,W,5
+senate,26,Floyd,Waylon Brown,R,4797
+senate,26,Floyd,Deb Scharper,D,2999
+senate,26,Floyd,Write-ins,W,8
+senate,26,Howard,Waylon Brown,R,3101
+senate,26,Howard,Deb Scharper,D,1696
+senate,26,Howard,Write-ins,W,2
+senate,26,Mitchell,Waylon Brown,R,3781
+senate,26,Mitchell,Deb Scharper,D,1997
+senate,26,Mitchell,Write-ins,W,2
+senate,26,Winneshiek,Waylon Brown,R,940
+senate,26,Winneshiek,Deb Scharper,D,446
+senate,26,Winneshiek,Write-ins,W,1
+senate,26,Worth,Waylon Brown,R,2926
+senate,26,Worth,Deb Scharper,D,1401
+senate,26,Worth,Write-ins,W,5
+senate,28,Allamakee,Mike Klimesh,R,4690
+senate,28,Allamakee,Matt Tapscott,D,2435
+senate,28,Allamakee,Write-ins,W,5
+senate,28,Clayton,Mike Klimesh,R,5958
+senate,28,Clayton,Matt Tapscott,D,3253
+senate,28,Clayton,Write-ins,W,14
+senate,28,Fayette,Mike Klimesh,R,3230
+senate,28,Fayette,Matt Tapscott,D,1473
+senate,28,Fayette,Write-ins,W,2
+senate,28,Winneshiek,Mike Klimesh,R,5752
+senate,28,Winneshiek,Matt Tapscott,D,4624
+senate,28,Winneshiek,Write-ins,W,7
+senate,30,Black Hawk,Eric Giddens,D,17543
+senate,30,Black Hawk,Harold Youngblut,R,16516
+senate,30,Black Hawk,Write-ins,W,41
+senate,32,Black Hawk,Craig Johnson,R,2444
+senate,32,Black Hawk,Pam Egli,D,1205
+senate,32,Black Hawk,Write-ins,W,2
+senate,32,Bremer,Craig Johnson,R,8091
+senate,32,Bremer,Pam Egli,D,6151
+senate,32,Bremer,Write-ins,W,6
+senate,32,Buchanan,Craig Johnson,R,6225
+senate,32,Buchanan,Pam Egli,D,3351
+senate,32,Buchanan,Write-ins,W,4
+senate,32,Fayette,Craig Johnson,R,3230
+senate,32,Fayette,Pam Egli,D,1993
+senate,32,Fayette,Write-ins,W,3
+senate,34,Linn,Liz Mathis,D,29342
+senate,34,Linn,Write-ins,W,1066
+senate,36,Black Hawk,Jeff Edler,R,1102
+senate,36,Black Hawk,David Degner,D,585
+senate,36,Black Hawk,Write-ins,W,2
+senate,36,Marshall,Jeff Edler,R,10424
+senate,36,Marshall,David Degner,D,6892
+senate,36,Marshall,Write-ins,W,24
+senate,36,Tama,Jeff Edler,R,5315
+senate,36,Tama,David Degner,D,3480
+senate,36,Tama,Write-ins,W,13
+senate,38,Benton,Dawn Driscoll,R,9405
+senate,38,Benton,Ivy Schuster,D,4586
+senate,38,Benton,Write-ins,W,14
+senate,38,Iowa,Dawn Driscoll,R,6483
+senate,38,Iowa,Ivy Schuster,D,2900
+senate,38,Iowa,Write-ins,W,14
+senate,38,Poweshiek,Dawn Driscoll,R,5350
+senate,38,Poweshiek,Ivy Schuster,D,4462
+senate,38,Poweshiek,Write-ins,W,17
+senate,4,Emmet,Dennis Guth,R,3685
+senate,4,Emmet,Write-ins,W,58
+senate,4,Hancock,Dennis Guth,R,5039
+senate,4,Hancock,Write-ins,W,120
+senate,4,Kossuth,Dennis Guth,R,7103
+senate,4,Kossuth,Write-ins,W,173
+senate,4,Winnebago,Dennis Guth,R,4815
+senate,4,Winnebago,Write-ins,W,125
+senate,4,Wright,Dennis Guth,R,4808
+senate,4,Wright,Write-ins,W,108
+senate,40,Appanoose,Ken Rozenboom,R,4372
+senate,40,Appanoose,Lance Roorda,D,1746
+senate,40,Appanoose,Write-ins,W,6
+senate,40,Mahaska,Ken Rozenboom,R,7888
+senate,40,Mahaska,Lance Roorda,D,2987
+senate,40,Mahaska,Write-ins,W,17
+senate,40,Marion,Ken Rozenboom,R,5063
+senate,40,Marion,Lance Roorda,D,2426
+senate,40,Marion,Write-ins,W,7
+senate,40,Monroe,Ken Rozenboom,R,2844
+senate,40,Monroe,Lance Roorda,D,961
+senate,40,Monroe,Write-ins,W,3
+senate,40,Wapello,Ken Rozenboom,R,1855
+senate,40,Wapello,Lance Roorda,D,640
+senate,40,Wapello,Write-ins,W,3
+senate,42,Henry,Jeff Reichman,R,5784
+senate,42,Henry,Rich Taylor,D,3769
+senate,42,Henry,Write-ins,W,14
+senate,42,Jefferson,Jeff Reichman,R,616
+senate,42,Jefferson,Rich Taylor,D,340
+senate,42,Jefferson,Write-ins,W,3
+senate,42,Lee,Jeff Reichman,R,9611
+senate,42,Lee,Rich Taylor,D,6825
+senate,42,Lee,Write-ins,W,14
+senate,42,Washington,Jeff Reichman,R,755
+senate,42,Washington,Rich Taylor,D,294
+senate,42,Washington,Write-ins,W,0
+senate,44,Des Moines,Tim Goodwin,R,10828
+senate,44,Des Moines,Tom Courtney,D,8640
+senate,44,Des Moines,Write-ins,W,42
+senate,44,Louisa,Tim Goodwin,R,3327
+senate,44,Louisa,Tom Courtney,D,1820
+senate,44,Louisa,Write-ins,W,5
+senate,44,Muscatine,Tim Goodwin,R,2292
+senate,44,Muscatine,Tom Courtney,D,2033
+senate,44,Muscatine,Write-ins,W,3
+senate,46,Muscatine,Mark S. Lofgren,R,8461
+senate,46,Muscatine,Chris Brase,D,5952
+senate,46,Muscatine,Write-ins,W,8
+senate,46,Scott,Mark S. Lofgren,R,10018
+senate,46,Scott,Chris Brase,D,6701
+senate,46,Scott,Write-ins,W,17
+senate,48,Buchanan,Dan Zumbach,R,693
+senate,48,Buchanan,Eric Green,D,271
+senate,48,Buchanan,Write-ins,W,2
+senate,48,Delaware,Dan Zumbach,R,7405
+senate,48,Delaware,Eric Green,D,2392
+senate,48,Delaware,Write-ins,W,12
+senate,48,Jones,Dan Zumbach,R,3803
+senate,48,Jones,Eric Green,D,2259
+senate,48,Jones,Write-ins,W,4
+senate,48,Linn,Dan Zumbach,R,10643
+senate,48,Linn,Eric Green,D,7128
+senate,48,Linn,Write-ins,W,16
+senate,50,Dubuque,Pam Jochum,D,18044
+senate,50,Dubuque,Jennifer Smith,R,12677
+senate,50,Dubuque,Write-ins,W,41
+senate,6,Audubon,Craig Steven Williams,R,1966
+senate,6,Audubon,C.J. Petersen,D,956
+senate,6,Audubon,Write-ins,W,2
+senate,6,Buena Vista,Craig Steven Williams,R,4706
+senate,6,Buena Vista,C.J. Petersen,D,2590
+senate,6,Buena Vista,Write-ins,W,14
+senate,6,Carroll,Craig Steven Williams,R,7144
+senate,6,Carroll,C.J. Petersen,D,3193
+senate,6,Carroll,Write-ins,W,11
+senate,6,Crawford,Craig Steven Williams,R,1274
+senate,6,Crawford,C.J. Petersen,D,454
+senate,6,Crawford,Write-ins,W,1
+senate,6,Sac,Craig Steven Williams,R,3829
+senate,6,Sac,C.J. Petersen,D,1225
+senate,6,Sac,Write-ins,W,6
+senate,8,Pottawattamie,Dan Dawson,R,12391
+senate,8,Pottawattamie,Steve Gorman,D,11344
+senate,8,Pottawattamie,Write-ins,W,31
+statewide,President,Adair,Donald J. Trump,R,2917
+statewide,President,Adair,Joseph R. Biden,D,1198
+statewide,President,Adair,Jo Jorgensen,L,35
+statewide,President,Adair,Kanye West,I,7
+statewide,President,Adair,Roque Rocky De La Fuente,O,6
+statewide,President,Adair,Write-ins,W,5
+statewide,President,Adair,Don Blankenship,C,4
+statewide,President,Adair,Howie Hawkins,G,4
+statewide,President,Adair,Brock Pierce,I,1
+statewide,President,Adair,Ricki Sue King,O,0
+statewide,President,Adams,Donald J. Trump,R,1530
+statewide,President,Adams,Joseph R. Biden,D,590
+statewide,President,Adams,Jo Jorgensen,L,27
+statewide,President,Adams,Write-ins,W,5
+statewide,President,Adams,Don Blankenship,C,3
+statewide,President,Adams,Roque Rocky De La Fuente,O,2
+statewide,President,Adams,Kanye West,I,2
+statewide,President,Adams,Howie Hawkins,G,1
+statewide,President,Adams,Ricki Sue King,O,0
+statewide,President,Adams,Brock Pierce,I,0
+statewide,President,Allamakee,Donald J. Trump,R,4735
+statewide,President,Allamakee,Joseph R. Biden,D,2576
+statewide,President,Allamakee,Jo Jorgensen,L,71
+statewide,President,Allamakee,Don Blankenship,C,12
+statewide,President,Allamakee,Write-ins,W,9
+statewide,President,Allamakee,Brock Pierce,I,5
+statewide,President,Allamakee,Kanye West,I,5
+statewide,President,Allamakee,Roque Rocky De La Fuente,O,4
+statewide,President,Allamakee,Howie Hawkins,G,4
+statewide,President,Allamakee,Ricki Sue King,O,1
+statewide,President,Appanoose,Donald J. Trump,R,4512
+statewide,President,Appanoose,Joseph R. Biden,D,1891
+statewide,President,Appanoose,Jo Jorgensen,L,72
+statewide,President,Appanoose,Write-ins,W,10
+statewide,President,Appanoose,Howie Hawkins,G,9
+statewide,President,Appanoose,Kanye West,I,6
+statewide,President,Appanoose,Don Blankenship,C,5
+statewide,President,Appanoose,Ricki Sue King,O,5
+statewide,President,Appanoose,Brock Pierce,I,4
+statewide,President,Appanoose,Roque Rocky De La Fuente,O,2
+statewide,President,Audubon,Donald J. Trump,R,2295
+statewide,President,Audubon,Joseph R. Biden,D,1071
+statewide,President,Audubon,Jo Jorgensen,L,32
+statewide,President,Audubon,Howie Hawkins,G,7
+statewide,President,Audubon,Don Blankenship,C,5
+statewide,President,Audubon,Write-ins,W,4
+statewide,President,Audubon,Brock Pierce,I,3
+statewide,President,Audubon,Kanye West,I,2
+statewide,President,Audubon,Roque Rocky De La Fuente,O,1
+statewide,President,Audubon,Ricki Sue King,O,0
+statewide,President,Benton,Donald J. Trump,R,9188
+statewide,President,Benton,Joseph R. Biden,D,5160
+statewide,President,Benton,Jo Jorgensen,L,186
+statewide,President,Benton,Howie Hawkins,G,29
+statewide,President,Benton,Don Blankenship,C,21
+statewide,President,Benton,Write-ins,W,20
+statewide,President,Benton,Kanye West,I,19
+statewide,President,Benton,Roque Rocky De La Fuente,O,13
+statewide,President,Benton,Ricki Sue King,O,3
+statewide,President,Benton,Brock Pierce,I,3
+statewide,President,Black Hawk,Joseph R. Biden,D,35647
+statewide,President,Black Hawk,Donald J. Trump,R,29640
+statewide,President,Black Hawk,Jo Jorgensen,L,722
+statewide,President,Black Hawk,Write-ins,W,173
+statewide,President,Black Hawk,Kanye West,I,146
+statewide,President,Black Hawk,Howie Hawkins,G,103
+statewide,President,Black Hawk,Don Blankenship,C,67
+statewide,President,Black Hawk,Roque Rocky De La Fuente,O,54
+statewide,President,Black Hawk,Brock Pierce,I,21
+statewide,President,Black Hawk,Ricki Sue King,O,20
+statewide,President,Boone,Donald J. Trump,R,8695
+statewide,President,Boone,Joseph R. Biden,D,6303
+statewide,President,Boone,Jo Jorgensen,L,198
+statewide,President,Boone,Kanye West,I,34
+statewide,President,Boone,Write-ins,W,34
+statewide,President,Boone,Howie Hawkins,G,24
+statewide,President,Boone,Don Blankenship,C,19
+statewide,President,Boone,Roque Rocky De La Fuente,O,15
+statewide,President,Boone,Brock Pierce,I,11
+statewide,President,Boone,Ricki Sue King,O,7
+statewide,President,Bremer,Donald J. Trump,R,8294
+statewide,President,Bremer,Joseph R. Biden,D,5958
+statewide,President,Bremer,Jo Jorgensen,L,185
+statewide,President,Bremer,Write-ins,W,30
+statewide,President,Bremer,Howie Hawkins,G,24
+statewide,President,Bremer,Kanye West,I,20
+statewide,President,Bremer,Don Blankenship,C,19
+statewide,President,Bremer,Roque Rocky De La Fuente,O,8
+statewide,President,Bremer,Ricki Sue King,O,4
+statewide,President,Bremer,Brock Pierce,I,4
+statewide,President,Buchanan,Donald J. Trump,R,6420
+statewide,President,Buchanan,Joseph R. Biden,D,4169
+statewide,President,Buchanan,Jo Jorgensen,L,96
+statewide,President,Buchanan,Kanye West,I,22
+statewide,President,Buchanan,Howie Hawkins,G,20
+statewide,President,Buchanan,Don Blankenship,C,19
+statewide,President,Buchanan,Roque Rocky De La Fuente,O,14
+statewide,President,Buchanan,Write-ins,W,10
+statewide,President,Buchanan,Ricki Sue King,O,4
+statewide,President,Buchanan,Brock Pierce,I,0
+statewide,President,Buena Vista,Donald J. Trump,R,5056
+statewide,President,Buena Vista,Joseph R. Biden,D,2961
+statewide,President,Buena Vista,Jo Jorgensen,L,66
+statewide,President,Buena Vista,Kanye West,I,20
+statewide,President,Buena Vista,Write-ins,W,18
+statewide,President,Buena Vista,Roque Rocky De La Fuente,O,15
+statewide,President,Buena Vista,Don Blankenship,C,15
+statewide,President,Buena Vista,Howie Hawkins,G,10
+statewide,President,Buena Vista,Ricki Sue King,O,3
+statewide,President,Buena Vista,Brock Pierce,I,3
+statewide,President,Butler,Donald J. Trump,R,5542
+statewide,President,Butler,Joseph R. Biden,D,2424
+statewide,President,Butler,Jo Jorgensen,L,68
+statewide,President,Butler,Howie Hawkins,G,14
+statewide,President,Butler,Write-ins,W,14
+statewide,President,Butler,Kanye West,I,13
+statewide,President,Butler,Don Blankenship,C,8
+statewide,President,Butler,Brock Pierce,I,8
+statewide,President,Butler,Roque Rocky De La Fuente,O,4
+statewide,President,Butler,Ricki Sue King,O,3
+statewide,President,Calhoun,Donald J. Trump,R,3689
+statewide,President,Calhoun,Joseph R. Biden,D,1470
+statewide,President,Calhoun,Jo Jorgensen,L,59
+statewide,President,Calhoun,Kanye West,I,10
+statewide,President,Calhoun,Write-ins,W,9
+statewide,President,Calhoun,Don Blankenship,C,8
+statewide,President,Calhoun,Roque Rocky De La Fuente,O,5
+statewide,President,Calhoun,Ricki Sue King,O,3
+statewide,President,Calhoun,Howie Hawkins,G,3
+statewide,President,Calhoun,Brock Pierce,I,2
+statewide,President,Carroll,Donald J. Trump,R,7737
+statewide,President,Carroll,Joseph R. Biden,D,3454
+statewide,President,Carroll,Jo Jorgensen,L,68
+statewide,President,Carroll,Write-ins,W,29
+statewide,President,Carroll,Kanye West,I,15
+statewide,President,Carroll,Howie Hawkins,G,13
+statewide,President,Carroll,Roque Rocky De La Fuente,O,9
+statewide,President,Carroll,Don Blankenship,C,8
+statewide,President,Carroll,Ricki Sue King,O,2
+statewide,President,Carroll,Brock Pierce,I,0
+statewide,President,Cass,Donald J. Trump,R,4969
+statewide,President,Cass,Joseph R. Biden,D,2201
+statewide,President,Cass,Jo Jorgensen,L,61
+statewide,President,Cass,Kanye West,I,12
+statewide,President,Cass,Don Blankenship,C,10
+statewide,President,Cass,Write-ins,W,10
+statewide,President,Cass,Howie Hawkins,G,8
+statewide,President,Cass,Roque Rocky De La Fuente,O,3
+statewide,President,Cass,Ricki Sue King,O,1
+statewide,President,Cass,Brock Pierce,I,1
+statewide,President,Cedar,Donald J. Trump,R,6161
+statewide,President,Cedar,Joseph R. Biden,D,4337
+statewide,President,Cedar,Jo Jorgensen,L,124
+statewide,President,Cedar,Write-ins,W,23
+statewide,President,Cedar,Howie Hawkins,G,22
+statewide,President,Cedar,Don Blankenship,C,14
+statewide,President,Cedar,Kanye West,I,12
+statewide,President,Cedar,Roque Rocky De La Fuente,O,6
+statewide,President,Cedar,Ricki Sue King,O,3
+statewide,President,Cedar,Brock Pierce,I,1
+statewide,President,Cerro Gordo,Donald J. Trump,R,12442
+statewide,President,Cerro Gordo,Joseph R. Biden,D,10941
+statewide,President,Cerro Gordo,Jo Jorgensen,L,196
+statewide,President,Cerro Gordo,Write-ins,W,57
+statewide,President,Cerro Gordo,Kanye West,I,48
+statewide,President,Cerro Gordo,Howie Hawkins,G,42
+statewide,President,Cerro Gordo,Roque Rocky De La Fuente,O,36
+statewide,President,Cerro Gordo,Don Blankenship,C,25
+statewide,President,Cerro Gordo,Brock Pierce,I,9
+statewide,President,Cerro Gordo,Ricki Sue King,O,5
+statewide,President,Cherokee,Donald J. Trump,R,4495
+statewide,President,Cherokee,Joseph R. Biden,D,1936
+statewide,President,Cherokee,Jo Jorgensen,L,48
+statewide,President,Cherokee,Write-ins,W,15
+statewide,President,Cherokee,Kanye West,I,8
+statewide,President,Cherokee,Roque Rocky De La Fuente,O,6
+statewide,President,Cherokee,Don Blankenship,C,6
+statewide,President,Cherokee,Howie Hawkins,G,3
+statewide,President,Cherokee,Brock Pierce,I,1
+statewide,President,Cherokee,Ricki Sue King,O,0
+statewide,President,Chickasaw,Donald J. Trump,R,4308
+statewide,President,Chickasaw,Joseph R. Biden,D,2233
+statewide,President,Chickasaw,Jo Jorgensen,L,47
+statewide,President,Chickasaw,Write-ins,W,14
+statewide,President,Chickasaw,Howie Hawkins,G,10
+statewide,President,Chickasaw,Roque Rocky De La Fuente,O,6
+statewide,President,Chickasaw,Don Blankenship,C,6
+statewide,President,Chickasaw,Ricki Sue King,O,4
+statewide,President,Chickasaw,Kanye West,I,2
+statewide,President,Chickasaw,Brock Pierce,I,1
+statewide,President,Clarke,Donald J. Trump,R,3144
+statewide,President,Clarke,Joseph R. Biden,D,1466
+statewide,President,Clarke,Jo Jorgensen,L,34
+statewide,President,Clarke,Write-ins,W,9
+statewide,President,Clarke,Kanye West,I,8
+statewide,President,Clarke,Don Blankenship,C,3
+statewide,President,Clarke,Howie Hawkins,G,3
+statewide,President,Clarke,Roque Rocky De La Fuente,O,1
+statewide,President,Clarke,Ricki Sue King,O,1
+statewide,President,Clarke,Brock Pierce,I,1
+statewide,President,Clay,Donald J. Trump,R,6137
+statewide,President,Clay,Joseph R. Biden,D,2662
+statewide,President,Clay,Jo Jorgensen,L,101
+statewide,President,Clay,Write-ins,W,21
+statewide,President,Clay,Kanye West,I,19
+statewide,President,Clay,Don Blankenship,C,11
+statewide,President,Clay,Howie Hawkins,G,8
+statewide,President,Clay,Roque Rocky De La Fuente,O,5
+statewide,President,Clay,Brock Pierce,I,3
+statewide,President,Clay,Ricki Sue King,O,2
+statewide,President,Clayton,Donald J. Trump,R,6106
+statewide,President,Clayton,Joseph R. Biden,D,3340
+statewide,President,Clayton,Jo Jorgensen,L,82
+statewide,President,Clayton,Howie Hawkins,G,18
+statewide,President,Clayton,Kanye West,I,14
+statewide,President,Clayton,Write-ins,W,13
+statewide,President,Clayton,Don Blankenship,C,10
+statewide,President,Clayton,Roque Rocky De La Fuente,O,5
+statewide,President,Clayton,Ricki Sue King,O,5
+statewide,President,Clayton,Brock Pierce,I,1
+statewide,President,Clinton,Donald J. Trump,R,13361
+statewide,President,Clinton,Joseph R. Biden,D,10812
+statewide,President,Clinton,Jo Jorgensen,L,314
+statewide,President,Clinton,Write-ins,W,49
+statewide,President,Clinton,Howie Hawkins,G,47
+statewide,President,Clinton,Kanye West,I,47
+statewide,President,Clinton,Don Blankenship,C,36
+statewide,President,Clinton,Ricki Sue King,O,9
+statewide,President,Clinton,Roque Rocky De La Fuente,O,6
+statewide,President,Clinton,Brock Pierce,I,6
+statewide,President,Crawford,Donald J. Trump,R,4854
+statewide,President,Crawford,Joseph R. Biden,D,2220
+statewide,President,Crawford,Jo Jorgensen,L,42
+statewide,President,Crawford,Kanye West,I,9
+statewide,President,Crawford,Howie Hawkins,G,8
+statewide,President,Crawford,Write-ins,W,8
+statewide,President,Crawford,Don Blankenship,C,6
+statewide,President,Crawford,Ricki Sue King,O,4
+statewide,President,Crawford,Roque Rocky De La Fuente,O,2
+statewide,President,Crawford,Brock Pierce,I,1
+statewide,President,Dallas,Donald J. Trump,R,27987
+statewide,President,Dallas,Joseph R. Biden,D,26879
+statewide,President,Dallas,Jo Jorgensen,L,744
+statewide,President,Dallas,Write-ins,W,175
+statewide,President,Dallas,Kanye West,I,87
+statewide,President,Dallas,Howie Hawkins,G,57
+statewide,President,Dallas,Roque Rocky De La Fuente,O,38
+statewide,President,Dallas,Don Blankenship,C,27
+statewide,President,Dallas,Ricki Sue King,O,19
+statewide,President,Dallas,Brock Pierce,I,9
+statewide,President,Davis,Donald J. Trump,R,3032
+statewide,President,Davis,Joseph R. Biden,D,1013
+statewide,President,Davis,Jo Jorgensen,L,30
+statewide,President,Davis,Kanye West,I,8
+statewide,President,Davis,Howie Hawkins,G,5
+statewide,President,Davis,Don Blankenship,C,4
+statewide,President,Davis,Ricki Sue King,O,4
+statewide,President,Davis,Write-ins,W,3
+statewide,President,Davis,Roque Rocky De La Fuente,O,2
+statewide,President,Davis,Brock Pierce,I,1
+statewide,President,Decatur,Donald J. Trump,R,2615
+statewide,President,Decatur,Joseph R. Biden,D,1120
+statewide,President,Decatur,Jo Jorgensen,L,29
+statewide,President,Decatur,Howie Hawkins,G,11
+statewide,President,Decatur,Kanye West,I,11
+statewide,President,Decatur,Roque Rocky De La Fuente,O,6
+statewide,President,Decatur,Don Blankenship,C,3
+statewide,President,Decatur,Ricki Sue King,O,3
+statewide,President,Decatur,Brock Pierce,I,3
+statewide,President,Decatur,Write-ins,W,3
+statewide,President,Delaware,Donald J. Trump,R,6666
+statewide,President,Delaware,Joseph R. Biden,D,3157
+statewide,President,Delaware,Jo Jorgensen,L,87
+statewide,President,Delaware,Write-ins,W,22
+statewide,President,Delaware,Don Blankenship,C,17
+statewide,President,Delaware,Kanye West,I,17
+statewide,President,Delaware,Howie Hawkins,G,15
+statewide,President,Delaware,Brock Pierce,I,8
+statewide,President,Delaware,Roque Rocky De La Fuente,O,7
+statewide,President,Delaware,Ricki Sue King,O,7
+statewide,President,Des Moines,Donald J. Trump,R,10592
+statewide,President,Des Moines,Joseph R. Biden,D,8893
+statewide,President,Des Moines,Jo Jorgensen,L,275
+statewide,President,Des Moines,Howie Hawkins,G,52
+statewide,President,Des Moines,Write-ins,W,50
+statewide,President,Des Moines,Kanye West,I,44
+statewide,President,Des Moines,Don Blankenship,C,16
+statewide,President,Des Moines,Roque Rocky De La Fuente,O,14
+statewide,President,Des Moines,Brock Pierce,I,12
+statewide,President,Des Moines,Ricki Sue King,O,8
+statewide,President,Dickinson,Donald J. Trump,R,7438
+statewide,President,Dickinson,Joseph R. Biden,D,3661
+statewide,President,Dickinson,Jo Jorgensen,L,92
+statewide,President,Dickinson,Write-ins,W,14
+statewide,President,Dickinson,Don Blankenship,C,8
+statewide,President,Dickinson,Ricki Sue King,O,8
+statewide,President,Dickinson,Howie Hawkins,G,8
+statewide,President,Dickinson,Roque Rocky De La Fuente,O,7
+statewide,President,Dickinson,Kanye West,I,6
+statewide,President,Dickinson,Brock Pierce,I,2
+statewide,President,Dubuque,Donald J. Trump,R,27214
+statewide,President,Dubuque,Joseph R. Biden,D,25657
+statewide,President,Dubuque,Jo Jorgensen,L,556
+statewide,President,Dubuque,Write-ins,W,144
+statewide,President,Dubuque,Howie Hawkins,G,125
+statewide,President,Dubuque,Kanye West,I,115
+statewide,President,Dubuque,Don Blankenship,C,58
+statewide,President,Dubuque,Roque Rocky De La Fuente,O,30
+statewide,President,Dubuque,Brock Pierce,I,14
+statewide,President,Dubuque,Ricki Sue King,O,13
+statewide,President,Emmet,Donald J. Trump,R,3265
+statewide,President,Emmet,Joseph R. Biden,D,1520
+statewide,President,Emmet,Jo Jorgensen,L,36
+statewide,President,Emmet,Howie Hawkins,G,12
+statewide,President,Emmet,Kanye West,I,6
+statewide,President,Emmet,Don Blankenship,C,5
+statewide,President,Emmet,Roque Rocky De La Fuente,O,3
+statewide,President,Emmet,Write-ins,W,3
+statewide,President,Emmet,Brock Pierce,I,2
+statewide,President,Emmet,Ricki Sue King,O,1
+statewide,President,Fayette,Donald J. Trump,R,6145
+statewide,President,Fayette,Joseph R. Biden,D,3835
+statewide,President,Fayette,Jo Jorgensen,L,102
+statewide,President,Fayette,Write-ins,W,29
+statewide,President,Fayette,Howie Hawkins,G,27
+statewide,President,Fayette,Don Blankenship,C,16
+statewide,President,Fayette,Kanye West,I,16
+statewide,President,Fayette,Roque Rocky De La Fuente,O,10
+statewide,President,Fayette,Ricki Sue King,O,5
+statewide,President,Fayette,Brock Pierce,I,1
+statewide,President,Floyd,Donald J. Trump,R,4732
+statewide,President,Floyd,Joseph R. Biden,D,3172
+statewide,President,Floyd,Jo Jorgensen,L,63
+statewide,President,Floyd,Write-ins,W,15
+statewide,President,Floyd,Don Blankenship,C,12
+statewide,President,Floyd,Kanye West,I,12
+statewide,President,Floyd,Howie Hawkins,G,10
+statewide,President,Floyd,Roque Rocky De La Fuente,O,7
+statewide,President,Floyd,Brock Pierce,I,6
+statewide,President,Floyd,Ricki Sue King,O,3
+statewide,President,Franklin,Donald J. Trump,R,3422
+statewide,President,Franklin,Joseph R. Biden,D,1626
+statewide,President,Franklin,Jo Jorgensen,L,45
+statewide,President,Franklin,Write-ins,W,11
+statewide,President,Franklin,Roque Rocky De La Fuente,O,8
+statewide,President,Franklin,Don Blankenship,C,6
+statewide,President,Franklin,Howie Hawkins,G,5
+statewide,President,Franklin,Ricki Sue King,O,3
+statewide,President,Franklin,Kanye West,I,3
+statewide,President,Franklin,Brock Pierce,I,1
+statewide,President,Fremont,Donald J. Trump,R,2711
+statewide,President,Fremont,Joseph R. Biden,D,1080
+statewide,President,Fremont,Jo Jorgensen,L,37
+statewide,President,Fremont,Kanye West,I,10
+statewide,President,Fremont,Howie Hawkins,G,6
+statewide,President,Fremont,Write-ins,W,6
+statewide,President,Fremont,Don Blankenship,C,5
+statewide,President,Fremont,Ricki Sue King,O,2
+statewide,President,Fremont,Roque Rocky De La Fuente,O,0
+statewide,President,Fremont,Brock Pierce,I,0
+statewide,President,Greene,Donald J. Trump,R,3223
+statewide,President,Greene,Joseph R. Biden,D,1769
+statewide,President,Greene,Jo Jorgensen,L,36
+statewide,President,Greene,Write-ins,W,6
+statewide,President,Greene,Don Blankenship,C,5
+statewide,President,Greene,Kanye West,I,5
+statewide,President,Greene,Roque Rocky De La Fuente,O,4
+statewide,President,Greene,Ricki Sue King,O,4
+statewide,President,Greene,Howie Hawkins,G,4
+statewide,President,Greene,Brock Pierce,I,1
+statewide,President,Grundy,Donald J. Trump,R,4929
+statewide,President,Grundy,Joseph R. Biden,D,2206
+statewide,President,Grundy,Jo Jorgensen,L,87
+statewide,President,Grundy,Write-ins,W,16
+statewide,President,Grundy,Howie Hawkins,G,12
+statewide,President,Grundy,Brock Pierce,I,10
+statewide,President,Grundy,Don Blankenship,C,7
+statewide,President,Grundy,Kanye West,I,7
+statewide,President,Grundy,Ricki Sue King,O,2
+statewide,President,Grundy,Roque Rocky De La Fuente,O,0
+statewide,President,Guthrie,Donald J. Trump,R,4272
+statewide,President,Guthrie,Joseph R. Biden,D,1985
+statewide,President,Guthrie,Jo Jorgensen,L,79
+statewide,President,Guthrie,Kanye West,I,12
+statewide,President,Guthrie,Write-ins,W,8
+statewide,President,Guthrie,Howie Hawkins,G,7
+statewide,President,Guthrie,Don Blankenship,C,6
+statewide,President,Guthrie,Roque Rocky De La Fuente,O,1
+statewide,President,Guthrie,Brock Pierce,I,1
+statewide,President,Guthrie,Ricki Sue King,O,0
+statewide,President,Hamilton,Donald J. Trump,R,4956
+statewide,President,Hamilton,Joseph R. Biden,D,2843
+statewide,President,Hamilton,Jo Jorgensen,L,71
+statewide,President,Hamilton,Write-ins,W,26
+statewide,President,Hamilton,Brock Pierce,I,11
+statewide,President,Hamilton,Kanye West,I,11
+statewide,President,Hamilton,Roque Rocky De La Fuente,O,7
+statewide,President,Hamilton,Howie Hawkins,G,7
+statewide,President,Hamilton,Don Blankenship,C,6
+statewide,President,Hamilton,Ricki Sue King,O,5
+statewide,President,Hancock,Donald J. Trump,R,4390
+statewide,President,Hancock,Joseph R. Biden,D,1683
+statewide,President,Hancock,Jo Jorgensen,L,49
+statewide,President,Hancock,Kanye West,I,11
+statewide,President,Hancock,Write-ins,W,11
+statewide,President,Hancock,Don Blankenship,C,9
+statewide,President,Hancock,Roque Rocky De La Fuente,O,8
+statewide,President,Hancock,Howie Hawkins,G,7
+statewide,President,Hancock,Ricki Sue King,O,4
+statewide,President,Hancock,Brock Pierce,I,0
+statewide,President,Hardin,Donald J. Trump,R,5850
+statewide,President,Hardin,Joseph R. Biden,D,2976
+statewide,President,Hardin,Jo Jorgensen,L,105
+statewide,President,Hardin,Write-ins,W,14
+statewide,President,Hardin,Kanye West,I,12
+statewide,President,Hardin,Howie Hawkins,G,11
+statewide,President,Hardin,Don Blankenship,C,10
+statewide,President,Hardin,Roque Rocky De La Fuente,O,5
+statewide,President,Hardin,Ricki Sue King,O,3
+statewide,President,Hardin,Brock Pierce,I,3
+statewide,President,Harrison,Donald J. Trump,R,5569
+statewide,President,Harrison,Joseph R. Biden,D,2440
+statewide,President,Harrison,Jo Jorgensen,L,85
+statewide,President,Harrison,Kanye West,I,19
+statewide,President,Harrison,Write-ins,W,11
+statewide,President,Harrison,Don Blankenship,C,10
+statewide,President,Harrison,Howie Hawkins,G,9
+statewide,President,Harrison,Roque Rocky De La Fuente,O,6
+statewide,President,Harrison,Ricki Sue King,O,5
+statewide,President,Harrison,Brock Pierce,I,1
+statewide,President,Henry,Donald J. Trump,R,6507
+statewide,President,Henry,Joseph R. Biden,D,3275
+statewide,President,Henry,Jo Jorgensen,L,128
+statewide,President,Henry,Write-ins,W,18
+statewide,President,Henry,Howie Hawkins,G,15
+statewide,President,Henry,Kanye West,I,13
+statewide,President,Henry,Don Blankenship,C,8
+statewide,President,Henry,Ricki Sue King,O,8
+statewide,President,Henry,Roque Rocky De La Fuente,O,7
+statewide,President,Henry,Brock Pierce,I,3
+statewide,President,Howard,Donald J. Trump,R,3127
+statewide,President,Howard,Joseph R. Biden,D,1772
+statewide,President,Howard,Jo Jorgensen,L,23
+statewide,President,Howard,Kanye West,I,11
+statewide,President,Howard,Howie Hawkins,G,10
+statewide,President,Howard,Don Blankenship,C,6
+statewide,President,Howard,Write-ins,W,6
+statewide,President,Howard,Ricki Sue King,O,2
+statewide,President,Howard,Roque Rocky De La Fuente,O,1
+statewide,President,Howard,Brock Pierce,I,0
+statewide,President,Humboldt,Donald J. Trump,R,3819
+statewide,President,Humboldt,Joseph R. Biden,D,1442
+statewide,President,Humboldt,Jo Jorgensen,L,39
+statewide,President,Humboldt,Kanye West,I,7
+statewide,President,Humboldt,Don Blankenship,C,6
+statewide,President,Humboldt,Write-ins,W,6
+statewide,President,Humboldt,Howie Hawkins,G,4
+statewide,President,Humboldt,Roque Rocky De La Fuente,O,3
+statewide,President,Humboldt,Ricki Sue King,O,1
+statewide,President,Humboldt,Brock Pierce,I,0
+statewide,President,Ida,Donald J. Trump,R,2880
+statewide,President,Ida,Joseph R. Biden,D,917
+statewide,President,Ida,Jo Jorgensen,L,27
+statewide,President,Ida,Don Blankenship,C,10
+statewide,President,Ida,Howie Hawkins,G,6
+statewide,President,Ida,Write-ins,W,5
+statewide,President,Ida,Kanye West,I,3
+statewide,President,Ida,Brock Pierce,I,1
+statewide,President,Ida,Roque Rocky De La Fuente,O,0
+statewide,President,Ida,Ricki Sue King,O,0
+statewide,President,Iowa,Donald J. Trump,R,6009
+statewide,President,Iowa,Joseph R. Biden,D,3547
+statewide,President,Iowa,Jo Jorgensen,L,102
+statewide,President,Iowa,Write-ins,W,26
+statewide,President,Iowa,Kanye West,I,19
+statewide,President,Iowa,Howie Hawkins,G,15
+statewide,President,Iowa,Don Blankenship,C,11
+statewide,President,Iowa,Roque Rocky De La Fuente,O,9
+statewide,President,Iowa,Brock Pierce,I,3
+statewide,President,Iowa,Ricki Sue King,O,1
+statewide,President,Jackson,Donald J. Trump,R,6940
+statewide,President,Jackson,Joseph R. Biden,D,4029
+statewide,President,Jackson,Jo Jorgensen,L,79
+statewide,President,Jackson,Kanye West,I,26
+statewide,President,Jackson,Write-ins,W,17
+statewide,President,Jackson,Howie Hawkins,G,13
+statewide,President,Jackson,Roque Rocky De La Fuente,O,12
+statewide,President,Jackson,Don Blankenship,C,9
+statewide,President,Jackson,Ricki Sue King,O,6
+statewide,President,Jackson,Brock Pierce,I,4
+statewide,President,Jasper,Donald J. Trump,R,12084
+statewide,President,Jasper,Joseph R. Biden,D,7737
+statewide,President,Jasper,Jo Jorgensen,L,207
+statewide,President,Jasper,Write-ins,W,41
+statewide,President,Jasper,Kanye West,I,31
+statewide,President,Jasper,Howie Hawkins,G,30
+statewide,President,Jasper,Don Blankenship,C,29
+statewide,President,Jasper,Roque Rocky De La Fuente,O,11
+statewide,President,Jasper,Ricki Sue King,O,7
+statewide,President,Jasper,Brock Pierce,I,7
+statewide,President,Jefferson,Donald J. Trump,R,4443
+statewide,President,Jefferson,Joseph R. Biden,D,4319
+statewide,President,Jefferson,Jo Jorgensen,L,95
+statewide,President,Jefferson,Write-ins,W,33
+statewide,President,Jefferson,Howie Hawkins,G,32
+statewide,President,Jefferson,Kanye West,I,20
+statewide,President,Jefferson,Don Blankenship,C,7
+statewide,President,Jefferson,Roque Rocky De La Fuente,O,5
+statewide,President,Jefferson,Brock Pierce,I,4
+statewide,President,Jefferson,Ricki Sue King,O,1
+statewide,President,Johnson,Joseph R. Biden,D,59177
+statewide,President,Johnson,Donald J. Trump,R,22925
+statewide,President,Johnson,Jo Jorgensen,L,964
+statewide,President,Johnson,Write-ins,W,281
+statewide,President,Johnson,Howie Hawkins,G,213
+statewide,President,Johnson,Kanye West,I,170
+statewide,President,Johnson,Don Blankenship,C,62
+statewide,President,Johnson,Roque Rocky De La Fuente,O,22
+statewide,President,Johnson,Ricki Sue King,O,19
+statewide,President,Johnson,Brock Pierce,I,18
+statewide,President,Jones,Donald J. Trump,R,6572
+statewide,President,Jones,Joseph R. Biden,D,4213
+statewide,President,Jones,Jo Jorgensen,L,118
+statewide,President,Jones,Write-ins,W,24
+statewide,President,Jones,Kanye West,I,20
+statewide,President,Jones,Howie Hawkins,G,15
+statewide,President,Jones,Don Blankenship,C,12
+statewide,President,Jones,Roque Rocky De La Fuente,O,7
+statewide,President,Jones,Ricki Sue King,O,5
+statewide,President,Jones,Brock Pierce,I,3
+statewide,President,Keokuk,Donald J. Trump,R,3797
+statewide,President,Keokuk,Joseph R. Biden,D,1414
+statewide,President,Keokuk,Jo Jorgensen,L,51
+statewide,President,Keokuk,Write-ins,W,12
+statewide,President,Keokuk,Don Blankenship,C,10
+statewide,President,Keokuk,Roque Rocky De La Fuente,O,7
+statewide,President,Keokuk,Kanye West,I,6
+statewide,President,Keokuk,Ricki Sue King,O,2
+statewide,President,Keokuk,Howie Hawkins,G,2
+statewide,President,Keokuk,Brock Pierce,I,2
+statewide,President,Kossuth,Donald J. Trump,R,6275
+statewide,President,Kossuth,Joseph R. Biden,D,2696
+statewide,President,Kossuth,Jo Jorgensen,L,61
+statewide,President,Kossuth,Kanye West,I,15
+statewide,President,Kossuth,Write-ins,W,13
+statewide,President,Kossuth,Don Blankenship,C,10
+statewide,President,Kossuth,Howie Hawkins,G,10
+statewide,President,Kossuth,Roque Rocky De La Fuente,O,4
+statewide,President,Kossuth,Brock Pierce,I,4
+statewide,President,Kossuth,Ricki Sue King,O,2
+statewide,President,Lee,Donald J. Trump,R,9773
+statewide,President,Lee,Joseph R. Biden,D,6541
+statewide,President,Lee,Jo Jorgensen,L,240
+statewide,President,Lee,Kanye West,I,38
+statewide,President,Lee,Write-ins,W,35
+statewide,President,Lee,Howie Hawkins,G,34
+statewide,President,Lee,Don Blankenship,C,31
+statewide,President,Lee,Brock Pierce,I,25
+statewide,President,Lee,Ricki Sue King,O,9
+statewide,President,Lee,Roque Rocky De La Fuente,O,8
+statewide,President,Linn,Joseph R. Biden,D,70874
+statewide,President,Linn,Donald J. Trump,R,53364
+statewide,President,Linn,Jo Jorgensen,L,2015
+statewide,President,Linn,Write-ins,W,380
+statewide,President,Linn,Howie Hawkins,G,325
+statewide,President,Linn,Kanye West,I,265
+statewide,President,Linn,Don Blankenship,C,117
+statewide,President,Linn,Roque Rocky De La Fuente,O,48
+statewide,President,Linn,Brock Pierce,I,36
+statewide,President,Linn,Ricki Sue King,O,34
+statewide,President,Louisa,Donald J. Trump,R,3500
+statewide,President,Louisa,Joseph R. Biden,D,1726
+statewide,President,Louisa,Jo Jorgensen,L,67
+statewide,President,Louisa,Kanye West,I,12
+statewide,President,Louisa,Write-ins,W,6
+statewide,President,Louisa,Don Blankenship,C,5
+statewide,President,Louisa,Howie Hawkins,G,5
+statewide,President,Louisa,Brock Pierce,I,5
+statewide,President,Louisa,Roque Rocky De La Fuente,O,3
+statewide,President,Louisa,Ricki Sue King,O,3
+statewide,President,Lucas,Donald J. Trump,R,3287
+statewide,President,Lucas,Joseph R. Biden,D,1284
+statewide,President,Lucas,Jo Jorgensen,L,30
+statewide,President,Lucas,Write-ins,W,8
+statewide,President,Lucas,Howie Hawkins,G,6
+statewide,President,Lucas,Don Blankenship,C,5
+statewide,President,Lucas,Kanye West,I,4
+statewide,President,Lucas,Ricki Sue King,O,3
+statewide,President,Lucas,Brock Pierce,I,2
+statewide,President,Lucas,Roque Rocky De La Fuente,O,1
+statewide,President,Lyon,Donald J. Trump,R,5707
+statewide,President,Lyon,Joseph R. Biden,D,1067
+statewide,President,Lyon,Jo Jorgensen,L,56
+statewide,President,Lyon,Kanye West,I,11
+statewide,President,Lyon,Write-ins,W,11
+statewide,President,Lyon,Howie Hawkins,G,6
+statewide,President,Lyon,Don Blankenship,C,4
+statewide,President,Lyon,Roque Rocky De La Fuente,O,1
+statewide,President,Lyon,Ricki Sue King,O,0
+statewide,President,Lyon,Brock Pierce,I,0
+statewide,President,Madison,Donald J. Trump,R,6507
+statewide,President,Madison,Joseph R. Biden,D,3134
+statewide,President,Madison,Jo Jorgensen,L,124
+statewide,President,Madison,Write-ins,W,18
+statewide,President,Madison,Howie Hawkins,G,12
+statewide,President,Madison,Kanye West,I,9
+statewide,President,Madison,Roque Rocky De La Fuente,O,7
+statewide,President,Madison,Don Blankenship,C,6
+statewide,President,Madison,Brock Pierce,I,5
+statewide,President,Madison,Ricki Sue King,O,2
+statewide,President,Mahaska,Donald J. Trump,R,8297
+statewide,President,Mahaska,Joseph R. Biden,D,2894
+statewide,President,Mahaska,Jo Jorgensen,L,134
+statewide,President,Mahaska,Write-ins,W,23
+statewide,President,Mahaska,Kanye West,I,19
+statewide,President,Mahaska,Howie Hawkins,G,13
+statewide,President,Mahaska,Don Blankenship,C,10
+statewide,President,Mahaska,Roque Rocky De La Fuente,O,8
+statewide,President,Mahaska,Brock Pierce,I,4
+statewide,President,Mahaska,Ricki Sue King,O,2
+statewide,President,Marion,Donald J. Trump,R,12663
+statewide,President,Marion,Joseph R. Biden,D,6178
+statewide,President,Marion,Jo Jorgensen,L,233
+statewide,President,Marion,Write-ins,W,59
+statewide,President,Marion,Kanye West,I,30
+statewide,President,Marion,Don Blankenship,C,24
+statewide,President,Marion,Howie Hawkins,G,24
+statewide,President,Marion,Roque Rocky De La Fuente,O,10
+statewide,President,Marion,Ricki Sue King,O,6
+statewide,President,Marion,Brock Pierce,I,5
+statewide,President,Marshall,Donald J. Trump,R,9571
+statewide,President,Marshall,Joseph R. Biden,D,8176
+statewide,President,Marshall,Jo Jorgensen,L,216
+statewide,President,Marshall,Kanye West,I,49
+statewide,President,Marshall,Write-ins,W,39
+statewide,President,Marshall,Howie Hawkins,G,31
+statewide,President,Marshall,Don Blankenship,C,22
+statewide,President,Marshall,Roque Rocky De La Fuente,O,17
+statewide,President,Marshall,Ricki Sue King,O,8
+statewide,President,Marshall,Brock Pierce,I,7
+statewide,President,Mills,Donald J. Trump,R,5585
+statewide,President,Mills,Joseph R. Biden,D,2508
+statewide,President,Mills,Jo Jorgensen,L,100
+statewide,President,Mills,Write-ins,W,31
+statewide,President,Mills,Kanye West,I,16
+statewide,President,Mills,Howie Hawkins,G,12
+statewide,President,Mills,Roque Rocky De La Fuente,O,7
+statewide,President,Mills,Don Blankenship,C,7
+statewide,President,Mills,Ricki Sue King,O,2
+statewide,President,Mills,Brock Pierce,I,0
+statewide,President,Mitchell,Donald J. Trump,R,3677
+statewide,President,Mitchell,Joseph R. Biden,D,2053
+statewide,President,Mitchell,Jo Jorgensen,L,56
+statewide,President,Mitchell,Howie Hawkins,G,9
+statewide,President,Mitchell,Write-ins,W,7
+statewide,President,Mitchell,Don Blankenship,C,6
+statewide,President,Mitchell,Kanye West,I,6
+statewide,President,Mitchell,Ricki Sue King,O,4
+statewide,President,Mitchell,Roque Rocky De La Fuente,O,3
+statewide,President,Mitchell,Brock Pierce,I,1
+statewide,President,Monona,Donald J. Trump,R,3248
+statewide,President,Monona,Joseph R. Biden,D,1407
+statewide,President,Monona,Jo Jorgensen,L,36
+statewide,President,Monona,Write-ins,W,14
+statewide,President,Monona,Kanye West,I,9
+statewide,President,Monona,Don Blankenship,C,5
+statewide,President,Monona,Roque Rocky De La Fuente,O,3
+statewide,President,Monona,Howie Hawkins,G,3
+statewide,President,Monona,Brock Pierce,I,3
+statewide,President,Monona,Ricki Sue King,O,0
+statewide,President,Monroe,Donald J. Trump,R,2975
+statewide,President,Monroe,Joseph R. Biden,D,1078
+statewide,President,Monroe,Jo Jorgensen,L,21
+statewide,President,Monroe,Kanye West,I,5
+statewide,President,Monroe,Howie Hawkins,G,3
+statewide,President,Monroe,Write-ins,W,3
+statewide,President,Monroe,Roque Rocky De La Fuente,O,2
+statewide,President,Monroe,Ricki Sue King,O,1
+statewide,President,Monroe,Don Blankenship,C,0
+statewide,President,Monroe,Brock Pierce,I,0
+statewide,President,Montgomery,Donald J. Trump,R,3659
+statewide,President,Montgomery,Joseph R. Biden,D,1583
+statewide,President,Montgomery,Jo Jorgensen,L,50
+statewide,President,Montgomery,Don Blankenship,C,9
+statewide,President,Montgomery,Kanye West,I,7
+statewide,President,Montgomery,Write-ins,W,7
+statewide,President,Montgomery,Howie Hawkins,G,6
+statewide,President,Montgomery,Roque Rocky De La Fuente,O,3
+statewide,President,Montgomery,Brock Pierce,I,2
+statewide,President,Montgomery,Ricki Sue King,O,1
+statewide,President,Muscatine,Donald J. Trump,R,10823
+statewide,President,Muscatine,Joseph R. Biden,D,9372
+statewide,President,Muscatine,Jo Jorgensen,L,293
+statewide,President,Muscatine,Howie Hawkins,G,57
+statewide,President,Muscatine,Write-ins,W,42
+statewide,President,Muscatine,Kanye West,I,37
+statewide,President,Muscatine,Don Blankenship,C,21
+statewide,President,Muscatine,Ricki Sue King,O,9
+statewide,President,Muscatine,Brock Pierce,I,9
+statewide,President,Muscatine,Roque Rocky De La Fuente,O,8
+statewide,President,O'Brien,Donald J. Trump,R,5861
+statewide,President,O'Brien,Joseph R. Biden,D,1569
+statewide,President,O'Brien,Jo Jorgensen,L,77
+statewide,President,O'Brien,Write-ins,W,10
+statewide,President,O'Brien,Kanye West,I,9
+statewide,President,O'Brien,Don Blankenship,C,7
+statewide,President,O'Brien,Roque Rocky De La Fuente,O,6
+statewide,President,O'Brien,Howie Hawkins,G,6
+statewide,President,O'Brien,Ricki Sue King,O,4
+statewide,President,O'Brien,Brock Pierce,I,2
+statewide,President,Osceola,Donald J. Trump,R,2690
+statewide,President,Osceola,Joseph R. Biden,D,601
+statewide,President,Osceola,Jo Jorgensen,L,18
+statewide,President,Osceola,Kanye West,I,5
+statewide,President,Osceola,Write-ins,W,5
+statewide,President,Osceola,Howie Hawkins,G,4
+statewide,President,Osceola,Don Blankenship,C,2
+statewide,President,Osceola,Ricki Sue King,O,2
+statewide,President,Osceola,Roque Rocky De La Fuente,O,1
+statewide,President,Osceola,Brock Pierce,I,0
+statewide,President,Page,Donald J. Trump,R,5319
+statewide,President,Page,Joseph R. Biden,D,2086
+statewide,President,Page,Jo Jorgensen,L,76
+statewide,President,Page,Kanye West,I,12
+statewide,President,Page,Howie Hawkins,G,10
+statewide,President,Page,Write-ins,W,9
+statewide,President,Page,Roque Rocky De La Fuente,O,8
+statewide,President,Page,Don Blankenship,C,7
+statewide,President,Page,Brock Pierce,I,1
+statewide,President,Page,Ricki Sue King,O,0
+statewide,President,Palo Alto,Donald J. Trump,R,3370
+statewide,President,Palo Alto,Joseph R. Biden,D,1519
+statewide,President,Palo Alto,Jo Jorgensen,L,43
+statewide,President,Palo Alto,Howie Hawkins,G,8
+statewide,President,Palo Alto,Write-ins,W,8
+statewide,President,Palo Alto,Kanye West,I,5
+statewide,President,Palo Alto,Don Blankenship,C,3
+statewide,President,Palo Alto,Ricki Sue King,O,1
+statewide,President,Palo Alto,Brock Pierce,I,1
+statewide,President,Palo Alto,Roque Rocky De La Fuente,O,0
+statewide,President,Plymouth,Donald J. Trump,R,10492
+statewide,President,Plymouth,Joseph R. Biden,D,3494
+statewide,President,Plymouth,Jo Jorgensen,L,112
+statewide,President,Plymouth,Kanye West,I,24
+statewide,President,Plymouth,Write-ins,W,23
+statewide,President,Plymouth,Roque Rocky De La Fuente,O,13
+statewide,President,Plymouth,Howie Hawkins,G,13
+statewide,President,Plymouth,Ricki Sue King,O,8
+statewide,President,Plymouth,Don Blankenship,C,7
+statewide,President,Plymouth,Brock Pierce,I,2
+statewide,President,Pocahontas,Donald J. Trump,R,2826
+statewide,President,Pocahontas,Joseph R. Biden,D,933
+statewide,President,Pocahontas,Jo Jorgensen,L,37
+statewide,President,Pocahontas,Don Blankenship,C,8
+statewide,President,Pocahontas,Kanye West,I,6
+statewide,President,Pocahontas,Write-ins,W,6
+statewide,President,Pocahontas,Brock Pierce,I,4
+statewide,President,Pocahontas,Howie Hawkins,G,2
+statewide,President,Pocahontas,Ricki Sue King,O,1
+statewide,President,Pocahontas,Roque Rocky De La Fuente,O,0
+statewide,President,Polk,Joseph R. Biden,D,146250
+statewide,President,Polk,Donald J. Trump,R,106800
+statewide,President,Polk,Jo Jorgensen,L,3322
+statewide,President,Polk,Write-ins,W,764
+statewide,President,Polk,Kanye West,I,562
+statewide,President,Polk,Howie Hawkins,G,487
+statewide,President,Polk,Roque Rocky De La Fuente,O,213
+statewide,President,Polk,Don Blankenship,C,200
+statewide,President,Polk,Ricki Sue King,O,79
+statewide,President,Polk,Brock Pierce,I,78
+statewide,President,Pottawattamie,Donald J. Trump,R,26247
+statewide,President,Pottawattamie,Joseph R. Biden,D,18575
+statewide,President,Pottawattamie,Jo Jorgensen,L,552
+statewide,President,Pottawattamie,Write-ins,W,105
+statewide,President,Pottawattamie,Howie Hawkins,G,93
+statewide,President,Pottawattamie,Kanye West,I,81
+statewide,President,Pottawattamie,Don Blankenship,C,56
+statewide,President,Pottawattamie,Ricki Sue King,O,14
+statewide,President,Pottawattamie,Brock Pierce,I,11
+statewide,President,Pottawattamie,Roque Rocky De La Fuente,O,10
+statewide,President,Poweshiek,Donald J. Trump,R,5657
+statewide,President,Poweshiek,Joseph R. Biden,D,4306
+statewide,President,Poweshiek,Jo Jorgensen,L,90
+statewide,President,Poweshiek,Howie Hawkins,G,26
+statewide,President,Poweshiek,Don Blankenship,C,19
+statewide,President,Poweshiek,Write-ins,W,16
+statewide,President,Poweshiek,Kanye West,I,14
+statewide,President,Poweshiek,Roque Rocky De La Fuente,O,5
+statewide,President,Poweshiek,Brock Pierce,I,4
+statewide,President,Poweshiek,Ricki Sue King,O,3
+statewide,President,Ringgold,Donald J. Trump,R,1968
+statewide,President,Ringgold,Joseph R. Biden,D,709
+statewide,President,Ringgold,Jo Jorgensen,L,18
+statewide,President,Ringgold,Write-ins,W,6
+statewide,President,Ringgold,Don Blankenship,C,5
+statewide,President,Ringgold,Kanye West,I,3
+statewide,President,Ringgold,Ricki Sue King,O,2
+statewide,President,Ringgold,Howie Hawkins,G,2
+statewide,President,Ringgold,Brock Pierce,I,1
+statewide,President,Ringgold,Roque Rocky De La Fuente,O,0
+statewide,President,Sac,Donald J. Trump,R,4061
+statewide,President,Sac,Joseph R. Biden,D,1389
+statewide,President,Sac,Jo Jorgensen,L,47
+statewide,President,Sac,Kanye West,I,10
+statewide,President,Sac,Don Blankenship,C,9
+statewide,President,Sac,Write-ins,W,8
+statewide,President,Sac,Howie Hawkins,G,6
+statewide,President,Sac,Roque Rocky De La Fuente,O,2
+statewide,President,Sac,Ricki Sue King,O,2
+statewide,President,Sac,Brock Pierce,I,1
+statewide,President,Scott,Joseph R. Biden,D,46926
+statewide,President,Scott,Donald J. Trump,R,43683
+statewide,President,Scott,Jo Jorgensen,L,1124
+statewide,President,Scott,Write-ins,W,275
+statewide,President,Scott,Howie Hawkins,G,209
+statewide,President,Scott,Kanye West,I,181
+statewide,President,Scott,Don Blankenship,C,96
+statewide,President,Scott,Roque Rocky De La Fuente,O,51
+statewide,President,Scott,Ricki Sue King,O,32
+statewide,President,Scott,Brock Pierce,I,22
+statewide,President,Shelby,Donald J. Trump,R,4697
+statewide,President,Shelby,Joseph R. Biden,D,1959
+statewide,President,Shelby,Jo Jorgensen,L,83
+statewide,President,Shelby,Write-ins,W,14
+statewide,President,Shelby,Don Blankenship,C,12
+statewide,President,Shelby,Kanye West,I,9
+statewide,President,Shelby,Howie Hawkins,G,7
+statewide,President,Shelby,Ricki Sue King,O,6
+statewide,President,Shelby,Brock Pierce,I,5
+statewide,President,Shelby,Roque Rocky De La Fuente,O,3
+statewide,President,Sioux,Donald J. Trump,R,15680
+statewide,President,Sioux,Joseph R. Biden,D,3019
+statewide,President,Sioux,Jo Jorgensen,L,170
+statewide,President,Sioux,Write-ins,W,95
+statewide,President,Sioux,Kanye West,I,27
+statewide,President,Sioux,Howie Hawkins,G,23
+statewide,President,Sioux,Don Blankenship,C,21
+statewide,President,Sioux,Roque Rocky De La Fuente,O,9
+statewide,President,Sioux,Ricki Sue King,O,5
+statewide,President,Sioux,Brock Pierce,I,2
+statewide,President,Story,Joseph R. Biden,D,29175
+statewide,President,Story,Donald J. Trump,R,20340
+statewide,President,Story,Jo Jorgensen,L,924
+statewide,President,Story,Write-ins,W,201
+statewide,President,Story,Howie Hawkins,G,147
+statewide,President,Story,Kanye West,I,133
+statewide,President,Story,Don Blankenship,C,51
+statewide,President,Story,Roque Rocky De La Fuente,O,36
+statewide,President,Story,Brock Pierce,I,21
+statewide,President,Story,Ricki Sue King,O,10
+statewide,President,Tama,Donald J. Trump,R,5303
+statewide,President,Tama,Joseph R. Biden,D,3577
+statewide,President,Tama,Jo Jorgensen,L,87
+statewide,President,Tama,Write-ins,W,22
+statewide,President,Tama,Kanye West,I,21
+statewide,President,Tama,Howie Hawkins,G,19
+statewide,President,Tama,Don Blankenship,C,12
+statewide,President,Tama,Ricki Sue King,O,3
+statewide,President,Tama,Roque Rocky De La Fuente,O,2
+statewide,President,Tama,Brock Pierce,I,2
+statewide,President,Taylor,Donald J. Trump,R,2463
+statewide,President,Taylor,Joseph R. Biden,D,746
+statewide,President,Taylor,Jo Jorgensen,L,17
+statewide,President,Taylor,Kanye West,I,10
+statewide,President,Taylor,Write-ins,W,7
+statewide,President,Taylor,Don Blankenship,C,2
+statewide,President,Taylor,Ricki Sue King,O,2
+statewide,President,Taylor,Roque Rocky De La Fuente,O,1
+statewide,President,Taylor,Howie Hawkins,G,1
+statewide,President,Taylor,Brock Pierce,I,0
+statewide,President,Union,Donald J. Trump,R,4010
+statewide,President,Union,Joseph R. Biden,D,2061
+statewide,President,Union,Jo Jorgensen,L,61
+statewide,President,Union,Write-ins,W,14
+statewide,President,Union,Kanye West,I,11
+statewide,President,Union,Howie Hawkins,G,10
+statewide,President,Union,Roque Rocky De La Fuente,O,6
+statewide,President,Union,Don Blankenship,C,6
+statewide,President,Union,Ricki Sue King,O,4
+statewide,President,Union,Brock Pierce,I,2
+statewide,President,Van Buren,Donald J. Trump,R,2859
+statewide,President,Van Buren,Joseph R. Biden,D,875
+statewide,President,Van Buren,Jo Jorgensen,L,23
+statewide,President,Van Buren,Write-ins,W,11
+statewide,President,Van Buren,Kanye West,I,7
+statewide,President,Van Buren,Howie Hawkins,G,6
+statewide,President,Van Buren,Don Blankenship,C,5
+statewide,President,Van Buren,Roque Rocky De La Fuente,O,2
+statewide,President,Van Buren,Ricki Sue King,O,2
+statewide,President,Van Buren,Brock Pierce,I,1
+statewide,President,Wapello,Donald J. Trump,R,9516
+statewide,President,Wapello,Joseph R. Biden,D,5821
+statewide,President,Wapello,Jo Jorgensen,L,200
+statewide,President,Wapello,Kanye West,I,26
+statewide,President,Wapello,Howie Hawkins,G,22
+statewide,President,Wapello,Write-ins,W,20
+statewide,President,Wapello,Don Blankenship,C,14
+statewide,President,Wapello,Roque Rocky De La Fuente,O,6
+statewide,President,Wapello,Brock Pierce,I,5
+statewide,President,Wapello,Ricki Sue King,O,3
+statewide,President,Warren,Donald J. Trump,R,17782
+statewide,President,Warren,Joseph R. Biden,D,12574
+statewide,President,Warren,Jo Jorgensen,L,430
+statewide,President,Warren,Write-ins,W,86
+statewide,President,Warren,Howie Hawkins,G,51
+statewide,President,Warren,Kanye West,I,47
+statewide,President,Warren,Don Blankenship,C,30
+statewide,President,Warren,Roque Rocky De La Fuente,O,27
+statewide,President,Warren,Ricki Sue King,O,8
+statewide,President,Warren,Brock Pierce,I,4
+statewide,President,Washington,Donald J. Trump,R,6971
+statewide,President,Washington,Joseph R. Biden,D,4561
+statewide,President,Washington,Jo Jorgensen,L,144
+statewide,President,Washington,Kanye West,I,24
+statewide,President,Washington,Howie Hawkins,G,21
+statewide,President,Washington,Write-ins,W,20
+statewide,President,Washington,Don Blankenship,C,13
+statewide,President,Washington,Roque Rocky De La Fuente,O,6
+statewide,President,Washington,Brock Pierce,I,4
+statewide,President,Washington,Ricki Sue King,O,1
+statewide,President,Wayne,Donald J. Trump,R,2338
+statewide,President,Wayne,Joseph R. Biden,D,727
+statewide,President,Wayne,Jo Jorgensen,L,20
+statewide,President,Wayne,Kanye West,I,6
+statewide,President,Wayne,Write-ins,W,6
+statewide,President,Wayne,Don Blankenship,C,5
+statewide,President,Wayne,Howie Hawkins,G,3
+statewide,President,Wayne,Roque Rocky De La Fuente,O,2
+statewide,President,Wayne,Ricki Sue King,O,1
+statewide,President,Wayne,Brock Pierce,I,1
+statewide,President,Webster,Donald J. Trump,R,10938
+statewide,President,Webster,Joseph R. Biden,D,6613
+statewide,President,Webster,Jo Jorgensen,L,128
+statewide,President,Webster,Kanye West,I,56
+statewide,President,Webster,Write-ins,W,32
+statewide,President,Webster,Howie Hawkins,G,26
+statewide,President,Webster,Roque Rocky De La Fuente,O,10
+statewide,President,Webster,Don Blankenship,C,9
+statewide,President,Webster,Ricki Sue King,O,5
+statewide,President,Webster,Brock Pierce,I,5
+statewide,President,Winnebago,Donald J. Trump,R,3707
+statewide,President,Winnebago,Joseph R. Biden,D,2135
+statewide,President,Winnebago,Jo Jorgensen,L,72
+statewide,President,Winnebago,Write-ins,W,19
+statewide,President,Winnebago,Kanye West,I,15
+statewide,President,Winnebago,Howie Hawkins,G,8
+statewide,President,Winnebago,Don Blankenship,C,6
+statewide,President,Winnebago,Roque Rocky De La Fuente,O,3
+statewide,President,Winnebago,Brock Pierce,I,3
+statewide,President,Winnebago,Ricki Sue King,O,2
+statewide,President,Winneshiek,Donald J. Trump,R,6235
+statewide,President,Winneshiek,Joseph R. Biden,D,5617
+statewide,President,Winneshiek,Jo Jorgensen,L,112
+statewide,President,Winneshiek,Write-ins,W,28
+statewide,President,Winneshiek,Howie Hawkins,G,21
+statewide,President,Winneshiek,Kanye West,I,19
+statewide,President,Winneshiek,Don Blankenship,C,15
+statewide,President,Winneshiek,Roque Rocky De La Fuente,O,6
+statewide,President,Winneshiek,Brock Pierce,I,6
+statewide,President,Winneshiek,Ricki Sue King,O,5
+statewide,President,Woodbury,Donald J. Trump,R,25736
+statewide,President,Woodbury,Joseph R. Biden,D,18704
+statewide,President,Woodbury,Jo Jorgensen,L,435
+statewide,President,Woodbury,Write-ins,W,190
+statewide,President,Woodbury,Howie Hawkins,G,96
+statewide,President,Woodbury,Kanye West,I,84
+statewide,President,Woodbury,Don Blankenship,C,55
+statewide,President,Woodbury,Roque Rocky De La Fuente,O,33
+statewide,President,Woodbury,Brock Pierce,I,18
+statewide,President,Woodbury,Ricki Sue King,O,11
+statewide,President,Worth,Donald J. Trump,R,2738
+statewide,President,Worth,Joseph R. Biden,D,1596
+statewide,President,Worth,Jo Jorgensen,L,38
+statewide,President,Worth,Kanye West,I,14
+statewide,President,Worth,Roque Rocky De La Fuente,O,8
+statewide,President,Worth,Don Blankenship,C,8
+statewide,President,Worth,Howie Hawkins,G,7
+statewide,President,Worth,Brock Pierce,I,4
+statewide,President,Worth,Write-ins,W,4
+statewide,President,Worth,Ricki Sue King,O,1
+statewide,President,Wright,Donald J. Trump,R,4136
+statewide,President,Wright,Joseph R. Biden,D,1996
+statewide,President,Wright,Jo Jorgensen,L,70
+statewide,President,Wright,Kanye West,I,19
+statewide,President,Wright,Write-ins,W,12
+statewide,President,Wright,Howie Hawkins,G,6
+statewide,President,Wright,Roque Rocky De La Fuente,O,5
+statewide,President,Wright,Brock Pierce,I,5
+statewide,President,Wright,Ricki Sue King,O,3
+statewide,President,Wright,Don Blankenship,C,2
+statewide,Senate,Adair,Joni Ernst,R,2809
+statewide,Senate,Adair,Theresa Greenfield,D,1207
+statewide,Senate,Adair,Rick Stewart,L,89
+statewide,Senate,Adair,Suzanne Herzog,I,36
+statewide,Senate,Adair,Write-ins,W,3
+statewide,Senate,Adams,Joni Ernst,R,1497
+statewide,Senate,Adams,Theresa Greenfield,D,594
+statewide,Senate,Adams,Rick Stewart,L,46
+statewide,Senate,Adams,Suzanne Herzog,I,19
+statewide,Senate,Adams,Write-ins,W,3
+statewide,Senate,Allamakee,Joni Ernst,R,4478
+statewide,Senate,Allamakee,Theresa Greenfield,D,2602
+statewide,Senate,Allamakee,Rick Stewart,L,175
+statewide,Senate,Allamakee,Suzanne Herzog,I,80
+statewide,Senate,Allamakee,Write-ins,W,1
+statewide,Senate,Appanoose,Joni Ernst,R,4189
+statewide,Senate,Appanoose,Theresa Greenfield,D,1956
+statewide,Senate,Appanoose,Rick Stewart,L,168
+statewide,Senate,Appanoose,Suzanne Herzog,I,71
+statewide,Senate,Appanoose,Write-ins,W,2
+statewide,Senate,Audubon,Joni Ernst,R,2188
+statewide,Senate,Audubon,Theresa Greenfield,D,1092
+statewide,Senate,Audubon,Rick Stewart,L,70
+statewide,Senate,Audubon,Suzanne Herzog,I,21
+statewide,Senate,Audubon,Write-ins,W,1
+statewide,Senate,Benton,Joni Ernst,R,8830
+statewide,Senate,Benton,Theresa Greenfield,D,5202
+statewide,Senate,Benton,Rick Stewart,L,331
+statewide,Senate,Benton,Suzanne Herzog,I,120
+statewide,Senate,Benton,Write-ins,W,9
+statewide,Senate,Black Hawk,Theresa Greenfield,D,34963
+statewide,Senate,Black Hawk,Joni Ernst,R,29222
+statewide,Senate,Black Hawk,Rick Stewart,L,1301
+statewide,Senate,Black Hawk,Suzanne Herzog,I,490
+statewide,Senate,Black Hawk,Write-ins,W,37
+statewide,Senate,Boone,Joni Ernst,R,8315
+statewide,Senate,Boone,Theresa Greenfield,D,6316
+statewide,Senate,Boone,Rick Stewart,L,385
+statewide,Senate,Boone,Suzanne Herzog,I,167
+statewide,Senate,Boone,Write-ins,W,7
+statewide,Senate,Bremer,Joni Ernst,R,8196
+statewide,Senate,Bremer,Theresa Greenfield,D,5911
+statewide,Senate,Bremer,Rick Stewart,L,254
+statewide,Senate,Bremer,Suzanne Herzog,I,84
+statewide,Senate,Bremer,Write-ins,W,5
+statewide,Senate,Buchanan,Joni Ernst,R,6063
+statewide,Senate,Buchanan,Theresa Greenfield,D,4292
+statewide,Senate,Buchanan,Rick Stewart,L,248
+statewide,Senate,Buchanan,Suzanne Herzog,I,96
+statewide,Senate,Buchanan,Write-ins,W,5
+statewide,Senate,Buena Vista,Joni Ernst,R,4724
+statewide,Senate,Buena Vista,Theresa Greenfield,D,3022
+statewide,Senate,Buena Vista,Rick Stewart,L,166
+statewide,Senate,Buena Vista,Suzanne Herzog,I,75
+statewide,Senate,Buena Vista,Write-ins,W,7
+statewide,Senate,Butler,Joni Ernst,R,5291
+statewide,Senate,Butler,Theresa Greenfield,D,2474
+statewide,Senate,Butler,Rick Stewart,L,173
+statewide,Senate,Butler,Suzanne Herzog,I,69
+statewide,Senate,Butler,Write-ins,W,2
+statewide,Senate,Calhoun,Joni Ernst,R,3513
+statewide,Senate,Calhoun,Theresa Greenfield,D,1531
+statewide,Senate,Calhoun,Rick Stewart,L,129
+statewide,Senate,Calhoun,Suzanne Herzog,I,32
+statewide,Senate,Calhoun,Write-ins,W,7
+statewide,Senate,Carroll,Joni Ernst,R,7245
+statewide,Senate,Carroll,Theresa Greenfield,D,3580
+statewide,Senate,Carroll,Rick Stewart,L,230
+statewide,Senate,Carroll,Suzanne Herzog,I,96
+statewide,Senate,Carroll,Write-ins,W,11
+statewide,Senate,Cass,Joni Ernst,R,4725
+statewide,Senate,Cass,Theresa Greenfield,D,2259
+statewide,Senate,Cass,Rick Stewart,L,120
+statewide,Senate,Cass,Suzanne Herzog,I,54
+statewide,Senate,Cass,Write-ins,W,7
+statewide,Senate,Cedar,Joni Ernst,R,5935
+statewide,Senate,Cedar,Theresa Greenfield,D,4300
+statewide,Senate,Cedar,Rick Stewart,L,226
+statewide,Senate,Cedar,Suzanne Herzog,I,74
+statewide,Senate,Cedar,Write-ins,W,6
+statewide,Senate,Cerro Gordo,Theresa Greenfield,D,11534
+statewide,Senate,Cerro Gordo,Joni Ernst,R,11339
+statewide,Senate,Cerro Gordo,Rick Stewart,L,430
+statewide,Senate,Cerro Gordo,Suzanne Herzog,I,211
+statewide,Senate,Cerro Gordo,Write-ins,W,16
+statewide,Senate,Cherokee,Joni Ernst,R,4214
+statewide,Senate,Cherokee,Theresa Greenfield,D,2002
+statewide,Senate,Cherokee,Rick Stewart,L,138
+statewide,Senate,Cherokee,Suzanne Herzog,I,67
+statewide,Senate,Cherokee,Write-ins,W,4
+statewide,Senate,Chickasaw,Joni Ernst,R,4024
+statewide,Senate,Chickasaw,Theresa Greenfield,D,2324
+statewide,Senate,Chickasaw,Rick Stewart,L,159
+statewide,Senate,Chickasaw,Suzanne Herzog,I,71
+statewide,Senate,Chickasaw,Write-ins,W,2
+statewide,Senate,Clarke,Joni Ernst,R,2906
+statewide,Senate,Clarke,Theresa Greenfield,D,1520
+statewide,Senate,Clarke,Rick Stewart,L,119
+statewide,Senate,Clarke,Suzanne Herzog,I,60
+statewide,Senate,Clarke,Write-ins,W,4
+statewide,Senate,Clay,Joni Ernst,R,5716
+statewide,Senate,Clay,Theresa Greenfield,D,2861
+statewide,Senate,Clay,Rick Stewart,L,193
+statewide,Senate,Clay,Suzanne Herzog,I,89
+statewide,Senate,Clay,Write-ins,W,9
+statewide,Senate,Clayton,Joni Ernst,R,5845
+statewide,Senate,Clayton,Theresa Greenfield,D,3434
+statewide,Senate,Clayton,Rick Stewart,L,157
+statewide,Senate,Clayton,Suzanne Herzog,I,82
+statewide,Senate,Clayton,Write-ins,W,6
+statewide,Senate,Clinton,Joni Ernst,R,12559
+statewide,Senate,Clinton,Theresa Greenfield,D,10942
+statewide,Senate,Clinton,Rick Stewart,L,635
+statewide,Senate,Clinton,Suzanne Herzog,I,200
+statewide,Senate,Clinton,Write-ins,W,15
+statewide,Senate,Crawford,Joni Ernst,R,4424
+statewide,Senate,Crawford,Theresa Greenfield,D,2336
+statewide,Senate,Crawford,Rick Stewart,L,160
+statewide,Senate,Crawford,Suzanne Herzog,I,80
+statewide,Senate,Crawford,Write-ins,W,9
+statewide,Senate,Dallas,Joni Ernst,R,28727
+statewide,Senate,Dallas,Theresa Greenfield,D,25427
+statewide,Senate,Dallas,Rick Stewart,L,1006
+statewide,Senate,Dallas,Suzanne Herzog,I,381
+statewide,Senate,Dallas,Write-ins,W,33
+statewide,Senate,Davis,Joni Ernst,R,2728
+statewide,Senate,Davis,Theresa Greenfield,D,1167
+statewide,Senate,Davis,Rick Stewart,L,112
+statewide,Senate,Davis,Suzanne Herzog,I,32
+statewide,Senate,Davis,Write-ins,W,2
+statewide,Senate,Decatur,Joni Ernst,R,2439
+statewide,Senate,Decatur,Theresa Greenfield,D,1165
+statewide,Senate,Decatur,Rick Stewart,L,90
+statewide,Senate,Decatur,Suzanne Herzog,I,43
+statewide,Senate,Decatur,Write-ins,W,3
+statewide,Senate,Delaware,Joni Ernst,R,6454
+statewide,Senate,Delaware,Theresa Greenfield,D,3235
+statewide,Senate,Delaware,Rick Stewart,L,172
+statewide,Senate,Delaware,Suzanne Herzog,I,71
+statewide,Senate,Delaware,Write-ins,W,4
+statewide,Senate,Des Moines,Joni Ernst,R,9468
+statewide,Senate,Des Moines,Theresa Greenfield,D,9296
+statewide,Senate,Des Moines,Rick Stewart,L,591
+statewide,Senate,Des Moines,Suzanne Herzog,I,232
+statewide,Senate,Des Moines,Write-ins,W,29
+statewide,Senate,Dickinson,Joni Ernst,R,7149
+statewide,Senate,Dickinson,Theresa Greenfield,D,3791
+statewide,Senate,Dickinson,Rick Stewart,L,174
+statewide,Senate,Dickinson,Suzanne Herzog,I,66
+statewide,Senate,Dickinson,Write-ins,W,4
+statewide,Senate,Dubuque,Joni Ernst,R,26034
+statewide,Senate,Dubuque,Theresa Greenfield,D,25433
+statewide,Senate,Dubuque,Rick Stewart,L,1148
+statewide,Senate,Dubuque,Suzanne Herzog,I,428
+statewide,Senate,Dubuque,Write-ins,W,37
+statewide,Senate,Emmet,Joni Ernst,R,2965
+statewide,Senate,Emmet,Theresa Greenfield,D,1637
+statewide,Senate,Emmet,Rick Stewart,L,147
+statewide,Senate,Emmet,Suzanne Herzog,I,47
+statewide,Senate,Emmet,Write-ins,W,1
+statewide,Senate,Fayette,Joni Ernst,R,5865
+statewide,Senate,Fayette,Theresa Greenfield,D,3912
+statewide,Senate,Fayette,Rick Stewart,L,229
+statewide,Senate,Fayette,Suzanne Herzog,I,89
+statewide,Senate,Fayette,Write-ins,W,7
+statewide,Senate,Floyd,Joni Ernst,R,4181
+statewide,Senate,Floyd,Theresa Greenfield,D,3498
+statewide,Senate,Floyd,Rick Stewart,L,187
+statewide,Senate,Floyd,Suzanne Herzog,I,98
+statewide,Senate,Floyd,Write-ins,W,8
+statewide,Senate,Franklin,Joni Ernst,R,3270
+statewide,Senate,Franklin,Theresa Greenfield,D,1639
+statewide,Senate,Franklin,Rick Stewart,L,100
+statewide,Senate,Franklin,Suzanne Herzog,I,50
+statewide,Senate,Franklin,Write-ins,W,7
+statewide,Senate,Fremont,Joni Ernst,R,2563
+statewide,Senate,Fremont,Theresa Greenfield,D,1099
+statewide,Senate,Fremont,Rick Stewart,L,89
+statewide,Senate,Fremont,Suzanne Herzog,I,56
+statewide,Senate,Fremont,Write-ins,W,1
+statewide,Senate,Greene,Joni Ernst,R,3063
+statewide,Senate,Greene,Theresa Greenfield,D,1784
+statewide,Senate,Greene,Rick Stewart,L,104
+statewide,Senate,Greene,Suzanne Herzog,I,39
+statewide,Senate,Greene,Write-ins,W,2
+statewide,Senate,Grundy,Joni Ernst,R,4900
+statewide,Senate,Grundy,Theresa Greenfield,D,2120
+statewide,Senate,Grundy,Rick Stewart,L,154
+statewide,Senate,Grundy,Suzanne Herzog,I,38
+statewide,Senate,Grundy,Write-ins,W,5
+statewide,Senate,Guthrie,Joni Ernst,R,4103
+statewide,Senate,Guthrie,Theresa Greenfield,D,2000
+statewide,Senate,Guthrie,Rick Stewart,L,162
+statewide,Senate,Guthrie,Suzanne Herzog,I,56
+statewide,Senate,Guthrie,Write-ins,W,5
+statewide,Senate,Hamilton,Joni Ernst,R,4679
+statewide,Senate,Hamilton,Theresa Greenfield,D,2913
+statewide,Senate,Hamilton,Rick Stewart,L,190
+statewide,Senate,Hamilton,Suzanne Herzog,I,84
+statewide,Senate,Hamilton,Write-ins,W,9
+statewide,Senate,Hancock,Joni Ernst,R,4004
+statewide,Senate,Hancock,Theresa Greenfield,D,1881
+statewide,Senate,Hancock,Rick Stewart,L,130
+statewide,Senate,Hancock,Suzanne Herzog,I,60
+statewide,Senate,Hancock,Write-ins,W,5
+statewide,Senate,Hardin,Joni Ernst,R,5639
+statewide,Senate,Hardin,Theresa Greenfield,D,2920
+statewide,Senate,Hardin,Rick Stewart,L,195
+statewide,Senate,Hardin,Suzanne Herzog,I,84
+statewide,Senate,Hardin,Write-ins,W,1
+statewide,Senate,Harrison,Joni Ernst,R,5059
+statewide,Senate,Harrison,Theresa Greenfield,D,2574
+statewide,Senate,Harrison,Rick Stewart,L,253
+statewide,Senate,Harrison,Suzanne Herzog,I,118
+statewide,Senate,Harrison,Write-ins,W,14
+statewide,Senate,Henry,Joni Ernst,R,5875
+statewide,Senate,Henry,Theresa Greenfield,D,3457
+statewide,Senate,Henry,Rick Stewart,L,310
+statewide,Senate,Henry,Suzanne Herzog,I,116
+statewide,Senate,Henry,Write-ins,W,14
+statewide,Senate,Howard,Joni Ernst,R,2716
+statewide,Senate,Howard,Theresa Greenfield,D,2014
+statewide,Senate,Howard,Rick Stewart,L,118
+statewide,Senate,Howard,Suzanne Herzog,I,58
+statewide,Senate,Howard,Write-ins,W,0
+statewide,Senate,Humboldt,Joni Ernst,R,3671
+statewide,Senate,Humboldt,Theresa Greenfield,D,1443
+statewide,Senate,Humboldt,Rick Stewart,L,108
+statewide,Senate,Humboldt,Suzanne Herzog,I,40
+statewide,Senate,Humboldt,Write-ins,W,2
+statewide,Senate,Ida,Joni Ernst,R,2757
+statewide,Senate,Ida,Theresa Greenfield,D,964
+statewide,Senate,Ida,Rick Stewart,L,66
+statewide,Senate,Ida,Suzanne Herzog,I,28
+statewide,Senate,Ida,Write-ins,W,2
+statewide,Senate,Iowa,Joni Ernst,R,5794
+statewide,Senate,Iowa,Theresa Greenfield,D,3541
+statewide,Senate,Iowa,Rick Stewart,L,205
+statewide,Senate,Iowa,Suzanne Herzog,I,84
+statewide,Senate,Iowa,Write-ins,W,11
+statewide,Senate,Jackson,Joni Ernst,R,6175
+statewide,Senate,Jackson,Theresa Greenfield,D,4249
+statewide,Senate,Jackson,Rick Stewart,L,366
+statewide,Senate,Jackson,Suzanne Herzog,I,118
+statewide,Senate,Jackson,Write-ins,W,5
+statewide,Senate,Jasper,Joni Ernst,R,11405
+statewide,Senate,Jasper,Theresa Greenfield,D,7905
+statewide,Senate,Jasper,Rick Stewart,L,531
+statewide,Senate,Jasper,Suzanne Herzog,I,167
+statewide,Senate,Jasper,Write-ins,W,18
+statewide,Senate,Jefferson,Theresa Greenfield,D,4547
+statewide,Senate,Jefferson,Joni Ernst,R,4008
+statewide,Senate,Jefferson,Rick Stewart,L,163
+statewide,Senate,Jefferson,Suzanne Herzog,I,80
+statewide,Senate,Jefferson,Write-ins,W,10
+statewide,Senate,Johnson,Theresa Greenfield,D,57063
+statewide,Senate,Johnson,Joni Ernst,R,23773
+statewide,Senate,Johnson,Rick Stewart,L,1382
+statewide,Senate,Johnson,Suzanne Herzog,I,373
+statewide,Senate,Johnson,Write-ins,W,42
+statewide,Senate,Jones,Joni Ernst,R,6320
+statewide,Senate,Jones,Theresa Greenfield,D,4237
+statewide,Senate,Jones,Rick Stewart,L,273
+statewide,Senate,Jones,Suzanne Herzog,I,68
+statewide,Senate,Jones,Write-ins,W,4
+statewide,Senate,Keokuk,Joni Ernst,R,3565
+statewide,Senate,Keokuk,Theresa Greenfield,D,1489
+statewide,Senate,Keokuk,Rick Stewart,L,101
+statewide,Senate,Keokuk,Suzanne Herzog,I,53
+statewide,Senate,Keokuk,Write-ins,W,5
+statewide,Senate,Kossuth,Joni Ernst,R,5957
+statewide,Senate,Kossuth,Theresa Greenfield,D,2799
+statewide,Senate,Kossuth,Rick Stewart,L,193
+statewide,Senate,Kossuth,Suzanne Herzog,I,57
+statewide,Senate,Kossuth,Write-ins,W,0
+statewide,Senate,Lee,Joni Ernst,R,8489
+statewide,Senate,Lee,Theresa Greenfield,D,7445
+statewide,Senate,Lee,Rick Stewart,L,485
+statewide,Senate,Lee,Suzanne Herzog,I,122
+statewide,Senate,Lee,Write-ins,W,11
+statewide,Senate,Linn,Theresa Greenfield,D,69125
+statewide,Senate,Linn,Joni Ernst,R,53248
+statewide,Senate,Linn,Rick Stewart,L,3188
+statewide,Senate,Linn,Suzanne Herzog,I,815
+statewide,Senate,Linn,Write-ins,W,90
+statewide,Senate,Louisa,Joni Ernst,R,3259
+statewide,Senate,Louisa,Theresa Greenfield,D,1804
+statewide,Senate,Louisa,Rick Stewart,L,141
+statewide,Senate,Louisa,Suzanne Herzog,I,51
+statewide,Senate,Louisa,Write-ins,W,4
+statewide,Senate,Lucas,Joni Ernst,R,3105
+statewide,Senate,Lucas,Theresa Greenfield,D,1302
+statewide,Senate,Lucas,Rick Stewart,L,99
+statewide,Senate,Lucas,Suzanne Herzog,I,36
+statewide,Senate,Lucas,Write-ins,W,3
+statewide,Senate,Lyon,Joni Ernst,R,5522
+statewide,Senate,Lyon,Theresa Greenfield,D,1073
+statewide,Senate,Lyon,Rick Stewart,L,104
+statewide,Senate,Lyon,Suzanne Herzog,I,50
+statewide,Senate,Lyon,Write-ins,W,2
+statewide,Senate,Madison,Joni Ernst,R,6245
+statewide,Senate,Madison,Theresa Greenfield,D,3168
+statewide,Senate,Madison,Rick Stewart,L,218
+statewide,Senate,Madison,Suzanne Herzog,I,86
+statewide,Senate,Madison,Write-ins,W,3
+statewide,Senate,Mahaska,Joni Ernst,R,7860
+statewide,Senate,Mahaska,Theresa Greenfield,D,2969
+statewide,Senate,Mahaska,Rick Stewart,L,273
+statewide,Senate,Mahaska,Suzanne Herzog,I,118
+statewide,Senate,Mahaska,Write-ins,W,8
+statewide,Senate,Marion,Joni Ernst,R,12211
+statewide,Senate,Marion,Theresa Greenfield,D,6269
+statewide,Senate,Marion,Rick Stewart,L,423
+statewide,Senate,Marion,Suzanne Herzog,I,144
+statewide,Senate,Marion,Write-ins,W,15
+statewide,Senate,Marshall,Joni Ernst,R,9057
+statewide,Senate,Marshall,Theresa Greenfield,D,8187
+statewide,Senate,Marshall,Rick Stewart,L,442
+statewide,Senate,Marshall,Suzanne Herzog,I,165
+statewide,Senate,Marshall,Write-ins,W,21
+statewide,Senate,Mills,Joni Ernst,R,5347
+statewide,Senate,Mills,Theresa Greenfield,D,2544
+statewide,Senate,Mills,Rick Stewart,L,177
+statewide,Senate,Mills,Suzanne Herzog,I,82
+statewide,Senate,Mills,Write-ins,W,8
+statewide,Senate,Mitchell,Joni Ernst,R,3347
+statewide,Senate,Mitchell,Theresa Greenfield,D,2282
+statewide,Senate,Mitchell,Rick Stewart,L,124
+statewide,Senate,Mitchell,Suzanne Herzog,I,49
+statewide,Senate,Mitchell,Write-ins,W,0
+statewide,Senate,Monona,Joni Ernst,R,3054
+statewide,Senate,Monona,Theresa Greenfield,D,1455
+statewide,Senate,Monona,Rick Stewart,L,108
+statewide,Senate,Monona,Suzanne Herzog,I,39
+statewide,Senate,Monona,Write-ins,W,9
+statewide,Senate,Monroe,Joni Ernst,R,2742
+statewide,Senate,Monroe,Theresa Greenfield,D,1148
+statewide,Senate,Monroe,Rick Stewart,L,84
+statewide,Senate,Monroe,Suzanne Herzog,I,34
+statewide,Senate,Monroe,Write-ins,W,1
+statewide,Senate,Montgomery,Joni Ernst,R,3633
+statewide,Senate,Montgomery,Theresa Greenfield,D,1520
+statewide,Senate,Montgomery,Rick Stewart,L,98
+statewide,Senate,Montgomery,Suzanne Herzog,I,46
+statewide,Senate,Montgomery,Write-ins,W,4
+statewide,Senate,Muscatine,Joni Ernst,R,10278
+statewide,Senate,Muscatine,Theresa Greenfield,D,9381
+statewide,Senate,Muscatine,Rick Stewart,L,570
+statewide,Senate,Muscatine,Suzanne Herzog,I,199
+statewide,Senate,Muscatine,Write-ins,W,13
+statewide,Senate,O'Brien,Joni Ernst,R,5675
+statewide,Senate,O'Brien,Theresa Greenfield,D,1640
+statewide,Senate,O'Brien,Rick Stewart,L,105
+statewide,Senate,O'Brien,Suzanne Herzog,I,38
+statewide,Senate,O'Brien,Write-ins,W,4
+statewide,Senate,Osceola,Joni Ernst,R,2525
+statewide,Senate,Osceola,Theresa Greenfield,D,657
+statewide,Senate,Osceola,Rick Stewart,L,49
+statewide,Senate,Osceola,Suzanne Herzog,I,31
+statewide,Senate,Osceola,Write-ins,W,1
+statewide,Senate,Page,Joni Ernst,R,5152
+statewide,Senate,Page,Theresa Greenfield,D,2067
+statewide,Senate,Page,Rick Stewart,L,138
+statewide,Senate,Page,Suzanne Herzog,I,78
+statewide,Senate,Page,Write-ins,W,3
+statewide,Senate,Palo Alto,Joni Ernst,R,3113
+statewide,Senate,Palo Alto,Theresa Greenfield,D,1677
+statewide,Senate,Palo Alto,Rick Stewart,L,106
+statewide,Senate,Palo Alto,Suzanne Herzog,I,36
+statewide,Senate,Palo Alto,Write-ins,W,0
+statewide,Senate,Plymouth,Joni Ernst,R,10145
+statewide,Senate,Plymouth,Theresa Greenfield,D,3587
+statewide,Senate,Plymouth,Rick Stewart,L,219
+statewide,Senate,Plymouth,Suzanne Herzog,I,77
+statewide,Senate,Plymouth,Write-ins,W,11
+statewide,Senate,Pocahontas,Joni Ernst,R,2641
+statewide,Senate,Pocahontas,Theresa Greenfield,D,1003
+statewide,Senate,Pocahontas,Rick Stewart,L,91
+statewide,Senate,Pocahontas,Suzanne Herzog,I,39
+statewide,Senate,Pocahontas,Write-ins,W,6
+statewide,Senate,Polk,Theresa Greenfield,D,142328
+statewide,Senate,Polk,Joni Ernst,R,106443
+statewide,Senate,Polk,Rick Stewart,L,5313
+statewide,Senate,Polk,Suzanne Herzog,I,1985
+statewide,Senate,Polk,Write-ins,W,188
+statewide,Senate,Pottawattamie,Joni Ernst,R,24720
+statewide,Senate,Pottawattamie,Theresa Greenfield,D,18520
+statewide,Senate,Pottawattamie,Rick Stewart,L,1269
+statewide,Senate,Pottawattamie,Suzanne Herzog,I,524
+statewide,Senate,Pottawattamie,Write-ins,W,32
+statewide,Senate,Poweshiek,Joni Ernst,R,5361
+statewide,Senate,Poweshiek,Theresa Greenfield,D,4381
+statewide,Senate,Poweshiek,Rick Stewart,L,202
+statewide,Senate,Poweshiek,Suzanne Herzog,I,91
+statewide,Senate,Poweshiek,Write-ins,W,8
+statewide,Senate,Ringgold,Joni Ernst,R,1870
+statewide,Senate,Ringgold,Theresa Greenfield,D,732
+statewide,Senate,Ringgold,Rick Stewart,L,75
+statewide,Senate,Ringgold,Suzanne Herzog,I,16
+statewide,Senate,Ringgold,Write-ins,W,3
+statewide,Senate,Sac,Joni Ernst,R,3849
+statewide,Senate,Sac,Theresa Greenfield,D,1440
+statewide,Senate,Sac,Rick Stewart,L,129
+statewide,Senate,Sac,Suzanne Herzog,I,60
+statewide,Senate,Sac,Write-ins,W,7
+statewide,Senate,Scott,Theresa Greenfield,D,45751
+statewide,Senate,Scott,Joni Ernst,R,42941
+statewide,Senate,Scott,Rick Stewart,L,2139
+statewide,Senate,Scott,Suzanne Herzog,I,709
+statewide,Senate,Scott,Write-ins,W,66
+statewide,Senate,Shelby,Joni Ernst,R,4489
+statewide,Senate,Shelby,Theresa Greenfield,D,1989
+statewide,Senate,Shelby,Rick Stewart,L,156
+statewide,Senate,Shelby,Suzanne Herzog,I,57
+statewide,Senate,Shelby,Write-ins,W,3
+statewide,Senate,Sioux,Joni Ernst,R,15785
+statewide,Senate,Sioux,Theresa Greenfield,D,2828
+statewide,Senate,Sioux,Rick Stewart,L,192
+statewide,Senate,Sioux,Suzanne Herzog,I,81
+statewide,Senate,Sioux,Write-ins,W,9
+statewide,Senate,Story,Theresa Greenfield,D,28216
+statewide,Senate,Story,Joni Ernst,R,20750
+statewide,Senate,Story,Rick Stewart,L,1133
+statewide,Senate,Story,Suzanne Herzog,I,370
+statewide,Senate,Story,Write-ins,W,44
+statewide,Senate,Tama,Joni Ernst,R,5090
+statewide,Senate,Tama,Theresa Greenfield,D,3588
+statewide,Senate,Tama,Rick Stewart,L,205
+statewide,Senate,Tama,Suzanne Herzog,I,79
+statewide,Senate,Tama,Write-ins,W,8
+statewide,Senate,Taylor,Joni Ernst,R,2337
+statewide,Senate,Taylor,Theresa Greenfield,D,762
+statewide,Senate,Taylor,Rick Stewart,L,83
+statewide,Senate,Taylor,Suzanne Herzog,I,28
+statewide,Senate,Taylor,Write-ins,W,0
+statewide,Senate,Union,Joni Ernst,R,3820
+statewide,Senate,Union,Theresa Greenfield,D,2051
+statewide,Senate,Union,Rick Stewart,L,172
+statewide,Senate,Union,Suzanne Herzog,I,76
+statewide,Senate,Union,Write-ins,W,5
+statewide,Senate,Van Buren,Joni Ernst,R,2583
+statewide,Senate,Van Buren,Theresa Greenfield,D,1065
+statewide,Senate,Van Buren,Rick Stewart,L,75
+statewide,Senate,Van Buren,Suzanne Herzog,I,28
+statewide,Senate,Van Buren,Write-ins,W,1
+statewide,Senate,Wapello,Joni Ernst,R,8464
+statewide,Senate,Wapello,Theresa Greenfield,D,6344
+statewide,Senate,Wapello,Rick Stewart,L,394
+statewide,Senate,Wapello,Suzanne Herzog,I,132
+statewide,Senate,Wapello,Write-ins,W,14
+statewide,Senate,Warren,Joni Ernst,R,17276
+statewide,Senate,Warren,Theresa Greenfield,D,12478
+statewide,Senate,Warren,Rick Stewart,L,692
+statewide,Senate,Warren,Suzanne Herzog,I,234
+statewide,Senate,Warren,Write-ins,W,23
+statewide,Senate,Washington,Joni Ernst,R,6773
+statewide,Senate,Washington,Theresa Greenfield,D,4519
+statewide,Senate,Washington,Rick Stewart,L,262
+statewide,Senate,Washington,Suzanne Herzog,I,95
+statewide,Senate,Washington,Write-ins,W,5
+statewide,Senate,Wayne,Joni Ernst,R,2186
+statewide,Senate,Wayne,Theresa Greenfield,D,784
+statewide,Senate,Wayne,Rick Stewart,L,53
+statewide,Senate,Wayne,Suzanne Herzog,I,28
+statewide,Senate,Wayne,Write-ins,W,4
+statewide,Senate,Webster,Joni Ernst,R,10195
+statewide,Senate,Webster,Theresa Greenfield,D,6845
+statewide,Senate,Webster,Rick Stewart,L,403
+statewide,Senate,Webster,Suzanne Herzog,I,173
+statewide,Senate,Webster,Write-ins,W,19
+statewide,Senate,Winnebago,Joni Ernst,R,3336
+statewide,Senate,Winnebago,Theresa Greenfield,D,2361
+statewide,Senate,Winnebago,Rick Stewart,L,153
+statewide,Senate,Winnebago,Suzanne Herzog,I,72
+statewide,Senate,Winnebago,Write-ins,W,4
+statewide,Senate,Winneshiek,Joni Ernst,R,6039
+statewide,Senate,Winneshiek,Theresa Greenfield,D,5581
+statewide,Senate,Winneshiek,Rick Stewart,L,218
+statewide,Senate,Winneshiek,Suzanne Herzog,I,118
+statewide,Senate,Winneshiek,Write-ins,W,4
+statewide,Senate,Woodbury,Joni Ernst,R,24175
+statewide,Senate,Woodbury,Theresa Greenfield,D,18674
+statewide,Senate,Woodbury,Rick Stewart,L,994
+statewide,Senate,Woodbury,Suzanne Herzog,I,629
+statewide,Senate,Woodbury,Write-ins,W,72
+statewide,Senate,Worth,Joni Ernst,R,2425
+statewide,Senate,Worth,Theresa Greenfield,D,1803
+statewide,Senate,Worth,Rick Stewart,L,98
+statewide,Senate,Worth,Suzanne Herzog,I,46
+statewide,Senate,Worth,Write-ins,W,5
+statewide,Senate,Wright,Joni Ernst,R,3889
+statewide,Senate,Wright,Theresa Greenfield,D,2063
+statewide,Senate,Wright,Rick Stewart,L,158
+statewide,Senate,Wright,Suzanne Herzog,I,76
+statewide,Senate,Wright,Write-ins,W,2
+ushouse,1,Allamakee,Ashley Hinson,R,4595
+ushouse,1,Allamakee,Abby Finkenauer,D,2697
+ushouse,1,Allamakee,Write-ins,W,3
+ushouse,1,Benton,Ashley Hinson,R,9165
+ushouse,1,Benton,Abby Finkenauer,D,5307
+ushouse,1,Benton,Write-ins,W,17
+ushouse,1,Black Hawk,Abby Finkenauer,D,36060
+ushouse,1,Black Hawk,Ashley Hinson,R,29333
+ushouse,1,Black Hawk,Write-ins,W,75
+ushouse,1,Bremer,Ashley Hinson,R,8000
+ushouse,1,Bremer,Abby Finkenauer,D,6036
+ushouse,1,Bremer,Write-ins,W,10
+ushouse,1,Buchanan,Ashley Hinson,R,6180
+ushouse,1,Buchanan,Abby Finkenauer,D,4481
+ushouse,1,Buchanan,Write-ins,W,3
+ushouse,1,Clayton,Ashley Hinson,R,5895
+ushouse,1,Clayton,Abby Finkenauer,D,3590
+ushouse,1,Clayton,Write-ins,W,6
+ushouse,1,Delaware,Ashley Hinson,R,6608
+ushouse,1,Delaware,Abby Finkenauer,D,3280
+ushouse,1,Delaware,Write-ins,W,8
+ushouse,1,Dubuque,Abby Finkenauer,D,26541
+ushouse,1,Dubuque,Ashley Hinson,R,26263
+ushouse,1,Dubuque,Write-ins,W,55
+ushouse,1,Fayette,Ashley Hinson,R,5984
+ushouse,1,Fayette,Abby Finkenauer,D,4099
+ushouse,1,Fayette,Write-ins,W,3
+ushouse,1,Howard,Ashley Hinson,R,2944
+ushouse,1,Howard,Abby Finkenauer,D,1893
+ushouse,1,Howard,Write-ins,W,2
+ushouse,1,Iowa,Ashley Hinson,R,6041
+ushouse,1,Iowa,Abby Finkenauer,D,3543
+ushouse,1,Iowa,Write-ins,W,8
+ushouse,1,Jackson,Ashley Hinson,R,6225
+ushouse,1,Jackson,Abby Finkenauer,D,4340
+ushouse,1,Jackson,Write-ins,W,9
+ushouse,1,Jones,Ashley Hinson,R,6621
+ushouse,1,Jones,Abby Finkenauer,D,4242
+ushouse,1,Jones,Write-ins,W,8
+ushouse,1,Linn,Abby Finkenauer,D,69391
+ushouse,1,Linn,Ashley Hinson,R,56243
+ushouse,1,Linn,Write-ins,W,152
+ushouse,1,Marshall,Ashley Hinson,R,9176
+ushouse,1,Marshall,Abby Finkenauer,D,8176
+ushouse,1,Marshall,Write-ins,W,21
+ushouse,1,Mitchell,Ashley Hinson,R,3559
+ushouse,1,Mitchell,Abby Finkenauer,D,2016
+ushouse,1,Mitchell,Write-ins,W,3
+ushouse,1,Poweshiek,Ashley Hinson,R,5432
+ushouse,1,Poweshiek,Abby Finkenauer,D,4429
+ushouse,1,Poweshiek,Write-ins,W,23
+ushouse,1,Tama,Ashley Hinson,R,5150
+ushouse,1,Tama,Abby Finkenauer,D,3750
+ushouse,1,Tama,Write-ins,W,17
+ushouse,1,Winneshiek,Ashley Hinson,R,6041
+ushouse,1,Winneshiek,Abby Finkenauer,D,5807
+ushouse,1,Winneshiek,Write-ins,W,5
+ushouse,1,Worth,Ashley Hinson,R,2633
+ushouse,1,Worth,Abby Finkenauer,D,1669
+ushouse,1,Worth,Write-ins,W,6
+ushouse,2,Appanoose,Mariannette Miller-Meeks,R,4078
+ushouse,2,Appanoose,Rita R. Hart,D,1952
+ushouse,2,Appanoose,Write-ins,W,8
+ushouse,2,Cedar,Mariannette Miller-Meeks,R,5534
+ushouse,2,Cedar,Rita R. Hart,D,4629
+ushouse,2,Cedar,Write-ins,W,17
+ushouse,2,Clarke,Mariannette Miller-Meeks,R,2712
+ushouse,2,Clarke,Rita R. Hart,D,1639
+ushouse,2,Clarke,Write-ins,W,13
+ushouse,2,Clinton,Rita R. Hart,D,12997
+ushouse,2,Clinton,Mariannette Miller-Meeks,R,10945
+ushouse,2,Clinton,Write-ins,W,35
+ushouse,2,Davis,Mariannette Miller-Meeks,R,2795
+ushouse,2,Davis,Rita R. Hart,D,1129
+ushouse,2,Davis,Write-ins,W,7
+ushouse,2,Decatur,Mariannette Miller-Meeks,R,2347
+ushouse,2,Decatur,Rita R. Hart,D,1215
+ushouse,2,Decatur,Write-ins,W,9
+ushouse,2,Des Moines,Mariannette Miller-Meeks,R,9641
+ushouse,2,Des Moines,Rita R. Hart,D,9268
+ushouse,2,Des Moines,Write-ins,W,62
+ushouse,2,Henry,Mariannette Miller-Meeks,R,5857
+ushouse,2,Henry,Rita R. Hart,D,3607
+ushouse,2,Henry,Write-ins,W,23
+ushouse,2,Jasper,Mariannette Miller-Meeks,R,11181
+ushouse,2,Jasper,Rita R. Hart,D,8099
+ushouse,2,Jasper,Write-ins,W,36
+ushouse,2,Jefferson,Rita R. Hart,D,4374
+ushouse,2,Jefferson,Mariannette Miller-Meeks,R,4226
+ushouse,2,Jefferson,Write-ins,W,17
+ushouse,2,Johnson,Rita R. Hart,D,56129
+ushouse,2,Johnson,Mariannette Miller-Meeks,R,24101
+ushouse,2,Johnson,Write-ins,W,68
+ushouse,2,Keokuk,Mariannette Miller-Meeks,R,3461
+ushouse,2,Keokuk,Rita R. Hart,D,1571
+ushouse,2,Keokuk,Write-ins,W,8
+ushouse,2,Lee,Mariannette Miller-Meeks,R,9145
+ushouse,2,Lee,Rita R. Hart,D,6969
+ushouse,2,Lee,Write-ins,W,35
+ushouse,2,Louisa,Mariannette Miller-Meeks,R,3169
+ushouse,2,Louisa,Rita R. Hart,D,1917
+ushouse,2,Louisa,Write-ins,W,10
+ushouse,2,Lucas,Mariannette Miller-Meeks,R,2892
+ushouse,2,Lucas,Rita R. Hart,D,1297
+ushouse,2,Lucas,Write-ins,W,7
+ushouse,2,Mahaska,Mariannette Miller-Meeks,R,7575
+ushouse,2,Mahaska,Rita R. Hart,D,3076
+ushouse,2,Mahaska,Write-ins,W,26
+ushouse,2,Marion,Mariannette Miller-Meeks,R,12146
+ushouse,2,Marion,Rita R. Hart,D,6124
+ushouse,2,Marion,Write-ins,W,43
+ushouse,2,Monroe,Mariannette Miller-Meeks,R,2612
+ushouse,2,Monroe,Rita R. Hart,D,1203
+ushouse,2,Monroe,Write-ins,W,6
+ushouse,2,Muscatine,Mariannette Miller-Meeks,R,10279
+ushouse,2,Muscatine,Rita R. Hart,D,9731
+ushouse,2,Muscatine,Write-ins,W,37
+ushouse,2,Scott,Rita R. Hart,D,47562
+ushouse,2,Scott,Mariannette Miller-Meeks,R,42046
+ushouse,2,Scott,Write-ins,W,168
+ushouse,2,Van Buren,Mariannette Miller-Meeks,R,2759
+ushouse,2,Van Buren,Rita R. Hart,D,941
+ushouse,2,Van Buren,Write-ins,W,4
+ushouse,2,Wapello,Mariannette Miller-Meeks,R,8780
+ushouse,2,Wapello,Rita R. Hart,D,6153
+ushouse,2,Wapello,Write-ins,W,36
+ushouse,2,Washington,Mariannette Miller-Meeks,R,6633
+ushouse,2,Washington,Rita R. Hart,D,4650
+ushouse,2,Washington,Write-ins,W,23
+ushouse,2,Wayne,Mariannette Miller-Meeks,R,2050
+ushouse,2,Wayne,Rita R. Hart,D,726
+ushouse,2,Wayne,Write-ins,W,5
+ushouse,3,Adair,David Young,R,2655
+ushouse,3,Adair,Cindy Axne,D,1263
+ushouse,3,Adair,Bryan Jack Holder,L,137
+ushouse,3,Adair,Write-ins,W,5
+ushouse,3,Adams,David Young,R,1416
+ushouse,3,Adams,Cindy Axne,D,634
+ushouse,3,Adams,Bryan Jack Holder,L,79
+ushouse,3,Adams,Write-ins,W,4
+ushouse,3,Cass,David Young,R,4626
+ushouse,3,Cass,Cindy Axne,D,2210
+ushouse,3,Cass,Bryan Jack Holder,L,187
+ushouse,3,Cass,Write-ins,W,10
+ushouse,3,Dallas,David Young,R,27907
+ushouse,3,Dallas,Cindy Axne,D,25367
+ushouse,3,Dallas,Bryan Jack Holder,L,1596
+ushouse,3,Dallas,Write-ins,W,40
+ushouse,3,Fremont,David Young,R,2340
+ushouse,3,Fremont,Cindy Axne,D,1297
+ushouse,3,Fremont,Bryan Jack Holder,L,113
+ushouse,3,Fremont,Write-ins,W,7
+ushouse,3,Guthrie,David Young,R,3890
+ushouse,3,Guthrie,Cindy Axne,D,2095
+ushouse,3,Guthrie,Bryan Jack Holder,L,270
+ushouse,3,Guthrie,Write-ins,W,8
+ushouse,3,Madison,David Young,R,5995
+ushouse,3,Madison,Cindy Axne,D,3264
+ushouse,3,Madison,Bryan Jack Holder,L,354
+ushouse,3,Madison,Write-ins,W,4
+ushouse,3,Mills,David Young,R,5163
+ushouse,3,Mills,Cindy Axne,D,2617
+ushouse,3,Mills,Bryan Jack Holder,L,269
+ushouse,3,Mills,Write-ins,W,7
+ushouse,3,Montgomery,David Young,R,3428
+ushouse,3,Montgomery,Cindy Axne,D,1636
+ushouse,3,Montgomery,Bryan Jack Holder,L,138
+ushouse,3,Montgomery,Write-ins,W,4
+ushouse,3,Page,David Young,R,4889
+ushouse,3,Page,Cindy Axne,D,2288
+ushouse,3,Page,Bryan Jack Holder,L,193
+ushouse,3,Page,Write-ins,W,6
+ushouse,3,Polk,Cindy Axne,D,141567
+ushouse,3,Polk,David Young,R,102320
+ushouse,3,Polk,Bryan Jack Holder,L,8361
+ushouse,3,Polk,Write-ins,W,223
+ushouse,3,Pottawattamie,David Young,R,24256
+ushouse,3,Pottawattamie,Cindy Axne,D,18424
+ushouse,3,Pottawattamie,Bryan Jack Holder,L,2095
+ushouse,3,Pottawattamie,Write-ins,W,27
+ushouse,3,Ringgold,David Young,R,1789
+ushouse,3,Ringgold,Cindy Axne,D,823
+ushouse,3,Ringgold,Bryan Jack Holder,L,63
+ushouse,3,Ringgold,Write-ins,W,1
+ushouse,3,Taylor,David Young,R,2261
+ushouse,3,Taylor,Cindy Axne,D,821
+ushouse,3,Taylor,Bryan Jack Holder,L,87
+ushouse,3,Taylor,Write-ins,W,1
+ushouse,3,Union,David Young,R,3589
+ushouse,3,Union,Cindy Axne,D,2201
+ushouse,3,Union,Bryan Jack Holder,L,248
+ushouse,3,Union,Write-ins,W,6
+ushouse,3,Warren,David Young,R,16473
+ushouse,3,Warren,Cindy Axne,D,12698
+ushouse,3,Warren,Bryan Jack Holder,L,1171
+ushouse,3,Warren,Write-ins,W,31
+ushouse,4,Audubon,Randy Feenstra,R,1979
+ushouse,4,Audubon,J.D. Scholten,D,1134
+ushouse,4,Audubon,Write-ins,W,4
+ushouse,4,Boone,Randy Feenstra,R,8180
+ushouse,4,Boone,J.D. Scholten,D,6453
+ushouse,4,Boone,Write-ins,W,34
+ushouse,4,Buena Vista,Randy Feenstra,R,4698
+ushouse,4,Buena Vista,J.D. Scholten,D,3016
+ushouse,4,Buena Vista,Write-ins,W,20
+ushouse,4,Butler,Randy Feenstra,R,5157
+ushouse,4,Butler,J.D. Scholten,D,2413
+ushouse,4,Butler,Write-ins,W,14
+ushouse,4,Calhoun,Randy Feenstra,R,3473
+ushouse,4,Calhoun,J.D. Scholten,D,1570
+ushouse,4,Calhoun,Write-ins,W,16
+ushouse,4,Carroll,Randy Feenstra,R,6768
+ushouse,4,Carroll,J.D. Scholten,D,3805
+ushouse,4,Carroll,Write-ins,W,21
+ushouse,4,Cerro Gordo,Randy Feenstra,R,11736
+ushouse,4,Cerro Gordo,J.D. Scholten,D,10876
+ushouse,4,Cerro Gordo,Write-ins,W,32
+ushouse,4,Cherokee,Randy Feenstra,R,4168
+ushouse,4,Cherokee,J.D. Scholten,D,2090
+ushouse,4,Cherokee,Write-ins,W,17
+ushouse,4,Chickasaw,Randy Feenstra,R,4254
+ushouse,4,Chickasaw,J.D. Scholten,D,2092
+ushouse,4,Chickasaw,Write-ins,W,8
+ushouse,4,Clay,Randy Feenstra,R,5798
+ushouse,4,Clay,J.D. Scholten,D,2834
+ushouse,4,Clay,Write-ins,W,16
+ushouse,4,Crawford,Randy Feenstra,R,4215
+ushouse,4,Crawford,J.D. Scholten,D,2412
+ushouse,4,Crawford,Write-ins,W,14
+ushouse,4,Dickinson,Randy Feenstra,R,7205
+ushouse,4,Dickinson,J.D. Scholten,D,3575
+ushouse,4,Dickinson,Write-ins,W,11
+ushouse,4,Emmet,Randy Feenstra,R,3084
+ushouse,4,Emmet,J.D. Scholten,D,1565
+ushouse,4,Emmet,Write-ins,W,3
+ushouse,4,Floyd,Randy Feenstra,R,4478
+ushouse,4,Floyd,J.D. Scholten,D,3244
+ushouse,4,Floyd,Write-ins,W,13
+ushouse,4,Franklin,Randy Feenstra,R,3249
+ushouse,4,Franklin,J.D. Scholten,D,1634
+ushouse,4,Franklin,Write-ins,W,10
+ushouse,4,Greene,Randy Feenstra,R,2952
+ushouse,4,Greene,J.D. Scholten,D,1848
+ushouse,4,Greene,Write-ins,W,12
+ushouse,4,Grundy,Randy Feenstra,R,4906
+ushouse,4,Grundy,J.D. Scholten,D,2012
+ushouse,4,Grundy,Write-ins,W,13
+ushouse,4,Hamilton,Randy Feenstra,R,4690
+ushouse,4,Hamilton,J.D. Scholten,D,2947
+ushouse,4,Hamilton,Write-ins,W,14
+ushouse,4,Hancock,Randy Feenstra,R,4136
+ushouse,4,Hancock,J.D. Scholten,D,1772
+ushouse,4,Hancock,Write-ins,W,10
+ushouse,4,Hardin,Randy Feenstra,R,5758
+ushouse,4,Hardin,J.D. Scholten,D,2934
+ushouse,4,Hardin,Write-ins,W,10
+ushouse,4,Harrison,Randy Feenstra,R,5140
+ushouse,4,Harrison,J.D. Scholten,D,2498
+ushouse,4,Harrison,Write-ins,W,24
+ushouse,4,Humboldt,Randy Feenstra,R,3601
+ushouse,4,Humboldt,J.D. Scholten,D,1473
+ushouse,4,Humboldt,Write-ins,W,9
+ushouse,4,Ida,Randy Feenstra,R,2660
+ushouse,4,Ida,J.D. Scholten,D,1059
+ushouse,4,Ida,Write-ins,W,10
+ushouse,4,Kossuth,Randy Feenstra,R,5964
+ushouse,4,Kossuth,J.D. Scholten,D,2780
+ushouse,4,Kossuth,Write-ins,W,5
+ushouse,4,Lyon,Randy Feenstra,R,5556
+ushouse,4,Lyon,J.D. Scholten,D,1138
+ushouse,4,Lyon,Write-ins,W,7
+ushouse,4,Monona,Randy Feenstra,R,2974
+ushouse,4,Monona,J.D. Scholten,D,1547
+ushouse,4,Monona,Write-ins,W,22
+ushouse,4,O'Brien,Randy Feenstra,R,5744
+ushouse,4,O'Brien,J.D. Scholten,D,1615
+ushouse,4,O'Brien,Write-ins,W,17
+ushouse,4,Osceola,Randy Feenstra,R,2542
+ushouse,4,Osceola,J.D. Scholten,D,627
+ushouse,4,Osceola,Write-ins,W,5
+ushouse,4,Palo Alto,Randy Feenstra,R,3193
+ushouse,4,Palo Alto,J.D. Scholten,D,1621
+ushouse,4,Palo Alto,Write-ins,W,3
+ushouse,4,Plymouth,Randy Feenstra,R,10126
+ushouse,4,Plymouth,J.D. Scholten,D,3620
+ushouse,4,Plymouth,Write-ins,W,31
+ushouse,4,Pocahontas,Randy Feenstra,R,2584
+ushouse,4,Pocahontas,J.D. Scholten,D,1064
+ushouse,4,Pocahontas,Write-ins,W,15
+ushouse,4,Sac,Randy Feenstra,R,3745
+ushouse,4,Sac,J.D. Scholten,D,1540
+ushouse,4,Sac,Write-ins,W,28
+ushouse,4,Shelby,Randy Feenstra,R,4379
+ushouse,4,Shelby,J.D. Scholten,D,1962
+ushouse,4,Shelby,Write-ins,W,16
+ushouse,4,Sioux,Randy Feenstra,R,16017
+ushouse,4,Sioux,J.D. Scholten,D,2756
+ushouse,4,Sioux,Write-ins,W,53
+ushouse,4,Story,J.D. Scholten,D,28249
+ushouse,4,Story,Randy Feenstra,R,20694
+ushouse,4,Story,Write-ins,W,116
+ushouse,4,Webster,Randy Feenstra,R,10117
+ushouse,4,Webster,J.D. Scholten,D,6894
+ushouse,4,Webster,Write-ins,W,31
+ushouse,4,Winnebago,Randy Feenstra,R,3549
+ushouse,4,Winnebago,J.D. Scholten,D,2215
+ushouse,4,Winnebago,Write-ins,W,15
+ushouse,4,Woodbury,Randy Feenstra,R,24045
+ushouse,4,Woodbury,J.D. Scholten,D,19812
+ushouse,4,Woodbury,Write-ins,W,178
+ushouse,4,Wright,Randy Feenstra,R,3855
+ushouse,4,Wright,J.D. Scholten,D,2065
+ushouse,4,Wright,Write-ins,W,15

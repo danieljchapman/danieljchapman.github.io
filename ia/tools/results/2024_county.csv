@@ -1,0 +1,1880 @@
+level,office_or_district,county,candidate,party,votes
+house,1,Woodbury,J.D. Scholten,D,4615
+house,1,Woodbury,Josh Steinhoff,R,4017
+house,1,Woodbury,Write-ins,W,11
+house,10,Clay,John H. Wills,R,1024
+house,10,Clay,Write-ins,W,7
+house,10,Dickinson,John H. Wills,R,8921
+house,10,Dickinson,Write-ins,W,185
+house,10,Kossuth,John H. Wills,R,1464
+house,10,Kossuth,Write-ins,W,14
+house,10,Palo Alto,John H. Wills,R,3884
+house,10,Palo Alto,Write-ins,W,45
+house,100,Lee,Martin L. Graber,R,9466
+house,100,Lee,Nicolas Atwood,I,4489
+house,100,Lee,Write-ins,W,46
+house,11,Audubon,Craig Steven Williams,R,1962
+house,11,Audubon,Jeff Rich,D,825
+house,11,Audubon,Write-ins,W,0
+house,11,Carroll,Craig Steven Williams,R,7406
+house,11,Carroll,Jeff Rich,D,2711
+house,11,Carroll,Write-ins,W,10
+house,11,Pottawattamie,Craig Steven Williams,R,730
+house,11,Pottawattamie,Jeff Rich,D,331
+house,11,Pottawattamie,Write-ins,W,0
+house,11,Shelby,Craig Steven Williams,R,1283
+house,11,Shelby,Jeff Rich,D,462
+house,11,Shelby,Write-ins,W,4
+house,12,Crawford,Steven Holt,R,4401
+house,12,Crawford,Dustin Durbin,D,1908
+house,12,Crawford,Write-ins,W,7
+house,12,Ida,Steven Holt,R,2696
+house,12,Ida,Dustin Durbin,D,731
+house,12,Ida,Write-ins,W,5
+house,12,Shelby,Steven Holt,R,3172
+house,12,Shelby,Dustin Durbin,D,1004
+house,12,Shelby,Write-ins,W,6
+house,13,Cherokee,Travis M Sitzmann,R,1260
+house,13,Cherokee,Rosanne Plante,D,284
+house,13,Cherokee,Parker Hansen,I,174
+house,13,Cherokee,Write-ins,W,3
+house,13,Monona,Travis M Sitzmann,R,2930
+house,13,Monona,Rosanne Plante,D,1072
+house,13,Monona,Parker Hansen,I,268
+house,13,Monona,Write-ins,W,18
+house,13,Plymouth,Travis M Sitzmann,R,4458
+house,13,Plymouth,Rosanne Plante,D,872
+house,13,Plymouth,Parker Hansen,I,179
+house,13,Plymouth,Write-ins,W,3
+house,13,Woodbury,Travis M Sitzmann,R,3814
+house,13,Woodbury,Rosanne Plante,D,964
+house,13,Woodbury,Parker Hansen,I,749
+house,13,Woodbury,Write-ins,W,7
+house,14,Woodbury,Jacob Bossman,R,11116
+house,14,Woodbury,Write-ins,W,285
+house,15,Harrison,Matt W. Windschitl,R,5366
+house,15,Harrison,Benjamin Schauer,D,2204
+house,15,Harrison,Write-ins,W,22
+house,15,Pottawattamie,Matt W. Windschitl,R,7429
+house,15,Pottawattamie,Benjamin Schauer,D,3451
+house,15,Pottawattamie,Write-ins,W,9
+house,16,Fremont,David Sieck,R,2655
+house,16,Fremont,Candella Foley-Finchem,D,873
+house,16,Fremont,Write-ins,W,6
+house,16,Mills,David Sieck,R,5775
+house,16,Mills,Candella Foley-Finchem,D,1966
+house,16,Mills,Write-ins,W,18
+house,16,Pottawattamie,David Sieck,R,4446
+house,16,Pottawattamie,Candella Foley-Finchem,D,1426
+house,16,Pottawattamie,Write-ins,W,7
+house,17,Adams,Devon Wood,R,1726
+house,17,Adams,Write-ins,W,36
+house,17,Page,Devon Wood,R,2334
+house,17,Page,Write-ins,W,28
+house,17,Ringgold,Devon Wood,R,2171
+house,17,Ringgold,Write-ins,W,42
+house,17,Taylor,Devon Wood,R,2546
+house,17,Taylor,Write-ins,W,47
+house,17,Union,Devon Wood,R,3861
+house,17,Union,Write-ins,W,56
+house,18,Cass,Thomas Jay Moore,R,4814
+house,18,Cass,Tripp Narup,D,1596
+house,18,Cass,Write-ins,W,21
+house,18,Montgomery,Thomas Jay Moore,R,3384
+house,18,Montgomery,Tripp Narup,D,1318
+house,18,Montgomery,Write-ins,W,13
+house,18,Page,Thomas Jay Moore,R,2967
+house,18,Page,Tripp Narup,D,1024
+house,18,Page,Write-ins,W,12
+house,19,Pottawattamie,Brent Siegrist,R,7751
+house,19,Pottawattamie,Roger Petersen,D,5469
+house,19,Pottawattamie,Write-ins,W,26
+house,2,Woodbury,Robert Henderson,R,7130
+house,2,Woodbury,Jessica Lopez-Walker,D,4613
+house,2,Woodbury,Write-ins,W,18
+house,20,Pottawattamie,Josh Turek,D,5881
+house,20,Pottawattamie,James Wassell,R,5320
+house,20,Pottawattamie,Write-ins,W,7
+house,21,Marion,Brooke Boden,R,3678
+house,21,Marion,Spencer A Waugh,D,2073
+house,21,Marion,Write-ins,W,9
+house,21,Warren,Brooke Boden,R,6506
+house,21,Warren,Spencer A Waugh,D,5093
+house,21,Warren,Write-ins,W,14
+house,22,Warren,Samantha Fett,R,11861
+house,22,Warren,Rory D. Taylor,D,8134
+house,22,Warren,Write-ins,W,30
+house,23,Adair,Ray Bubba Sorensen,R,3027
+house,23,Adair,Karen Varley,D,982
+house,23,Adair,Write-ins,W,2
+house,23,Clarke,Ray Bubba Sorensen,R,561
+house,23,Clarke,Karen Varley,D,131
+house,23,Clarke,Write-ins,W,4
+house,23,Dallas,Ray Bubba Sorensen,R,1968
+house,23,Dallas,Karen Varley,D,871
+house,23,Dallas,Write-ins,W,3
+house,23,Madison,Ray Bubba Sorensen,R,6680
+house,23,Madison,Karen Varley,D,2802
+house,23,Madison,Write-ins,W,25
+house,23,Union,Ray Bubba Sorensen,R,601
+house,23,Union,Karen Varley,D,153
+house,23,Union,Write-ins,W,2
+house,24,Appanoose,Sam Wengryn,R,309
+house,24,Appanoose,Sonya Hicks,D,94
+house,24,Appanoose,Write-ins,W,1
+house,24,Clarke,Sam Wengryn,R,1984
+house,24,Clarke,Sonya Hicks,D,1636
+house,24,Clarke,Write-ins,W,13
+house,24,Decatur,Sam Wengryn,R,2465
+house,24,Decatur,Sonya Hicks,D,1078
+house,24,Decatur,Write-ins,W,15
+house,24,Lucas,Sam Wengryn,R,3071
+house,24,Lucas,Sonya Hicks,D,1236
+house,24,Lucas,Write-ins,W,0
+house,24,Wayne,Sam Wengryn,R,2072
+house,24,Wayne,Sonya Hicks,D,829
+house,24,Wayne,Write-ins,W,6
+house,25,Wapello,Hans Wilz,R,7972
+house,25,Wapello,Brenda Curran,D,4321
+house,25,Wapello,Write-ins,W,12
+house,26,Appanoose,Austin Harris,R,3866
+house,26,Appanoose,Darcie Whitlow,D,1504
+house,26,Appanoose,Donald Gier,L,381
+house,26,Appanoose,Write-ins,W,14
+house,26,Davis,Austin Harris,R,2845
+house,26,Davis,Darcie Whitlow,D,832
+house,26,Davis,Donald Gier,L,75
+house,26,Davis,Write-ins,W,10
+house,26,Monroe,Austin Harris,R,2779
+house,26,Monroe,Darcie Whitlow,D,948
+house,26,Monroe,Donald Gier,L,124
+house,26,Monroe,Write-ins,W,7
+house,26,Wapello,Austin Harris,R,1353
+house,26,Wapello,Darcie Whitlow,D,374
+house,26,Wapello,Donald Gier,L,54
+house,26,Wapello,Write-ins,W,1
+house,27,Dallas,Kenan Judge,D,11886
+house,27,Dallas,Oliver Bardwell,R,9429
+house,27,Dallas,Write-ins,W,18
+house,28,Dallas,David Young,R,10381
+house,28,Dallas,Laura Snider,D,9095
+house,28,Dallas,Write-ins,W,27
+house,29,Polk,Brian Meyer,D,7948
+house,29,Polk,Write-ins,W,355
+house,3,Plymouth,Thomas Jeneary,R,5986
+house,3,Plymouth,Emma Bouza,D,1593
+house,3,Plymouth,Write-ins,W,16
+house,3,Sioux,Thomas Jeneary,R,6026
+house,3,Sioux,Emma Bouza,D,1643
+house,3,Sioux,Write-ins,W,8
+house,30,Polk,Megan L. Srinivas,D,7515
+house,30,Polk,Jerry Cheevers,R,4477
+house,30,Polk,Write-ins,W,53
+house,31,Dallas,Mary Lee Madison,D,695
+house,31,Dallas,Write-ins,W,38
+house,31,Polk,Mary Lee Madison,D,11770
+house,31,Polk,Write-ins,W,475
+house,32,Polk,Jennifer Konfrst,D,11837
+house,32,Polk,Write-ins,W,500
+house,33,Polk,Ruth Ann Gaines,D,7058
+house,33,Polk,Toya S. Johnson,L,2181
+house,33,Polk,Write-ins,W,156
+house,34,Polk,Rob Johnson,D,7783
+house,34,Polk,Danielle Duggan,R,2345
+house,34,Polk,Write-ins,W,52
+house,35,Polk,Sean Bagniewski,D,10574
+house,35,Polk,Angela Kay Schreader,R,4503
+house,35,Polk,David G. Green,L,802
+house,35,Polk,Write-ins,W,45
+house,36,Polk,Austin Baeth,D,13031
+house,36,Polk,Write-ins,W,315
+house,37,Jasper,Barb Kniff McCulla,R,2710
+house,37,Jasper,Write-ins,W,44
+house,37,Mahaska,Barb Kniff McCulla,R,1660
+house,37,Mahaska,Write-ins,W,17
+house,37,Marion,Barb Kniff McCulla,R,10585
+house,37,Marion,Write-ins,W,197
+house,38,Jasper,Jon Dunwell,R,9035
+house,38,Jasper,Brad Magg,D,7164
+house,38,Jasper,Write-ins,W,8
+house,39,Polk,Rick L. Olson,D,7511
+house,39,Polk,Troy Clark,R,6217
+house,39,Polk,Write-ins,W,35
+house,4,Lyon,Skyler Wheeler,R,5710
+house,4,Lyon,Write-ins,W,58
+house,4,Sioux,Skyler Wheeler,R,8582
+house,4,Sioux,Write-ins,W,214
+house,40,Polk,Bill Gustoff,R,8720
+house,40,Polk,Heather Sievers,D,8402
+house,40,Polk,Write-ins,W,24
+house,41,Polk,Ryan Weldon,R,10707
+house,41,Polk,Molly Buck,D,10569
+house,41,Polk,Write-ins,W,33
+house,42,Polk,Heather Matson,D,9108
+house,42,Polk,Heather Stephenson,R,8959
+house,42,Polk,Write-ins,W,27
+house,43,Polk,Eddie Andrews,R,9598
+house,43,Polk,Tiara Mays-Sims,D,8959
+house,43,Polk,Brett Harvey Nelson,I,280
+house,43,Polk,Write-ins,W,23
+house,44,Polk,Larry McBurney,D,9769
+house,44,Polk,Jake Heard,L,5313
+house,44,Polk,Write-ins,W,122
+house,45,Polk,Brian K. Lohse,R,12827
+house,45,Polk,Anthony William Thompson,D,6998
+house,45,Polk,Write-ins,W,40
+house,46,Dallas,Dan Gehlbach,R,6232
+house,46,Dallas,Lynne Campbell,D,4741
+house,46,Dallas,Write-ins,W,7
+house,46,Polk,Dan Gehlbach,R,4636
+house,46,Polk,Lynne Campbell,D,4093
+house,46,Polk,Write-ins,W,13
+house,47,Dallas,Carter Nordman,R,2827
+house,47,Dallas,Joe Shelly,D,2267
+house,47,Dallas,Write-ins,W,11
+house,47,Greene,Carter Nordman,R,2855
+house,47,Greene,Joe Shelly,D,1413
+house,47,Greene,Write-ins,W,5
+house,47,Guthrie,Carter Nordman,R,4274
+house,47,Guthrie,Joe Shelly,D,1890
+house,47,Guthrie,Write-ins,W,9
+house,48,Boone,Chad Behn,R,9126
+house,48,Boone,Penny Vossler,D,5531
+house,48,Boone,Write-ins,W,26
+house,48,Story,Chad Behn,R,1528
+house,48,Story,Penny Vossler,D,1491
+house,48,Story,Write-ins,W,3
+house,49,Story,Beth Wessel-Kroeschell,D,7500
+house,49,Story,Eric Cooper,L,2639
+house,49,Story,Write-ins,W,92
+house,5,Buena Vista,Zachary M. Dieken,R,852
+house,5,Buena Vista,Michael Schnoes,I,308
+house,5,Buena Vista,Write-ins,W,3
+house,5,Cherokee,Zachary M. Dieken,R,2574
+house,5,Cherokee,Michael Schnoes,I,1095
+house,5,Cherokee,Write-ins,W,7
+house,5,O'Brien,Zachary M. Dieken,R,5261
+house,5,O'Brien,Michael Schnoes,I,1357
+house,5,O'Brien,Write-ins,W,15
+house,5,Osceola,Zachary M. Dieken,R,2459
+house,5,Osceola,Michael Schnoes,I,376
+house,5,Osceola,Write-ins,W,11
+house,50,Story,Ross Wilburn,D,11802
+house,50,Story,Write-ins,W,363
+house,51,Marshall,Brett Barker,R,3100
+house,51,Marshall,Ryan Condon,D,1307
+house,51,Marshall,Write-ins,W,5
+house,51,Story,Brett Barker,R,8175
+house,51,Story,Ryan Condon,D,5412
+house,51,Story,Write-ins,W,26
+house,52,Marshall,David Blom,R,6437
+house,52,Marshall,Sue Cahill,D,5869
+house,52,Marshall,Write-ins,W,10
+house,53,Poweshiek,Dean Fisher,R,5311
+house,53,Poweshiek,Tommy Hexter,D,4193
+house,53,Poweshiek,Write-ins,W,16
+house,53,Tama,Dean Fisher,R,3578
+house,53,Tama,Tommy Hexter,D,2552
+house,53,Tama,Write-ins,W,8
+house,54,Black Hawk,Joshua Meggers,R,1328
+house,54,Black Hawk,Write-ins,W,22
+house,54,Grundy,Joshua Meggers,R,5767
+house,54,Grundy,Write-ins,W,87
+house,54,Hardin,Joshua Meggers,R,6340
+house,54,Hardin,Write-ins,W,102
+house,55,Franklin,Shannon Latham,R,4051
+house,55,Franklin,Write-ins,W,66
+house,55,Hamilton,Shannon Latham,R,5874
+house,55,Hamilton,Write-ins,W,92
+house,55,Story,Shannon Latham,R,2567
+house,55,Story,Write-ins,W,62
+house,55,Wright,Shannon Latham,R,511
+house,55,Wright,Write-ins,W,8
+house,56,Hancock,Mark I. Thompson,R,4154
+house,56,Hancock,Kyle Kruse,D,1445
+house,56,Hancock,Write-ins,W,9
+house,56,Humboldt,Mark I. Thompson,R,3597
+house,56,Humboldt,Kyle Kruse,D,1145
+house,56,Humboldt,Write-ins,W,4
+house,56,Wright,Mark I. Thompson,R,3416
+house,56,Wright,Kyle Kruse,D,1286
+house,56,Wright,Write-ins,W,10
+house,57,Bremer,Pat Grassley,R,5467
+house,57,Bremer,Shawn Ellerbroek,D,4657
+house,57,Bremer,Write-ins,W,8
+house,57,Butler,Pat Grassley,R,5402
+house,57,Butler,Shawn Ellerbroek,D,2523
+house,57,Butler,Write-ins,W,10
+house,58,Bremer,Charley Thomson,R,2776
+house,58,Bremer,Gail Allison,D,1339
+house,58,Bremer,Write-ins,W,2
+house,58,Chickasaw,Charley Thomson,R,3731
+house,58,Chickasaw,Gail Allison,D,2089
+house,58,Chickasaw,Write-ins,W,9
+house,58,Floyd,Charley Thomson,R,3553
+house,58,Floyd,Gail Allison,D,2354
+house,58,Floyd,Write-ins,W,10
+house,59,Cerro Gordo,Christian Hermanson,R,8069
+house,59,Cerro Gordo,Jeremy True,D,7698
+house,59,Cerro Gordo,Write-ins,W,15
+house,6,Buena Vista,Megan Jones,R,4216
+house,6,Buena Vista,Write-ins,W,89
+house,6,Clay,Megan Jones,R,5804
+house,6,Clay,Write-ins,W,145
+house,60,Cerro Gordo,Jane E. Bloomingdale,R,4803
+house,60,Cerro Gordo,Write-ins,W,92
+house,60,Floyd,Jane E. Bloomingdale,R,1227
+house,60,Floyd,Write-ins,W,11
+house,60,Mitchell,Jane E. Bloomingdale,R,4856
+house,60,Mitchell,Write-ins,W,48
+house,60,Worth,Jane E. Bloomingdale,R,3573
+house,60,Worth,Write-ins,W,89
+house,61,Black Hawk,Timi Brown-Powers,D,9230
+house,61,Black Hawk,Write-ins,W,215
+house,62,Black Hawk,Jerome Amos Jr,D,7135
+house,62,Black Hawk,Ervin Sabic,L,2273
+house,62,Black Hawk,Write-ins,W,67
+house,63,Fayette,Michael R. Bergan,R,1125
+house,63,Fayette,Write-ins,W,42
+house,63,Howard,Michael R. Bergan,R,3965
+house,63,Howard,Write-ins,W,61
+house,63,Winneshiek,Michael R. Bergan,R,8476
+house,63,Winneshiek,Write-ins,W,185
+house,64,Allamakee,Jason Gearhart,R,4575
+house,64,Allamakee,Ian Zahren,I,2245
+house,64,Allamakee,Write-ins,W,20
+house,64,Clayton,Jason Gearhart,R,5903
+house,64,Clayton,Ian Zahren,I,2780
+house,64,Clayton,Write-ins,W,24
+house,64,Dubuque,Jason Gearhart,R,346
+house,64,Dubuque,Ian Zahren,I,89
+house,64,Dubuque,Write-ins,W,1
+house,65,Dubuque,Shannon Lundgren,R,11934
+house,65,Dubuque,Carolyn Wiezorek,D,6623
+house,65,Dubuque,Write-ins,W,20
+house,66,Jackson,Steven P Bradley,R,3859
+house,66,Jackson,Andy McKean,D,2590
+house,66,Jackson,Write-ins,W,4
+house,66,Jones,Steven P Bradley,R,5682
+house,66,Jones,Andy McKean,D,5080
+house,66,Jones,Write-ins,W,9
+house,67,Buchanan,Craig Johnson,R,5105
+house,67,Buchanan,Write-ins,W,188
+house,67,Delaware,Craig Johnson,R,8045
+house,67,Delaware,Write-ins,W,60
+house,67,Dubuque,Craig Johnson,R,1028
+house,67,Dubuque,Write-ins,W,17
+house,68,Black Hawk,Chad Ingels,R,2155
+house,68,Black Hawk,Tim O'Brien,D,1087
+house,68,Black Hawk,Write-ins,W,2
+house,68,Buchanan,Chad Ingels,R,2628
+house,68,Buchanan,Tim O'Brien,D,1286
+house,68,Buchanan,Write-ins,W,3
+house,68,Fayette,Chad Ingels,R,5572
+house,68,Fayette,Tim O'Brien,D,2664
+house,68,Fayette,Write-ins,W,9
+house,69,Clinton,Tom Determann,R,8568
+house,69,Clinton,Randy Meier,D,6454
+house,69,Clinton,Write-ins,W,9
+house,7,Calhoun,Mike Sexton,R,3670
+house,7,Calhoun,Martin Podraza,I,1007
+house,7,Calhoun,Write-ins,W,20
+house,7,Pocahontas,Mike Sexton,R,2727
+house,7,Pocahontas,Martin Podraza,I,464
+house,7,Pocahontas,Write-ins,W,9
+house,7,Sac,Mike Sexton,R,4057
+house,7,Sac,Martin Podraza,I,642
+house,7,Sac,Write-ins,W,30
+house,7,Webster,Mike Sexton,R,2289
+house,7,Webster,Martin Podraza,I,352
+house,7,Webster,Write-ins,W,7
+house,70,Clinton,Norlin Mommsen,R,5172
+house,70,Clinton,Kay Pence,D,2992
+house,70,Clinton,Write-ins,W,14
+house,70,Jackson,Norlin Mommsen,R,2018
+house,70,Jackson,Kay Pence,D,1703
+house,70,Jackson,Write-ins,W,6
+house,70,Scott,Norlin Mommsen,R,3471
+house,70,Scott,Kay Pence,D,2013
+house,70,Scott,Write-ins,W,2
+house,71,Dubuque,Lindsay James,D,7971
+house,71,Dubuque,James W. McClain,R,6220
+house,71,Dubuque,Write-ins,W,21
+house,72,Dubuque,Jennifer J. Smith,R,8575
+house,72,Dubuque,Charles Isenhart,D,7513
+house,72,Dubuque,Write-ins,W,26
+house,73,Linn,Elizabeth Wilson,D,12213
+house,73,Linn,Write-ins,W,574
+house,74,Linn,Eric Gjerde,D,11368
+house,74,Linn,Write-ins,W,427
+house,75,Black Hawk,Bob Kressig,D,11529
+house,75,Black Hawk,Write-ins,W,271
+house,76,Benton,Derek Wulf,R,445
+house,76,Benton,Jarred Johnston,D,120
+house,76,Benton,Write-ins,W,1
+house,76,Black Hawk,Derek Wulf,R,8313
+house,76,Black Hawk,Jarred Johnston,D,5986
+house,76,Black Hawk,Write-ins,W,16
+house,76,Tama,Derek Wulf,R,1589
+house,76,Tama,Jarred Johnston,D,656
+house,76,Tama,Write-ins,W,2
+house,77,Linn,Jeff Cooling,D,9523
+house,77,Linn,Write-ins,W,330
+house,78,Linn,Sami Scheetz,D,10803
+house,78,Linn,Write-ins,W,365
+house,79,Linn,Tracy Ehlert,D,9222
+house,79,Linn,Barclay Woerner,R,5947
+house,79,Linn,Write-ins,W,19
+house,8,Webster,Ann Meyer,R,10459
+house,8,Webster,Write-ins,W,272
+house,80,Linn,Aime J. Wichtendahl,D,9070
+house,80,Linn,John Thompson,R,8242
+house,80,Linn,Write-ins,W,17
+house,81,Scott,Daniel Gosa,D,9806
+house,81,Scott,Write-ins,W,576
+house,82,Cedar,Bobby Kaufmann,R,6443
+house,82,Cedar,Phil Wiese,D,3924
+house,82,Cedar,Write-ins,W,5
+house,82,Muscatine,Bobby Kaufmann,R,1611
+house,82,Muscatine,Phil Wiese,D,1508
+house,82,Muscatine,Write-ins,W,2
+house,82,Scott,Bobby Kaufmann,R,2258
+house,82,Scott,Phil Wiese,D,1284
+house,82,Scott,Write-ins,W,2
+house,83,Linn,Cindy Golding,R,11321
+house,83,Linn,Kent McNally,D,7947
+house,83,Linn,Write-ins,W,14
+house,84,Benton,Thomas Gerhold,R,9126
+house,84,Benton,Ashley Meredith,L,3192
+house,84,Benton,Write-ins,W,63
+house,84,Linn,Thomas Gerhold,R,2546
+house,84,Linn,Ashley Meredith,L,1058
+house,84,Linn,Write-ins,W,36
+house,85,Johnson,Amy Nielsen,D,13794
+house,85,Johnson,Write-ins,W,326
+house,86,Johnson,Dave Jacoby,D,12544
+house,86,Johnson,Stephen Knoner,R,3934
+house,86,Johnson,Write-ins,W,26
+house,87,Henry,Jeff Shipley,R,2920
+house,87,Henry,Thomas O'Donnell,D,1417
+house,87,Henry,Curtis Oliver,I,130
+house,87,Henry,Write-ins,W,11
+house,87,Jefferson,Thomas O'Donnell,D,3292
+house,87,Jefferson,Jeff Shipley,R,2776
+house,87,Jefferson,Curtis Oliver,I,189
+house,87,Jefferson,Write-ins,W,12
+house,87,Van Buren,Jeff Shipley,R,2525
+house,87,Van Buren,Thomas O'Donnell,D,946
+house,87,Van Buren,Curtis Oliver,I,67
+house,87,Van Buren,Write-ins,W,2
+house,88,Jefferson,Helena Hayes,R,1416
+house,88,Jefferson,Write-ins,W,19
+house,88,Keokuk,Helena Hayes,R,3851
+house,88,Keokuk,Write-ins,W,47
+house,88,Mahaska,Helena Hayes,R,6924
+house,88,Mahaska,Write-ins,W,218
+house,89,Johnson,Elinor A. Levin,D,11945
+house,89,Johnson,Write-ins,W,155
+house,9,Emmet,Henry Stone,R,3282
+house,9,Emmet,Christian He-Man Schlaerth,D,1069
+house,9,Emmet,Write-ins,W,6
+house,9,Kossuth,Henry Stone,R,4678
+house,9,Kossuth,Christian He-Man Schlaerth,D,1540
+house,9,Kossuth,Write-ins,W,6
+house,9,Winnebago,Henry Stone,R,3784
+house,9,Winnebago,Christian He-Man Schlaerth,D,1661
+house,9,Winnebago,Write-ins,W,9
+house,90,Johnson,Adam Zabner,D,14477
+house,90,Johnson,Write-ins,W,219
+house,91,Iowa,Judd Lawler,R,5423
+house,91,Iowa,Jay Gorsh,D,3820
+house,91,Iowa,Write-ins,W,7
+house,91,Johnson,Judd Lawler,R,5223
+house,91,Johnson,Jay Gorsh,D,4942
+house,91,Johnson,Write-ins,W,9
+house,92,Johnson,Anna Banowsky,D,2225
+house,92,Johnson,Heather Hora,R,2075
+house,92,Johnson,Write-ins,W,9
+house,92,Washington,Heather Hora,R,7315
+house,92,Washington,Anna Banowsky,D,3848
+house,92,Washington,Write-ins,W,17
+house,93,Scott,Gary Mohr,R,11630
+house,93,Scott,Mindy Smith-Pace,D,7681
+house,93,Scott,Write-ins,W,24
+house,94,Scott,Mike Vondran,R,10151
+house,94,Scott,Tracy J. Jones,D,7465
+house,94,Scott,Write-ins,W,27
+house,95,Des Moines,Taylor Collins,R,3204
+house,95,Des Moines,Jeff Poulter,D,1365
+house,95,Des Moines,Write-ins,W,14
+house,95,Henry,Taylor Collins,R,3095
+house,95,Henry,Jeff Poulter,D,1182
+house,95,Henry,Write-ins,W,9
+house,95,Louisa,Taylor Collins,R,3449
+house,95,Louisa,Jeff Poulter,D,1342
+house,95,Louisa,Write-ins,W,9
+house,95,Muscatine,Taylor Collins,R,1536
+house,95,Muscatine,Jeff Poulter,D,634
+house,95,Muscatine,Write-ins,W,2
+house,96,Muscatine,Mark Cisneros,R,8071
+house,96,Muscatine,Mandy Moody,D,5649
+house,96,Muscatine,Write-ins,W,19
+house,97,Scott,Ken Croken,D,7753
+house,97,Scott,Josue Rodriguez,R,5429
+house,97,Scott,Write-ins,W,17
+house,98,Scott,Monica Kurth,D,6585
+house,98,Scott,Nathan Ramker,R,6540
+house,98,Scott,Write-ins,W,29
+house,99,Des Moines,Matthew Rinker,R,7033
+house,99,Des Moines,Jim Beres,D,5884
+house,99,Des Moines,Write-ins,W,32
+house,99,Lee,Matthew Rinker,R,722
+house,99,Lee,Jim Beres,D,278
+house,99,Lee,Write-ins,W,6
+senate,10,Pottawattamie,Dan Dawson,R,13840
+senate,10,Pottawattamie,Steve Gorman,D,10842
+senate,10,Pottawattamie,Write-ins,W,27
+senate,12,Adair,Amy Sinclair,R,2777
+senate,12,Adair,Nicole Loew,D,1063
+senate,12,Adair,Write-ins,W,0
+senate,12,Appanoose,Amy Sinclair,R,330
+senate,12,Appanoose,Nicole Loew,D,95
+senate,12,Appanoose,Write-ins,W,0
+senate,12,Clarke,Amy Sinclair,R,3046
+senate,12,Clarke,Nicole Loew,D,1294
+senate,12,Clarke,Write-ins,W,6
+senate,12,Dallas,Amy Sinclair,R,1973
+senate,12,Dallas,Nicole Loew,D,859
+senate,12,Dallas,Write-ins,W,3
+senate,12,Decatur,Amy Sinclair,R,2553
+senate,12,Decatur,Nicole Loew,D,1013
+senate,12,Decatur,Write-ins,W,4
+senate,12,Lucas,Amy Sinclair,R,3103
+senate,12,Lucas,Nicole Loew,D,1366
+senate,12,Lucas,Write-ins,W,0
+senate,12,Madison,Amy Sinclair,R,6610
+senate,12,Madison,Nicole Loew,D,2892
+senate,12,Madison,Write-ins,W,22
+senate,12,Union,Amy Sinclair,R,541
+senate,12,Union,Nicole Loew,D,179
+senate,12,Union,Write-ins,W,2
+senate,12,Wayne,Amy Sinclair,R,2142
+senate,12,Wayne,Nicole Loew,D,921
+senate,12,Wayne,Write-ins,W,6
+senate,14,Dallas,Sarah Trone Garriott,D,20467
+senate,14,Dallas,Mark A. Hanson,R,20438
+senate,14,Dallas,Write-ins,W,59
+senate,16,Dallas,Claire Celsi,D,600
+senate,16,Dallas,Joshua Smith,L,271
+senate,16,Dallas,Write-ins,W,13
+senate,16,Polk,Claire Celsi,D,20957
+senate,16,Polk,Joshua Smith,L,8913
+senate,16,Polk,Write-ins,W,283
+senate,18,Polk,Janet Petersen,D,25564
+senate,18,Polk,Write-ins,W,766
+senate,2,Lyon,Jeff Taylor,R,5636
+senate,2,Lyon,Write-ins,W,35
+senate,2,Plymouth,Jeff Taylor,R,6079
+senate,2,Plymouth,Write-ins,W,68
+senate,2,Sioux,Jeff Taylor,R,15723
+senate,2,Sioux,Write-ins,W,142
+senate,20,Polk,Mike Pike,R,15644
+senate,20,Polk,Nate Boulton,D,15600
+senate,20,Polk,Write-ins,W,66
+senate,22,Polk,Matt Blake,D,19128
+senate,22,Polk,Brad Zaun,R,17336
+senate,22,Polk,Write-ins,W,64
+senate,24,Boone,Jesse Green,R,9175
+senate,24,Boone,Margaret Liston,D,5558
+senate,24,Boone,Write-ins,W,23
+senate,24,Dallas,Jesse Green,R,2864
+senate,24,Dallas,Margaret Liston,D,2250
+senate,24,Dallas,Write-ins,W,8
+senate,24,Greene,Jesse Green,R,3086
+senate,24,Greene,Margaret Liston,D,1437
+senate,24,Greene,Write-ins,W,5
+senate,24,Guthrie,Jesse Green,R,4353
+senate,24,Guthrie,Margaret Liston,D,1837
+senate,24,Guthrie,Write-ins,W,11
+senate,24,Story,Jesse Green,R,1526
+senate,24,Story,Margaret Liston,D,1498
+senate,24,Story,Write-ins,W,3
+senate,26,Marshall,Kara Warme,R,9539
+senate,26,Marshall,Mike Wolfe,D,6866
+senate,26,Marshall,Write-ins,W,24
+senate,26,Story,Kara Warme,R,8428
+senate,26,Story,Mike Wolfe,D,5255
+senate,26,Story,Write-ins,W,24
+senate,28,Franklin,Dennis Guth,R,3223
+senate,28,Franklin,Cynthia Oppedal Paschen,D,1284
+senate,28,Franklin,Write-ins,W,4
+senate,28,Hamilton,Dennis Guth,R,4666
+senate,28,Hamilton,Cynthia Oppedal Paschen,D,2415
+senate,28,Hamilton,Write-ins,W,12
+senate,28,Hancock,Dennis Guth,R,4234
+senate,28,Hancock,Cynthia Oppedal Paschen,D,1445
+senate,28,Hancock,Write-ins,W,10
+senate,28,Humboldt,Dennis Guth,R,3520
+senate,28,Humboldt,Cynthia Oppedal Paschen,D,1148
+senate,28,Humboldt,Write-ins,W,5
+senate,28,Story,Dennis Guth,R,1838
+senate,28,Story,Cynthia Oppedal Paschen,D,1457
+senate,28,Story,Write-ins,W,8
+senate,28,Wright,Dennis Guth,R,3704
+senate,28,Wright,Cynthia Oppedal Paschen,D,1553
+senate,28,Wright,Write-ins,W,19
+senate,30,Cerro Gordo,Doug Campbell,R,12608
+senate,30,Cerro Gordo,Richard Lorence,D,9288
+senate,30,Cerro Gordo,Write-ins,W,43
+senate,30,Floyd,Doug Campbell,R,988
+senate,30,Floyd,Richard Lorence,D,478
+senate,30,Floyd,Write-ins,W,0
+senate,30,Mitchell,Doug Campbell,R,3826
+senate,30,Mitchell,Richard Lorence,D,1719
+senate,30,Mitchell,Write-ins,W,9
+senate,30,Worth,Doug Campbell,R,2850
+senate,30,Worth,Richard Lorence,D,1277
+senate,30,Worth,Write-ins,W,6
+senate,32,Allamakee,Mike Klimesh,R,4698
+senate,32,Allamakee,Brian Bruening,D,2327
+senate,32,Allamakee,Write-ins,W,6
+senate,32,Clayton,Mike Klimesh,R,6120
+senate,32,Clayton,Brian Bruening,D,2921
+senate,32,Clayton,Write-ins,W,3
+senate,32,Dubuque,Mike Klimesh,R,329
+senate,32,Dubuque,Brian Bruening,D,128
+senate,32,Dubuque,Write-ins,W,2
+senate,32,Fayette,Mike Klimesh,R,1020
+senate,32,Fayette,Brian Bruening,D,317
+senate,32,Fayette,Write-ins,W,0
+senate,32,Howard,Mike Klimesh,R,3077
+senate,32,Howard,Brian Bruening,D,1594
+senate,32,Howard,Write-ins,W,3
+senate,32,Winneshiek,Mike Klimesh,R,6853
+senate,32,Winneshiek,Brian Bruening,D,4793
+senate,32,Winneshiek,Write-ins,W,13
+senate,34,Black Hawk,Dan Zumbach,R,2213
+senate,34,Black Hawk,Joe Hegland,D,1049
+senate,34,Black Hawk,Write-ins,W,5
+senate,34,Buchanan,Dan Zumbach,R,6781
+senate,34,Buchanan,Joe Hegland,D,3490
+senate,34,Buchanan,Write-ins,W,15
+senate,34,Delaware,Dan Zumbach,R,6908
+senate,34,Delaware,Joe Hegland,D,3020
+senate,34,Delaware,Write-ins,W,8
+senate,34,Dubuque,Dan Zumbach,R,821
+senate,34,Dubuque,Joe Hegland,D,450
+senate,34,Dubuque,Write-ins,W,1
+senate,34,Fayette,Dan Zumbach,R,5239
+senate,34,Fayette,Joe Hegland,D,2928
+senate,34,Fayette,Write-ins,W,7
+senate,36,Dubuque,Thomas Townsend,D,15274
+senate,36,Dubuque,Nicholas Molo,R,14958
+senate,36,Dubuque,Write-ins,W,43
+senate,38,Benton,Dave Sires,R,434
+senate,38,Benton,Eric Giddens,D,141
+senate,38,Benton,Write-ins,W,4
+senate,38,Black Hawk,Eric Giddens,D,15927
+senate,38,Black Hawk,Dave Sires,R,15303
+senate,38,Black Hawk,Write-ins,W,31
+senate,38,Tama,Dave Sires,R,1495
+senate,38,Tama,Eric Giddens,D,778
+senate,38,Tama,Write-ins,W,3
+senate,4,Calhoun,Tim Kraayenbrink,R,4007
+senate,4,Calhoun,Write-ins,W,56
+senate,4,Pocahontas,Tim Kraayenbrink,R,2857
+senate,4,Pocahontas,Write-ins,W,31
+senate,4,Sac,Tim Kraayenbrink,R,4226
+senate,4,Sac,Write-ins,W,49
+senate,4,Webster,Tim Kraayenbrink,R,12637
+senate,4,Webster,Write-ins,W,395
+senate,40,Linn,Art Staed,D,18157
+senate,40,Linn,Kris G Gulick,R,14763
+senate,40,Linn,Write-ins,W,30
+senate,42,Benton,Charlie McClintock,R,10900
+senate,42,Benton,Write-ins,W,170
+senate,42,Linn,Charlie McClintock,R,16826
+senate,42,Linn,Write-ins,W,622
+senate,44,Henry,Adrian Dickey,R,2956
+senate,44,Henry,Lisa Ossian,I,1341
+senate,44,Henry,Write-ins,W,17
+senate,44,Jefferson,Adrian Dickey,R,4155
+senate,44,Jefferson,Lisa Ossian,I,3552
+senate,44,Jefferson,Write-ins,W,25
+senate,44,Keokuk,Adrian Dickey,R,3389
+senate,44,Keokuk,Lisa Ossian,I,1221
+senate,44,Keokuk,Write-ins,W,6
+senate,44,Mahaska,Adrian Dickey,R,5965
+senate,44,Mahaska,Lisa Ossian,I,2023
+senate,44,Mahaska,Write-ins,W,27
+senate,44,Van Buren,Adrian Dickey,R,2742
+senate,44,Van Buren,Lisa Ossian,I,689
+senate,44,Van Buren,Write-ins,W,6
+senate,46,Iowa,Dawn Driscoll,R,6554
+senate,46,Iowa,Ed Chabal,D,2830
+senate,46,Iowa,Write-ins,W,8
+senate,46,Johnson,Dawn Driscoll,R,7614
+senate,46,Johnson,Ed Chabal,D,6897
+senate,46,Johnson,Write-ins,W,14
+senate,46,Washington,Dawn Driscoll,R,7131
+senate,46,Washington,Ed Chabal,D,4042
+senate,46,Washington,Write-ins,W,16
+senate,48,Des Moines,Mark S. Lofgren,R,3390
+senate,48,Des Moines,John Dabeet,D,1192
+senate,48,Des Moines,Write-ins,W,17
+senate,48,Henry,Mark S. Lofgren,R,3167
+senate,48,Henry,John Dabeet,D,1115
+senate,48,Henry,Write-ins,W,10
+senate,48,Louisa,Mark S. Lofgren,R,3571
+senate,48,Louisa,John Dabeet,D,1357
+senate,48,Louisa,Write-ins,W,6
+senate,48,Muscatine,Mark S. Lofgren,R,9627
+senate,48,Muscatine,John Dabeet,D,6617
+senate,48,Muscatine,Write-ins,W,12
+senate,50,Des Moines,Jeff Reichman,R,6658
+senate,50,Des Moines,Nannette Griffin,D,6140
+senate,50,Des Moines,Write-ins,W,25
+senate,50,Lee,Jeff Reichman,R,10077
+senate,50,Lee,Nannette Griffin,D,5729
+senate,50,Lee,Write-ins,W,25
+senate,6,Audubon,Jason Schultz,R,2101
+senate,6,Audubon,David M. Davis,L,546
+senate,6,Audubon,Write-ins,W,2
+senate,6,Carroll,Jason Schultz,R,7803
+senate,6,Carroll,David M. Davis,L,1798
+senate,6,Carroll,Write-ins,W,28
+senate,6,Crawford,Jason Schultz,R,4933
+senate,6,Crawford,David M. Davis,L,1089
+senate,6,Crawford,Write-ins,W,27
+senate,6,Ida,Jason Schultz,R,2904
+senate,6,Ida,David M. Davis,L,510
+senate,6,Ida,Write-ins,W,11
+senate,6,Pottawattamie,Jason Schultz,R,774
+senate,6,Pottawattamie,David M. Davis,L,252
+senate,6,Pottawattamie,Write-ins,W,2
+senate,6,Shelby,Jason Schultz,R,4593
+senate,6,Shelby,David M. Davis,L,1142
+senate,6,Shelby,Write-ins,W,20
+senate,8,Fremont,Mark Costello,R,2592
+senate,8,Fremont,Ryan Lee Roenfeld,D,956
+senate,8,Fremont,Write-ins,W,6
+senate,8,Harrison,Mark Costello,R,5238
+senate,8,Harrison,Ryan Lee Roenfeld,D,2123
+senate,8,Harrison,Write-ins,W,29
+senate,8,Mills,Mark Costello,R,5326
+senate,8,Mills,Ryan Lee Roenfeld,D,2388
+senate,8,Mills,Write-ins,W,21
+senate,8,Pottawattamie,Mark Costello,R,11913
+senate,8,Pottawattamie,Ryan Lee Roenfeld,D,4965
+senate,8,Pottawattamie,Write-ins,W,17
+statewide,President,Adair,Donald J. Trump,R,2916
+statewide,President,Adair,Kamala D. Harris,D,1086
+statewide,President,Adair,Robert F. Kennedy Jr,O,34
+statewide,President,Adair,Chase Oliver,L,20
+statewide,President,Adair,Write-ins,W,16
+statewide,President,Adair,Shiva Ayyadurai,I,5
+statewide,President,Adair,William P. Stodden,O,2
+statewide,President,Adair,Claudia De la Cruz,O,1
+statewide,President,Adams,Donald J. Trump,R,1517
+statewide,President,Adams,Kamala D. Harris,D,576
+statewide,President,Adams,Robert F. Kennedy Jr,O,28
+statewide,President,Adams,Chase Oliver,L,9
+statewide,President,Adams,Write-ins,W,4
+statewide,President,Adams,Shiva Ayyadurai,I,1
+statewide,President,Adams,Claudia De la Cruz,O,0
+statewide,President,Adams,William P. Stodden,O,0
+statewide,President,Allamakee,Donald J. Trump,R,4857
+statewide,President,Allamakee,Kamala D. Harris,D,2350
+statewide,President,Allamakee,Robert F. Kennedy Jr,O,55
+statewide,President,Allamakee,Chase Oliver,L,28
+statewide,President,Allamakee,Write-ins,W,15
+statewide,President,Allamakee,Claudia De la Cruz,O,7
+statewide,President,Allamakee,Shiva Ayyadurai,I,5
+statewide,President,Allamakee,William P. Stodden,O,1
+statewide,President,Appanoose,Donald J. Trump,R,4704
+statewide,President,Appanoose,Kamala D. Harris,D,1686
+statewide,President,Appanoose,Robert F. Kennedy Jr,O,48
+statewide,President,Appanoose,Chase Oliver,L,22
+statewide,President,Appanoose,Write-ins,W,18
+statewide,President,Appanoose,Claudia De la Cruz,O,5
+statewide,President,Appanoose,William P. Stodden,O,1
+statewide,President,Appanoose,Shiva Ayyadurai,I,0
+statewide,President,Audubon,Donald J. Trump,R,2214
+statewide,President,Audubon,Kamala D. Harris,D,970
+statewide,President,Audubon,Robert F. Kennedy Jr,O,39
+statewide,President,Audubon,Write-ins,W,10
+statewide,President,Audubon,Chase Oliver,L,8
+statewide,President,Audubon,Claudia De la Cruz,O,5
+statewide,President,Audubon,Shiva Ayyadurai,I,2
+statewide,President,Audubon,William P. Stodden,O,1
+statewide,President,Benton,Donald J. Trump,R,9549
+statewide,President,Benton,Kamala D. Harris,D,4739
+statewide,President,Benton,Robert F. Kennedy Jr,O,101
+statewide,President,Benton,Chase Oliver,L,65
+statewide,President,Benton,Write-ins,W,39
+statewide,President,Benton,Shiva Ayyadurai,I,9
+statewide,President,Benton,Claudia De la Cruz,O,7
+statewide,President,Benton,William P. Stodden,O,0
+statewide,President,Black Hawk,Kamala D. Harris,D,31299
+statewide,President,Black Hawk,Donald J. Trump,R,30572
+statewide,President,Black Hawk,Robert F. Kennedy Jr,O,443
+statewide,President,Black Hawk,Write-ins,W,253
+statewide,President,Black Hawk,Chase Oliver,L,248
+statewide,President,Black Hawk,Claudia De la Cruz,O,49
+statewide,President,Black Hawk,Shiva Ayyadurai,I,25
+statewide,President,Black Hawk,William P. Stodden,O,17
+statewide,President,Boone,Donald J. Trump,R,9199
+statewide,President,Boone,Kamala D. Harris,D,5895
+statewide,President,Boone,Robert F. Kennedy Jr,O,151
+statewide,President,Boone,Chase Oliver,L,80
+statewide,President,Boone,Write-ins,W,57
+statewide,President,Boone,Claudia De la Cruz,O,14
+statewide,President,Boone,William P. Stodden,O,4
+statewide,President,Boone,Shiva Ayyadurai,I,3
+statewide,President,Bremer,Donald J. Trump,R,8799
+statewide,President,Bremer,Kamala D. Harris,D,5571
+statewide,President,Bremer,Robert F. Kennedy Jr,O,113
+statewide,President,Bremer,Chase Oliver,L,65
+statewide,President,Bremer,Write-ins,W,51
+statewide,President,Bremer,Shiva Ayyadurai,I,4
+statewide,President,Bremer,William P. Stodden,O,3
+statewide,President,Bremer,Claudia De la Cruz,O,1
+statewide,President,Buchanan,Donald J. Trump,R,6790
+statewide,President,Buchanan,Kamala D. Harris,D,3766
+statewide,President,Buchanan,Robert F. Kennedy Jr,O,104
+statewide,President,Buchanan,Chase Oliver,L,45
+statewide,President,Buchanan,Write-ins,W,36
+statewide,President,Buchanan,Claudia De la Cruz,O,4
+statewide,President,Buchanan,William P. Stodden,O,3
+statewide,President,Buchanan,Shiva Ayyadurai,I,2
+statewide,President,Buena Vista,Donald J. Trump,R,4962
+statewide,President,Buena Vista,Kamala D. Harris,D,2462
+statewide,President,Buena Vista,Robert F. Kennedy Jr,O,56
+statewide,President,Buena Vista,Chase Oliver,L,22
+statewide,President,Buena Vista,Write-ins,W,21
+statewide,President,Buena Vista,Claudia De la Cruz,O,6
+statewide,President,Buena Vista,William P. Stodden,O,6
+statewide,President,Buena Vista,Shiva Ayyadurai,I,2
+statewide,President,Butler,Donald J. Trump,R,5784
+statewide,President,Butler,Kamala D. Harris,D,2144
+statewide,President,Butler,Robert F. Kennedy Jr,O,69
+statewide,President,Butler,Chase Oliver,L,23
+statewide,President,Butler,Write-ins,W,19
+statewide,President,Butler,Claudia De la Cruz,O,5
+statewide,President,Butler,William P. Stodden,O,2
+statewide,President,Butler,Shiva Ayyadurai,I,0
+statewide,President,Calhoun,Donald J. Trump,R,3708
+statewide,President,Calhoun,Kamala D. Harris,D,1328
+statewide,President,Calhoun,Robert F. Kennedy Jr,O,41
+statewide,President,Calhoun,Chase Oliver,L,15
+statewide,President,Calhoun,Write-ins,W,4
+statewide,President,Calhoun,Claudia De la Cruz,O,1
+statewide,President,Calhoun,Shiva Ayyadurai,I,0
+statewide,President,Calhoun,William P. Stodden,O,0
+statewide,President,Carroll,Donald J. Trump,R,7814
+statewide,President,Carroll,Kamala D. Harris,D,3153
+statewide,President,Carroll,Robert F. Kennedy Jr,O,114
+statewide,President,Carroll,Chase Oliver,L,29
+statewide,President,Carroll,Write-ins,W,20
+statewide,President,Carroll,Claudia De la Cruz,O,6
+statewide,President,Carroll,Shiva Ayyadurai,I,2
+statewide,President,Carroll,William P. Stodden,O,2
+statewide,President,Cass,Donald J. Trump,R,5007
+statewide,President,Cass,Kamala D. Harris,D,2077
+statewide,President,Cass,Robert F. Kennedy Jr,O,76
+statewide,President,Cass,Chase Oliver,L,30
+statewide,President,Cass,Write-ins,W,22
+statewide,President,Cass,William P. Stodden,O,3
+statewide,President,Cass,Shiva Ayyadurai,I,1
+statewide,President,Cass,Claudia De la Cruz,O,1
+statewide,President,Cedar,Donald J. Trump,R,6390
+statewide,President,Cedar,Kamala D. Harris,D,4075
+statewide,President,Cedar,Robert F. Kennedy Jr,O,97
+statewide,President,Cedar,Chase Oliver,L,46
+statewide,President,Cedar,Write-ins,W,20
+statewide,President,Cedar,Claudia De la Cruz,O,8
+statewide,President,Cedar,Shiva Ayyadurai,I,6
+statewide,President,Cedar,William P. Stodden,O,2
+statewide,President,Cerro Gordo,Donald J. Trump,R,12627
+statewide,President,Cerro Gordo,Kamala D. Harris,D,9955
+statewide,President,Cerro Gordo,Robert F. Kennedy Jr,O,229
+statewide,President,Cerro Gordo,Chase Oliver,L,103
+statewide,President,Cerro Gordo,Write-ins,W,78
+statewide,President,Cerro Gordo,Claudia De la Cruz,O,18
+statewide,President,Cerro Gordo,Shiva Ayyadurai,I,6
+statewide,President,Cerro Gordo,William P. Stodden,O,4
+statewide,President,Cherokee,Donald J. Trump,R,4398
+statewide,President,Cherokee,Kamala D. Harris,D,1611
+statewide,President,Cherokee,Robert F. Kennedy Jr,O,51
+statewide,President,Cherokee,Chase Oliver,L,23
+statewide,President,Cherokee,Write-ins,W,16
+statewide,President,Cherokee,Shiva Ayyadurai,I,2
+statewide,President,Cherokee,Claudia De la Cruz,O,2
+statewide,President,Cherokee,William P. Stodden,O,2
+statewide,President,Chickasaw,Donald J. Trump,R,4234
+statewide,President,Chickasaw,Kamala D. Harris,D,1919
+statewide,President,Chickasaw,Robert F. Kennedy Jr,O,60
+statewide,President,Chickasaw,Chase Oliver,L,11
+statewide,President,Chickasaw,Write-ins,W,9
+statewide,President,Chickasaw,Claudia De la Cruz,O,4
+statewide,President,Chickasaw,William P. Stodden,O,2
+statewide,President,Chickasaw,Shiva Ayyadurai,I,0
+statewide,President,Clarke,Donald J. Trump,R,3140
+statewide,President,Clarke,Kamala D. Harris,D,1265
+statewide,President,Clarke,Robert F. Kennedy Jr,O,40
+statewide,President,Clarke,Write-ins,W,20
+statewide,President,Clarke,Chase Oliver,L,10
+statewide,President,Clarke,Claudia De la Cruz,O,3
+statewide,President,Clarke,William P. Stodden,O,1
+statewide,President,Clarke,Shiva Ayyadurai,I,0
+statewide,President,Clay,Donald J. Trump,R,6047
+statewide,President,Clay,Kamala D. Harris,D,2367
+statewide,President,Clay,Robert F. Kennedy Jr,O,59
+statewide,President,Clay,Chase Oliver,L,33
+statewide,President,Clay,Write-ins,W,27
+statewide,President,Clay,Claudia De la Cruz,O,5
+statewide,President,Clay,Shiva Ayyadurai,I,2
+statewide,President,Clay,William P. Stodden,O,1
+statewide,President,Clayton,Donald J. Trump,R,6255
+statewide,President,Clayton,Kamala D. Harris,D,3017
+statewide,President,Clayton,Robert F. Kennedy Jr,O,63
+statewide,President,Clayton,Chase Oliver,L,34
+statewide,President,Clayton,Write-ins,W,19
+statewide,President,Clayton,Shiva Ayyadurai,I,6
+statewide,President,Clayton,Claudia De la Cruz,O,5
+statewide,President,Clayton,William P. Stodden,O,1
+statewide,President,Clinton,Donald J. Trump,R,13964
+statewide,President,Clinton,Kamala D. Harris,D,9472
+statewide,President,Clinton,Robert F. Kennedy Jr,O,250
+statewide,President,Clinton,Chase Oliver,L,91
+statewide,President,Clinton,Write-ins,W,65
+statewide,President,Clinton,Claudia De la Cruz,O,21
+statewide,President,Clinton,William P. Stodden,O,8
+statewide,President,Clinton,Shiva Ayyadurai,I,7
+statewide,President,Crawford,Donald J. Trump,R,4651
+statewide,President,Crawford,Kamala D. Harris,D,1812
+statewide,President,Crawford,Robert F. Kennedy Jr,O,45
+statewide,President,Crawford,Write-ins,W,20
+statewide,President,Crawford,Chase Oliver,L,11
+statewide,President,Crawford,Claudia De la Cruz,O,3
+statewide,President,Crawford,Shiva Ayyadurai,I,2
+statewide,President,Crawford,William P. Stodden,O,1
+statewide,President,Dallas,Donald J. Trump,R,32374
+statewide,President,Dallas,Kamala D. Harris,D,29402
+statewide,President,Dallas,Robert F. Kennedy Jr,O,479
+statewide,President,Dallas,Write-ins,W,328
+statewide,President,Dallas,Chase Oliver,L,321
+statewide,President,Dallas,Claudia De la Cruz,O,43
+statewide,President,Dallas,Shiva Ayyadurai,I,8
+statewide,President,Dallas,William P. Stodden,O,6
+statewide,President,Davis,Donald J. Trump,R,3027
+statewide,President,Davis,Kamala D. Harris,D,878
+statewide,President,Davis,Robert F. Kennedy Jr,O,38
+statewide,President,Davis,Chase Oliver,L,6
+statewide,President,Davis,Write-ins,W,4
+statewide,President,Davis,Claudia De la Cruz,O,1
+statewide,President,Davis,Shiva Ayyadurai,I,0
+statewide,President,Davis,William P. Stodden,O,0
+statewide,President,Decatur,Donald J. Trump,R,2711
+statewide,President,Decatur,Kamala D. Harris,D,957
+statewide,President,Decatur,Robert F. Kennedy Jr,O,42
+statewide,President,Decatur,Chase Oliver,L,13
+statewide,President,Decatur,Write-ins,W,12
+statewide,President,Decatur,William P. Stodden,O,2
+statewide,President,Decatur,Shiva Ayyadurai,I,1
+statewide,President,Decatur,Claudia De la Cruz,O,1
+statewide,President,Delaware,Donald J. Trump,R,6984
+statewide,President,Delaware,Kamala D. Harris,D,2978
+statewide,President,Delaware,Robert F. Kennedy Jr,O,91
+statewide,President,Delaware,Chase Oliver,L,51
+statewide,President,Delaware,Write-ins,W,26
+statewide,President,Delaware,Claudia De la Cruz,O,4
+statewide,President,Delaware,William P. Stodden,O,3
+statewide,President,Delaware,Shiva Ayyadurai,I,1
+statewide,President,Des Moines,Donald J. Trump,R,10794
+statewide,President,Des Moines,Kamala D. Harris,D,7935
+statewide,President,Des Moines,Robert F. Kennedy Jr,O,170
+statewide,President,Des Moines,Chase Oliver,L,80
+statewide,President,Des Moines,Write-ins,W,56
+statewide,President,Des Moines,Claudia De la Cruz,O,11
+statewide,President,Des Moines,Shiva Ayyadurai,I,6
+statewide,President,Des Moines,William P. Stodden,O,2
+statewide,President,Dickinson,Donald J. Trump,R,7775
+statewide,President,Dickinson,Kamala D. Harris,D,3297
+statewide,President,Dickinson,Robert F. Kennedy Jr,O,80
+statewide,President,Dickinson,Write-ins,W,42
+statewide,President,Dickinson,Chase Oliver,L,34
+statewide,President,Dickinson,Claudia De la Cruz,O,3
+statewide,President,Dickinson,Shiva Ayyadurai,I,2
+statewide,President,Dickinson,William P. Stodden,O,1
+statewide,President,Dubuque,Donald J. Trump,R,28224
+statewide,President,Dubuque,Kamala D. Harris,D,23705
+statewide,President,Dubuque,Robert F. Kennedy Jr,O,377
+statewide,President,Dubuque,Write-ins,W,204
+statewide,President,Dubuque,Chase Oliver,L,203
+statewide,President,Dubuque,Claudia De la Cruz,O,40
+statewide,President,Dubuque,William P. Stodden,O,12
+statewide,President,Dubuque,Shiva Ayyadurai,I,5
+statewide,President,Emmet,Donald J. Trump,R,3422
+statewide,President,Emmet,Kamala D. Harris,D,1315
+statewide,President,Emmet,Robert F. Kennedy Jr,O,31
+statewide,President,Emmet,Chase Oliver,L,12
+statewide,President,Emmet,Write-ins,W,12
+statewide,President,Emmet,Claudia De la Cruz,O,4
+statewide,President,Emmet,Shiva Ayyadurai,I,1
+statewide,President,Emmet,William P. Stodden,O,1
+statewide,President,Fayette,Donald J. Trump,R,6325
+statewide,President,Fayette,Kamala D. Harris,D,3334
+statewide,President,Fayette,Robert F. Kennedy Jr,O,104
+statewide,President,Fayette,Chase Oliver,L,45
+statewide,President,Fayette,Write-ins,W,31
+statewide,President,Fayette,Claudia De la Cruz,O,7
+statewide,President,Fayette,William P. Stodden,O,2
+statewide,President,Fayette,Shiva Ayyadurai,I,0
+statewide,President,Floyd,Donald J. Trump,R,4744
+statewide,President,Floyd,Kamala D. Harris,D,2782
+statewide,President,Floyd,Robert F. Kennedy Jr,O,63
+statewide,President,Floyd,Chase Oliver,L,29
+statewide,President,Floyd,Write-ins,W,25
+statewide,President,Floyd,Claudia De la Cruz,O,5
+statewide,President,Floyd,Shiva Ayyadurai,I,1
+statewide,President,Floyd,William P. Stodden,O,1
+statewide,President,Franklin,Donald J. Trump,R,3431
+statewide,President,Franklin,Kamala D. Harris,D,1393
+statewide,President,Franklin,Robert F. Kennedy Jr,O,38
+statewide,President,Franklin,Chase Oliver,L,18
+statewide,President,Franklin,Write-ins,W,15
+statewide,President,Franklin,Shiva Ayyadurai,I,3
+statewide,President,Franklin,Claudia De la Cruz,O,1
+statewide,President,Franklin,William P. Stodden,O,1
+statewide,President,Fremont,Donald J. Trump,R,2711
+statewide,President,Fremont,Kamala D. Harris,D,1023
+statewide,President,Fremont,Robert F. Kennedy Jr,O,35
+statewide,President,Fremont,Chase Oliver,L,15
+statewide,President,Fremont,Write-ins,W,10
+statewide,President,Fremont,Claudia De la Cruz,O,1
+statewide,President,Fremont,Shiva Ayyadurai,I,0
+statewide,President,Fremont,William P. Stodden,O,0
+statewide,President,Greene,Donald J. Trump,R,3211
+statewide,President,Greene,Kamala D. Harris,D,1603
+statewide,President,Greene,Robert F. Kennedy Jr,O,34
+statewide,President,Greene,Chase Oliver,L,24
+statewide,President,Greene,Write-ins,W,7
+statewide,President,Greene,Claudia De la Cruz,O,2
+statewide,President,Greene,Shiva Ayyadurai,I,0
+statewide,President,Greene,William P. Stodden,O,0
+statewide,President,Grundy,Donald J. Trump,R,4998
+statewide,President,Grundy,Kamala D. Harris,D,2019
+statewide,President,Grundy,Robert F. Kennedy Jr,O,84
+statewide,President,Grundy,Chase Oliver,L,23
+statewide,President,Grundy,Write-ins,W,15
+statewide,President,Grundy,William P. Stodden,O,4
+statewide,President,Grundy,Shiva Ayyadurai,I,2
+statewide,President,Grundy,Claudia De la Cruz,O,1
+statewide,President,Guthrie,Donald J. Trump,R,4446
+statewide,President,Guthrie,Kamala D. Harris,D,1974
+statewide,President,Guthrie,Robert F. Kennedy Jr,O,62
+statewide,President,Guthrie,Chase Oliver,L,29
+statewide,President,Guthrie,Write-ins,W,29
+statewide,President,Guthrie,Claudia De la Cruz,O,3
+statewide,President,Guthrie,Shiva Ayyadurai,I,0
+statewide,President,Guthrie,William P. Stodden,O,0
+statewide,President,Hamilton,Donald J. Trump,R,5004
+statewide,President,Hamilton,Kamala D. Harris,D,2482
+statewide,President,Hamilton,Robert F. Kennedy Jr,O,51
+statewide,President,Hamilton,Chase Oliver,L,28
+statewide,President,Hamilton,Write-ins,W,24
+statewide,President,Hamilton,Claudia De la Cruz,O,4
+statewide,President,Hamilton,Shiva Ayyadurai,I,3
+statewide,President,Hamilton,William P. Stodden,O,1
+statewide,President,Hancock,Donald J. Trump,R,4336
+statewide,President,Hancock,Kamala D. Harris,D,1523
+statewide,President,Hancock,Robert F. Kennedy Jr,O,48
+statewide,President,Hancock,Chase Oliver,L,21
+statewide,President,Hancock,Write-ins,W,6
+statewide,President,Hancock,Shiva Ayyadurai,I,3
+statewide,President,Hancock,Claudia De la Cruz,O,1
+statewide,President,Hancock,William P. Stodden,O,1
+statewide,President,Hardin,Donald J. Trump,R,5790
+statewide,President,Hardin,Kamala D. Harris,D,2553
+statewide,President,Hardin,Robert F. Kennedy Jr,O,50
+statewide,President,Hardin,Chase Oliver,L,27
+statewide,President,Hardin,Write-ins,W,26
+statewide,President,Hardin,Claudia De la Cruz,O,6
+statewide,President,Hardin,William P. Stodden,O,5
+statewide,President,Hardin,Shiva Ayyadurai,I,3
+statewide,President,Harrison,Donald J. Trump,R,5566
+statewide,President,Harrison,Kamala D. Harris,D,2245
+statewide,President,Harrison,Robert F. Kennedy Jr,O,83
+statewide,President,Harrison,Chase Oliver,L,36
+statewide,President,Harrison,Write-ins,W,21
+statewide,President,Harrison,Claudia De la Cruz,O,4
+statewide,President,Harrison,William P. Stodden,O,3
+statewide,President,Harrison,Shiva Ayyadurai,I,1
+statewide,President,Henry,Donald J. Trump,R,6439
+statewide,President,Henry,Kamala D. Harris,D,2995
+statewide,President,Henry,Robert F. Kennedy Jr,O,88
+statewide,President,Henry,Chase Oliver,L,32
+statewide,President,Henry,Write-ins,W,26
+statewide,President,Henry,Claudia De la Cruz,O,13
+statewide,President,Henry,Shiva Ayyadurai,I,5
+statewide,President,Henry,William P. Stodden,O,2
+statewide,President,Howard,Donald J. Trump,R,3157
+statewide,President,Howard,Kamala D. Harris,D,1619
+statewide,President,Howard,Robert F. Kennedy Jr,O,50
+statewide,President,Howard,Write-ins,W,13
+statewide,President,Howard,Chase Oliver,L,8
+statewide,President,Howard,Claudia De la Cruz,O,3
+statewide,President,Howard,Shiva Ayyadurai,I,0
+statewide,President,Howard,William P. Stodden,O,0
+statewide,President,Humboldt,Donald J. Trump,R,3770
+statewide,President,Humboldt,Kamala D. Harris,D,1236
+statewide,President,Humboldt,Robert F. Kennedy Jr,O,40
+statewide,President,Humboldt,Chase Oliver,L,17
+statewide,President,Humboldt,Write-ins,W,16
+statewide,President,Humboldt,Claudia De la Cruz,O,3
+statewide,President,Humboldt,William P. Stodden,O,1
+statewide,President,Humboldt,Shiva Ayyadurai,I,0
+statewide,President,Ida,Donald J. Trump,R,2771
+statewide,President,Ida,Kamala D. Harris,D,826
+statewide,President,Ida,Robert F. Kennedy Jr,O,29
+statewide,President,Ida,Write-ins,W,13
+statewide,President,Ida,Chase Oliver,L,11
+statewide,President,Ida,Claudia De la Cruz,O,4
+statewide,President,Ida,William P. Stodden,O,1
+statewide,President,Ida,Shiva Ayyadurai,I,0
+statewide,President,Iowa,Donald J. Trump,R,6068
+statewide,President,Iowa,Kamala D. Harris,D,3400
+statewide,President,Iowa,Robert F. Kennedy Jr,O,84
+statewide,President,Iowa,Chase Oliver,L,48
+statewide,President,Iowa,Write-ins,W,22
+statewide,President,Iowa,Claudia De la Cruz,O,8
+statewide,President,Iowa,Shiva Ayyadurai,I,5
+statewide,President,Iowa,William P. Stodden,O,4
+statewide,President,Jackson,Donald J. Trump,R,7074
+statewide,President,Jackson,Kamala D. Harris,D,3567
+statewide,President,Jackson,Robert F. Kennedy Jr,O,94
+statewide,President,Jackson,Chase Oliver,L,37
+statewide,President,Jackson,Write-ins,W,19
+statewide,President,Jackson,Claudia De la Cruz,O,6
+statewide,President,Jackson,William P. Stodden,O,3
+statewide,President,Jackson,Shiva Ayyadurai,I,1
+statewide,President,Jasper,Donald J. Trump,R,12701
+statewide,President,Jasper,Kamala D. Harris,D,7141
+statewide,President,Jasper,Robert F. Kennedy Jr,O,192
+statewide,President,Jasper,Chase Oliver,L,100
+statewide,President,Jasper,Write-ins,W,49
+statewide,President,Jasper,Shiva Ayyadurai,I,7
+statewide,President,Jasper,Claudia De la Cruz,O,7
+statewide,President,Jasper,William P. Stodden,O,1
+statewide,President,Jefferson,Donald J. Trump,R,4353
+statewide,President,Jefferson,Kamala D. Harris,D,3788
+statewide,President,Jefferson,Robert F. Kennedy Jr,O,106
+statewide,President,Jefferson,Chase Oliver,L,43
+statewide,President,Jefferson,Write-ins,W,29
+statewide,President,Jefferson,Shiva Ayyadurai,I,12
+statewide,President,Jefferson,Claudia De la Cruz,O,12
+statewide,President,Jefferson,William P. Stodden,O,3
+statewide,President,Johnson,Kamala D. Harris,D,58846
+statewide,President,Johnson,Donald J. Trump,R,26087
+statewide,President,Johnson,Write-ins,W,576
+statewide,President,Johnson,Robert F. Kennedy Jr,O,484
+statewide,President,Johnson,Chase Oliver,L,402
+statewide,President,Johnson,Claudia De la Cruz,O,218
+statewide,President,Johnson,William P. Stodden,O,17
+statewide,President,Johnson,Shiva Ayyadurai,I,14
+statewide,President,Jones,Donald J. Trump,R,6820
+statewide,President,Jones,Kamala D. Harris,D,3942
+statewide,President,Jones,Robert F. Kennedy Jr,O,121
+statewide,President,Jones,Chase Oliver,L,52
+statewide,President,Jones,Write-ins,W,31
+statewide,President,Jones,Claudia De la Cruz,O,7
+statewide,President,Jones,Shiva Ayyadurai,I,6
+statewide,President,Jones,William P. Stodden,O,1
+statewide,President,Keokuk,Donald J. Trump,R,3869
+statewide,President,Keokuk,Kamala D. Harris,D,1219
+statewide,President,Keokuk,Robert F. Kennedy Jr,O,42
+statewide,President,Keokuk,Chase Oliver,L,11
+statewide,President,Keokuk,Write-ins,W,8
+statewide,President,Keokuk,William P. Stodden,O,1
+statewide,President,Keokuk,Shiva Ayyadurai,I,0
+statewide,President,Keokuk,Claudia De la Cruz,O,0
+statewide,President,Kossuth,Donald J. Trump,R,5983
+statewide,President,Kossuth,Kamala D. Harris,D,2284
+statewide,President,Kossuth,Robert F. Kennedy Jr,O,78
+statewide,President,Kossuth,Chase Oliver,L,24
+statewide,President,Kossuth,Write-ins,W,21
+statewide,President,Kossuth,Shiva Ayyadurai,I,3
+statewide,President,Kossuth,Claudia De la Cruz,O,3
+statewide,President,Kossuth,William P. Stodden,O,1
+statewide,President,Lee,Donald J. Trump,R,10152
+statewide,President,Lee,Kamala D. Harris,D,5659
+statewide,President,Lee,Robert F. Kennedy Jr,O,235
+statewide,President,Lee,Chase Oliver,L,87
+statewide,President,Lee,Write-ins,W,44
+statewide,President,Lee,Shiva Ayyadurai,I,12
+statewide,President,Lee,Claudia De la Cruz,O,6
+statewide,President,Lee,William P. Stodden,O,3
+statewide,President,Linn,Kamala D. Harris,D,66358
+statewide,President,Linn,Donald J. Trump,R,54237
+statewide,President,Linn,Robert F. Kennedy Jr,O,938
+statewide,President,Linn,Chase Oliver,L,667
+statewide,President,Linn,Write-ins,W,590
+statewide,President,Linn,Claudia De la Cruz,O,101
+statewide,President,Linn,Shiva Ayyadurai,I,40
+statewide,President,Linn,William P. Stodden,O,28
+statewide,President,Louisa,Donald J. Trump,R,3584
+statewide,President,Louisa,Kamala D. Harris,D,1480
+statewide,President,Louisa,Robert F. Kennedy Jr,O,49
+statewide,President,Louisa,Chase Oliver,L,16
+statewide,President,Louisa,Write-ins,W,6
+statewide,President,Louisa,Claudia De la Cruz,O,4
+statewide,President,Louisa,Shiva Ayyadurai,I,2
+statewide,President,Louisa,William P. Stodden,O,1
+statewide,President,Lucas,Donald J. Trump,R,3400
+statewide,President,Lucas,Kamala D. Harris,D,1169
+statewide,President,Lucas,Robert F. Kennedy Jr,O,56
+statewide,President,Lucas,Chase Oliver,L,11
+statewide,President,Lucas,Write-ins,W,7
+statewide,President,Lucas,Claudia De la Cruz,O,2
+statewide,President,Lucas,Shiva Ayyadurai,I,1
+statewide,President,Lucas,William P. Stodden,O,0
+statewide,President,Lyon,Donald J. Trump,R,5899
+statewide,President,Lyon,Kamala D. Harris,D,1023
+statewide,President,Lyon,Robert F. Kennedy Jr,O,38
+statewide,President,Lyon,Chase Oliver,L,20
+statewide,President,Lyon,Write-ins,W,18
+statewide,President,Lyon,Claudia De la Cruz,O,2
+statewide,President,Lyon,Shiva Ayyadurai,I,1
+statewide,President,Lyon,William P. Stodden,O,1
+statewide,President,Madison,Donald J. Trump,R,6864
+statewide,President,Madison,Kamala D. Harris,D,3008
+statewide,President,Madison,Robert F. Kennedy Jr,O,68
+statewide,President,Madison,Chase Oliver,L,46
+statewide,President,Madison,Write-ins,W,33
+statewide,President,Madison,Claudia De la Cruz,O,4
+statewide,President,Madison,William P. Stodden,O,3
+statewide,President,Madison,Shiva Ayyadurai,I,2
+statewide,President,Mahaska,Donald J. Trump,R,8207
+statewide,President,Mahaska,Kamala D. Harris,D,2577
+statewide,President,Mahaska,Robert F. Kennedy Jr,O,82
+statewide,President,Mahaska,Chase Oliver,L,41
+statewide,President,Mahaska,Write-ins,W,36
+statewide,President,Mahaska,Claudia De la Cruz,O,2
+statewide,President,Mahaska,Shiva Ayyadurai,I,1
+statewide,President,Mahaska,William P. Stodden,O,0
+statewide,President,Marion,Donald J. Trump,R,13289
+statewide,President,Marion,Kamala D. Harris,D,5928
+statewide,President,Marion,Robert F. Kennedy Jr,O,163
+statewide,President,Marion,Chase Oliver,L,97
+statewide,President,Marion,Write-ins,W,76
+statewide,President,Marion,Claudia De la Cruz,O,7
+statewide,President,Marion,William P. Stodden,O,4
+statewide,President,Marion,Shiva Ayyadurai,I,2
+statewide,President,Marshall,Donald J. Trump,R,9815
+statewide,President,Marshall,Kamala D. Harris,D,7134
+statewide,President,Marshall,Robert F. Kennedy Jr,O,170
+statewide,President,Marshall,Chase Oliver,L,77
+statewide,President,Marshall,Write-ins,W,53
+statewide,President,Marshall,Claudia De la Cruz,O,16
+statewide,President,Marshall,William P. Stodden,O,4
+statewide,President,Marshall,Shiva Ayyadurai,I,1
+statewide,President,Mills,Donald J. Trump,R,5671
+statewide,President,Mills,Kamala D. Harris,D,2456
+statewide,President,Mills,Robert F. Kennedy Jr,O,51
+statewide,President,Mills,Chase Oliver,L,42
+statewide,President,Mills,Write-ins,W,30
+statewide,President,Mills,Shiva Ayyadurai,I,1
+statewide,President,Mills,Claudia De la Cruz,O,1
+statewide,President,Mills,William P. Stodden,O,1
+statewide,President,Mitchell,Donald J. Trump,R,3736
+statewide,President,Mitchell,Kamala D. Harris,D,1943
+statewide,President,Mitchell,Robert F. Kennedy Jr,O,50
+statewide,President,Mitchell,Chase Oliver,L,24
+statewide,President,Mitchell,Write-ins,W,14
+statewide,President,Mitchell,William P. Stodden,O,2
+statewide,President,Mitchell,Shiva Ayyadurai,I,1
+statewide,President,Mitchell,Claudia De la Cruz,O,1
+statewide,President,Monona,Donald J. Trump,R,3331
+statewide,President,Monona,Kamala D. Harris,D,1236
+statewide,President,Monona,Robert F. Kennedy Jr,O,34
+statewide,President,Monona,Write-ins,W,21
+statewide,President,Monona,Chase Oliver,L,11
+statewide,President,Monona,Claudia De la Cruz,O,2
+statewide,President,Monona,William P. Stodden,O,2
+statewide,President,Monona,Shiva Ayyadurai,I,0
+statewide,President,Monroe,Donald J. Trump,R,3104
+statewide,President,Monroe,Kamala D. Harris,D,1002
+statewide,President,Monroe,Robert F. Kennedy Jr,O,31
+statewide,President,Monroe,Write-ins,W,12
+statewide,President,Monroe,Chase Oliver,L,6
+statewide,President,Monroe,William P. Stodden,O,2
+statewide,President,Monroe,Claudia De la Cruz,O,1
+statewide,President,Monroe,Shiva Ayyadurai,I,0
+statewide,President,Montgomery,Donald J. Trump,R,3486
+statewide,President,Montgomery,Kamala D. Harris,D,1508
+statewide,President,Montgomery,Robert F. Kennedy Jr,O,42
+statewide,President,Montgomery,Chase Oliver,L,18
+statewide,President,Montgomery,Write-ins,W,13
+statewide,President,Montgomery,Claudia De la Cruz,O,3
+statewide,President,Montgomery,Shiva Ayyadurai,I,2
+statewide,President,Montgomery,William P. Stodden,O,2
+statewide,President,Muscatine,Donald J. Trump,R,11152
+statewide,President,Muscatine,Kamala D. Harris,D,8212
+statewide,President,Muscatine,Robert F. Kennedy Jr,O,204
+statewide,President,Muscatine,Chase Oliver,L,87
+statewide,President,Muscatine,Write-ins,W,57
+statewide,President,Muscatine,Claudia De la Cruz,O,26
+statewide,President,Muscatine,William P. Stodden,O,8
+statewide,President,Muscatine,Shiva Ayyadurai,I,6
+statewide,President,O'Brien,Donald J. Trump,R,5998
+statewide,President,O'Brien,Kamala D. Harris,D,1428
+statewide,President,O'Brien,Robert F. Kennedy Jr,O,48
+statewide,President,O'Brien,Write-ins,W,24
+statewide,President,O'Brien,Chase Oliver,L,22
+statewide,President,O'Brien,Claudia De la Cruz,O,3
+statewide,President,O'Brien,William P. Stodden,O,2
+statewide,President,O'Brien,Shiva Ayyadurai,I,0
+statewide,President,Osceola,Donald J. Trump,R,2623
+statewide,President,Osceola,Kamala D. Harris,D,555
+statewide,President,Osceola,Robert F. Kennedy Jr,O,32
+statewide,President,Osceola,Write-ins,W,10
+statewide,President,Osceola,Chase Oliver,L,6
+statewide,President,Osceola,Shiva Ayyadurai,I,1
+statewide,President,Osceola,Claudia De la Cruz,O,1
+statewide,President,Osceola,William P. Stodden,O,1
+statewide,President,Page,Donald J. Trump,R,5153
+statewide,President,Page,Kamala D. Harris,D,2060
+statewide,President,Page,Robert F. Kennedy Jr,O,51
+statewide,President,Page,Chase Oliver,L,28
+statewide,President,Page,Write-ins,W,25
+statewide,President,Page,Shiva Ayyadurai,I,2
+statewide,President,Page,Claudia De la Cruz,O,2
+statewide,President,Page,William P. Stodden,O,1
+statewide,President,Palo Alto,Donald J. Trump,R,3576
+statewide,President,Palo Alto,Kamala D. Harris,D,1338
+statewide,President,Palo Alto,Robert F. Kennedy Jr,O,45
+statewide,President,Palo Alto,Chase Oliver,L,14
+statewide,President,Palo Alto,Write-ins,W,6
+statewide,President,Palo Alto,Claudia De la Cruz,O,2
+statewide,President,Palo Alto,William P. Stodden,O,1
+statewide,President,Palo Alto,Shiva Ayyadurai,I,0
+statewide,President,Plymouth,Donald J. Trump,R,10661
+statewide,President,Plymouth,Kamala D. Harris,D,3104
+statewide,President,Plymouth,Robert F. Kennedy Jr,O,107
+statewide,President,Plymouth,Chase Oliver,L,45
+statewide,President,Plymouth,Write-ins,W,40
+statewide,President,Plymouth,Claudia De la Cruz,O,7
+statewide,President,Plymouth,William P. Stodden,O,4
+statewide,President,Plymouth,Shiva Ayyadurai,I,3
+statewide,President,Pocahontas,Donald J. Trump,R,2727
+statewide,President,Pocahontas,Kamala D. Harris,D,796
+statewide,President,Pocahontas,Robert F. Kennedy Jr,O,28
+statewide,President,Pocahontas,Chase Oliver,L,20
+statewide,President,Pocahontas,Write-ins,W,9
+statewide,President,Pocahontas,Claudia De la Cruz,O,2
+statewide,President,Pocahontas,Shiva Ayyadurai,I,0
+statewide,President,Pocahontas,William P. Stodden,O,0
+statewide,President,Polk,Kamala D. Harris,D,140075
+statewide,President,Polk,Donald J. Trump,R,112240
+statewide,President,Polk,Robert F. Kennedy Jr,O,1596
+statewide,President,Polk,Write-ins,W,1275
+statewide,President,Polk,Chase Oliver,L,1211
+statewide,President,Polk,Claudia De la Cruz,O,321
+statewide,President,Polk,Shiva Ayyadurai,I,62
+statewide,President,Polk,William P. Stodden,O,58
+statewide,President,Pottawattamie,Donald J. Trump,R,26335
+statewide,President,Pottawattamie,Kamala D. Harris,D,17468
+statewide,President,Pottawattamie,Robert F. Kennedy Jr,O,385
+statewide,President,Pottawattamie,Chase Oliver,L,190
+statewide,President,Pottawattamie,Write-ins,W,148
+statewide,President,Pottawattamie,Claudia De la Cruz,O,17
+statewide,President,Pottawattamie,Shiva Ayyadurai,I,13
+statewide,President,Pottawattamie,William P. Stodden,O,3
+statewide,President,Poweshiek,Donald J. Trump,R,5758
+statewide,President,Poweshiek,Kamala D. Harris,D,4067
+statewide,President,Poweshiek,Robert F. Kennedy Jr,O,97
+statewide,President,Poweshiek,Write-ins,W,42
+statewide,President,Poweshiek,Chase Oliver,L,33
+statewide,President,Poweshiek,Claudia De la Cruz,O,10
+statewide,President,Poweshiek,William P. Stodden,O,4
+statewide,President,Poweshiek,Shiva Ayyadurai,I,2
+statewide,President,Ringgold,Donald J. Trump,R,2015
+statewide,President,Ringgold,Kamala D. Harris,D,638
+statewide,President,Ringgold,Robert F. Kennedy Jr,O,27
+statewide,President,Ringgold,Chase Oliver,L,3
+statewide,President,Ringgold,Write-ins,W,3
+statewide,President,Ringgold,Shiva Ayyadurai,I,0
+statewide,President,Ringgold,Claudia De la Cruz,O,0
+statewide,President,Ringgold,William P. Stodden,O,0
+statewide,President,Sac,Donald J. Trump,R,4100
+statewide,President,Sac,Kamala D. Harris,D,1289
+statewide,President,Sac,Robert F. Kennedy Jr,O,40
+statewide,President,Sac,Chase Oliver,L,13
+statewide,President,Sac,Write-ins,W,12
+statewide,President,Sac,William P. Stodden,O,3
+statewide,President,Sac,Shiva Ayyadurai,I,2
+statewide,President,Sac,Claudia De la Cruz,O,1
+statewide,President,Scott,Donald J. Trump,R,45976
+statewide,President,Scott,Kamala D. Harris,D,42479
+statewide,President,Scott,Robert F. Kennedy Jr,O,723
+statewide,President,Scott,Chase Oliver,L,439
+statewide,President,Scott,Write-ins,W,390
+statewide,President,Scott,Claudia De la Cruz,O,86
+statewide,President,Scott,Shiva Ayyadurai,I,20
+statewide,President,Scott,William P. Stodden,O,20
+statewide,President,Shelby,Donald J. Trump,R,4600
+statewide,President,Shelby,Kamala D. Harris,D,1811
+statewide,President,Shelby,Robert F. Kennedy Jr,O,49
+statewide,President,Shelby,Chase Oliver,L,21
+statewide,President,Shelby,Write-ins,W,19
+statewide,President,Shelby,Claudia De la Cruz,O,3
+statewide,President,Shelby,William P. Stodden,O,2
+statewide,President,Shelby,Shiva Ayyadurai,I,0
+statewide,President,Sioux,Donald J. Trump,R,16053
+statewide,President,Sioux,Kamala D. Harris,D,2626
+statewide,President,Sioux,Write-ins,W,120
+statewide,President,Sioux,Robert F. Kennedy Jr,O,107
+statewide,President,Sioux,Chase Oliver,L,78
+statewide,President,Sioux,Shiva Ayyadurai,I,9
+statewide,President,Sioux,Claudia De la Cruz,O,7
+statewide,President,Sioux,William P. Stodden,O,1
+statewide,President,Story,Kamala D. Harris,D,26765
+statewide,President,Story,Donald J. Trump,R,21665
+statewide,President,Story,Robert F. Kennedy Jr,O,354
+statewide,President,Story,Write-ins,W,326
+statewide,President,Story,Chase Oliver,L,303
+statewide,President,Story,Claudia De la Cruz,O,77
+statewide,President,Story,William P. Stodden,O,20
+statewide,President,Story,Shiva Ayyadurai,I,16
+statewide,President,Tama,Donald J. Trump,R,5379
+statewide,President,Tama,Kamala D. Harris,D,3070
+statewide,President,Tama,Robert F. Kennedy Jr,O,99
+statewide,President,Tama,Chase Oliver,L,41
+statewide,President,Tama,Write-ins,W,22
+statewide,President,Tama,Claudia De la Cruz,O,2
+statewide,President,Tama,William P. Stodden,O,2
+statewide,President,Tama,Shiva Ayyadurai,I,1
+statewide,President,Taylor,Donald J. Trump,R,2381
+statewide,President,Taylor,Kamala D. Harris,D,666
+statewide,President,Taylor,Robert F. Kennedy Jr,O,21
+statewide,President,Taylor,Chase Oliver,L,7
+statewide,President,Taylor,Write-ins,W,3
+statewide,President,Taylor,William P. Stodden,O,2
+statewide,President,Taylor,Shiva Ayyadurai,I,1
+statewide,President,Taylor,Claudia De la Cruz,O,0
+statewide,President,Union,Donald J. Trump,R,4044
+statewide,President,Union,Kamala D. Harris,D,1874
+statewide,President,Union,Robert F. Kennedy Jr,O,53
+statewide,President,Union,Chase Oliver,L,19
+statewide,President,Union,Write-ins,W,17
+statewide,President,Union,William P. Stodden,O,4
+statewide,President,Union,Claudia De la Cruz,O,2
+statewide,President,Union,Shiva Ayyadurai,I,0
+statewide,President,Van Buren,Donald J. Trump,R,2785
+statewide,President,Van Buren,Kamala D. Harris,D,778
+statewide,President,Van Buren,Robert F. Kennedy Jr,O,37
+statewide,President,Van Buren,Chase Oliver,L,20
+statewide,President,Van Buren,Write-ins,W,3
+statewide,President,Van Buren,Claudia De la Cruz,O,2
+statewide,President,Van Buren,Shiva Ayyadurai,I,0
+statewide,President,Van Buren,William P. Stodden,O,0
+statewide,President,Wapello,Donald J. Trump,R,9479
+statewide,President,Wapello,Kamala D. Harris,D,4896
+statewide,President,Wapello,Robert F. Kennedy Jr,O,127
+statewide,President,Wapello,Chase Oliver,L,52
+statewide,President,Wapello,Claudia De la Cruz,O,13
+statewide,President,Wapello,Write-ins,W,12
+statewide,President,Wapello,Shiva Ayyadurai,I,3
+statewide,President,Wapello,William P. Stodden,O,1
+statewide,President,Warren,Donald J. Trump,R,19486
+statewide,President,Warren,Kamala D. Harris,D,12712
+statewide,President,Warren,Robert F. Kennedy Jr,O,265
+statewide,President,Warren,Chase Oliver,L,171
+statewide,President,Warren,Write-ins,W,142
+statewide,President,Warren,Claudia De la Cruz,O,12
+statewide,President,Warren,Shiva Ayyadurai,I,11
+statewide,President,Warren,William P. Stodden,O,5
+statewide,President,Washington,Donald J. Trump,R,7119
+statewide,President,Washington,Kamala D. Harris,D,4297
+statewide,President,Washington,Robert F. Kennedy Jr,O,72
+statewide,President,Washington,Chase Oliver,L,48
+statewide,President,Washington,Write-ins,W,37
+statewide,President,Washington,Claudia De la Cruz,O,13
+statewide,President,Washington,William P. Stodden,O,2
+statewide,President,Washington,Shiva Ayyadurai,I,0
+statewide,President,Wayne,Donald J. Trump,R,2426
+statewide,President,Wayne,Kamala D. Harris,D,643
+statewide,President,Wayne,Robert F. Kennedy Jr,O,36
+statewide,President,Wayne,Chase Oliver,L,12
+statewide,President,Wayne,Write-ins,W,5
+statewide,President,Wayne,Shiva Ayyadurai,I,2
+statewide,President,Wayne,Claudia De la Cruz,O,0
+statewide,President,Wayne,William P. Stodden,O,0
+statewide,President,Webster,Donald J. Trump,R,10850
+statewide,President,Webster,Kamala D. Harris,D,5641
+statewide,President,Webster,Robert F. Kennedy Jr,O,151
+statewide,President,Webster,Chase Oliver,L,53
+statewide,President,Webster,Write-ins,W,42
+statewide,President,Webster,Claudia De la Cruz,O,7
+statewide,President,Webster,Shiva Ayyadurai,I,4
+statewide,President,Webster,William P. Stodden,O,0
+statewide,President,Winnebago,Donald J. Trump,R,3636
+statewide,President,Winnebago,Kamala D. Harris,D,1909
+statewide,President,Winnebago,Robert F. Kennedy Jr,O,56
+statewide,President,Winnebago,Chase Oliver,L,21
+statewide,President,Winnebago,Write-ins,W,15
+statewide,President,Winnebago,Shiva Ayyadurai,I,2
+statewide,President,Winnebago,William P. Stodden,O,2
+statewide,President,Winnebago,Claudia De la Cruz,O,1
+statewide,President,Winneshiek,Donald J. Trump,R,6427
+statewide,President,Winneshiek,Kamala D. Harris,D,5321
+statewide,President,Winneshiek,Robert F. Kennedy Jr,O,117
+statewide,President,Winneshiek,Write-ins,W,52
+statewide,President,Winneshiek,Chase Oliver,L,46
+statewide,President,Winneshiek,Claudia De la Cruz,O,9
+statewide,President,Winneshiek,William P. Stodden,O,4
+statewide,President,Winneshiek,Shiva Ayyadurai,I,3
+statewide,President,Woodbury,Donald J. Trump,R,25969
+statewide,President,Woodbury,Kamala D. Harris,D,16145
+statewide,President,Woodbury,Robert F. Kennedy Jr,O,351
+statewide,President,Woodbury,Write-ins,W,247
+statewide,President,Woodbury,Chase Oliver,L,159
+statewide,President,Woodbury,Claudia De la Cruz,O,34
+statewide,President,Woodbury,Shiva Ayyadurai,I,9
+statewide,President,Woodbury,William P. Stodden,O,7
+statewide,President,Worth,Donald J. Trump,R,2715
+statewide,President,Worth,Kamala D. Harris,D,1508
+statewide,President,Worth,Robert F. Kennedy Jr,O,38
+statewide,President,Worth,Chase Oliver,L,13
+statewide,President,Worth,Write-ins,W,9
+statewide,President,Worth,Claudia De la Cruz,O,3
+statewide,President,Worth,William P. Stodden,O,1
+statewide,President,Worth,Shiva Ayyadurai,I,0
+statewide,President,Wright,Donald J. Trump,R,3853
+statewide,President,Wright,Kamala D. Harris,D,1770
+statewide,President,Wright,Robert F. Kennedy Jr,O,65
+statewide,President,Wright,Write-ins,W,17
+statewide,President,Wright,Chase Oliver,L,9
+statewide,President,Wright,Claudia De la Cruz,O,5
+statewide,President,Wright,William P. Stodden,O,3
+statewide,President,Wright,Shiva Ayyadurai,I,1
+ushouse,1,Cedar,Mariannette Miller-Meeks,R,5943
+ushouse,1,Cedar,Christina Bohannan,D,4460
+ushouse,1,Cedar,Write-ins,W,10
+ushouse,1,Clinton,Mariannette Miller-Meeks,R,12460
+ushouse,1,Clinton,Christina Bohannan,D,10787
+ushouse,1,Clinton,Write-ins,W,48
+ushouse,1,Des Moines,Mariannette Miller-Meeks,R,9433
+ushouse,1,Des Moines,Christina Bohannan,D,8874
+ushouse,1,Des Moines,Write-ins,W,54
+ushouse,1,Henry,Mariannette Miller-Meeks,R,5800
+ushouse,1,Henry,Christina Bohannan,D,3397
+ushouse,1,Henry,Write-ins,W,28
+ushouse,1,Iowa,Mariannette Miller-Meeks,R,5550
+ushouse,1,Iowa,Christina Bohannan,D,3783
+ushouse,1,Iowa,Write-ins,W,28
+ushouse,1,Jackson,Mariannette Miller-Meeks,R,6021
+ushouse,1,Jackson,Christina Bohannan,D,4332
+ushouse,1,Jackson,Write-ins,W,22
+ushouse,1,Jasper,Mariannette Miller-Meeks,R,11358
+ushouse,1,Jasper,Christina Bohannan,D,8147
+ushouse,1,Jasper,Write-ins,W,39
+ushouse,1,Jefferson,Christina Bohannan,D,4197
+ushouse,1,Jefferson,Mariannette Miller-Meeks,R,3955
+ushouse,1,Jefferson,Write-ins,W,25
+ushouse,1,Johnson,Christina Bohannan,D,59993
+ushouse,1,Johnson,Mariannette Miller-Meeks,R,24771
+ushouse,1,Johnson,Write-ins,W,137
+ushouse,1,Jones,Mariannette Miller-Meeks,R,6266
+ushouse,1,Jones,Christina Bohannan,D,4459
+ushouse,1,Jones,Write-ins,W,19
+ushouse,1,Keokuk,Mariannette Miller-Meeks,R,3419
+ushouse,1,Keokuk,Christina Bohannan,D,1533
+ushouse,1,Keokuk,Write-ins,W,7
+ushouse,1,Lee,Mariannette Miller-Meeks,R,9098
+ushouse,1,Lee,Christina Bohannan,D,6687
+ushouse,1,Lee,Write-ins,W,26
+ushouse,1,Louisa,Mariannette Miller-Meeks,R,3183
+ushouse,1,Louisa,Christina Bohannan,D,1798
+ushouse,1,Louisa,Write-ins,W,16
+ushouse,1,Mahaska,Mariannette Miller-Meeks,R,7403
+ushouse,1,Mahaska,Christina Bohannan,D,3173
+ushouse,1,Mahaska,Write-ins,W,49
+ushouse,1,Marion,Mariannette Miller-Meeks,R,12377
+ushouse,1,Marion,Christina Bohannan,D,6663
+ushouse,1,Marion,Write-ins,W,53
+ushouse,1,Muscatine,Mariannette Miller-Meeks,R,10138
+ushouse,1,Muscatine,Christina Bohannan,D,9128
+ushouse,1,Muscatine,Write-ins,W,42
+ushouse,1,Scott,Christina Bohannan,D,44902
+ushouse,1,Scott,Mariannette Miller-Meeks,R,42896
+ushouse,1,Scott,Write-ins,W,233
+ushouse,1,Van Buren,Mariannette Miller-Meeks,R,2562
+ushouse,1,Van Buren,Christina Bohannan,D,994
+ushouse,1,Van Buren,Write-ins,W,8
+ushouse,1,Warren,Mariannette Miller-Meeks,R,17706
+ushouse,1,Warren,Christina Bohannan,D,14143
+ushouse,1,Warren,Write-ins,W,85
+ushouse,1,Washington,Mariannette Miller-Meeks,R,6616
+ushouse,1,Washington,Christina Bohannan,D,4706
+ushouse,1,Washington,Write-ins,W,38
+ushouse,2,Allamakee,Ashley Hinson,R,4863
+ushouse,2,Allamakee,Sarah Corkery,D,2116
+ushouse,2,Allamakee,Jody Madlom Puffett,I,129
+ushouse,2,Allamakee,Write-ins,W,10
+ushouse,2,Benton,Ashley Hinson,R,9714
+ushouse,2,Benton,Sarah Corkery,D,4238
+ushouse,2,Benton,Jody Madlom Puffett,I,206
+ushouse,2,Benton,Write-ins,W,15
+ushouse,2,Black Hawk,Ashley Hinson,R,30843
+ushouse,2,Black Hawk,Sarah Corkery,D,29296
+ushouse,2,Black Hawk,Jody Madlom Puffett,I,630
+ushouse,2,Black Hawk,Write-ins,W,42
+ushouse,2,Bremer,Ashley Hinson,R,9016
+ushouse,2,Bremer,Sarah Corkery,D,5034
+ushouse,2,Bremer,Jody Madlom Puffett,I,175
+ushouse,2,Bremer,Write-ins,W,14
+ushouse,2,Buchanan,Ashley Hinson,R,6720
+ushouse,2,Buchanan,Sarah Corkery,D,3573
+ushouse,2,Buchanan,Jody Madlom Puffett,I,224
+ushouse,2,Buchanan,Write-ins,W,6
+ushouse,2,Butler,Ashley Hinson,R,5823
+ushouse,2,Butler,Sarah Corkery,D,1905
+ushouse,2,Butler,Jody Madlom Puffett,I,105
+ushouse,2,Butler,Write-ins,W,9
+ushouse,2,Cerro Gordo,Ashley Hinson,R,12526
+ushouse,2,Cerro Gordo,Sarah Corkery,D,8926
+ushouse,2,Cerro Gordo,Jody Madlom Puffett,I,325
+ushouse,2,Cerro Gordo,Write-ins,W,23
+ushouse,2,Chickasaw,Ashley Hinson,R,4217
+ushouse,2,Chickasaw,Sarah Corkery,D,1682
+ushouse,2,Chickasaw,Jody Madlom Puffett,I,77
+ushouse,2,Chickasaw,Write-ins,W,7
+ushouse,2,Clayton,Ashley Hinson,R,6409
+ushouse,2,Clayton,Sarah Corkery,D,2647
+ushouse,2,Clayton,Jody Madlom Puffett,I,113
+ushouse,2,Clayton,Write-ins,W,2
+ushouse,2,Delaware,Ashley Hinson,R,7044
+ushouse,2,Delaware,Sarah Corkery,D,2570
+ushouse,2,Delaware,Jody Madlom Puffett,I,393
+ushouse,2,Delaware,Write-ins,W,1
+ushouse,2,Dubuque,Ashley Hinson,R,29233
+ushouse,2,Dubuque,Sarah Corkery,D,21143
+ushouse,2,Dubuque,Jody Madlom Puffett,I,581
+ushouse,2,Dubuque,Write-ins,W,55
+ushouse,2,Fayette,Ashley Hinson,R,6471
+ushouse,2,Fayette,Sarah Corkery,D,3070
+ushouse,2,Fayette,Jody Madlom Puffett,I,131
+ushouse,2,Fayette,Write-ins,W,6
+ushouse,2,Floyd,Ashley Hinson,R,4815
+ushouse,2,Floyd,Sarah Corkery,D,2395
+ushouse,2,Floyd,Jody Madlom Puffett,I,161
+ushouse,2,Floyd,Write-ins,W,8
+ushouse,2,Grundy,Ashley Hinson,R,5196
+ushouse,2,Grundy,Sarah Corkery,D,1722
+ushouse,2,Grundy,Jody Madlom Puffett,I,53
+ushouse,2,Grundy,Write-ins,W,6
+ushouse,2,Hardin,Ashley Hinson,R,5685
+ushouse,2,Hardin,Sarah Corkery,D,2155
+ushouse,2,Hardin,Jody Madlom Puffett,I,133
+ushouse,2,Hardin,Write-ins,W,14
+ushouse,2,Howard,Ashley Hinson,R,3218
+ushouse,2,Howard,Sarah Corkery,D,1388
+ushouse,2,Howard,Jody Madlom Puffett,I,76
+ushouse,2,Howard,Write-ins,W,5
+ushouse,2,Linn,Sarah Corkery,D,61886
+ushouse,2,Linn,Ashley Hinson,R,56744
+ushouse,2,Linn,Jody Madlom Puffett,I,1328
+ushouse,2,Linn,Write-ins,W,75
+ushouse,2,Mitchell,Ashley Hinson,R,3930
+ushouse,2,Mitchell,Sarah Corkery,D,1616
+ushouse,2,Mitchell,Jody Madlom Puffett,I,60
+ushouse,2,Mitchell,Write-ins,W,4
+ushouse,2,Poweshiek,Ashley Hinson,R,5768
+ushouse,2,Poweshiek,Sarah Corkery,D,3606
+ushouse,2,Poweshiek,Jody Madlom Puffett,I,148
+ushouse,2,Poweshiek,Write-ins,W,13
+ushouse,2,Tama,Ashley Hinson,R,5554
+ushouse,2,Tama,Sarah Corkery,D,2796
+ushouse,2,Tama,Jody Madlom Puffett,I,79
+ushouse,2,Tama,Write-ins,W,6
+ushouse,2,Winneshiek,Ashley Hinson,R,6750
+ushouse,2,Winneshiek,Sarah Corkery,D,4763
+ushouse,2,Winneshiek,Jody Madlom Puffett,I,152
+ushouse,2,Winneshiek,Write-ins,W,13
+ushouse,2,Worth,Ashley Hinson,R,2801
+ushouse,2,Worth,Sarah Corkery,D,1213
+ushouse,2,Worth,Jody Madlom Puffett,I,102
+ushouse,2,Worth,Write-ins,W,7
+ushouse,3,Adair,Zach Nunn,R,2771
+ushouse,3,Adair,Lanon Baccam,D,1174
+ushouse,3,Adair,Write-ins,W,10
+ushouse,3,Adams,Zach Nunn,R,1468
+ushouse,3,Adams,Lanon Baccam,D,603
+ushouse,3,Adams,Write-ins,W,4
+ushouse,3,Appanoose,Zach Nunn,R,4419
+ushouse,3,Appanoose,Lanon Baccam,D,1795
+ushouse,3,Appanoose,Write-ins,W,26
+ushouse,3,Cass,Zach Nunn,R,4850
+ushouse,3,Cass,Lanon Baccam,D,1928
+ushouse,3,Cass,Write-ins,W,16
+ushouse,3,Clarke,Zach Nunn,R,3001
+ushouse,3,Clarke,Lanon Baccam,D,1375
+ushouse,3,Clarke,Write-ins,W,16
+ushouse,3,Dallas,Zach Nunn,R,32742
+ushouse,3,Dallas,Lanon Baccam,D,28796
+ushouse,3,Dallas,Write-ins,W,144
+ushouse,3,Davis,Zach Nunn,R,2881
+ushouse,3,Davis,Lanon Baccam,D,935
+ushouse,3,Davis,Write-ins,W,10
+ushouse,3,Decatur,Zach Nunn,R,2489
+ushouse,3,Decatur,Lanon Baccam,D,1073
+ushouse,3,Decatur,Write-ins,W,22
+ushouse,3,Greene,Zach Nunn,R,3030
+ushouse,3,Greene,Lanon Baccam,D,1613
+ushouse,3,Greene,Write-ins,W,10
+ushouse,3,Guthrie,Zach Nunn,R,4353
+ushouse,3,Guthrie,Lanon Baccam,D,2046
+ushouse,3,Guthrie,Write-ins,W,19
+ushouse,3,Lucas,Zach Nunn,R,3259
+ushouse,3,Lucas,Lanon Baccam,D,1216
+ushouse,3,Lucas,Write-ins,W,8
+ushouse,3,Madison,Zach Nunn,R,6655
+ushouse,3,Madison,Lanon Baccam,D,3122
+ushouse,3,Madison,Write-ins,W,31
+ushouse,3,Monroe,Zach Nunn,R,2931
+ushouse,3,Monroe,Lanon Baccam,D,1039
+ushouse,3,Monroe,Write-ins,W,7
+ushouse,3,Montgomery,Zach Nunn,R,3437
+ushouse,3,Montgomery,Lanon Baccam,D,1364
+ushouse,3,Montgomery,Write-ins,W,11
+ushouse,3,Page,Zach Nunn,R,5077
+ushouse,3,Page,Lanon Baccam,D,1969
+ushouse,3,Page,Write-ins,W,21
+ushouse,3,Polk,Lanon Baccam,D,138919
+ushouse,3,Polk,Zach Nunn,R,110970
+ushouse,3,Polk,Write-ins,W,768
+ushouse,3,Ringgold,Zach Nunn,R,1914
+ushouse,3,Ringgold,Lanon Baccam,D,678
+ushouse,3,Ringgold,Write-ins,W,11
+ushouse,3,Taylor,Zach Nunn,R,2248
+ushouse,3,Taylor,Lanon Baccam,D,673
+ushouse,3,Taylor,Write-ins,W,8
+ushouse,3,Union,Zach Nunn,R,3835
+ushouse,3,Union,Lanon Baccam,D,1938
+ushouse,3,Union,Write-ins,W,23
+ushouse,3,Wapello,Zach Nunn,R,9092
+ushouse,3,Wapello,Lanon Baccam,D,4993
+ushouse,3,Wapello,Write-ins,W,24
+ushouse,3,Wayne,Zach Nunn,R,2324
+ushouse,3,Wayne,Lanon Baccam,D,713
+ushouse,3,Wayne,Write-ins,W,8
+ushouse,4,Audubon,Randy Feenstra,R,2038
+ushouse,4,Audubon,Ryan Melton,D,901
+ushouse,4,Audubon,Write-ins,W,6
+ushouse,4,Boone,Randy Feenstra,R,9004
+ushouse,4,Boone,Ryan Melton,D,5636
+ushouse,4,Boone,Write-ins,W,28
+ushouse,4,Buena Vista,Randy Feenstra,R,4635
+ushouse,4,Buena Vista,Ryan Melton,D,2209
+ushouse,4,Buena Vista,Write-ins,W,26
+ushouse,4,Calhoun,Randy Feenstra,R,3541
+ushouse,4,Calhoun,Ryan Melton,D,1244
+ushouse,4,Calhoun,Write-ins,W,13
+ushouse,4,Carroll,Randy Feenstra,R,7610
+ushouse,4,Carroll,Ryan Melton,D,2785
+ushouse,4,Carroll,Write-ins,W,15
+ushouse,4,Cherokee,Randy Feenstra,R,4411
+ushouse,4,Cherokee,Ryan Melton,D,1436
+ushouse,4,Cherokee,Write-ins,W,29
+ushouse,4,Clay,Randy Feenstra,R,5920
+ushouse,4,Clay,Ryan Melton,D,2253
+ushouse,4,Clay,Write-ins,W,41
+ushouse,4,Crawford,Randy Feenstra,R,4390
+ushouse,4,Crawford,Ryan Melton,D,1640
+ushouse,4,Crawford,Write-ins,W,24
+ushouse,4,Dickinson,Randy Feenstra,R,7974
+ushouse,4,Dickinson,Ryan Melton,D,2903
+ushouse,4,Dickinson,Write-ins,W,35
+ushouse,4,Emmet,Randy Feenstra,R,3330
+ushouse,4,Emmet,Ryan Melton,D,1215
+ushouse,4,Emmet,Write-ins,W,9
+ushouse,4,Franklin,Randy Feenstra,R,3342
+ushouse,4,Franklin,Ryan Melton,D,1269
+ushouse,4,Franklin,Write-ins,W,9
+ushouse,4,Fremont,Randy Feenstra,R,2525
+ushouse,4,Fremont,Ryan Melton,D,974
+ushouse,4,Fremont,Write-ins,W,7
+ushouse,4,Hamilton,Randy Feenstra,R,4943
+ushouse,4,Hamilton,Ryan Melton,D,2300
+ushouse,4,Hamilton,Write-ins,W,19
+ushouse,4,Hancock,Randy Feenstra,R,4175
+ushouse,4,Hancock,Ryan Melton,D,1479
+ushouse,4,Hancock,Write-ins,W,24
+ushouse,4,Harrison,Randy Feenstra,R,5308
+ushouse,4,Harrison,Ryan Melton,D,2180
+ushouse,4,Harrison,Write-ins,W,45
+ushouse,4,Humboldt,Randy Feenstra,R,3670
+ushouse,4,Humboldt,Ryan Melton,D,1133
+ushouse,4,Humboldt,Write-ins,W,13
+ushouse,4,Ida,Randy Feenstra,R,2729
+ushouse,4,Ida,Ryan Melton,D,760
+ushouse,4,Ida,Write-ins,W,13
+ushouse,4,Kossuth,Randy Feenstra,R,5906
+ushouse,4,Kossuth,Ryan Melton,D,2196
+ushouse,4,Kossuth,Write-ins,W,17
+ushouse,4,Lyon,Randy Feenstra,R,5790
+ushouse,4,Lyon,Ryan Melton,D,898
+ushouse,4,Lyon,Write-ins,W,25
+ushouse,4,Marshall,Randy Feenstra,R,9629
+ushouse,4,Marshall,Ryan Melton,D,6635
+ushouse,4,Marshall,Write-ins,W,26
+ushouse,4,Mills,Randy Feenstra,R,5349
+ushouse,4,Mills,Ryan Melton,D,2319
+ushouse,4,Mills,Write-ins,W,26
+ushouse,4,Monona,Randy Feenstra,R,3216
+ushouse,4,Monona,Ryan Melton,D,1187
+ushouse,4,Monona,Write-ins,W,22
+ushouse,4,O'Brien,Randy Feenstra,R,5747
+ushouse,4,O'Brien,Ryan Melton,D,1369
+ushouse,4,O'Brien,Write-ins,W,106
+ushouse,4,Osceola,Randy Feenstra,R,2563
+ushouse,4,Osceola,Ryan Melton,D,518
+ushouse,4,Osceola,Write-ins,W,12
+ushouse,4,Palo Alto,Randy Feenstra,R,3531
+ushouse,4,Palo Alto,Ryan Melton,D,1234
+ushouse,4,Palo Alto,Write-ins,W,6
+ushouse,4,Plymouth,Randy Feenstra,R,10373
+ushouse,4,Plymouth,Ryan Melton,D,2810
+ushouse,4,Plymouth,Write-ins,W,50
+ushouse,4,Pocahontas,Randy Feenstra,R,2668
+ushouse,4,Pocahontas,Ryan Melton,D,716
+ushouse,4,Pocahontas,Write-ins,W,10
+ushouse,4,Pottawattamie,Randy Feenstra,R,26212
+ushouse,4,Pottawattamie,Ryan Melton,D,16263
+ushouse,4,Pottawattamie,Write-ins,W,68
+ushouse,4,Sac,Randy Feenstra,R,3961
+ushouse,4,Sac,Ryan Melton,D,1196
+ushouse,4,Sac,Write-ins,W,27
+ushouse,4,Shelby,Randy Feenstra,R,4413
+ushouse,4,Shelby,Ryan Melton,D,1569
+ushouse,4,Shelby,Write-ins,W,11
+ushouse,4,Sioux,Randy Feenstra,R,16164
+ushouse,4,Sioux,Ryan Melton,D,2241
+ushouse,4,Sioux,Write-ins,W,80
+ushouse,4,Story,Ryan Melton,D,25233
+ushouse,4,Story,Randy Feenstra,R,21706
+ushouse,4,Story,Write-ins,W,108
+ushouse,4,Webster,Randy Feenstra,R,10822
+ushouse,4,Webster,Ryan Melton,D,5082
+ushouse,4,Webster,Write-ins,W,34
+ushouse,4,Winnebago,Randy Feenstra,R,3572
+ushouse,4,Winnebago,Ryan Melton,D,1859
+ushouse,4,Winnebago,Write-ins,W,12
+ushouse,4,Woodbury,Randy Feenstra,R,25639
+ushouse,4,Woodbury,Ryan Melton,D,14928
+ushouse,4,Woodbury,Write-ins,W,112
+ushouse,4,Wright,Randy Feenstra,R,3716
+ushouse,4,Wright,Ryan Melton,D,1605
+ushouse,4,Wright,Write-ins,W,19

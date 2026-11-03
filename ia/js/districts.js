@@ -83,10 +83,10 @@
   };
 
   // Iowa Senate seats not up in a given year, where the page's data can't supply them: in 2016, the odd-numbered seats won in 2014
-  // (before the first year shown); in 2022, the 16 even-numbered seats under the new map whose senators, elected in 2020, kept serving
+  // (before the first year shown; District 1's David Johnson, elected as a Republican, left the party in June 2016); in 2022, the 16 even-numbered seats under the new map whose senators, elected in 2020, kept serving
   // (party of the senator serving in 2023)
   const HOLD = {
-    '2016 Senate': __HOLD2016__,
+    '2016 Senate': { 1: 'I', 3: 'R', 5: 'R', 7: 'R', 9: 'R', 11: 'R', 13: 'R', 15: 'D', 17: 'D', 19: 'R', 21: 'D', 23: 'D', 25: 'R', 27: 'D', 29: 'D', 31: 'D', 33: 'D', 35: 'D', 37: 'D', 39: 'D', 41: 'R', 43: 'D', 45: 'D', 47: 'R', 49: 'D' },
     '2022 Senate': { 2: 'R', 8: 'R', 10: 'R', 12: 'R', 18: 'D', 20: 'D', 22: 'R', 24: 'R', 26: 'R', 28: 'R', 32: 'R', 34: 'R', 36: 'D', 38: 'D', 48: 'R', 50: 'R' },
   };
   // whole-chamber makeup after each election: seats won that year plus holdovers carried from the last election in each district (same map)

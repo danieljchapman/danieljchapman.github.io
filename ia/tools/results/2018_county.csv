@@ -1,0 +1,3586 @@
+level,office_or_district,county,candidate,party,votes
+house,1,Dickinson,John H. Wills,R,4420
+house,1,Dickinson,Karen A. Larson,D,2291
+house,1,Dickinson,Write-ins,W,4
+house,1,Lyon,John H. Wills,R,4152
+house,1,Lyon,Karen A. Larson,D,879
+house,1,Lyon,Write-ins,W,2
+house,1,Osceola,John H. Wills,R,1929
+house,1,Osceola,Karen A. Larson,D,447
+house,1,Osceola,Write-ins,W,2
+house,10,Calhoun,Mike Sexton,R,2501
+house,10,Calhoun,Jake Ronald Thompson,D,1763
+house,10,Calhoun,Write-ins,W,6
+house,10,Humboldt,Mike Sexton,R,2879
+house,10,Humboldt,Jake Ronald Thompson,D,1139
+house,10,Humboldt,Write-ins,W,2
+house,10,Pocahontas,Mike Sexton,R,2186
+house,10,Pocahontas,Jake Ronald Thompson,D,886
+house,10,Pocahontas,Write-ins,W,5
+house,10,Webster,Mike Sexton,R,1029
+house,10,Webster,Jake Ronald Thompson,D,423
+house,10,Webster,Write-ins,W,2
+house,100,Dubuque,Charles Isenhart,D,6799
+house,100,Dubuque,Hank Linden,R,4015
+house,100,Dubuque,Write-ins,W,19
+house,11,Buena Vista,Gary Worthan,R,4899
+house,11,Buena Vista,Write-ins,W,134
+house,11,Sac,Gary Worthan,R,3477
+house,11,Sac,Write-ins,W,52
+house,12,Audubon,Brian Best,R,1690
+house,12,Audubon,Peter Leo,D,888
+house,12,Audubon,Write-ins,W,2
+house,12,Carroll,Brian Best,R,5877
+house,12,Carroll,Peter Leo,D,3004
+house,12,Carroll,Write-ins,W,3
+house,12,Crawford,Brian Best,R,891
+house,12,Crawford,Peter Leo,D,510
+house,12,Crawford,Write-ins,W,0
+house,13,Woodbury,Chris Hall,D,6685
+house,13,Woodbury,Write-ins,W,312
+house,14,Woodbury,Timothy H. Kacena,D,4606
+house,14,Woodbury,Robert Henderson,R,3936
+house,14,Woodbury,Write-ins,W,9
+house,15,Pottawattamie,Charlie McConkey,D,4635
+house,15,Pottawattamie,LeAnn L. Hughes,R,3590
+house,15,Pottawattamie,Write-ins,W,10
+house,16,Pottawattamie,Mary Ann Hanusa,R,4949
+house,16,Pottawattamie,Steve Gorman,D,4835
+house,16,Pottawattamie,Steve Sechrest,L,208
+house,16,Pottawattamie,Write-ins,W,4
+house,17,Harrison,Matt W. Windschitl,R,2657
+house,17,Harrison,Jan Creasman,D,1262
+house,17,Harrison,Write-ins,W,7
+house,17,Ida,Matt W. Windschitl,R,2120
+house,17,Ida,Jan Creasman,D,678
+house,17,Ida,Write-ins,W,7
+house,17,Monona,Matt W. Windschitl,R,2589
+house,17,Monona,Jan Creasman,D,1105
+house,17,Monona,Write-ins,W,3
+house,17,Woodbury,Matt W. Windschitl,R,1218
+house,17,Woodbury,Jan Creasman,D,423
+house,17,Woodbury,Write-ins,W,1
+house,18,Crawford,Steven Holt,R,2834
+house,18,Crawford,Write-ins,W,112
+house,18,Harrison,Steven Holt,R,1623
+house,18,Harrison,Write-ins,W,47
+house,18,Shelby,Steven Holt,R,3859
+house,18,Shelby,Write-ins,W,83
+house,19,Dallas,Chris Hagenow,R,9015
+house,19,Dallas,Gregg Gustafson,D,6545
+house,19,Dallas,Richard Dedor,O,422
+house,19,Dallas,Write-ins,W,12
+house,19,Polk,Chris Hagenow,R,1524
+house,19,Polk,Gregg Gustafson,D,1144
+house,19,Polk,Richard Dedor,O,76
+house,19,Polk,Write-ins,W,3
+house,2,Clay,Megan Lee Hess Jones,R,4472
+house,2,Clay,Ryan Odor,D,2352
+house,2,Clay,Write-ins,W,9
+house,2,Dickinson,Megan Lee Hess Jones,R,1299
+house,2,Dickinson,Ryan Odor,D,657
+house,2,Dickinson,Write-ins,W,3
+house,2,Palo Alto,Megan Lee Hess Jones,R,2470
+house,2,Palo Alto,Ryan Odor,D,1222
+house,2,Palo Alto,Write-ins,W,2
+house,20,Adair,Ray Bubba Sorensen,R,2245
+house,20,Adair,Warren Varley,D,1146
+house,20,Adair,Write-ins,W,8
+house,20,Cass,Ray Bubba Sorensen,R,562
+house,20,Cass,Warren Varley,D,223
+house,20,Cass,Write-ins,W,0
+house,20,Dallas,Warren Varley,D,1688
+house,20,Dallas,Ray Bubba Sorensen,R,1453
+house,20,Dallas,Write-ins,W,3
+house,20,Guthrie,Ray Bubba Sorensen,R,3399
+house,20,Guthrie,Warren Varley,D,1568
+house,20,Guthrie,Write-ins,W,4
+house,21,Adams,Tom Moore,R,1180
+house,21,Adams,Denise O'Brien,D,505
+house,21,Adams,Write-ins,W,0
+house,21,Cass,Tom Moore,R,3301
+house,21,Cass,Denise O'Brien,D,1669
+house,21,Cass,Write-ins,W,2
+house,21,Pottawattamie,Tom Moore,R,532
+house,21,Pottawattamie,Denise O'Brien,D,223
+house,21,Pottawattamie,Write-ins,W,3
+house,21,Union,Tom Moore,R,2919
+house,21,Union,Denise O'Brien,D,1742
+house,21,Union,Write-ins,W,1
+house,22,Pottawattamie,Jon Jacobsen,R,9707
+house,22,Pottawattamie,Ray Stevens,D,5003
+house,22,Pottawattamie,Write-ins,W,21
+house,23,Fremont,David Sieck,R,1877
+house,23,Fremont,Chuck Larson,D,1104
+house,23,Fremont,Write-ins,W,2
+house,23,Mills,David Sieck,R,4165
+house,23,Mills,Chuck Larson,D,2066
+house,23,Mills,Write-ins,W,3
+house,23,Montgomery,David Sieck,R,1889
+house,23,Montgomery,Chuck Larson,D,890
+house,23,Montgomery,Write-ins,W,2
+house,24,Montgomery,Cecil Dolecheck,R,803
+house,24,Montgomery,James Uhlenkamp,D,280
+house,24,Montgomery,Write-ins,W,1
+house,24,Page,Cecil Dolecheck,R,3787
+house,24,Page,James Uhlenkamp,D,1777
+house,24,Page,Write-ins,W,1
+house,24,Ringgold,Cecil Dolecheck,R,1385
+house,24,Ringgold,James Uhlenkamp,D,930
+house,24,Ringgold,Write-ins,W,2
+house,24,Taylor,Cecil Dolecheck,R,1734
+house,24,Taylor,James Uhlenkamp,D,679
+house,24,Taylor,Write-ins,W,1
+house,25,Madison,Stan Gustafson,R,4592
+house,25,Madison,Ryan Marquardt,D,2881
+house,25,Madison,Write-ins,W,1
+house,25,Warren,Stan Gustafson,R,4828
+house,25,Warren,Ryan Marquardt,D,3589
+house,25,Warren,Write-ins,W,9
+house,26,Warren,Scott Ourth,D,8195
+house,26,Warren,Rebel Snodgrass,R,6572
+house,26,Warren,Write-ins,W,24
+house,27,Clarke,Joel Fry,R,2409
+house,27,Clarke,Richard Foster,D,1239
+house,27,Clarke,Write-ins,W,5
+house,27,Decatur,Joel Fry,R,1968
+house,27,Decatur,Richard Foster,D,924
+house,27,Decatur,Write-ins,W,3
+house,27,Lucas,Joel Fry,R,1559
+house,27,Lucas,Richard Foster,D,676
+house,27,Lucas,Write-ins,W,1
+house,27,Wayne,Joel Fry,R,1755
+house,27,Wayne,Richard Foster,D,602
+house,27,Wayne,Write-ins,W,2
+house,28,Jasper,Jon Thorup,R,1895
+house,28,Jasper,Ann M. Fields,D,807
+house,28,Jasper,Write-ins,W,3
+house,28,Lucas,Jon Thorup,R,868
+house,28,Lucas,Ann M. Fields,D,400
+house,28,Lucas,Write-ins,W,0
+house,28,Marion,Jon Thorup,R,5369
+house,28,Marion,Ann M. Fields,D,3331
+house,28,Marion,Write-ins,W,4
+house,29,Jasper,Wes Breckenridge,D,7620
+house,29,Jasper,Ann Howell,R,5354
+house,29,Jasper,Write-ins,W,16
+house,3,Cherokee,Dan Huseman,R,4208
+house,3,Cherokee,Write-ins,W,60
+house,3,O'Brien,Dan Huseman,R,5002
+house,3,O'Brien,Write-ins,W,38
+house,3,Plymouth,Dan Huseman,R,302
+house,3,Plymouth,Write-ins,W,1
+house,3,Sioux,Dan Huseman,R,1182
+house,3,Sioux,Write-ins,W,3
+house,30,Polk,Brian K. Lohse,R,9463
+house,30,Polk,Kent A. Balduchi,D,7378
+house,30,Polk,Write-ins,W,14
+house,31,Polk,Rick L. Olson,D,8576
+house,31,Polk,Write-ins,W,360
+house,32,Polk,Ruth Ann Gaines,D,6250
+house,32,Polk,William M. Charlier,R,2388
+house,32,Polk,ToyA S. Johnson,L,250
+house,32,Polk,Write-ins,W,13
+house,33,Polk,Brian Meyer,D,6886
+house,33,Polk,Gregory T. Malone,R,3283
+house,33,Polk,Write-ins,W,22
+house,34,Polk,Bruce Hunter,D,7930
+house,34,Polk,Jerry Cheevers,R,3229
+house,34,Polk,Marrianna Collins,L,590
+house,34,Polk,Write-ins,W,11
+house,35,Polk,Ako Abdul-Samad,D,5682
+house,35,Polk,John Callahan,L,1552
+house,35,Polk,Write-ins,W,65
+house,36,Polk,Marti Anderson,D,11246
+house,36,Polk,Joseph Howe,L,2687
+house,36,Polk,Write-ins,W,67
+house,37,Polk,John Landon,R,10428
+house,37,Polk,Andrew Rasmussen,D,9618
+house,37,Polk,Write-ins,W,25
+house,38,Polk,Heather Matson,D,8216
+house,38,Polk,Kevin Koester,R,7710
+house,38,Polk,Write-ins,W,15
+house,39,Polk,Karin Derry,D,9658
+house,39,Polk,Jake Highfill,R,9353
+house,39,Polk,Anthony Junk,L,362
+house,39,Polk,Write-ins,W,9
+house,4,Sioux,Skyler Wheeler,R,11037
+house,4,Sioux,Write-ins,W,565
+house,40,Polk,John Forbes,D,11565
+house,40,Polk,Write-ins,W,382
+house,41,Polk,Jo Oldson,D,12279
+house,41,Polk,Claudia Addy,O,2109
+house,41,Polk,Write-ins,W,87
+house,42,Polk,Kristin Sunde,D,8217
+house,42,Polk,Peter Cownie,R,6915
+house,42,Polk,Write-ins,W,10
+house,42,Warren,Peter Cownie,R,240
+house,42,Warren,Kristin Sunde,D,129
+house,42,Warren,Write-ins,W,0
+house,43,Polk,Jennifer Konfrst,D,8852
+house,43,Polk,Michael Boal,R,6431
+house,43,Polk,Chad Brewbaker,L,318
+house,43,Polk,Write-ins,W,11
+house,44,Dallas,Kenan Judge,D,11169
+house,44,Dallas,Anna Bergman,R,9959
+house,44,Dallas,Gabriel Thomson,L,469
+house,44,Dallas,Write-ins,W,10
+house,45,Story,Beth Wessel-Kroeschell,D,9607
+house,45,Story,Ben Brown,R,4342
+house,45,Story,Write-ins,W,16
+house,46,Story,Lisa K. Heddens,D,10725
+house,46,Story,Write-ins,W,258
+house,47,Boone,Phil Thompson,R,4612
+house,47,Boone,David Weaver,D,4277
+house,47,Boone,Patrick A. Shaw,L,338
+house,47,Boone,Write-ins,W,4
+house,47,Greene,Phil Thompson,R,2244
+house,47,Greene,David Weaver,D,1697
+house,47,Greene,Patrick A. Shaw,L,86
+house,47,Greene,Write-ins,W,1
+house,48,Boone,Robert P. Bacon,R,1442
+house,48,Boone,Tim Winter,D,1199
+house,48,Boone,Write-ins,W,4
+house,48,Hamilton,Robert P. Bacon,R,3806
+house,48,Hamilton,Tim Winter,D,2385
+house,48,Hamilton,Write-ins,W,2
+house,48,Story,Robert P. Bacon,R,1735
+house,48,Story,Tim Winter,D,1406
+house,48,Story,Write-ins,W,2
+house,48,Webster,Robert P. Bacon,R,1069
+house,48,Webster,Tim Winter,D,653
+house,48,Webster,Write-ins,W,4
+house,49,Hardin,Dave Deyoe,R,1904
+house,49,Hardin,Brenda Brink,D,879
+house,49,Hardin,John Evans,L,96
+house,49,Hardin,Write-ins,W,0
+house,49,Story,Dave Deyoe,R,6046
+house,49,Story,Brenda Brink,D,4645
+house,49,Story,John Evans,L,437
+house,49,Story,Write-ins,W,3
+house,5,Plymouth,Thomas Jeneary,R,7985
+house,5,Plymouth,Andrew Emanuel,D,2194
+house,5,Plymouth,Write-ins,W,8
+house,5,Woodbury,Thomas Jeneary,R,1789
+house,5,Woodbury,Andrew Emanuel,D,755
+house,5,Woodbury,Write-ins,W,0
+house,50,Butler,Pat Grassley,R,2124
+house,50,Butler,Dennis Evans,D,1045
+house,50,Butler,Write-ins,W,1
+house,50,Grundy,Pat Grassley,R,3935
+house,50,Grundy,Dennis Evans,D,1769
+house,50,Grundy,Write-ins,W,4
+house,50,Hardin,Pat Grassley,R,2704
+house,50,Hardin,Dennis Evans,D,1532
+house,50,Hardin,Write-ins,W,0
+house,51,Howard,Jane Bloomingdale,R,1973
+house,51,Howard,Tim Knutson,D,1630
+house,51,Howard,Write-ins,W,1
+house,51,Mitchell,Jane Bloomingdale,R,2707
+house,51,Mitchell,Tim Knutson,D,1785
+house,51,Mitchell,Write-ins,W,3
+house,51,Winneshiek,Jane Bloomingdale,R,618
+house,51,Winneshiek,Tim Knutson,D,396
+house,51,Winneshiek,Write-ins,W,0
+house,51,Worth,Jane Bloomingdale,R,2081
+house,51,Worth,Tim Knutson,D,1443
+house,51,Worth,Write-ins,W,0
+house,52,Cerro Gordo,Todd Prichard,D,614
+house,52,Cerro Gordo,Write-ins,W,35
+house,52,Chickasaw,Todd Prichard,D,4017
+house,52,Chickasaw,Write-ins,W,86
+house,52,Floyd,Todd Prichard,D,4834
+house,52,Floyd,Write-ins,W,146
+house,53,Cerro Gordo,Sharon Steckman,D,9787
+house,53,Cerro Gordo,Write-ins,W,351
+house,54,Butler,Linda Upmeyer,R,2375
+house,54,Butler,Write-ins,W,56
+house,54,Cerro Gordo,Linda Upmeyer,R,4555
+house,54,Cerro Gordo,Write-ins,W,159
+house,54,Franklin,Linda Upmeyer,R,3440
+house,54,Franklin,Write-ins,W,69
+house,55,Clayton,Michael Bergan,R,582
+house,55,Clayton,Kayla Koether,D,568
+house,55,Clayton,Write-ins,W,0
+house,55,Fayette,Michael Bergan,R,2235
+house,55,Fayette,Kayla Koether,D,1651
+house,55,Fayette,Write-ins,W,2
+house,55,Winneshiek,Kayla Koether,D,4696
+house,55,Winneshiek,Michael Bergan,R,4107
+house,55,Winneshiek,Write-ins,W,5
+house,56,Allamakee,Anne Osmundson,R,3090
+house,56,Allamakee,Lori Egan,D,2529
+house,56,Allamakee,Write-ins,W,7
+house,56,Clayton,Anne Osmundson,R,4000
+house,56,Clayton,Lori Egan,D,2607
+house,56,Clayton,Write-ins,W,8
+house,57,Dubuque,Shannon Lundgren,R,8655
+house,57,Dubuque,Nancy Fett,D,6627
+house,57,Dubuque,Lucas J. Link,L,471
+house,57,Dubuque,Write-ins,W,4
+house,58,Dubuque,Andy McKean,R,691
+house,58,Dubuque,Joe Oclon,D,429
+house,58,Dubuque,Write-ins,W,0
+house,58,Jackson,Andy McKean,R,5762
+house,58,Jackson,Joe Oclon,D,2574
+house,58,Jackson,Write-ins,W,6
+house,58,Jones,Andy McKean,R,2551
+house,58,Jones,Joe Oclon,D,1001
+house,58,Jones,Write-ins,W,4
+house,59,Black Hawk,Bob Kressig,D,10431
+house,59,Black Hawk,Write-ins,W,388
+house,6,Woodbury,Jacob Bossman,R,7092
+house,6,Woodbury,Rita DeJong,D,5469
+house,6,Woodbury,Write-ins,W,14
+house,60,Black Hawk,Dave Williams,D,7945
+house,60,Black Hawk,Walt Rogers,R,7711
+house,60,Black Hawk,Write-ins,W,13
+house,61,Black Hawk,Timi Brown-Powers,D,7596
+house,61,Black Hawk,Write-ins,W,197
+house,62,Black Hawk,Ras Smith,D,7005
+house,62,Black Hawk,Write-ins,W,189
+house,63,Black Hawk,Sandy Salmon,R,1827
+house,63,Black Hawk,Eric Stromberg,D,1067
+house,63,Black Hawk,Write-ins,W,1
+house,63,Bremer,Sandy Salmon,R,6232
+house,63,Bremer,Eric Stromberg,D,5101
+house,63,Bremer,Write-ins,W,6
+house,64,Buchanan,Bruce Bearinger,D,5681
+house,64,Buchanan,Write-ins,W,169
+house,64,Fayette,Bruce Bearinger,D,3327
+house,64,Fayette,Write-ins,W,103
+house,65,Linn,Liz Bennett,D,9002
+house,65,Linn,George M. Olmsted,R,3956
+house,65,Linn,Write-ins,W,20
+house,66,Linn,Art Staed,D,8725
+house,66,Linn,Teresa Daubitz,R,5571
+house,66,Linn,Write-ins,W,17
+house,67,Linn,Ashley Hinson,R,8593
+house,67,Linn,Eric Gjerde,D,7932
+house,67,Linn,Write-ins,W,12
+house,68,Linn,Molly Donahue,D,8608
+house,68,Linn,Randy Ray,R,6979
+house,68,Linn,Write-ins,W,15
+house,69,Linn,Kirsten Running-Marquardt,D,8276
+house,69,Linn,Joshua Henderson,O,2627
+house,69,Linn,Write-ins,W,111
+house,7,Emmet,Tedd Gassman,R,2166
+house,7,Emmet,Debra Jensen,D,1521
+house,7,Emmet,Write-ins,W,5
+house,7,Kossuth,Tedd Gassman,R,2509
+house,7,Kossuth,Debra Jensen,D,1751
+house,7,Kossuth,Write-ins,W,0
+house,7,Winnebago,Tedd Gassman,R,2478
+house,7,Winnebago,Debra Jensen,D,2132
+house,7,Winnebago,Write-ins,W,3
+house,70,Linn,Tracy Ehlert,D,9364
+house,70,Linn,Myra Matejka,L,2764
+house,70,Linn,Write-ins,W,113
+house,71,Marshall,Mark Smith,D,5868
+house,71,Marshall,James Perez,R,4172
+house,71,Marshall,Write-ins,W,8
+house,72,Black Hawk,Dean Fisher,R,809
+house,72,Black Hawk,Mindy Benson,D,510
+house,72,Black Hawk,Write-ins,W,0
+house,72,Marshall,Dean Fisher,R,2757
+house,72,Marshall,Mindy Benson,D,1640
+house,72,Marshall,Write-ins,W,2
+house,72,Tama,Dean Fisher,R,4142
+house,72,Tama,Mindy Benson,D,3093
+house,72,Tama,Write-ins,W,11
+house,73,Cedar,Bobby Kaufmann,R,4901
+house,73,Cedar,Jodi Clemens,D,3108
+house,73,Cedar,Write-ins,W,7
+house,73,Johnson,Jodi Clemens,D,2836
+house,73,Johnson,Bobby Kaufmann,R,2432
+house,73,Johnson,Write-ins,W,3
+house,73,Muscatine,Bobby Kaufmann,R,671
+house,73,Muscatine,Jodi Clemens,D,405
+house,73,Muscatine,Write-ins,W,3
+house,74,Johnson,Dave Jacoby,D,12514
+house,74,Johnson,Write-ins,W,244
+house,75,Benton,Thomas Gerhold,R,6876
+house,75,Benton,Paula Denison,D,4205
+house,75,Benton,John George,L,268
+house,75,Benton,Write-ins,W,5
+house,75,Iowa,Thomas Gerhold,R,1028
+house,75,Iowa,Paula Denison,D,713
+house,75,Iowa,John George,L,74
+house,75,Iowa,Write-ins,W,1
+house,76,Iowa,David Maxwell,R,3604
+house,76,Iowa,Ann Egley,D,2020
+house,76,Iowa,Write-ins,W,4
+house,76,Poweshiek,David Maxwell,R,4464
+house,76,Poweshiek,Ann Egley,D,3711
+house,76,Poweshiek,Write-ins,W,9
+house,77,Johnson,Amy Nielsen,D,12330
+house,77,Johnson,Write-ins,W,448
+house,78,Keokuk,Jarad Klein,R,2812
+house,78,Keokuk,Kimberly K. Davis,D,1155
+house,78,Keokuk,Write-ins,W,8
+house,78,Washington,Jarad Klein,R,4954
+house,78,Washington,Kimberly K. Davis,D,3214
+house,78,Washington,Write-ins,W,8
+house,79,Mahaska,Dustin D. Hite,R,4669
+house,79,Mahaska,Samantha Keith,D,1554
+house,79,Mahaska,Nicholas Ryan,L,295
+house,79,Mahaska,Write-ins,W,4
+house,79,Marion,Dustin D. Hite,R,4517
+house,79,Marion,Samantha Keith,D,1424
+house,79,Marion,Nicholas Ryan,L,132
+house,79,Marion,Write-ins,W,1
+house,8,Hancock,Terry Baxter,R,3239
+house,8,Hancock,Connie Price,D,1499
+house,8,Hancock,Write-ins,W,1
+house,8,Kossuth,Terry Baxter,R,2043
+house,8,Kossuth,Connie Price,D,959
+house,8,Kossuth,Write-ins,W,2
+house,8,Wright,Terry Baxter,R,3131
+house,8,Wright,Connie Price,D,1667
+house,8,Wright,Write-ins,W,1
+house,80,Appanoose,Holly Brink,R,2805
+house,80,Appanoose,Susan McDanel,D,2203
+house,80,Appanoose,Write-ins,W,4
+house,80,Mahaska,Holly Brink,R,1428
+house,80,Mahaska,Susan McDanel,D,418
+house,80,Mahaska,Write-ins,W,2
+house,80,Monroe,Holly Brink,R,2018
+house,80,Monroe,Susan McDanel,D,1103
+house,80,Monroe,Write-ins,W,4
+house,80,Wapello,Holly Brink,R,1379
+house,80,Wapello,Susan McDanel,D,667
+house,80,Wapello,Write-ins,W,3
+house,81,Wapello,Mary Gaskill,D,5372
+house,81,Wapello,Cherielynn Westrich,R,4501
+house,81,Wapello,Write-ins,W,9
+house,82,Davis,Jeff Shipley,R,1998
+house,82,Davis,Phil Miller,D,1071
+house,82,Davis,Write-ins,W,3
+house,82,Jefferson,Phil Miller,D,3931
+house,82,Jefferson,Jeff Shipley,R,2345
+house,82,Jefferson,Write-ins,W,9
+house,82,Van Buren,Jeff Shipley,R,1777
+house,82,Van Buren,Phil Miller,D,1081
+house,82,Van Buren,Write-ins,W,5
+house,83,Lee,Jeff Kurtz,D,5552
+house,83,Lee,Jeffrey D. Reichman,R,4705
+house,83,Lee,Write-ins,W,17
+house,84,Henry,Joe Mitchell,R,4523
+house,84,Henry,Jason Moats,D,2859
+house,84,Henry,Write-ins,W,6
+house,84,Jefferson,Joe Mitchell,R,516
+house,84,Jefferson,Jason Moats,D,228
+house,84,Jefferson,Write-ins,W,1
+house,84,Lee,Joe Mitchell,R,1303
+house,84,Lee,Jason Moats,D,980
+house,84,Lee,Write-ins,W,0
+house,84,Washington,Joe Mitchell,R,640
+house,84,Washington,Jason Moats,D,222
+house,84,Washington,Write-ins,W,0
+house,85,Johnson,Vicki Lensing,D,14183
+house,85,Johnson,Write-ins,W,214
+house,86,Johnson,Mary Mascher,D,11900
+house,86,Johnson,Write-ins,W,207
+house,87,Des Moines,Dennis M. Cohoon,D,6010
+house,87,Des Moines,Tim Goodwin,R,4596
+house,87,Des Moines,Write-ins,W,7
+house,88,Des Moines,David Kerr,R,2350
+house,88,Des Moines,Lanny Hillyard,D,2028
+house,88,Des Moines,Corey Gingerich,O,50
+house,88,Des Moines,Write-ins,W,3
+house,88,Louisa,David Kerr,R,2349
+house,88,Louisa,Lanny Hillyard,D,1383
+house,88,Louisa,Corey Gingerich,O,55
+house,88,Louisa,Write-ins,W,0
+house,88,Muscatine,David Kerr,R,1580
+house,88,Muscatine,Lanny Hillyard,D,1554
+house,88,Muscatine,Corey Gingerich,O,109
+house,88,Muscatine,Write-ins,W,0
+house,89,Scott,Monica Kurth,D,8261
+house,89,Scott,Write-ins,W,342
+house,9,Webster,Ann Meyer,R,5604
+house,9,Webster,Megan L. Srinivas,D,5221
+house,9,Webster,Write-ins,W,8
+house,90,Scott,Cindy Winckler,D,6135
+house,90,Scott,Write-ins,W,249
+house,91,Muscatine,Gary Carlson,R,5669
+house,91,Muscatine,Laura J. Liegois,D,4880
+house,91,Muscatine,Write-ins,W,17
+house,92,Scott,Ross Paustian,R,6552
+house,92,Scott,Jean Simpson,D,5911
+house,92,Scott,Write-ins,W,10
+house,93,Scott,Phyllis Thede,D,9660
+house,93,Scott,Write-ins,W,484
+house,94,Scott,Gary Mohr,R,9226
+house,94,Scott,Joan Marttila,D,7572
+house,94,Scott,Write-ins,W,7
+house,95,Buchanan,Louis J. Zumbach,R,491
+house,95,Buchanan,Christian Andrews,D,303
+house,95,Buchanan,Write-ins,W,0
+house,95,Linn,Louis J. Zumbach,R,7736
+house,95,Linn,Christian Andrews,D,6726
+house,95,Linn,Write-ins,W,11
+house,96,Delaware,Lee Hein,R,4868
+house,96,Delaware,Reenie Montgomery,D,2592
+house,96,Delaware,Write-ins,W,15
+house,96,Jones,Lee Hein,R,2853
+house,96,Jones,Reenie Montgomery,D,2037
+house,96,Jones,Write-ins,W,4
+house,97,Clinton,Norlin Mommsen,R,4055
+house,97,Clinton,Tim McClimon,D,3879
+house,97,Clinton,David Melchert Jr.,L,165
+house,97,Clinton,Write-ins,W,1
+house,97,Scott,Norlin Mommsen,R,3525
+house,97,Scott,Tim McClimon,D,2443
+house,97,Scott,David Melchert Jr.,L,194
+house,97,Scott,Write-ins,W,4
+house,98,Clinton,Mary Wolfe,D,7614
+house,98,Clinton,Write-ins,W,305
+house,99,Dubuque,Lindsay James,D,8476
+house,99,Dubuque,Pauline Chilton,R,5564
+house,99,Dubuque,Write-ins,W,14
+senate,1,Clay,Zach Whiting,R,5205
+senate,1,Clay,Write-ins,W,121
+senate,1,Dickinson,Zach Whiting,R,6771
+senate,1,Dickinson,Write-ins,W,178
+senate,1,Lyon,Zach Whiting,R,4411
+senate,1,Lyon,Write-ins,W,32
+senate,1,Osceola,Zach Whiting,R,2015
+senate,1,Osceola,Write-ins,W,19
+senate,1,Palo Alto,Zach Whiting,R,2843
+senate,1,Palo Alto,Write-ins,W,34
+senate,11,Adams,Tom Shipley,R,1304
+senate,11,Adams,Sara Ramsey,D,426
+senate,11,Adams,Write-ins,W,0
+senate,11,Cass,Tom Shipley,R,3483
+senate,11,Cass,Sara Ramsey,D,1402
+senate,11,Cass,Write-ins,W,1
+senate,11,Pottawattamie,Tom Shipley,R,10207
+senate,11,Pottawattamie,Sara Ramsey,D,5231
+senate,11,Pottawattamie,Write-ins,W,13
+senate,11,Union,Tom Shipley,R,3013
+senate,11,Union,Sara Ramsey,D,1711
+senate,11,Union,Write-ins,W,2
+senate,13,Madison,Julian Garrett,R,4532
+senate,13,Madison,Vicky Brenner,D,2991
+senate,13,Madison,Write-ins,W,4
+senate,13,Warren,Julian Garrett,R,12667
+senate,13,Warren,Vicky Brenner,D,10567
+senate,13,Warren,Write-ins,W,26
+senate,15,Jasper,Zach Nunn,R,7062
+senate,15,Jasper,Dan Nieland,D,5884
+senate,15,Jasper,Write-ins,W,20
+senate,15,Polk,Zach Nunn,R,9926
+senate,15,Polk,Dan Nieland,D,6946
+senate,15,Polk,Write-ins,W,18
+senate,17,Polk,Tony Bisignano,D,17808
+senate,17,Polk,Write-ins,W,633
+senate,19,Polk,Jack Whitver,R,18598
+senate,19,Polk,Amber Gustafson,D,17608
+senate,19,Polk,Write-ins,W,37
+senate,21,Polk,Claire Celsi,D,20360
+senate,21,Polk,Brian B. Bales,R,10286
+senate,21,Polk,Write-ins,W,45
+senate,21,Warren,Brian B. Bales,R,225
+senate,21,Warren,Claire Celsi,D,139
+senate,21,Warren,Write-ins,W,1
+senate,23,Story,Herman C. Quirmbach,D,19020
+senate,23,Story,Eric Cooper,L,6273
+senate,23,Story,Write-ins,W,141
+senate,25,Butler,Annette Sweeney,R,2029
+senate,25,Butler,Tracy Freese,D,1122
+senate,25,Butler,Write-ins,W,1
+senate,25,Grundy,Annette Sweeney,R,3789
+senate,25,Grundy,Tracy Freese,D,1906
+senate,25,Grundy,Write-ins,W,3
+senate,25,Hardin,Annette Sweeney,R,4803
+senate,25,Hardin,Tracy Freese,D,2363
+senate,25,Hardin,Write-ins,W,4
+senate,25,Story,Annette Sweeney,R,6000
+senate,25,Story,Tracy Freese,D,4954
+senate,25,Story,Write-ins,W,15
+senate,27,Butler,Shannon Latham,R,1862
+senate,27,Butler,Amanda Ragan,D,1054
+senate,27,Butler,Write-ins,W,3
+senate,27,Cerro Gordo,Amanda Ragan,D,10252
+senate,27,Cerro Gordo,Shannon Latham,R,7886
+senate,27,Cerro Gordo,Write-ins,W,10
+senate,27,Franklin,Shannon Latham,R,2574
+senate,27,Franklin,Amanda Ragan,D,1517
+senate,27,Franklin,Write-ins,W,2
+senate,29,Dubuque,Carrie Koelker,R,9717
+senate,29,Dubuque,Tod R. Bowman,D,7060
+senate,29,Dubuque,Write-ins,W,5
+senate,29,Jackson,Tod R. Bowman,D,4864
+senate,29,Jackson,Carrie Koelker,R,3716
+senate,29,Jackson,Write-ins,W,2
+senate,29,Jones,Carrie Koelker,R,2060
+senate,29,Jones,Tod R. Bowman,D,1513
+senate,29,Jones,Write-ins,W,3
+senate,3,Plymouth,Jim Carlin,R,7362
+senate,3,Plymouth,Dave Dawson,D,2805
+senate,3,Plymouth,Write-ins,W,7
+senate,3,Woodbury,Jim Carlin,R,9004
+senate,3,Woodbury,Dave Dawson,D,6079
+senate,3,Woodbury,Write-ins,W,27
+senate,31,Black Hawk,Bill Dotzler,D,14573
+senate,31,Black Hawk,Write-ins,W,356
+senate,33,Linn,Robert M. Hogg,D,17912
+senate,33,Linn,Edward Bernie Hayes,R,9407
+senate,33,Linn,Write-ins,W,35
+senate,35,Linn,Todd Taylor,D,19875
+senate,35,Linn,Write-ins,W,784
+senate,37,Cedar,Zach Wahls,D,4422
+senate,37,Cedar,Carl A. Krambeck,L,2019
+senate,37,Cedar,Write-ins,W,62
+senate,37,Johnson,Zach Wahls,D,15295
+senate,37,Johnson,Carl A. Krambeck,L,3263
+senate,37,Johnson,Write-ins,W,91
+senate,37,Muscatine,Zach Wahls,D,604
+senate,37,Muscatine,Carl A. Krambeck,L,284
+senate,37,Muscatine,Write-ins,W,5
+senate,39,Johnson,Kevin Kinney,D,10635
+senate,39,Johnson,Heather Hora,R,6055
+senate,39,Johnson,Write-ins,W,10
+senate,39,Keokuk,Heather Hora,R,2525
+senate,39,Keokuk,Kevin Kinney,D,1467
+senate,39,Keokuk,Write-ins,W,6
+senate,39,Washington,Heather Hora,R,4550
+senate,39,Washington,Kevin Kinney,D,3656
+senate,39,Washington,Write-ins,W,5
+senate,41,Davis,Mariannette Miller-Meeks,R,1976
+senate,41,Davis,Mary S. Stewart,D,1106
+senate,41,Davis,Write-ins,W,4
+senate,41,Jefferson,Mary S. Stewart,D,3557
+senate,41,Jefferson,Mariannette Miller-Meeks,R,2679
+senate,41,Jefferson,Write-ins,W,11
+senate,41,Van Buren,Mariannette Miller-Meeks,R,2010
+senate,41,Van Buren,Mary S. Stewart,D,873
+senate,41,Van Buren,Write-ins,W,6
+senate,41,Wapello,Mary S. Stewart,D,5116
+senate,41,Wapello,Mariannette Miller-Meeks,R,4795
+senate,41,Wapello,Write-ins,W,15
+senate,43,Johnson,Joe Bolkcom,D,23790
+senate,43,Johnson,Patrick Joseph Wronkiewicz,R,6107
+senate,43,Johnson,Write-ins,W,29
+senate,45,Scott,Jim Lykam,D,14629
+senate,45,Scott,Write-ins,W,599
+senate,47,Scott,Roby Smith,R,16125
+senate,47,Scott,Marie Gleason,D,14418
+senate,47,Scott,Write-ins,W,17
+senate,49,Clinton,Chris Cournoyer,R,9439
+senate,49,Clinton,Patti Robinson,D,8609
+senate,49,Clinton,Write-ins,W,9
+senate,49,Scott,Chris Cournoyer,R,3866
+senate,49,Scott,Patti Robinson,D,2307
+senate,49,Scott,Write-ins,W,3
+senate,5,Calhoun,Tim Kraayenbrink,R,2792
+senate,5,Calhoun,John J. O'Brien,D,1427
+senate,5,Calhoun,Write-ins,W,2
+senate,5,Humboldt,Tim Kraayenbrink,R,2869
+senate,5,Humboldt,John J. O'Brien,D,1141
+senate,5,Humboldt,Write-ins,W,2
+senate,5,Pocahontas,Tim Kraayenbrink,R,2199
+senate,5,Pocahontas,John J. O'Brien,D,868
+senate,5,Pocahontas,Write-ins,W,0
+senate,5,Webster,Tim Kraayenbrink,R,6711
+senate,5,Webster,John J. O'Brien,D,5499
+senate,5,Webster,Write-ins,W,15
+senate,7,Woodbury,Jackie Smith,D,9125
+senate,7,Woodbury,Rick Bertrand,R,8676
+senate,7,Woodbury,Write-ins,W,26
+senate,9,Crawford,Jason Schultz,R,2960
+senate,9,Crawford,Write-ins,W,84
+senate,9,Harrison,Jason Schultz,R,4762
+senate,9,Harrison,Write-ins,W,138
+senate,9,Ida,Jason Schultz,R,2488
+senate,9,Ida,Write-ins,W,33
+senate,9,Monona,Jason Schultz,R,3018
+senate,9,Monona,Write-ins,W,60
+senate,9,Shelby,Jason Schultz,R,3901
+senate,9,Shelby,Write-ins,W,67
+senate,9,Woodbury,Jason Schultz,R,1404
+senate,9,Woodbury,Write-ins,W,35
+statewide,Attorney General,Adair,Tom Miller,D,2339
+statewide,Attorney General,Adair,Marco Battaglia,L,645
+statewide,Attorney General,Adair,Write-ins,W,25
+statewide,Attorney General,Adams,Tom Miller,D,1223
+statewide,Attorney General,Adams,Marco Battaglia,L,273
+statewide,Attorney General,Adams,Write-ins,W,5
+statewide,Attorney General,Allamakee,Tom Miller,D,3501
+statewide,Attorney General,Allamakee,Marco Battaglia,L,1219
+statewide,Attorney General,Allamakee,Write-ins,W,26
+statewide,Attorney General,Appanoose,Tom Miller,D,3148
+statewide,Attorney General,Appanoose,Marco Battaglia,L,1095
+statewide,Attorney General,Appanoose,Write-ins,W,29
+statewide,Attorney General,Audubon,Tom Miller,D,1646
+statewide,Attorney General,Audubon,Marco Battaglia,L,414
+statewide,Attorney General,Audubon,Write-ins,W,10
+statewide,Attorney General,Benton,Tom Miller,D,7396
+statewide,Attorney General,Benton,Marco Battaglia,L,2603
+statewide,Attorney General,Benton,Write-ins,W,73
+statewide,Attorney General,Black Hawk,Tom Miller,D,38257
+statewide,Attorney General,Black Hawk,Marco Battaglia,L,8939
+statewide,Attorney General,Black Hawk,Write-ins,W,245
+statewide,Attorney General,Boone,Tom Miller,D,8052
+statewide,Attorney General,Boone,Marco Battaglia,L,2730
+statewide,Attorney General,Boone,Write-ins,W,53
+statewide,Attorney General,Bremer,Tom Miller,D,7550
+statewide,Attorney General,Bremer,Marco Battaglia,L,2494
+statewide,Attorney General,Bremer,Write-ins,W,61
+statewide,Attorney General,Buchanan,Tom Miller,D,5832
+statewide,Attorney General,Buchanan,Marco Battaglia,L,1583
+statewide,Attorney General,Buchanan,Write-ins,W,57
+statewide,Attorney General,Buena Vista,Tom Miller,D,4389
+statewide,Attorney General,Buena Vista,Marco Battaglia,L,898
+statewide,Attorney General,Buena Vista,Write-ins,W,24
+statewide,Attorney General,Butler,Tom Miller,D,3557
+statewide,Attorney General,Butler,Marco Battaglia,L,1468
+statewide,Attorney General,Butler,Write-ins,W,39
+statewide,Attorney General,Calhoun,Tom Miller,D,2799
+statewide,Attorney General,Calhoun,Marco Battaglia,L,876
+statewide,Attorney General,Calhoun,Write-ins,W,13
+statewide,Attorney General,Carroll,Tom Miller,D,6187
+statewide,Attorney General,Carroll,Marco Battaglia,L,1307
+statewide,Attorney General,Carroll,Write-ins,W,31
+statewide,Attorney General,Cass,Tom Miller,D,3445
+statewide,Attorney General,Cass,Marco Battaglia,L,1101
+statewide,Attorney General,Cass,Write-ins,W,31
+statewide,Attorney General,Cedar,Tom Miller,D,5150
+statewide,Attorney General,Cedar,Marco Battaglia,L,1709
+statewide,Attorney General,Cedar,Write-ins,W,49
+statewide,Attorney General,Cerro Gordo,Tom Miller,D,12841
+statewide,Attorney General,Cerro Gordo,Marco Battaglia,L,3745
+statewide,Attorney General,Cerro Gordo,Write-ins,W,128
+statewide,Attorney General,Cherokee,Tom Miller,D,3293
+statewide,Attorney General,Cherokee,Marco Battaglia,L,836
+statewide,Attorney General,Cherokee,Write-ins,W,25
+statewide,Attorney General,Chickasaw,Tom Miller,D,3692
+statewide,Attorney General,Chickasaw,Marco Battaglia,L,892
+statewide,Attorney General,Chickasaw,Write-ins,W,24
+statewide,Attorney General,Clarke,Tom Miller,D,2343
+statewide,Attorney General,Clarke,Marco Battaglia,L,906
+statewide,Attorney General,Clarke,Write-ins,W,17
+statewide,Attorney General,Clay,Tom Miller,D,4225
+statewide,Attorney General,Clay,Marco Battaglia,L,1260
+statewide,Attorney General,Clay,Write-ins,W,39
+statewide,Attorney General,Clayton,Tom Miller,D,5213
+statewide,Attorney General,Clayton,Marco Battaglia,L,1684
+statewide,Attorney General,Clayton,Write-ins,W,38
+statewide,Attorney General,Clinton,Tom Miller,D,11729
+statewide,Attorney General,Clinton,Marco Battaglia,L,3866
+statewide,Attorney General,Clinton,Write-ins,W,127
+statewide,Attorney General,Crawford,Tom Miller,D,3182
+statewide,Attorney General,Crawford,Marco Battaglia,L,1005
+statewide,Attorney General,Crawford,Write-ins,W,24
+statewide,Attorney General,Dallas,Tom Miller,D,27622
+statewide,Attorney General,Dallas,Marco Battaglia,L,8951
+statewide,Attorney General,Dallas,Write-ins,W,367
+statewide,Attorney General,Davis,Tom Miller,D,1856
+statewide,Attorney General,Davis,Marco Battaglia,L,746
+statewide,Attorney General,Davis,Write-ins,W,23
+statewide,Attorney General,Decatur,Tom Miller,D,1827
+statewide,Attorney General,Decatur,Marco Battaglia,L,698
+statewide,Attorney General,Decatur,Write-ins,W,8
+statewide,Attorney General,Delaware,Tom Miller,D,4978
+statewide,Attorney General,Delaware,Marco Battaglia,L,1460
+statewide,Attorney General,Delaware,Write-ins,W,41
+statewide,Attorney General,Des Moines,Tom Miller,D,9855
+statewide,Attorney General,Des Moines,Marco Battaglia,L,2924
+statewide,Attorney General,Des Moines,Write-ins,W,79
+statewide,Attorney General,Dickinson,Tom Miller,D,5310
+statewide,Attorney General,Dickinson,Marco Battaglia,L,1667
+statewide,Attorney General,Dickinson,Write-ins,W,65
+statewide,Attorney General,Dubuque,Tom Miller,D,28653
+statewide,Attorney General,Dubuque,Marco Battaglia,L,8034
+statewide,Attorney General,Dubuque,Write-ins,W,150
+statewide,Attorney General,Emmet,Tom Miller,D,2254
+statewide,Attorney General,Emmet,Marco Battaglia,L,816
+statewide,Attorney General,Emmet,Write-ins,W,21
+statewide,Attorney General,Fayette,Tom Miller,D,5807
+statewide,Attorney General,Fayette,Marco Battaglia,L,1348
+statewide,Attorney General,Fayette,Write-ins,W,41
+statewide,Attorney General,Floyd,Tom Miller,D,4160
+statewide,Attorney General,Floyd,Marco Battaglia,L,1349
+statewide,Attorney General,Floyd,Write-ins,W,37
+statewide,Attorney General,Franklin,Tom Miller,D,2662
+statewide,Attorney General,Franklin,Marco Battaglia,L,793
+statewide,Attorney General,Franklin,Write-ins,W,16
+statewide,Attorney General,Fremont,Tom Miller,D,1662
+statewide,Attorney General,Fremont,Marco Battaglia,L,748
+statewide,Attorney General,Fremont,Write-ins,W,18
+statewide,Attorney General,Greene,Tom Miller,D,2698
+statewide,Attorney General,Greene,Marco Battaglia,L,805
+statewide,Attorney General,Greene,Write-ins,W,19
+statewide,Attorney General,Grundy,Tom Miller,D,3504
+statewide,Attorney General,Grundy,Marco Battaglia,L,1119
+statewide,Attorney General,Grundy,Write-ins,W,43
+statewide,Attorney General,Guthrie,Tom Miller,D,3185
+statewide,Attorney General,Guthrie,Marco Battaglia,L,1219
+statewide,Attorney General,Guthrie,Write-ins,W,28
+statewide,Attorney General,Hamilton,Tom Miller,D,4251
+statewide,Attorney General,Hamilton,Marco Battaglia,L,1291
+statewide,Attorney General,Hamilton,Write-ins,W,38
+statewide,Attorney General,Hancock,Tom Miller,D,2948
+statewide,Attorney General,Hancock,Marco Battaglia,L,1048
+statewide,Attorney General,Hancock,Write-ins,W,28
+statewide,Attorney General,Hardin,Tom Miller,D,4751
+statewide,Attorney General,Hardin,Marco Battaglia,L,1450
+statewide,Attorney General,Hardin,Write-ins,W,23
+statewide,Attorney General,Harrison,Tom Miller,D,3287
+statewide,Attorney General,Harrison,Marco Battaglia,L,1477
+statewide,Attorney General,Harrison,Write-ins,W,64
+statewide,Attorney General,Henry,Tom Miller,D,4575
+statewide,Attorney General,Henry,Marco Battaglia,L,1452
+statewide,Attorney General,Henry,Write-ins,W,44
+statewide,Attorney General,Howard,Tom Miller,D,2512
+statewide,Attorney General,Howard,Marco Battaglia,L,691
+statewide,Attorney General,Howard,Write-ins,W,20
+statewide,Attorney General,Humboldt,Tom Miller,D,2562
+statewide,Attorney General,Humboldt,Marco Battaglia,L,840
+statewide,Attorney General,Humboldt,Write-ins,W,19
+statewide,Attorney General,Ida,Tom Miller,D,1716
+statewide,Attorney General,Ida,Marco Battaglia,L,526
+statewide,Attorney General,Ida,Write-ins,W,24
+statewide,Attorney General,Iowa,Tom Miller,D,4841
+statewide,Attorney General,Iowa,Marco Battaglia,L,1593
+statewide,Attorney General,Iowa,Write-ins,W,34
+statewide,Attorney General,Jackson,Tom Miller,D,5694
+statewide,Attorney General,Jackson,Marco Battaglia,L,1480
+statewide,Attorney General,Jackson,Write-ins,W,36
+statewide,Attorney General,Jasper,Tom Miller,D,10722
+statewide,Attorney General,Jasper,Marco Battaglia,L,3553
+statewide,Attorney General,Jasper,Write-ins,W,82
+statewide,Attorney General,Jefferson,Tom Miller,D,5220
+statewide,Attorney General,Jefferson,Marco Battaglia,L,1046
+statewide,Attorney General,Jefferson,Write-ins,W,40
+statewide,Attorney General,Johnson,Tom Miller,D,52687
+statewide,Attorney General,Johnson,Marco Battaglia,L,9406
+statewide,Attorney General,Johnson,Write-ins,W,269
+statewide,Attorney General,Jones,Tom Miller,D,5825
+statewide,Attorney General,Jones,Marco Battaglia,L,1644
+statewide,Attorney General,Jones,Write-ins,W,45
+statewide,Attorney General,Keokuk,Tom Miller,D,2426
+statewide,Attorney General,Keokuk,Marco Battaglia,L,819
+statewide,Attorney General,Keokuk,Write-ins,W,18
+statewide,Attorney General,Kossuth,Tom Miller,D,4982
+statewide,Attorney General,Kossuth,Marco Battaglia,L,1442
+statewide,Attorney General,Kossuth,Write-ins,W,34
+statewide,Attorney General,Lee,Tom Miller,D,8101
+statewide,Attorney General,Lee,Marco Battaglia,L,2725
+statewide,Attorney General,Lee,Write-ins,W,90
+statewide,Attorney General,Linn,Tom Miller,D,71121
+statewide,Attorney General,Linn,Marco Battaglia,L,20169
+statewide,Attorney General,Linn,Write-ins,W,623
+statewide,Attorney General,Louisa,Tom Miller,D,2141
+statewide,Attorney General,Louisa,Marco Battaglia,L,959
+statewide,Attorney General,Louisa,Write-ins,W,37
+statewide,Attorney General,Lucas,Tom Miller,D,2189
+statewide,Attorney General,Lucas,Marco Battaglia,L,845
+statewide,Attorney General,Lucas,Write-ins,W,23
+statewide,Attorney General,Lyon,Tom Miller,D,2301
+statewide,Attorney General,Lyon,Marco Battaglia,L,1038
+statewide,Attorney General,Lyon,Write-ins,W,46
+statewide,Attorney General,Madison,Tom Miller,D,4635
+statewide,Attorney General,Madison,Marco Battaglia,L,1941
+statewide,Attorney General,Madison,Write-ins,W,55
+statewide,Attorney General,Mahaska,Tom Miller,D,5073
+statewide,Attorney General,Mahaska,Marco Battaglia,L,1917
+statewide,Attorney General,Mahaska,Write-ins,W,53
+statewide,Attorney General,Marion,Tom Miller,D,9030
+statewide,Attorney General,Marion,Marco Battaglia,L,3619
+statewide,Attorney General,Marion,Write-ins,W,89
+statewide,Attorney General,Marshall,Tom Miller,D,10293
+statewide,Attorney General,Marshall,Marco Battaglia,L,2496
+statewide,Attorney General,Marshall,Write-ins,W,85
+statewide,Attorney General,Mills,Tom Miller,D,3226
+statewide,Attorney General,Mills,Marco Battaglia,L,1746
+statewide,Attorney General,Mills,Write-ins,W,55
+statewide,Attorney General,Mitchell,Tom Miller,D,2952
+statewide,Attorney General,Mitchell,Marco Battaglia,L,940
+statewide,Attorney General,Mitchell,Write-ins,W,20
+statewide,Attorney General,Monona,Tom Miller,D,2227
+statewide,Attorney General,Monona,Marco Battaglia,L,924
+statewide,Attorney General,Monona,Write-ins,W,21
+statewide,Attorney General,Monroe,Tom Miller,D,1957
+statewide,Attorney General,Monroe,Marco Battaglia,L,770
+statewide,Attorney General,Monroe,Write-ins,W,24
+statewide,Attorney General,Montgomery,Tom Miller,D,2237
+statewide,Attorney General,Montgomery,Marco Battaglia,L,850
+statewide,Attorney General,Montgomery,Write-ins,W,29
+statewide,Attorney General,Muscatine,Tom Miller,D,9669
+statewide,Attorney General,Muscatine,Marco Battaglia,L,3102
+statewide,Attorney General,Muscatine,Write-ins,W,85
+statewide,Attorney General,O'Brien,Tom Miller,D,3196
+statewide,Attorney General,O'Brien,Marco Battaglia,L,1175
+statewide,Attorney General,O'Brien,Write-ins,W,44
+statewide,Attorney General,Osceola,Tom Miller,D,1219
+statewide,Attorney General,Osceola,Marco Battaglia,L,481
+statewide,Attorney General,Osceola,Write-ins,W,14
+statewide,Attorney General,Page,Tom Miller,D,3363
+statewide,Attorney General,Page,Marco Battaglia,L,1175
+statewide,Attorney General,Page,Write-ins,W,43
+statewide,Attorney General,Palo Alto,Tom Miller,D,2354
+statewide,Attorney General,Palo Alto,Marco Battaglia,L,722
+statewide,Attorney General,Palo Alto,Write-ins,W,14
+statewide,Attorney General,Plymouth,Tom Miller,D,5988
+statewide,Attorney General,Plymouth,Marco Battaglia,L,2143
+statewide,Attorney General,Plymouth,Write-ins,W,72
+statewide,Attorney General,Pocahontas,Tom Miller,D,2052
+statewide,Attorney General,Pocahontas,Marco Battaglia,L,625
+statewide,Attorney General,Pocahontas,Write-ins,W,20
+statewide,Attorney General,Polk,Tom Miller,D,146432
+statewide,Attorney General,Polk,Marco Battaglia,L,38649
+statewide,Attorney General,Polk,Write-ins,W,1428
+statewide,Attorney General,Pottawattamie,Tom Miller,D,20076
+statewide,Attorney General,Pottawattamie,Marco Battaglia,L,8094
+statewide,Attorney General,Pottawattamie,Write-ins,W,365
+statewide,Attorney General,Poweshiek,Tom Miller,D,5790
+statewide,Attorney General,Poweshiek,Marco Battaglia,L,1607
+statewide,Attorney General,Poweshiek,Write-ins,W,42
+statewide,Attorney General,Ringgold,Tom Miller,D,1588
+statewide,Attorney General,Ringgold,Marco Battaglia,L,371
+statewide,Attorney General,Ringgold,Write-ins,W,7
+statewide,Attorney General,Sac,Tom Miller,D,2747
+statewide,Attorney General,Sac,Marco Battaglia,L,703
+statewide,Attorney General,Sac,Write-ins,W,29
+statewide,Attorney General,Scott,Tom Miller,D,43664
+statewide,Attorney General,Scott,Marco Battaglia,L,15517
+statewide,Attorney General,Scott,Write-ins,W,553
+statewide,Attorney General,Shelby,Tom Miller,D,2702
+statewide,Attorney General,Shelby,Marco Battaglia,L,968
+statewide,Attorney General,Shelby,Write-ins,W,34
+statewide,Attorney General,Sioux,Tom Miller,D,6387
+statewide,Attorney General,Sioux,Marco Battaglia,L,3143
+statewide,Attorney General,Sioux,Write-ins,W,104
+statewide,Attorney General,Story,Tom Miller,D,29889
+statewide,Attorney General,Story,Marco Battaglia,L,8623
+statewide,Attorney General,Story,Write-ins,W,205
+statewide,Attorney General,Tama,Tom Miller,D,4873
+statewide,Attorney General,Tama,Marco Battaglia,L,1482
+statewide,Attorney General,Tama,Write-ins,W,58
+statewide,Attorney General,Taylor,Tom Miller,D,1525
+statewide,Attorney General,Taylor,Marco Battaglia,L,490
+statewide,Attorney General,Taylor,Write-ins,W,14
+statewide,Attorney General,Union,Tom Miller,D,3170
+statewide,Attorney General,Union,Marco Battaglia,L,963
+statewide,Attorney General,Union,Write-ins,W,28
+statewide,Attorney General,Van Buren,Tom Miller,D,1783
+statewide,Attorney General,Van Buren,Marco Battaglia,L,589
+statewide,Attorney General,Van Buren,Write-ins,W,26
+statewide,Attorney General,Wapello,Tom Miller,D,7865
+statewide,Attorney General,Wapello,Marco Battaglia,L,2602
+statewide,Attorney General,Wapello,Write-ins,W,71
+statewide,Attorney General,Warren,Tom Miller,D,15727
+statewide,Attorney General,Warren,Marco Battaglia,L,5197
+statewide,Attorney General,Warren,Write-ins,W,151
+statewide,Attorney General,Washington,Tom Miller,D,5882
+statewide,Attorney General,Washington,Marco Battaglia,L,1858
+statewide,Attorney General,Washington,Write-ins,W,56
+statewide,Attorney General,Wayne,Tom Miller,D,1495
+statewide,Attorney General,Wayne,Marco Battaglia,L,480
+statewide,Attorney General,Wayne,Write-ins,W,20
+statewide,Attorney General,Webster,Tom Miller,D,9648
+statewide,Attorney General,Webster,Marco Battaglia,L,2761
+statewide,Attorney General,Webster,Write-ins,W,79
+statewide,Attorney General,Winnebago,Tom Miller,D,3055
+statewide,Attorney General,Winnebago,Marco Battaglia,L,969
+statewide,Attorney General,Winnebago,Write-ins,W,26
+statewide,Attorney General,Winneshiek,Tom Miller,D,7219
+statewide,Attorney General,Winneshiek,Marco Battaglia,L,1609
+statewide,Attorney General,Winneshiek,Write-ins,W,38
+statewide,Attorney General,Woodbury,Tom Miller,D,22031
+statewide,Attorney General,Woodbury,Marco Battaglia,L,7416
+statewide,Attorney General,Woodbury,Write-ins,W,337
+statewide,Attorney General,Worth,Tom Miller,D,2419
+statewide,Attorney General,Worth,Marco Battaglia,L,732
+statewide,Attorney General,Worth,Write-ins,W,21
+statewide,Attorney General,Wright,Tom Miller,D,3219
+statewide,Attorney General,Wright,Marco Battaglia,L,963
+statewide,Attorney General,Wright,Write-ins,W,36
+statewide,Auditor,Adair,Mary Mosiman,R,1866
+statewide,Auditor,Adair,Rob Sand,D,1376
+statewide,Auditor,Adair,Fred Perryman,L,73
+statewide,Auditor,Adair,Write-ins,W,1
+statewide,Auditor,Adams,Mary Mosiman,R,1009
+statewide,Auditor,Adams,Rob Sand,D,640
+statewide,Auditor,Adams,Fred Perryman,L,38
+statewide,Auditor,Adams,Write-ins,W,2
+statewide,Auditor,Allamakee,Mary Mosiman,R,2910
+statewide,Auditor,Allamakee,Rob Sand,D,2497
+statewide,Auditor,Allamakee,Fred Perryman,L,131
+statewide,Auditor,Allamakee,Write-ins,W,1
+statewide,Auditor,Appanoose,Mary Mosiman,R,2861
+statewide,Auditor,Appanoose,Rob Sand,D,1981
+statewide,Auditor,Appanoose,Fred Perryman,L,95
+statewide,Auditor,Appanoose,Write-ins,W,1
+statewide,Auditor,Audubon,Mary Mosiman,R,1427
+statewide,Auditor,Audubon,Rob Sand,D,1041
+statewide,Auditor,Audubon,Fred Perryman,L,60
+statewide,Auditor,Audubon,Write-ins,W,0
+statewide,Auditor,Benton,Mary Mosiman,R,6005
+statewide,Auditor,Benton,Rob Sand,D,5114
+statewide,Auditor,Benton,Fred Perryman,L,266
+statewide,Auditor,Benton,Write-ins,W,5
+statewide,Auditor,Black Hawk,Rob Sand,D,31040
+statewide,Auditor,Black Hawk,Mary Mosiman,R,19901
+statewide,Auditor,Black Hawk,Fred Perryman,L,1292
+statewide,Auditor,Black Hawk,Write-ins,W,21
+statewide,Auditor,Boone,Rob Sand,D,5889
+statewide,Auditor,Boone,Mary Mosiman,R,5688
+statewide,Auditor,Boone,Fred Perryman,L,335
+statewide,Auditor,Boone,Write-ins,W,0
+statewide,Auditor,Bremer,Rob Sand,D,5687
+statewide,Auditor,Bremer,Mary Mosiman,R,5252
+statewide,Auditor,Bremer,Fred Perryman,L,291
+statewide,Auditor,Bremer,Write-ins,W,3
+statewide,Auditor,Buchanan,Rob Sand,D,4446
+statewide,Auditor,Buchanan,Mary Mosiman,R,3642
+statewide,Auditor,Buchanan,Fred Perryman,L,223
+statewide,Auditor,Buchanan,Write-ins,W,2
+statewide,Auditor,Buena Vista,Mary Mosiman,R,3196
+statewide,Auditor,Buena Vista,Rob Sand,D,3000
+statewide,Auditor,Buena Vista,Fred Perryman,L,140
+statewide,Auditor,Buena Vista,Write-ins,W,1
+statewide,Auditor,Butler,Mary Mosiman,R,3491
+statewide,Auditor,Butler,Rob Sand,D,2394
+statewide,Auditor,Butler,Fred Perryman,L,130
+statewide,Auditor,Butler,Write-ins,W,2
+statewide,Auditor,Calhoun,Mary Mosiman,R,2404
+statewide,Auditor,Calhoun,Rob Sand,D,1657
+statewide,Auditor,Calhoun,Fred Perryman,L,98
+statewide,Auditor,Calhoun,Write-ins,W,3
+statewide,Auditor,Carroll,Mary Mosiman,R,4791
+statewide,Auditor,Carroll,Rob Sand,D,3555
+statewide,Auditor,Carroll,Fred Perryman,L,163
+statewide,Auditor,Carroll,Write-ins,W,3
+statewide,Auditor,Cass,Mary Mosiman,R,3631
+statewide,Auditor,Cass,Rob Sand,D,1804
+statewide,Auditor,Cass,Fred Perryman,L,139
+statewide,Auditor,Cass,Write-ins,W,1
+statewide,Auditor,Cedar,Mary Mosiman,R,3967
+statewide,Auditor,Cedar,Rob Sand,D,3790
+statewide,Auditor,Cedar,Fred Perryman,L,183
+statewide,Auditor,Cedar,Write-ins,W,0
+statewide,Auditor,Cerro Gordo,Mary Mosiman,R,9181
+statewide,Auditor,Cerro Gordo,Rob Sand,D,8733
+statewide,Auditor,Cerro Gordo,Fred Perryman,L,532
+statewide,Auditor,Cerro Gordo,Write-ins,W,8
+statewide,Auditor,Cherokee,Mary Mosiman,R,2753
+statewide,Auditor,Cherokee,Rob Sand,D,2159
+statewide,Auditor,Cherokee,Fred Perryman,L,80
+statewide,Auditor,Cherokee,Write-ins,W,1
+statewide,Auditor,Chickasaw,Rob Sand,D,2607
+statewide,Auditor,Chickasaw,Mary Mosiman,R,2407
+statewide,Auditor,Chickasaw,Fred Perryman,L,109
+statewide,Auditor,Chickasaw,Write-ins,W,1
+statewide,Auditor,Clarke,Mary Mosiman,R,1858
+statewide,Auditor,Clarke,Rob Sand,D,1634
+statewide,Auditor,Clarke,Fred Perryman,L,99
+statewide,Auditor,Clarke,Write-ins,W,2
+statewide,Auditor,Clay,Mary Mosiman,R,3853
+statewide,Auditor,Clay,Rob Sand,D,2718
+statewide,Auditor,Clay,Fred Perryman,L,144
+statewide,Auditor,Clay,Write-ins,W,0
+statewide,Auditor,Clayton,Mary Mosiman,R,3812
+statewide,Auditor,Clayton,Rob Sand,D,3782
+statewide,Auditor,Clayton,Fred Perryman,L,177
+statewide,Auditor,Clayton,Write-ins,W,1
+statewide,Auditor,Clinton,Rob Sand,D,9560
+statewide,Auditor,Clinton,Mary Mosiman,R,7896
+statewide,Auditor,Clinton,Fred Perryman,L,469
+statewide,Auditor,Clinton,Write-ins,W,6
+statewide,Auditor,Crawford,Mary Mosiman,R,3187
+statewide,Auditor,Crawford,Rob Sand,D,1772
+statewide,Auditor,Crawford,Fred Perryman,L,146
+statewide,Auditor,Crawford,Write-ins,W,1
+statewide,Auditor,Dallas,Rob Sand,D,20094
+statewide,Auditor,Dallas,Mary Mosiman,R,19644
+statewide,Auditor,Dallas,Fred Perryman,L,967
+statewide,Auditor,Dallas,Write-ins,W,23
+statewide,Auditor,Davis,Mary Mosiman,R,1850
+statewide,Auditor,Davis,Rob Sand,D,1101
+statewide,Auditor,Davis,Fred Perryman,L,89
+statewide,Auditor,Davis,Write-ins,W,1
+statewide,Auditor,Decatur,Mary Mosiman,R,1642
+statewide,Auditor,Decatur,Rob Sand,D,1132
+statewide,Auditor,Decatur,Fred Perryman,L,94
+statewide,Auditor,Decatur,Write-ins,W,2
+statewide,Auditor,Delaware,Mary Mosiman,R,4101
+statewide,Auditor,Delaware,Rob Sand,D,3254
+statewide,Auditor,Delaware,Fred Perryman,L,148
+statewide,Auditor,Delaware,Write-ins,W,2
+statewide,Auditor,Des Moines,Rob Sand,D,8311
+statewide,Auditor,Des Moines,Mary Mosiman,R,6168
+statewide,Auditor,Des Moines,Fred Perryman,L,328
+statewide,Auditor,Des Moines,Write-ins,W,4
+statewide,Auditor,Dickinson,Mary Mosiman,R,4976
+statewide,Auditor,Dickinson,Rob Sand,D,3526
+statewide,Auditor,Dickinson,Fred Perryman,L,149
+statewide,Auditor,Dickinson,Write-ins,W,4
+statewide,Auditor,Dubuque,Rob Sand,D,23326
+statewide,Auditor,Dubuque,Mary Mosiman,R,16627
+statewide,Auditor,Dubuque,Fred Perryman,L,1078
+statewide,Auditor,Dubuque,Write-ins,W,6
+statewide,Auditor,Emmet,Mary Mosiman,R,1967
+statewide,Auditor,Emmet,Rob Sand,D,1574
+statewide,Auditor,Emmet,Fred Perryman,L,85
+statewide,Auditor,Emmet,Write-ins,W,0
+statewide,Auditor,Fayette,Rob Sand,D,4027
+statewide,Auditor,Fayette,Mary Mosiman,R,3863
+statewide,Auditor,Fayette,Fred Perryman,L,184
+statewide,Auditor,Fayette,Write-ins,W,0
+statewide,Auditor,Floyd,Mary Mosiman,R,3199
+statewide,Auditor,Floyd,Rob Sand,D,2776
+statewide,Auditor,Floyd,Fred Perryman,L,170
+statewide,Auditor,Floyd,Write-ins,W,2
+statewide,Auditor,Franklin,Mary Mosiman,R,2424
+statewide,Auditor,Franklin,Rob Sand,D,1488
+statewide,Auditor,Franklin,Fred Perryman,L,80
+statewide,Auditor,Franklin,Write-ins,W,0
+statewide,Auditor,Fremont,Mary Mosiman,R,1867
+statewide,Auditor,Fremont,Rob Sand,D,965
+statewide,Auditor,Fremont,Fred Perryman,L,84
+statewide,Auditor,Fremont,Write-ins,W,3
+statewide,Auditor,Greene,Mary Mosiman,R,1962
+statewide,Auditor,Greene,Rob Sand,D,1890
+statewide,Auditor,Greene,Fred Perryman,L,99
+statewide,Auditor,Greene,Write-ins,W,3
+statewide,Auditor,Grundy,Mary Mosiman,R,3414
+statewide,Auditor,Grundy,Rob Sand,D,2153
+statewide,Auditor,Grundy,Fred Perryman,L,100
+statewide,Auditor,Grundy,Write-ins,W,1
+statewide,Auditor,Guthrie,Mary Mosiman,R,2710
+statewide,Auditor,Guthrie,Rob Sand,D,2057
+statewide,Auditor,Guthrie,Fred Perryman,L,158
+statewide,Auditor,Guthrie,Write-ins,W,4
+statewide,Auditor,Hamilton,Mary Mosiman,R,3374
+statewide,Auditor,Hamilton,Rob Sand,D,2694
+statewide,Auditor,Hamilton,Fred Perryman,L,139
+statewide,Auditor,Hamilton,Write-ins,W,2
+statewide,Auditor,Hancock,Mary Mosiman,R,3167
+statewide,Auditor,Hancock,Rob Sand,D,1370
+statewide,Auditor,Hancock,Fred Perryman,L,133
+statewide,Auditor,Hancock,Write-ins,W,2
+statewide,Auditor,Hardin,Mary Mosiman,R,4161
+statewide,Auditor,Hardin,Rob Sand,D,2780
+statewide,Auditor,Hardin,Fred Perryman,L,157
+statewide,Auditor,Hardin,Write-ins,W,0
+statewide,Auditor,Harrison,Mary Mosiman,R,3729
+statewide,Auditor,Harrison,Rob Sand,D,1908
+statewide,Auditor,Harrison,Fred Perryman,L,188
+statewide,Auditor,Harrison,Write-ins,W,4
+statewide,Auditor,Henry,Mary Mosiman,R,4050
+statewide,Auditor,Henry,Rob Sand,D,3091
+statewide,Auditor,Henry,Fred Perryman,L,150
+statewide,Auditor,Henry,Write-ins,W,5
+statewide,Auditor,Howard,Mary Mosiman,R,1830
+statewide,Auditor,Howard,Rob Sand,D,1623
+statewide,Auditor,Howard,Fred Perryman,L,85
+statewide,Auditor,Howard,Write-ins,W,1
+statewide,Auditor,Humboldt,Mary Mosiman,R,2505
+statewide,Auditor,Humboldt,Rob Sand,D,1402
+statewide,Auditor,Humboldt,Fred Perryman,L,87
+statewide,Auditor,Humboldt,Write-ins,W,0
+statewide,Auditor,Ida,Mary Mosiman,R,1743
+statewide,Auditor,Ida,Rob Sand,D,1062
+statewide,Auditor,Ida,Fred Perryman,L,46
+statewide,Auditor,Ida,Write-ins,W,0
+statewide,Auditor,Iowa,Mary Mosiman,R,3971
+statewide,Auditor,Iowa,Rob Sand,D,3301
+statewide,Auditor,Iowa,Fred Perryman,L,173
+statewide,Auditor,Iowa,Write-ins,W,3
+statewide,Auditor,Jackson,Rob Sand,D,4266
+statewide,Auditor,Jackson,Mary Mosiman,R,3743
+statewide,Auditor,Jackson,Fred Perryman,L,224
+statewide,Auditor,Jackson,Write-ins,W,2
+statewide,Auditor,Jasper,Rob Sand,D,7756
+statewide,Auditor,Jasper,Mary Mosiman,R,7535
+statewide,Auditor,Jasper,Fred Perryman,L,397
+statewide,Auditor,Jasper,Write-ins,W,4
+statewide,Auditor,Jefferson,Rob Sand,D,3771
+statewide,Auditor,Jefferson,Mary Mosiman,R,2913
+statewide,Auditor,Jefferson,Fred Perryman,L,206
+statewide,Auditor,Jefferson,Write-ins,W,2
+statewide,Auditor,Johnson,Rob Sand,D,47685
+statewide,Auditor,Johnson,Mary Mosiman,R,17064
+statewide,Auditor,Johnson,Fred Perryman,L,1742
+statewide,Auditor,Johnson,Write-ins,W,29
+statewide,Auditor,Jones,Mary Mosiman,R,4179
+statewide,Auditor,Jones,Rob Sand,D,4063
+statewide,Auditor,Jones,Fred Perryman,L,196
+statewide,Auditor,Jones,Write-ins,W,1
+statewide,Auditor,Keokuk,Mary Mosiman,R,2399
+statewide,Auditor,Keokuk,Rob Sand,D,1460
+statewide,Auditor,Keokuk,Fred Perryman,L,85
+statewide,Auditor,Keokuk,Write-ins,W,0
+statewide,Auditor,Kossuth,Mary Mosiman,R,4386
+statewide,Auditor,Kossuth,Rob Sand,D,2681
+statewide,Auditor,Kossuth,Fred Perryman,L,157
+statewide,Auditor,Kossuth,Write-ins,W,0
+statewide,Auditor,Lee,Rob Sand,D,6212
+statewide,Auditor,Lee,Mary Mosiman,R,5883
+statewide,Auditor,Lee,Fred Perryman,L,357
+statewide,Auditor,Lee,Write-ins,W,4
+statewide,Auditor,Linn,Rob Sand,D,59237
+statewide,Auditor,Linn,Mary Mosiman,R,37792
+statewide,Auditor,Linn,Fred Perryman,L,3156
+statewide,Auditor,Linn,Write-ins,W,46
+statewide,Auditor,Louisa,Mary Mosiman,R,2012
+statewide,Auditor,Louisa,Rob Sand,D,1655
+statewide,Auditor,Louisa,Fred Perryman,L,83
+statewide,Auditor,Louisa,Write-ins,W,0
+statewide,Auditor,Lucas,Mary Mosiman,R,2057
+statewide,Auditor,Lucas,Rob Sand,D,1359
+statewide,Auditor,Lucas,Fred Perryman,L,88
+statewide,Auditor,Lucas,Write-ins,W,0
+statewide,Auditor,Lyon,Mary Mosiman,R,4065
+statewide,Auditor,Lyon,Rob Sand,D,828
+statewide,Auditor,Lyon,Fred Perryman,L,82
+statewide,Auditor,Lyon,Write-ins,W,2
+statewide,Auditor,Madison,Mary Mosiman,R,4150
+statewide,Auditor,Madison,Rob Sand,D,3120
+statewide,Auditor,Madison,Fred Perryman,L,207
+statewide,Auditor,Madison,Write-ins,W,4
+statewide,Auditor,Mahaska,Mary Mosiman,R,5457
+statewide,Auditor,Mahaska,Rob Sand,D,2697
+statewide,Auditor,Mahaska,Fred Perryman,L,199
+statewide,Auditor,Mahaska,Write-ins,W,3
+statewide,Auditor,Marion,Mary Mosiman,R,8611
+statewide,Auditor,Marion,Rob Sand,D,5696
+statewide,Auditor,Marion,Fred Perryman,L,403
+statewide,Auditor,Marion,Write-ins,W,2
+statewide,Auditor,Marshall,Rob Sand,D,7261
+statewide,Auditor,Marshall,Mary Mosiman,R,6694
+statewide,Auditor,Marshall,Fred Perryman,L,346
+statewide,Auditor,Marshall,Write-ins,W,3
+statewide,Auditor,Mills,Mary Mosiman,R,3927
+statewide,Auditor,Mills,Rob Sand,D,1991
+statewide,Auditor,Mills,Fred Perryman,L,220
+statewide,Auditor,Mills,Write-ins,W,1
+statewide,Auditor,Mitchell,Mary Mosiman,R,2482
+statewide,Auditor,Mitchell,Rob Sand,D,1719
+statewide,Auditor,Mitchell,Fred Perryman,L,153
+statewide,Auditor,Mitchell,Write-ins,W,1
+statewide,Auditor,Monona,Mary Mosiman,R,1924
+statewide,Auditor,Monona,Rob Sand,D,1658
+statewide,Auditor,Monona,Fred Perryman,L,104
+statewide,Auditor,Monona,Write-ins,W,0
+statewide,Auditor,Monroe,Mary Mosiman,R,1777
+statewide,Auditor,Monroe,Rob Sand,D,1207
+statewide,Auditor,Monroe,Fred Perryman,L,65
+statewide,Auditor,Monroe,Write-ins,W,1
+statewide,Auditor,Montgomery,Mary Mosiman,R,2617
+statewide,Auditor,Montgomery,Rob Sand,D,1115
+statewide,Auditor,Montgomery,Fred Perryman,L,120
+statewide,Auditor,Montgomery,Write-ins,W,0
+statewide,Auditor,Muscatine,Rob Sand,D,7679
+statewide,Auditor,Muscatine,Mary Mosiman,R,6700
+statewide,Auditor,Muscatine,Fred Perryman,L,404
+statewide,Auditor,Muscatine,Write-ins,W,3
+statewide,Auditor,O'Brien,Mary Mosiman,R,3976
+statewide,Auditor,O'Brien,Rob Sand,D,1591
+statewide,Auditor,O'Brien,Fred Perryman,L,108
+statewide,Auditor,O'Brien,Write-ins,W,2
+statewide,Auditor,Osceola,Mary Mosiman,R,1792
+statewide,Auditor,Osceola,Rob Sand,D,502
+statewide,Auditor,Osceola,Fred Perryman,L,31
+statewide,Auditor,Osceola,Write-ins,W,0
+statewide,Auditor,Page,Mary Mosiman,R,3759
+statewide,Auditor,Page,Rob Sand,D,1656
+statewide,Auditor,Page,Fred Perryman,L,112
+statewide,Auditor,Page,Write-ins,W,0
+statewide,Auditor,Palo Alto,Mary Mosiman,R,2056
+statewide,Auditor,Palo Alto,Rob Sand,D,1518
+statewide,Auditor,Palo Alto,Fred Perryman,L,65
+statewide,Auditor,Palo Alto,Write-ins,W,0
+statewide,Auditor,Plymouth,Mary Mosiman,R,6655
+statewide,Auditor,Plymouth,Rob Sand,D,3688
+statewide,Auditor,Plymouth,Fred Perryman,L,175
+statewide,Auditor,Plymouth,Write-ins,W,3
+statewide,Auditor,Pocahontas,Mary Mosiman,R,1830
+statewide,Auditor,Pocahontas,Rob Sand,D,1120
+statewide,Auditor,Pocahontas,Fred Perryman,L,75
+statewide,Auditor,Pocahontas,Write-ins,W,0
+statewide,Auditor,Polk,Rob Sand,D,119985
+statewide,Auditor,Polk,Mary Mosiman,R,76851
+statewide,Auditor,Polk,Fred Perryman,L,5285
+statewide,Auditor,Polk,Write-ins,W,103
+statewide,Auditor,Pottawattamie,Mary Mosiman,R,18801
+statewide,Auditor,Pottawattamie,Rob Sand,D,13420
+statewide,Auditor,Pottawattamie,Fred Perryman,L,1072
+statewide,Auditor,Pottawattamie,Write-ins,W,16
+statewide,Auditor,Poweshiek,Rob Sand,D,4271
+statewide,Auditor,Poweshiek,Mary Mosiman,R,3682
+statewide,Auditor,Poweshiek,Fred Perryman,L,188
+statewide,Auditor,Poweshiek,Write-ins,W,2
+statewide,Auditor,Ringgold,Mary Mosiman,R,1234
+statewide,Auditor,Ringgold,Rob Sand,D,964
+statewide,Auditor,Ringgold,Fred Perryman,L,48
+statewide,Auditor,Ringgold,Write-ins,W,1
+statewide,Auditor,Sac,Mary Mosiman,R,2492
+statewide,Auditor,Sac,Rob Sand,D,1592
+statewide,Auditor,Sac,Fred Perryman,L,87
+statewide,Auditor,Sac,Write-ins,W,0
+statewide,Auditor,Scott,Rob Sand,D,37364
+statewide,Auditor,Scott,Mary Mosiman,R,28851
+statewide,Auditor,Scott,Fred Perryman,L,1856
+statewide,Auditor,Scott,Write-ins,W,14
+statewide,Auditor,Shelby,Mary Mosiman,R,3300
+statewide,Auditor,Shelby,Rob Sand,D,1437
+statewide,Auditor,Shelby,Fred Perryman,L,110
+statewide,Auditor,Shelby,Write-ins,W,2
+statewide,Auditor,Sioux,Mary Mosiman,R,11726
+statewide,Auditor,Sioux,Rob Sand,D,2494
+statewide,Auditor,Sioux,Fred Perryman,L,220
+statewide,Auditor,Sioux,Write-ins,W,5
+statewide,Auditor,Story,Rob Sand,D,22865
+statewide,Auditor,Story,Mary Mosiman,R,17769
+statewide,Auditor,Story,Fred Perryman,L,1175
+statewide,Auditor,Story,Write-ins,W,17
+statewide,Auditor,Tama,Rob Sand,D,3638
+statewide,Auditor,Tama,Mary Mosiman,R,3367
+statewide,Auditor,Tama,Fred Perryman,L,193
+statewide,Auditor,Tama,Write-ins,W,3
+statewide,Auditor,Taylor,Mary Mosiman,R,1520
+statewide,Auditor,Taylor,Rob Sand,D,800
+statewide,Auditor,Taylor,Fred Perryman,L,51
+statewide,Auditor,Taylor,Write-ins,W,2
+statewide,Auditor,Union,Mary Mosiman,R,2534
+statewide,Auditor,Union,Rob Sand,D,2104
+statewide,Auditor,Union,Fred Perryman,L,110
+statewide,Auditor,Union,Write-ins,W,0
+statewide,Auditor,Van Buren,Mary Mosiman,R,1875
+statewide,Auditor,Van Buren,Rob Sand,D,886
+statewide,Auditor,Van Buren,Fred Perryman,L,72
+statewide,Auditor,Van Buren,Write-ins,W,2
+statewide,Auditor,Wapello,Mary Mosiman,R,5762
+statewide,Auditor,Wapello,Rob Sand,D,5642
+statewide,Auditor,Wapello,Fred Perryman,L,347
+statewide,Auditor,Wapello,Write-ins,W,10
+statewide,Auditor,Warren,Mary Mosiman,R,11510
+statewide,Auditor,Warren,Rob Sand,D,11345
+statewide,Auditor,Warren,Fred Perryman,L,629
+statewide,Auditor,Warren,Write-ins,W,11
+statewide,Auditor,Washington,Mary Mosiman,R,4632
+statewide,Auditor,Washington,Rob Sand,D,4080
+statewide,Auditor,Washington,Fred Perryman,L,232
+statewide,Auditor,Washington,Write-ins,W,1
+statewide,Auditor,Wayne,Mary Mosiman,R,1370
+statewide,Auditor,Wayne,Rob Sand,D,899
+statewide,Auditor,Wayne,Fred Perryman,L,71
+statewide,Auditor,Wayne,Write-ins,W,0
+statewide,Auditor,Webster,Mary Mosiman,R,6722
+statewide,Auditor,Webster,Rob Sand,D,6662
+statewide,Auditor,Webster,Fred Perryman,L,352
+statewide,Auditor,Webster,Write-ins,W,6
+statewide,Auditor,Winnebago,Mary Mosiman,R,2765
+statewide,Auditor,Winnebago,Rob Sand,D,1652
+statewide,Auditor,Winnebago,Fred Perryman,L,127
+statewide,Auditor,Winnebago,Write-ins,W,1
+statewide,Auditor,Winneshiek,Rob Sand,D,5986
+statewide,Auditor,Winneshiek,Mary Mosiman,R,3663
+statewide,Auditor,Winneshiek,Fred Perryman,L,131
+statewide,Auditor,Winneshiek,Write-ins,W,0
+statewide,Auditor,Woodbury,Rob Sand,D,17804
+statewide,Auditor,Woodbury,Mary Mosiman,R,15783
+statewide,Auditor,Woodbury,Fred Perryman,L,898
+statewide,Auditor,Woodbury,Write-ins,W,10
+statewide,Auditor,Worth,Mary Mosiman,R,1932
+statewide,Auditor,Worth,Rob Sand,D,1401
+statewide,Auditor,Worth,Fred Perryman,L,115
+statewide,Auditor,Worth,Write-ins,W,0
+statewide,Auditor,Wright,Mary Mosiman,R,2812
+statewide,Auditor,Wright,Rob Sand,D,1906
+statewide,Auditor,Wright,Fred Perryman,L,108
+statewide,Auditor,Wright,Write-ins,W,1
+statewide,Governor,Adair,Kim Reynolds,R,2213
+statewide,Governor,Adair,Fred Hubbell,D,1167
+statewide,Governor,Adair,Jake Porter,L,49
+statewide,Governor,Adair,Gary Siegwarth,O,15
+statewide,Governor,Adair,Write-ins,W,0
+statewide,Governor,Adams,Kim Reynolds,R,1160
+statewide,Governor,Adams,Fred Hubbell,D,549
+statewide,Governor,Adams,Jake Porter,L,29
+statewide,Governor,Adams,Gary Siegwarth,O,9
+statewide,Governor,Adams,Write-ins,W,0
+statewide,Governor,Allamakee,Kim Reynolds,R,3326
+statewide,Governor,Allamakee,Fred Hubbell,D,2165
+statewide,Governor,Allamakee,Gary Siegwarth,O,98
+statewide,Governor,Allamakee,Jake Porter,L,90
+statewide,Governor,Allamakee,Write-ins,W,1
+statewide,Governor,Appanoose,Kim Reynolds,R,3101
+statewide,Governor,Appanoose,Fred Hubbell,D,1834
+statewide,Governor,Appanoose,Jake Porter,L,86
+statewide,Governor,Appanoose,Gary Siegwarth,O,26
+statewide,Governor,Appanoose,Write-ins,W,2
+statewide,Governor,Audubon,Kim Reynolds,R,1658
+statewide,Governor,Audubon,Fred Hubbell,D,990
+statewide,Governor,Audubon,Jake Porter,L,34
+statewide,Governor,Audubon,Gary Siegwarth,O,12
+statewide,Governor,Audubon,Write-ins,W,0
+statewide,Governor,Benton,Kim Reynolds,R,6845
+statewide,Governor,Benton,Fred Hubbell,D,4482
+statewide,Governor,Benton,Jake Porter,L,226
+statewide,Governor,Benton,Gary Siegwarth,O,69
+statewide,Governor,Benton,Write-ins,W,7
+statewide,Governor,Black Hawk,Fred Hubbell,D,29259
+statewide,Governor,Black Hawk,Kim Reynolds,R,22786
+statewide,Governor,Black Hawk,Jake Porter,L,855
+statewide,Governor,Black Hawk,Gary Siegwarth,O,335
+statewide,Governor,Black Hawk,Write-ins,W,23
+statewide,Governor,Boone,Kim Reynolds,R,6107
+statewide,Governor,Boone,Fred Hubbell,D,5810
+statewide,Governor,Boone,Jake Porter,L,208
+statewide,Governor,Boone,Gary Siegwarth,O,71
+statewide,Governor,Boone,Write-ins,W,5
+statewide,Governor,Bremer,Kim Reynolds,R,6220
+statewide,Governor,Bremer,Fred Hubbell,D,4999
+statewide,Governor,Bremer,Jake Porter,L,173
+statewide,Governor,Bremer,Gary Siegwarth,O,57
+statewide,Governor,Bremer,Write-ins,W,1
+statewide,Governor,Buchanan,Kim Reynolds,R,4400
+statewide,Governor,Buchanan,Fred Hubbell,D,3865
+statewide,Governor,Buchanan,Jake Porter,L,155
+statewide,Governor,Buchanan,Gary Siegwarth,O,70
+statewide,Governor,Buchanan,Write-ins,W,3
+statewide,Governor,Buena Vista,Kim Reynolds,R,3771
+statewide,Governor,Buena Vista,Fred Hubbell,D,2649
+statewide,Governor,Buena Vista,Jake Porter,L,101
+statewide,Governor,Buena Vista,Gary Siegwarth,O,43
+statewide,Governor,Buena Vista,Write-ins,W,1
+statewide,Governor,Butler,Kim Reynolds,R,3952
+statewide,Governor,Butler,Fred Hubbell,D,2064
+statewide,Governor,Butler,Jake Porter,L,81
+statewide,Governor,Butler,Gary Siegwarth,O,59
+statewide,Governor,Butler,Write-ins,W,0
+statewide,Governor,Calhoun,Kim Reynolds,R,2710
+statewide,Governor,Calhoun,Fred Hubbell,D,1464
+statewide,Governor,Calhoun,Jake Porter,L,113
+statewide,Governor,Calhoun,Gary Siegwarth,O,22
+statewide,Governor,Calhoun,Write-ins,W,1
+statewide,Governor,Carroll,Kim Reynolds,R,5676
+statewide,Governor,Carroll,Fred Hubbell,D,3186
+statewide,Governor,Carroll,Jake Porter,L,122
+statewide,Governor,Carroll,Gary Siegwarth,O,40
+statewide,Governor,Carroll,Write-ins,W,3
+statewide,Governor,Cass,Kim Reynolds,R,3813
+statewide,Governor,Cass,Fred Hubbell,D,1886
+statewide,Governor,Cass,Jake Porter,L,85
+statewide,Governor,Cass,Gary Siegwarth,O,30
+statewide,Governor,Cass,Write-ins,W,1
+statewide,Governor,Cedar,Kim Reynolds,R,4409
+statewide,Governor,Cedar,Fred Hubbell,D,3518
+statewide,Governor,Cedar,Jake Porter,L,132
+statewide,Governor,Cedar,Gary Siegwarth,O,54
+statewide,Governor,Cedar,Write-ins,W,5
+statewide,Governor,Cerro Gordo,Kim Reynolds,R,9651
+statewide,Governor,Cerro Gordo,Fred Hubbell,D,9011
+statewide,Governor,Cerro Gordo,Jake Porter,L,270
+statewide,Governor,Cerro Gordo,Gary Siegwarth,O,104
+statewide,Governor,Cerro Gordo,Write-ins,W,4
+statewide,Governor,Cherokee,Kim Reynolds,R,3327
+statewide,Governor,Cherokee,Fred Hubbell,D,1715
+statewide,Governor,Cherokee,Jake Porter,L,87
+statewide,Governor,Cherokee,Gary Siegwarth,O,27
+statewide,Governor,Cherokee,Write-ins,W,0
+statewide,Governor,Chickasaw,Kim Reynolds,R,3021
+statewide,Governor,Chickasaw,Fred Hubbell,D,2103
+statewide,Governor,Chickasaw,Jake Porter,L,66
+statewide,Governor,Chickasaw,Gary Siegwarth,O,56
+statewide,Governor,Chickasaw,Write-ins,W,3
+statewide,Governor,Clarke,Kim Reynolds,R,2341
+statewide,Governor,Clarke,Fred Hubbell,D,1280
+statewide,Governor,Clarke,Jake Porter,L,72
+statewide,Governor,Clarke,Gary Siegwarth,O,13
+statewide,Governor,Clarke,Write-ins,W,0
+statewide,Governor,Clay,Kim Reynolds,R,4364
+statewide,Governor,Clay,Fred Hubbell,D,2417
+statewide,Governor,Clay,Jake Porter,L,95
+statewide,Governor,Clay,Gary Siegwarth,O,38
+statewide,Governor,Clay,Write-ins,W,1
+statewide,Governor,Clayton,Kim Reynolds,R,4512
+statewide,Governor,Clayton,Fred Hubbell,D,2978
+statewide,Governor,Clayton,Gary Siegwarth,O,325
+statewide,Governor,Clayton,Jake Porter,L,103
+statewide,Governor,Clayton,Write-ins,W,4
+statewide,Governor,Clinton,Fred Hubbell,D,9047
+statewide,Governor,Clinton,Kim Reynolds,R,8847
+statewide,Governor,Clinton,Jake Porter,L,220
+statewide,Governor,Clinton,Gary Siegwarth,O,107
+statewide,Governor,Clinton,Write-ins,W,3
+statewide,Governor,Crawford,Kim Reynolds,R,3579
+statewide,Governor,Crawford,Fred Hubbell,D,1735
+statewide,Governor,Crawford,Jake Porter,L,76
+statewide,Governor,Crawford,Gary Siegwarth,O,31
+statewide,Governor,Crawford,Write-ins,W,1
+statewide,Governor,Dallas,Kim Reynolds,R,21189
+statewide,Governor,Dallas,Fred Hubbell,D,19804
+statewide,Governor,Dallas,Jake Porter,L,610
+statewide,Governor,Dallas,Gary Siegwarth,O,121
+statewide,Governor,Dallas,Write-ins,W,20
+statewide,Governor,Davis,Kim Reynolds,R,2070
+statewide,Governor,Davis,Fred Hubbell,D,1002
+statewide,Governor,Davis,Jake Porter,L,58
+statewide,Governor,Davis,Gary Siegwarth,O,11
+statewide,Governor,Davis,Write-ins,W,0
+statewide,Governor,Decatur,Kim Reynolds,R,1872
+statewide,Governor,Decatur,Fred Hubbell,D,1008
+statewide,Governor,Decatur,Jake Porter,L,62
+statewide,Governor,Decatur,Gary Siegwarth,O,10
+statewide,Governor,Decatur,Write-ins,W,4
+statewide,Governor,Delaware,Kim Reynolds,R,4779
+statewide,Governor,Delaware,Fred Hubbell,D,2667
+statewide,Governor,Delaware,Jake Porter,L,118
+statewide,Governor,Delaware,Gary Siegwarth,O,106
+statewide,Governor,Delaware,Write-ins,W,3
+statewide,Governor,Des Moines,Fred Hubbell,D,8038
+statewide,Governor,Des Moines,Kim Reynolds,R,6827
+statewide,Governor,Des Moines,Jake Porter,L,201
+statewide,Governor,Des Moines,Gary Siegwarth,O,79
+statewide,Governor,Des Moines,Write-ins,W,7
+statewide,Governor,Dickinson,Kim Reynolds,R,5564
+statewide,Governor,Dickinson,Fred Hubbell,D,3134
+statewide,Governor,Dickinson,Jake Porter,L,90
+statewide,Governor,Dickinson,Gary Siegwarth,O,51
+statewide,Governor,Dickinson,Write-ins,W,4
+statewide,Governor,Dubuque,Fred Hubbell,D,21108
+statewide,Governor,Dubuque,Kim Reynolds,R,20532
+statewide,Governor,Dubuque,Jake Porter,L,690
+statewide,Governor,Dubuque,Gary Siegwarth,O,418
+statewide,Governor,Dubuque,Write-ins,W,12
+statewide,Governor,Emmet,Kim Reynolds,R,2298
+statewide,Governor,Emmet,Fred Hubbell,D,1383
+statewide,Governor,Emmet,Jake Porter,L,62
+statewide,Governor,Emmet,Gary Siegwarth,O,26
+statewide,Governor,Emmet,Write-ins,W,0
+statewide,Governor,Fayette,Kim Reynolds,R,4528
+statewide,Governor,Fayette,Fred Hubbell,D,3446
+statewide,Governor,Fayette,Jake Porter,L,143
+statewide,Governor,Fayette,Gary Siegwarth,O,113
+statewide,Governor,Fayette,Write-ins,W,1
+statewide,Governor,Floyd,Kim Reynolds,R,3366
+statewide,Governor,Floyd,Fred Hubbell,D,2812
+statewide,Governor,Floyd,Jake Porter,L,87
+statewide,Governor,Floyd,Gary Siegwarth,O,50
+statewide,Governor,Floyd,Write-ins,W,3
+statewide,Governor,Franklin,Kim Reynolds,R,2647
+statewide,Governor,Franklin,Fred Hubbell,D,1379
+statewide,Governor,Franklin,Jake Porter,L,61
+statewide,Governor,Franklin,Gary Siegwarth,O,21
+statewide,Governor,Franklin,Write-ins,W,1
+statewide,Governor,Fremont,Kim Reynolds,R,1956
+statewide,Governor,Fremont,Fred Hubbell,D,992
+statewide,Governor,Fremont,Jake Porter,L,43
+statewide,Governor,Fremont,Gary Siegwarth,O,20
+statewide,Governor,Fremont,Write-ins,W,1
+statewide,Governor,Greene,Kim Reynolds,R,2326
+statewide,Governor,Greene,Fred Hubbell,D,1675
+statewide,Governor,Greene,Jake Porter,L,75
+statewide,Governor,Greene,Gary Siegwarth,O,17
+statewide,Governor,Greene,Write-ins,W,5
+statewide,Governor,Grundy,Kim Reynolds,R,3785
+statewide,Governor,Grundy,Fred Hubbell,D,1875
+statewide,Governor,Grundy,Jake Porter,L,77
+statewide,Governor,Grundy,Gary Siegwarth,O,24
+statewide,Governor,Grundy,Write-ins,W,3
+statewide,Governor,Guthrie,Kim Reynolds,R,3169
+statewide,Governor,Guthrie,Fred Hubbell,D,1738
+statewide,Governor,Guthrie,Jake Porter,L,115
+statewide,Governor,Guthrie,Gary Siegwarth,O,13
+statewide,Governor,Guthrie,Write-ins,W,2
+statewide,Governor,Hamilton,Kim Reynolds,R,3703
+statewide,Governor,Hamilton,Fred Hubbell,D,2560
+statewide,Governor,Hamilton,Jake Porter,L,89
+statewide,Governor,Hamilton,Gary Siegwarth,O,33
+statewide,Governor,Hamilton,Write-ins,W,1
+statewide,Governor,Hancock,Kim Reynolds,R,3257
+statewide,Governor,Hancock,Fred Hubbell,D,1464
+statewide,Governor,Hancock,Jake Porter,L,73
+statewide,Governor,Hancock,Gary Siegwarth,O,28
+statewide,Governor,Hancock,Write-ins,W,1
+statewide,Governor,Hardin,Kim Reynolds,R,4407
+statewide,Governor,Hardin,Fred Hubbell,D,2689
+statewide,Governor,Hardin,Jake Porter,L,114
+statewide,Governor,Hardin,Gary Siegwarth,O,39
+statewide,Governor,Hardin,Write-ins,W,1
+statewide,Governor,Harrison,Kim Reynolds,R,3931
+statewide,Governor,Harrison,Fred Hubbell,D,1912
+statewide,Governor,Harrison,Jake Porter,L,104
+statewide,Governor,Harrison,Gary Siegwarth,O,52
+statewide,Governor,Harrison,Write-ins,W,1
+statewide,Governor,Henry,Kim Reynolds,R,4284
+statewide,Governor,Henry,Fred Hubbell,D,2996
+statewide,Governor,Henry,Jake Porter,L,115
+statewide,Governor,Henry,Gary Siegwarth,O,51
+statewide,Governor,Henry,Write-ins,W,0
+statewide,Governor,Howard,Kim Reynolds,R,2050
+statewide,Governor,Howard,Fred Hubbell,D,1422
+statewide,Governor,Howard,Gary Siegwarth,O,76
+statewide,Governor,Howard,Jake Porter,L,73
+statewide,Governor,Howard,Write-ins,W,1
+statewide,Governor,Humboldt,Kim Reynolds,R,2797
+statewide,Governor,Humboldt,Fred Hubbell,D,1200
+statewide,Governor,Humboldt,Jake Porter,L,71
+statewide,Governor,Humboldt,Gary Siegwarth,O,17
+statewide,Governor,Humboldt,Write-ins,W,1
+statewide,Governor,Ida,Kim Reynolds,R,2196
+statewide,Governor,Ida,Fred Hubbell,D,713
+statewide,Governor,Ida,Jake Porter,L,29
+statewide,Governor,Ida,Gary Siegwarth,O,10
+statewide,Governor,Ida,Write-ins,W,0
+statewide,Governor,Iowa,Kim Reynolds,R,4499
+statewide,Governor,Iowa,Fred Hubbell,D,2966
+statewide,Governor,Iowa,Jake Porter,L,135
+statewide,Governor,Iowa,Gary Siegwarth,O,43
+statewide,Governor,Iowa,Write-ins,W,5
+statewide,Governor,Jackson,Kim Reynolds,R,4744
+statewide,Governor,Jackson,Fred Hubbell,D,3582
+statewide,Governor,Jackson,Gary Siegwarth,O,143
+statewide,Governor,Jackson,Jake Porter,L,118
+statewide,Governor,Jackson,Write-ins,W,2
+statewide,Governor,Jasper,Kim Reynolds,R,8377
+statewide,Governor,Jasper,Fred Hubbell,D,7234
+statewide,Governor,Jasper,Jake Porter,L,245
+statewide,Governor,Jasper,Gary Siegwarth,O,75
+statewide,Governor,Jasper,Write-ins,W,4
+statewide,Governor,Jefferson,Fred Hubbell,D,3750
+statewide,Governor,Jefferson,Kim Reynolds,R,3146
+statewide,Governor,Jefferson,Jake Porter,L,129
+statewide,Governor,Jefferson,Gary Siegwarth,O,46
+statewide,Governor,Jefferson,Write-ins,W,5
+statewide,Governor,Johnson,Fred Hubbell,D,48758
+statewide,Governor,Johnson,Kim Reynolds,R,18119
+statewide,Governor,Johnson,Jake Porter,L,918
+statewide,Governor,Johnson,Gary Siegwarth,O,288
+statewide,Governor,Johnson,Write-ins,W,24
+statewide,Governor,Jones,Kim Reynolds,R,4752
+statewide,Governor,Jones,Fred Hubbell,D,3650
+statewide,Governor,Jones,Jake Porter,L,151
+statewide,Governor,Jones,Gary Siegwarth,O,50
+statewide,Governor,Jones,Write-ins,W,0
+statewide,Governor,Keokuk,Kim Reynolds,R,2716
+statewide,Governor,Keokuk,Fred Hubbell,D,1294
+statewide,Governor,Keokuk,Jake Porter,L,61
+statewide,Governor,Keokuk,Gary Siegwarth,O,13
+statewide,Governor,Keokuk,Write-ins,W,1
+statewide,Governor,Kossuth,Kim Reynolds,R,4642
+statewide,Governor,Kossuth,Fred Hubbell,D,2588
+statewide,Governor,Kossuth,Jake Porter,L,98
+statewide,Governor,Kossuth,Gary Siegwarth,O,37
+statewide,Governor,Kossuth,Write-ins,W,0
+statewide,Governor,Lee,Fred Hubbell,D,6387
+statewide,Governor,Lee,Kim Reynolds,R,5973
+statewide,Governor,Lee,Jake Porter,L,208
+statewide,Governor,Lee,Gary Siegwarth,O,61
+statewide,Governor,Lee,Write-ins,W,9
+statewide,Governor,Linn,Fred Hubbell,D,56767
+statewide,Governor,Linn,Kim Reynolds,R,42449
+statewide,Governor,Linn,Jake Porter,L,2125
+statewide,Governor,Linn,Gary Siegwarth,O,713
+statewide,Governor,Linn,Write-ins,W,48
+statewide,Governor,Louisa,Kim Reynolds,R,2288
+statewide,Governor,Louisa,Fred Hubbell,D,1469
+statewide,Governor,Louisa,Jake Porter,L,46
+statewide,Governor,Louisa,Gary Siegwarth,O,18
+statewide,Governor,Louisa,Write-ins,W,7
+statewide,Governor,Lucas,Kim Reynolds,R,2335
+statewide,Governor,Lucas,Fred Hubbell,D,1172
+statewide,Governor,Lucas,Jake Porter,L,58
+statewide,Governor,Lucas,Gary Siegwarth,O,16
+statewide,Governor,Lucas,Write-ins,W,1
+statewide,Governor,Lyon,Kim Reynolds,R,4281
+statewide,Governor,Lyon,Fred Hubbell,D,853
+statewide,Governor,Lyon,Jake Porter,L,37
+statewide,Governor,Lyon,Gary Siegwarth,O,15
+statewide,Governor,Lyon,Write-ins,W,1
+statewide,Governor,Madison,Kim Reynolds,R,4754
+statewide,Governor,Madison,Fred Hubbell,D,2739
+statewide,Governor,Madison,Jake Porter,L,128
+statewide,Governor,Madison,Gary Siegwarth,O,32
+statewide,Governor,Madison,Write-ins,W,5
+statewide,Governor,Mahaska,Kim Reynolds,R,6007
+statewide,Governor,Mahaska,Fred Hubbell,D,2409
+statewide,Governor,Mahaska,Jake Porter,L,136
+statewide,Governor,Mahaska,Gary Siegwarth,O,42
+statewide,Governor,Mahaska,Write-ins,W,2
+statewide,Governor,Marion,Kim Reynolds,R,9479
+statewide,Governor,Marion,Fred Hubbell,D,5249
+statewide,Governor,Marion,Jake Porter,L,253
+statewide,Governor,Marion,Gary Siegwarth,O,66
+statewide,Governor,Marion,Write-ins,W,4
+statewide,Governor,Marshall,Kim Reynolds,R,7243
+statewide,Governor,Marshall,Fred Hubbell,D,7095
+statewide,Governor,Marshall,Jake Porter,L,246
+statewide,Governor,Marshall,Gary Siegwarth,O,64
+statewide,Governor,Marshall,Write-ins,W,4
+statewide,Governor,Mills,Kim Reynolds,R,3945
+statewide,Governor,Mills,Fred Hubbell,D,2191
+statewide,Governor,Mills,Jake Porter,L,136
+statewide,Governor,Mills,Gary Siegwarth,O,51
+statewide,Governor,Mills,Write-ins,W,2
+statewide,Governor,Mitchell,Kim Reynolds,R,2711
+statewide,Governor,Mitchell,Fred Hubbell,D,1704
+statewide,Governor,Mitchell,Jake Porter,L,67
+statewide,Governor,Mitchell,Gary Siegwarth,O,43
+statewide,Governor,Mitchell,Write-ins,W,2
+statewide,Governor,Monona,Kim Reynolds,R,2556
+statewide,Governor,Monona,Fred Hubbell,D,1171
+statewide,Governor,Monona,Jake Porter,L,49
+statewide,Governor,Monona,Gary Siegwarth,O,21
+statewide,Governor,Monona,Write-ins,W,0
+statewide,Governor,Monroe,Kim Reynolds,R,2053
+statewide,Governor,Monroe,Fred Hubbell,D,1061
+statewide,Governor,Monroe,Jake Porter,L,38
+statewide,Governor,Monroe,Gary Siegwarth,O,8
+statewide,Governor,Monroe,Write-ins,W,1
+statewide,Governor,Montgomery,Kim Reynolds,R,2648
+statewide,Governor,Montgomery,Fred Hubbell,D,1220
+statewide,Governor,Montgomery,Jake Porter,L,78
+statewide,Governor,Montgomery,Gary Siegwarth,O,19
+statewide,Governor,Montgomery,Write-ins,W,1
+statewide,Governor,Muscatine,Kim Reynolds,R,7535
+statewide,Governor,Muscatine,Fred Hubbell,D,7081
+statewide,Governor,Muscatine,Jake Porter,L,266
+statewide,Governor,Muscatine,Gary Siegwarth,O,91
+statewide,Governor,Muscatine,Write-ins,W,8
+statewide,Governor,O'Brien,Kim Reynolds,R,4472
+statewide,Governor,O'Brien,Fred Hubbell,D,1296
+statewide,Governor,O'Brien,Jake Porter,L,63
+statewide,Governor,O'Brien,Gary Siegwarth,O,20
+statewide,Governor,O'Brien,Write-ins,W,0
+statewide,Governor,Osceola,Kim Reynolds,R,1922
+statewide,Governor,Osceola,Fred Hubbell,D,481
+statewide,Governor,Osceola,Jake Porter,L,16
+statewide,Governor,Osceola,Gary Siegwarth,O,11
+statewide,Governor,Osceola,Write-ins,W,1
+statewide,Governor,Page,Kim Reynolds,R,3702
+statewide,Governor,Page,Fred Hubbell,D,1839
+statewide,Governor,Page,Jake Porter,L,69
+statewide,Governor,Page,Gary Siegwarth,O,23
+statewide,Governor,Page,Write-ins,W,2
+statewide,Governor,Palo Alto,Kim Reynolds,R,2320
+statewide,Governor,Palo Alto,Fred Hubbell,D,1398
+statewide,Governor,Palo Alto,Jake Porter,L,54
+statewide,Governor,Palo Alto,Gary Siegwarth,O,14
+statewide,Governor,Palo Alto,Write-ins,W,2
+statewide,Governor,Plymouth,Kim Reynolds,R,7941
+statewide,Governor,Plymouth,Fred Hubbell,D,2717
+statewide,Governor,Plymouth,Jake Porter,L,123
+statewide,Governor,Plymouth,Gary Siegwarth,O,44
+statewide,Governor,Plymouth,Write-ins,W,4
+statewide,Governor,Pocahontas,Kim Reynolds,R,2091
+statewide,Governor,Pocahontas,Fred Hubbell,D,962
+statewide,Governor,Pocahontas,Jake Porter,L,61
+statewide,Governor,Pocahontas,Gary Siegwarth,O,9
+statewide,Governor,Pocahontas,Write-ins,W,2
+statewide,Governor,Polk,Fred Hubbell,D,120257
+statewide,Governor,Polk,Kim Reynolds,R,82473
+statewide,Governor,Polk,Jake Porter,L,3394
+statewide,Governor,Polk,Gary Siegwarth,O,665
+statewide,Governor,Polk,Write-ins,W,92
+statewide,Governor,Pottawattamie,Kim Reynolds,R,19036
+statewide,Governor,Pottawattamie,Fred Hubbell,D,14234
+statewide,Governor,Pottawattamie,Jake Porter,L,660
+statewide,Governor,Pottawattamie,Gary Siegwarth,O,180
+statewide,Governor,Pottawattamie,Write-ins,W,19
+statewide,Governor,Poweshiek,Kim Reynolds,R,4160
+statewide,Governor,Poweshiek,Fred Hubbell,D,3998
+statewide,Governor,Poweshiek,Jake Porter,L,111
+statewide,Governor,Poweshiek,Gary Siegwarth,O,46
+statewide,Governor,Poweshiek,Write-ins,W,0
+statewide,Governor,Ringgold,Kim Reynolds,R,1476
+statewide,Governor,Ringgold,Fred Hubbell,D,804
+statewide,Governor,Ringgold,Jake Porter,L,26
+statewide,Governor,Ringgold,Gary Siegwarth,O,10
+statewide,Governor,Ringgold,Write-ins,W,0
+statewide,Governor,Sac,Kim Reynolds,R,2965
+statewide,Governor,Sac,Fred Hubbell,D,1253
+statewide,Governor,Sac,Jake Porter,L,65
+statewide,Governor,Sac,Gary Siegwarth,O,26
+statewide,Governor,Sac,Write-ins,W,1
+statewide,Governor,Scott,Fred Hubbell,D,35147
+statewide,Governor,Scott,Kim Reynolds,R,32750
+statewide,Governor,Scott,Jake Porter,L,1046
+statewide,Governor,Scott,Gary Siegwarth,O,292
+statewide,Governor,Scott,Write-ins,W,20
+statewide,Governor,Shelby,Kim Reynolds,R,3537
+statewide,Governor,Shelby,Fred Hubbell,D,1450
+statewide,Governor,Shelby,Jake Porter,L,59
+statewide,Governor,Shelby,Gary Siegwarth,O,21
+statewide,Governor,Shelby,Write-ins,W,2
+statewide,Governor,Sioux,Kim Reynolds,R,12840
+statewide,Governor,Sioux,Fred Hubbell,D,1955
+statewide,Governor,Sioux,Jake Porter,L,107
+statewide,Governor,Sioux,Gary Siegwarth,O,39
+statewide,Governor,Sioux,Write-ins,W,1
+statewide,Governor,Story,Fred Hubbell,D,25155
+statewide,Governor,Story,Kim Reynolds,R,16535
+statewide,Governor,Story,Jake Porter,L,847
+statewide,Governor,Story,Gary Siegwarth,O,269
+statewide,Governor,Story,Write-ins,W,18
+statewide,Governor,Tama,Kim Reynolds,R,3931
+statewide,Governor,Tama,Fred Hubbell,D,3238
+statewide,Governor,Tama,Jake Porter,L,108
+statewide,Governor,Tama,Gary Siegwarth,O,46
+statewide,Governor,Tama,Write-ins,W,5
+statewide,Governor,Taylor,Kim Reynolds,R,1632
+statewide,Governor,Taylor,Fred Hubbell,D,759
+statewide,Governor,Taylor,Jake Porter,L,40
+statewide,Governor,Taylor,Gary Siegwarth,O,14
+statewide,Governor,Taylor,Write-ins,W,0
+statewide,Governor,Union,Kim Reynolds,R,2949
+statewide,Governor,Union,Fred Hubbell,D,1835
+statewide,Governor,Union,Jake Porter,L,91
+statewide,Governor,Union,Gary Siegwarth,O,20
+statewide,Governor,Union,Write-ins,W,1
+statewide,Governor,Van Buren,Kim Reynolds,R,2026
+statewide,Governor,Van Buren,Fred Hubbell,D,839
+statewide,Governor,Van Buren,Jake Porter,L,45
+statewide,Governor,Van Buren,Gary Siegwarth,O,12
+statewide,Governor,Van Buren,Write-ins,W,0
+statewide,Governor,Wapello,Kim Reynolds,R,6313
+statewide,Governor,Wapello,Fred Hubbell,D,5480
+statewide,Governor,Wapello,Jake Porter,L,189
+statewide,Governor,Wapello,Gary Siegwarth,O,65
+statewide,Governor,Wapello,Write-ins,W,11
+statewide,Governor,Warren,Kim Reynolds,R,12801
+statewide,Governor,Warren,Fred Hubbell,D,10942
+statewide,Governor,Warren,Jake Porter,L,418
+statewide,Governor,Warren,Gary Siegwarth,O,90
+statewide,Governor,Warren,Write-ins,W,10
+statewide,Governor,Washington,Kim Reynolds,R,5189
+statewide,Governor,Washington,Fred Hubbell,D,3746
+statewide,Governor,Washington,Jake Porter,L,187
+statewide,Governor,Washington,Gary Siegwarth,O,38
+statewide,Governor,Washington,Write-ins,W,2
+statewide,Governor,Wayne,Kim Reynolds,R,1624
+statewide,Governor,Wayne,Fred Hubbell,D,722
+statewide,Governor,Wayne,Jake Porter,L,51
+statewide,Governor,Wayne,Gary Siegwarth,O,8
+statewide,Governor,Wayne,Write-ins,W,0
+statewide,Governor,Webster,Kim Reynolds,R,7727
+statewide,Governor,Webster,Fred Hubbell,D,6132
+statewide,Governor,Webster,Jake Porter,L,219
+statewide,Governor,Webster,Gary Siegwarth,O,68
+statewide,Governor,Webster,Write-ins,W,3
+statewide,Governor,Winnebago,Kim Reynolds,R,2726
+statewide,Governor,Winnebago,Fred Hubbell,D,1788
+statewide,Governor,Winnebago,Jake Porter,L,80
+statewide,Governor,Winnebago,Gary Siegwarth,O,38
+statewide,Governor,Winnebago,Write-ins,W,0
+statewide,Governor,Winneshiek,Kim Reynolds,R,4841
+statewide,Governor,Winneshiek,Fred Hubbell,D,4785
+statewide,Governor,Winneshiek,Gary Siegwarth,O,131
+statewide,Governor,Winneshiek,Jake Porter,L,116
+statewide,Governor,Winneshiek,Write-ins,W,0
+statewide,Governor,Woodbury,Kim Reynolds,R,19630
+statewide,Governor,Woodbury,Fred Hubbell,D,15024
+statewide,Governor,Woodbury,Jake Porter,L,618
+statewide,Governor,Woodbury,Gary Siegwarth,O,145
+statewide,Governor,Woodbury,Write-ins,W,13
+statewide,Governor,Worth,Kim Reynolds,R,2043
+statewide,Governor,Worth,Fred Hubbell,D,1382
+statewide,Governor,Worth,Jake Porter,L,79
+statewide,Governor,Worth,Gary Siegwarth,O,28
+statewide,Governor,Worth,Write-ins,W,1
+statewide,Governor,Wright,Kim Reynolds,R,3049
+statewide,Governor,Wright,Fred Hubbell,D,1788
+statewide,Governor,Wright,Jake Porter,L,70
+statewide,Governor,Wright,Gary Siegwarth,O,39
+statewide,Governor,Wright,Write-ins,W,1
+statewide,Secretary of Agriculture,Adair,Mike Naig,R,2121
+statewide,Secretary of Agriculture,Adair,Tim Gannon,D,1092
+statewide,Secretary of Agriculture,Adair,Rick Stewart,L,98
+statewide,Secretary of Agriculture,Adair,Write-ins,W,0
+statewide,Secretary of Agriculture,Adams,Mike Naig,R,1099
+statewide,Secretary of Agriculture,Adams,Tim Gannon,D,535
+statewide,Secretary of Agriculture,Adams,Rick Stewart,L,50
+statewide,Secretary of Agriculture,Adams,Write-ins,W,3
+statewide,Secretary of Agriculture,Allamakee,Mike Naig,R,3175
+statewide,Secretary of Agriculture,Allamakee,Tim Gannon,D,2182
+statewide,Secretary of Agriculture,Allamakee,Rick Stewart,L,188
+statewide,Secretary of Agriculture,Allamakee,Write-ins,W,0
+statewide,Secretary of Agriculture,Appanoose,Mike Naig,R,3011
+statewide,Secretary of Agriculture,Appanoose,Tim Gannon,D,1764
+statewide,Secretary of Agriculture,Appanoose,Rick Stewart,L,137
+statewide,Secretary of Agriculture,Appanoose,Write-ins,W,1
+statewide,Secretary of Agriculture,Audubon,Mike Naig,R,1607
+statewide,Secretary of Agriculture,Audubon,Tim Gannon,D,868
+statewide,Secretary of Agriculture,Audubon,Rick Stewart,L,71
+statewide,Secretary of Agriculture,Audubon,Write-ins,W,1
+statewide,Secretary of Agriculture,Benton,Mike Naig,R,6654
+statewide,Secretary of Agriculture,Benton,Tim Gannon,D,4336
+statewide,Secretary of Agriculture,Benton,Rick Stewart,L,391
+statewide,Secretary of Agriculture,Benton,Write-ins,W,7
+statewide,Secretary of Agriculture,Black Hawk,Tim Gannon,D,28449
+statewide,Secretary of Agriculture,Black Hawk,Mike Naig,R,22349
+statewide,Secretary of Agriculture,Black Hawk,Rick Stewart,L,1376
+statewide,Secretary of Agriculture,Black Hawk,Write-ins,W,27
+statewide,Secretary of Agriculture,Boone,Mike Naig,R,6037
+statewide,Secretary of Agriculture,Boone,Tim Gannon,D,5474
+statewide,Secretary of Agriculture,Boone,Rick Stewart,L,365
+statewide,Secretary of Agriculture,Boone,Write-ins,W,5
+statewide,Secretary of Agriculture,Bremer,Mike Naig,R,5944
+statewide,Secretary of Agriculture,Bremer,Tim Gannon,D,4912
+statewide,Secretary of Agriculture,Bremer,Rick Stewart,L,322
+statewide,Secretary of Agriculture,Bremer,Write-ins,W,3
+statewide,Secretary of Agriculture,Buchanan,Mike Naig,R,4285
+statewide,Secretary of Agriculture,Buchanan,Tim Gannon,D,3751
+statewide,Secretary of Agriculture,Buchanan,Rick Stewart,L,252
+statewide,Secretary of Agriculture,Buchanan,Write-ins,W,1
+statewide,Secretary of Agriculture,Buena Vista,Mike Naig,R,4017
+statewide,Secretary of Agriculture,Buena Vista,Tim Gannon,D,2180
+statewide,Secretary of Agriculture,Buena Vista,Rick Stewart,L,167
+statewide,Secretary of Agriculture,Buena Vista,Write-ins,W,0
+statewide,Secretary of Agriculture,Butler,Mike Naig,R,3844
+statewide,Secretary of Agriculture,Butler,Tim Gannon,D,2033
+statewide,Secretary of Agriculture,Butler,Rick Stewart,L,152
+statewide,Secretary of Agriculture,Butler,Write-ins,W,0
+statewide,Secretary of Agriculture,Calhoun,Mike Naig,R,2793
+statewide,Secretary of Agriculture,Calhoun,Tim Gannon,D,1309
+statewide,Secretary of Agriculture,Calhoun,Rick Stewart,L,105
+statewide,Secretary of Agriculture,Calhoun,Write-ins,W,0
+statewide,Secretary of Agriculture,Carroll,Mike Naig,R,5397
+statewide,Secretary of Agriculture,Carroll,Tim Gannon,D,2872
+statewide,Secretary of Agriculture,Carroll,Rick Stewart,L,202
+statewide,Secretary of Agriculture,Carroll,Write-ins,W,6
+statewide,Secretary of Agriculture,Cass,Mike Naig,R,3776
+statewide,Secretary of Agriculture,Cass,Tim Gannon,D,1686
+statewide,Secretary of Agriculture,Cass,Rick Stewart,L,151
+statewide,Secretary of Agriculture,Cass,Write-ins,W,3
+statewide,Secretary of Agriculture,Cedar,Mike Naig,R,4368
+statewide,Secretary of Agriculture,Cedar,Tim Gannon,D,3319
+statewide,Secretary of Agriculture,Cedar,Rick Stewart,L,229
+statewide,Secretary of Agriculture,Cedar,Write-ins,W,5
+statewide,Secretary of Agriculture,Cerro Gordo,Tim Gannon,D,9446
+statewide,Secretary of Agriculture,Cerro Gordo,Mike Naig,R,8433
+statewide,Secretary of Agriculture,Cerro Gordo,Rick Stewart,L,573
+statewide,Secretary of Agriculture,Cerro Gordo,Write-ins,W,13
+statewide,Secretary of Agriculture,Cherokee,Mike Naig,R,3356
+statewide,Secretary of Agriculture,Cherokee,Tim Gannon,D,1528
+statewide,Secretary of Agriculture,Cherokee,Rick Stewart,L,121
+statewide,Secretary of Agriculture,Cherokee,Write-ins,W,2
+statewide,Secretary of Agriculture,Chickasaw,Mike Naig,R,2699
+statewide,Secretary of Agriculture,Chickasaw,Tim Gannon,D,2326
+statewide,Secretary of Agriculture,Chickasaw,Rick Stewart,L,122
+statewide,Secretary of Agriculture,Chickasaw,Write-ins,W,1
+statewide,Secretary of Agriculture,Clarke,Mike Naig,R,2040
+statewide,Secretary of Agriculture,Clarke,Tim Gannon,D,1418
+statewide,Secretary of Agriculture,Clarke,Rick Stewart,L,130
+statewide,Secretary of Agriculture,Clarke,Write-ins,W,5
+statewide,Secretary of Agriculture,Clay,Mike Naig,R,4651
+statewide,Secretary of Agriculture,Clay,Tim Gannon,D,1983
+statewide,Secretary of Agriculture,Clay,Rick Stewart,L,139
+statewide,Secretary of Agriculture,Clay,Write-ins,W,1
+statewide,Secretary of Agriculture,Clayton,Mike Naig,R,4475
+statewide,Secretary of Agriculture,Clayton,Tim Gannon,D,3073
+statewide,Secretary of Agriculture,Clayton,Rick Stewart,L,206
+statewide,Secretary of Agriculture,Clayton,Write-ins,W,3
+statewide,Secretary of Agriculture,Clinton,Tim Gannon,D,8947
+statewide,Secretary of Agriculture,Clinton,Mike Naig,R,8404
+statewide,Secretary of Agriculture,Clinton,Rick Stewart,L,505
+statewide,Secretary of Agriculture,Clinton,Write-ins,W,10
+statewide,Secretary of Agriculture,Crawford,Mike Naig,R,3332
+statewide,Secretary of Agriculture,Crawford,Tim Gannon,D,1666
+statewide,Secretary of Agriculture,Crawford,Rick Stewart,L,157
+statewide,Secretary of Agriculture,Crawford,Write-ins,W,1
+statewide,Secretary of Agriculture,Dallas,Mike Naig,R,21086
+statewide,Secretary of Agriculture,Dallas,Tim Gannon,D,18311
+statewide,Secretary of Agriculture,Dallas,Rick Stewart,L,1036
+statewide,Secretary of Agriculture,Dallas,Write-ins,W,26
+statewide,Secretary of Agriculture,Davis,Mike Naig,R,1933
+statewide,Secretary of Agriculture,Davis,Tim Gannon,D,1009
+statewide,Secretary of Agriculture,Davis,Rick Stewart,L,111
+statewide,Secretary of Agriculture,Davis,Write-ins,W,1
+statewide,Secretary of Agriculture,Decatur,Mike Naig,R,1738
+statewide,Secretary of Agriculture,Decatur,Tim Gannon,D,1031
+statewide,Secretary of Agriculture,Decatur,Rick Stewart,L,100
+statewide,Secretary of Agriculture,Decatur,Write-ins,W,1
+statewide,Secretary of Agriculture,Delaware,Mike Naig,R,4609
+statewide,Secretary of Agriculture,Delaware,Tim Gannon,D,2723
+statewide,Secretary of Agriculture,Delaware,Rick Stewart,L,189
+statewide,Secretary of Agriculture,Delaware,Write-ins,W,6
+statewide,Secretary of Agriculture,Des Moines,Tim Gannon,D,7682
+statewide,Secretary of Agriculture,Des Moines,Mike Naig,R,6564
+statewide,Secretary of Agriculture,Des Moines,Rick Stewart,L,443
+statewide,Secretary of Agriculture,Des Moines,Write-ins,W,5
+statewide,Secretary of Agriculture,Dickinson,Mike Naig,R,5795
+statewide,Secretary of Agriculture,Dickinson,Tim Gannon,D,2739
+statewide,Secretary of Agriculture,Dickinson,Rick Stewart,L,143
+statewide,Secretary of Agriculture,Dickinson,Write-ins,W,2
+statewide,Secretary of Agriculture,Dubuque,Tim Gannon,D,20848
+statewide,Secretary of Agriculture,Dubuque,Mike Naig,R,18726
+statewide,Secretary of Agriculture,Dubuque,Rick Stewart,L,1224
+statewide,Secretary of Agriculture,Dubuque,Write-ins,W,9
+statewide,Secretary of Agriculture,Emmet,Mike Naig,R,2423
+statewide,Secretary of Agriculture,Emmet,Tim Gannon,D,1213
+statewide,Secretary of Agriculture,Emmet,Rick Stewart,L,70
+statewide,Secretary of Agriculture,Emmet,Write-ins,W,2
+statewide,Secretary of Agriculture,Fayette,Mike Naig,R,4477
+statewide,Secretary of Agriculture,Fayette,Tim Gannon,D,3340
+statewide,Secretary of Agriculture,Fayette,Rick Stewart,L,267
+statewide,Secretary of Agriculture,Fayette,Write-ins,W,6
+statewide,Secretary of Agriculture,Floyd,Mike Naig,R,3128
+statewide,Secretary of Agriculture,Floyd,Tim Gannon,D,2829
+statewide,Secretary of Agriculture,Floyd,Rick Stewart,L,223
+statewide,Secretary of Agriculture,Floyd,Write-ins,W,3
+statewide,Secretary of Agriculture,Franklin,Mike Naig,R,2652
+statewide,Secretary of Agriculture,Franklin,Tim Gannon,D,1246
+statewide,Secretary of Agriculture,Franklin,Rick Stewart,L,108
+statewide,Secretary of Agriculture,Franklin,Write-ins,W,0
+statewide,Secretary of Agriculture,Fremont,Mike Naig,R,1884
+statewide,Secretary of Agriculture,Fremont,Tim Gannon,D,945
+statewide,Secretary of Agriculture,Fremont,Rick Stewart,L,98
+statewide,Secretary of Agriculture,Fremont,Write-ins,W,3
+statewide,Secretary of Agriculture,Greene,Mike Naig,R,2235
+statewide,Secretary of Agriculture,Greene,Tim Gannon,D,1629
+statewide,Secretary of Agriculture,Greene,Rick Stewart,L,101
+statewide,Secretary of Agriculture,Greene,Write-ins,W,2
+statewide,Secretary of Agriculture,Grundy,Mike Naig,R,3785
+statewide,Secretary of Agriculture,Grundy,Tim Gannon,D,1749
+statewide,Secretary of Agriculture,Grundy,Rick Stewart,L,112
+statewide,Secretary of Agriculture,Grundy,Write-ins,W,3
+statewide,Secretary of Agriculture,Guthrie,Mike Naig,R,3069
+statewide,Secretary of Agriculture,Guthrie,Tim Gannon,D,1686
+statewide,Secretary of Agriculture,Guthrie,Rick Stewart,L,181
+statewide,Secretary of Agriculture,Guthrie,Write-ins,W,2
+statewide,Secretary of Agriculture,Hamilton,Mike Naig,R,3736
+statewide,Secretary of Agriculture,Hamilton,Tim Gannon,D,2324
+statewide,Secretary of Agriculture,Hamilton,Rick Stewart,L,163
+statewide,Secretary of Agriculture,Hamilton,Write-ins,W,4
+statewide,Secretary of Agriculture,Hancock,Mike Naig,R,3076
+statewide,Secretary of Agriculture,Hancock,Tim Gannon,D,1467
+statewide,Secretary of Agriculture,Hancock,Rick Stewart,L,143
+statewide,Secretary of Agriculture,Hancock,Write-ins,W,1
+statewide,Secretary of Agriculture,Hardin,Mike Naig,R,4467
+statewide,Secretary of Agriculture,Hardin,Tim Gannon,D,2423
+statewide,Secretary of Agriculture,Hardin,Rick Stewart,L,197
+statewide,Secretary of Agriculture,Hardin,Write-ins,W,0
+statewide,Secretary of Agriculture,Harrison,Mike Naig,R,3620
+statewide,Secretary of Agriculture,Harrison,Tim Gannon,D,1984
+statewide,Secretary of Agriculture,Harrison,Rick Stewart,L,240
+statewide,Secretary of Agriculture,Harrison,Write-ins,W,4
+statewide,Secretary of Agriculture,Henry,Mike Naig,R,4336
+statewide,Secretary of Agriculture,Henry,Tim Gannon,D,2718
+statewide,Secretary of Agriculture,Henry,Rick Stewart,L,226
+statewide,Secretary of Agriculture,Henry,Write-ins,W,3
+statewide,Secretary of Agriculture,Howard,Mike Naig,R,1880
+statewide,Secretary of Agriculture,Howard,Tim Gannon,D,1558
+statewide,Secretary of Agriculture,Howard,Rick Stewart,L,104
+statewide,Secretary of Agriculture,Howard,Write-ins,W,2
+statewide,Secretary of Agriculture,Humboldt,Mike Naig,R,2809
+statewide,Secretary of Agriculture,Humboldt,Tim Gannon,D,1104
+statewide,Secretary of Agriculture,Humboldt,Rick Stewart,L,89
+statewide,Secretary of Agriculture,Humboldt,Write-ins,W,0
+statewide,Secretary of Agriculture,Ida,Mike Naig,R,2085
+statewide,Secretary of Agriculture,Ida,Tim Gannon,D,721
+statewide,Secretary of Agriculture,Ida,Rick Stewart,L,60
+statewide,Secretary of Agriculture,Ida,Write-ins,W,0
+statewide,Secretary of Agriculture,Iowa,Mike Naig,R,4411
+statewide,Secretary of Agriculture,Iowa,Tim Gannon,D,2816
+statewide,Secretary of Agriculture,Iowa,Rick Stewart,L,243
+statewide,Secretary of Agriculture,Iowa,Write-ins,W,4
+statewide,Secretary of Agriculture,Jackson,Mike Naig,R,4172
+statewide,Secretary of Agriculture,Jackson,Tim Gannon,D,3589
+statewide,Secretary of Agriculture,Jackson,Rick Stewart,L,477
+statewide,Secretary of Agriculture,Jackson,Write-ins,W,4
+statewide,Secretary of Agriculture,Jasper,Mike Naig,R,7869
+statewide,Secretary of Agriculture,Jasper,Tim Gannon,D,7460
+statewide,Secretary of Agriculture,Jasper,Rick Stewart,L,399
+statewide,Secretary of Agriculture,Jasper,Write-ins,W,6
+statewide,Secretary of Agriculture,Jefferson,Tim Gannon,D,3649
+statewide,Secretary of Agriculture,Jefferson,Mike Naig,R,2950
+statewide,Secretary of Agriculture,Jefferson,Rick Stewart,L,284
+statewide,Secretary of Agriculture,Jefferson,Write-ins,W,7
+statewide,Secretary of Agriculture,Johnson,Tim Gannon,D,45886
+statewide,Secretary of Agriculture,Johnson,Mike Naig,R,18593
+statewide,Secretary of Agriculture,Johnson,Rick Stewart,L,1929
+statewide,Secretary of Agriculture,Johnson,Write-ins,W,35
+statewide,Secretary of Agriculture,Jones,Mike Naig,R,4716
+statewide,Secretary of Agriculture,Jones,Tim Gannon,D,3488
+statewide,Secretary of Agriculture,Jones,Rick Stewart,L,248
+statewide,Secretary of Agriculture,Jones,Write-ins,W,2
+statewide,Secretary of Agriculture,Keokuk,Mike Naig,R,2672
+statewide,Secretary of Agriculture,Keokuk,Tim Gannon,D,1215
+statewide,Secretary of Agriculture,Keokuk,Rick Stewart,L,91
+statewide,Secretary of Agriculture,Keokuk,Write-ins,W,2
+statewide,Secretary of Agriculture,Kossuth,Mike Naig,R,4989
+statewide,Secretary of Agriculture,Kossuth,Tim Gannon,D,2184
+statewide,Secretary of Agriculture,Kossuth,Rick Stewart,L,109
+statewide,Secretary of Agriculture,Kossuth,Write-ins,W,2
+statewide,Secretary of Agriculture,Lee,Tim Gannon,D,6048
+statewide,Secretary of Agriculture,Lee,Mike Naig,R,5904
+statewide,Secretary of Agriculture,Lee,Rick Stewart,L,471
+statewide,Secretary of Agriculture,Lee,Write-ins,W,8
+statewide,Secretary of Agriculture,Linn,Tim Gannon,D,53920
+statewide,Secretary of Agriculture,Linn,Mike Naig,R,41825
+statewide,Secretary of Agriculture,Linn,Rick Stewart,L,4427
+statewide,Secretary of Agriculture,Linn,Write-ins,W,45
+statewide,Secretary of Agriculture,Louisa,Mike Naig,R,2276
+statewide,Secretary of Agriculture,Louisa,Tim Gannon,D,1388
+statewide,Secretary of Agriculture,Louisa,Rick Stewart,L,102
+statewide,Secretary of Agriculture,Louisa,Write-ins,W,0
+statewide,Secretary of Agriculture,Lucas,Mike Naig,R,2257
+statewide,Secretary of Agriculture,Lucas,Tim Gannon,D,1152
+statewide,Secretary of Agriculture,Lucas,Rick Stewart,L,97
+statewide,Secretary of Agriculture,Lucas,Write-ins,W,0
+statewide,Secretary of Agriculture,Lyon,Mike Naig,R,4181
+statewide,Secretary of Agriculture,Lyon,Tim Gannon,D,741
+statewide,Secretary of Agriculture,Lyon,Rick Stewart,L,87
+statewide,Secretary of Agriculture,Lyon,Write-ins,W,4
+statewide,Secretary of Agriculture,Madison,Mike Naig,R,4550
+statewide,Secretary of Agriculture,Madison,Tim Gannon,D,2667
+statewide,Secretary of Agriculture,Madison,Rick Stewart,L,252
+statewide,Secretary of Agriculture,Madison,Write-ins,W,1
+statewide,Secretary of Agriculture,Mahaska,Mike Naig,R,5901
+statewide,Secretary of Agriculture,Mahaska,Tim Gannon,D,2237
+statewide,Secretary of Agriculture,Mahaska,Rick Stewart,L,224
+statewide,Secretary of Agriculture,Mahaska,Write-ins,W,6
+statewide,Secretary of Agriculture,Marion,Mike Naig,R,9468
+statewide,Secretary of Agriculture,Marion,Tim Gannon,D,4861
+statewide,Secretary of Agriculture,Marion,Rick Stewart,L,396
+statewide,Secretary of Agriculture,Marion,Write-ins,W,7
+statewide,Secretary of Agriculture,Marshall,Mike Naig,R,7240
+statewide,Secretary of Agriculture,Marshall,Tim Gannon,D,6553
+statewide,Secretary of Agriculture,Marshall,Rick Stewart,L,417
+statewide,Secretary of Agriculture,Marshall,Write-ins,W,6
+statewide,Secretary of Agriculture,Mills,Mike Naig,R,4023
+statewide,Secretary of Agriculture,Mills,Tim Gannon,D,1904
+statewide,Secretary of Agriculture,Mills,Rick Stewart,L,239
+statewide,Secretary of Agriculture,Mills,Write-ins,W,3
+statewide,Secretary of Agriculture,Mitchell,Mike Naig,R,2509
+statewide,Secretary of Agriculture,Mitchell,Tim Gannon,D,1767
+statewide,Secretary of Agriculture,Mitchell,Rick Stewart,L,137
+statewide,Secretary of Agriculture,Mitchell,Write-ins,W,2
+statewide,Secretary of Agriculture,Monona,Mike Naig,R,2303
+statewide,Secretary of Agriculture,Monona,Tim Gannon,D,1272
+statewide,Secretary of Agriculture,Monona,Rick Stewart,L,118
+statewide,Secretary of Agriculture,Monona,Write-ins,W,1
+statewide,Secretary of Agriculture,Monroe,Mike Naig,R,1938
+statewide,Secretary of Agriculture,Monroe,Tim Gannon,D,1042
+statewide,Secretary of Agriculture,Monroe,Rick Stewart,L,86
+statewide,Secretary of Agriculture,Monroe,Write-ins,W,0
+statewide,Secretary of Agriculture,Montgomery,Mike Naig,R,2590
+statewide,Secretary of Agriculture,Montgomery,Tim Gannon,D,1136
+statewide,Secretary of Agriculture,Montgomery,Rick Stewart,L,131
+statewide,Secretary of Agriculture,Montgomery,Write-ins,W,1
+statewide,Secretary of Agriculture,Muscatine,Mike Naig,R,7378
+statewide,Secretary of Agriculture,Muscatine,Tim Gannon,D,6888
+statewide,Secretary of Agriculture,Muscatine,Rick Stewart,L,458
+statewide,Secretary of Agriculture,Muscatine,Write-ins,W,2
+statewide,Secretary of Agriculture,O'Brien,Mike Naig,R,4499
+statewide,Secretary of Agriculture,O'Brien,Tim Gannon,D,1113
+statewide,Secretary of Agriculture,O'Brien,Rick Stewart,L,98
+statewide,Secretary of Agriculture,O'Brien,Write-ins,W,0
+statewide,Secretary of Agriculture,Osceola,Mike Naig,R,1925
+statewide,Secretary of Agriculture,Osceola,Tim Gannon,D,409
+statewide,Secretary of Agriculture,Osceola,Rick Stewart,L,43
+statewide,Secretary of Agriculture,Osceola,Write-ins,W,0
+statewide,Secretary of Agriculture,Page,Mike Naig,R,3754
+statewide,Secretary of Agriculture,Page,Tim Gannon,D,1651
+statewide,Secretary of Agriculture,Page,Rick Stewart,L,124
+statewide,Secretary of Agriculture,Page,Write-ins,W,0
+statewide,Secretary of Agriculture,Palo Alto,Mike Naig,R,2864
+statewide,Secretary of Agriculture,Palo Alto,Tim Gannon,D,864
+statewide,Secretary of Agriculture,Palo Alto,Rick Stewart,L,42
+statewide,Secretary of Agriculture,Palo Alto,Write-ins,W,3
+statewide,Secretary of Agriculture,Plymouth,Mike Naig,R,7658
+statewide,Secretary of Agriculture,Plymouth,Tim Gannon,D,2649
+statewide,Secretary of Agriculture,Plymouth,Rick Stewart,L,217
+statewide,Secretary of Agriculture,Plymouth,Write-ins,W,2
+statewide,Secretary of Agriculture,Pocahontas,Mike Naig,R,2171
+statewide,Secretary of Agriculture,Pocahontas,Tim Gannon,D,827
+statewide,Secretary of Agriculture,Pocahontas,Rick Stewart,L,67
+statewide,Secretary of Agriculture,Pocahontas,Write-ins,W,0
+statewide,Secretary of Agriculture,Polk,Tim Gannon,D,113750
+statewide,Secretary of Agriculture,Polk,Mike Naig,R,81447
+statewide,Secretary of Agriculture,Polk,Rick Stewart,L,5800
+statewide,Secretary of Agriculture,Polk,Write-ins,W,123
+statewide,Secretary of Agriculture,Pottawattamie,Mike Naig,R,18460
+statewide,Secretary of Agriculture,Pottawattamie,Tim Gannon,D,13847
+statewide,Secretary of Agriculture,Pottawattamie,Rick Stewart,L,1099
+statewide,Secretary of Agriculture,Pottawattamie,Write-ins,W,21
+statewide,Secretary of Agriculture,Poweshiek,Mike Naig,R,3975
+statewide,Secretary of Agriculture,Poweshiek,Tim Gannon,D,3945
+statewide,Secretary of Agriculture,Poweshiek,Rick Stewart,L,229
+statewide,Secretary of Agriculture,Poweshiek,Write-ins,W,3
+statewide,Secretary of Agriculture,Ringgold,Mike Naig,R,1364
+statewide,Secretary of Agriculture,Ringgold,Tim Gannon,D,768
+statewide,Secretary of Agriculture,Ringgold,Rick Stewart,L,102
+statewide,Secretary of Agriculture,Ringgold,Write-ins,W,0
+statewide,Secretary of Agriculture,Sac,Mike Naig,R,2941
+statewide,Secretary of Agriculture,Sac,Tim Gannon,D,1151
+statewide,Secretary of Agriculture,Sac,Rick Stewart,L,88
+statewide,Secretary of Agriculture,Sac,Write-ins,W,2
+statewide,Secretary of Agriculture,Scott,Tim Gannon,D,34892
+statewide,Secretary of Agriculture,Scott,Mike Naig,R,31256
+statewide,Secretary of Agriculture,Scott,Rick Stewart,L,1973
+statewide,Secretary of Agriculture,Scott,Write-ins,W,14
+statewide,Secretary of Agriculture,Shelby,Mike Naig,R,3293
+statewide,Secretary of Agriculture,Shelby,Tim Gannon,D,1435
+statewide,Secretary of Agriculture,Shelby,Rick Stewart,L,143
+statewide,Secretary of Agriculture,Shelby,Write-ins,W,1
+statewide,Secretary of Agriculture,Sioux,Mike Naig,R,12439
+statewide,Secretary of Agriculture,Sioux,Tim Gannon,D,1840
+statewide,Secretary of Agriculture,Sioux,Rick Stewart,L,220
+statewide,Secretary of Agriculture,Sioux,Write-ins,W,3
+statewide,Secretary of Agriculture,Story,Tim Gannon,D,22936
+statewide,Secretary of Agriculture,Story,Mike Naig,R,17219
+statewide,Secretary of Agriculture,Story,Rick Stewart,L,1433
+statewide,Secretary of Agriculture,Story,Write-ins,W,19
+statewide,Secretary of Agriculture,Tama,Mike Naig,R,3963
+statewide,Secretary of Agriculture,Tama,Tim Gannon,D,3054
+statewide,Secretary of Agriculture,Tama,Rick Stewart,L,178
+statewide,Secretary of Agriculture,Tama,Write-ins,W,4
+statewide,Secretary of Agriculture,Taylor,Mike Naig,R,1593
+statewide,Secretary of Agriculture,Taylor,Tim Gannon,D,698
+statewide,Secretary of Agriculture,Taylor,Rick Stewart,L,82
+statewide,Secretary of Agriculture,Taylor,Write-ins,W,4
+statewide,Secretary of Agriculture,Union,Mike Naig,R,2782
+statewide,Secretary of Agriculture,Union,Tim Gannon,D,1773
+statewide,Secretary of Agriculture,Union,Rick Stewart,L,171
+statewide,Secretary of Agriculture,Union,Write-ins,W,2
+statewide,Secretary of Agriculture,Van Buren,Mike Naig,R,1865
+statewide,Secretary of Agriculture,Van Buren,Tim Gannon,D,873
+statewide,Secretary of Agriculture,Van Buren,Rick Stewart,L,106
+statewide,Secretary of Agriculture,Van Buren,Write-ins,W,2
+statewide,Secretary of Agriculture,Wapello,Mike Naig,R,6128
+statewide,Secretary of Agriculture,Wapello,Tim Gannon,D,5265
+statewide,Secretary of Agriculture,Wapello,Rick Stewart,L,392
+statewide,Secretary of Agriculture,Wapello,Write-ins,W,11
+statewide,Secretary of Agriculture,Warren,Mike Naig,R,12403
+statewide,Secretary of Agriculture,Warren,Tim Gannon,D,10227
+statewide,Secretary of Agriculture,Warren,Rick Stewart,L,712
+statewide,Secretary of Agriculture,Warren,Write-ins,W,16
+statewide,Secretary of Agriculture,Washington,Mike Naig,R,5229
+statewide,Secretary of Agriculture,Washington,Tim Gannon,D,3463
+statewide,Secretary of Agriculture,Washington,Rick Stewart,L,247
+statewide,Secretary of Agriculture,Washington,Write-ins,W,2
+statewide,Secretary of Agriculture,Wayne,Mike Naig,R,1547
+statewide,Secretary of Agriculture,Wayne,Tim Gannon,D,745
+statewide,Secretary of Agriculture,Wayne,Rick Stewart,L,54
+statewide,Secretary of Agriculture,Wayne,Write-ins,W,0
+statewide,Secretary of Agriculture,Webster,Mike Naig,R,7619
+statewide,Secretary of Agriculture,Webster,Tim Gannon,D,5762
+statewide,Secretary of Agriculture,Webster,Rick Stewart,L,386
+statewide,Secretary of Agriculture,Webster,Write-ins,W,12
+statewide,Secretary of Agriculture,Winnebago,Mike Naig,R,2567
+statewide,Secretary of Agriculture,Winnebago,Tim Gannon,D,1822
+statewide,Secretary of Agriculture,Winnebago,Rick Stewart,L,152
+statewide,Secretary of Agriculture,Winnebago,Write-ins,W,2
+statewide,Secretary of Agriculture,Winneshiek,Tim Gannon,D,4818
+statewide,Secretary of Agriculture,Winneshiek,Mike Naig,R,4528
+statewide,Secretary of Agriculture,Winneshiek,Rick Stewart,L,276
+statewide,Secretary of Agriculture,Winneshiek,Write-ins,W,2
+statewide,Secretary of Agriculture,Woodbury,Mike Naig,R,18497
+statewide,Secretary of Agriculture,Woodbury,Tim Gannon,D,14861
+statewide,Secretary of Agriculture,Woodbury,Rick Stewart,L,1028
+statewide,Secretary of Agriculture,Woodbury,Write-ins,W,14
+statewide,Secretary of Agriculture,Worth,Mike Naig,R,1792
+statewide,Secretary of Agriculture,Worth,Tim Gannon,D,1565
+statewide,Secretary of Agriculture,Worth,Rick Stewart,L,107
+statewide,Secretary of Agriculture,Worth,Write-ins,W,0
+statewide,Secretary of Agriculture,Wright,Mike Naig,R,3079
+statewide,Secretary of Agriculture,Wright,Tim Gannon,D,1622
+statewide,Secretary of Agriculture,Wright,Rick Stewart,L,137
+statewide,Secretary of Agriculture,Wright,Write-ins,W,4
+statewide,Secretary of State,Adair,Paul D. Pate,R,2262
+statewide,Secretary of State,Adair,Deidre DeJear,D,999
+statewide,Secretary of State,Adair,Jules Ofenbakh,L,69
+statewide,Secretary of State,Adair,Write-ins,W,0
+statewide,Secretary of State,Adams,Paul D. Pate,R,1170
+statewide,Secretary of State,Adams,Deidre DeJear,D,480
+statewide,Secretary of State,Adams,Jules Ofenbakh,L,43
+statewide,Secretary of State,Adams,Write-ins,W,0
+statewide,Secretary of State,Allamakee,Paul D. Pate,R,3428
+statewide,Secretary of State,Allamakee,Deidre DeJear,D,1977
+statewide,Secretary of State,Allamakee,Jules Ofenbakh,L,144
+statewide,Secretary of State,Allamakee,Write-ins,W,3
+statewide,Secretary of State,Appanoose,Paul D. Pate,R,3190
+statewide,Secretary of State,Appanoose,Deidre DeJear,D,1648
+statewide,Secretary of State,Appanoose,Jules Ofenbakh,L,100
+statewide,Secretary of State,Appanoose,Write-ins,W,1
+statewide,Secretary of State,Audubon,Paul D. Pate,R,1652
+statewide,Secretary of State,Audubon,Deidre DeJear,D,814
+statewide,Secretary of State,Audubon,Jules Ofenbakh,L,48
+statewide,Secretary of State,Audubon,Write-ins,W,1
+statewide,Secretary of State,Benton,Paul D. Pate,R,7331
+statewide,Secretary of State,Benton,Deidre DeJear,D,3858
+statewide,Secretary of State,Benton,Jules Ofenbakh,L,297
+statewide,Secretary of State,Benton,Write-ins,W,4
+statewide,Secretary of State,Black Hawk,Deidre DeJear,D,27813
+statewide,Secretary of State,Black Hawk,Paul D. Pate,R,23524
+statewide,Secretary of State,Black Hawk,Jules Ofenbakh,L,1162
+statewide,Secretary of State,Black Hawk,Write-ins,W,27
+statewide,Secretary of State,Boone,Paul D. Pate,R,6399
+statewide,Secretary of State,Boone,Deidre DeJear,D,5205
+statewide,Secretary of State,Boone,Jules Ofenbakh,L,318
+statewide,Secretary of State,Boone,Write-ins,W,2
+statewide,Secretary of State,Bremer,Paul D. Pate,R,6463
+statewide,Secretary of State,Bremer,Deidre DeJear,D,4526
+statewide,Secretary of State,Bremer,Jules Ofenbakh,L,239
+statewide,Secretary of State,Bremer,Write-ins,W,2
+statewide,Secretary of State,Buchanan,Paul D. Pate,R,4726
+statewide,Secretary of State,Buchanan,Deidre DeJear,D,3409
+statewide,Secretary of State,Buchanan,Jules Ofenbakh,L,215
+statewide,Secretary of State,Buchanan,Write-ins,W,2
+statewide,Secretary of State,Buena Vista,Paul D. Pate,R,3963
+statewide,Secretary of State,Buena Vista,Deidre DeJear,D,2221
+statewide,Secretary of State,Buena Vista,Jules Ofenbakh,L,141
+statewide,Secretary of State,Buena Vista,Write-ins,W,3
+statewide,Secretary of State,Butler,Paul D. Pate,R,4040
+statewide,Secretary of State,Butler,Deidre DeJear,D,1867
+statewide,Secretary of State,Butler,Jules Ofenbakh,L,123
+statewide,Secretary of State,Butler,Write-ins,W,2
+statewide,Secretary of State,Calhoun,Paul D. Pate,R,2785
+statewide,Secretary of State,Calhoun,Deidre DeJear,D,1304
+statewide,Secretary of State,Calhoun,Jules Ofenbakh,L,97
+statewide,Secretary of State,Calhoun,Write-ins,W,0
+statewide,Secretary of State,Carroll,Paul D. Pate,R,5635
+statewide,Secretary of State,Carroll,Deidre DeJear,D,2697
+statewide,Secretary of State,Carroll,Jules Ofenbakh,L,169
+statewide,Secretary of State,Carroll,Write-ins,W,3
+statewide,Secretary of State,Cass,Paul D. Pate,R,3977
+statewide,Secretary of State,Cass,Deidre DeJear,D,1557
+statewide,Secretary of State,Cass,Jules Ofenbakh,L,100
+statewide,Secretary of State,Cass,Write-ins,W,1
+statewide,Secretary of State,Cedar,Paul D. Pate,R,4659
+statewide,Secretary of State,Cedar,Deidre DeJear,D,3111
+statewide,Secretary of State,Cedar,Jules Ofenbakh,L,201
+statewide,Secretary of State,Cedar,Write-ins,W,2
+statewide,Secretary of State,Cerro Gordo,Paul D. Pate,R,9608
+statewide,Secretary of State,Cerro Gordo,Deidre DeJear,D,8514
+statewide,Secretary of State,Cerro Gordo,Jules Ofenbakh,L,415
+statewide,Secretary of State,Cerro Gordo,Write-ins,W,6
+statewide,Secretary of State,Cherokee,Paul D. Pate,R,3359
+statewide,Secretary of State,Cherokee,Deidre DeJear,D,1524
+statewide,Secretary of State,Cherokee,Jules Ofenbakh,L,87
+statewide,Secretary of State,Cherokee,Write-ins,W,1
+statewide,Secretary of State,Chickasaw,Paul D. Pate,R,3046
+statewide,Secretary of State,Chickasaw,Deidre DeJear,D,1970
+statewide,Secretary of State,Chickasaw,Jules Ofenbakh,L,89
+statewide,Secretary of State,Chickasaw,Write-ins,W,1
+statewide,Secretary of State,Clarke,Paul D. Pate,R,2287
+statewide,Secretary of State,Clarke,Deidre DeJear,D,1224
+statewide,Secretary of State,Clarke,Jules Ofenbakh,L,87
+statewide,Secretary of State,Clarke,Write-ins,W,3
+statewide,Secretary of State,Clay,Paul D. Pate,R,4502
+statewide,Secretary of State,Clay,Deidre DeJear,D,2110
+statewide,Secretary of State,Clay,Jules Ofenbakh,L,120
+statewide,Secretary of State,Clay,Write-ins,W,0
+statewide,Secretary of State,Clayton,Paul D. Pate,R,4758
+statewide,Secretary of State,Clayton,Deidre DeJear,D,2838
+statewide,Secretary of State,Clayton,Jules Ofenbakh,L,173
+statewide,Secretary of State,Clayton,Write-ins,W,1
+statewide,Secretary of State,Clinton,Paul D. Pate,R,9034
+statewide,Secretary of State,Clinton,Deidre DeJear,D,8469
+statewide,Secretary of State,Clinton,Jules Ofenbakh,L,400
+statewide,Secretary of State,Clinton,Write-ins,W,8
+statewide,Secretary of State,Crawford,Paul D. Pate,R,3414
+statewide,Secretary of State,Crawford,Deidre DeJear,D,1596
+statewide,Secretary of State,Crawford,Jules Ofenbakh,L,120
+statewide,Secretary of State,Crawford,Write-ins,W,1
+statewide,Secretary of State,Dallas,Paul D. Pate,R,22048
+statewide,Secretary of State,Dallas,Deidre DeJear,D,17962
+statewide,Secretary of State,Dallas,Jules Ofenbakh,L,927
+statewide,Secretary of State,Dallas,Write-ins,W,17
+statewide,Secretary of State,Davis,Paul D. Pate,R,2083
+statewide,Secretary of State,Davis,Deidre DeJear,D,917
+statewide,Secretary of State,Davis,Jules Ofenbakh,L,56
+statewide,Secretary of State,Davis,Write-ins,W,0
+statewide,Secretary of State,Decatur,Paul D. Pate,R,1849
+statewide,Secretary of State,Decatur,Deidre DeJear,D,940
+statewide,Secretary of State,Decatur,Jules Ofenbakh,L,82
+statewide,Secretary of State,Decatur,Write-ins,W,1
+statewide,Secretary of State,Delaware,Paul D. Pate,R,5083
+statewide,Secretary of State,Delaware,Deidre DeJear,D,2333
+statewide,Secretary of State,Delaware,Jules Ofenbakh,L,156
+statewide,Secretary of State,Delaware,Write-ins,W,3
+statewide,Secretary of State,Des Moines,Deidre DeJear,D,7469
+statewide,Secretary of State,Des Moines,Paul D. Pate,R,6999
+statewide,Secretary of State,Des Moines,Jules Ofenbakh,L,321
+statewide,Secretary of State,Des Moines,Write-ins,W,3
+statewide,Secretary of State,Dickinson,Paul D. Pate,R,5626
+statewide,Secretary of State,Dickinson,Deidre DeJear,D,2891
+statewide,Secretary of State,Dickinson,Jules Ofenbakh,L,123
+statewide,Secretary of State,Dickinson,Write-ins,W,5
+statewide,Secretary of State,Dubuque,Paul D. Pate,R,20346
+statewide,Secretary of State,Dubuque,Deidre DeJear,D,19903
+statewide,Secretary of State,Dubuque,Jules Ofenbakh,L,1031
+statewide,Secretary of State,Dubuque,Write-ins,W,11
+statewide,Secretary of State,Emmet,Paul D. Pate,R,2215
+statewide,Secretary of State,Emmet,Deidre DeJear,D,1338
+statewide,Secretary of State,Emmet,Jules Ofenbakh,L,75
+statewide,Secretary of State,Emmet,Write-ins,W,0
+statewide,Secretary of State,Fayette,Paul D. Pate,R,4856
+statewide,Secretary of State,Fayette,Deidre DeJear,D,3040
+statewide,Secretary of State,Fayette,Jules Ofenbakh,L,202
+statewide,Secretary of State,Fayette,Write-ins,W,2
+statewide,Secretary of State,Floyd,Paul D. Pate,R,3454
+statewide,Secretary of State,Floyd,Deidre DeJear,D,2612
+statewide,Secretary of State,Floyd,Jules Ofenbakh,L,128
+statewide,Secretary of State,Floyd,Write-ins,W,2
+statewide,Secretary of State,Franklin,Paul D. Pate,R,2730
+statewide,Secretary of State,Franklin,Deidre DeJear,D,1204
+statewide,Secretary of State,Franklin,Jules Ofenbakh,L,71
+statewide,Secretary of State,Franklin,Write-ins,W,0
+statewide,Secretary of State,Fremont,Paul D. Pate,R,1987
+statewide,Secretary of State,Fremont,Deidre DeJear,D,867
+statewide,Secretary of State,Fremont,Jules Ofenbakh,L,79
+statewide,Secretary of State,Fremont,Write-ins,W,2
+statewide,Secretary of State,Greene,Paul D. Pate,R,2470
+statewide,Secretary of State,Greene,Deidre DeJear,D,1361
+statewide,Secretary of State,Greene,Jules Ofenbakh,L,98
+statewide,Secretary of State,Greene,Write-ins,W,4
+statewide,Secretary of State,Grundy,Paul D. Pate,R,3943
+statewide,Secretary of State,Grundy,Deidre DeJear,D,1647
+statewide,Secretary of State,Grundy,Jules Ofenbakh,L,93
+statewide,Secretary of State,Grundy,Write-ins,W,1
+statewide,Secretary of State,Guthrie,Paul D. Pate,R,3226
+statewide,Secretary of State,Guthrie,Deidre DeJear,D,1562
+statewide,Secretary of State,Guthrie,Jules Ofenbakh,L,155
+statewide,Secretary of State,Guthrie,Write-ins,W,3
+statewide,Secretary of State,Hamilton,Paul D. Pate,R,3838
+statewide,Secretary of State,Hamilton,Deidre DeJear,D,2276
+statewide,Secretary of State,Hamilton,Jules Ofenbakh,L,128
+statewide,Secretary of State,Hamilton,Write-ins,W,1
+statewide,Secretary of State,Hancock,Paul D. Pate,R,3293
+statewide,Secretary of State,Hancock,Deidre DeJear,D,1285
+statewide,Secretary of State,Hancock,Jules Ofenbakh,L,102
+statewide,Secretary of State,Hancock,Write-ins,W,1
+statewide,Secretary of State,Hardin,Paul D. Pate,R,4631
+statewide,Secretary of State,Hardin,Deidre DeJear,D,2353
+statewide,Secretary of State,Hardin,Jules Ofenbakh,L,139
+statewide,Secretary of State,Hardin,Write-ins,W,0
+statewide,Secretary of State,Harrison,Paul D. Pate,R,3886
+statewide,Secretary of State,Harrison,Deidre DeJear,D,1813
+statewide,Secretary of State,Harrison,Jules Ofenbakh,L,169
+statewide,Secretary of State,Harrison,Write-ins,W,5
+statewide,Secretary of State,Henry,Paul D. Pate,R,4680
+statewide,Secretary of State,Henry,Deidre DeJear,D,2508
+statewide,Secretary of State,Henry,Jules Ofenbakh,L,139
+statewide,Secretary of State,Henry,Write-ins,W,5
+statewide,Secretary of State,Howard,Paul D. Pate,R,2035
+statewide,Secretary of State,Howard,Deidre DeJear,D,1434
+statewide,Secretary of State,Howard,Jules Ofenbakh,L,90
+statewide,Secretary of State,Howard,Write-ins,W,1
+statewide,Secretary of State,Humboldt,Paul D. Pate,R,2807
+statewide,Secretary of State,Humboldt,Deidre DeJear,D,1099
+statewide,Secretary of State,Humboldt,Jules Ofenbakh,L,86
+statewide,Secretary of State,Humboldt,Write-ins,W,0
+statewide,Secretary of State,Ida,Paul D. Pate,R,2145
+statewide,Secretary of State,Ida,Deidre DeJear,D,671
+statewide,Secretary of State,Ida,Jules Ofenbakh,L,49
+statewide,Secretary of State,Ida,Write-ins,W,0
+statewide,Secretary of State,Iowa,Paul D. Pate,R,4725
+statewide,Secretary of State,Iowa,Deidre DeJear,D,2607
+statewide,Secretary of State,Iowa,Jules Ofenbakh,L,182
+statewide,Secretary of State,Iowa,Write-ins,W,4
+statewide,Secretary of State,Jackson,Paul D. Pate,R,4584
+statewide,Secretary of State,Jackson,Deidre DeJear,D,3381
+statewide,Secretary of State,Jackson,Jules Ofenbakh,L,230
+statewide,Secretary of State,Jackson,Write-ins,W,2
+statewide,Secretary of State,Jasper,Paul D. Pate,R,8792
+statewide,Secretary of State,Jasper,Deidre DeJear,D,6563
+statewide,Secretary of State,Jasper,Jules Ofenbakh,L,331
+statewide,Secretary of State,Jasper,Write-ins,W,4
+statewide,Secretary of State,Jefferson,Deidre DeJear,D,3497
+statewide,Secretary of State,Jefferson,Paul D. Pate,R,3262
+statewide,Secretary of State,Jefferson,Jules Ofenbakh,L,182
+statewide,Secretary of State,Jefferson,Write-ins,W,4
+statewide,Secretary of State,Johnson,Deidre DeJear,D,45509
+statewide,Secretary of State,Johnson,Paul D. Pate,R,19916
+statewide,Secretary of State,Johnson,Jules Ofenbakh,L,1539
+statewide,Secretary of State,Johnson,Write-ins,W,24
+statewide,Secretary of State,Jones,Paul D. Pate,R,5186
+statewide,Secretary of State,Jones,Deidre DeJear,D,3115
+statewide,Secretary of State,Jones,Jules Ofenbakh,L,209
+statewide,Secretary of State,Jones,Write-ins,W,1
+statewide,Secretary of State,Keokuk,Paul D. Pate,R,2833
+statewide,Secretary of State,Keokuk,Deidre DeJear,D,1096
+statewide,Secretary of State,Keokuk,Jules Ofenbakh,L,58
+statewide,Secretary of State,Keokuk,Write-ins,W,0
+statewide,Secretary of State,Kossuth,Paul D. Pate,R,4655
+statewide,Secretary of State,Kossuth,Deidre DeJear,D,2468
+statewide,Secretary of State,Kossuth,Jules Ofenbakh,L,114
+statewide,Secretary of State,Kossuth,Write-ins,W,1
+statewide,Secretary of State,Lee,Paul D. Pate,R,6228
+statewide,Secretary of State,Lee,Deidre DeJear,D,5953
+statewide,Secretary of State,Lee,Jules Ofenbakh,L,299
+statewide,Secretary of State,Lee,Write-ins,W,5
+statewide,Secretary of State,Linn,Deidre DeJear,D,50862
+statewide,Secretary of State,Linn,Paul D. Pate,R,46951
+statewide,Secretary of State,Linn,Jules Ofenbakh,L,3200
+statewide,Secretary of State,Linn,Write-ins,W,45
+statewide,Secretary of State,Louisa,Paul D. Pate,R,2330
+statewide,Secretary of State,Louisa,Deidre DeJear,D,1350
+statewide,Secretary of State,Louisa,Jules Ofenbakh,L,80
+statewide,Secretary of State,Louisa,Write-ins,W,0
+statewide,Secretary of State,Lucas,Paul D. Pate,R,2387
+statewide,Secretary of State,Lucas,Deidre DeJear,D,1058
+statewide,Secretary of State,Lucas,Jules Ofenbakh,L,61
+statewide,Secretary of State,Lucas,Write-ins,W,1
+statewide,Secretary of State,Lyon,Paul D. Pate,R,4190
+statewide,Secretary of State,Lyon,Deidre DeJear,D,777
+statewide,Secretary of State,Lyon,Jules Ofenbakh,L,75
+statewide,Secretary of State,Lyon,Write-ins,W,2
+statewide,Secretary of State,Madison,Paul D. Pate,R,4807
+statewide,Secretary of State,Madison,Deidre DeJear,D,2492
+statewide,Secretary of State,Madison,Jules Ofenbakh,L,197
+statewide,Secretary of State,Madison,Write-ins,W,2
+statewide,Secretary of State,Mahaska,Paul D. Pate,R,6116
+statewide,Secretary of State,Mahaska,Deidre DeJear,D,2125
+statewide,Secretary of State,Mahaska,Jules Ofenbakh,L,167
+statewide,Secretary of State,Mahaska,Write-ins,W,3
+statewide,Secretary of State,Marion,Paul D. Pate,R,9718
+statewide,Secretary of State,Marion,Deidre DeJear,D,4743
+statewide,Secretary of State,Marion,Jules Ofenbakh,L,311
+statewide,Secretary of State,Marion,Write-ins,W,3
+statewide,Secretary of State,Marshall,Paul D. Pate,R,7655
+statewide,Secretary of State,Marshall,Deidre DeJear,D,6394
+statewide,Secretary of State,Marshall,Jules Ofenbakh,L,331
+statewide,Secretary of State,Marshall,Write-ins,W,5
+statewide,Secretary of State,Mills,Paul D. Pate,R,4061
+statewide,Secretary of State,Mills,Deidre DeJear,D,1933
+statewide,Secretary of State,Mills,Jules Ofenbakh,L,201
+statewide,Secretary of State,Mills,Write-ins,W,1
+statewide,Secretary of State,Mitchell,Paul D. Pate,R,2640
+statewide,Secretary of State,Mitchell,Deidre DeJear,D,1639
+statewide,Secretary of State,Mitchell,Jules Ofenbakh,L,113
+statewide,Secretary of State,Mitchell,Write-ins,W,1
+statewide,Secretary of State,Monona,Paul D. Pate,R,2387
+statewide,Secretary of State,Monona,Deidre DeJear,D,1198
+statewide,Secretary of State,Monona,Jules Ofenbakh,L,85
+statewide,Secretary of State,Monona,Write-ins,W,1
+statewide,Secretary of State,Monroe,Paul D. Pate,R,2087
+statewide,Secretary of State,Monroe,Deidre DeJear,D,920
+statewide,Secretary of State,Monroe,Jules Ofenbakh,L,53
+statewide,Secretary of State,Monroe,Write-ins,W,0
+statewide,Secretary of State,Montgomery,Paul D. Pate,R,2696
+statewide,Secretary of State,Montgomery,Deidre DeJear,D,1080
+statewide,Secretary of State,Montgomery,Jules Ofenbakh,L,93
+statewide,Secretary of State,Montgomery,Write-ins,W,2
+statewide,Secretary of State,Muscatine,Paul D. Pate,R,7573
+statewide,Secretary of State,Muscatine,Deidre DeJear,D,6796
+statewide,Secretary of State,Muscatine,Jules Ofenbakh,L,380
+statewide,Secretary of State,Muscatine,Write-ins,W,2
+statewide,Secretary of State,O'Brien,Paul D. Pate,R,4495
+statewide,Secretary of State,O'Brien,Deidre DeJear,D,1118
+statewide,Secretary of State,O'Brien,Jules Ofenbakh,L,84
+statewide,Secretary of State,O'Brien,Write-ins,W,1
+statewide,Secretary of State,Osceola,Paul D. Pate,R,1890
+statewide,Secretary of State,Osceola,Deidre DeJear,D,417
+statewide,Secretary of State,Osceola,Jules Ofenbakh,L,37
+statewide,Secretary of State,Osceola,Write-ins,W,0
+statewide,Secretary of State,Page,Paul D. Pate,R,3897
+statewide,Secretary of State,Page,Deidre DeJear,D,1569
+statewide,Secretary of State,Page,Jules Ofenbakh,L,98
+statewide,Secretary of State,Page,Write-ins,W,0
+statewide,Secretary of State,Palo Alto,Paul D. Pate,R,2335
+statewide,Secretary of State,Palo Alto,Deidre DeJear,D,1248
+statewide,Secretary of State,Palo Alto,Jules Ofenbakh,L,66
+statewide,Secretary of State,Palo Alto,Write-ins,W,2
+statewide,Secretary of State,Plymouth,Paul D. Pate,R,7726
+statewide,Secretary of State,Plymouth,Deidre DeJear,D,2624
+statewide,Secretary of State,Plymouth,Jules Ofenbakh,L,160
+statewide,Secretary of State,Plymouth,Write-ins,W,2
+statewide,Secretary of State,Pocahontas,Paul D. Pate,R,2159
+statewide,Secretary of State,Pocahontas,Deidre DeJear,D,801
+statewide,Secretary of State,Pocahontas,Jules Ofenbakh,L,68
+statewide,Secretary of State,Pocahontas,Write-ins,W,0
+statewide,Secretary of State,Polk,Deidre DeJear,D,112901
+statewide,Secretary of State,Polk,Paul D. Pate,R,85089
+statewide,Secretary of State,Polk,Jules Ofenbakh,L,5052
+statewide,Secretary of State,Polk,Write-ins,W,107
+statewide,Secretary of State,Pottawattamie,Paul D. Pate,R,19203
+statewide,Secretary of State,Pottawattamie,Deidre DeJear,D,13475
+statewide,Secretary of State,Pottawattamie,Jules Ofenbakh,L,841
+statewide,Secretary of State,Pottawattamie,Write-ins,W,13
+statewide,Secretary of State,Poweshiek,Paul D. Pate,R,4293
+statewide,Secretary of State,Poweshiek,Deidre DeJear,D,3737
+statewide,Secretary of State,Poweshiek,Jules Ofenbakh,L,147
+statewide,Secretary of State,Poweshiek,Write-ins,W,2
+statewide,Secretary of State,Ringgold,Paul D. Pate,R,1516
+statewide,Secretary of State,Ringgold,Deidre DeJear,D,677
+statewide,Secretary of State,Ringgold,Jules Ofenbakh,L,38
+statewide,Secretary of State,Ringgold,Write-ins,W,0
+statewide,Secretary of State,Sac,Paul D. Pate,R,2935
+statewide,Secretary of State,Sac,Deidre DeJear,D,1169
+statewide,Secretary of State,Sac,Jules Ofenbakh,L,68
+statewide,Secretary of State,Sac,Write-ins,W,1
+statewide,Secretary of State,Scott,Deidre DeJear,D,34514
+statewide,Secretary of State,Scott,Paul D. Pate,R,32089
+statewide,Secretary of State,Scott,Jules Ofenbakh,L,1673
+statewide,Secretary of State,Scott,Write-ins,W,19
+statewide,Secretary of State,Shelby,Paul D. Pate,R,3467
+statewide,Secretary of State,Shelby,Deidre DeJear,D,1291
+statewide,Secretary of State,Shelby,Jules Ofenbakh,L,122
+statewide,Secretary of State,Shelby,Write-ins,W,0
+statewide,Secretary of State,Sioux,Paul D. Pate,R,12479
+statewide,Secretary of State,Sioux,Deidre DeJear,D,1908
+statewide,Secretary of State,Sioux,Jules Ofenbakh,L,173
+statewide,Secretary of State,Sioux,Write-ins,W,1
+statewide,Secretary of State,Story,Deidre DeJear,D,23290
+statewide,Secretary of State,Story,Paul D. Pate,R,17429
+statewide,Secretary of State,Story,Jules Ofenbakh,L,1210
+statewide,Secretary of State,Story,Write-ins,W,19
+statewide,Secretary of State,Tama,Paul D. Pate,R,4091
+statewide,Secretary of State,Tama,Deidre DeJear,D,2962
+statewide,Secretary of State,Tama,Jules Ofenbakh,L,156
+statewide,Secretary of State,Tama,Write-ins,W,6
+statewide,Secretary of State,Taylor,Paul D. Pate,R,1690
+statewide,Secretary of State,Taylor,Deidre DeJear,D,636
+statewide,Secretary of State,Taylor,Jules Ofenbakh,L,53
+statewide,Secretary of State,Taylor,Write-ins,W,2
+statewide,Secretary of State,Union,Paul D. Pate,R,3028
+statewide,Secretary of State,Union,Deidre DeJear,D,1581
+statewide,Secretary of State,Union,Jules Ofenbakh,L,135
+statewide,Secretary of State,Union,Write-ins,W,1
+statewide,Secretary of State,Van Buren,Paul D. Pate,R,2033
+statewide,Secretary of State,Van Buren,Deidre DeJear,D,749
+statewide,Secretary of State,Van Buren,Jules Ofenbakh,L,61
+statewide,Secretary of State,Van Buren,Write-ins,W,2
+statewide,Secretary of State,Wapello,Paul D. Pate,R,6519
+statewide,Secretary of State,Wapello,Deidre DeJear,D,5044
+statewide,Secretary of State,Wapello,Jules Ofenbakh,L,256
+statewide,Secretary of State,Wapello,Write-ins,W,10
+statewide,Secretary of State,Warren,Paul D. Pate,R,13209
+statewide,Secretary of State,Warren,Deidre DeJear,D,9809
+statewide,Secretary of State,Warren,Jules Ofenbakh,L,576
+statewide,Secretary of State,Warren,Write-ins,W,14
+statewide,Secretary of State,Washington,Paul D. Pate,R,5586
+statewide,Secretary of State,Washington,Deidre DeJear,D,3204
+statewide,Secretary of State,Washington,Jules Ofenbakh,L,216
+statewide,Secretary of State,Washington,Write-ins,W,4
+statewide,Secretary of State,Wayne,Paul D. Pate,R,1669
+statewide,Secretary of State,Wayne,Deidre DeJear,D,643
+statewide,Secretary of State,Wayne,Jules Ofenbakh,L,37
+statewide,Secretary of State,Wayne,Write-ins,W,0
+statewide,Secretary of State,Webster,Paul D. Pate,R,7746
+statewide,Secretary of State,Webster,Deidre DeJear,D,5700
+statewide,Secretary of State,Webster,Jules Ofenbakh,L,347
+statewide,Secretary of State,Webster,Write-ins,W,5
+statewide,Secretary of State,Winnebago,Paul D. Pate,R,2856
+statewide,Secretary of State,Winnebago,Deidre DeJear,D,1581
+statewide,Secretary of State,Winnebago,Jules Ofenbakh,L,140
+statewide,Secretary of State,Winnebago,Write-ins,W,0
+statewide,Secretary of State,Winneshiek,Paul D. Pate,R,4929
+statewide,Secretary of State,Winneshiek,Deidre DeJear,D,4587
+statewide,Secretary of State,Winneshiek,Jules Ofenbakh,L,174
+statewide,Secretary of State,Winneshiek,Write-ins,W,1
+statewide,Secretary of State,Woodbury,Paul D. Pate,R,18968
+statewide,Secretary of State,Woodbury,Deidre DeJear,D,14886
+statewide,Secretary of State,Woodbury,Jules Ofenbakh,L,749
+statewide,Secretary of State,Woodbury,Write-ins,W,13
+statewide,Secretary of State,Worth,Paul D. Pate,R,2068
+statewide,Secretary of State,Worth,Deidre DeJear,D,1303
+statewide,Secretary of State,Worth,Jules Ofenbakh,L,98
+statewide,Secretary of State,Worth,Write-ins,W,2
+statewide,Secretary of State,Wright,Paul D. Pate,R,3165
+statewide,Secretary of State,Wright,Deidre DeJear,D,1578
+statewide,Secretary of State,Wright,Jules Ofenbakh,L,99
+statewide,Secretary of State,Wright,Write-ins,W,1
+statewide,Treasurer,Adair,Michael L. Fitzgerald,D,1638
+statewide,Treasurer,Adair,Jeremy N. Davis,R,1630
+statewide,Treasurer,Adair,Timothy Hird,L,70
+statewide,Treasurer,Adair,Write-ins,W,0
+statewide,Treasurer,Adams,Jeremy N. Davis,R,874
+statewide,Treasurer,Adams,Michael L. Fitzgerald,D,794
+statewide,Treasurer,Adams,Timothy Hird,L,30
+statewide,Treasurer,Adams,Write-ins,W,0
+statewide,Treasurer,Allamakee,Jeremy N. Davis,R,2792
+statewide,Treasurer,Allamakee,Michael L. Fitzgerald,D,2604
+statewide,Treasurer,Allamakee,Timothy Hird,L,148
+statewide,Treasurer,Allamakee,Write-ins,W,2
+statewide,Treasurer,Appanoose,Jeremy N. Davis,R,2648
+statewide,Treasurer,Appanoose,Michael L. Fitzgerald,D,2190
+statewide,Treasurer,Appanoose,Timothy Hird,L,86
+statewide,Treasurer,Appanoose,Write-ins,W,2
+statewide,Treasurer,Audubon,Michael L. Fitzgerald,D,1234
+statewide,Treasurer,Audubon,Jeremy N. Davis,R,1227
+statewide,Treasurer,Audubon,Timothy Hird,L,50
+statewide,Treasurer,Audubon,Write-ins,W,0
+statewide,Treasurer,Benton,Jeremy N. Davis,R,5701
+statewide,Treasurer,Benton,Michael L. Fitzgerald,D,5372
+statewide,Treasurer,Benton,Timothy Hird,L,286
+statewide,Treasurer,Benton,Write-ins,W,6
+statewide,Treasurer,Black Hawk,Michael L. Fitzgerald,D,31621
+statewide,Treasurer,Black Hawk,Jeremy N. Davis,R,19182
+statewide,Treasurer,Black Hawk,Timothy Hird,L,1217
+statewide,Treasurer,Black Hawk,Write-ins,W,22
+statewide,Treasurer,Boone,Michael L. Fitzgerald,D,6777
+statewide,Treasurer,Boone,Jeremy N. Davis,R,4815
+statewide,Treasurer,Boone,Timothy Hird,L,318
+statewide,Treasurer,Boone,Write-ins,W,1
+statewide,Treasurer,Bremer,Michael L. Fitzgerald,D,5781
+statewide,Treasurer,Bremer,Jeremy N. Davis,R,5119
+statewide,Treasurer,Bremer,Timothy Hird,L,290
+statewide,Treasurer,Bremer,Write-ins,W,1
+statewide,Treasurer,Buchanan,Michael L. Fitzgerald,D,4626
+statewide,Treasurer,Buchanan,Jeremy N. Davis,R,3450
+statewide,Treasurer,Buchanan,Timothy Hird,L,213
+statewide,Treasurer,Buchanan,Write-ins,W,2
+statewide,Treasurer,Buena Vista,Michael L. Fitzgerald,D,3140
+statewide,Treasurer,Buena Vista,Jeremy N. Davis,R,3033
+statewide,Treasurer,Buena Vista,Timothy Hird,L,154
+statewide,Treasurer,Buena Vista,Write-ins,W,1
+statewide,Treasurer,Butler,Jeremy N. Davis,R,3393
+statewide,Treasurer,Butler,Michael L. Fitzgerald,D,2466
+statewide,Treasurer,Butler,Timothy Hird,L,131
+statewide,Treasurer,Butler,Write-ins,W,0
+statewide,Treasurer,Calhoun,Jeremy N. Davis,R,2098
+statewide,Treasurer,Calhoun,Michael L. Fitzgerald,D,1997
+statewide,Treasurer,Calhoun,Timothy Hird,L,85
+statewide,Treasurer,Calhoun,Write-ins,W,0
+statewide,Treasurer,Carroll,Michael L. Fitzgerald,D,4358
+statewide,Treasurer,Carroll,Jeremy N. Davis,R,3902
+statewide,Treasurer,Carroll,Timothy Hird,L,179
+statewide,Treasurer,Carroll,Write-ins,W,3
+statewide,Treasurer,Cass,Jeremy N. Davis,R,3296
+statewide,Treasurer,Cass,Michael L. Fitzgerald,D,2177
+statewide,Treasurer,Cass,Timothy Hird,L,108
+statewide,Treasurer,Cass,Write-ins,W,2
+statewide,Treasurer,Cedar,Michael L. Fitzgerald,D,4018
+statewide,Treasurer,Cedar,Jeremy N. Davis,R,3690
+statewide,Treasurer,Cedar,Timothy Hird,L,195
+statewide,Treasurer,Cedar,Write-ins,W,3
+statewide,Treasurer,Cerro Gordo,Michael L. Fitzgerald,D,10844
+statewide,Treasurer,Cerro Gordo,Jeremy N. Davis,R,7375
+statewide,Treasurer,Cerro Gordo,Timothy Hird,L,401
+statewide,Treasurer,Cerro Gordo,Write-ins,W,10
+statewide,Treasurer,Cherokee,Jeremy N. Davis,R,2718
+statewide,Treasurer,Cherokee,Michael L. Fitzgerald,D,2122
+statewide,Treasurer,Cherokee,Timothy Hird,L,104
+statewide,Treasurer,Cherokee,Write-ins,W,0
+statewide,Treasurer,Chickasaw,Michael L. Fitzgerald,D,2829
+statewide,Treasurer,Chickasaw,Jeremy N. Davis,R,2196
+statewide,Treasurer,Chickasaw,Timothy Hird,L,100
+statewide,Treasurer,Chickasaw,Write-ins,W,2
+statewide,Treasurer,Clarke,Jeremy N. Davis,R,1789
+statewide,Treasurer,Clarke,Michael L. Fitzgerald,D,1726
+statewide,Treasurer,Clarke,Timothy Hird,L,88
+statewide,Treasurer,Clarke,Write-ins,W,0
+statewide,Treasurer,Clay,Jeremy N. Davis,R,3680
+statewide,Treasurer,Clay,Michael L. Fitzgerald,D,2867
+statewide,Treasurer,Clay,Timothy Hird,L,142
+statewide,Treasurer,Clay,Write-ins,W,2
+statewide,Treasurer,Clayton,Michael L. Fitzgerald,D,3972
+statewide,Treasurer,Clayton,Jeremy N. Davis,R,3577
+statewide,Treasurer,Clayton,Timothy Hird,L,204
+statewide,Treasurer,Clayton,Write-ins,W,1
+statewide,Treasurer,Clinton,Michael L. Fitzgerald,D,9617
+statewide,Treasurer,Clinton,Jeremy N. Davis,R,7871
+statewide,Treasurer,Clinton,Timothy Hird,L,406
+statewide,Treasurer,Clinton,Write-ins,W,6
+statewide,Treasurer,Crawford,Jeremy N. Davis,R,2717
+statewide,Treasurer,Crawford,Michael L. Fitzgerald,D,2337
+statewide,Treasurer,Crawford,Timothy Hird,L,103
+statewide,Treasurer,Crawford,Write-ins,W,0
+statewide,Treasurer,Dallas,Michael L. Fitzgerald,D,22125
+statewide,Treasurer,Dallas,Jeremy N. Davis,R,17516
+statewide,Treasurer,Dallas,Timothy Hird,L,929
+statewide,Treasurer,Dallas,Write-ins,W,19
+statewide,Treasurer,Davis,Jeremy N. Davis,R,1639
+statewide,Treasurer,Davis,Michael L. Fitzgerald,D,1356
+statewide,Treasurer,Davis,Timothy Hird,L,70
+statewide,Treasurer,Davis,Write-ins,W,0
+statewide,Treasurer,Decatur,Jeremy N. Davis,R,1485
+statewide,Treasurer,Decatur,Michael L. Fitzgerald,D,1309
+statewide,Treasurer,Decatur,Timothy Hird,L,75
+statewide,Treasurer,Decatur,Write-ins,W,2
+statewide,Treasurer,Delaware,Jeremy N. Davis,R,3837
+statewide,Treasurer,Delaware,Michael L. Fitzgerald,D,3459
+statewide,Treasurer,Delaware,Timothy Hird,L,175
+statewide,Treasurer,Delaware,Write-ins,W,4
+statewide,Treasurer,Des Moines,Michael L. Fitzgerald,D,8294
+statewide,Treasurer,Des Moines,Jeremy N. Davis,R,6117
+statewide,Treasurer,Des Moines,Timothy Hird,L,341
+statewide,Treasurer,Des Moines,Write-ins,W,2
+statewide,Treasurer,Dickinson,Jeremy N. Davis,R,4863
+statewide,Treasurer,Dickinson,Michael L. Fitzgerald,D,3586
+statewide,Treasurer,Dickinson,Timothy Hird,L,141
+statewide,Treasurer,Dickinson,Write-ins,W,4
+statewide,Treasurer,Dubuque,Michael L. Fitzgerald,D,23584
+statewide,Treasurer,Dubuque,Jeremy N. Davis,R,16456
+statewide,Treasurer,Dubuque,Timothy Hird,L,1087
+statewide,Treasurer,Dubuque,Write-ins,W,9
+statewide,Treasurer,Emmet,Jeremy N. Davis,R,1906
+statewide,Treasurer,Emmet,Michael L. Fitzgerald,D,1646
+statewide,Treasurer,Emmet,Timothy Hird,L,86
+statewide,Treasurer,Emmet,Write-ins,W,0
+statewide,Treasurer,Fayette,Michael L. Fitzgerald,D,4297
+statewide,Treasurer,Fayette,Jeremy N. Davis,R,3550
+statewide,Treasurer,Fayette,Timothy Hird,L,210
+statewide,Treasurer,Fayette,Write-ins,W,0
+statewide,Treasurer,Floyd,Michael L. Fitzgerald,D,3358
+statewide,Treasurer,Floyd,Jeremy N. Davis,R,2699
+statewide,Treasurer,Floyd,Timothy Hird,L,139
+statewide,Treasurer,Floyd,Write-ins,W,2
+statewide,Treasurer,Franklin,Jeremy N. Davis,R,2201
+statewide,Treasurer,Franklin,Michael L. Fitzgerald,D,1710
+statewide,Treasurer,Franklin,Timothy Hird,L,70
+statewide,Treasurer,Franklin,Write-ins,W,1
+statewide,Treasurer,Fremont,Jeremy N. Davis,R,1752
+statewide,Treasurer,Fremont,Michael L. Fitzgerald,D,1103
+statewide,Treasurer,Fremont,Timothy Hird,L,70
+statewide,Treasurer,Fremont,Write-ins,W,2
+statewide,Treasurer,Greene,Michael L. Fitzgerald,D,2015
+statewide,Treasurer,Greene,Jeremy N. Davis,R,1829
+statewide,Treasurer,Greene,Timothy Hird,L,90
+statewide,Treasurer,Greene,Write-ins,W,3
+statewide,Treasurer,Grundy,Jeremy N. Davis,R,3268
+statewide,Treasurer,Grundy,Michael L. Fitzgerald,D,2287
+statewide,Treasurer,Grundy,Timothy Hird,L,104
+statewide,Treasurer,Grundy,Write-ins,W,3
+statewide,Treasurer,Guthrie,Jeremy N. Davis,R,2455
+statewide,Treasurer,Guthrie,Michael L. Fitzgerald,D,2321
+statewide,Treasurer,Guthrie,Timothy Hird,L,153
+statewide,Treasurer,Guthrie,Write-ins,W,3
+statewide,Treasurer,Hamilton,Michael L. Fitzgerald,D,3081
+statewide,Treasurer,Hamilton,Jeremy N. Davis,R,2996
+statewide,Treasurer,Hamilton,Timothy Hird,L,145
+statewide,Treasurer,Hamilton,Write-ins,W,3
+statewide,Treasurer,Hancock,Jeremy N. Davis,R,2676
+statewide,Treasurer,Hancock,Michael L. Fitzgerald,D,1921
+statewide,Treasurer,Hancock,Timothy Hird,L,92
+statewide,Treasurer,Hancock,Write-ins,W,1
+statewide,Treasurer,Hardin,Jeremy N. Davis,R,3571
+statewide,Treasurer,Hardin,Michael L. Fitzgerald,D,3385
+statewide,Treasurer,Hardin,Timothy Hird,L,141
+statewide,Treasurer,Hardin,Write-ins,W,0
+statewide,Treasurer,Harrison,Jeremy N. Davis,R,3529
+statewide,Treasurer,Harrison,Michael L. Fitzgerald,D,2173
+statewide,Treasurer,Harrison,Timothy Hird,L,155
+statewide,Treasurer,Harrison,Write-ins,W,3
+statewide,Treasurer,Henry,Jeremy N. Davis,R,3946
+statewide,Treasurer,Henry,Michael L. Fitzgerald,D,3185
+statewide,Treasurer,Henry,Timothy Hird,L,164
+statewide,Treasurer,Henry,Write-ins,W,2
+statewide,Treasurer,Howard,Michael L. Fitzgerald,D,1966
+statewide,Treasurer,Howard,Jeremy N. Davis,R,1521
+statewide,Treasurer,Howard,Timothy Hird,L,87
+statewide,Treasurer,Howard,Write-ins,W,2
+statewide,Treasurer,Humboldt,Jeremy N. Davis,R,2274
+statewide,Treasurer,Humboldt,Michael L. Fitzgerald,D,1637
+statewide,Treasurer,Humboldt,Timothy Hird,L,77
+statewide,Treasurer,Humboldt,Write-ins,W,1
+statewide,Treasurer,Ida,Jeremy N. Davis,R,1788
+statewide,Treasurer,Ida,Michael L. Fitzgerald,D,1013
+statewide,Treasurer,Ida,Timothy Hird,L,48
+statewide,Treasurer,Ida,Write-ins,W,0
+statewide,Treasurer,Iowa,Jeremy N. Davis,R,3781
+statewide,Treasurer,Iowa,Michael L. Fitzgerald,D,3473
+statewide,Treasurer,Iowa,Timothy Hird,L,184
+statewide,Treasurer,Iowa,Write-ins,W,3
+statewide,Treasurer,Jackson,Michael L. Fitzgerald,D,4336
+statewide,Treasurer,Jackson,Jeremy N. Davis,R,3643
+statewide,Treasurer,Jackson,Timothy Hird,L,228
+statewide,Treasurer,Jackson,Write-ins,W,2
+statewide,Treasurer,Jasper,Michael L. Fitzgerald,D,8524
+statewide,Treasurer,Jasper,Jeremy N. Davis,R,6832
+statewide,Treasurer,Jasper,Timothy Hird,L,349
+statewide,Treasurer,Jasper,Write-ins,W,2
+statewide,Treasurer,Jefferson,Michael L. Fitzgerald,D,4093
+statewide,Treasurer,Jefferson,Jeremy N. Davis,R,2628
+statewide,Treasurer,Jefferson,Timothy Hird,L,203
+statewide,Treasurer,Jefferson,Write-ins,W,2
+statewide,Treasurer,Johnson,Michael L. Fitzgerald,D,48853
+statewide,Treasurer,Johnson,Jeremy N. Davis,R,16177
+statewide,Treasurer,Johnson,Timothy Hird,L,1606
+statewide,Treasurer,Johnson,Write-ins,W,26
+statewide,Treasurer,Jones,Michael L. Fitzgerald,D,4153
+statewide,Treasurer,Jones,Jeremy N. Davis,R,4099
+statewide,Treasurer,Jones,Timothy Hird,L,188
+statewide,Treasurer,Jones,Write-ins,W,0
+statewide,Treasurer,Keokuk,Jeremy N. Davis,R,2221
+statewide,Treasurer,Keokuk,Michael L. Fitzgerald,D,1643
+statewide,Treasurer,Keokuk,Timothy Hird,L,78
+statewide,Treasurer,Keokuk,Write-ins,W,1
+statewide,Treasurer,Kossuth,Jeremy N. Davis,R,3601
+statewide,Treasurer,Kossuth,Michael L. Fitzgerald,D,3484
+statewide,Treasurer,Kossuth,Timothy Hird,L,145
+statewide,Treasurer,Kossuth,Write-ins,W,1
+statewide,Treasurer,Lee,Michael L. Fitzgerald,D,6518
+statewide,Treasurer,Lee,Jeremy N. Davis,R,5633
+statewide,Treasurer,Lee,Timothy Hird,L,284
+statewide,Treasurer,Lee,Write-ins,W,5
+statewide,Treasurer,Linn,Michael L. Fitzgerald,D,61913
+statewide,Treasurer,Linn,Jeremy N. Davis,R,34998
+statewide,Treasurer,Linn,Timothy Hird,L,3229
+statewide,Treasurer,Linn,Write-ins,W,47
+statewide,Treasurer,Louisa,Jeremy N. Davis,R,2056
+statewide,Treasurer,Louisa,Michael L. Fitzgerald,D,1624
+statewide,Treasurer,Louisa,Timothy Hird,L,73
+statewide,Treasurer,Louisa,Write-ins,W,1
+statewide,Treasurer,Lucas,Jeremy N. Davis,R,1957
+statewide,Treasurer,Lucas,Michael L. Fitzgerald,D,1504
+statewide,Treasurer,Lucas,Timothy Hird,L,51
+statewide,Treasurer,Lucas,Write-ins,W,0
+statewide,Treasurer,Lyon,Jeremy N. Davis,R,3955
+statewide,Treasurer,Lyon,Michael L. Fitzgerald,D,961
+statewide,Treasurer,Lyon,Timothy Hird,L,73
+statewide,Treasurer,Lyon,Write-ins,W,2
+statewide,Treasurer,Madison,Jeremy N. Davis,R,3854
+statewide,Treasurer,Madison,Michael L. Fitzgerald,D,3402
+statewide,Treasurer,Madison,Timothy Hird,L,225
+statewide,Treasurer,Madison,Write-ins,W,2
+statewide,Treasurer,Mahaska,Jeremy N. Davis,R,4947
+statewide,Treasurer,Mahaska,Michael L. Fitzgerald,D,3236
+statewide,Treasurer,Mahaska,Timothy Hird,L,170
+statewide,Treasurer,Mahaska,Write-ins,W,2
+statewide,Treasurer,Marion,Jeremy N. Davis,R,8166
+statewide,Treasurer,Marion,Michael L. Fitzgerald,D,6236
+statewide,Treasurer,Marion,Timothy Hird,L,329
+statewide,Treasurer,Marion,Write-ins,W,1
+statewide,Treasurer,Marshall,Michael L. Fitzgerald,D,8138
+statewide,Treasurer,Marshall,Jeremy N. Davis,R,5844
+statewide,Treasurer,Marshall,Timothy Hird,L,310
+statewide,Treasurer,Marshall,Write-ins,W,3
+statewide,Treasurer,Mills,Jeremy N. Davis,R,3735
+statewide,Treasurer,Mills,Michael L. Fitzgerald,D,2235
+statewide,Treasurer,Mills,Timothy Hird,L,200
+statewide,Treasurer,Mills,Write-ins,W,1
+statewide,Treasurer,Mitchell,Michael L. Fitzgerald,D,2225
+statewide,Treasurer,Mitchell,Jeremy N. Davis,R,2063
+statewide,Treasurer,Mitchell,Timothy Hird,L,102
+statewide,Treasurer,Mitchell,Write-ins,W,1
+statewide,Treasurer,Monona,Jeremy N. Davis,R,1978
+statewide,Treasurer,Monona,Michael L. Fitzgerald,D,1605
+statewide,Treasurer,Monona,Timothy Hird,L,84
+statewide,Treasurer,Monona,Write-ins,W,0
+statewide,Treasurer,Monroe,Jeremy N. Davis,R,1560
+statewide,Treasurer,Monroe,Michael L. Fitzgerald,D,1467
+statewide,Treasurer,Monroe,Timothy Hird,L,55
+statewide,Treasurer,Monroe,Write-ins,W,1
+statewide,Treasurer,Montgomery,Jeremy N. Davis,R,2356
+statewide,Treasurer,Montgomery,Michael L. Fitzgerald,D,1419
+statewide,Treasurer,Montgomery,Timothy Hird,L,87
+statewide,Treasurer,Montgomery,Write-ins,W,1
+statewide,Treasurer,Muscatine,Michael L. Fitzgerald,D,7669
+statewide,Treasurer,Muscatine,Jeremy N. Davis,R,6683
+statewide,Treasurer,Muscatine,Timothy Hird,L,385
+statewide,Treasurer,Muscatine,Write-ins,W,2
+statewide,Treasurer,O'Brien,Jeremy N. Davis,R,3927
+statewide,Treasurer,O'Brien,Michael L. Fitzgerald,D,1623
+statewide,Treasurer,O'Brien,Timothy Hird,L,93
+statewide,Treasurer,O'Brien,Write-ins,W,2
+statewide,Treasurer,Osceola,Jeremy N. Davis,R,1693
+statewide,Treasurer,Osceola,Michael L. Fitzgerald,D,601
+statewide,Treasurer,Osceola,Timothy Hird,L,35
+statewide,Treasurer,Osceola,Write-ins,W,0
+statewide,Treasurer,Page,Jeremy N. Davis,R,3452
+statewide,Treasurer,Page,Michael L. Fitzgerald,D,2005
+statewide,Treasurer,Page,Timothy Hird,L,83
+statewide,Treasurer,Page,Write-ins,W,0
+statewide,Treasurer,Palo Alto,Jeremy N. Davis,R,1814
+statewide,Treasurer,Palo Alto,Michael L. Fitzgerald,D,1789
+statewide,Treasurer,Palo Alto,Timothy Hird,L,50
+statewide,Treasurer,Palo Alto,Write-ins,W,1
+statewide,Treasurer,Plymouth,Jeremy N. Davis,R,6859
+statewide,Treasurer,Plymouth,Michael L. Fitzgerald,D,3410
+statewide,Treasurer,Plymouth,Timothy Hird,L,171
+statewide,Treasurer,Plymouth,Write-ins,W,4
+statewide,Treasurer,Pocahontas,Jeremy N. Davis,R,1597
+statewide,Treasurer,Pocahontas,Michael L. Fitzgerald,D,1391
+statewide,Treasurer,Pocahontas,Timothy Hird,L,63
+statewide,Treasurer,Pocahontas,Write-ins,W,0
+statewide,Treasurer,Polk,Michael L. Fitzgerald,D,133036
+statewide,Treasurer,Polk,Jeremy N. Davis,R,64697
+statewide,Treasurer,Polk,Timothy Hird,L,4954
+statewide,Treasurer,Polk,Write-ins,W,115
+statewide,Treasurer,Pottawattamie,Jeremy N. Davis,R,17720
+statewide,Treasurer,Pottawattamie,Michael L. Fitzgerald,D,14609
+statewide,Treasurer,Pottawattamie,Timothy Hird,L,932
+statewide,Treasurer,Pottawattamie,Write-ins,W,16
+statewide,Treasurer,Poweshiek,Michael L. Fitzgerald,D,4891
+statewide,Treasurer,Poweshiek,Jeremy N. Davis,R,3099
+statewide,Treasurer,Poweshiek,Timothy Hird,L,161
+statewide,Treasurer,Poweshiek,Write-ins,W,1
+statewide,Treasurer,Ringgold,Jeremy N. Davis,R,1121
+statewide,Treasurer,Ringgold,Michael L. Fitzgerald,D,1095
+statewide,Treasurer,Ringgold,Timothy Hird,L,31
+statewide,Treasurer,Ringgold,Write-ins,W,0
+statewide,Treasurer,Sac,Jeremy N. Davis,R,2269
+statewide,Treasurer,Sac,Michael L. Fitzgerald,D,1795
+statewide,Treasurer,Sac,Timothy Hird,L,84
+statewide,Treasurer,Sac,Write-ins,W,1
+statewide,Treasurer,Scott,Michael L. Fitzgerald,D,37932
+statewide,Treasurer,Scott,Jeremy N. Davis,R,28821
+statewide,Treasurer,Scott,Timothy Hird,L,1675
+statewide,Treasurer,Scott,Write-ins,W,15
+statewide,Treasurer,Shelby,Jeremy N. Davis,R,2953
+statewide,Treasurer,Shelby,Michael L. Fitzgerald,D,1796
+statewide,Treasurer,Shelby,Timothy Hird,L,110
+statewide,Treasurer,Shelby,Write-ins,W,2
+statewide,Treasurer,Sioux,Jeremy N. Davis,R,11656
+statewide,Treasurer,Sioux,Michael L. Fitzgerald,D,2529
+statewide,Treasurer,Sioux,Timothy Hird,L,202
+statewide,Treasurer,Sioux,Write-ins,W,3
+statewide,Treasurer,Story,Michael L. Fitzgerald,D,26961
+statewide,Treasurer,Story,Jeremy N. Davis,R,13695
+statewide,Treasurer,Story,Timothy Hird,L,1150
+statewide,Treasurer,Story,Write-ins,W,20
+statewide,Treasurer,Tama,Michael L. Fitzgerald,D,3833
+statewide,Treasurer,Tama,Jeremy N. Davis,R,3181
+statewide,Treasurer,Tama,Timothy Hird,L,177
+statewide,Treasurer,Tama,Write-ins,W,1
+statewide,Treasurer,Taylor,Jeremy N. Davis,R,1419
+statewide,Treasurer,Taylor,Michael L. Fitzgerald,D,925
+statewide,Treasurer,Taylor,Timothy Hird,L,41
+statewide,Treasurer,Taylor,Write-ins,W,2
+statewide,Treasurer,Union,Jeremy N. Davis,R,2358
+statewide,Treasurer,Union,Michael L. Fitzgerald,D,2246
+statewide,Treasurer,Union,Timothy Hird,L,130
+statewide,Treasurer,Union,Write-ins,W,1
+statewide,Treasurer,Van Buren,Jeremy N. Davis,R,1706
+statewide,Treasurer,Van Buren,Michael L. Fitzgerald,D,1082
+statewide,Treasurer,Van Buren,Timothy Hird,L,53
+statewide,Treasurer,Van Buren,Write-ins,W,0
+statewide,Treasurer,Wapello,Michael L. Fitzgerald,D,5961
+statewide,Treasurer,Wapello,Jeremy N. Davis,R,5532
+statewide,Treasurer,Wapello,Timothy Hird,L,276
+statewide,Treasurer,Wapello,Write-ins,W,7
+statewide,Treasurer,Warren,Michael L. Fitzgerald,D,12571
+statewide,Treasurer,Warren,Jeremy N. Davis,R,10390
+statewide,Treasurer,Warren,Timothy Hird,L,578
+statewide,Treasurer,Warren,Write-ins,W,13
+statewide,Treasurer,Washington,Jeremy N. Davis,R,4513
+statewide,Treasurer,Washington,Michael L. Fitzgerald,D,4160
+statewide,Treasurer,Washington,Timothy Hird,L,222
+statewide,Treasurer,Washington,Write-ins,W,1
+statewide,Treasurer,Wayne,Jeremy N. Davis,R,1296
+statewide,Treasurer,Wayne,Michael L. Fitzgerald,D,1004
+statewide,Treasurer,Wayne,Timothy Hird,L,38
+statewide,Treasurer,Wayne,Write-ins,W,1
+statewide,Treasurer,Webster,Michael L. Fitzgerald,D,7604
+statewide,Treasurer,Webster,Jeremy N. Davis,R,5908
+statewide,Treasurer,Webster,Timothy Hird,L,276
+statewide,Treasurer,Webster,Write-ins,W,7
+statewide,Treasurer,Winnebago,Jeremy N. Davis,R,2288
+statewide,Treasurer,Winnebago,Michael L. Fitzgerald,D,2160
+statewide,Treasurer,Winnebago,Timothy Hird,L,117
+statewide,Treasurer,Winnebago,Write-ins,W,0
+statewide,Treasurer,Winneshiek,Michael L. Fitzgerald,D,5734
+statewide,Treasurer,Winneshiek,Jeremy N. Davis,R,3743
+statewide,Treasurer,Winneshiek,Timothy Hird,L,169
+statewide,Treasurer,Winneshiek,Write-ins,W,0
+statewide,Treasurer,Woodbury,Michael L. Fitzgerald,D,17122
+statewide,Treasurer,Woodbury,Jeremy N. Davis,R,16436
+statewide,Treasurer,Woodbury,Timothy Hird,L,786
+statewide,Treasurer,Woodbury,Write-ins,W,13
+statewide,Treasurer,Worth,Michael L. Fitzgerald,D,1730
+statewide,Treasurer,Worth,Jeremy N. Davis,R,1638
+statewide,Treasurer,Worth,Timothy Hird,L,100
+statewide,Treasurer,Worth,Write-ins,W,0
+statewide,Treasurer,Wright,Jeremy N. Davis,R,2496
+statewide,Treasurer,Wright,Michael L. Fitzgerald,D,2202
+statewide,Treasurer,Wright,Timothy Hird,L,116
+statewide,Treasurer,Wright,Write-ins,W,1
+ushouse,1,Allamakee,Rod Blum,R,3073
+ushouse,1,Allamakee,Abby Finkenauer,D,2353
+ushouse,1,Allamakee,Troy Hageman,L,225
+ushouse,1,Allamakee,Write-ins,W,1
+ushouse,1,Benton,Rod Blum,R,6465
+ushouse,1,Benton,Abby Finkenauer,D,4698
+ushouse,1,Benton,Troy Hageman,L,407
+ushouse,1,Benton,Write-ins,W,11
+ushouse,1,Black Hawk,Abby Finkenauer,D,29667
+ushouse,1,Black Hawk,Rod Blum,R,22103
+ushouse,1,Black Hawk,Troy Hageman,L,1337
+ushouse,1,Black Hawk,Write-ins,W,16
+ushouse,1,Bremer,Rod Blum,R,5908
+ushouse,1,Bremer,Abby Finkenauer,D,5182
+ushouse,1,Bremer,Troy Hageman,L,326
+ushouse,1,Bremer,Write-ins,W,3
+ushouse,1,Buchanan,Rod Blum,R,4166
+ushouse,1,Buchanan,Abby Finkenauer,D,3977
+ushouse,1,Buchanan,Troy Hageman,L,306
+ushouse,1,Buchanan,Write-ins,W,4
+ushouse,1,Clayton,Rod Blum,R,4320
+ushouse,1,Clayton,Abby Finkenauer,D,3311
+ushouse,1,Clayton,Troy Hageman,L,256
+ushouse,1,Clayton,Write-ins,W,5
+ushouse,1,Delaware,Rod Blum,R,4475
+ushouse,1,Delaware,Abby Finkenauer,D,2810
+ushouse,1,Delaware,Troy Hageman,L,209
+ushouse,1,Delaware,Write-ins,W,3
+ushouse,1,Dubuque,Abby Finkenauer,D,22359
+ushouse,1,Dubuque,Rod Blum,R,19282
+ushouse,1,Dubuque,Troy Hageman,L,1085
+ushouse,1,Dubuque,Write-ins,W,21
+ushouse,1,Fayette,Rod Blum,R,4167
+ushouse,1,Fayette,Abby Finkenauer,D,3701
+ushouse,1,Fayette,Troy Hageman,L,325
+ushouse,1,Fayette,Write-ins,W,3
+ushouse,1,Howard,Rod Blum,R,1878
+ushouse,1,Howard,Abby Finkenauer,D,1587
+ushouse,1,Howard,Troy Hageman,L,144
+ushouse,1,Howard,Write-ins,W,2
+ushouse,1,Iowa,Rod Blum,R,4203
+ushouse,1,Iowa,Abby Finkenauer,D,3099
+ushouse,1,Iowa,Troy Hageman,L,290
+ushouse,1,Iowa,Write-ins,W,3
+ushouse,1,Jackson,Rod Blum,R,4483
+ushouse,1,Jackson,Abby Finkenauer,D,3797
+ushouse,1,Jackson,Troy Hageman,L,230
+ushouse,1,Jackson,Write-ins,W,2
+ushouse,1,Jones,Rod Blum,R,4490
+ushouse,1,Jones,Abby Finkenauer,D,3787
+ushouse,1,Jones,Troy Hageman,L,286
+ushouse,1,Jones,Write-ins,W,2
+ushouse,1,Linn,Abby Finkenauer,D,57712
+ushouse,1,Linn,Rod Blum,R,40733
+ushouse,1,Linn,Troy Hageman,L,3340
+ushouse,1,Linn,Write-ins,W,82
+ushouse,1,Marshall,Rod Blum,R,7124
+ushouse,1,Marshall,Abby Finkenauer,D,6611
+ushouse,1,Marshall,Troy Hageman,L,404
+ushouse,1,Marshall,Write-ins,W,7
+ushouse,1,Mitchell,Rod Blum,R,2518
+ushouse,1,Mitchell,Abby Finkenauer,D,1836
+ushouse,1,Mitchell,Troy Hageman,L,147
+ushouse,1,Mitchell,Write-ins,W,1
+ushouse,1,Poweshiek,Rod Blum,R,4044
+ushouse,1,Poweshiek,Abby Finkenauer,D,3966
+ushouse,1,Poweshiek,Troy Hageman,L,229
+ushouse,1,Poweshiek,Write-ins,W,3
+ushouse,1,Tama,Rod Blum,R,3780
+ushouse,1,Tama,Abby Finkenauer,D,3257
+ushouse,1,Tama,Troy Hageman,L,239
+ushouse,1,Tama,Write-ins,W,4
+ushouse,1,Winneshiek,Abby Finkenauer,D,5102
+ushouse,1,Winneshiek,Rod Blum,R,4364
+ushouse,1,Winneshiek,Troy Hageman,L,391
+ushouse,1,Winneshiek,Write-ins,W,1
+ushouse,1,Worth,Rod Blum,R,1866
+ushouse,1,Worth,Abby Finkenauer,D,1530
+ushouse,1,Worth,Troy Hageman,L,109
+ushouse,1,Worth,Write-ins,W,0
+ushouse,2,Appanoose,Christopher Peters,R,2770
+ushouse,2,Appanoose,Dave Loebsack,D,2055
+ushouse,2,Appanoose,Mark David Strauss,L,91
+ushouse,2,Appanoose,Daniel Clark,O,35
+ushouse,2,Appanoose,Write-ins,W,6
+ushouse,2,Cedar,Dave Loebsack,D,4098
+ushouse,2,Cedar,Christopher Peters,R,3725
+ushouse,2,Cedar,Mark David Strauss,L,179
+ushouse,2,Cedar,Daniel Clark,O,37
+ushouse,2,Cedar,Write-ins,W,5
+ushouse,2,Clarke,Christopher Peters,R,1939
+ushouse,2,Clarke,Dave Loebsack,D,1525
+ushouse,2,Clarke,Mark David Strauss,L,115
+ushouse,2,Clarke,Daniel Clark,O,34
+ushouse,2,Clarke,Write-ins,W,4
+ushouse,2,Clinton,Dave Loebsack,D,9864
+ushouse,2,Clinton,Christopher Peters,R,7725
+ushouse,2,Clinton,Mark David Strauss,L,307
+ushouse,2,Clinton,Daniel Clark,O,92
+ushouse,2,Clinton,Write-ins,W,16
+ushouse,2,Davis,Christopher Peters,R,1646
+ushouse,2,Davis,Dave Loebsack,D,1389
+ushouse,2,Davis,Mark David Strauss,L,57
+ushouse,2,Davis,Daniel Clark,O,9
+ushouse,2,Davis,Write-ins,W,2
+ushouse,2,Decatur,Christopher Peters,R,1651
+ushouse,2,Decatur,Dave Loebsack,D,1122
+ushouse,2,Decatur,Mark David Strauss,L,83
+ushouse,2,Decatur,Daniel Clark,O,29
+ushouse,2,Decatur,Write-ins,W,1
+ushouse,2,Des Moines,Dave Loebsack,D,8546
+ushouse,2,Des Moines,Christopher Peters,R,6138
+ushouse,2,Des Moines,Mark David Strauss,L,285
+ushouse,2,Des Moines,Daniel Clark,O,81
+ushouse,2,Des Moines,Write-ins,W,7
+ushouse,2,Henry,Christopher Peters,R,3950
+ushouse,2,Henry,Dave Loebsack,D,3211
+ushouse,2,Henry,Mark David Strauss,L,120
+ushouse,2,Henry,Daniel Clark,O,120
+ushouse,2,Henry,Write-ins,W,1
+ushouse,2,Jasper,Christopher Peters,R,7622
+ushouse,2,Jasper,Dave Loebsack,D,7519
+ushouse,2,Jasper,Mark David Strauss,L,354
+ushouse,2,Jasper,Daniel Clark,O,100
+ushouse,2,Jasper,Write-ins,W,11
+ushouse,2,Jefferson,Dave Loebsack,D,4201
+ushouse,2,Jefferson,Christopher Peters,R,2644
+ushouse,2,Jefferson,Mark David Strauss,L,135
+ushouse,2,Jefferson,Daniel Clark,O,39
+ushouse,2,Jefferson,Write-ins,W,4
+ushouse,2,Johnson,Dave Loebsack,D,49010
+ushouse,2,Johnson,Christopher Peters,R,16998
+ushouse,2,Johnson,Mark David Strauss,L,1155
+ushouse,2,Johnson,Daniel Clark,O,482
+ushouse,2,Johnson,Write-ins,W,29
+ushouse,2,Keokuk,Christopher Peters,R,2377
+ushouse,2,Keokuk,Dave Loebsack,D,1574
+ushouse,2,Keokuk,Mark David Strauss,L,66
+ushouse,2,Keokuk,Daniel Clark,O,21
+ushouse,2,Keokuk,Write-ins,W,1
+ushouse,2,Lee,Dave Loebsack,D,6515
+ushouse,2,Lee,Christopher Peters,R,5578
+ushouse,2,Lee,Mark David Strauss,L,263
+ushouse,2,Lee,Daniel Clark,O,62
+ushouse,2,Lee,Write-ins,W,8
+ushouse,2,Louisa,Christopher Peters,R,2031
+ushouse,2,Louisa,Dave Loebsack,D,1679
+ushouse,2,Louisa,Mark David Strauss,L,60
+ushouse,2,Louisa,Daniel Clark,O,21
+ushouse,2,Louisa,Write-ins,W,1
+ushouse,2,Lucas,Christopher Peters,R,2106
+ushouse,2,Lucas,Dave Loebsack,D,1295
+ushouse,2,Lucas,Mark David Strauss,L,78
+ushouse,2,Lucas,Daniel Clark,O,25
+ushouse,2,Lucas,Write-ins,W,4
+ushouse,2,Mahaska,Christopher Peters,R,5489
+ushouse,2,Mahaska,Dave Loebsack,D,2712
+ushouse,2,Mahaska,Mark David Strauss,L,191
+ushouse,2,Mahaska,Daniel Clark,O,51
+ushouse,2,Mahaska,Write-ins,W,5
+ushouse,2,Marion,Christopher Peters,R,8796
+ushouse,2,Marion,Dave Loebsack,D,5630
+ushouse,2,Marion,Mark David Strauss,L,335
+ushouse,2,Marion,Daniel Clark,O,85
+ushouse,2,Marion,Write-ins,W,14
+ushouse,2,Monroe,Christopher Peters,R,1717
+ushouse,2,Monroe,Dave Loebsack,D,1294
+ushouse,2,Monroe,Mark David Strauss,L,69
+ushouse,2,Monroe,Daniel Clark,O,23
+ushouse,2,Monroe,Write-ins,W,0
+ushouse,2,Muscatine,Dave Loebsack,D,7797
+ushouse,2,Muscatine,Christopher Peters,R,6569
+ushouse,2,Muscatine,Mark David Strauss,L,327
+ushouse,2,Muscatine,Daniel Clark,O,98
+ushouse,2,Muscatine,Write-ins,W,3
+ushouse,2,Scott,Dave Loebsack,D,38282
+ushouse,2,Scott,Christopher Peters,R,29012
+ushouse,2,Scott,Mark David Strauss,L,1372
+ushouse,2,Scott,Daniel Clark,O,235
+ushouse,2,Scott,Write-ins,W,20
+ushouse,2,Van Buren,Christopher Peters,R,1634
+ushouse,2,Van Buren,Dave Loebsack,D,1197
+ushouse,2,Van Buren,Mark David Strauss,L,44
+ushouse,2,Van Buren,Daniel Clark,O,23
+ushouse,2,Van Buren,Write-ins,W,1
+ushouse,2,Wapello,Dave Loebsack,D,5775
+ushouse,2,Wapello,Christopher Peters,R,5169
+ushouse,2,Wapello,Mark David Strauss,L,266
+ushouse,2,Wapello,Daniel Clark,O,78
+ushouse,2,Wapello,Write-ins,W,16
+ushouse,2,Washington,Christopher Peters,R,4595
+ushouse,2,Washington,Dave Loebsack,D,4272
+ushouse,2,Washington,Mark David Strauss,L,187
+ushouse,2,Washington,Daniel Clark,O,40
+ushouse,2,Washington,Write-ins,W,3
+ushouse,2,Wayne,Christopher Peters,R,1406
+ushouse,2,Wayne,Dave Loebsack,D,884
+ushouse,2,Wayne,Mark David Strauss,L,42
+ushouse,2,Wayne,Daniel Clark,O,17
+ushouse,2,Wayne,Write-ins,W,0
+ushouse,3,Adair,David Young,R,2205
+ushouse,3,Adair,Cindy Axne,D,1067
+ushouse,3,Adair,Bryan Jack Holder,L,78
+ushouse,3,Adair,Mark Elworth Jr.,O,21
+ushouse,3,Adair,Paul Knupp,O,14
+ushouse,3,Adair,Joe Grandanette,O,11
+ushouse,3,Adair,Write-ins,W,1
+ushouse,3,Adams,David Young,R,1152
+ushouse,3,Adams,Cindy Axne,D,518
+ushouse,3,Adams,Bryan Jack Holder,L,42
+ushouse,3,Adams,Paul Knupp,O,10
+ushouse,3,Adams,Mark Elworth Jr.,O,6
+ushouse,3,Adams,Joe Grandanette,O,2
+ushouse,3,Adams,Write-ins,W,0
+ushouse,3,Cass,David Young,R,3829
+ushouse,3,Cass,Cindy Axne,D,1777
+ushouse,3,Cass,Bryan Jack Holder,L,93
+ushouse,3,Cass,Mark Elworth Jr.,O,30
+ushouse,3,Cass,Paul Knupp,O,29
+ushouse,3,Cass,Joe Grandanette,O,13
+ushouse,3,Cass,Write-ins,W,1
+ushouse,3,Dallas,David Young,R,21089
+ushouse,3,Dallas,Cindy Axne,D,18593
+ushouse,3,Dallas,Bryan Jack Holder,L,761
+ushouse,3,Dallas,Paul Knupp,O,183
+ushouse,3,Dallas,Mark Elworth Jr.,O,173
+ushouse,3,Dallas,Joe Grandanette,O,128
+ushouse,3,Dallas,Write-ins,W,21
+ushouse,3,Fremont,David Young,R,1933
+ushouse,3,Fremont,Cindy Axne,D,990
+ushouse,3,Fremont,Bryan Jack Holder,L,41
+ushouse,3,Fremont,Mark Elworth Jr.,O,23
+ushouse,3,Fremont,Paul Knupp,O,20
+ushouse,3,Fremont,Joe Grandanette,O,8
+ushouse,3,Fremont,Write-ins,W,3
+ushouse,3,Guthrie,David Young,R,3159
+ushouse,3,Guthrie,Cindy Axne,D,1622
+ushouse,3,Guthrie,Bryan Jack Holder,L,142
+ushouse,3,Guthrie,Paul Knupp,O,29
+ushouse,3,Guthrie,Mark Elworth Jr.,O,24
+ushouse,3,Guthrie,Joe Grandanette,O,15
+ushouse,3,Guthrie,Write-ins,W,1
+ushouse,3,Madison,David Young,R,4749
+ushouse,3,Madison,Cindy Axne,D,2589
+ushouse,3,Madison,Bryan Jack Holder,L,166
+ushouse,3,Madison,Mark Elworth Jr.,O,46
+ushouse,3,Madison,Paul Knupp,O,35
+ushouse,3,Madison,Joe Grandanette,O,28
+ushouse,3,Madison,Write-ins,W,3
+ushouse,3,Mills,David Young,R,3941
+ushouse,3,Mills,Cindy Axne,D,2146
+ushouse,3,Mills,Bryan Jack Holder,L,137
+ushouse,3,Mills,Mark Elworth Jr.,O,37
+ushouse,3,Mills,Paul Knupp,O,32
+ushouse,3,Mills,Joe Grandanette,O,13
+ushouse,3,Mills,Write-ins,W,2
+ushouse,3,Montgomery,David Young,R,2631
+ushouse,3,Montgomery,Cindy Axne,D,1209
+ushouse,3,Montgomery,Bryan Jack Holder,L,62
+ushouse,3,Montgomery,Mark Elworth Jr.,O,29
+ushouse,3,Montgomery,Paul Knupp,O,19
+ushouse,3,Montgomery,Joe Grandanette,O,6
+ushouse,3,Montgomery,Write-ins,W,1
+ushouse,3,Page,David Young,R,3776
+ushouse,3,Page,Cindy Axne,D,1741
+ushouse,3,Page,Bryan Jack Holder,L,65
+ushouse,3,Page,Mark Elworth Jr.,O,20
+ushouse,3,Page,Paul Knupp,O,18
+ushouse,3,Page,Joe Grandanette,O,10
+ushouse,3,Page,Write-ins,W,2
+ushouse,3,Polk,Cindy Axne,D,115877
+ushouse,3,Polk,David Young,R,82404
+ushouse,3,Polk,Bryan Jack Holder,L,3981
+ushouse,3,Polk,Paul Knupp,O,1108
+ushouse,3,Polk,Mark Elworth Jr.,O,1102
+ushouse,3,Polk,Joe Grandanette,O,872
+ushouse,3,Polk,Write-ins,W,120
+ushouse,3,Pottawattamie,David Young,R,18181
+ushouse,3,Pottawattamie,Cindy Axne,D,14044
+ushouse,3,Pottawattamie,Bryan Jack Holder,L,982
+ushouse,3,Pottawattamie,Mark Elworth Jr.,O,307
+ushouse,3,Pottawattamie,Paul Knupp,O,180
+ushouse,3,Pottawattamie,Joe Grandanette,O,81
+ushouse,3,Pottawattamie,Write-ins,W,22
+ushouse,3,Ringgold,David Young,R,1493
+ushouse,3,Ringgold,Cindy Axne,D,716
+ushouse,3,Ringgold,Bryan Jack Holder,L,35
+ushouse,3,Ringgold,Paul Knupp,O,13
+ushouse,3,Ringgold,Mark Elworth Jr.,O,11
+ushouse,3,Ringgold,Joe Grandanette,O,6
+ushouse,3,Ringgold,Write-ins,W,0
+ushouse,3,Taylor,David Young,R,1683
+ushouse,3,Taylor,Cindy Axne,D,673
+ushouse,3,Taylor,Bryan Jack Holder,L,36
+ushouse,3,Taylor,Paul Knupp,O,18
+ushouse,3,Taylor,Mark Elworth Jr.,O,12
+ushouse,3,Taylor,Joe Grandanette,O,5
+ushouse,3,Taylor,Write-ins,W,1
+ushouse,3,Union,David Young,R,2930
+ushouse,3,Union,Cindy Axne,D,1717
+ushouse,3,Union,Bryan Jack Holder,L,114
+ushouse,3,Union,Paul Knupp,O,44
+ushouse,3,Union,Mark Elworth Jr.,O,38
+ushouse,3,Union,Joe Grandanette,O,14
+ushouse,3,Union,Write-ins,W,0
+ushouse,3,Warren,David Young,R,12778
+ushouse,3,Warren,Cindy Axne,D,10363
+ushouse,3,Warren,Bryan Jack Holder,L,532
+ushouse,3,Warren,Paul Knupp,O,136
+ushouse,3,Warren,Mark Elworth Jr.,O,136
+ushouse,3,Warren,Joe Grandanette,O,89
+ushouse,3,Warren,Write-ins,W,17
+ushouse,4,Audubon,Steve King,R,1378
+ushouse,4,Audubon,J.D. Scholten,D,1234
+ushouse,4,Audubon,Charles Aldrich,L,43
+ushouse,4,Audubon,Edward Peterson,O,13
+ushouse,4,Audubon,Write-ins,W,1
+ushouse,4,Boone,J.D. Scholten,D,6353
+ushouse,4,Boone,Steve King,R,5350
+ushouse,4,Boone,Charles Aldrich,L,285
+ushouse,4,Boone,Edward Peterson,O,83
+ushouse,4,Boone,Write-ins,W,3
+ushouse,4,Buena Vista,Steve King,R,3228
+ushouse,4,Buena Vista,J.D. Scholten,D,3178
+ushouse,4,Buena Vista,Charles Aldrich,L,116
+ushouse,4,Buena Vista,Edward Peterson,O,43
+ushouse,4,Buena Vista,Write-ins,W,3
+ushouse,4,Butler,Steve King,R,3675
+ushouse,4,Butler,J.D. Scholten,D,2199
+ushouse,4,Butler,Charles Aldrich,L,150
+ushouse,4,Butler,Edward Peterson,O,41
+ushouse,4,Butler,Write-ins,W,5
+ushouse,4,Calhoun,Steve King,R,2318
+ushouse,4,Calhoun,J.D. Scholten,D,1842
+ushouse,4,Calhoun,Charles Aldrich,L,90
+ushouse,4,Calhoun,Edward Peterson,O,26
+ushouse,4,Calhoun,Write-ins,W,2
+ushouse,4,Carroll,Steve King,R,4652
+ushouse,4,Carroll,J.D. Scholten,D,4075
+ushouse,4,Carroll,Charles Aldrich,L,138
+ushouse,4,Carroll,Edward Peterson,O,52
+ushouse,4,Carroll,Write-ins,W,4
+ushouse,4,Cerro Gordo,J.D. Scholten,D,10688
+ushouse,4,Cerro Gordo,Steve King,R,7620
+ushouse,4,Cerro Gordo,Charles Aldrich,L,410
+ushouse,4,Cerro Gordo,Edward Peterson,O,166
+ushouse,4,Cerro Gordo,Write-ins,W,11
+ushouse,4,Cherokee,Steve King,R,2702
+ushouse,4,Cherokee,J.D. Scholten,D,2359
+ushouse,4,Cherokee,Charles Aldrich,L,60
+ushouse,4,Cherokee,Edward Peterson,O,27
+ushouse,4,Cherokee,Write-ins,W,1
+ushouse,4,Chickasaw,Steve King,R,2671
+ushouse,4,Chickasaw,J.D. Scholten,D,2345
+ushouse,4,Chickasaw,Charles Aldrich,L,120
+ushouse,4,Chickasaw,Edward Peterson,O,43
+ushouse,4,Chickasaw,Write-ins,W,2
+ushouse,4,Clay,Steve King,R,3555
+ushouse,4,Clay,J.D. Scholten,D,3125
+ushouse,4,Clay,Charles Aldrich,L,127
+ushouse,4,Clay,Edward Peterson,O,46
+ushouse,4,Clay,Write-ins,W,7
+ushouse,4,Crawford,Steve King,R,3025
+ushouse,4,Crawford,J.D. Scholten,D,2248
+ushouse,4,Crawford,Charles Aldrich,L,103
+ushouse,4,Crawford,Edward Peterson,O,38
+ushouse,4,Crawford,Write-ins,W,1
+ushouse,4,Dickinson,Steve King,R,4676
+ushouse,4,Dickinson,J.D. Scholten,D,3931
+ushouse,4,Dickinson,Charles Aldrich,L,131
+ushouse,4,Dickinson,Edward Peterson,O,43
+ushouse,4,Dickinson,Write-ins,W,6
+ushouse,4,Emmet,Steve King,R,1879
+ushouse,4,Emmet,J.D. Scholten,D,1743
+ushouse,4,Emmet,Charles Aldrich,L,63
+ushouse,4,Emmet,Edward Peterson,O,34
+ushouse,4,Emmet,Write-ins,W,1
+ushouse,4,Floyd,J.D. Scholten,D,3205
+ushouse,4,Floyd,Steve King,R,2841
+ushouse,4,Floyd,Charles Aldrich,L,153
+ushouse,4,Floyd,Edward Peterson,O,54
+ushouse,4,Floyd,Write-ins,W,4
+ushouse,4,Franklin,Steve King,R,2229
+ushouse,4,Franklin,J.D. Scholten,D,1717
+ushouse,4,Franklin,Charles Aldrich,L,88
+ushouse,4,Franklin,Edward Peterson,O,33
+ushouse,4,Franklin,Write-ins,W,0
+ushouse,4,Greene,Steve King,R,1999
+ushouse,4,Greene,J.D. Scholten,D,1945
+ushouse,4,Greene,Charles Aldrich,L,81
+ushouse,4,Greene,Edward Peterson,O,21
+ushouse,4,Greene,Write-ins,W,4
+ushouse,4,Grundy,Steve King,R,3540
+ushouse,4,Grundy,J.D. Scholten,D,1996
+ushouse,4,Grundy,Charles Aldrich,L,116
+ushouse,4,Grundy,Edward Peterson,O,44
+ushouse,4,Grundy,Write-ins,W,7
+ushouse,4,Hamilton,Steve King,R,3215
+ushouse,4,Hamilton,J.D. Scholten,D,2942
+ushouse,4,Hamilton,Charles Aldrich,L,129
+ushouse,4,Hamilton,Edward Peterson,O,46
+ushouse,4,Hamilton,Write-ins,W,6
+ushouse,4,Hancock,Steve King,R,2765
+ushouse,4,Hancock,J.D. Scholten,D,1843
+ushouse,4,Hancock,Charles Aldrich,L,120
+ushouse,4,Hancock,Edward Peterson,O,36
+ushouse,4,Hancock,Write-ins,W,4
+ushouse,4,Hardin,Steve King,R,3917
+ushouse,4,Hardin,J.D. Scholten,D,3027
+ushouse,4,Hardin,Charles Aldrich,L,149
+ushouse,4,Hardin,Edward Peterson,O,60
+ushouse,4,Hardin,Write-ins,W,2
+ushouse,4,Harrison,Steve King,R,3559
+ushouse,4,Harrison,J.D. Scholten,D,2237
+ushouse,4,Harrison,Charles Aldrich,L,131
+ushouse,4,Harrison,Edward Peterson,O,55
+ushouse,4,Harrison,Write-ins,W,3
+ushouse,4,Humboldt,Steve King,R,2481
+ushouse,4,Humboldt,J.D. Scholten,D,1465
+ushouse,4,Humboldt,Charles Aldrich,L,75
+ushouse,4,Humboldt,Edward Peterson,O,29
+ushouse,4,Humboldt,Write-ins,W,2
+ushouse,4,Ida,Steve King,R,1757
+ushouse,4,Ida,J.D. Scholten,D,1117
+ushouse,4,Ida,Charles Aldrich,L,45
+ushouse,4,Ida,Edward Peterson,O,16
+ushouse,4,Ida,Write-ins,W,3
+ushouse,4,Kossuth,Steve King,R,3942
+ushouse,4,Kossuth,J.D. Scholten,D,3171
+ushouse,4,Kossuth,Charles Aldrich,L,120
+ushouse,4,Kossuth,Edward Peterson,O,37
+ushouse,4,Kossuth,Write-ins,W,1
+ushouse,4,Lyon,Steve King,R,3716
+ushouse,4,Lyon,J.D. Scholten,D,1355
+ushouse,4,Lyon,Charles Aldrich,L,62
+ushouse,4,Lyon,Edward Peterson,O,31
+ushouse,4,Lyon,Write-ins,W,8
+ushouse,4,Monona,Steve King,R,2055
+ushouse,4,Monona,J.D. Scholten,D,1671
+ushouse,4,Monona,Charles Aldrich,L,58
+ushouse,4,Monona,Edward Peterson,O,21
+ushouse,4,Monona,Write-ins,W,4
+ushouse,4,O'Brien,Steve King,R,3795
+ushouse,4,O'Brien,J.D. Scholten,D,1916
+ushouse,4,O'Brien,Charles Aldrich,L,79
+ushouse,4,O'Brien,Edward Peterson,O,29
+ushouse,4,O'Brien,Write-ins,W,0
+ushouse,4,Osceola,Steve King,R,1663
+ushouse,4,Osceola,J.D. Scholten,D,709
+ushouse,4,Osceola,Charles Aldrich,L,30
+ushouse,4,Osceola,Edward Peterson,O,18
+ushouse,4,Osceola,Write-ins,W,2
+ushouse,4,Palo Alto,Steve King,R,1925
+ushouse,4,Palo Alto,J.D. Scholten,D,1701
+ushouse,4,Palo Alto,Charles Aldrich,L,58
+ushouse,4,Palo Alto,Edward Peterson,O,11
+ushouse,4,Palo Alto,Write-ins,W,5
+ushouse,4,Plymouth,Steve King,R,6503
+ushouse,4,Plymouth,J.D. Scholten,D,4084
+ushouse,4,Plymouth,Charles Aldrich,L,158
+ushouse,4,Plymouth,Edward Peterson,O,35
+ushouse,4,Plymouth,Write-ins,W,4
+ushouse,4,Pocahontas,Steve King,R,1831
+ushouse,4,Pocahontas,J.D. Scholten,D,1201
+ushouse,4,Pocahontas,Charles Aldrich,L,72
+ushouse,4,Pocahontas,Edward Peterson,O,16
+ushouse,4,Pocahontas,Write-ins,W,0
+ushouse,4,Sac,Steve King,R,2549
+ushouse,4,Sac,J.D. Scholten,D,1686
+ushouse,4,Sac,Charles Aldrich,L,55
+ushouse,4,Sac,Edward Peterson,O,24
+ushouse,4,Sac,Write-ins,W,1
+ushouse,4,Shelby,Steve King,R,3070
+ushouse,4,Shelby,J.D. Scholten,D,1817
+ushouse,4,Shelby,Charles Aldrich,L,96
+ushouse,4,Shelby,Edward Peterson,O,41
+ushouse,4,Shelby,Write-ins,W,7
+ushouse,4,Sioux,Steve King,R,10824
+ushouse,4,Sioux,J.D. Scholten,D,3682
+ushouse,4,Sioux,Charles Aldrich,L,182
+ushouse,4,Sioux,Edward Peterson,O,57
+ushouse,4,Sioux,Write-ins,W,23
+ushouse,4,Story,J.D. Scholten,D,27569
+ushouse,4,Story,Steve King,R,13474
+ushouse,4,Story,Charles Aldrich,L,1178
+ushouse,4,Story,Edward Peterson,O,250
+ushouse,4,Story,Write-ins,W,32
+ushouse,4,Webster,J.D. Scholten,D,6918
+ushouse,4,Webster,Steve King,R,6706
+ushouse,4,Webster,Charles Aldrich,L,277
+ushouse,4,Webster,Edward Peterson,O,103
+ushouse,4,Webster,Write-ins,W,5
+ushouse,4,Winnebago,Steve King,R,2233
+ushouse,4,Winnebago,J.D. Scholten,D,2181
+ushouse,4,Winnebago,Charles Aldrich,L,128
+ushouse,4,Winnebago,Edward Peterson,O,53
+ushouse,4,Winnebago,Write-ins,W,2
+ushouse,4,Woodbury,J.D. Scholten,D,18686
+ushouse,4,Woodbury,Steve King,R,15708
+ushouse,4,Woodbury,Charles Aldrich,L,562
+ushouse,4,Woodbury,Edward Peterson,O,161
+ushouse,4,Woodbury,Write-ins,W,28
+ushouse,4,Wright,Steve King,R,2650
+ushouse,4,Wright,J.D. Scholten,D,2085
+ushouse,4,Wright,Charles Aldrich,L,123
+ushouse,4,Wright,Edward Peterson,O,26
+ushouse,4,Wright,Write-ins,W,2
