@@ -1,0 +1,398 @@
+{
+"1": {
+"name": "Adair",
+"fips": "19001"
+},
+"2": {
+"name": "Adams",
+"fips": "19003"
+},
+"3": {
+"name": "Allamakee",
+"fips": "19005"
+},
+"4": {
+"name": "Appanoose",
+"fips": "19007"
+},
+"5": {
+"name": "Audubon",
+"fips": "19009"
+},
+"6": {
+"name": "Benton",
+"fips": "19011"
+},
+"7": {
+"name": "Black Hawk",
+"fips": "19013"
+},
+"8": {
+"name": "Boone",
+"fips": "19015"
+},
+"9": {
+"name": "Bremer",
+"fips": "19017"
+},
+"10": {
+"name": "Buchanan",
+"fips": "19019"
+},
+"11": {
+"name": "Buena Vista",
+"fips": "19021"
+},
+"12": {
+"name": "Butler",
+"fips": "19023"
+},
+"13": {
+"name": "Calhoun",
+"fips": "19025"
+},
+"14": {
+"name": "Carroll",
+"fips": "19027"
+},
+"15": {
+"name": "Cass",
+"fips": "19029"
+},
+"16": {
+"name": "Cedar",
+"fips": "19031"
+},
+"17": {
+"name": "Cerro Gordo",
+"fips": "19033"
+},
+"18": {
+"name": "Cherokee",
+"fips": "19035"
+},
+"19": {
+"name": "Chickasaw",
+"fips": "19037"
+},
+"20": {
+"name": "Clarke",
+"fips": "19039"
+},
+"21": {
+"name": "Clay",
+"fips": "19041"
+},
+"22": {
+"name": "Clayton",
+"fips": "19043"
+},
+"23": {
+"name": "Clinton",
+"fips": "19045"
+},
+"24": {
+"name": "Crawford",
+"fips": "19047"
+},
+"25": {
+"name": "Dallas",
+"fips": "19049"
+},
+"26": {
+"name": "Davis",
+"fips": "19051"
+},
+"27": {
+"name": "Decatur",
+"fips": "19053"
+},
+"28": {
+"name": "Delaware",
+"fips": "19055"
+},
+"29": {
+"name": "Des Moines",
+"fips": "19057"
+},
+"30": {
+"name": "Dickinson",
+"fips": "19059"
+},
+"31": {
+"name": "Dubuque",
+"fips": "19061"
+},
+"32": {
+"name": "Emmet",
+"fips": "19063"
+},
+"33": {
+"name": "Fayette",
+"fips": "19065"
+},
+"34": {
+"name": "Floyd",
+"fips": "19067"
+},
+"35": {
+"name": "Franklin",
+"fips": "19069"
+},
+"36": {
+"name": "Fremont",
+"fips": "19071"
+},
+"37": {
+"name": "Greene",
+"fips": "19073"
+},
+"38": {
+"name": "Grundy",
+"fips": "19075"
+},
+"39": {
+"name": "Guthrie",
+"fips": "19077"
+},
+"40": {
+"name": "Hamilton",
+"fips": "19079"
+},
+"41": {
+"name": "Hancock",
+"fips": "19081"
+},
+"42": {
+"name": "Hardin",
+"fips": "19083"
+},
+"43": {
+"name": "Harrison",
+"fips": "19085"
+},
+"44": {
+"name": "Henry",
+"fips": "19087"
+},
+"45": {
+"name": "Howard",
+"fips": "19089"
+},
+"46": {
+"name": "Humboldt",
+"fips": "19091"
+},
+"47": {
+"name": "Ida",
+"fips": "19093"
+},
+"48": {
+"name": "Iowa",
+"fips": "19095"
+},
+"49": {
+"name": "Jackson",
+"fips": "19097"
+},
+"50": {
+"name": "Jasper",
+"fips": "19099"
+},
+"51": {
+"name": "Jefferson",
+"fips": "19101"
+},
+"52": {
+"name": "Johnson",
+"fips": "19103"
+},
+"53": {
+"name": "Jones",
+"fips": "19105"
+},
+"54": {
+"name": "Keokuk",
+"fips": "19107"
+},
+"55": {
+"name": "Kossuth",
+"fips": "19109"
+},
+"56": {
+"name": "Lee",
+"fips": "19111"
+},
+"57": {
+"name": "Linn",
+"fips": "19113"
+},
+"58": {
+"name": "Louisa",
+"fips": "19115"
+},
+"59": {
+"name": "Lucas",
+"fips": "19117"
+},
+"60": {
+"name": "Lyon",
+"fips": "19119"
+},
+"61": {
+"name": "Madison",
+"fips": "19121"
+},
+"62": {
+"name": "Mahaska",
+"fips": "19123"
+},
+"63": {
+"name": "Marion",
+"fips": "19125"
+},
+"64": {
+"name": "Marshall",
+"fips": "19127"
+},
+"65": {
+"name": "Mills",
+"fips": "19129"
+},
+"66": {
+"name": "Mitchell",
+"fips": "19131"
+},
+"67": {
+"name": "Monona",
+"fips": "19133"
+},
+"68": {
+"name": "Monroe",
+"fips": "19135"
+},
+"69": {
+"name": "Montgomery",
+"fips": "19137"
+},
+"70": {
+"name": "Muscatine",
+"fips": "19139"
+},
+"71": {
+"name": "O'Brien",
+"fips": "19141"
+},
+"72": {
+"name": "Osceola",
+"fips": "19143"
+},
+"73": {
+"name": "Page",
+"fips": "19145"
+},
+"74": {
+"name": "Palo Alto",
+"fips": "19147"
+},
+"75": {
+"name": "Plymouth",
+"fips": "19149"
+},
+"76": {
+"name": "Pocahontas",
+"fips": "19151"
+},
+"77": {
+"name": "Polk",
+"fips": "19153"
+},
+"78": {
+"name": "Pottawattamie",
+"fips": "19155"
+},
+"79": {
+"name": "Poweshiek",
+"fips": "19157"
+},
+"80": {
+"name": "Ringgold",
+"fips": "19159"
+},
+"81": {
+"name": "Sac",
+"fips": "19161"
+},
+"82": {
+"name": "Scott",
+"fips": "19163"
+},
+"83": {
+"name": "Shelby",
+"fips": "19165"
+},
+"84": {
+"name": "Sioux",
+"fips": "19167"
+},
+"85": {
+"name": "Story",
+"fips": "19169"
+},
+"86": {
+"name": "Tama",
+"fips": "19171"
+},
+"87": {
+"name": "Taylor",
+"fips": "19173"
+},
+"88": {
+"name": "Union",
+"fips": "19175"
+},
+"89": {
+"name": "Van Buren",
+"fips": "19177"
+},
+"90": {
+"name": "Wapello",
+"fips": "19179"
+},
+"91": {
+"name": "Warren",
+"fips": "19181"
+},
+"92": {
+"name": "Washington",
+"fips": "19183"
+},
+"93": {
+"name": "Wayne",
+"fips": "19185"
+},
+"94": {
+"name": "Webster",
+"fips": "19187"
+},
+"95": {
+"name": "Winnebago",
+"fips": "19189"
+},
+"96": {
+"name": "Winneshiek",
+"fips": "19191"
+},
+"97": {
+"name": "Woodbury",
+"fips": "19193"
+},
+"98": {
+"name": "Worth",
+"fips": "19195"
+},
+"99": {
+"name": "Wright",
+"fips": "19197"
+}
+}
