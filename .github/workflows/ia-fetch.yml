@@ -1,0 +1,22 @@
+name: IA source fetch
+on:
+  push:
+    branches: [ia-fetch]
+    paths: [f/fetch.sh]
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: ia-fetch }
+      - run: pip install -q playwright && python3 -m playwright install --with-deps chromium >/dev/null 2>&1 || true
+      - run: bash f/fetch.sh
+        env: { GH_TOKEN: "${{ github.token }}" }
+      - if: always()
+        run: |
+          git config user.name "github-actions"; git config user.email "actions@users.noreply.github.com"
+          git pull -q --rebase origin ia-fetch || true
+          git add -A f/out* && git commit -q -m "IA fetch results [skip ci]" && git push origin ia-fetch
