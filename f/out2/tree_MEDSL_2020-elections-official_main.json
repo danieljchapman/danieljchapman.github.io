@@ -1,0 +1,15 @@
+{
+  "sha": "0c81699fc9ab3f41c4128284515ee3cf2dd80a0a",
+  "url": "https://api.github.com/repos/MEDSL/2020-elections-official/git/trees/0c81699fc9ab3f41c4128284515ee3cf2dd80a0a",
+  "tree": [
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d8f84d641f13fabc9a4b176c8e847d40d87296f",
+      "size": 226,
+      "url": "https://api.github.com/repos/MEDSL/2020-elections-official/git/blobs/5d8f84d641f13fabc9a4b176c8e847d40d87296f"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,25 @@
+total 1112
+drwxr-xr-x 2 runner runner   4096 Nov  3 01:09 .
+drwxr-xr-x 4 runner runner   4096 Nov  3 01:08 ..
+-rw-r--r-- 1 runner runner 528901 Nov  3 01:08 cdx_pdf.json
+-rw-r--r-- 1 runner runner 129253 Nov  3 01:08 cdx_results.json
+-rw-r--r-- 1 runner runner      0 Nov  3 01:08 err.txt
+-rw-r--r-- 1 runner runner      0 Nov  3 01:09 ls.txt
+-rw-r--r-- 1 runner runner   9395 Nov  3 01:09 pw_0.html
+-rw-r--r-- 1 runner runner    349 Nov  3 01:09 pw_0_links.json
+-rw-r--r-- 1 runner runner  44832 Nov  3 01:09 pw_1.html
+-rw-r--r-- 1 runner runner    147 Nov  3 01:09 pw_1_links.json
+-rw-r--r-- 1 runner runner  45038 Nov  3 01:09 pw_2.html
+-rw-r--r-- 1 runner runner   7099 Nov  3 01:09 pw_2_links.json
+-rw-r--r-- 1 runner runner      0 Nov  3 01:08 pw_log.txt
+-rw-r--r-- 1 runner runner   9938 Nov  3 01:09 pw_requests.json
+-rw-r--r-- 1 runner runner    124 Nov  3 01:08 tree_MEDSL_2016-elections-official_main.json
+-rw-r--r-- 1 runner runner    124 Nov  3 01:08 tree_MEDSL_2016-elections-official_master.json
+-rw-r--r-- 1 runner runner    124 Nov  3 01:08 tree_MEDSL_2016-precinct-returns_main.json
+-rw-r--r-- 1 runner runner    124 Nov  3 01:08 tree_MEDSL_2016-precinct-returns_master.json
+-rw-r--r-- 1 runner runner    503 Nov  3 01:08 tree_MEDSL_2020-elections-official_main.json
+-rw-r--r-- 1 runner runner    124 Nov  3 01:08 tree_MEDSL_2020-elections-official_master.json
+-rw-r--r-- 1 runner runner    124 Nov  3 01:08 tree_MEDSL_2020-precincts_main.json
+-rw-r--r-- 1 runner runner    124 Nov  3 01:08 tree_MEDSL_2020-precincts_master.json
+-rw-r--r-- 1 runner runner    124 Nov  3 01:08 tree_openelections_openelections-data-ia_main.json
+-rw-r--r-- 1 runner runner 297157 Nov  3 01:08 tree_openelections_openelections-data-ia_master.json

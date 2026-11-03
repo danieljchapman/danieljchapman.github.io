@@ -1,0 +1,90 @@
+<!DOCTYPE html><html lang="en" data-beasties-container=""><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>List Elections</title>
+  <style>html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}@media print {*{text-shadow:none !important;color:#000 !important;background:transparent;box-shadow:none !important}}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}html{font-size:62.5%;-webkit-tap-highlight-color:rgba(0, 0, 0, 0)}body{font-family:'Segoe Regular', "Helvetica Neue", Helvetica, Arial, sans-serif;font-size:14px;line-height:1.42857143;color:#333333;background-color:#f1f1f1}html,body{min-width:320px;overflow:auto}@font-face {font-family:'Segoe Regular';src:url('../fonts/segoe_ui.eot?-ldguj1');src:url('../fonts/segoe_ui.eot?#iefix-ldguj1') format('embedded-opentype'), url('../fonts/segoe_ui.woff?-ldguj1') format('woff'), url('../fonts/segoe_ui.ttf?-ldguj1') format('truetype'), url('../fonts/segoe_ui.svg?-ldguj1#segoe_ui') format('svg');font-weight:normal;font-style:normal}@-ms-viewport {width:device-width}@media all and (-ms-high-contrast:none)
+     {*::-ms-backdrop{display:flex;flex-direction:column}}</style><link rel="stylesheet" type="text/css" href="assets/css/soocss.css" media="all" onload="this.media='all'"><noscript><link rel="stylesheet" type="text/css" href="assets/css/soocss.css"></noscript>
+  <style>
+    .list-group-item {
+      position: relative;
+      display: block;
+      margin-bottom: -1px;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      padding: 20px 10px;
+    }
+
+    .list-group-item:hover {
+      background: #efefef;
+      cursor: pointer;
+    }
+
+    .page-wrapper-heading {
+      margin-bottom: 20px;
+    }
+  </style>
+  <script>
+    // Establish the base href dynamically
+    (function() {
+      console.log('Starting to set the base href...');
+      var base = document.createElement('base');
+      var parts = window.location.pathname.split('/').filter(Boolean); // Remove empty slashes
+
+      console.log('Pathname parts:', parts);
+
+      // Build the baseHref
+      var baseHref = '/';
+      if (parts.length >= 1) {
+        baseHref += parts[0] + '/'; // State
+        console.log('Adding state to baseHref:', baseHref);
+      }
+      if (parts.length >= 2) {
+        baseHref += parts[1] + '/'; // County if present
+        console.log('Adding county to baseHref:', baseHref);
+      }
+
+      base.href = baseHref;
+      document.head.appendChild(base);
+      console.log('Base href set:', baseHref);
+    })();
+
+    // Dynamically load state and county-specific CSS
+    window.onload = function() {
+      console.log('Starting dynamic CSS loading...');
+
+      var parts = window.location.pathname.split('/').filter(Boolean); // Remove empty slashes
+      console.log('Pathname parts for CSS:', parts);
+
+      var STATE = parts[0]; // The first element will always be the state
+      var COUNTY = parts.length > 1 ? parts[1] : null; // County if present
+
+      console.log('Detected state:', STATE);
+      console.log('Detected county:', COUNTY);
+
+      if (STATE) {
+        var linkEntityState = document.createElement('link');
+        linkEntityState.href = 'skins/' + STATE + '/css/skin.css';
+        linkEntityState.type = "text/css";
+        linkEntityState.rel = "stylesheet";
+        document.head.appendChild(linkEntityState);
+        console.log('Loading CSS for state:', linkEntityState.href);
+      }
+
+      if (STATE && COUNTY) {
+        var linkEntity = document.createElement('link');
+        linkEntity.href = 'skins/' + STATE + '/' + COUNTY + '/css/skin.css';
+        linkEntity.type = "text/css";
+        linkEntity.rel = "stylesheet";
+        document.head.appendChild(linkEntity);
+        console.log('Loading CSS for county:', linkEntity.href);
+      }
+
+      console.log('CSS loading completed.');
+    }
+  </script><base href="/IA/">
+<link rel="stylesheet" href="styles.ef46db3751d8e999.css"><style>.header[_ngcontent-ng-c3320316746]   .brand[_ngcontent-ng-c3320316746]{float:left;padding:0 10px;height:45px;line-height:45px;color:#fff;text-decoration:none}</style><style>#dateFilter[_ngcontent-ng-c1256438904]{border:1px solid #4D4D4D}.list-group-item[_ngcontent-ng-c1256438904]{padding:0;border-color:#4d4d4d}.list-group-item[_ngcontent-ng-c1256438904]   a[_ngcontent-ng-c1256438904]{display:block;padding:20px 10px;color:inherit;text-decoration:none}.list-group-item[_ngcontent-ng-c1256438904]   a[_ngcontent-ng-c1256438904]:hover{background:#efefef}.list-group-item[_ngcontent-ng-c1256438904]   a[_ngcontent-ng-c1256438904]:focus-visible{outline:2px solid #005fcc;outline-offset:-2px}</style><link href="skins/IA/css/skin.css" type="text/css" rel="stylesheet"><link href="skins/IA/css/skin.css" type="text/css" rel="stylesheet"></head>
+<body>
+  <app-root ng-version="20.3.15" _nghost-ng-c3320316746=""><header _ngcontent-ng-c3320316746="" class="header"><div _ngcontent-ng-c3320316746="" class="container"><div _ngcontent-ng-c3320316746="" class="brand" style="width: 760px;"><div _ngcontent-ng-c3320316746="" class="d-inline-block"><div _ngcontent-ng-c3320316746="" class="brand-name"></div><span _ngcontent-ng-c3320316746="" class="brand-subtitle"></span></div></div></div></header><div _ngcontent-ng-c3320316746="" class="page-wrapper-heading"><div _ngcontent-ng-c3320316746="" class="home-slide"><div _ngcontent-ng-c3320316746="" class="container"><h1 _ngcontent-ng-c3320316746="" class="d-block slide-title">Election List</h1><div _ngcontent-ng-c3320316746="" class="slide-subtitle relative d-block"> Election Night Reporting </div></div></div></div><div _ngcontent-ng-c3320316746="" class="container"><app-election-list _ngcontent-ng-c3320316746="" _nghost-ng-c1256438904=""><div _ngcontent-ng-c1256438904="" class="container"><!----><div _ngcontent-ng-c1256438904="" class="row"><div _ngcontent-ng-c1256438904="" class="col-sm-2 col-md-1 col-md-offset-7 mbm" style="padding-top: 7px;"> Filter by: </div><div _ngcontent-ng-c1256438904="" class="col-sm-10 col-md-4"><div _ngcontent-ng-c1256438904="" class="ng-untouched ng-pristine ng-valid"><select _ngcontent-ng-c1256438904="" id="dateFilter" formcontrolname="date" class="form-control ng-untouched ng-pristine ng-valid"><option _ngcontent-ng-c1256438904="" value="ALL">ALL</option><option _ngcontent-ng-c1256438904="" value="2026">2026</option><option _ngcontent-ng-c1256438904="" value="2025">2025</option><option _ngcontent-ng-c1256438904="" value="2024">2024</option><!----></select></div></div></div><!----><div _ngcontent-ng-c1256438904="" class="row"><div _ngcontent-ng-c1256438904=""><div _ngcontent-ng-c1256438904="" class="col-md-12"><h2 _ngcontent-ng-c1256438904="" style="border-bottom: 1px solid #ccc; padding-bottom: 20px;">2026</h2><ul _ngcontent-ng-c1256438904="" class="list-group pan"><li _ngcontent-ng-c1256438904="" class="list-group-item"><a _ngcontent-ng-c1256438904="" target="_blank" rel="noopener noreferrer" href="https://electionresults.iowa.gov/IA/127077/"> 2026 General Election <span _ngcontent-ng-c1256438904="" class="list-group-item-date">11/3/2026</span></a></li></ul><ul _ngcontent-ng-c1256438904="" class="list-group pan"><li _ngcontent-ng-c1256438904="" class="list-group-item"><a _ngcontent-ng-c1256438904="" target="_blank" rel="noopener noreferrer" href="https://electionresults.iowa.gov/IA/126082/"> 2026 Primary Election <span _ngcontent-ng-c1256438904="" class="list-group-item-date">6/2/2026</span></a></li></ul><!----></div><div _ngcontent-ng-c1256438904="" class="col-md-12"><h2 _ngcontent-ng-c1256438904="" style="border-bottom: 1px solid #ccc; padding-bottom: 20px;">2025</h2><ul _ngcontent-ng-c1256438904="" class="list-group pan"><li _ngcontent-ng-c1256438904="" class="list-group-item"><a _ngcontent-ng-c1256438904="" target="_blank" rel="noopener noreferrer" href="https://electionresults.iowa.gov/IA/124196/"> 2025 City-School Election <span _ngcontent-ng-c1256438904="" class="list-group-item-date">11/4/2025</span></a></li></ul><!----></div><div _ngcontent-ng-c1256438904="" class="col-md-12"><h2 _ngcontent-ng-c1256438904="" style="border-bottom: 1px solid #ccc; padding-bottom: 20px;">2024</h2><ul _ngcontent-ng-c1256438904="" class="list-group pan"><li _ngcontent-ng-c1256438904="" class="list-group-item"><a _ngcontent-ng-c1256438904="" target="_blank" rel="noopener noreferrer" href="https://electionresults.iowa.gov/IA/122322/"> 2024 General Election <span _ngcontent-ng-c1256438904="" class="list-group-item-date">11/5/2024</span></a></li></ul><!----></div><!----></div><!----><!----></div><!----></div></app-election-list></div><footer _ngcontent-ng-c3320316746="" class="page-footer mtxl"><div _ngcontent-ng-c3320316746="" class="container"><div _ngcontent-ng-c3320316746="" class="row"><div _ngcontent-ng-c3320316746="" class="col-md-6 footer-left"> Copyright 2026 - SOE Software </div><div _ngcontent-ng-c3320316746="" class="col-md-6 footer-right hidden-xs hidden-sm"> Powered by SOE Software </div></div></div></footer></app-root>
+<script src="runtime.3346ff4c4348be22.js" type="module"></script><script src="polyfills.1d7e5585264e248b.js" type="module"></script><script src="main.0b64d11241fc455a.js" type="module"></script>
+
+</body></html>
