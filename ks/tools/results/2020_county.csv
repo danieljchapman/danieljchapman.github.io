@@ -1,0 +1,921 @@
+level,office_or_district,county,candidate,party,votes
+house,1,ALL,Michael Houser,R,8381
+house,10,ALL,Christina Haswood,D,9446
+house,100,ALL,Daniel Hawkins,R,7976
+house,100,ALL,Chad Smith,D,4700
+house,101,ALL,Joe Seiwert,R,9396
+house,101,ALL,Elliott R. Adams,D,3252
+house,102,ALL,Jason Probst,D,3368
+house,102,ALL,John Whitesel,R,3337
+house,103,ALL,Ponka-We Victors,D,2615
+house,103,ALL,Susanne Haynes,R,1358
+house,103,ALL,Loren John Hermreck,L,299
+house,104,ALL,Paul M. Waggoner,R,7583
+house,104,ALL,Garth Strand,D,4466
+house,105,ALL,Brenda Landwehr,R,5563
+house,105,ALL,Michelle Snyder,D,3855
+house,106,ALL,Lisa M. Moser,R,8374
+house,106,ALL,James L Swim,D,2772
+house,107,ALL,Susan L. Concannon,R,9863
+house,108,ALL,Steven Johnson,R,9592
+house,109,ALL,Troy L. Waymaster,R,10414
+house,11,ALL,Jim Kelly,R,7467
+house,110,ALL,Ken Rahjes,R,9827
+house,111,ALL,Barb Wasinger,R,7343
+house,111,ALL,Eber Phelps,D,4135
+house,112,ALL,Tory Marie Arnberger,R,7542
+house,113,ALL,Brett Fairchild,R,8165
+house,114,ALL,Michael Murphy,R,7428
+house,114,ALL,Jeff Stroberg,D,3097
+house,115,ALL,Boyd Orr,R,6646
+house,116,ALL,Kyle D. Hoffman,R,7809
+house,116,ALL,Rick Roitman,D,2310
+house,117,ALL,Leonard A. Mastroni,R,8092
+house,118,ALL,Jim Minnix,R,10217
+house,119,ALL,Bradley C. Ralph,R,3312
+house,119,ALL,Jan Scoggins,D,2144
+house,12,ALL,Doug Blex,R,8908
+house,120,ALL,Adam Smith,R,10171
+house,121,ALL,John Resman,R,10040
+house,121,ALL,James Rexford,D,6924
+house,122,ALL,"J. Russell ""Russ"" Jennings",R,6808
+house,123,ALL,John P. Wheeler Jr.,R,6090
+house,124,ALL,Marty Long,R,6977
+house,125,ALL,Shannon Francis,R,4490
+house,13,ALL,Joe Newland,R,7633
+house,13,ALL,Mark Pringle,D,2254
+house,14,ALL,Charlotte Esau,R,8539
+house,14,ALL,Angela Justus Schweller,D,7757
+house,15,ALL,John Toplikar,R,5361
+house,15,ALL,Cole Fine,D,5054
+house,16,ALL,Linda Featherston,D,7130
+house,16,ALL,Rashard Young,R,7063
+house,17,ALL,Jo Ella Hoye,D,7058
+house,17,ALL,Kristine Sapp,R,6356
+house,17,ALL,Michael Kerner,L,443
+house,18,ALL,Cindy Neighbor,D,7098
+house,18,ALL,Cathy Gordon,R,6460
+house,19,ALL,Stephanie Sawyer Clayton,D,12369
+house,2,ALL,Kenneth Collins,R,6759
+house,2,ALL,Lynn D. Grant,D,4115
+house,20,ALL,Mari-Lynn Poskin,D,8249
+house,20,ALL,Jane Dirks,R,7752
+house,21,ALL,Jerry Stogsdill,D,9421
+house,21,ALL,Bob Reese,R,5778
+house,22,ALL,Lindsay Vaughn,D,8413
+house,23,ALL,Susan Ruiz,D,6069
+house,23,ALL,Jeff Shull,R,4386
+house,23,ALL,Matthew Clark,L,579
+house,24,ALL,Jarrod Ousley,D,9545
+house,25,ALL,Rui Xu,D,12177
+house,26,ALL,Adam T. Thomas,R,9758
+house,26,ALL,W. Michael Shimeall,D,6166
+house,27,ALL,Sean E. Tarwater Sr.,R,12119
+house,27,ALL,Sona Patel,D,6961
+house,28,ALL,Carl Turner,R,7638
+house,28,ALL,Sally Jercha,D,6732
+house,29,ALL,Brett Parker,D,7636
+house,29,ALL,Jerry Clinton,R,5795
+house,3,ALL,Charles (Chuck) Smith,R,4942
+house,3,ALL,Monica Murnan,D,4213
+house,30,ALL,Brandon Woodard,D,6913
+house,30,ALL,Laura Williams,R,6357
+house,31,ALL,Louis E. Ruiz,D,5211
+house,31,ALL,Landon Griffith,R,2070
+house,32,ALL,Pam Curtis,D,2822
+house,32,ALL,Greg Conchola,R,958
+house,33,ALL,Tom Burroughs,D,5156
+house,33,ALL,Jordan Michael Mackey,R,4398
+house,33,ALL,Rick Parsons,L,1027
+house,34,ALL,Valdenia C. Winn,D,5544
+house,35,ALL,Broderick Henderson,D,5694
+house,35,ALL,Mark David Snelson,R,1412
+house,36,ALL,Kathy Wolfe Moore,D,8280
+house,36,ALL,Mark Gilstrap,R,4952
+house,37,ALL,Aaron Coleman,D,3649
+house,37,ALL,Write-ins,W,1842
+house,38,ALL,Timothy H. Johnson,R,9368
+house,38,ALL,Sherri D. Grogan,D,5464
+house,39,ALL,Owen Donohoe,R,8511
+house,39,ALL,Les Lampe,D,7027
+house,4,ALL,Trevor Jacobs,R,7881
+house,4,ALL,Bill Meyer,D,2642
+house,40,ALL,David W. French,R,5318
+house,40,ALL,Joana Scholtz,D,4523
+house,41,ALL,Pat Proctor,R,3846
+house,41,ALL,Mike Griswold,D,3411
+house,42,ALL,Lance W. Neelly,R,9652
+house,42,ALL,Write-ins,W,283
+house,43,ALL,Bill Sutton,R,7893
+house,43,ALL,Pamela Finley,D,4302
+house,44,ALL,Barbara W. Ballard,D,11358
+house,45,ALL,Mike Amyx,D,14500
+house,46,ALL,"Dennis ""Boog"" Highberger",D,9295
+house,46,ALL,Dante Javaheri,L,1517
+house,47,ALL,Ronald B. Ellis,R,8209
+house,47,ALL,Michael Caddell,D,3294
+house,48,ALL,Jennifer Day,D,6911
+house,48,ALL,Terry Frederick,R,6849
+house,49,ALL,Megan Lynn,R,5546
+house,49,ALL,Katie Dixon,D,5313
+house,5,ALL,Mark Samsel,R,8061
+house,5,ALL,Roger Sims,D,2362
+house,50,ALL,Fred C. Patton,R,9901
+house,50,ALL,Timothy B. Reed,D,3326
+house,51,ALL,Ron Highland,R,11368
+house,52,ALL,Jesse Borjon,R,7957
+house,52,ALL,Mary Lou Davis,D,6182
+house,53,ALL,Jim Gartner,D,6326
+house,53,ALL,Jeff Coen,R,5203
+house,54,ALL,Ken Corbet,R,8297
+house,54,ALL,John Brosz,D,3927
+house,55,ALL,Annie Kuether,D,5960
+house,55,ALL,Janlyn Nesbett Tucker,R,3516
+house,56,ALL,Virgil Weigel,D,5661
+house,56,ALL,Tim Clothier,R,5400
+house,57,ALL,John Alcala,D,4513
+house,57,ALL,Michael Martin,R,2603
+house,58,ALL,Vic Miller,D,4786
+house,58,ALL,Geoffrey H Gawdun,R,2087
+house,59,ALL,Blaine Finch,R,7679
+house,59,ALL,Caren Rugg,D,2826
+house,6,ALL,Samantha M. Poetter,R,11111
+house,60,ALL,Mark A. Schreiber,R,5685
+house,60,ALL,Todd Maddox,D,3898
+house,61,ALL,Francis Awerkamp,R,9684
+house,62,ALL,Randy Garber,R,9757
+house,63,ALL,John R. Eplee,R,9238
+house,64,ALL,Suzi Carlson,R,5050
+house,64,ALL,Jim Vathauer,D,1622
+house,65,ALL,Lonnie G. Clark,R,4345
+house,66,ALL,Sydney Carlin,D,7491
+house,67,ALL,Mike Dodson,R,6928
+house,67,ALL,Cheryl A. Arthur,D,5969
+house,68,ALL,Dave Baker,R,6740
+house,68,ALL,Scott T. Dawson,D,2538
+house,69,ALL,Clarke Sanders,R,4976
+house,69,ALL,Ryan Holmquist,D,3458
+house,7,ALL,Richard J. Proehl,R,7795
+house,70,ALL,John E Barker,R,8295
+house,70,ALL,Jo Schwartz,D,2533
+house,71,ALL,Steven K. Howe,R,7169
+house,71,ALL,Jeffrey A Zamrzla,D,3246
+house,72,ALL,Avery Anderson,R,6159
+house,72,ALL,Tim Hodge,D,5056
+house,73,ALL,Les Mason,R,9761
+house,74,ALL,Stephen Owens,R,9204
+house,75,ALL,Will Carpenter,R,7146
+house,75,ALL,Ethan D. Caylor,D,2305
+house,76,ALL,Eric L. Smith,R,9413
+house,77,ALL,Kristey S. Williams,R,9601
+house,78,ALL,Ron Ryckman,R,6835
+house,78,ALL,Kathy Meyer,D,6219
+house,79,ALL,Cheryl Helmer,R,6208
+house,79,ALL,Ken White,D,3368
+house,8,ALL,Chris Croft,R,12649
+house,80,ALL,Bill Rhiley,R,7268
+house,81,ALL,Blake Carpenter,R,5478
+house,81,ALL,Matthew Joyce,D,3018
+house,82,ALL,Jesse Burris,R,7892
+house,82,ALL,Edward Hackerott,D,3361
+house,83,ALL,Henry Helgerson,D,4536
+house,83,ALL,David Robbins,R,3029
+house,84,ALL,Gail Finney,D,5533
+house,84,ALL,Janet Sue Rine,R,1938
+house,85,ALL,Patrick Penn,R,8411
+house,85,ALL,Marcey Gregory,D,5624
+house,86,ALL,Stephanie Byers,D,3616
+house,86,ALL,Cyndi Howerton,R,2901
+house,87,ALL,Susan Oliver Estes,R,6430
+house,87,ALL,Matt Fox,D,5394
+house,88,ALL,Elizabeth Bishop,D,5923
+house,89,ALL,KC Ohaebosim,D,5891
+house,89,ALL,Robert W. Herrick Jr.,R,3671
+house,9,ALL,Kent L. Thompson,R,6879
+house,9,ALL,Alana Cloutier,D,2312
+house,90,ALL,Steve Huebert,R,10476
+house,91,ALL,Emil M. Bergquist,R,9585
+house,92,ALL,John Carmichael,D,5254
+house,92,ALL,Patrick McCormack,R,3864
+house,93,ALL,Brian Bergkamp,R,9434
+house,94,ALL,Leo G. Delperdang,R,8394
+house,94,ALL,Derek Milligan,D,4164
+house,95,ALL,Tom Sawyer,D,3726
+house,95,ALL,Christopher Parisho,R,2988
+house,96,ALL,Tom Kessler,R,3542
+house,96,ALL,Stephanie Yeager,D,3109
+house,97,ALL,Nick Hoheisel,R,5626
+house,97,ALL,Kim Webb,D,3404
+house,98,ALL,Ron Howard,R,4174
+house,98,ALL,Steven G. Crum,D,3203
+house,99,ALL,Susan Humphries,R,9860
+house,99,ALL,Phil Hodson,D,4911
+senate,1,ALL,Dennis Pyle,R,25173
+senate,1,ALL,Kirk Miller,D,9914
+senate,10,ALL,Mike Thompson,R,22362
+senate,10,ALL,Lindsey Constance,D,20758
+senate,11,ALL,Kellie Warren,R,24846
+senate,11,ALL,Joy Koesten,D,22317
+senate,12,ALL,Caryn Tyson,R,24265
+senate,12,ALL,Mike Bruner,D,8359
+senate,13,ALL,Richard Hilderbrand,R,19990
+senate,13,ALL,Nancy J. Ingle,D,10299
+senate,14,ALL,Michael A. Fagg,R,28501
+senate,15,ALL,Virgil Peck,R,23043
+senate,16,ALL,Ty Masterson,R,27199
+senate,16,ALL,Timothy Don Fry II,D,12246
+senate,17,ALL,Jeff Longbine,R,17363
+senate,17,ALL,Stephen Vecchione,D,8671
+senate,18,ALL,Kristen O'Shea,R,19396
+senate,18,ALL,Tobias Schlingensiepen,D,13364
+senate,19,ALL,Rick Kloos,R,16141
+senate,19,ALL,Anthony Hensley,D,15483
+senate,2,ALL,Marci Francisco,D,33648
+senate,20,ALL,Brenda S. Dietrich,R,22000
+senate,20,ALL,Rachel Willis,D,16696
+senate,21,ALL,Dinah Sykes,D,24203
+senate,21,ALL,Tom Bickimer,R,19970
+senate,22,ALL,Tom Hawk,D,15687
+senate,22,ALL,Craig Bowser,R,14911
+senate,23,ALL,Rob Olson,R,20235
+senate,23,ALL,Wendy Budetti,D,17864
+senate,24,ALL,J.R. Claeys,R,25242
+senate,25,ALL,Mary Ware,D,12647
+senate,25,ALL,Vail Fruechting,R,10456
+senate,26,ALL,Dan Kerschen,R,27540
+senate,27,ALL,Gene Suellentrop,R,26296
+senate,27,ALL,Mike McCorkle,D,13143
+senate,28,ALL,Mike Petersen,R,11895
+senate,28,ALL,Jim Ward,D,10250
+senate,29,ALL,Oletha Faust Goudeau,D,15253
+senate,29,ALL,Myron L. Ackerman,R,6199
+senate,3,ALL,Tom Holland,D,20490
+senate,3,ALL,Willie Dove,R,19500
+senate,30,ALL,Renee Erickson,R,17376
+senate,30,ALL,Melissa Gregory,D,16199
+senate,31,ALL,Carolyn McGinn,R,31425
+senate,32,ALL,Larry W Alley,R,25327
+senate,33,ALL,Alicia (Schartz) Straub,R,26740
+senate,34,ALL,Mark Steffen,R,21240
+senate,34,ALL,Shanna Henry,D,9192
+senate,35,ALL,Richard Wilborn,R,28779
+senate,36,ALL,Elaine S. Bowers,R,31549
+senate,37,ALL,Molly Baumgardner,R,30758
+senate,37,ALL,Becca Peck,D,16319
+senate,38,ALL,Bud Estes,R,13274
+senate,38,ALL,Edgar A. Pando,D,5994
+senate,39,ALL,John Doll,R,20891
+senate,4,ALL,David Haley,D,17319
+senate,4,ALL,Sam Stillwell,R,4715
+senate,40,ALL,Richard (Rick) Billinger,R,28023
+senate,40,ALL,Larry Joseph Dreiling,D,7530
+senate,5,ALL,Jeff Pittman,D,16753
+senate,5,ALL,Kevin Braun,R,14818
+senate,6,ALL,Pat Pettey,D,14533
+senate,6,ALL,Diana Whittington,R,8050
+senate,7,ALL,Ethan Corson,D,28215
+senate,7,ALL,Laura McConwell,R,19348
+senate,8,ALL,Cindy Holscher,D,23686
+senate,8,ALL,James Todd,R,19883
+senate,9,ALL,Beverly Gossage,R,22450
+senate,9,ALL,Stacey Knoell,D,20550
+statewide,President,Allen,Donald J. Trump,R,4218
+statewide,President,Allen,Joseph R. Biden,D,1570
+statewide,President,Allen,Jo Jorgensen,L,104
+statewide,President,Anderson,Donald J. Trump,R,2929
+statewide,President,Anderson,Joseph R. Biden,D,782
+statewide,President,Anderson,Jo Jorgensen,L,81
+statewide,President,Atchison,Donald J. Trump,R,4906
+statewide,President,Atchison,Joseph R. Biden,D,2359
+statewide,President,Atchison,Jo Jorgensen,L,175
+statewide,President,Barber,Donald J. Trump,R,2014
+statewide,President,Barber,Joseph R. Biden,D,291
+statewide,President,Barber,Jo Jorgensen,L,37
+statewide,President,Barton,Donald J. Trump,R,8608
+statewide,President,Barton,Joseph R. Biden,D,2340
+statewide,President,Barton,Jo Jorgensen,L,182
+statewide,President,Bourbon,Donald J. Trump,R,5023
+statewide,President,Bourbon,Joseph R. Biden,D,1541
+statewide,President,Bourbon,Jo Jorgensen,L,112
+statewide,President,Brown,Donald J. Trump,R,3262
+statewide,President,Brown,Joseph R. Biden,D,1104
+statewide,President,Brown,Jo Jorgensen,L,105
+statewide,President,Butler,Donald J. Trump,R,22634
+statewide,President,Butler,Joseph R. Biden,D,9181
+statewide,President,Butler,Jo Jorgensen,L,705
+statewide,President,Chase,Donald J. Trump,R,1123
+statewide,President,Chase,Joseph R. Biden,D,345
+statewide,President,Chase,Jo Jorgensen,L,23
+statewide,President,Chautauqua,Donald J. Trump,R,1402
+statewide,President,Chautauqua,Joseph R. Biden,D,212
+statewide,President,Chautauqua,Jo Jorgensen,L,25
+statewide,President,Cherokee,Donald J. Trump,R,6766
+statewide,President,Cherokee,Joseph R. Biden,D,2194
+statewide,President,Cherokee,Jo Jorgensen,L,168
+statewide,President,Cheyenne,Donald J. Trump,R,1183
+statewide,President,Cheyenne,Joseph R. Biden,D,224
+statewide,President,Cheyenne,Jo Jorgensen,L,22
+statewide,President,Clark,Donald J. Trump,R,904
+statewide,President,Clark,Joseph R. Biden,D,143
+statewide,President,Clark,Jo Jorgensen,L,20
+statewide,President,Clay,Donald J. Trump,R,3177
+statewide,President,Clay,Joseph R. Biden,D,894
+statewide,President,Clay,Jo Jorgensen,L,111
+statewide,President,Cloud,Donald J. Trump,R,3242
+statewide,President,Cloud,Joseph R. Biden,D,920
+statewide,President,Cloud,Jo Jorgensen,L,101
+statewide,President,Coffey,Donald J. Trump,R,3489
+statewide,President,Coffey,Joseph R. Biden,D,964
+statewide,President,Coffey,Jo Jorgensen,L,112
+statewide,President,Comanche,Donald J. Trump,R,762
+statewide,President,Comanche,Joseph R. Biden,D,126
+statewide,President,Comanche,Jo Jorgensen,L,28
+statewide,President,Cowley,Donald J. Trump,R,9656
+statewide,President,Cowley,Joseph R. Biden,D,4273
+statewide,President,Cowley,Jo Jorgensen,L,302
+statewide,President,Crawford,Donald J. Trump,R,10045
+statewide,President,Crawford,Joseph R. Biden,D,6179
+statewide,President,Crawford,Jo Jorgensen,L,421
+statewide,President,Decatur,Donald J. Trump,R,1260
+statewide,President,Decatur,Joseph R. Biden,D,218
+statewide,President,Decatur,Jo Jorgensen,L,20
+statewide,President,Dickinson,Donald J. Trump,R,7126
+statewide,President,Dickinson,Joseph R. Biden,D,2060
+statewide,President,Dickinson,Jo Jorgensen,L,163
+statewide,President,Doniphan,Donald J. Trump,R,2976
+statewide,President,Doniphan,Joseph R. Biden,D,686
+statewide,President,Doniphan,Jo Jorgensen,L,47
+statewide,President,Douglas,Joseph R. Biden,D,40785
+statewide,President,Douglas,Donald J. Trump,R,17286
+statewide,President,Douglas,Jo Jorgensen,L,1424
+statewide,President,Edwards,Donald J. Trump,R,1141
+statewide,President,Edwards,Joseph R. Biden,D,271
+statewide,President,Edwards,Jo Jorgensen,L,19
+statewide,President,Elk,Donald J. Trump,R,1140
+statewide,President,Elk,Joseph R. Biden,D,195
+statewide,President,Elk,Jo Jorgensen,L,26
+statewide,President,Ellis,Donald J. Trump,R,9758
+statewide,President,Ellis,Joseph R. Biden,D,3737
+statewide,President,Ellis,Jo Jorgensen,L,305
+statewide,President,Ellsworth,Donald J. Trump,R,2148
+statewide,President,Ellsworth,Joseph R. Biden,D,648
+statewide,President,Ellsworth,Jo Jorgensen,L,57
+statewide,President,Finney,Donald J. Trump,R,7236
+statewide,President,Finney,Joseph R. Biden,D,4325
+statewide,President,Finney,Jo Jorgensen,L,239
+statewide,President,Ford,Donald J. Trump,R,5803
+statewide,President,Ford,Joseph R. Biden,D,2947
+statewide,President,Ford,Jo Jorgensen,L,165
+statewide,President,Franklin,Donald J. Trump,R,8479
+statewide,President,Franklin,Joseph R. Biden,D,3690
+statewide,President,Franklin,Jo Jorgensen,L,308
+statewide,President,Geary,Donald J. Trump,R,5323
+statewide,President,Geary,Joseph R. Biden,D,3983
+statewide,President,Geary,Jo Jorgensen,L,297
+statewide,President,Gove,Donald J. Trump,R,1291
+statewide,President,Gove,Joseph R. Biden,D,166
+statewide,President,Gove,Jo Jorgensen,L,14
+statewide,President,Graham,Donald J. Trump,R,1080
+statewide,President,Graham,Joseph R. Biden,D,228
+statewide,President,Graham,Jo Jorgensen,L,29
+statewide,President,Grant,Donald J. Trump,R,1936
+statewide,President,Grant,Joseph R. Biden,D,518
+statewide,President,Grant,Jo Jorgensen,L,47
+statewide,President,Gray,Donald J. Trump,R,1911
+statewide,President,Gray,Joseph R. Biden,D,341
+statewide,President,Gray,Jo Jorgensen,L,36
+statewide,President,Greeley,Donald J. Trump,R,549
+statewide,President,Greeley,Joseph R. Biden,D,78
+statewide,President,Greeley,Jo Jorgensen,L,14
+statewide,President,Greenwood,Donald J. Trump,R,2444
+statewide,President,Greenwood,Joseph R. Biden,D,569
+statewide,President,Greenwood,Jo Jorgensen,L,64
+statewide,President,Hamilton,Donald J. Trump,R,698
+statewide,President,Hamilton,Joseph R. Biden,D,141
+statewide,President,Hamilton,Jo Jorgensen,L,20
+statewide,President,Harper,Donald J. Trump,R,2168
+statewide,President,Harper,Joseph R. Biden,D,461
+statewide,President,Harper,Jo Jorgensen,L,49
+statewide,President,Harvey,Donald J. Trump,R,10182
+statewide,President,Harvey,Joseph R. Biden,D,6747
+statewide,President,Harvey,Jo Jorgensen,L,380
+statewide,President,Haskell,Donald J. Trump,R,1122
+statewide,President,Haskell,Joseph R. Biden,D,268
+statewide,President,Haskell,Jo Jorgensen,L,20
+statewide,President,Hodgeman,Donald J. Trump,R,875
+statewide,President,Hodgeman,Joseph R. Biden,D,154
+statewide,President,Hodgeman,Jo Jorgensen,L,16
+statewide,President,Jackson,Donald J. Trump,R,4517
+statewide,President,Jackson,Joseph R. Biden,D,1881
+statewide,President,Jackson,Jo Jorgensen,L,186
+statewide,President,Jefferson,Donald J. Trump,R,6334
+statewide,President,Jefferson,Joseph R. Biden,D,3194
+statewide,President,Jefferson,Jo Jorgensen,L,254
+statewide,President,Jewell,Donald J. Trump,R,1387
+statewide,President,Jewell,Joseph R. Biden,D,212
+statewide,President,Jewell,Jo Jorgensen,L,29
+statewide,President,Johnson,Joseph R. Biden,D,184259
+statewide,President,Johnson,Donald J. Trump,R,155631
+statewide,President,Johnson,Jo Jorgensen,L,7324
+statewide,President,Kearny,Donald J. Trump,R,1164
+statewide,President,Kearny,Joseph R. Biden,D,267
+statewide,President,Kearny,Jo Jorgensen,L,24
+statewide,President,Kingman,Donald J. Trump,R,3130
+statewide,President,Kingman,Joseph R. Biden,D,752
+statewide,President,Kingman,Jo Jorgensen,L,67
+statewide,President,Kiowa,Donald J. Trump,R,980
+statewide,President,Kiowa,Joseph R. Biden,D,156
+statewide,President,Kiowa,Jo Jorgensen,L,29
+statewide,President,Labette,Donald J. Trump,R,5735
+statewide,President,Labette,Joseph R. Biden,D,2655
+statewide,President,Labette,Jo Jorgensen,L,173
+statewide,President,Lane,Donald J. Trump,R,762
+statewide,President,Lane,Joseph R. Biden,D,115
+statewide,President,Lane,Jo Jorgensen,L,18
+statewide,President,Leavenworth,Donald J. Trump,R,21610
+statewide,President,Leavenworth,Joseph R. Biden,D,13886
+statewide,President,Leavenworth,Jo Jorgensen,L,994
+statewide,President,Lincoln,Donald J. Trump,R,1283
+statewide,President,Lincoln,Joseph R. Biden,D,266
+statewide,President,Lincoln,Jo Jorgensen,L,30
+statewide,President,Linn,Donald J. Trump,R,4048
+statewide,President,Linn,Joseph R. Biden,D,896
+statewide,President,Linn,Jo Jorgensen,L,102
+statewide,President,Logan,Donald J. Trump,R,1249
+statewide,President,Logan,Joseph R. Biden,D,186
+statewide,President,Logan,Jo Jorgensen,L,23
+statewide,President,Lyon,Donald J. Trump,R,7550
+statewide,President,Lyon,Joseph R. Biden,D,6055
+statewide,President,Lyon,Jo Jorgensen,L,383
+statewide,President,Marion,Donald J. Trump,R,4465
+statewide,President,Marion,Joseph R. Biden,D,1516
+statewide,President,Marion,Jo Jorgensen,L,130
+statewide,President,Marshall,Donald J. Trump,R,3729
+statewide,President,Marshall,Joseph R. Biden,D,1259
+statewide,President,Marshall,Jo Jorgensen,L,126
+statewide,President,McPherson,Donald J. Trump,R,9964
+statewide,President,McPherson,Joseph R. Biden,D,4134
+statewide,President,McPherson,Jo Jorgensen,L,340
+statewide,President,Meade,Donald J. Trump,R,1523
+statewide,President,Meade,Joseph R. Biden,D,263
+statewide,President,Meade,Jo Jorgensen,L,39
+statewide,President,Miami,Donald J. Trump,R,12308
+statewide,President,Miami,Joseph R. Biden,D,5247
+statewide,President,Miami,Jo Jorgensen,L,382
+statewide,President,Mitchell,Donald J. Trump,R,2504
+statewide,President,Mitchell,Joseph R. Biden,D,558
+statewide,President,Mitchell,Jo Jorgensen,L,39
+statewide,President,Montgomery,Donald J. Trump,R,9931
+statewide,President,Montgomery,Joseph R. Biden,D,3228
+statewide,President,Montgomery,Jo Jorgensen,L,267
+statewide,President,Morris,Donald J. Trump,R,2124
+statewide,President,Morris,Joseph R. Biden,D,729
+statewide,President,Morris,Jo Jorgensen,L,46
+statewide,President,Morton,Donald J. Trump,R,1034
+statewide,President,Morton,Joseph R. Biden,D,150
+statewide,President,Morton,Jo Jorgensen,L,14
+statewide,President,Nemaha,Donald J. Trump,R,4664
+statewide,President,Nemaha,Joseph R. Biden,D,927
+statewide,President,Nemaha,Jo Jorgensen,L,93
+statewide,President,Neosho,Donald J. Trump,R,4970
+statewide,President,Neosho,Joseph R. Biden,D,1796
+statewide,President,Neosho,Jo Jorgensen,L,111
+statewide,President,Ness,Donald J. Trump,R,1339
+statewide,President,Ness,Joseph R. Biden,D,149
+statewide,President,Ness,Jo Jorgensen,L,25
+statewide,President,Norton,Donald J. Trump,R,2007
+statewide,President,Norton,Joseph R. Biden,D,364
+statewide,President,Norton,Jo Jorgensen,L,44
+statewide,President,Osage,Donald J. Trump,R,5705
+statewide,President,Osage,Joseph R. Biden,D,2136
+statewide,President,Osage,Jo Jorgensen,L,194
+statewide,President,Osborne,Donald J. Trump,R,1629
+statewide,President,Osborne,Joseph R. Biden,D,281
+statewide,President,Osborne,Jo Jorgensen,L,35
+statewide,President,Ottawa,Donald J. Trump,R,2610
+statewide,President,Ottawa,Joseph R. Biden,D,506
+statewide,President,Ottawa,Jo Jorgensen,L,75
+statewide,President,Pawnee,Donald J. Trump,R,2045
+statewide,President,Pawnee,Joseph R. Biden,D,643
+statewide,President,Pawnee,Jo Jorgensen,L,51
+statewide,President,Phillips,Donald J. Trump,R,2418
+statewide,President,Phillips,Joseph R. Biden,D,318
+statewide,President,Phillips,Jo Jorgensen,L,45
+statewide,President,Pottawatomie,Donald J. Trump,R,9452
+statewide,President,Pottawatomie,Joseph R. Biden,D,3313
+statewide,President,Pottawatomie,Jo Jorgensen,L,318
+statewide,President,Pratt,Donald J. Trump,R,3108
+statewide,President,Pratt,Joseph R. Biden,D,933
+statewide,President,Pratt,Jo Jorgensen,L,96
+statewide,President,Rawlins,Donald J. Trump,R,1261
+statewide,President,Rawlins,Joseph R. Biden,D,214
+statewide,President,Rawlins,Jo Jorgensen,L,29
+statewide,President,Reno,Donald J. Trump,R,18443
+statewide,President,Reno,Joseph R. Biden,D,8886
+statewide,President,Reno,Jo Jorgensen,L,612
+statewide,President,Republic,Donald J. Trump,R,2182
+statewide,President,Republic,Joseph R. Biden,D,424
+statewide,President,Republic,Jo Jorgensen,L,51
+statewide,President,Rice,Donald J. Trump,R,3262
+statewide,President,Rice,Joseph R. Biden,D,965
+statewide,President,Rice,Jo Jorgensen,L,92
+statewide,President,Riley,Joseph R. Biden,D,12765
+statewide,President,Riley,Donald J. Trump,R,11610
+statewide,President,Riley,Jo Jorgensen,L,796
+statewide,President,Rooks,Donald J. Trump,R,2325
+statewide,President,Rooks,Joseph R. Biden,D,339
+statewide,President,Rooks,Jo Jorgensen,L,35
+statewide,President,Rush,Donald J. Trump,R,1350
+statewide,President,Rush,Joseph R. Biden,D,295
+statewide,President,Rush,Jo Jorgensen,L,32
+statewide,President,Russell,Donald J. Trump,R,2790
+statewide,President,Russell,Joseph R. Biden,D,600
+statewide,President,Russell,Jo Jorgensen,L,77
+statewide,President,Saline,Donald J. Trump,R,15722
+statewide,President,Saline,Joseph R. Biden,D,8214
+statewide,President,Saline,Jo Jorgensen,L,595
+statewide,President,Scott,Donald J. Trump,R,2014
+statewide,President,Scott,Joseph R. Biden,D,299
+statewide,President,Scott,Jo Jorgensen,L,41
+statewide,President,Sedgwick,Donald J. Trump,R,122416
+statewide,President,Sedgwick,Joseph R. Biden,D,95870
+statewide,President,Sedgwick,Jo Jorgensen,L,5402
+statewide,President,Seward,Donald J. Trump,R,3372
+statewide,President,Seward,Joseph R. Biden,D,1833
+statewide,President,Seward,Jo Jorgensen,L,89
+statewide,President,Shawnee,Joseph R. Biden,D,43015
+statewide,President,Shawnee,Donald J. Trump,R,40443
+statewide,President,Shawnee,Jo Jorgensen,L,2199
+statewide,President,Sheridan,Donald J. Trump,R,1282
+statewide,President,Sheridan,Joseph R. Biden,D,147
+statewide,President,Sheridan,Jo Jorgensen,L,16
+statewide,President,Sherman,Donald J. Trump,R,2269
+statewide,President,Sherman,Joseph R. Biden,D,396
+statewide,President,Sherman,Jo Jorgensen,L,62
+statewide,President,Smith,Donald J. Trump,R,1763
+statewide,President,Smith,Joseph R. Biden,D,336
+statewide,President,Smith,Jo Jorgensen,L,30
+statewide,President,Stafford,Donald J. Trump,R,1645
+statewide,President,Stafford,Joseph R. Biden,D,357
+statewide,President,Stafford,Jo Jorgensen,L,32
+statewide,President,Stanton,Donald J. Trump,R,614
+statewide,President,Stanton,Joseph R. Biden,D,148
+statewide,President,Stanton,Jo Jorgensen,L,14
+statewide,President,Stevens,Donald J. Trump,R,1760
+statewide,President,Stevens,Joseph R. Biden,D,237
+statewide,President,Stevens,Jo Jorgensen,L,34
+statewide,President,Sumner,Donald J. Trump,R,8105
+statewide,President,Sumner,Joseph R. Biden,D,2591
+statewide,President,Sumner,Jo Jorgensen,L,232
+statewide,President,Thomas,Donald J. Trump,R,3130
+statewide,President,Thomas,Joseph R. Biden,D,625
+statewide,President,Thomas,Jo Jorgensen,L,55
+statewide,President,Trego,Donald J. Trump,R,1363
+statewide,President,Trego,Joseph R. Biden,D,242
+statewide,President,Trego,Jo Jorgensen,L,25
+statewide,President,Wabaunsee,Donald J. Trump,R,2845
+statewide,President,Wabaunsee,Joseph R. Biden,D,964
+statewide,President,Wabaunsee,Jo Jorgensen,L,93
+statewide,President,Wallace,Donald J. Trump,R,770
+statewide,President,Wallace,Joseph R. Biden,D,44
+statewide,President,Wallace,Jo Jorgensen,L,11
+statewide,President,Washington,Donald J. Trump,R,2363
+statewide,President,Washington,Joseph R. Biden,D,475
+statewide,President,Washington,Jo Jorgensen,L,45
+statewide,President,Wichita,Donald J. Trump,R,808
+statewide,President,Wichita,Joseph R. Biden,D,149
+statewide,President,Wichita,Jo Jorgensen,L,11
+statewide,President,Wilson,Donald J. Trump,R,3153
+statewide,President,Wilson,Joseph R. Biden,D,723
+statewide,President,Wilson,Jo Jorgensen,L,78
+statewide,President,Woodson,Donald J. Trump,R,1228
+statewide,President,Woodson,Joseph R. Biden,D,294
+statewide,President,Woodson,Jo Jorgensen,L,24
+statewide,President,Wyandotte,Joseph R. Biden,D,36788
+statewide,President,Wyandotte,Donald J. Trump,R,18934
+statewide,President,Wyandotte,Jo Jorgensen,L,1063
+statewide,Senate,Allen,Roger Marshall,R,3856
+statewide,Senate,Allen,Barbara Bollier,D,1701
+statewide,Senate,Allen,Jason Buckley,L,314
+statewide,Senate,Anderson,Roger Marshall,R,2638
+statewide,Senate,Anderson,Barbara Bollier,D,842
+statewide,Senate,Anderson,Jason Buckley,L,268
+statewide,Senate,Atchison,Roger Marshall,R,4454
+statewide,Senate,Atchison,Barbara Bollier,D,2434
+statewide,Senate,Atchison,Jason Buckley,L,531
+statewide,Senate,Barber,Roger Marshall,R,1879
+statewide,Senate,Barber,Barbara Bollier,D,328
+statewide,Senate,Barber,Jason Buckley,L,115
+statewide,Senate,Barton,Roger Marshall,R,8151
+statewide,Senate,Barton,Barbara Bollier,D,2477
+statewide,Senate,Barton,Jason Buckley,L,451
+statewide,Senate,Bourbon,Roger Marshall,R,4619
+statewide,Senate,Bourbon,Barbara Bollier,D,1694
+statewide,Senate,Bourbon,Jason Buckley,L,319
+statewide,Senate,Brown,Roger Marshall,R,2975
+statewide,Senate,Brown,Barbara Bollier,D,1193
+statewide,Senate,Brown,Jason Buckley,L,267
+statewide,Senate,Butler,Roger Marshall,R,21312
+statewide,Senate,Butler,Barbara Bollier,D,9554
+statewide,Senate,Butler,Jason Buckley,L,1584
+statewide,Senate,Chase,Roger Marshall,R,1025
+statewide,Senate,Chase,Barbara Bollier,D,390
+statewide,Senate,Chase,Jason Buckley,L,73
+statewide,Senate,Chautauqua,Roger Marshall,R,1345
+statewide,Senate,Chautauqua,Barbara Bollier,D,225
+statewide,Senate,Chautauqua,Jason Buckley,L,53
+statewide,Senate,Cherokee,Roger Marshall,R,6216
+statewide,Senate,Cherokee,Barbara Bollier,D,2368
+statewide,Senate,Cherokee,Jason Buckley,L,471
+statewide,Senate,Cheyenne,Roger Marshall,R,1168
+statewide,Senate,Cheyenne,Barbara Bollier,D,241
+statewide,Senate,Cheyenne,Jason Buckley,L,65
+statewide,Senate,Clark,Roger Marshall,R,831
+statewide,Senate,Clark,Barbara Bollier,D,164
+statewide,Senate,Clark,Jason Buckley,L,60
+statewide,Senate,Clay,Roger Marshall,R,2991
+statewide,Senate,Clay,Barbara Bollier,D,932
+statewide,Senate,Clay,Jason Buckley,L,235
+statewide,Senate,Cloud,Roger Marshall,R,3018
+statewide,Senate,Cloud,Barbara Bollier,D,942
+statewide,Senate,Cloud,Jason Buckley,L,254
+statewide,Senate,Coffey,Roger Marshall,R,3228
+statewide,Senate,Coffey,Barbara Bollier,D,1027
+statewide,Senate,Coffey,Jason Buckley,L,276
+statewide,Senate,Comanche,Roger Marshall,R,716
+statewide,Senate,Comanche,Barbara Bollier,D,153
+statewide,Senate,Comanche,Jason Buckley,L,50
+statewide,Senate,Cowley,Roger Marshall,R,8886
+statewide,Senate,Cowley,Barbara Bollier,D,4568
+statewide,Senate,Cowley,Jason Buckley,L,821
+statewide,Senate,Crawford,Roger Marshall,R,9092
+statewide,Senate,Crawford,Barbara Bollier,D,6494
+statewide,Senate,Crawford,Jason Buckley,L,978
+statewide,Senate,Decatur,Roger Marshall,R,1180
+statewide,Senate,Decatur,Barbara Bollier,D,232
+statewide,Senate,Decatur,Jason Buckley,L,78
+statewide,Senate,Dickinson,Roger Marshall,R,6553
+statewide,Senate,Dickinson,Barbara Bollier,D,2235
+statewide,Senate,Dickinson,Jason Buckley,L,492
+statewide,Senate,Doniphan,Roger Marshall,R,2761
+statewide,Senate,Doniphan,Barbara Bollier,D,672
+statewide,Senate,Doniphan,Jason Buckley,L,209
+statewide,Senate,Douglas,Barbara Bollier,D,40262
+statewide,Senate,Douglas,Roger Marshall,R,16594
+statewide,Senate,Douglas,Jason Buckley,L,2623
+statewide,Senate,Edwards,Roger Marshall,R,1094
+statewide,Senate,Edwards,Barbara Bollier,D,267
+statewide,Senate,Edwards,Jason Buckley,L,63
+statewide,Senate,Elk,Roger Marshall,R,1041
+statewide,Senate,Elk,Barbara Bollier,D,230
+statewide,Senate,Elk,Jason Buckley,L,75
+statewide,Senate,Ellis,Roger Marshall,R,9298
+statewide,Senate,Ellis,Barbara Bollier,D,3904
+statewide,Senate,Ellis,Jason Buckley,L,569
+statewide,Senate,Ellsworth,Roger Marshall,R,1992
+statewide,Senate,Ellsworth,Barbara Bollier,D,715
+statewide,Senate,Ellsworth,Jason Buckley,L,142
+statewide,Senate,Finney,Roger Marshall,R,6808
+statewide,Senate,Finney,Barbara Bollier,D,4242
+statewide,Senate,Finney,Jason Buckley,L,646
+statewide,Senate,Ford,Roger Marshall,R,5415
+statewide,Senate,Ford,Barbara Bollier,D,2950
+statewide,Senate,Ford,Jason Buckley,L,472
+statewide,Senate,Franklin,Roger Marshall,R,7814
+statewide,Senate,Franklin,Barbara Bollier,D,3705
+statewide,Senate,Franklin,Jason Buckley,L,868
+statewide,Senate,Geary,Roger Marshall,R,4878
+statewide,Senate,Geary,Barbara Bollier,D,3962
+statewide,Senate,Geary,Jason Buckley,L,682
+statewide,Senate,Gove,Roger Marshall,R,1197
+statewide,Senate,Gove,Barbara Bollier,D,210
+statewide,Senate,Gove,Jason Buckley,L,50
+statewide,Senate,Graham,Roger Marshall,R,1012
+statewide,Senate,Graham,Barbara Bollier,D,256
+statewide,Senate,Graham,Jason Buckley,L,58
+statewide,Senate,Grant,Roger Marshall,R,1803
+statewide,Senate,Grant,Barbara Bollier,D,531
+statewide,Senate,Grant,Jason Buckley,L,141
+statewide,Senate,Gray,Roger Marshall,R,1811
+statewide,Senate,Gray,Barbara Bollier,D,355
+statewide,Senate,Gray,Jason Buckley,L,114
+statewide,Senate,Greeley,Roger Marshall,R,503
+statewide,Senate,Greeley,Barbara Bollier,D,97
+statewide,Senate,Greeley,Jason Buckley,L,26
+statewide,Senate,Greenwood,Roger Marshall,R,2217
+statewide,Senate,Greenwood,Barbara Bollier,D,654
+statewide,Senate,Greenwood,Jason Buckley,L,194
+statewide,Senate,Hamilton,Roger Marshall,R,655
+statewide,Senate,Hamilton,Barbara Bollier,D,156
+statewide,Senate,Hamilton,Jason Buckley,L,41
+statewide,Senate,Harper,Roger Marshall,R,1972
+statewide,Senate,Harper,Barbara Bollier,D,546
+statewide,Senate,Harper,Jason Buckley,L,125
+statewide,Senate,Harvey,Roger Marshall,R,9542
+statewide,Senate,Harvey,Barbara Bollier,D,6942
+statewide,Senate,Harvey,Jason Buckley,L,780
+statewide,Senate,Haskell,Roger Marshall,R,1051
+statewide,Senate,Haskell,Barbara Bollier,D,285
+statewide,Senate,Haskell,Jason Buckley,L,71
+statewide,Senate,Hodgeman,Roger Marshall,R,826
+statewide,Senate,Hodgeman,Barbara Bollier,D,179
+statewide,Senate,Hodgeman,Jason Buckley,L,35
+statewide,Senate,Jackson,Roger Marshall,R,4130
+statewide,Senate,Jackson,Barbara Bollier,D,2029
+statewide,Senate,Jackson,Jason Buckley,L,411
+statewide,Senate,Jefferson,Roger Marshall,R,5902
+statewide,Senate,Jefferson,Barbara Bollier,D,3349
+statewide,Senate,Jefferson,Jason Buckley,L,536
+statewide,Senate,Jewell,Roger Marshall,R,1310
+statewide,Senate,Jewell,Barbara Bollier,D,239
+statewide,Senate,Jewell,Jason Buckley,L,65
+statewide,Senate,Johnson,Barbara Bollier,D,179231
+statewide,Senate,Johnson,Roger Marshall,R,152068
+statewide,Senate,Johnson,Jason Buckley,L,16037
+statewide,Senate,Kearny,Roger Marshall,R,1104
+statewide,Senate,Kearny,Barbara Bollier,D,278
+statewide,Senate,Kearny,Jason Buckley,L,51
+statewide,Senate,Kingman,Roger Marshall,R,2902
+statewide,Senate,Kingman,Barbara Bollier,D,846
+statewide,Senate,Kingman,Jason Buckley,L,195
+statewide,Senate,Kiowa,Roger Marshall,R,938
+statewide,Senate,Kiowa,Barbara Bollier,D,157
+statewide,Senate,Kiowa,Jason Buckley,L,69
+statewide,Senate,Labette,Roger Marshall,R,5282
+statewide,Senate,Labette,Barbara Bollier,D,2806
+statewide,Senate,Labette,Jason Buckley,L,427
+statewide,Senate,Lane,Roger Marshall,R,706
+statewide,Senate,Lane,Barbara Bollier,D,135
+statewide,Senate,Lane,Jason Buckley,L,48
+statewide,Senate,Leavenworth,Roger Marshall,R,20067
+statewide,Senate,Leavenworth,Barbara Bollier,D,13894
+statewide,Senate,Leavenworth,Jason Buckley,L,2396
+statewide,Senate,Lincoln,Roger Marshall,R,1208
+statewide,Senate,Lincoln,Barbara Bollier,D,297
+statewide,Senate,Lincoln,Jason Buckley,L,66
+statewide,Senate,Linn,Roger Marshall,R,3682
+statewide,Senate,Linn,Barbara Bollier,D,996
+statewide,Senate,Linn,Jason Buckley,L,335
+statewide,Senate,Logan,Roger Marshall,R,1163
+statewide,Senate,Logan,Barbara Bollier,D,218
+statewide,Senate,Logan,Jason Buckley,L,68
+statewide,Senate,Lyon,Roger Marshall,R,6951
+statewide,Senate,Lyon,Barbara Bollier,D,6171
+statewide,Senate,Lyon,Jason Buckley,L,806
+statewide,Senate,Marion,Roger Marshall,R,4258
+statewide,Senate,Marion,Barbara Bollier,D,1597
+statewide,Senate,Marion,Jason Buckley,L,260
+statewide,Senate,Marshall,Roger Marshall,R,3422
+statewide,Senate,Marshall,Barbara Bollier,D,1325
+statewide,Senate,Marshall,Jason Buckley,L,294
+statewide,Senate,McPherson,Roger Marshall,R,9406
+statewide,Senate,McPherson,Barbara Bollier,D,4370
+statewide,Senate,McPherson,Jason Buckley,L,609
+statewide,Senate,Meade,Roger Marshall,R,1434
+statewide,Senate,Meade,Barbara Bollier,D,290
+statewide,Senate,Meade,Jason Buckley,L,83
+statewide,Senate,Miami,Roger Marshall,R,11629
+statewide,Senate,Miami,Barbara Bollier,D,5428
+statewide,Senate,Miami,Jason Buckley,L,828
+statewide,Senate,Mitchell,Roger Marshall,R,2392
+statewide,Senate,Mitchell,Barbara Bollier,D,587
+statewide,Senate,Mitchell,Jason Buckley,L,111
+statewide,Senate,Montgomery,Roger Marshall,R,9456
+statewide,Senate,Montgomery,Barbara Bollier,D,3234
+statewide,Senate,Montgomery,Jason Buckley,L,640
+statewide,Senate,Morris,Roger Marshall,R,1924
+statewide,Senate,Morris,Barbara Bollier,D,839
+statewide,Senate,Morris,Jason Buckley,L,127
+statewide,Senate,Morton,Roger Marshall,R,964
+statewide,Senate,Morton,Barbara Bollier,D,167
+statewide,Senate,Morton,Jason Buckley,L,53
+statewide,Senate,Nemaha,Roger Marshall,R,4391
+statewide,Senate,Nemaha,Barbara Bollier,D,1060
+statewide,Senate,Nemaha,Jason Buckley,L,220
+statewide,Senate,Neosho,Roger Marshall,R,4566
+statewide,Senate,Neosho,Barbara Bollier,D,1938
+statewide,Senate,Neosho,Jason Buckley,L,315
+statewide,Senate,Ness,Roger Marshall,R,1273
+statewide,Senate,Ness,Barbara Bollier,D,171
+statewide,Senate,Ness,Jason Buckley,L,58
+statewide,Senate,Norton,Roger Marshall,R,1910
+statewide,Senate,Norton,Barbara Bollier,D,379
+statewide,Senate,Norton,Jason Buckley,L,110
+statewide,Senate,Osage,Roger Marshall,R,5177
+statewide,Senate,Osage,Barbara Bollier,D,2292
+statewide,Senate,Osage,Jason Buckley,L,508
+statewide,Senate,Osborne,Roger Marshall,R,1503
+statewide,Senate,Osborne,Barbara Bollier,D,333
+statewide,Senate,Osborne,Jason Buckley,L,99
+statewide,Senate,Ottawa,Roger Marshall,R,2442
+statewide,Senate,Ottawa,Barbara Bollier,D,566
+statewide,Senate,Ottawa,Jason Buckley,L,182
+statewide,Senate,Pawnee,Roger Marshall,R,1932
+statewide,Senate,Pawnee,Barbara Bollier,D,683
+statewide,Senate,Pawnee,Jason Buckley,L,115
+statewide,Senate,Phillips,Roger Marshall,R,2261
+statewide,Senate,Phillips,Barbara Bollier,D,370
+statewide,Senate,Phillips,Jason Buckley,L,136
+statewide,Senate,Pottawatomie,Roger Marshall,R,9010
+statewide,Senate,Pottawatomie,Barbara Bollier,D,3425
+statewide,Senate,Pottawatomie,Jason Buckley,L,637
+statewide,Senate,Pratt,Roger Marshall,R,2925
+statewide,Senate,Pratt,Barbara Bollier,D,1012
+statewide,Senate,Pratt,Jason Buckley,L,187
+statewide,Senate,Rawlins,Roger Marshall,R,1204
+statewide,Senate,Rawlins,Barbara Bollier,D,227
+statewide,Senate,Rawlins,Jason Buckley,L,64
+statewide,Senate,Reno,Roger Marshall,R,17362
+statewide,Senate,Reno,Barbara Bollier,D,9251
+statewide,Senate,Reno,Jason Buckley,L,1307
+statewide,Senate,Republic,Roger Marshall,R,2092
+statewide,Senate,Republic,Barbara Bollier,D,433
+statewide,Senate,Republic,Jason Buckley,L,111
+statewide,Senate,Rice,Roger Marshall,R,3039
+statewide,Senate,Rice,Barbara Bollier,D,1047
+statewide,Senate,Rice,Jason Buckley,L,213
+statewide,Senate,Riley,Barbara Bollier,D,12767
+statewide,Senate,Riley,Roger Marshall,R,11323
+statewide,Senate,Riley,Jason Buckley,L,1149
+statewide,Senate,Rooks,Roger Marshall,R,2190
+statewide,Senate,Rooks,Barbara Bollier,D,382
+statewide,Senate,Rooks,Jason Buckley,L,166
+statewide,Senate,Rush,Roger Marshall,R,1275
+statewide,Senate,Rush,Barbara Bollier,D,316
+statewide,Senate,Rush,Jason Buckley,L,77
+statewide,Senate,Russell,Roger Marshall,R,2595
+statewide,Senate,Russell,Barbara Bollier,D,666
+statewide,Senate,Russell,Jason Buckley,L,167
+statewide,Senate,Saline,Roger Marshall,R,14666
+statewide,Senate,Saline,Barbara Bollier,D,8671
+statewide,Senate,Saline,Jason Buckley,L,1125
+statewide,Senate,Scott,Roger Marshall,R,1918
+statewide,Senate,Scott,Barbara Bollier,D,325
+statewide,Senate,Scott,Jason Buckley,L,105
+statewide,Senate,Sedgwick,Roger Marshall,R,115476
+statewide,Senate,Sedgwick,Barbara Bollier,D,96205
+statewide,Senate,Sedgwick,Jason Buckley,L,10496
+statewide,Senate,Seward,Roger Marshall,R,3115
+statewide,Senate,Seward,Barbara Bollier,D,1824
+statewide,Senate,Seward,Jason Buckley,L,260
+statewide,Senate,Shawnee,Barbara Bollier,D,43185
+statewide,Senate,Shawnee,Roger Marshall,R,37861
+statewide,Senate,Shawnee,Jason Buckley,L,4510
+statewide,Senate,Sheridan,Roger Marshall,R,1222
+statewide,Senate,Sheridan,Barbara Bollier,D,173
+statewide,Senate,Sheridan,Jason Buckley,L,40
+statewide,Senate,Sherman,Roger Marshall,R,2132
+statewide,Senate,Sherman,Barbara Bollier,D,418
+statewide,Senate,Sherman,Jason Buckley,L,155
+statewide,Senate,Smith,Roger Marshall,R,1668
+statewide,Senate,Smith,Barbara Bollier,D,366
+statewide,Senate,Smith,Jason Buckley,L,88
+statewide,Senate,Stafford,Roger Marshall,R,1561
+statewide,Senate,Stafford,Barbara Bollier,D,380
+statewide,Senate,Stafford,Jason Buckley,L,85
+statewide,Senate,Stanton,Roger Marshall,R,598
+statewide,Senate,Stanton,Barbara Bollier,D,140
+statewide,Senate,Stanton,Jason Buckley,L,25
+statewide,Senate,Stevens,Roger Marshall,R,1641
+statewide,Senate,Stevens,Barbara Bollier,D,270
+statewide,Senate,Stevens,Jason Buckley,L,96
+statewide,Senate,Sumner,Roger Marshall,R,7458
+statewide,Senate,Sumner,Barbara Bollier,D,2835
+statewide,Senate,Sumner,Jason Buckley,L,619
+statewide,Senate,Thomas,Roger Marshall,R,2965
+statewide,Senate,Thomas,Barbara Bollier,D,688
+statewide,Senate,Thomas,Jason Buckley,L,146
+statewide,Senate,Trego,Roger Marshall,R,1240
+statewide,Senate,Trego,Barbara Bollier,D,296
+statewide,Senate,Trego,Jason Buckley,L,82
+statewide,Senate,Wabaunsee,Roger Marshall,R,2670
+statewide,Senate,Wabaunsee,Barbara Bollier,D,1034
+statewide,Senate,Wabaunsee,Jason Buckley,L,181
+statewide,Senate,Wallace,Roger Marshall,R,738
+statewide,Senate,Wallace,Barbara Bollier,D,54
+statewide,Senate,Wallace,Jason Buckley,L,26
+statewide,Senate,Washington,Roger Marshall,R,2260
+statewide,Senate,Washington,Barbara Bollier,D,507
+statewide,Senate,Washington,Jason Buckley,L,111
+statewide,Senate,Wichita,Roger Marshall,R,774
+statewide,Senate,Wichita,Barbara Bollier,D,154
+statewide,Senate,Wichita,Jason Buckley,L,33
+statewide,Senate,Wilson,Roger Marshall,R,2910
+statewide,Senate,Wilson,Barbara Bollier,D,853
+statewide,Senate,Wilson,Jason Buckley,L,190
+statewide,Senate,Woodson,Roger Marshall,R,1093
+statewide,Senate,Woodson,Barbara Bollier,D,352
+statewide,Senate,Woodson,Jason Buckley,L,94
+statewide,Senate,Wyandotte,Barbara Bollier,D,35685
+statewide,Senate,Wyandotte,Roger Marshall,R,16811
+statewide,Senate,Wyandotte,Jason Buckley,L,3721
+ushouse,1,ALL,Tracey Mann,R,208229
+ushouse,1,ALL,Kali Barnett,D,84393
+ushouse,2,ALL,Jake LaTurner,R,185464
+ushouse,2,ALL,Michelle De La Isla,D,136650
+ushouse,2,ALL,Robert Garrard,L,14201
+ushouse,3,ALL,Sharice L. Davids,D,220049
+ushouse,3,ALL,Amanda L. Adkins,R,178773
+ushouse,3,ALL,Steven A Hohe,L,11596
+ushouse,4,ALL,Ron Estes,R,203432
+ushouse,4,ALL,Laura Lombard,D,116166

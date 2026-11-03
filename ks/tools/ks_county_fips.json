@@ -1,0 +1,422 @@
+{
+"1": {
+"name": "Allen",
+"fips": "20001"
+},
+"2": {
+"name": "Anderson",
+"fips": "20003"
+},
+"3": {
+"name": "Atchison",
+"fips": "20005"
+},
+"4": {
+"name": "Barber",
+"fips": "20007"
+},
+"5": {
+"name": "Barton",
+"fips": "20009"
+},
+"6": {
+"name": "Bourbon",
+"fips": "20011"
+},
+"7": {
+"name": "Brown",
+"fips": "20013"
+},
+"8": {
+"name": "Butler",
+"fips": "20015"
+},
+"9": {
+"name": "Chase",
+"fips": "20017"
+},
+"10": {
+"name": "Chautauqua",
+"fips": "20019"
+},
+"11": {
+"name": "Cherokee",
+"fips": "20021"
+},
+"12": {
+"name": "Cheyenne",
+"fips": "20023"
+},
+"13": {
+"name": "Clark",
+"fips": "20025"
+},
+"14": {
+"name": "Clay",
+"fips": "20027"
+},
+"15": {
+"name": "Cloud",
+"fips": "20029"
+},
+"16": {
+"name": "Coffey",
+"fips": "20031"
+},
+"17": {
+"name": "Comanche",
+"fips": "20033"
+},
+"18": {
+"name": "Cowley",
+"fips": "20035"
+},
+"19": {
+"name": "Crawford",
+"fips": "20037"
+},
+"20": {
+"name": "Decatur",
+"fips": "20039"
+},
+"21": {
+"name": "Dickinson",
+"fips": "20041"
+},
+"22": {
+"name": "Doniphan",
+"fips": "20043"
+},
+"23": {
+"name": "Douglas",
+"fips": "20045"
+},
+"24": {
+"name": "Edwards",
+"fips": "20047"
+},
+"25": {
+"name": "Elk",
+"fips": "20049"
+},
+"26": {
+"name": "Ellis",
+"fips": "20051"
+},
+"27": {
+"name": "Ellsworth",
+"fips": "20053"
+},
+"28": {
+"name": "Finney",
+"fips": "20055"
+},
+"29": {
+"name": "Ford",
+"fips": "20057"
+},
+"30": {
+"name": "Franklin",
+"fips": "20059"
+},
+"31": {
+"name": "Geary",
+"fips": "20061"
+},
+"32": {
+"name": "Gove",
+"fips": "20063"
+},
+"33": {
+"name": "Graham",
+"fips": "20065"
+},
+"34": {
+"name": "Grant",
+"fips": "20067"
+},
+"35": {
+"name": "Gray",
+"fips": "20069"
+},
+"36": {
+"name": "Greeley",
+"fips": "20071"
+},
+"37": {
+"name": "Greenwood",
+"fips": "20073"
+},
+"38": {
+"name": "Hamilton",
+"fips": "20075"
+},
+"39": {
+"name": "Harper",
+"fips": "20077"
+},
+"40": {
+"name": "Harvey",
+"fips": "20079"
+},
+"41": {
+"name": "Haskell",
+"fips": "20081"
+},
+"42": {
+"name": "Hodgeman",
+"fips": "20083"
+},
+"43": {
+"name": "Jackson",
+"fips": "20085"
+},
+"44": {
+"name": "Jefferson",
+"fips": "20087"
+},
+"45": {
+"name": "Jewell",
+"fips": "20089"
+},
+"46": {
+"name": "Johnson",
+"fips": "20091"
+},
+"47": {
+"name": "Kearny",
+"fips": "20093"
+},
+"48": {
+"name": "Kingman",
+"fips": "20095"
+},
+"49": {
+"name": "Kiowa",
+"fips": "20097"
+},
+"50": {
+"name": "Labette",
+"fips": "20099"
+},
+"51": {
+"name": "Lane",
+"fips": "20101"
+},
+"52": {
+"name": "Leavenworth",
+"fips": "20103"
+},
+"53": {
+"name": "Lincoln",
+"fips": "20105"
+},
+"54": {
+"name": "Linn",
+"fips": "20107"
+},
+"55": {
+"name": "Logan",
+"fips": "20109"
+},
+"56": {
+"name": "Lyon",
+"fips": "20111"
+},
+"57": {
+"name": "Marion",
+"fips": "20115"
+},
+"58": {
+"name": "Marshall",
+"fips": "20117"
+},
+"59": {
+"name": "McPherson",
+"fips": "20113"
+},
+"60": {
+"name": "Meade",
+"fips": "20119"
+},
+"61": {
+"name": "Miami",
+"fips": "20121"
+},
+"62": {
+"name": "Mitchell",
+"fips": "20123"
+},
+"63": {
+"name": "Montgomery",
+"fips": "20125"
+},
+"64": {
+"name": "Morris",
+"fips": "20127"
+},
+"65": {
+"name": "Morton",
+"fips": "20129"
+},
+"66": {
+"name": "Nemaha",
+"fips": "20131"
+},
+"67": {
+"name": "Neosho",
+"fips": "20133"
+},
+"68": {
+"name": "Ness",
+"fips": "20135"
+},
+"69": {
+"name": "Norton",
+"fips": "20137"
+},
+"70": {
+"name": "Osage",
+"fips": "20139"
+},
+"71": {
+"name": "Osborne",
+"fips": "20141"
+},
+"72": {
+"name": "Ottawa",
+"fips": "20143"
+},
+"73": {
+"name": "Pawnee",
+"fips": "20145"
+},
+"74": {
+"name": "Phillips",
+"fips": "20147"
+},
+"75": {
+"name": "Pottawatomie",
+"fips": "20149"
+},
+"76": {
+"name": "Pratt",
+"fips": "20151"
+},
+"77": {
+"name": "Rawlins",
+"fips": "20153"
+},
+"78": {
+"name": "Reno",
+"fips": "20155"
+},
+"79": {
+"name": "Republic",
+"fips": "20157"
+},
+"80": {
+"name": "Rice",
+"fips": "20159"
+},
+"81": {
+"name": "Riley",
+"fips": "20161"
+},
+"82": {
+"name": "Rooks",
+"fips": "20163"
+},
+"83": {
+"name": "Rush",
+"fips": "20165"
+},
+"84": {
+"name": "Russell",
+"fips": "20167"
+},
+"85": {
+"name": "Saline",
+"fips": "20169"
+},
+"86": {
+"name": "Scott",
+"fips": "20171"
+},
+"87": {
+"name": "Sedgwick",
+"fips": "20173"
+},
+"88": {
+"name": "Seward",
+"fips": "20175"
+},
+"89": {
+"name": "Shawnee",
+"fips": "20177"
+},
+"90": {
+"name": "Sheridan",
+"fips": "20179"
+},
+"91": {
+"name": "Sherman",
+"fips": "20181"
+},
+"92": {
+"name": "Smith",
+"fips": "20183"
+},
+"93": {
+"name": "Stafford",
+"fips": "20185"
+},
+"94": {
+"name": "Stanton",
+"fips": "20187"
+},
+"95": {
+"name": "Stevens",
+"fips": "20189"
+},
+"96": {
+"name": "Sumner",
+"fips": "20191"
+},
+"97": {
+"name": "Thomas",
+"fips": "20193"
+},
+"98": {
+"name": "Trego",
+"fips": "20195"
+},
+"99": {
+"name": "Wabaunsee",
+"fips": "20197"
+},
+"100": {
+"name": "Wallace",
+"fips": "20199"
+},
+"101": {
+"name": "Washington",
+"fips": "20201"
+},
+"102": {
+"name": "Wichita",
+"fips": "20203"
+},
+"103": {
+"name": "Wilson",
+"fips": "20205"
+},
+"104": {
+"name": "Woodson",
+"fips": "20207"
+},
+"105": {
+"name": "Wyandotte",
+"fips": "20209"
+}
+}
