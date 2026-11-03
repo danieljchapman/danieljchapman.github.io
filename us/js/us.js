@@ -227,6 +227,21 @@
     return api;
   }
 
+  // ---------- called-race check mark ----------
+  // a white check over a dark outline, centered on 0,0 and about 9 units wide; reads on every fill
+  const CHECK = 'M-3.6,0.2L-1.1,2.8L3.8,-2.6';
+  function checks(g, cls, data, key, xy, scale) {
+    const c = g.selectAll('g.' + cls).data(data, key).join((en) => {
+      const gg = en.append('g').attr('class', 'called ' + cls);
+      gg.append('path').attr('class', 'o').attr('d', CHECK);
+      gg.append('path').attr('class', 'i').attr('d', CHECK);
+      return gg;
+    });
+    c.attr('transform', (d) => { const [x, y] = xy(d); return `translate(${x},${y}) scale(${scale})`; });
+    return c;
+  }
+  const isCalled = (r) => !!(r && r.year === 2026 && r.win);
+
   // ---------- state map (Senate, governor) ----------
   let stateGeo = null;
   function drawStateMap(races, sel) {
@@ -241,7 +256,11 @@
     const svg = d3.select(box).selectAll('svg').data([0]).join('svg').attr('viewBox', `-30 0 ${W} ${H}`).attr('role', 'img')
       .attr('aria-label', 'Map of the states, colored by the winner or leader of each race');
     const zm = zoomable(box, svg, [-30, 0, W, H], null);
-    zm.onZoom = (k) => g.selectAll('circle.flip').attr('r', 4.5 / k).attr('stroke-width', 1.2 / k);
+    zm.onZoom = (k) => {
+      g.selectAll('circle.flip').attr('r', 4.5 / k).attr('stroke-width', 1.2 / k).attr('cx', (f) => fxy(f, k)[0]);
+      g.selectAll('g.ck-st').attr('transform', (f) => { const [x, y] = cxy(f); return `translate(${x},${y}) scale(${1 / k})`; });
+      g.selectAll('g.ck-sm').attr('transform', (d) => { const [x, y] = sxy(d); return `translate(${x},${y}) scale(${1 / k})`; });
+    };
     const g = zm.layer.selectAll('g.states').data([0]).join('g').attr('class', 'states');
     g.selectAll('path').data(stateGeo, (f) => f.id).join('path')
       .attr('d', path)
@@ -253,10 +272,13 @@
       .on('click', (e, f) => { const r = main(FIPS[f.id]); if (r) set({ sel: r.key }); })
       .on('keydown', (e, f) => { if (e.key === 'Enter') { const r = main(FIPS[f.id]); if (r) set({ sel: r.key }); } });
     // flip markers: a small dot at each flipped state's center
+    const cxy = (f) => [path.centroid(f)[0] + (FIPS[f.id] === 'FL' ? 18 : FIPS[f.id] === 'LA' ? -8 : FIPS[f.id] === 'MI' ? 10 : 0), path.centroid(f)[1] + (FIPS[f.id] === 'MI' ? 18 : 0)];
+    // a called flip shows the check at the center and the flip dot just to its right
+    const fxy = (f, k) => { const [x, y] = cxy(f); return [x + (isCalled(main(FIPS[f.id])) ? 10 / (k || 1) : 0), y]; };
     const flips = stateGeo.filter((f) => { const r = main(FIPS[f.id]); return r && (r.flip || r.leadFlip); });
     g.selectAll('circle.flip').data(flips, (f) => f.id).join('circle').attr('class', 'flip')
-      .attr('cx', (f) => path.centroid(f)[0] + (FIPS[f.id] === 'FL' ? 18 : FIPS[f.id] === 'LA' ? -8 : FIPS[f.id] === 'MI' ? 10 : 0))
-      .attr('cy', (f) => path.centroid(f)[1] + (FIPS[f.id] === 'MI' ? 18 : 0))
+      .attr('cx', (f) => fxy(f)[0])
+      .attr('cy', (f) => fxy(f)[1])
       .attr('r', 4.5).attr('fill', '#fff').attr('stroke', css('--color-fg')).attr('stroke-width', 1.2)
       .attr('opacity', (f) => (main(FIPS[f.id]).flip ? 1 : 0.55)).attr('pointer-events', 'none');
     // two races in one state (Nebraska 2024): half-and-half label under the state
@@ -272,6 +294,10 @@
       .on('mousemove', (e, d) => showTip(e, main(d), dash.data('model').data[0].S.names[d]))
       .on('mouseleave', hideTip)
       .on('click', (e, d) => { const r = main(d); if (r) set({ sel: r.key }); });
+    const sxy = (d) => [930 - 9, 170 + SMALL.indexOf(d) * 28 + 11];
+    checks(g, 'ck-st', stateGeo.filter((f) => isCalled(main(FIPS[f.id])) && !SMALL.includes(FIPS[f.id])), (f) => f.id, cxy, 1);
+    checks(g, 'ck-sm', SMALL.filter((d) => isCalled(main(d))), (d) => d, sxy, 1);
+    g.selectAll('circle.flip').raise();
     sb.select('rect').attr('fill', (d) => fillOf(main(d))).attr('stroke', (d) => (main(d) ? css('--color-fg-muted') : css('--color-border-line')));
     zm.onZoom(zm.k());
     sb.select('text').text((d) => d).attr('fill', (d) => { const r = main(d); return r && (r.total || r.unopposed) && (r.margin == null || r.margin >= 0.1) ? '#fff' : css('--color-fg'); });
@@ -310,6 +336,8 @@
     const fl = items.filter((d) => { const r = byKey.get(d.k); return r && (r.flip || r.leadFlip); });
     g.selectAll('circle.flip').data(fl, (d) => d.k).join('circle').attr('class', 'flip').attr('cx', (d) => d.xy[0]).attr('cy', (d) => d.xy[1]).attr('r', 2.6)
       .attr('fill', '#fff').attr('stroke', css('--color-fg')).attr('stroke-width', 0.8).attr('opacity', (d) => (byKey.get(d.k).flip ? 1 : 0.55)).attr('pointer-events', 'none');
+    // called races: a check in each decided district's hexagon
+    const ck = checks(g, 'ck-hx', items.filter((d) => isCalled(byKey.get(d.k))), (d) => d.k, (d) => d.xy, 0.85);
     // state borders: hex edges whose neighbor belongs to another state
     const at = new Map(items.map((d) => [d.c + ',' + d.r, d.st]));
     const segs = [];
@@ -338,6 +366,7 @@
     g.selectAll('path.hsel').data(sItem ? [sItem] : []).join('path').attr('class', 'hsel').attr('d', hexPath).attr('transform', (d) => `translate(${d.xy[0]},${d.xy[1]})`);
     const hov = g.selectAll('path.hov').data([0]).join('path').attr('class', 'hov').attr('d', hexPath).attr('display', 'none');
     g.selectAll('path.border').raise();
+    ck.raise();
     g.selectAll('circle.flip').raise();
     stl.raise(); dl.raise();
     g.selectAll('path.hsel').raise(); hov.raise();
@@ -347,6 +376,9 @@
       stl.attr('display', near ? 'none' : null).attr('font-size', 7.5 / Math.sqrt(k)).attr('stroke-width', 2.2 / Math.sqrt(k)).attr('y', (d) => d.y + 2.6 / Math.sqrt(k));
       dl.attr('display', near ? null : 'none').attr('font-size', 4.4).attr('y', (d) => d.xy[1] + 1.6);
       g.selectAll('circle.flip').attr('display', near ? 'none' : null);
+      // zoomed in, the check moves above the district label; a called flip's dot sits below the check
+      ck.attr('transform', (d) => `translate(${d.xy[0]},${d.xy[1] - (near ? 5.6 : 0)}) scale(${near ? 0.55 : 0.85})`);
+      g.selectAll('circle.flip').attr('cy', (d) => d.xy[1] + (!near && isCalled(byKey.get(d.k)) ? 5 : 0)).attr('r', (d) => (isCalled(byKey.get(d.k)) ? 1.9 : 2.6));
     };
     g0.onZoom(g0.k());
   }
@@ -669,7 +701,7 @@
         else w.textContent = r.cands.length ? 'Not counted yet' : '—';
         td(mshort(r));
         td(r.flip ? `${r.wc} flip` : r.leadFlip ? `${r.wc} leading flip` : r.redrawn ? 'New map' : r.win ? 'Hold' : r.hc ? `${r.hc} seat now` : '');
-        if (year === 2026) td(r.unopposed ? '' : r.status === 'final' ? 'Called' : r.reporting == null ? '' : Math.round(r.reporting) + '%');
+        if (year === 2026) td(r.unopposed ? '' : r.status === 'final' ? '✓ Called' : r.reporting == null ? '' : Math.round(r.reporting) + '%');
         if (year === 2026) {
           const rec = pollRec(r.level, r);
           td(rec ? pairLabel(rec.pair, rec.final.m) : '', 'lx-cell-pct');
@@ -754,6 +786,7 @@
     if (year === 2026) sw(css('--lx-pending'), 'not counted yet');
     if (level !== 'house') sw(css('--color-bg'), 'no race');
     sw('#fff', level === 'house' ? 'seat changed parties' : 'state changed parties', true);
+    if (year === 2026) { const s = el('span', 'grp'); s.innerHTML = '<svg class="ck" viewBox="-5 -4.5 10 9" aria-hidden="true"><path class="o" d="' + CHECK + '"/><path class="i" d="' + CHECK + '"/></svg>'; s.append(document.createTextNode('race called')); lg.append(s); }
   }
 
   // ---------- main draw ----------

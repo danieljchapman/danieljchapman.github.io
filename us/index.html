@@ -195,6 +195,12 @@ button { font: inherit; }
 #map path.border { fill: none; stroke: var(--color-panel); stroke-width: 3.2; pointer-events: none; stroke-linecap: round; vector-effect: non-scaling-stroke; }
 #map path.hx, #map path.st { vector-effect: non-scaling-stroke; }
 #map text.dl { font-weight: 600; text-anchor: middle; pointer-events: none; }
+/* called-race check mark (maps and legend) */
+#map g.called { pointer-events: none; }
+g.called path, svg.ck path { fill: none; stroke-linecap: round; stroke-linejoin: round; }
+g.called path.o, svg.ck path.o { stroke: #1f1e1c; stroke-width: 3.6px; }
+g.called path.i, svg.ck path.i { stroke: #ffffff; stroke-width: 1.8px; }
+.lx-legend svg.ck { width: .95rem; height: .85rem; margin-right: 2px; vertical-align: -2px; }
 .lx-maphold { position: relative; }
 #map .lx-zoomctl { top: auto; bottom: 8px; }
 
