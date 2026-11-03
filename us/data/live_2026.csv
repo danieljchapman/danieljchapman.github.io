@@ -38,10 +38,10 @@ senate,IL,2026,IL,,,Whitfield Harrington Jr.,O,0,0,0,0,pending,0,100
 senate,KS,2026,KS,,,Adam Hamilton,D,0,0,0,0,pending,0,100
 senate,KS,2026,KS,,,Roger Marshall,R,0,0,0,0,pending,0,100
 senate,KS,2026,KS,,,David C Graham,L,0,0,0,0,pending,0,100
-senate,KY,2026,KY,,,Andy Barr,R,13100,0,0,0,counting,1,100
-senate,KY,2026,KY,,,Charles Booker,D,6497,0,0,0,counting,1,100
-senate,KY,2026,KY,,,Christopher Campbell,O,363,0,0,0,counting,1,100
-senate,KY,2026,KY,,,Write-in,I,3,0,0,0,counting,1,100
+senate,KY,2026,KY,,,Andy Barr,R,17146,0,0,0,counting,2,100
+senate,KY,2026,KY,,,Charles Booker,D,8567,0,0,0,counting,2,100
+senate,KY,2026,KY,,,Christopher Campbell,O,486,0,0,0,counting,2,100
+senate,KY,2026,KY,,,Write-in,I,3,0,0,0,counting,2,100
 senate,LA,2026,LA,,,Jamie Davis,D,0,0,0,0,pending,0,100
 senate,LA,2026,LA,,,Julia Letlow,R,0,0,0,0,pending,0,100
 senate,MA,2026,MA,,,Edward J. Markey,D,0,0,0,0,pending,0,100
@@ -553,16 +553,16 @@ house,IN-04,2026,IN,4,,Drew Cox,D,3972,0,0,0,counting,5,100
 house,IN-04,2026,IN,4,,David E. Bokash,I,0,0,0,0,counting,5,100
 house,IN-05,2026,IN,5,,J. D. Ford,D,49541,0,0,0,counting,38,100
 house,IN-05,2026,IN,5,,Victoria Spartz,R,28390,0,0,0,counting,38,100
-house,IN-06,2026,IN,6,,Jefferson Shreve,R,743,0,0,0,counting,1,100
-house,IN-06,2026,IN,6,,Cinde Wirth,D,536,0,0,0,counting,1,100
+house,IN-06,2026,IN,6,,Cinde Wirth,D,6721,0,0,0,counting,6,100
+house,IN-06,2026,IN,6,,Jefferson Shreve,R,5481,0,0,0,counting,6,100
 house,IN-07,2026,IN,7,,André Carson,D,0,0,0,0,pending,0,100
 house,IN-07,2026,IN,7,,Patrick McAuley,R,0,0,0,0,pending,0,100
 house,IN-07,2026,IN,7,,James Sceniak,L,0,0,0,0,pending,0,100
 house,IN-08,2026,IN,8,,Mark Messmer,R,9408,0,0,0,counting,8,100
 house,IN-08,2026,IN,8,,Mary Allen,D,8075,0,0,0,counting,8,100
-house,IN-09,2026,IN,9,,Erin Houchin,R,7404,0,0,0,counting,6,100
-house,IN-09,2026,IN,9,,Brad Meyer,D,4382,0,0,0,counting,6,100
-house,IN-09,2026,IN,9,,Tonya Hudson,L,249,0,0,0,counting,6,100
+house,IN-09,2026,IN,9,,Erin Houchin,R,7983,0,0,0,counting,6,100
+house,IN-09,2026,IN,9,,Brad Meyer,D,4782,0,0,0,counting,6,100
+house,IN-09,2026,IN,9,,Tonya Hudson,L,269,0,0,0,counting,6,100
 house,IN-09,2026,IN,9,,Floyd Michael Taylor,I,0,0,0,0,counting,6,100
 house,KS-01,2026,KS,1,,Lauren Reinhold,D,0,0,0,0,pending,0,100
 house,KS-01,2026,KS,1,,Tracey Mann,R,0,0,0,0,pending,0,100
@@ -585,15 +585,15 @@ house,KY-02,2026,KY,2,,Write-in,I,0,0,0,0,pending,0,100
 house,KY-03,2026,KY,3,,Maria Teresa Rodriguez,R,0,0,0,0,pending,0,100
 house,KY-03,2026,KY,3,,Morgan McGarvey,D,0,0,0,0,pending,0,100
 house,KY-03,2026,KY,3,,Write-in,I,0,0,0,0,pending,0,100
-house,KY-04,2026,KY,4,,Ed Gallrein,R,636,0,0,0,counting,0,100
-house,KY-04,2026,KY,4,,Melissa Strange,D,456,0,0,0,counting,0,100
-house,KY-04,2026,KY,4,,Jeremy Todd,L,35,0,0,0,counting,0,100
+house,KY-04,2026,KY,4,,Ed Gallrein,R,1069,0,0,0,counting,0,100
+house,KY-04,2026,KY,4,,Melissa Strange,D,797,0,0,0,counting,0,100
+house,KY-04,2026,KY,4,,Jeremy Todd,L,52,0,0,0,counting,0,100
 house,KY-04,2026,KY,4,,Write-in,I,0,0,0,0,counting,0,100
-house,KY-05,2026,KY,5,,Hal Rogers,R,4559,0,0,0,counting,3,100
-house,KY-05,2026,KY,5,,Ned Pillersdorf,D,1960,0,0,0,counting,3,100
-house,KY-05,2026,KY,5,,Mikel Wein,I,125,0,0,0,counting,3,100
-house,KY-05,2026,KY,5,,Gerardo Serrano,I,86,0,0,0,counting,3,100
-house,KY-05,2026,KY,5,,Write-in,I,4,0,0,0,counting,3,100
+house,KY-05,2026,KY,5,,Hal Rogers,R,8861,0,0,0,counting,5,100
+house,KY-05,2026,KY,5,,Ned Pillersdorf,D,4279,0,0,0,counting,5,100
+house,KY-05,2026,KY,5,,Mikel Wein,I,332,0,0,0,counting,5,100
+house,KY-05,2026,KY,5,,Gerardo Serrano,I,144,0,0,0,counting,5,100
+house,KY-05,2026,KY,5,,Write-in,I,4,0,0,0,counting,5,100
 house,KY-06,2026,KY,6,,Ralph Alvarado,R,0,0,0,0,pending,0,100
 house,KY-06,2026,KY,6,,Zach Dembo,D,0,0,0,0,pending,0,100
 house,KY-06,2026,KY,6,,Pete Lynch,O,0,0,0,0,pending,0,100
