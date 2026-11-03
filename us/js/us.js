@@ -337,7 +337,7 @@
     g.selectAll('circle.flip').data(fl, (d) => d.k).join('circle').attr('class', 'flip').attr('cx', (d) => d.xy[0]).attr('cy', (d) => d.xy[1]).attr('r', 2.6)
       .attr('fill', '#fff').attr('stroke', css('--color-fg')).attr('stroke-width', 0.8).attr('opacity', (d) => (byKey.get(d.k).flip ? 1 : 0.55)).attr('pointer-events', 'none');
     // called races: a check in each decided district's hexagon
-    const ck = checks(g, 'ck-hx', items.filter((d) => isCalled(byKey.get(d.k))), (d) => d.k, (d) => d.xy, 0.85);
+    const ck = checks(g, 'ck-hx', items.filter((d) => isCalled(byKey.get(d.k))), (d) => d.k, (d) => d.xy, 0.55);
     // state borders: hex edges whose neighbor belongs to another state
     const at = new Map(items.map((d) => [d.c + ',' + d.r, d.st]));
     const segs = [];
@@ -377,8 +377,8 @@
       dl.attr('display', near ? null : 'none').attr('font-size', 4.4).attr('y', (d) => d.xy[1] + 1.6);
       g.selectAll('circle.flip').attr('display', near ? 'none' : null);
       // zoomed in, the check moves above the district label; a called flip's dot sits below the check
-      ck.attr('transform', (d) => `translate(${d.xy[0]},${d.xy[1] - (near ? 5.6 : 0)}) scale(${near ? 0.55 : 0.85})`);
-      g.selectAll('circle.flip').attr('cy', (d) => d.xy[1] + (!near && isCalled(byKey.get(d.k)) ? 5 : 0)).attr('r', (d) => (isCalled(byKey.get(d.k)) ? 1.9 : 2.6));
+      ck.attr('transform', (d) => `translate(${d.xy[0]},${d.xy[1] - (near ? 5.4 : -0.6)}) scale(${near ? 0.4 : 0.55})`);
+      g.selectAll('circle.flip').attr('cy', (d) => d.xy[1] + (!near && isCalled(byKey.get(d.k)) ? 4.3 : 0)).attr('r', (d) => (isCalled(byKey.get(d.k)) ? 1.6 : 2.6));
     };
     g0.onZoom(g0.k());
   }
