@@ -1,13 +1,13 @@
 [
  {
   "phase": "pre-election",
-  "updated_at": "2026-11-02T14:26:53Z",
+  "updated_at": "2026-11-03T09:05:51Z",
   "source": "CivicAPI, unofficial",
   "races": 165,
   "called": 0,
   "counting": 0,
   "problems": [
-   "CivicAPI still serves test numbers for some races (set to zero)"
+   "no live source yet for 1 statewide race, 13 U.S. House races, 14 Michigan Senate races, 38 Michigan House races"
   ],
   "local_problems": []
  }
