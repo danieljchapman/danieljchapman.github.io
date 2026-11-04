@@ -114,6 +114,16 @@ def main():
         counts[level] = n
         if n != EXPECT[level]:
             problems.append(f'{level}: {n} races listed, expected {EXPECT[level]}')
+    # CivicAPI sometimes drops party labels for a moment (Nov 3, 10:33 pm ET: both New Mexico Senate candidates came as
+    # independents). A candidate listed as R or D in the last published update keeps that party if now sent as I or O.
+    was = {(r['level'], r['race'], r['candidate']): r['party'] for r in prev if r['party'] in ('R', 'D')}
+    fixed = 0
+    for r in rows:
+        p0 = was.get((r['level'], r['race'], r['candidate']))
+        if p0 and r['party'] in ('I', 'O'):
+            r['party'] = p0; fixed += 1
+    if fixed:
+        problems.append(f'{fixed} candidate{"s" if fixed > 1 else ""} sent without a party label; kept the last published party')
     # CivicAPI mix-ups: a Senate or governor record carrying another state's House race (Nov 3, 2026: South Dakota governor
     # held Iowa's 3rd District candidates, with an older vote count). Such a race is left out until CivicAPI fixes it.
     sig = lambda rs: frozenset(x['candidate'] for x in rs if 'write' not in x['candidate'].lower()) if len(rs) > 1 else None
