@@ -1,6 +1,4 @@
 level,race,year,office,plan,unit,unit_name,candidate,party,votes,status,reporting,reporting_total
-ushouse,2026 U.S. House,2026,U.S. House,planc2333,11,,August Pfluger,R,133830,final,286,286
-ushouse,2026 U.S. House,2026,U.S. House,planc2333,11,,Claire Reynolds,D,87184,final,286,286
 ushouse,2026 U.S. House,2026,U.S. House,planc2333,10,,Chris Gober,R,148889,final,314,314
 ushouse,2026 U.S. House,2026,U.S. House,planc2333,10,,Caitlin Rourk,D,125867,final,314,314
 ushouse,2026 U.S. House,2026,U.S. House,planc2333,19,,Kyle Rable,D,29672,counting,344,464
@@ -9,8 +7,6 @@ ushouse,2026 U.S. House,2026,U.S. House,planc2333,32,,Dan Barrios,D,127360,count
 ushouse,2026 U.S. House,2026,U.S. House,planc2333,32,,Jace Yarbrough,R,137300,counting,99,215
 ushouse,2026 U.S. House,2026,U.S. House,planc2333,13,,Ronny Jackson,R,158134,counting,397,398
 ushouse,2026 U.S. House,2026,U.S. House,planc2333,13,,Mark Nair,D,84197,counting,397,398
-ushouse,2026 U.S. House,2026,U.S. House,planc2333,1,,Nathaniel Moran,R,181987,final,300,300
-ushouse,2026 U.S. House,2026,U.S. House,planc2333,1,,Yolanda R. Prince,D,81598,final,300,300
 statewide,2026 Senate,2026,Senate,,48353,Nolan,James Talarico,D,1045,counting,10,10
 statewide,2026 Senate,2026,Senate,,48353,Nolan,Ken Paxton,R,2511,counting,10,10
 statewide,2026 Senate,2026,Senate,,48353,Nolan,Avery Ayers,W,1,counting,10,10
@@ -683,13 +679,13 @@ statewide,2026 Senate,2026,Senate,,48307,Mcculloch,"Bradford ""Brad"" Hall",W,0,
 statewide,2026 Senate,2026,Senate,,48307,Mcculloch,Zul Mohamed,W,0,counting,10,10
 statewide,2026 Senate,2026,Senate,,48307,Mcculloch,Jade Simmons,W,0,counting,10,10
 statewide,2026 Senate,2026,Senate,,48307,Mcculloch,Ted Brown,L,75,counting,10,10
-statewide,2026 Senate,2026,Senate,,48323,Maverick,James Talarico,D,6064,counting,1,17
-statewide,2026 Senate,2026,Senate,,48323,Maverick,Ken Paxton,R,2243,counting,1,17
-statewide,2026 Senate,2026,Senate,,48323,Maverick,Avery Ayers,W,4,counting,1,17
+statewide,2026 Senate,2026,Senate,,48323,Maverick,James Talarico,D,6221,counting,1,17
+statewide,2026 Senate,2026,Senate,,48323,Maverick,Ken Paxton,R,2264,counting,1,17
+statewide,2026 Senate,2026,Senate,,48323,Maverick,Avery Ayers,W,20,counting,1,17
 statewide,2026 Senate,2026,Senate,,48323,Maverick,"Bradford ""Brad"" Hall",W,1,counting,1,17
 statewide,2026 Senate,2026,Senate,,48323,Maverick,Zul Mohamed,W,0,counting,1,17
 statewide,2026 Senate,2026,Senate,,48323,Maverick,Jade Simmons,W,5,counting,1,17
-statewide,2026 Senate,2026,Senate,,48323,Maverick,Ted Brown,L,301,counting,1,17
+statewide,2026 Senate,2026,Senate,,48323,Maverick,Ted Brown,L,302,counting,1,17
 statewide,2026 Senate,2026,Senate,,48321,Matagorda,James Talarico,D,3709,counting,19,19
 statewide,2026 Senate,2026,Senate,,48321,Matagorda,Ken Paxton,R,6919,counting,19,19
 statewide,2026 Senate,2026,Senate,,48321,Matagorda,Avery Ayers,W,4,counting,19,19
@@ -1691,13 +1687,13 @@ statewide,2026 Senate,2026,Senate,,48029,Bexar,"Bradford ""Brad"" Hall",W,0,coun
 statewide,2026 Senate,2026,Senate,,48029,Bexar,Zul Mohamed,W,0,counting,807,807
 statewide,2026 Senate,2026,Senate,,48029,Bexar,Jade Simmons,W,0,counting,807,807
 statewide,2026 Senate,2026,Senate,,48029,Bexar,Ted Brown,L,11336,counting,807,807
-statewide,2026 Senate,2026,Senate,,48027,Bell,James Talarico,D,44139,counting,1,73
-statewide,2026 Senate,2026,Senate,,48027,Bell,Ken Paxton,R,37488,counting,1,73
-statewide,2026 Senate,2026,Senate,,48027,Bell,Avery Ayers,W,33,counting,1,73
-statewide,2026 Senate,2026,Senate,,48027,Bell,"Bradford ""Brad"" Hall",W,31,counting,1,73
-statewide,2026 Senate,2026,Senate,,48027,Bell,Zul Mohamed,W,3,counting,1,73
-statewide,2026 Senate,2026,Senate,,48027,Bell,Jade Simmons,W,33,counting,1,73
-statewide,2026 Senate,2026,Senate,,48027,Bell,Ted Brown,L,1922,counting,1,73
+statewide,2026 Senate,2026,Senate,,48027,Bell,James Talarico,D,56562,counting,73,73
+statewide,2026 Senate,2026,Senate,,48027,Bell,Ken Paxton,R,50887,counting,73,73
+statewide,2026 Senate,2026,Senate,,48027,Bell,Avery Ayers,W,40,counting,73,73
+statewide,2026 Senate,2026,Senate,,48027,Bell,"Bradford ""Brad"" Hall",W,52,counting,73,73
+statewide,2026 Senate,2026,Senate,,48027,Bell,Zul Mohamed,W,3,counting,73,73
+statewide,2026 Senate,2026,Senate,,48027,Bell,Jade Simmons,W,56,counting,73,73
+statewide,2026 Senate,2026,Senate,,48027,Bell,Ted Brown,L,3046,counting,73,73
 statewide,2026 Senate,2026,Senate,,48025,Bee,James Talarico,D,3014,counting,14,14
 statewide,2026 Senate,2026,Senate,,48025,Bee,Ken Paxton,R,3990,counting,14,14
 statewide,2026 Senate,2026,Senate,,48025,Bee,Avery Ayers,W,2,counting,14,14
@@ -1792,6 +1788,10 @@ statewide,2026 Senate,2026,Senate,,48001,Anderson,Ted Brown,L,346,counting,23,23
 ushouse,2026 U.S. House,2026,U.S. House,planc2333,33,,Colin Allred,D,142415,counting,1,252
 ushouse,2026 U.S. House,2026,U.S. House,planc2333,33,,Michelle Craig,W,43,counting,1,252
 ushouse,2026 U.S. House,2026,U.S. House,planc2333,33,,Patrick David Gillespie,R,37432,counting,1,252
+ushouse,2026 U.S. House,2026,U.S. House,planc2333,1,,Nathaniel Moran,R,181987,final,300,300
+ushouse,2026 U.S. House,2026,U.S. House,planc2333,1,,Yolanda R. Prince,D,81598,final,300,300
+ushouse,2026 U.S. House,2026,U.S. House,planc2333,11,,August Pfluger,R,133830,final,286,286
+ushouse,2026 U.S. House,2026,U.S. House,planc2333,11,,Claire Reynolds,D,87184,final,286,286
 ushouse,2026 U.S. House,2026,U.S. House,planc2333,35,,Carlos De La Cruz,R,101006,counting,242,320
 ushouse,2026 U.S. House,2026,U.S. House,planc2333,35,,Johnny C. Garcia,D,132810,counting,242,320
 ushouse,2026 U.S. House,2026,U.S. House,planc2333,36,,Brian Babin,R,128620,counting,211,310
@@ -1826,9 +1826,9 @@ ushouse,2026 U.S. House,2026,U.S. House,planc2333,34,,Eddie Espinoza,G,4737,fina
 ushouse,2026 U.S. House,2026,U.S. House,planc2333,34,,Eric Flores,R,80168,final,243,243
 ushouse,2026 U.S. House,2026,U.S. House,planc2333,34,,Vicente Gonzalez,D,112547,final,243,243
 ushouse,2026 U.S. House,2026,U.S. House,planc2333,34,,Chris Royal,L,4639,final,243,243
-ushouse,2026 U.S. House,2026,U.S. House,planc2333,23,,Brandon Herrera,R,118752,counting,364,380
-ushouse,2026 U.S. House,2026,U.S. House,planc2333,23,,Ben Mendoza,I,10445,counting,364,380
-ushouse,2026 U.S. House,2026,U.S. House,planc2333,23,,Katy Padilla Stout,D,140077,counting,364,380
+ushouse,2026 U.S. House,2026,U.S. House,planc2333,23,,Brandon Herrera,R,118768,counting,364,380
+ushouse,2026 U.S. House,2026,U.S. House,planc2333,23,,Ben Mendoza,I,10451,counting,364,380
+ushouse,2026 U.S. House,2026,U.S. House,planc2333,23,,Katy Padilla Stout,D,140202,counting,364,380
 ushouse,2026 U.S. House,2026,U.S. House,planc2333,14,,Thurman Bill Bartie,D,127147,counting,251,258
 ushouse,2026 U.S. House,2026,U.S. House,planc2333,14,,Randy Weber,R,150643,counting,251,258
 ushouse,2026 U.S. House,2026,U.S. House,planc2333,15,,Monica De La Cruz,R,72822,counting,128,288
@@ -1847,11 +1847,11 @@ ushouse,2026 U.S. House,2026,U.S. House,planc2333,16,,Veronica Escobar,D,138543,
 ushouse,2026 U.S. House,2026,U.S. House,planc2333,27,,Michael Cloud,R,141811,final,323,323
 ushouse,2026 U.S. House,2026,U.S. House,planc2333,27,,Tanya Lloyd,D,132482,final,323,323
 ushouse,2026 U.S. House,2026,U.S. House,planc2333,27,,Wayne Raasch,W,22,final,323,323
-ushouse,2026 U.S. House,2026,U.S. House,planc2333,17,,Pete Sessions,R,141042,final,291,291
-ushouse,2026 U.S. House,2026,U.S. House,planc2333,17,,Casey Shepard,D,123362,final,291,291
-ushouse,2026 U.S. House,2026,U.S. House,planc2333,28,,Henry Cuellar,D,106757,counting,176,281
+ushouse,2026 U.S. House,2026,U.S. House,planc2333,17,,Pete Sessions,R,143524,final,291,291
+ushouse,2026 U.S. House,2026,U.S. House,planc2333,17,,Casey Shepard,D,124433,final,291,291
+ushouse,2026 U.S. House,2026,U.S. House,planc2333,28,,Henry Cuellar,D,106780,counting,176,281
 ushouse,2026 U.S. House,2026,U.S. House,planc2333,28,,Marlón Durán,G,7590,counting,176,281
-ushouse,2026 U.S. House,2026,U.S. House,planc2333,28,,Tano E. Tijerina,R,47786,counting,176,281
+ushouse,2026 U.S. House,2026,U.S. House,planc2333,28,,Tano E. Tijerina,R,47787,counting,176,281
 ushouse,2026 U.S. House,2026,U.S. House,planc2333,18,,Christian Dashaun Menefee,D,160238,counting,24,253
 ushouse,2026 U.S. House,2026,U.S. House,planc2333,18,,Ronald Dwayne Whitfield,R,23415,counting,24,253
 ushouse,2026 U.S. House,2026,U.S. House,planc2333,29,,Martha Fierro,R,25750,counting,1,215
@@ -1860,9 +1860,9 @@ ushouse,2026 U.S. House,2026,U.S. House,planc2333,3,,Evan Hunt,D,151667,final,25
 ushouse,2026 U.S. House,2026,U.S. House,planc2333,3,,Keith Self,R,169243,final,258,258
 ushouse,2026 U.S. House,2026,U.S. House,planc2333,30,,Frederick D. Haynes III,D,176715,counting,2,242
 ushouse,2026 U.S. House,2026,U.S. House,planc2333,30,,Everett Jackson,R,36908,counting,2,242
-ushouse,2026 U.S. House,2026,U.S. House,planc2333,31,,John Carter,R,151420,final,226,226
-ushouse,2026 U.S. House,2026,U.S. House,planc2333,31,,Justin Early,D,126609,final,226,226
-ushouse,2026 U.S. House,2026,U.S. House,planc2333,31,,Greg Stoker,G,3733,final,226,226
+ushouse,2026 U.S. House,2026,U.S. House,planc2333,31,,John Carter,R,164012,final,226,226
+ushouse,2026 U.S. House,2026,U.S. House,planc2333,31,,Justin Early,D,136734,final,226,226
+ushouse,2026 U.S. House,2026,U.S. House,planc2333,31,,Greg Stoker,G,4227,final,226,226
 statewide,2026 Governor,2026,Governor,,48353,Nolan,Gina Hinojosa,D,999,counting,10,10
 statewide,2026 Governor,2026,Governor,,48353,Nolan,Greg Abbott,R,2665,counting,10,10
 statewide,2026 Governor,2026,Governor,,48353,Nolan,Edward Earl Giles,W,0,counting,10,10
@@ -2535,8 +2535,8 @@ statewide,2026 Governor,2026,Governor,,48307,Mcculloch,Jenn Mack,W,0,counting,10
 statewide,2026 Governor,2026,Governor,,48307,Mcculloch,Jinghpaw Majoishingra,W,0,counting,10,10
 statewide,2026 Governor,2026,Governor,,48307,Mcculloch,Mike Miller,W,0,counting,10,10
 statewide,2026 Governor,2026,Governor,,48307,Mcculloch,Pat Dixon,L,52,counting,10,10
-statewide,2026 Governor,2026,Governor,,48323,Maverick,Gina Hinojosa,D,6104,counting,1,17
-statewide,2026 Governor,2026,Governor,,48323,Maverick,Greg Abbott,R,2665,counting,1,17
+statewide,2026 Governor,2026,Governor,,48323,Maverick,Gina Hinojosa,D,6266,counting,1,17
+statewide,2026 Governor,2026,Governor,,48323,Maverick,Greg Abbott,R,2686,counting,1,17
 statewide,2026 Governor,2026,Governor,,48323,Maverick,Edward Earl Giles,W,0,counting,1,17
 statewide,2026 Governor,2026,Governor,,48323,Maverick,Jenn Mack,W,0,counting,1,17
 statewide,2026 Governor,2026,Governor,,48323,Maverick,Jinghpaw Majoishingra,W,0,counting,1,17
@@ -3543,13 +3543,13 @@ statewide,2026 Governor,2026,Governor,,48029,Bexar,Jenn Mack,W,0,counting,807,80
 statewide,2026 Governor,2026,Governor,,48029,Bexar,Jinghpaw Majoishingra,W,0,counting,807,807
 statewide,2026 Governor,2026,Governor,,48029,Bexar,Mike Miller,W,0,counting,807,807
 statewide,2026 Governor,2026,Governor,,48029,Bexar,Pat Dixon,L,9048,counting,807,807
-statewide,2026 Governor,2026,Governor,,48027,Bell,Gina Hinojosa,D,42431,counting,1,73
-statewide,2026 Governor,2026,Governor,,48027,Bell,Greg Abbott,R,40041,counting,1,73
-statewide,2026 Governor,2026,Governor,,48027,Bell,Edward Earl Giles,W,22,counting,1,73
-statewide,2026 Governor,2026,Governor,,48027,Bell,Jenn Mack,W,47,counting,1,73
-statewide,2026 Governor,2026,Governor,,48027,Bell,Jinghpaw Majoishingra,W,4,counting,1,73
-statewide,2026 Governor,2026,Governor,,48027,Bell,Mike Miller,W,14,counting,1,73
-statewide,2026 Governor,2026,Governor,,48027,Bell,Pat Dixon,L,1324,counting,1,73
+statewide,2026 Governor,2026,Governor,,48027,Bell,Gina Hinojosa,D,54047,counting,73,73
+statewide,2026 Governor,2026,Governor,,48027,Bell,Greg Abbott,R,54723,counting,73,73
+statewide,2026 Governor,2026,Governor,,48027,Bell,Edward Earl Giles,W,29,counting,73,73
+statewide,2026 Governor,2026,Governor,,48027,Bell,Jenn Mack,W,64,counting,73,73
+statewide,2026 Governor,2026,Governor,,48027,Bell,Jinghpaw Majoishingra,W,7,counting,73,73
+statewide,2026 Governor,2026,Governor,,48027,Bell,Mike Miller,W,24,counting,73,73
+statewide,2026 Governor,2026,Governor,,48027,Bell,Pat Dixon,L,2061,counting,73,73
 statewide,2026 Governor,2026,Governor,,48025,Bee,Gina Hinojosa,D,2906,counting,14,14
 statewide,2026 Governor,2026,Governor,,48025,Bee,Greg Abbott,R,4157,counting,14,14
 statewide,2026 Governor,2026,Governor,,48025,Bee,Edward Earl Giles,W,0,counting,14,14
@@ -4217,12 +4217,12 @@ statewide,2026 Lt. Governor,2026,Lt. Governor,,48307,Mcculloch,Dan Patrick,R,217
 statewide,2026 Lt. Governor,2026,Lt. Governor,,48307,Mcculloch,Arturo Espinosa,W,0,counting,10,10
 statewide,2026 Lt. Governor,2026,Lt. Governor,,48307,Mcculloch,Stephen Samuelson,W,0,counting,10,10
 statewide,2026 Lt. Governor,2026,Lt. Governor,,48307,Mcculloch,Anthony Cristo,L,39,counting,10,10
-statewide,2026 Lt. Governor,2026,Lt. Governor,,48323,Maverick,Vikki Goodwin,D,5301,counting,1,17
+statewide,2026 Lt. Governor,2026,Lt. Governor,,48323,Maverick,Vikki Goodwin,D,5421,counting,1,17
 statewide,2026 Lt. Governor,2026,Lt. Governor,,48323,Maverick,Kevin McCormick,G,121,counting,1,17
-statewide,2026 Lt. Governor,2026,Lt. Governor,,48323,Maverick,Dan Patrick,R,2367,counting,1,17
+statewide,2026 Lt. Governor,2026,Lt. Governor,,48323,Maverick,Dan Patrick,R,2396,counting,1,17
 statewide,2026 Lt. Governor,2026,Lt. Governor,,48323,Maverick,Arturo Espinosa,W,4,counting,1,17
 statewide,2026 Lt. Governor,2026,Lt. Governor,,48323,Maverick,Stephen Samuelson,W,3,counting,1,17
-statewide,2026 Lt. Governor,2026,Lt. Governor,,48323,Maverick,Anthony Cristo,L,307,counting,1,17
+statewide,2026 Lt. Governor,2026,Lt. Governor,,48323,Maverick,Anthony Cristo,L,315,counting,1,17
 statewide,2026 Lt. Governor,2026,Lt. Governor,,48321,Matagorda,Vikki Goodwin,D,3369,counting,19,19
 statewide,2026 Lt. Governor,2026,Lt. Governor,,48321,Matagorda,Kevin McCormick,G,117,counting,19,19
 statewide,2026 Lt. Governor,2026,Lt. Governor,,48321,Matagorda,Dan Patrick,R,7201,counting,19,19
@@ -5081,12 +5081,12 @@ statewide,2026 Lt. Governor,2026,Lt. Governor,,48029,Bexar,Dan Patrick,R,221647,
 statewide,2026 Lt. Governor,2026,Lt. Governor,,48029,Bexar,Arturo Espinosa,W,0,counting,807,807
 statewide,2026 Lt. Governor,2026,Lt. Governor,,48029,Bexar,Stephen Samuelson,W,0,counting,807,807
 statewide,2026 Lt. Governor,2026,Lt. Governor,,48029,Bexar,Anthony Cristo,L,12466,counting,807,807
-statewide,2026 Lt. Governor,2026,Lt. Governor,,48027,Bell,Vikki Goodwin,D,41392,counting,1,73
-statewide,2026 Lt. Governor,2026,Lt. Governor,,48027,Bell,Kevin McCormick,G,718,counting,1,73
-statewide,2026 Lt. Governor,2026,Lt. Governor,,48027,Bell,Dan Patrick,R,39932,counting,1,73
-statewide,2026 Lt. Governor,2026,Lt. Governor,,48027,Bell,Arturo Espinosa,W,16,counting,1,73
-statewide,2026 Lt. Governor,2026,Lt. Governor,,48027,Bell,Stephen Samuelson,W,11,counting,1,73
-statewide,2026 Lt. Governor,2026,Lt. Governor,,48027,Bell,Anthony Cristo,L,1391,counting,1,73
+statewide,2026 Lt. Governor,2026,Lt. Governor,,48027,Bell,Vikki Goodwin,D,52481,counting,73,73
+statewide,2026 Lt. Governor,2026,Lt. Governor,,48027,Bell,Kevin McCormick,G,1134,counting,73,73
+statewide,2026 Lt. Governor,2026,Lt. Governor,,48027,Bell,Dan Patrick,R,54432,counting,73,73
+statewide,2026 Lt. Governor,2026,Lt. Governor,,48027,Bell,Arturo Espinosa,W,30,counting,73,73
+statewide,2026 Lt. Governor,2026,Lt. Governor,,48027,Bell,Stephen Samuelson,W,17,counting,73,73
+statewide,2026 Lt. Governor,2026,Lt. Governor,,48027,Bell,Anthony Cristo,L,2205,counting,73,73
 statewide,2026 Lt. Governor,2026,Lt. Governor,,48025,Bee,Vikki Goodwin,D,2664,counting,14,14
 statewide,2026 Lt. Governor,2026,Lt. Governor,,48025,Bee,Kevin McCormick,G,82,counting,14,14
 statewide,2026 Lt. Governor,2026,Lt. Governor,,48025,Bee,Dan Patrick,R,4138,counting,14,14
@@ -5453,8 +5453,8 @@ statewide,2026 Attorney General,2026,Attorney General,,48309,Mclennan,Tom Oxford
 statewide,2026 Attorney General,2026,Attorney General,,48307,Mcculloch,Nathan Johnson,D,441,counting,10,10
 statewide,2026 Attorney General,2026,Attorney General,,48307,Mcculloch,Mayes Middleton,R,2180,counting,10,10
 statewide,2026 Attorney General,2026,Attorney General,,48307,Mcculloch,Tom Oxford,L,40,counting,10,10
-statewide,2026 Attorney General,2026,Attorney General,,48323,Maverick,Nathan Johnson,D,5450,counting,1,17
-statewide,2026 Attorney General,2026,Attorney General,,48323,Maverick,Mayes Middleton,R,2297,counting,1,17
+statewide,2026 Attorney General,2026,Attorney General,,48323,Maverick,Nathan Johnson,D,5573,counting,1,17
+statewide,2026 Attorney General,2026,Attorney General,,48323,Maverick,Mayes Middleton,R,2319,counting,1,17
 statewide,2026 Attorney General,2026,Attorney General,,48323,Maverick,Tom Oxford,L,234,counting,1,17
 statewide,2026 Attorney General,2026,Attorney General,,48321,Matagorda,Nathan Johnson,D,3412,counting,19,19
 statewide,2026 Attorney General,2026,Attorney General,,48321,Matagorda,Mayes Middleton,R,7222,counting,19,19
@@ -5885,9 +5885,9 @@ statewide,2026 Attorney General,2026,Attorney General,,48031,Blanco,Tom Oxford,L
 statewide,2026 Attorney General,2026,Attorney General,,48029,Bexar,Nathan Johnson,D,416674,counting,807,807
 statewide,2026 Attorney General,2026,Attorney General,,48029,Bexar,Mayes Middleton,R,220580,counting,807,807
 statewide,2026 Attorney General,2026,Attorney General,,48029,Bexar,Tom Oxford,L,11298,counting,807,807
-statewide,2026 Attorney General,2026,Attorney General,,48027,Bell,Nathan Johnson,D,41980,counting,1,73
-statewide,2026 Attorney General,2026,Attorney General,,48027,Bell,Mayes Middleton,R,39901,counting,1,73
-statewide,2026 Attorney General,2026,Attorney General,,48027,Bell,Tom Oxford,L,1244,counting,1,73
+statewide,2026 Attorney General,2026,Attorney General,,48027,Bell,Nathan Johnson,D,53282,counting,73,73
+statewide,2026 Attorney General,2026,Attorney General,,48027,Bell,Mayes Middleton,R,54503,counting,73,73
+statewide,2026 Attorney General,2026,Attorney General,,48027,Bell,Tom Oxford,L,2030,counting,73,73
 statewide,2026 Attorney General,2026,Attorney General,,48025,Bee,Nathan Johnson,D,2799,counting,14,14
 statewide,2026 Attorney General,2026,Attorney General,,48025,Bee,Mayes Middleton,R,4060,counting,14,14
 statewide,2026 Attorney General,2026,Attorney General,,48025,Bee,Tom Oxford,L,125,counting,14,14
@@ -6311,10 +6311,10 @@ statewide,2026 Comptroller,2026,Comptroller,,48307,Mcculloch,Sarah Eckhardt,D,44
 statewide,2026 Comptroller,2026,Comptroller,,48307,Mcculloch,Shehla Faizi,G,7,counting,10,10
 statewide,2026 Comptroller,2026,Comptroller,,48307,Mcculloch,Don Huffines,R,2171,counting,10,10
 statewide,2026 Comptroller,2026,Comptroller,,48307,Mcculloch,V. Alonzo Echavarria-Garza,L,38,counting,10,10
-statewide,2026 Comptroller,2026,Comptroller,,48323,Maverick,Sarah Eckhardt,D,5297,counting,1,17
-statewide,2026 Comptroller,2026,Comptroller,,48323,Maverick,Shehla Faizi,G,91,counting,1,17
-statewide,2026 Comptroller,2026,Comptroller,,48323,Maverick,Don Huffines,R,2179,counting,1,17
-statewide,2026 Comptroller,2026,Comptroller,,48323,Maverick,V. Alonzo Echavarria-Garza,L,410,counting,1,17
+statewide,2026 Comptroller,2026,Comptroller,,48323,Maverick,Sarah Eckhardt,D,5420,counting,1,17
+statewide,2026 Comptroller,2026,Comptroller,,48323,Maverick,Shehla Faizi,G,92,counting,1,17
+statewide,2026 Comptroller,2026,Comptroller,,48323,Maverick,Don Huffines,R,2199,counting,1,17
+statewide,2026 Comptroller,2026,Comptroller,,48323,Maverick,V. Alonzo Echavarria-Garza,L,414,counting,1,17
 statewide,2026 Comptroller,2026,Comptroller,,48321,Matagorda,Sarah Eckhardt,D,3351,counting,19,19
 statewide,2026 Comptroller,2026,Comptroller,,48321,Matagorda,Shehla Faizi,G,60,counting,19,19
 statewide,2026 Comptroller,2026,Comptroller,,48321,Matagorda,Don Huffines,R,7186,counting,19,19
@@ -6699,10 +6699,10 @@ statewide,2026 Comptroller,2026,Comptroller,,48123,Dewitt,Sarah Eckhardt,D,1235,
 statewide,2026 Comptroller,2026,Comptroller,,48123,Dewitt,Shehla Faizi,G,16,counting,11,11
 statewide,2026 Comptroller,2026,Comptroller,,48123,Dewitt,Don Huffines,R,4895,counting,11,11
 statewide,2026 Comptroller,2026,Comptroller,,48123,Dewitt,V. Alonzo Echavarria-Garza,L,73,counting,11,11
-statewide,2026 Comptroller,2026,Comptroller,,48121,Denton,Sarah Eckhardt,D,144391,counting,253,253
-statewide,2026 Comptroller,2026,Comptroller,,48121,Denton,Shehla Faizi,G,1693,counting,253,253
-statewide,2026 Comptroller,2026,Comptroller,,48121,Denton,Don Huffines,R,140957,counting,253,253
-statewide,2026 Comptroller,2026,Comptroller,,48121,Denton,V. Alonzo Echavarria-Garza,L,4093,counting,253,253
+statewide,2026 Comptroller,2026,Comptroller,,48121,Denton,Sarah Eckhardt,D,191748,counting,253,253
+statewide,2026 Comptroller,2026,Comptroller,,48121,Denton,Shehla Faizi,G,2582,counting,253,253
+statewide,2026 Comptroller,2026,Comptroller,,48121,Denton,Don Huffines,R,191932,counting,253,253
+statewide,2026 Comptroller,2026,Comptroller,,48121,Denton,V. Alonzo Echavarria-Garza,L,6444,counting,253,253
 statewide,2026 Comptroller,2026,Comptroller,,48119,Delta,Sarah Eckhardt,D,362,counting,8,8
 statewide,2026 Comptroller,2026,Comptroller,,48119,Delta,Shehla Faizi,G,8,counting,8,8
 statewide,2026 Comptroller,2026,Comptroller,,48119,Delta,Don Huffines,R,1609,counting,8,8
@@ -6887,10 +6887,10 @@ statewide,2026 Comptroller,2026,Comptroller,,48029,Bexar,Sarah Eckhardt,D,408036
 statewide,2026 Comptroller,2026,Comptroller,,48029,Bexar,Shehla Faizi,G,5475,counting,807,807
 statewide,2026 Comptroller,2026,Comptroller,,48029,Bexar,Don Huffines,R,218527,counting,807,807
 statewide,2026 Comptroller,2026,Comptroller,,48029,Bexar,V. Alonzo Echavarria-Garza,L,14016,counting,807,807
-statewide,2026 Comptroller,2026,Comptroller,,48027,Bell,Sarah Eckhardt,D,41278,counting,1,73
-statewide,2026 Comptroller,2026,Comptroller,,48027,Bell,Shehla Faizi,G,496,counting,1,73
-statewide,2026 Comptroller,2026,Comptroller,,48027,Bell,Don Huffines,R,39743,counting,1,73
-statewide,2026 Comptroller,2026,Comptroller,,48027,Bell,V. Alonzo Echavarria-Garza,L,1462,counting,1,73
+statewide,2026 Comptroller,2026,Comptroller,,48027,Bell,Sarah Eckhardt,D,52285,counting,73,73
+statewide,2026 Comptroller,2026,Comptroller,,48027,Bell,Shehla Faizi,G,730,counting,73,73
+statewide,2026 Comptroller,2026,Comptroller,,48027,Bell,Don Huffines,R,54261,counting,73,73
+statewide,2026 Comptroller,2026,Comptroller,,48027,Bell,V. Alonzo Echavarria-Garza,L,2311,counting,73,73
 statewide,2026 Comptroller,2026,Comptroller,,48025,Bee,Sarah Eckhardt,D,2732,counting,14,14
 statewide,2026 Comptroller,2026,Comptroller,,48025,Bee,Shehla Faizi,G,28,counting,14,14
 statewide,2026 Comptroller,2026,Comptroller,,48025,Bee,Don Huffines,R,4032,counting,14,14
@@ -7231,9 +7231,9 @@ statewide,2026 Land Commissioner,2026,Land Commissioner,,48309,Mclennan,Neill Sn
 statewide,2026 Land Commissioner,2026,Land Commissioner,,48307,Mcculloch,Benjamin Flores,D,424,counting,10,10
 statewide,2026 Land Commissioner,2026,Land Commissioner,,48307,Mcculloch,Dawn Buckingham,R,2181,counting,10,10
 statewide,2026 Land Commissioner,2026,Land Commissioner,,48307,Mcculloch,Neill Snider,L,40,counting,10,10
-statewide,2026 Land Commissioner,2026,Land Commissioner,,48323,Maverick,Benjamin Flores,D,5772,counting,1,17
-statewide,2026 Land Commissioner,2026,Land Commissioner,,48323,Maverick,Dawn Buckingham,R,2168,counting,1,17
-statewide,2026 Land Commissioner,2026,Land Commissioner,,48323,Maverick,Neill Snider,L,172,counting,1,17
+statewide,2026 Land Commissioner,2026,Land Commissioner,,48323,Maverick,Benjamin Flores,D,5924,counting,1,17
+statewide,2026 Land Commissioner,2026,Land Commissioner,,48323,Maverick,Dawn Buckingham,R,2185,counting,1,17
+statewide,2026 Land Commissioner,2026,Land Commissioner,,48323,Maverick,Neill Snider,L,175,counting,1,17
 statewide,2026 Land Commissioner,2026,Land Commissioner,,48321,Matagorda,Benjamin Flores,D,3382,counting,19,19
 statewide,2026 Land Commissioner,2026,Land Commissioner,,48321,Matagorda,Dawn Buckingham,R,7203,counting,19,19
 statewide,2026 Land Commissioner,2026,Land Commissioner,,48321,Matagorda,Neill Snider,L,213,counting,19,19
@@ -7522,9 +7522,9 @@ statewide,2026 Land Commissioner,2026,Land Commissioner,,48125,Dickens,Neill Sni
 statewide,2026 Land Commissioner,2026,Land Commissioner,,48123,Dewitt,Benjamin Flores,D,1199,counting,11,11
 statewide,2026 Land Commissioner,2026,Land Commissioner,,48123,Dewitt,Dawn Buckingham,R,4944,counting,11,11
 statewide,2026 Land Commissioner,2026,Land Commissioner,,48123,Dewitt,Neill Snider,L,68,counting,11,11
-statewide,2026 Land Commissioner,2026,Land Commissioner,,48121,Denton,Benjamin Flores,D,143085,counting,253,253
-statewide,2026 Land Commissioner,2026,Land Commissioner,,48121,Denton,Dawn Buckingham,R,142396,counting,253,253
-statewide,2026 Land Commissioner,2026,Land Commissioner,,48121,Denton,Neill Snider,L,4088,counting,253,253
+statewide,2026 Land Commissioner,2026,Land Commissioner,,48121,Denton,Benjamin Flores,D,190426,counting,253,253
+statewide,2026 Land Commissioner,2026,Land Commissioner,,48121,Denton,Dawn Buckingham,R,193609,counting,253,253
+statewide,2026 Land Commissioner,2026,Land Commissioner,,48121,Denton,Neill Snider,L,6443,counting,253,253
 statewide,2026 Land Commissioner,2026,Land Commissioner,,48119,Delta,Benjamin Flores,D,359,counting,8,8
 statewide,2026 Land Commissioner,2026,Land Commissioner,,48119,Delta,Dawn Buckingham,R,1605,counting,8,8
 statewide,2026 Land Commissioner,2026,Land Commissioner,,48119,Delta,Neill Snider,L,31,counting,8,8
@@ -7663,9 +7663,9 @@ statewide,2026 Land Commissioner,2026,Land Commissioner,,48031,Blanco,Neill Snid
 statewide,2026 Land Commissioner,2026,Land Commissioner,,48029,Bexar,Benjamin Flores,D,412593,counting,807,807
 statewide,2026 Land Commissioner,2026,Land Commissioner,,48029,Bexar,Dawn Buckingham,R,221166,counting,807,807
 statewide,2026 Land Commissioner,2026,Land Commissioner,,48029,Bexar,Neill Snider,L,10725,counting,807,807
-statewide,2026 Land Commissioner,2026,Land Commissioner,,48027,Bell,Benjamin Flores,D,41197,counting,1,73
-statewide,2026 Land Commissioner,2026,Land Commissioner,,48027,Bell,Dawn Buckingham,R,40533,counting,1,73
-statewide,2026 Land Commissioner,2026,Land Commissioner,,48027,Bell,Neill Snider,L,1237,counting,1,73
+statewide,2026 Land Commissioner,2026,Land Commissioner,,48027,Bell,Benjamin Flores,D,52286,counting,73,73
+statewide,2026 Land Commissioner,2026,Land Commissioner,,48027,Bell,Dawn Buckingham,R,55271,counting,73,73
+statewide,2026 Land Commissioner,2026,Land Commissioner,,48027,Bell,Neill Snider,L,1990,counting,73,73
 statewide,2026 Land Commissioner,2026,Land Commissioner,,48025,Bee,Benjamin Flores,D,2832,counting,14,14
 statewide,2026 Land Commissioner,2026,Land Commissioner,,48025,Bee,Dawn Buckingham,R,4057,counting,14,14
 statewide,2026 Land Commissioner,2026,Land Commissioner,,48025,Bee,Neill Snider,L,108,counting,14,14
@@ -7993,9 +7993,9 @@ statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,48309,Mcl
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,48307,Mcculloch,Clayton Tucker,D,450,counting,10,10
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,48307,Mcculloch,Nate Sheets,R,2148,counting,10,10
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,48307,Mcculloch,Austin R. Kelly,L,49,counting,10,10
-statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,48323,Maverick,Clayton Tucker,D,5287,counting,1,17
-statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,48323,Maverick,Nate Sheets,R,2192,counting,1,17
-statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,48323,Maverick,Austin R. Kelly,L,312,counting,1,17
+statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,48323,Maverick,Clayton Tucker,D,5406,counting,1,17
+statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,48323,Maverick,Nate Sheets,R,2212,counting,1,17
+statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,48323,Maverick,Austin R. Kelly,L,315,counting,1,17
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,48321,Matagorda,Clayton Tucker,D,3479,counting,19,19
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,48321,Matagorda,Nate Sheets,R,7105,counting,19,19
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,48321,Matagorda,Austin R. Kelly,L,224,counting,19,19
@@ -8284,9 +8284,9 @@ statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,48125,Dic
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,48123,Dewitt,Clayton Tucker,D,1244,counting,11,11
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,48123,Dewitt,Nate Sheets,R,4876,counting,11,11
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,48123,Dewitt,Austin R. Kelly,L,78,counting,11,11
-statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,48121,Denton,Clayton Tucker,D,143025,counting,253,253
-statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,48121,Denton,Nate Sheets,R,141292,counting,253,253
-statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,48121,Denton,Austin R. Kelly,L,5089,counting,253,253
+statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,48121,Denton,Clayton Tucker,D,190169,counting,253,253
+statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,48121,Denton,Nate Sheets,R,192070,counting,253,253
+statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,48121,Denton,Austin R. Kelly,L,7958,counting,253,253
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,48119,Delta,Clayton Tucker,D,377,counting,8,8
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,48119,Delta,Nate Sheets,R,1594,counting,8,8
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,48119,Delta,Austin R. Kelly,L,27,counting,8,8
@@ -8425,9 +8425,9 @@ statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,48031,Bla
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,48029,Bexar,Clayton Tucker,D,408042,counting,807,807
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,48029,Bexar,Nate Sheets,R,220095,counting,807,807
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,48029,Bexar,Austin R. Kelly,L,14851,counting,807,807
-statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,48027,Bell,Clayton Tucker,D,41431,counting,1,73
-statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,48027,Bell,Nate Sheets,R,39565,counting,1,73
-statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,48027,Bell,Austin R. Kelly,L,1775,counting,1,73
+statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,48027,Bell,Clayton Tucker,D,52602,counting,73,73
+statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,48027,Bell,Nate Sheets,R,53942,counting,73,73
+statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,48027,Bell,Austin R. Kelly,L,2791,counting,73,73
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,48025,Bee,Clayton Tucker,D,2782,counting,14,14
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,48025,Bee,Nate Sheets,R,4032,counting,14,14
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,48025,Bee,Austin R. Kelly,L,155,counting,14,14
@@ -8755,8 +8755,8 @@ statewide,2026 Railroad Commissioner,2026,Railroad Commissioner,,48309,Mclennan,
 statewide,2026 Railroad Commissioner,2026,Railroad Commissioner,,48307,Mcculloch,Jon Rosenthal,D,453,counting,10,10
 statewide,2026 Railroad Commissioner,2026,Railroad Commissioner,,48307,Mcculloch,Bo French,R,2159,counting,10,10
 statewide,2026 Railroad Commissioner,2026,Railroad Commissioner,,48307,Mcculloch,Arthur Dibianca,L,40,counting,10,10
-statewide,2026 Railroad Commissioner,2026,Railroad Commissioner,,48323,Maverick,Jon Rosenthal,D,5313,counting,1,17
-statewide,2026 Railroad Commissioner,2026,Railroad Commissioner,,48323,Maverick,Bo French,R,2200,counting,1,17
+statewide,2026 Railroad Commissioner,2026,Railroad Commissioner,,48323,Maverick,Jon Rosenthal,D,5432,counting,1,17
+statewide,2026 Railroad Commissioner,2026,Railroad Commissioner,,48323,Maverick,Bo French,R,2219,counting,1,17
 statewide,2026 Railroad Commissioner,2026,Railroad Commissioner,,48323,Maverick,Arthur Dibianca,L,331,counting,1,17
 statewide,2026 Railroad Commissioner,2026,Railroad Commissioner,,48321,Matagorda,Jon Rosenthal,D,3419,counting,19,19
 statewide,2026 Railroad Commissioner,2026,Railroad Commissioner,,48321,Matagorda,Bo French,R,7121,counting,19,19
@@ -9046,9 +9046,9 @@ statewide,2026 Railroad Commissioner,2026,Railroad Commissioner,,48125,Dickens,A
 statewide,2026 Railroad Commissioner,2026,Railroad Commissioner,,48123,Dewitt,Jon Rosenthal,D,1241,counting,11,11
 statewide,2026 Railroad Commissioner,2026,Railroad Commissioner,,48123,Dewitt,Bo French,R,4887,counting,11,11
 statewide,2026 Railroad Commissioner,2026,Railroad Commissioner,,48123,Dewitt,Arthur Dibianca,L,68,counting,11,11
-statewide,2026 Railroad Commissioner,2026,Railroad Commissioner,,48121,Denton,Jon Rosenthal,D,146354,counting,253,253
-statewide,2026 Railroad Commissioner,2026,Railroad Commissioner,,48121,Denton,Bo French,R,137848,counting,253,253
-statewide,2026 Railroad Commissioner,2026,Railroad Commissioner,,48121,Denton,Arthur Dibianca,L,5148,counting,253,253
+statewide,2026 Railroad Commissioner,2026,Railroad Commissioner,,48121,Denton,Jon Rosenthal,D,194504,counting,253,253
+statewide,2026 Railroad Commissioner,2026,Railroad Commissioner,,48121,Denton,Bo French,R,187651,counting,253,253
+statewide,2026 Railroad Commissioner,2026,Railroad Commissioner,,48121,Denton,Arthur Dibianca,L,7890,counting,253,253
 statewide,2026 Railroad Commissioner,2026,Railroad Commissioner,,48119,Delta,Jon Rosenthal,D,370,counting,8,8
 statewide,2026 Railroad Commissioner,2026,Railroad Commissioner,,48119,Delta,Bo French,R,1590,counting,8,8
 statewide,2026 Railroad Commissioner,2026,Railroad Commissioner,,48119,Delta,Arthur Dibianca,L,33,counting,8,8
@@ -9187,9 +9187,9 @@ statewide,2026 Railroad Commissioner,2026,Railroad Commissioner,,48031,Blanco,Ar
 statewide,2026 Railroad Commissioner,2026,Railroad Commissioner,,48029,Bexar,Jon Rosenthal,D,412910,counting,807,807
 statewide,2026 Railroad Commissioner,2026,Railroad Commissioner,,48029,Bexar,Bo French,R,216732,counting,807,807
 statewide,2026 Railroad Commissioner,2026,Railroad Commissioner,,48029,Bexar,Arthur Dibianca,L,12766,counting,807,807
-statewide,2026 Railroad Commissioner,2026,Railroad Commissioner,,48027,Bell,Jon Rosenthal,D,41596,counting,1,73
-statewide,2026 Railroad Commissioner,2026,Railroad Commissioner,,48027,Bell,Bo French,R,39489,counting,1,73
-statewide,2026 Railroad Commissioner,2026,Railroad Commissioner,,48027,Bell,Arthur Dibianca,L,1516,counting,1,73
+statewide,2026 Railroad Commissioner,2026,Railroad Commissioner,,48027,Bell,Jon Rosenthal,D,52772,counting,73,73
+statewide,2026 Railroad Commissioner,2026,Railroad Commissioner,,48027,Bell,Bo French,R,53953,counting,73,73
+statewide,2026 Railroad Commissioner,2026,Railroad Commissioner,,48027,Bell,Arthur Dibianca,L,2343,counting,73,73
 statewide,2026 Railroad Commissioner,2026,Railroad Commissioner,,48025,Bee,Jon Rosenthal,D,2797,counting,14,14
 statewide,2026 Railroad Commissioner,2026,Railroad Commissioner,,48025,Bee,Bo French,R,4016,counting,14,14
 statewide,2026 Railroad Commissioner,2026,Railroad Commissioner,,48025,Bee,Arthur Dibianca,L,125,counting,14,14
@@ -9421,8 +9421,8 @@ statewide,"2026 Supreme Court, Chief Justice",2026,"Supreme Court, Chief Justice
 statewide,"2026 Supreme Court, Chief Justice",2026,"Supreme Court, Chief Justice",,48309,Mclennan,Jimmy Blacklock,R,48209,counting,96,96
 statewide,"2026 Supreme Court, Chief Justice",2026,"Supreme Court, Chief Justice",,48307,Mcculloch,Maggie Ellis,D,441,counting,10,10
 statewide,"2026 Supreme Court, Chief Justice",2026,"Supreme Court, Chief Justice",,48307,Mcculloch,Jimmy Blacklock,R,2207,counting,10,10
-statewide,"2026 Supreme Court, Chief Justice",2026,"Supreme Court, Chief Justice",,48323,Maverick,Maggie Ellis,D,5432,counting,1,17
-statewide,"2026 Supreme Court, Chief Justice",2026,"Supreme Court, Chief Justice",,48323,Maverick,Jimmy Blacklock,R,2417,counting,1,17
+statewide,"2026 Supreme Court, Chief Justice",2026,"Supreme Court, Chief Justice",,48323,Maverick,Maggie Ellis,D,5546,counting,1,17
+statewide,"2026 Supreme Court, Chief Justice",2026,"Supreme Court, Chief Justice",,48323,Maverick,Jimmy Blacklock,R,2437,counting,1,17
 statewide,"2026 Supreme Court, Chief Justice",2026,"Supreme Court, Chief Justice",,48321,Matagorda,Maggie Ellis,D,3447,counting,19,19
 statewide,"2026 Supreme Court, Chief Justice",2026,"Supreme Court, Chief Justice",,48321,Matagorda,Jimmy Blacklock,R,7341,counting,19,19
 statewide,"2026 Supreme Court, Chief Justice",2026,"Supreme Court, Chief Justice",,48319,Mason,Maggie Ellis,D,419,counting,5,5
@@ -9615,8 +9615,8 @@ statewide,"2026 Supreme Court, Chief Justice",2026,"Supreme Court, Chief Justice
 statewide,"2026 Supreme Court, Chief Justice",2026,"Supreme Court, Chief Justice",,48125,Dickens,Jimmy Blacklock,R,622,counting,7,7
 statewide,"2026 Supreme Court, Chief Justice",2026,"Supreme Court, Chief Justice",,48123,Dewitt,Maggie Ellis,D,1243,counting,11,11
 statewide,"2026 Supreme Court, Chief Justice",2026,"Supreme Court, Chief Justice",,48123,Dewitt,Jimmy Blacklock,R,4969,counting,11,11
-statewide,"2026 Supreme Court, Chief Justice",2026,"Supreme Court, Chief Justice",,48121,Denton,Maggie Ellis,D,146337,counting,253,253
-statewide,"2026 Supreme Court, Chief Justice",2026,"Supreme Court, Chief Justice",,48121,Denton,Jimmy Blacklock,R,143226,counting,253,253
+statewide,"2026 Supreme Court, Chief Justice",2026,"Supreme Court, Chief Justice",,48121,Denton,Maggie Ellis,D,195301,counting,253,253
+statewide,"2026 Supreme Court, Chief Justice",2026,"Supreme Court, Chief Justice",,48121,Denton,Jimmy Blacklock,R,195126,counting,253,253
 statewide,"2026 Supreme Court, Chief Justice",2026,"Supreme Court, Chief Justice",,48119,Delta,Maggie Ellis,D,380,counting,8,8
 statewide,"2026 Supreme Court, Chief Justice",2026,"Supreme Court, Chief Justice",,48119,Delta,Jimmy Blacklock,R,1607,counting,8,8
 statewide,"2026 Supreme Court, Chief Justice",2026,"Supreme Court, Chief Justice",,48117,Deaf Smith,Maggie Ellis,D,1323,counting,5,5
@@ -9709,8 +9709,8 @@ statewide,"2026 Supreme Court, Chief Justice",2026,"Supreme Court, Chief Justice
 statewide,"2026 Supreme Court, Chief Justice",2026,"Supreme Court, Chief Justice",,48031,Blanco,Jimmy Blacklock,R,5561,counting,6,6
 statewide,"2026 Supreme Court, Chief Justice",2026,"Supreme Court, Chief Justice",,48029,Bexar,Maggie Ellis,D,417720,counting,807,807
 statewide,"2026 Supreme Court, Chief Justice",2026,"Supreme Court, Chief Justice",,48029,Bexar,Jimmy Blacklock,R,226322,counting,807,807
-statewide,"2026 Supreme Court, Chief Justice",2026,"Supreme Court, Chief Justice",,48027,Bell,Maggie Ellis,D,41558,counting,1,73
-statewide,"2026 Supreme Court, Chief Justice",2026,"Supreme Court, Chief Justice",,48027,Bell,Jimmy Blacklock,R,40787,counting,1,73
+statewide,"2026 Supreme Court, Chief Justice",2026,"Supreme Court, Chief Justice",,48027,Bell,Maggie Ellis,D,52980,counting,73,73
+statewide,"2026 Supreme Court, Chief Justice",2026,"Supreme Court, Chief Justice",,48027,Bell,Jimmy Blacklock,R,55788,counting,73,73
 statewide,"2026 Supreme Court, Chief Justice",2026,"Supreme Court, Chief Justice",,48025,Bee,Maggie Ellis,D,2848,counting,14,14
 statewide,"2026 Supreme Court, Chief Justice",2026,"Supreme Court, Chief Justice",,48025,Bee,Jimmy Blacklock,R,4123,counting,14,14
 statewide,"2026 Supreme Court, Chief Justice",2026,"Supreme Court, Chief Justice",,48023,Baylor,Maggie Ellis,D,170,counting,5,5
@@ -9929,8 +9929,8 @@ statewide,"2026 Supreme Court, Place 2 (unexpired term)",2026,"Supreme Court, Pl
 statewide,"2026 Supreme Court, Place 2 (unexpired term)",2026,"Supreme Court, Place 2 (unexpired term)",,48309,Mclennan,James P. Sullivan,R,48385,counting,96,96
 statewide,"2026 Supreme Court, Place 2 (unexpired term)",2026,"Supreme Court, Place 2 (unexpired term)",,48307,Mcculloch,Chari Kelly,D,438,counting,10,10
 statewide,"2026 Supreme Court, Place 2 (unexpired term)",2026,"Supreme Court, Place 2 (unexpired term)",,48307,Mcculloch,James P. Sullivan,R,2203,counting,10,10
-statewide,"2026 Supreme Court, Place 2 (unexpired term)",2026,"Supreme Court, Place 2 (unexpired term)",,48323,Maverick,Chari Kelly,D,5442,counting,1,17
-statewide,"2026 Supreme Court, Place 2 (unexpired term)",2026,"Supreme Court, Place 2 (unexpired term)",,48323,Maverick,James P. Sullivan,R,2531,counting,1,17
+statewide,"2026 Supreme Court, Place 2 (unexpired term)",2026,"Supreme Court, Place 2 (unexpired term)",,48323,Maverick,Chari Kelly,D,5558,counting,1,17
+statewide,"2026 Supreme Court, Place 2 (unexpired term)",2026,"Supreme Court, Place 2 (unexpired term)",,48323,Maverick,James P. Sullivan,R,2553,counting,1,17
 statewide,"2026 Supreme Court, Place 2 (unexpired term)",2026,"Supreme Court, Place 2 (unexpired term)",,48321,Matagorda,Chari Kelly,D,3387,counting,19,19
 statewide,"2026 Supreme Court, Place 2 (unexpired term)",2026,"Supreme Court, Place 2 (unexpired term)",,48321,Matagorda,James P. Sullivan,R,7379,counting,19,19
 statewide,"2026 Supreme Court, Place 2 (unexpired term)",2026,"Supreme Court, Place 2 (unexpired term)",,48319,Mason,Chari Kelly,D,406,counting,5,5
@@ -10123,8 +10123,8 @@ statewide,"2026 Supreme Court, Place 2 (unexpired term)",2026,"Supreme Court, Pl
 statewide,"2026 Supreme Court, Place 2 (unexpired term)",2026,"Supreme Court, Place 2 (unexpired term)",,48125,Dickens,James P. Sullivan,R,614,counting,7,7
 statewide,"2026 Supreme Court, Place 2 (unexpired term)",2026,"Supreme Court, Place 2 (unexpired term)",,48123,Dewitt,Chari Kelly,D,1227,counting,11,11
 statewide,"2026 Supreme Court, Place 2 (unexpired term)",2026,"Supreme Court, Place 2 (unexpired term)",,48123,Dewitt,James P. Sullivan,R,4973,counting,11,11
-statewide,"2026 Supreme Court, Place 2 (unexpired term)",2026,"Supreme Court, Place 2 (unexpired term)",,48121,Denton,Chari Kelly,D,145450,counting,253,253
-statewide,"2026 Supreme Court, Place 2 (unexpired term)",2026,"Supreme Court, Place 2 (unexpired term)",,48121,Denton,James P. Sullivan,R,142673,counting,253,253
+statewide,"2026 Supreme Court, Place 2 (unexpired term)",2026,"Supreme Court, Place 2 (unexpired term)",,48121,Denton,Chari Kelly,D,193805,counting,253,253
+statewide,"2026 Supreme Court, Place 2 (unexpired term)",2026,"Supreme Court, Place 2 (unexpired term)",,48121,Denton,James P. Sullivan,R,194620,counting,253,253
 statewide,"2026 Supreme Court, Place 2 (unexpired term)",2026,"Supreme Court, Place 2 (unexpired term)",,48119,Delta,Chari Kelly,D,368,counting,8,8
 statewide,"2026 Supreme Court, Place 2 (unexpired term)",2026,"Supreme Court, Place 2 (unexpired term)",,48119,Delta,James P. Sullivan,R,1615,counting,8,8
 statewide,"2026 Supreme Court, Place 2 (unexpired term)",2026,"Supreme Court, Place 2 (unexpired term)",,48117,Deaf Smith,Chari Kelly,D,1311,counting,5,5
@@ -10217,8 +10217,8 @@ statewide,"2026 Supreme Court, Place 2 (unexpired term)",2026,"Supreme Court, Pl
 statewide,"2026 Supreme Court, Place 2 (unexpired term)",2026,"Supreme Court, Place 2 (unexpired term)",,48031,Blanco,James P. Sullivan,R,5540,counting,6,6
 statewide,"2026 Supreme Court, Place 2 (unexpired term)",2026,"Supreme Court, Place 2 (unexpired term)",,48029,Bexar,Chari Kelly,D,411547,counting,807,807
 statewide,"2026 Supreme Court, Place 2 (unexpired term)",2026,"Supreme Court, Place 2 (unexpired term)",,48029,Bexar,James P. Sullivan,R,227209,counting,807,807
-statewide,"2026 Supreme Court, Place 2 (unexpired term)",2026,"Supreme Court, Place 2 (unexpired term)",,48027,Bell,Chari Kelly,D,41629,counting,1,73
-statewide,"2026 Supreme Court, Place 2 (unexpired term)",2026,"Supreme Court, Place 2 (unexpired term)",,48027,Bell,James P. Sullivan,R,40631,counting,1,73
+statewide,"2026 Supreme Court, Place 2 (unexpired term)",2026,"Supreme Court, Place 2 (unexpired term)",,48027,Bell,Chari Kelly,D,52919,counting,73,73
+statewide,"2026 Supreme Court, Place 2 (unexpired term)",2026,"Supreme Court, Place 2 (unexpired term)",,48027,Bell,James P. Sullivan,R,55680,counting,73,73
 statewide,"2026 Supreme Court, Place 2 (unexpired term)",2026,"Supreme Court, Place 2 (unexpired term)",,48025,Bee,Chari Kelly,D,2802,counting,14,14
 statewide,"2026 Supreme Court, Place 2 (unexpired term)",2026,"Supreme Court, Place 2 (unexpired term)",,48025,Bee,James P. Sullivan,R,4162,counting,14,14
 statewide,"2026 Supreme Court, Place 2 (unexpired term)",2026,"Supreme Court, Place 2 (unexpired term)",,48023,Baylor,Chari Kelly,D,170,counting,5,5
@@ -10437,8 +10437,8 @@ statewide,"2026 Supreme Court, Place 7",2026,"Supreme Court, Place 7",,48309,Mcl
 statewide,"2026 Supreme Court, Place 7",2026,"Supreme Court, Place 7",,48309,Mclennan,Kyle Hawkins,R,47720,counting,96,96
 statewide,"2026 Supreme Court, Place 7",2026,"Supreme Court, Place 7",,48307,Mcculloch,Kristen Hawkins,D,447,counting,10,10
 statewide,"2026 Supreme Court, Place 7",2026,"Supreme Court, Place 7",,48307,Mcculloch,Kyle Hawkins,R,2198,counting,10,10
-statewide,"2026 Supreme Court, Place 7",2026,"Supreme Court, Place 7",,48323,Maverick,Kristen Hawkins,D,5450,counting,1,17
-statewide,"2026 Supreme Court, Place 7",2026,"Supreme Court, Place 7",,48323,Maverick,Kyle Hawkins,R,2396,counting,1,17
+statewide,"2026 Supreme Court, Place 7",2026,"Supreme Court, Place 7",,48323,Maverick,Kristen Hawkins,D,5562,counting,1,17
+statewide,"2026 Supreme Court, Place 7",2026,"Supreme Court, Place 7",,48323,Maverick,Kyle Hawkins,R,2413,counting,1,17
 statewide,"2026 Supreme Court, Place 7",2026,"Supreme Court, Place 7",,48321,Matagorda,Kristen Hawkins,D,3451,counting,19,19
 statewide,"2026 Supreme Court, Place 7",2026,"Supreme Court, Place 7",,48321,Matagorda,Kyle Hawkins,R,7305,counting,19,19
 statewide,"2026 Supreme Court, Place 7",2026,"Supreme Court, Place 7",,48319,Mason,Kristen Hawkins,D,424,counting,5,5
@@ -10631,8 +10631,8 @@ statewide,"2026 Supreme Court, Place 7",2026,"Supreme Court, Place 7",,48125,Dic
 statewide,"2026 Supreme Court, Place 7",2026,"Supreme Court, Place 7",,48125,Dickens,Kyle Hawkins,R,616,counting,7,7
 statewide,"2026 Supreme Court, Place 7",2026,"Supreme Court, Place 7",,48123,Dewitt,Kristen Hawkins,D,1261,counting,11,11
 statewide,"2026 Supreme Court, Place 7",2026,"Supreme Court, Place 7",,48123,Dewitt,Kyle Hawkins,R,4927,counting,11,11
-statewide,"2026 Supreme Court, Place 7",2026,"Supreme Court, Place 7",,48121,Denton,Kristen Hawkins,D,146868,counting,253,253
-statewide,"2026 Supreme Court, Place 7",2026,"Supreme Court, Place 7",,48121,Denton,Kyle Hawkins,R,141446,counting,253,253
+statewide,"2026 Supreme Court, Place 7",2026,"Supreme Court, Place 7",,48121,Denton,Kristen Hawkins,D,195948,counting,253,253
+statewide,"2026 Supreme Court, Place 7",2026,"Supreme Court, Place 7",,48121,Denton,Kyle Hawkins,R,192696,counting,253,253
 statewide,"2026 Supreme Court, Place 7",2026,"Supreme Court, Place 7",,48119,Delta,Kristen Hawkins,D,378,counting,8,8
 statewide,"2026 Supreme Court, Place 7",2026,"Supreme Court, Place 7",,48119,Delta,Kyle Hawkins,R,1609,counting,8,8
 statewide,"2026 Supreme Court, Place 7",2026,"Supreme Court, Place 7",,48117,Deaf Smith,Kristen Hawkins,D,1337,counting,5,5
@@ -10725,8 +10725,8 @@ statewide,"2026 Supreme Court, Place 7",2026,"Supreme Court, Place 7",,48031,Bla
 statewide,"2026 Supreme Court, Place 7",2026,"Supreme Court, Place 7",,48031,Blanco,Kyle Hawkins,R,5516,counting,6,6
 statewide,"2026 Supreme Court, Place 7",2026,"Supreme Court, Place 7",,48029,Bexar,Kristen Hawkins,D,415418,counting,807,807
 statewide,"2026 Supreme Court, Place 7",2026,"Supreme Court, Place 7",,48029,Bexar,Kyle Hawkins,R,222213,counting,807,807
-statewide,"2026 Supreme Court, Place 7",2026,"Supreme Court, Place 7",,48027,Bell,Kristen Hawkins,D,41978,counting,1,73
-statewide,"2026 Supreme Court, Place 7",2026,"Supreme Court, Place 7",,48027,Bell,Kyle Hawkins,R,40415,counting,1,73
+statewide,"2026 Supreme Court, Place 7",2026,"Supreme Court, Place 7",,48027,Bell,Kristen Hawkins,D,53518,counting,73,73
+statewide,"2026 Supreme Court, Place 7",2026,"Supreme Court, Place 7",,48027,Bell,Kyle Hawkins,R,55264,counting,73,73
 statewide,"2026 Supreme Court, Place 7",2026,"Supreme Court, Place 7",,48025,Bee,Kristen Hawkins,D,2850,counting,14,14
 statewide,"2026 Supreme Court, Place 7",2026,"Supreme Court, Place 7",,48025,Bee,Kyle Hawkins,R,4106,counting,14,14
 statewide,"2026 Supreme Court, Place 7",2026,"Supreme Court, Place 7",,48023,Baylor,Kristen Hawkins,D,168,counting,5,5
@@ -10945,8 +10945,8 @@ statewide,"2026 Supreme Court, Place 8",2026,"Supreme Court, Place 8",,48309,Mcl
 statewide,"2026 Supreme Court, Place 8",2026,"Supreme Court, Place 8",,48309,Mclennan,Brett Busby,R,48480,counting,96,96
 statewide,"2026 Supreme Court, Place 8",2026,"Supreme Court, Place 8",,48307,Mcculloch,Gisela D. Triana,D,445,counting,10,10
 statewide,"2026 Supreme Court, Place 8",2026,"Supreme Court, Place 8",,48307,Mcculloch,Brett Busby,R,2197,counting,10,10
-statewide,"2026 Supreme Court, Place 8",2026,"Supreme Court, Place 8",,48323,Maverick,Gisela D. Triana,D,5530,counting,1,17
-statewide,"2026 Supreme Court, Place 8",2026,"Supreme Court, Place 8",,48323,Maverick,Brett Busby,R,2267,counting,1,17
+statewide,"2026 Supreme Court, Place 8",2026,"Supreme Court, Place 8",,48323,Maverick,Gisela D. Triana,D,5645,counting,1,17
+statewide,"2026 Supreme Court, Place 8",2026,"Supreme Court, Place 8",,48323,Maverick,Brett Busby,R,2284,counting,1,17
 statewide,"2026 Supreme Court, Place 8",2026,"Supreme Court, Place 8",,48321,Matagorda,Gisela D. Triana,D,3358,counting,19,19
 statewide,"2026 Supreme Court, Place 8",2026,"Supreme Court, Place 8",,48321,Matagorda,Brett Busby,R,7363,counting,19,19
 statewide,"2026 Supreme Court, Place 8",2026,"Supreme Court, Place 8",,48319,Mason,Gisela D. Triana,D,398,counting,5,5
@@ -11139,8 +11139,8 @@ statewide,"2026 Supreme Court, Place 8",2026,"Supreme Court, Place 8",,48125,Dic
 statewide,"2026 Supreme Court, Place 8",2026,"Supreme Court, Place 8",,48125,Dickens,Brett Busby,R,616,counting,7,7
 statewide,"2026 Supreme Court, Place 8",2026,"Supreme Court, Place 8",,48123,Dewitt,Gisela D. Triana,D,1211,counting,11,11
 statewide,"2026 Supreme Court, Place 8",2026,"Supreme Court, Place 8",,48123,Dewitt,Brett Busby,R,4959,counting,11,11
-statewide,"2026 Supreme Court, Place 8",2026,"Supreme Court, Place 8",,48121,Denton,Gisela D. Triana,D,145145,counting,253,253
-statewide,"2026 Supreme Court, Place 8",2026,"Supreme Court, Place 8",,48121,Denton,Brett Busby,R,143675,counting,253,253
+statewide,"2026 Supreme Court, Place 8",2026,"Supreme Court, Place 8",,48121,Denton,Gisela D. Triana,D,193604,counting,253,253
+statewide,"2026 Supreme Court, Place 8",2026,"Supreme Court, Place 8",,48121,Denton,Brett Busby,R,195792,counting,253,253
 statewide,"2026 Supreme Court, Place 8",2026,"Supreme Court, Place 8",,48119,Delta,Gisela D. Triana,D,359,counting,8,8
 statewide,"2026 Supreme Court, Place 8",2026,"Supreme Court, Place 8",,48119,Delta,Brett Busby,R,1624,counting,8,8
 statewide,"2026 Supreme Court, Place 8",2026,"Supreme Court, Place 8",,48117,Deaf Smith,Gisela D. Triana,D,1321,counting,5,5
@@ -11233,8 +11233,8 @@ statewide,"2026 Supreme Court, Place 8",2026,"Supreme Court, Place 8",,48031,Bla
 statewide,"2026 Supreme Court, Place 8",2026,"Supreme Court, Place 8",,48031,Blanco,Brett Busby,R,5562,counting,6,6
 statewide,"2026 Supreme Court, Place 8",2026,"Supreme Court, Place 8",,48029,Bexar,Gisela D. Triana,D,413468,counting,807,807
 statewide,"2026 Supreme Court, Place 8",2026,"Supreme Court, Place 8",,48029,Bexar,Brett Busby,R,224061,counting,807,807
-statewide,"2026 Supreme Court, Place 8",2026,"Supreme Court, Place 8",,48027,Bell,Gisela D. Triana,D,41595,counting,1,73
-statewide,"2026 Supreme Court, Place 8",2026,"Supreme Court, Place 8",,48027,Bell,Brett Busby,R,40681,counting,1,73
+statewide,"2026 Supreme Court, Place 8",2026,"Supreme Court, Place 8",,48027,Bell,Gisela D. Triana,D,53001,counting,73,73
+statewide,"2026 Supreme Court, Place 8",2026,"Supreme Court, Place 8",,48027,Bell,Brett Busby,R,55612,counting,73,73
 statewide,"2026 Supreme Court, Place 8",2026,"Supreme Court, Place 8",,48025,Bee,Gisela D. Triana,D,2803,counting,14,14
 statewide,"2026 Supreme Court, Place 8",2026,"Supreme Court, Place 8",,48025,Bee,Brett Busby,R,4131,counting,14,14
 statewide,"2026 Supreme Court, Place 8",2026,"Supreme Court, Place 8",,48023,Baylor,Gisela D. Triana,D,159,counting,5,5
@@ -11469,10 +11469,10 @@ house,2026 House,2026,House,planh2316,52,,Caroline Harris Davila,R,48404,final,6
 house,2026 House,2026,House,planh2316,52,,Chris Jimenez,D,56535,final,69,69
 house,2026 House,2026,House,planh2316,53,,Kathryn Hartmann,D,22539,final,136,136
 house,2026 House,2026,House,planh2316,53,,Wes Virdell,R,60766,final,136,136
-house,2026 House,2026,House,planh2316,54,,Brad Buckley,R,18419,final,37,37
-house,2026 House,2026,House,planh2316,54,,Dawn Richardson,D,17266,final,37,37
-house,2026 House,2026,House,planh2316,55,,Hillary Hickland,R,22502,final,37,37
-house,2026 House,2026,House,planh2316,55,,Amelia Rabroker,D,24131,final,37,37
+house,2026 House,2026,House,planh2316,54,,Brad Buckley,R,26146,final,37,37
+house,2026 House,2026,House,planh2316,54,,Dawn Richardson,D,22372,final,37,37
+house,2026 House,2026,House,planh2316,55,,Hillary Hickland,R,29959,final,37,37
+house,2026 House,2026,House,planh2316,55,,Amelia Rabroker,D,30378,final,37,37
 house,2026 House,2026,House,planh2316,56,,Pat Curry,R,42125,final,67,67
 house,2026 House,2026,House,planh2316,56,,Ashley Bean Thornton,D,26899,final,67,67
 house,2026 House,2026,House,planh2316,57,,Darren Hamilton,L,1221,counting,0,56
@@ -11515,8 +11515,8 @@ house,2026 House,2026,House,planh2316,72,,Drew Darby,R,38959,final,115,115
 house,2026 House,2026,House,planh2316,72,,Shiloh Salazar,D,14314,final,115,115
 house,2026 House,2026,House,planh2316,73,,Merrie Fox,D,39380,final,61,61
 house,2026 House,2026,House,planh2316,73,,Carrie Isaac,R,73350,final,61,61
-house,2026 House,2026,House,planh2316,74,,Robert Garza,R,15972,counting,132,148
-house,2026 House,2026,House,planh2316,74,,Eddie Morales Jr,D,28356,counting,132,148
+house,2026 House,2026,House,planh2316,74,,Robert Garza,R,15989,counting,132,148
+house,2026 House,2026,House,planh2316,74,,Eddie Morales Jr,D,28520,counting,132,148
 house,2026 House,2026,House,planh2316,75,,Mary E Gonzalez,D,36534,final,64,64
 house,2026 House,2026,House,planh2316,76,,Linda Howell,R,18197,counting,27,47
 house,2026 House,2026,House,planh2316,76,,Suleman Lalani,D,36295,counting,27,47
@@ -11574,16 +11574,16 @@ senate,2026 Senate,2026,Senate,plans2168,11,,Dennis Paul,R,162761,counting,153,2
 senate,2026 Senate,2026,Senate,plans2168,13,,Borris L. Miles,D,165621,counting,25,247
 senate,2026 Senate,2026,Senate,plans2168,18,,Erica Gillum,D,142849,counting,276,350
 senate,2026 Senate,2026,Senate,plans2168,18,,Lois W. Kolkhorst,R,181251,counting,276,350
-senate,2026 Senate,2026,Senate,plans2168,19,,Marcus Cardenas,R,97207,counting,353,406
-senate,2026 Senate,2026,Senate,plans2168,19,,Roland Gutierrez,D,175000,counting,353,406
+senate,2026 Senate,2026,Senate,plans2168,19,,Marcus Cardenas,R,97223,counting,353,406
+senate,2026 Senate,2026,Senate,plans2168,19,,Roland Gutierrez,D,175152,counting,353,406
 senate,2026 Senate,2026,Senate,plans2168,2,,Keenen Colbert,D,162242,counting,169,264
 senate,2026 Senate,2026,Senate,plans2168,2,,Bob Hall,R,173596,counting,169,264
 senate,2026 Senate,2026,Senate,plans2168,21,,Julie Dahlberg,R,78758,counting,279,291
 senate,2026 Senate,2026,Senate,plans2168,21,,Judith Zaffirini,D,175742,counting,279,291
 senate,2026 Senate,2026,Senate,plans2168,22,,David Cook,R,186433,counting,252,353
 senate,2026 Senate,2026,Senate,plans2168,22,,Amy Martinez-Salas,D,146611,counting,252,353
-senate,2026 Senate,2026,Senate,plans2168,24,,Pete Flores,R,176903,counting,204,276
-senate,2026 Senate,2026,Senate,plans2168,24,,Joe Paz Herrera,D,135769,counting,204,276
+senate,2026 Senate,2026,Senate,plans2168,24,,Pete Flores,R,192054,final,276,276
+senate,2026 Senate,2026,Senate,plans2168,24,,Joe Paz Herrera,D,147026,final,276,276
 senate,2026 Senate,2026,Senate,plans2168,26,,Jose Menendez,D,179332,final,392,392
 senate,2026 Senate,2026,Senate,plans2168,26,,Julián Villarreal,G,33986,final,392,392
 senate,2026 Senate,2026,Senate,plans2168,28,,Charles Perry,R,129337,counting,409,529
