@@ -2,9 +2,9 @@ level,race,year,office,plan,unit,unit_name,candidate,party,votes,status,reportin
 statewide,2026 Attorney General,2026,Attorney General,,04001,Apache,Kris Mayes,D,8206,counting,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04001,Apache,Warren Petersen,R,4009,counting,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04001,Apache,Write-in,I,12,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,04003,Cochise,Kris Mayes,D,15318,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,04003,Cochise,Warren Petersen,R,14615,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,04003,Cochise,Write-in,I,27,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,04003,Cochise,Warren Petersen,R,17047,counting,100,100
+statewide,2026 Attorney General,2026,Attorney General,,04003,Cochise,Kris Mayes,D,16379,counting,100,100
+statewide,2026 Attorney General,2026,Attorney General,,04003,Cochise,Write-in,I,29,counting,100,100
 statewide,2026 Attorney General,2026,Attorney General,,04005,Coconino,Kris Mayes,D,24310,counting,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04005,Coconino,Warren Petersen,R,9872,counting,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04005,Coconino,Write-in,I,24,counting,0,100
@@ -50,12 +50,12 @@ statewide,2026 Corporation Commission,2026,Corporation Commission,,04001,Apache,
 statewide,2026 Corporation Commission,2026,Corporation Commission,,04001,Apache,Ralph Heap,R,3393,counting,0,100
 statewide,2026 Corporation Commission,2026,Corporation Commission,,04001,Apache,Mike Cease,G,274,counting,0,100
 statewide,2026 Corporation Commission,2026,Corporation Commission,,04001,Apache,Write-in,I,12,counting,0,100
-statewide,2026 Corporation Commission,2026,Corporation Commission,,04003,Cochise,Kevin Thompson,R,14385,counting,0,100
-statewide,2026 Corporation Commission,2026,Corporation Commission,,04003,Cochise,Clara Pratte,D,13540,counting,0,100
-statewide,2026 Corporation Commission,2026,Corporation Commission,,04003,Cochise,Ralph Heap,R,13168,counting,0,100
-statewide,2026 Corporation Commission,2026,Corporation Commission,,04003,Cochise,Jonathon Hill,D,12528,counting,0,100
-statewide,2026 Corporation Commission,2026,Corporation Commission,,04003,Cochise,Mike Cease,G,1057,counting,0,100
-statewide,2026 Corporation Commission,2026,Corporation Commission,,04003,Cochise,Write-in,I,22,counting,0,100
+statewide,2026 Corporation Commission,2026,Corporation Commission,,04003,Cochise,Kevin Thompson,R,16681,counting,100,100
+statewide,2026 Corporation Commission,2026,Corporation Commission,,04003,Cochise,Ralph Heap,R,15273,counting,100,100
+statewide,2026 Corporation Commission,2026,Corporation Commission,,04003,Cochise,Clara Pratte,D,14455,counting,100,100
+statewide,2026 Corporation Commission,2026,Corporation Commission,,04003,Cochise,Jonathon Hill,D,13365,counting,100,100
+statewide,2026 Corporation Commission,2026,Corporation Commission,,04003,Cochise,Mike Cease,G,1155,counting,100,100
+statewide,2026 Corporation Commission,2026,Corporation Commission,,04003,Cochise,Write-in,I,28,counting,100,100
 statewide,2026 Corporation Commission,2026,Corporation Commission,,04005,Coconino,Clara Pratte,D,22398,counting,0,100
 statewide,2026 Corporation Commission,2026,Corporation Commission,,04005,Coconino,Jonathon Hill,D,22059,counting,0,100
 statewide,2026 Corporation Commission,2026,Corporation Commission,,04005,Coconino,Kevin Thompson,R,9610,counting,0,100
@@ -134,6 +134,111 @@ statewide,2026 Corporation Commission,2026,Corporation Commission,,04027,Yuma,Jo
 statewide,2026 Corporation Commission,2026,Corporation Commission,,04027,Yuma,Ralph Heap,R,8655,counting,0,100
 statewide,2026 Corporation Commission,2026,Corporation Commission,,04027,Yuma,Mike Cease,G,626,counting,0,100
 statewide,2026 Corporation Commission,2026,Corporation Commission,,04027,Yuma,Write-in,I,27,counting,0,100
+statewide,2026 Governor,2026,Governor,,04001,Apache,Katie Hobbs,D,8342,final,40.1,100
+statewide,2026 Governor,2026,Governor,,04001,Apache,Andy Biggs,R,3716,final,40.1,100
+statewide,2026 Governor,2026,Governor,,04001,Apache,Risa Lombardo,G,129,final,40.1,100
+statewide,2026 Governor,2026,Governor,,04001,Apache,Teri Hourihan,NL,104,final,40.1,100
+statewide,2026 Governor,2026,Governor,,04001,Apache,Write-in,I,12,final,40.1,100
+statewide,2026 Governor,2026,Governor,,04001,Apache,Alice Novoa,R,0,final,40.1,100
+statewide,2026 Governor,2026,Governor,,04001,Apache,Gertritrude Gonzalez,R,0,final,40.1,100
+statewide,2026 Governor,2026,Governor,,04003,Cochise,Katie Hobbs,D,16709,final,100,100
+statewide,2026 Governor,2026,Governor,,04003,Cochise,Andy Biggs,R,16255,final,100,100
+statewide,2026 Governor,2026,Governor,,04003,Cochise,Risa Lombardo,G,380,final,100,100
+statewide,2026 Governor,2026,Governor,,04003,Cochise,Teri Hourihan,NL,350,final,100,100
+statewide,2026 Governor,2026,Governor,,04003,Cochise,Write-in,I,27,final,100,100
+statewide,2026 Governor,2026,Governor,,04003,Cochise,Alice Novoa,R,1,final,100,100
+statewide,2026 Governor,2026,Governor,,04003,Cochise,Gertritrude Gonzalez,R,0,final,100,100
+statewide,2026 Governor,2026,Governor,,04005,Coconino,Katie Hobbs,D,24525,final,50.7,100
+statewide,2026 Governor,2026,Governor,,04005,Coconino,Andy Biggs,R,9407,final,50.7,100
+statewide,2026 Governor,2026,Governor,,04005,Coconino,Teri Hourihan,NL,347,final,50.7,100
+statewide,2026 Governor,2026,Governor,,04005,Coconino,Risa Lombardo,G,335,final,50.7,100
+statewide,2026 Governor,2026,Governor,,04005,Coconino,Write-in,I,15,final,50.7,100
+statewide,2026 Governor,2026,Governor,,04005,Coconino,Alice Novoa,R,0,final,50.7,100
+statewide,2026 Governor,2026,Governor,,04005,Coconino,Gertritrude Gonzalez,R,0,final,50.7,100
+statewide,2026 Governor,2026,Governor,,04007,Gila,Andy Biggs,R,7776,final,49.4,100
+statewide,2026 Governor,2026,Governor,,04007,Gila,Katie Hobbs,D,4945,final,49.4,100
+statewide,2026 Governor,2026,Governor,,04007,Gila,Teri Hourihan,NL,146,final,49.4,100
+statewide,2026 Governor,2026,Governor,,04007,Gila,Risa Lombardo,G,95,final,49.4,100
+statewide,2026 Governor,2026,Governor,,04007,Gila,Write-in,I,3,final,49.4,100
+statewide,2026 Governor,2026,Governor,,04007,Gila,Alice Novoa,R,0,final,49.4,100
+statewide,2026 Governor,2026,Governor,,04007,Gila,Gertritrude Gonzalez,R,0,final,49.4,100
+statewide,2026 Governor,2026,Governor,,04009,Graham,Andy Biggs,R,5894,final,100,100
+statewide,2026 Governor,2026,Governor,,04009,Graham,Katie Hobbs,D,3088,final,100,100
+statewide,2026 Governor,2026,Governor,,04009,Graham,Teri Hourihan,NL,112,final,100,100
+statewide,2026 Governor,2026,Governor,,04009,Graham,Risa Lombardo,G,88,final,100,100
+statewide,2026 Governor,2026,Governor,,04009,Graham,Write-in,I,9,final,100,100
+statewide,2026 Governor,2026,Governor,,04009,Graham,Alice Novoa,R,0,final,100,100
+statewide,2026 Governor,2026,Governor,,04009,Graham,Gertritrude Gonzalez,R,0,final,100,100
+statewide,2026 Governor,2026,Governor,,04011,Greenlee,Andy Biggs,R,837,final,100,100
+statewide,2026 Governor,2026,Governor,,04011,Greenlee,Katie Hobbs,D,793,final,100,100
+statewide,2026 Governor,2026,Governor,,04011,Greenlee,Risa Lombardo,G,30,final,100,100
+statewide,2026 Governor,2026,Governor,,04011,Greenlee,Teri Hourihan,NL,17,final,100,100
+statewide,2026 Governor,2026,Governor,,04011,Greenlee,Write-in,I,1,final,100,100
+statewide,2026 Governor,2026,Governor,,04011,Greenlee,Alice Novoa,R,0,final,100,100
+statewide,2026 Governor,2026,Governor,,04011,Greenlee,Gertritrude Gonzalez,R,0,final,100,100
+statewide,2026 Governor,2026,Governor,,04012,La Paz,Andy Biggs,R,2049,final,100,100
+statewide,2026 Governor,2026,Governor,,04012,La Paz,Katie Hobbs,D,1165,final,100,100
+statewide,2026 Governor,2026,Governor,,04012,La Paz,Teri Hourihan,NL,43,final,100,100
+statewide,2026 Governor,2026,Governor,,04012,La Paz,Risa Lombardo,G,30,final,100,100
+statewide,2026 Governor,2026,Governor,,04012,La Paz,Write-in,I,4,final,100,100
+statewide,2026 Governor,2026,Governor,,04012,La Paz,Alice Novoa,R,0,final,100,100
+statewide,2026 Governor,2026,Governor,,04012,La Paz,Gertritrude Gonzalez,R,0,final,100,100
+statewide,2026 Governor,2026,Governor,,04013,Maricopa,Katie Hobbs,D,596958,final,52.2,100
+statewide,2026 Governor,2026,Governor,,04013,Maricopa,Andy Biggs,R,393646,final,52.2,100
+statewide,2026 Governor,2026,Governor,,04013,Maricopa,Teri Hourihan,NL,6897,final,52.2,100
+statewide,2026 Governor,2026,Governor,,04013,Maricopa,Risa Lombardo,G,6854,final,52.2,100
+statewide,2026 Governor,2026,Governor,,04013,Maricopa,Write-in,I,564,final,52.2,100
+statewide,2026 Governor,2026,Governor,,04013,Maricopa,Alice Novoa,R,4,final,52.2,100
+statewide,2026 Governor,2026,Governor,,04013,Maricopa,Gertritrude Gonzalez,R,2,final,52.2,100
+statewide,2026 Governor,2026,Governor,,04015,Mohave,Andy Biggs,R,34959,final,50.9,100
+statewide,2026 Governor,2026,Governor,,04015,Mohave,Katie Hobbs,D,16069,final,50.9,100
+statewide,2026 Governor,2026,Governor,,04015,Mohave,Risa Lombardo,G,493,final,50.9,100
+statewide,2026 Governor,2026,Governor,,04015,Mohave,Teri Hourihan,NL,481,final,50.9,100
+statewide,2026 Governor,2026,Governor,,04015,Mohave,Write-in,I,30,final,50.9,100
+statewide,2026 Governor,2026,Governor,,04015,Mohave,Alice Novoa,R,0,final,50.9,100
+statewide,2026 Governor,2026,Governor,,04015,Mohave,Gertritrude Gonzalez,R,0,final,50.9,100
+statewide,2026 Governor,2026,Governor,,04017,Navajo,Andy Biggs,R,9955,final,40.9,100
+statewide,2026 Governor,2026,Governor,,04017,Navajo,Katie Hobbs,D,9257,final,40.9,100
+statewide,2026 Governor,2026,Governor,,04017,Navajo,Teri Hourihan,NL,225,final,40.9,100
+statewide,2026 Governor,2026,Governor,,04017,Navajo,Risa Lombardo,G,220,final,40.9,100
+statewide,2026 Governor,2026,Governor,,04017,Navajo,Write-in,I,13,final,40.9,100
+statewide,2026 Governor,2026,Governor,,04017,Navajo,Alice Novoa,R,0,final,40.9,100
+statewide,2026 Governor,2026,Governor,,04017,Navajo,Gertritrude Gonzalez,R,0,final,40.9,100
+statewide,2026 Governor,2026,Governor,,04019,Pima,Katie Hobbs,D,182225,final,54.1,100
+statewide,2026 Governor,2026,Governor,,04019,Pima,Andy Biggs,R,78888,final,54.1,100
+statewide,2026 Governor,2026,Governor,,04019,Pima,Risa Lombardo,G,2272,final,54.1,100
+statewide,2026 Governor,2026,Governor,,04019,Pima,Teri Hourihan,NL,2084,final,54.1,100
+statewide,2026 Governor,2026,Governor,,04019,Pima,Write-in,I,123,final,54.1,100
+statewide,2026 Governor,2026,Governor,,04019,Pima,Alice Novoa,R,1,final,54.1,100
+statewide,2026 Governor,2026,Governor,,04019,Pima,Gertritrude Gonzalez,R,0,final,54.1,100
+statewide,2026 Governor,2026,Governor,,04021,Pinal,Katie Hobbs,D,49553,final,50,100
+statewide,2026 Governor,2026,Governor,,04021,Pinal,Andy Biggs,R,44512,final,50,100
+statewide,2026 Governor,2026,Governor,,04021,Pinal,Risa Lombardo,G,807,final,50,100
+statewide,2026 Governor,2026,Governor,,04021,Pinal,Teri Hourihan,NL,807,final,50,100
+statewide,2026 Governor,2026,Governor,,04021,Pinal,Write-in,I,61,final,50,100
+statewide,2026 Governor,2026,Governor,,04021,Pinal,Alice Novoa,R,0,final,50,100
+statewide,2026 Governor,2026,Governor,,04021,Pinal,Gertritrude Gonzalez,R,0,final,50,100
+statewide,2026 Governor,2026,Governor,,04023,Santa Cruz,Katie Hobbs,D,6910,final,53.2,100
+statewide,2026 Governor,2026,Governor,,04023,Santa Cruz,Andy Biggs,R,2091,final,53.2,100
+statewide,2026 Governor,2026,Governor,,04023,Santa Cruz,Risa Lombardo,G,125,final,53.2,100
+statewide,2026 Governor,2026,Governor,,04023,Santa Cruz,Teri Hourihan,NL,64,final,53.2,100
+statewide,2026 Governor,2026,Governor,,04023,Santa Cruz,Write-in,I,5,final,53.2,100
+statewide,2026 Governor,2026,Governor,,04023,Santa Cruz,Alice Novoa,R,0,final,53.2,100
+statewide,2026 Governor,2026,Governor,,04023,Santa Cruz,Gertritrude Gonzalez,R,0,final,53.2,100
+statewide,2026 Governor,2026,Governor,,04025,Yavapai,Andy Biggs,R,50239,final,63.9,100
+statewide,2026 Governor,2026,Governor,,04025,Yavapai,Katie Hobbs,D,36936,final,63.9,100
+statewide,2026 Governor,2026,Governor,,04025,Yavapai,Teri Hourihan,NL,822,final,63.9,100
+statewide,2026 Governor,2026,Governor,,04025,Yavapai,Risa Lombardo,G,617,final,63.9,100
+statewide,2026 Governor,2026,Governor,,04025,Yavapai,Write-in,I,36,final,63.9,100
+statewide,2026 Governor,2026,Governor,,04025,Yavapai,Alice Novoa,R,0,final,63.9,100
+statewide,2026 Governor,2026,Governor,,04025,Yavapai,Gertritrude Gonzalez,R,0,final,63.9,100
+statewide,2026 Governor,2026,Governor,,04027,Yuma,Katie Hobbs,D,11191,final,32.7,100
+statewide,2026 Governor,2026,Governor,,04027,Yuma,Andy Biggs,R,9375,final,32.7,100
+statewide,2026 Governor,2026,Governor,,04027,Yuma,Risa Lombardo,G,305,final,32.7,100
+statewide,2026 Governor,2026,Governor,,04027,Yuma,Teri Hourihan,NL,180,final,32.7,100
+statewide,2026 Governor,2026,Governor,,04027,Yuma,Write-in,I,13,final,32.7,100
+statewide,2026 Governor,2026,Governor,,04027,Yuma,Alice Novoa,R,0,final,32.7,100
+statewide,2026 Governor,2026,Governor,,04027,Yuma,Gertritrude Gonzalez,R,0,final,32.7,100
 statewide,2026 Mine Inspector,2026,Mine Inspector,,04001,Apache,Brian Matlock,D,8174,counting,0,100
 statewide,2026 Mine Inspector,2026,Mine Inspector,,04001,Apache,Les Presmyk,R,3917,counting,0,100
 statewide,2026 Mine Inspector,2026,Mine Inspector,,04001,Apache,Write-in,I,24,counting,0,100
@@ -179,66 +284,6 @@ statewide,2026 Mine Inspector,2026,Mine Inspector,,04025,Yavapai,Write-in,I,62,c
 statewide,2026 Mine Inspector,2026,Mine Inspector,,04027,Yuma,Brian Matlock,D,10484,counting,0,100
 statewide,2026 Mine Inspector,2026,Mine Inspector,,04027,Yuma,Les Presmyk,R,10101,counting,0,100
 statewide,2026 Mine Inspector,2026,Mine Inspector,,04027,Yuma,Write-in,I,20,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04001,Apache,Adrian Fontes,D,8056,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04001,Apache,Alexander Kolodin,R,3792,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04001,Apache,Duwayne Collier,G,294,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04001,Apache,Write-in,I,14,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04003,Cochise,Alexander Kolodin,R,17029,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04003,Cochise,Adrian Fontes,D,15803,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04003,Cochise,Duwayne Collier,G,614,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04003,Cochise,Write-in,I,23,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04005,Coconino,Adrian Fontes,D,23881,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04005,Coconino,Alexander Kolodin,R,9550,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04005,Coconino,Duwayne Collier,G,593,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04005,Coconino,Write-in,I,11,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04007,Gila,Alexander Kolodin,R,7909,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04007,Gila,Adrian Fontes,D,4799,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04007,Gila,Duwayne Collier,G,174,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04007,Gila,Write-in,I,3,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04009,Graham,Alexander Kolodin,R,6022,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04009,Graham,Adrian Fontes,D,2898,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04009,Graham,Duwayne Collier,G,157,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04009,Graham,Write-in,I,6,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04011,Greenlee,Alexander Kolodin,R,846,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04011,Greenlee,Adrian Fontes,D,765,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04011,Greenlee,Duwayne Collier,G,41,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04011,Greenlee,Write-in,I,0,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04012,La Paz,Alexander Kolodin,R,2115,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04012,La Paz,Adrian Fontes,D,1091,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04012,La Paz,Duwayne Collier,G,61,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04012,La Paz,Write-in,I,3,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04013,Maricopa,Adrian Fontes,D,588566,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04013,Maricopa,Alexander Kolodin,R,399426,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04013,Maricopa,Duwayne Collier,G,11124,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04013,Maricopa,Write-in,I,335,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04015,Mohave,Alexander Kolodin,R,35726,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04015,Mohave,Adrian Fontes,D,15121,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04015,Mohave,Duwayne Collier,G,748,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04015,Mohave,Write-in,I,28,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04017,Navajo,Alexander Kolodin,R,9997,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04017,Navajo,Adrian Fontes,D,8920,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04017,Navajo,Duwayne Collier,G,368,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04017,Navajo,Write-in,I,13,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04019,Pima,Adrian Fontes,D,176310,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04019,Pima,Alexander Kolodin,R,82560,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04019,Pima,Duwayne Collier,G,3621,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04019,Pima,Write-in,I,112,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04021,Pinal,Adrian Fontes,D,48136,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04021,Pinal,Alexander Kolodin,R,45510,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04021,Pinal,Duwayne Collier,G,1360,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04021,Pinal,Write-in,I,43,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04023,Santa Cruz,Adrian Fontes,D,7019,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04023,Santa Cruz,Alexander Kolodin,R,2045,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04023,Santa Cruz,Duwayne Collier,G,120,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04023,Santa Cruz,Write-in,I,2,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04025,Yavapai,Alexander Kolodin,R,50636,counting,96.49,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04025,Yavapai,Adrian Fontes,D,35577,counting,96.49,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04025,Yavapai,Duwayne Collier,G,1105,counting,96.49,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04025,Yavapai,Write-in,I,35,counting,96.49,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04027,Yuma,Adrian Fontes,D,10740,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04027,Yuma,Alexander Kolodin,R,9834,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04027,Yuma,Duwayne Collier,G,346,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04027,Yuma,Write-in,I,9,counting,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04001,Apache,Teresa Ruiz,D,8057,counting,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04001,Apache,Kimberly Yee,R,4087,counting,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04001,Apache,Write-in,I,20,counting,0,100
@@ -397,15 +442,15 @@ ushouse,2026 U.S. House,2026,U.S. House,c2022,4,,Steven Sanders,NL,31,final,46,1
 ushouse,2026 U.S. House,2026,U.S. House,c2022,5,,Elizabeth Lee,D,107352,counting,59,100
 ushouse,2026 U.S. House,2026,U.S. House,c2022,5,,Mark Lamb,R,97979,counting,59,100
 ushouse,2026 U.S. House,2026,U.S. House,c2022,5,,Write-in,I,270,counting,59,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,6,,JoAnna Mendoza,D,139016,final,69,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,6,,Juan Ciscomani,R,99760,final,69,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,6,,Jereme Peters,L,2684,final,69,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,6,,Gary Swing,G,2002,final,69,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,6,,Write-in,I,169,final,69,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,6,,JoAnna Mendoza,D,139304,final,69,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,6,,Juan Ciscomani,R,101521,final,69,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,6,,Jereme Peters,L,2732,final,69,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,6,,Gary Swing,G,2022,final,69,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,6,,Write-in,I,177,final,69,100
 ushouse,2026 U.S. House,2026,U.S. House,c2022,6,,Michael Dorland,I,30,final,69,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,7,,Adelita Grijalva,D,88495,final,33,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,7,,Daniel Butierez,R,29873,final,33,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,7,,Write-in,I,182,final,33,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,7,,Adelita Grijalva,D,89216,final,34,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,7,,Daniel Butierez,R,30516,final,34,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,7,,Write-in,I,188,final,34,100
 ushouse,2026 U.S. House,2026,U.S. House,c2022,8,,Bernadette Greene-Placentia,D,100376,counting,56,100
 ushouse,2026 U.S. House,2026,U.S. House,c2022,8,,Abraham Hamadeh,R,96293,counting,56,100
 ushouse,2026 U.S. House,2026,U.S. House,c2022,8,,Write-in,I,352,counting,56,100
@@ -471,14 +516,14 @@ senate,2026 Senate,2026,Senate,l2022,17,,Write-in,I,77,counting,0,100
 senate,2026 Senate,2026,Senate,l2022,18,,Priya Sundareshan,D,50391,counting,0,100
 senate,2026 Senate,2026,Senate,l2022,18,,Douglas Everett,R,21521,counting,0,100
 senate,2026 Senate,2026,Senate,l2022,18,,Write-in,I,61,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,19,,Gail Griffin,R,34274,counting,40,100
-senate,2026 Senate,2026,Senate,l2022,19,,Bob Karp,D,30543,counting,40,100
-senate,2026 Senate,2026,Senate,l2022,19,,Write-in,I,68,counting,40,100
+senate,2026 Senate,2026,Senate,l2022,19,,Gail Griffin,R,36375,counting,60,100
+senate,2026 Senate,2026,Senate,l2022,19,,Bob Karp,D,31263,counting,60,100
+senate,2026 Senate,2026,Senate,l2022,19,,Write-in,I,72,counting,60,100
 senate,2026 Senate,2026,Senate,l2022,20,,Alma Hernandez,D,29926,counting,0,100
 senate,2026 Senate,2026,Senate,l2022,20,,Write-in,I,1191,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,21,,Rosanna Gabaldon,D,29222,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,21,,Esteban Flores,R,11070,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,21,,Write-in,I,57,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,21,,Rosanna Gabaldon,D,29457,counting,33,100
+senate,2026 Senate,2026,Senate,l2022,21,,Esteban Flores,R,11451,counting,33,100
+senate,2026 Senate,2026,Senate,l2022,21,,Write-in,I,57,counting,33,100
 senate,2026 Senate,2026,Senate,l2022,22,,Eva Diaz,D,23233,counting,0,100
 senate,2026 Senate,2026,Senate,l2022,22,,Write-in,I,691,counting,0,100
 senate,2026 Senate,2026,Senate,l2022,23,,Brian Fernandez,D,20017,counting,0,100
@@ -585,18 +630,18 @@ house,2026 House,2026,House,l2022,18,,Nancy Gutierrez,D,48030,counting,0,100
 house,2026 House,2026,House,l2022,18,,Chris Mathis,D,45648,counting,0,100
 house,2026 House,2026,House,l2022,18,,Bob Dohse,R,21369,counting,0,100
 house,2026 House,2026,House,l2022,18,,Write-in,I,294,counting,0,100
-house,2026 House,2026,House,l2022,19,,David Gowan,R,31867,counting,40,100
-house,2026 House,2026,House,l2022,19,,Lupe Diaz,R,29428,counting,40,100
-house,2026 House,2026,House,l2022,19,,Jackie O'Donnell Anderson,D,28599,counting,40,100
-house,2026 House,2026,House,l2022,19,,Aiden Nicholette Swallow,D,27267,counting,40,100
-house,2026 House,2026,House,l2022,19,,Write-in,I,79,counting,40,100
+house,2026 House,2026,House,l2022,19,,David Gowan,R,33833,counting,60,100
+house,2026 House,2026,House,l2022,19,,Lupe Diaz,R,31235,counting,60,100
+house,2026 House,2026,House,l2022,19,,Jackie O'Donnell Anderson,D,29264,counting,60,100
+house,2026 House,2026,House,l2022,19,,Aiden Nicholette Swallow,D,27861,counting,60,100
+house,2026 House,2026,House,l2022,19,,Write-in,I,89,counting,60,100
 house,2026 House,2026,House,l2022,20,,Sally Ann Gonzales,D,27301,counting,0,100
 house,2026 House,2026,House,l2022,20,,Betty Villegas,D,27043,counting,0,100
 house,2026 House,2026,House,l2022,20,,Write-in,I,811,counting,0,100
-house,2026 House,2026,House,l2022,21,,Miranda Lopez,D,25790,counting,0,100
-house,2026 House,2026,House,l2022,21,,Consuelo Hernandez,D,25013,counting,0,100
-house,2026 House,2026,House,l2022,21,,Christopher Kibbey,R,11278,counting,0,100
-house,2026 House,2026,House,l2022,21,,Write-in,I,246,counting,0,100
+house,2026 House,2026,House,l2022,21,,Miranda Lopez,D,26021,counting,33,100
+house,2026 House,2026,House,l2022,21,,Consuelo Hernandez,D,25225,counting,33,100
+house,2026 House,2026,House,l2022,21,,Christopher Kibbey,R,11663,counting,33,100
+house,2026 House,2026,House,l2022,21,,Write-in,I,255,counting,33,100
 house,2026 House,2026,House,l2022,22,,Betsy Munoz,D,19582,counting,0,100
 house,2026 House,2026,House,l2022,22,,Elda Luna-Nájera,D,19058,counting,0,100
 house,2026 House,2026,House,l2022,22,,Write-in,I,1028,counting,0,100
@@ -636,108 +681,63 @@ house,2026 House,2026,House,l2022,30,,Mike Gannuscio,R,35510,counting,42,100
 house,2026 House,2026,House,l2022,30,,David Rose,R,34101,counting,42,100
 house,2026 House,2026,House,l2022,30,,Brian McMahan,D,17296,counting,42,100
 house,2026 House,2026,House,l2022,30,,Write-in,I,175,counting,42,100
-statewide,2026 Governor,2026,Governor,,04001,Apache,Katie Hobbs,D,8342,final,40.1,100
-statewide,2026 Governor,2026,Governor,,04001,Apache,Andy Biggs,R,3716,final,40.1,100
-statewide,2026 Governor,2026,Governor,,04001,Apache,Risa Lombardo,G,129,final,40.1,100
-statewide,2026 Governor,2026,Governor,,04001,Apache,Teri Hourihan,NL,104,final,40.1,100
-statewide,2026 Governor,2026,Governor,,04001,Apache,Write-in,I,12,final,40.1,100
-statewide,2026 Governor,2026,Governor,,04001,Apache,Alice Novoa,R,0,final,40.1,100
-statewide,2026 Governor,2026,Governor,,04001,Apache,Gertritrude Gonzalez,R,0,final,40.1,100
-statewide,2026 Governor,2026,Governor,,04003,Cochise,Katie Hobbs,D,15650,final,53.9,100
-statewide,2026 Governor,2026,Governor,,04003,Cochise,Andy Biggs,R,13904,final,53.9,100
-statewide,2026 Governor,2026,Governor,,04003,Cochise,Risa Lombardo,G,340,final,53.9,100
-statewide,2026 Governor,2026,Governor,,04003,Cochise,Teri Hourihan,NL,324,final,53.9,100
-statewide,2026 Governor,2026,Governor,,04003,Cochise,Write-in,I,16,final,53.9,100
-statewide,2026 Governor,2026,Governor,,04003,Cochise,Alice Novoa,R,1,final,53.9,100
-statewide,2026 Governor,2026,Governor,,04003,Cochise,Gertritrude Gonzalez,R,0,final,53.9,100
-statewide,2026 Governor,2026,Governor,,04005,Coconino,Katie Hobbs,D,24525,final,50.7,100
-statewide,2026 Governor,2026,Governor,,04005,Coconino,Andy Biggs,R,9407,final,50.7,100
-statewide,2026 Governor,2026,Governor,,04005,Coconino,Teri Hourihan,NL,347,final,50.7,100
-statewide,2026 Governor,2026,Governor,,04005,Coconino,Risa Lombardo,G,335,final,50.7,100
-statewide,2026 Governor,2026,Governor,,04005,Coconino,Write-in,I,15,final,50.7,100
-statewide,2026 Governor,2026,Governor,,04005,Coconino,Alice Novoa,R,0,final,50.7,100
-statewide,2026 Governor,2026,Governor,,04005,Coconino,Gertritrude Gonzalez,R,0,final,50.7,100
-statewide,2026 Governor,2026,Governor,,04007,Gila,Andy Biggs,R,7776,final,49.4,100
-statewide,2026 Governor,2026,Governor,,04007,Gila,Katie Hobbs,D,4945,final,49.4,100
-statewide,2026 Governor,2026,Governor,,04007,Gila,Teri Hourihan,NL,146,final,49.4,100
-statewide,2026 Governor,2026,Governor,,04007,Gila,Risa Lombardo,G,95,final,49.4,100
-statewide,2026 Governor,2026,Governor,,04007,Gila,Write-in,I,3,final,49.4,100
-statewide,2026 Governor,2026,Governor,,04007,Gila,Alice Novoa,R,0,final,49.4,100
-statewide,2026 Governor,2026,Governor,,04007,Gila,Gertritrude Gonzalez,R,0,final,49.4,100
-statewide,2026 Governor,2026,Governor,,04009,Graham,Andy Biggs,R,5894,final,100,100
-statewide,2026 Governor,2026,Governor,,04009,Graham,Katie Hobbs,D,3088,final,100,100
-statewide,2026 Governor,2026,Governor,,04009,Graham,Teri Hourihan,NL,112,final,100,100
-statewide,2026 Governor,2026,Governor,,04009,Graham,Risa Lombardo,G,88,final,100,100
-statewide,2026 Governor,2026,Governor,,04009,Graham,Write-in,I,9,final,100,100
-statewide,2026 Governor,2026,Governor,,04009,Graham,Alice Novoa,R,0,final,100,100
-statewide,2026 Governor,2026,Governor,,04009,Graham,Gertritrude Gonzalez,R,0,final,100,100
-statewide,2026 Governor,2026,Governor,,04011,Greenlee,Katie Hobbs,D,585,final,33.1,100
-statewide,2026 Governor,2026,Governor,,04011,Greenlee,Andy Biggs,R,449,final,33.1,100
-statewide,2026 Governor,2026,Governor,,04011,Greenlee,Risa Lombardo,G,17,final,33.1,100
-statewide,2026 Governor,2026,Governor,,04011,Greenlee,Teri Hourihan,NL,9,final,33.1,100
-statewide,2026 Governor,2026,Governor,,04011,Greenlee,Write-in,I,1,final,33.1,100
-statewide,2026 Governor,2026,Governor,,04011,Greenlee,Alice Novoa,R,0,final,33.1,100
-statewide,2026 Governor,2026,Governor,,04011,Greenlee,Gertritrude Gonzalez,R,0,final,33.1,100
-statewide,2026 Governor,2026,Governor,,04012,La Paz,Katie Hobbs,D,0,final,0,100
-statewide,2026 Governor,2026,Governor,,04012,La Paz,Risa Lombardo,G,0,final,0,100
-statewide,2026 Governor,2026,Governor,,04012,La Paz,Teri Hourihan,NL,0,final,0,100
-statewide,2026 Governor,2026,Governor,,04012,La Paz,Andy Biggs,R,0,final,0,100
-statewide,2026 Governor,2026,Governor,,04012,La Paz,Alice Novoa,R,0,final,0,100
-statewide,2026 Governor,2026,Governor,,04012,La Paz,Gertritrude Gonzalez,R,0,final,0,100
-statewide,2026 Governor,2026,Governor,,04012,La Paz,Write-in,I,0,final,0,100
-statewide,2026 Governor,2026,Governor,,04013,Maricopa,Katie Hobbs,D,596958,final,52.2,100
-statewide,2026 Governor,2026,Governor,,04013,Maricopa,Andy Biggs,R,393646,final,52.2,100
-statewide,2026 Governor,2026,Governor,,04013,Maricopa,Teri Hourihan,NL,6897,final,52.2,100
-statewide,2026 Governor,2026,Governor,,04013,Maricopa,Risa Lombardo,G,6854,final,52.2,100
-statewide,2026 Governor,2026,Governor,,04013,Maricopa,Write-in,I,564,final,52.2,100
-statewide,2026 Governor,2026,Governor,,04013,Maricopa,Alice Novoa,R,4,final,52.2,100
-statewide,2026 Governor,2026,Governor,,04013,Maricopa,Gertritrude Gonzalez,R,2,final,52.2,100
-statewide,2026 Governor,2026,Governor,,04015,Mohave,Andy Biggs,R,34959,final,50.9,100
-statewide,2026 Governor,2026,Governor,,04015,Mohave,Katie Hobbs,D,16069,final,50.9,100
-statewide,2026 Governor,2026,Governor,,04015,Mohave,Risa Lombardo,G,493,final,50.9,100
-statewide,2026 Governor,2026,Governor,,04015,Mohave,Teri Hourihan,NL,481,final,50.9,100
-statewide,2026 Governor,2026,Governor,,04015,Mohave,Write-in,I,30,final,50.9,100
-statewide,2026 Governor,2026,Governor,,04015,Mohave,Alice Novoa,R,0,final,50.9,100
-statewide,2026 Governor,2026,Governor,,04015,Mohave,Gertritrude Gonzalez,R,0,final,50.9,100
-statewide,2026 Governor,2026,Governor,,04017,Navajo,Andy Biggs,R,9955,final,40.9,100
-statewide,2026 Governor,2026,Governor,,04017,Navajo,Katie Hobbs,D,9257,final,40.9,100
-statewide,2026 Governor,2026,Governor,,04017,Navajo,Teri Hourihan,NL,225,final,40.9,100
-statewide,2026 Governor,2026,Governor,,04017,Navajo,Risa Lombardo,G,220,final,40.9,100
-statewide,2026 Governor,2026,Governor,,04017,Navajo,Write-in,I,13,final,40.9,100
-statewide,2026 Governor,2026,Governor,,04017,Navajo,Alice Novoa,R,0,final,40.9,100
-statewide,2026 Governor,2026,Governor,,04017,Navajo,Gertritrude Gonzalez,R,0,final,40.9,100
-statewide,2026 Governor,2026,Governor,,04019,Pima,Katie Hobbs,D,182225,final,54.1,100
-statewide,2026 Governor,2026,Governor,,04019,Pima,Andy Biggs,R,78888,final,54.1,100
-statewide,2026 Governor,2026,Governor,,04019,Pima,Risa Lombardo,G,2272,final,54.1,100
-statewide,2026 Governor,2026,Governor,,04019,Pima,Teri Hourihan,NL,2084,final,54.1,100
-statewide,2026 Governor,2026,Governor,,04019,Pima,Write-in,I,123,final,54.1,100
-statewide,2026 Governor,2026,Governor,,04019,Pima,Alice Novoa,R,1,final,54.1,100
-statewide,2026 Governor,2026,Governor,,04019,Pima,Gertritrude Gonzalez,R,0,final,54.1,100
-statewide,2026 Governor,2026,Governor,,04021,Pinal,Katie Hobbs,D,49553,final,50,100
-statewide,2026 Governor,2026,Governor,,04021,Pinal,Andy Biggs,R,44512,final,50,100
-statewide,2026 Governor,2026,Governor,,04021,Pinal,Risa Lombardo,G,807,final,50,100
-statewide,2026 Governor,2026,Governor,,04021,Pinal,Teri Hourihan,NL,807,final,50,100
-statewide,2026 Governor,2026,Governor,,04021,Pinal,Write-in,I,61,final,50,100
-statewide,2026 Governor,2026,Governor,,04021,Pinal,Alice Novoa,R,0,final,50,100
-statewide,2026 Governor,2026,Governor,,04021,Pinal,Gertritrude Gonzalez,R,0,final,50,100
-statewide,2026 Governor,2026,Governor,,04023,Santa Cruz,Katie Hobbs,D,6910,final,53.2,100
-statewide,2026 Governor,2026,Governor,,04023,Santa Cruz,Andy Biggs,R,2091,final,53.2,100
-statewide,2026 Governor,2026,Governor,,04023,Santa Cruz,Risa Lombardo,G,125,final,53.2,100
-statewide,2026 Governor,2026,Governor,,04023,Santa Cruz,Teri Hourihan,NL,64,final,53.2,100
-statewide,2026 Governor,2026,Governor,,04023,Santa Cruz,Write-in,I,5,final,53.2,100
-statewide,2026 Governor,2026,Governor,,04023,Santa Cruz,Alice Novoa,R,0,final,53.2,100
-statewide,2026 Governor,2026,Governor,,04023,Santa Cruz,Gertritrude Gonzalez,R,0,final,53.2,100
-statewide,2026 Governor,2026,Governor,,04025,Yavapai,Andy Biggs,R,50239,final,63.9,100
-statewide,2026 Governor,2026,Governor,,04025,Yavapai,Katie Hobbs,D,36936,final,63.9,100
-statewide,2026 Governor,2026,Governor,,04025,Yavapai,Teri Hourihan,NL,822,final,63.9,100
-statewide,2026 Governor,2026,Governor,,04025,Yavapai,Risa Lombardo,G,617,final,63.9,100
-statewide,2026 Governor,2026,Governor,,04025,Yavapai,Write-in,I,36,final,63.9,100
-statewide,2026 Governor,2026,Governor,,04025,Yavapai,Alice Novoa,R,0,final,63.9,100
-statewide,2026 Governor,2026,Governor,,04025,Yavapai,Gertritrude Gonzalez,R,0,final,63.9,100
-statewide,2026 Governor,2026,Governor,,04027,Yuma,Katie Hobbs,D,11191,final,32.7,100
-statewide,2026 Governor,2026,Governor,,04027,Yuma,Andy Biggs,R,9375,final,32.7,100
-statewide,2026 Governor,2026,Governor,,04027,Yuma,Risa Lombardo,G,305,final,32.7,100
-statewide,2026 Governor,2026,Governor,,04027,Yuma,Teri Hourihan,NL,180,final,32.7,100
-statewide,2026 Governor,2026,Governor,,04027,Yuma,Write-in,I,13,final,32.7,100
-statewide,2026 Governor,2026,Governor,,04027,Yuma,Alice Novoa,R,0,final,32.7,100
-statewide,2026 Governor,2026,Governor,,04027,Yuma,Gertritrude Gonzalez,R,0,final,32.7,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04001,Apache,Adrian Fontes,D,8056,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04001,Apache,Alexander Kolodin,R,3792,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04001,Apache,Duwayne Collier,G,294,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04001,Apache,Write-in,I,14,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04003,Cochise,Alexander Kolodin,R,17029,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04003,Cochise,Adrian Fontes,D,15803,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04003,Cochise,Duwayne Collier,G,614,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04003,Cochise,Write-in,I,23,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04005,Coconino,Adrian Fontes,D,23881,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04005,Coconino,Alexander Kolodin,R,9550,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04005,Coconino,Duwayne Collier,G,593,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04005,Coconino,Write-in,I,11,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04007,Gila,Alexander Kolodin,R,7909,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04007,Gila,Adrian Fontes,D,4799,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04007,Gila,Duwayne Collier,G,174,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04007,Gila,Write-in,I,3,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04009,Graham,Alexander Kolodin,R,6022,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04009,Graham,Adrian Fontes,D,2898,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04009,Graham,Duwayne Collier,G,157,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04009,Graham,Write-in,I,6,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04011,Greenlee,Alexander Kolodin,R,846,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04011,Greenlee,Adrian Fontes,D,765,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04011,Greenlee,Duwayne Collier,G,41,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04011,Greenlee,Write-in,I,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04012,La Paz,Alexander Kolodin,R,2115,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04012,La Paz,Adrian Fontes,D,1091,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04012,La Paz,Duwayne Collier,G,61,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04012,La Paz,Write-in,I,3,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04013,Maricopa,Adrian Fontes,D,588566,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04013,Maricopa,Alexander Kolodin,R,399426,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04013,Maricopa,Duwayne Collier,G,11124,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04013,Maricopa,Write-in,I,335,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04015,Mohave,Alexander Kolodin,R,35726,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04015,Mohave,Adrian Fontes,D,15121,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04015,Mohave,Duwayne Collier,G,748,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04015,Mohave,Write-in,I,28,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04017,Navajo,Alexander Kolodin,R,9997,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04017,Navajo,Adrian Fontes,D,8920,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04017,Navajo,Duwayne Collier,G,368,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04017,Navajo,Write-in,I,13,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04019,Pima,Adrian Fontes,D,176310,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04019,Pima,Alexander Kolodin,R,82560,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04019,Pima,Duwayne Collier,G,3621,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04019,Pima,Write-in,I,112,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04021,Pinal,Adrian Fontes,D,48136,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04021,Pinal,Alexander Kolodin,R,45510,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04021,Pinal,Duwayne Collier,G,1360,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04021,Pinal,Write-in,I,43,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04023,Santa Cruz,Adrian Fontes,D,7019,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04023,Santa Cruz,Alexander Kolodin,R,2045,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04023,Santa Cruz,Duwayne Collier,G,120,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04023,Santa Cruz,Write-in,I,2,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04025,Yavapai,Alexander Kolodin,R,50636,counting,96.49,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04025,Yavapai,Adrian Fontes,D,35577,counting,96.49,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04025,Yavapai,Duwayne Collier,G,1105,counting,96.49,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04025,Yavapai,Write-in,I,35,counting,96.49,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04027,Yuma,Adrian Fontes,D,10740,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04027,Yuma,Alexander Kolodin,R,9834,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04027,Yuma,Duwayne Collier,G,346,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04027,Yuma,Write-in,I,9,counting,0,100
