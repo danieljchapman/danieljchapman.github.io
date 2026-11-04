@@ -296,9 +296,9 @@ statewide,2026 Auditor,2026,Auditor,,19195,Worth,Write-ins,W,0,pending,0,100
 statewide,2026 Auditor,2026,Auditor,,19197,Wright,Chris Cournoyer,R,0,pending,0,100
 statewide,2026 Auditor,2026,Auditor,,19197,Wright,Taylor Wettach,D,0,pending,0,100
 statewide,2026 Auditor,2026,Auditor,,19197,Wright,Write-ins,W,0,pending,0,100
-statewide,2026 Governor,2026,Governor,,19001,Adair,Zach Lahn,R,0,final,0,100
-statewide,2026 Governor,2026,Governor,,19001,Adair,Rob Sand,D,0,final,0,100
-statewide,2026 Governor,2026,Governor,,19001,Adair,Write-ins,W,0,final,0,100
+statewide,2026 Governor,2026,Governor,,19001,Adair,Zach Lahn,R,1809,final,100,100
+statewide,2026 Governor,2026,Governor,,19001,Adair,Rob Sand,D,1383,final,100,100
+statewide,2026 Governor,2026,Governor,,19001,Adair,Write-ins,W,0,final,100,100
 statewide,2026 Governor,2026,Governor,,19003,Adams,Zach Lahn,R,960,final,100,100
 statewide,2026 Governor,2026,Governor,,19003,Adams,Rob Sand,D,681,final,100,100
 statewide,2026 Governor,2026,Governor,,19003,Adams,Write-ins,W,0,final,100,100
@@ -419,9 +419,9 @@ statewide,2026 Governor,2026,Governor,,19079,Hamilton,Write-ins,W,0,final,100,10
 statewide,2026 Governor,2026,Governor,,19081,Hancock,Zach Lahn,R,0,final,0,100
 statewide,2026 Governor,2026,Governor,,19081,Hancock,Rob Sand,D,0,final,0,100
 statewide,2026 Governor,2026,Governor,,19081,Hancock,Write-ins,W,0,final,0,100
-statewide,2026 Governor,2026,Governor,,19083,Hardin,Zach Lahn,R,0,final,0,100
-statewide,2026 Governor,2026,Governor,,19083,Hardin,Rob Sand,D,0,final,0,100
-statewide,2026 Governor,2026,Governor,,19083,Hardin,Write-ins,W,0,final,0,100
+statewide,2026 Governor,2026,Governor,,19083,Hardin,Zach Lahn,R,3709,final,100,100
+statewide,2026 Governor,2026,Governor,,19083,Hardin,Rob Sand,D,2975,final,100,100
+statewide,2026 Governor,2026,Governor,,19083,Hardin,Write-ins,W,0,final,100,100
 statewide,2026 Governor,2026,Governor,,19085,Harrison,Zach Lahn,R,3617,final,100,100
 statewide,2026 Governor,2026,Governor,,19085,Harrison,Rob Sand,D,2246,final,100,100
 statewide,2026 Governor,2026,Governor,,19085,Harrison,Write-ins,W,0,final,100,100
@@ -554,9 +554,9 @@ statewide,2026 Governor,2026,Governor,,19169,Story,Write-ins,W,0,final,100,100
 statewide,2026 Governor,2026,Governor,,19171,Tama,Rob Sand,D,3599,final,100,100
 statewide,2026 Governor,2026,Governor,,19171,Tama,Zach Lahn,R,3516,final,100,100
 statewide,2026 Governor,2026,Governor,,19171,Tama,Write-ins,W,0,final,100,100
-statewide,2026 Governor,2026,Governor,,19173,Taylor,Zach Lahn,R,0,final,0,100
-statewide,2026 Governor,2026,Governor,,19173,Taylor,Rob Sand,D,0,final,0,100
-statewide,2026 Governor,2026,Governor,,19173,Taylor,Write-ins,W,0,final,0,100
+statewide,2026 Governor,2026,Governor,,19173,Taylor,Zach Lahn,R,1447,final,100,100
+statewide,2026 Governor,2026,Governor,,19173,Taylor,Rob Sand,D,768,final,100,100
+statewide,2026 Governor,2026,Governor,,19173,Taylor,Write-ins,W,0,final,100,100
 statewide,2026 Governor,2026,Governor,,19175,Union,Zach Lahn,R,2493,final,100,100
 statewide,2026 Governor,2026,Governor,,19175,Union,Rob Sand,D,2230,final,100,100
 statewide,2026 Governor,2026,Governor,,19175,Union,Write-ins,W,0,final,100,100
@@ -595,206 +595,602 @@ statewide,2026 Governor,2026,Governor,,19197,Wright,Rob Sand,D,0,final,0,100
 statewide,2026 Governor,2026,Governor,,19197,Wright,Write-ins,W,0,final,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19001,Adair,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19001,Adair,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19001,Adair,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19003,Adams,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19003,Adams,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19003,Adams,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19005,Allamakee,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19005,Allamakee,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19005,Allamakee,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19007,Appanoose,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19007,Appanoose,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19007,Appanoose,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19009,Audubon,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19009,Audubon,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19009,Audubon,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19011,Benton,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19011,Benton,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19011,Benton,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19013,Black Hawk,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19013,Black Hawk,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19013,Black Hawk,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19015,Boone,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19015,Boone,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19015,Boone,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19017,Bremer,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19017,Bremer,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19017,Bremer,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19019,Buchanan,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19019,Buchanan,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19019,Buchanan,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19021,Buena Vista,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19021,Buena Vista,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19021,Buena Vista,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19023,Butler,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19023,Butler,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19023,Butler,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19025,Calhoun,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19025,Calhoun,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19025,Calhoun,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19027,Carroll,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19027,Carroll,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19027,Carroll,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19029,Cass,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19029,Cass,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19029,Cass,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19031,Cedar,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19031,Cedar,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19031,Cedar,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19033,Cerro Gordo,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19033,Cerro Gordo,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19033,Cerro Gordo,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19035,Cherokee,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19035,Cherokee,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19035,Cherokee,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19037,Chickasaw,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19037,Chickasaw,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19037,Chickasaw,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19039,Clarke,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19039,Clarke,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19039,Clarke,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19041,Clay,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19041,Clay,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19041,Clay,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19043,Clayton,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19043,Clayton,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19043,Clayton,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19045,Clinton,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19045,Clinton,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19045,Clinton,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19047,Crawford,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19047,Crawford,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19047,Crawford,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19049,Dallas,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19049,Dallas,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19049,Dallas,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19051,Davis,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19051,Davis,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19051,Davis,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19053,Decatur,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19053,Decatur,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19053,Decatur,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19055,Delaware,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19055,Delaware,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19055,Delaware,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19057,Des Moines,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19057,Des Moines,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19057,Des Moines,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19059,Dickinson,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19059,Dickinson,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19059,Dickinson,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19061,Dubuque,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19061,Dubuque,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19061,Dubuque,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19063,Emmet,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19063,Emmet,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19063,Emmet,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19065,Fayette,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19065,Fayette,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19065,Fayette,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19067,Floyd,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19067,Floyd,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19067,Floyd,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19069,Franklin,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19069,Franklin,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19069,Franklin,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19071,Fremont,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19071,Fremont,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19071,Fremont,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19073,Greene,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19073,Greene,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19073,Greene,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19075,Grundy,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19075,Grundy,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19075,Grundy,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19077,Guthrie,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19077,Guthrie,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19077,Guthrie,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19079,Hamilton,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19079,Hamilton,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19079,Hamilton,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19081,Hancock,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19081,Hancock,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19081,Hancock,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19083,Hardin,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19083,Hardin,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19083,Hardin,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19085,Harrison,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19085,Harrison,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19085,Harrison,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19087,Henry,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19087,Henry,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19087,Henry,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19089,Howard,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19089,Howard,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19089,Howard,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19091,Humboldt,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19091,Humboldt,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19091,Humboldt,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19093,Ida,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19093,Ida,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19093,Ida,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19095,Iowa,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19095,Iowa,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19095,Iowa,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19097,Jackson,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19097,Jackson,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19097,Jackson,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19099,Jasper,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19099,Jasper,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19099,Jasper,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19101,Jefferson,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19101,Jefferson,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19101,Jefferson,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19103,Johnson,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19103,Johnson,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19103,Johnson,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19105,Jones,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19105,Jones,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19105,Jones,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19107,Keokuk,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19107,Keokuk,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19107,Keokuk,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19109,Kossuth,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19109,Kossuth,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19109,Kossuth,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19111,Lee,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19111,Lee,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19111,Lee,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19113,Linn,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19113,Linn,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19113,Linn,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19115,Louisa,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19115,Louisa,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19115,Louisa,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19117,Lucas,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19117,Lucas,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19117,Lucas,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19119,Lyon,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19119,Lyon,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19119,Lyon,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19121,Madison,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19121,Madison,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19121,Madison,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19123,Mahaska,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19123,Mahaska,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19123,Mahaska,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19125,Marion,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19125,Marion,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19125,Marion,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19127,Marshall,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19127,Marshall,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19127,Marshall,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19129,Mills,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19129,Mills,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19129,Mills,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19131,Mitchell,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19131,Mitchell,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19131,Mitchell,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19133,Monona,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19133,Monona,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19133,Monona,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19135,Monroe,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19135,Monroe,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19135,Monroe,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19137,Montgomery,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19137,Montgomery,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19137,Montgomery,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19139,Muscatine,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19139,Muscatine,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19139,Muscatine,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19141,O'Brien,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19141,O'Brien,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19141,O'Brien,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19143,Osceola,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19143,Osceola,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19143,Osceola,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19145,Page,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19145,Page,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19145,Page,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19147,Palo Alto,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19147,Palo Alto,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19147,Palo Alto,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19149,Plymouth,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19149,Plymouth,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19149,Plymouth,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19151,Pocahontas,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19151,Pocahontas,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19151,Pocahontas,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19153,Polk,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19153,Polk,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19153,Polk,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19155,Pottawattamie,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19155,Pottawattamie,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19155,Pottawattamie,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19157,Poweshiek,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19157,Poweshiek,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19157,Poweshiek,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19159,Ringgold,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19159,Ringgold,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19159,Ringgold,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19161,Sac,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19161,Sac,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19161,Sac,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19163,Scott,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19163,Scott,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19163,Scott,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19165,Shelby,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19165,Shelby,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19165,Shelby,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19167,Sioux,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19167,Sioux,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19167,Sioux,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19169,Story,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19169,Story,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19169,Story,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19171,Tama,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19171,Tama,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19171,Tama,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19173,Taylor,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19173,Taylor,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19173,Taylor,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19175,Union,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19175,Union,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19175,Union,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19177,Van Buren,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19177,Van Buren,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19177,Van Buren,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19179,Wapello,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19179,Wapello,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19179,Wapello,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19181,Warren,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19181,Warren,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19181,Warren,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19183,Washington,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19183,Washington,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19183,Washington,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19185,Wayne,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19185,Wayne,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19185,Wayne,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19187,Webster,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19187,Webster,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19187,Webster,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19189,Winnebago,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19189,Winnebago,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19189,Winnebago,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19191,Winneshiek,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19191,Winneshiek,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19191,Winneshiek,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19193,Woodbury,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19193,Woodbury,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19193,Woodbury,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19195,Worth,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19195,Worth,Chris Jones,D,0,pending,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19195,Worth,Write-ins,W,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19197,Wright,Mike Naig,R,0,pending,0,100
 statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19197,Wright,Chris Jones,D,0,pending,0,100
-statewide,2026 Senate,2026,Senate,,19001,Adair,Ashley Hinson,R,0,counting,0,100
-statewide,2026 Senate,2026,Senate,,19001,Adair,Josh Turek,D,0,counting,0,100
-statewide,2026 Senate,2026,Senate,,19001,Adair,Thomas Laehn,L,0,counting,0,100
-statewide,2026 Senate,2026,Senate,,19001,Adair,Write-ins,W,0,counting,0,100
+statewide,2026 Secretary of Agriculture,2026,Secretary of Agriculture,,19197,Wright,Write-ins,W,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19001,Adair,Paul Pate,R,2249,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19001,Adair,Ryan Peterman,D,869,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19001,Adair,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19003,Adams,Paul Pate,R,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19003,Adams,Ryan Peterman,D,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19003,Adams,Write-ins,W,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19005,Allamakee,Paul Pate,R,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19005,Allamakee,Ryan Peterman,D,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19005,Allamakee,Write-ins,W,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19007,Appanoose,Paul Pate,R,3242,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19007,Appanoose,Ryan Peterman,D,1565,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19007,Appanoose,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19009,Audubon,Paul Pate,R,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19009,Audubon,Ryan Peterman,D,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19009,Audubon,Write-ins,W,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19011,Benton,Paul Pate,R,7786,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19011,Benton,Ryan Peterman,D,3967,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19011,Benton,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19013,Black Hawk,Ryan Peterman,D,28141,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19013,Black Hawk,Paul Pate,R,23159,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19013,Black Hawk,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19015,Boone,Paul Pate,R,7125,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19015,Boone,Ryan Peterman,D,5246,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19015,Boone,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19017,Bremer,Paul Pate,R,7147,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19017,Bremer,Ryan Peterman,D,4671,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19017,Bremer,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19019,Buchanan,Paul Pate,R,5299,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19019,Buchanan,Ryan Peterman,D,3139,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19019,Buchanan,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19021,Buena Vista,Paul Pate,R,3549,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19021,Buena Vista,Ryan Peterman,D,2331,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19021,Buena Vista,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19023,Butler,Paul Pate,R,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19023,Butler,Ryan Peterman,D,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19023,Butler,Write-ins,W,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19025,Calhoun,Paul Pate,R,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19025,Calhoun,Ryan Peterman,D,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19025,Calhoun,Write-ins,W,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19027,Carroll,Paul Pate,R,6084,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19027,Carroll,Ryan Peterman,D,2663,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19027,Carroll,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19029,Cass,Paul Pate,R,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19029,Cass,Ryan Peterman,D,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19029,Cass,Write-ins,W,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19031,Cedar,Paul Pate,R,4989,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19031,Cedar,Ryan Peterman,D,3504,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19031,Cedar,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19033,Cerro Gordo,Paul Pate,R,9556,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19033,Cerro Gordo,Ryan Peterman,D,8710,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19033,Cerro Gordo,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19035,Cherokee,Paul Pate,R,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19035,Cherokee,Ryan Peterman,D,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19035,Cherokee,Write-ins,W,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19037,Chickasaw,Paul Pate,R,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19037,Chickasaw,Ryan Peterman,D,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19037,Chickasaw,Write-ins,W,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19039,Clarke,Paul Pate,R,2334,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19039,Clarke,Ryan Peterman,D,1132,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19039,Clarke,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19041,Clay,Paul Pate,R,4452,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19041,Clay,Ryan Peterman,D,2111,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19041,Clay,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19043,Clayton,Paul Pate,R,4764,counting,83.3,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19043,Clayton,Ryan Peterman,D,2489,counting,83.3,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19043,Clayton,Write-ins,W,0,counting,83.3,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19045,Clinton,Paul Pate,R,6364,counting,50,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19045,Clinton,Ryan Peterman,D,3770,counting,50,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19045,Clinton,Write-ins,W,0,counting,50,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19047,Crawford,Paul Pate,R,3187,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19047,Crawford,Ryan Peterman,D,1692,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19047,Crawford,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19049,Dallas,Paul Pate,R,23053,counting,58.7,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19049,Dallas,Ryan Peterman,D,20622,counting,58.7,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19049,Dallas,Write-ins,W,0,counting,58.7,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19051,Davis,Paul Pate,R,2105,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19051,Davis,Ryan Peterman,D,808,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19051,Davis,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19053,Decatur,Paul Pate,R,1931,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19053,Decatur,Ryan Peterman,D,802,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19053,Decatur,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19055,Delaware,Paul Pate,R,5500,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19055,Delaware,Ryan Peterman,D,2415,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19055,Delaware,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19057,Des Moines,Paul Pate,R,7626,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19057,Des Moines,Ryan Peterman,D,7096,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19057,Des Moines,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19059,Dickinson,Paul Pate,R,6408,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19059,Dickinson,Ryan Peterman,D,2922,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19059,Dickinson,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19061,Dubuque,Paul Pate,R,21882,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19061,Dubuque,Ryan Peterman,D,20823,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19061,Dubuque,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19063,Emmet,Paul Pate,R,2358,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19063,Emmet,Ryan Peterman,D,1189,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19063,Emmet,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19065,Fayette,Paul Pate,R,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19065,Fayette,Ryan Peterman,D,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19065,Fayette,Write-ins,W,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19067,Floyd,Paul Pate,R,3527,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19067,Floyd,Ryan Peterman,D,2467,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19067,Floyd,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19069,Franklin,Paul Pate,R,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19069,Franklin,Ryan Peterman,D,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19069,Franklin,Write-ins,W,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19071,Fremont,Paul Pate,R,1765,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19071,Fremont,Ryan Peterman,D,868,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19071,Fremont,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19073,Greene,Paul Pate,R,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19073,Greene,Ryan Peterman,D,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19073,Greene,Write-ins,W,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19075,Grundy,Paul Pate,R,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19075,Grundy,Ryan Peterman,D,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19075,Grundy,Write-ins,W,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19077,Guthrie,Paul Pate,R,3621,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19077,Guthrie,Ryan Peterman,D,1565,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19077,Guthrie,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19079,Hamilton,Paul Pate,R,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19079,Hamilton,Ryan Peterman,D,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19079,Hamilton,Write-ins,W,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19081,Hancock,Paul Pate,R,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19081,Hancock,Ryan Peterman,D,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19081,Hancock,Write-ins,W,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19083,Hardin,Paul Pate,R,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19083,Hardin,Ryan Peterman,D,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19083,Hardin,Write-ins,W,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19085,Harrison,Paul Pate,R,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19085,Harrison,Ryan Peterman,D,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19085,Harrison,Write-ins,W,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19087,Henry,Paul Pate,R,4776,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19087,Henry,Ryan Peterman,D,2692,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19087,Henry,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19089,Howard,Paul Pate,R,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19089,Howard,Ryan Peterman,D,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19089,Howard,Write-ins,W,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19091,Humboldt,Paul Pate,R,2769,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19091,Humboldt,Ryan Peterman,D,1031,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19091,Humboldt,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19093,Ida,Paul Pate,R,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19093,Ida,Ryan Peterman,D,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19093,Ida,Write-ins,W,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19095,Iowa,Paul Pate,R,3528,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19095,Iowa,Ryan Peterman,D,1650,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19095,Iowa,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19097,Jackson,Paul Pate,R,5132,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19097,Jackson,Ryan Peterman,D,3090,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19097,Jackson,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19099,Jasper,Paul Pate,R,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19099,Jasper,Ryan Peterman,D,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19099,Jasper,Write-ins,W,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19101,Jefferson,Ryan Peterman,D,3460,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19101,Jefferson,Paul Pate,R,3389,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19101,Jefferson,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19103,Johnson,Ryan Peterman,D,53412,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19103,Johnson,Paul Pate,R,19962,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19103,Johnson,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19105,Jones,Paul Pate,R,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19105,Jones,Ryan Peterman,D,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19105,Jones,Write-ins,W,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19107,Keokuk,Paul Pate,R,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19107,Keokuk,Ryan Peterman,D,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19107,Keokuk,Write-ins,W,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19109,Kossuth,Paul Pate,R,4742,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19109,Kossuth,Ryan Peterman,D,1859,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19109,Kossuth,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19111,Lee,Paul Pate,R,6651,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19111,Lee,Ryan Peterman,D,5230,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19111,Lee,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19113,Linn,Ryan Peterman,D,57800,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19113,Linn,Paul Pate,R,47222,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19113,Linn,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19115,Louisa,Paul Pate,R,2498,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19115,Louisa,Ryan Peterman,D,1372,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19115,Louisa,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19117,Lucas,Paul Pate,R,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19117,Lucas,Ryan Peterman,D,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19117,Lucas,Write-ins,W,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19119,Lyon,Paul Pate,R,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19119,Lyon,Ryan Peterman,D,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19119,Lyon,Write-ins,W,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19121,Madison,Paul Pate,R,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19121,Madison,Ryan Peterman,D,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19121,Madison,Write-ins,W,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19123,Mahaska,Paul Pate,R,6082,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19123,Mahaska,Ryan Peterman,D,2243,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19123,Mahaska,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19125,Marion,Paul Pate,R,10757,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19125,Marion,Ryan Peterman,D,5102,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19125,Marion,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19127,Marshall,Paul Pate,R,7595,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19127,Marshall,Ryan Peterman,D,6697,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19127,Marshall,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19129,Mills,Paul Pate,R,3951,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19129,Mills,Ryan Peterman,D,2186,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19129,Mills,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19131,Mitchell,Paul Pate,R,2773,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19131,Mitchell,Ryan Peterman,D,1615,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19131,Mitchell,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19133,Monona,Paul Pate,R,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19133,Monona,Ryan Peterman,D,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19133,Monona,Write-ins,W,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19135,Monroe,Paul Pate,R,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19135,Monroe,Ryan Peterman,D,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19135,Monroe,Write-ins,W,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19137,Montgomery,Paul Pate,R,2444,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19137,Montgomery,Ryan Peterman,D,1238,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19137,Montgomery,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19139,Muscatine,Ryan Peterman,D,7725,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19139,Muscatine,Paul Pate,R,7670,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19139,Muscatine,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19141,O'Brien,Paul Pate,R,4273,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19141,O'Brien,Ryan Peterman,D,1241,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19141,O'Brien,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19143,Osceola,Paul Pate,R,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19143,Osceola,Ryan Peterman,D,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19143,Osceola,Write-ins,W,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19145,Page,Paul Pate,R,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19145,Page,Ryan Peterman,D,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19145,Page,Write-ins,W,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19147,Palo Alto,Paul Pate,R,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19147,Palo Alto,Ryan Peterman,D,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19147,Palo Alto,Write-ins,W,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19149,Plymouth,Paul Pate,R,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19149,Plymouth,Ryan Peterman,D,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19149,Plymouth,Write-ins,W,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19151,Pocahontas,Paul Pate,R,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19151,Pocahontas,Ryan Peterman,D,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19151,Pocahontas,Write-ins,W,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19153,Polk,Ryan Peterman,D,123750,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19153,Polk,Paul Pate,R,91497,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19153,Polk,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19155,Pottawattamie,Ryan Peterman,D,5870,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19155,Pottawattamie,Paul Pate,R,4700,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19155,Pottawattamie,Write-ins,W,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19157,Poweshiek,Paul Pate,R,4510,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19157,Poweshiek,Ryan Peterman,D,3492,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19157,Poweshiek,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19159,Ringgold,Paul Pate,R,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19159,Ringgold,Ryan Peterman,D,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19159,Ringgold,Write-ins,W,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19161,Sac,Paul Pate,R,3044,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19161,Sac,Ryan Peterman,D,1107,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19161,Sac,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19163,Scott,Ryan Peterman,D,39028,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19163,Scott,Paul Pate,R,33562,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19163,Scott,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19165,Shelby,Paul Pate,R,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19165,Shelby,Ryan Peterman,D,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19165,Shelby,Write-ins,W,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19167,Sioux,Paul Pate,R,12658,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19167,Sioux,Ryan Peterman,D,2370,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19167,Sioux,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19169,Story,Ryan Peterman,D,24017,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19169,Story,Paul Pate,R,17301,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19169,Story,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19171,Tama,Paul Pate,R,4266,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19171,Tama,Ryan Peterman,D,2761,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19171,Tama,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19173,Taylor,Paul Pate,R,1658,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19173,Taylor,Ryan Peterman,D,538,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19173,Taylor,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19175,Union,Paul Pate,R,2991,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19175,Union,Ryan Peterman,D,1638,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19175,Union,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19177,Van Buren,Paul Pate,R,2080,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19177,Van Buren,Ryan Peterman,D,709,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19177,Van Buren,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19179,Wapello,Paul Pate,R,6420,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19179,Wapello,Ryan Peterman,D,4604,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19179,Wapello,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19181,Warren,Paul Pate,R,10668,counting,62.2,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19181,Warren,Ryan Peterman,D,6015,counting,62.2,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19181,Warren,Write-ins,W,0,counting,62.2,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19183,Washington,Paul Pate,R,5790,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19183,Washington,Ryan Peterman,D,3638,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19183,Washington,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19185,Wayne,Paul Pate,R,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19185,Wayne,Ryan Peterman,D,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19185,Wayne,Write-ins,W,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19187,Webster,Paul Pate,R,7588,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19187,Webster,Ryan Peterman,D,4942,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19187,Webster,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19189,Winnebago,Paul Pate,R,2825,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19189,Winnebago,Ryan Peterman,D,1603,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19189,Winnebago,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19191,Winneshiek,Paul Pate,R,5400,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19191,Winneshiek,Ryan Peterman,D,4757,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19191,Winneshiek,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19193,Woodbury,Paul Pate,R,17958,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19193,Woodbury,Ryan Peterman,D,15031,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19193,Woodbury,Write-ins,W,0,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19195,Worth,Paul Pate,R,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19195,Worth,Ryan Peterman,D,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19195,Worth,Write-ins,W,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19197,Wright,Paul Pate,R,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19197,Wright,Ryan Peterman,D,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19197,Wright,Write-ins,W,0,counting,0,100
+statewide,2026 Senate,2026,Senate,,19001,Adair,Ashley Hinson,R,1920,counting,100,100
+statewide,2026 Senate,2026,Senate,,19001,Adair,Josh Turek,D,1066,counting,100,100
+statewide,2026 Senate,2026,Senate,,19001,Adair,Thomas Laehn,L,141,counting,100,100
+statewide,2026 Senate,2026,Senate,,19001,Adair,Write-ins,W,0,counting,100,100
 statewide,2026 Senate,2026,Senate,,19003,Adams,Ashley Hinson,R,1001,counting,100,100
 statewide,2026 Senate,2026,Senate,,19003,Adams,Josh Turek,D,541,counting,100,100
 statewide,2026 Senate,2026,Senate,,19003,Adams,Thomas Laehn,L,72,counting,100,100
@@ -955,10 +1351,10 @@ statewide,2026 Senate,2026,Senate,,19081,Hancock,Ashley Hinson,R,2925,counting,1
 statewide,2026 Senate,2026,Senate,,19081,Hancock,Josh Turek,D,1410,counting,100,100
 statewide,2026 Senate,2026,Senate,,19081,Hancock,Thomas Laehn,L,223,counting,100,100
 statewide,2026 Senate,2026,Senate,,19081,Hancock,Write-ins,W,0,counting,100,100
-statewide,2026 Senate,2026,Senate,,19083,Hardin,Ashley Hinson,R,0,counting,0,100
-statewide,2026 Senate,2026,Senate,,19083,Hardin,Josh Turek,D,0,counting,0,100
-statewide,2026 Senate,2026,Senate,,19083,Hardin,Thomas Laehn,L,0,counting,0,100
-statewide,2026 Senate,2026,Senate,,19083,Hardin,Write-ins,W,0,counting,0,100
+statewide,2026 Senate,2026,Senate,,19083,Hardin,Ashley Hinson,R,3931,counting,100,100
+statewide,2026 Senate,2026,Senate,,19083,Hardin,Josh Turek,D,2506,counting,100,100
+statewide,2026 Senate,2026,Senate,,19083,Hardin,Thomas Laehn,L,260,counting,100,100
+statewide,2026 Senate,2026,Senate,,19083,Hardin,Write-ins,W,0,counting,100,100
 statewide,2026 Senate,2026,Senate,,19085,Harrison,Ashley Hinson,R,3325,counting,100,100
 statewide,2026 Senate,2026,Senate,,19085,Harrison,Josh Turek,D,2114,counting,100,100
 statewide,2026 Senate,2026,Senate,,19085,Harrison,Thomas Laehn,L,324,counting,100,100
@@ -1135,10 +1531,10 @@ statewide,2026 Senate,2026,Senate,,19171,Tama,Ashley Hinson,R,3802,counting,100,
 statewide,2026 Senate,2026,Senate,,19171,Tama,Josh Turek,D,3035,counting,100,100
 statewide,2026 Senate,2026,Senate,,19171,Tama,Thomas Laehn,L,255,counting,100,100
 statewide,2026 Senate,2026,Senate,,19171,Tama,Write-ins,W,0,counting,100,100
-statewide,2026 Senate,2026,Senate,,19173,Taylor,Ashley Hinson,R,0,counting,0,100
-statewide,2026 Senate,2026,Senate,,19173,Taylor,Josh Turek,D,0,counting,0,100
-statewide,2026 Senate,2026,Senate,,19173,Taylor,Thomas Laehn,L,0,counting,0,100
-statewide,2026 Senate,2026,Senate,,19173,Taylor,Write-ins,W,0,counting,0,100
+statewide,2026 Senate,2026,Senate,,19173,Taylor,Ashley Hinson,R,1467,counting,100,100
+statewide,2026 Senate,2026,Senate,,19173,Taylor,Josh Turek,D,630,counting,100,100
+statewide,2026 Senate,2026,Senate,,19173,Taylor,Thomas Laehn,L,85,counting,100,100
+statewide,2026 Senate,2026,Senate,,19173,Taylor,Write-ins,W,0,counting,100,100
 statewide,2026 Senate,2026,Senate,,19175,Union,Ashley Hinson,R,2586,counting,100,100
 statewide,2026 Senate,2026,Senate,,19175,Union,Josh Turek,D,1895,counting,100,100
 statewide,2026 Senate,2026,Senate,,19175,Union,Thomas Laehn,L,155,counting,100,100
@@ -1187,90 +1583,27 @@ statewide,2026 Senate,2026,Senate,,19197,Wright,Ashley Hinson,R,2502,counting,10
 statewide,2026 Senate,2026,Senate,,19197,Wright,Josh Turek,D,1704,counting,100,100
 statewide,2026 Senate,2026,Senate,,19197,Wright,Thomas Laehn,L,184,counting,100,100
 statewide,2026 Senate,2026,Senate,,19197,Wright,Write-ins,W,0,counting,100,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,1,,Christina Bohannan,D,154267,counting,84,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,1,,Mariannette Miller-Meeks,R,122983,counting,84,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,1,,Michael Bridgford,I,10663,counting,84,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,1,,Write-ins,W,0,counting,84,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,1,,Christina Bohannan,D,158339,counting,86,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,1,,Mariannette Miller-Meeks,R,125991,counting,86,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,1,,Michael Bridgford,I,11123,counting,86,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,1,,Write-ins,W,0,counting,86,100
 ushouse,2026 U.S. House,2026,U.S. House,c2022,2,,Lindsay James,D,164554,counting,95,100
 ushouse,2026 U.S. House,2026,U.S. House,c2022,2,,Joe Mitchell,R,146664,counting,95,100
 ushouse,2026 U.S. House,2026,U.S. House,c2022,2,,Rick Stewart,L,8954,counting,95,100
 ushouse,2026 U.S. House,2026,U.S. House,c2022,2,,Dave Bushaw,I,6035,counting,95,100
 ushouse,2026 U.S. House,2026,U.S. House,c2022,2,,Write-ins,W,0,counting,95,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,3,,Sarah Trone Garriott,D,172392,counting,90,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,3,,Zach Nunn,R,137477,counting,90,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,3,,Write-ins,W,0,counting,90,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,4,,Chris McGowan,R,138752,counting,71,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,4,,Dave Dawson,D,102321,counting,71,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,4,,Write-ins,W,0,counting,71,100
-senate,2026 Senate,2026,Senate,s2022,1,,Catelin Drey,D,9768,counting,50,100
-senate,2026 Senate,2026,Senate,s2022,1,,Christopher Prosch,R,6795,counting,50,100
-senate,2026 Senate,2026,Senate,s2022,1,,Write-ins,W,0,counting,50,100
-senate,2026 Senate,2026,Senate,s2022,3,,Lynn Evans,R,11281,counting,11,100
-senate,2026 Senate,2026,Senate,s2022,3,,Mike Frantz,D,5637,counting,11,100
-senate,2026 Senate,2026,Senate,s2022,3,,Write-ins,W,0,counting,11,100
-senate,2026 Senate,2026,Senate,s2022,5,,Dave Rowley,R,11942,counting,7,100
-senate,2026 Senate,2026,Senate,s2022,5,,Rachel Gravert,I,4141,counting,7,100
-senate,2026 Senate,2026,Senate,s2022,5,,Write-ins,W,0,counting,7,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,3,,Sarah Trone Garriott,D,173664,counting,91,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,3,,Zach Nunn,R,140882,counting,91,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,3,,Write-ins,W,0,counting,91,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,4,,Chris McGowan,R,142630,counting,72,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,4,,Dave Dawson,D,103683,counting,72,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,4,,Write-ins,W,0,counting,72,100
 senate,2026 Senate,2026,Senate,s2022,7,,Kevin Alons,R,0,pending,0,100
-senate,2026 Senate,2026,Senate,s2022,7,,Write-ins,W,0,pending,0,100
-senate,2026 Senate,2026,Senate,s2022,9,,Steve Baier,R,3343,counting,2,100
-senate,2026 Senate,2026,Senate,s2022,9,,James Uhlenkamp,D,1963,counting,2,100
-senate,2026 Senate,2026,Senate,s2022,9,,Write-ins,W,0,counting,2,100
-senate,2026 Senate,2026,Senate,s2022,11,,Hollie Arlene Zajicek,R,12710,counting,5,100
-senate,2026 Senate,2026,Senate,s2022,11,,Sinikka Waugh,D,8772,counting,5,100
-senate,2026 Senate,2026,Senate,s2022,11,,Write-ins,W,0,counting,5,100
-senate,2026 Senate,2026,Senate,s2022,13,,Jeff Kulmatycki,R,9733,counting,14,100
-senate,2026 Senate,2026,Senate,s2022,13,,Brenda Case,D,6712,counting,14,100
-senate,2026 Senate,2026,Senate,s2022,13,,Write-ins,W,0,counting,14,100
 senate,2026 Senate,2026,Senate,s2022,15,,Tony Bisignano,D,0,pending,0,100
-senate,2026 Senate,2026,Senate,s2022,15,,Write-ins,W,0,pending,0,100
-senate,2026 Senate,2026,Senate,s2022,17,,Samy El-Baroudi,D,13658,counting,50,100
-senate,2026 Senate,2026,Senate,s2022,17,,Ronald Langston,R,4045,counting,50,100
-senate,2026 Senate,2026,Senate,s2022,17,,Write-ins,W,0,counting,50,100
-senate,2026 Senate,2026,Senate,s2022,19,,Barb Kniff McCulla,R,9013,counting,10,100
-senate,2026 Senate,2026,Senate,s2022,19,,Zachary Mecham,D,3663,counting,10,100
-senate,2026 Senate,2026,Senate,s2022,19,,Write-ins,W,0,counting,10,100
-senate,2026 Senate,2026,Senate,s2022,21,,Heather Matson,D,19860,counting,50,100
-senate,2026 Senate,2026,Senate,s2022,21,,John Hollinrake,R,15398,counting,50,100
-senate,2026 Senate,2026,Senate,s2022,21,,Write-ins,W,0,counting,50,100
-senate,2026 Senate,2026,Senate,s2022,23,,Wes Enos,R,13205,counting,24,100
-senate,2026 Senate,2026,Senate,s2022,23,,Tony Thompson,D,12010,counting,24,100
-senate,2026 Senate,2026,Senate,s2022,23,,Write-ins,W,0,counting,24,100
-senate,2026 Senate,2026,Senate,s2022,25,,Herman C Quirmbach,D,16909,counting,50,100
-senate,2026 Senate,2026,Senate,s2022,25,,Paul Wacker,R,6735,counting,50,100
-senate,2026 Senate,2026,Senate,s2022,25,,Write-ins,W,0,counting,50,100
 senate,2026 Senate,2026,Senate,s2022,27,,Annette Sweeney,R,0,pending,0,100
-senate,2026 Senate,2026,Senate,s2022,27,,Write-ins,W,0,pending,0,100
-senate,2026 Senate,2026,Senate,s2022,29,,Sandy Salmon,R,8926,counting,11,100
-senate,2026 Senate,2026,Senate,s2022,29,,Jim Vowels,D,7863,counting,11,100
-senate,2026 Senate,2026,Senate,s2022,29,,Write-ins,W,0,counting,11,100
 senate,2026 Senate,2026,Senate,s2022,31,,Timi Brown Powers,D,0,pending,0,100
-senate,2026 Senate,2026,Senate,s2022,31,,Write-ins,W,0,pending,0,100
-senate,2026 Senate,2026,Senate,s2022,33,,Carrie Koelker,R,12519,counting,14,100
-senate,2026 Senate,2026,Senate,s2022,33,,Mary Ungs-Sogaard,D,8339,counting,14,100
-senate,2026 Senate,2026,Senate,s2022,33,,Write-ins,W,0,counting,14,100
-senate,2026 Senate,2026,Senate,s2022,35,,Joe Stutting,R,10235,counting,8,100
-senate,2026 Senate,2026,Senate,s2022,35,,Mike Zimmer,D,7672,counting,8,100
-senate,2026 Senate,2026,Senate,s2022,35,,Write-ins,W,0,counting,8,100
-senate,2026 Senate,2026,Senate,s2022,37,,Molly Donahue,D,18833,counting,50,100
-senate,2026 Senate,2026,Senate,s2022,37,,Randy Marzen,R,11350,counting,50,100
-senate,2026 Senate,2026,Senate,s2022,37,,Write-ins,W,0,counting,50,100
-senate,2026 Senate,2026,Senate,s2022,39,,Liz Bennett,D,17122,counting,50,100
-senate,2026 Senate,2026,Senate,s2022,39,,Edward Bernie Hayes,R,7084,counting,50,100
-senate,2026 Senate,2026,Senate,s2022,39,,Write-ins,W,0,counting,50,100
-senate,2026 Senate,2026,Senate,s2022,41,,Kerry Gruenhagen,R,13208,counting,25,100
-senate,2026 Senate,2026,Senate,s2022,41,,Tom Wieck,D,12123,counting,25,100
-senate,2026 Senate,2026,Senate,s2022,41,,Write-ins,W,0,counting,25,100
 senate,2026 Senate,2026,Senate,s2022,43,,Meghann Foster,D,0,pending,0,100
-senate,2026 Senate,2026,Senate,s2022,43,,Write-ins,W,0,pending,0,100
 senate,2026 Senate,2026,Senate,s2022,45,,Janice Weiner,D,0,pending,0,100
-senate,2026 Senate,2026,Senate,s2022,45,,Write-ins,W,0,pending,0,100
-senate,2026 Senate,2026,Senate,s2022,47,,Nikhil Wagle,D,15928,counting,50,100
-senate,2026 Senate,2026,Senate,s2022,47,,Scott Webster,R,15777,counting,50,100
-senate,2026 Senate,2026,Senate,s2022,47,,Write-ins,W,0,counting,50,100
-senate,2026 Senate,2026,Senate,s2022,49,,Cindy Winckler,D,13816,counting,50,100
-senate,2026 Senate,2026,Senate,s2022,49,,Cynthia Mensendick,R,7287,counting,50,100
-senate,2026 Senate,2026,Senate,s2022,49,,Write-ins,W,0,counting,50,100
 house,2026 House,2026,House,h2022,1,,Shawn Olorundami,D,4337,counting,50,100
 house,2026 House,2026,House,h2022,1,,Josh Steinhoff,R,2661,counting,50,100
 house,2026 House,2026,House,h2022,1,,Write-ins,W,0,counting,50,100
@@ -1297,12 +1630,12 @@ house,2026 House,2026,House,h2022,9,,Henry Stone,R,0,pending,0,100
 house,2026 House,2026,House,h2022,9,,Write-ins,W,0,pending,0,100
 house,2026 House,2026,House,h2022,10,,John H Wills,R,0,pending,0,100
 house,2026 House,2026,House,h2022,10,,Write-ins,W,0,pending,0,100
-house,2026 House,2026,House,h2022,11,,Craig Williams,R,1941,counting,0,100
-house,2026 House,2026,House,h2022,11,,Bill Owen,D,1538,counting,0,100
-house,2026 House,2026,House,h2022,11,,Write-ins,W,0,counting,0,100
-house,2026 House,2026,House,h2022,12,,Steven Holt,R,1626,counting,2,100
-house,2026 House,2026,House,h2022,12,,Dustin Durbin,D,1115,counting,2,100
-house,2026 House,2026,House,h2022,12,,Write-ins,W,0,counting,2,100
+house,2026 House,2026,House,h2022,11,,Craig Williams,R,5985,counting,13,100
+house,2026 House,2026,House,h2022,11,,Bill Owen,D,2878,counting,13,100
+house,2026 House,2026,House,h2022,11,,Write-ins,W,0,counting,13,100
+house,2026 House,2026,House,h2022,12,,Steven Holt,R,3078,counting,9,100
+house,2026 House,2026,House,h2022,12,,Dustin Durbin,D,1918,counting,9,100
+house,2026 House,2026,House,h2022,12,,Write-ins,W,0,counting,9,100
 house,2026 House,2026,House,h2022,13,,Travis M. Sitzmann,R,0,pending,0,100
 house,2026 House,2026,House,h2022,13,,Write-ins,W,0,pending,0,100
 house,2026 House,2026,House,h2022,14,,Jacob Bossman,R,0,pending,0,100
@@ -1332,18 +1665,18 @@ house,2026 House,2026,House,h2022,21,,Write-ins,W,0,counting,11,100
 house,2026 House,2026,House,h2022,22,,Samantha Fett,R,6845,counting,0,100
 house,2026 House,2026,House,h2022,22,,Rory Taylor,D,4969,counting,0,100
 house,2026 House,2026,House,h2022,22,,Write-ins,W,0,counting,0,100
-house,2026 House,2026,House,h2022,23,,Ray Bubba Sorensen,R,130,counting,0,100
-house,2026 House,2026,House,h2022,23,,Karen Varley,D,76,counting,0,100
-house,2026 House,2026,House,h2022,23,,Write-ins,W,0,counting,0,100
+house,2026 House,2026,House,h2022,23,,Ray Bubba Sorensen,R,1720,counting,4,100
+house,2026 House,2026,House,h2022,23,,Karen Varley,D,822,counting,4,100
+house,2026 House,2026,House,h2022,23,,Write-ins,W,0,counting,4,100
 house,2026 House,2026,House,h2022,24,,Sam Wengryn,R,2121,counting,4,100
 house,2026 House,2026,House,h2022,24,,Sonya Hicks,D,1005,counting,4,100
 house,2026 House,2026,House,h2022,24,,Write-ins,W,0,counting,4,100
 house,2026 House,2026,House,h2022,25,,Hans C. Wilz,R,5526,counting,50,100
 house,2026 House,2026,House,h2022,25,,Kolton Jones,D,4023,counting,50,100
 house,2026 House,2026,House,h2022,25,,Write-ins,W,0,counting,50,100
-house,2026 House,2026,House,h2022,26,,Austin Harris,R,4599,counting,10,100
-house,2026 House,2026,House,h2022,26,,Brett Mohler,D,2356,counting,10,100
-house,2026 House,2026,House,h2022,26,,Write-ins,W,0,counting,10,100
+house,2026 House,2026,House,h2022,26,,Austin Harris,R,6084,counting,15,100
+house,2026 House,2026,House,h2022,26,,Brett Mohler,D,2768,counting,15,100
+house,2026 House,2026,House,h2022,26,,Write-ins,W,0,counting,15,100
 house,2026 House,2026,House,h2022,27,,Kenan Judge,D,0,pending,0,100
 house,2026 House,2026,House,h2022,27,,Write-ins,W,0,pending,0,100
 house,2026 House,2026,House,h2022,28,,David Young,R,0,pending,0,100
@@ -1353,8 +1686,8 @@ house,2026 House,2026,House,h2022,29,,Brian Meyer,D,0,pending,0,100
 house,2026 House,2026,House,h2022,29,,Write-ins,W,0,pending,0,100
 house,2026 House,2026,House,h2022,30,,Megan L. Srinivas,D,0,pending,0,100
 house,2026 House,2026,House,h2022,30,,Write-ins,W,0,pending,0,100
-house,2026 House,2026,House,h2022,31,,Mary Madison,D,9451,counting,31,100
-house,2026 House,2026,House,h2022,31,,Kevin W. DuBay,R,5478,counting,31,100
+house,2026 House,2026,House,h2022,31,,Mary Madison,D,9844,counting,31,100
+house,2026 House,2026,House,h2022,31,,Kevin W. DuBay,R,5746,counting,31,100
 house,2026 House,2026,House,h2022,31,,Write-ins,W,0,counting,31,100
 house,2026 House,2026,House,h2022,32,,Mike Jones,D,0,pending,0,100
 house,2026 House,2026,House,h2022,32,,Write-ins,W,0,pending,0,100
@@ -1393,12 +1726,12 @@ house,2026 House,2026,House,h2022,44,,Write-ins,W,0,pending,0,100
 house,2026 House,2026,House,h2022,45,,Austin Stubbs,R,10205,counting,50,100
 house,2026 House,2026,House,h2022,45,,Kendra Haug,D,7472,counting,50,100
 house,2026 House,2026,House,h2022,45,,Write-ins,W,0,counting,50,100
-house,2026 House,2026,House,h2022,46,,Mandy Newton Rosenow,D,4036,counting,12,100
-house,2026 House,2026,House,h2022,46,,Dan Gehlbach,R,3559,counting,12,100
-house,2026 House,2026,House,h2022,46,,Write-ins,W,0,counting,12,100
-house,2026 House,2026,House,h2022,47,,Carter F. Nordman,R,3444,counting,8,100
-house,2026 House,2026,House,h2022,47,,Chris New,D,1689,counting,8,100
-house,2026 House,2026,House,h2022,47,,Write-ins,W,0,counting,8,100
+house,2026 House,2026,House,h2022,46,,Dan Gehlbach,R,7938,counting,21,100
+house,2026 House,2026,House,h2022,46,,Mandy Newton Rosenow,D,7896,counting,21,100
+house,2026 House,2026,House,h2022,46,,Write-ins,W,0,counting,21,100
+house,2026 House,2026,House,h2022,47,,Carter F. Nordman,R,5402,counting,15,100
+house,2026 House,2026,House,h2022,47,,Chris New,D,3789,counting,15,100
+house,2026 House,2026,House,h2022,47,,Write-ins,W,0,counting,15,100
 house,2026 House,2026,House,h2022,48,,Chad Behn,R,8058,counting,33,100
 house,2026 House,2026,House,h2022,48,,Benjamin Olsen,D,6897,counting,33,100
 house,2026 House,2026,House,h2022,48,,Write-ins,W,0,counting,33,100
@@ -1453,9 +1786,9 @@ house,2026 House,2026,House,h2022,65,,Write-ins,W,0,counting,50,100
 house,2026 House,2026,House,h2022,66,,Steven Bradley,R,3484,counting,11,100
 house,2026 House,2026,House,h2022,66,,Matt English,D,1754,counting,11,100
 house,2026 House,2026,House,h2022,66,,Write-ins,W,0,counting,11,100
-house,2026 House,2026,House,h2022,67,,Craig Johnson,R,5114,counting,11,100
-house,2026 House,2026,House,h2022,67,,Michael Coonrad,D,3728,counting,11,100
-house,2026 House,2026,House,h2022,67,,Write-ins,W,0,counting,11,100
+house,2026 House,2026,House,h2022,67,,Craig Johnson,R,9023,counting,25,100
+house,2026 House,2026,House,h2022,67,,Michael Coonrad,D,5195,counting,25,100
+house,2026 House,2026,House,h2022,67,,Write-ins,W,0,counting,25,100
 house,2026 House,2026,House,h2022,68,,Chad Ingels,R,7930,counting,25,100
 house,2026 House,2026,House,h2022,68,,Scott Bodley,D,4353,counting,25,100
 house,2026 House,2026,House,h2022,68,,Write-ins,W,0,counting,25,100
@@ -1491,8 +1824,8 @@ house,2026 House,2026,House,h2022,80,,Write-ins,W,0,pending,0,100
 house,2026 House,2026,House,h2022,81,,Daniel Gosa,D,7203,counting,50,100
 house,2026 House,2026,House,h2022,81,,Dillon Fillion,R,5032,counting,50,100
 house,2026 House,2026,House,h2022,81,,Write-ins,W,0,counting,50,100
-house,2026 House,2026,House,h2022,82,,Bobby Kaufmann,R,7874,counting,25,100
-house,2026 House,2026,House,h2022,82,,James Behrmann,D,5241,counting,25,100
+house,2026 House,2026,House,h2022,82,,Bobby Kaufmann,R,8196,counting,25,100
+house,2026 House,2026,House,h2022,82,,James Behrmann,D,5880,counting,25,100
 house,2026 House,2026,House,h2022,82,,Write-ins,W,0,counting,25,100
 house,2026 House,2026,House,h2022,83,,Cindy Golding,R,8740,counting,50,100
 house,2026 House,2026,House,h2022,83,,Mike Bergman,D,8504,counting,50,100
@@ -1504,8 +1837,8 @@ house,2026 House,2026,House,h2022,85,,Amy Nielsen,D,0,pending,0,100
 house,2026 House,2026,House,h2022,85,,Write-ins,W,0,pending,0,100
 house,2026 House,2026,House,h2022,86,,Dave Jacoby,D,0,pending,0,100
 house,2026 House,2026,House,h2022,86,,Write-ins,W,0,pending,0,100
-house,2026 House,2026,House,h2022,87,,Jeff Shipley,R,5888,counting,25,100
-house,2026 House,2026,House,h2022,87,,Thomas R. O'Donnell,D,5738,counting,25,100
+house,2026 House,2026,House,h2022,87,,Jeff Shipley,R,6284,counting,25,100
+house,2026 House,2026,House,h2022,87,,Thomas R. O'Donnell,D,5958,counting,25,100
 house,2026 House,2026,House,h2022,87,,Write-ins,W,0,counting,25,100
 house,2026 House,2026,House,h2022,88,,Helena Hayes,R,0,pending,0,100
 house,2026 House,2026,House,h2022,88,,Write-ins,W,0,pending,0,100
@@ -1526,11 +1859,11 @@ house,2026 House,2026,House,h2022,93,,Write-ins,W,0,counting,50,100
 house,2026 House,2026,House,h2022,94,,Mike Vondran,R,7438,counting,50,100
 house,2026 House,2026,House,h2022,94,,Karen Roebuck,D,7196,counting,50,100
 house,2026 House,2026,House,h2022,94,,Write-ins,W,0,counting,50,100
-house,2026 House,2026,House,h2022,95,,Taylor Collins,R,5829,counting,15,100
-house,2026 House,2026,House,h2022,95,,Carrie Trevino,D,2868,counting,15,100
+house,2026 House,2026,House,h2022,95,,Taylor Collins,R,6060,counting,15,100
+house,2026 House,2026,House,h2022,95,,Carrie Trevino,D,3123,counting,15,100
 house,2026 House,2026,House,h2022,95,,Write-ins,W,0,counting,15,100
-house,2026 House,2026,House,h2022,96,,Mark Cisneros,R,3304,counting,50,100
-house,2026 House,2026,House,h2022,96,,Nick Salazar,D,2875,counting,50,100
+house,2026 House,2026,House,h2022,96,,Nick Salazar,D,5685,counting,50,100
+house,2026 House,2026,House,h2022,96,,Mark Cisneros,R,5195,counting,50,100
 house,2026 House,2026,House,h2022,96,,Write-ins,W,0,counting,50,100
 house,2026 House,2026,House,h2022,97,,Adam Peters,D,7388,counting,50,100
 house,2026 House,2026,House,h2022,97,,Charlie Helmick,R,3262,counting,50,100
@@ -1544,600 +1877,27 @@ house,2026 House,2026,House,h2022,99,,Write-ins,W,0,counting,33,100
 house,2026 House,2026,House,h2022,100,,Blaine Watkins,R,6057,counting,50,100
 house,2026 House,2026,House,h2022,100,,Matthew Mohrfeld,D,5030,counting,50,100
 house,2026 House,2026,House,h2022,100,,Write-ins,W,0,counting,50,100
-statewide,2026 Treasurer,2026,Treasurer,,19001,Adair,Roby Smith,R,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19001,Adair,John Norwood,D,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19001,Adair,Write-ins,W,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19003,Adams,Roby Smith,R,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19003,Adams,John Norwood,D,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19003,Adams,Write-ins,W,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19005,Allamakee,Roby Smith,R,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19005,Allamakee,John Norwood,D,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19005,Allamakee,Write-ins,W,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19007,Appanoose,Roby Smith,R,3056,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19007,Appanoose,John Norwood,D,1692,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19007,Appanoose,Write-ins,W,0,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19009,Audubon,Roby Smith,R,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19009,Audubon,John Norwood,D,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19009,Audubon,Write-ins,W,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19011,Benton,Roby Smith,R,6975,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19011,Benton,John Norwood,D,4539,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19011,Benton,Write-ins,W,0,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19013,Black Hawk,John Norwood,D,29586,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19013,Black Hawk,Roby Smith,R,21550,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19013,Black Hawk,Write-ins,W,0,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19015,Boone,Roby Smith,R,6549,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19015,Boone,John Norwood,D,5646,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19015,Boone,Write-ins,W,0,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19017,Bremer,Roby Smith,R,6609,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19017,Bremer,John Norwood,D,5002,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19017,Bremer,Write-ins,W,0,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19019,Buchanan,Roby Smith,R,4718,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19019,Buchanan,John Norwood,D,3604,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19019,Buchanan,Write-ins,W,0,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19021,Buena Vista,Roby Smith,R,3327,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19021,Buena Vista,John Norwood,D,2423,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19021,Buena Vista,Write-ins,W,0,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19023,Butler,Roby Smith,R,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19023,Butler,John Norwood,D,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19023,Butler,Write-ins,W,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19025,Calhoun,Roby Smith,R,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19025,Calhoun,John Norwood,D,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19025,Calhoun,Write-ins,W,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19027,Carroll,Roby Smith,R,1748,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19027,Carroll,John Norwood,D,1552,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19027,Carroll,Write-ins,W,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19029,Cass,Roby Smith,R,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19029,Cass,John Norwood,D,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19029,Cass,Write-ins,W,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19031,Cedar,Roby Smith,R,4597,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19031,Cedar,John Norwood,D,3717,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19031,Cedar,Write-ins,W,0,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19033,Cerro Gordo,Roby Smith,R,9082,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19033,Cerro Gordo,John Norwood,D,8997,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19033,Cerro Gordo,Write-ins,W,0,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19035,Cherokee,Roby Smith,R,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19035,Cherokee,John Norwood,D,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19035,Cherokee,Write-ins,W,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19037,Chickasaw,Roby Smith,R,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19037,Chickasaw,John Norwood,D,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19037,Chickasaw,Write-ins,W,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19039,Clarke,Roby Smith,R,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19039,Clarke,John Norwood,D,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19039,Clarke,Write-ins,W,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19041,Clay,Roby Smith,R,4298,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19041,Clay,John Norwood,D,2188,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19041,Clay,Write-ins,W,0,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19043,Clayton,Roby Smith,R,4412,counting,83.3,100
-statewide,2026 Treasurer,2026,Treasurer,,19043,Clayton,John Norwood,D,2771,counting,83.3,100
-statewide,2026 Treasurer,2026,Treasurer,,19043,Clayton,Write-ins,W,0,counting,83.3,100
-statewide,2026 Treasurer,2026,Treasurer,,19045,Clinton,Roby Smith,R,6250,counting,50,100
-statewide,2026 Treasurer,2026,Treasurer,,19045,Clinton,John Norwood,D,3766,counting,50,100
-statewide,2026 Treasurer,2026,Treasurer,,19045,Clinton,Write-ins,W,0,counting,50,100
-statewide,2026 Treasurer,2026,Treasurer,,19047,Crawford,Roby Smith,R,1581,counting,25,100
-statewide,2026 Treasurer,2026,Treasurer,,19047,Crawford,John Norwood,D,1050,counting,25,100
-statewide,2026 Treasurer,2026,Treasurer,,19047,Crawford,Write-ins,W,0,counting,25,100
-statewide,2026 Treasurer,2026,Treasurer,,19049,Dallas,Roby Smith,R,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19049,Dallas,John Norwood,D,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19049,Dallas,Write-ins,W,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19051,Davis,Roby Smith,R,587,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19051,Davis,John Norwood,D,433,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19051,Davis,Write-ins,W,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19053,Decatur,Roby Smith,R,1817,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19053,Decatur,John Norwood,D,886,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19053,Decatur,Write-ins,W,0,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19055,Delaware,Roby Smith,R,1237,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19055,Delaware,John Norwood,D,1154,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19055,Delaware,Write-ins,W,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19057,Des Moines,Roby Smith,R,7383,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19057,Des Moines,John Norwood,D,7158,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19057,Des Moines,Write-ins,W,0,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19059,Dickinson,Roby Smith,R,3167,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19059,Dickinson,John Norwood,D,1922,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19059,Dickinson,Write-ins,W,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19061,Dubuque,John Norwood,D,21699,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19061,Dubuque,Roby Smith,R,20468,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19061,Dubuque,Write-ins,W,0,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19063,Emmet,Roby Smith,R,2242,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19063,Emmet,John Norwood,D,1237,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19063,Emmet,Write-ins,W,0,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19065,Fayette,Roby Smith,R,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19065,Fayette,John Norwood,D,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19065,Fayette,Write-ins,W,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19067,Floyd,Roby Smith,R,3380,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19067,Floyd,John Norwood,D,2565,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19067,Floyd,Write-ins,W,0,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19069,Franklin,Roby Smith,R,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19069,Franklin,John Norwood,D,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19069,Franklin,Write-ins,W,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19071,Fremont,Roby Smith,R,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19071,Fremont,John Norwood,D,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19071,Fremont,Write-ins,W,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19073,Greene,Roby Smith,R,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19073,Greene,John Norwood,D,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19073,Greene,Write-ins,W,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19075,Grundy,Roby Smith,R,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19075,Grundy,John Norwood,D,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19075,Grundy,Write-ins,W,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19077,Guthrie,Roby Smith,R,3324,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19077,Guthrie,John Norwood,D,1782,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19077,Guthrie,Write-ins,W,0,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19079,Hamilton,Roby Smith,R,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19079,Hamilton,John Norwood,D,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19079,Hamilton,Write-ins,W,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19081,Hancock,Roby Smith,R,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19081,Hancock,John Norwood,D,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19081,Hancock,Write-ins,W,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19083,Hardin,Roby Smith,R,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19083,Hardin,John Norwood,D,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19083,Hardin,Write-ins,W,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19085,Harrison,Roby Smith,R,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19085,Harrison,John Norwood,D,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19085,Harrison,Write-ins,W,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19087,Henry,Roby Smith,R,4533,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19087,Henry,John Norwood,D,2818,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19087,Henry,Write-ins,W,0,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19089,Howard,Roby Smith,R,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19089,Howard,John Norwood,D,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19089,Howard,Write-ins,W,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19091,Humboldt,Roby Smith,R,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19091,Humboldt,John Norwood,D,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19091,Humboldt,Write-ins,W,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19093,Ida,Roby Smith,R,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19093,Ida,John Norwood,D,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19093,Ida,Write-ins,W,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19095,Iowa,Roby Smith,R,3305,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19095,Iowa,John Norwood,D,1793,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19095,Iowa,Write-ins,W,0,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19097,Jackson,Roby Smith,R,4904,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19097,Jackson,John Norwood,D,3193,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19097,Jackson,Write-ins,W,0,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19099,Jasper,Roby Smith,R,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19099,Jasper,John Norwood,D,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19099,Jasper,Write-ins,W,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19101,Jefferson,John Norwood,D,3283,counting,75,100
-statewide,2026 Treasurer,2026,Treasurer,,19101,Jefferson,Roby Smith,R,2410,counting,75,100
-statewide,2026 Treasurer,2026,Treasurer,,19101,Jefferson,Write-ins,W,0,counting,75,100
-statewide,2026 Treasurer,2026,Treasurer,,19103,Johnson,John Norwood,D,54519,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19103,Johnson,Roby Smith,R,18234,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19103,Johnson,Write-ins,W,0,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19105,Jones,Roby Smith,R,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19105,Jones,John Norwood,D,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19105,Jones,Write-ins,W,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19107,Keokuk,Roby Smith,R,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19107,Keokuk,John Norwood,D,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19107,Keokuk,Write-ins,W,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19109,Kossuth,Roby Smith,R,4486,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19109,Kossuth,John Norwood,D,2050,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19109,Kossuth,Write-ins,W,0,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19111,Lee,Roby Smith,R,6467,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19111,Lee,John Norwood,D,5316,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19111,Lee,Write-ins,W,0,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19113,Linn,John Norwood,D,62604,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19113,Linn,Roby Smith,R,41302,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19113,Linn,Write-ins,W,0,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19115,Louisa,Roby Smith,R,2408,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19115,Louisa,John Norwood,D,1413,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19115,Louisa,Write-ins,W,0,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19117,Lucas,Roby Smith,R,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19117,Lucas,John Norwood,D,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19117,Lucas,Write-ins,W,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19119,Lyon,Roby Smith,R,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19119,Lyon,John Norwood,D,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19119,Lyon,Write-ins,W,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19121,Madison,Roby Smith,R,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19121,Madison,John Norwood,D,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19121,Madison,Write-ins,W,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19123,Mahaska,Roby Smith,R,5760,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19123,Mahaska,John Norwood,D,2420,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19123,Mahaska,Write-ins,W,0,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19125,Marion,Roby Smith,R,10145,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19125,Marion,John Norwood,D,5470,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19125,Marion,Write-ins,W,0,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19127,Marshall,John Norwood,D,7103,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19127,Marshall,Roby Smith,R,7059,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19127,Marshall,Write-ins,W,0,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19129,Mills,Roby Smith,R,3937,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19129,Mills,John Norwood,D,2158,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19129,Mills,Write-ins,W,0,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19131,Mitchell,Roby Smith,R,2650,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19131,Mitchell,John Norwood,D,1708,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19131,Mitchell,Write-ins,W,0,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19133,Monona,Roby Smith,R,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19133,Monona,John Norwood,D,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19133,Monona,Write-ins,W,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19135,Monroe,Roby Smith,R,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19135,Monroe,John Norwood,D,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19135,Monroe,Write-ins,W,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19137,Montgomery,Roby Smith,R,2405,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19137,Montgomery,John Norwood,D,1226,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19137,Montgomery,Write-ins,W,0,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19139,Muscatine,Roby Smith,R,5095,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19139,Muscatine,John Norwood,D,4077,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19139,Muscatine,Write-ins,W,0,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19141,O'Brien,Roby Smith,R,4191,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19141,O'Brien,John Norwood,D,1250,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19141,O'Brien,Write-ins,W,0,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19143,Osceola,Roby Smith,R,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19143,Osceola,John Norwood,D,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19143,Osceola,Write-ins,W,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19145,Page,Roby Smith,R,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19145,Page,John Norwood,D,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19145,Page,Write-ins,W,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19147,Palo Alto,Roby Smith,R,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19147,Palo Alto,John Norwood,D,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19147,Palo Alto,Write-ins,W,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19149,Plymouth,Roby Smith,R,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19149,Plymouth,John Norwood,D,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19149,Plymouth,Write-ins,W,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19151,Pocahontas,Roby Smith,R,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19151,Pocahontas,John Norwood,D,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19151,Pocahontas,Write-ins,W,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19153,Polk,John Norwood,D,128773,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19153,Polk,Roby Smith,R,81694,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19153,Polk,Write-ins,W,0,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19155,Pottawattamie,John Norwood,D,5914,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19155,Pottawattamie,Roby Smith,R,4579,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19155,Pottawattamie,Write-ins,W,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19157,Poweshiek,Roby Smith,R,4179,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19157,Poweshiek,John Norwood,D,3699,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19157,Poweshiek,Write-ins,W,0,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19159,Ringgold,Roby Smith,R,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19159,Ringgold,John Norwood,D,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19159,Ringgold,Write-ins,W,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19161,Sac,Roby Smith,R,2900,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19161,Sac,John Norwood,D,1172,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19161,Sac,Write-ins,W,0,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19163,Scott,John Norwood,D,38259,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19163,Scott,Roby Smith,R,34366,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19163,Scott,Write-ins,W,0,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19165,Shelby,Roby Smith,R,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19165,Shelby,John Norwood,D,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19165,Shelby,Write-ins,W,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19167,Sioux,Roby Smith,R,12395,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19167,Sioux,John Norwood,D,2428,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19167,Sioux,Write-ins,W,0,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19169,Story,John Norwood,D,25060,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19169,Story,Roby Smith,R,15710,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19169,Story,Write-ins,W,0,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19171,Tama,Roby Smith,R,3933,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19171,Tama,John Norwood,D,3000,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19171,Tama,Write-ins,W,0,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19173,Taylor,Roby Smith,R,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19173,Taylor,John Norwood,D,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19173,Taylor,Write-ins,W,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19175,Union,John Norwood,D,929,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19175,Union,Roby Smith,R,915,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19175,Union,Write-ins,W,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19177,Van Buren,Roby Smith,R,2010,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19177,Van Buren,John Norwood,D,737,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19177,Van Buren,Write-ins,W,0,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19179,Wapello,Roby Smith,R,6171,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19179,Wapello,John Norwood,D,4742,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19179,Wapello,Write-ins,W,0,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19181,Warren,Roby Smith,R,10054,counting,59.5,100
-statewide,2026 Treasurer,2026,Treasurer,,19181,Warren,John Norwood,D,6477,counting,59.5,100
-statewide,2026 Treasurer,2026,Treasurer,,19181,Warren,Write-ins,W,0,counting,59.5,100
-statewide,2026 Treasurer,2026,Treasurer,,19183,Washington,Roby Smith,R,5339,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19183,Washington,John Norwood,D,3961,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19183,Washington,Write-ins,W,0,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19185,Wayne,Roby Smith,R,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19185,Wayne,John Norwood,D,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19185,Wayne,Write-ins,W,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19187,Webster,Roby Smith,R,7137,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19187,Webster,John Norwood,D,5286,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19187,Webster,Write-ins,W,0,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19189,Winnebago,Roby Smith,R,2745,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19189,Winnebago,John Norwood,D,1659,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19189,Winnebago,Write-ins,W,0,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19191,Winneshiek,John Norwood,D,5093,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19191,Winneshiek,Roby Smith,R,4975,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19191,Winneshiek,Write-ins,W,0,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19193,Woodbury,Roby Smith,R,17458,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19193,Woodbury,John Norwood,D,15357,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19193,Woodbury,Write-ins,W,0,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,19195,Worth,Roby Smith,R,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19195,Worth,John Norwood,D,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19195,Worth,Write-ins,W,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19197,Wright,Roby Smith,R,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19197,Wright,John Norwood,D,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19197,Wright,Write-ins,W,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19001,Adair,Paul Pate,R,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19001,Adair,Ryan Peterman,D,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19001,Adair,Write-ins,W,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19003,Adams,Paul Pate,R,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19003,Adams,Ryan Peterman,D,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19003,Adams,Write-ins,W,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19005,Allamakee,Paul Pate,R,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19005,Allamakee,Ryan Peterman,D,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19005,Allamakee,Write-ins,W,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19007,Appanoose,Paul Pate,R,3242,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19007,Appanoose,Ryan Peterman,D,1565,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19007,Appanoose,Write-ins,W,0,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19009,Audubon,Paul Pate,R,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19009,Audubon,Ryan Peterman,D,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19009,Audubon,Write-ins,W,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19011,Benton,Paul Pate,R,7786,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19011,Benton,Ryan Peterman,D,3967,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19011,Benton,Write-ins,W,0,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19013,Black Hawk,Ryan Peterman,D,28141,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19013,Black Hawk,Paul Pate,R,23159,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19013,Black Hawk,Write-ins,W,0,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19015,Boone,Paul Pate,R,7125,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19015,Boone,Ryan Peterman,D,5246,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19015,Boone,Write-ins,W,0,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19017,Bremer,Paul Pate,R,7147,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19017,Bremer,Ryan Peterman,D,4671,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19017,Bremer,Write-ins,W,0,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19019,Buchanan,Paul Pate,R,5299,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19019,Buchanan,Ryan Peterman,D,3139,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19019,Buchanan,Write-ins,W,0,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19021,Buena Vista,Paul Pate,R,3549,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19021,Buena Vista,Ryan Peterman,D,2331,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19021,Buena Vista,Write-ins,W,0,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19023,Butler,Paul Pate,R,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19023,Butler,Ryan Peterman,D,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19023,Butler,Write-ins,W,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19025,Calhoun,Paul Pate,R,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19025,Calhoun,Ryan Peterman,D,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19025,Calhoun,Write-ins,W,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19027,Carroll,Paul Pate,R,1971,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19027,Carroll,Ryan Peterman,D,1396,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19027,Carroll,Write-ins,W,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19029,Cass,Paul Pate,R,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19029,Cass,Ryan Peterman,D,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19029,Cass,Write-ins,W,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19031,Cedar,Paul Pate,R,4989,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19031,Cedar,Ryan Peterman,D,3504,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19031,Cedar,Write-ins,W,0,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19033,Cerro Gordo,Paul Pate,R,9556,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19033,Cerro Gordo,Ryan Peterman,D,8710,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19033,Cerro Gordo,Write-ins,W,0,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19035,Cherokee,Paul Pate,R,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19035,Cherokee,Ryan Peterman,D,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19035,Cherokee,Write-ins,W,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19037,Chickasaw,Paul Pate,R,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19037,Chickasaw,Ryan Peterman,D,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19037,Chickasaw,Write-ins,W,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19039,Clarke,Paul Pate,R,2334,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19039,Clarke,Ryan Peterman,D,1132,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19039,Clarke,Write-ins,W,0,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19041,Clay,Paul Pate,R,4452,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19041,Clay,Ryan Peterman,D,2111,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19041,Clay,Write-ins,W,0,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19043,Clayton,Paul Pate,R,4764,counting,83.3,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19043,Clayton,Ryan Peterman,D,2489,counting,83.3,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19043,Clayton,Write-ins,W,0,counting,83.3,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19045,Clinton,Paul Pate,R,6364,counting,50,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19045,Clinton,Ryan Peterman,D,3770,counting,50,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19045,Clinton,Write-ins,W,0,counting,50,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19047,Crawford,Paul Pate,R,1675,counting,25,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19047,Crawford,Ryan Peterman,D,1001,counting,25,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19047,Crawford,Write-ins,W,0,counting,25,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19049,Dallas,Paul Pate,R,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19049,Dallas,Ryan Peterman,D,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19049,Dallas,Write-ins,W,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19051,Davis,Paul Pate,R,627,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19051,Davis,Ryan Peterman,D,395,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19051,Davis,Write-ins,W,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19053,Decatur,Paul Pate,R,1931,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19053,Decatur,Ryan Peterman,D,802,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19053,Decatur,Write-ins,W,0,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19055,Delaware,Paul Pate,R,1424,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19055,Delaware,Ryan Peterman,D,1044,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19055,Delaware,Write-ins,W,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19057,Des Moines,Paul Pate,R,7626,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19057,Des Moines,Ryan Peterman,D,7096,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19057,Des Moines,Write-ins,W,0,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19059,Dickinson,Paul Pate,R,6408,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19059,Dickinson,Ryan Peterman,D,2922,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19059,Dickinson,Write-ins,W,0,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19061,Dubuque,Paul Pate,R,21882,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19061,Dubuque,Ryan Peterman,D,20823,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19061,Dubuque,Write-ins,W,0,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19063,Emmet,Paul Pate,R,2358,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19063,Emmet,Ryan Peterman,D,1189,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19063,Emmet,Write-ins,W,0,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19065,Fayette,Paul Pate,R,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19065,Fayette,Ryan Peterman,D,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19065,Fayette,Write-ins,W,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19067,Floyd,Paul Pate,R,3527,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19067,Floyd,Ryan Peterman,D,2467,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19067,Floyd,Write-ins,W,0,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19069,Franklin,Paul Pate,R,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19069,Franklin,Ryan Peterman,D,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19069,Franklin,Write-ins,W,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19071,Fremont,Paul Pate,R,1765,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19071,Fremont,Ryan Peterman,D,868,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19071,Fremont,Write-ins,W,0,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19073,Greene,Paul Pate,R,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19073,Greene,Ryan Peterman,D,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19073,Greene,Write-ins,W,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19075,Grundy,Paul Pate,R,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19075,Grundy,Ryan Peterman,D,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19075,Grundy,Write-ins,W,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19077,Guthrie,Paul Pate,R,3621,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19077,Guthrie,Ryan Peterman,D,1565,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19077,Guthrie,Write-ins,W,0,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19079,Hamilton,Paul Pate,R,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19079,Hamilton,Ryan Peterman,D,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19079,Hamilton,Write-ins,W,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19081,Hancock,Paul Pate,R,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19081,Hancock,Ryan Peterman,D,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19081,Hancock,Write-ins,W,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19083,Hardin,Paul Pate,R,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19083,Hardin,Ryan Peterman,D,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19083,Hardin,Write-ins,W,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19085,Harrison,Paul Pate,R,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19085,Harrison,Ryan Peterman,D,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19085,Harrison,Write-ins,W,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19087,Henry,Paul Pate,R,4776,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19087,Henry,Ryan Peterman,D,2692,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19087,Henry,Write-ins,W,0,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19089,Howard,Paul Pate,R,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19089,Howard,Ryan Peterman,D,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19089,Howard,Write-ins,W,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19091,Humboldt,Paul Pate,R,2769,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19091,Humboldt,Ryan Peterman,D,1031,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19091,Humboldt,Write-ins,W,0,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19093,Ida,Paul Pate,R,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19093,Ida,Ryan Peterman,D,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19093,Ida,Write-ins,W,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19095,Iowa,Paul Pate,R,3528,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19095,Iowa,Ryan Peterman,D,1650,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19095,Iowa,Write-ins,W,0,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19097,Jackson,Paul Pate,R,5132,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19097,Jackson,Ryan Peterman,D,3090,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19097,Jackson,Write-ins,W,0,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19099,Jasper,Paul Pate,R,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19099,Jasper,Ryan Peterman,D,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19099,Jasper,Write-ins,W,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19101,Jefferson,Ryan Peterman,D,3202,counting,75,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19101,Jefferson,Paul Pate,R,2579,counting,75,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19101,Jefferson,Write-ins,W,0,counting,75,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19103,Johnson,Ryan Peterman,D,53412,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19103,Johnson,Paul Pate,R,19962,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19103,Johnson,Write-ins,W,0,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19105,Jones,Paul Pate,R,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19105,Jones,Ryan Peterman,D,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19105,Jones,Write-ins,W,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19107,Keokuk,Paul Pate,R,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19107,Keokuk,Ryan Peterman,D,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19107,Keokuk,Write-ins,W,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19109,Kossuth,Paul Pate,R,4742,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19109,Kossuth,Ryan Peterman,D,1859,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19109,Kossuth,Write-ins,W,0,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19111,Lee,Paul Pate,R,6651,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19111,Lee,Ryan Peterman,D,5230,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19111,Lee,Write-ins,W,0,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19113,Linn,Ryan Peterman,D,57800,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19113,Linn,Paul Pate,R,47222,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19113,Linn,Write-ins,W,0,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19115,Louisa,Paul Pate,R,2498,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19115,Louisa,Ryan Peterman,D,1372,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19115,Louisa,Write-ins,W,0,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19117,Lucas,Paul Pate,R,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19117,Lucas,Ryan Peterman,D,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19117,Lucas,Write-ins,W,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19119,Lyon,Paul Pate,R,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19119,Lyon,Ryan Peterman,D,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19119,Lyon,Write-ins,W,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19121,Madison,Paul Pate,R,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19121,Madison,Ryan Peterman,D,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19121,Madison,Write-ins,W,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19123,Mahaska,Paul Pate,R,6082,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19123,Mahaska,Ryan Peterman,D,2243,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19123,Mahaska,Write-ins,W,0,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19125,Marion,Paul Pate,R,10757,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19125,Marion,Ryan Peterman,D,5102,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19125,Marion,Write-ins,W,0,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19127,Marshall,Paul Pate,R,7595,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19127,Marshall,Ryan Peterman,D,6697,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19127,Marshall,Write-ins,W,0,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19129,Mills,Paul Pate,R,3951,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19129,Mills,Ryan Peterman,D,2186,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19129,Mills,Write-ins,W,0,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19131,Mitchell,Paul Pate,R,2773,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19131,Mitchell,Ryan Peterman,D,1615,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19131,Mitchell,Write-ins,W,0,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19133,Monona,Paul Pate,R,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19133,Monona,Ryan Peterman,D,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19133,Monona,Write-ins,W,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19135,Monroe,Paul Pate,R,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19135,Monroe,Ryan Peterman,D,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19135,Monroe,Write-ins,W,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19137,Montgomery,Paul Pate,R,2444,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19137,Montgomery,Ryan Peterman,D,1238,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19137,Montgomery,Write-ins,W,0,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19139,Muscatine,Paul Pate,R,5160,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19139,Muscatine,Ryan Peterman,D,4071,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19139,Muscatine,Write-ins,W,0,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19141,O'Brien,Paul Pate,R,4273,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19141,O'Brien,Ryan Peterman,D,1241,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19141,O'Brien,Write-ins,W,0,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19143,Osceola,Paul Pate,R,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19143,Osceola,Ryan Peterman,D,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19143,Osceola,Write-ins,W,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19145,Page,Paul Pate,R,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19145,Page,Ryan Peterman,D,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19145,Page,Write-ins,W,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19147,Palo Alto,Paul Pate,R,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19147,Palo Alto,Ryan Peterman,D,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19147,Palo Alto,Write-ins,W,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19149,Plymouth,Paul Pate,R,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19149,Plymouth,Ryan Peterman,D,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19149,Plymouth,Write-ins,W,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19151,Pocahontas,Paul Pate,R,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19151,Pocahontas,Ryan Peterman,D,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19151,Pocahontas,Write-ins,W,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19153,Polk,Ryan Peterman,D,123750,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19153,Polk,Paul Pate,R,91497,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19153,Polk,Write-ins,W,0,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19155,Pottawattamie,Ryan Peterman,D,5870,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19155,Pottawattamie,Paul Pate,R,4700,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19155,Pottawattamie,Write-ins,W,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19157,Poweshiek,Paul Pate,R,4510,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19157,Poweshiek,Ryan Peterman,D,3492,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19157,Poweshiek,Write-ins,W,0,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19159,Ringgold,Paul Pate,R,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19159,Ringgold,Ryan Peterman,D,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19159,Ringgold,Write-ins,W,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19161,Sac,Paul Pate,R,3044,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19161,Sac,Ryan Peterman,D,1107,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19161,Sac,Write-ins,W,0,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19163,Scott,Ryan Peterman,D,39028,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19163,Scott,Paul Pate,R,33562,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19163,Scott,Write-ins,W,0,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19165,Shelby,Paul Pate,R,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19165,Shelby,Ryan Peterman,D,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19165,Shelby,Write-ins,W,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19167,Sioux,Paul Pate,R,12658,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19167,Sioux,Ryan Peterman,D,2370,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19167,Sioux,Write-ins,W,0,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19169,Story,Ryan Peterman,D,24017,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19169,Story,Paul Pate,R,17301,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19169,Story,Write-ins,W,0,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19171,Tama,Paul Pate,R,4266,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19171,Tama,Ryan Peterman,D,2761,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19171,Tama,Write-ins,W,0,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19173,Taylor,Paul Pate,R,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19173,Taylor,Ryan Peterman,D,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19173,Taylor,Write-ins,W,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19175,Union,Paul Pate,R,1054,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19175,Union,Ryan Peterman,D,828,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19175,Union,Write-ins,W,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19177,Van Buren,Paul Pate,R,2080,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19177,Van Buren,Ryan Peterman,D,709,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19177,Van Buren,Write-ins,W,0,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19179,Wapello,Paul Pate,R,6420,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19179,Wapello,Ryan Peterman,D,4604,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19179,Wapello,Write-ins,W,0,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19181,Warren,Paul Pate,R,10668,counting,62.2,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19181,Warren,Ryan Peterman,D,6015,counting,62.2,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19181,Warren,Write-ins,W,0,counting,62.2,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19183,Washington,Paul Pate,R,5790,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19183,Washington,Ryan Peterman,D,3638,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19183,Washington,Write-ins,W,0,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19185,Wayne,Paul Pate,R,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19185,Wayne,Ryan Peterman,D,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19185,Wayne,Write-ins,W,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19187,Webster,Paul Pate,R,7588,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19187,Webster,Ryan Peterman,D,4942,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19187,Webster,Write-ins,W,0,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19189,Winnebago,Paul Pate,R,2825,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19189,Winnebago,Ryan Peterman,D,1603,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19189,Winnebago,Write-ins,W,0,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19191,Winneshiek,Paul Pate,R,5400,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19191,Winneshiek,Ryan Peterman,D,4757,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19191,Winneshiek,Write-ins,W,0,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19193,Woodbury,Paul Pate,R,17958,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19193,Woodbury,Ryan Peterman,D,15031,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19193,Woodbury,Write-ins,W,0,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19195,Worth,Paul Pate,R,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19195,Worth,Ryan Peterman,D,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19195,Worth,Write-ins,W,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19197,Wright,Paul Pate,R,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19197,Wright,Ryan Peterman,D,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19197,Wright,Write-ins,W,0,counting,0,100
+senate,2026 Senate,2026,Senate,s2022,37,,Molly Donahue,D,18833,counting,50,100
+senate,2026 Senate,2026,Senate,s2022,37,,Randy Marzen,R,11350,counting,50,100
+senate,2026 Senate,2026,Senate,s2022,37,,Write-ins,W,0,counting,50,100
+senate,2026 Senate,2026,Senate,s2022,49,,Cindy Winckler,D,13816,counting,50,100
+senate,2026 Senate,2026,Senate,s2022,49,,Cynthia Mensendick,R,7287,counting,50,100
+senate,2026 Senate,2026,Senate,s2022,49,,Write-ins,W,0,counting,50,100
+senate,2026 Senate,2026,Senate,s2022,3,,Lynn Evans,R,11281,counting,11,100
+senate,2026 Senate,2026,Senate,s2022,3,,Mike Frantz,D,5637,counting,11,100
+senate,2026 Senate,2026,Senate,s2022,3,,Write-ins,W,0,counting,11,100
+senate,2026 Senate,2026,Senate,s2022,9,,Steve Baier,R,3343,counting,2,100
+senate,2026 Senate,2026,Senate,s2022,9,,James Uhlenkamp,D,1963,counting,2,100
+senate,2026 Senate,2026,Senate,s2022,9,,Write-ins,W,0,counting,2,100
+senate,2026 Senate,2026,Senate,s2022,21,,Heather Matson,D,19860,counting,50,100
+senate,2026 Senate,2026,Senate,s2022,21,,John Hollinrake,R,15398,counting,50,100
+senate,2026 Senate,2026,Senate,s2022,21,,Write-ins,W,0,counting,50,100
+senate,2026 Senate,2026,Senate,s2022,33,,Carrie Koelker,R,12519,counting,14,100
+senate,2026 Senate,2026,Senate,s2022,33,,Mary Ungs-Sogaard,D,8339,counting,14,100
+senate,2026 Senate,2026,Senate,s2022,33,,Write-ins,W,0,counting,14,100
+senate,2026 Senate,2026,Senate,s2022,39,,Liz Bennett,D,17122,counting,50,100
+senate,2026 Senate,2026,Senate,s2022,39,,Edward Bernie Hayes,R,7084,counting,50,100
+senate,2026 Senate,2026,Senate,s2022,39,,Write-ins,W,0,counting,50,100
 statewide,2026 Attorney General,2026,Attorney General,,19001,Adair,Brenna Bird,R,0,counting,0,100
 statewide,2026 Attorney General,2026,Attorney General,,19001,Adair,Nathan Willems,D,0,counting,0,100
 statewide,2026 Attorney General,2026,Attorney General,,19001,Adair,Write-ins,W,0,counting,0,100
@@ -2435,3 +2195,336 @@ statewide,2026 Attorney General,2026,Attorney General,,19195,Worth,Write-ins,W,0
 statewide,2026 Attorney General,2026,Attorney General,,19197,Wright,Brenna Bird,R,0,counting,0,100
 statewide,2026 Attorney General,2026,Attorney General,,19197,Wright,Nathan Willems,D,0,counting,0,100
 statewide,2026 Attorney General,2026,Attorney General,,19197,Wright,Write-ins,W,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19001,Adair,Roby Smith,R,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19001,Adair,John Norwood,D,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19001,Adair,Write-ins,W,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19003,Adams,Roby Smith,R,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19003,Adams,John Norwood,D,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19003,Adams,Write-ins,W,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19005,Allamakee,Roby Smith,R,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19005,Allamakee,John Norwood,D,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19005,Allamakee,Write-ins,W,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19007,Appanoose,Roby Smith,R,3056,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19007,Appanoose,John Norwood,D,1692,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19007,Appanoose,Write-ins,W,0,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19009,Audubon,Roby Smith,R,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19009,Audubon,John Norwood,D,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19009,Audubon,Write-ins,W,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19011,Benton,Roby Smith,R,6975,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19011,Benton,John Norwood,D,4539,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19011,Benton,Write-ins,W,0,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19013,Black Hawk,John Norwood,D,29586,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19013,Black Hawk,Roby Smith,R,21550,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19013,Black Hawk,Write-ins,W,0,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19015,Boone,Roby Smith,R,6549,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19015,Boone,John Norwood,D,5646,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19015,Boone,Write-ins,W,0,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19017,Bremer,Roby Smith,R,6609,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19017,Bremer,John Norwood,D,5002,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19017,Bremer,Write-ins,W,0,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19019,Buchanan,Roby Smith,R,4718,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19019,Buchanan,John Norwood,D,3604,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19019,Buchanan,Write-ins,W,0,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19021,Buena Vista,Roby Smith,R,3327,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19021,Buena Vista,John Norwood,D,2423,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19021,Buena Vista,Write-ins,W,0,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19023,Butler,Roby Smith,R,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19023,Butler,John Norwood,D,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19023,Butler,Write-ins,W,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19025,Calhoun,Roby Smith,R,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19025,Calhoun,John Norwood,D,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19025,Calhoun,Write-ins,W,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19027,Carroll,Roby Smith,R,1748,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19027,Carroll,John Norwood,D,1552,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19027,Carroll,Write-ins,W,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19029,Cass,Roby Smith,R,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19029,Cass,John Norwood,D,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19029,Cass,Write-ins,W,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19031,Cedar,Roby Smith,R,4597,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19031,Cedar,John Norwood,D,3717,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19031,Cedar,Write-ins,W,0,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19033,Cerro Gordo,Roby Smith,R,9082,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19033,Cerro Gordo,John Norwood,D,8997,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19033,Cerro Gordo,Write-ins,W,0,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19035,Cherokee,Roby Smith,R,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19035,Cherokee,John Norwood,D,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19035,Cherokee,Write-ins,W,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19037,Chickasaw,Roby Smith,R,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19037,Chickasaw,John Norwood,D,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19037,Chickasaw,Write-ins,W,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19039,Clarke,Roby Smith,R,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19039,Clarke,John Norwood,D,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19039,Clarke,Write-ins,W,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19041,Clay,Roby Smith,R,4298,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19041,Clay,John Norwood,D,2188,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19041,Clay,Write-ins,W,0,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19043,Clayton,Roby Smith,R,4412,counting,83.3,100
+statewide,2026 Treasurer,2026,Treasurer,,19043,Clayton,John Norwood,D,2771,counting,83.3,100
+statewide,2026 Treasurer,2026,Treasurer,,19043,Clayton,Write-ins,W,0,counting,83.3,100
+statewide,2026 Treasurer,2026,Treasurer,,19045,Clinton,Roby Smith,R,6250,counting,50,100
+statewide,2026 Treasurer,2026,Treasurer,,19045,Clinton,John Norwood,D,3766,counting,50,100
+statewide,2026 Treasurer,2026,Treasurer,,19045,Clinton,Write-ins,W,0,counting,50,100
+statewide,2026 Treasurer,2026,Treasurer,,19047,Crawford,Roby Smith,R,1581,counting,25,100
+statewide,2026 Treasurer,2026,Treasurer,,19047,Crawford,John Norwood,D,1050,counting,25,100
+statewide,2026 Treasurer,2026,Treasurer,,19047,Crawford,Write-ins,W,0,counting,25,100
+statewide,2026 Treasurer,2026,Treasurer,,19049,Dallas,Roby Smith,R,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19049,Dallas,John Norwood,D,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19049,Dallas,Write-ins,W,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19051,Davis,Roby Smith,R,587,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19051,Davis,John Norwood,D,433,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19051,Davis,Write-ins,W,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19053,Decatur,Roby Smith,R,1817,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19053,Decatur,John Norwood,D,886,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19053,Decatur,Write-ins,W,0,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19055,Delaware,Roby Smith,R,1237,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19055,Delaware,John Norwood,D,1154,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19055,Delaware,Write-ins,W,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19057,Des Moines,Roby Smith,R,7383,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19057,Des Moines,John Norwood,D,7158,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19057,Des Moines,Write-ins,W,0,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19059,Dickinson,Roby Smith,R,3167,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19059,Dickinson,John Norwood,D,1922,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19059,Dickinson,Write-ins,W,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19061,Dubuque,John Norwood,D,21699,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19061,Dubuque,Roby Smith,R,20468,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19061,Dubuque,Write-ins,W,0,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19063,Emmet,Roby Smith,R,2242,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19063,Emmet,John Norwood,D,1237,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19063,Emmet,Write-ins,W,0,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19065,Fayette,Roby Smith,R,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19065,Fayette,John Norwood,D,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19065,Fayette,Write-ins,W,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19067,Floyd,Roby Smith,R,3380,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19067,Floyd,John Norwood,D,2565,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19067,Floyd,Write-ins,W,0,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19069,Franklin,Roby Smith,R,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19069,Franklin,John Norwood,D,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19069,Franklin,Write-ins,W,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19071,Fremont,Roby Smith,R,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19071,Fremont,John Norwood,D,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19071,Fremont,Write-ins,W,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19073,Greene,Roby Smith,R,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19073,Greene,John Norwood,D,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19073,Greene,Write-ins,W,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19075,Grundy,Roby Smith,R,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19075,Grundy,John Norwood,D,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19075,Grundy,Write-ins,W,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19077,Guthrie,Roby Smith,R,3324,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19077,Guthrie,John Norwood,D,1782,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19077,Guthrie,Write-ins,W,0,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19079,Hamilton,Roby Smith,R,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19079,Hamilton,John Norwood,D,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19079,Hamilton,Write-ins,W,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19081,Hancock,Roby Smith,R,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19081,Hancock,John Norwood,D,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19081,Hancock,Write-ins,W,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19083,Hardin,Roby Smith,R,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19083,Hardin,John Norwood,D,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19083,Hardin,Write-ins,W,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19085,Harrison,Roby Smith,R,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19085,Harrison,John Norwood,D,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19085,Harrison,Write-ins,W,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19087,Henry,Roby Smith,R,4533,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19087,Henry,John Norwood,D,2818,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19087,Henry,Write-ins,W,0,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19089,Howard,Roby Smith,R,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19089,Howard,John Norwood,D,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19089,Howard,Write-ins,W,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19091,Humboldt,Roby Smith,R,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19091,Humboldt,John Norwood,D,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19091,Humboldt,Write-ins,W,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19093,Ida,Roby Smith,R,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19093,Ida,John Norwood,D,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19093,Ida,Write-ins,W,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19095,Iowa,Roby Smith,R,3305,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19095,Iowa,John Norwood,D,1793,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19095,Iowa,Write-ins,W,0,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19097,Jackson,Roby Smith,R,4904,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19097,Jackson,John Norwood,D,3193,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19097,Jackson,Write-ins,W,0,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19099,Jasper,Roby Smith,R,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19099,Jasper,John Norwood,D,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19099,Jasper,Write-ins,W,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19101,Jefferson,John Norwood,D,3283,counting,75,100
+statewide,2026 Treasurer,2026,Treasurer,,19101,Jefferson,Roby Smith,R,2410,counting,75,100
+statewide,2026 Treasurer,2026,Treasurer,,19101,Jefferson,Write-ins,W,0,counting,75,100
+statewide,2026 Treasurer,2026,Treasurer,,19103,Johnson,John Norwood,D,54519,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19103,Johnson,Roby Smith,R,18234,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19103,Johnson,Write-ins,W,0,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19105,Jones,Roby Smith,R,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19105,Jones,John Norwood,D,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19105,Jones,Write-ins,W,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19107,Keokuk,Roby Smith,R,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19107,Keokuk,John Norwood,D,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19107,Keokuk,Write-ins,W,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19109,Kossuth,Roby Smith,R,4486,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19109,Kossuth,John Norwood,D,2050,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19109,Kossuth,Write-ins,W,0,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19111,Lee,Roby Smith,R,6467,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19111,Lee,John Norwood,D,5316,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19111,Lee,Write-ins,W,0,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19113,Linn,John Norwood,D,62604,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19113,Linn,Roby Smith,R,41302,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19113,Linn,Write-ins,W,0,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19115,Louisa,Roby Smith,R,2408,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19115,Louisa,John Norwood,D,1413,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19115,Louisa,Write-ins,W,0,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19117,Lucas,Roby Smith,R,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19117,Lucas,John Norwood,D,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19117,Lucas,Write-ins,W,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19119,Lyon,Roby Smith,R,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19119,Lyon,John Norwood,D,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19119,Lyon,Write-ins,W,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19121,Madison,Roby Smith,R,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19121,Madison,John Norwood,D,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19121,Madison,Write-ins,W,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19123,Mahaska,Roby Smith,R,5760,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19123,Mahaska,John Norwood,D,2420,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19123,Mahaska,Write-ins,W,0,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19125,Marion,Roby Smith,R,10145,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19125,Marion,John Norwood,D,5470,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19125,Marion,Write-ins,W,0,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19127,Marshall,John Norwood,D,7103,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19127,Marshall,Roby Smith,R,7059,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19127,Marshall,Write-ins,W,0,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19129,Mills,Roby Smith,R,3937,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19129,Mills,John Norwood,D,2158,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19129,Mills,Write-ins,W,0,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19131,Mitchell,Roby Smith,R,2650,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19131,Mitchell,John Norwood,D,1708,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19131,Mitchell,Write-ins,W,0,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19133,Monona,Roby Smith,R,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19133,Monona,John Norwood,D,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19133,Monona,Write-ins,W,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19135,Monroe,Roby Smith,R,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19135,Monroe,John Norwood,D,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19135,Monroe,Write-ins,W,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19137,Montgomery,Roby Smith,R,2405,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19137,Montgomery,John Norwood,D,1226,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19137,Montgomery,Write-ins,W,0,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19139,Muscatine,Roby Smith,R,5095,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19139,Muscatine,John Norwood,D,4077,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19139,Muscatine,Write-ins,W,0,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19141,O'Brien,Roby Smith,R,4191,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19141,O'Brien,John Norwood,D,1250,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19141,O'Brien,Write-ins,W,0,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19143,Osceola,Roby Smith,R,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19143,Osceola,John Norwood,D,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19143,Osceola,Write-ins,W,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19145,Page,Roby Smith,R,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19145,Page,John Norwood,D,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19145,Page,Write-ins,W,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19147,Palo Alto,Roby Smith,R,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19147,Palo Alto,John Norwood,D,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19147,Palo Alto,Write-ins,W,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19149,Plymouth,Roby Smith,R,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19149,Plymouth,John Norwood,D,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19149,Plymouth,Write-ins,W,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19151,Pocahontas,Roby Smith,R,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19151,Pocahontas,John Norwood,D,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19151,Pocahontas,Write-ins,W,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19153,Polk,John Norwood,D,128773,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19153,Polk,Roby Smith,R,81694,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19153,Polk,Write-ins,W,0,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19155,Pottawattamie,John Norwood,D,5914,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19155,Pottawattamie,Roby Smith,R,4579,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19155,Pottawattamie,Write-ins,W,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19157,Poweshiek,Roby Smith,R,4179,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19157,Poweshiek,John Norwood,D,3699,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19157,Poweshiek,Write-ins,W,0,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19159,Ringgold,Roby Smith,R,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19159,Ringgold,John Norwood,D,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19159,Ringgold,Write-ins,W,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19161,Sac,Roby Smith,R,2900,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19161,Sac,John Norwood,D,1172,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19161,Sac,Write-ins,W,0,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19163,Scott,John Norwood,D,38259,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19163,Scott,Roby Smith,R,34366,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19163,Scott,Write-ins,W,0,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19165,Shelby,Roby Smith,R,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19165,Shelby,John Norwood,D,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19165,Shelby,Write-ins,W,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19167,Sioux,Roby Smith,R,12395,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19167,Sioux,John Norwood,D,2428,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19167,Sioux,Write-ins,W,0,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19169,Story,John Norwood,D,25060,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19169,Story,Roby Smith,R,15710,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19169,Story,Write-ins,W,0,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19171,Tama,Roby Smith,R,3933,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19171,Tama,John Norwood,D,3000,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19171,Tama,Write-ins,W,0,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19173,Taylor,Roby Smith,R,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19173,Taylor,John Norwood,D,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19173,Taylor,Write-ins,W,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19175,Union,John Norwood,D,929,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19175,Union,Roby Smith,R,915,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19175,Union,Write-ins,W,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19177,Van Buren,Roby Smith,R,2010,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19177,Van Buren,John Norwood,D,737,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19177,Van Buren,Write-ins,W,0,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19179,Wapello,Roby Smith,R,6171,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19179,Wapello,John Norwood,D,4742,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19179,Wapello,Write-ins,W,0,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19181,Warren,Roby Smith,R,10054,counting,59.5,100
+statewide,2026 Treasurer,2026,Treasurer,,19181,Warren,John Norwood,D,6477,counting,59.5,100
+statewide,2026 Treasurer,2026,Treasurer,,19181,Warren,Write-ins,W,0,counting,59.5,100
+statewide,2026 Treasurer,2026,Treasurer,,19183,Washington,Roby Smith,R,5339,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19183,Washington,John Norwood,D,3961,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19183,Washington,Write-ins,W,0,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19185,Wayne,Roby Smith,R,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19185,Wayne,John Norwood,D,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19185,Wayne,Write-ins,W,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19187,Webster,Roby Smith,R,7137,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19187,Webster,John Norwood,D,5286,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19187,Webster,Write-ins,W,0,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19189,Winnebago,Roby Smith,R,2745,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19189,Winnebago,John Norwood,D,1659,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19189,Winnebago,Write-ins,W,0,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19191,Winneshiek,John Norwood,D,5093,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19191,Winneshiek,Roby Smith,R,4975,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19191,Winneshiek,Write-ins,W,0,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19193,Woodbury,Roby Smith,R,17458,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19193,Woodbury,John Norwood,D,15357,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19193,Woodbury,Write-ins,W,0,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19195,Worth,Roby Smith,R,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19195,Worth,John Norwood,D,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19195,Worth,Write-ins,W,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19197,Wright,Roby Smith,R,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19197,Wright,John Norwood,D,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19197,Wright,Write-ins,W,0,counting,0,100
+senate,2026 Senate,2026,Senate,s2022,5,,Dave Rowley,R,11942,counting,7,100
+senate,2026 Senate,2026,Senate,s2022,5,,Rachel Gravert,I,4141,counting,7,100
+senate,2026 Senate,2026,Senate,s2022,5,,Write-ins,W,0,counting,7,100
+senate,2026 Senate,2026,Senate,s2022,11,,Hollie Arlene Zajicek,R,12710,counting,5,100
+senate,2026 Senate,2026,Senate,s2022,11,,Sinikka Waugh,D,8772,counting,5,100
+senate,2026 Senate,2026,Senate,s2022,11,,Write-ins,W,0,counting,5,100
+senate,2026 Senate,2026,Senate,s2022,17,,Samy El-Baroudi,D,13658,counting,50,100
+senate,2026 Senate,2026,Senate,s2022,17,,Ronald Langston,R,4045,counting,50,100
+senate,2026 Senate,2026,Senate,s2022,17,,Write-ins,W,0,counting,50,100
+senate,2026 Senate,2026,Senate,s2022,23,,Wes Enos,R,13205,counting,24,100
+senate,2026 Senate,2026,Senate,s2022,23,,Tony Thompson,D,12010,counting,24,100
+senate,2026 Senate,2026,Senate,s2022,23,,Write-ins,W,0,counting,24,100
+senate,2026 Senate,2026,Senate,s2022,29,,Sandy Salmon,R,8926,counting,11,100
+senate,2026 Senate,2026,Senate,s2022,29,,Jim Vowels,D,7863,counting,11,100
+senate,2026 Senate,2026,Senate,s2022,29,,Write-ins,W,0,counting,11,100
+senate,2026 Senate,2026,Senate,s2022,35,,Joe Stutting,R,10235,counting,8,100
+senate,2026 Senate,2026,Senate,s2022,35,,Mike Zimmer,D,7672,counting,8,100
+senate,2026 Senate,2026,Senate,s2022,35,,Write-ins,W,0,counting,8,100
+senate,2026 Senate,2026,Senate,s2022,41,,Kerry Gruenhagen,R,13208,counting,25,100
+senate,2026 Senate,2026,Senate,s2022,41,,Tom Wieck,D,12123,counting,25,100
+senate,2026 Senate,2026,Senate,s2022,41,,Write-ins,W,0,counting,25,100
+senate,2026 Senate,2026,Senate,s2022,47,,Nikhil Wagle,D,15928,counting,50,100
+senate,2026 Senate,2026,Senate,s2022,47,,Scott Webster,R,15777,counting,50,100
+senate,2026 Senate,2026,Senate,s2022,47,,Write-ins,W,0,counting,50,100
+senate,2026 Senate,2026,Senate,s2022,1,,Catelin Drey,D,9768,counting,50,100
+senate,2026 Senate,2026,Senate,s2022,1,,Christopher Prosch,R,6795,counting,50,100
+senate,2026 Senate,2026,Senate,s2022,1,,Write-ins,W,0,counting,50,100
+senate,2026 Senate,2026,Senate,s2022,13,,Jeff Kulmatycki,R,9733,counting,14,100
+senate,2026 Senate,2026,Senate,s2022,13,,Brenda Case,D,6712,counting,14,100
+senate,2026 Senate,2026,Senate,s2022,13,,Write-ins,W,0,counting,14,100
+senate,2026 Senate,2026,Senate,s2022,19,,Barb Kniff McCulla,R,9013,counting,10,100
+senate,2026 Senate,2026,Senate,s2022,19,,Zachary Mecham,D,3663,counting,10,100
+senate,2026 Senate,2026,Senate,s2022,19,,Write-ins,W,0,counting,10,100
+senate,2026 Senate,2026,Senate,s2022,25,,Herman C Quirmbach,D,16909,counting,50,100
+senate,2026 Senate,2026,Senate,s2022,25,,Paul Wacker,R,6735,counting,50,100
+senate,2026 Senate,2026,Senate,s2022,25,,Write-ins,W,0,counting,50,100
