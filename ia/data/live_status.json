@@ -1,15 +1,12 @@
 [
  {
   "phase": "counting",
-  "updated_at": "2026-11-04T05:34:57Z",
+  "updated_at": "2026-11-04T05:37:25Z",
   "source": "CivicAPI, unofficial",
   "races": 136,
   "called": 6,
   "counting": 90,
-  "problems": [
-   "CivicAPI search (Iowa State House): /race/search?country=US&province=IA&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Iowa%20State%20House: HTTP ",
-   "2026 Auditor : /race/87156: HTTP 504  error code: 504\n"
-  ],
+  "problems": [],
   "local_problems": []
  }
 ]
