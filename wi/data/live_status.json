@@ -1,15 +1,12 @@
 [
  {
   "phase": "counting",
-  "updated_at": "2026-11-04T05:16:36Z",
+  "updated_at": "2026-11-04T05:18:45Z",
   "source": "CivicAPI (county results), unofficial",
   "races": 120,
   "called": 1,
   "counting": 108,
-  "problems": [
-   "2026 Attorney General : /race/87492: HTTP 504  error code: 504\n",
-   "1 race not sent by CivicAPI this time; kept the last published numbers"
-  ],
+  "problems": [],
   "local_problems": []
  }
 ]
