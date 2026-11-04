@@ -1,16 +1,16 @@
 [
  {
   "phase": "counting",
-  "updated_at": "2026-11-04T02:57:55Z",
+  "updated_at": "2026-11-04T03:02:55Z",
   "source": "Ohio Secretary of State, unofficial",
   "races": 139,
-  "called": 15,
-  "counting": 120,
+  "called": 16,
+  "counting": 119,
   "precincts": [
-   5316,
+   5470,
    8834
   ],
-  "feed_generated": "2026-11-04T02:57:36Z",
+  "feed_generated": "2026-11-04T03:00:36Z",
   "problems": [],
   "local_problems": []
  }
