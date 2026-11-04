@@ -1,12 +1,16 @@
 [
  {
   "phase": "counting",
-  "updated_at": "2026-11-04T05:08:10Z",
+  "updated_at": "2026-11-04T05:15:28Z",
   "source": "CivicAPI, unofficial",
   "races": 76,
   "called": 6,
   "counting": 70,
-  "problems": [],
+  "problems": [
+   "2026 Mine Inspector : /race/86926: HTTP 502  error code: 502\n",
+   "2026 Secretary of State : /race/86929: HTTP 502  error code: 502\n",
+   "2 races not sent by CivicAPI this time; kept the last published numbers"
+  ],
   "local_problems": []
  }
 ]
