@@ -1,16 +1,18 @@
 [
  {
   "phase": "counting",
-  "updated_at": "2026-11-04T00:42:15Z",
+  "updated_at": "2026-11-04T00:47:14Z",
   "source": "Georgia Secretary of State, unofficial",
   "races": 261,
   "called": 2,
-  "counting": 186,
+  "counting": 205,
   "precincts": [
-   65,
+   80,
    2582
   ],
-  "problems": [],
+  "problems": [
+   "1 candidate totals differ from the state summary, e.g. senate 6 Jermarkus A. Jacobs: counties 412 vs state 2,161"
+  ],
   "local_problems": []
  }
 ]
