@@ -74,10 +74,10 @@ senate,MT,2026,MT,,,Kurt Alme,R,0,0,0,0,pending,0,100
 senate,MT,2026,MT,,,Alani Bankhead,D,0,0,0,0,pending,0,100
 senate,MT,2026,MT,,,Kyle Austin,L,0,0,0,0,pending,0,100
 senate,MT,2026,MT,,,Seth Bodnar,I,0,0,0,0,pending,0,100
-senate,NC,2026,NC,,,Roy Cooper,D,1613117,0,0,0,counting,56.43,100
-senate,NC,2026,NC,,,Michael Whatley,R,841360,0,0,0,counting,56.43,100
-senate,NC,2026,NC,,,Shannon Bray,L,24247,0,0,0,counting,56.43,100
-senate,NC,2026,NC,,,Michael Dublin,G,18284,0,0,0,counting,56.43,100
+senate,NC,2026,NC,,,Roy Cooper,D,1589844,0,0,0,counting,55.14,100
+senate,NC,2026,NC,,,Michael Whatley,R,809026,0,0,0,counting,55.14,100
+senate,NC,2026,NC,,,Shannon Bray,L,23298,0,0,0,counting,55.14,100
+senate,NC,2026,NC,,,Michael Dublin,G,17822,0,0,0,counting,55.14,100
 senate,NE,2026,NE,,,Pete Ricketts,R,0,0,0,0,pending,0,100
 senate,NE,2026,NE,,,Mike Marvin,O,0,0,0,0,pending,0,100
 senate,NE,2026,NE,,,Robin Richards,O,0,0,0,0,pending,0,100
@@ -132,14 +132,14 @@ senate,TN,2026,TN,,,Jeremy Dean Hearn,I,584,0,0,0,counting,12.18,100
 senate,TN,2026,TN,,,"David Sutman, Jr.",I,336,0,0,0,counting,12.18,100
 senate,TN,2026,TN,,,James William Macon III,I,311,0,0,0,counting,12.18,100
 senate,TN,2026,TN,,,Yoshi D. Matthews,I,292,0,0,0,counting,12.18,100
-senate,TX,2026,TX,,,James Talarico,D,1582020,0,0,0,counting,26.83,100
-senate,TX,2026,TX,,,Ken Paxton,R,1059451,0,0,0,counting,26.83,100
-senate,TX,2026,TX,,,Ted Brown,L,41346,0,0,0,counting,26.83,100
-senate,TX,2026,TX,,,Avery Ayers,W,0,0,0,0,counting,26.83,100
-senate,TX,2026,TX,,,"Bradford ""Brad"" Hall",W,0,0,0,0,counting,26.83,100
-senate,TX,2026,TX,,,Zul Mohamed,W,0,0,0,0,counting,26.83,100
-senate,TX,2026,TX,,,Jade Simmons,W,0,0,0,0,counting,26.83,100
-senate,TX,2026,TX,,,Write-in,I,0,0,0,0,counting,26.83,100
+senate,TX,2026,TX,,,James Talarico,D,1532673,0,0,0,counting,25.76,100
+senate,TX,2026,TX,,,Ken Paxton,R,1004073,0,0,0,counting,25.76,100
+senate,TX,2026,TX,,,Ted Brown,L,39644,0,0,0,counting,25.76,100
+senate,TX,2026,TX,,,Avery Ayers,W,0,0,0,0,counting,25.76,100
+senate,TX,2026,TX,,,"Bradford ""Brad"" Hall",W,0,0,0,0,counting,25.76,100
+senate,TX,2026,TX,,,Zul Mohamed,W,0,0,0,0,counting,25.76,100
+senate,TX,2026,TX,,,Jade Simmons,W,0,0,0,0,counting,25.76,100
+senate,TX,2026,TX,,,Write-in,I,0,0,0,0,counting,25.76,100
 senate,VA,2026,VA,,,Mark Warner,D,780371,1,0,0,final,35.14,100
 senate,VA,2026,VA,,,Bert Mizusawa,R,519435,0,0,0,final,35.14,100
 senate,VA,2026,VA,,,Write-in,I,3684,0,0,0,final,35.14,100
@@ -1454,8 +1454,8 @@ governor,AK,2026,AK,,,Dave Bronson,R,0,0,0,0,pending,0,100
 governor,AK,2026,AK,,,"Jonathan S. ""JKT"" Kreiss-Tomkins",I,0,0,0,0,pending,0,100
 governor,AK,2026,AK,,,Treg Taylor,R,0,0,0,0,pending,0,100
 governor,AK,2026,AK,,,Bernadette M. Wilson,R,0,0,0,0,pending,0,100
-governor,AL,2026,AL,,,Tommy Tuberville,R,0,0,0,0,pending,0,100
-governor,AL,2026,AL,,,Doug Jones,D,0,0,0,0,pending,0,100
+governor,AL,2026,AL,,,Doug Jones,D,3091,0,0,0,counting,0.31,100
+governor,AL,2026,AL,,,Tommy Tuberville,R,2258,0,0,0,counting,0.31,100
 governor,AR,2026,AR,,,Fredrick Love,D,0,0,0,0,pending,0,100
 governor,AR,2026,AR,,,Sarah Huckabee Sanders,R,0,0,0,0,pending,0,100
 governor,AR,2026,AR,,,Colt Shelby,L,0,0,0,0,pending,0,100
@@ -1477,17 +1477,17 @@ governor,CT,2026,CT,,,Ryan Fazio,R,0,0,0,0,pending,0,100
 governor,CT,2026,CT,,,Zenobia Adgers,W,0,0,0,0,pending,0,100
 governor,CT,2026,CT,,,Christian Noe,W,0,0,0,0,pending,0,100
 governor,CT,2026,CT,,,L. Lee Whitnum,W,0,0,0,0,pending,0,100
-governor,FL,2026,FL,,,Byron Donalds,R,3958171,0,0,0,counting,88.93,100
-governor,FL,2026,FL,,,David Jolly,D,3891248,0,0,0,counting,88.93,100
-governor,FL,2026,FL,,,Scott Eckhard Jewett,L,35867,0,0,0,counting,88.93,100
-governor,FL,2026,FL,,,Frank J. Russo,I,22077,0,0,0,counting,88.93,100
-governor,FL,2026,FL,,,Charles Burkett,I,14475,0,0,0,counting,88.93,100
-governor,FL,2026,FL,,,Dean Ocean Abrams,I,11799,0,0,0,counting,88.93,100
-governor,FL,2026,FL,,,"Jeffrey Peter ""Dr. Jeff"" Datto",I,7936,0,0,0,counting,88.93,100
-governor,FL,2026,FL,,,"Moliere ""Moe"" Dimanche",I,7207,0,0,0,counting,88.93,100
-governor,FL,2026,FL,,,Write-in,I,3760,0,0,0,counting,88.93,100
-governor,GA,2026,GA,,,Keisha Lance Bottoms,D,1544762,0,0,0,counting,56.93,100
-governor,GA,2026,GA,,,Rick Jackson,R,1115120,0,0,0,counting,56.93,100
+governor,FL,2026,FL,,,Byron Donalds,R,3986246,0,0,0,counting,89.38,100
+governor,FL,2026,FL,,,David Jolly,D,3901964,0,0,0,counting,89.38,100
+governor,FL,2026,FL,,,Scott Eckhard Jewett,L,36266,0,0,0,counting,89.38,100
+governor,FL,2026,FL,,,Frank J. Russo,I,22217,0,0,0,counting,89.38,100
+governor,FL,2026,FL,,,Charles Burkett,I,14584,0,0,0,counting,89.38,100
+governor,FL,2026,FL,,,Dean Ocean Abrams,I,11919,0,0,0,counting,89.38,100
+governor,FL,2026,FL,,,"Jeffrey Peter ""Dr. Jeff"" Datto",I,7997,0,0,0,counting,89.38,100
+governor,FL,2026,FL,,,"Moliere ""Moe"" Dimanche",I,7252,0,0,0,counting,89.38,100
+governor,FL,2026,FL,,,Write-in,I,3760,0,0,0,counting,89.38,100
+governor,GA,2026,GA,,,Keisha Lance Bottoms,D,1505655,0,0,0,counting,54.68,100
+governor,GA,2026,GA,,,Rick Jackson,R,1048711,0,0,0,counting,54.68,100
 governor,HI,2026,HI,,,Gary Cordery,R,0,0,0,0,pending,0,100
 governor,HI,2026,HI,,,Josh Green,D,0,0,0,0,pending,0,100
 governor,IA,2026,IA,,,Zach Lahn,R,0,0,0,0,pending,0,100
@@ -1502,8 +1502,8 @@ governor,ID,2026,ID,,,Jacob Burnett,I,0,0,0,0,pending,0,100
 governor,IL,2026,IL,,,JB Pritzker,D,0,0,0,0,pending,0,100
 governor,IL,2026,IL,,,Darren Bailey,R,0,0,0,0,pending,0,100
 governor,IL,2026,IL,,,Collin Corbett,I,0,0,0,0,pending,0,100
-governor,KS,2026,KS,,,Cindy Holscher,D,91273,0,0,0,counting,13.85,100
-governor,KS,2026,KS,,,Ty Masterson,R,68046,0,0,0,counting,13.85,100
+governor,KS,2026,KS,,,Cindy Holscher,D,101421,0,0,0,counting,15.39,100
+governor,KS,2026,KS,,,Ty Masterson,R,75625,0,0,0,counting,15.39,100
 governor,MA,2026,MA,,,Maura Healey,D,0,0,0,0,pending,0,100
 governor,MA,2026,MA,,,Michael Roger Minogue,R,0,0,0,0,pending,0,100
 governor,MA,2026,MA,,,James,I,0,0,0,0,pending,0,100
@@ -1538,10 +1538,10 @@ governor,NE,2026,NE,,,Jim Pillen,R,0,0,0,0,pending,0,100
 governor,NE,2026,NE,,,Lynne Walz,D,0,0,0,0,pending,0,100
 governor,NE,2026,NE,,,Rick Beard,O,0,0,0,0,pending,0,100
 governor,NE,2026,NE,,,Brett Lindstrom,O,0,0,0,0,pending,0,100
-governor,NH,2026,NH,,,Kelly Ayotte,R,92660,0,0,0,counting,26.29,100
-governor,NH,2026,NH,,,Cinde Warmington,D,85244,0,0,0,counting,26.29,100
-governor,NH,2026,NH,,,Stephen Villee,L,2971,0,0,0,counting,26.29,100
-governor,NH,2026,NH,,,Write-in,I,338,0,0,0,counting,26.29,100
+governor,NH,2026,NH,,,Kelly Ayotte,R,93048,0,0,0,counting,26.42,100
+governor,NH,2026,NH,,,Cinde Warmington,D,85702,0,0,0,counting,26.42,100
+governor,NH,2026,NH,,,Stephen Villee,L,2984,0,0,0,counting,26.42,100
+governor,NH,2026,NH,,,Write-in,I,338,0,0,0,counting,26.42,100
 governor,NM,2026,NM,,,Deb Haaland,D,0,0,0,0,pending,0,100
 governor,NM,2026,NM,,,Gregg Hull,R,0,0,0,0,pending,0,100
 governor,NV,2026,NV,,,Aaron Ford,D,0,0,0,0,pending,0,100
@@ -1580,21 +1580,21 @@ governor,SC,2026,SC,,,Walid Hakim,G,3205,0,0,0,counting,41.14,100
 governor,SC,2026,SC,,,Write-in,I,390,0,0,0,counting,41.14,100
 governor,SD,2026,SD,,,Larry Rhoden,R,0,0,0,0,pending,0,100
 governor,SD,2026,SD,,,Dan Ahlers,D,0,0,0,0,pending,0,100
-governor,TN,2026,TN,,,Marsha Blackburn,R,103640,0,0,0,counting,8.24,100
-governor,TN,2026,TN,,,Jerri Green,D,63309,0,0,0,counting,8.24,100
-governor,TN,2026,TN,,,David Hatley,I,19299,0,0,0,counting,8.24,100
-governor,TN,2026,TN,,,Lauren Pinkston,I,2704,0,0,0,counting,8.24,100
-governor,TN,2026,TN,,,Dean Brewer,I,332,0,0,0,counting,8.24,100
-governor,TN,2026,TN,,,Ray Brown,I,278,0,0,0,counting,8.24,100
-governor,TN,2026,TN,,,Wendell Jackson,I,185,0,0,0,counting,8.24,100
-governor,TN,2026,TN,,,Eddie Lee Murphy,I,148,0,0,0,counting,8.24,100
-governor,TN,2026,TN,,,Charles Van Morgan,I,129,0,0,0,counting,8.24,100
-governor,TN,2026,TN,,,Misam Abidi,I,113,0,0,0,counting,8.24,100
-governor,TN,2026,TN,,,Robert C. Vick,I,102,0,0,0,counting,8.24,100
-governor,TN,2026,TN,,,L. Webb Taylor,I,82,0,0,0,counting,8.24,100
-governor,TN,2026,TN,,,Victor L. Scoggin,I,62,0,0,0,counting,8.24,100
-governor,TN,2026,TN,,,Dave Seeman,I,46,0,0,0,counting,8.24,100
-governor,TN,2026,TN,,,Karl Knox Smithson,I,18,0,0,0,counting,8.24,100
+governor,TN,2026,TN,,,Marsha Blackburn,R,129011,0,0,0,counting,10.4,100
+governor,TN,2026,TN,,,Jerri Green,D,82045,0,0,0,counting,10.4,100
+governor,TN,2026,TN,,,David Hatley,I,24253,0,0,0,counting,10.4,100
+governor,TN,2026,TN,,,Lauren Pinkston,I,3224,0,0,0,counting,10.4,100
+governor,TN,2026,TN,,,Dean Brewer,I,402,0,0,0,counting,10.4,100
+governor,TN,2026,TN,,,Ray Brown,I,323,0,0,0,counting,10.4,100
+governor,TN,2026,TN,,,Wendell Jackson,I,217,0,0,0,counting,10.4,100
+governor,TN,2026,TN,,,Eddie Lee Murphy,I,189,0,0,0,counting,10.4,100
+governor,TN,2026,TN,,,Charles Van Morgan,I,156,0,0,0,counting,10.4,100
+governor,TN,2026,TN,,,Misam Abidi,I,140,0,0,0,counting,10.4,100
+governor,TN,2026,TN,,,Robert C. Vick,I,139,0,0,0,counting,10.4,100
+governor,TN,2026,TN,,,L. Webb Taylor,I,106,0,0,0,counting,10.4,100
+governor,TN,2026,TN,,,Victor L. Scoggin,I,75,0,0,0,counting,10.4,100
+governor,TN,2026,TN,,,Dave Seeman,I,54,0,0,0,counting,10.4,100
+governor,TN,2026,TN,,,Karl Knox Smithson,I,31,0,0,0,counting,10.4,100
 governor,TX,2026,TX,,,Gina Hinojosa,D,1476093,0,0,0,counting,25.81,100
 governor,TX,2026,TX,,,Greg Abbott,R,1070645,0,0,1,counting,25.81,100
 governor,TX,2026,TX,,,Pat Dixon,L,33442,0,0,0,counting,25.81,100
@@ -1603,12 +1603,12 @@ governor,TX,2026,TX,,,Jenn Mack,W,0,0,0,0,counting,25.81,100
 governor,TX,2026,TX,,,Jinghpaw Majoishingra,W,0,0,0,0,counting,25.81,100
 governor,TX,2026,TX,,,Mike Miller,W,0,0,0,0,counting,25.81,100
 governor,TX,2026,TX,,,Write-in,I,0,0,0,0,counting,25.81,100
-governor,VT,2026,VT,,,Phil Scott,R,20434,0,0,0,counting,10.93,100
-governor,VT,2026,VT,,,Amanda Janoo,D,14819,0,0,0,counting,10.93,100
-governor,VT,2026,VT,,,Brian Judd,I,340,0,0,0,counting,10.93,100
-governor,VT,2026,VT,,,Dean Roy,O,179,0,0,0,counting,10.93,100
-governor,VT,2026,VT,,,June Goodband,O,156,0,0,0,counting,10.93,100
-governor,VT,2026,VT,,,Write-in,I,57,0,0,0,counting,10.93,100
+governor,VT,2026,VT,,,Phil Scott,R,42023,0,0,0,counting,100,100
+governor,VT,2026,VT,,,Amanda Janoo,D,30911,0,0,0,counting,100,100
+governor,VT,2026,VT,,,Brian Judd,I,718,0,0,0,counting,100,100
+governor,VT,2026,VT,,,Dean Roy,O,348,0,0,0,counting,100,100
+governor,VT,2026,VT,,,June Goodband,O,308,0,0,0,counting,100,100
+governor,VT,2026,VT,,,Write-in,I,129,0,0,0,counting,100,100
 governor,WI,2026,WI,,,David Crowley,D,0,0,0,0,pending,0,100
 governor,WI,2026,WI,,,Tom Tiffany,R,0,0,0,0,pending,0,100
 governor,WY,2026,WY,,,Eric Barlow,R,0,0,0,0,pending,0,100
