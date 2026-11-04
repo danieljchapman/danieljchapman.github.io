@@ -1,12 +1,15 @@
 [
  {
   "phase": "counting",
-  "updated_at": "2026-11-04T03:20:40Z",
+  "updated_at": "2026-11-04T03:25:53Z",
   "source": "CivicAPI (county results), unofficial",
   "races": 120,
   "called": 0,
-  "counting": 102,
-  "problems": [],
+  "counting": 103,
+  "problems": [
+   "2026 Treasurer : /race/87494: HTTP 000 curl: (28) Operation timed out after 45001 milliseconds with 0 bytes received ",
+   "1 race not sent by CivicAPI this time; kept the last published numbers"
+  ],
   "local_problems": []
  }
 ]
