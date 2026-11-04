@@ -1,17 +1,15 @@
 [
  {
   "phase": "counting",
-  "updated_at": "2026-11-04T03:16:56Z",
+  "updated_at": "2026-11-04T03:23:23Z",
   "source": "CivicAPI, unofficial",
   "races": 76,
-  "called": 0,
-  "counting": 71,
+  "called": 3,
+  "counting": 72,
   "problems": [
-   "2026 Corporation Commission : /race/86927: HTTP 502  error code: 502\n",
    "2026 Governor : /race/86928: HTTP 000 curl: (28) Operation timed out after 45001 milliseconds with 0 bytes received ",
-   "2026 Mine Inspector : /race/86926: HTTP 500  <html>\n<head><title>500 Internal Server Error</title></head>\n<body>\n<center><h1>500 Internal Serv",
-   "2026 Secretary of State : /race/86929: HTTP 500  <html>\n<head><title>500 Internal Server Error</title></head>\n<body>\n<center><h1>500 Internal Serv",
-   "2026 Superintendent of Public Instruction : /race/86932: HTTP 502  error code: 502\n"
+   "2026 Treasurer : /race/86933: HTTP 502  error code: 502\n",
+   "1 race not sent by CivicAPI this time; kept the last published numbers"
   ],
   "local_problems": []
  }
