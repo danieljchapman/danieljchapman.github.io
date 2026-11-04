@@ -51,11 +51,11 @@ senate,MA,2026,MA,,,Joe Tache,O,48869,0,0,0,final,75.91,100
 senate,ME,2026,ME,,,Troy Jackson,D,333912,1,0,0,final,83.37,100
 senate,ME,2026,ME,,,Susan Collins,R,283751,0,0,0,final,83.37,100
 senate,ME,2026,ME,,,Write-in,I,806,0,0,0,final,83.37,100
-senate,MI,2026,MI,,,Abdul El-Sayed,D,2409199,1,0,0,final,93.23,100
-senate,MI,2026,MI,,,Mike Rogers,R,2115723,0,0,0,final,93.23,100
+senate,MI,2026,MI,,,Abdul El-Sayed,D,2409239,1,0,0,final,93.23,100
+senate,MI,2026,MI,,,Mike Rogers,R,2115732,0,0,0,final,93.23,100
 senate,MI,2026,MI,,,Lydia Christensen,L,47906,0,0,0,final,93.23,100
 senate,MI,2026,MI,,,Tim Long,O,25517,0,0,0,final,93.23,100
-senate,MI,2026,MI,,,Douglas P. Marsh,G,12053,0,0,0,final,93.23,100
+senate,MI,2026,MI,,,Douglas P. Marsh,G,12054,0,0,0,final,93.23,100
 senate,MI,2026,MI,,,Walter P. Kristy,O,6969,0,0,0,final,93.23,100
 senate,MI,2026,MI,,,Write-in,I,2468,0,0,0,final,93.23,100
 senate,MI,2026,MI,,,Craig HenleyJohnson,I,0,0,0,0,final,93.23,100
@@ -71,10 +71,10 @@ senate,MN,2026,MN,,,Write-in,I,3374,0,0,0,final,100,100
 senate,MS,2026,MS,,,Scott Colom,D,462821,0,0,0,counting,97.31,100
 senate,MS,2026,MS,,,Cindy Hyde-Smith,R,462778,0,0,0,counting,97.31,100
 senate,MS,2026,MS,,,Ty Pinkins,I,19935,0,0,0,counting,97.31,100
-senate,MT,2026,MT,,,Kurt Alme,R,198470,1,0,0,final,72.73,100
-senate,MT,2026,MT,,,Seth Bodnar,I,156419,0,0,0,final,72.73,100
-senate,MT,2026,MT,,,Alani Bankhead,D,48838,0,0,0,final,72.73,100
-senate,MT,2026,MT,,,Kyle Austin,L,7435,0,0,0,final,72.73,100
+senate,MT,2026,MT,,,Kurt Alme,R,200711,1,0,0,final,73.69,100
+senate,MT,2026,MT,,,Seth Bodnar,I,158707,0,0,0,final,73.69,100
+senate,MT,2026,MT,,,Alani Bankhead,D,49624,0,0,0,final,73.69,100
+senate,MT,2026,MT,,,Kyle Austin,L,7547,0,0,0,final,73.69,100
 senate,NC,2026,NC,,,Roy Cooper,D,2463773,1,0,0,final,100,100
 senate,NC,2026,NC,,,Michael Whatley,R,1640663,0,0,0,final,100,100
 senate,NC,2026,NC,,,Shannon Bray,L,55674,0,0,0,final,100,100
@@ -790,12 +790,12 @@ house,MI-11,2026,MI,11,,Ethan Baker,R,144529,0,0,0,final,100,100
 house,MI-11,2026,MI,11,,Anil Kumar,I,3174,0,0,0,final,100,100
 house,MI-11,2026,MI,11,,Farid Ishac,L,2946,0,0,0,final,100,100
 house,MI-11,2026,MI,11,,Ryan Teasdale,G,2902,0,0,0,final,100,100
-house,MI-12,2026,MI,12,,Rashida Tlaib,D,232323,1,0,0,final,83.2,100
-house,MI-12,2026,MI,12,,James Hooper,R,65701,0,0,0,final,83.2,100
-house,MI-12,2026,MI,12,,Gary Walkowicz,O,3612,0,0,0,final,83.2,100
-house,MI-12,2026,MI,12,,Brenda K. Sanders,G,3143,0,0,0,final,83.2,100
-house,MI-12,2026,MI,12,,Marc Joseph Sosnowski,O,1949,0,0,0,final,83.2,100
-house,MI-12,2026,MI,12,,Write-in,I,573,0,0,0,final,83.2,100
+house,MI-12,2026,MI,12,,Rashida Tlaib,D,232495,1,0,0,final,83.25,100
+house,MI-12,2026,MI,12,,James Hooper,R,65711,0,0,0,final,83.25,100
+house,MI-12,2026,MI,12,,Gary Walkowicz,O,3617,0,0,0,final,83.25,100
+house,MI-12,2026,MI,12,,Brenda K. Sanders,G,3150,0,0,0,final,83.25,100
+house,MI-12,2026,MI,12,,Marc Joseph Sosnowski,O,1949,0,0,0,final,83.25,100
+house,MI-12,2026,MI,12,,Write-in,I,573,0,0,0,final,83.25,100
 house,MI-13,2026,MI,13,,Donavan McKinney,D,196435,1,0,0,final,70.74,100
 house,MI-13,2026,MI,13,,T.P. Nykoriak,R,53823,0,0,0,final,70.74,100
 house,MI-13,2026,MI,13,,Simone R. Coleman,O,5438,0,0,0,final,70.74,100
@@ -863,9 +863,9 @@ house,MS-03,2026,MS,3,,Erik Kiehle,L,3127,0,0,0,final,99,100
 house,MS-04,2026,MS,4,,Mike Ezell,R,131074,1,0,0,final,88.7,100
 house,MS-04,2026,MS,4,,Jeffrey Hulum,D,76856,0,0,0,final,88.7,100
 house,MS-04,2026,MS,4,,Carl Boyanton,I,6588,0,0,0,final,88.7,100
-house,MT-01,2026,MT,1,,Sam Forstag,D,105818,1,0,0,final,72.71,100
-house,MT-01,2026,MT,1,,Aaron Flint,R,94157,0,0,0,final,72.71,100
-house,MT-01,2026,MT,1,,Nick Sheedy,L,5703,0,0,0,final,72.71,100
+house,MT-01,2026,MT,1,,Sam Forstag,D,108736,1,0,0,final,74.63,100
+house,MT-01,2026,MT,1,,Aaron Flint,R,96535,0,0,0,final,74.63,100
+house,MT-01,2026,MT,1,,Nick Sheedy,L,5852,0,0,0,final,74.63,100
 house,MT-02,2026,MT,2,,Troy Downing,R,119114,1,0,0,final,71.95,100
 house,MT-02,2026,MT,2,,Brian Miller,D,65816,0,0,0,final,71.95,100
 house,MT-02,2026,MT,2,,Michael Eisenhauer,I,15953,0,0,0,final,71.95,100
@@ -1490,7 +1490,7 @@ house,WA-10,2026,WA,10,,Chris D. Chung,R,57982,0,0,0,final,59.36,100
 house,WA-10,2026,WA,10,,Write-in,I,946,0,0,0,final,59.36,100
 house,WI-01,2026,WI,1,,Mitchell Berman,D,158839,1,0,0,final,81.35,100
 house,WI-01,2026,WI,1,,Bryan Steil,R,146885,0,0,0,final,81.35,100
-house,WI-02,2026,WI,2,,Mark Pocan,D,286450,1,1,0,final,76.36,100
+house,WI-02,2026,WI,2,,Mark Pocan,D,298359,1,1,0,final,79.53,100
 house,WI-03,2026,WI,3,,Rebecca Cooke,D,172757,1,0,0,final,87.64,100
 house,WI-03,2026,WI,3,,Derrick Van Orden,R,150872,0,0,0,final,87.64,100
 house,WI-03,2026,WI,3,,Alexander Valiensi Kent,I,4035,0,0,0,final,87.64,100
@@ -1589,9 +1589,9 @@ governor,MD,2026,MD,,,Write-in,I,4750,0,0,0,final,74.25,100
 governor,ME,2026,ME,,,Hannah Pingree,D,343813,1,0,0,final,83.84,100
 governor,ME,2026,ME,,,Bobby Charles,R,227768,0,0,0,final,83.84,100
 governor,ME,2026,ME,,,Rick Bennett,I,49560,0,0,0,final,83.84,100
-governor,MI,2026,MI,,,Jocelyn Benson,D,2498073,1,0,0,final,92.86,100
-governor,MI,2026,MI,,,John James,R,2033655,0,0,0,final,92.86,100
-governor,MI,2026,MI,,,Anthony Hudson,L,43165,0,0,0,final,92.86,100
+governor,MI,2026,MI,,,Jocelyn Benson,D,2498112,1,0,0,final,92.86,100
+governor,MI,2026,MI,,,John James,R,2033664,0,0,0,final,92.86,100
+governor,MI,2026,MI,,,Anthony Hudson,L,43166,0,0,0,final,92.86,100
 governor,MI,2026,MI,,,Donna Brandenburg,O,19345,0,0,0,final,92.86,100
 governor,MI,2026,MI,,,Douglas Campbell,G,16943,0,0,0,final,92.86,100
 governor,MI,2026,MI,,,Write-in,I,2706,0,0,0,final,92.86,100
