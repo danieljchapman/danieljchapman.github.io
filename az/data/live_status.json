@@ -1,14 +1,15 @@
 [
  {
   "phase": "counting",
-  "updated_at": "2026-11-04T04:16:04Z",
+  "updated_at": "2026-11-04T04:18:03Z",
   "source": "CivicAPI, unofficial",
   "races": 76,
   "called": 6,
   "counting": 70,
   "problems": [
-   "2026 Mine Inspector : /race/86926: HTTP 502  error code: 502\n",
-   "1 race not sent by CivicAPI this time; kept the last published numbers"
+   "CivicAPI search: /race/search?country=US&province=AZ&startDate=2026-11-03&endDate=2026-11-03&limit=500: HTTP 502  error code: 502\n",
+   "76 races not sent by CivicAPI this time; kept the last published numbers",
+   "no live source yet for 7 statewide races, 9 U.S. House races, 30 Arizona Senate races, 30 Arizona House races"
   ],
   "local_problems": []
  }
