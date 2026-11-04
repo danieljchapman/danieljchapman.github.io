@@ -1,6 +1,6 @@
 level,race,year,office,plan,unit,unit_name,candidate,party,votes,status,reporting,reporting_total
-statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13001,Appling,Tyler Harper,R,0,counting,0,9
-statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13001,Appling,Katherine E. Juhan-Arnold,D,0,counting,0,9
+statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13001,Appling,Tyler Harper,R,2825,counting,0,9
+statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13001,Appling,Katherine E. Juhan-Arnold,D,931,counting,0,9
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13003,Atkinson,Tyler Harper,R,0,counting,0,4
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13003,Atkinson,Katherine E. Juhan-Arnold,D,0,counting,0,4
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13005,Bacon,Tyler Harper,R,0,counting,0,1
@@ -15,14 +15,14 @@ statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13013,Bar
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13013,Barrow,Katherine E. Juhan-Arnold,D,7855,counting,0,8
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13015,Bartow,Tyler Harper,R,16599,counting,0,17
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13015,Bartow,Katherine E. Juhan-Arnold,D,8440,counting,0,17
-statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13017,Ben Hill,Tyler Harper,R,0,counting,0,1
-statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13017,Ben Hill,Katherine E. Juhan-Arnold,D,0,counting,0,1
+statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13017,Ben Hill,Tyler Harper,R,3010,counting,1,1
+statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13017,Ben Hill,Katherine E. Juhan-Arnold,D,1871,counting,1,1
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13019,Berrien,Tyler Harper,R,0,counting,0,5
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13019,Berrien,Katherine E. Juhan-Arnold,D,0,counting,0,5
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13021,Bibb,Tyler Harper,R,0,counting,0,31
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13021,Bibb,Katherine E. Juhan-Arnold,D,0,counting,0,31
-statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13023,Bleckley,Tyler Harper,R,84,counting,0,1
-statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13023,Bleckley,Katherine E. Juhan-Arnold,D,61,counting,0,1
+statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13023,Bleckley,Tyler Harper,R,1236,counting,1,1
+statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13023,Bleckley,Katherine E. Juhan-Arnold,D,426,counting,1,1
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13025,Brantley,Tyler Harper,R,4907,counting,3,3
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13025,Brantley,Katherine E. Juhan-Arnold,D,580,counting,3,3
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13027,Brooks,Tyler Harper,R,0,counting,0,7
@@ -103,8 +103,8 @@ statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13103,Eff
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13103,Effingham,Katherine E. Juhan-Arnold,D,0,counting,0,20
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13105,Elbert,Tyler Harper,R,0,counting,0,11
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13105,Elbert,Katherine E. Juhan-Arnold,D,0,counting,0,11
-statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13107,Emanuel,Tyler Harper,R,0,counting,0,10
-statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13107,Emanuel,Katherine E. Juhan-Arnold,D,0,counting,0,10
+statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13107,Emanuel,Tyler Harper,R,3129,counting,1,10
+statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13107,Emanuel,Katherine E. Juhan-Arnold,D,1862,counting,1,10
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13109,Evans,Tyler Harper,R,0,counting,0,1
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13109,Evans,Katherine E. Juhan-Arnold,D,0,counting,0,1
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13111,Fannin,Tyler Harper,R,0,counting,0,12
@@ -125,8 +125,8 @@ statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13125,Gla
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13125,Glascock,Katherine E. Juhan-Arnold,D,0,counting,0,1
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13127,Glynn,Tyler Harper,R,14495,counting,0,14
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13127,Glynn,Katherine E. Juhan-Arnold,D,9734,counting,0,14
-statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13129,Gordon,Tyler Harper,R,6920,counting,0,11
-statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13129,Gordon,Katherine E. Juhan-Arnold,D,2804,counting,0,11
+statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13129,Gordon,Tyler Harper,R,6927,counting,0,11
+statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13129,Gordon,Katherine E. Juhan-Arnold,D,2813,counting,0,11
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13131,Grady,Tyler Harper,R,2730,counting,0,9
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13131,Grady,Katherine E. Juhan-Arnold,D,1821,counting,0,9
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13133,Greene,Tyler Harper,R,0,counting,0,5
@@ -135,8 +135,8 @@ statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13135,Gwi
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13135,Gwinnett,Tyler Harper,R,73301,counting,0,156
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13137,Habersham,Tyler Harper,R,0,counting,0,4
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13137,Habersham,Katherine E. Juhan-Arnold,D,0,counting,0,4
-statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13139,Hall,Tyler Harper,R,21086,counting,31,31
-statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13139,Hall,Katherine E. Juhan-Arnold,D,11731,counting,31,31
+statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13139,Hall,Tyler Harper,R,35174,counting,31,31
+statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13139,Hall,Katherine E. Juhan-Arnold,D,18553,counting,31,31
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13141,Hancock,Tyler Harper,R,0,counting,0,10
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13141,Hancock,Katherine E. Juhan-Arnold,D,0,counting,0,10
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13143,Haralson,Tyler Harper,R,4548,counting,0,12
@@ -245,8 +245,8 @@ statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13247,Roc
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13247,Rockdale,Tyler Harper,R,5082,counting,0,14
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13249,Schley,Tyler Harper,R,0,counting,0,1
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13249,Schley,Katherine E. Juhan-Arnold,D,0,counting,0,1
-statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13251,Screven,Tyler Harper,R,0,counting,0,7
-statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13251,Screven,Katherine E. Juhan-Arnold,D,0,counting,0,7
+statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13251,Screven,Tyler Harper,R,2003,counting,2,7
+statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13251,Screven,Katherine E. Juhan-Arnold,D,1615,counting,2,7
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13253,Seminole,Tyler Harper,R,0,counting,0,5
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13253,Seminole,Katherine E. Juhan-Arnold,D,0,counting,0,5
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13255,Spalding,Katherine E. Juhan-Arnold,D,8625,counting,8,8
@@ -311,14 +311,14 @@ statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13313,Whi
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13313,Whitfield,Katherine E. Juhan-Arnold,D,0,counting,0,23
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13315,Wilcox,Tyler Harper,R,0,counting,0,4
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13315,Wilcox,Katherine E. Juhan-Arnold,D,0,counting,0,4
-statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13317,Wilkes,Tyler Harper,R,0,counting,0,4
-statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13317,Wilkes,Katherine E. Juhan-Arnold,D,0,counting,0,4
+statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13317,Wilkes,Katherine E. Juhan-Arnold,D,167,counting,0,4
+statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13317,Wilkes,Tyler Harper,R,51,counting,0,4
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13319,Wilkinson,Tyler Harper,R,0,counting,0,6
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13319,Wilkinson,Katherine E. Juhan-Arnold,D,0,counting,0,6
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13321,Worth,Tyler Harper,R,2359,counting,0,9
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,13321,Worth,Katherine E. Juhan-Arnold,D,1181,counting,0,9
-statewide,2026 Attorney General,2026,Attorney General,,13001,Appling,Brian Strickland,R,0,counting,0,9
-statewide,2026 Attorney General,2026,Attorney General,,13001,Appling,Tanya Miller,D,0,counting,0,9
+statewide,2026 Attorney General,2026,Attorney General,,13001,Appling,Brian Strickland,R,2790,counting,0,9
+statewide,2026 Attorney General,2026,Attorney General,,13001,Appling,Tanya Miller,D,982,counting,0,9
 statewide,2026 Attorney General,2026,Attorney General,,13003,Atkinson,Brian Strickland,R,0,counting,0,4
 statewide,2026 Attorney General,2026,Attorney General,,13003,Atkinson,Tanya Miller,D,0,counting,0,4
 statewide,2026 Attorney General,2026,Attorney General,,13005,Bacon,Brian Strickland,R,0,counting,0,1
@@ -333,14 +333,14 @@ statewide,2026 Attorney General,2026,Attorney General,,13013,Barrow,Brian Strick
 statewide,2026 Attorney General,2026,Attorney General,,13013,Barrow,Tanya Miller,D,8124,counting,0,8
 statewide,2026 Attorney General,2026,Attorney General,,13015,Bartow,Brian Strickland,R,16222,counting,0,17
 statewide,2026 Attorney General,2026,Attorney General,,13015,Bartow,Tanya Miller,D,8870,counting,0,17
-statewide,2026 Attorney General,2026,Attorney General,,13017,Ben Hill,Brian Strickland,R,0,counting,0,1
-statewide,2026 Attorney General,2026,Attorney General,,13017,Ben Hill,Tanya Miller,D,0,counting,0,1
+statewide,2026 Attorney General,2026,Attorney General,,13017,Ben Hill,Brian Strickland,R,2909,counting,1,1
+statewide,2026 Attorney General,2026,Attorney General,,13017,Ben Hill,Tanya Miller,D,1976,counting,1,1
 statewide,2026 Attorney General,2026,Attorney General,,13019,Berrien,Brian Strickland,R,0,counting,0,5
 statewide,2026 Attorney General,2026,Attorney General,,13019,Berrien,Tanya Miller,D,0,counting,0,5
 statewide,2026 Attorney General,2026,Attorney General,,13021,Bibb,Brian Strickland,R,0,counting,0,31
 statewide,2026 Attorney General,2026,Attorney General,,13021,Bibb,Tanya Miller,D,0,counting,0,31
-statewide,2026 Attorney General,2026,Attorney General,,13023,Bleckley,Brian Strickland,R,81,counting,0,1
-statewide,2026 Attorney General,2026,Attorney General,,13023,Bleckley,Tanya Miller,D,63,counting,0,1
+statewide,2026 Attorney General,2026,Attorney General,,13023,Bleckley,Brian Strickland,R,1227,counting,1,1
+statewide,2026 Attorney General,2026,Attorney General,,13023,Bleckley,Tanya Miller,D,435,counting,1,1
 statewide,2026 Attorney General,2026,Attorney General,,13025,Brantley,Brian Strickland,R,4888,counting,3,3
 statewide,2026 Attorney General,2026,Attorney General,,13025,Brantley,Tanya Miller,D,610,counting,3,3
 statewide,2026 Attorney General,2026,Attorney General,,13027,Brooks,Brian Strickland,R,0,counting,0,7
@@ -421,8 +421,8 @@ statewide,2026 Attorney General,2026,Attorney General,,13103,Effingham,Brian Str
 statewide,2026 Attorney General,2026,Attorney General,,13103,Effingham,Tanya Miller,D,0,counting,0,20
 statewide,2026 Attorney General,2026,Attorney General,,13105,Elbert,Brian Strickland,R,0,counting,0,11
 statewide,2026 Attorney General,2026,Attorney General,,13105,Elbert,Tanya Miller,D,0,counting,0,11
-statewide,2026 Attorney General,2026,Attorney General,,13107,Emanuel,Brian Strickland,R,0,counting,0,10
-statewide,2026 Attorney General,2026,Attorney General,,13107,Emanuel,Tanya Miller,D,0,counting,0,10
+statewide,2026 Attorney General,2026,Attorney General,,13107,Emanuel,Brian Strickland,R,3061,counting,1,10
+statewide,2026 Attorney General,2026,Attorney General,,13107,Emanuel,Tanya Miller,D,1944,counting,1,10
 statewide,2026 Attorney General,2026,Attorney General,,13109,Evans,Brian Strickland,R,0,counting,0,1
 statewide,2026 Attorney General,2026,Attorney General,,13109,Evans,Tanya Miller,D,0,counting,0,1
 statewide,2026 Attorney General,2026,Attorney General,,13111,Fannin,Brian Strickland,R,0,counting,0,12
@@ -443,8 +443,8 @@ statewide,2026 Attorney General,2026,Attorney General,,13125,Glascock,Brian Stri
 statewide,2026 Attorney General,2026,Attorney General,,13125,Glascock,Tanya Miller,D,0,counting,0,1
 statewide,2026 Attorney General,2026,Attorney General,,13127,Glynn,Brian Strickland,R,14272,counting,0,14
 statewide,2026 Attorney General,2026,Attorney General,,13127,Glynn,Tanya Miller,D,10017,counting,0,14
-statewide,2026 Attorney General,2026,Attorney General,,13129,Gordon,Brian Strickland,R,6793,counting,0,11
-statewide,2026 Attorney General,2026,Attorney General,,13129,Gordon,Tanya Miller,D,2986,counting,0,11
+statewide,2026 Attorney General,2026,Attorney General,,13129,Gordon,Brian Strickland,R,6800,counting,0,11
+statewide,2026 Attorney General,2026,Attorney General,,13129,Gordon,Tanya Miller,D,2995,counting,0,11
 statewide,2026 Attorney General,2026,Attorney General,,13131,Grady,Brian Strickland,R,2703,counting,0,9
 statewide,2026 Attorney General,2026,Attorney General,,13131,Grady,Tanya Miller,D,1860,counting,0,9
 statewide,2026 Attorney General,2026,Attorney General,,13133,Greene,Brian Strickland,R,0,counting,0,5
@@ -453,8 +453,8 @@ statewide,2026 Attorney General,2026,Attorney General,,13135,Gwinnett,Tanya Mill
 statewide,2026 Attorney General,2026,Attorney General,,13135,Gwinnett,Brian Strickland,R,69428,counting,0,156
 statewide,2026 Attorney General,2026,Attorney General,,13137,Habersham,Brian Strickland,R,0,counting,0,4
 statewide,2026 Attorney General,2026,Attorney General,,13137,Habersham,Tanya Miller,D,0,counting,0,4
-statewide,2026 Attorney General,2026,Attorney General,,13139,Hall,Brian Strickland,R,20578,counting,31,31
-statewide,2026 Attorney General,2026,Attorney General,,13139,Hall,Tanya Miller,D,12350,counting,31,31
+statewide,2026 Attorney General,2026,Attorney General,,13139,Hall,Brian Strickland,R,34363,counting,31,31
+statewide,2026 Attorney General,2026,Attorney General,,13139,Hall,Tanya Miller,D,19539,counting,31,31
 statewide,2026 Attorney General,2026,Attorney General,,13141,Hancock,Brian Strickland,R,0,counting,0,10
 statewide,2026 Attorney General,2026,Attorney General,,13141,Hancock,Tanya Miller,D,0,counting,0,10
 statewide,2026 Attorney General,2026,Attorney General,,13143,Haralson,Brian Strickland,R,4480,counting,0,12
@@ -563,8 +563,8 @@ statewide,2026 Attorney General,2026,Attorney General,,13247,Rockdale,Tanya Mill
 statewide,2026 Attorney General,2026,Attorney General,,13247,Rockdale,Brian Strickland,R,4744,counting,0,14
 statewide,2026 Attorney General,2026,Attorney General,,13249,Schley,Brian Strickland,R,0,counting,0,1
 statewide,2026 Attorney General,2026,Attorney General,,13249,Schley,Tanya Miller,D,0,counting,0,1
-statewide,2026 Attorney General,2026,Attorney General,,13251,Screven,Brian Strickland,R,0,counting,0,7
-statewide,2026 Attorney General,2026,Attorney General,,13251,Screven,Tanya Miller,D,0,counting,0,7
+statewide,2026 Attorney General,2026,Attorney General,,13251,Screven,Brian Strickland,R,1958,counting,2,7
+statewide,2026 Attorney General,2026,Attorney General,,13251,Screven,Tanya Miller,D,1666,counting,2,7
 statewide,2026 Attorney General,2026,Attorney General,,13253,Seminole,Brian Strickland,R,0,counting,0,5
 statewide,2026 Attorney General,2026,Attorney General,,13253,Seminole,Tanya Miller,D,0,counting,0,5
 statewide,2026 Attorney General,2026,Attorney General,,13255,Spalding,Tanya Miller,D,8877,counting,8,8
@@ -629,14 +629,14 @@ statewide,2026 Attorney General,2026,Attorney General,,13313,Whitfield,Brian Str
 statewide,2026 Attorney General,2026,Attorney General,,13313,Whitfield,Tanya Miller,D,0,counting,0,23
 statewide,2026 Attorney General,2026,Attorney General,,13315,Wilcox,Brian Strickland,R,0,counting,0,4
 statewide,2026 Attorney General,2026,Attorney General,,13315,Wilcox,Tanya Miller,D,0,counting,0,4
-statewide,2026 Attorney General,2026,Attorney General,,13317,Wilkes,Brian Strickland,R,0,counting,0,4
-statewide,2026 Attorney General,2026,Attorney General,,13317,Wilkes,Tanya Miller,D,0,counting,0,4
+statewide,2026 Attorney General,2026,Attorney General,,13317,Wilkes,Tanya Miller,D,172,counting,0,4
+statewide,2026 Attorney General,2026,Attorney General,,13317,Wilkes,Brian Strickland,R,49,counting,0,4
 statewide,2026 Attorney General,2026,Attorney General,,13319,Wilkinson,Brian Strickland,R,0,counting,0,6
 statewide,2026 Attorney General,2026,Attorney General,,13319,Wilkinson,Tanya Miller,D,0,counting,0,6
 statewide,2026 Attorney General,2026,Attorney General,,13321,Worth,Brian Strickland,R,2322,counting,0,9
 statewide,2026 Attorney General,2026,Attorney General,,13321,Worth,Tanya Miller,D,1234,counting,0,9
-statewide,2026 Governor,2026,Governor,,13001,Appling,Rick Jackson,R,0,counting,0,9
-statewide,2026 Governor,2026,Governor,,13001,Appling,Keisha Lance Bottoms,D,0,counting,0,9
+statewide,2026 Governor,2026,Governor,,13001,Appling,Rick Jackson,R,2825,counting,0,9
+statewide,2026 Governor,2026,Governor,,13001,Appling,Keisha Lance Bottoms,D,956,counting,0,9
 statewide,2026 Governor,2026,Governor,,13003,Atkinson,Rick Jackson,R,0,counting,0,4
 statewide,2026 Governor,2026,Governor,,13003,Atkinson,Keisha Lance Bottoms,D,0,counting,0,4
 statewide,2026 Governor,2026,Governor,,13005,Bacon,Rick Jackson,R,0,counting,0,1
@@ -651,14 +651,14 @@ statewide,2026 Governor,2026,Governor,,13013,Barrow,Rick Jackson,R,11740,countin
 statewide,2026 Governor,2026,Governor,,13013,Barrow,Keisha Lance Bottoms,D,7926,counting,0,8
 statewide,2026 Governor,2026,Governor,,13015,Bartow,Rick Jackson,R,16557,counting,0,17
 statewide,2026 Governor,2026,Governor,,13015,Bartow,Keisha Lance Bottoms,D,8558,counting,0,17
-statewide,2026 Governor,2026,Governor,,13017,Ben Hill,Rick Jackson,R,0,counting,0,1
-statewide,2026 Governor,2026,Governor,,13017,Ben Hill,Keisha Lance Bottoms,D,0,counting,0,1
+statewide,2026 Governor,2026,Governor,,13017,Ben Hill,Rick Jackson,R,2957,counting,1,1
+statewide,2026 Governor,2026,Governor,,13017,Ben Hill,Keisha Lance Bottoms,D,1950,counting,1,1
 statewide,2026 Governor,2026,Governor,,13019,Berrien,Rick Jackson,R,0,counting,0,5
 statewide,2026 Governor,2026,Governor,,13019,Berrien,Keisha Lance Bottoms,D,0,counting,0,5
 statewide,2026 Governor,2026,Governor,,13021,Bibb,Rick Jackson,R,0,counting,0,31
 statewide,2026 Governor,2026,Governor,,13021,Bibb,Keisha Lance Bottoms,D,0,counting,0,31
-statewide,2026 Governor,2026,Governor,,13023,Bleckley,Rick Jackson,R,81,counting,0,1
-statewide,2026 Governor,2026,Governor,,13023,Bleckley,Keisha Lance Bottoms,D,66,counting,0,1
+statewide,2026 Governor,2026,Governor,,13023,Bleckley,Rick Jackson,R,1237,counting,1,1
+statewide,2026 Governor,2026,Governor,,13023,Bleckley,Keisha Lance Bottoms,D,433,counting,1,1
 statewide,2026 Governor,2026,Governor,,13025,Brantley,Rick Jackson,R,4928,counting,3,3
 statewide,2026 Governor,2026,Governor,,13025,Brantley,Keisha Lance Bottoms,D,570,counting,3,3
 statewide,2026 Governor,2026,Governor,,13027,Brooks,Rick Jackson,R,0,counting,0,7
@@ -739,8 +739,8 @@ statewide,2026 Governor,2026,Governor,,13103,Effingham,Rick Jackson,R,0,counting
 statewide,2026 Governor,2026,Governor,,13103,Effingham,Keisha Lance Bottoms,D,0,counting,0,20
 statewide,2026 Governor,2026,Governor,,13105,Elbert,Rick Jackson,R,0,counting,0,11
 statewide,2026 Governor,2026,Governor,,13105,Elbert,Keisha Lance Bottoms,D,0,counting,0,11
-statewide,2026 Governor,2026,Governor,,13107,Emanuel,Rick Jackson,R,0,counting,0,10
-statewide,2026 Governor,2026,Governor,,13107,Emanuel,Keisha Lance Bottoms,D,0,counting,0,10
+statewide,2026 Governor,2026,Governor,,13107,Emanuel,Rick Jackson,R,3134,counting,1,10
+statewide,2026 Governor,2026,Governor,,13107,Emanuel,Keisha Lance Bottoms,D,1890,counting,1,10
 statewide,2026 Governor,2026,Governor,,13109,Evans,Rick Jackson,R,0,counting,0,1
 statewide,2026 Governor,2026,Governor,,13109,Evans,Keisha Lance Bottoms,D,0,counting,0,1
 statewide,2026 Governor,2026,Governor,,13111,Fannin,Rick Jackson,R,0,counting,0,12
@@ -761,8 +761,8 @@ statewide,2026 Governor,2026,Governor,,13125,Glascock,Rick Jackson,R,0,counting,
 statewide,2026 Governor,2026,Governor,,13125,Glascock,Keisha Lance Bottoms,D,0,counting,0,1
 statewide,2026 Governor,2026,Governor,,13127,Glynn,Rick Jackson,R,14424,counting,0,14
 statewide,2026 Governor,2026,Governor,,13127,Glynn,Keisha Lance Bottoms,D,9841,counting,0,14
-statewide,2026 Governor,2026,Governor,,13129,Gordon,Rick Jackson,R,6919,counting,0,11
-statewide,2026 Governor,2026,Governor,,13129,Gordon,Keisha Lance Bottoms,D,2866,counting,0,11
+statewide,2026 Governor,2026,Governor,,13129,Gordon,Rick Jackson,R,6926,counting,0,11
+statewide,2026 Governor,2026,Governor,,13129,Gordon,Keisha Lance Bottoms,D,2875,counting,0,11
 statewide,2026 Governor,2026,Governor,,13131,Grady,Rick Jackson,R,2724,counting,0,9
 statewide,2026 Governor,2026,Governor,,13131,Grady,Keisha Lance Bottoms,D,1862,counting,0,9
 statewide,2026 Governor,2026,Governor,,13133,Greene,Rick Jackson,R,0,counting,0,5
@@ -771,8 +771,8 @@ statewide,2026 Governor,2026,Governor,,13135,Gwinnett,Keisha Lance Bottoms,D,164
 statewide,2026 Governor,2026,Governor,,13135,Gwinnett,Rick Jackson,R,72501,counting,0,156
 statewide,2026 Governor,2026,Governor,,13137,Habersham,Rick Jackson,R,0,counting,0,4
 statewide,2026 Governor,2026,Governor,,13137,Habersham,Keisha Lance Bottoms,D,0,counting,0,4
-statewide,2026 Governor,2026,Governor,,13139,Hall,Rick Jackson,R,20949,counting,31,31
-statewide,2026 Governor,2026,Governor,,13139,Hall,Keisha Lance Bottoms,D,11965,counting,31,31
+statewide,2026 Governor,2026,Governor,,13139,Hall,Rick Jackson,R,35038,counting,31,31
+statewide,2026 Governor,2026,Governor,,13139,Hall,Keisha Lance Bottoms,D,18853,counting,31,31
 statewide,2026 Governor,2026,Governor,,13141,Hancock,Rick Jackson,R,0,counting,0,10
 statewide,2026 Governor,2026,Governor,,13141,Hancock,Keisha Lance Bottoms,D,0,counting,0,10
 statewide,2026 Governor,2026,Governor,,13143,Haralson,Rick Jackson,R,4551,counting,0,12
@@ -881,8 +881,8 @@ statewide,2026 Governor,2026,Governor,,13247,Rockdale,Keisha Lance Bottoms,D,240
 statewide,2026 Governor,2026,Governor,,13247,Rockdale,Rick Jackson,R,4927,counting,0,14
 statewide,2026 Governor,2026,Governor,,13249,Schley,Rick Jackson,R,0,counting,0,1
 statewide,2026 Governor,2026,Governor,,13249,Schley,Keisha Lance Bottoms,D,0,counting,0,1
-statewide,2026 Governor,2026,Governor,,13251,Screven,Rick Jackson,R,0,counting,0,7
-statewide,2026 Governor,2026,Governor,,13251,Screven,Keisha Lance Bottoms,D,0,counting,0,7
+statewide,2026 Governor,2026,Governor,,13251,Screven,Rick Jackson,R,1978,counting,2,7
+statewide,2026 Governor,2026,Governor,,13251,Screven,Keisha Lance Bottoms,D,1663,counting,2,7
 statewide,2026 Governor,2026,Governor,,13253,Seminole,Rick Jackson,R,0,counting,0,5
 statewide,2026 Governor,2026,Governor,,13253,Seminole,Keisha Lance Bottoms,D,0,counting,0,5
 statewide,2026 Governor,2026,Governor,,13255,Spalding,Keisha Lance Bottoms,D,8777,counting,8,8
@@ -947,14 +947,14 @@ statewide,2026 Governor,2026,Governor,,13313,Whitfield,Rick Jackson,R,0,counting
 statewide,2026 Governor,2026,Governor,,13313,Whitfield,Keisha Lance Bottoms,D,0,counting,0,23
 statewide,2026 Governor,2026,Governor,,13315,Wilcox,Rick Jackson,R,0,counting,0,4
 statewide,2026 Governor,2026,Governor,,13315,Wilcox,Keisha Lance Bottoms,D,0,counting,0,4
-statewide,2026 Governor,2026,Governor,,13317,Wilkes,Rick Jackson,R,0,counting,0,4
-statewide,2026 Governor,2026,Governor,,13317,Wilkes,Keisha Lance Bottoms,D,0,counting,0,4
+statewide,2026 Governor,2026,Governor,,13317,Wilkes,Keisha Lance Bottoms,D,169,counting,0,4
+statewide,2026 Governor,2026,Governor,,13317,Wilkes,Rick Jackson,R,51,counting,0,4
 statewide,2026 Governor,2026,Governor,,13319,Wilkinson,Rick Jackson,R,0,counting,0,6
 statewide,2026 Governor,2026,Governor,,13319,Wilkinson,Keisha Lance Bottoms,D,0,counting,0,6
 statewide,2026 Governor,2026,Governor,,13321,Worth,Rick Jackson,R,2356,counting,0,9
 statewide,2026 Governor,2026,Governor,,13321,Worth,Keisha Lance Bottoms,D,1216,counting,0,9
-statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13001,Appling,John King,R,0,counting,0,9
-statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13001,Appling,Keisha Sean Waites,D,0,counting,0,9
+statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13001,Appling,John King,R,2789,counting,0,9
+statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13001,Appling,Keisha Sean Waites,D,967,counting,0,9
 statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13003,Atkinson,John King,R,0,counting,0,4
 statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13003,Atkinson,Keisha Sean Waites,D,0,counting,0,4
 statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13005,Bacon,John King,R,0,counting,0,1
@@ -969,14 +969,14 @@ statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13013,Barrow,
 statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13013,Barrow,Keisha Sean Waites,D,7939,counting,0,8
 statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13015,Bartow,John King,R,16427,counting,0,17
 statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13015,Bartow,Keisha Sean Waites,D,8597,counting,0,17
-statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13017,Ben Hill,John King,R,0,counting,0,1
-statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13017,Ben Hill,Keisha Sean Waites,D,0,counting,0,1
+statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13017,Ben Hill,John King,R,2920,counting,1,1
+statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13017,Ben Hill,Keisha Sean Waites,D,1945,counting,1,1
 statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13019,Berrien,John King,R,0,counting,0,5
 statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13019,Berrien,Keisha Sean Waites,D,0,counting,0,5
 statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13021,Bibb,John King,R,0,counting,0,31
 statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13021,Bibb,Keisha Sean Waites,D,0,counting,0,31
-statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13023,Bleckley,John King,R,83,counting,0,1
-statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13023,Bleckley,Keisha Sean Waites,D,62,counting,0,1
+statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13023,Bleckley,John King,R,1228,counting,1,1
+statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13023,Bleckley,Keisha Sean Waites,D,429,counting,1,1
 statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13025,Brantley,John King,R,4871,counting,3,3
 statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13025,Brantley,Keisha Sean Waites,D,603,counting,3,3
 statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13027,Brooks,John King,R,0,counting,0,7
@@ -1057,8 +1057,8 @@ statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13103,Effingh
 statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13103,Effingham,Keisha Sean Waites,D,0,counting,0,20
 statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13105,Elbert,John King,R,0,counting,0,11
 statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13105,Elbert,Keisha Sean Waites,D,0,counting,0,11
-statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13107,Emanuel,John King,R,0,counting,0,10
-statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13107,Emanuel,Keisha Sean Waites,D,0,counting,0,10
+statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13107,Emanuel,John King,R,3079,counting,1,10
+statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13107,Emanuel,Keisha Sean Waites,D,1904,counting,1,10
 statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13109,Evans,John King,R,0,counting,0,1
 statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13109,Evans,Keisha Sean Waites,D,0,counting,0,1
 statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13111,Fannin,John King,R,0,counting,0,12
@@ -1079,8 +1079,8 @@ statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13125,Glascoc
 statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13125,Glascock,Keisha Sean Waites,D,0,counting,0,1
 statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13127,Glynn,John King,R,14439,counting,0,14
 statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13127,Glynn,Keisha Sean Waites,D,9770,counting,0,14
-statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13129,Gordon,John King,R,6860,counting,0,11
-statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13129,Gordon,Keisha Sean Waites,D,2867,counting,0,11
+statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13129,Gordon,John King,R,6867,counting,0,11
+statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13129,Gordon,Keisha Sean Waites,D,2876,counting,0,11
 statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13131,Grady,John King,R,2705,counting,0,9
 statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13131,Grady,Keisha Sean Waites,D,1848,counting,0,9
 statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13133,Greene,John King,R,0,counting,0,5
@@ -1089,8 +1089,8 @@ statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13135,Gwinnet
 statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13135,Gwinnett,John King,R,72171,counting,0,156
 statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13137,Habersham,John King,R,0,counting,0,4
 statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13137,Habersham,Keisha Sean Waites,D,0,counting,0,4
-statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13139,Hall,John King,R,20899,counting,31,31
-statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13139,Hall,Keisha Sean Waites,D,11877,counting,31,31
+statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13139,Hall,John King,R,34959,counting,31,31
+statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13139,Hall,Keisha Sean Waites,D,18716,counting,31,31
 statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13141,Hancock,John King,R,0,counting,0,10
 statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13141,Hancock,Keisha Sean Waites,D,0,counting,0,10
 statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13143,Haralson,John King,R,4526,counting,0,12
@@ -1199,8 +1199,8 @@ statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13247,Rockdal
 statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13247,Rockdale,John King,R,4903,counting,0,14
 statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13249,Schley,John King,R,0,counting,0,1
 statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13249,Schley,Keisha Sean Waites,D,0,counting,0,1
-statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13251,Screven,John King,R,0,counting,0,7
-statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13251,Screven,Keisha Sean Waites,D,0,counting,0,7
+statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13251,Screven,John King,R,1972,counting,2,7
+statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13251,Screven,Keisha Sean Waites,D,1641,counting,2,7
 statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13253,Seminole,John King,R,0,counting,0,5
 statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13253,Seminole,Keisha Sean Waites,D,0,counting,0,5
 statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13255,Spalding,Keisha Sean Waites,D,8708,counting,8,8
@@ -1265,14 +1265,14 @@ statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13313,Whitfie
 statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13313,Whitfield,Keisha Sean Waites,D,0,counting,0,23
 statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13315,Wilcox,John King,R,0,counting,0,4
 statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13315,Wilcox,Keisha Sean Waites,D,0,counting,0,4
-statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13317,Wilkes,John King,R,0,counting,0,4
-statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13317,Wilkes,Keisha Sean Waites,D,0,counting,0,4
+statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13317,Wilkes,Keisha Sean Waites,D,169,counting,0,4
+statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13317,Wilkes,John King,R,51,counting,0,4
 statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13319,Wilkinson,John King,R,0,counting,0,6
 statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13319,Wilkinson,Keisha Sean Waites,D,0,counting,0,6
 statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13321,Worth,John King,R,2338,counting,0,9
 statewide,2026 Insurance Commissioner,2026,Insurance Commissioner,,13321,Worth,Keisha Sean Waites,D,1196,counting,0,9
-statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13001,Appling,Bárbara Rivera Holmes,R,0,counting,0,9
-statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13001,Appling,Nikki Porcher,D,0,counting,0,9
+statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13001,Appling,Bárbara Rivera Holmes,R,2789,counting,0,9
+statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13001,Appling,Nikki Porcher,D,963,counting,0,9
 statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13003,Atkinson,Bárbara Rivera Holmes,R,0,counting,0,4
 statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13003,Atkinson,Nikki Porcher,D,0,counting,0,4
 statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13005,Bacon,Bárbara Rivera Holmes,R,0,counting,0,1
@@ -1287,14 +1287,14 @@ statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13013,Barrow,Bárbara
 statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13013,Barrow,Nikki Porcher,D,7974,counting,0,8
 statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13015,Bartow,Bárbara Rivera Holmes,R,16354,counting,0,17
 statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13015,Bartow,Nikki Porcher,D,8638,counting,0,17
-statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13017,Ben Hill,Bárbara Rivera Holmes,R,0,counting,0,1
-statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13017,Ben Hill,Nikki Porcher,D,0,counting,0,1
+statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13017,Ben Hill,Bárbara Rivera Holmes,R,2910,counting,1,1
+statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13017,Ben Hill,Nikki Porcher,D,1953,counting,1,1
 statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13019,Berrien,Bárbara Rivera Holmes,R,0,counting,0,5
 statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13019,Berrien,Nikki Porcher,D,0,counting,0,5
 statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13021,Bibb,Bárbara Rivera Holmes,R,0,counting,0,31
 statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13021,Bibb,Nikki Porcher,D,0,counting,0,31
-statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13023,Bleckley,Bárbara Rivera Holmes,R,82,counting,0,1
-statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13023,Bleckley,Nikki Porcher,D,64,counting,0,1
+statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13023,Bleckley,Bárbara Rivera Holmes,R,1216,counting,1,1
+statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13023,Bleckley,Nikki Porcher,D,441,counting,1,1
 statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13025,Brantley,Bárbara Rivera Holmes,R,4840,counting,3,3
 statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13025,Brantley,Nikki Porcher,D,614,counting,3,3
 statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13027,Brooks,Bárbara Rivera Holmes,R,0,counting,0,7
@@ -1375,8 +1375,8 @@ statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13103,Effingham,Bárb
 statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13103,Effingham,Nikki Porcher,D,0,counting,0,20
 statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13105,Elbert,Bárbara Rivera Holmes,R,0,counting,0,11
 statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13105,Elbert,Nikki Porcher,D,0,counting,0,11
-statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13107,Emanuel,Bárbara Rivera Holmes,R,0,counting,0,10
-statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13107,Emanuel,Nikki Porcher,D,0,counting,0,10
+statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13107,Emanuel,Bárbara Rivera Holmes,R,3079,counting,1,10
+statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13107,Emanuel,Nikki Porcher,D,1897,counting,1,10
 statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13109,Evans,Bárbara Rivera Holmes,R,0,counting,0,1
 statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13109,Evans,Nikki Porcher,D,0,counting,0,1
 statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13111,Fannin,Bárbara Rivera Holmes,R,0,counting,0,12
@@ -1397,8 +1397,8 @@ statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13125,Glascock,Bárba
 statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13125,Glascock,Nikki Porcher,D,0,counting,0,1
 statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13127,Glynn,Bárbara Rivera Holmes,R,14216,counting,0,14
 statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13127,Glynn,Nikki Porcher,D,9941,counting,0,14
-statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13129,Gordon,Bárbara Rivera Holmes,R,6795,counting,0,11
-statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13129,Gordon,Nikki Porcher,D,2895,counting,0,11
+statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13129,Gordon,Bárbara Rivera Holmes,R,6802,counting,0,11
+statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13129,Gordon,Nikki Porcher,D,2903,counting,0,11
 statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13131,Grady,Bárbara Rivera Holmes,R,2695,counting,0,9
 statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13131,Grady,Nikki Porcher,D,1851,counting,0,9
 statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13133,Greene,Bárbara Rivera Holmes,R,0,counting,0,5
@@ -1407,8 +1407,8 @@ statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13135,Gwinnett,Nikki 
 statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13135,Gwinnett,Bárbara Rivera Holmes,R,71539,counting,0,156
 statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13137,Habersham,Bárbara Rivera Holmes,R,0,counting,0,4
 statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13137,Habersham,Nikki Porcher,D,0,counting,0,4
-statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13139,Hall,Bárbara Rivera Holmes,R,20783,counting,31,31
-statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13139,Hall,Nikki Porcher,D,11913,counting,31,31
+statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13139,Hall,Bárbara Rivera Holmes,R,34673,counting,31,31
+statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13139,Hall,Nikki Porcher,D,18853,counting,31,31
 statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13141,Hancock,Bárbara Rivera Holmes,R,0,counting,0,10
 statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13141,Hancock,Nikki Porcher,D,0,counting,0,10
 statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13143,Haralson,Bárbara Rivera Holmes,R,4476,counting,0,12
@@ -1517,8 +1517,8 @@ statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13247,Rockdale,Nikki 
 statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13247,Rockdale,Bárbara Rivera Holmes,R,4915,counting,0,14
 statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13249,Schley,Bárbara Rivera Holmes,R,0,counting,0,1
 statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13249,Schley,Nikki Porcher,D,0,counting,0,1
-statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13251,Screven,Bárbara Rivera Holmes,R,0,counting,0,7
-statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13251,Screven,Nikki Porcher,D,0,counting,0,7
+statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13251,Screven,Bárbara Rivera Holmes,R,1954,counting,2,7
+statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13251,Screven,Nikki Porcher,D,1646,counting,2,7
 statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13253,Seminole,Bárbara Rivera Holmes,R,0,counting,0,5
 statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13253,Seminole,Nikki Porcher,D,0,counting,0,5
 statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13255,Spalding,Nikki Porcher,D,8729,counting,8,8
@@ -1583,14 +1583,14 @@ statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13313,Whitfield,Bárb
 statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13313,Whitfield,Nikki Porcher,D,0,counting,0,23
 statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13315,Wilcox,Bárbara Rivera Holmes,R,0,counting,0,4
 statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13315,Wilcox,Nikki Porcher,D,0,counting,0,4
-statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13317,Wilkes,Bárbara Rivera Holmes,R,0,counting,0,4
-statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13317,Wilkes,Nikki Porcher,D,0,counting,0,4
+statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13317,Wilkes,Nikki Porcher,D,169,counting,0,4
+statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13317,Wilkes,Bárbara Rivera Holmes,R,50,counting,0,4
 statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13319,Wilkinson,Bárbara Rivera Holmes,R,0,counting,0,6
 statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13319,Wilkinson,Nikki Porcher,D,0,counting,0,6
 statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13321,Worth,Bárbara Rivera Holmes,R,2336,counting,0,9
 statewide,2026 Labor Commissioner,2026,Labor Commissioner,,13321,Worth,Nikki Porcher,D,1200,counting,0,9
-statewide,2026 Lt. Governor,2026,Lt. Governor,,13001,Appling,Greg Dolezal,R,0,counting,0,9
-statewide,2026 Lt. Governor,2026,Lt. Governor,,13001,Appling,Josh McLaurin,D,0,counting,0,9
+statewide,2026 Lt. Governor,2026,Lt. Governor,,13001,Appling,Greg Dolezal,R,2762,counting,0,9
+statewide,2026 Lt. Governor,2026,Lt. Governor,,13001,Appling,Josh McLaurin,D,988,counting,0,9
 statewide,2026 Lt. Governor,2026,Lt. Governor,,13003,Atkinson,Greg Dolezal,R,0,counting,0,4
 statewide,2026 Lt. Governor,2026,Lt. Governor,,13003,Atkinson,Josh McLaurin,D,0,counting,0,4
 statewide,2026 Lt. Governor,2026,Lt. Governor,,13005,Bacon,Greg Dolezal,R,0,counting,0,1
@@ -1605,14 +1605,14 @@ statewide,2026 Lt. Governor,2026,Lt. Governor,,13013,Barrow,Greg Dolezal,R,11420
 statewide,2026 Lt. Governor,2026,Lt. Governor,,13013,Barrow,Josh McLaurin,D,8175,counting,0,8
 statewide,2026 Lt. Governor,2026,Lt. Governor,,13015,Bartow,Greg Dolezal,R,16139,counting,0,17
 statewide,2026 Lt. Governor,2026,Lt. Governor,,13015,Bartow,Josh McLaurin,D,8906,counting,0,17
-statewide,2026 Lt. Governor,2026,Lt. Governor,,13017,Ben Hill,Greg Dolezal,R,0,counting,0,1
-statewide,2026 Lt. Governor,2026,Lt. Governor,,13017,Ben Hill,Josh McLaurin,D,0,counting,0,1
+statewide,2026 Lt. Governor,2026,Lt. Governor,,13017,Ben Hill,Greg Dolezal,R,2865,counting,1,1
+statewide,2026 Lt. Governor,2026,Lt. Governor,,13017,Ben Hill,Josh McLaurin,D,1994,counting,1,1
 statewide,2026 Lt. Governor,2026,Lt. Governor,,13019,Berrien,Greg Dolezal,R,0,counting,0,5
 statewide,2026 Lt. Governor,2026,Lt. Governor,,13019,Berrien,Josh McLaurin,D,0,counting,0,5
 statewide,2026 Lt. Governor,2026,Lt. Governor,,13021,Bibb,Greg Dolezal,R,0,counting,0,31
 statewide,2026 Lt. Governor,2026,Lt. Governor,,13021,Bibb,Josh McLaurin,D,0,counting,0,31
-statewide,2026 Lt. Governor,2026,Lt. Governor,,13023,Bleckley,Greg Dolezal,R,80,counting,0,1
-statewide,2026 Lt. Governor,2026,Lt. Governor,,13023,Bleckley,Josh McLaurin,D,66,counting,0,1
+statewide,2026 Lt. Governor,2026,Lt. Governor,,13023,Bleckley,Greg Dolezal,R,1202,counting,1,1
+statewide,2026 Lt. Governor,2026,Lt. Governor,,13023,Bleckley,Josh McLaurin,D,450,counting,1,1
 statewide,2026 Lt. Governor,2026,Lt. Governor,,13025,Brantley,Greg Dolezal,R,4830,counting,3,3
 statewide,2026 Lt. Governor,2026,Lt. Governor,,13025,Brantley,Josh McLaurin,D,646,counting,3,3
 statewide,2026 Lt. Governor,2026,Lt. Governor,,13027,Brooks,Greg Dolezal,R,0,counting,0,7
@@ -1693,8 +1693,8 @@ statewide,2026 Lt. Governor,2026,Lt. Governor,,13103,Effingham,Greg Dolezal,R,0,
 statewide,2026 Lt. Governor,2026,Lt. Governor,,13103,Effingham,Josh McLaurin,D,0,counting,0,20
 statewide,2026 Lt. Governor,2026,Lt. Governor,,13105,Elbert,Greg Dolezal,R,0,counting,0,11
 statewide,2026 Lt. Governor,2026,Lt. Governor,,13105,Elbert,Josh McLaurin,D,0,counting,0,11
-statewide,2026 Lt. Governor,2026,Lt. Governor,,13107,Emanuel,Greg Dolezal,R,0,counting,0,10
-statewide,2026 Lt. Governor,2026,Lt. Governor,,13107,Emanuel,Josh McLaurin,D,0,counting,0,10
+statewide,2026 Lt. Governor,2026,Lt. Governor,,13107,Emanuel,Greg Dolezal,R,3045,counting,1,10
+statewide,2026 Lt. Governor,2026,Lt. Governor,,13107,Emanuel,Josh McLaurin,D,1930,counting,1,10
 statewide,2026 Lt. Governor,2026,Lt. Governor,,13109,Evans,Greg Dolezal,R,0,counting,0,1
 statewide,2026 Lt. Governor,2026,Lt. Governor,,13109,Evans,Josh McLaurin,D,0,counting,0,1
 statewide,2026 Lt. Governor,2026,Lt. Governor,,13111,Fannin,Greg Dolezal,R,0,counting,0,12
@@ -1715,8 +1715,8 @@ statewide,2026 Lt. Governor,2026,Lt. Governor,,13125,Glascock,Greg Dolezal,R,0,c
 statewide,2026 Lt. Governor,2026,Lt. Governor,,13125,Glascock,Josh McLaurin,D,0,counting,0,1
 statewide,2026 Lt. Governor,2026,Lt. Governor,,13127,Glynn,Greg Dolezal,R,13930,counting,0,14
 statewide,2026 Lt. Governor,2026,Lt. Governor,,13127,Glynn,Josh McLaurin,D,10301,counting,0,14
-statewide,2026 Lt. Governor,2026,Lt. Governor,,13129,Gordon,Greg Dolezal,R,6728,counting,0,11
-statewide,2026 Lt. Governor,2026,Lt. Governor,,13129,Gordon,Josh McLaurin,D,3013,counting,0,11
+statewide,2026 Lt. Governor,2026,Lt. Governor,,13129,Gordon,Greg Dolezal,R,6735,counting,0,11
+statewide,2026 Lt. Governor,2026,Lt. Governor,,13129,Gordon,Josh McLaurin,D,3022,counting,0,11
 statewide,2026 Lt. Governor,2026,Lt. Governor,,13131,Grady,Greg Dolezal,R,2647,counting,0,9
 statewide,2026 Lt. Governor,2026,Lt. Governor,,13131,Grady,Josh McLaurin,D,1897,counting,0,9
 statewide,2026 Lt. Governor,2026,Lt. Governor,,13133,Greene,Greg Dolezal,R,0,counting,0,5
@@ -1725,8 +1725,8 @@ statewide,2026 Lt. Governor,2026,Lt. Governor,,13135,Gwinnett,Josh McLaurin,D,16
 statewide,2026 Lt. Governor,2026,Lt. Governor,,13135,Gwinnett,Greg Dolezal,R,68463,counting,0,156
 statewide,2026 Lt. Governor,2026,Lt. Governor,,13137,Habersham,Greg Dolezal,R,0,counting,0,4
 statewide,2026 Lt. Governor,2026,Lt. Governor,,13137,Habersham,Josh McLaurin,D,0,counting,0,4
-statewide,2026 Lt. Governor,2026,Lt. Governor,,13139,Hall,Greg Dolezal,R,20368,counting,31,31
-statewide,2026 Lt. Governor,2026,Lt. Governor,,13139,Hall,Josh McLaurin,D,12468,counting,31,31
+statewide,2026 Lt. Governor,2026,Lt. Governor,,13139,Hall,Greg Dolezal,R,34054,counting,31,31
+statewide,2026 Lt. Governor,2026,Lt. Governor,,13139,Hall,Josh McLaurin,D,19700,counting,31,31
 statewide,2026 Lt. Governor,2026,Lt. Governor,,13141,Hancock,Greg Dolezal,R,0,counting,0,10
 statewide,2026 Lt. Governor,2026,Lt. Governor,,13141,Hancock,Josh McLaurin,D,0,counting,0,10
 statewide,2026 Lt. Governor,2026,Lt. Governor,,13143,Haralson,Greg Dolezal,R,4459,counting,0,12
@@ -1835,8 +1835,8 @@ statewide,2026 Lt. Governor,2026,Lt. Governor,,13247,Rockdale,Josh McLaurin,D,24
 statewide,2026 Lt. Governor,2026,Lt. Governor,,13247,Rockdale,Greg Dolezal,R,4691,counting,0,14
 statewide,2026 Lt. Governor,2026,Lt. Governor,,13249,Schley,Greg Dolezal,R,0,counting,0,1
 statewide,2026 Lt. Governor,2026,Lt. Governor,,13249,Schley,Josh McLaurin,D,0,counting,0,1
-statewide,2026 Lt. Governor,2026,Lt. Governor,,13251,Screven,Greg Dolezal,R,0,counting,0,7
-statewide,2026 Lt. Governor,2026,Lt. Governor,,13251,Screven,Josh McLaurin,D,0,counting,0,7
+statewide,2026 Lt. Governor,2026,Lt. Governor,,13251,Screven,Greg Dolezal,R,1928,counting,2,7
+statewide,2026 Lt. Governor,2026,Lt. Governor,,13251,Screven,Josh McLaurin,D,1667,counting,2,7
 statewide,2026 Lt. Governor,2026,Lt. Governor,,13253,Seminole,Greg Dolezal,R,0,counting,0,5
 statewide,2026 Lt. Governor,2026,Lt. Governor,,13253,Seminole,Josh McLaurin,D,0,counting,0,5
 statewide,2026 Lt. Governor,2026,Lt. Governor,,13255,Spalding,Josh McLaurin,D,8886,counting,8,8
@@ -1901,14 +1901,14 @@ statewide,2026 Lt. Governor,2026,Lt. Governor,,13313,Whitfield,Greg Dolezal,R,0,
 statewide,2026 Lt. Governor,2026,Lt. Governor,,13313,Whitfield,Josh McLaurin,D,0,counting,0,23
 statewide,2026 Lt. Governor,2026,Lt. Governor,,13315,Wilcox,Greg Dolezal,R,0,counting,0,4
 statewide,2026 Lt. Governor,2026,Lt. Governor,,13315,Wilcox,Josh McLaurin,D,0,counting,0,4
-statewide,2026 Lt. Governor,2026,Lt. Governor,,13317,Wilkes,Greg Dolezal,R,0,counting,0,4
-statewide,2026 Lt. Governor,2026,Lt. Governor,,13317,Wilkes,Josh McLaurin,D,0,counting,0,4
+statewide,2026 Lt. Governor,2026,Lt. Governor,,13317,Wilkes,Josh McLaurin,D,170,counting,0,4
+statewide,2026 Lt. Governor,2026,Lt. Governor,,13317,Wilkes,Greg Dolezal,R,51,counting,0,4
 statewide,2026 Lt. Governor,2026,Lt. Governor,,13319,Wilkinson,Greg Dolezal,R,0,counting,0,6
 statewide,2026 Lt. Governor,2026,Lt. Governor,,13319,Wilkinson,Josh McLaurin,D,0,counting,0,6
 statewide,2026 Lt. Governor,2026,Lt. Governor,,13321,Worth,Greg Dolezal,R,2297,counting,0,9
 statewide,2026 Lt. Governor,2026,Lt. Governor,,13321,Worth,Josh McLaurin,D,1225,counting,0,9
-statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13001,Appling,Fitz Johnson,R,0,counting,0,9
-statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13001,Appling,Peter Hubbard,D,0,counting,0,9
+statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13001,Appling,Fitz Johnson,R,2770,counting,0,9
+statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13001,Appling,Peter Hubbard,D,973,counting,0,9
 statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13003,Atkinson,Fitz Johnson,R,0,counting,0,4
 statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13003,Atkinson,Peter Hubbard,D,0,counting,0,4
 statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13005,Bacon,Fitz Johnson,R,0,counting,0,1
@@ -1923,14 +1923,14 @@ statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13013,Barrow,Fitz Johns
 statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13013,Barrow,Peter Hubbard,D,8220,counting,0,8
 statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13015,Bartow,Fitz Johnson,R,15955,counting,0,17
 statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13015,Bartow,Peter Hubbard,D,9008,counting,0,17
-statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13017,Ben Hill,Fitz Johnson,R,0,counting,0,1
-statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13017,Ben Hill,Peter Hubbard,D,0,counting,0,1
+statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13017,Ben Hill,Fitz Johnson,R,2875,counting,1,1
+statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13017,Ben Hill,Peter Hubbard,D,1970,counting,1,1
 statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13019,Berrien,Fitz Johnson,R,0,counting,0,5
 statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13019,Berrien,Peter Hubbard,D,0,counting,0,5
 statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13021,Bibb,Fitz Johnson,R,0,counting,0,31
 statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13021,Bibb,Peter Hubbard,D,0,counting,0,31
-statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13023,Bleckley,Fitz Johnson,R,78,counting,0,1
-statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13023,Bleckley,Peter Hubbard,D,67,counting,0,1
+statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13023,Bleckley,Fitz Johnson,R,1204,counting,1,1
+statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13023,Bleckley,Peter Hubbard,D,447,counting,1,1
 statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13025,Brantley,Fitz Johnson,R,4825,counting,3,3
 statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13025,Brantley,Peter Hubbard,D,642,counting,3,3
 statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13027,Brooks,Fitz Johnson,R,0,counting,0,7
@@ -2011,8 +2011,8 @@ statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13103,Effingham,Fitz Jo
 statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13103,Effingham,Peter Hubbard,D,0,counting,0,20
 statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13105,Elbert,Fitz Johnson,R,0,counting,0,11
 statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13105,Elbert,Peter Hubbard,D,0,counting,0,11
-statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13107,Emanuel,Fitz Johnson,R,0,counting,0,10
-statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13107,Emanuel,Peter Hubbard,D,0,counting,0,10
+statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13107,Emanuel,Fitz Johnson,R,3039,counting,1,10
+statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13107,Emanuel,Peter Hubbard,D,1921,counting,1,10
 statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13109,Evans,Fitz Johnson,R,0,counting,0,1
 statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13109,Evans,Peter Hubbard,D,0,counting,0,1
 statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13111,Fannin,Fitz Johnson,R,0,counting,0,12
@@ -2033,8 +2033,8 @@ statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13125,Glascock,Fitz Joh
 statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13125,Glascock,Peter Hubbard,D,0,counting,0,1
 statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13127,Glynn,Fitz Johnson,R,13788,counting,0,14
 statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13127,Glynn,Peter Hubbard,D,10326,counting,0,14
-statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13129,Gordon,Fitz Johnson,R,6686,counting,0,11
-statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13129,Gordon,Peter Hubbard,D,2993,counting,0,11
+statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13129,Gordon,Fitz Johnson,R,6692,counting,0,11
+statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13129,Gordon,Peter Hubbard,D,3003,counting,0,11
 statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13131,Grady,Fitz Johnson,R,2634,counting,0,9
 statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13131,Grady,Peter Hubbard,D,1904,counting,0,9
 statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13133,Greene,Fitz Johnson,R,0,counting,0,5
@@ -2043,8 +2043,8 @@ statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13135,Gwinnett,Peter Hu
 statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13135,Gwinnett,Fitz Johnson,R,67231,counting,0,156
 statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13137,Habersham,Fitz Johnson,R,0,counting,0,4
 statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13137,Habersham,Peter Hubbard,D,0,counting,0,4
-statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13139,Hall,Fitz Johnson,R,20112,counting,31,31
-statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13139,Hall,Peter Hubbard,D,12534,counting,31,31
+statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13139,Hall,Fitz Johnson,R,33635,counting,31,31
+statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13139,Hall,Peter Hubbard,D,19857,counting,31,31
 statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13141,Hancock,Fitz Johnson,R,0,counting,0,10
 statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13141,Hancock,Peter Hubbard,D,0,counting,0,10
 statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13143,Haralson,Fitz Johnson,R,4413,counting,0,12
@@ -2153,8 +2153,8 @@ statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13247,Rockdale,Peter Hu
 statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13247,Rockdale,Fitz Johnson,R,4637,counting,0,14
 statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13249,Schley,Fitz Johnson,R,0,counting,0,1
 statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13249,Schley,Peter Hubbard,D,0,counting,0,1
-statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13251,Screven,Fitz Johnson,R,0,counting,0,7
-statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13251,Screven,Peter Hubbard,D,0,counting,0,7
+statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13251,Screven,Fitz Johnson,R,1894,counting,2,7
+statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13251,Screven,Peter Hubbard,D,1699,counting,2,7
 statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13253,Seminole,Fitz Johnson,R,0,counting,0,5
 statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13253,Seminole,Peter Hubbard,D,0,counting,0,5
 statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13255,Spalding,Peter Hubbard,D,8844,counting,8,8
@@ -2219,14 +2219,14 @@ statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13313,Whitfield,Fitz Jo
 statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13313,Whitfield,Peter Hubbard,D,0,counting,0,23
 statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13315,Wilcox,Fitz Johnson,R,0,counting,0,4
 statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13315,Wilcox,Peter Hubbard,D,0,counting,0,4
-statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13317,Wilkes,Fitz Johnson,R,0,counting,0,4
-statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13317,Wilkes,Peter Hubbard,D,0,counting,0,4
+statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13317,Wilkes,Peter Hubbard,D,173,counting,0,4
+statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13317,Wilkes,Fitz Johnson,R,47,counting,0,4
 statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13319,Wilkinson,Fitz Johnson,R,0,counting,0,6
 statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13319,Wilkinson,Peter Hubbard,D,0,counting,0,6
 statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13321,Worth,Fitz Johnson,R,2295,counting,0,9
 statewide,"2026 PSC, District 3",2026,"PSC, District 3",,13321,Worth,Peter Hubbard,D,1222,counting,0,9
-statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13001,Appling,Josh Tolbert,R,0,counting,0,9
-statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13001,Appling,Shelia Edwards,D,0,counting,0,9
+statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13001,Appling,Josh Tolbert,R,2760,counting,0,9
+statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13001,Appling,Shelia Edwards,D,990,counting,0,9
 statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13003,Atkinson,Josh Tolbert,R,0,counting,0,4
 statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13003,Atkinson,Shelia Edwards,D,0,counting,0,4
 statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13005,Bacon,Josh Tolbert,R,0,counting,0,1
@@ -2241,14 +2241,14 @@ statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13013,Barrow,Josh Tolbe
 statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13013,Barrow,Shelia Edwards,D,8066,counting,0,8
 statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13015,Bartow,Josh Tolbert,R,16254,counting,0,17
 statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13015,Bartow,Shelia Edwards,D,8739,counting,0,17
-statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13017,Ben Hill,Josh Tolbert,R,0,counting,0,1
-statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13017,Ben Hill,Shelia Edwards,D,0,counting,0,1
+statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13017,Ben Hill,Josh Tolbert,R,2879,counting,1,1
+statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13017,Ben Hill,Shelia Edwards,D,1994,counting,1,1
 statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13019,Berrien,Josh Tolbert,R,0,counting,0,5
 statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13019,Berrien,Shelia Edwards,D,0,counting,0,5
 statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13021,Bibb,Josh Tolbert,R,0,counting,0,31
 statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13021,Bibb,Shelia Edwards,D,0,counting,0,31
-statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13023,Bleckley,Josh Tolbert,R,83,counting,0,1
-statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13023,Bleckley,Shelia Edwards,D,64,counting,0,1
+statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13023,Bleckley,Josh Tolbert,R,1223,counting,1,1
+statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13023,Bleckley,Shelia Edwards,D,438,counting,1,1
 statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13025,Brantley,Josh Tolbert,R,4855,counting,3,3
 statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13025,Brantley,Shelia Edwards,D,619,counting,3,3
 statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13027,Brooks,Josh Tolbert,R,0,counting,0,7
@@ -2329,8 +2329,8 @@ statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13103,Effingham,Josh To
 statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13103,Effingham,Shelia Edwards,D,0,counting,0,20
 statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13105,Elbert,Josh Tolbert,R,0,counting,0,11
 statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13105,Elbert,Shelia Edwards,D,0,counting,0,11
-statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13107,Emanuel,Josh Tolbert,R,0,counting,0,10
-statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13107,Emanuel,Shelia Edwards,D,0,counting,0,10
+statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13107,Emanuel,Josh Tolbert,R,3070,counting,1,10
+statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13107,Emanuel,Shelia Edwards,D,1907,counting,1,10
 statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13109,Evans,Josh Tolbert,R,0,counting,0,1
 statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13109,Evans,Shelia Edwards,D,0,counting,0,1
 statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13111,Fannin,Josh Tolbert,R,0,counting,0,12
@@ -2351,8 +2351,8 @@ statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13125,Glascock,Josh Tol
 statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13125,Glascock,Shelia Edwards,D,0,counting,0,1
 statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13127,Glynn,Josh Tolbert,R,14115,counting,0,14
 statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13127,Glynn,Shelia Edwards,D,10045,counting,0,14
-statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13129,Gordon,Josh Tolbert,R,6790,counting,0,11
-statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13129,Gordon,Shelia Edwards,D,2905,counting,0,11
+statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13129,Gordon,Josh Tolbert,R,6796,counting,0,11
+statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13129,Gordon,Shelia Edwards,D,2914,counting,0,11
 statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13131,Grady,Josh Tolbert,R,2682,counting,0,9
 statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13131,Grady,Shelia Edwards,D,1868,counting,0,9
 statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13133,Greene,Josh Tolbert,R,0,counting,0,5
@@ -2361,8 +2361,8 @@ statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13135,Gwinnett,Shelia E
 statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13135,Gwinnett,Josh Tolbert,R,69770,counting,0,156
 statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13137,Habersham,Josh Tolbert,R,0,counting,0,4
 statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13137,Habersham,Shelia Edwards,D,0,counting,0,4
-statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13139,Hall,Josh Tolbert,R,20530,counting,31,31
-statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13139,Hall,Shelia Edwards,D,12160,counting,31,31
+statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13139,Hall,Josh Tolbert,R,34351,counting,31,31
+statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13139,Hall,Shelia Edwards,D,19194,counting,31,31
 statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13141,Hancock,Josh Tolbert,R,0,counting,0,10
 statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13141,Hancock,Shelia Edwards,D,0,counting,0,10
 statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13143,Haralson,Josh Tolbert,R,4463,counting,0,12
@@ -2471,8 +2471,8 @@ statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13247,Rockdale,Shelia E
 statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13247,Rockdale,Josh Tolbert,R,4755,counting,0,14
 statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13249,Schley,Josh Tolbert,R,0,counting,0,1
 statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13249,Schley,Shelia Edwards,D,0,counting,0,1
-statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13251,Screven,Josh Tolbert,R,0,counting,0,7
-statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13251,Screven,Shelia Edwards,D,0,counting,0,7
+statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13251,Screven,Josh Tolbert,R,1950,counting,2,7
+statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13251,Screven,Shelia Edwards,D,1654,counting,2,7
 statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13253,Seminole,Josh Tolbert,R,0,counting,0,5
 statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13253,Seminole,Shelia Edwards,D,0,counting,0,5
 statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13255,Spalding,Shelia Edwards,D,8799,counting,8,8
@@ -2537,14 +2537,14 @@ statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13313,Whitfield,Josh To
 statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13313,Whitfield,Shelia Edwards,D,0,counting,0,23
 statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13315,Wilcox,Josh Tolbert,R,0,counting,0,4
 statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13315,Wilcox,Shelia Edwards,D,0,counting,0,4
-statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13317,Wilkes,Josh Tolbert,R,0,counting,0,4
-statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13317,Wilkes,Shelia Edwards,D,0,counting,0,4
+statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13317,Wilkes,Shelia Edwards,D,172,counting,0,4
+statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13317,Wilkes,Josh Tolbert,R,47,counting,0,4
 statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13319,Wilkinson,Josh Tolbert,R,0,counting,0,6
 statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13319,Wilkinson,Shelia Edwards,D,0,counting,0,6
 statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13321,Worth,Josh Tolbert,R,2323,counting,0,9
 statewide,"2026 PSC, District 5",2026,"PSC, District 5",,13321,Worth,Shelia Edwards,D,1221,counting,0,9
-statewide,2026 School Superintendent,2026,School Superintendent,,13001,Appling,Richard Woods,R,0,counting,0,9
-statewide,2026 School Superintendent,2026,School Superintendent,,13001,Appling,Lydia Powell,D,0,counting,0,9
+statewide,2026 School Superintendent,2026,School Superintendent,,13001,Appling,Richard Woods,R,2791,counting,0,9
+statewide,2026 School Superintendent,2026,School Superintendent,,13001,Appling,Lydia Powell,D,965,counting,0,9
 statewide,2026 School Superintendent,2026,School Superintendent,,13003,Atkinson,Richard Woods,R,0,counting,0,4
 statewide,2026 School Superintendent,2026,School Superintendent,,13003,Atkinson,Lydia Powell,D,0,counting,0,4
 statewide,2026 School Superintendent,2026,School Superintendent,,13005,Bacon,Richard Woods,R,0,counting,0,1
@@ -2559,14 +2559,14 @@ statewide,2026 School Superintendent,2026,School Superintendent,,13013,Barrow,Ri
 statewide,2026 School Superintendent,2026,School Superintendent,,13013,Barrow,Lydia Powell,D,7977,counting,0,8
 statewide,2026 School Superintendent,2026,School Superintendent,,13015,Bartow,Richard Woods,R,16385,counting,0,17
 statewide,2026 School Superintendent,2026,School Superintendent,,13015,Bartow,Lydia Powell,D,8641,counting,0,17
-statewide,2026 School Superintendent,2026,School Superintendent,,13017,Ben Hill,Richard Woods,R,0,counting,0,1
-statewide,2026 School Superintendent,2026,School Superintendent,,13017,Ben Hill,Lydia Powell,D,0,counting,0,1
+statewide,2026 School Superintendent,2026,School Superintendent,,13017,Ben Hill,Richard Woods,R,2955,counting,1,1
+statewide,2026 School Superintendent,2026,School Superintendent,,13017,Ben Hill,Lydia Powell,D,1918,counting,1,1
 statewide,2026 School Superintendent,2026,School Superintendent,,13019,Berrien,Richard Woods,R,0,counting,0,5
 statewide,2026 School Superintendent,2026,School Superintendent,,13019,Berrien,Lydia Powell,D,0,counting,0,5
 statewide,2026 School Superintendent,2026,School Superintendent,,13021,Bibb,Richard Woods,R,0,counting,0,31
 statewide,2026 School Superintendent,2026,School Superintendent,,13021,Bibb,Lydia Powell,D,0,counting,0,31
-statewide,2026 School Superintendent,2026,School Superintendent,,13023,Bleckley,Richard Woods,R,84,counting,0,1
-statewide,2026 School Superintendent,2026,School Superintendent,,13023,Bleckley,Lydia Powell,D,63,counting,0,1
+statewide,2026 School Superintendent,2026,School Superintendent,,13023,Bleckley,Richard Woods,R,1233,counting,1,1
+statewide,2026 School Superintendent,2026,School Superintendent,,13023,Bleckley,Lydia Powell,D,432,counting,1,1
 statewide,2026 School Superintendent,2026,School Superintendent,,13025,Brantley,Richard Woods,R,4863,counting,3,3
 statewide,2026 School Superintendent,2026,School Superintendent,,13025,Brantley,Lydia Powell,D,627,counting,3,3
 statewide,2026 School Superintendent,2026,School Superintendent,,13027,Brooks,Richard Woods,R,0,counting,0,7
@@ -2647,8 +2647,8 @@ statewide,2026 School Superintendent,2026,School Superintendent,,13103,Effingham
 statewide,2026 School Superintendent,2026,School Superintendent,,13103,Effingham,Lydia Powell,D,0,counting,0,20
 statewide,2026 School Superintendent,2026,School Superintendent,,13105,Elbert,Richard Woods,R,0,counting,0,11
 statewide,2026 School Superintendent,2026,School Superintendent,,13105,Elbert,Lydia Powell,D,0,counting,0,11
-statewide,2026 School Superintendent,2026,School Superintendent,,13107,Emanuel,Richard Woods,R,0,counting,0,10
-statewide,2026 School Superintendent,2026,School Superintendent,,13107,Emanuel,Lydia Powell,D,0,counting,0,10
+statewide,2026 School Superintendent,2026,School Superintendent,,13107,Emanuel,Richard Woods,R,3088,counting,1,10
+statewide,2026 School Superintendent,2026,School Superintendent,,13107,Emanuel,Lydia Powell,D,1896,counting,1,10
 statewide,2026 School Superintendent,2026,School Superintendent,,13109,Evans,Richard Woods,R,0,counting,0,1
 statewide,2026 School Superintendent,2026,School Superintendent,,13109,Evans,Lydia Powell,D,0,counting,0,1
 statewide,2026 School Superintendent,2026,School Superintendent,,13111,Fannin,Richard Woods,R,0,counting,0,12
@@ -2669,8 +2669,8 @@ statewide,2026 School Superintendent,2026,School Superintendent,,13125,Glascock,
 statewide,2026 School Superintendent,2026,School Superintendent,,13125,Glascock,Lydia Powell,D,0,counting,0,1
 statewide,2026 School Superintendent,2026,School Superintendent,,13127,Glynn,Richard Woods,R,14311,counting,0,14
 statewide,2026 School Superintendent,2026,School Superintendent,,13127,Glynn,Lydia Powell,D,9921,counting,0,14
-statewide,2026 School Superintendent,2026,School Superintendent,,13129,Gordon,Richard Woods,R,6872,counting,0,11
-statewide,2026 School Superintendent,2026,School Superintendent,,13129,Gordon,Lydia Powell,D,2857,counting,0,11
+statewide,2026 School Superintendent,2026,School Superintendent,,13129,Gordon,Richard Woods,R,6881,counting,0,11
+statewide,2026 School Superintendent,2026,School Superintendent,,13129,Gordon,Lydia Powell,D,2864,counting,0,11
 statewide,2026 School Superintendent,2026,School Superintendent,,13131,Grady,Richard Woods,R,2705,counting,0,9
 statewide,2026 School Superintendent,2026,School Superintendent,,13131,Grady,Lydia Powell,D,1852,counting,0,9
 statewide,2026 School Superintendent,2026,School Superintendent,,13133,Greene,Richard Woods,R,0,counting,0,5
@@ -2679,8 +2679,8 @@ statewide,2026 School Superintendent,2026,School Superintendent,,13135,Gwinnett,
 statewide,2026 School Superintendent,2026,School Superintendent,,13135,Gwinnett,Richard Woods,R,72553,counting,0,156
 statewide,2026 School Superintendent,2026,School Superintendent,,13137,Habersham,Richard Woods,R,0,counting,0,4
 statewide,2026 School Superintendent,2026,School Superintendent,,13137,Habersham,Lydia Powell,D,0,counting,0,4
-statewide,2026 School Superintendent,2026,School Superintendent,,13139,Hall,Richard Woods,R,20749,counting,31,31
-statewide,2026 School Superintendent,2026,School Superintendent,,13139,Hall,Lydia Powell,D,12084,counting,31,31
+statewide,2026 School Superintendent,2026,School Superintendent,,13139,Hall,Richard Woods,R,34692,counting,31,31
+statewide,2026 School Superintendent,2026,School Superintendent,,13139,Hall,Lydia Powell,D,19069,counting,31,31
 statewide,2026 School Superintendent,2026,School Superintendent,,13141,Hancock,Richard Woods,R,0,counting,0,10
 statewide,2026 School Superintendent,2026,School Superintendent,,13141,Hancock,Lydia Powell,D,0,counting,0,10
 statewide,2026 School Superintendent,2026,School Superintendent,,13143,Haralson,Richard Woods,R,4500,counting,0,12
@@ -2789,8 +2789,8 @@ statewide,2026 School Superintendent,2026,School Superintendent,,13247,Rockdale,
 statewide,2026 School Superintendent,2026,School Superintendent,,13247,Rockdale,Richard Woods,R,4959,counting,0,14
 statewide,2026 School Superintendent,2026,School Superintendent,,13249,Schley,Richard Woods,R,0,counting,0,1
 statewide,2026 School Superintendent,2026,School Superintendent,,13249,Schley,Lydia Powell,D,0,counting,0,1
-statewide,2026 School Superintendent,2026,School Superintendent,,13251,Screven,Richard Woods,R,0,counting,0,7
-statewide,2026 School Superintendent,2026,School Superintendent,,13251,Screven,Lydia Powell,D,0,counting,0,7
+statewide,2026 School Superintendent,2026,School Superintendent,,13251,Screven,Richard Woods,R,1973,counting,2,7
+statewide,2026 School Superintendent,2026,School Superintendent,,13251,Screven,Lydia Powell,D,1652,counting,2,7
 statewide,2026 School Superintendent,2026,School Superintendent,,13253,Seminole,Richard Woods,R,0,counting,0,5
 statewide,2026 School Superintendent,2026,School Superintendent,,13253,Seminole,Lydia Powell,D,0,counting,0,5
 statewide,2026 School Superintendent,2026,School Superintendent,,13255,Spalding,Lydia Powell,D,8747,counting,8,8
@@ -2855,14 +2855,14 @@ statewide,2026 School Superintendent,2026,School Superintendent,,13313,Whitfield
 statewide,2026 School Superintendent,2026,School Superintendent,,13313,Whitfield,Lydia Powell,D,0,counting,0,23
 statewide,2026 School Superintendent,2026,School Superintendent,,13315,Wilcox,Richard Woods,R,0,counting,0,4
 statewide,2026 School Superintendent,2026,School Superintendent,,13315,Wilcox,Lydia Powell,D,0,counting,0,4
-statewide,2026 School Superintendent,2026,School Superintendent,,13317,Wilkes,Richard Woods,R,0,counting,0,4
-statewide,2026 School Superintendent,2026,School Superintendent,,13317,Wilkes,Lydia Powell,D,0,counting,0,4
+statewide,2026 School Superintendent,2026,School Superintendent,,13317,Wilkes,Lydia Powell,D,166,counting,0,4
+statewide,2026 School Superintendent,2026,School Superintendent,,13317,Wilkes,Richard Woods,R,52,counting,0,4
 statewide,2026 School Superintendent,2026,School Superintendent,,13319,Wilkinson,Richard Woods,R,0,counting,0,6
 statewide,2026 School Superintendent,2026,School Superintendent,,13319,Wilkinson,Lydia Powell,D,0,counting,0,6
 statewide,2026 School Superintendent,2026,School Superintendent,,13321,Worth,Richard Woods,R,2323,counting,0,9
 statewide,2026 School Superintendent,2026,School Superintendent,,13321,Worth,Lydia Powell,D,1218,counting,0,9
-statewide,2026 Secretary of State,2026,Secretary of State,,13001,Appling,Tim Fleming,R,0,counting,0,9
-statewide,2026 Secretary of State,2026,Secretary of State,,13001,Appling,Penny Brown Reynolds,D,0,counting,0,9
+statewide,2026 Secretary of State,2026,Secretary of State,,13001,Appling,Tim Fleming,R,2786,counting,0,9
+statewide,2026 Secretary of State,2026,Secretary of State,,13001,Appling,Penny Brown Reynolds,D,969,counting,0,9
 statewide,2026 Secretary of State,2026,Secretary of State,,13003,Atkinson,Tim Fleming,R,0,counting,0,4
 statewide,2026 Secretary of State,2026,Secretary of State,,13003,Atkinson,Penny Brown Reynolds,D,0,counting,0,4
 statewide,2026 Secretary of State,2026,Secretary of State,,13005,Bacon,Tim Fleming,R,0,counting,0,1
@@ -2877,14 +2877,14 @@ statewide,2026 Secretary of State,2026,Secretary of State,,13013,Barrow,Tim Flem
 statewide,2026 Secretary of State,2026,Secretary of State,,13013,Barrow,Penny Brown Reynolds,D,8142,counting,0,8
 statewide,2026 Secretary of State,2026,Secretary of State,,13015,Bartow,Tim Fleming,R,16217,counting,0,17
 statewide,2026 Secretary of State,2026,Secretary of State,,13015,Bartow,Penny Brown Reynolds,D,8854,counting,0,17
-statewide,2026 Secretary of State,2026,Secretary of State,,13017,Ben Hill,Tim Fleming,R,0,counting,0,1
-statewide,2026 Secretary of State,2026,Secretary of State,,13017,Ben Hill,Penny Brown Reynolds,D,0,counting,0,1
+statewide,2026 Secretary of State,2026,Secretary of State,,13017,Ben Hill,Tim Fleming,R,2887,counting,1,1
+statewide,2026 Secretary of State,2026,Secretary of State,,13017,Ben Hill,Penny Brown Reynolds,D,1982,counting,1,1
 statewide,2026 Secretary of State,2026,Secretary of State,,13019,Berrien,Tim Fleming,R,0,counting,0,5
 statewide,2026 Secretary of State,2026,Secretary of State,,13019,Berrien,Penny Brown Reynolds,D,0,counting,0,5
 statewide,2026 Secretary of State,2026,Secretary of State,,13021,Bibb,Tim Fleming,R,0,counting,0,31
 statewide,2026 Secretary of State,2026,Secretary of State,,13021,Bibb,Penny Brown Reynolds,D,0,counting,0,31
-statewide,2026 Secretary of State,2026,Secretary of State,,13023,Bleckley,Tim Fleming,R,81,counting,0,1
-statewide,2026 Secretary of State,2026,Secretary of State,,13023,Bleckley,Penny Brown Reynolds,D,66,counting,0,1
+statewide,2026 Secretary of State,2026,Secretary of State,,13023,Bleckley,Tim Fleming,R,1212,counting,1,1
+statewide,2026 Secretary of State,2026,Secretary of State,,13023,Bleckley,Penny Brown Reynolds,D,445,counting,1,1
 statewide,2026 Secretary of State,2026,Secretary of State,,13025,Brantley,Tim Fleming,R,4866,counting,3,3
 statewide,2026 Secretary of State,2026,Secretary of State,,13025,Brantley,Penny Brown Reynolds,D,625,counting,3,3
 statewide,2026 Secretary of State,2026,Secretary of State,,13027,Brooks,Tim Fleming,R,0,counting,0,7
@@ -2965,8 +2965,8 @@ statewide,2026 Secretary of State,2026,Secretary of State,,13103,Effingham,Tim F
 statewide,2026 Secretary of State,2026,Secretary of State,,13103,Effingham,Penny Brown Reynolds,D,0,counting,0,20
 statewide,2026 Secretary of State,2026,Secretary of State,,13105,Elbert,Tim Fleming,R,0,counting,0,11
 statewide,2026 Secretary of State,2026,Secretary of State,,13105,Elbert,Penny Brown Reynolds,D,0,counting,0,11
-statewide,2026 Secretary of State,2026,Secretary of State,,13107,Emanuel,Tim Fleming,R,0,counting,0,10
-statewide,2026 Secretary of State,2026,Secretary of State,,13107,Emanuel,Penny Brown Reynolds,D,0,counting,0,10
+statewide,2026 Secretary of State,2026,Secretary of State,,13107,Emanuel,Tim Fleming,R,3053,counting,1,10
+statewide,2026 Secretary of State,2026,Secretary of State,,13107,Emanuel,Penny Brown Reynolds,D,1920,counting,1,10
 statewide,2026 Secretary of State,2026,Secretary of State,,13109,Evans,Tim Fleming,R,0,counting,0,1
 statewide,2026 Secretary of State,2026,Secretary of State,,13109,Evans,Penny Brown Reynolds,D,0,counting,0,1
 statewide,2026 Secretary of State,2026,Secretary of State,,13111,Fannin,Tim Fleming,R,0,counting,0,12
@@ -2987,8 +2987,8 @@ statewide,2026 Secretary of State,2026,Secretary of State,,13125,Glascock,Tim Fl
 statewide,2026 Secretary of State,2026,Secretary of State,,13125,Glascock,Penny Brown Reynolds,D,0,counting,0,1
 statewide,2026 Secretary of State,2026,Secretary of State,,13127,Glynn,Tim Fleming,R,14092,counting,0,14
 statewide,2026 Secretary of State,2026,Secretary of State,,13127,Glynn,Penny Brown Reynolds,D,10181,counting,0,14
-statewide,2026 Secretary of State,2026,Secretary of State,,13129,Gordon,Tim Fleming,R,6775,counting,0,11
-statewide,2026 Secretary of State,2026,Secretary of State,,13129,Gordon,Penny Brown Reynolds,D,2967,counting,0,11
+statewide,2026 Secretary of State,2026,Secretary of State,,13129,Gordon,Tim Fleming,R,6781,counting,0,11
+statewide,2026 Secretary of State,2026,Secretary of State,,13129,Gordon,Penny Brown Reynolds,D,2977,counting,0,11
 statewide,2026 Secretary of State,2026,Secretary of State,,13131,Grady,Tim Fleming,R,2669,counting,0,9
 statewide,2026 Secretary of State,2026,Secretary of State,,13131,Grady,Penny Brown Reynolds,D,1883,counting,0,9
 statewide,2026 Secretary of State,2026,Secretary of State,,13133,Greene,Tim Fleming,R,0,counting,0,5
@@ -2997,8 +2997,8 @@ statewide,2026 Secretary of State,2026,Secretary of State,,13135,Gwinnett,Penny 
 statewide,2026 Secretary of State,2026,Secretary of State,,13135,Gwinnett,Tim Fleming,R,69052,counting,0,156
 statewide,2026 Secretary of State,2026,Secretary of State,,13137,Habersham,Tim Fleming,R,0,counting,0,4
 statewide,2026 Secretary of State,2026,Secretary of State,,13137,Habersham,Penny Brown Reynolds,D,0,counting,0,4
-statewide,2026 Secretary of State,2026,Secretary of State,,13139,Hall,Tim Fleming,R,20453,counting,31,31
-statewide,2026 Secretary of State,2026,Secretary of State,,13139,Hall,Penny Brown Reynolds,D,12406,counting,31,31
+statewide,2026 Secretary of State,2026,Secretary of State,,13139,Hall,Tim Fleming,R,34207,counting,31,31
+statewide,2026 Secretary of State,2026,Secretary of State,,13139,Hall,Penny Brown Reynolds,D,19593,counting,31,31
 statewide,2026 Secretary of State,2026,Secretary of State,,13141,Hancock,Tim Fleming,R,0,counting,0,10
 statewide,2026 Secretary of State,2026,Secretary of State,,13141,Hancock,Penny Brown Reynolds,D,0,counting,0,10
 statewide,2026 Secretary of State,2026,Secretary of State,,13143,Haralson,Tim Fleming,R,4474,counting,0,12
@@ -3107,8 +3107,8 @@ statewide,2026 Secretary of State,2026,Secretary of State,,13247,Rockdale,Penny 
 statewide,2026 Secretary of State,2026,Secretary of State,,13247,Rockdale,Tim Fleming,R,4704,counting,0,14
 statewide,2026 Secretary of State,2026,Secretary of State,,13249,Schley,Tim Fleming,R,0,counting,0,1
 statewide,2026 Secretary of State,2026,Secretary of State,,13249,Schley,Penny Brown Reynolds,D,0,counting,0,1
-statewide,2026 Secretary of State,2026,Secretary of State,,13251,Screven,Tim Fleming,R,0,counting,0,7
-statewide,2026 Secretary of State,2026,Secretary of State,,13251,Screven,Penny Brown Reynolds,D,0,counting,0,7
+statewide,2026 Secretary of State,2026,Secretary of State,,13251,Screven,Tim Fleming,R,1941,counting,2,7
+statewide,2026 Secretary of State,2026,Secretary of State,,13251,Screven,Penny Brown Reynolds,D,1669,counting,2,7
 statewide,2026 Secretary of State,2026,Secretary of State,,13253,Seminole,Tim Fleming,R,0,counting,0,5
 statewide,2026 Secretary of State,2026,Secretary of State,,13253,Seminole,Penny Brown Reynolds,D,0,counting,0,5
 statewide,2026 Secretary of State,2026,Secretary of State,,13255,Spalding,Penny Brown Reynolds,D,8855,counting,8,8
@@ -3173,14 +3173,14 @@ statewide,2026 Secretary of State,2026,Secretary of State,,13313,Whitfield,Tim F
 statewide,2026 Secretary of State,2026,Secretary of State,,13313,Whitfield,Penny Brown Reynolds,D,0,counting,0,23
 statewide,2026 Secretary of State,2026,Secretary of State,,13315,Wilcox,Tim Fleming,R,0,counting,0,4
 statewide,2026 Secretary of State,2026,Secretary of State,,13315,Wilcox,Penny Brown Reynolds,D,0,counting,0,4
-statewide,2026 Secretary of State,2026,Secretary of State,,13317,Wilkes,Tim Fleming,R,0,counting,0,4
-statewide,2026 Secretary of State,2026,Secretary of State,,13317,Wilkes,Penny Brown Reynolds,D,0,counting,0,4
+statewide,2026 Secretary of State,2026,Secretary of State,,13317,Wilkes,Penny Brown Reynolds,D,175,counting,0,4
+statewide,2026 Secretary of State,2026,Secretary of State,,13317,Wilkes,Tim Fleming,R,47,counting,0,4
 statewide,2026 Secretary of State,2026,Secretary of State,,13319,Wilkinson,Tim Fleming,R,0,counting,0,6
 statewide,2026 Secretary of State,2026,Secretary of State,,13319,Wilkinson,Penny Brown Reynolds,D,0,counting,0,6
 statewide,2026 Secretary of State,2026,Secretary of State,,13321,Worth,Tim Fleming,R,2314,counting,0,9
 statewide,2026 Secretary of State,2026,Secretary of State,,13321,Worth,Penny Brown Reynolds,D,1218,counting,0,9
-statewide,2026 Senate,2026,Senate,,13001,Appling,Mike Collins,R,0,counting,0,9
-statewide,2026 Senate,2026,Senate,,13001,Appling,Jon Ossoff,D,0,counting,0,9
+statewide,2026 Senate,2026,Senate,,13001,Appling,Mike Collins,R,2706,counting,0,9
+statewide,2026 Senate,2026,Senate,,13001,Appling,Jon Ossoff,D,1064,counting,0,9
 statewide,2026 Senate,2026,Senate,,13003,Atkinson,Mike Collins,R,0,counting,0,4
 statewide,2026 Senate,2026,Senate,,13003,Atkinson,Jon Ossoff,D,0,counting,0,4
 statewide,2026 Senate,2026,Senate,,13005,Bacon,Mike Collins,R,0,counting,0,1
@@ -3195,14 +3195,14 @@ statewide,2026 Senate,2026,Senate,,13013,Barrow,Mike Collins,R,10748,counting,0,
 statewide,2026 Senate,2026,Senate,,13013,Barrow,Jon Ossoff,D,8861,counting,0,8
 statewide,2026 Senate,2026,Senate,,13015,Bartow,Mike Collins,R,15334,counting,0,17
 statewide,2026 Senate,2026,Senate,,13015,Bartow,Jon Ossoff,D,9698,counting,0,17
-statewide,2026 Senate,2026,Senate,,13017,Ben Hill,Mike Collins,R,0,counting,0,1
-statewide,2026 Senate,2026,Senate,,13017,Ben Hill,Jon Ossoff,D,0,counting,0,1
+statewide,2026 Senate,2026,Senate,,13017,Ben Hill,Mike Collins,R,2720,counting,1,1
+statewide,2026 Senate,2026,Senate,,13017,Ben Hill,Jon Ossoff,D,2163,counting,1,1
 statewide,2026 Senate,2026,Senate,,13019,Berrien,Mike Collins,R,0,counting,0,5
 statewide,2026 Senate,2026,Senate,,13019,Berrien,Jon Ossoff,D,0,counting,0,5
 statewide,2026 Senate,2026,Senate,,13021,Bibb,Mike Collins,R,0,counting,0,31
 statewide,2026 Senate,2026,Senate,,13021,Bibb,Jon Ossoff,D,0,counting,0,31
-statewide,2026 Senate,2026,Senate,,13023,Bleckley,Mike Collins,R,76,counting,0,1
-statewide,2026 Senate,2026,Senate,,13023,Bleckley,Jon Ossoff,D,72,counting,0,1
+statewide,2026 Senate,2026,Senate,,13023,Bleckley,Mike Collins,R,1156,counting,1,1
+statewide,2026 Senate,2026,Senate,,13023,Bleckley,Jon Ossoff,D,514,counting,1,1
 statewide,2026 Senate,2026,Senate,,13025,Brantley,Mike Collins,R,4717,counting,3,3
 statewide,2026 Senate,2026,Senate,,13025,Brantley,Jon Ossoff,D,771,counting,3,3
 statewide,2026 Senate,2026,Senate,,13027,Brooks,Mike Collins,R,0,counting,0,7
@@ -3283,8 +3283,8 @@ statewide,2026 Senate,2026,Senate,,13103,Effingham,Mike Collins,R,0,counting,0,2
 statewide,2026 Senate,2026,Senate,,13103,Effingham,Jon Ossoff,D,0,counting,0,20
 statewide,2026 Senate,2026,Senate,,13105,Elbert,Mike Collins,R,0,counting,0,11
 statewide,2026 Senate,2026,Senate,,13105,Elbert,Jon Ossoff,D,0,counting,0,11
-statewide,2026 Senate,2026,Senate,,13107,Emanuel,Mike Collins,R,0,counting,0,10
-statewide,2026 Senate,2026,Senate,,13107,Emanuel,Jon Ossoff,D,0,counting,0,10
+statewide,2026 Senate,2026,Senate,,13107,Emanuel,Mike Collins,R,2969,counting,1,10
+statewide,2026 Senate,2026,Senate,,13107,Emanuel,Jon Ossoff,D,2031,counting,1,10
 statewide,2026 Senate,2026,Senate,,13109,Evans,Mike Collins,R,0,counting,0,1
 statewide,2026 Senate,2026,Senate,,13109,Evans,Jon Ossoff,D,0,counting,0,1
 statewide,2026 Senate,2026,Senate,,13111,Fannin,Mike Collins,R,0,counting,0,12
@@ -3305,8 +3305,8 @@ statewide,2026 Senate,2026,Senate,,13125,Glascock,Mike Collins,R,0,counting,0,1
 statewide,2026 Senate,2026,Senate,,13125,Glascock,Jon Ossoff,D,0,counting,0,1
 statewide,2026 Senate,2026,Senate,,13127,Glynn,Mike Collins,R,13344,counting,0,14
 statewide,2026 Senate,2026,Senate,,13127,Glynn,Jon Ossoff,D,10940,counting,0,14
-statewide,2026 Senate,2026,Senate,,13129,Gordon,Mike Collins,R,6411,counting,0,11
-statewide,2026 Senate,2026,Senate,,13129,Gordon,Jon Ossoff,D,3355,counting,0,11
+statewide,2026 Senate,2026,Senate,,13129,Gordon,Mike Collins,R,6417,counting,0,11
+statewide,2026 Senate,2026,Senate,,13129,Gordon,Jon Ossoff,D,3370,counting,0,11
 statewide,2026 Senate,2026,Senate,,13131,Grady,Mike Collins,R,2540,counting,0,9
 statewide,2026 Senate,2026,Senate,,13131,Grady,Jon Ossoff,D,2023,counting,0,9
 statewide,2026 Senate,2026,Senate,,13133,Greene,Mike Collins,R,0,counting,0,5
@@ -3315,8 +3315,8 @@ statewide,2026 Senate,2026,Senate,,13135,Gwinnett,Jon Ossoff,D,175017,counting,0
 statewide,2026 Senate,2026,Senate,,13135,Gwinnett,Mike Collins,R,62303,counting,0,156
 statewide,2026 Senate,2026,Senate,,13137,Habersham,Mike Collins,R,0,counting,0,4
 statewide,2026 Senate,2026,Senate,,13137,Habersham,Jon Ossoff,D,0,counting,0,4
-statewide,2026 Senate,2026,Senate,,13139,Hall,Mike Collins,R,19168,counting,31,31
-statewide,2026 Senate,2026,Senate,,13139,Hall,Jon Ossoff,D,13666,counting,31,31
+statewide,2026 Senate,2026,Senate,,13139,Hall,Mike Collins,R,32062,counting,31,31
+statewide,2026 Senate,2026,Senate,,13139,Hall,Jon Ossoff,D,21675,counting,31,31
 statewide,2026 Senate,2026,Senate,,13141,Hancock,Mike Collins,R,0,counting,0,10
 statewide,2026 Senate,2026,Senate,,13141,Hancock,Jon Ossoff,D,0,counting,0,10
 statewide,2026 Senate,2026,Senate,,13143,Haralson,Mike Collins,R,4275,counting,0,12
@@ -3425,8 +3425,8 @@ statewide,2026 Senate,2026,Senate,,13247,Rockdale,Jon Ossoff,D,24677,counting,0,
 statewide,2026 Senate,2026,Senate,,13247,Rockdale,Mike Collins,R,4243,counting,0,14
 statewide,2026 Senate,2026,Senate,,13249,Schley,Mike Collins,R,0,counting,0,1
 statewide,2026 Senate,2026,Senate,,13249,Schley,Jon Ossoff,D,0,counting,0,1
-statewide,2026 Senate,2026,Senate,,13251,Screven,Mike Collins,R,0,counting,0,7
-statewide,2026 Senate,2026,Senate,,13251,Screven,Jon Ossoff,D,0,counting,0,7
+statewide,2026 Senate,2026,Senate,,13251,Screven,Mike Collins,R,1834,counting,2,7
+statewide,2026 Senate,2026,Senate,,13251,Screven,Jon Ossoff,D,1813,counting,2,7
 statewide,2026 Senate,2026,Senate,,13253,Seminole,Mike Collins,R,0,counting,0,5
 statewide,2026 Senate,2026,Senate,,13253,Seminole,Jon Ossoff,D,0,counting,0,5
 statewide,2026 Senate,2026,Senate,,13255,Spalding,Jon Ossoff,D,9375,counting,8,8
@@ -3491,14 +3491,14 @@ statewide,2026 Senate,2026,Senate,,13313,Whitfield,Mike Collins,R,0,counting,0,2
 statewide,2026 Senate,2026,Senate,,13313,Whitfield,Jon Ossoff,D,0,counting,0,23
 statewide,2026 Senate,2026,Senate,,13315,Wilcox,Mike Collins,R,0,counting,0,4
 statewide,2026 Senate,2026,Senate,,13315,Wilcox,Jon Ossoff,D,0,counting,0,4
-statewide,2026 Senate,2026,Senate,,13317,Wilkes,Mike Collins,R,0,counting,0,4
-statewide,2026 Senate,2026,Senate,,13317,Wilkes,Jon Ossoff,D,0,counting,0,4
+statewide,2026 Senate,2026,Senate,,13317,Wilkes,Jon Ossoff,D,173,counting,0,4
+statewide,2026 Senate,2026,Senate,,13317,Wilkes,Mike Collins,R,48,counting,0,4
 statewide,2026 Senate,2026,Senate,,13319,Wilkinson,Mike Collins,R,0,counting,0,6
 statewide,2026 Senate,2026,Senate,,13319,Wilkinson,Jon Ossoff,D,0,counting,0,6
 statewide,2026 Senate,2026,Senate,,13321,Worth,Mike Collins,R,2216,counting,0,9
 statewide,2026 Senate,2026,Senate,,13321,Worth,Jon Ossoff,D,1343,counting,0,9
-ushouse,2026 U.S. House,2026,U.S. House,c2023,1,,"James ""Jim"" Kingston",R,33350,counting,14,213
-ushouse,2026 U.S. House,2026,U.S. House,c2023,1,,Amanda Hollowell,D,26943,counting,14,213
+ushouse,2026 U.S. House,2026,U.S. House,c2023,1,,"James ""Jim"" Kingston",R,36121,counting,14,213
+ushouse,2026 U.S. House,2026,U.S. House,c2023,1,,Amanda Hollowell,D,27925,counting,14,213
 ushouse,2026 U.S. House,2026,U.S. House,c2023,2,,Sanford Bishop,D,16008,counting,0,219
 ushouse,2026 U.S. House,2026,U.S. House,c2023,2,,Matt Day,R,13886,counting,0,219
 ushouse,2026 U.S. House,2026,U.S. House,c2023,3,,Maura Keller,D,38781,counting,8,180
@@ -3509,18 +3509,18 @@ ushouse,2026 U.S. House,2026,U.S. House,c2023,5,,Nikema Williams,D,126977,counti
 ushouse,2026 U.S. House,2026,U.S. House,c2023,5,,"John ""Bongo"" Salvesen",R,8587,counting,0,256
 ushouse,2026 U.S. House,2026,U.S. House,c2023,6,,Lucy McBath,D,107253,counting,0,241
 ushouse,2026 U.S. House,2026,U.S. House,c2023,6,,Kevin E. Martin,R,20030,counting,0,241
-ushouse,2026 U.S. House,2026,U.S. House,c2023,7,,Tony Kozycki,D,72948,counting,12,170
-ushouse,2026 U.S. House,2026,U.S. House,c2023,7,,Rich McCormick,R,60743,counting,12,170
-ushouse,2026 U.S. House,2026,U.S. House,c2023,8,,Austin Scott,R,53565,counting,6,203
-ushouse,2026 U.S. House,2026,U.S. House,c2023,8,,Kelly Esti,D,45579,counting,6,203
-ushouse,2026 U.S. House,2026,U.S. House,c2023,9,,Andrew Clyde,R,75920,counting,22,143
-ushouse,2026 U.S. House,2026,U.S. House,c2023,9,,Caitlyn Gegen,D,75052,counting,22,143
-ushouse,2026 U.S. House,2026,U.S. House,c2023,10,,"Pamela ""Pam"" Delancy",D,47011,counting,0,155
-ushouse,2026 U.S. House,2026,U.S. House,c2023,10,,Houston Gaines,R,34936,counting,0,155
-ushouse,2026 U.S. House,2026,U.S. House,c2023,11,,John Cowan,R,22938,counting,0,151
-ushouse,2026 U.S. House,2026,U.S. House,c2023,11,,Chris Harden,D,11795,counting,0,151
-ushouse,2026 U.S. House,2026,U.S. House,c2023,12,,Rick W. Allen,R,24848,counting,1,235
-ushouse,2026 U.S. House,2026,U.S. House,c2023,12,,Ceretta Smith,D,20349,counting,1,235
+ushouse,2026 U.S. House,2026,U.S. House,c2023,7,,Tony Kozycki,D,76553,counting,12,170
+ushouse,2026 U.S. House,2026,U.S. House,c2023,7,,Rich McCormick,R,67822,counting,12,170
+ushouse,2026 U.S. House,2026,U.S. House,c2023,8,,Austin Scott,R,57654,counting,8,203
+ushouse,2026 U.S. House,2026,U.S. House,c2023,8,,Kelly Esti,D,47888,counting,8,203
+ushouse,2026 U.S. House,2026,U.S. House,c2023,9,,Andrew Clyde,R,82474,counting,22,143
+ushouse,2026 U.S. House,2026,U.S. House,c2023,9,,Caitlyn Gegen,D,78713,counting,22,143
+ushouse,2026 U.S. House,2026,U.S. House,c2023,10,,"Pamela ""Pam"" Delancy",D,47040,counting,0,155
+ushouse,2026 U.S. House,2026,U.S. House,c2023,10,,Houston Gaines,R,34943,counting,0,155
+ushouse,2026 U.S. House,2026,U.S. House,c2023,11,,John Cowan,R,22944,counting,0,151
+ushouse,2026 U.S. House,2026,U.S. House,c2023,11,,Chris Harden,D,11810,counting,0,151
+ushouse,2026 U.S. House,2026,U.S. House,c2023,12,,Rick W. Allen,R,29973,counting,4,235
+ushouse,2026 U.S. House,2026,U.S. House,c2023,12,,Ceretta Smith,D,24032,counting,4,235
 ushouse,2026 U.S. House,2026,U.S. House,c2023,13,,Jasmine Clark,D,162212,counting,0,146
 ushouse,2026 U.S. House,2026,U.S. House,c2023,13,,Jonathan Chavez,R,36588,counting,0,146
 ushouse,2026 U.S. House,2026,U.S. House,c2023,14,,Clay Fuller,R,37592,counting,0,140
@@ -3533,8 +3533,8 @@ house,2026 House,2026,House,h2023,3,,Mitchell Horner,R,0,pending,0,9
 house,2026 House,2026,House,h2023,3,,Margaret Spear,D,0,pending,0,9
 house,2026 House,2026,House,h2023,4,,Kasey Carpenter,R,0,pending,0,13
 house,2026 House,2026,House,h2023,4,,Quentin Postell,D,0,pending,0,13
-house,2026 House,2026,House,h2023,5,,Matt Barton,R,6334,counting,0,10
-house,2026 House,2026,House,h2023,5,,Rasmus Jensen,D,2844,counting,0,10
+house,2026 House,2026,House,h2023,5,,Matt Barton,R,6341,counting,0,10
+house,2026 House,2026,House,h2023,5,,Rasmus Jensen,D,2853,counting,0,10
 house,2026 House,2026,House,h2023,6,,Jason T. Ridley,R,5316,counting,0,14
 house,2026 House,2026,House,h2023,6,,Cathy Kott,D,1488,counting,0,14
 house,2026 House,2026,House,h2023,7,,Johnny Chastain,R,0,pending,0,26
@@ -3576,15 +3576,15 @@ house,2026 House,2026,House,h2023,25,,Elaine Padgett,D,2482,counting,0,7
 house,2026 House,2026,House,h2023,25,,Todd Jones,R,1866,counting,0,7
 house,2026 House,2026,House,h2023,26,,Lauren W. McDonald III,R,0,pending,0,10
 house,2026 House,2026,House,h2023,26,,Meredith Greene,D,0,pending,0,10
-house,2026 House,2026,House,h2023,27,,Lee Hawkins,R,13110,counting,11,12
-house,2026 House,2026,House,h2023,27,,Jay Kirkland,D,3873,counting,11,12
-house,2026 House,2026,House,h2023,28,,Brent Cox,R,1746,counting,2,11
-house,2026 House,2026,House,h2023,28,,Mateo Sanabria,D,749,counting,2,11
-house,2026 House,2026,House,h2023,29,,Scott Soracco,D,4099,final,8,8
-house,2026 House,2026,House,h2023,29,,Matt Dubnik,R,3482,final,8,8
-house,2026 House,2026,House,h2023,30,,Derrick McCollum,R,3680,counting,7,8
-house,2026 House,2026,House,h2023,30,,Braden Michael Doxey,D,3014,counting,7,8
-house,2026 House,2026,House,h2023,31,,Chad Bingham,R,15365,counting,1,4
+house,2026 House,2026,House,h2023,27,,Lee Hawkins,R,13223,counting,11,12
+house,2026 House,2026,House,h2023,27,,Jay Kirkland,D,3954,counting,11,12
+house,2026 House,2026,House,h2023,28,,Brent Cox,R,1852,counting,2,11
+house,2026 House,2026,House,h2023,28,,Mateo Sanabria,D,800,counting,2,11
+house,2026 House,2026,House,h2023,29,,Scott Soracco,D,5202,final,8,8
+house,2026 House,2026,House,h2023,29,,Matt Dubnik,R,5090,final,8,8
+house,2026 House,2026,House,h2023,30,,Derrick McCollum,R,12226,counting,7,8
+house,2026 House,2026,House,h2023,30,,Braden Michael Doxey,D,6996,counting,7,8
+house,2026 House,2026,House,h2023,31,,Chad Bingham,R,15434,counting,1,4
 house,2026 House,2026,House,h2023,32,,Chris Erwin,R,5725,counting,0,17
 house,2026 House,2026,House,h2023,32,,Rebecca Sims,D,1449,counting,0,17
 house,2026 House,2026,House,h2023,33,,Alan Powell,R,0,pending,0,20
@@ -3692,13 +3692,13 @@ house,2026 House,2026,House,h2023,97,,Yassin Moghazy,R,4226,counting,0,11
 house,2026 House,2026,House,h2023,98,,Marvin Lim,D,5361,counting,0,8
 house,2026 House,2026,House,h2023,99,,Michelle Kang,D,10196,counting,0,10
 house,2026 House,2026,House,h2023,99,,Matt Reeves,R,6378,counting,0,10
-house,2026 House,2026,House,h2023,100,,Jennifer Ambler,D,5652,counting,1,9
-house,2026 House,2026,House,h2023,100,,Josh Clark,R,4804,counting,1,9
+house,2026 House,2026,House,h2023,100,,Jennifer Ambler,D,6095,counting,1,9
+house,2026 House,2026,House,h2023,100,,Josh Clark,R,5936,counting,1,9
 house,2026 House,2026,House,h2023,101,,Jennifer Hutchison,R,0,pending,0,16
 house,2026 House,2026,House,h2023,101,,Scott Holcomb,D,0,pending,0,16
 house,2026 House,2026,House,h2023,102,,Gabe Okoye,D,12227,counting,0,9
-house,2026 House,2026,House,h2023,103,,Chris Luchey,D,7646,counting,2,11
-house,2026 House,2026,House,h2023,103,,Soo Hong,R,5602,counting,2,11
+house,2026 House,2026,House,h2023,103,,Chris Luchey,D,8958,counting,2,11
+house,2026 House,2026,House,h2023,103,,Soo Hong,R,7912,counting,2,11
 house,2026 House,2026,House,h2023,104,,Chuck Efstration,R,10312,counting,0,10
 house,2026 House,2026,House,h2023,105,,Farooq Mughal,D,10919,counting,0,10
 house,2026 House,2026,House,h2023,105,,Sandy Donatucci,R,6268,counting,0,10
@@ -3733,8 +3733,8 @@ house,2026 House,2026,House,h2023,121,,"Mack ""Dutch"" Guest IV",R,8349,counting
 house,2026 House,2026,House,h2023,121,,Eric Gisler,D,4930,counting,0,13
 house,2026 House,2026,House,h2023,122,,Carol Hubbard,R,0,pending,0,15
 house,2026 House,2026,House,h2023,122,,Spencer Frye,D,0,pending,0,15
-house,2026 House,2026,House,h2023,123,,Rob Leverett,R,375,counting,0,31
-house,2026 House,2026,House,h2023,123,,Hope S. Beard,D,159,counting,0,31
+house,2026 House,2026,House,h2023,123,,Rob Leverett,R,423,counting,0,31
+house,2026 House,2026,House,h2023,123,,Hope S. Beard,D,329,counting,0,31
 house,2026 House,2026,House,h2023,124,,Trey Rhodes,R,0,pending,0,18
 house,2026 House,2026,House,h2023,124,,Melanie Michele Miller,D,0,pending,0,18
 house,2026 House,2026,House,h2023,125,,Leonard Hennessy,D,7200,counting,0,18
@@ -3751,7 +3751,7 @@ house,2026 House,2026,House,h2023,130,,Sheila Clark Nelson,D,0,pending,0,16
 house,2026 House,2026,House,h2023,131,,Rob Clifton,R,9389,counting,0,15
 house,2026 House,2026,House,h2023,131,,Jenny E. Eppard,D,7567,counting,0,15
 house,2026 House,2026,House,h2023,132,,Brian L. Prince,D,0,pending,0,20
-house,2026 House,2026,House,h2023,133,,Danny Mathis,R,4276,counting,0,21
+house,2026 House,2026,House,h2023,133,,Danny Mathis,R,5667,counting,1,21
 house,2026 House,2026,House,h2023,134,,Robert Dickey,R,2750,counting,0,15
 house,2026 House,2026,House,h2023,135,,Beth Camp,R,5165,counting,5,16
 house,2026 House,2026,House,h2023,136,,David Jenkins,R,2280,counting,0,20
@@ -3773,8 +3773,8 @@ house,2026 House,2026,House,h2023,145,,Tangie Herring,D,2130,counting,1,16
 house,2026 House,2026,House,h2023,146,,Shaw Blackmon,R,13933,counting,0,9
 house,2026 House,2026,House,h2023,147,,Renita A Duncan,D,8785,counting,0,12
 house,2026 House,2026,House,h2023,147,,Bethany Ballard,R,7693,counting,0,12
-house,2026 House,2026,House,h2023,148,,Noel W. Williams Jr.,R,7974,counting,1,15
-house,2026 House,2026,House,h2023,148,,Cynthia Johnson,D,4557,counting,1,15
+house,2026 House,2026,House,h2023,148,,Noel W. Williams Jr.,R,8960,counting,2,15
+house,2026 House,2026,House,h2023,148,,Cynthia Johnson,D,5021,counting,2,15
 house,2026 House,2026,House,h2023,149,,Floyd Griffin,D,4514,counting,0,20
 house,2026 House,2026,House,h2023,149,,Randy Peters,R,4128,counting,0,20
 house,2026 House,2026,House,h2023,150,,Patty Bentley Stinson,D,2052,counting,0,22
@@ -3789,11 +3789,11 @@ house,2026 House,2026,House,h2023,154,,Gerald E. Greene,R,0,pending,0,41
 house,2026 House,2026,House,h2023,154,,Harry James,D,0,pending,0,41
 house,2026 House,2026,House,h2023,155,,Matt Hatchett,R,1546,counting,1,17
 house,2026 House,2026,House,h2023,155,,Joe Powers,D,749,counting,1,17
-house,2026 House,2026,House,h2023,156,,Leesa Hagan,R,0,pending,0,16
-house,2026 House,2026,House,h2023,157,,Bradley B. Anderson,R,0,pending,0,24
-house,2026 House,2026,House,h2023,157,,Micah King,D,0,pending,0,24
-house,2026 House,2026,House,h2023,158,,Butch Parrish,R,1100,counting,0,18
-house,2026 House,2026,House,h2023,159,,Jon G. Burns,R,0,pending,0,22
+house,2026 House,2026,House,h2023,156,,Leesa Hagan,R,2534,counting,1,16
+house,2026 House,2026,House,h2023,157,,Bradley B. Anderson,R,1787,counting,0,24
+house,2026 House,2026,House,h2023,157,,Micah King,D,818,counting,0,24
+house,2026 House,2026,House,h2023,158,,Butch Parrish,R,5171,counting,1,18
+house,2026 House,2026,House,h2023,159,,Jon G. Burns,R,2668,counting,2,22
 house,2026 House,2026,House,h2023,160,,Lehman Franklin,R,0,pending,0,13
 house,2026 House,2026,House,h2023,161,,Bill Hitchens,R,0,pending,0,18
 house,2026 House,2026,House,h2023,161,,David Dillie,D,0,pending,0,18
@@ -3821,8 +3821,8 @@ house,2026 House,2026,House,h2023,175,,Anissa Knight Wiseman,D,4040,counting,0,1
 house,2026 House,2026,House,h2023,176,,James Burchett,R,3292,counting,0,25
 house,2026 House,2026,House,h2023,176,,Marcus T. Ryan,D,1903,counting,0,25
 house,2026 House,2026,House,h2023,177,,Elsie Cason Napier,D,8156,counting,0,8
-house,2026 House,2026,House,h2023,178,,Steven Meeks,R,0,pending,0,25
-house,2026 House,2026,House,h2023,178,,Barry Dunham,D,0,pending,0,25
+house,2026 House,2026,House,h2023,178,,Steven Meeks,R,994,counting,0,25
+house,2026 House,2026,House,h2023,178,,Barry Dunham,D,152,counting,0,25
 house,2026 House,2026,House,h2023,179,,Rick Townsend,R,12092,counting,0,11
 house,2026 House,2026,House,h2023,180,,Steven Sainz,R,10368,counting,11,14
 senate,2026 Senate,2026,Senate,s2023,1,,Corey Foreman,D,8352,counting,0,49
@@ -3843,7 +3843,7 @@ senate,2026 Senate,2026,Senate,s2023,10,,Larry Johnson,D,13994,counting,0,53
 senate,2026 Senate,2026,Senate,s2023,10,,Furquan Stafford,R,3363,counting,0,53
 senate,2026 Senate,2026,Senate,s2023,11,,Sam Watson,R,3410,counting,0,78
 senate,2026 Senate,2026,Senate,s2023,12,,Edward Brown,D,0,pending,0,83
-senate,2026 Senate,2026,Senate,s2023,13,,Carden H. Summers,R,13820,counting,2,51
+senate,2026 Senate,2026,Senate,s2023,13,,Carden H. Summers,R,17497,counting,3,51
 senate,2026 Senate,2026,Senate,s2023,14,,Kevin Abel,D,39037,counting,0,70
 senate,2026 Senate,2026,Senate,s2023,14,,Mike Dvorscak,R,20841,counting,0,70
 senate,2026 Senate,2026,Senate,s2023,15,,Chuck Hand,R,0,pending,0,39
@@ -3852,16 +3852,16 @@ senate,2026 Senate,2026,Senate,s2023,16,,Marty Harbin,R,25253,counting,8,44
 senate,2026 Senate,2026,Senate,s2023,16,,Sonya Wimberly Hawkins,D,24946,counting,8,44
 senate,2026 Senate,2026,Senate,s2023,17,,Gail Davenport,D,55286,counting,0,34
 senate,2026 Senate,2026,Senate,s2023,18,,Steven McNeel,R,20151,counting,2,45
-senate,2026 Senate,2026,Senate,s2023,19,,David Sikes,R,0,pending,0,64
-senate,2026 Senate,2026,Senate,s2023,19,,Joshua C. Wilkerson,D,0,pending,0,64
-senate,2026 Senate,2026,Senate,s2023,20,,Larry Walker,R,24687,counting,1,44
+senate,2026 Senate,2026,Senate,s2023,19,,David Sikes,R,2774,counting,0,64
+senate,2026 Senate,2026,Senate,s2023,19,,Joshua C. Wilkerson,D,989,counting,0,64
+senate,2026 Senate,2026,Senate,s2023,20,,Larry Walker,R,26061,counting,2,44
 senate,2026 Senate,2026,Senate,s2023,21,,Kori Simmons,D,14026,counting,0,47
 senate,2026 Senate,2026,Senate,s2023,21,,Jason T. Dickerson,R,13495,counting,0,47
 senate,2026 Senate,2026,Senate,s2023,22,,Harold V. Jones II,D,0,pending,0,57
-senate,2026 Senate,2026,Senate,s2023,23,,Shayna Boston,D,7842,counting,0,76
-senate,2026 Senate,2026,Senate,s2023,23,,Max Burns,R,5793,counting,0,76
-senate,2026 Senate,2026,Senate,s2023,24,,Lee Anderson,R,16564,counting,0,62
-senate,2026 Senate,2026,Senate,s2023,24,,Lorraine V. Thomas,D,11168,counting,0,62
+senate,2026 Senate,2026,Senate,s2023,23,,Shayna Boston,D,11300,counting,3,76
+senate,2026 Senate,2026,Senate,s2023,23,,Max Burns,R,10934,counting,3,76
+senate,2026 Senate,2026,Senate,s2023,24,,Lee Anderson,R,16615,counting,0,62
+senate,2026 Senate,2026,Senate,s2023,24,,Lorraine V. Thomas,D,11338,counting,0,62
 senate,2026 Senate,2026,Senate,s2023,25,,Rick A. Williams,R,14593,counting,0,47
 senate,2026 Senate,2026,Senate,s2023,26,,David E. Lucas,D,7673,counting,1,54
 senate,2026 Senate,2026,Senate,s2023,26,,Tracy Wheeler,R,5167,counting,1,54
@@ -3903,16 +3903,16 @@ senate,2026 Senate,2026,Senate,s2023,46,,Ray Smith,D,13963,counting,0,35
 senate,2026 Senate,2026,Senate,s2023,47,,Frank Ginn,R,18309,counting,0,41
 senate,2026 Senate,2026,Senate,s2023,48,,Laura Murvartian,D,22749,counting,0,37
 senate,2026 Senate,2026,Senate,s2023,48,,Shawn Still,R,15858,counting,0,37
-senate,2026 Senate,2026,Senate,s2023,49,,Drew Echols,R,19971,final,30,30
-senate,2026 Senate,2026,Senate,s2023,49,,William Wallace,D,10927,final,30,30
-senate,2026 Senate,2026,Senate,s2023,50,,Bo Hatchett,R,13216,counting,3,38
-senate,2026 Senate,2026,Senate,s2023,50,,Dave Cooper,D,4171,counting,3,38
+senate,2026 Senate,2026,Senate,s2023,49,,Drew Echols,R,33880,final,30,30
+senate,2026 Senate,2026,Senate,s2023,49,,William Wallace,D,17846,final,30,30
+senate,2026 Senate,2026,Senate,s2023,50,,Bo Hatchett,R,13256,counting,3,38
+senate,2026 Senate,2026,Senate,s2023,50,,Dave Cooper,D,4222,counting,3,38
 senate,2026 Senate,2026,Senate,s2023,51,,Will Wade,R,14227,counting,0,58
 senate,2026 Senate,2026,Senate,s2023,51,,Gary St. Lawrence,D,4425,counting,0,58
-senate,2026 Senate,2026,Senate,s2023,52,,Chuck Hufstetler,R,19552,counting,0,35
+senate,2026 Senate,2026,Senate,s2023,52,,Chuck Hufstetler,R,19556,counting,0,35
 senate,2026 Senate,2026,Senate,s2023,53,,Lanny Thomas,R,77,counting,0,39
 senate,2026 Senate,2026,Senate,s2023,53,,"John Bentley ""Jack"" Zibluk",D,47,counting,0,39
-senate,2026 Senate,2026,Senate,s2023,54,,Chuck Payne,R,12173,counting,0,38
+senate,2026 Senate,2026,Senate,s2023,54,,Chuck Payne,R,12180,counting,0,38
 senate,2026 Senate,2026,Senate,s2023,55,,Randal Mangham,D,16910,counting,0,46
 senate,2026 Senate,2026,Senate,s2023,55,,Mary Williams Benefield,R,5191,counting,0,46
 senate,2026 Senate,2026,Senate,s2023,56,,John Albers,R,6807,counting,0,43
