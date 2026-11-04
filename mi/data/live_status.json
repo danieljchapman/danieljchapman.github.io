@@ -1,16 +1,16 @@
 [
  {
   "phase": "counting",
-  "updated_at": "2026-11-04T04:21:27Z",
+  "updated_at": "2026-11-04T04:35:21Z",
   "source": "CivicAPI, unofficial",
   "races": 165,
-  "called": 5,
-  "counting": 111,
+  "called": 6,
+  "counting": 110,
   "problems": [
-   "CivicAPI search (Michigan State House): /race/search?country=US&province=MI&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Michigan%20State%20House: H",
-   "CivicAPI search (Michigan State Senate): /race/search?country=US&province=MI&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Michigan%20State%20Senate: ",
-   "32 races not sent by CivicAPI this time; kept the last published numbers",
-   "no live source yet for 38 Michigan Senate races"
+   "CivicAPI search (Michigan Governor): /race/search?country=US&province=MI&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Michigan%20Governor: HTTP 5",
+   "CivicAPI search (Michigan Attorney General): /race/search?country=US&province=MI&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Michigan%20Attorney%20Gener",
+   "2 races not sent by CivicAPI this time; kept the last published numbers",
+   "no live source yet for 2 statewide races"
   ],
   "local_problems": []
  }
