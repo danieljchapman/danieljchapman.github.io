@@ -1,13 +1,13 @@
 [
  {
   "phase": "counting",
-  "updated_at": "2026-11-04T00:47:19Z",
+  "updated_at": "2026-11-04T00:53:03Z",
   "source": "CivicAPI, unofficial (until the Division of Elections' file has votes)",
   "races": 174,
   "called": 7,
   "counting": 83,
   "precincts": [
-   3157,
+   3332,
    5626
   ],
   "problems": [],
