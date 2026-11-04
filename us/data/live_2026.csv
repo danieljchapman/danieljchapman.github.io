@@ -19,9 +19,9 @@ senate,CO,2026,CO,,,Will Powers,W,0,0,0,0,pending,0,100
 senate,CO,2026,CO,,,Ryan Apelbaum,W,0,0,0,0,pending,0,100
 senate,DE,2026,DE,,,Chris Coons,D,0,0,0,0,pending,0,100
 senate,DE,2026,DE,,,"Michael ""Dr. Mike"" Katz",R,0,0,0,0,pending,0,100
-senate,FL,2026,FL,,special,Ashley Moody,R,167560,0,0,1,counting,3,100
-senate,FL,2026,FL,,special,Angie Nixon,D,133877,0,0,0,counting,3,100
-senate,FL,2026,FL,,special,Neil J. Gillespie,I,3096,0,0,0,counting,3,100
+senate,FL,2026,FL,,special,Ashley Moody,R,368586,0,0,1,counting,8,100
+senate,FL,2026,FL,,special,Angie Nixon,D,343263,0,0,0,counting,8,100
+senate,FL,2026,FL,,special,Neil J. Gillespie,I,7512,0,0,0,counting,8,100
 senate,GA,2026,GA,,,Mike Collins,R,0,0,0,0,pending,0,100
 senate,GA,2026,GA,,,Jon Ossoff,D,0,0,0,1,pending,0,100
 senate,IA,2026,IA,,,Ashley Hinson,R,0,0,0,0,pending,0,100
@@ -1444,15 +1444,15 @@ governor,CT,2026,CT,,,Ryan Fazio,R,0,0,0,0,pending,0,100
 governor,CT,2026,CT,,,Zenobia Adgers,W,0,0,0,0,pending,0,100
 governor,CT,2026,CT,,,Christian Noe,W,0,0,0,0,pending,0,100
 governor,CT,2026,CT,,,L. Lee Whitnum,W,0,0,0,0,pending,0,100
-governor,FL,2026,FL,,,Byron Donalds,R,162081,0,0,0,counting,3,100
-governor,FL,2026,FL,,,David Jolly,D,138766,0,0,0,counting,3,100
-governor,FL,2026,FL,,,Scott Eckhard Jewett,L,1229,0,0,0,counting,3,100
-governor,FL,2026,FL,,,Frank J. Russo,I,638,0,0,0,counting,3,100
-governor,FL,2026,FL,,,Write-in,I,475,0,0,0,counting,3,100
-governor,FL,2026,FL,,,Charles Burkett,I,473,0,0,0,counting,3,100
-governor,FL,2026,FL,,,Dean Ocean Abrams,I,357,0,0,0,counting,3,100
-governor,FL,2026,FL,,,"Jeffrey Peter ""Dr. Jeff"" Datto",I,199,0,0,0,counting,3,100
-governor,FL,2026,FL,,,"Moliere ""Moe"" Dimanche",I,196,0,0,0,counting,3,100
+governor,FL,2026,FL,,,Byron Donalds,R,357138,0,0,0,counting,8,100
+governor,FL,2026,FL,,,David Jolly,D,353420,0,0,0,counting,8,100
+governor,FL,2026,FL,,,Scott Eckhard Jewett,L,2857,0,0,0,counting,8,100
+governor,FL,2026,FL,,,Frank J. Russo,I,1592,0,0,0,counting,8,100
+governor,FL,2026,FL,,,Charles Burkett,I,1169,0,0,0,counting,8,100
+governor,FL,2026,FL,,,Write-in,I,984,0,0,0,counting,8,100
+governor,FL,2026,FL,,,Dean Ocean Abrams,I,922,0,0,0,counting,8,100
+governor,FL,2026,FL,,,"Jeffrey Peter ""Dr. Jeff"" Datto",I,539,0,0,0,counting,8,100
+governor,FL,2026,FL,,,"Moliere ""Moe"" Dimanche",I,476,0,0,0,counting,8,100
 governor,GA,2026,GA,,,Rick Jackson,R,0,0,0,0,pending,0,100
 governor,GA,2026,GA,,,Keisha Lance Bottoms,D,0,0,0,0,pending,0,100
 governor,HI,2026,HI,,,Gary Cordery,R,0,0,0,0,pending,0,100
