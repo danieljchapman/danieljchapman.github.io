@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 # One Michigan update: fetch results (one retry), check them, publish. Non-zero if nothing was published.
 set -u
+# start from the latest published files, so a race CivicAPI fails to send can keep its last published numbers
+git fetch -q origin main && git checkout origin/main -- mi/data/live_2026.csv mi/data/live_status.json 2>/dev/null || true
 for attempt in 1 2; do
   python3 mi/tools/mi_live.py --out mi/data && break
   if [ "$attempt" = 2 ]; then git checkout -- mi/data 2>/dev/null; exit 1; fi

@@ -84,6 +84,12 @@ def main():
     for r in csv.DictReader(open(os.path.join(HERE, 'candidates_2026.csv'))):
         ballot[(r['level'], r['office'], int(r['district']) if r['district'] else None)].append((r['candidate'], r['party']))
     problems, rows, races, test_seen = [], [], {}, False
+    # the last published rows: a race CivicAPI fails to send keeps them instead of dropping to zero votes
+    prev, stale = [], set()
+    try:
+        prev = list(csv.DictReader(open(os.path.join(a.out, 'live_2026.csv'))))
+    except OSError:
+        pass
     civic = {}
     try:
         found = get(f'/race/search?country=US&province=AZ&startDate={DATE}&endDate={DATE}&limit=500')['races']
@@ -121,6 +127,8 @@ def main():
                             0 if zero else int(c.get('votes') or 0), bool(c.get('winner')) and not zero))
             return out
         all_c = merged(detail.get('candidates') if detail else [])
+        if detail is None:
+            stale.add((race, d))
         st = 'pending' if zero or not detail else status_of([{'winner': w, 'votes': v} for _, _, v, w in all_c])
         races[race + (f' {d}' if d else '')] = st
         if level == 'statewide':
@@ -151,6 +159,16 @@ def main():
             for nm, p, v, _ in sorted(all_c, key=lambda c: -c[2]):
                 rows.append({'level': level, 'race': race, 'year': YEAR, 'office': office, 'plan': PLAN[level], 'unit': d, 'unit_name': '',
                              'candidate': nm, 'party': p, 'votes': v, 'status': st, 'reporting': rep, 'reporting_total': 100})
+    kept = 0
+    for race, d in stale:
+        same = lambda r: r['race'] == race and (r['level'] == 'statewide' if d is None else r['level'] != 'statewide' and str(r['unit']) == str(d))
+        old = [r for r in prev if same(r)]
+        if not old or not any(int(r['votes'] or 0) for r in old):
+            continue
+        rows[:] = [r for r in rows if not same(r)] + old
+        races[race + (f' {d}' if d else '')] = old[0]['status']; kept += 1
+    if kept:
+        problems.append(f'{kept} race{"s" if kept > 1 else ""} not sent by CivicAPI this time; kept the last published numbers')
     missing = [k for k in ballot if k not in civic]
     if missing:
         lv = defaultdict(int)
