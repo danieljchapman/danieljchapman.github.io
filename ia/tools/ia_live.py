@@ -90,12 +90,16 @@ def main():
     problems, rows, races, test_seen = [], [], {}, False
     civic = {}
     try:
-        found = [r for q in QUERIES for r in get(f'/race/search?country=US&province=IA&startDate={DATE}&endDate={DATE}&limit=1000&query='
-                                                     + q.replace(' ', '%20'))['races']]
+        found = []
+        for q in QUERIES:   # each office on its own, so one failed search doesn't lose the others
+            try:
+                found += get(f'/race/search?country=US&province=IA&startDate={DATE}&endDate={DATE}&limit=1000&query=' + q.replace(' ', '%20'))['races']
+            except RuntimeError as e:
+                problems.append(f'CivicAPI search ({q}): {str(e)[:120]}')
         for r in found:
             c = classify(r['election_name'].strip())
             if c and not re.search(r'primary', r.get('election_type', '') + r['election_name'], re.I):
-                civic[c] = r['id']
+                civic[c] = r   # the search result already has candidates, votes and percent reporting
     except RuntimeError as e:
         problems.append(f'CivicAPI search: {str(e)[:160]}')
     for key in sorted(ballot, key=lambda k: (['statewide', 'ushouse', 'senate', 'house'].index(k[0]), k[1], k[2] or 0)):
@@ -105,7 +109,9 @@ def main():
         detail = None
         if key in civic:
             try:
-                detail = get(f'/race/{civic[key]}'); time.sleep(0.1)
+                # only statewide races need the full record (county results); district races use the search result,
+                # which keeps each update to a few requests when CivicAPI is slow (Nov 3: 20-35 s per request)
+                detail = get(f"/race/{civic[key]['id']}") if level == 'statewide' else civic[key]; time.sleep(0.1)
             except RuntimeError as e:
                 problems.append(f'{race} {d or ""}: {str(e)[:120]}')
         test = bool(detail and detail.get('test_data'))
