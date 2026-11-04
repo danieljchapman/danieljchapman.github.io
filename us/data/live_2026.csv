@@ -28,10 +28,10 @@ senate,IA,2026,IA,,,Josh Turek,D,687967,1,0,0,final,99,100
 senate,IA,2026,IA,,,Ashley Hinson,R,631030,0,0,0,final,99,100
 senate,IA,2026,IA,,,Thomas Laehn,L,42165,0,0,0,final,99,100
 senate,IA,2026,IA,,,Write-in,I,0,0,0,0,final,99,100
-senate,ID,2026,ID,,,Jim Risch,R,375421,1,0,0,final,91.46,100
-senate,ID,2026,ID,,,Todd Achilles,I,223629,0,0,0,final,91.46,100
-senate,ID,2026,ID,,,Natalie M Fleming,I,45716,0,0,0,final,91.46,100
-senate,ID,2026,ID,,,Matt Loesby,L,18984,0,0,0,final,91.46,100
+senate,ID,2026,ID,,,Jim Risch,R,380326,1,0,0,final,92.75,100
+senate,ID,2026,ID,,,Todd Achilles,I,226729,0,0,0,final,92.75,100
+senate,ID,2026,ID,,,Natalie M Fleming,I,46646,0,0,0,final,92.75,100
+senate,ID,2026,ID,,,Matt Loesby,L,19407,0,0,0,final,92.75,100
 senate,IL,2026,IL,,,Juliana Stratton,D,2301965,1,0,0,final,78.55,100
 senate,IL,2026,IL,,,Don Tracy,R,1293056,0,0,0,final,78.55,100
 senate,IL,2026,IL,,,Whitfield Harrington Jr.,O,57806,0,0,0,final,78.55,100
@@ -115,13 +115,13 @@ senate,NJ,2026,NJ,,,Jeff Van Drew,W,1,0,0,0,final,78.89,100
 senate,NJ,2026,NJ,,,Shawn Riggins,I,0,0,0,0,final,78.89,100
 senate,NM,2026,NM,,,Ben Ray Luján,D,455165,1,0,0,final,88.05,100
 senate,NM,2026,NM,,,Larry Marker,R,265557,0,0,0,final,88.05,100
-senate,OH,2026,OH,,special,Sherrod Brown,D,2249214,1,0,0,final,95.07,100
-senate,OH,2026,OH,,special,Jon Husted,R,2060829,0,0,0,final,95.07,100
-senate,OH,2026,OH,,special,William B. Redpath,L,126892,0,0,0,final,95.07,100
-senate,OH,2026,OH,,special,Greg Levy,O,92812,0,0,0,final,95.07,100
-senate,OH,2026,OH,,special,Stephen Faris,W,0,0,0,0,final,95.07,100
-senate,OH,2026,OH,,special,Anthony Holliman,W,0,0,0,0,final,95.07,100
-senate,OH,2026,OH,,special,Timothy Telymonde,W,0,0,0,0,final,95.07,100
+senate,OH,2026,OH,,special,Sherrod Brown,D,2301042,1,0,0,final,96.58,100
+senate,OH,2026,OH,,special,Jon Husted,R,2077748,0,0,0,final,96.58,100
+senate,OH,2026,OH,,special,William B. Redpath,L,128272,0,0,0,final,96.58,100
+senate,OH,2026,OH,,special,Greg Levy,O,94509,0,0,0,final,96.58,100
+senate,OH,2026,OH,,special,Stephen Faris,W,0,0,0,0,final,96.58,100
+senate,OH,2026,OH,,special,Anthony Holliman,W,0,0,0,0,final,96.58,100
+senate,OH,2026,OH,,special,Timothy Telymonde,W,0,0,0,0,final,96.58,100
 senate,OK,2026,OK,,,Kevin Hern,R,630401,1,0,0,final,84.03,100
 senate,OK,2026,OK,,,N'Kiyla Jasmine Thomas,D,431492,0,0,0,final,84.03,100
 senate,OK,2026,OK,,,Curtis Stinnett,I,14316,0,0,0,final,84.03,100
@@ -533,11 +533,11 @@ house,ID-01,2026,ID,1,,Russ Fulcher,R,233848,1,0,0,final,99,100
 house,ID-01,2026,ID,1,,Kaylee Peterson,D,104083,0,0,0,final,99,100
 house,ID-01,2026,ID,1,,Sarah Zabel Peterson,I,21932,0,0,0,final,99,100
 house,ID-01,2026,ID,1,,Brendan Gomez,C,3292,0,0,0,final,99,100
-house,ID-02,2026,ID,2,,Mike Simpson,R,153528,1,0,0,final,80.43,100
-house,ID-02,2026,ID,2,,Ellie Gilbreath,D,122019,0,0,0,final,80.43,100
-house,ID-02,2026,ID,2,,Tripp Hutchinson,I,10453,0,0,0,final,80.43,100
-house,ID-02,2026,ID,2,,Emre Houser,I,7045,0,0,0,final,80.43,100
-house,ID-02,2026,ID,2,,Will Johanson,L,6376,0,0,0,final,80.43,100
+house,ID-02,2026,ID,2,,Mike Simpson,R,158579,1,0,0,final,82.93,100
+house,ID-02,2026,ID,2,,Ellie Gilbreath,D,125402,0,0,0,final,82.93,100
+house,ID-02,2026,ID,2,,Tripp Hutchinson,I,10808,0,0,0,final,82.93,100
+house,ID-02,2026,ID,2,,Emre Houser,I,7315,0,0,0,final,82.93,100
+house,ID-02,2026,ID,2,,Will Johanson,L,6614,0,0,0,final,82.93,100
 house,IL-01,2026,IL,1,,Jonathan Jackson,D,152797,1,0,0,final,82.99,100
 house,IL-01,2026,IL,1,,Christian Maxwell,R,64679,0,0,0,final,82.99,100
 house,IL-02,2026,IL,2,,Donna Miller,D,143876,1,0,0,final,69.86,100
@@ -1121,10 +1121,10 @@ house,OH-05,2026,OH,5,,Brian A. Shaver,D,128142,0,0,0,final,100,100
 house,OH-05,2026,OH,5,,Michael J. Veloff,L,9577,0,0,0,final,100,100
 house,OH-06,2026,OH,6,,Michael A. Rulli,R,163675,1,0,0,final,100,100
 house,OH-06,2026,OH,6,,Elizabeth Kirtley,D,107310,0,0,0,final,100,100
-house,OH-07,2026,OH,7,,Brian Poindexter,D,169502,1,0,0,final,97.49,100
-house,OH-07,2026,OH,7,,Max Miller,R,140633,0,0,0,final,97.49,100
-house,OH-07,2026,OH,7,,Thahbia Asad,W,0,0,0,0,final,97.49,100
-house,OH-07,2026,OH,7,,Andrey Joseph Martinichin,W,0,0,0,0,final,97.49,100
+house,OH-07,2026,OH,7,,Brian Poindexter,D,180614,1,0,0,final,99,100
+house,OH-07,2026,OH,7,,Max Miller,R,148177,0,0,0,final,99,100
+house,OH-07,2026,OH,7,,Thahbia Asad,W,0,0,0,0,final,99,100
+house,OH-07,2026,OH,7,,Andrey Joseph Martinichin,W,0,0,0,0,final,99,100
 house,OH-08,2026,OH,8,,Warren Davidson,R,168689,1,0,0,final,100,100
 house,OH-08,2026,OH,8,,Vanessa Enoch,D,154828,0,0,0,final,100,100
 house,OH-09,2026,OH,9,,Marcy Kaptur,D,159306,1,0,0,final,94.97,100
@@ -1133,8 +1133,8 @@ house,OH-09,2026,OH,9,,Kathy McKinstry,W,0,0,0,0,final,94.97,100
 house,OH-10,2026,OH,10,,Kristina Knickerbocker,D,149024,0,0,0,counting,100,100
 house,OH-10,2026,OH,10,,Mike Turner,R,144086,0,0,0,counting,100,100
 house,OH-10,2026,OH,10,,Thomas F. McMasters,L,8906,0,0,0,counting,100,100
-house,OH-11,2026,OH,11,,Shontel M. Brown,D,177065,1,0,0,final,67.4,100
-house,OH-11,2026,OH,11,,Mike Kirchner,R,34450,0,0,0,final,67.4,100
+house,OH-11,2026,OH,11,,Shontel M. Brown,D,219971,1,0,0,final,83.92,100
+house,OH-11,2026,OH,11,,Mike Kirchner,R,43373,0,0,0,final,83.92,100
 house,OH-12,2026,OH,12,,Troy Balderson,R,191926,1,0,0,final,100,100
 house,OH-12,2026,OH,12,,Jerrad Christian,D,131211,0,0,0,final,100,100
 house,OH-13,2026,OH,13,,Emilia Sykes,D,190593,1,0,0,final,100,100
@@ -1567,12 +1567,12 @@ governor,HI,2026,HI,,,Gary Cordery,R,75978,0,0,0,final,66.19,100
 governor,IA,2026,IA,,,Rob Sand,D,757745,1,0,0,final,100,100
 governor,IA,2026,IA,,,Zach Lahn,R,606996,0,0,0,final,100,100
 governor,IA,2026,IA,,,Write-in,I,0,0,0,0,final,100,100
-governor,ID,2026,ID,,,Brad Little,R,380876,1,0,0,final,91.53,100
-governor,ID,2026,ID,,,Terri Pickens,D,214715,0,0,0,final,91.53,100
-governor,ID,2026,ID,,,John R. Stegner,I,50945,0,0,0,final,91.53,100
-governor,ID,2026,ID,,,Paul Sand,L,10735,0,0,0,final,91.53,100
-governor,ID,2026,ID,,,Pro-Life,C,8881,0,0,0,final,91.53,100
-governor,ID,2026,ID,,,Jacob Burnett,I,263,0,0,0,final,91.53,100
+governor,ID,2026,ID,,,Brad Little,R,385769,1,0,0,final,92.82,100
+governor,ID,2026,ID,,,Terri Pickens,D,218176,0,0,0,final,92.82,100
+governor,ID,2026,ID,,,John R. Stegner,I,51674,0,0,0,final,92.82,100
+governor,ID,2026,ID,,,Paul Sand,L,10925,0,0,0,final,92.82,100
+governor,ID,2026,ID,,,Pro-Life,C,8998,0,0,0,final,92.82,100
+governor,ID,2026,ID,,,Jacob Burnett,I,267,0,0,0,final,92.82,100
 governor,IL,2026,IL,,,JB Pritzker,D,2227634,1,0,0,final,77.14,100
 governor,IL,2026,IL,,,Darren Bailey,R,1240191,0,0,0,final,77.14,100
 governor,IL,2026,IL,,,Collin Corbett,I,119478,0,0,0,final,77.14,100
@@ -1625,12 +1625,12 @@ governor,NV,2026,NV,,,None of These Candidates,I,13671,0,0,0,final,77.44,100
 governor,NY,2026,NY,,,Kathy Hochul,D,10419463,1,0,0,final,99,100
 governor,NY,2026,NY,,,Bruce Blakeman,R,6975559,0,0,0,final,99,100
 governor,NY,2026,NY,,,Write-in,I,36890,0,0,0,final,99,100
-governor,OH,2026,OH,,,Amy Acton,D,2350266,1,0,0,final,94.67,100
-governor,OH,2026,OH,,,Vivek Ramaswamy,R,2023379,0,0,0,final,94.67,100
-governor,OH,2026,OH,,,Don Kissick,L,150238,0,0,0,final,94.67,100
-governor,OH,2026,OH,,,Timothy Grady,W,0,0,0,0,final,94.67,100
-governor,OH,2026,OH,,,Heather Hill,W,0,0,0,0,final,94.67,100
-governor,OH,2026,OH,,,Renea Turner,W,0,0,0,0,final,94.67,100
+governor,OH,2026,OH,,,Amy Acton,D,2404178,1,0,0,final,96.17,100
+governor,OH,2026,OH,,,Vivek Ramaswamy,R,2039730,0,0,0,final,96.17,100
+governor,OH,2026,OH,,,Don Kissick,L,151914,0,0,0,final,96.17,100
+governor,OH,2026,OH,,,Timothy Grady,W,0,0,0,0,final,96.17,100
+governor,OH,2026,OH,,,Heather Hill,W,0,0,0,0,final,96.17,100
+governor,OH,2026,OH,,,Renea Turner,W,0,0,0,0,final,96.17,100
 governor,OK,2026,OK,,,Mike Mazzei,R,573144,1,0,0,final,84.13,100
 governor,OK,2026,OK,,,Cyndi Munson,D,505802,0,0,0,final,84.13,100
 governor,OK,2026,OK,,,Robert E Brooks Sr,I,11478,0,0,0,final,84.13,100
