@@ -1,11 +1,11 @@
 [
  {
   "phase": "counting",
-  "updated_at": "2026-11-04T09:24:44Z",
+  "updated_at": "2026-11-04T09:29:45Z",
   "source": "Texas Secretary of State election-night results, unofficial",
   "races": 224,
-  "called": 115,
-  "counting": 108,
+  "called": 130,
+  "counting": 93,
   "problems": [],
   "local_problems": [
    "collin: Collin: no results CSV for 2026-11-03 posted yet",
@@ -163,7 +163,7 @@
     ],
     "48439": [
      1228367,
-     728227
+     728630
     ],
     "48437": [
      3882,
