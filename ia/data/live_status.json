@@ -1,20 +1,12 @@
 [
  {
   "phase": "counting",
-  "updated_at": "2026-11-04T05:14:25Z",
+  "updated_at": "2026-11-04T05:19:10Z",
   "source": "CivicAPI, unofficial",
   "races": 136,
-  "called": 1,
-  "counting": 95,
-  "problems": [
-   "CivicAPI search (Iowa US): /race/search?country=US&province=IA&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Iowa%20US: HTTP 502  error ",
-   "CivicAPI search (Iowa Attorney General): /race/search?country=US&province=IA&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Iowa%20Attorney%20General: ",
-   "CivicAPI search (Iowa State Treasurer): /race/search?country=US&province=IA&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Iowa%20State%20Treasurer: H",
-   "2026 Auditor : /race/87156: HTTP 502  error code: 502\n",
-   "2026 Secretary of State : /race/87154: HTTP 502  error code: 502\n",
-   "8 races not sent by CivicAPI this time; kept the last published numbers",
-   "no live source yet for 3 statewide races, 4 U.S. House races"
-  ],
+  "called": 3,
+  "counting": 93,
+  "problems": [],
   "local_problems": []
  }
 ]
