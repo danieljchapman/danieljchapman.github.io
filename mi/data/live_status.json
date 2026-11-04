@@ -1,12 +1,16 @@
 [
  {
   "phase": "counting",
-  "updated_at": "2026-11-04T07:20:39Z",
+  "updated_at": "2026-11-04T07:30:48Z",
   "source": "CivicAPI, unofficial",
   "races": 165,
   "called": 122,
   "counting": 36,
-  "problems": [],
+  "problems": [
+   "CivicAPI search (Michigan Secretary of State): /race/search?country=US&province=MI&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Michigan%20Secretary%20of%2",
+   "1 race not sent by CivicAPI this time; kept the last published numbers",
+   "no live source yet for 1 statewide race"
+  ],
   "local_problems": []
  }
 ]
