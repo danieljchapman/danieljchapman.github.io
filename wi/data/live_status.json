@@ -1,11 +1,11 @@
 [
  {
   "phase": "counting",
-  "updated_at": "2026-11-04T07:09:15Z",
+  "updated_at": "2026-11-04T07:15:28Z",
   "source": "CivicAPI (county results), unofficial",
   "races": 120,
-  "called": 4,
-  "counting": 105,
+  "called": 117,
+  "counting": 0,
   "problems": [],
   "local_problems": []
  }
