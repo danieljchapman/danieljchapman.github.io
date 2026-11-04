@@ -1,8 +1,8 @@
 level,race,year,state,district,seat,candidate,party,votes,winner,unopposed,incumbent,status,reporting,reporting_total
-senate,AK,2026,AK,,,Dan Sullivan,R,101576,0,0,0,counting,72.49,100
-senate,AK,2026,AK,,,Mary Peltola,D,100504,0,0,0,counting,72.49,100
-senate,AK,2026,AK,,,Gerald L. Heikes,R,4631,0,0,0,counting,72.49,100
-senate,AK,2026,AK,,,Daniel J. Jr. Sullivan,I,3507,0,0,0,counting,72.49,100
+senate,AK,2026,AK,,,Mary Peltola,D,102898,0,0,0,counting,73.68,100
+senate,AK,2026,AK,,,Dan Sullivan,R,102363,0,0,0,counting,73.68,100
+senate,AK,2026,AK,,,Gerald L. Heikes,R,4826,0,0,0,counting,73.68,100
+senate,AK,2026,AK,,,Daniel J. Jr. Sullivan,I,3590,0,0,0,counting,73.68,100
 senate,AL,2026,AL,,,Barry Moore,R,917347,1,0,0,final,97.71,100
 senate,AL,2026,AL,,,Everett Wess,D,759335,0,0,0,final,97.71,100
 senate,AR,2026,AR,,,Tom Cotton,R,480526,1,0,0,final,100,100
@@ -28,10 +28,10 @@ senate,IA,2026,IA,,,Josh Turek,D,687967,1,0,0,final,99,100
 senate,IA,2026,IA,,,Ashley Hinson,R,631030,0,0,0,final,99,100
 senate,IA,2026,IA,,,Thomas Laehn,L,42165,0,0,0,final,99,100
 senate,IA,2026,IA,,,Write-in,I,0,0,0,0,final,99,100
-senate,ID,2026,ID,,,Jim Risch,R,385706,1,0,0,final,94.1,100
-senate,ID,2026,ID,,,Todd Achilles,I,230159,0,0,0,final,94.1,100
-senate,ID,2026,ID,,,Natalie M Fleming,I,47349,0,0,0,final,94.1,100
-senate,ID,2026,ID,,,Matt Loesby,L,19709,0,0,0,final,94.1,100
+senate,ID,2026,ID,,,Jim Risch,R,385901,1,0,0,final,94.14,100
+senate,ID,2026,ID,,,Todd Achilles,I,230186,0,0,0,final,94.14,100
+senate,ID,2026,ID,,,Natalie M Fleming,I,47371,0,0,0,final,94.14,100
+senate,ID,2026,ID,,,Matt Loesby,L,19714,0,0,0,final,94.14,100
 senate,IL,2026,IL,,,Juliana Stratton,D,2301965,1,0,0,final,78.55,100
 senate,IL,2026,IL,,,Don Tracy,R,1293056,0,0,0,final,78.55,100
 senate,IL,2026,IL,,,Whitfield Harrington Jr.,O,57806,0,0,0,final,78.55,100
@@ -169,10 +169,10 @@ senate,WV,2026,WV,,,Rachel Fetty Anderson,D,172922,0,0,0,final,74.92,100
 senate,WV,2026,WV,,,S. Marshall Wilson,C,17139,0,0,0,final,74.92,100
 senate,WY,2026,WY,,,Harriet Hageman,R,122157,1,0,0,final,86.28,100
 senate,WY,2026,WY,,,James W. Byrd,D,65097,0,0,0,final,86.28,100
-house,AK-00,2026,AK,0,,Nick Begich III,R,104573,0,0,0,counting,71.94,100
-house,AK-00,2026,AK,0,,Bill Hill,I,84169,0,0,0,counting,71.94,100
-house,AK-00,2026,AK,0,,Eric Hafner,D,15155,0,0,0,counting,71.94,100
-house,AK-00,2026,AK,0,,"James C. ""Jim"" McDermott",L,5665,0,0,0,counting,71.94,100
+house,AK-00,2026,AK,0,,Nick Begich III,R,105648,0,0,0,counting,73.1,100
+house,AK-00,2026,AK,0,,Bill Hill,I,86011,0,0,0,counting,73.1,100
+house,AK-00,2026,AK,0,,Eric Hafner,D,15523,0,0,0,counting,73.1,100
+house,AK-00,2026,AK,0,,"James C. ""Jim"" McDermott",L,5770,0,0,0,counting,73.1,100
 house,AL-01,2026,AL,1,,Jerry Carl,R,137025,1,0,0,final,94.41,100
 house,AL-01,2026,AL,1,,Clyde Jones,D,94940,0,0,0,final,94.41,100
 house,AL-02,2026,AL,2,,Shomari Figures,D,124422,1,0,0,final,93.53,100
@@ -529,10 +529,10 @@ house,IA-03,2026,IA,3,,Write-in,I,0,0,0,0,final,100,100
 house,IA-04,2026,IA,4,,Chris McGowan,R,178845,1,0,0,final,100,100
 house,IA-04,2026,IA,4,,Dave Dawson,D,123940,0,0,0,final,100,100
 house,IA-04,2026,IA,4,,Write-in,I,0,0,0,0,final,100,100
-house,ID-01,2026,ID,1,,Russ Fulcher,R,233848,1,0,0,final,99,100
-house,ID-01,2026,ID,1,,Kaylee Peterson,D,104083,0,0,0,final,99,100
-house,ID-01,2026,ID,1,,Sarah Zabel Peterson,I,21932,0,0,0,final,99,100
-house,ID-01,2026,ID,1,,Brendan Gomez,C,3292,0,0,0,final,99,100
+house,ID-01,2026,ID,1,,Russ Fulcher,R,234038,1,0,0,final,99,100
+house,ID-01,2026,ID,1,,Kaylee Peterson,D,104118,0,0,0,final,99,100
+house,ID-01,2026,ID,1,,Sarah Zabel Peterson,I,21951,0,0,0,final,99,100
+house,ID-01,2026,ID,1,,Brendan Gomez,C,3296,0,0,0,final,99,100
 house,ID-02,2026,ID,2,,Mike Simpson,R,164130,1,0,0,final,85.56,100
 house,ID-02,2026,ID,2,,Ellie Gilbreath,D,128922,0,0,0,final,85.56,100
 house,ID-02,2026,ID,2,,Tripp Hutchinson,I,11138,0,0,0,final,85.56,100
@@ -1521,10 +1521,10 @@ house,WY-00,2026,WY,0,,Chuck Gray,R,99891,1,0,0,final,84.09,100
 house,WY-00,2026,WY,0,,Lisa F. Kinney,D,61687,0,0,0,final,84.09,100
 house,WY-00,2026,WY,0,,Shawn Johnson,L,13665,0,0,0,final,84.09,100
 house,WY-00,2026,WY,0,,Jeffrey Haggit,C,8060,0,0,0,final,84.09,100
-governor,AK,2026,AK,,,"Jonathan S. ""JKT"" Kreiss-Tomkins",D,101802,0,0,0,counting,71.5,100
-governor,AK,2026,AK,,,Bernadette M. Wilson,R,61217,0,0,0,counting,71.5,100
-governor,AK,2026,AK,,,Dave Bronson,R,29438,0,0,0,counting,71.5,100
-governor,AK,2026,AK,,,Treg Taylor,R,15498,0,0,0,counting,71.5,100
+governor,AK,2026,AK,,,"Jonathan S. ""JKT"" Kreiss-Tomkins",D,103807,0,0,0,counting,72.64,100
+governor,AK,2026,AK,,,Bernadette M. Wilson,R,61780,0,0,0,counting,72.64,100
+governor,AK,2026,AK,,,Dave Bronson,R,29950,0,0,0,counting,72.64,100
+governor,AK,2026,AK,,,Treg Taylor,R,15744,0,0,0,counting,72.64,100
 governor,AL,2026,AL,,,Tommy Tuberville,R,872445,1,0,0,final,97.65,100
 governor,AL,2026,AL,,,Doug Jones,D,803468,0,0,0,final,97.65,100
 governor,AR,2026,AR,,,Sarah Huckabee Sanders,R,477040,1,0,0,final,100,100
@@ -1567,12 +1567,12 @@ governor,HI,2026,HI,,,Gary Cordery,R,75978,0,0,0,final,66.19,100
 governor,IA,2026,IA,,,Rob Sand,D,757745,1,0,0,final,100,100
 governor,IA,2026,IA,,,Zach Lahn,R,606996,0,0,0,final,100,100
 governor,IA,2026,IA,,,Write-in,I,0,0,0,0,final,100,100
-governor,ID,2026,ID,,,Brad Little,R,391236,1,0,0,final,94.17,100
-governor,ID,2026,ID,,,Terri Pickens,D,221665,0,0,0,final,94.17,100
-governor,ID,2026,ID,,,John R. Stegner,I,52266,0,0,0,final,94.17,100
-governor,ID,2026,ID,,,Paul Sand,L,11068,0,0,0,final,94.17,100
-governor,ID,2026,ID,,,Pro-Life,C,9130,0,0,0,final,94.17,100
-governor,ID,2026,ID,,,Jacob Burnett,I,267,0,0,0,final,94.17,100
+governor,ID,2026,ID,,,Brad Little,R,391420,1,0,0,final,94.2,100
+governor,ID,2026,ID,,,Terri Pickens,D,221700,0,0,0,final,94.2,100
+governor,ID,2026,ID,,,John R. Stegner,I,52278,0,0,0,final,94.2,100
+governor,ID,2026,ID,,,Paul Sand,L,11078,0,0,0,final,94.2,100
+governor,ID,2026,ID,,,Pro-Life,C,9137,0,0,0,final,94.2,100
+governor,ID,2026,ID,,,Jacob Burnett,I,268,0,0,0,final,94.2,100
 governor,IL,2026,IL,,,JB Pritzker,D,2227634,1,0,0,final,77.14,100
 governor,IL,2026,IL,,,Darren Bailey,R,1240191,0,0,0,final,77.14,100
 governor,IL,2026,IL,,,Collin Corbett,I,119478,0,0,0,final,77.14,100
