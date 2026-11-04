@@ -344,9 +344,18 @@
     let svg = d3.select(el).select('svg');
     if (svg.empty()) { el.replaceChildren(); svg = d3.select(el).append('svg').attr('viewBox', `0 0 ${LX.MAP_W} ${LX.MAP_H}`).attr('width', '100%').attr('role', 'img').attr('aria-label', 'Map of Iowa counties'); const zm = LX.zoomMap(el, svg, LX.MAP_W, LX.MAP_H); zm.layer.append('g').attr('class', 'cties'); zm.layer.append('g').attr('class', 'selg'); }
     const card = document.getElementById('map-card'), tip = document.getElementById('map-tip');
+    { // still-counting counties: thin light stripes over the full color (fading them gave dark, muddy fills on the dark background)
+      const cg = svg.select('g.cties').node();
+      if (svg.select('defs.lx-hatch-defs').empty()) svg.insert('defs', ':first-child').attr('class', 'lx-hatch-defs').html('<pattern id="lx-hatch" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="5" stroke="#ffffff" stroke-opacity="0.55" stroke-width="1.5"/></pattern><pattern id="lx-hatch-d" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="5" stroke="#1f1e1c" stroke-opacity="0.35" stroke-width="1.5"/></pattern>');
+      let hg = d3.select(cg.parentNode).select('g.hatch');
+      if (hg.empty()) hg = d3.select(cg.parentNode.insertBefore(document.createElementNS('http://www.w3.org/2000/svg', 'g'), cg.nextSibling)).attr('class', 'hatch').attr('pointer-events', 'none');
+      hg.selectAll('path').data(p.view !== 'turnout' && p.view !== 'reporting' ? shapes.filter((d) => stillCounting(byF.get(d.county_fips))) : [], (d) => d.county_fips)
+        .join('path').attr('d', (d) => d.path)
+        .attr('fill', (d) => { const c = d3.color(fill(byF.get(d.county_fips), d.county_fips)); const x = c && c.rgb(); return x && 0.299 * x.r + 0.587 * x.g + 0.114 * x.b > 170 ? 'url(#lx-hatch-d)' : 'url(#lx-hatch)'; });
+    }
     svg.select('g.cties').selectAll('path.cty').data(shapes, (d) => d.county_fips).join('path')
       .attr('class', 'cty').attr('d', (d) => d.path).attr('fill', (d) => fill(byF.get(d.county_fips), d.county_fips))
-      .attr('fill-opacity', (d) => { const r = byF.get(d.county_fips); return stillCounting(r) && p.view !== 'turnout' && p.view !== 'reporting' ? 0.45 : 1; })
+      .attr('fill-opacity', (d) => { const r = byF.get(d.county_fips); return stillCounting(r) && p.view !== 'turnout' && p.view !== 'reporting' ? 1 : 1; })
       .on('mousemove', (event, d) => {
         const r = byF.get(d.county_fips); tip.replaceChildren();
         const t = document.createElement('div'); t.className = 't'; t.textContent = `${d.county} County · ${p.race}`; tip.append(t);
@@ -405,8 +414,8 @@
       const n = document.createElement('span'); n.textContent = NP ? 'lead, light → dark: <10 · 10–20 · 20–40 · 40–60 · 60+ pts' : 'margin, light → dark: <10 · 10–20 · 20–40 · 40–60 · 60+ pts'; lg.append(n);
     }
     if (p.view !== 'shift' && rows.some((r) => r.reported && r.status === 'counting' && r.reporting_total != null && r.reporting < r.reporting_total)) {
-      const g = document.createElement('span'); g.className = 'grp'; const s = document.createElement('i'); s.className = 'sw'; s.style.background = R.R[2]; s.style.opacity = 0.45;
-      const s2 = document.createElement('i'); s2.className = 'sw'; s2.style.background = R.D[2]; s2.style.opacity = 0.45; g.append(s, s2, document.createTextNode('Faded: still counting')); lg.append(g);
+      const g = document.createElement('span'); g.className = 'grp'; const s = document.createElement('i'); s.className = 'sw'; s.style.background = R.R[2]; s.style.backgroundImage = 'repeating-linear-gradient(45deg, rgba(255,255,255,.6) 0 1.5px, transparent 1.5px 4px)';
+      const s2 = document.createElement('i'); s2.className = 'sw'; s2.style.background = R.D[2]; s2.style.backgroundImage = 'repeating-linear-gradient(45deg, rgba(255,255,255,.6) 0 1.5px, transparent 1.5px 4px)'; g.append(s, s2, document.createTextNode('Striped: still counting')); lg.append(g);
     }
     if (rows.length < 99 || rows.some((r) => !r.reported)) sw(css('--lx-pending'), 'No results yet');
   }
