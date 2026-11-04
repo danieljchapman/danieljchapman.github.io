@@ -1,14 +1,15 @@
 [
  {
   "phase": "counting",
-  "updated_at": "2026-11-04T03:06:44Z",
+  "updated_at": "2026-11-04T03:11:55Z",
   "source": "CivicAPI (county results), unofficial",
   "races": 120,
   "called": 0,
-  "counting": 97,
+  "counting": 98,
   "problems": [
-   "2026 Treasurer : /race/87494: HTTP 502  error code: 502\n",
-   "1 race not sent by CivicAPI this time; kept the last published numbers"
+   "2026 Secretary of State : /race/87493: HTTP 000 curl: (28) Operation timed out after 45001 milliseconds with 0 bytes received ",
+   "2026 Treasurer : /race/87494: HTTP 500  <html>\n<head><title>500 Internal Server Error</title></head>\n<body>\n<center><h1>500 Internal Serv",
+   "2 races not sent by CivicAPI this time; kept the last published numbers"
   ],
   "local_problems": []
  }
