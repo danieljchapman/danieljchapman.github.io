@@ -114,6 +114,20 @@ def main():
         counts[level] = n
         if n != EXPECT[level]:
             problems.append(f'{level}: {n} races listed, expected {EXPECT[level]}')
+    # CivicAPI mix-ups: a Senate or governor record carrying another state's House race (Nov 3, 2026: South Dakota governor
+    # held Iowa's 3rd District candidates, with an older vote count). Such a race is left out until CivicAPI fixes it.
+    sig = lambda rs: frozenset(x['candidate'] for x in rs if 'write' not in x['candidate'].lower()) if len(rs) > 1 else None
+    by = {}
+    for r in rows:
+        by.setdefault((r['level'], r['race']), []).append(r)
+    house = {sig(v): k[1] for k, v in by.items() if k[0] == 'house' and sig(v)}
+    for (lv, race), rs in by.items():
+        if lv == 'house' or not sig(rs) or sig(rs) not in house or house[sig(rs)][:2] == race[:2]:
+            continue
+        problems.append(f'{lv} {race}: CivicAPI sent the {house[sig(rs)]} House race instead; left out until CivicAPI fixes it')
+        called -= rs[0]['status'] == 'final'; counting -= rs[0]['status'] == 'counting'; total -= 1; counts[lv] = counts.get(lv, 1) - 1
+        bad = {id(r) for r in rs}
+        rows[:] = [r for r in rows if id(r) not in bad]
     os.makedirs(a.out, exist_ok=True)
     with open(os.path.join(a.out, 'live_2026.csv'), 'w', newline='') as fh:
         w = csv.DictWriter(fh, fieldnames=FIELDS); w.writeheader(); w.writerows(rows)
