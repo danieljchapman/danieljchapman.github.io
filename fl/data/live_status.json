@@ -1,17 +1,17 @@
 [
  {
-  "phase": "counting",
-  "updated_at": "2026-11-04T00:59:02Z",
-  "source": "CivicAPI, unofficial (until the Division of Elections' file has votes)",
+  "phase": "pre-election",
+  "updated_at": "2026-11-04T01:01:41Z",
+  "source": "Florida Division of Elections, unofficial",
   "races": 174,
-  "called": 7,
-  "counting": 82,
+  "called": 0,
+  "counting": 0,
   "precincts": [
-   3399,
+   0,
    5626
   ],
   "problems": [
-   "CivicAPI /race/87072: HTTP Error 502: Bad Gateway"
+   "CivicAPI fallback: CivicAPI /race/search?country=US&province=FL&startDate=2026-11-03&endDate=2026-11-03&limit=1000: The read operation timed out"
   ],
   "local_problems": []
  }
