@@ -1,17 +1,18 @@
 [
  {
   "phase": "counting",
-  "updated_at": "2026-11-04T03:08:55Z",
+  "updated_at": "2026-11-04T03:18:59Z",
   "source": "CivicAPI, unofficial",
   "races": 137,
-  "called": 0,
-  "counting": 88,
+  "called": 1,
+  "counting": 93,
   "problems": [
-   "2026 Insurance Commissioner : /race/155300: HTTP 000 curl: (28) Operation timed out after 45001 milliseconds with 0 bytes received ",
-   "2026 Secretary of State : /race/87165: HTTP 000 curl: (28) Operation timed out after 45001 milliseconds with 0 bytes received ",
-   "2026 Senate : /race/87162: HTTP 502  error code: 502\n",
-   "2026 Treasurer : /race/87166: HTTP 500  <html>\n<head><title>500 Internal Server Error</title></head>\n<body>\n<center><h1>500 Internal Serv",
-   "3 races not sent by CivicAPI this time; kept the last published numbers"
+   "CivicAPI search (Kansas State Senate): /race/search?country=US&province=KS&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Kansas%20State%20Senate: HT",
+   "CivicAPI search (Kansas Governor): /race/search?country=US&province=KS&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Kansas%20Governor: HTTP 502",
+   "CivicAPI search (Kansas Attorney General): /race/search?country=US&province=KS&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Kansas%20Attorney%20General",
+   "CivicAPI search (Kansas Insurance): /race/search?country=US&province=KS&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Kansas%20Insurance: HTTP 00",
+   "3 races not sent by CivicAPI this time; kept the last published numbers",
+   "no live source yet for 3 statewide races, 2 Kansas Senate races"
   ],
   "local_problems": []
  }
