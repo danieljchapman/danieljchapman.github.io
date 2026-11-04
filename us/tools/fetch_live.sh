@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 # One national update: fetch results (one retry), check them, publish. Non-zero if nothing was published.
 set -u
+# start from the latest published files, so a level CivicAPI fails to send can keep its last published numbers
+git fetch -q origin main && git checkout origin/main -- us/data/live_2026.csv us/data/live_status.json 2>/dev/null || true
 for attempt in 1 2; do
   python3 us/tools/us_live.py --out us/data && break
   if [ "$attempt" = 2 ]; then git checkout -- us/data 2>/dev/null; exit 1; fi
