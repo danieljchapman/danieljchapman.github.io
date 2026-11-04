@@ -1,0 +1,28 @@
+status: 0
+HTTP/2 200 
+date: Wed, 04 Nov 2026 00:12:49 GMT
+content-type: application/octet-stream
+content-length: 352661
+last-modified: Wed, 04 Nov 2026 00:12:03 GMT
+etag: 0x8DF3A0841115C5B
+x-ms-request-id: dd4bd227-101e-0020-6af1-6b5d2a000000
+x-ms-version: 2009-09-19
+x-ms-lease-status: unlocked
+x-ms-blob-type: BlockBlob
+x-azure-ref: 20261104T001249Z-17dfb56f64fhl29whC1CHImbv00000000myg000000005xyq
+x-fd-int-roxy-purgeid: 83088765
+x-cache: TCP_MISS
+accept-ranges: bytes
+
+rows 3063
+cols ['ElectionDate', 'PartyCode', 'PartyName', 'RaceCode', 'RaceName', 'CountyCode', 'CountyName', 'Juris1num', 'Juris2num', 'Precincts', 'PrecinctsReporting', 'CanNameLast', 'CanNameFirst', 'CanNameMiddle', 'CanVotes']
+total votes 0
+dates {'11/03/2026'}
+GOV rows 670 votes 0 prec 0
+{'ElectionDate': '11/03/2026', 'PartyCode': 'REP', 'PartyName': 'Republican Party', 'RaceCode': 'USS', 'RaceName': 'United States Senator', 'CountyCode': 'ALA', 'CountyName': 'Alachua', 'Juris1num': '   ', 'Juris2num': ' ', 'Precincts': '63', 'PrecinctsReporting': '0', 'CanNameLast': 'Moody', 'CanNameFirst': 'Ashley', 'CanNameMiddle': '', 'CanVotes': '0'}
+{'ElectionDate': '11/03/2026', 'PartyCode': 'REP', 'PartyName': 'Republican Party', 'RaceCode': 'USS', 'RaceName': 'United States Senator', 'CountyCode': 'BAK', 'CountyName': 'Baker', 'Juris1num': '   ', 'Juris2num': ' ', 'Precincts': '9', 'PrecinctsReporting': '0', 'CanNameLast': 'Moody', 'CanNameFirst': 'Ashley', 'CanNameMiddle': '', 'CanVotes': '0'}
+{'ElectionDate': '11/03/2026', 'PartyCode': 'REP', 'PartyName': 'Republican Party', 'RaceCode': 'USS', 'RaceName': 'United States Senator', 'CountyCode': 'BAY', 'CountyName': 'Bay', 'Juris1num': '   ', 'Juris2num': ' ', 'Precincts': '30', 'PrecinctsReporting': '0', 'CanNameLast': 'Moody', 'CanNameFirst': 'Ashley', 'CanNameMiddle': '', 'CanVotes': '0'}
+racecodes ['AGR', 'AMD', 'ATG', 'CFO', 'CTJ', 'DCA', 'ECW', 'GOV', 'PLB', 'SCJ', 'SEB', 'STR', 'STS', 'TOL', 'USR', 'USS']
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.
+RequestId:ae63a98b-601e-0077-61f1-6bf319000000
+Time:2026-11-04T00:12:49.8038555Z</Message></Error>
