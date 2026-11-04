@@ -1,19 +1,18 @@
 [
  {
   "phase": "counting",
-  "updated_at": "2026-11-04T03:54:26Z",
+  "updated_at": "2026-11-04T04:09:16Z",
   "source": "CivicAPI, unofficial",
   "races": 136,
   "called": 1,
-  "counting": 75,
+  "counting": 78,
   "problems": [
    "CivicAPI search (Iowa State Senate): /race/search?country=US&province=IA&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Iowa%20State%20Senate: HTTP",
+   "CivicAPI search (Iowa US): /race/search?country=US&province=IA&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Iowa%20US: HTTP 502  error ",
+   "CivicAPI search (Iowa Governor): /race/search?country=US&province=IA&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Iowa%20Governor: HTTP 000 c",
    "CivicAPI search (Iowa Secretary): /race/search?country=US&province=IA&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Iowa%20Secretary: HTTP 000 ",
-   "CivicAPI search (Iowa State Auditor): /race/search?country=US&province=IA&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Iowa%20State%20Auditor: HTT",
-   "2026 Governor : /race/87152: HTTP 502  error code: 502\n",
-   "2026 Senate : /race/87151: HTTP 502  error code: 502\n",
-   "15 races not sent by CivicAPI this time; kept the last published numbers",
-   "no live source yet for 3 statewide races, 25 Iowa Senate races"
+   "19 races not sent by CivicAPI this time; kept the last published numbers",
+   "no live source yet for 4 statewide races, 4 U.S. House races, 25 Iowa Senate races"
   ],
   "local_problems": []
  }
