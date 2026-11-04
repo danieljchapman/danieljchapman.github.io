@@ -1,7 +1,7 @@
 [
  {
   "phase": "counting",
-  "updated_at": "2026-11-04T07:19:44Z",
+  "updated_at": "2026-11-04T07:24:43Z",
   "source": "Texas Secretary of State election-night results, unofficial",
   "races": 224,
   "called": 65,
@@ -31,7 +31,7 @@
     ],
     "48505": [
      8263,
-     2128
+     3255
     ],
     "48503": [
      12892,
