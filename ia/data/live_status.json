@@ -1,12 +1,14 @@
 [
  {
   "phase": "pre-election",
-  "updated_at": "2026-11-03T09:07:52Z",
+  "updated_at": "2026-11-04T01:53:45Z",
   "source": "CivicAPI, unofficial",
   "races": 136,
   "called": 0,
   "counting": 0,
-  "problems": [],
+  "problems": [
+   "2026 Senate : /race/87151: HTTP 502  error code: 502\n"
+  ],
   "local_problems": []
  }
 ]
