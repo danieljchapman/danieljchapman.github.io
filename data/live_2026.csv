@@ -1839,9 +1839,9 @@ ushouse,2026 U.S. House,2026,U.S. House,planc2333,24,,Kevin Burge,D,148972,count
 ushouse,2026 U.S. House,2026,U.S. House,planc2333,24,,Beth Van Duyne,R,170545,counting,2,237
 ushouse,2026 U.S. House,2026,U.S. House,planc2333,25,,Dione Sims,D,122854,counting,161,324
 ushouse,2026 U.S. House,2026,U.S. House,planc2333,25,,Roger Williams,R,142721,counting,161,324
-ushouse,2026 U.S. House,2026,U.S. House,planc2333,26,,Brandon Gill,R,182648,counting,228,229
-ushouse,2026 U.S. House,2026,U.S. House,planc2333,26,,Phil Gray,L,4308,counting,228,229
-ushouse,2026 U.S. House,2026,U.S. House,planc2333,26,,Steven Shook,D,147944,counting,228,229
+ushouse,2026 U.S. House,2026,U.S. House,planc2333,26,,Brandon Gill,R,182648,final,229,229
+ushouse,2026 U.S. House,2026,U.S. House,planc2333,26,,Phil Gray,L,4308,final,229,229
+ushouse,2026 U.S. House,2026,U.S. House,planc2333,26,,Steven Shook,D,147944,final,229,229
 ushouse,2026 U.S. House,2026,U.S. House,planc2333,16,,Adam Bauman,R,57247,final,211,211
 ushouse,2026 U.S. House,2026,U.S. House,planc2333,16,,Veronica Escobar,D,138543,final,211,211
 ushouse,2026 U.S. House,2026,U.S. House,planc2333,27,,Michael Cloud,R,141811,final,323,323
@@ -10097,8 +10097,8 @@ statewide,"2026 Supreme Court, Place 2 (unexpired term)",2026,"Supreme Court, Pl
 statewide,"2026 Supreme Court, Place 2 (unexpired term)",2026,"Supreme Court, Place 2 (unexpired term)",,48153,Floyd,James P. Sullivan,R,1205,counting,5,5
 statewide,"2026 Supreme Court, Place 2 (unexpired term)",2026,"Supreme Court, Place 2 (unexpired term)",,48149,Fayette,Chari Kelly,D,2579,counting,13,13
 statewide,"2026 Supreme Court, Place 2 (unexpired term)",2026,"Supreme Court, Place 2 (unexpired term)",,48149,Fayette,James P. Sullivan,R,8444,counting,13,13
-statewide,"2026 Supreme Court, Place 2 (unexpired term)",2026,"Supreme Court, Place 2 (unexpired term)",,48147,Fannin,Chari Kelly,D,0,counting,1,18
-statewide,"2026 Supreme Court, Place 2 (unexpired term)",2026,"Supreme Court, Place 2 (unexpired term)",,48147,Fannin,James P. Sullivan,R,0,counting,1,18
+statewide,"2026 Supreme Court, Place 2 (unexpired term)",2026,"Supreme Court, Place 2 (unexpired term)",,48147,Fannin,Chari Kelly,D,2649,counting,1,18
+statewide,"2026 Supreme Court, Place 2 (unexpired term)",2026,"Supreme Court, Place 2 (unexpired term)",,48147,Fannin,James P. Sullivan,R,10255,counting,1,18
 statewide,"2026 Supreme Court, Place 2 (unexpired term)",2026,"Supreme Court, Place 2 (unexpired term)",,48145,Falls,Chari Kelly,D,1587,counting,13,13
 statewide,"2026 Supreme Court, Place 2 (unexpired term)",2026,"Supreme Court, Place 2 (unexpired term)",,48145,Falls,James P. Sullivan,R,3288,counting,13,13
 statewide,"2026 Supreme Court, Place 2 (unexpired term)",2026,"Supreme Court, Place 2 (unexpired term)",,48143,Erath,Chari Kelly,D,3024,counting,21,21
@@ -10605,8 +10605,8 @@ statewide,"2026 Supreme Court, Place 7",2026,"Supreme Court, Place 7",,48153,Flo
 statewide,"2026 Supreme Court, Place 7",2026,"Supreme Court, Place 7",,48153,Floyd,Kyle Hawkins,R,1192,counting,5,5
 statewide,"2026 Supreme Court, Place 7",2026,"Supreme Court, Place 7",,48149,Fayette,Kristen Hawkins,D,2572,counting,13,13
 statewide,"2026 Supreme Court, Place 7",2026,"Supreme Court, Place 7",,48149,Fayette,Kyle Hawkins,R,8415,counting,13,13
-statewide,"2026 Supreme Court, Place 7",2026,"Supreme Court, Place 7",,48147,Fannin,Kristen Hawkins,D,0,counting,1,18
-statewide,"2026 Supreme Court, Place 7",2026,"Supreme Court, Place 7",,48147,Fannin,Kyle Hawkins,R,0,counting,1,18
+statewide,"2026 Supreme Court, Place 7",2026,"Supreme Court, Place 7",,48147,Fannin,Kristen Hawkins,D,2654,counting,1,18
+statewide,"2026 Supreme Court, Place 7",2026,"Supreme Court, Place 7",,48147,Fannin,Kyle Hawkins,R,10200,counting,1,18
 statewide,"2026 Supreme Court, Place 7",2026,"Supreme Court, Place 7",,48145,Falls,Kristen Hawkins,D,1597,counting,13,13
 statewide,"2026 Supreme Court, Place 7",2026,"Supreme Court, Place 7",,48145,Falls,Kyle Hawkins,R,3270,counting,13,13
 statewide,"2026 Supreme Court, Place 7",2026,"Supreme Court, Place 7",,48143,Erath,Kristen Hawkins,D,3087,counting,21,21
@@ -11113,8 +11113,8 @@ statewide,"2026 Supreme Court, Place 8",2026,"Supreme Court, Place 8",,48153,Flo
 statewide,"2026 Supreme Court, Place 8",2026,"Supreme Court, Place 8",,48153,Floyd,Brett Busby,R,1198,counting,5,5
 statewide,"2026 Supreme Court, Place 8",2026,"Supreme Court, Place 8",,48149,Fayette,Gisela D. Triana,D,2514,counting,13,13
 statewide,"2026 Supreme Court, Place 8",2026,"Supreme Court, Place 8",,48149,Fayette,Brett Busby,R,8446,counting,13,13
-statewide,"2026 Supreme Court, Place 8",2026,"Supreme Court, Place 8",,48147,Fannin,Gisela D. Triana,D,0,counting,1,18
-statewide,"2026 Supreme Court, Place 8",2026,"Supreme Court, Place 8",,48147,Fannin,Brett Busby,R,0,counting,1,18
+statewide,"2026 Supreme Court, Place 8",2026,"Supreme Court, Place 8",,48147,Fannin,Gisela D. Triana,D,2601,counting,1,18
+statewide,"2026 Supreme Court, Place 8",2026,"Supreme Court, Place 8",,48147,Fannin,Brett Busby,R,10264,counting,1,18
 statewide,"2026 Supreme Court, Place 8",2026,"Supreme Court, Place 8",,48145,Falls,Gisela D. Triana,D,1562,counting,13,13
 statewide,"2026 Supreme Court, Place 8",2026,"Supreme Court, Place 8",,48145,Falls,Brett Busby,R,3293,counting,13,13
 statewide,"2026 Supreme Court, Place 8",2026,"Supreme Court, Place 8",,48143,Erath,Gisela D. Triana,D,2981,counting,21,21
@@ -11263,8 +11263,8 @@ statewide,"2026 Supreme Court, Place 8",2026,"Supreme Court, Place 8",,48001,And
 statewide,"2026 Supreme Court, Place 8",2026,"Supreme Court, Place 8",,48001,Anderson,Brett Busby,R,11471,counting,23,23
 sboe,2026 SBOE,2026,SBOE,plane2106,13,,Tiffany Clark,D,378197,counting,2,675
 sboe,2026 SBOE,2026,SBOE,plane2106,13,,Carlos (charlie) Garza,R,98695,counting,2,675
-sboe,2026 SBOE,2026,SBOE,plane2106,14,,Mindy Bumgarner,R,365488,counting,420,830
-sboe,2026 SBOE,2026,SBOE,plane2106,14,,Amy Taylor,D,282113,counting,420,830
+sboe,2026 SBOE,2026,SBOE,plane2106,14,,Mindy Bumgarner,R,365488,counting,646,830
+sboe,2026 SBOE,2026,SBOE,plane2106,14,,Amy Taylor,D,282113,counting,646,830
 sboe,2026 SBOE,2026,SBOE,plane2106,2,,Thomas Ray Garcia,D,272795,counting,413,659
 sboe,2026 SBOE,2026,SBOE,plane2106,2,,Victoria Hinojosa,R,198802,counting,413,659
 sboe,2026 SBOE,2026,SBOE,plane2106,5,,Mica Arellano,R,196464,counting,471,550
@@ -11291,8 +11291,8 @@ house,2026 House,2026,House,planh2316,103,,Rafael Anchia,D,36056,counting,1,70
 house,2026 House,2026,House,planh2316,103,,Melanie Medley-Thomas,R,10182,counting,1,70
 house,2026 House,2026,House,planh2316,104,,Jessica Gonzalez,D,32959,counting,1,61
 house,2026 House,2026,House,planh2316,105,,Terry Meza,D,29778,counting,1,46
-house,2026 House,2026,House,planh2316,106,,Joe Mayes,D,30086,counting,0,65
-house,2026 House,2026,House,planh2316,106,,Jared Patterson,R,30061,counting,0,65
+house,2026 House,2026,House,planh2316,106,,Joe Mayes,D,44267,final,65,65
+house,2026 House,2026,House,planh2316,106,,Jared Patterson,R,47082,final,65,65
 house,2026 House,2026,House,planh2316,107,,Linda Garcia,D,27904,counting,1,48
 house,2026 House,2026,House,planh2316,108,,Morgan Meyer,R,49253,counting,1,87
 house,2026 House,2026,House,planh2316,108,,Allison Mitchell,D,38969,counting,1,87
@@ -11475,9 +11475,9 @@ house,2026 House,2026,House,planh2316,55,,Hillary Hickland,R,29959,final,37,37
 house,2026 House,2026,House,planh2316,55,,Amelia Rabroker,D,30378,final,37,37
 house,2026 House,2026,House,planh2316,56,,Pat Curry,R,42125,final,67,67
 house,2026 House,2026,House,planh2316,56,,Ashley Bean Thornton,D,26899,final,67,67
-house,2026 House,2026,House,planh2316,57,,Darren Hamilton,L,1221,counting,0,56
-house,2026 House,2026,House,planh2316,57,,Richard Hayes,R,29702,counting,0,56
-house,2026 House,2026,House,planh2316,57,,Ray Stith,D,27562,counting,0,56
+house,2026 House,2026,House,planh2316,57,,Darren Hamilton,L,1900,final,56,56
+house,2026 House,2026,House,planh2316,57,,Richard Hayes,R,37254,final,56,56
+house,2026 House,2026,House,planh2316,57,,Ray Stith,D,37335,final,56,56
 house,2026 House,2026,House,planh2316,58,,Helen Kerwin,R,49133,final,56,56
 house,2026 House,2026,House,planh2316,58,,Chris Oldham,D,23358,final,56,56
 house,2026 House,2026,House,planh2316,59,,Shelby Slawson,R,49009,final,68,68
@@ -11489,14 +11489,14 @@ house,2026 House,2026,House,planh2316,60,,Mike Olcott,R,69404,final,83,83
 house,2026 House,2026,House,planh2316,61,,Brittany Black,D,44626,final,56,56
 house,2026 House,2026,House,planh2316,61,,Anissa Chilmeran,G,1692,final,56,56
 house,2026 House,2026,House,planh2316,61,,Keresa Richardson,R,44760,final,56,56
-house,2026 House,2026,House,planh2316,62,,Shelley Luther,R,42539,counting,60,77
-house,2026 House,2026,House,planh2316,62,,Catherine Thorne,D,16270,counting,60,77
-house,2026 House,2026,House,planh2316,63,,Ben Bumgarner,R,27938,counting,0,45
-house,2026 House,2026,House,planh2316,63,,Denise Wooten,D,30894,counting,0,45
-house,2026 House,2026,House,planh2316,64,,Julie Evans,D,27292,counting,29,65
-house,2026 House,2026,House,planh2316,64,,Andy Hopper,R,39607,counting,29,65
-house,2026 House,2026,House,planh2316,65,,Detrick Deburr,D,34926,counting,0,55
-house,2026 House,2026,House,planh2316,65,,Mitch Little,R,37358,counting,0,55
+house,2026 House,2026,House,planh2316,62,,Shelley Luther,R,52697,counting,60,77
+house,2026 House,2026,House,planh2316,62,,Catherine Thorne,D,18963,counting,60,77
+house,2026 House,2026,House,planh2316,63,,Ben Bumgarner,R,35738,final,45,45
+house,2026 House,2026,House,planh2316,63,,Denise Wooten,D,37292,final,45,45
+house,2026 House,2026,House,planh2316,64,,Julie Evans,D,37970,final,65,65
+house,2026 House,2026,House,planh2316,64,,Andy Hopper,R,45572,final,65,65
+house,2026 House,2026,House,planh2316,65,,Detrick Deburr,D,41926,final,55,55
+house,2026 House,2026,House,planh2316,65,,Mitch Little,R,47256,final,55,55
 house,2026 House,2026,House,planh2316,66,,Matt Shaheen,R,47373,final,47,47
 house,2026 House,2026,House,planh2316,66,,Sandeep Srivastava,D,38059,final,47,47
 house,2026 House,2026,House,planh2316,67,,Jeff Leach,R,42566,final,54,54
@@ -11567,8 +11567,8 @@ house,2026 House,2026,House,planh2316,98,,Cate Brennan,D,34645,counting,1,57
 house,2026 House,2026,House,planh2316,98,,Armin Mizani,R,51794,counting,1,57
 house,2026 House,2026,House,planh2316,99,,Charlie Geren,R,35109,counting,1,72
 house,2026 House,2026,House,planh2316,99,,Michelle Winder,D,31223,counting,1,72
-senate,2026 Senate,2026,Senate,plans2168,1,,Laticia Ambroz,D,88405,counting,390,407
-senate,2026 Senate,2026,Senate,plans2168,1,,Bryan Hughes,R,219297,counting,390,407
+senate,2026 Senate,2026,Senate,plans2168,1,,Laticia Ambroz,D,91022,counting,390,407
+senate,2026 Senate,2026,Senate,plans2168,1,,Bryan Hughes,R,229545,counting,390,407
 senate,2026 Senate,2026,Senate,plans2168,11,,Shannon Dicely,D,155448,counting,153,255
 senate,2026 Senate,2026,Senate,plans2168,11,,Dennis Paul,R,162761,counting,153,255
 senate,2026 Senate,2026,Senate,plans2168,13,,Borris L. Miles,D,165621,counting,25,247
