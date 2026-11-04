@@ -1,13 +1,13 @@
 [
  {
   "phase": "counting",
-  "updated_at": "2026-11-04T04:29:01Z",
+  "updated_at": "2026-11-04T04:33:47Z",
   "source": "CivicAPI (county results), unofficial",
   "races": 120,
   "called": 0,
   "counting": 108,
   "problems": [
-   "CivicAPI search: /race/search?country=US&province=WI&startDate=2026-11-03&endDate=2026-11-03&limit=500: HTTP 000 curl: (28) Operation timed out after 45001 milliseconds with 0 b",
+   "CivicAPI search: /race/search?country=US&province=WI&startDate=2026-11-03&endDate=2026-11-03&limit=500: HTTP 502  error code: 502\n",
    "108 races not sent by CivicAPI this time; kept the last published numbers",
    "no live source yet for 4 Statewide races, 17 Senate races, 99 Assembly races"
   ],
