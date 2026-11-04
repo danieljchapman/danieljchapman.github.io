@@ -1,220 +1,4 @@
 level,race,year,office,plan,unit,unit_name,candidate,party,votes,status,reporting,reporting_total
-statewide,2026 Attorney General,2026,Attorney General,,55001,Adams,Eric Toney,R,5785,counting,85,100
-statewide,2026 Attorney General,2026,Attorney General,,55001,Adams,Josh Kaul,D,3741,counting,85,100
-statewide,2026 Attorney General,2026,Attorney General,,55001,Adams,Write-in,W,0,counting,85,100
-statewide,2026 Attorney General,2026,Attorney General,,55003,Ashland,Josh Kaul,D,0,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55003,Ashland,Eric Toney,R,0,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55003,Ashland,Write-in,W,0,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55005,Barron,Eric Toney,R,6957,counting,50,100
-statewide,2026 Attorney General,2026,Attorney General,,55005,Barron,Josh Kaul,D,3886,counting,50,100
-statewide,2026 Attorney General,2026,Attorney General,,55005,Barron,Write-in,W,0,counting,50,100
-statewide,2026 Attorney General,2026,Attorney General,,55007,Bayfield,Josh Kaul,D,1644,counting,25,100
-statewide,2026 Attorney General,2026,Attorney General,,55007,Bayfield,Eric Toney,R,1147,counting,25,100
-statewide,2026 Attorney General,2026,Attorney General,,55007,Bayfield,Write-in,W,0,counting,25,100
-statewide,2026 Attorney General,2026,Attorney General,,55009,Brown,Eric Toney,R,9963,counting,12.7,100
-statewide,2026 Attorney General,2026,Attorney General,,55009,Brown,Josh Kaul,D,5714,counting,12.7,100
-statewide,2026 Attorney General,2026,Attorney General,,55009,Brown,Write-in,W,0,counting,12.7,100
-statewide,2026 Attorney General,2026,Attorney General,,55011,Buffalo,Josh Kaul,D,0,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55011,Buffalo,Eric Toney,R,0,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55011,Buffalo,Write-in,W,0,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55013,Burnett,Eric Toney,R,489,counting,4.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55013,Burnett,Josh Kaul,D,179,counting,4.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55013,Burnett,Write-in,W,0,counting,4.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55015,Calumet,Josh Kaul,D,0,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55015,Calumet,Eric Toney,R,0,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55015,Calumet,Write-in,W,0,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55017,Chippewa,Eric Toney,R,10045,counting,51.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55017,Chippewa,Josh Kaul,D,6784,counting,51.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55017,Chippewa,Write-in,W,0,counting,51.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55019,Clark,Eric Toney,R,1946,counting,22,100
-statewide,2026 Attorney General,2026,Attorney General,,55019,Clark,Josh Kaul,D,996,counting,22,100
-statewide,2026 Attorney General,2026,Attorney General,,55019,Clark,Write-in,W,0,counting,22,100
-statewide,2026 Attorney General,2026,Attorney General,,55021,Columbia,Josh Kaul,D,0,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55021,Columbia,Eric Toney,R,0,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55021,Columbia,Write-in,W,0,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55023,Crawford,Josh Kaul,D,1400,counting,33.3,100
-statewide,2026 Attorney General,2026,Attorney General,,55023,Crawford,Eric Toney,R,1368,counting,33.3,100
-statewide,2026 Attorney General,2026,Attorney General,,55023,Crawford,Write-in,W,0,counting,33.3,100
-statewide,2026 Attorney General,2026,Attorney General,,55025,Dane,Josh Kaul,D,198268,counting,71.3,100
-statewide,2026 Attorney General,2026,Attorney General,,55025,Dane,Eric Toney,R,49620,counting,71.3,100
-statewide,2026 Attorney General,2026,Attorney General,,55025,Dane,Write-in,W,0,counting,71.3,100
-statewide,2026 Attorney General,2026,Attorney General,,55027,Dodge,Eric Toney,R,19445,counting,85.7,100
-statewide,2026 Attorney General,2026,Attorney General,,55027,Dodge,Josh Kaul,D,10799,counting,85.7,100
-statewide,2026 Attorney General,2026,Attorney General,,55027,Dodge,Write-in,W,0,counting,85.7,100
-statewide,2026 Attorney General,2026,Attorney General,,55029,Door,Josh Kaul,D,9406,counting,95.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55029,Door,Eric Toney,R,8080,counting,95.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55029,Door,Write-in,W,0,counting,95.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55031,Douglas,Josh Kaul,D,11113,counting,92.3,100
-statewide,2026 Attorney General,2026,Attorney General,,55031,Douglas,Eric Toney,R,7727,counting,92.3,100
-statewide,2026 Attorney General,2026,Attorney General,,55031,Douglas,Write-in,W,0,counting,92.3,100
-statewide,2026 Attorney General,2026,Attorney General,,55033,Dunn,Eric Toney,R,9053,counting,77.1,100
-statewide,2026 Attorney General,2026,Attorney General,,55033,Dunn,Josh Kaul,D,7017,counting,77.1,100
-statewide,2026 Attorney General,2026,Attorney General,,55033,Dunn,Write-in,W,0,counting,77.1,100
-statewide,2026 Attorney General,2026,Attorney General,,55035,Eau Claire,Josh Kaul,D,28540,counting,88.5,100
-statewide,2026 Attorney General,2026,Attorney General,,55035,Eau Claire,Eric Toney,R,17643,counting,88.5,100
-statewide,2026 Attorney General,2026,Attorney General,,55035,Eau Claire,Write-in,W,0,counting,88.5,100
-statewide,2026 Attorney General,2026,Attorney General,,55037,Florence,Eric Toney,R,1754,counting,87.5,100
-statewide,2026 Attorney General,2026,Attorney General,,55037,Florence,Josh Kaul,D,682,counting,87.5,100
-statewide,2026 Attorney General,2026,Attorney General,,55037,Florence,Write-in,W,0,counting,87.5,100
-statewide,2026 Attorney General,2026,Attorney General,,55039,Fond du Lac,Eric Toney,R,27461,counting,88.1,100
-statewide,2026 Attorney General,2026,Attorney General,,55039,Fond du Lac,Josh Kaul,D,16386,counting,88.1,100
-statewide,2026 Attorney General,2026,Attorney General,,55039,Fond du Lac,Write-in,W,0,counting,88.1,100
-statewide,2026 Attorney General,2026,Attorney General,,55041,Forest,Eric Toney,R,545,counting,13.3,100
-statewide,2026 Attorney General,2026,Attorney General,,55041,Forest,Josh Kaul,D,237,counting,13.3,100
-statewide,2026 Attorney General,2026,Attorney General,,55041,Forest,Write-in,W,0,counting,13.3,100
-statewide,2026 Attorney General,2026,Attorney General,,55043,Grant,Eric Toney,R,4500,counting,37.5,100
-statewide,2026 Attorney General,2026,Attorney General,,55043,Grant,Josh Kaul,D,3630,counting,37.5,100
-statewide,2026 Attorney General,2026,Attorney General,,55043,Grant,Write-in,W,0,counting,37.5,100
-statewide,2026 Attorney General,2026,Attorney General,,55045,Green,Josh Kaul,D,4228,counting,33.3,100
-statewide,2026 Attorney General,2026,Attorney General,,55045,Green,Eric Toney,R,2841,counting,33.3,100
-statewide,2026 Attorney General,2026,Attorney General,,55045,Green,Write-in,W,0,counting,33.3,100
-statewide,2026 Attorney General,2026,Attorney General,,55047,Green Lake,Josh Kaul,D,0,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55047,Green Lake,Eric Toney,R,0,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55047,Green Lake,Write-in,W,0,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55049,Iowa,Josh Kaul,D,1760,counting,24.1,100
-statewide,2026 Attorney General,2026,Attorney General,,55049,Iowa,Eric Toney,R,1419,counting,24.1,100
-statewide,2026 Attorney General,2026,Attorney General,,55049,Iowa,Write-in,W,0,counting,24.1,100
-statewide,2026 Attorney General,2026,Attorney General,,55051,Iron,Eric Toney,R,64,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55051,Iron,Josh Kaul,D,56,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55051,Iron,Write-in,W,0,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55053,Jackson,Josh Kaul,D,2025,counting,40.6,100
-statewide,2026 Attorney General,2026,Attorney General,,55053,Jackson,Eric Toney,R,1580,counting,40.6,100
-statewide,2026 Attorney General,2026,Attorney General,,55053,Jackson,Write-in,W,0,counting,40.6,100
-statewide,2026 Attorney General,2026,Attorney General,,55055,Jefferson,Eric Toney,R,18048,counting,93.5,100
-statewide,2026 Attorney General,2026,Attorney General,,55055,Jefferson,Josh Kaul,D,15745,counting,93.5,100
-statewide,2026 Attorney General,2026,Attorney General,,55055,Jefferson,Write-in,W,0,counting,93.5,100
-statewide,2026 Attorney General,2026,Attorney General,,55057,Juneau,Eric Toney,R,851,counting,10.7,100
-statewide,2026 Attorney General,2026,Attorney General,,55057,Juneau,Josh Kaul,D,513,counting,10.7,100
-statewide,2026 Attorney General,2026,Attorney General,,55057,Juneau,Write-in,W,0,counting,10.7,100
-statewide,2026 Attorney General,2026,Attorney General,,55059,Kenosha,Eric Toney,R,26995,counting,74.6,100
-statewide,2026 Attorney General,2026,Attorney General,,55059,Kenosha,Josh Kaul,D,26985,counting,74.6,100
-statewide,2026 Attorney General,2026,Attorney General,,55059,Kenosha,Write-in,W,0,counting,74.6,100
-statewide,2026 Attorney General,2026,Attorney General,,55061,Kewaunee,Eric Toney,R,2472,counting,28.6,100
-statewide,2026 Attorney General,2026,Attorney General,,55061,Kewaunee,Josh Kaul,D,1198,counting,28.6,100
-statewide,2026 Attorney General,2026,Attorney General,,55061,Kewaunee,Write-in,W,0,counting,28.6,100
-statewide,2026 Attorney General,2026,Attorney General,,55063,La Crosse,Josh Kaul,D,0,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55063,La Crosse,Eric Toney,R,0,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55063,La Crosse,Write-in,W,0,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55065,Lafayette,Josh Kaul,D,894,counting,21.4,100
-statewide,2026 Attorney General,2026,Attorney General,,55065,Lafayette,Eric Toney,R,840,counting,21.4,100
-statewide,2026 Attorney General,2026,Attorney General,,55065,Lafayette,Write-in,W,0,counting,21.4,100
-statewide,2026 Attorney General,2026,Attorney General,,55067,Langlade,Eric Toney,R,1900,counting,28.6,100
-statewide,2026 Attorney General,2026,Attorney General,,55067,Langlade,Josh Kaul,D,956,counting,28.6,100
-statewide,2026 Attorney General,2026,Attorney General,,55067,Langlade,Write-in,W,0,counting,28.6,100
-statewide,2026 Attorney General,2026,Attorney General,,55069,Lincoln,Eric Toney,R,3270,counting,37,100
-statewide,2026 Attorney General,2026,Attorney General,,55069,Lincoln,Josh Kaul,D,2501,counting,37,100
-statewide,2026 Attorney General,2026,Attorney General,,55069,Lincoln,Write-in,W,0,counting,37,100
-statewide,2026 Attorney General,2026,Attorney General,,55071,Manitowoc,Eric Toney,R,6536,counting,25,100
-statewide,2026 Attorney General,2026,Attorney General,,55071,Manitowoc,Josh Kaul,D,3201,counting,25,100
-statewide,2026 Attorney General,2026,Attorney General,,55071,Manitowoc,Write-in,W,0,counting,25,100
-statewide,2026 Attorney General,2026,Attorney General,,55073,Marathon,Eric Toney,R,30264,counting,81.6,100
-statewide,2026 Attorney General,2026,Attorney General,,55073,Marathon,Josh Kaul,D,24318,counting,81.6,100
-statewide,2026 Attorney General,2026,Attorney General,,55073,Marathon,Write-in,W,0,counting,81.6,100
-statewide,2026 Attorney General,2026,Attorney General,,55075,Marinette,Josh Kaul,D,0,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55075,Marinette,Eric Toney,R,0,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55075,Marinette,Write-in,W,0,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55077,Marquette,Eric Toney,R,1442,counting,26.3,100
-statewide,2026 Attorney General,2026,Attorney General,,55077,Marquette,Josh Kaul,D,786,counting,26.3,100
-statewide,2026 Attorney General,2026,Attorney General,,55077,Marquette,Write-in,W,0,counting,26.3,100
-statewide,2026 Attorney General,2026,Attorney General,,55078,Menominee,Josh Kaul,D,0,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55078,Menominee,Eric Toney,R,0,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55078,Menominee,Write-in,W,0,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55079,Milwaukee,Josh Kaul,D,183743,counting,68.3,100
-statewide,2026 Attorney General,2026,Attorney General,,55079,Milwaukee,Eric Toney,R,62822,counting,68.3,100
-statewide,2026 Attorney General,2026,Attorney General,,55079,Milwaukee,Write-in,W,0,counting,68.3,100
-statewide,2026 Attorney General,2026,Attorney General,,55081,Monroe,Josh Kaul,D,0,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55081,Monroe,Eric Toney,R,0,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55081,Monroe,Write-in,W,0,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55083,Oconto,Eric Toney,R,465,counting,3.4,100
-statewide,2026 Attorney General,2026,Attorney General,,55083,Oconto,Josh Kaul,D,267,counting,3.4,100
-statewide,2026 Attorney General,2026,Attorney General,,55083,Oconto,Write-in,W,0,counting,3.4,100
-statewide,2026 Attorney General,2026,Attorney General,,55085,Oneida,Eric Toney,R,6161,counting,50,100
-statewide,2026 Attorney General,2026,Attorney General,,55085,Oneida,Josh Kaul,D,4277,counting,50,100
-statewide,2026 Attorney General,2026,Attorney General,,55085,Oneida,Write-in,W,7,counting,50,100
-statewide,2026 Attorney General,2026,Attorney General,,55087,Outagamie,Eric Toney,R,34848,counting,74.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55087,Outagamie,Josh Kaul,D,34431,counting,74.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55087,Outagamie,Write-in,W,0,counting,74.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55089,Ozaukee,Eric Toney,R,21519,counting,80.4,100
-statewide,2026 Attorney General,2026,Attorney General,,55089,Ozaukee,Josh Kaul,D,19868,counting,80.4,100
-statewide,2026 Attorney General,2026,Attorney General,,55089,Ozaukee,Write-in,W,27,counting,80.4,100
-statewide,2026 Attorney General,2026,Attorney General,,55091,Pepin,Josh Kaul,D,0,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55091,Pepin,Eric Toney,R,0,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55091,Pepin,Write-in,W,0,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55093,Pierce,Josh Kaul,D,0,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55093,Pierce,Eric Toney,R,0,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55093,Pierce,Write-in,W,0,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55095,Polk,Eric Toney,R,3109,counting,19.4,100
-statewide,2026 Attorney General,2026,Attorney General,,55095,Polk,Josh Kaul,D,1565,counting,19.4,100
-statewide,2026 Attorney General,2026,Attorney General,,55095,Polk,Write-in,W,0,counting,19.4,100
-statewide,2026 Attorney General,2026,Attorney General,,55097,Portage,Josh Kaul,D,0,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55097,Portage,Eric Toney,R,0,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55097,Portage,Write-in,W,0,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55099,Price,Eric Toney,R,1637,counting,30.4,100
-statewide,2026 Attorney General,2026,Attorney General,,55099,Price,Josh Kaul,D,950,counting,30.4,100
-statewide,2026 Attorney General,2026,Attorney General,,55099,Price,Write-in,W,0,counting,30.4,100
-statewide,2026 Attorney General,2026,Attorney General,,55101,Racine,Josh Kaul,D,27901,counting,56.8,100
-statewide,2026 Attorney General,2026,Attorney General,,55101,Racine,Eric Toney,R,23747,counting,56.8,100
-statewide,2026 Attorney General,2026,Attorney General,,55101,Racine,Write-in,W,0,counting,56.8,100
-statewide,2026 Attorney General,2026,Attorney General,,55103,Richland,Eric Toney,R,348,counting,9.1,100
-statewide,2026 Attorney General,2026,Attorney General,,55103,Richland,Josh Kaul,D,345,counting,9.1,100
-statewide,2026 Attorney General,2026,Attorney General,,55103,Richland,Write-in,W,0,counting,9.1,100
-statewide,2026 Attorney General,2026,Attorney General,,55105,Rock,Josh Kaul,D,28361,counting,69.8,100
-statewide,2026 Attorney General,2026,Attorney General,,55105,Rock,Eric Toney,R,21633,counting,69.8,100
-statewide,2026 Attorney General,2026,Attorney General,,55105,Rock,Write-in,W,0,counting,69.8,100
-statewide,2026 Attorney General,2026,Attorney General,,55107,Rusk,Josh Kaul,D,0,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55107,Rusk,Eric Toney,R,0,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55107,Rusk,Write-in,W,0,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55111,Sauk,Josh Kaul,D,11019,counting,63.3,100
-statewide,2026 Attorney General,2026,Attorney General,,55111,Sauk,Eric Toney,R,9708,counting,63.3,100
-statewide,2026 Attorney General,2026,Attorney General,,55111,Sauk,Write-in,W,0,counting,63.3,100
-statewide,2026 Attorney General,2026,Attorney General,,55113,Sawyer,Eric Toney,R,654,counting,9.5,100
-statewide,2026 Attorney General,2026,Attorney General,,55113,Sawyer,Josh Kaul,D,555,counting,9.5,100
-statewide,2026 Attorney General,2026,Attorney General,,55113,Sawyer,Write-in,W,0,counting,9.5,100
-statewide,2026 Attorney General,2026,Attorney General,,55115,Shawano,Eric Toney,R,4048,counting,30.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55115,Shawano,Josh Kaul,D,1834,counting,30.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55115,Shawano,Write-in,W,0,counting,30.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55117,Sheboygan,Eric Toney,R,9017,counting,21.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55117,Sheboygan,Josh Kaul,D,3910,counting,21.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55117,Sheboygan,Write-in,W,0,counting,21.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55109,St. Croix,Josh Kaul,D,0,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55109,St. Croix,Eric Toney,R,0,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55109,St. Croix,Write-in,W,0,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55119,Taylor,Josh Kaul,D,0,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55119,Taylor,Eric Toney,R,0,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55119,Taylor,Write-in,W,0,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55121,Trempealeau,Eric Toney,R,5325,counting,73.1,100
-statewide,2026 Attorney General,2026,Attorney General,,55121,Trempealeau,Josh Kaul,D,4586,counting,73.1,100
-statewide,2026 Attorney General,2026,Attorney General,,55121,Trempealeau,Write-in,W,0,counting,73.1,100
-statewide,2026 Attorney General,2026,Attorney General,,55123,Vernon,Eric Toney,R,4995,counting,66.7,100
-statewide,2026 Attorney General,2026,Attorney General,,55123,Vernon,Josh Kaul,D,4737,counting,66.7,100
-statewide,2026 Attorney General,2026,Attorney General,,55123,Vernon,Write-in,W,0,counting,66.7,100
-statewide,2026 Attorney General,2026,Attorney General,,55125,Vilas,Josh Kaul,D,0,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55125,Vilas,Eric Toney,R,0,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55125,Vilas,Write-in,W,0,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55127,Walworth,Eric Toney,R,23271,counting,78.9,100
-statewide,2026 Attorney General,2026,Attorney General,,55127,Walworth,Josh Kaul,D,17876,counting,78.9,100
-statewide,2026 Attorney General,2026,Attorney General,,55127,Walworth,Write-in,W,0,counting,78.9,100
-statewide,2026 Attorney General,2026,Attorney General,,55129,Washburn,Josh Kaul,D,0,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55129,Washburn,Eric Toney,R,0,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55129,Washburn,Write-in,W,0,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55131,Washington,Eric Toney,R,33143,counting,62.8,100
-statewide,2026 Attorney General,2026,Attorney General,,55131,Washington,Josh Kaul,D,16569,counting,62.8,100
-statewide,2026 Attorney General,2026,Attorney General,,55131,Washington,Write-in,W,0,counting,62.8,100
-statewide,2026 Attorney General,2026,Attorney General,,55133,Waukesha,Eric Toney,R,105739,counting,73.8,100
-statewide,2026 Attorney General,2026,Attorney General,,55133,Waukesha,Josh Kaul,D,75292,counting,73.8,100
-statewide,2026 Attorney General,2026,Attorney General,,55133,Waukesha,Write-in,W,0,counting,73.8,100
-statewide,2026 Attorney General,2026,Attorney General,,55135,Waupaca,Eric Toney,R,1402,counting,5.6,100
-statewide,2026 Attorney General,2026,Attorney General,,55135,Waupaca,Josh Kaul,D,601,counting,5.6,100
-statewide,2026 Attorney General,2026,Attorney General,,55135,Waupaca,Write-in,W,0,counting,5.6,100
-statewide,2026 Attorney General,2026,Attorney General,,55137,Waushara,Eric Toney,R,281,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55137,Waushara,Josh Kaul,D,182,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55137,Waushara,Write-in,W,0,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55139,Winnebago,Eric Toney,R,29163,counting,72.5,100
-statewide,2026 Attorney General,2026,Attorney General,,55139,Winnebago,Josh Kaul,D,29161,counting,72.5,100
-statewide,2026 Attorney General,2026,Attorney General,,55139,Winnebago,Write-in,W,0,counting,72.5,100
-statewide,2026 Attorney General,2026,Attorney General,,55141,Wood,Eric Toney,R,15517,counting,88,100
-statewide,2026 Attorney General,2026,Attorney General,,55141,Wood,Josh Kaul,D,12022,counting,88,100
-statewide,2026 Attorney General,2026,Attorney General,,55141,Wood,Write-in,W,0,counting,88,100
 statewide,2026 Governor,2026,Governor,,55001,Adams,Tom Tiffany,R,5899,counting,84.4,100
 statewide,2026 Governor,2026,Governor,,55001,Adams,David Crowley,D,3636,counting,84.4,100
 statewide,2026 Governor,2026,Governor,,55001,Adams,Ieshuh Griffin,I,0,counting,84.4,100
@@ -227,30 +11,30 @@ statewide,2026 Governor,2026,Governor,,55001,Adams,Brayden Donnelly,I,0,counting
 statewide,2026 Governor,2026,Governor,,55001,Adams,Christine Kirchmiller,I,0,counting,84.4,100
 statewide,2026 Governor,2026,Governor,,55001,Adams,Reese Woods / Daniel Wagner,I,0,counting,84.4,100
 statewide,2026 Governor,2026,Governor,,55001,Adams,Write-in,W,0,counting,84.4,100
-statewide,2026 Governor,2026,Governor,,55003,Ashland,David Crowley,D,0,counting,0,100
-statewide,2026 Governor,2026,Governor,,55003,Ashland,Tom Tiffany,R,0,counting,0,100
-statewide,2026 Governor,2026,Governor,,55003,Ashland,Ieshuh Griffin,I,0,counting,0,100
-statewide,2026 Governor,2026,Governor,,55003,Ashland,Jamie Jo Carothers,I,0,counting,0,100
-statewide,2026 Governor,2026,Governor,,55003,Ashland,David D. King,I,0,counting,0,100
-statewide,2026 Governor,2026,Governor,,55003,Ashland,Chad Muellenberg,I,0,counting,0,100
-statewide,2026 Governor,2026,Governor,,55003,Ashland,Mary Morgan,I,0,counting,0,100
-statewide,2026 Governor,2026,Governor,,55003,Ashland,Mark Grimek,I,0,counting,0,100
-statewide,2026 Governor,2026,Governor,,55003,Ashland,Brayden Donnelly,I,0,counting,0,100
-statewide,2026 Governor,2026,Governor,,55003,Ashland,Christine Kirchmiller,I,0,counting,0,100
-statewide,2026 Governor,2026,Governor,,55003,Ashland,Reese Woods / Daniel Wagner,I,0,counting,0,100
-statewide,2026 Governor,2026,Governor,,55003,Ashland,Write-in,W,0,counting,0,100
-statewide,2026 Governor,2026,Governor,,55005,Barron,Tom Tiffany,R,7167,counting,46.8,100
-statewide,2026 Governor,2026,Governor,,55005,Barron,David Crowley,D,3700,counting,46.8,100
-statewide,2026 Governor,2026,Governor,,55005,Barron,Ieshuh Griffin,I,0,counting,46.8,100
-statewide,2026 Governor,2026,Governor,,55005,Barron,Jamie Jo Carothers,I,0,counting,46.8,100
-statewide,2026 Governor,2026,Governor,,55005,Barron,David D. King,I,0,counting,46.8,100
-statewide,2026 Governor,2026,Governor,,55005,Barron,Chad Muellenberg,I,0,counting,46.8,100
-statewide,2026 Governor,2026,Governor,,55005,Barron,Mary Morgan,I,0,counting,46.8,100
-statewide,2026 Governor,2026,Governor,,55005,Barron,Mark Grimek,I,0,counting,46.8,100
-statewide,2026 Governor,2026,Governor,,55005,Barron,Brayden Donnelly,I,0,counting,46.8,100
-statewide,2026 Governor,2026,Governor,,55005,Barron,Christine Kirchmiller,I,0,counting,46.8,100
-statewide,2026 Governor,2026,Governor,,55005,Barron,Reese Woods / Daniel Wagner,I,0,counting,46.8,100
-statewide,2026 Governor,2026,Governor,,55005,Barron,Write-in,W,0,counting,46.8,100
+statewide,2026 Governor,2026,Governor,,55003,Ashland,Tom Tiffany,R,301,counting,5.4,100
+statewide,2026 Governor,2026,Governor,,55003,Ashland,David Crowley,D,124,counting,5.4,100
+statewide,2026 Governor,2026,Governor,,55003,Ashland,Ieshuh Griffin,I,0,counting,5.4,100
+statewide,2026 Governor,2026,Governor,,55003,Ashland,Jamie Jo Carothers,I,0,counting,5.4,100
+statewide,2026 Governor,2026,Governor,,55003,Ashland,David D. King,I,0,counting,5.4,100
+statewide,2026 Governor,2026,Governor,,55003,Ashland,Chad Muellenberg,I,0,counting,5.4,100
+statewide,2026 Governor,2026,Governor,,55003,Ashland,Mary Morgan,I,0,counting,5.4,100
+statewide,2026 Governor,2026,Governor,,55003,Ashland,Mark Grimek,I,0,counting,5.4,100
+statewide,2026 Governor,2026,Governor,,55003,Ashland,Brayden Donnelly,I,0,counting,5.4,100
+statewide,2026 Governor,2026,Governor,,55003,Ashland,Christine Kirchmiller,I,0,counting,5.4,100
+statewide,2026 Governor,2026,Governor,,55003,Ashland,Reese Woods / Daniel Wagner,I,0,counting,5.4,100
+statewide,2026 Governor,2026,Governor,,55003,Ashland,Write-in,W,0,counting,5.4,100
+statewide,2026 Governor,2026,Governor,,55005,Barron,Tom Tiffany,R,9568,counting,63.8,100
+statewide,2026 Governor,2026,Governor,,55005,Barron,David Crowley,D,5251,counting,63.8,100
+statewide,2026 Governor,2026,Governor,,55005,Barron,Ieshuh Griffin,I,0,counting,63.8,100
+statewide,2026 Governor,2026,Governor,,55005,Barron,Jamie Jo Carothers,I,0,counting,63.8,100
+statewide,2026 Governor,2026,Governor,,55005,Barron,David D. King,I,0,counting,63.8,100
+statewide,2026 Governor,2026,Governor,,55005,Barron,Chad Muellenberg,I,0,counting,63.8,100
+statewide,2026 Governor,2026,Governor,,55005,Barron,Mary Morgan,I,0,counting,63.8,100
+statewide,2026 Governor,2026,Governor,,55005,Barron,Mark Grimek,I,0,counting,63.8,100
+statewide,2026 Governor,2026,Governor,,55005,Barron,Brayden Donnelly,I,0,counting,63.8,100
+statewide,2026 Governor,2026,Governor,,55005,Barron,Christine Kirchmiller,I,0,counting,63.8,100
+statewide,2026 Governor,2026,Governor,,55005,Barron,Reese Woods / Daniel Wagner,I,0,counting,63.8,100
+statewide,2026 Governor,2026,Governor,,55005,Barron,Write-in,W,0,counting,63.8,100
 statewide,2026 Governor,2026,Governor,,55007,Bayfield,David Crowley,D,1626,counting,27.8,100
 statewide,2026 Governor,2026,Governor,,55007,Bayfield,Tom Tiffany,R,1180,counting,27.8,100
 statewide,2026 Governor,2026,Governor,,55007,Bayfield,Ieshuh Griffin,I,0,counting,27.8,100
@@ -263,18 +47,18 @@ statewide,2026 Governor,2026,Governor,,55007,Bayfield,Brayden Donnelly,I,0,count
 statewide,2026 Governor,2026,Governor,,55007,Bayfield,Christine Kirchmiller,I,0,counting,27.8,100
 statewide,2026 Governor,2026,Governor,,55007,Bayfield,Reese Woods / Daniel Wagner,I,0,counting,27.8,100
 statewide,2026 Governor,2026,Governor,,55007,Bayfield,Write-in,W,0,counting,27.8,100
-statewide,2026 Governor,2026,Governor,,55009,Brown,Tom Tiffany,R,10180,counting,12.1,100
-statewide,2026 Governor,2026,Governor,,55009,Brown,David Crowley,D,5563,counting,12.1,100
-statewide,2026 Governor,2026,Governor,,55009,Brown,Ieshuh Griffin,I,0,counting,12.1,100
-statewide,2026 Governor,2026,Governor,,55009,Brown,Jamie Jo Carothers,I,0,counting,12.1,100
-statewide,2026 Governor,2026,Governor,,55009,Brown,David D. King,I,0,counting,12.1,100
-statewide,2026 Governor,2026,Governor,,55009,Brown,Chad Muellenberg,I,0,counting,12.1,100
-statewide,2026 Governor,2026,Governor,,55009,Brown,Mary Morgan,I,0,counting,12.1,100
-statewide,2026 Governor,2026,Governor,,55009,Brown,Mark Grimek,I,0,counting,12.1,100
-statewide,2026 Governor,2026,Governor,,55009,Brown,Brayden Donnelly,I,0,counting,12.1,100
-statewide,2026 Governor,2026,Governor,,55009,Brown,Christine Kirchmiller,I,0,counting,12.1,100
-statewide,2026 Governor,2026,Governor,,55009,Brown,Reese Woods / Daniel Wagner,I,0,counting,12.1,100
-statewide,2026 Governor,2026,Governor,,55009,Brown,Write-in,W,0,counting,12.1,100
+statewide,2026 Governor,2026,Governor,,55009,Brown,Tom Tiffany,R,24894,counting,32.7,100
+statewide,2026 Governor,2026,Governor,,55009,Brown,David Crowley,D,17866,counting,32.7,100
+statewide,2026 Governor,2026,Governor,,55009,Brown,Ieshuh Griffin,I,0,counting,32.7,100
+statewide,2026 Governor,2026,Governor,,55009,Brown,Jamie Jo Carothers,I,0,counting,32.7,100
+statewide,2026 Governor,2026,Governor,,55009,Brown,David D. King,I,0,counting,32.7,100
+statewide,2026 Governor,2026,Governor,,55009,Brown,Chad Muellenberg,I,0,counting,32.7,100
+statewide,2026 Governor,2026,Governor,,55009,Brown,Mary Morgan,I,0,counting,32.7,100
+statewide,2026 Governor,2026,Governor,,55009,Brown,Mark Grimek,I,0,counting,32.7,100
+statewide,2026 Governor,2026,Governor,,55009,Brown,Brayden Donnelly,I,0,counting,32.7,100
+statewide,2026 Governor,2026,Governor,,55009,Brown,Christine Kirchmiller,I,0,counting,32.7,100
+statewide,2026 Governor,2026,Governor,,55009,Brown,Reese Woods / Daniel Wagner,I,0,counting,32.7,100
+statewide,2026 Governor,2026,Governor,,55009,Brown,Write-in,W,0,counting,32.7,100
 statewide,2026 Governor,2026,Governor,,55011,Buffalo,David Crowley,D,0,counting,0,100
 statewide,2026 Governor,2026,Governor,,55011,Buffalo,Tom Tiffany,R,0,counting,0,100
 statewide,2026 Governor,2026,Governor,,55011,Buffalo,Ieshuh Griffin,I,0,counting,0,100
@@ -467,18 +251,18 @@ statewide,2026 Governor,2026,Governor,,55041,Forest,Brayden Donnelly,I,0,countin
 statewide,2026 Governor,2026,Governor,,55041,Forest,Christine Kirchmiller,I,0,counting,4,100
 statewide,2026 Governor,2026,Governor,,55041,Forest,Reese Woods / Daniel Wagner,I,0,counting,4,100
 statewide,2026 Governor,2026,Governor,,55041,Forest,Write-in,W,0,counting,4,100
-statewide,2026 Governor,2026,Governor,,55043,Grant,Tom Tiffany,R,4659,counting,34.6,100
-statewide,2026 Governor,2026,Governor,,55043,Grant,David Crowley,D,3525,counting,34.6,100
-statewide,2026 Governor,2026,Governor,,55043,Grant,Ieshuh Griffin,I,0,counting,34.6,100
-statewide,2026 Governor,2026,Governor,,55043,Grant,Jamie Jo Carothers,I,0,counting,34.6,100
-statewide,2026 Governor,2026,Governor,,55043,Grant,David D. King,I,0,counting,34.6,100
-statewide,2026 Governor,2026,Governor,,55043,Grant,Chad Muellenberg,I,0,counting,34.6,100
-statewide,2026 Governor,2026,Governor,,55043,Grant,Mary Morgan,I,0,counting,34.6,100
-statewide,2026 Governor,2026,Governor,,55043,Grant,Mark Grimek,I,0,counting,34.6,100
-statewide,2026 Governor,2026,Governor,,55043,Grant,Brayden Donnelly,I,0,counting,34.6,100
-statewide,2026 Governor,2026,Governor,,55043,Grant,Christine Kirchmiller,I,0,counting,34.6,100
-statewide,2026 Governor,2026,Governor,,55043,Grant,Reese Woods / Daniel Wagner,I,0,counting,34.6,100
-statewide,2026 Governor,2026,Governor,,55043,Grant,Write-in,W,0,counting,34.6,100
+statewide,2026 Governor,2026,Governor,,55043,Grant,Tom Tiffany,R,8090,counting,59.4,100
+statewide,2026 Governor,2026,Governor,,55043,Grant,David Crowley,D,5951,counting,59.4,100
+statewide,2026 Governor,2026,Governor,,55043,Grant,Ieshuh Griffin,I,0,counting,59.4,100
+statewide,2026 Governor,2026,Governor,,55043,Grant,Jamie Jo Carothers,I,0,counting,59.4,100
+statewide,2026 Governor,2026,Governor,,55043,Grant,David D. King,I,0,counting,59.4,100
+statewide,2026 Governor,2026,Governor,,55043,Grant,Chad Muellenberg,I,0,counting,59.4,100
+statewide,2026 Governor,2026,Governor,,55043,Grant,Mary Morgan,I,0,counting,59.4,100
+statewide,2026 Governor,2026,Governor,,55043,Grant,Mark Grimek,I,0,counting,59.4,100
+statewide,2026 Governor,2026,Governor,,55043,Grant,Brayden Donnelly,I,0,counting,59.4,100
+statewide,2026 Governor,2026,Governor,,55043,Grant,Christine Kirchmiller,I,0,counting,59.4,100
+statewide,2026 Governor,2026,Governor,,55043,Grant,Reese Woods / Daniel Wagner,I,0,counting,59.4,100
+statewide,2026 Governor,2026,Governor,,55043,Grant,Write-in,W,0,counting,59.4,100
 statewide,2026 Governor,2026,Governor,,55045,Green,David Crowley,D,4161,counting,36.5,100
 statewide,2026 Governor,2026,Governor,,55045,Green,Tom Tiffany,R,2949,counting,36.5,100
 statewide,2026 Governor,2026,Governor,,55045,Green,Ieshuh Griffin,I,0,counting,36.5,100
@@ -491,30 +275,30 @@ statewide,2026 Governor,2026,Governor,,55045,Green,Brayden Donnelly,I,0,counting
 statewide,2026 Governor,2026,Governor,,55045,Green,Christine Kirchmiller,I,0,counting,36.5,100
 statewide,2026 Governor,2026,Governor,,55045,Green,Reese Woods / Daniel Wagner,I,0,counting,36.5,100
 statewide,2026 Governor,2026,Governor,,55045,Green,Write-in,W,0,counting,36.5,100
-statewide,2026 Governor,2026,Governor,,55047,Green Lake,David Crowley,D,0,counting,0,100
-statewide,2026 Governor,2026,Governor,,55047,Green Lake,Tom Tiffany,R,0,counting,0,100
-statewide,2026 Governor,2026,Governor,,55047,Green Lake,Ieshuh Griffin,I,0,counting,0,100
-statewide,2026 Governor,2026,Governor,,55047,Green Lake,Jamie Jo Carothers,I,0,counting,0,100
-statewide,2026 Governor,2026,Governor,,55047,Green Lake,David D. King,I,0,counting,0,100
-statewide,2026 Governor,2026,Governor,,55047,Green Lake,Chad Muellenberg,I,0,counting,0,100
-statewide,2026 Governor,2026,Governor,,55047,Green Lake,Mary Morgan,I,0,counting,0,100
-statewide,2026 Governor,2026,Governor,,55047,Green Lake,Mark Grimek,I,0,counting,0,100
-statewide,2026 Governor,2026,Governor,,55047,Green Lake,Brayden Donnelly,I,0,counting,0,100
-statewide,2026 Governor,2026,Governor,,55047,Green Lake,Christine Kirchmiller,I,0,counting,0,100
-statewide,2026 Governor,2026,Governor,,55047,Green Lake,Reese Woods / Daniel Wagner,I,0,counting,0,100
-statewide,2026 Governor,2026,Governor,,55047,Green Lake,Write-in,W,0,counting,0,100
-statewide,2026 Governor,2026,Governor,,55049,Iowa,David Crowley,D,1705,counting,24.8,100
-statewide,2026 Governor,2026,Governor,,55049,Iowa,Tom Tiffany,R,1482,counting,24.8,100
-statewide,2026 Governor,2026,Governor,,55049,Iowa,Ieshuh Griffin,I,0,counting,24.8,100
-statewide,2026 Governor,2026,Governor,,55049,Iowa,Jamie Jo Carothers,I,0,counting,24.8,100
-statewide,2026 Governor,2026,Governor,,55049,Iowa,David D. King,I,0,counting,24.8,100
-statewide,2026 Governor,2026,Governor,,55049,Iowa,Chad Muellenberg,I,0,counting,24.8,100
-statewide,2026 Governor,2026,Governor,,55049,Iowa,Mary Morgan,I,0,counting,24.8,100
-statewide,2026 Governor,2026,Governor,,55049,Iowa,Mark Grimek,I,0,counting,24.8,100
-statewide,2026 Governor,2026,Governor,,55049,Iowa,Brayden Donnelly,I,0,counting,24.8,100
-statewide,2026 Governor,2026,Governor,,55049,Iowa,Christine Kirchmiller,I,0,counting,24.8,100
-statewide,2026 Governor,2026,Governor,,55049,Iowa,Reese Woods / Daniel Wagner,I,0,counting,24.8,100
-statewide,2026 Governor,2026,Governor,,55049,Iowa,Write-in,W,0,counting,24.8,100
+statewide,2026 Governor,2026,Governor,,55047,Green Lake,Tom Tiffany,R,2526,counting,35.9,100
+statewide,2026 Governor,2026,Governor,,55047,Green Lake,David Crowley,D,964,counting,35.9,100
+statewide,2026 Governor,2026,Governor,,55047,Green Lake,Ieshuh Griffin,I,0,counting,35.9,100
+statewide,2026 Governor,2026,Governor,,55047,Green Lake,Jamie Jo Carothers,I,0,counting,35.9,100
+statewide,2026 Governor,2026,Governor,,55047,Green Lake,David D. King,I,0,counting,35.9,100
+statewide,2026 Governor,2026,Governor,,55047,Green Lake,Chad Muellenberg,I,0,counting,35.9,100
+statewide,2026 Governor,2026,Governor,,55047,Green Lake,Mary Morgan,I,0,counting,35.9,100
+statewide,2026 Governor,2026,Governor,,55047,Green Lake,Mark Grimek,I,0,counting,35.9,100
+statewide,2026 Governor,2026,Governor,,55047,Green Lake,Brayden Donnelly,I,0,counting,35.9,100
+statewide,2026 Governor,2026,Governor,,55047,Green Lake,Christine Kirchmiller,I,0,counting,35.9,100
+statewide,2026 Governor,2026,Governor,,55047,Green Lake,Reese Woods / Daniel Wagner,I,0,counting,35.9,100
+statewide,2026 Governor,2026,Governor,,55047,Green Lake,Write-in,W,0,counting,35.9,100
+statewide,2026 Governor,2026,Governor,,55049,Iowa,David Crowley,D,3768,counting,50.4,100
+statewide,2026 Governor,2026,Governor,,55049,Iowa,Tom Tiffany,R,2710,counting,50.4,100
+statewide,2026 Governor,2026,Governor,,55049,Iowa,Ieshuh Griffin,I,0,counting,50.4,100
+statewide,2026 Governor,2026,Governor,,55049,Iowa,Jamie Jo Carothers,I,0,counting,50.4,100
+statewide,2026 Governor,2026,Governor,,55049,Iowa,David D. King,I,0,counting,50.4,100
+statewide,2026 Governor,2026,Governor,,55049,Iowa,Chad Muellenberg,I,0,counting,50.4,100
+statewide,2026 Governor,2026,Governor,,55049,Iowa,Mary Morgan,I,0,counting,50.4,100
+statewide,2026 Governor,2026,Governor,,55049,Iowa,Mark Grimek,I,0,counting,50.4,100
+statewide,2026 Governor,2026,Governor,,55049,Iowa,Brayden Donnelly,I,0,counting,50.4,100
+statewide,2026 Governor,2026,Governor,,55049,Iowa,Christine Kirchmiller,I,0,counting,50.4,100
+statewide,2026 Governor,2026,Governor,,55049,Iowa,Reese Woods / Daniel Wagner,I,0,counting,50.4,100
+statewide,2026 Governor,2026,Governor,,55049,Iowa,Write-in,W,0,counting,50.4,100
 statewide,2026 Governor,2026,Governor,,55051,Iron,Tom Tiffany,R,67,counting,3.3,100
 statewide,2026 Governor,2026,Governor,,55051,Iron,David Crowley,D,53,counting,3.3,100
 statewide,2026 Governor,2026,Governor,,55051,Iron,Ieshuh Griffin,I,0,counting,3.3,100
@@ -527,18 +311,18 @@ statewide,2026 Governor,2026,Governor,,55051,Iron,Brayden Donnelly,I,0,counting,
 statewide,2026 Governor,2026,Governor,,55051,Iron,Christine Kirchmiller,I,0,counting,3.3,100
 statewide,2026 Governor,2026,Governor,,55051,Iron,Reese Woods / Daniel Wagner,I,0,counting,3.3,100
 statewide,2026 Governor,2026,Governor,,55051,Iron,Write-in,W,0,counting,3.3,100
-statewide,2026 Governor,2026,Governor,,55053,Jackson,Tom Tiffany,R,1729,counting,29.4,100
-statewide,2026 Governor,2026,Governor,,55053,Jackson,David Crowley,D,1004,counting,29.4,100
-statewide,2026 Governor,2026,Governor,,55053,Jackson,Ieshuh Griffin,I,0,counting,29.4,100
-statewide,2026 Governor,2026,Governor,,55053,Jackson,Jamie Jo Carothers,I,0,counting,29.4,100
-statewide,2026 Governor,2026,Governor,,55053,Jackson,David D. King,I,0,counting,29.4,100
-statewide,2026 Governor,2026,Governor,,55053,Jackson,Chad Muellenberg,I,0,counting,29.4,100
-statewide,2026 Governor,2026,Governor,,55053,Jackson,Mary Morgan,I,0,counting,29.4,100
-statewide,2026 Governor,2026,Governor,,55053,Jackson,Mark Grimek,I,0,counting,29.4,100
-statewide,2026 Governor,2026,Governor,,55053,Jackson,Brayden Donnelly,I,0,counting,29.4,100
-statewide,2026 Governor,2026,Governor,,55053,Jackson,Christine Kirchmiller,I,0,counting,29.4,100
-statewide,2026 Governor,2026,Governor,,55053,Jackson,Reese Woods / Daniel Wagner,I,0,counting,29.4,100
-statewide,2026 Governor,2026,Governor,,55053,Jackson,Write-in,W,0,counting,29.4,100
+statewide,2026 Governor,2026,Governor,,55053,Jackson,Tom Tiffany,R,3422,counting,65.7,100
+statewide,2026 Governor,2026,Governor,,55053,Jackson,David Crowley,D,2680,counting,65.7,100
+statewide,2026 Governor,2026,Governor,,55053,Jackson,Ieshuh Griffin,I,0,counting,65.7,100
+statewide,2026 Governor,2026,Governor,,55053,Jackson,Jamie Jo Carothers,I,0,counting,65.7,100
+statewide,2026 Governor,2026,Governor,,55053,Jackson,David D. King,I,0,counting,65.7,100
+statewide,2026 Governor,2026,Governor,,55053,Jackson,Chad Muellenberg,I,0,counting,65.7,100
+statewide,2026 Governor,2026,Governor,,55053,Jackson,Mary Morgan,I,0,counting,65.7,100
+statewide,2026 Governor,2026,Governor,,55053,Jackson,Mark Grimek,I,0,counting,65.7,100
+statewide,2026 Governor,2026,Governor,,55053,Jackson,Brayden Donnelly,I,0,counting,65.7,100
+statewide,2026 Governor,2026,Governor,,55053,Jackson,Christine Kirchmiller,I,0,counting,65.7,100
+statewide,2026 Governor,2026,Governor,,55053,Jackson,Reese Woods / Daniel Wagner,I,0,counting,65.7,100
+statewide,2026 Governor,2026,Governor,,55053,Jackson,Write-in,W,0,counting,65.7,100
 statewide,2026 Governor,2026,Governor,,55055,Jefferson,Tom Tiffany,R,18519,counting,77.8,100
 statewide,2026 Governor,2026,Governor,,55055,Jefferson,David Crowley,D,15511,counting,77.8,100
 statewide,2026 Governor,2026,Governor,,55055,Jefferson,Ieshuh Griffin,I,0,counting,77.8,100
@@ -563,30 +347,30 @@ statewide,2026 Governor,2026,Governor,,55057,Juneau,Brayden Donnelly,I,0,countin
 statewide,2026 Governor,2026,Governor,,55057,Juneau,Christine Kirchmiller,I,0,counting,11,100
 statewide,2026 Governor,2026,Governor,,55057,Juneau,Reese Woods / Daniel Wagner,I,0,counting,11,100
 statewide,2026 Governor,2026,Governor,,55057,Juneau,Write-in,W,0,counting,11,100
-statewide,2026 Governor,2026,Governor,,55059,Kenosha,Tom Tiffany,R,27530,counting,69.6,100
-statewide,2026 Governor,2026,Governor,,55059,Kenosha,David Crowley,D,26702,counting,69.6,100
-statewide,2026 Governor,2026,Governor,,55059,Kenosha,Ieshuh Griffin,I,0,counting,69.6,100
-statewide,2026 Governor,2026,Governor,,55059,Kenosha,Jamie Jo Carothers,I,0,counting,69.6,100
-statewide,2026 Governor,2026,Governor,,55059,Kenosha,David D. King,I,0,counting,69.6,100
-statewide,2026 Governor,2026,Governor,,55059,Kenosha,Chad Muellenberg,I,0,counting,69.6,100
-statewide,2026 Governor,2026,Governor,,55059,Kenosha,Mary Morgan,I,0,counting,69.6,100
-statewide,2026 Governor,2026,Governor,,55059,Kenosha,Mark Grimek,I,0,counting,69.6,100
-statewide,2026 Governor,2026,Governor,,55059,Kenosha,Brayden Donnelly,I,0,counting,69.6,100
-statewide,2026 Governor,2026,Governor,,55059,Kenosha,Christine Kirchmiller,I,0,counting,69.6,100
-statewide,2026 Governor,2026,Governor,,55059,Kenosha,Reese Woods / Daniel Wagner,I,0,counting,69.6,100
-statewide,2026 Governor,2026,Governor,,55059,Kenosha,Write-in,W,0,counting,69.6,100
-statewide,2026 Governor,2026,Governor,,55061,Kewaunee,Tom Tiffany,R,2561,counting,33.9,100
-statewide,2026 Governor,2026,Governor,,55061,Kewaunee,David Crowley,D,1126,counting,33.9,100
-statewide,2026 Governor,2026,Governor,,55061,Kewaunee,Ieshuh Griffin,I,0,counting,33.9,100
-statewide,2026 Governor,2026,Governor,,55061,Kewaunee,Jamie Jo Carothers,I,0,counting,33.9,100
-statewide,2026 Governor,2026,Governor,,55061,Kewaunee,David D. King,I,0,counting,33.9,100
-statewide,2026 Governor,2026,Governor,,55061,Kewaunee,Chad Muellenberg,I,0,counting,33.9,100
-statewide,2026 Governor,2026,Governor,,55061,Kewaunee,Mary Morgan,I,0,counting,33.9,100
-statewide,2026 Governor,2026,Governor,,55061,Kewaunee,Mark Grimek,I,0,counting,33.9,100
-statewide,2026 Governor,2026,Governor,,55061,Kewaunee,Brayden Donnelly,I,0,counting,33.9,100
-statewide,2026 Governor,2026,Governor,,55061,Kewaunee,Christine Kirchmiller,I,0,counting,33.9,100
-statewide,2026 Governor,2026,Governor,,55061,Kewaunee,Reese Woods / Daniel Wagner,I,0,counting,33.9,100
-statewide,2026 Governor,2026,Governor,,55061,Kewaunee,Write-in,W,0,counting,33.9,100
+statewide,2026 Governor,2026,Governor,,55059,Kenosha,Tom Tiffany,R,28398,counting,71.6,100
+statewide,2026 Governor,2026,Governor,,55059,Kenosha,David Crowley,D,27439,counting,71.6,100
+statewide,2026 Governor,2026,Governor,,55059,Kenosha,Ieshuh Griffin,I,0,counting,71.6,100
+statewide,2026 Governor,2026,Governor,,55059,Kenosha,Jamie Jo Carothers,I,0,counting,71.6,100
+statewide,2026 Governor,2026,Governor,,55059,Kenosha,David D. King,I,0,counting,71.6,100
+statewide,2026 Governor,2026,Governor,,55059,Kenosha,Chad Muellenberg,I,0,counting,71.6,100
+statewide,2026 Governor,2026,Governor,,55059,Kenosha,Mary Morgan,I,0,counting,71.6,100
+statewide,2026 Governor,2026,Governor,,55059,Kenosha,Mark Grimek,I,0,counting,71.6,100
+statewide,2026 Governor,2026,Governor,,55059,Kenosha,Brayden Donnelly,I,0,counting,71.6,100
+statewide,2026 Governor,2026,Governor,,55059,Kenosha,Christine Kirchmiller,I,0,counting,71.6,100
+statewide,2026 Governor,2026,Governor,,55059,Kenosha,Reese Woods / Daniel Wagner,I,0,counting,71.6,100
+statewide,2026 Governor,2026,Governor,,55059,Kenosha,Write-in,W,0,counting,71.6,100
+statewide,2026 Governor,2026,Governor,,55061,Kewaunee,Tom Tiffany,R,3852,counting,55.3,100
+statewide,2026 Governor,2026,Governor,,55061,Kewaunee,David Crowley,D,2173,counting,55.3,100
+statewide,2026 Governor,2026,Governor,,55061,Kewaunee,Ieshuh Griffin,I,0,counting,55.3,100
+statewide,2026 Governor,2026,Governor,,55061,Kewaunee,Jamie Jo Carothers,I,0,counting,55.3,100
+statewide,2026 Governor,2026,Governor,,55061,Kewaunee,David D. King,I,0,counting,55.3,100
+statewide,2026 Governor,2026,Governor,,55061,Kewaunee,Chad Muellenberg,I,0,counting,55.3,100
+statewide,2026 Governor,2026,Governor,,55061,Kewaunee,Mary Morgan,I,0,counting,55.3,100
+statewide,2026 Governor,2026,Governor,,55061,Kewaunee,Mark Grimek,I,0,counting,55.3,100
+statewide,2026 Governor,2026,Governor,,55061,Kewaunee,Brayden Donnelly,I,0,counting,55.3,100
+statewide,2026 Governor,2026,Governor,,55061,Kewaunee,Christine Kirchmiller,I,0,counting,55.3,100
+statewide,2026 Governor,2026,Governor,,55061,Kewaunee,Reese Woods / Daniel Wagner,I,0,counting,55.3,100
+statewide,2026 Governor,2026,Governor,,55061,Kewaunee,Write-in,W,0,counting,55.3,100
 statewide,2026 Governor,2026,Governor,,55063,La Crosse,David Crowley,D,0,counting,0,100
 statewide,2026 Governor,2026,Governor,,55063,La Crosse,Tom Tiffany,R,0,counting,0,100
 statewide,2026 Governor,2026,Governor,,55063,La Crosse,Write-in,W,0,counting,0,100
@@ -635,18 +419,18 @@ statewide,2026 Governor,2026,Governor,,55069,Lincoln,Brayden Donnelly,I,0,counti
 statewide,2026 Governor,2026,Governor,,55069,Lincoln,Christine Kirchmiller,I,0,counting,38.6,100
 statewide,2026 Governor,2026,Governor,,55069,Lincoln,Reese Woods / Daniel Wagner,I,0,counting,38.6,100
 statewide,2026 Governor,2026,Governor,,55069,Lincoln,Write-in,W,0,counting,38.6,100
-statewide,2026 Governor,2026,Governor,,55071,Manitowoc,Tom Tiffany,R,6734,counting,24,100
-statewide,2026 Governor,2026,Governor,,55071,Manitowoc,David Crowley,D,3042,counting,24,100
-statewide,2026 Governor,2026,Governor,,55071,Manitowoc,Ieshuh Griffin,I,0,counting,24,100
-statewide,2026 Governor,2026,Governor,,55071,Manitowoc,Jamie Jo Carothers,I,0,counting,24,100
-statewide,2026 Governor,2026,Governor,,55071,Manitowoc,David D. King,I,0,counting,24,100
-statewide,2026 Governor,2026,Governor,,55071,Manitowoc,Chad Muellenberg,I,0,counting,24,100
-statewide,2026 Governor,2026,Governor,,55071,Manitowoc,Mary Morgan,I,0,counting,24,100
-statewide,2026 Governor,2026,Governor,,55071,Manitowoc,Mark Grimek,I,0,counting,24,100
-statewide,2026 Governor,2026,Governor,,55071,Manitowoc,Brayden Donnelly,I,0,counting,24,100
-statewide,2026 Governor,2026,Governor,,55071,Manitowoc,Christine Kirchmiller,I,0,counting,24,100
-statewide,2026 Governor,2026,Governor,,55071,Manitowoc,Reese Woods / Daniel Wagner,I,0,counting,24,100
-statewide,2026 Governor,2026,Governor,,55071,Manitowoc,Write-in,W,0,counting,24,100
+statewide,2026 Governor,2026,Governor,,55071,Manitowoc,Tom Tiffany,R,8113,counting,29,100
+statewide,2026 Governor,2026,Governor,,55071,Manitowoc,David Crowley,D,3687,counting,29,100
+statewide,2026 Governor,2026,Governor,,55071,Manitowoc,Ieshuh Griffin,I,0,counting,29,100
+statewide,2026 Governor,2026,Governor,,55071,Manitowoc,Jamie Jo Carothers,I,0,counting,29,100
+statewide,2026 Governor,2026,Governor,,55071,Manitowoc,David D. King,I,0,counting,29,100
+statewide,2026 Governor,2026,Governor,,55071,Manitowoc,Chad Muellenberg,I,0,counting,29,100
+statewide,2026 Governor,2026,Governor,,55071,Manitowoc,Mary Morgan,I,0,counting,29,100
+statewide,2026 Governor,2026,Governor,,55071,Manitowoc,Mark Grimek,I,0,counting,29,100
+statewide,2026 Governor,2026,Governor,,55071,Manitowoc,Brayden Donnelly,I,0,counting,29,100
+statewide,2026 Governor,2026,Governor,,55071,Manitowoc,Christine Kirchmiller,I,0,counting,29,100
+statewide,2026 Governor,2026,Governor,,55071,Manitowoc,Reese Woods / Daniel Wagner,I,0,counting,29,100
+statewide,2026 Governor,2026,Governor,,55071,Manitowoc,Write-in,W,0,counting,29,100
 statewide,2026 Governor,2026,Governor,,55073,Marathon,Tom Tiffany,R,31178,counting,79,100
 statewide,2026 Governor,2026,Governor,,55073,Marathon,David Crowley,D,23541,counting,79,100
 statewide,2026 Governor,2026,Governor,,55073,Marathon,Ieshuh Griffin,I,0,counting,79,100
@@ -791,18 +575,18 @@ statewide,2026 Governor,2026,Governor,,55093,Pierce,Brayden Donnelly,I,0,countin
 statewide,2026 Governor,2026,Governor,,55093,Pierce,Christine Kirchmiller,I,0,counting,0,100
 statewide,2026 Governor,2026,Governor,,55093,Pierce,Reese Woods / Daniel Wagner,I,0,counting,0,100
 statewide,2026 Governor,2026,Governor,,55093,Pierce,Write-in,W,0,counting,0,100
-statewide,2026 Governor,2026,Governor,,55095,Polk,Tom Tiffany,R,3144,counting,20.3,100
-statewide,2026 Governor,2026,Governor,,55095,Polk,David Crowley,D,1648,counting,20.3,100
-statewide,2026 Governor,2026,Governor,,55095,Polk,Ieshuh Griffin,I,0,counting,20.3,100
-statewide,2026 Governor,2026,Governor,,55095,Polk,Jamie Jo Carothers,I,0,counting,20.3,100
-statewide,2026 Governor,2026,Governor,,55095,Polk,David D. King,I,0,counting,20.3,100
-statewide,2026 Governor,2026,Governor,,55095,Polk,Chad Muellenberg,I,0,counting,20.3,100
-statewide,2026 Governor,2026,Governor,,55095,Polk,Mary Morgan,I,0,counting,20.3,100
-statewide,2026 Governor,2026,Governor,,55095,Polk,Mark Grimek,I,0,counting,20.3,100
-statewide,2026 Governor,2026,Governor,,55095,Polk,Brayden Donnelly,I,0,counting,20.3,100
-statewide,2026 Governor,2026,Governor,,55095,Polk,Christine Kirchmiller,I,0,counting,20.3,100
-statewide,2026 Governor,2026,Governor,,55095,Polk,Reese Woods / Daniel Wagner,I,0,counting,20.3,100
-statewide,2026 Governor,2026,Governor,,55095,Polk,Write-in,W,0,counting,20.3,100
+statewide,2026 Governor,2026,Governor,,55095,Polk,Tom Tiffany,R,3793,counting,25.3,100
+statewide,2026 Governor,2026,Governor,,55095,Polk,David Crowley,D,2203,counting,25.3,100
+statewide,2026 Governor,2026,Governor,,55095,Polk,Ieshuh Griffin,I,0,counting,25.3,100
+statewide,2026 Governor,2026,Governor,,55095,Polk,Jamie Jo Carothers,I,0,counting,25.3,100
+statewide,2026 Governor,2026,Governor,,55095,Polk,David D. King,I,0,counting,25.3,100
+statewide,2026 Governor,2026,Governor,,55095,Polk,Chad Muellenberg,I,0,counting,25.3,100
+statewide,2026 Governor,2026,Governor,,55095,Polk,Mary Morgan,I,0,counting,25.3,100
+statewide,2026 Governor,2026,Governor,,55095,Polk,Mark Grimek,I,0,counting,25.3,100
+statewide,2026 Governor,2026,Governor,,55095,Polk,Brayden Donnelly,I,0,counting,25.3,100
+statewide,2026 Governor,2026,Governor,,55095,Polk,Christine Kirchmiller,I,0,counting,25.3,100
+statewide,2026 Governor,2026,Governor,,55095,Polk,Reese Woods / Daniel Wagner,I,0,counting,25.3,100
+statewide,2026 Governor,2026,Governor,,55095,Polk,Write-in,W,0,counting,25.3,100
 statewide,2026 Governor,2026,Governor,,55097,Portage,David Crowley,D,3729,counting,17.4,100
 statewide,2026 Governor,2026,Governor,,55097,Portage,Tom Tiffany,R,2871,counting,17.4,100
 statewide,2026 Governor,2026,Governor,,55097,Portage,Ieshuh Griffin,I,0,counting,17.4,100
@@ -851,18 +635,18 @@ statewide,2026 Governor,2026,Governor,,55103,Richland,Brayden Donnelly,I,0,count
 statewide,2026 Governor,2026,Governor,,55103,Richland,Christine Kirchmiller,I,0,counting,8.6,100
 statewide,2026 Governor,2026,Governor,,55103,Richland,Reese Woods / Daniel Wagner,I,0,counting,8.6,100
 statewide,2026 Governor,2026,Governor,,55103,Richland,Write-in,W,0,counting,8.6,100
-statewide,2026 Governor,2026,Governor,,55105,Rock,David Crowley,D,28028,counting,65.9,100
-statewide,2026 Governor,2026,Governor,,55105,Rock,Tom Tiffany,R,22221,counting,65.9,100
-statewide,2026 Governor,2026,Governor,,55105,Rock,Ieshuh Griffin,I,0,counting,65.9,100
-statewide,2026 Governor,2026,Governor,,55105,Rock,Jamie Jo Carothers,I,0,counting,65.9,100
-statewide,2026 Governor,2026,Governor,,55105,Rock,David D. King,I,0,counting,65.9,100
-statewide,2026 Governor,2026,Governor,,55105,Rock,Chad Muellenberg,I,0,counting,65.9,100
-statewide,2026 Governor,2026,Governor,,55105,Rock,Mary Morgan,I,0,counting,65.9,100
-statewide,2026 Governor,2026,Governor,,55105,Rock,Mark Grimek,I,0,counting,65.9,100
-statewide,2026 Governor,2026,Governor,,55105,Rock,Brayden Donnelly,I,0,counting,65.9,100
-statewide,2026 Governor,2026,Governor,,55105,Rock,Christine Kirchmiller,I,0,counting,65.9,100
-statewide,2026 Governor,2026,Governor,,55105,Rock,Reese Woods / Daniel Wagner,I,0,counting,65.9,100
-statewide,2026 Governor,2026,Governor,,55105,Rock,Write-in,W,0,counting,65.9,100
+statewide,2026 Governor,2026,Governor,,55105,Rock,David Crowley,D,31749,counting,73.5,100
+statewide,2026 Governor,2026,Governor,,55105,Rock,Tom Tiffany,R,24307,counting,73.5,100
+statewide,2026 Governor,2026,Governor,,55105,Rock,Ieshuh Griffin,I,0,counting,73.5,100
+statewide,2026 Governor,2026,Governor,,55105,Rock,Jamie Jo Carothers,I,0,counting,73.5,100
+statewide,2026 Governor,2026,Governor,,55105,Rock,David D. King,I,0,counting,73.5,100
+statewide,2026 Governor,2026,Governor,,55105,Rock,Chad Muellenberg,I,0,counting,73.5,100
+statewide,2026 Governor,2026,Governor,,55105,Rock,Mary Morgan,I,0,counting,73.5,100
+statewide,2026 Governor,2026,Governor,,55105,Rock,Mark Grimek,I,0,counting,73.5,100
+statewide,2026 Governor,2026,Governor,,55105,Rock,Brayden Donnelly,I,0,counting,73.5,100
+statewide,2026 Governor,2026,Governor,,55105,Rock,Christine Kirchmiller,I,0,counting,73.5,100
+statewide,2026 Governor,2026,Governor,,55105,Rock,Reese Woods / Daniel Wagner,I,0,counting,73.5,100
+statewide,2026 Governor,2026,Governor,,55105,Rock,Write-in,W,0,counting,73.5,100
 statewide,2026 Governor,2026,Governor,,55107,Rusk,David Crowley,D,0,counting,0,100
 statewide,2026 Governor,2026,Governor,,55107,Rusk,Tom Tiffany,R,0,counting,0,100
 statewide,2026 Governor,2026,Governor,,55107,Rusk,Ieshuh Griffin,I,0,counting,0,100
@@ -995,42 +779,42 @@ statewide,2026 Governor,2026,Governor,,55127,Walworth,Brayden Donnelly,I,0,count
 statewide,2026 Governor,2026,Governor,,55127,Walworth,Christine Kirchmiller,I,0,counting,89.7,100
 statewide,2026 Governor,2026,Governor,,55127,Walworth,Reese Woods / Daniel Wagner,I,0,counting,89.7,100
 statewide,2026 Governor,2026,Governor,,55127,Walworth,Write-in,W,0,counting,89.7,100
-statewide,2026 Governor,2026,Governor,,55129,Washburn,David Crowley,D,0,counting,0,100
-statewide,2026 Governor,2026,Governor,,55129,Washburn,Tom Tiffany,R,0,counting,0,100
-statewide,2026 Governor,2026,Governor,,55129,Washburn,Ieshuh Griffin,I,0,counting,0,100
-statewide,2026 Governor,2026,Governor,,55129,Washburn,Jamie Jo Carothers,I,0,counting,0,100
-statewide,2026 Governor,2026,Governor,,55129,Washburn,David D. King,I,0,counting,0,100
-statewide,2026 Governor,2026,Governor,,55129,Washburn,Chad Muellenberg,I,0,counting,0,100
-statewide,2026 Governor,2026,Governor,,55129,Washburn,Mary Morgan,I,0,counting,0,100
-statewide,2026 Governor,2026,Governor,,55129,Washburn,Mark Grimek,I,0,counting,0,100
-statewide,2026 Governor,2026,Governor,,55129,Washburn,Brayden Donnelly,I,0,counting,0,100
-statewide,2026 Governor,2026,Governor,,55129,Washburn,Christine Kirchmiller,I,0,counting,0,100
-statewide,2026 Governor,2026,Governor,,55129,Washburn,Reese Woods / Daniel Wagner,I,0,counting,0,100
-statewide,2026 Governor,2026,Governor,,55129,Washburn,Write-in,W,0,counting,0,100
-statewide,2026 Governor,2026,Governor,,55131,Washington,Tom Tiffany,R,33573,counting,62.8,100
-statewide,2026 Governor,2026,Governor,,55131,Washington,David Crowley,D,16301,counting,62.8,100
-statewide,2026 Governor,2026,Governor,,55131,Washington,Ieshuh Griffin,I,0,counting,62.8,100
-statewide,2026 Governor,2026,Governor,,55131,Washington,Jamie Jo Carothers,I,0,counting,62.8,100
-statewide,2026 Governor,2026,Governor,,55131,Washington,David D. King,I,0,counting,62.8,100
-statewide,2026 Governor,2026,Governor,,55131,Washington,Chad Muellenberg,I,0,counting,62.8,100
-statewide,2026 Governor,2026,Governor,,55131,Washington,Mary Morgan,I,0,counting,62.8,100
-statewide,2026 Governor,2026,Governor,,55131,Washington,Mark Grimek,I,0,counting,62.8,100
-statewide,2026 Governor,2026,Governor,,55131,Washington,Brayden Donnelly,I,0,counting,62.8,100
-statewide,2026 Governor,2026,Governor,,55131,Washington,Christine Kirchmiller,I,0,counting,62.8,100
-statewide,2026 Governor,2026,Governor,,55131,Washington,Reese Woods / Daniel Wagner,I,0,counting,62.8,100
-statewide,2026 Governor,2026,Governor,,55131,Washington,Write-in,W,0,counting,62.8,100
-statewide,2026 Governor,2026,Governor,,55133,Waukesha,Tom Tiffany,R,106753,counting,75.3,100
-statewide,2026 Governor,2026,Governor,,55133,Waukesha,David Crowley,D,75082,counting,75.3,100
-statewide,2026 Governor,2026,Governor,,55133,Waukesha,Ieshuh Griffin,I,0,counting,75.3,100
-statewide,2026 Governor,2026,Governor,,55133,Waukesha,Jamie Jo Carothers,I,0,counting,75.3,100
-statewide,2026 Governor,2026,Governor,,55133,Waukesha,David D. King,I,0,counting,75.3,100
-statewide,2026 Governor,2026,Governor,,55133,Waukesha,Chad Muellenberg,I,0,counting,75.3,100
-statewide,2026 Governor,2026,Governor,,55133,Waukesha,Mary Morgan,I,0,counting,75.3,100
-statewide,2026 Governor,2026,Governor,,55133,Waukesha,Mark Grimek,I,0,counting,75.3,100
-statewide,2026 Governor,2026,Governor,,55133,Waukesha,Brayden Donnelly,I,0,counting,75.3,100
-statewide,2026 Governor,2026,Governor,,55133,Waukesha,Christine Kirchmiller,I,0,counting,75.3,100
-statewide,2026 Governor,2026,Governor,,55133,Waukesha,Reese Woods / Daniel Wagner,I,0,counting,75.3,100
-statewide,2026 Governor,2026,Governor,,55133,Waukesha,Write-in,W,0,counting,75.3,100
+statewide,2026 Governor,2026,Governor,,55129,Washburn,Tom Tiffany,R,594,counting,10,100
+statewide,2026 Governor,2026,Governor,,55129,Washburn,David Crowley,D,349,counting,10,100
+statewide,2026 Governor,2026,Governor,,55129,Washburn,Ieshuh Griffin,I,0,counting,10,100
+statewide,2026 Governor,2026,Governor,,55129,Washburn,Jamie Jo Carothers,I,0,counting,10,100
+statewide,2026 Governor,2026,Governor,,55129,Washburn,David D. King,I,0,counting,10,100
+statewide,2026 Governor,2026,Governor,,55129,Washburn,Chad Muellenberg,I,0,counting,10,100
+statewide,2026 Governor,2026,Governor,,55129,Washburn,Mary Morgan,I,0,counting,10,100
+statewide,2026 Governor,2026,Governor,,55129,Washburn,Mark Grimek,I,0,counting,10,100
+statewide,2026 Governor,2026,Governor,,55129,Washburn,Brayden Donnelly,I,0,counting,10,100
+statewide,2026 Governor,2026,Governor,,55129,Washburn,Christine Kirchmiller,I,0,counting,10,100
+statewide,2026 Governor,2026,Governor,,55129,Washburn,Reese Woods / Daniel Wagner,I,0,counting,10,100
+statewide,2026 Governor,2026,Governor,,55129,Washburn,Write-in,W,0,counting,10,100
+statewide,2026 Governor,2026,Governor,,55131,Washington,Tom Tiffany,R,40014,counting,74.6,100
+statewide,2026 Governor,2026,Governor,,55131,Washington,David Crowley,D,19209,counting,74.6,100
+statewide,2026 Governor,2026,Governor,,55131,Washington,Ieshuh Griffin,I,0,counting,74.6,100
+statewide,2026 Governor,2026,Governor,,55131,Washington,Jamie Jo Carothers,I,0,counting,74.6,100
+statewide,2026 Governor,2026,Governor,,55131,Washington,David D. King,I,0,counting,74.6,100
+statewide,2026 Governor,2026,Governor,,55131,Washington,Chad Muellenberg,I,0,counting,74.6,100
+statewide,2026 Governor,2026,Governor,,55131,Washington,Mary Morgan,I,0,counting,74.6,100
+statewide,2026 Governor,2026,Governor,,55131,Washington,Mark Grimek,I,0,counting,74.6,100
+statewide,2026 Governor,2026,Governor,,55131,Washington,Brayden Donnelly,I,0,counting,74.6,100
+statewide,2026 Governor,2026,Governor,,55131,Washington,Christine Kirchmiller,I,0,counting,74.6,100
+statewide,2026 Governor,2026,Governor,,55131,Washington,Reese Woods / Daniel Wagner,I,0,counting,74.6,100
+statewide,2026 Governor,2026,Governor,,55131,Washington,Write-in,W,0,counting,74.6,100
+statewide,2026 Governor,2026,Governor,,55133,Waukesha,Tom Tiffany,R,112380,counting,79.7,100
+statewide,2026 Governor,2026,Governor,,55133,Waukesha,David Crowley,D,80046,counting,79.7,100
+statewide,2026 Governor,2026,Governor,,55133,Waukesha,Ieshuh Griffin,I,0,counting,79.7,100
+statewide,2026 Governor,2026,Governor,,55133,Waukesha,Jamie Jo Carothers,I,0,counting,79.7,100
+statewide,2026 Governor,2026,Governor,,55133,Waukesha,David D. King,I,0,counting,79.7,100
+statewide,2026 Governor,2026,Governor,,55133,Waukesha,Chad Muellenberg,I,0,counting,79.7,100
+statewide,2026 Governor,2026,Governor,,55133,Waukesha,Mary Morgan,I,0,counting,79.7,100
+statewide,2026 Governor,2026,Governor,,55133,Waukesha,Mark Grimek,I,0,counting,79.7,100
+statewide,2026 Governor,2026,Governor,,55133,Waukesha,Brayden Donnelly,I,0,counting,79.7,100
+statewide,2026 Governor,2026,Governor,,55133,Waukesha,Christine Kirchmiller,I,0,counting,79.7,100
+statewide,2026 Governor,2026,Governor,,55133,Waukesha,Reese Woods / Daniel Wagner,I,0,counting,79.7,100
+statewide,2026 Governor,2026,Governor,,55133,Waukesha,Write-in,W,0,counting,79.7,100
 statewide,2026 Governor,2026,Governor,,55135,Waupaca,Tom Tiffany,R,1421,counting,7.7,100
 statewide,2026 Governor,2026,Governor,,55135,Waupaca,David Crowley,D,594,counting,7.7,100
 statewide,2026 Governor,2026,Governor,,55135,Waupaca,Ieshuh Griffin,I,0,counting,7.7,100
@@ -1055,18 +839,18 @@ statewide,2026 Governor,2026,Governor,,55137,Waushara,Brayden Donnelly,I,0,count
 statewide,2026 Governor,2026,Governor,,55137,Waushara,Christine Kirchmiller,I,0,counting,3.7,100
 statewide,2026 Governor,2026,Governor,,55137,Waushara,Reese Woods / Daniel Wagner,I,0,counting,3.7,100
 statewide,2026 Governor,2026,Governor,,55137,Waushara,Write-in,W,0,counting,3.7,100
-statewide,2026 Governor,2026,Governor,,55139,Winnebago,Tom Tiffany,R,29677,counting,69.2,100
-statewide,2026 Governor,2026,Governor,,55139,Winnebago,David Crowley,D,28934,counting,69.2,100
-statewide,2026 Governor,2026,Governor,,55139,Winnebago,Ieshuh Griffin,I,0,counting,69.2,100
-statewide,2026 Governor,2026,Governor,,55139,Winnebago,Jamie Jo Carothers,I,0,counting,69.2,100
-statewide,2026 Governor,2026,Governor,,55139,Winnebago,David D. King,I,0,counting,69.2,100
-statewide,2026 Governor,2026,Governor,,55139,Winnebago,Chad Muellenberg,I,0,counting,69.2,100
-statewide,2026 Governor,2026,Governor,,55139,Winnebago,Mary Morgan,I,0,counting,69.2,100
-statewide,2026 Governor,2026,Governor,,55139,Winnebago,Mark Grimek,I,0,counting,69.2,100
-statewide,2026 Governor,2026,Governor,,55139,Winnebago,Brayden Donnelly,I,0,counting,69.2,100
-statewide,2026 Governor,2026,Governor,,55139,Winnebago,Christine Kirchmiller,I,0,counting,69.2,100
-statewide,2026 Governor,2026,Governor,,55139,Winnebago,Reese Woods / Daniel Wagner,I,0,counting,69.2,100
-statewide,2026 Governor,2026,Governor,,55139,Winnebago,Write-in,W,0,counting,69.2,100
+statewide,2026 Governor,2026,Governor,,55139,Winnebago,Tom Tiffany,R,30715,counting,71.4,100
+statewide,2026 Governor,2026,Governor,,55139,Winnebago,David Crowley,D,29790,counting,71.4,100
+statewide,2026 Governor,2026,Governor,,55139,Winnebago,Ieshuh Griffin,I,0,counting,71.4,100
+statewide,2026 Governor,2026,Governor,,55139,Winnebago,Jamie Jo Carothers,I,0,counting,71.4,100
+statewide,2026 Governor,2026,Governor,,55139,Winnebago,David D. King,I,0,counting,71.4,100
+statewide,2026 Governor,2026,Governor,,55139,Winnebago,Chad Muellenberg,I,0,counting,71.4,100
+statewide,2026 Governor,2026,Governor,,55139,Winnebago,Mary Morgan,I,0,counting,71.4,100
+statewide,2026 Governor,2026,Governor,,55139,Winnebago,Mark Grimek,I,0,counting,71.4,100
+statewide,2026 Governor,2026,Governor,,55139,Winnebago,Brayden Donnelly,I,0,counting,71.4,100
+statewide,2026 Governor,2026,Governor,,55139,Winnebago,Christine Kirchmiller,I,0,counting,71.4,100
+statewide,2026 Governor,2026,Governor,,55139,Winnebago,Reese Woods / Daniel Wagner,I,0,counting,71.4,100
+statewide,2026 Governor,2026,Governor,,55139,Winnebago,Write-in,W,0,counting,71.4,100
 statewide,2026 Governor,2026,Governor,,55141,Wood,Tom Tiffany,R,16021,counting,75,100
 statewide,2026 Governor,2026,Governor,,55141,Wood,David Crowley,D,11634,counting,75,100
 statewide,2026 Governor,2026,Governor,,55141,Wood,Ieshuh Griffin,I,0,counting,75,100
@@ -1079,31 +863,31 @@ statewide,2026 Governor,2026,Governor,,55141,Wood,Brayden Donnelly,I,0,counting,
 statewide,2026 Governor,2026,Governor,,55141,Wood,Christine Kirchmiller,I,0,counting,75,100
 statewide,2026 Governor,2026,Governor,,55141,Wood,Reese Woods / Daniel Wagner,I,0,counting,75,100
 statewide,2026 Governor,2026,Governor,,55141,Wood,Write-in,W,0,counting,75,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55001,Adams,Jay Schroeder,R,5744,counting,85,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55001,Adams,JoCasta Zamarripa,D,3372,counting,85,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55001,Adams,Pete Karas,G,406,counting,85,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55001,Adams,Michael Chianese,I,0,counting,85,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55001,Adams,Write-in,W,0,counting,85,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55003,Ashland,JoCasta Zamarripa,D,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55003,Ashland,Jay Schroeder,R,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55003,Ashland,Pete Karas,G,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55001,Adams,Jay Schroeder,R,5744,counting,90,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55001,Adams,JoCasta Zamarripa,D,3372,counting,90,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55001,Adams,Pete Karas,G,406,counting,90,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55001,Adams,Michael Chianese,I,0,counting,90,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55001,Adams,Write-in,W,0,counting,90,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55003,Ashland,Jay Schroeder,R,295,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55003,Ashland,JoCasta Zamarripa,D,112,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55003,Ashland,Pete Karas,G,11,counting,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55003,Ashland,Michael Chianese,I,0,counting,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55003,Ashland,Write-in,W,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55005,Barron,Jay Schroeder,R,6993,counting,50,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55005,Barron,JoCasta Zamarripa,D,3601,counting,50,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55005,Barron,Pete Karas,G,353,counting,50,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55005,Barron,Michael Chianese,I,0,counting,50,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55005,Barron,Write-in,W,0,counting,50,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55005,Barron,Jay Schroeder,R,11039,counting,83.3,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55005,Barron,JoCasta Zamarripa,D,6554,counting,83.3,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55005,Barron,Pete Karas,G,609,counting,83.3,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55005,Barron,Michael Chianese,I,0,counting,83.3,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55005,Barron,Write-in,W,0,counting,83.3,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55007,Bayfield,JoCasta Zamarripa,D,1533,counting,25,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55007,Bayfield,Jay Schroeder,R,1147,counting,25,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55007,Bayfield,Pete Karas,G,89,counting,25,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55007,Bayfield,Michael Chianese,I,0,counting,25,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55007,Bayfield,Write-in,W,0,counting,25,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55009,Brown,Jay Schroeder,R,9947,counting,12.7,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55009,Brown,JoCasta Zamarripa,D,5017,counting,12.7,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55009,Brown,Pete Karas,G,643,counting,12.7,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55009,Brown,Michael Chianese,I,0,counting,12.7,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55009,Brown,Write-in,W,0,counting,12.7,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55009,Brown,Jay Schroeder,R,24460,counting,34.3,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55009,Brown,JoCasta Zamarripa,D,16343,counting,34.3,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55009,Brown,Pete Karas,G,1554,counting,34.3,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55009,Brown,Michael Chianese,I,0,counting,34.3,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55009,Brown,Write-in,W,0,counting,34.3,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55011,Buffalo,JoCasta Zamarripa,D,0,counting,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55011,Buffalo,Jay Schroeder,R,0,counting,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55011,Buffalo,Pete Karas,G,0,counting,0,100
@@ -1174,36 +958,36 @@ statewide,2026 Secretary of State,2026,Secretary of State,,55037,Florence,JoCast
 statewide,2026 Secretary of State,2026,Secretary of State,,55037,Florence,Pete Karas,G,53,counting,87.5,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55037,Florence,Michael Chianese,I,0,counting,87.5,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55037,Florence,Write-in,W,0,counting,87.5,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55039,Fond du Lac,Jay Schroeder,R,26941,counting,88.1,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55039,Fond du Lac,JoCasta Zamarripa,D,15172,counting,88.1,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55039,Fond du Lac,Pete Karas,G,1403,counting,88.1,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55039,Fond du Lac,Michael Chianese,I,0,counting,88.1,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55039,Fond du Lac,Write-in,W,0,counting,88.1,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55039,Fond du Lac,Jay Schroeder,R,26941,counting,98.3,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55039,Fond du Lac,JoCasta Zamarripa,D,15172,counting,98.3,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55039,Fond du Lac,Pete Karas,G,1403,counting,98.3,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55039,Fond du Lac,Michael Chianese,I,0,counting,98.3,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55039,Fond du Lac,Write-in,W,0,counting,98.3,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55041,Forest,Jay Schroeder,R,546,counting,13.3,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55041,Forest,JoCasta Zamarripa,D,194,counting,13.3,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55041,Forest,Pete Karas,G,41,counting,13.3,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55041,Forest,Michael Chianese,I,0,counting,13.3,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55041,Forest,Write-in,W,0,counting,13.3,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55043,Grant,Jay Schroeder,R,4585,counting,37.5,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55043,Grant,JoCasta Zamarripa,D,3206,counting,37.5,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55043,Grant,Pete Karas,G,296,counting,37.5,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55043,Grant,Michael Chianese,I,0,counting,37.5,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55043,Grant,Write-in,W,0,counting,37.5,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55043,Grant,Jay Schroeder,R,8006,counting,64.3,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55043,Grant,JoCasta Zamarripa,D,5403,counting,64.3,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55043,Grant,Pete Karas,G,479,counting,64.3,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55043,Grant,Michael Chianese,I,0,counting,64.3,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55043,Grant,Write-in,W,0,counting,64.3,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55045,Green,JoCasta Zamarripa,D,3776,counting,33.3,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55045,Green,Jay Schroeder,R,2853,counting,33.3,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55045,Green,Pete Karas,G,387,counting,33.3,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55045,Green,Michael Chianese,I,0,counting,33.3,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55045,Green,Write-in,W,0,counting,33.3,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55047,Green Lake,JoCasta Zamarripa,D,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55047,Green Lake,Jay Schroeder,R,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55047,Green Lake,Pete Karas,G,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55047,Green Lake,Michael Chianese,I,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55047,Green Lake,Write-in,W,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55049,Iowa,JoCasta Zamarripa,D,1542,counting,24.1,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55049,Iowa,Jay Schroeder,R,1490,counting,24.1,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55049,Iowa,Pete Karas,G,133,counting,24.1,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55049,Iowa,Michael Chianese,I,0,counting,24.1,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55049,Iowa,Write-in,W,0,counting,24.1,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55047,Green Lake,Jay Schroeder,R,2482,counting,37.5,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55047,Green Lake,JoCasta Zamarripa,D,858,counting,37.5,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55047,Green Lake,Pete Karas,G,110,counting,37.5,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55047,Green Lake,Michael Chianese,I,0,counting,37.5,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55047,Green Lake,Write-in,W,0,counting,37.5,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55049,Iowa,JoCasta Zamarripa,D,3454,counting,48.3,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55049,Iowa,Jay Schroeder,R,2701,counting,48.3,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55049,Iowa,Pete Karas,G,265,counting,48.3,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55049,Iowa,Michael Chianese,I,0,counting,48.3,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55049,Iowa,Write-in,W,0,counting,48.3,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55051,Iron,Jay Schroeder,R,63,counting,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55051,Iron,JoCasta Zamarripa,D,53,counting,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55051,Iron,Pete Karas,G,4,counting,0,100
@@ -1224,16 +1008,16 @@ statewide,2026 Secretary of State,2026,Secretary of State,,55057,Juneau,JoCasta 
 statewide,2026 Secretary of State,2026,Secretary of State,,55057,Juneau,Pete Karas,G,58,counting,10.7,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55057,Juneau,Michael Chianese,I,0,counting,10.7,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55057,Juneau,Write-in,W,0,counting,10.7,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55059,Kenosha,Jay Schroeder,R,26831,counting,74.6,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55059,Kenosha,JoCasta Zamarripa,D,24915,counting,74.6,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55059,Kenosha,Pete Karas,G,2206,counting,74.6,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55059,Kenosha,Michael Chianese,I,0,counting,74.6,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55059,Kenosha,Write-in,W,0,counting,74.6,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55061,Kewaunee,Jay Schroeder,R,2503,counting,28.6,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55061,Kewaunee,JoCasta Zamarripa,D,1015,counting,28.6,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55061,Kewaunee,Pete Karas,G,132,counting,28.6,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55061,Kewaunee,Michael Chianese,I,0,counting,28.6,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55061,Kewaunee,Write-in,W,0,counting,28.6,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55059,Kenosha,Jay Schroeder,R,27675,counting,77,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55059,Kenosha,JoCasta Zamarripa,D,25619,counting,77,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55059,Kenosha,Pete Karas,G,2250,counting,77,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55059,Kenosha,Michael Chianese,I,0,counting,77,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55059,Kenosha,Write-in,W,0,counting,77,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55061,Kewaunee,Jay Schroeder,R,3751,counting,50,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55061,Kewaunee,JoCasta Zamarripa,D,1971,counting,50,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55061,Kewaunee,Pete Karas,G,236,counting,50,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55061,Kewaunee,Michael Chianese,I,0,counting,50,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55061,Kewaunee,Write-in,W,0,counting,50,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55063,La Crosse,JoCasta Zamarripa,D,0,counting,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55063,La Crosse,Jay Schroeder,R,0,counting,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55063,La Crosse,Pete Karas,G,0,counting,0,100
@@ -1249,16 +1033,16 @@ statewide,2026 Secretary of State,2026,Secretary of State,,55067,Langlade,JoCast
 statewide,2026 Secretary of State,2026,Secretary of State,,55067,Langlade,Pete Karas,G,90,counting,28.6,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55067,Langlade,Michael Chianese,I,0,counting,28.6,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55067,Langlade,Write-in,W,0,counting,28.6,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55069,Lincoln,Jay Schroeder,R,1287,counting,14.8,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55069,Lincoln,JoCasta Zamarripa,D,1179,counting,14.8,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55069,Lincoln,Pete Karas,G,95,counting,14.8,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55069,Lincoln,Michael Chianese,I,0,counting,14.8,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55069,Lincoln,Write-in,W,0,counting,14.8,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55071,Manitowoc,Jay Schroeder,R,6580,counting,25,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55071,Manitowoc,JoCasta Zamarripa,D,2794,counting,25,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55071,Manitowoc,Pete Karas,G,340,counting,25,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55071,Manitowoc,Michael Chianese,I,0,counting,25,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55071,Manitowoc,Write-in,W,0,counting,25,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55069,Lincoln,Jay Schroeder,R,3320,counting,37,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55069,Lincoln,JoCasta Zamarripa,D,2260,counting,37,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55069,Lincoln,Pete Karas,G,182,counting,37,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55069,Lincoln,Michael Chianese,I,0,counting,37,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55069,Lincoln,Write-in,W,0,counting,37,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55071,Manitowoc,Jay Schroeder,R,7941,counting,30,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55071,Manitowoc,JoCasta Zamarripa,D,3357,counting,30,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55071,Manitowoc,Pete Karas,G,419,counting,30,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55071,Manitowoc,Michael Chianese,I,0,counting,30,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55071,Manitowoc,Write-in,W,0,counting,30,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55073,Marathon,Jay Schroeder,R,30428,counting,80.5,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55073,Marathon,JoCasta Zamarripa,D,22054,counting,80.5,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55073,Marathon,Pete Karas,G,1786,counting,80.5,100
@@ -1319,11 +1103,11 @@ statewide,2026 Secretary of State,2026,Secretary of State,,55093,Pierce,Jay Schr
 statewide,2026 Secretary of State,2026,Secretary of State,,55093,Pierce,Pete Karas,G,0,counting,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55093,Pierce,Michael Chianese,I,0,counting,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55093,Pierce,Write-in,W,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55095,Polk,Jay Schroeder,R,3006,counting,19.4,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55095,Polk,JoCasta Zamarripa,D,1521,counting,19.4,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55095,Polk,Pete Karas,G,181,counting,19.4,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55095,Polk,Michael Chianese,I,0,counting,19.4,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55095,Polk,Write-in,W,0,counting,19.4,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55095,Polk,Jay Schroeder,R,3632,counting,25,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55095,Polk,JoCasta Zamarripa,D,2048,counting,25,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55095,Polk,Pete Karas,G,231,counting,25,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55095,Polk,Michael Chianese,I,0,counting,25,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55095,Polk,Write-in,W,0,counting,25,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55097,Portage,JoCasta Zamarripa,D,0,counting,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55097,Portage,Jay Schroeder,R,0,counting,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55097,Portage,Pete Karas,G,0,counting,0,100
@@ -1344,21 +1128,21 @@ statewide,2026 Secretary of State,2026,Secretary of State,,55103,Richland,JoCast
 statewide,2026 Secretary of State,2026,Secretary of State,,55103,Richland,Pete Karas,G,32,counting,9.1,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55103,Richland,Michael Chianese,I,0,counting,9.1,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55103,Richland,Write-in,W,0,counting,9.1,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55105,Rock,JoCasta Zamarripa,D,25970,counting,68.9,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55105,Rock,Jay Schroeder,R,21515,counting,68.9,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55105,Rock,Pete Karas,G,2294,counting,68.9,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55105,Rock,Michael Chianese,I,0,counting,68.9,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55105,Rock,Write-in,W,0,counting,68.9,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55105,Rock,JoCasta Zamarripa,D,29514,counting,77.4,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55105,Rock,Jay Schroeder,R,23555,counting,77.4,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55105,Rock,Pete Karas,G,2471,counting,77.4,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55105,Rock,Michael Chianese,I,0,counting,77.4,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55105,Rock,Write-in,W,0,counting,77.4,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55107,Rusk,JoCasta Zamarripa,D,0,counting,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55107,Rusk,Jay Schroeder,R,0,counting,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55107,Rusk,Pete Karas,G,0,counting,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55107,Rusk,Michael Chianese,I,0,counting,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55107,Rusk,Write-in,W,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55111,Sauk,Jay Schroeder,R,10006,counting,63.3,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55111,Sauk,JoCasta Zamarripa,D,9822,counting,63.3,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55111,Sauk,Pete Karas,G,773,counting,63.3,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55111,Sauk,Michael Chianese,I,0,counting,63.3,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55111,Sauk,Write-in,W,0,counting,63.3,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55111,Sauk,JoCasta Zamarripa,D,13925,counting,87.8,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55111,Sauk,Jay Schroeder,R,13254,counting,87.8,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55111,Sauk,Pete Karas,G,1118,counting,87.8,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55111,Sauk,Michael Chianese,I,0,counting,87.8,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55111,Sauk,Write-in,W,0,counting,87.8,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55113,Sawyer,Jay Schroeder,R,652,counting,9.5,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55113,Sawyer,JoCasta Zamarripa,D,503,counting,9.5,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55113,Sawyer,Pete Karas,G,54,counting,9.5,100
@@ -1404,21 +1188,21 @@ statewide,2026 Secretary of State,2026,Secretary of State,,55127,Walworth,JoCast
 statewide,2026 Secretary of State,2026,Secretary of State,,55127,Walworth,Pete Karas,G,1391,counting,78.9,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55127,Walworth,Michael Chianese,I,0,counting,78.9,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55127,Walworth,Write-in,W,0,counting,78.9,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55129,Washburn,JoCasta Zamarripa,D,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55129,Washburn,Jay Schroeder,R,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55129,Washburn,Pete Karas,G,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55129,Washburn,Michael Chianese,I,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55129,Washburn,Write-in,W,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55131,Washington,Jay Schroeder,R,33265,counting,60.5,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55131,Washington,JoCasta Zamarripa,D,14771,counting,60.5,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55131,Washington,Pete Karas,G,1453,counting,60.5,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55131,Washington,Michael Chianese,I,0,counting,60.5,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55131,Washington,Write-in,W,0,counting,60.5,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55133,Waukesha,Jay Schroeder,R,105958,counting,73.2,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55133,Waukesha,JoCasta Zamarripa,D,68430,counting,73.2,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55133,Waukesha,Pete Karas,G,5635,counting,73.2,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55133,Waukesha,Michael Chianese,I,0,counting,73.2,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55133,Waukesha,Write-in,W,0,counting,73.2,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55129,Washburn,Jay Schroeder,R,570,counting,8,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55129,Washburn,JoCasta Zamarripa,D,323,counting,8,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55129,Washburn,Pete Karas,G,44,counting,8,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55129,Washburn,Michael Chianese,I,0,counting,8,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55129,Washburn,Write-in,W,0,counting,8,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55131,Washington,Jay Schroeder,R,39667,counting,72.1,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55131,Washington,JoCasta Zamarripa,D,17407,counting,72.1,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55131,Washington,Pete Karas,G,1700,counting,72.1,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55131,Washington,Michael Chianese,I,0,counting,72.1,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55131,Washington,Write-in,W,0,counting,72.1,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55133,Waukesha,Jay Schroeder,R,111549,counting,77.6,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55133,Waukesha,JoCasta Zamarripa,D,73002,counting,77.6,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55133,Waukesha,Pete Karas,G,5966,counting,77.6,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55133,Waukesha,Michael Chianese,I,0,counting,77.6,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55133,Waukesha,Write-in,W,0,counting,77.6,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55135,Waupaca,Jay Schroeder,R,1390,counting,5.6,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55135,Waupaca,JoCasta Zamarripa,D,545,counting,5.6,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55135,Waupaca,Pete Karas,G,65,counting,5.6,100
@@ -1429,64 +1213,64 @@ statewide,2026 Secretary of State,2026,Secretary of State,,55137,Waushara,JoCast
 statewide,2026 Secretary of State,2026,Secretary of State,,55137,Waushara,Pete Karas,G,4,counting,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55137,Waushara,Michael Chianese,I,0,counting,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55137,Waushara,Write-in,W,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55139,Winnebago,Jay Schroeder,R,29094,counting,72.5,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55139,Winnebago,JoCasta Zamarripa,D,26673,counting,72.5,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55139,Winnebago,Pete Karas,G,2356,counting,72.5,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55139,Winnebago,Michael Chianese,I,0,counting,72.5,100
-statewide,2026 Secretary of State,2026,Secretary of State,,55139,Winnebago,Write-in,W,0,counting,72.5,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55139,Winnebago,Jay Schroeder,R,30120,counting,73.9,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55139,Winnebago,JoCasta Zamarripa,D,27444,counting,73.9,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55139,Winnebago,Pete Karas,G,2431,counting,73.9,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55139,Winnebago,Michael Chianese,I,0,counting,73.9,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55139,Winnebago,Write-in,W,0,counting,73.9,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55141,Wood,Jay Schroeder,R,15707,counting,88,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55141,Wood,JoCasta Zamarripa,D,10844,counting,88,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55141,Wood,Pete Karas,G,934,counting,88,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55141,Wood,Michael Chianese,I,0,counting,88,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55141,Wood,Write-in,W,0,counting,88,100
-senate,2026 Senate,2026,Senate,s2024,1,,Nic Cravillion,R,26303,counting,7,100
-senate,2026 Senate,2026,Senate,s2024,1,,Mark Becker,I,19814,counting,7,100
+senate,2026 Senate,2026,Senate,s2024,1,,Nic Cravillion,R,29339,counting,8,100
+senate,2026 Senate,2026,Senate,s2024,1,,Mark Becker,I,22005,counting,8,100
 senate,2026 Senate,2026,Senate,s2024,3,,Tim Carpenter,D,0,pending,0,100
-senate,2026 Senate,2026,Senate,s2024,5,,Robyn Vining,D,32701,counting,22,100
-senate,2026 Senate,2026,Senate,s2024,5,,Mike Roberts,R,27916,counting,22,100
+senate,2026 Senate,2026,Senate,s2024,5,,Robyn Vining,D,36153,counting,24,100
+senate,2026 Senate,2026,Senate,s2024,5,,Mike Roberts,R,31063,counting,24,100
 senate,2026 Senate,2026,Senate,s2024,7,,Chris J. Larson,D,36608,counting,31,100
 senate,2026 Senate,2026,Senate,s2024,7,,Mike Moeller,R,14724,counting,31,100
 senate,2026 Senate,2026,Senate,s2024,9,,Amy Binsfeld,R,13859,counting,5,100
 senate,2026 Senate,2026,Senate,s2024,9,,Christian Ellis,I,5935,counting,5,100
-senate,2026 Senate,2026,Senate,s2024,11,,Ellen Schutt,R,45315,counting,17,100
-senate,2026 Senate,2026,Senate,s2024,11,,Adam Duda,D,29236,counting,17,100
-senate,2026 Senate,2026,Senate,s2024,13,,John Jagler,R,31675,counting,7,100
-senate,2026 Senate,2026,Senate,s2024,13,,Sasha Ripley,D,18282,counting,7,100
-senate,2026 Senate,2026,Senate,s2024,15,,Mark Spreitzer,D,29275,counting,14,100
-senate,2026 Senate,2026,Senate,s2024,15,,Scott Fleming,R,21984,counting,14,100
-senate,2026 Senate,2026,Senate,s2024,15,,Christopher Dean,I,2774,counting,14,100
-senate,2026 Senate,2026,Senate,s2024,17,,Jenna Jacobson,D,23169,counting,5,100
-senate,2026 Senate,2026,Senate,s2024,17,,Howard Marklein,R,16851,counting,5,100
-senate,2026 Senate,2026,Senate,s2024,19,,Rachael Ann Cabral-Guevara,R,28633,counting,7,100
-senate,2026 Senate,2026,Senate,s2024,19,,Emily Daniels Tseffos,D,18492,counting,7,100
+senate,2026 Senate,2026,Senate,s2024,11,,Ellen Schutt,R,46169,counting,17,100
+senate,2026 Senate,2026,Senate,s2024,11,,Adam Duda,D,29975,counting,17,100
+senate,2026 Senate,2026,Senate,s2024,13,,John Jagler,R,34179,counting,7,100
+senate,2026 Senate,2026,Senate,s2024,13,,Sasha Ripley,D,19228,counting,7,100
+senate,2026 Senate,2026,Senate,s2024,15,,Mark Spreitzer,D,32923,counting,16,100
+senate,2026 Senate,2026,Senate,s2024,15,,Scott Fleming,R,23942,counting,16,100
+senate,2026 Senate,2026,Senate,s2024,15,,Christopher Dean,I,2959,counting,16,100
+senate,2026 Senate,2026,Senate,s2024,17,,Jenna Jacobson,D,25177,counting,5,100
+senate,2026 Senate,2026,Senate,s2024,17,,Howard Marklein,R,18132,counting,5,100
+senate,2026 Senate,2026,Senate,s2024,19,,Rachael Ann Cabral-Guevara,R,29675,counting,8,100
+senate,2026 Senate,2026,Senate,s2024,19,,Emily Daniels Tseffos,D,19322,counting,8,100
 senate,2026 Senate,2026,Senate,s2024,21,,Trevor Jung,D,28468,counting,20,100
 senate,2026 Senate,2026,Senate,s2024,21,,Jim Croft,R,19712,counting,20,100
 senate,2026 Senate,2026,Senate,s2024,23,,Romaine Robert Quinn,R,19194,counting,4,100
 senate,2026 Senate,2026,Senate,s2024,23,,Jeff Foster,D,9651,counting,4,100
-senate,2026 Senate,2026,Senate,s2024,25,,Charly Ray,D,14850,counting,4,100
-senate,2026 Senate,2026,Senate,s2024,25,,Erik Severson,R,12593,counting,4,100
+senate,2026 Senate,2026,Senate,s2024,25,,Charly Ray,D,16233,counting,4,100
+senate,2026 Senate,2026,Senate,s2024,25,,Erik Severson,R,14749,counting,4,100
 senate,2026 Senate,2026,Senate,s2024,27,,Dianne Hesselbein,D,0,pending,0,100
 senate,2026 Senate,2026,Senate,s2024,27,,Nathan Kalmoe,I,0,pending,0,100
 senate,2026 Senate,2026,Senate,s2024,29,,Cory Tomczyk,R,36049,counting,29,100
 senate,2026 Senate,2026,Senate,s2024,29,,Gillian Battino,D,28809,counting,29,100
-senate,2026 Senate,2026,Senate,s2024,31,,Jeff Smith,D,31841,counting,13,100
-senate,2026 Senate,2026,Senate,s2024,31,,Michele Magadance Skinner,R,21406,counting,13,100
-senate,2026 Senate,2026,Senate,s2024,33,,Chris Kapenga,R,52195,counting,15,100
-senate,2026 Senate,2026,Senate,s2024,33,,Mike Van Someren,D,27623,counting,15,100
-senate,2026 Senate,2026,Senate,s2024,33,,Democrat,D,0,counting,15,100
+senate,2026 Senate,2026,Senate,s2024,31,,Jeff Smith,D,32774,counting,13,100
+senate,2026 Senate,2026,Senate,s2024,31,,Michele Magadance Skinner,R,22354,counting,13,100
+senate,2026 Senate,2026,Senate,s2024,33,,Chris Kapenga,R,56527,counting,16,100
+senate,2026 Senate,2026,Senate,s2024,33,,Mike Van Someren,D,29422,counting,16,100
+senate,2026 Senate,2026,Senate,s2024,33,,Democrat,D,0,counting,16,100
 house,2026 Assembly,2026,Assembly,a2024,1,,Joel Kitchens,R,14657,counting,19,100
 house,2026 Assembly,2026,Assembly,a2024,1,,Renee A. Paplham,D,11262,counting,19,100
-house,2026 Assembly,2026,Assembly,a2024,2,,Shae Sortwell,R,10518,counting,15,100
-house,2026 Assembly,2026,Assembly,a2024,2,,Alicia Saunders,D,7877,counting,15,100
+house,2026 Assembly,2026,Assembly,a2024,2,,Shae Sortwell,R,13521,counting,19,100
+house,2026 Assembly,2026,Assembly,a2024,2,,Alicia Saunders,D,10238,counting,19,100
 house,2026 Assembly,2026,Assembly,a2024,3,,Ron Tusler,R,2061,counting,3,100
 house,2026 Assembly,2026,Assembly,a2024,3,,Michael J. Goodwin,D,850,counting,3,100
-house,2026 Assembly,2026,Assembly,a2024,4,,Alexia Unertl,D,0,pending,0,100
-house,2026 Assembly,2026,Assembly,a2024,4,,David Steffen,R,0,pending,0,100
-house,2026 Assembly,2026,Assembly,a2024,5,,Joy Goeben,R,10002,counting,21,100
-house,2026 Assembly,2026,Assembly,a2024,5,,Justin Schumacher,D,7318,counting,21,100
-house,2026 Assembly,2026,Assembly,a2024,5,,David Schupbach,G,467,counting,21,100
-house,2026 Assembly,2026,Assembly,a2024,6,,Elijah Behnke,R,4222,counting,4,100
-house,2026 Assembly,2026,Assembly,a2024,6,,Shirley Hinze,D,1933,counting,4,100
+house,2026 Assembly,2026,Assembly,a2024,4,,David Steffen,R,4192,counting,6,100
+house,2026 Assembly,2026,Assembly,a2024,4,,Alexia Unertl,D,2467,counting,6,100
+house,2026 Assembly,2026,Assembly,a2024,5,,Joy Goeben,R,12653,counting,28,100
+house,2026 Assembly,2026,Assembly,a2024,5,,Justin Schumacher,D,9708,counting,28,100
+house,2026 Assembly,2026,Assembly,a2024,5,,David Schupbach,G,561,counting,28,100
+house,2026 Assembly,2026,Assembly,a2024,6,,Elijah Behnke,R,5123,counting,5,100
+house,2026 Assembly,2026,Assembly,a2024,6,,Shirley Hinze,D,2545,counting,5,100
 house,2026 Assembly,2026,Assembly,a2024,7,,Karen Kirsch,D,10642,counting,37,100
 house,2026 Assembly,2026,Assembly,a2024,7,,Lee Whiting,R,5661,counting,37,100
 house,2026 Assembly,2026,Assembly,a2024,8,,Ismael Luna,D,5962,counting,44,100
@@ -1503,8 +1287,8 @@ house,2026 Assembly,2026,Assembly,a2024,13,,Amy Zimmerman,D,14526,counting,23,10
 house,2026 Assembly,2026,Assembly,a2024,13,,Mike Morgan,R,10654,counting,23,100
 house,2026 Assembly,2026,Assembly,a2024,14,,Angelito Tenorio,D,8902,counting,30,100
 house,2026 Assembly,2026,Assembly,a2024,14,,AmyRose Murphy,R,5975,counting,30,100
-house,2026 Assembly,2026,Assembly,a2024,15,,Adam Neylon,R,11410,counting,29,100
-house,2026 Assembly,2026,Assembly,a2024,15,,Stephen Tryon,D,8654,counting,29,100
+house,2026 Assembly,2026,Assembly,a2024,15,,Adam Neylon,R,14545,counting,39,100
+house,2026 Assembly,2026,Assembly,a2024,15,,Stephen Tryon,D,12040,counting,39,100
 house,2026 Assembly,2026,Assembly,a2024,16,,Kalan Haywood,D,9775,counting,34,100
 house,2026 Assembly,2026,Assembly,a2024,16,,Alciro Deacon,R,806,counting,34,100
 house,2026 Assembly,2026,Assembly,a2024,17,,Supreme Moore Omokunde,D,12545,counting,32,100
@@ -1518,15 +1302,15 @@ house,2026 Assembly,2026,Assembly,a2024,20,,Kyle Cleary,R,5560,counting,29,100
 house,2026 Assembly,2026,Assembly,a2024,20,,Democrat,D,0,counting,29,100
 house,2026 Assembly,2026,Assembly,a2024,21,,Daniel J. Bukiewicz,D,8782,counting,27,100
 house,2026 Assembly,2026,Assembly,a2024,21,,Dylan Pfaffenbach,R,6086,counting,27,100
-house,2026 Assembly,2026,Assembly,a2024,22,,Paul Melotik,R,12304,counting,44,100
-house,2026 Assembly,2026,Assembly,a2024,22,,Dana Glasstein,D,11221,counting,44,100
+house,2026 Assembly,2026,Assembly,a2024,22,,Paul Melotik,R,12544,counting,44,100
+house,2026 Assembly,2026,Assembly,a2024,22,,Dana Glasstein,D,11380,counting,44,100
 house,2026 Assembly,2026,Assembly,a2024,22,,Democrat,D,0,counting,44,100
 house,2026 Assembly,2026,Assembly,a2024,22,,Write-in,W,0,counting,44,100
 house,2026 Assembly,2026,Assembly,a2024,23,,Deb Andraca,D,22387,counting,64,100
 house,2026 Assembly,2026,Assembly,a2024,23,,Aleaner Pabonnie,R,10263,counting,64,100
 house,2026 Assembly,2026,Assembly,a2024,23,,Write-in,W,0,counting,64,100
-house,2026 Assembly,2026,Assembly,a2024,24,,Dan Knodl,R,12856,counting,22,100
-house,2026 Assembly,2026,Assembly,a2024,24,,Matt Brown,D,10417,counting,22,100
+house,2026 Assembly,2026,Assembly,a2024,24,,Dan Knodl,R,13300,counting,22,100
+house,2026 Assembly,2026,Assembly,a2024,24,,Matt Brown,D,10839,counting,22,100
 house,2026 Assembly,2026,Assembly,a2024,25,,Paul Tittl,R,3562,counting,6,100
 house,2026 Assembly,2026,Assembly,a2024,25,,Christopher Able,D,1693,counting,6,100
 house,2026 Assembly,2026,Assembly,a2024,26,,Joe Sheehan,D,0,pending,0,100
@@ -1534,45 +1318,45 @@ house,2026 Assembly,2026,Assembly,a2024,26,,John Belanger,R,0,pending,0,100
 house,2026 Assembly,2026,Assembly,a2024,27,,Lindee Brill,R,0,pending,0,100
 house,2026 Assembly,2026,Assembly,a2024,28,,Robin Lillesve,D,0,pending,0,100
 house,2026 Assembly,2026,Assembly,a2024,28,,Rob Kreibich,R,0,pending,0,100
-house,2026 Assembly,2026,Assembly,a2024,29,,Treig Pronschinske,R,1833,counting,2,100
-house,2026 Assembly,2026,Assembly,a2024,29,,Chris Danou,D,1426,counting,2,100
+house,2026 Assembly,2026,Assembly,a2024,29,,Treig Pronschinske,R,3116,counting,4,100
+house,2026 Assembly,2026,Assembly,a2024,29,,Chris Danou,D,2369,counting,4,100
 house,2026 Assembly,2026,Assembly,a2024,30,,Kevin Knoke,D,0,pending,0,100
 house,2026 Assembly,2026,Assembly,a2024,30,,Shannon Zimmerman,R,0,pending,0,100
 house,2026 Assembly,2026,Assembly,a2024,31,,Tyler August,R,13791,counting,27,100
 house,2026 Assembly,2026,Assembly,a2024,31,,John Perryman,D,9644,counting,27,100
-house,2026 Assembly,2026,Assembly,a2024,32,,Amanda Nedweski,R,15451,counting,27,100
-house,2026 Assembly,2026,Assembly,a2024,32,,Greg Miller,D,9412,counting,27,100
+house,2026 Assembly,2026,Assembly,a2024,32,,Amanda Nedweski,R,16316,counting,30,100
+house,2026 Assembly,2026,Assembly,a2024,32,,Greg Miller,D,10137,counting,30,100
 house,2026 Assembly,2026,Assembly,a2024,33,,Maria Elena Bisabarros,D,0,pending,0,100
 house,2026 Assembly,2026,Assembly,a2024,33,,Steve Wicklund,R,0,pending,0,100
 house,2026 Assembly,2026,Assembly,a2024,33,,Rick Stacey,R,0,pending,0,100
 house,2026 Assembly,2026,Assembly,a2024,34,,Rob Swearingen,R,5801,counting,18,100
 house,2026 Assembly,2026,Assembly,a2024,34,,Merlin Van Buren,D,3772,counting,18,100
 house,2026 Assembly,2026,Assembly,a2024,34,,Write-in,W,11,counting,18,100
-house,2026 Assembly,2026,Assembly,a2024,35,,Calvin Callahan,R,5920,counting,11,100
-house,2026 Assembly,2026,Assembly,a2024,35,,Elizabeth McCrank,D,3558,counting,11,100
-house,2026 Assembly,2026,Assembly,a2024,35,,Democrat,D,0,counting,11,100
-house,2026 Assembly,2026,Assembly,a2024,35,,Write-in,W,0,counting,11,100
+house,2026 Assembly,2026,Assembly,a2024,35,,Calvin Callahan,R,7937,counting,13,100
+house,2026 Assembly,2026,Assembly,a2024,35,,Elizabeth McCrank,D,4739,counting,13,100
+house,2026 Assembly,2026,Assembly,a2024,35,,Democrat,D,0,counting,13,100
+house,2026 Assembly,2026,Assembly,a2024,35,,Write-in,W,0,counting,13,100
 house,2026 Assembly,2026,Assembly,a2024,36,,Jeffrey L. Mursau,R,2354,counting,2,100
 house,2026 Assembly,2026,Assembly,a2024,36,,Shena Chapman,I,795,counting,2,100
-house,2026 Assembly,2026,Assembly,a2024,37,,Mark Born,R,12299,counting,22,100
-house,2026 Assembly,2026,Assembly,a2024,37,,LaToya Bates,D,6914,counting,22,100
+house,2026 Assembly,2026,Assembly,a2024,37,,Mark Born,R,12299,counting,23,100
+house,2026 Assembly,2026,Assembly,a2024,37,,LaToya Bates,D,6914,counting,23,100
 house,2026 Assembly,2026,Assembly,a2024,38,,William Penterman,R,12062,counting,28,100
 house,2026 Assembly,2026,Assembly,a2024,38,,Terri Wenkman,D,7212,counting,28,100
-house,2026 Assembly,2026,Assembly,a2024,39,,Alex Dallman,R,7595,counting,5,100
-house,2026 Assembly,2026,Assembly,a2024,39,,Michael Skivington,D,3912,counting,5,100
-house,2026 Assembly,2026,Assembly,a2024,40,,Karen DeSanto,D,6204,counting,12,100
-house,2026 Assembly,2026,Assembly,a2024,40,,Julie Helmer,R,4272,counting,12,100
-house,2026 Assembly,2026,Assembly,a2024,41,,Tony Kurtz,R,7969,counting,7,100
-house,2026 Assembly,2026,Assembly,a2024,41,,Zach Commons,D,5282,counting,7,100
+house,2026 Assembly,2026,Assembly,a2024,39,,Alex Dallman,R,10198,counting,7,100
+house,2026 Assembly,2026,Assembly,a2024,39,,Michael Skivington,D,4777,counting,7,100
+house,2026 Assembly,2026,Assembly,a2024,40,,Karen DeSanto,D,10373,counting,19,100
+house,2026 Assembly,2026,Assembly,a2024,40,,Julie Helmer,R,6863,counting,19,100
+house,2026 Assembly,2026,Assembly,a2024,41,,Tony Kurtz,R,8546,counting,8,100
+house,2026 Assembly,2026,Assembly,a2024,41,,Zach Commons,D,5650,counting,8,100
 house,2026 Assembly,2026,Assembly,a2024,42,,Maureen McCarville,D,11406,counting,15,100
 house,2026 Assembly,2026,Assembly,a2024,42,,Keith F. Miller,R,4679,counting,15,100
 house,2026 Assembly,2026,Assembly,a2024,43,,Brienne Brown,D,12512,counting,16,100
 house,2026 Assembly,2026,Assembly,a2024,43,,Paul McGraw,R,9764,counting,16,100
 house,2026 Assembly,2026,Assembly,a2024,44,,Ann Roe,D,9621,counting,33,100
 house,2026 Assembly,2026,Assembly,a2024,44,,Ron Woodman,R,7378,counting,33,100
-house,2026 Assembly,2026,Assembly,a2024,45,,Clinton Anderson,D,8602,counting,32,100
-house,2026 Assembly,2026,Assembly,a2024,45,,Jocelyn Jordan,R,5671,counting,32,100
-house,2026 Assembly,2026,Assembly,a2024,45,,Democrat,D,0,counting,32,100
+house,2026 Assembly,2026,Assembly,a2024,45,,Clinton Anderson,D,12351,counting,45,100
+house,2026 Assembly,2026,Assembly,a2024,45,,Jocelyn Jordan,R,7672,counting,45,100
+house,2026 Assembly,2026,Assembly,a2024,45,,Democrat,D,0,counting,45,100
 house,2026 Assembly,2026,Assembly,a2024,46,,Joan Fitzgerald,D,0,pending,0,100
 house,2026 Assembly,2026,Assembly,a2024,46,,John Donohue,R,0,pending,0,100
 house,2026 Assembly,2026,Assembly,a2024,46,,John Donahue,R,0,pending,0,100
@@ -1585,9 +1369,9 @@ house,2026 Assembly,2026,Assembly,a2024,49,,Travis Tranel,R,5569,counting,9,100
 house,2026 Assembly,2026,Assembly,a2024,49,,John Rindy,D,3718,counting,9,100
 house,2026 Assembly,2026,Assembly,a2024,50,,Bill Oemichen,D,12321,counting,13,100
 house,2026 Assembly,2026,Assembly,a2024,50,,Jon Aleckson,R,6131,counting,13,100
-house,2026 Assembly,2026,Assembly,a2024,51,,Ben Gruber,D,7153,counting,8,100
-house,2026 Assembly,2026,Assembly,a2024,51,,Todd Novak,R,4779,counting,8,100
-house,2026 Assembly,2026,Assembly,a2024,51,,Nathan Tataje,I,192,counting,8,100
+house,2026 Assembly,2026,Assembly,a2024,51,,Ben Gruber,D,9204,counting,10,100
+house,2026 Assembly,2026,Assembly,a2024,51,,Todd Novak,R,5967,counting,10,100
+house,2026 Assembly,2026,Assembly,a2024,51,,Nathan Tataje,I,248,counting,10,100
 house,2026 Assembly,2026,Assembly,a2024,52,,Lee Snodgrass,D,14723,counting,48,100
 house,2026 Assembly,2026,Assembly,a2024,52,,Reive Pullen,R,8339,counting,48,100
 house,2026 Assembly,2026,Assembly,a2024,53,,Becky Nichols,D,12980,counting,32,100
@@ -1595,20 +1379,20 @@ house,2026 Assembly,2026,Assembly,a2024,53,,David Daniels,R,9289,counting,32,100
 house,2026 Assembly,2026,Assembly,a2024,53,,Rachael Dowling,I,1517,counting,32,100
 house,2026 Assembly,2026,Assembly,a2024,54,,Lori Palmeri,D,5412,counting,24,100
 house,2026 Assembly,2026,Assembly,a2024,54,,Tim Paterson,R,5003,counting,24,100
-house,2026 Assembly,2026,Assembly,a2024,55,,Nate Gustafson,R,14623,counting,26,100
-house,2026 Assembly,2026,Assembly,a2024,55,,Alex Corrigan,D,10553,counting,26,100
+house,2026 Assembly,2026,Assembly,a2024,55,,Nate Gustafson,R,15687,counting,28,100
+house,2026 Assembly,2026,Assembly,a2024,55,,Alex Corrigan,D,11367,counting,28,100
 house,2026 Assembly,2026,Assembly,a2024,56,,Anthony W. Phillips,R,11089,counting,18,100
 house,2026 Assembly,2026,Assembly,a2024,56,,Grace Abitz,D,6079,counting,18,100
 house,2026 Assembly,2026,Assembly,a2024,57,,Kevin Krentz,R,3295,counting,2,100
 house,2026 Assembly,2026,Assembly,a2024,57,,Joey Marschall,D,1377,counting,2,100
-house,2026 Assembly,2026,Assembly,a2024,58,,Bernie Newman,R,16580,counting,59,100
-house,2026 Assembly,2026,Assembly,a2024,58,,Dennis D. Degenhardt,D,8490,counting,59,100
-house,2026 Assembly,2026,Assembly,a2024,58,,Write-in,W,0,counting,59,100
+house,2026 Assembly,2026,Assembly,a2024,58,,Bernie Newman,R,19724,counting,63,100
+house,2026 Assembly,2026,Assembly,a2024,58,,Dennis D. Degenhardt,D,9680,counting,63,100
+house,2026 Assembly,2026,Assembly,a2024,58,,Write-in,W,0,counting,63,100
 house,2026 Assembly,2026,Assembly,a2024,59,,Bradley Petersen,R,18444,counting,29,100
 house,2026 Assembly,2026,Assembly,a2024,59,,Jack Holzman,D,7152,counting,29,100
 house,2026 Assembly,2026,Assembly,a2024,59,,Write-in,W,0,counting,29,100
-house,2026 Assembly,2026,Assembly,a2024,60,,Marty Ryan,R,12091,counting,44,100
-house,2026 Assembly,2026,Assembly,a2024,60,,Tiffany Brault,I,9273,counting,44,100
+house,2026 Assembly,2026,Assembly,a2024,60,,Marty Ryan,R,12091,counting,48,100
+house,2026 Assembly,2026,Assembly,a2024,60,,Tiffany Brault,I,9273,counting,48,100
 house,2026 Assembly,2026,Assembly,a2024,61,,Ben Brist,D,11411,counting,34,100
 house,2026 Assembly,2026,Assembly,a2024,61,,Bob Donovan,R,8816,counting,34,100
 house,2026 Assembly,2026,Assembly,a2024,62,,Angelina M. Cruz,D,11295,counting,37,100
@@ -1638,11 +1422,11 @@ house,2026 Assembly,2026,Assembly,a2024,72,,Scott Krug,R,11430,counting,33,100
 house,2026 Assembly,2026,Assembly,a2024,72,,Christine Maltese,D,7410,counting,33,100
 house,2026 Assembly,2026,Assembly,a2024,73,,Angela Stroud,D,10747,counting,15,100
 house,2026 Assembly,2026,Assembly,a2024,73,,Frank Kostka,R,6445,counting,15,100
-house,2026 Assembly,2026,Assembly,a2024,74,,Chanz Green,R,2524,counting,2,100
-house,2026 Assembly,2026,Assembly,a2024,74,,Paul Johnson,D,2185,counting,2,100
+house,2026 Assembly,2026,Assembly,a2024,74,,Chanz Green,R,2836,counting,2,100
+house,2026 Assembly,2026,Assembly,a2024,74,,Paul Johnson,D,2298,counting,2,100
 house,2026 Assembly,2026,Assembly,a2024,74,,Republican,R,0,counting,2,100
-house,2026 Assembly,2026,Assembly,a2024,75,,Duke Tucker,R,3658,counting,6,100
-house,2026 Assembly,2026,Assembly,a2024,75,,Keith Mogel,D,1810,counting,6,100
+house,2026 Assembly,2026,Assembly,a2024,75,,Duke Tucker,R,4292,counting,8,100
+house,2026 Assembly,2026,Assembly,a2024,75,,Keith Mogel,D,2371,counting,8,100
 house,2026 Assembly,2026,Assembly,a2024,76,,Dina Nina Martinez-Rutherford,D,25129,counting,38,100
 house,2026 Assembly,2026,Assembly,a2024,76,,Nina Chat,R,2125,counting,38,100
 house,2026 Assembly,2026,Assembly,a2024,77,,Renuka Mayadev,D,19756,counting,42,100
@@ -1655,8 +1439,8 @@ house,2026 Assembly,2026,Assembly,a2024,80,,Mike Bare,D,17228,counting,28,100
 house,2026 Assembly,2026,Assembly,a2024,80,,Simran Arora,R,5223,counting,28,100
 house,2026 Assembly,2026,Assembly,a2024,81,,Alex Joers,D,24775,counting,43,100
 house,2026 Assembly,2026,Assembly,a2024,81,,Mark S. Maier,R,9194,counting,43,100
-house,2026 Assembly,2026,Assembly,a2024,82,,Bryson Reyes,R,7623,counting,26,100
-house,2026 Assembly,2026,Assembly,a2024,82,,Rico Camacho,D,6409,counting,26,100
+house,2026 Assembly,2026,Assembly,a2024,82,,Bryson Reyes,R,8290,counting,28,100
+house,2026 Assembly,2026,Assembly,a2024,82,,Rico Camacho,D,7043,counting,28,100
 house,2026 Assembly,2026,Assembly,a2024,83,,Dave Maxey,R,0,pending,0,100
 house,2026 Assembly,2026,Assembly,a2024,84,,Chuck Wichgers,R,0,pending,0,100
 house,2026 Assembly,2026,Assembly,a2024,85,,John Kroll,D,9960,counting,36,100
@@ -1677,10 +1461,10 @@ house,2026 Assembly,2026,Assembly,a2024,91,,Bruce Stabenow,R,10660,counting,29,1
 house,2026 Assembly,2026,Assembly,a2024,91,,Democrat,D,0,counting,29,100
 house,2026 Assembly,2026,Assembly,a2024,92,,Clint Moses,R,3163,counting,7,100
 house,2026 Assembly,2026,Assembly,a2024,92,,Jeremiah Fredrickson,D,2789,counting,7,100
-house,2026 Assembly,2026,Assembly,a2024,93,,Christian Phelps,D,13721,counting,18,100
-house,2026 Assembly,2026,Assembly,a2024,93,,Michael Ayala,R,7485,counting,18,100
-house,2026 Assembly,2026,Assembly,a2024,94,,Steve Doyle,D,16159,counting,30,100
-house,2026 Assembly,2026,Assembly,a2024,94,,Keith Purnell,R,12171,counting,30,100
+house,2026 Assembly,2026,Assembly,a2024,93,,Christian Phelps,D,14659,counting,20,100
+house,2026 Assembly,2026,Assembly,a2024,93,,Michael Ayala,R,8412,counting,20,100
+house,2026 Assembly,2026,Assembly,a2024,94,,Steve Doyle,D,16551,counting,30,100
+house,2026 Assembly,2026,Assembly,a2024,94,,Keith Purnell,R,12523,counting,30,100
 house,2026 Assembly,2026,Assembly,a2024,94,,Democrat,D,0,counting,30,100
 house,2026 Assembly,2026,Assembly,a2024,94,,Write-in,W,0,counting,30,100
 house,2026 Assembly,2026,Assembly,a2024,95,,Jill Billings,D,11120,counting,21,100
@@ -1691,8 +1475,8 @@ house,2026 Assembly,2026,Assembly,a2024,96,,Tara Johnson,D,12970,counting,25,100
 house,2026 Assembly,2026,Assembly,a2024,96,,Jim Green,R,8745,counting,25,100
 house,2026 Assembly,2026,Assembly,a2024,96,,Write-in,W,0,counting,25,100
 house,2026 Assembly,2026,Assembly,a2024,97,,Cindi Duchow,R,0,pending,0,100
-house,2026 Assembly,2026,Assembly,a2024,98,,Jim Piwowarczyk,R,10266,counting,14,100
-house,2026 Assembly,2026,Assembly,a2024,98,,Matt Philibert,D,5477,counting,14,100
+house,2026 Assembly,2026,Assembly,a2024,98,,Jim Piwowarczyk,R,14611,counting,19,100
+house,2026 Assembly,2026,Assembly,a2024,98,,Matt Philibert,D,7221,counting,19,100
 house,2026 Assembly,2026,Assembly,a2024,99,,Barbara Dittrich,R,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55001,Adams,John S. Leiber,R,6028,counting,85,100
 statewide,2026 Treasurer,2026,Treasurer,,55001,Adams,Yee Leng Xiong,D,3454,counting,85,100
@@ -1982,3 +1766,219 @@ statewide,2026 Treasurer,2026,Treasurer,,55141,Wood,John S. Leiber,R,16408,count
 statewide,2026 Treasurer,2026,Treasurer,,55141,Wood,Yee Leng Xiong,D,10986,counting,88,100
 statewide,2026 Treasurer,2026,Treasurer,,55141,Wood,Joseph Kexel,I,0,counting,88,100
 statewide,2026 Treasurer,2026,Treasurer,,55141,Wood,Write-in,W,0,counting,88,100
+statewide,2026 Attorney General,2026,Attorney General,,55001,Adams,Eric Toney,R,5785,counting,85,100
+statewide,2026 Attorney General,2026,Attorney General,,55001,Adams,Josh Kaul,D,3741,counting,85,100
+statewide,2026 Attorney General,2026,Attorney General,,55001,Adams,Write-in,W,0,counting,85,100
+statewide,2026 Attorney General,2026,Attorney General,,55003,Ashland,Josh Kaul,D,0,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55003,Ashland,Eric Toney,R,0,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55003,Ashland,Write-in,W,0,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55005,Barron,Eric Toney,R,6957,counting,50,100
+statewide,2026 Attorney General,2026,Attorney General,,55005,Barron,Josh Kaul,D,3886,counting,50,100
+statewide,2026 Attorney General,2026,Attorney General,,55005,Barron,Write-in,W,0,counting,50,100
+statewide,2026 Attorney General,2026,Attorney General,,55007,Bayfield,Josh Kaul,D,1644,counting,25,100
+statewide,2026 Attorney General,2026,Attorney General,,55007,Bayfield,Eric Toney,R,1147,counting,25,100
+statewide,2026 Attorney General,2026,Attorney General,,55007,Bayfield,Write-in,W,0,counting,25,100
+statewide,2026 Attorney General,2026,Attorney General,,55009,Brown,Eric Toney,R,9963,counting,12.7,100
+statewide,2026 Attorney General,2026,Attorney General,,55009,Brown,Josh Kaul,D,5714,counting,12.7,100
+statewide,2026 Attorney General,2026,Attorney General,,55009,Brown,Write-in,W,0,counting,12.7,100
+statewide,2026 Attorney General,2026,Attorney General,,55011,Buffalo,Josh Kaul,D,0,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55011,Buffalo,Eric Toney,R,0,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55011,Buffalo,Write-in,W,0,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55013,Burnett,Eric Toney,R,489,counting,4.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55013,Burnett,Josh Kaul,D,179,counting,4.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55013,Burnett,Write-in,W,0,counting,4.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55015,Calumet,Josh Kaul,D,0,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55015,Calumet,Eric Toney,R,0,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55015,Calumet,Write-in,W,0,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55017,Chippewa,Eric Toney,R,10045,counting,51.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55017,Chippewa,Josh Kaul,D,6784,counting,51.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55017,Chippewa,Write-in,W,0,counting,51.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55019,Clark,Eric Toney,R,1946,counting,22,100
+statewide,2026 Attorney General,2026,Attorney General,,55019,Clark,Josh Kaul,D,996,counting,22,100
+statewide,2026 Attorney General,2026,Attorney General,,55019,Clark,Write-in,W,0,counting,22,100
+statewide,2026 Attorney General,2026,Attorney General,,55021,Columbia,Josh Kaul,D,0,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55021,Columbia,Eric Toney,R,0,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55021,Columbia,Write-in,W,0,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55023,Crawford,Josh Kaul,D,1400,counting,33.3,100
+statewide,2026 Attorney General,2026,Attorney General,,55023,Crawford,Eric Toney,R,1368,counting,33.3,100
+statewide,2026 Attorney General,2026,Attorney General,,55023,Crawford,Write-in,W,0,counting,33.3,100
+statewide,2026 Attorney General,2026,Attorney General,,55025,Dane,Josh Kaul,D,198268,counting,71.3,100
+statewide,2026 Attorney General,2026,Attorney General,,55025,Dane,Eric Toney,R,49620,counting,71.3,100
+statewide,2026 Attorney General,2026,Attorney General,,55025,Dane,Write-in,W,0,counting,71.3,100
+statewide,2026 Attorney General,2026,Attorney General,,55027,Dodge,Eric Toney,R,19445,counting,85.7,100
+statewide,2026 Attorney General,2026,Attorney General,,55027,Dodge,Josh Kaul,D,10799,counting,85.7,100
+statewide,2026 Attorney General,2026,Attorney General,,55027,Dodge,Write-in,W,0,counting,85.7,100
+statewide,2026 Attorney General,2026,Attorney General,,55029,Door,Josh Kaul,D,9406,counting,95.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55029,Door,Eric Toney,R,8080,counting,95.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55029,Door,Write-in,W,0,counting,95.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55031,Douglas,Josh Kaul,D,11113,counting,92.3,100
+statewide,2026 Attorney General,2026,Attorney General,,55031,Douglas,Eric Toney,R,7727,counting,92.3,100
+statewide,2026 Attorney General,2026,Attorney General,,55031,Douglas,Write-in,W,0,counting,92.3,100
+statewide,2026 Attorney General,2026,Attorney General,,55033,Dunn,Eric Toney,R,9053,counting,77.1,100
+statewide,2026 Attorney General,2026,Attorney General,,55033,Dunn,Josh Kaul,D,7017,counting,77.1,100
+statewide,2026 Attorney General,2026,Attorney General,,55033,Dunn,Write-in,W,0,counting,77.1,100
+statewide,2026 Attorney General,2026,Attorney General,,55035,Eau Claire,Josh Kaul,D,28540,counting,88.5,100
+statewide,2026 Attorney General,2026,Attorney General,,55035,Eau Claire,Eric Toney,R,17643,counting,88.5,100
+statewide,2026 Attorney General,2026,Attorney General,,55035,Eau Claire,Write-in,W,0,counting,88.5,100
+statewide,2026 Attorney General,2026,Attorney General,,55037,Florence,Eric Toney,R,1754,counting,87.5,100
+statewide,2026 Attorney General,2026,Attorney General,,55037,Florence,Josh Kaul,D,682,counting,87.5,100
+statewide,2026 Attorney General,2026,Attorney General,,55037,Florence,Write-in,W,0,counting,87.5,100
+statewide,2026 Attorney General,2026,Attorney General,,55039,Fond du Lac,Eric Toney,R,27461,counting,88.1,100
+statewide,2026 Attorney General,2026,Attorney General,,55039,Fond du Lac,Josh Kaul,D,16386,counting,88.1,100
+statewide,2026 Attorney General,2026,Attorney General,,55039,Fond du Lac,Write-in,W,0,counting,88.1,100
+statewide,2026 Attorney General,2026,Attorney General,,55041,Forest,Eric Toney,R,545,counting,13.3,100
+statewide,2026 Attorney General,2026,Attorney General,,55041,Forest,Josh Kaul,D,237,counting,13.3,100
+statewide,2026 Attorney General,2026,Attorney General,,55041,Forest,Write-in,W,0,counting,13.3,100
+statewide,2026 Attorney General,2026,Attorney General,,55043,Grant,Eric Toney,R,4500,counting,37.5,100
+statewide,2026 Attorney General,2026,Attorney General,,55043,Grant,Josh Kaul,D,3630,counting,37.5,100
+statewide,2026 Attorney General,2026,Attorney General,,55043,Grant,Write-in,W,0,counting,37.5,100
+statewide,2026 Attorney General,2026,Attorney General,,55045,Green,Josh Kaul,D,4228,counting,33.3,100
+statewide,2026 Attorney General,2026,Attorney General,,55045,Green,Eric Toney,R,2841,counting,33.3,100
+statewide,2026 Attorney General,2026,Attorney General,,55045,Green,Write-in,W,0,counting,33.3,100
+statewide,2026 Attorney General,2026,Attorney General,,55047,Green Lake,Josh Kaul,D,0,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55047,Green Lake,Eric Toney,R,0,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55047,Green Lake,Write-in,W,0,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55049,Iowa,Josh Kaul,D,1760,counting,24.1,100
+statewide,2026 Attorney General,2026,Attorney General,,55049,Iowa,Eric Toney,R,1419,counting,24.1,100
+statewide,2026 Attorney General,2026,Attorney General,,55049,Iowa,Write-in,W,0,counting,24.1,100
+statewide,2026 Attorney General,2026,Attorney General,,55051,Iron,Eric Toney,R,64,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55051,Iron,Josh Kaul,D,56,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55051,Iron,Write-in,W,0,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55053,Jackson,Josh Kaul,D,2025,counting,40.6,100
+statewide,2026 Attorney General,2026,Attorney General,,55053,Jackson,Eric Toney,R,1580,counting,40.6,100
+statewide,2026 Attorney General,2026,Attorney General,,55053,Jackson,Write-in,W,0,counting,40.6,100
+statewide,2026 Attorney General,2026,Attorney General,,55055,Jefferson,Eric Toney,R,18048,counting,93.5,100
+statewide,2026 Attorney General,2026,Attorney General,,55055,Jefferson,Josh Kaul,D,15745,counting,93.5,100
+statewide,2026 Attorney General,2026,Attorney General,,55055,Jefferson,Write-in,W,0,counting,93.5,100
+statewide,2026 Attorney General,2026,Attorney General,,55057,Juneau,Eric Toney,R,851,counting,10.7,100
+statewide,2026 Attorney General,2026,Attorney General,,55057,Juneau,Josh Kaul,D,513,counting,10.7,100
+statewide,2026 Attorney General,2026,Attorney General,,55057,Juneau,Write-in,W,0,counting,10.7,100
+statewide,2026 Attorney General,2026,Attorney General,,55059,Kenosha,Eric Toney,R,26995,counting,74.6,100
+statewide,2026 Attorney General,2026,Attorney General,,55059,Kenosha,Josh Kaul,D,26985,counting,74.6,100
+statewide,2026 Attorney General,2026,Attorney General,,55059,Kenosha,Write-in,W,0,counting,74.6,100
+statewide,2026 Attorney General,2026,Attorney General,,55061,Kewaunee,Eric Toney,R,2472,counting,28.6,100
+statewide,2026 Attorney General,2026,Attorney General,,55061,Kewaunee,Josh Kaul,D,1198,counting,28.6,100
+statewide,2026 Attorney General,2026,Attorney General,,55061,Kewaunee,Write-in,W,0,counting,28.6,100
+statewide,2026 Attorney General,2026,Attorney General,,55063,La Crosse,Josh Kaul,D,0,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55063,La Crosse,Eric Toney,R,0,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55063,La Crosse,Write-in,W,0,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55065,Lafayette,Josh Kaul,D,894,counting,21.4,100
+statewide,2026 Attorney General,2026,Attorney General,,55065,Lafayette,Eric Toney,R,840,counting,21.4,100
+statewide,2026 Attorney General,2026,Attorney General,,55065,Lafayette,Write-in,W,0,counting,21.4,100
+statewide,2026 Attorney General,2026,Attorney General,,55067,Langlade,Eric Toney,R,1900,counting,28.6,100
+statewide,2026 Attorney General,2026,Attorney General,,55067,Langlade,Josh Kaul,D,956,counting,28.6,100
+statewide,2026 Attorney General,2026,Attorney General,,55067,Langlade,Write-in,W,0,counting,28.6,100
+statewide,2026 Attorney General,2026,Attorney General,,55069,Lincoln,Eric Toney,R,3270,counting,37,100
+statewide,2026 Attorney General,2026,Attorney General,,55069,Lincoln,Josh Kaul,D,2501,counting,37,100
+statewide,2026 Attorney General,2026,Attorney General,,55069,Lincoln,Write-in,W,0,counting,37,100
+statewide,2026 Attorney General,2026,Attorney General,,55071,Manitowoc,Eric Toney,R,6536,counting,25,100
+statewide,2026 Attorney General,2026,Attorney General,,55071,Manitowoc,Josh Kaul,D,3201,counting,25,100
+statewide,2026 Attorney General,2026,Attorney General,,55071,Manitowoc,Write-in,W,0,counting,25,100
+statewide,2026 Attorney General,2026,Attorney General,,55073,Marathon,Eric Toney,R,30264,counting,81.6,100
+statewide,2026 Attorney General,2026,Attorney General,,55073,Marathon,Josh Kaul,D,24318,counting,81.6,100
+statewide,2026 Attorney General,2026,Attorney General,,55073,Marathon,Write-in,W,0,counting,81.6,100
+statewide,2026 Attorney General,2026,Attorney General,,55075,Marinette,Josh Kaul,D,0,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55075,Marinette,Eric Toney,R,0,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55075,Marinette,Write-in,W,0,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55077,Marquette,Eric Toney,R,1442,counting,26.3,100
+statewide,2026 Attorney General,2026,Attorney General,,55077,Marquette,Josh Kaul,D,786,counting,26.3,100
+statewide,2026 Attorney General,2026,Attorney General,,55077,Marquette,Write-in,W,0,counting,26.3,100
+statewide,2026 Attorney General,2026,Attorney General,,55078,Menominee,Josh Kaul,D,0,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55078,Menominee,Eric Toney,R,0,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55078,Menominee,Write-in,W,0,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55079,Milwaukee,Josh Kaul,D,183743,counting,68.3,100
+statewide,2026 Attorney General,2026,Attorney General,,55079,Milwaukee,Eric Toney,R,62822,counting,68.3,100
+statewide,2026 Attorney General,2026,Attorney General,,55079,Milwaukee,Write-in,W,0,counting,68.3,100
+statewide,2026 Attorney General,2026,Attorney General,,55081,Monroe,Josh Kaul,D,0,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55081,Monroe,Eric Toney,R,0,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55081,Monroe,Write-in,W,0,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55083,Oconto,Eric Toney,R,465,counting,3.4,100
+statewide,2026 Attorney General,2026,Attorney General,,55083,Oconto,Josh Kaul,D,267,counting,3.4,100
+statewide,2026 Attorney General,2026,Attorney General,,55083,Oconto,Write-in,W,0,counting,3.4,100
+statewide,2026 Attorney General,2026,Attorney General,,55085,Oneida,Eric Toney,R,6161,counting,50,100
+statewide,2026 Attorney General,2026,Attorney General,,55085,Oneida,Josh Kaul,D,4277,counting,50,100
+statewide,2026 Attorney General,2026,Attorney General,,55085,Oneida,Write-in,W,7,counting,50,100
+statewide,2026 Attorney General,2026,Attorney General,,55087,Outagamie,Eric Toney,R,34848,counting,74.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55087,Outagamie,Josh Kaul,D,34431,counting,74.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55087,Outagamie,Write-in,W,0,counting,74.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55089,Ozaukee,Eric Toney,R,21519,counting,80.4,100
+statewide,2026 Attorney General,2026,Attorney General,,55089,Ozaukee,Josh Kaul,D,19868,counting,80.4,100
+statewide,2026 Attorney General,2026,Attorney General,,55089,Ozaukee,Write-in,W,27,counting,80.4,100
+statewide,2026 Attorney General,2026,Attorney General,,55091,Pepin,Josh Kaul,D,0,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55091,Pepin,Eric Toney,R,0,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55091,Pepin,Write-in,W,0,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55093,Pierce,Josh Kaul,D,0,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55093,Pierce,Eric Toney,R,0,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55093,Pierce,Write-in,W,0,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55095,Polk,Eric Toney,R,3109,counting,19.4,100
+statewide,2026 Attorney General,2026,Attorney General,,55095,Polk,Josh Kaul,D,1565,counting,19.4,100
+statewide,2026 Attorney General,2026,Attorney General,,55095,Polk,Write-in,W,0,counting,19.4,100
+statewide,2026 Attorney General,2026,Attorney General,,55097,Portage,Josh Kaul,D,0,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55097,Portage,Eric Toney,R,0,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55097,Portage,Write-in,W,0,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55099,Price,Eric Toney,R,1637,counting,30.4,100
+statewide,2026 Attorney General,2026,Attorney General,,55099,Price,Josh Kaul,D,950,counting,30.4,100
+statewide,2026 Attorney General,2026,Attorney General,,55099,Price,Write-in,W,0,counting,30.4,100
+statewide,2026 Attorney General,2026,Attorney General,,55101,Racine,Josh Kaul,D,27901,counting,56.8,100
+statewide,2026 Attorney General,2026,Attorney General,,55101,Racine,Eric Toney,R,23747,counting,56.8,100
+statewide,2026 Attorney General,2026,Attorney General,,55101,Racine,Write-in,W,0,counting,56.8,100
+statewide,2026 Attorney General,2026,Attorney General,,55103,Richland,Eric Toney,R,348,counting,9.1,100
+statewide,2026 Attorney General,2026,Attorney General,,55103,Richland,Josh Kaul,D,345,counting,9.1,100
+statewide,2026 Attorney General,2026,Attorney General,,55103,Richland,Write-in,W,0,counting,9.1,100
+statewide,2026 Attorney General,2026,Attorney General,,55105,Rock,Josh Kaul,D,28361,counting,69.8,100
+statewide,2026 Attorney General,2026,Attorney General,,55105,Rock,Eric Toney,R,21633,counting,69.8,100
+statewide,2026 Attorney General,2026,Attorney General,,55105,Rock,Write-in,W,0,counting,69.8,100
+statewide,2026 Attorney General,2026,Attorney General,,55107,Rusk,Josh Kaul,D,0,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55107,Rusk,Eric Toney,R,0,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55107,Rusk,Write-in,W,0,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55111,Sauk,Josh Kaul,D,11019,counting,63.3,100
+statewide,2026 Attorney General,2026,Attorney General,,55111,Sauk,Eric Toney,R,9708,counting,63.3,100
+statewide,2026 Attorney General,2026,Attorney General,,55111,Sauk,Write-in,W,0,counting,63.3,100
+statewide,2026 Attorney General,2026,Attorney General,,55113,Sawyer,Eric Toney,R,654,counting,9.5,100
+statewide,2026 Attorney General,2026,Attorney General,,55113,Sawyer,Josh Kaul,D,555,counting,9.5,100
+statewide,2026 Attorney General,2026,Attorney General,,55113,Sawyer,Write-in,W,0,counting,9.5,100
+statewide,2026 Attorney General,2026,Attorney General,,55115,Shawano,Eric Toney,R,4048,counting,30.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55115,Shawano,Josh Kaul,D,1834,counting,30.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55115,Shawano,Write-in,W,0,counting,30.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55117,Sheboygan,Eric Toney,R,9017,counting,21.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55117,Sheboygan,Josh Kaul,D,3910,counting,21.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55117,Sheboygan,Write-in,W,0,counting,21.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55109,St. Croix,Josh Kaul,D,0,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55109,St. Croix,Eric Toney,R,0,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55109,St. Croix,Write-in,W,0,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55119,Taylor,Josh Kaul,D,0,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55119,Taylor,Eric Toney,R,0,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55119,Taylor,Write-in,W,0,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55121,Trempealeau,Eric Toney,R,5325,counting,73.1,100
+statewide,2026 Attorney General,2026,Attorney General,,55121,Trempealeau,Josh Kaul,D,4586,counting,73.1,100
+statewide,2026 Attorney General,2026,Attorney General,,55121,Trempealeau,Write-in,W,0,counting,73.1,100
+statewide,2026 Attorney General,2026,Attorney General,,55123,Vernon,Eric Toney,R,4995,counting,66.7,100
+statewide,2026 Attorney General,2026,Attorney General,,55123,Vernon,Josh Kaul,D,4737,counting,66.7,100
+statewide,2026 Attorney General,2026,Attorney General,,55123,Vernon,Write-in,W,0,counting,66.7,100
+statewide,2026 Attorney General,2026,Attorney General,,55125,Vilas,Josh Kaul,D,0,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55125,Vilas,Eric Toney,R,0,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55125,Vilas,Write-in,W,0,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55127,Walworth,Eric Toney,R,23271,counting,78.9,100
+statewide,2026 Attorney General,2026,Attorney General,,55127,Walworth,Josh Kaul,D,17876,counting,78.9,100
+statewide,2026 Attorney General,2026,Attorney General,,55127,Walworth,Write-in,W,0,counting,78.9,100
+statewide,2026 Attorney General,2026,Attorney General,,55129,Washburn,Josh Kaul,D,0,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55129,Washburn,Eric Toney,R,0,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55129,Washburn,Write-in,W,0,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55131,Washington,Eric Toney,R,33143,counting,62.8,100
+statewide,2026 Attorney General,2026,Attorney General,,55131,Washington,Josh Kaul,D,16569,counting,62.8,100
+statewide,2026 Attorney General,2026,Attorney General,,55131,Washington,Write-in,W,0,counting,62.8,100
+statewide,2026 Attorney General,2026,Attorney General,,55133,Waukesha,Eric Toney,R,105739,counting,73.8,100
+statewide,2026 Attorney General,2026,Attorney General,,55133,Waukesha,Josh Kaul,D,75292,counting,73.8,100
+statewide,2026 Attorney General,2026,Attorney General,,55133,Waukesha,Write-in,W,0,counting,73.8,100
+statewide,2026 Attorney General,2026,Attorney General,,55135,Waupaca,Eric Toney,R,1402,counting,5.6,100
+statewide,2026 Attorney General,2026,Attorney General,,55135,Waupaca,Josh Kaul,D,601,counting,5.6,100
+statewide,2026 Attorney General,2026,Attorney General,,55135,Waupaca,Write-in,W,0,counting,5.6,100
+statewide,2026 Attorney General,2026,Attorney General,,55137,Waushara,Eric Toney,R,281,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55137,Waushara,Josh Kaul,D,182,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55137,Waushara,Write-in,W,0,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55139,Winnebago,Eric Toney,R,29163,counting,72.5,100
+statewide,2026 Attorney General,2026,Attorney General,,55139,Winnebago,Josh Kaul,D,29161,counting,72.5,100
+statewide,2026 Attorney General,2026,Attorney General,,55139,Winnebago,Write-in,W,0,counting,72.5,100
+statewide,2026 Attorney General,2026,Attorney General,,55141,Wood,Eric Toney,R,15517,counting,88,100
+statewide,2026 Attorney General,2026,Attorney General,,55141,Wood,Josh Kaul,D,12022,counting,88,100
+statewide,2026 Attorney General,2026,Attorney General,,55141,Wood,Write-in,W,0,counting,88,100
