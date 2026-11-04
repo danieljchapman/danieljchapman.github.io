@@ -1,15 +1,17 @@
 [
  {
   "phase": "counting",
-  "updated_at": "2026-11-04T01:14:24Z",
+  "updated_at": "2026-11-04T01:20:24Z",
   "source": "Texas Secretary of State election-night results, unofficial",
   "races": 224,
   "called": 0,
-  "counting": 25,
+  "counting": 37,
   "problems": [],
   "local_problems": [
    "clarity:Tarrant: https://results.enr.clarityelections.com/TX/Tarrant/127297/current_ver.txt: HTTP 502",
    "collin: Collin: no results CSV for 2026-11-03 posted yet",
+   "clarity:Denton: https://results.enr.clarityelections.com/TX/Denton/127398/current_ver.txt: HTTP 502",
+   "civicapi denton County Judge: https://civicapi.org/api/v2/race/55904: HTTP 502",
    "clarity:Dallas: Dallas: no Clarity election on 2026-11-03 yet"
   ],
   "turnout": {
@@ -344,7 +346,7 @@
     ],
     "48347": [
      40402,
-     0
+     15697
     ],
     "48345": [
      829,
@@ -460,7 +462,7 @@
     ],
     "48287": [
      12262,
-     0
+     4970
     ],
     "48285": [
      14463,
@@ -484,7 +486,7 @@
     ],
     "48275": [
      2262,
-     35
+     364
     ],
     "48273": [
      18028,
@@ -600,7 +602,7 @@
     ],
     "48217": [
      27866,
-     0
+     8998
     ],
     "48215": [
      466208,
@@ -808,7 +810,7 @@
     ],
     "48111": [
      2836,
-     0
+     580
     ],
     "48109": [
      1732,
@@ -916,7 +918,7 @@
     ],
     "48057": [
      13031,
-     0
+     4162
     ],
     "48055": [
      28491,
@@ -940,7 +942,7 @@
     ],
     "48045": [
      1022,
-     0
+     37
     ],
     "48043": [
      7119,
@@ -964,7 +966,7 @@
     ],
     "48033": [
      477,
-     5
+     225
     ],
     "48031": [
      11369,
