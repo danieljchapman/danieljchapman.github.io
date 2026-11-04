@@ -1,29 +1,60 @@
 level,race,year,office,plan,unit,unit_name,candidate,party,votes,status,reporting,reporting_total
-ushouse,2026 U.S. House,2026,U.S. House,c2022,3,,Yassamin Ansari,D,74145,final,24,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,3,,Alan Aversa,NL,5070,final,24,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,3,,David Redkey,G,4112,final,24,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,3,,Jacob Parkman,R,1090,final,24,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,3,,Write-in,I,688,final,24,100
+senate,2026 Senate,2026,Senate,l2022,19,,Gail Griffin,R,33870,counting,20,100
+senate,2026 Senate,2026,Senate,l2022,19,,Bob Karp,D,30346,counting,20,100
+senate,2026 Senate,2026,Senate,l2022,19,,Write-in,I,68,counting,20,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,5,,Elizabeth Lee,D,107352,counting,59,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,5,,Mark Lamb,R,97979,counting,59,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,5,,Write-in,I,270,counting,59,100
+senate,2026 Senate,2026,Senate,l2022,22,,Eva Diaz,D,23233,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,22,,Write-in,I,691,counting,0,100
 senate,2026 Senate,2026,Senate,l2022,28,,Frank Carroll,R,45641,counting,0,100
 senate,2026 Senate,2026,Senate,l2022,28,,Michael Braun,D,38095,counting,0,100
 senate,2026 Senate,2026,Senate,l2022,28,,Write-in,I,53,counting,0,100
-house,2026 House,2026,House,l2022,15,,Neal Carter,R,33821,counting,0,100
-house,2026 House,2026,House,l2022,15,,Michael Way,R,32383,counting,0,100
-house,2026 House,2026,House,l2022,15,,Write-in,I,1974,counting,0,100
-house,2026 House,2026,House,l2022,12,,Stacey Travers,D,39238,counting,0,100
-house,2026 House,2026,House,l2022,12,,Armando Montero,D,38225,counting,0,100
-house,2026 House,2026,House,l2022,12,,David Richardson,R,20880,counting,0,100
-house,2026 House,2026,House,l2022,12,,Write-in,I,227,counting,0,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,6,,JoAnna Mendoza,D,138816,final,69,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,6,,Juan Ciscomani,R,99364,final,69,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,6,,Jereme Peters,L,2674,final,69,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,6,,Gary Swing,G,1994,final,69,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,6,,Write-in,I,169,final,69,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,6,,Michael Dorland,I,30,final,69,100
-house,2026 House,2026,House,l2022,18,,Nancy Gutierrez,D,48030,counting,0,100
-house,2026 House,2026,House,l2022,18,,Chris Mathis,D,45648,counting,0,100
-house,2026 House,2026,House,l2022,18,,Bob Dohse,R,21369,counting,0,100
-house,2026 House,2026,House,l2022,18,,Write-in,I,294,counting,0,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,8,,Bernadette Greene-Placentia,D,100376,counting,56,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,8,,Abraham Hamadeh,R,96293,counting,56,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,8,,Write-in,I,352,counting,56,100
+senate,2026 Senate,2026,Senate,l2022,25,,"Timothy ""Tim"" Dunn",R,28735,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,25,,Laura Huber,D,24746,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,25,,Write-in,I,25,counting,0,100
+house,2026 House,2026,House,l2022,2,,Stephanie Simacek,D,29851,counting,0,100
+house,2026 House,2026,House,l2022,2,,Justin Wilmeth,R,20027,counting,0,100
+house,2026 House,2026,House,l2022,2,,Paul Carver,R,18469,counting,0,100
+house,2026 House,2026,House,l2022,2,,Write-in,I,231,counting,0,100
+house,2026 House,2026,House,l2022,8,,Janeen Connolly,D,26461,counting,0,100
+house,2026 House,2026,House,l2022,8,,Brian Garcia,D,25866,counting,0,100
+house,2026 House,2026,House,l2022,8,,Donald Hawker,R,11276,counting,0,100
+house,2026 House,2026,House,l2022,8,,Write-in,I,160,counting,0,100
+house,2026 House,2026,House,l2022,5,,Sarah Liguori,D,35655,counting,0,100
+house,2026 House,2026,House,l2022,5,,Aaron Marquez,D,33950,counting,0,100
+house,2026 House,2026,House,l2022,5,,Write-in,I,950,counting,0,100
+house,2026 House,2026,House,l2022,11,,Oscar De Los Santos,D,25017,counting,0,100
+house,2026 House,2026,House,l2022,11,,Junelle Cavero,D,24255,counting,0,100
+house,2026 House,2026,House,l2022,11,,Joseph Charles Dailey,R,5542,counting,0,100
+house,2026 House,2026,House,l2022,11,,Cesar Aleman,R,5451,counting,0,100
+house,2026 House,2026,House,l2022,11,,Write-in,I,29,counting,0,100
+house,2026 House,2026,House,l2022,14,,Mary Rose,D,31148,counting,0,100
+house,2026 House,2026,House,l2022,14,,Tyler Andrew Farnsworth,R,26060,counting,0,100
+house,2026 House,2026,House,l2022,14,,Laurin Hendrix,R,25653,counting,0,100
+house,2026 House,2026,House,l2022,14,,Write-in,I,313,counting,0,100
+house,2026 House,2026,House,l2022,20,,Sally Ann Gonzales,D,27301,counting,0,100
+house,2026 House,2026,House,l2022,20,,Betty Villegas,D,27043,counting,0,100
+house,2026 House,2026,House,l2022,20,,Write-in,I,811,counting,0,100
+house,2026 House,2026,House,l2022,17,,Kevin Volk,D,48545,counting,0,100
+house,2026 House,2026,House,l2022,17,,"Hollace ""Holly"" Lyon",D,48384,counting,0,100
+house,2026 House,2026,House,l2022,17,,John Winchester,R,34845,counting,0,100
+house,2026 House,2026,House,l2022,17,,"Rachel ""Jones"" Keshel",R,33575,counting,0,100
+house,2026 House,2026,House,l2022,17,,Write-in,I,69,counting,0,100
+house,2026 House,2026,House,l2022,23,,Emilia Cortez,D,18226,counting,0,100
+house,2026 House,2026,House,l2022,23,,Mariana Sandoval,D,18224,counting,0,100
+house,2026 House,2026,House,l2022,23,,Michele Pena,R,10794,counting,0,100
+house,2026 House,2026,House,l2022,23,,Gary Garcia Snyder,R,9761,counting,0,100
+house,2026 House,2026,House,l2022,23,,Write-in,I,36,counting,0,100
+house,2026 House,2026,House,l2022,26,,Cesar Aguilar,D,15062,counting,0,100
+house,2026 House,2026,House,l2022,26,,Quanta Crews,D,13897,counting,0,100
+house,2026 House,2026,House,l2022,26,,Frank Roberts,R,4278,counting,0,100
+house,2026 House,2026,House,l2022,26,,Jonathan McKenna,R,4036,counting,0,100
+house,2026 House,2026,House,l2022,26,,Hector Gomez,G,696,counting,0,100
+house,2026 House,2026,House,l2022,26,,Write-in,I,16,counting,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04001,Apache,Teresa Ruiz,D,8057,counting,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04001,Apache,Kimberly Yee,R,4087,counting,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04001,Apache,Write-in,I,20,counting,0,100
@@ -114,27 +145,258 @@ statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Publi
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04027,Yuma,Gerard Davis,G,1,counting,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04027,Yuma,Davis Gerard,G,0,counting,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04027,Yuma,"Stephen ""Dr.Stephen Neal"" Neal jr.",NL,0,counting,0,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,9,,Paul Gosar,R,99324,final,52,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,9,,Danielle Sterbinsky,D,80183,final,52,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,9,,Write-in,I,178,final,52,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,9,,William Perry,I,18,final,52,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,9,,G. Seville Hatch,I,11,final,52,100
-house,2026 House,2026,House,l2022,21,,Miranda Lopez,D,25790,counting,0,100
-house,2026 House,2026,House,l2022,21,,Consuelo Hernandez,D,25013,counting,0,100
-house,2026 House,2026,House,l2022,21,,Christopher Kibbey,R,11278,counting,0,100
-house,2026 House,2026,House,l2022,21,,Write-in,I,246,counting,0,100
-house,2026 House,2026,House,l2022,27,,Deborah Howard,D,26695,counting,0,100
-house,2026 House,2026,House,l2022,27,,Lisa Fink,R,20986,counting,0,100
-house,2026 House,2026,House,l2022,27,,Tony Rivero,R,20665,counting,0,100
-house,2026 House,2026,House,l2022,27,,Write-in,I,238,counting,0,100
-house,2026 House,2026,House,l2022,24,,Alberto Flores,D,14954,counting,0,100
-house,2026 House,2026,House,l2022,24,,Lisbeth Arescurenaga,D,14264,counting,0,100
-house,2026 House,2026,House,l2022,24,,Delores McLaughlin,R,5862,counting,0,100
-house,2026 House,2026,House,l2022,24,,Write-in,I,91,counting,0,100
-house,2026 House,2026,House,l2022,30,,Mike Gannuscio,R,33765,counting,17,100
-house,2026 House,2026,House,l2022,30,,David Rose,R,32235,counting,17,100
-house,2026 House,2026,House,l2022,30,,Brian McMahan,D,16223,counting,17,100
-house,2026 House,2026,House,l2022,30,,Write-in,I,161,counting,17,100
+house,2026 House,2026,House,l2022,29,,Christine Marie Scianna,D,31416,counting,0,100
+house,2026 House,2026,House,l2022,29,,Steve Montenegro,R,29311,counting,0,100
+house,2026 House,2026,House,l2022,29,,James Taylor,R,28435,counting,0,100
+house,2026 House,2026,House,l2022,29,,Write-in,I,311,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,04001,Apache,Nick Mansour,D,8001,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,04001,Apache,Elijah Norton,R,4116,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,04001,Apache,Write-in,I,20,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,04003,Cochise,Elijah Norton,R,15244,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,04003,Cochise,Nick Mansour,D,14524,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,04003,Cochise,Write-in,I,37,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,04005,Coconino,Nick Mansour,D,23648,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,04005,Coconino,Elijah Norton,R,10250,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,04005,Coconino,Write-in,I,20,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,04007,Gila,Elijah Norton,R,8222,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,04007,Gila,Nick Mansour,D,4534,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,04007,Gila,Write-in,I,11,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,04009,Graham,Elijah Norton,R,6287,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,04009,Graham,Nick Mansour,D,2732,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,04009,Graham,Write-in,I,19,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,04011,Greenlee,Nick Mansour,D,548,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,04011,Greenlee,Elijah Norton,R,489,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,04011,Greenlee,Write-in,I,2,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,04012,La Paz,Nick Mansour,D,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,04012,La Paz,Elijah Norton,R,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,04012,La Paz,Write-in,I,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,04013,Maricopa,Nick Mansour,D,561639,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,04013,Maricopa,Elijah Norton,R,420834,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,04013,Maricopa,Write-in,I,602,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,04015,Mohave,Elijah Norton,R,36505,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,04015,Mohave,Nick Mansour,D,14727,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,04015,Mohave,Write-in,I,55,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,04017,Navajo,Elijah Norton,R,10562,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,04017,Navajo,Nick Mansour,D,8628,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,04017,Navajo,Write-in,I,28,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,04019,Pima,Nick Mansour,D,174522,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,04019,Pima,Elijah Norton,R,86990,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,04019,Pima,Write-in,I,184,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,04021,Pinal,Elijah Norton,R,47831,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,04021,Pinal,Nick Mansour,D,46768,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,04021,Pinal,Write-in,I,101,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,04023,Santa Cruz,Nick Mansour,D,6801,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,04023,Santa Cruz,Elijah Norton,R,2335,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,04023,Santa Cruz,Write-in,I,5,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,04025,Yavapai,Elijah Norton,R,52546,counting,96.49,100
+statewide,2026 Treasurer,2026,Treasurer,,04025,Yavapai,Nick Mansour,D,33742,counting,96.49,100
+statewide,2026 Treasurer,2026,Treasurer,,04025,Yavapai,Write-in,I,55,counting,96.49,100
+statewide,2026 Treasurer,2026,Treasurer,,04027,Yuma,Nick Mansour,D,10575,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,04027,Yuma,Elijah Norton,R,10164,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,04027,Yuma,Write-in,I,14,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,3,,John Kavanagh,R,54747,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,3,,Jeffrey Fortney,D,40614,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,3,,Write-in,I,42,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,3,,Frank Bertone,R,0,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,9,,Kiana Maria Sears,D,23027,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,9,,Bridget Fitzgibbons,R,13807,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,9,,Write-in,I,24,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,6,,Jamescita Peshlakai,D,28987,counting,14,100
+senate,2026 Senate,2026,Senate,l2022,6,,Lloyd Johnson,R,10360,counting,14,100
+senate,2026 Senate,2026,Senate,l2022,6,,Write-in,I,47,counting,14,100
+senate,2026 Senate,2026,Senate,l2022,12,,"Patricia ""Patty"" Contreras",D,41824,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,12,,Anthony Jason Ramirez,NL,15473,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,12,,Write-in,I,186,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,12,,Gary Hatch,R,134,counting,0,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,4,,Greg Stanton,D,104901,final,46,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,4,,Zuhdi Jasser,R,53958,final,46,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,4,,Tisha Benoit,NL,3380,final,46,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,4,,Write-in,I,236,final,46,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,4,,Steven Sanders,NL,31,final,46,100
+senate,2026 Senate,2026,Senate,l2022,15,,Jake Hoffman,R,33358,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,15,,Jayme Accalia,D,28708,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,15,,Write-in,I,47,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,21,,Rosanna Gabaldon,D,29222,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,21,,Esteban Flores,R,11070,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,21,,Write-in,I,57,counting,0,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,1,,Amish Shah,D,136277,counting,70,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,1,,Jay Feely,R,107247,counting,70,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,1,,Monica Alponte,L,4603,counting,70,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,1,,Write-in,I,136,counting,70,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,1,,Dev Gupta,I,6,counting,70,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,1,,Gage Dylan Thunder,I,6,counting,70,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,7,,Adelita Grijalva,D,88495,final,33,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,7,,Daniel Butierez,R,29873,final,33,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,7,,Write-in,I,182,final,33,100
+senate,2026 Senate,2026,Senate,l2022,18,,Priya Sundareshan,D,50391,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,18,,Douglas Everett,R,21521,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,18,,Write-in,I,61,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,24,,Analise Ortiz,D,16382,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,24,,Frank Steele,R,5695,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,24,,Write-in,I,25,counting,0,100
+house,2026 House,2026,House,l2022,1,,Selina Bliss,R,49030,counting,49,100
+house,2026 House,2026,House,l2022,1,,Quang Huu Nguyen,R,47123,counting,49,100
+house,2026 House,2026,House,l2022,1,,Sandy Zalecki,D,34161,counting,49,100
+house,2026 House,2026,House,l2022,1,,Write-in,I,280,counting,49,100
+house,2026 House,2026,House,l2022,1,,"Charles ""Charlie"" Eakins",L,44,counting,49,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04001,Apache,Adrian Fontes,D,8056,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04001,Apache,Alexander Kolodin,R,3792,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04001,Apache,Duwayne Collier,G,294,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04001,Apache,Write-in,I,14,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04003,Cochise,Adrian Fontes,D,14808,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04003,Cochise,Alexander Kolodin,R,14621,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04003,Cochise,Duwayne Collier,G,553,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04003,Cochise,Write-in,I,20,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04005,Coconino,Adrian Fontes,D,23881,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04005,Coconino,Alexander Kolodin,R,9550,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04005,Coconino,Duwayne Collier,G,593,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04005,Coconino,Write-in,I,11,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04007,Gila,Alexander Kolodin,R,7909,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04007,Gila,Adrian Fontes,D,4799,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04007,Gila,Duwayne Collier,G,174,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04007,Gila,Write-in,I,3,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04009,Graham,Alexander Kolodin,R,6022,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04009,Graham,Adrian Fontes,D,2898,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04009,Graham,Duwayne Collier,G,157,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04009,Graham,Write-in,I,6,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04011,Greenlee,Adrian Fontes,D,563,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04011,Greenlee,Alexander Kolodin,R,459,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04011,Greenlee,Duwayne Collier,G,21,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04011,Greenlee,Write-in,I,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04012,La Paz,Adrian Fontes,D,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04012,La Paz,Duwayne Collier,G,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04012,La Paz,Alexander Kolodin,R,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04012,La Paz,Write-in,I,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04013,Maricopa,Adrian Fontes,D,588566,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04013,Maricopa,Alexander Kolodin,R,399426,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04013,Maricopa,Duwayne Collier,G,11124,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04013,Maricopa,Write-in,I,335,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04015,Mohave,Alexander Kolodin,R,35726,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04015,Mohave,Adrian Fontes,D,15121,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04015,Mohave,Duwayne Collier,G,748,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04015,Mohave,Write-in,I,28,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04017,Navajo,Alexander Kolodin,R,9997,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04017,Navajo,Adrian Fontes,D,8920,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04017,Navajo,Duwayne Collier,G,368,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04017,Navajo,Write-in,I,13,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04019,Pima,Adrian Fontes,D,176310,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04019,Pima,Alexander Kolodin,R,82560,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04019,Pima,Duwayne Collier,G,3621,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04019,Pima,Write-in,I,112,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04021,Pinal,Adrian Fontes,D,48136,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04021,Pinal,Alexander Kolodin,R,45510,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04021,Pinal,Duwayne Collier,G,1360,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04021,Pinal,Write-in,I,43,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04023,Santa Cruz,Adrian Fontes,D,7019,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04023,Santa Cruz,Alexander Kolodin,R,2045,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04023,Santa Cruz,Duwayne Collier,G,120,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04023,Santa Cruz,Write-in,I,2,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04025,Yavapai,Alexander Kolodin,R,50636,counting,96.49,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04025,Yavapai,Adrian Fontes,D,35577,counting,96.49,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04025,Yavapai,Duwayne Collier,G,1105,counting,96.49,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04025,Yavapai,Write-in,I,35,counting,96.49,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04027,Yuma,Adrian Fontes,D,10740,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04027,Yuma,Alexander Kolodin,R,9834,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04027,Yuma,Duwayne Collier,G,346,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04027,Yuma,Write-in,I,9,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,27,,Kyle Clayton,D,26541,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,27,,Kevin Payne,R,21529,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,27,,Write-in,I,47,counting,0,100
+house,2026 House,2026,House,l2022,4,,Tammy Caputi,D,44789,counting,0,100
+house,2026 House,2026,House,l2022,4,,Karen Gresham,D,44642,counting,0,100
+house,2026 House,2026,House,l2022,4,,Matt Gress,R,36428,counting,0,100
+house,2026 House,2026,House,l2022,4,,Pamela Carter,R,33699,counting,0,100
+house,2026 House,2026,House,l2022,4,,Write-in,I,52,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,30,,Leo Biasiucci,R,41960,counting,17,100
+senate,2026 Senate,2026,Senate,l2022,30,,Write-in,I,830,counting,17,100
+house,2026 House,2026,House,l2022,7,,"Walter ""Walt"" Blackman",R,32878,counting,0,100
+house,2026 House,2026,House,l2022,7,,David Cook Sr.,R,31738,counting,0,100
+house,2026 House,2026,House,l2022,7,,"Samuel ""Sam"" Martin",D,26865,counting,0,100
+house,2026 House,2026,House,l2022,7,,Richard Grayson,G,9545,counting,0,100
+house,2026 House,2026,House,l2022,7,,Write-in,I,89,counting,0,100
+house,2026 House,2026,House,l2022,13,,"Racquel ""Rockee"" Armstrong",D,32998,counting,0,100
+house,2026 House,2026,House,l2022,13,,Jacob Weinberg,D,32839,counting,0,100
+house,2026 House,2026,House,l2022,13,,Kevin Hartke,R,26318,counting,0,100
+house,2026 House,2026,House,l2022,13,,Janet Weninger,R,24504,counting,0,100
+house,2026 House,2026,House,l2022,13,,Write-in,I,49,counting,0,100
+house,2026 House,2026,House,l2022,10,,Justin Olson,R,29220,counting,0,100
+house,2026 House,2026,House,l2022,10,,James Rogers,R,28500,counting,0,100
+house,2026 House,2026,House,l2022,10,,Helen Hunter,D,27528,counting,0,100
+house,2026 House,2026,House,l2022,10,,Brian Calaway,D,26108,counting,0,100
+house,2026 House,2026,House,l2022,10,,David Scott,NL,1955,counting,0,100
+house,2026 House,2026,House,l2022,10,,Write-in,I,26,counting,0,100
+house,2026 House,2026,House,l2022,16,,Julia Romero Gusse,D,26748,counting,0,100
+house,2026 House,2026,House,l2022,16,,Teresa Martinez,R,21381,counting,0,100
+house,2026 House,2026,House,l2022,16,,Chris Lopez,R,20154,counting,0,100
+house,2026 House,2026,House,l2022,16,,Write-in,I,328,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04001,Apache,Brian Matlock,D,8174,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04001,Apache,Les Presmyk,R,3917,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04001,Apache,Write-in,I,24,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04003,Cochise,Les Presmyk,R,15310,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04003,Cochise,Brian Matlock,D,14356,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04003,Cochise,Write-in,I,36,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04005,Coconino,Brian Matlock,D,23275,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04005,Coconino,Les Presmyk,R,10410,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04005,Coconino,Write-in,I,24,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04007,Gila,Les Presmyk,R,8203,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04007,Gila,Brian Matlock,D,4493,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04007,Gila,Write-in,I,19,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04009,Graham,Les Presmyk,R,6158,counting,100,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04009,Graham,Brian Matlock,D,2831,counting,100,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04009,Graham,Write-in,I,13,counting,100,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04011,Greenlee,Brian Matlock,D,549,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04011,Greenlee,Les Presmyk,R,497,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04011,Greenlee,Write-in,I,0,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04012,La Paz,Brian Matlock,D,0,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04012,La Paz,Les Presmyk,R,0,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04012,La Paz,Write-in,I,0,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04013,Maricopa,Brian Matlock,D,538267,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04013,Maricopa,Les Presmyk,R,429085,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04013,Maricopa,Write-in,I,802,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04015,Mohave,Les Presmyk,R,36644,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04015,Mohave,Brian Matlock,D,14458,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04015,Mohave,Write-in,I,36,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04017,Navajo,Les Presmyk,R,10487,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04017,Navajo,Brian Matlock,D,8607,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04017,Navajo,Write-in,I,37,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04019,Pima,Brian Matlock,D,169762,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04019,Pima,Les Presmyk,R,90252,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04019,Pima,Write-in,I,290,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04021,Pinal,Les Presmyk,R,48070,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04021,Pinal,Brian Matlock,D,45654,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04021,Pinal,Write-in,I,72,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04023,Santa Cruz,Brian Matlock,D,6755,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04023,Santa Cruz,Les Presmyk,R,2249,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04023,Santa Cruz,Write-in,I,2,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04025,Yavapai,Les Presmyk,R,52908,counting,96.49,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04025,Yavapai,Brian Matlock,D,32755,counting,96.49,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04025,Yavapai,Write-in,I,62,counting,96.49,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04027,Yuma,Brian Matlock,D,10484,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04027,Yuma,Les Presmyk,R,10101,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04027,Yuma,Write-in,I,20,counting,0,100
+house,2026 House,2026,House,l2022,19,,David Gowan,R,31496,counting,20,100
+house,2026 House,2026,House,l2022,19,,Lupe Diaz,R,29075,counting,20,100
+house,2026 House,2026,House,l2022,19,,Jackie O'Donnell Anderson,D,28416,counting,20,100
+house,2026 House,2026,House,l2022,19,,Aiden Nicholette Swallow,D,27113,counting,20,100
+house,2026 House,2026,House,l2022,19,,Write-in,I,79,counting,20,100
+house,2026 House,2026,House,l2022,25,,Michael Carbone,R,26238,counting,0,100
+house,2026 House,2026,House,l2022,25,,Tiffany Byrne,D,25004,counting,0,100
+house,2026 House,2026,House,l2022,25,,"Nickolas ""Nick"" Kupper",R,24466,counting,0,100
+house,2026 House,2026,House,l2022,25,,Write-in,I,253,counting,0,100
+house,2026 House,2026,House,l2022,22,,Betsy Munoz,D,19582,counting,0,100
+house,2026 House,2026,House,l2022,22,,Elda Luna-Nájera,D,19058,counting,0,100
+house,2026 House,2026,House,l2022,22,,Write-in,I,1028,counting,0,100
+house,2026 House,2026,House,l2022,28,,David Livingston,R,43171,counting,0,100
+house,2026 House,2026,House,l2022,28,,Beverly Pingerelli,R,43116,counting,0,100
+house,2026 House,2026,House,l2022,28,,Barbara Fike,D,36805,counting,0,100
+house,2026 House,2026,House,l2022,28,,Marc Graham,D,35522,counting,0,100
+house,2026 House,2026,House,l2022,28,,Write-in,I,63,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,2,,Amelia Gallitano,D,29520,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,2,,Shawnna Bolick,R,20785,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,2,,Write-in,I,45,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,5,,Christine Marsh,D,39448,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,5,,Jason LaForest,NL,6273,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,5,,Write-in,I,256,counting,0,100
 statewide,2026 Governor,2026,Governor,,04001,Apache,Katie Hobbs,D,8342,final,40.1,100
 statewide,2026 Governor,2026,Governor,,04001,Apache,Andy Biggs,R,3716,final,40.1,100
 statewide,2026 Governor,2026,Governor,,04001,Apache,Risa Lombardo,G,129,final,40.1,100
@@ -240,252 +502,12 @@ statewide,2026 Governor,2026,Governor,,04027,Yuma,Teri Hourihan,NL,180,final,32.
 statewide,2026 Governor,2026,Governor,,04027,Yuma,Write-in,I,13,final,32.7,100
 statewide,2026 Governor,2026,Governor,,04027,Yuma,Alice Novoa,R,0,final,32.7,100
 statewide,2026 Governor,2026,Governor,,04027,Yuma,Gertritrude Gonzalez,R,0,final,32.7,100
-senate,2026 Senate,2026,Senate,l2022,3,,John Kavanagh,R,54747,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,3,,Jeffrey Fortney,D,40614,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,3,,Write-in,I,42,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,3,,Frank Bertone,R,0,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,6,,Jamescita Peshlakai,D,28987,counting,14,100
-senate,2026 Senate,2026,Senate,l2022,6,,Lloyd Johnson,R,10360,counting,14,100
-senate,2026 Senate,2026,Senate,l2022,6,,Write-in,I,47,counting,14,100
-senate,2026 Senate,2026,Senate,l2022,12,,"Patricia ""Patty"" Contreras",D,41824,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,12,,Anthony Jason Ramirez,NL,15473,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,12,,Write-in,I,186,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,12,,Gary Hatch,R,134,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,9,,Kiana Maria Sears,D,23027,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,9,,Bridget Fitzgibbons,R,13807,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,9,,Write-in,I,24,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,15,,Jake Hoffman,R,33358,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,15,,Jayme Accalia,D,28708,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,15,,Write-in,I,47,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04001,Apache,Adrian Fontes,D,8056,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04001,Apache,Alexander Kolodin,R,3792,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04001,Apache,Duwayne Collier,G,294,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04001,Apache,Write-in,I,14,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04003,Cochise,Adrian Fontes,D,14808,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04003,Cochise,Alexander Kolodin,R,14621,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04003,Cochise,Duwayne Collier,G,553,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04003,Cochise,Write-in,I,20,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04005,Coconino,Adrian Fontes,D,23881,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04005,Coconino,Alexander Kolodin,R,9550,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04005,Coconino,Duwayne Collier,G,593,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04005,Coconino,Write-in,I,11,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04007,Gila,Alexander Kolodin,R,7909,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04007,Gila,Adrian Fontes,D,4799,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04007,Gila,Duwayne Collier,G,174,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04007,Gila,Write-in,I,3,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04009,Graham,Alexander Kolodin,R,6022,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04009,Graham,Adrian Fontes,D,2898,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04009,Graham,Duwayne Collier,G,157,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04009,Graham,Write-in,I,6,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04011,Greenlee,Adrian Fontes,D,563,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04011,Greenlee,Alexander Kolodin,R,459,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04011,Greenlee,Duwayne Collier,G,21,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04011,Greenlee,Write-in,I,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04012,La Paz,Adrian Fontes,D,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04012,La Paz,Duwayne Collier,G,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04012,La Paz,Alexander Kolodin,R,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04012,La Paz,Write-in,I,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04013,Maricopa,Adrian Fontes,D,588566,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04013,Maricopa,Alexander Kolodin,R,399426,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04013,Maricopa,Duwayne Collier,G,11124,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04013,Maricopa,Write-in,I,335,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04015,Mohave,Alexander Kolodin,R,35726,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04015,Mohave,Adrian Fontes,D,15121,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04015,Mohave,Duwayne Collier,G,748,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04015,Mohave,Write-in,I,28,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04017,Navajo,Alexander Kolodin,R,9997,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04017,Navajo,Adrian Fontes,D,8920,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04017,Navajo,Duwayne Collier,G,368,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04017,Navajo,Write-in,I,13,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04019,Pima,Adrian Fontes,D,176310,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04019,Pima,Alexander Kolodin,R,82560,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04019,Pima,Duwayne Collier,G,3621,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04019,Pima,Write-in,I,112,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04021,Pinal,Adrian Fontes,D,48136,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04021,Pinal,Alexander Kolodin,R,45510,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04021,Pinal,Duwayne Collier,G,1360,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04021,Pinal,Write-in,I,43,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04023,Santa Cruz,Adrian Fontes,D,7019,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04023,Santa Cruz,Alexander Kolodin,R,2045,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04023,Santa Cruz,Duwayne Collier,G,120,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04023,Santa Cruz,Write-in,I,2,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04025,Yavapai,Alexander Kolodin,R,50636,counting,96.49,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04025,Yavapai,Adrian Fontes,D,35577,counting,96.49,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04025,Yavapai,Duwayne Collier,G,1105,counting,96.49,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04025,Yavapai,Write-in,I,35,counting,96.49,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04027,Yuma,Adrian Fontes,D,10740,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04027,Yuma,Alexander Kolodin,R,9834,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04027,Yuma,Duwayne Collier,G,346,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04027,Yuma,Write-in,I,9,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,18,,Priya Sundareshan,D,50391,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,18,,Douglas Everett,R,21521,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,18,,Write-in,I,61,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,24,,Analise Ortiz,D,16382,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,24,,Frank Steele,R,5695,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,24,,Write-in,I,25,counting,0,100
-house,2026 House,2026,House,l2022,9,,Lorena Austin,D,21709,counting,0,100
-house,2026 House,2026,House,l2022,9,,Jacob D. Martinez,D,21513,counting,0,100
-house,2026 House,2026,House,l2022,9,,Bradley D. Bettencourt,R,13731,counting,0,100
-house,2026 House,2026,House,l2022,9,,Write-in,I,213,counting,0,100
-house,2026 House,2026,House,l2022,2,,Stephanie Simacek,D,29851,counting,0,100
-house,2026 House,2026,House,l2022,2,,Justin Wilmeth,R,20027,counting,0,100
-house,2026 House,2026,House,l2022,2,,Paul Carver,R,18469,counting,0,100
-house,2026 House,2026,House,l2022,2,,Write-in,I,231,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,21,,Rosanna Gabaldon,D,29222,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,21,,Esteban Flores,R,11070,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,21,,Write-in,I,57,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,27,,Kyle Clayton,D,26541,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,27,,Kevin Payne,R,21529,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,27,,Write-in,I,47,counting,0,100
-house,2026 House,2026,House,l2022,8,,Janeen Connolly,D,26461,counting,0,100
-house,2026 House,2026,House,l2022,8,,Brian Garcia,D,25866,counting,0,100
-house,2026 House,2026,House,l2022,8,,Donald Hawker,R,11276,counting,0,100
-house,2026 House,2026,House,l2022,8,,Write-in,I,160,counting,0,100
-house,2026 House,2026,House,l2022,5,,Sarah Liguori,D,35655,counting,0,100
-house,2026 House,2026,House,l2022,5,,Aaron Marquez,D,33950,counting,0,100
-house,2026 House,2026,House,l2022,5,,Write-in,I,950,counting,0,100
-house,2026 House,2026,House,l2022,11,,Oscar De Los Santos,D,25017,counting,0,100
-house,2026 House,2026,House,l2022,11,,Junelle Cavero,D,24255,counting,0,100
-house,2026 House,2026,House,l2022,11,,Joseph Charles Dailey,R,5542,counting,0,100
-house,2026 House,2026,House,l2022,11,,Cesar Aleman,R,5451,counting,0,100
-house,2026 House,2026,House,l2022,11,,Write-in,I,29,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,30,,Leo Biasiucci,R,41960,counting,17,100
-senate,2026 Senate,2026,Senate,l2022,30,,Write-in,I,830,counting,17,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,2,,Jonathan Nez,D,101455,counting,59,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,2,,Eli Crane,R,101260,counting,59,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,2,,Curtis Goodwin,L,3218,counting,59,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,2,,Write-in,I,92,counting,59,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,8,,Bernadette Greene-Placentia,D,100376,counting,56,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,8,,Abraham Hamadeh,R,96293,counting,56,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,8,,Write-in,I,352,counting,56,100
-house,2026 House,2026,House,l2022,14,,Mary Rose,D,31148,counting,0,100
-house,2026 House,2026,House,l2022,14,,Tyler Andrew Farnsworth,R,26060,counting,0,100
-house,2026 House,2026,House,l2022,14,,Laurin Hendrix,R,25653,counting,0,100
-house,2026 House,2026,House,l2022,14,,Write-in,I,313,counting,0,100
-house,2026 House,2026,House,l2022,20,,Sally Ann Gonzales,D,27301,counting,0,100
-house,2026 House,2026,House,l2022,20,,Betty Villegas,D,27043,counting,0,100
-house,2026 House,2026,House,l2022,20,,Write-in,I,811,counting,0,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,5,,Elizabeth Lee,D,107352,counting,59,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,5,,Mark Lamb,R,97979,counting,59,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,5,,Write-in,I,270,counting,59,100
-house,2026 House,2026,House,l2022,6,,Mae Peshlakai,D,25186,counting,14,100
-house,2026 House,2026,House,l2022,6,,Ian Teller,D,23906,counting,14,100
-house,2026 House,2026,House,l2022,6,,Brendan Trachsel,G,4938,counting,14,100
-house,2026 House,2026,House,l2022,6,,Write-in,I,595,counting,14,100
-house,2026 House,2026,House,l2022,6,,"Royce ""Rj"" Mark Jenkins",R,307,counting,14,100
-house,2026 House,2026,House,l2022,17,,Kevin Volk,D,48545,counting,0,100
-house,2026 House,2026,House,l2022,17,,"Hollace ""Holly"" Lyon",D,48384,counting,0,100
-house,2026 House,2026,House,l2022,17,,John Winchester,R,34845,counting,0,100
-house,2026 House,2026,House,l2022,17,,"Rachel ""Jones"" Keshel",R,33575,counting,0,100
-house,2026 House,2026,House,l2022,17,,Write-in,I,69,counting,0,100
-house,2026 House,2026,House,l2022,23,,Emilia Cortez,D,18226,counting,0,100
-house,2026 House,2026,House,l2022,23,,Mariana Sandoval,D,18224,counting,0,100
-house,2026 House,2026,House,l2022,23,,Michele Pena,R,10794,counting,0,100
-house,2026 House,2026,House,l2022,23,,Gary Garcia Snyder,R,9761,counting,0,100
-house,2026 House,2026,House,l2022,23,,Write-in,I,36,counting,0,100
-house,2026 House,2026,House,l2022,26,,Cesar Aguilar,D,15062,counting,0,100
-house,2026 House,2026,House,l2022,26,,Quanta Crews,D,13897,counting,0,100
-house,2026 House,2026,House,l2022,26,,Frank Roberts,R,4278,counting,0,100
-house,2026 House,2026,House,l2022,26,,Jonathan McKenna,R,4036,counting,0,100
-house,2026 House,2026,House,l2022,26,,Hector Gomez,G,696,counting,0,100
-house,2026 House,2026,House,l2022,26,,Write-in,I,16,counting,0,100
-house,2026 House,2026,House,l2022,29,,Christine Marie Scianna,D,31416,counting,0,100
-house,2026 House,2026,House,l2022,29,,Steve Montenegro,R,29311,counting,0,100
-house,2026 House,2026,House,l2022,29,,James Taylor,R,28435,counting,0,100
-house,2026 House,2026,House,l2022,29,,Write-in,I,311,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,5,,Christine Marsh,D,39448,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,5,,Jason LaForest,NL,6273,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,5,,Write-in,I,256,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,2,,Amelia Gallitano,D,29520,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,2,,Shawnna Bolick,R,20785,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,2,,Write-in,I,45,counting,0,100
 senate,2026 Senate,2026,Senate,l2022,8,,Lauren Kuby,D,28451,counting,0,100
 senate,2026 Senate,2026,Senate,l2022,8,,Bill Loughrige,R,11313,counting,0,100
 senate,2026 Senate,2026,Senate,l2022,8,,Write-in,I,36,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,11,,Catherine Miranda,D,26967,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,11,,Joshua Ayala,R,5970,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,11,,Write-in,I,29,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,17,,Edgar Soto,D,51303,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,17,,Christopher King,R,35986,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,17,,Write-in,I,77,counting,0,100
 senate,2026 Senate,2026,Senate,l2022,14,,Stephanie Walsh,D,32154,counting,0,100
 senate,2026 Senate,2026,Senate,l2022,14,,Mylie Biggs,R,26265,counting,0,100
 senate,2026 Senate,2026,Senate,l2022,14,,Write-in,I,44,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,20,,Alma Hernandez,D,29926,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,20,,Write-in,I,1191,counting,0,100
-house,2026 House,2026,House,l2022,1,,Selina Bliss,R,49030,counting,49,100
-house,2026 House,2026,House,l2022,1,,Quang Huu Nguyen,R,47123,counting,49,100
-house,2026 House,2026,House,l2022,1,,Sandy Zalecki,D,34161,counting,49,100
-house,2026 House,2026,House,l2022,1,,Write-in,I,280,counting,49,100
-house,2026 House,2026,House,l2022,1,,"Charles ""Charlie"" Eakins",L,44,counting,49,100
-house,2026 House,2026,House,l2022,4,,Tammy Caputi,D,44789,counting,0,100
-house,2026 House,2026,House,l2022,4,,Karen Gresham,D,44642,counting,0,100
-house,2026 House,2026,House,l2022,4,,Matt Gress,R,36428,counting,0,100
-house,2026 House,2026,House,l2022,4,,Pamela Carter,R,33699,counting,0,100
-house,2026 House,2026,House,l2022,4,,Write-in,I,52,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,23,,Brian Fernandez,D,20017,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,23,,Michelle Altherr,R,11623,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,23,,Write-in,I,26,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,29,,Eric Stafford,D,31468,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,29,,Janae Shamp,R,31258,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,29,,Write-in,I,35,counting,0,100
-house,2026 House,2026,House,l2022,7,,"Walter ""Walt"" Blackman",R,32878,counting,0,100
-house,2026 House,2026,House,l2022,7,,David Cook Sr.,R,31738,counting,0,100
-house,2026 House,2026,House,l2022,7,,"Samuel ""Sam"" Martin",D,26865,counting,0,100
-house,2026 House,2026,House,l2022,7,,Richard Grayson,G,9545,counting,0,100
-house,2026 House,2026,House,l2022,7,,Write-in,I,89,counting,0,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,1,,Amish Shah,D,136277,counting,70,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,1,,Jay Feely,R,107247,counting,70,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,1,,Monica Alponte,L,4603,counting,70,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,1,,Write-in,I,136,counting,70,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,1,,Dev Gupta,I,6,counting,70,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,1,,Gage Dylan Thunder,I,6,counting,70,100
-senate,2026 Senate,2026,Senate,l2022,26,,Flavio Bravo,D,15861,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,26,,Jim Bishop,R,4578,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,26,,Write-in,I,24,counting,0,100
-house,2026 House,2026,House,l2022,13,,"Racquel ""Rockee"" Armstrong",D,32998,counting,0,100
-house,2026 House,2026,House,l2022,13,,Jacob Weinberg,D,32839,counting,0,100
-house,2026 House,2026,House,l2022,13,,Kevin Hartke,R,26318,counting,0,100
-house,2026 House,2026,House,l2022,13,,Janet Weninger,R,24504,counting,0,100
-house,2026 House,2026,House,l2022,13,,Write-in,I,49,counting,0,100
-house,2026 House,2026,House,l2022,10,,Justin Olson,R,29220,counting,0,100
-house,2026 House,2026,House,l2022,10,,James Rogers,R,28500,counting,0,100
-house,2026 House,2026,House,l2022,10,,Helen Hunter,D,27528,counting,0,100
-house,2026 House,2026,House,l2022,10,,Brian Calaway,D,26108,counting,0,100
-house,2026 House,2026,House,l2022,10,,David Scott,NL,1955,counting,0,100
-house,2026 House,2026,House,l2022,10,,Write-in,I,26,counting,0,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,4,,Greg Stanton,D,104901,final,46,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,4,,Zuhdi Jasser,R,53958,final,46,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,4,,Tisha Benoit,NL,3380,final,46,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,4,,Write-in,I,236,final,46,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,4,,Steven Sanders,NL,31,final,46,100
-house,2026 House,2026,House,l2022,16,,Julia Romero Gusse,D,26748,counting,0,100
-house,2026 House,2026,House,l2022,16,,Teresa Martinez,R,21381,counting,0,100
-house,2026 House,2026,House,l2022,16,,Chris Lopez,R,20154,counting,0,100
-house,2026 House,2026,House,l2022,16,,Write-in,I,328,counting,0,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,7,,Adelita Grijalva,D,88495,final,33,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,7,,Daniel Butierez,R,29873,final,33,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,7,,Write-in,I,182,final,33,100
-house,2026 House,2026,House,l2022,19,,David Gowan,R,31496,counting,20,100
-house,2026 House,2026,House,l2022,19,,Lupe Diaz,R,29075,counting,20,100
-house,2026 House,2026,House,l2022,19,,Jackie O'Donnell Anderson,D,28416,counting,20,100
-house,2026 House,2026,House,l2022,19,,Aiden Nicholette Swallow,D,27113,counting,20,100
-house,2026 House,2026,House,l2022,19,,Write-in,I,79,counting,20,100
-house,2026 House,2026,House,l2022,25,,Michael Carbone,R,26238,counting,0,100
-house,2026 House,2026,House,l2022,25,,Tiffany Byrne,D,25004,counting,0,100
-house,2026 House,2026,House,l2022,25,,"Nickolas ""Nick"" Kupper",R,24466,counting,0,100
-house,2026 House,2026,House,l2022,25,,Write-in,I,253,counting,0,100
-house,2026 House,2026,House,l2022,22,,Betsy Munoz,D,19582,counting,0,100
-house,2026 House,2026,House,l2022,22,,Elda Luna-Nájera,D,19058,counting,0,100
-house,2026 House,2026,House,l2022,22,,Write-in,I,1028,counting,0,100
-house,2026 House,2026,House,l2022,28,,David Livingston,R,43171,counting,0,100
-house,2026 House,2026,House,l2022,28,,Beverly Pingerelli,R,43116,counting,0,100
-house,2026 House,2026,House,l2022,28,,Barbara Fike,D,36805,counting,0,100
-house,2026 House,2026,House,l2022,28,,Marc Graham,D,35522,counting,0,100
-house,2026 House,2026,House,l2022,28,,Write-in,I,63,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,1,,Mark Finchem,R,51320,counting,49,100
-senate,2026 Senate,2026,Senate,l2022,1,,Christine Ellen Dargon,D,36053,counting,49,100
-senate,2026 Senate,2026,Senate,l2022,1,,Write-in,I,82,counting,49,100
 statewide,2026 Attorney General,2026,Attorney General,,04001,Apache,Kris Mayes,D,8206,counting,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04001,Apache,Warren Petersen,R,4009,counting,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04001,Apache,Write-in,I,12,counting,0,100
@@ -531,72 +553,69 @@ statewide,2026 Attorney General,2026,Attorney General,,04025,Yavapai,Write-in,I,
 statewide,2026 Attorney General,2026,Attorney General,,04027,Yuma,Kris Mayes,D,10869,counting,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04027,Yuma,Warren Petersen,R,9944,counting,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04027,Yuma,Write-in,I,16,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,4,,Aaron Lieberman,D,46885,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,4,,Carine Werner,R,36933,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,4,,Write-in,I,56,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,10,,David Christian Farnsworth,R,30160,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,10,,Blair Moses,D,27966,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,10,,Nick Fierro,I,2139,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,10,,Write-in,I,15,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,7,,Wendy Rogers,R,34312,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,7,,"Michiel ""Mike"" Montiel",D,27701,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,7,,Write-in,I,62,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,13,,Kristie O'Brien,D,35156,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,13,,Julie Willoughby,R,26447,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,13,,Write-in,I,36,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04001,Apache,Brian Matlock,D,8174,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04001,Apache,Les Presmyk,R,3917,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04001,Apache,Write-in,I,24,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04003,Cochise,Les Presmyk,R,15310,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04003,Cochise,Brian Matlock,D,14356,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04003,Cochise,Write-in,I,36,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04005,Coconino,Brian Matlock,D,23275,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04005,Coconino,Les Presmyk,R,10410,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04005,Coconino,Write-in,I,24,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04007,Gila,Les Presmyk,R,8203,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04007,Gila,Brian Matlock,D,4493,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04007,Gila,Write-in,I,19,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04009,Graham,Les Presmyk,R,6158,counting,100,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04009,Graham,Brian Matlock,D,2831,counting,100,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04009,Graham,Write-in,I,13,counting,100,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04011,Greenlee,Brian Matlock,D,549,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04011,Greenlee,Les Presmyk,R,497,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04011,Greenlee,Write-in,I,0,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04012,La Paz,Brian Matlock,D,0,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04012,La Paz,Les Presmyk,R,0,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04012,La Paz,Write-in,I,0,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04013,Maricopa,Brian Matlock,D,538267,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04013,Maricopa,Les Presmyk,R,429085,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04013,Maricopa,Write-in,I,802,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04015,Mohave,Les Presmyk,R,36644,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04015,Mohave,Brian Matlock,D,14458,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04015,Mohave,Write-in,I,36,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04017,Navajo,Les Presmyk,R,10487,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04017,Navajo,Brian Matlock,D,8607,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04017,Navajo,Write-in,I,37,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04019,Pima,Brian Matlock,D,169762,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04019,Pima,Les Presmyk,R,90252,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04019,Pima,Write-in,I,290,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04021,Pinal,Les Presmyk,R,48070,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04021,Pinal,Brian Matlock,D,45654,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04021,Pinal,Write-in,I,72,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04023,Santa Cruz,Brian Matlock,D,6755,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04023,Santa Cruz,Les Presmyk,R,2249,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04023,Santa Cruz,Write-in,I,2,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04025,Yavapai,Les Presmyk,R,52908,counting,96.49,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04025,Yavapai,Brian Matlock,D,32755,counting,96.49,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04025,Yavapai,Write-in,I,62,counting,96.49,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04027,Yuma,Brian Matlock,D,10484,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04027,Yuma,Les Presmyk,R,10101,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04027,Yuma,Write-in,I,20,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,19,,Gail Griffin,R,33870,counting,20,100
-senate,2026 Senate,2026,Senate,l2022,19,,Bob Karp,D,30346,counting,20,100
-senate,2026 Senate,2026,Senate,l2022,19,,Write-in,I,68,counting,20,100
-senate,2026 Senate,2026,Senate,l2022,16,,Elaine Aldrete,D,25786,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,16,,"Thomas ""T.J."" Shope",R,21991,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,16,,Write-in,I,52,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,22,,Eva Diaz,D,23233,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,22,,Write-in,I,691,counting,0,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,6,,JoAnna Mendoza,D,138816,final,69,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,6,,Juan Ciscomani,R,99364,final,69,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,6,,Jereme Peters,L,2674,final,69,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,6,,Gary Swing,G,1994,final,69,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,6,,Write-in,I,169,final,69,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,6,,Michael Dorland,I,30,final,69,100
+senate,2026 Senate,2026,Senate,l2022,11,,Catherine Miranda,D,26967,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,11,,Joshua Ayala,R,5970,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,11,,Write-in,I,29,counting,0,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,3,,Yassamin Ansari,D,74145,final,24,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,3,,Alan Aversa,NL,5070,final,24,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,3,,David Redkey,G,4112,final,24,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,3,,Jacob Parkman,R,1090,final,24,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,3,,Write-in,I,688,final,24,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,9,,Paul Gosar,R,99324,final,52,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,9,,Danielle Sterbinsky,D,80183,final,52,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,9,,Write-in,I,178,final,52,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,9,,William Perry,I,18,final,52,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,9,,G. Seville Hatch,I,11,final,52,100
+senate,2026 Senate,2026,Senate,l2022,17,,Edgar Soto,D,51303,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,17,,Christopher King,R,35986,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,17,,Write-in,I,77,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,20,,Alma Hernandez,D,29926,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,20,,Write-in,I,1191,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,23,,Brian Fernandez,D,20017,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,23,,Michelle Altherr,R,11623,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,23,,Write-in,I,26,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,26,,Flavio Bravo,D,15861,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,26,,Jim Bishop,R,4578,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,26,,Write-in,I,24,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,29,,Eric Stafford,D,31468,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,29,,Janae Shamp,R,31258,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,29,,Write-in,I,35,counting,0,100
+house,2026 House,2026,House,l2022,6,,Mae Peshlakai,D,25186,counting,14,100
+house,2026 House,2026,House,l2022,6,,Ian Teller,D,23906,counting,14,100
+house,2026 House,2026,House,l2022,6,,Brendan Trachsel,G,4938,counting,14,100
+house,2026 House,2026,House,l2022,6,,Write-in,I,595,counting,14,100
+house,2026 House,2026,House,l2022,6,,"Royce ""Rj"" Mark Jenkins",R,307,counting,14,100
+house,2026 House,2026,House,l2022,3,,Cody Reim,R,50323,counting,0,100
+house,2026 House,2026,House,l2022,3,,George Khalaf,R,49235,counting,0,100
+house,2026 House,2026,House,l2022,3,,Julie Gable,D,41308,counting,0,100
+house,2026 House,2026,House,l2022,3,,"Richard ""Rick"" Robert Spargo",D,37793,counting,0,100
+house,2026 House,2026,House,l2022,3,,John Skirbst,NL,1216,counting,0,100
+house,2026 House,2026,House,l2022,3,,Write-in,I,47,counting,0,100
+house,2026 House,2026,House,l2022,9,,Lorena Austin,D,21709,counting,0,100
+house,2026 House,2026,House,l2022,9,,Jacob D. Martinez,D,21513,counting,0,100
+house,2026 House,2026,House,l2022,9,,Bradley D. Bettencourt,R,13731,counting,0,100
+house,2026 House,2026,House,l2022,9,,Write-in,I,213,counting,0,100
+house,2026 House,2026,House,l2022,12,,Stacey Travers,D,39238,counting,0,100
+house,2026 House,2026,House,l2022,12,,Armando Montero,D,38225,counting,0,100
+house,2026 House,2026,House,l2022,12,,David Richardson,R,20880,counting,0,100
+house,2026 House,2026,House,l2022,12,,Write-in,I,227,counting,0,100
+house,2026 House,2026,House,l2022,18,,Nancy Gutierrez,D,48030,counting,0,100
+house,2026 House,2026,House,l2022,18,,Chris Mathis,D,45648,counting,0,100
+house,2026 House,2026,House,l2022,18,,Bob Dohse,R,21369,counting,0,100
+house,2026 House,2026,House,l2022,18,,Write-in,I,294,counting,0,100
+house,2026 House,2026,House,l2022,15,,Neal Carter,R,33821,counting,0,100
+house,2026 House,2026,House,l2022,15,,Michael Way,R,32383,counting,0,100
+house,2026 House,2026,House,l2022,15,,Write-in,I,1974,counting,0,100
+house,2026 House,2026,House,l2022,21,,Miranda Lopez,D,25790,counting,0,100
+house,2026 House,2026,House,l2022,21,,Consuelo Hernandez,D,25013,counting,0,100
+house,2026 House,2026,House,l2022,21,,Christopher Kibbey,R,11278,counting,0,100
+house,2026 House,2026,House,l2022,21,,Write-in,I,246,counting,0,100
 statewide,2026 Corporation Commission,2026,Corporation Commission,,04001,Apache,Jonathon Hill,D,6834,counting,0,100
 statewide,2026 Corporation Commission,2026,Corporation Commission,,04001,Apache,Clara Pratte,D,6648,counting,0,100
 statewide,2026 Corporation Commission,2026,Corporation Commission,,04001,Apache,Kevin Thompson,R,3531,counting,0,100
@@ -687,57 +706,38 @@ statewide,2026 Corporation Commission,2026,Corporation Commission,,04027,Yuma,Jo
 statewide,2026 Corporation Commission,2026,Corporation Commission,,04027,Yuma,Ralph Heap,R,8655,counting,0,100
 statewide,2026 Corporation Commission,2026,Corporation Commission,,04027,Yuma,Mike Cease,G,626,counting,0,100
 statewide,2026 Corporation Commission,2026,Corporation Commission,,04027,Yuma,Write-in,I,27,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,25,,"Timothy ""Tim"" Dunn",R,28735,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,25,,Laura Huber,D,24746,counting,0,100
-senate,2026 Senate,2026,Senate,l2022,25,,Write-in,I,25,counting,0,100
-house,2026 House,2026,House,l2022,3,,Cody Reim,R,50323,counting,0,100
-house,2026 House,2026,House,l2022,3,,George Khalaf,R,49235,counting,0,100
-house,2026 House,2026,House,l2022,3,,Julie Gable,D,41308,counting,0,100
-house,2026 House,2026,House,l2022,3,,"Richard ""Rick"" Robert Spargo",D,37793,counting,0,100
-house,2026 House,2026,House,l2022,3,,John Skirbst,NL,1216,counting,0,100
-house,2026 House,2026,House,l2022,3,,Write-in,I,47,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,04001,Apache,Nick Mansour,D,8001,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,04001,Apache,Elijah Norton,R,4116,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,04001,Apache,Write-in,I,20,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,04003,Cochise,Elijah Norton,R,15244,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,04003,Cochise,Nick Mansour,D,14524,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,04003,Cochise,Write-in,I,37,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,04005,Coconino,Nick Mansour,D,23648,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,04005,Coconino,Elijah Norton,R,10250,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,04005,Coconino,Write-in,I,20,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,04007,Gila,Elijah Norton,R,8222,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,04007,Gila,Nick Mansour,D,4534,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,04007,Gila,Write-in,I,11,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,04009,Graham,Elijah Norton,R,6287,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,04009,Graham,Nick Mansour,D,2732,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,04009,Graham,Write-in,I,19,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,04011,Greenlee,Nick Mansour,D,548,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,04011,Greenlee,Elijah Norton,R,489,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,04011,Greenlee,Write-in,I,2,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,04012,La Paz,Nick Mansour,D,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,04012,La Paz,Elijah Norton,R,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,04012,La Paz,Write-in,I,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,04013,Maricopa,Nick Mansour,D,561639,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,04013,Maricopa,Elijah Norton,R,420834,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,04013,Maricopa,Write-in,I,602,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,04015,Mohave,Elijah Norton,R,36505,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,04015,Mohave,Nick Mansour,D,14727,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,04015,Mohave,Write-in,I,55,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,04017,Navajo,Elijah Norton,R,10562,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,04017,Navajo,Nick Mansour,D,8628,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,04017,Navajo,Write-in,I,28,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,04019,Pima,Nick Mansour,D,174522,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,04019,Pima,Elijah Norton,R,86990,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,04019,Pima,Write-in,I,184,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,04021,Pinal,Elijah Norton,R,47831,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,04021,Pinal,Nick Mansour,D,46768,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,04021,Pinal,Write-in,I,101,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,04023,Santa Cruz,Nick Mansour,D,6801,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,04023,Santa Cruz,Elijah Norton,R,2335,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,04023,Santa Cruz,Write-in,I,5,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,04025,Yavapai,Elijah Norton,R,52546,counting,96.49,100
-statewide,2026 Treasurer,2026,Treasurer,,04025,Yavapai,Nick Mansour,D,33742,counting,96.49,100
-statewide,2026 Treasurer,2026,Treasurer,,04025,Yavapai,Write-in,I,55,counting,96.49,100
-statewide,2026 Treasurer,2026,Treasurer,,04027,Yuma,Nick Mansour,D,10575,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,04027,Yuma,Elijah Norton,R,10164,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,04027,Yuma,Write-in,I,14,counting,0,100
+house,2026 House,2026,House,l2022,27,,Deborah Howard,D,26695,counting,0,100
+house,2026 House,2026,House,l2022,27,,Lisa Fink,R,20986,counting,0,100
+house,2026 House,2026,House,l2022,27,,Tony Rivero,R,20665,counting,0,100
+house,2026 House,2026,House,l2022,27,,Write-in,I,238,counting,0,100
+house,2026 House,2026,House,l2022,24,,Alberto Flores,D,14954,counting,0,100
+house,2026 House,2026,House,l2022,24,,Lisbeth Arescurenaga,D,14264,counting,0,100
+house,2026 House,2026,House,l2022,24,,Delores McLaughlin,R,5862,counting,0,100
+house,2026 House,2026,House,l2022,24,,Write-in,I,91,counting,0,100
+house,2026 House,2026,House,l2022,30,,Mike Gannuscio,R,33765,counting,17,100
+house,2026 House,2026,House,l2022,30,,David Rose,R,32235,counting,17,100
+house,2026 House,2026,House,l2022,30,,Brian McMahan,D,16223,counting,17,100
+house,2026 House,2026,House,l2022,30,,Write-in,I,161,counting,17,100
+senate,2026 Senate,2026,Senate,l2022,4,,Aaron Lieberman,D,46885,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,4,,Carine Werner,R,36933,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,4,,Write-in,I,56,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,1,,Mark Finchem,R,51320,counting,49,100
+senate,2026 Senate,2026,Senate,l2022,1,,Christine Ellen Dargon,D,36053,counting,49,100
+senate,2026 Senate,2026,Senate,l2022,1,,Write-in,I,82,counting,49,100
+senate,2026 Senate,2026,Senate,l2022,7,,Wendy Rogers,R,34312,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,7,,"Michiel ""Mike"" Montiel",D,27701,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,7,,Write-in,I,62,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,10,,David Christian Farnsworth,R,30160,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,10,,Blair Moses,D,27966,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,10,,Nick Fierro,I,2139,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,10,,Write-in,I,15,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,16,,Elaine Aldrete,D,25786,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,16,,"Thomas ""T.J."" Shope",R,21991,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,16,,Write-in,I,52,counting,0,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,2,,Jonathan Nez,D,101455,counting,59,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,2,,Eli Crane,R,101260,counting,59,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,2,,Curtis Goodwin,L,3218,counting,59,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,2,,Write-in,I,92,counting,59,100
+senate,2026 Senate,2026,Senate,l2022,13,,Kristie O'Brien,D,35156,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,13,,Julie Willoughby,R,26447,counting,0,100
+senate,2026 Senate,2026,Senate,l2022,13,,Write-in,I,36,counting,0,100
