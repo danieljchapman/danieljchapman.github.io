@@ -1,11 +1,11 @@
 [
  {
   "phase": "counting",
-  "updated_at": "2026-11-04T03:50:02Z",
+  "updated_at": "2026-11-04T03:54:57Z",
   "source": "CivicAPI (civicapi.org), unofficial",
   "races": 506,
   "called": 240,
-  "counting": 168,
+  "counting": 169,
   "counts": {
    "senate": 35,
    "house": 435,
