@@ -1,16 +1,16 @@
 [
  {
   "phase": "counting",
-  "updated_at": "2026-11-04T01:29:23Z",
+  "updated_at": "2026-11-04T01:34:23Z",
   "source": "Texas Secretary of State election-night results, unofficial",
   "races": 224,
   "called": 0,
   "counting": 54,
   "problems": [],
   "local_problems": [
+   "clarity:Tarrant: https://results.enr.clarityelections.com/TX/Tarrant/127297/current_ver.txt: HTTP 502",
    "collin: Collin: no results CSV for 2026-11-03 posted yet",
-   "clarity:Dallas: Dallas: no Clarity election on 2026-11-03 yet",
-   "fort bend: https://results.enr.clarityelections.com/TX/Fort_Bend/127480/current_ver.txt: HTTP 502"
+   "clarity:Dallas: Dallas: no Clarity election on 2026-11-03 yet"
   ],
   "turnout": {
    "counties": {
