@@ -1,15 +1,12 @@
 [
  {
   "phase": "counting",
-  "updated_at": "2026-11-04T03:15:45Z",
+  "updated_at": "2026-11-04T03:20:40Z",
   "source": "CivicAPI (county results), unofficial",
   "races": 120,
   "called": 0,
-  "counting": 99,
-  "problems": [
-   "2026 Governor : /race/87491: HTTP 000 curl: (28) Operation timed out after 45002 milliseconds with 0 bytes received ",
-   "1 race not sent by CivicAPI this time; kept the last published numbers"
-  ],
+  "counting": 102,
+  "problems": [],
   "local_problems": []
  }
 ]
