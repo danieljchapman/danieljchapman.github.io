@@ -1,16 +1,18 @@
 [
  {
   "phase": "counting",
-  "updated_at": "2026-11-04T00:53:03Z",
+  "updated_at": "2026-11-04T00:59:02Z",
   "source": "CivicAPI, unofficial (until the Division of Elections' file has votes)",
   "races": 174,
   "called": 7,
-  "counting": 83,
+  "counting": 82,
   "precincts": [
-   3332,
+   3399,
    5626
   ],
-  "problems": [],
+  "problems": [
+   "CivicAPI /race/87072: HTTP Error 502: Bad Gateway"
+  ],
   "local_problems": []
  }
 ]
