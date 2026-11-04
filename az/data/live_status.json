@@ -1,15 +1,12 @@
 [
  {
   "phase": "counting",
-  "updated_at": "2026-11-04T03:34:04Z",
+  "updated_at": "2026-11-04T03:38:59Z",
   "source": "CivicAPI, unofficial",
   "races": 76,
   "called": 5,
   "counting": 71,
-  "problems": [
-   "2026 Superintendent of Public Instruction : /race/86932: HTTP 502  error code: 502\n",
-   "1 race not sent by CivicAPI this time; kept the last published numbers"
-  ],
+  "problems": [],
   "local_problems": []
  }
 ]
