@@ -3,6 +3,10 @@
   const { css, fmt, pct, enc, PARTY, partyCol } = LX;
 
   // ---------- calculations (each function is self-contained) ----------
+  // a year's status from all its districts (not just the first one): final when every race is called, counting once any
+  // contested race has votes or a call, otherwise pending (unopposed seats alone don't start the count)
+  const LX_STATUS = (rows) => rows.every((r) => r.status === 'final' || !r.contested) && rows.some((r) => r.contested && r.status === 'final') ? 'final'
+    : rows.some((r) => r.contested && (r.status === 'counting' || r.status === 'final' || r.votes_reported)) ? 'counting' : rows.every((r) => r.status === 'final') ? 'final' : 'pending';
   const byDistrictFn = (results, live_2026) => {
     const lab = (m) => (m == null || isNaN(m)) ? '—' : Math.abs(m) < 0.0005 ? 'Even' : (m > 0 ? 'R+' : 'D+') + (Math.abs(m) * 100).toFixed(1);
     const LEVEL = { 'House': 'house', 'Senate': 'senate', 'U.S. House': 'ushouse', 'SBOE': 'sboe' };
@@ -29,7 +33,8 @@
       const rep = o.cands.find((c) => c.party === 'R'), dem = o.cands.find((c) => c.party === 'D');
       const margin = total ? ((rep ? rep.votes : 0) - (dem ? dem.votes : 0)) / total : single ? (o.cands[0].party === 'R' ? 1 : o.cands[0].party === 'D' ? -1 : 0) : null;
       const decided = single || total != null;
-      const row = { race: o.race, year: o.year, plan: o.plan, district: o.district, status: o.status, contested: !single, votes_reported: total != null, decided,
+      const called = single || o.status === 'final';   // a leader in a race still counting is decided but not called
+      const row = { race: o.race, year: o.year, plan: o.plan, district: o.district, status: o.status, contested: !single, votes_reported: total != null, decided, called,
         reporting: o.reporting, reporting_total: o.reporting_total,
         total_votes: total, winner_name: decided ? o.cands[0].name : null, winner_party: decided ? o.cands[0].party : null, margin, margin_label: single ? 'Unopposed' : lab(margin), n_cands: o.cands.length };
       o.cands.slice(0, 4).forEach((c, i) => {
@@ -47,8 +52,9 @@
     const g = new Map();
     for (const r of by_district) {
       let o = g.get(r.year);
-      if (!o) { o = { race: r.race, year: r.year, plan: r.plan, status: r.status, seats_total: 0, seats_r: 0, seats_d: 0, seats_other: 0, undecided: 0, uncontested: 0, uncontested_r: 0, uncontested_d: 0, no_votes_reported: 0, total_votes: 0, closest: null }; g.set(r.year, o); }
-      o.seats_total++;
+      if (!o) { o = { race: r.race, year: r.year, plan: r.plan, sts: [], won_r: 0, won_d: 0, lead_r: 0, lead_d: 0, seats_total: 0, seats_r: 0, seats_d: 0, seats_other: 0, undecided: 0, uncontested: 0, uncontested_r: 0, uncontested_d: 0, no_votes_reported: 0, total_votes: 0, closest: null }; g.set(r.year, o); }
+      o.seats_total++; o.sts.push(r);
+      if (r.decided && (r.winner_party === 'R' || r.winner_party === 'D')) o[(r.called ? 'won_' : 'lead_') + r.winner_party.toLowerCase()]++;
       if (!r.decided) o.undecided++;
       else if (r.winner_party === 'R') o.seats_r++; else if (r.winner_party === 'D') o.seats_d++; else o.seats_other++;
       if (!r.contested) { o.uncontested++; if (r.winner_party === 'R') o.uncontested_r++; if (r.winner_party === 'D') o.uncontested_d++; }
@@ -56,7 +62,7 @@
       const both = [r.c1_party, r.c2_party].includes('R') && [r.c1_party, r.c2_party].includes('D');
       if (r.contested && r.votes_reported && both && (!o.closest || Math.abs(r.margin) < Math.abs(o.closest.margin))) o.closest = r;
     }
-    return [...g.values()].map((o) => ({ race: o.race, year: o.year, plan: o.plan, status: o.status, seats_total: o.seats_total, seats_r: o.seats_r, seats_d: o.seats_d, seats_other: o.seats_other, undecided: o.undecided,
+    return [...g.values()].map((o) => ({ race: o.race, year: o.year, plan: o.plan, status: LX_STATUS(o.sts), won_r: o.won_r, won_d: o.won_d, lead_r: o.lead_r, lead_d: o.lead_d, seats_total: o.seats_total, seats_r: o.seats_r, seats_d: o.seats_d, seats_other: o.seats_other, undecided: o.undecided,
       uncontested: o.uncontested, uncontested_r: o.uncontested_r, uncontested_d: o.uncontested_d, no_votes_reported: o.no_votes_reported, total_votes: o.total_votes,
       closest_district: o.closest ? o.closest.district : null, closest_label: o.closest ? 'District ' + o.closest.district + ', ' + lab(o.closest.margin) : '—' })).sort((a, b) => a.year - b.year);
   };
@@ -94,11 +100,13 @@
       const up = new Set();
       for (const r of rows) { up.add(r.district); comp.set(r.district, r.decided ? r.winner_party : '?'); }
       const c = { R: 0, D: 0, O: 0, U: 0 }, cu = { R: 0, D: 0, O: 0, U: 0 };
+      const lead = { R: 0, D: 0 };
+      for (const r of rows) if (r.decided && !r.called && (r.winner_party === 'R' || r.winner_party === 'D')) lead[r.winner_party]++;
       for (const [d, p] of comp) { const k = p === 'R' || p === 'D' ? p : p === '?' ? 'U' : 'O'; c[k]++; if (up.has(d)) cu[k]++; }
       const total = comp.size;
       // compare with the previous election only when both counts cover the whole chamber (a staggered senate's first year covers half)
       const cmp = prev && prev.seats_total === total;
-      const row = { race: rows[0].race, year: y, plan, status: rows[0].status, seats_total: total, seats_up: rows.length,
+      const row = { race: rows[0].race, year: y, plan, status: LX_STATUS(rows), r_lead: lead.R, d_lead: lead.D, seats_total: total, seats_up: rows.length,
         r_seats: c.R, d_seats: c.D, other_seats: c.O, undecided_seats: c.U, r_up: cu.R, d_up: cu.D, other_up: cu.O, undecided_up: cu.U,
         r_change: cmp ? c.R - prev.r_seats : null, d_change: cmp ? c.D - prev.d_seats : null, prev_year: cmp ? prev.year : null,
         majority: c.R > total / 2 ? 'R' : c.D > total / 2 ? 'D' : null };
@@ -226,6 +234,7 @@
       add(`In ${year}, `); add(lead[0], true); add(counting ? ' have won or lead in ' : ' won '); add(String(lead[1]), true, lead[2]);
       add(` of the ${S.seats_total} ${c.label} seats on the ballot`);
       add(c.full && S.seats_total < c.full ? ` (the other ${c.full - S.seats_total} weren't up that year). ` : '. ');
+      if (counting && (S.lead_r || S.lead_d)) { add('Republicans have won '); add(String(S.won_r), true, 'won_r'); add(' and lead in '); add(String(S.lead_r), true, 'lead_r'); add('; Democrats have won '); add(String(S.won_d), true, 'won_d'); add(' and lead in '); add(String(S.lead_d), true, 'lead_d'); add('. '); }
       if (counting && S.undecided) { add(String(S.undecided), true, 'undecided'); add(S.undecided === 1 ? ' race has no votes counted yet. ' : ' races have no votes counted yet. '); }
       if (S.uncontested) { add(String(S.uncontested), true, 'uncontested'); add(S.uncontested === 1 ? ' race had only one candidate on the ballot.' : ' races had only one candidate on the ballot.'); }
       if (c.id === 'ushouse' && !counting) addChange(add, sm.data, bd.data, S, year);
@@ -293,10 +302,12 @@
     const showUp = !before && row.seats_up < N;
     const seq = [];
     const push = (n, party, kind) => { for (let i = 0; i < n; i++) seq.push({ party, kind }); };
-    push(row.d_up, 'D', showUp ? 'up' : 'all'); push(row.d_seats - row.d_up, 'D', 'hold');
+    const dl = before ? 0 : row.d_lead || 0, rl = before ? 0 : row.r_lead || 0;
+    push(row.d_up - dl, 'D', showUp ? 'up' : 'all'); push(dl, 'D', 'lead'); push(row.d_seats - row.d_up, 'D', 'hold');
     push(row.other_seats, 'O', 'all'); push(row.undecided_seats, 'U', 'all');
-    push(row.r_seats - row.r_up, 'R', 'hold'); push(row.r_up, 'R', showUp ? 'up' : 'all');
+    push(row.r_seats - row.r_up, 'R', 'hold'); push(rl, 'R', 'lead'); push(row.r_up - rl, 'R', showUp ? 'up' : 'all');
     if (before) seq.forEach((s) => { s.kind = 'all'; });
+    const lighter = (c) => d3.interpolateRgb(c, '#ffffff')(0.5);
     // hemicycle geometry
     const W = 360, H = 196, cx = W / 2, cy = H - 8, R0 = N > 150 ? 84 : N > 60 ? 70 : 92, R1 = 170;
     const rows = N > 100 ? 8 : N > 40 ? 6 : 4;
@@ -314,7 +325,7 @@
       .attr('aria-label', `${c.label}: ${row.r_seats} Republicans, ${row.d_seats} Democrats` + (row.undecided_seats ? `, ${row.undecided_seats} undecided` : ''));
     svg.append('g').selectAll('circle').data(pts.map((p, i) => ({ ...p, ...seq[i] }))).join('circle')
       .attr('cx', (d) => d.x).attr('cy', (d) => d.y).attr('r', dotR)
-      .attr('fill', (d) => d.kind === 'hold' ? 'var(--color-panel)' : col[d.party]).attr('stroke', (d) => col[d.party]).attr('stroke-width', (d) => d.kind === 'hold' ? 1.6 : 0);
+      .attr('fill', (d) => d.kind === 'hold' ? 'var(--color-panel)' : d.kind === 'lead' ? lighter(col[d.party]) : col[d.party]).attr('stroke', (d) => col[d.party]).attr('stroke-width', (d) => d.kind === 'hold' ? 1.6 : 0);
     svg.append('text').attr('x', cx).attr('y', cy - 22).attr('text-anchor', 'middle').attr('font-family', 'var(--font-anthropic-serif)').attr('font-size', 30).attr('fill', 'var(--color-fg)')
       .text(row.undecided_seats ? '' : `${Math.max(row.r_seats, row.d_seats)}–${Math.min(row.r_seats, row.d_seats)}`);
     svg.append('text').attr('x', cx).attr('y', cy - 4).attr('text-anchor', 'middle').attr('font-size', 'var(--cds-font-size-caption)').attr('fill', 'var(--color-fg-muted)').text(`${maj} seats for a majority`);
@@ -329,7 +340,16 @@
     big.append(num('R', row.r_seats, 'r_seats'), num('D', row.d_seats, 'd_seats'));
     if (row.undecided_seats) { const s = document.createElement('span'); s.style.color = 'var(--color-fg-muted)'; s.textContent = `${row.undecided_seats} not yet decided`; big.append(s); }
     txt.append(big);
-    if (!before && row.r_change != null) {
+    if (!before && (rl || dl || row.status === 'counting')) {
+      const held = (p) => (showUp ? (p === 'R' ? row.r_seats - row.r_up : row.d_seats - row.d_up) : 0);
+      const part = (p, n, l) => `${n - l - held(p)} won${l ? `, ${l} leading` : ''}${held(p) ? `, ${held(p)} not up` : ''}`;
+      const wl = document.createElement('div'); wl.className = 'lx-kpi-sub lx-wonlead';
+      const sr = document.createElement('span'); sr.style.color = col.R; sr.textContent = 'Republicans: ' + part('R', row.r_seats, rl);
+      const sd = document.createElement('span'); sd.style.color = col.D; sd.textContent = 'Democrats: ' + part('D', row.d_seats, dl);
+      wl.append(sr, document.createTextNode(' · '), sd); txt.append(wl);
+      if (rl || dl) line('lx-kpi-sub', 'Lighter dots: seats where a candidate leads but the race has not been called.');
+    }
+    if (!before && row.r_change != null && row.status !== 'counting') {   // a net change means little until the count is done
       const sw = row.r_change;
       line('lx-kpi-sub', sw === 0 ? `No net change from ${row.prev_year}.` : `${sw > 0 ? 'Republicans' : 'Democrats'} gained ${Math.abs(sw)} seat${Math.abs(sw) === 1 ? '' : 's'} net since ${row.prev_year}.`).style.color = sw === 0 ? '' : sw > 0 ? col.R : col.D;
     }
