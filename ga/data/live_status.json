@@ -1,13 +1,13 @@
 [
  {
   "phase": "counting",
-  "updated_at": "2026-11-04T02:32:18Z",
+  "updated_at": "2026-11-04T02:37:14Z",
   "source": "Georgia Secretary of State, unofficial",
   "races": 261,
-  "called": 20,
-  "counting": 240,
+  "called": 29,
+  "counting": 232,
   "precincts": [
-   1183,
+   1342,
    2581
   ],
   "problems": [
