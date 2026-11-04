@@ -1,15 +1,17 @@
 [
  {
   "phase": "counting",
-  "updated_at": "2026-11-04T02:00:41Z",
+  "updated_at": "2026-11-04T02:08:26Z",
   "source": "CivicAPI, unofficial",
   "races": 165,
   "called": 0,
-  "counting": 34,
+  "counting": 44,
   "problems": [
-   "CivicAPI search (Michigan Secretary of State): /race/search?country=US&province=MI&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Michigan%20Secretary%20of%2",
+   "CivicAPI search (Michigan State House): /race/search?country=US&province=MI&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Michigan%20State%20House: H",
+   "CivicAPI search (Michigan Governor): /race/search?country=US&province=MI&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Michigan%20Governor: HTTP 0",
    "CivicAPI search (Michigan Attorney General): /race/search?country=US&province=MI&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Michigan%20Attorney%20Gener",
-   "2 races not sent by CivicAPI this time; kept the last published numbers",
+   "2026 Secretary of State : /race/87216: HTTP 502  error code: 502\n",
+   "3 races not sent by CivicAPI this time; kept the last published numbers",
    "no live source yet for 2 statewide races"
   ],
   "local_problems": []
