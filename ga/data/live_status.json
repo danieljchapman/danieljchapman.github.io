@@ -1,16 +1,18 @@
 [
  {
-  "phase": "pre-election",
-  "updated_at": "2026-11-04T00:07:14Z",
+  "phase": "counting",
+  "updated_at": "2026-11-04T00:12:14Z",
   "source": "Georgia Secretary of State, unofficial",
   "races": 261,
   "called": 0,
-  "counting": 0,
+  "counting": 114,
   "precincts": [
-   0,
+   13,
    2582
   ],
-  "problems": [],
+  "problems": [
+   "1 candidate totals differ from the state summary, e.g. house 180 Defonsio Daniels: counties 0 vs state 8"
+  ],
   "local_problems": []
  }
 ]
