@@ -1,13 +1,13 @@
 [
  {
   "phase": "counting",
-  "updated_at": "2026-11-04T01:42:29Z",
+  "updated_at": "2026-11-04T01:47:28Z",
   "source": "North Carolina State Board of Elections, unofficial",
   "races": 189,
   "called": 0,
-  "counting": 179,
+  "counting": 180,
   "precincts": [
-   372,
+   445,
    2626
   ],
   "problems": [],
