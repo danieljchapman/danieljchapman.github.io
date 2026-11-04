@@ -3,11 +3,11 @@ senate,AK,2026,AK,,,Gerald L. Heikes,R,0,0,0,0,pending,0,100
 senate,AK,2026,AK,,,Mary Peltola,D,0,0,0,0,pending,0,100
 senate,AK,2026,AK,,,Daniel J. Jr. Sullivan,I,0,0,0,0,pending,0,100
 senate,AK,2026,AK,,,Dan Sullivan,R,0,0,0,1,pending,0,100
-senate,AL,2026,AL,,,Barry Moore,R,5417,0,0,0,counting,0.6,100
-senate,AL,2026,AL,,,Everett Wess,D,4946,0,0,0,counting,0.6,100
-senate,AR,2026,AR,,,Tom Cotton,R,0,0,0,0,pending,0,100
-senate,AR,2026,AR,,,Hallie Shoffner,D,0,0,0,0,pending,0,100
-senate,AR,2026,AR,,,Jeff Wadlin,L,0,0,0,0,pending,0,100
+senate,AL,2026,AL,,,Barry Moore,R,7205,0,0,0,counting,0.79,100
+senate,AL,2026,AL,,,Everett Wess,D,6356,0,0,0,counting,0.79,100
+senate,AR,2026,AR,,,Tom Cotton,R,1076,0,0,0,counting,0.16,100
+senate,AR,2026,AR,,,Hallie Shoffner,D,418,0,0,0,counting,0.16,100
+senate,AR,2026,AR,,,Jeff Wadlin,L,35,0,0,0,counting,0.16,100
 senate,CO,2026,CO,,,Mark Baisley,R,0,0,0,0,pending,0,100
 senate,CO,2026,CO,,,John Hickenlooper,D,0,0,0,0,pending,0,100
 senate,CO,2026,CO,,,Bob Chew,O,0,0,0,0,pending,0,100
@@ -19,11 +19,11 @@ senate,CO,2026,CO,,,Will Powers,W,0,0,0,0,pending,0,100
 senate,CO,2026,CO,,,Ryan Apelbaum,W,0,0,0,0,pending,0,100
 senate,DE,2026,DE,,,Chris Coons,D,99241,1,0,0,final,35.34,100
 senate,DE,2026,DE,,,"Michael ""Dr. Mike"" Katz",R,48440,0,0,0,final,35.34,100
-senate,FL,2026,FL,,special,Ashley Moody,R,4085955,0,0,1,counting,90.05,100
-senate,FL,2026,FL,,special,Angie Nixon,D,3865000,0,0,0,counting,90.05,100
-senate,FL,2026,FL,,special,Neil J. Gillespie,I,91408,0,0,0,counting,90.05,100
-senate,GA,2026,GA,,,Jon Ossoff,D,1612112,1,0,1,final,54.71,100
-senate,GA,2026,GA,,,Mike Collins,R,941936,0,0,0,final,54.71,100
+senate,FL,2026,FL,,special,Ashley Moody,R,4102211,0,0,1,counting,90.36,100
+senate,FL,2026,FL,,special,Angie Nixon,D,3875903,0,0,0,counting,90.36,100
+senate,FL,2026,FL,,special,Neil J. Gillespie,I,91805,0,0,0,counting,90.36,100
+senate,GA,2026,GA,,,Jon Ossoff,D,1733537,1,0,1,final,61.39,100
+senate,GA,2026,GA,,,Mike Collins,R,1132481,0,0,0,final,61.39,100
 senate,IA,2026,IA,,,Ashley Hinson,R,0,0,0,0,pending,0,100
 senate,IA,2026,IA,,,Josh Turek,D,0,0,0,0,pending,0,100
 senate,IA,2026,IA,,,Thomas Laehn,L,0,0,0,0,pending,0,100
@@ -35,13 +35,13 @@ senate,ID,2026,ID,,,Todd Achilles,I,0,0,0,0,pending,0,100
 senate,IL,2026,IL,,,Juliana Stratton,D,0,1,0,0,final,0,100
 senate,IL,2026,IL,,,Don Tracy,R,0,0,0,0,final,0,100
 senate,IL,2026,IL,,,Whitfield Harrington Jr.,O,0,0,0,0,final,0,100
-senate,KS,2026,KS,,,Adam Hamilton,D,140416,0,0,0,counting,19.72,100
-senate,KS,2026,KS,,,Roger Marshall,R,80860,0,0,0,counting,19.72,100
-senate,KS,2026,KS,,,David C Graham,L,4594,0,0,0,counting,19.72,100
-senate,KY,2026,KY,,,Andy Barr,R,486402,0,0,0,counting,54.75,100
-senate,KY,2026,KY,,,Charles Booker,D,402439,0,0,0,counting,54.75,100
-senate,KY,2026,KY,,,Christopher Campbell,O,18902,0,0,0,counting,54.75,100
-senate,KY,2026,KY,,,Write-in,I,3,0,0,0,counting,54.75,100
+senate,KS,2026,KS,,,Adam Hamilton,D,273801,0,0,0,counting,37.38,100
+senate,KS,2026,KS,,,Roger Marshall,R,146772,0,0,0,counting,37.38,100
+senate,KS,2026,KS,,,David C Graham,L,7642,0,0,0,counting,37.38,100
+senate,KY,2026,KY,,,Andy Barr,R,494943,0,0,0,counting,55.6,100
+senate,KY,2026,KY,,,Charles Booker,D,407651,0,0,0,counting,55.6,100
+senate,KY,2026,KY,,,Christopher Campbell,O,19195,0,0,0,counting,55.6,100
+senate,KY,2026,KY,,,Write-in,I,3,0,0,0,counting,55.6,100
 senate,LA,2026,LA,,,Jamie Davis,D,0,0,0,0,pending,0,100
 senate,LA,2026,LA,,,Julia Letlow,R,0,0,0,0,pending,0,100
 senate,MA,2026,MA,,,Edward J. Markey,D,23820,1,0,0,final,1.01,100
@@ -51,17 +51,17 @@ senate,MA,2026,MA,,,Shiva Ayyadurai,I,351,0,0,0,final,1.01,100
 senate,ME,2026,ME,,,Troy Jackson,D,0,0,0,0,pending,0,100
 senate,ME,2026,ME,,,Susan Collins,R,0,0,0,0,pending,0,100
 senate,ME,2026,ME,,,Write-in,I,0,0,0,0,pending,0,100
-senate,MI,2026,MI,,,Abdul El-Sayed,D,223317,0,0,0,counting,8.04,100
-senate,MI,2026,MI,,,Mike Rogers,R,168941,0,0,0,counting,8.04,100
-senate,MI,2026,MI,,,Lydia Christensen,L,3403,0,0,0,counting,8.04,100
-senate,MI,2026,MI,,,Tim Long,O,1436,0,0,0,counting,8.04,100
-senate,MI,2026,MI,,,Douglas P. Marsh,G,1016,0,0,0,counting,8.04,100
-senate,MI,2026,MI,,,Walter P. Kristy,O,429,0,0,0,counting,8.04,100
-senate,MI,2026,MI,,,Write-in,I,40,0,0,0,counting,8.04,100
-senate,MI,2026,MI,,,Robert Trevor-Blair Davis,W,0,0,0,0,counting,8.04,100
-senate,MI,2026,MI,,,George Earnest Huffman,W,0,0,0,0,counting,8.04,100
-senate,MI,2026,MI,,,Craig Henley Johnson II,W,0,0,0,0,counting,8.04,100
-senate,MI,2026,MI,,,Daniel Varney Tamba Pawa,W,0,0,0,0,counting,8.04,100
+senate,MI,2026,MI,,,Abdul El-Sayed,D,235487,0,0,0,counting,8.58,100
+senate,MI,2026,MI,,,Mike Rogers,R,182956,0,0,0,counting,8.58,100
+senate,MI,2026,MI,,,Lydia Christensen,L,3670,0,0,0,counting,8.58,100
+senate,MI,2026,MI,,,Tim Long,O,1554,0,0,0,counting,8.58,100
+senate,MI,2026,MI,,,Douglas P. Marsh,G,1076,0,0,0,counting,8.58,100
+senate,MI,2026,MI,,,Walter P. Kristy,O,454,0,0,0,counting,8.58,100
+senate,MI,2026,MI,,,Write-in,I,40,0,0,0,counting,8.58,100
+senate,MI,2026,MI,,,Robert Trevor-Blair Davis,W,0,0,0,0,counting,8.58,100
+senate,MI,2026,MI,,,George Earnest Huffman,W,0,0,0,0,counting,8.58,100
+senate,MI,2026,MI,,,Craig Henley Johnson II,W,0,0,0,0,counting,8.58,100
+senate,MI,2026,MI,,,Daniel Varney Tamba Pawa,W,0,0,0,0,counting,8.58,100
 senate,MN,2026,MN,,,Marisa Simonetti,I,0,0,0,0,pending,0,100
 senate,MN,2026,MN,,,Rebecca Whiting,L,0,0,0,0,pending,0,100
 senate,MN,2026,MN,,,Peggy Flanagan,D,0,0,0,0,pending,0,100
@@ -74,19 +74,19 @@ senate,MT,2026,MT,,,Kurt Alme,R,0,0,0,0,pending,0,100
 senate,MT,2026,MT,,,Alani Bankhead,D,0,0,0,0,pending,0,100
 senate,MT,2026,MT,,,Kyle Austin,L,0,0,0,0,pending,0,100
 senate,MT,2026,MT,,,Seth Bodnar,I,0,0,0,0,pending,0,100
-senate,NC,2026,NC,,,Roy Cooper,D,1656909,0,0,0,counting,58.82,100
-senate,NC,2026,NC,,,Michael Whatley,R,900736,0,0,0,counting,58.82,100
-senate,NC,2026,NC,,,Shannon Bray,L,25938,0,0,0,counting,58.82,100
-senate,NC,2026,NC,,,Michael Dublin,G,19297,0,0,0,counting,58.82,100
+senate,NC,2026,NC,,,Roy Cooper,D,1677702,1,0,0,final,60.22,100
+senate,NC,2026,NC,,,Michael Whatley,R,939803,0,0,0,final,60.22,100
+senate,NC,2026,NC,,,Shannon Bray,L,27071,0,0,0,final,60.22,100
+senate,NC,2026,NC,,,Michael Dublin,G,19932,0,0,0,final,60.22,100
 senate,NE,2026,NE,,,Pete Ricketts,R,0,0,0,0,pending,0,100
 senate,NE,2026,NE,,,Mike Marvin,O,0,0,0,0,pending,0,100
 senate,NE,2026,NE,,,Robin Richards,O,0,0,0,0,pending,0,100
 senate,NE,2026,NE,,,Chuck Conboy,O,0,0,0,0,pending,0,100
 senate,NE,2026,NE,,,Dan Osborn,I,0,0,0,0,pending,0,100
-senate,NH,2026,NH,,,Chris Pappas,D,112483,0,0,0,counting,29.38,100
-senate,NH,2026,NH,,,John E. Sununu,R,85781,0,0,0,counting,29.38,100
-senate,NH,2026,NH,,,Edmond Laplante,C,3900,0,0,0,counting,29.38,100
-senate,NH,2026,NH,,,Write-in,I,337,0,0,0,counting,29.38,100
+senate,NH,2026,NH,,,Chris Pappas,D,115036,0,0,0,counting,30.16,100
+senate,NH,2026,NH,,,John E. Sununu,R,88477,0,0,0,counting,30.16,100
+senate,NH,2026,NH,,,Edmond Laplante,C,4006,0,0,0,counting,30.16,100
+senate,NH,2026,NH,,,Write-in,I,359,0,0,0,counting,30.16,100
 senate,NJ,2026,NJ,,,Cory Booker,D,317547,1,0,0,final,11.84,100
 senate,NJ,2026,NJ,,,Justin Murphy,R,94296,0,0,0,final,11.84,100
 senate,NJ,2026,NJ,,,Veronica Fernandez,I,6271,0,0,0,final,11.84,100
@@ -94,13 +94,13 @@ senate,NJ,2026,NJ,,,Joanne Kuniansky,O,4400,0,0,0,final,11.84,100
 senate,NJ,2026,NJ,,,Write-in,I,364,0,0,0,final,11.84,100
 senate,NM,2026,NM,,,Ben Ray Luján,D,0,0,0,0,pending,0,100
 senate,NM,2026,NM,,,Larry Marker,R,0,0,0,0,pending,0,100
-senate,OH,2026,OH,,special,Sherrod Brown,D,1010767,0,0,0,counting,38,100
-senate,OH,2026,OH,,special,Jon Husted,R,734054,0,0,0,counting,38,100
-senate,OH,2026,OH,,special,William B. Redpath,L,36207,0,0,0,counting,38,100
-senate,OH,2026,OH,,special,Greg Levy,O,29325,0,0,0,counting,38,100
-senate,OH,2026,OH,,special,Stephen Faris,W,0,0,0,0,counting,38,100
-senate,OH,2026,OH,,special,Anthony Holliman,W,0,0,0,0,counting,38,100
-senate,OH,2026,OH,,special,Timothy Telymonde,W,0,0,0,0,counting,38,100
+senate,OH,2026,OH,,special,Sherrod Brown,D,1050409,0,0,0,counting,40.32,100
+senate,OH,2026,OH,,special,Jon Husted,R,797686,0,0,0,counting,40.32,100
+senate,OH,2026,OH,,special,William B. Redpath,L,40848,0,0,0,counting,40.32,100
+senate,OH,2026,OH,,special,Greg Levy,O,32084,0,0,0,counting,40.32,100
+senate,OH,2026,OH,,special,Stephen Faris,W,0,0,0,0,counting,40.32,100
+senate,OH,2026,OH,,special,Anthony Holliman,W,0,0,0,0,counting,40.32,100
+senate,OH,2026,OH,,special,Timothy Telymonde,W,0,0,0,0,counting,40.32,100
 senate,OK,2026,OK,,,Kevin Hern,R,0,0,0,0,pending,0,100
 senate,OK,2026,OK,,,N'Kiyla Jasmine Thomas,D,0,0,0,0,pending,0,100
 senate,OK,2026,OK,,,Sevier White,L,0,0,0,0,pending,0,100
@@ -111,10 +111,10 @@ senate,OR,2026,OR,,,Jeff Merkley,D,0,0,0,0,pending,0,100
 senate,OR,2026,OR,,,Gary Lyndon Dye,L,0,0,0,0,pending,0,100
 senate,OR,2026,OR,,,Chris Henry,O,0,0,0,0,pending,0,100
 senate,OR,2026,OR,,,Write-in,I,0,0,0,0,pending,0,100
-senate,RI,2026,RI,,,John F. Reed,D,125305,1,0,0,final,45.65,100
-senate,RI,2026,RI,,,Raymond T. McKay,R,60700,0,0,0,final,45.65,100
-senate,RI,2026,RI,,,Michael Bahry,I,8071,0,0,0,final,45.65,100
-senate,RI,2026,RI,,,Write-in,I,408,0,0,0,final,45.65,100
+senate,RI,2026,RI,,,John F. Reed,D,152307,1,0,0,final,55.26,100
+senate,RI,2026,RI,,,Raymond T. McKay,R,73057,0,0,0,final,55.26,100
+senate,RI,2026,RI,,,Michael Bahry,I,9557,0,0,0,final,55.26,100
+senate,RI,2026,RI,,,Write-in,I,482,0,0,0,final,55.26,100
 senate,SC,2026,SC,,,Annie Andrews,D,435332,0,0,0,counting,41.46,100
 senate,SC,2026,SC,,,Darline Graham,R,391139,0,0,0,counting,41.46,100
 senate,SC,2026,SC,,,Kasie Whitener,L,7279,0,0,0,counting,41.46,100
@@ -122,53 +122,53 @@ senate,SC,2026,SC,,,Mark Hackett,C,5177,0,0,0,counting,41.46,100
 senate,SC,2026,SC,,,Write-in,I,1670,0,0,0,counting,41.46,100
 senate,SD,2026,SD,,,Mike Rounds,R,0,0,0,0,pending,0,100
 senate,SD,2026,SD,,,Brian Bengs,I,0,0,0,0,pending,0,100
-senate,TN,2026,TN,,,Bill Hagerty,R,211309,0,0,0,counting,14.68,100
-senate,TN,2026,TN,,,Marquita Bradshaw,D,122390,0,0,0,counting,14.68,100
-senate,TN,2026,TN,,,Robert Jones,I,1488,0,0,0,counting,14.68,100
-senate,TN,2026,TN,,,Tharon Chandler,I,1254,0,0,0,counting,14.68,100
-senate,TN,2026,TN,,,"Catherine Barcel ""Barcy"" Whitson",I,777,0,0,0,counting,14.68,100
-senate,TN,2026,TN,,,Andrew Gerena,I,757,0,0,0,counting,14.68,100
-senate,TN,2026,TN,,,Jeremy Dean Hearn,I,736,0,0,0,counting,14.68,100
-senate,TN,2026,TN,,,"David Sutman, Jr.",I,402,0,0,0,counting,14.68,100
-senate,TN,2026,TN,,,James William Macon III,I,389,0,0,0,counting,14.68,100
-senate,TN,2026,TN,,,Yoshi D. Matthews,I,347,0,0,0,counting,14.68,100
-senate,TX,2026,TX,,,James Talarico,D,1795262,0,0,0,counting,30.64,100
-senate,TX,2026,TX,,,Ken Paxton,R,1222027,0,0,0,counting,30.64,100
-senate,TX,2026,TX,,,Ted Brown,L,46977,0,0,0,counting,30.64,100
-senate,TX,2026,TX,,,Avery Ayers,W,0,0,0,0,counting,30.64,100
-senate,TX,2026,TX,,,"Bradford ""Brad"" Hall",W,0,0,0,0,counting,30.64,100
-senate,TX,2026,TX,,,Zul Mohamed,W,0,0,0,0,counting,30.64,100
-senate,TX,2026,TX,,,Jade Simmons,W,0,0,0,0,counting,30.64,100
-senate,TX,2026,TX,,,Write-in,I,0,0,0,0,counting,30.64,100
+senate,TN,2026,TN,,,Bill Hagerty,R,226082,0,0,0,counting,15.56,100
+senate,TN,2026,TN,,,Marquita Bradshaw,D,127832,0,0,0,counting,15.56,100
+senate,TN,2026,TN,,,Robert Jones,I,1559,0,0,0,counting,15.56,100
+senate,TN,2026,TN,,,Tharon Chandler,I,1312,0,0,0,counting,15.56,100
+senate,TN,2026,TN,,,"Catherine Barcel ""Barcy"" Whitson",I,828,0,0,0,counting,15.56,100
+senate,TN,2026,TN,,,Andrew Gerena,I,798,0,0,0,counting,15.56,100
+senate,TN,2026,TN,,,Jeremy Dean Hearn,I,765,0,0,0,counting,15.56,100
+senate,TN,2026,TN,,,"David Sutman, Jr.",I,421,0,0,0,counting,15.56,100
+senate,TN,2026,TN,,,James William Macon III,I,408,0,0,0,counting,15.56,100
+senate,TN,2026,TN,,,Yoshi D. Matthews,I,370,0,0,0,counting,15.56,100
+senate,TX,2026,TX,,,James Talarico,D,2200336,0,0,0,counting,37.07,100
+senate,TX,2026,TX,,,Ken Paxton,R,1449895,0,0,0,counting,37.07,100
+senate,TX,2026,TX,,,Ted Brown,L,56386,0,0,0,counting,37.07,100
+senate,TX,2026,TX,,,Avery Ayers,W,0,0,0,0,counting,37.07,100
+senate,TX,2026,TX,,,"Bradford ""Brad"" Hall",W,0,0,0,0,counting,37.07,100
+senate,TX,2026,TX,,,Zul Mohamed,W,0,0,0,0,counting,37.07,100
+senate,TX,2026,TX,,,Jade Simmons,W,0,0,0,0,counting,37.07,100
+senate,TX,2026,TX,,,Write-in,I,0,0,0,0,counting,37.07,100
 senate,VA,2026,VA,,,Mark Warner,D,780371,1,0,0,final,35.14,100
 senate,VA,2026,VA,,,Bert Mizusawa,R,519435,0,0,0,final,35.14,100
 senate,VA,2026,VA,,,Write-in,I,3684,0,0,0,final,35.14,100
-senate,WV,2026,WV,,,Shelley Moore Capito,R,51127,0,0,0,counting,16.67,100
-senate,WV,2026,WV,,,Rachel Fetty Anderson,D,47387,0,0,0,counting,16.67,100
-senate,WV,2026,WV,,,S. Marshall Wilson,C,2999,0,0,0,counting,16.67,100
+senate,WV,2026,WV,,,Shelley Moore Capito,R,92964,0,0,0,counting,28.46,100
+senate,WV,2026,WV,,,Rachel Fetty Anderson,D,73863,0,0,0,counting,28.46,100
+senate,WV,2026,WV,,,S. Marshall Wilson,C,6431,0,0,0,counting,28.46,100
 senate,WY,2026,WY,,,Harriet Hageman,R,0,0,0,0,pending,0,100
 senate,WY,2026,WY,,,James W. Byrd,D,0,0,0,0,pending,0,100
 house,AK-00,2026,AK,0,,Nick Begich III,R,0,0,0,1,pending,0,100
 house,AK-00,2026,AK,0,,Eric Hafner,D,0,0,0,0,pending,0,100
 house,AK-00,2026,AK,0,,Bill Hill,I,0,0,0,0,pending,0,100
 house,AK-00,2026,AK,0,,"James C. ""Jim"" McDermott",L,0,0,0,0,pending,0,100
-house,AL-01,2026,AL,1,,Clyde Jones,D,2291,0,0,0,counting,1.55,100
-house,AL-01,2026,AL,1,,Jerry Carl,R,1527,0,0,0,counting,1.55,100
-house,AL-02,2026,AL,2,,Shomari Figures,D,0,0,0,0,pending,0,100
-house,AL-02,2026,AL,2,,Rhett Marques,R,0,0,0,0,pending,0,100
+house,AL-01,2026,AL,1,,Clyde Jones,D,2491,0,0,0,counting,1.89,100
+house,AL-01,2026,AL,1,,Jerry Carl,R,2148,0,0,0,counting,1.89,100
+house,AL-02,2026,AL,2,,Rhett Marques,R,1974,0,0,0,counting,1.24,100
+house,AL-02,2026,AL,2,,Shomari Figures,D,1094,0,0,0,counting,1.24,100
 house,AL-03,2026,AL,3,,Mike Rogers,R,0,0,0,0,pending,0,100
 house,AL-03,2026,AL,3,,Lee McInnis,D,0,0,0,0,pending,0,100
-house,AL-04,2026,AL,4,,Robert Aderholt,R,407,0,0,0,counting,0.31,100
-house,AL-04,2026,AL,4,,Amanda Pusczek,D,355,0,0,0,counting,0.31,100
-house,AL-05,2026,AL,5,,Dale Strong,R,79,0,0,0,counting,0.05,100
-house,AL-05,2026,AL,5,,Andrew Sneed,D,41,0,0,0,counting,0.05,100
+house,AL-04,2026,AL,4,,Robert Aderholt,R,1251,0,0,0,counting,0.92,100
+house,AL-04,2026,AL,4,,Amanda Pusczek,D,971,0,0,0,counting,0.92,100
+house,AL-05,2026,AL,5,,Dale Strong,R,203,0,0,0,counting,0.11,100
+house,AL-05,2026,AL,5,,Andrew Sneed,D,60,0,0,0,counting,0.11,100
 house,AL-06,2026,AL,6,,Gary Palmer,R,1116,0,0,0,counting,0.69,100
 house,AL-06,2026,AL,6,,Maurice Mercer,D,587,0,0,0,counting,0.69,100
 house,AL-07,2026,AL,7,,Terri Sewell,D,114,0,0,0,counting,0.05,100
 house,AL-07,2026,AL,7,,Ammie Akin,R,11,0,0,0,counting,0.05,100
-house,AR-01,2026,AR,1,,Terri Yarbrough Green,D,0,0,0,0,pending,0,100
-house,AR-01,2026,AR,1,,Rick Crawford,R,0,0,0,0,pending,0,100
-house,AR-01,2026,AR,1,,Steve G. Parsons,L,0,0,0,0,pending,0,100
+house,AR-01,2026,AR,1,,Rick Crawford,R,1114,0,0,0,counting,0.61,100
+house,AR-01,2026,AR,1,,Terri Yarbrough Green,D,367,0,0,0,counting,0.61,100
+house,AR-01,2026,AR,1,,Steve G. Parsons,L,40,0,0,0,counting,0.61,100
 house,AR-02,2026,AR,2,,French Hill,R,0,0,0,0,pending,0,100
 house,AR-02,2026,AR,2,,Chris Jones,D,0,0,0,0,pending,0,100
 house,AR-03,2026,AR,3,,Robb Ryerse,D,0,0,0,0,pending,0,100
@@ -368,58 +368,58 @@ house,CT-05,2026,CT,5,,Chris Shea,R,0,0,0,0,pending,0,100
 house,CT-05,2026,CT,5,,Jonathan DeBarros,W,0,0,0,0,pending,0,100
 house,DE-00,2026,DE,0,,Sarah McBride,D,100492,0,0,0,counting,35.43,100
 house,DE-00,2026,DE,0,,"Joseph ""Dr. Joe"" Arminio",R,47703,0,0,0,counting,35.43,100
-house,FL-01,2026,FL,1,,Jimmy Patronis,R,151048,0,0,1,counting,71.55,100
-house,FL-01,2026,FL,1,,Gay Valimont,D,92644,0,0,0,counting,71.55,100
-house,FL-01,2026,FL,1,,Tyler L. Davis,I,4492,0,0,0,counting,71.55,100
-house,FL-02,2026,FL,2,,Austin Rogers,R,147671,0,0,0,counting,88.43,100
-house,FL-02,2026,FL,2,,Amanda Green,D,140707,0,0,0,counting,88.43,100
-house,FL-03,2026,FL,3,,Kat Cammack,R,140272,0,0,1,counting,78.72,100
-house,FL-03,2026,FL,3,,Seth Harp,D,113954,0,0,0,counting,78.72,100
-house,FL-03,2026,FL,3,,Mike Klein,I,4706,0,0,0,counting,78.72,100
-house,FL-04,2026,FL,4,,Aaron Bean,R,150660,0,0,1,counting,93.5,100
-house,FL-04,2026,FL,4,,LaShonda Holloway,D,143848,0,0,0,counting,93.5,100
-house,FL-04,2026,FL,4,,Todd Schaefer,I,3170,0,0,0,counting,93.5,100
-house,FL-04,2026,FL,4,,Mike Sell,O,1816,0,0,0,counting,93.5,100
-house,FL-05,2026,FL,5,,John Rutherford,R,184419,1,0,1,final,99,100
-house,FL-05,2026,FL,5,,Rachel Grage,D,142996,0,0,0,final,99,100
+house,FL-01,2026,FL,1,,Jimmy Patronis,R,168546,1,0,1,final,78.15,100
+house,FL-01,2026,FL,1,,Gay Valimont,D,97663,0,0,0,final,78.15,100
+house,FL-01,2026,FL,1,,Tyler L. Davis,I,4869,0,0,0,final,78.15,100
+house,FL-02,2026,FL,2,,Austin Rogers,R,156185,0,0,0,counting,92,100
+house,FL-02,2026,FL,2,,Amanda Green,D,143824,0,0,0,counting,92,100
+house,FL-03,2026,FL,3,,Kat Cammack,R,143443,1,0,1,final,80.08,100
+house,FL-03,2026,FL,3,,Seth Harp,D,115156,0,0,0,final,80.08,100
+house,FL-03,2026,FL,3,,Mike Klein,I,4790,0,0,0,final,80.08,100
+house,FL-04,2026,FL,4,,Aaron Bean,R,150660,1,0,1,final,93.5,100
+house,FL-04,2026,FL,4,,LaShonda Holloway,D,143848,0,0,0,final,93.5,100
+house,FL-04,2026,FL,4,,Todd Schaefer,I,3170,0,0,0,final,93.5,100
+house,FL-04,2026,FL,4,,Mike Sell,O,1816,0,0,0,final,93.5,100
+house,FL-05,2026,FL,5,,John Rutherford,R,184916,1,0,1,final,99,100
+house,FL-05,2026,FL,5,,Rachel Grage,D,143195,0,0,0,final,99,100
 house,FL-05,2026,FL,5,,Write-in,I,491,0,0,0,final,99,100
-house,FL-06,2026,FL,6,,Randy Fine,R,178304,1,0,1,final,90.95,100
-house,FL-06,2026,FL,6,,Eric Yonce,D,125317,0,0,0,final,90.95,100
-house,FL-06,2026,FL,6,,Andrew Parrott,L,3451,0,0,0,final,90.95,100
-house,FL-06,2026,FL,6,,Write-in,I,88,0,0,0,final,90.95,100
-house,FL-07,2026,FL,7,,Ryan Elijah,R,158505,0,0,0,counting,99,100
-house,FL-07,2026,FL,7,,Bale Dalton,D,156541,0,0,0,counting,99,100
-house,FL-07,2026,FL,7,,Christopher Dennison,L,3391,0,0,0,counting,99,100
-house,FL-08,2026,FL,8,,Mike Haridopolos,R,165949,0,0,1,counting,95.63,100
-house,FL-08,2026,FL,8,,Jennifer Jenkins,D,144319,0,0,0,counting,95.63,100
-house,FL-09,2026,FL,9,,Darren Soto,D,142039,0,0,1,counting,86.91,100
-house,FL-09,2026,FL,9,,Dan Green,R,141168,0,0,0,counting,86.91,100
+house,FL-06,2026,FL,6,,Randy Fine,R,182063,1,0,1,final,92.45,100
+house,FL-06,2026,FL,6,,Eric Yonce,D,126576,0,0,0,final,92.45,100
+house,FL-06,2026,FL,6,,Andrew Parrott,L,3509,0,0,0,final,92.45,100
+house,FL-06,2026,FL,6,,Write-in,I,88,0,0,0,final,92.45,100
+house,FL-07,2026,FL,7,,Ryan Elijah,R,159159,0,0,0,counting,99,100
+house,FL-07,2026,FL,7,,Bale Dalton,D,157097,0,0,0,counting,99,100
+house,FL-07,2026,FL,7,,Christopher Dennison,L,3408,0,0,0,counting,99,100
+house,FL-08,2026,FL,8,,Mike Haridopolos,R,166402,1,0,1,final,96.01,100
+house,FL-08,2026,FL,8,,Jennifer Jenkins,D,145120,0,0,0,final,96.01,100
+house,FL-09,2026,FL,9,,Darren Soto,D,142726,0,0,1,counting,87.22,100
+house,FL-09,2026,FL,9,,Dan Green,R,141483,0,0,0,counting,87.22,100
 house,FL-10,2026,FL,10,,Maxwell Frost,D,0,1,1,0,final,0,100
-house,FL-11,2026,FL,11,,Joe Strada,R,192777,0,0,0,counting,99,100
-house,FL-11,2026,FL,11,,James Pericola,D,166782,0,0,0,counting,99,100
-house,FL-11,2026,FL,11,,Ralph Groves,L,3927,0,0,0,counting,99,100
-house,FL-12,2026,FL,12,,Gus Bilirakis,R,149740,0,0,1,counting,87.54,100
-house,FL-12,2026,FL,12,,Kimberly Overman,D,129774,0,0,0,counting,87.54,100
-house,FL-12,2026,FL,12,,Branden Scrivener,I,3740,0,0,0,counting,87.54,100
-house,FL-13,2026,FL,13,,Anna Paulina Luna,R,154351,0,0,1,counting,96.83,100
-house,FL-13,2026,FL,13,,Leela Gray,D,151443,0,0,0,counting,96.83,100
-house,FL-13,2026,FL,13,,Tony D'Arrigo,I,5722,0,0,0,counting,96.83,100
+house,FL-11,2026,FL,11,,Joe Strada,R,192777,1,0,0,final,99,100
+house,FL-11,2026,FL,11,,James Pericola,D,166782,0,0,0,final,99,100
+house,FL-11,2026,FL,11,,Ralph Groves,L,3927,0,0,0,final,99,100
+house,FL-12,2026,FL,12,,Gus Bilirakis,R,149740,1,0,1,final,87.54,100
+house,FL-12,2026,FL,12,,Kimberly Overman,D,129774,0,0,0,final,87.54,100
+house,FL-12,2026,FL,12,,Branden Scrivener,I,3740,0,0,0,final,87.54,100
+house,FL-13,2026,FL,13,,Anna Paulina Luna,R,154351,1,0,1,final,96.83,100
+house,FL-13,2026,FL,13,,Leela Gray,D,151443,0,0,0,final,96.83,100
+house,FL-13,2026,FL,13,,Tony D'Arrigo,I,5722,0,0,0,final,96.83,100
 house,FL-14,2026,FL,14,,Kathy Castor,D,151118,0,0,1,counting,92.7,100
 house,FL-14,2026,FL,14,,Mike Beltran,R,136004,0,0,0,counting,92.7,100
 house,FL-14,2026,FL,14,,Brian Lambert,L,8551,0,0,0,counting,92.7,100
 house,FL-14,2026,FL,14,,Write-in,I,160,0,0,0,counting,92.7,100
-house,FL-15,2026,FL,15,,Laurel Lee,R,161720,0,0,1,counting,90.74,100
-house,FL-15,2026,FL,15,,Robert People,D,135335,0,0,0,counting,90.74,100
-house,FL-15,2026,FL,15,,Write-in,I,264,0,0,0,counting,90.74,100
-house,FL-16,2026,FL,16,,Sydney Gruters,R,172678,0,0,0,counting,99,100
-house,FL-16,2026,FL,16,,Kelly Kirschner,D,158960,0,0,0,counting,99,100
-house,FL-16,2026,FL,16,,Mark Davis,I,6138,0,0,0,counting,99,100
+house,FL-15,2026,FL,15,,Laurel Lee,R,161720,1,0,1,final,90.74,100
+house,FL-15,2026,FL,15,,Robert People,D,135335,0,0,0,final,90.74,100
+house,FL-15,2026,FL,15,,Write-in,I,264,0,0,0,final,90.74,100
+house,FL-16,2026,FL,16,,Sydney Gruters,R,172976,1,0,0,final,99,100
+house,FL-16,2026,FL,16,,Kelly Kirschner,D,159070,0,0,0,final,99,100
+house,FL-16,2026,FL,16,,Mark Davis,I,6144,0,0,0,final,99,100
 house,FL-17,2026,FL,17,,Greg Steube,R,206107,1,0,1,final,99,100
 house,FL-17,2026,FL,17,,Matthew Montavon,D,142275,0,0,0,final,99,100
 house,FL-17,2026,FL,17,,Michael J. Quirk,I,4925,0,0,0,final,99,100
-house,FL-18,2026,FL,18,,Scott Franklin,R,109526,0,0,1,counting,67.77,100
-house,FL-18,2026,FL,18,,Curtis Gibson,D,104250,0,0,0,counting,67.77,100
-house,FL-18,2026,FL,18,,Deva Simmons,I,6585,0,0,0,counting,67.77,100
+house,FL-18,2026,FL,18,,Scott Franklin,R,109531,0,0,1,counting,67.78,100
+house,FL-18,2026,FL,18,,Curtis Gibson,D,104280,0,0,0,counting,67.78,100
+house,FL-18,2026,FL,18,,Deva Simmons,I,6586,0,0,0,counting,67.78,100
 house,FL-19,2026,FL,19,,Jim Schwartzel,R,196669,1,0,0,final,95.3,100
 house,FL-19,2026,FL,19,,Victor Arias,D,121118,0,0,0,final,95.3,100
 house,FL-19,2026,FL,19,,Seth Haskin,I,3927,0,0,0,final,95.3,100
@@ -427,33 +427,33 @@ house,FL-19,2026,FL,19,,Write-in,I,29,0,0,0,final,95.3,100
 house,FL-20,2026,FL,20,,Debbie Wasserman Schultz,D,177720,1,0,0,final,86.85,100
 house,FL-20,2026,FL,20,,Brent Andersen,R,51337,0,0,0,final,86.85,100
 house,FL-20,2026,FL,20,,Kedner Maxime,O,9284,0,0,0,final,86.85,100
-house,FL-21,2026,FL,21,,Brian Mast,R,175691,0,0,1,counting,99,100
-house,FL-21,2026,FL,21,,James Martin,D,143544,0,0,0,counting,99,100
-house,FL-21,2026,FL,21,,Alexander Cooke,I,4114,0,0,0,counting,99,100
-house,FL-21,2026,FL,21,,Write-in,I,41,0,0,0,counting,99,100
-house,FL-22,2026,FL,22,,Pia Dandiya,D,150907,0,0,0,counting,91.11,100
-house,FL-22,2026,FL,22,,Casey Askar,R,139747,0,0,0,counting,91.11,100
+house,FL-21,2026,FL,21,,Brian Mast,R,175691,1,0,1,final,99,100
+house,FL-21,2026,FL,21,,James Martin,D,143544,0,0,0,final,99,100
+house,FL-21,2026,FL,21,,Alexander Cooke,I,4114,0,0,0,final,99,100
+house,FL-21,2026,FL,21,,Write-in,I,41,0,0,0,final,99,100
+house,FL-22,2026,FL,22,,Pia Dandiya,D,150907,1,0,0,final,91.11,100
+house,FL-22,2026,FL,22,,Casey Askar,R,139747,0,0,0,final,91.11,100
 house,FL-23,2026,FL,23,,Lois Frankel,D,166349,1,0,0,final,85.44,100
 house,FL-23,2026,FL,23,,Deborah Adeimy,R,87327,0,0,0,final,85.44,100
-house,FL-24,2026,FL,24,,Oliver Gilbert,D,161037,1,0,0,final,73.26,100
-house,FL-24,2026,FL,24,,Mayonna Te Brown,R,38482,0,0,0,final,73.26,100
-house,FL-24,2026,FL,24,,Write-in,I,274,0,0,0,final,73.26,100
-house,FL-25,2026,FL,25,,Jared Moskowitz,D,141442,0,0,0,counting,86.74,100
-house,FL-25,2026,FL,25,,Scott Singer,R,128359,0,0,0,counting,86.74,100
-house,FL-25,2026,FL,25,,Peter Jassenoff,L,5760,0,0,0,counting,86.74,100
-house,FL-25,2026,FL,25,,Write-in,I,128,0,0,0,counting,86.74,100
+house,FL-24,2026,FL,24,,Oliver Gilbert,D,162348,1,0,0,final,73.86,100
+house,FL-24,2026,FL,24,,Mayonna Te Brown,R,38811,0,0,0,final,73.86,100
+house,FL-24,2026,FL,24,,Write-in,I,274,0,0,0,final,73.86,100
+house,FL-25,2026,FL,25,,Jared Moskowitz,D,142019,0,0,0,counting,87.21,100
+house,FL-25,2026,FL,25,,Scott Singer,R,129228,0,0,0,counting,87.21,100
+house,FL-25,2026,FL,25,,Peter Jassenoff,L,5792,0,0,0,counting,87.21,100
+house,FL-25,2026,FL,25,,Write-in,I,128,0,0,0,counting,87.21,100
 house,FL-26,2026,FL,26,,Mario Diaz-Balart,R,111927,0,0,1,counting,68.63,100
 house,FL-26,2026,FL,26,,Nicole Locklin,D,109872,0,0,0,counting,68.63,100
 house,FL-26,2026,FL,26,,Deborah Ann Meidinger Hosey,I,2270,0,0,0,counting,68.63,100
-house,FL-27,2026,FL,27,,Maria Elvira Salazar,R,120284,0,0,1,counting,74.44,100
-house,FL-27,2026,FL,27,,Eliott Rodriguez,D,120077,0,0,0,counting,74.44,100
-house,FL-28,2026,FL,28,,Carlos Giménez,R,122345,0,0,1,counting,69.45,100
-house,FL-28,2026,FL,28,,Phil Ehr,D,105578,0,0,0,counting,69.45,100
-house,FL-28,2026,FL,28,,Eddy Rojas,I,3347,0,0,0,counting,69.45,100
+house,FL-27,2026,FL,27,,Maria Elvira Salazar,R,121752,0,0,1,counting,75.17,100
+house,FL-27,2026,FL,27,,Eliott Rodriguez,D,120982,0,0,0,counting,75.17,100
+house,FL-28,2026,FL,28,,Carlos Giménez,R,123449,1,0,1,final,70.13,100
+house,FL-28,2026,FL,28,,Phil Ehr,D,106714,0,0,0,final,70.13,100
+house,FL-28,2026,FL,28,,Eddy Rojas,I,3386,0,0,0,final,70.13,100
 house,GA-01,2026,GA,1,,Amanda Hollowell,D,87239,0,0,0,counting,50.55,100
 house,GA-01,2026,GA,1,,Jim Kingston,R,82213,0,0,0,counting,50.55,100
-house,GA-02,2026,GA,2,,Sanford Bishop,D,80264,0,0,1,counting,38.3,100
-house,GA-02,2026,GA,2,,Matt Day,R,47997,0,0,0,counting,38.3,100
+house,GA-02,2026,GA,2,,Sanford Bishop,D,80264,1,0,1,final,38.3,100
+house,GA-02,2026,GA,2,,Matt Day,R,47997,0,0,0,final,38.3,100
 house,GA-03,2026,GA,3,,Brian Jack,R,88016,0,0,1,counting,48.73,100
 house,GA-03,2026,GA,3,,Maura Keller,D,75378,0,0,0,counting,48.73,100
 house,GA-04,2026,GA,4,,Hank Johnson,D,161344,1,0,1,final,56.83,100
@@ -466,8 +466,8 @@ house,GA-07,2026,GA,7,,Rich McCormick,R,91306,0,0,1,counting,52.38,100
 house,GA-07,2026,GA,7,,Anthony Kozycki,D,84342,0,0,0,counting,52.38,100
 house,GA-08,2026,GA,8,,Austin Scott,R,100326,0,0,1,counting,51.54,100
 house,GA-08,2026,GA,8,,Kelly Esti,D,72481,0,0,0,counting,51.54,100
-house,GA-09,2026,GA,9,,Andrew Clyde,R,117932,0,0,1,counting,61.77,100
-house,GA-09,2026,GA,9,,Caitlyn Gegen,D,89179,0,0,0,counting,61.77,100
+house,GA-09,2026,GA,9,,Andrew Clyde,R,117932,1,0,1,final,61.77,100
+house,GA-09,2026,GA,9,,Caitlyn Gegen,D,89179,0,0,0,final,61.77,100
 house,GA-10,2026,GA,10,,Houston Gaines,R,85249,0,0,0,counting,48.29,100
 house,GA-10,2026,GA,10,,Pamela DeLancy,D,76649,0,0,0,counting,48.29,100
 house,GA-11,2026,GA,11,,John Cowan,R,108093,0,0,0,counting,62.61,100
@@ -551,51 +551,51 @@ house,IN-01,2026,IN,1,,"Prescription Dope Deaths Johnson, Jr",W,0,0,0,0,counting
 house,IN-02,2026,IN,2,,Rudy Yakym,R,38479,0,0,0,counting,30.43,100
 house,IN-02,2026,IN,2,,Jamee Decio,D,22935,0,0,0,counting,30.43,100
 house,IN-02,2026,IN,2,,William Henry,L,1650,0,0,0,counting,30.43,100
-house,IN-03,2026,IN,3,,Marlin Stutzman,R,80555,0,0,0,counting,71.32,100
-house,IN-03,2026,IN,3,,Kelly Thompson,D,67865,0,0,0,counting,71.32,100
-house,IN-03,2026,IN,3,,Phillip D. Beachy (Phil),I,0,0,0,0,counting,71.32,100
-house,IN-04,2026,IN,4,,Jim Baird,R,52189,0,0,0,counting,49.29,100
-house,IN-04,2026,IN,4,,Drew Cox,D,50137,0,0,0,counting,49.29,100
-house,IN-04,2026,IN,4,,David E. Bokash,I,0,0,0,0,counting,49.29,100
+house,IN-03,2026,IN,3,,Marlin Stutzman,R,80555,1,0,0,final,71.32,100
+house,IN-03,2026,IN,3,,Kelly Thompson,D,67865,0,0,0,final,71.32,100
+house,IN-03,2026,IN,3,,Phillip D. Beachy (Phil),I,0,0,0,0,final,71.32,100
+house,IN-04,2026,IN,4,,Jim Baird,R,52189,1,0,0,final,49.29,100
+house,IN-04,2026,IN,4,,Drew Cox,D,50137,0,0,0,final,49.29,100
+house,IN-04,2026,IN,4,,David E. Bokash,I,0,0,0,0,final,49.29,100
 house,IN-05,2026,IN,5,,J. D. Ford,D,107123,0,0,0,counting,95.84,100
 house,IN-05,2026,IN,5,,Victoria Spartz,R,89616,0,0,0,counting,95.84,100
-house,IN-06,2026,IN,6,,Jefferson Shreve,R,45751,0,0,0,counting,40.27,100
-house,IN-06,2026,IN,6,,Cinde Wirth,D,38133,0,0,0,counting,40.27,100
+house,IN-06,2026,IN,6,,Jefferson Shreve,R,45751,1,0,0,final,40.27,100
+house,IN-06,2026,IN,6,,Cinde Wirth,D,38133,0,0,0,final,40.27,100
 house,IN-07,2026,IN,7,,André Carson,D,25552,0,0,0,counting,18.8,100
 house,IN-07,2026,IN,7,,Patrick McAuley,R,10018,0,0,0,counting,18.8,100
 house,IN-07,2026,IN,7,,James Sceniak,L,1175,0,0,0,counting,18.8,100
-house,IN-08,2026,IN,8,,Mark Messmer,R,49856,0,0,0,counting,40.04,100
-house,IN-08,2026,IN,8,,Mary Allen,D,33824,0,0,0,counting,40.04,100
+house,IN-08,2026,IN,8,,Mark Messmer,R,49856,1,0,0,final,40.04,100
+house,IN-08,2026,IN,8,,Mary Allen,D,33824,0,0,0,final,40.04,100
 house,IN-09,2026,IN,9,,Erin Houchin,R,70468,0,0,0,counting,56.29,100
 house,IN-09,2026,IN,9,,Brad Meyer,D,43523,0,0,0,counting,56.29,100
 house,IN-09,2026,IN,9,,Tonya Hudson,L,3057,0,0,0,counting,56.29,100
 house,IN-09,2026,IN,9,,Floyd Michael Taylor,I,0,0,0,0,counting,56.29,100
-house,KS-01,2026,KS,1,,Lauren Reinhold,D,31620,0,0,0,counting,17.35,100
-house,KS-01,2026,KS,1,,Tracey Mann,R,17404,0,0,0,counting,17.35,100
-house,KS-01,2026,KS,1,,Steven Jacob,L,993,0,0,0,counting,17.35,100
-house,KS-02,2026,KS,2,,Don Coover,D,35199,0,0,0,counting,19.64,100
-house,KS-02,2026,KS,2,,Derek Schmidt,R,19903,0,0,0,counting,19.64,100
-house,KS-02,2026,KS,2,,John Hauer,L,1577,0,0,0,counting,19.64,100
-house,KS-03,2026,KS,3,,Sharice Davids,D,6662,0,0,0,counting,3.42,100
-house,KS-03,2026,KS,3,,Eric Jenkins,R,3051,0,0,0,counting,3.42,100
-house,KS-03,2026,KS,3,,Steven A Hohe,L,169,0,0,0,counting,3.42,100
-house,KS-04,2026,KS,4,,Katy Tyndell,D,56427,0,0,0,counting,35.94,100
-house,KS-04,2026,KS,4,,Ron Estes,R,45743,0,0,0,counting,35.94,100
-house,KS-04,2026,KS,4,,Drew Cranmer,L,1567,0,0,0,counting,35.94,100
-house,KY-01,2026,KY,1,,James Comer,R,72795,0,0,0,counting,41.51,100
-house,KY-01,2026,KY,1,,Drew Williams,D,40892,0,0,0,counting,41.51,100
-house,KY-01,2026,KY,1,,Write-in,I,0,0,0,0,counting,41.51,100
-house,KY-02,2026,KY,2,,Brett Guthrie,R,77824,0,0,0,counting,47.06,100
-house,KY-02,2026,KY,2,,Megan Wingfield,D,48889,0,0,0,counting,47.06,100
-house,KY-02,2026,KY,2,,Thomas A. Loecken,I,2745,0,0,0,counting,47.06,100
-house,KY-02,2026,KY,2,,Write-in,I,0,0,0,0,counting,47.06,100
+house,KS-01,2026,KS,1,,Lauren Reinhold,D,32770,0,0,0,counting,19.09,100
+house,KS-01,2026,KS,1,,Tracey Mann,R,21124,0,0,0,counting,19.09,100
+house,KS-01,2026,KS,1,,Steven Jacob,L,1145,0,0,0,counting,19.09,100
+house,KS-02,2026,KS,2,,Don Coover,D,36982,0,0,0,counting,21.01,100
+house,KS-02,2026,KS,2,,Derek Schmidt,R,22019,0,0,0,counting,21.01,100
+house,KS-02,2026,KS,2,,John Hauer,L,1637,0,0,0,counting,21.01,100
+house,KS-03,2026,KS,3,,Sharice Davids,D,133414,0,0,0,counting,70.14,100
+house,KS-03,2026,KS,3,,Eric Jenkins,R,66312,0,0,0,counting,70.14,100
+house,KS-03,2026,KS,3,,Steven A Hohe,L,2873,0,0,0,counting,70.14,100
+house,KS-04,2026,KS,4,,Katy Tyndell,D,56580,0,0,0,counting,36.11,100
+house,KS-04,2026,KS,4,,Ron Estes,R,46046,0,0,0,counting,36.11,100
+house,KS-04,2026,KS,4,,Drew Cranmer,L,1576,0,0,0,counting,36.11,100
+house,KY-01,2026,KY,1,,James Comer,R,80233,1,0,0,final,45.81,100
+house,KY-01,2026,KY,1,,Drew Williams,D,45211,0,0,0,final,45.81,100
+house,KY-01,2026,KY,1,,Write-in,I,0,0,0,0,final,45.81,100
+house,KY-02,2026,KY,2,,Brett Guthrie,R,79242,1,0,0,final,47.88,100
+house,KY-02,2026,KY,2,,Megan Wingfield,D,49679,0,0,0,final,47.88,100
+house,KY-02,2026,KY,2,,Thomas A. Loecken,I,2798,0,0,0,final,47.88,100
+house,KY-02,2026,KY,2,,Write-in,I,0,0,0,0,final,47.88,100
 house,KY-03,2026,KY,3,,Morgan McGarvey,D,86292,1,0,0,final,40.68,100
 house,KY-03,2026,KY,3,,Maria Teresa Rodriguez,R,30158,0,0,0,final,40.68,100
 house,KY-03,2026,KY,3,,Write-in,I,0,0,0,0,final,40.68,100
-house,KY-04,2026,KY,4,,Ed Gallrein,R,120755,0,0,0,counting,82.49,100
-house,KY-04,2026,KY,4,,Melissa Strange,D,95963,0,0,0,counting,82.49,100
-house,KY-04,2026,KY,4,,Jeremy Todd,L,11031,0,0,0,counting,82.49,100
-house,KY-04,2026,KY,4,,Write-in,I,0,0,0,0,counting,82.49,100
+house,KY-04,2026,KY,4,,Ed Gallrein,R,120755,1,0,0,final,82.49,100
+house,KY-04,2026,KY,4,,Melissa Strange,D,95963,0,0,0,final,82.49,100
+house,KY-04,2026,KY,4,,Jeremy Todd,L,11031,0,0,0,final,82.49,100
+house,KY-04,2026,KY,4,,Write-in,I,0,0,0,0,final,82.49,100
 house,KY-05,2026,KY,5,,Hal Rogers,R,91202,1,0,0,final,47.67,100
 house,KY-05,2026,KY,5,,Ned Pillersdorf,D,33008,0,0,0,final,47.67,100
 house,KY-05,2026,KY,5,,Mikel Wein,I,2561,0,0,0,final,47.67,100
@@ -697,14 +697,14 @@ house,ME-01,2026,ME,1,,Chellie Pingree,D,0,0,0,0,pending,0,100
 house,ME-02,2026,ME,2,,Paul LePage,R,0,0,0,0,pending,0,100
 house,ME-02,2026,ME,2,,Matthew Dunlap,D,0,0,0,0,pending,0,100
 house,ME-02,2026,ME,2,,Write-in,I,0,0,0,0,pending,0,100
-house,MI-01,2026,MI,1,,Jack Bergman,R,356,0,0,0,counting,0.17,100
-house,MI-01,2026,MI,1,,Callie Barr,D,290,0,0,0,counting,0.17,100
-house,MI-01,2026,MI,1,,Arnett Satterla,L,5,0,0,0,counting,0.17,100
-house,MI-01,2026,MI,1,,Liz Hakola,O,4,0,0,0,counting,0.17,100
-house,MI-01,2026,MI,1,,Doc Kovaly,O,2,0,0,0,counting,0.17,100
-house,MI-01,2026,MI,1,,LaVeta Davenport,G,1,0,0,0,counting,0.17,100
-house,MI-01,2026,MI,1,,Zebulon Featherly,I,0,0,0,0,counting,0.17,100
-house,MI-01,2026,MI,1,,Write-in,I,0,0,0,0,counting,0.17,100
+house,MI-01,2026,MI,1,,Jack Bergman,R,968,0,0,0,counting,0.44,100
+house,MI-01,2026,MI,1,,Callie Barr,D,697,0,0,0,counting,0.44,100
+house,MI-01,2026,MI,1,,Liz Hakola,O,18,0,0,0,counting,0.44,100
+house,MI-01,2026,MI,1,,Arnett Satterla,L,12,0,0,0,counting,0.44,100
+house,MI-01,2026,MI,1,,LaVeta Davenport,G,6,0,0,0,counting,0.44,100
+house,MI-01,2026,MI,1,,Doc Kovaly,O,5,0,0,0,counting,0.44,100
+house,MI-01,2026,MI,1,,Zebulon Featherly,I,1,0,0,0,counting,0.44,100
+house,MI-01,2026,MI,1,,Write-in,I,1,0,0,0,counting,0.44,100
 house,MI-02,2026,MI,2,,John Moolenaar,R,618,0,0,0,counting,0.25,100
 house,MI-02,2026,MI,2,,Benjamin Ambrose,D,325,0,0,0,counting,0.25,100
 house,MI-02,2026,MI,2,,Charlotte Magoon,G,8,0,0,0,counting,0.25,100
@@ -724,14 +724,14 @@ house,MI-05,2026,MI,5,,Ronald A Muszynski,L,0,0,0,0,pending,0,100
 house,MI-05,2026,MI,5,,Sharon Marie Renier,O,0,0,0,0,pending,0,100
 house,MI-05,2026,MI,5,,Jim Bronke,G,0,0,0,0,pending,0,100
 house,MI-05,2026,MI,5,,Write-in,I,0,0,0,0,pending,0,100
-house,MI-06,2026,MI,6,,Debbie Dingell,D,4772,0,0,0,counting,2.41,100
-house,MI-06,2026,MI,6,,Heather Smiley,R,4040,0,0,0,counting,2.41,100
-house,MI-06,2026,MI,6,,Timothy A. Teagan,L,87,0,0,0,counting,2.41,100
-house,MI-06,2026,MI,6,,Linda Rayburn,O,56,0,0,0,counting,2.41,100
-house,MI-06,2026,MI,6,,Clyde Shabazz,G,43,0,0,0,counting,2.41,100
-house,MI-06,2026,MI,6,,Mike Mickevicius,O,34,0,0,0,counting,2.41,100
-house,MI-06,2026,MI,6,,Bree Arlene Taylor,I,0,0,0,0,counting,2.41,100
-house,MI-06,2026,MI,6,,Write-in,I,0,0,0,0,counting,2.41,100
+house,MI-06,2026,MI,6,,Debbie Dingell,D,5129,0,0,0,counting,2.57,100
+house,MI-06,2026,MI,6,,Heather Smiley,R,4247,0,0,0,counting,2.57,100
+house,MI-06,2026,MI,6,,Timothy A. Teagan,L,99,0,0,0,counting,2.57,100
+house,MI-06,2026,MI,6,,Linda Rayburn,O,62,0,0,0,counting,2.57,100
+house,MI-06,2026,MI,6,,Clyde Shabazz,G,45,0,0,0,counting,2.57,100
+house,MI-06,2026,MI,6,,Mike Mickevicius,O,38,0,0,0,counting,2.57,100
+house,MI-06,2026,MI,6,,Bree Arlene Taylor,I,0,0,0,0,counting,2.57,100
+house,MI-06,2026,MI,6,,Write-in,I,0,0,0,0,counting,2.57,100
 house,MI-07,2026,MI,7,,Tom Barrett,R,22421,0,0,0,counting,10.52,100
 house,MI-07,2026,MI,7,,William Lawrence,D,17061,0,0,0,counting,10.52,100
 house,MI-07,2026,MI,7,,Shane Dedrick,G,566,0,0,0,counting,10.52,100
@@ -742,30 +742,30 @@ house,MI-08,2026,MI,8,,C. Mia Pettus,L,0,0,0,0,pending,0,100
 house,MI-08,2026,MI,8,,Jim Casha,G,0,0,0,0,pending,0,100
 house,MI-08,2026,MI,8,,Kathy Goodwin,O,0,0,0,0,pending,0,100
 house,MI-08,2026,MI,8,,Write-in,I,0,0,0,0,pending,0,100
-house,MI-09,2026,MI,9,,Lisa McClain,R,30693,0,0,0,counting,12.35,100
-house,MI-09,2026,MI,9,,Ray Pooley,D,16241,0,0,0,counting,12.35,100
-house,MI-09,2026,MI,9,,Kevin Vayko,L,526,0,0,0,counting,12.35,100
-house,MI-09,2026,MI,9,,Jim Walkowicz,O,408,0,0,0,counting,12.35,100
-house,MI-09,2026,MI,9,,Destiny Clayton,G,162,0,0,0,counting,12.35,100
-house,MI-09,2026,MI,9,,John Vlahos,O,153,0,0,0,counting,12.35,100
-house,MI-09,2026,MI,9,,Write-in,I,0,0,0,0,counting,12.35,100
+house,MI-09,2026,MI,9,,Lisa McClain,R,31365,0,0,0,counting,12.58,100
+house,MI-09,2026,MI,9,,Ray Pooley,D,16448,0,0,0,counting,12.58,100
+house,MI-09,2026,MI,9,,Kevin Vayko,L,538,0,0,0,counting,12.58,100
+house,MI-09,2026,MI,9,,Jim Walkowicz,O,413,0,0,0,counting,12.58,100
+house,MI-09,2026,MI,9,,Destiny Clayton,G,169,0,0,0,counting,12.58,100
+house,MI-09,2026,MI,9,,John Vlahos,O,160,0,0,0,counting,12.58,100
+house,MI-09,2026,MI,9,,Write-in,I,0,0,0,0,counting,12.58,100
 house,MI-10,2026,MI,10,,Michael Bouchard Jr.,R,11687,0,0,0,counting,5.7,100
 house,MI-10,2026,MI,10,,Christina Hines,D,9668,0,0,0,counting,5.7,100
 house,MI-10,2026,MI,10,,Mike Saliba,L,210,0,0,0,counting,5.7,100
 house,MI-10,2026,MI,10,,Andrea L. Kirby,O,142,0,0,0,counting,5.7,100
 house,MI-10,2026,MI,10,,Kwabena Nkromo,G,82,0,0,0,counting,5.7,100
 house,MI-10,2026,MI,10,,Write-in,I,0,0,0,0,counting,5.7,100
-house,MI-11,2026,MI,11,,Jeremy Moss,D,132612,0,0,0,counting,57.7,100
-house,MI-11,2026,MI,11,,Ethan Baker,R,79428,0,0,0,counting,57.7,100
-house,MI-11,2026,MI,11,,Anil Kumar,I,1686,0,0,0,counting,57.7,100
-house,MI-11,2026,MI,11,,Farid Ishac,L,1638,0,0,0,counting,57.7,100
-house,MI-11,2026,MI,11,,Ryan Teasdale,G,1566,0,0,0,counting,57.7,100
-house,MI-12,2026,MI,12,,Rashida Tlaib,D,23531,0,0,0,counting,7.66,100
-house,MI-12,2026,MI,12,,James Hooper,R,4094,0,0,0,counting,7.66,100
-house,MI-12,2026,MI,12,,Brenda K. Sanders,G,335,0,0,0,counting,7.66,100
-house,MI-12,2026,MI,12,,Gary Walkowicz,O,198,0,0,0,counting,7.66,100
-house,MI-12,2026,MI,12,,Marc Joseph Sosnowski,O,132,0,0,0,counting,7.66,100
-house,MI-12,2026,MI,12,,Write-in,I,0,0,0,0,counting,7.66,100
+house,MI-11,2026,MI,11,,Jeremy Moss,D,140399,0,0,0,counting,61.97,100
+house,MI-11,2026,MI,11,,Ethan Baker,R,87314,0,0,0,counting,61.97,100
+house,MI-11,2026,MI,11,,Anil Kumar,I,1784,0,0,0,counting,61.97,100
+house,MI-11,2026,MI,11,,Farid Ishac,L,1774,0,0,0,counting,61.97,100
+house,MI-11,2026,MI,11,,Ryan Teasdale,G,1690,0,0,0,counting,61.97,100
+house,MI-12,2026,MI,12,,Rashida Tlaib,D,24226,0,0,0,counting,7.88,100
+house,MI-12,2026,MI,12,,James Hooper,R,4175,0,0,0,counting,7.88,100
+house,MI-12,2026,MI,12,,Brenda K. Sanders,G,343,0,0,0,counting,7.88,100
+house,MI-12,2026,MI,12,,Gary Walkowicz,O,209,0,0,0,counting,7.88,100
+house,MI-12,2026,MI,12,,Marc Joseph Sosnowski,O,137,0,0,0,counting,7.88,100
+house,MI-12,2026,MI,12,,Write-in,I,0,0,0,0,counting,7.88,100
 house,MI-13,2026,MI,13,,Donavan McKinney,D,0,0,0,0,pending,0,100
 house,MI-13,2026,MI,13,,T.P. Nykoriak,R,0,0,0,0,pending,0,100
 house,MI-13,2026,MI,13,,Chris Dardzinski,O,0,0,0,0,pending,0,100
@@ -797,30 +797,30 @@ house,MN-07,2026,MN,7,,Write-in,I,0,0,0,0,pending,0,100
 house,MN-08,2026,MN,8,,Pete Stauber,R,0,0,0,0,pending,0,100
 house,MN-08,2026,MN,8,,Trina Swanson,D,0,0,0,0,pending,0,100
 house,MN-08,2026,MN,8,,Write-in,I,0,0,0,0,pending,0,100
-house,MO-01,2026,MO,1,,Paul Berry,R,0,0,0,0,pending,0,100
-house,MO-01,2026,MO,1,,Wesley Bell,D,0,0,0,0,pending,0,100
-house,MO-01,2026,MO,1,,Tom Schmitz,L,0,0,0,0,pending,0,100
-house,MO-02,2026,MO,2,,Ann Wagner,R,0,0,0,0,pending,0,100
-house,MO-02,2026,MO,2,,Fred Wellman,D,0,0,0,0,pending,0,100
-house,MO-02,2026,MO,2,,Brandon Coulter Daugherty,L,0,0,0,0,pending,0,100
-house,MO-03,2026,MO,3,,Bob Onder,R,0,0,0,0,pending,0,100
-house,MO-03,2026,MO,3,,Bethany Mann,D,0,0,0,0,pending,0,100
-house,MO-03,2026,MO,3,,Jim Higgins,L,0,0,0,0,pending,0,100
-house,MO-04,2026,MO,4,,Mark Alford,R,0,0,0,0,pending,0,100
-house,MO-04,2026,MO,4,,Jordan Herrera,D,0,0,0,0,pending,0,100
-house,MO-04,2026,MO,4,,Thomas Holbrook,L,0,0,0,0,pending,0,100
-house,MO-05,2026,MO,5,,Rick Brattin,R,0,0,0,0,pending,0,100
-house,MO-05,2026,MO,5,,Emanuel Cleaver,D,0,0,0,0,pending,0,100
-house,MO-05,2026,MO,5,,Randall (Randy) Langkraehr,L,0,0,0,0,pending,0,100
-house,MO-06,2026,MO,6,,Chris Stigall,R,0,0,0,0,pending,0,100
-house,MO-06,2026,MO,6,,Josh Smead,D,0,0,0,0,pending,0,100
-house,MO-06,2026,MO,6,,Andy Maidment,L,0,0,0,0,pending,0,100
-house,MO-07,2026,MO,7,,Eric Burlison,R,0,0,0,0,pending,0,100
-house,MO-07,2026,MO,7,,Missi Hesketh,D,0,0,0,0,pending,0,100
-house,MO-07,2026,MO,7,,Kevin Craig,L,0,0,0,0,pending,0,100
-house,MO-08,2026,MO,8,,Jason Smith,R,0,0,0,0,pending,0,100
-house,MO-08,2026,MO,8,,Christopher Reichard,D,0,0,0,0,pending,0,100
-house,MO-08,2026,MO,8,,Rebecca Sharpe Lombard,L,0,0,0,0,pending,0,100
+house,MO-01,2026,MO,1,,Wesley Bell,D,57018,0,0,0,counting,28.79,100
+house,MO-01,2026,MO,1,,Paul Berry,R,8620,0,0,0,counting,28.79,100
+house,MO-01,2026,MO,1,,Tom Schmitz,L,1657,0,0,0,counting,28.79,100
+house,MO-02,2026,MO,2,,Fred Wellman,D,75904,0,0,0,counting,51.18,100
+house,MO-02,2026,MO,2,,Ann Wagner,R,43228,0,0,0,counting,51.18,100
+house,MO-02,2026,MO,2,,Brandon Coulter Daugherty,L,1935,0,0,0,counting,51.18,100
+house,MO-03,2026,MO,3,,Bethany Mann,D,4412,0,0,0,counting,3.56,100
+house,MO-03,2026,MO,3,,Bob Onder,R,3867,0,0,0,counting,3.56,100
+house,MO-03,2026,MO,3,,Jim Higgins,L,175,0,0,0,counting,3.56,100
+house,MO-04,2026,MO,4,,Jordan Herrera,D,6428,0,0,0,counting,5.4,100
+house,MO-04,2026,MO,4,,Mark Alford,R,6207,0,0,0,counting,5.4,100
+house,MO-04,2026,MO,4,,Thomas Holbrook,L,226,0,0,0,counting,5.4,100
+house,MO-05,2026,MO,5,,Emanuel Cleaver,D,28315,0,0,0,counting,16.93,100
+house,MO-05,2026,MO,5,,Rick Brattin,R,10853,0,0,0,counting,16.93,100
+house,MO-05,2026,MO,5,,Randall (Randy) Langkraehr,L,671,0,0,0,counting,16.93,100
+house,MO-06,2026,MO,6,,Josh Smead,D,24338,0,0,0,counting,19.26,100
+house,MO-06,2026,MO,6,,Chris Stigall,R,20731,0,0,0,counting,19.26,100
+house,MO-06,2026,MO,6,,Andy Maidment,L,734,0,0,0,counting,19.26,100
+house,MO-07,2026,MO,7,,Eric Burlison,R,2645,0,0,0,counting,1.68,100
+house,MO-07,2026,MO,7,,Missi Hesketh,D,1297,0,0,0,counting,1.68,100
+house,MO-07,2026,MO,7,,Kevin Craig,L,56,0,0,0,counting,1.68,100
+house,MO-08,2026,MO,8,,Jason Smith,R,2428,0,0,0,counting,1.89,100
+house,MO-08,2026,MO,8,,Christopher Reichard,D,1957,0,0,0,counting,1.89,100
+house,MO-08,2026,MO,8,,Rebecca Sharpe Lombard,L,114,0,0,0,counting,1.89,100
 house,MS-01,2026,MS,1,,Cliff Johnson,D,0,0,0,0,pending,0,100
 house,MS-01,2026,MS,1,,Trent Kelly,R,0,0,0,0,pending,0,100
 house,MS-01,2026,MS,1,,Johnny Baucom,L,0,0,0,0,pending,0,100
@@ -840,22 +840,22 @@ house,MT-02,2026,MT,2,,Troy Downing,R,0,0,0,0,pending,0,100
 house,MT-02,2026,MT,2,,Brian Miller,D,0,0,0,0,pending,0,100
 house,MT-02,2026,MT,2,,Patrick McCracken,L,0,0,0,0,pending,0,100
 house,MT-02,2026,MT,2,,Michael Eisenhauer,I,0,0,0,0,pending,0,100
-house,NC-01,2026,NC,1,,Don Davis,D,79332,0,0,0,counting,46.46,100
-house,NC-01,2026,NC,1,,Laurie Buckhout,R,63320,0,0,0,counting,46.46,100
-house,NC-01,2026,NC,1,,Tom Bailey,L,3982,0,0,0,counting,46.46,100
-house,NC-02,2026,NC,2,,Deborah Ross,D,165887,0,0,0,counting,64.11,100
-house,NC-02,2026,NC,2,,Gene Douglass,R,39145,0,0,0,counting,64.11,100
-house,NC-02,2026,NC,2,,Matt Laszacs,L,1838,0,0,0,counting,64.11,100
-house,NC-02,2026,NC,2,,Write-In,I,0,0,0,0,counting,64.11,100
+house,NC-01,2026,NC,1,,Don Davis,D,79895,0,0,0,counting,47.21,100
+house,NC-01,2026,NC,1,,Laurie Buckhout,R,65004,0,0,0,counting,47.21,100
+house,NC-01,2026,NC,1,,Tom Bailey,L,4085,0,0,0,counting,47.21,100
+house,NC-02,2026,NC,2,,Deborah Ross,D,165887,1,0,0,final,64.11,100
+house,NC-02,2026,NC,2,,Gene Douglass,R,39145,0,0,0,final,64.11,100
+house,NC-02,2026,NC,2,,Matt Laszacs,L,1838,0,0,0,final,64.11,100
+house,NC-02,2026,NC,2,,Write-In,I,0,0,0,0,final,64.11,100
 house,NC-03,2026,NC,3,,Raymond Smith Jr.,D,63960,0,0,0,counting,37.51,100
 house,NC-03,2026,NC,3,,Greg Murphy,R,53062,0,0,0,counting,37.51,100
 house,NC-03,2026,NC,3,,Daniel Cavender,L,1186,0,0,0,counting,37.51,100
-house,NC-04,2026,NC,4,,Valerie Foushee,D,216161,0,0,0,counting,80.2,100
-house,NC-04,2026,NC,4,,Max Ganorkar,R,40557,0,0,0,counting,80.2,100
-house,NC-04,2026,NC,4,,Guy Meilleur,L,3886,0,0,0,counting,80.2,100
-house,NC-05,2026,NC,5,,Chuck Hubbard,D,84593,0,0,0,counting,48.35,100
-house,NC-05,2026,NC,5,,Virginia Foxx,R,64407,0,0,0,counting,48.35,100
-house,NC-05,2026,NC,5,,Robert Luffman,L,3163,0,0,0,counting,48.35,100
+house,NC-04,2026,NC,4,,Valerie Foushee,D,216161,1,0,0,final,80.2,100
+house,NC-04,2026,NC,4,,Max Ganorkar,R,40557,0,0,0,final,80.2,100
+house,NC-04,2026,NC,4,,Guy Meilleur,L,3886,0,0,0,final,80.2,100
+house,NC-05,2026,NC,5,,Chuck Hubbard,D,85432,0,0,0,counting,49.43,100
+house,NC-05,2026,NC,5,,Virginia Foxx,R,66827,0,0,0,counting,49.43,100
+house,NC-05,2026,NC,5,,Robert Luffman,L,3304,0,0,0,counting,49.43,100
 house,NC-06,2026,NC,6,,Cyril Jefferson,D,98246,0,0,0,counting,56.37,100
 house,NC-06,2026,NC,6,,Addison McDowell,R,79180,0,0,0,counting,56.37,100
 house,NC-07,2026,NC,7,,Kim Hardy,D,114592,0,0,0,counting,67.97,100
@@ -864,21 +864,21 @@ house,NC-07,2026,NC,7,,Maad Abu-Ghazalah,L,1620,0,0,0,counting,67.97,100
 house,NC-08,2026,NC,8,,Colby Watson,D,102724,0,0,0,counting,60.84,100
 house,NC-08,2026,NC,8,,Mark Harris,R,86960,0,0,0,counting,60.84,100
 house,NC-08,2026,NC,8,,Bo Whitehead,G,1655,0,0,0,counting,60.84,100
-house,NC-09,2026,NC,9,,Richard Ojeda,D,104231,0,0,0,counting,61.07,100
-house,NC-09,2026,NC,9,,Richard Hudson,R,88160,0,0,0,counting,61.07,100
-house,NC-10,2026,NC,10,,Ashley Bell,D,106814,0,0,0,counting,63.43,100
-house,NC-10,2026,NC,10,,Pat Harrigan,R,90392,0,0,0,counting,63.43,100
-house,NC-10,2026,NC,10,,Steve Feldman,L,2340,0,0,0,counting,63.43,100
-house,NC-11,2026,NC,11,,Jamie Ager,D,155723,0,0,0,counting,81.05,100
-house,NC-11,2026,NC,11,,Jennifer Balkcom,R,97186,0,0,0,counting,81.05,100
-house,NC-11,2026,NC,11,,Travis Groo,L,3155,0,0,0,counting,81.05,100
+house,NC-09,2026,NC,9,,Richard Ojeda,D,106893,0,0,0,counting,64.74,100
+house,NC-09,2026,NC,9,,Richard Hudson,R,97053,0,0,0,counting,64.74,100
+house,NC-10,2026,NC,10,,Ashley Bell,D,113300,0,0,0,counting,71.03,100
+house,NC-10,2026,NC,10,,Pat Harrigan,R,107272,0,0,0,counting,71.03,100
+house,NC-10,2026,NC,10,,Steve Feldman,L,2867,0,0,0,counting,71.03,100
+house,NC-11,2026,NC,11,,Jamie Ager,D,155723,1,0,0,final,81.05,100
+house,NC-11,2026,NC,11,,Jennifer Balkcom,R,97186,0,0,0,final,81.05,100
+house,NC-11,2026,NC,11,,Travis Groo,L,3155,0,0,0,final,81.05,100
 house,NC-12,2026,NC,12,,Alma Adams,D,154554,0,0,0,counting,55.5,100
 house,NC-12,2026,NC,12,,Jack Codiga,R,25780,0,0,0,counting,55.5,100
 house,NC-13,2026,NC,13,,Paul Barringer,D,58294,0,0,0,counting,33.47,100
 house,NC-13,2026,NC,13,,Brad Knott,R,45899,0,0,0,counting,33.47,100
 house,NC-13,2026,NC,13,,Steven Swinton,L,1244,0,0,0,counting,33.47,100
-house,NC-14,2026,NC,14,,Lakesha Womack,D,108193,0,0,0,counting,61.57,100
-house,NC-14,2026,NC,14,,Tim Moore,R,85878,0,0,0,counting,61.57,100
+house,NC-14,2026,NC,14,,Lakesha Womack,D,116650,0,0,0,counting,68,100
+house,NC-14,2026,NC,14,,Tim Moore,R,97712,0,0,0,counting,68,100
 house,ND-00,2026,ND,0,,Julie Fedorchak,R,0,0,0,0,pending,0,100
 house,ND-00,2026,ND,0,,Trygve Hammer,D,0,0,0,0,pending,0,100
 house,ND-00,2026,ND,0,,Charles Tuttle,I,0,0,0,0,pending,0,100
@@ -895,9 +895,9 @@ house,NE-03,2026,NE,3,,Becky Stille,D,0,0,0,0,pending,0,100
 house,NE-03,2026,NE,3,,David Else,O,0,0,0,0,pending,0,100
 house,NE-03,2026,NE,3,,Macey Budke,O,0,0,0,0,pending,0,100
 house,NE-03,2026,NE,3,,Mark Cohen,I,0,0,0,0,pending,0,100
-house,NH-01,2026,NH,1,,Stefany Shaheen,D,62797,0,0,0,counting,32.11,100
-house,NH-01,2026,NH,1,,Anthony DiLorenzo,R,47949,0,0,0,counting,32.11,100
-house,NH-01,2026,NH,1,,Write-in,I,231,0,0,0,counting,32.11,100
+house,NH-01,2026,NH,1,,Stefany Shaheen,D,64675,0,0,0,counting,33.31,100
+house,NH-01,2026,NH,1,,Anthony DiLorenzo,R,50210,0,0,0,counting,33.31,100
+house,NH-01,2026,NH,1,,Write-in,I,257,0,0,0,counting,33.31,100
 house,NH-02,2026,NH,2,,Maggie Goodlander,D,53392,0,0,0,counting,26.5,100
 house,NH-02,2026,NH,2,,Lily Tang Williams,R,35600,0,0,0,counting,26.5,100
 house,NH-02,2026,NH,2,,Robbie Mahrou,I,2139,0,0,0,counting,26.5,100
@@ -910,10 +910,11 @@ house,NJ-01,2026,NJ,1,,Theodore Plush Do,W,1,0,0,0,counting,41.45,100
 house,NJ-01,2026,NJ,1,,Lynn Sarsillo,W,1,0,0,0,counting,41.45,100
 house,NJ-01,2026,NJ,1,,Simon,W,1,0,0,0,counting,41.45,100
 house,NJ-01,2026,NJ,1,,Brian K Everett,W,1,0,0,0,counting,41.45,100
-house,NJ-02,2026,NJ,2,,Zack Mullock,D,49960,0,0,0,counting,26.45,100
-house,NJ-02,2026,NJ,2,,Jeff Van Drew,R,32952,0,0,0,counting,26.45,100
-house,NJ-02,2026,NJ,2,,Ramon Mora Jr.,I,601,0,0,0,counting,26.45,100
-house,NJ-02,2026,NJ,2,,Write-in,I,26,0,0,0,counting,26.45,100
+house,NJ-02,2026,NJ,2,,Zack Mullock,D,56311,0,0,0,counting,29.38,100
+house,NJ-02,2026,NJ,2,,Jeff Van Drew,R,35773,0,0,0,counting,29.38,100
+house,NJ-02,2026,NJ,2,,Ramon Mora Jr.,I,703,0,0,0,counting,29.38,100
+house,NJ-02,2026,NJ,2,,Write-in,I,27,0,0,0,counting,29.38,100
+house,NJ-02,2026,NJ,2,,Tim Alexander,I,1,0,0,0,counting,29.38,100
 house,NJ-03,2026,NJ,3,,Herb Conaway,D,92980,0,0,0,counting,43.95,100
 house,NJ-03,2026,NJ,3,,Michael McGuire,R,35705,0,0,0,counting,43.95,100
 house,NJ-03,2026,NJ,3,,Ryan Michael Kelly,I,1415,0,0,0,counting,43.95,100
@@ -1051,44 +1052,44 @@ house,NY-26,2026,NY,26,,Dennis Hannon,R,0,0,0,0,pending,0,100
 house,OH-01,2026,OH,1,,Greg Landsman,D,82956,0,0,0,counting,43.13,100
 house,OH-01,2026,OH,1,,Eric Conroy,R,51314,0,0,0,counting,43.13,100
 house,OH-01,2026,OH,1,,Nathan Weise,L,2743,0,0,0,counting,43.13,100
-house,OH-02,2026,OH,2,,David J. Taylor,R,56434,0,0,0,counting,29.92,100
-house,OH-02,2026,OH,2,,Jen Mazzuckelli,D,39387,0,0,0,counting,29.92,100
-house,OH-03,2026,OH,3,,Joyce Beatty,D,94071,1,0,0,final,36.28,100
-house,OH-03,2026,OH,3,,Cleophus Dulaney,R,20183,0,0,0,final,36.28,100
+house,OH-02,2026,OH,2,,David J. Taylor,R,63848,0,0,0,counting,33.18,100
+house,OH-02,2026,OH,2,,Jen Mazzuckelli,D,42413,0,0,0,counting,33.18,100
+house,OH-03,2026,OH,3,,Joyce Beatty,D,105539,1,0,0,final,41.17,100
+house,OH-03,2026,OH,3,,Cleophus Dulaney,R,24110,0,0,0,final,41.17,100
 house,OH-04,2026,OH,4,,Jim Jordan,R,99262,0,0,0,counting,52.58,100
 house,OH-04,2026,OH,4,,Joshua D. Kolasinski,D,62273,0,0,0,counting,52.58,100
 house,OH-04,2026,OH,4,,Tracey L. Tackett,I,6906,0,0,0,counting,52.58,100
-house,OH-05,2026,OH,5,,Brian A. Shaver,D,73130,0,0,0,counting,46.06,100
-house,OH-05,2026,OH,5,,Bob Latta,R,69728,0,0,0,counting,46.06,100
-house,OH-05,2026,OH,5,,Michael J. Veloff,L,4068,0,0,0,counting,46.06,100
-house,OH-06,2026,OH,6,,Michael A. Rulli,R,57751,0,0,0,counting,35.72,100
-house,OH-06,2026,OH,6,,Elizabeth Kirtley,D,56460,0,0,0,counting,35.72,100
+house,OH-05,2026,OH,5,,Bob Latta,R,75544,0,0,0,counting,48.61,100
+house,OH-05,2026,OH,5,,Brian A. Shaver,D,75123,0,0,0,counting,48.61,100
+house,OH-05,2026,OH,5,,Michael J. Veloff,L,4380,0,0,0,counting,48.61,100
+house,OH-06,2026,OH,6,,Michael A. Rulli,R,74296,0,0,0,counting,42.82,100
+house,OH-06,2026,OH,6,,Elizabeth Kirtley,D,62614,0,0,0,counting,42.82,100
 house,OH-07,2026,OH,7,,Brian Poindexter,D,77173,0,0,0,counting,38.89,100
 house,OH-07,2026,OH,7,,Max Miller,R,46562,0,0,0,counting,38.89,100
 house,OH-07,2026,OH,7,,Thahbia Asad,W,0,0,0,0,counting,38.89,100
 house,OH-07,2026,OH,7,,Andrey Joseph Martinichin,W,0,0,0,0,counting,38.89,100
 house,OH-08,2026,OH,8,,Vanessa Enoch,D,68079,0,0,0,counting,39.17,100
 house,OH-08,2026,OH,8,,Warren Davidson,R,56660,0,0,0,counting,39.17,100
-house,OH-09,2026,OH,9,,Derek Merrin,R,45492,0,0,0,counting,25.4,100
-house,OH-09,2026,OH,9,,Marcy Kaptur,D,35310,0,0,0,counting,25.4,100
-house,OH-09,2026,OH,9,,Kathy McKinstry,W,0,0,0,0,counting,25.4,100
-house,OH-10,2026,OH,10,,Kristina Knickerbocker,D,65648,0,0,0,counting,34.53,100
-house,OH-10,2026,OH,10,,Mike Turner,R,42261,0,0,0,counting,34.53,100
-house,OH-10,2026,OH,10,,Thomas F. McMasters,L,1880,0,0,0,counting,34.53,100
+house,OH-09,2026,OH,9,,Derek Merrin,R,49693,0,0,0,counting,27.72,100
+house,OH-09,2026,OH,9,,Marcy Kaptur,D,38488,0,0,0,counting,27.72,100
+house,OH-09,2026,OH,9,,Kathy McKinstry,W,0,0,0,0,counting,27.72,100
+house,OH-10,2026,OH,10,,Kristina Knickerbocker,D,66124,0,0,0,counting,34.9,100
+house,OH-10,2026,OH,10,,Mike Turner,R,42938,0,0,0,counting,34.9,100
+house,OH-10,2026,OH,10,,Thomas F. McMasters,L,1922,0,0,0,counting,34.9,100
 house,OH-11,2026,OH,11,,Shontel M. Brown,D,77334,0,0,0,counting,28.24,100
 house,OH-11,2026,OH,11,,Mike Kirchner,R,11301,0,0,0,counting,28.24,100
-house,OH-12,2026,OH,12,,Troy Balderson,R,76099,0,0,0,counting,44.61,100
-house,OH-12,2026,OH,12,,Jerrad Christian,D,66437,0,0,0,counting,44.61,100
+house,OH-12,2026,OH,12,,Troy Balderson,R,87751,0,0,0,counting,49.27,100
+house,OH-12,2026,OH,12,,Jerrad Christian,D,69682,0,0,0,counting,49.27,100
 house,OH-13,2026,OH,13,,Emilia Sykes,D,78501,0,0,0,counting,35.18,100
 house,OH-13,2026,OH,13,,Carey Coleman,R,31780,0,0,0,counting,35.18,100
 house,OH-13,2026,OH,13,,Sandeep Dixit,I,1314,0,0,0,counting,35.18,100
-house,OH-14,2026,OH,14,,Maria Jukic,D,76821,0,0,0,counting,44.71,100
-house,OH-14,2026,OH,14,,David P. Joyce,R,65667,0,0,0,counting,44.71,100
-house,OH-15,2026,OH,15,,Don Leonard,D,52908,0,0,0,counting,28.94,100
-house,OH-15,2026,OH,15,,Mike Carey,R,37191,0,0,0,counting,28.94,100
-house,OH-15,2026,OH,15,,Brennan Barrington,L,1991,0,0,0,counting,28.94,100
-house,OH-15,2026,OH,15,,Gary Josephson,W,0,0,0,0,counting,28.94,100
-house,OH-15,2026,OH,15,,Samuel Ronan,W,0,0,0,0,counting,28.94,100
+house,OH-14,2026,OH,14,,Maria Jukic,D,83960,0,0,0,counting,51.56,100
+house,OH-14,2026,OH,14,,David P. Joyce,R,80356,0,0,0,counting,51.56,100
+house,OH-15,2026,OH,15,,Don Leonard,D,55067,0,0,0,counting,30.03,100
+house,OH-15,2026,OH,15,,Mike Carey,R,38384,0,0,0,counting,30.03,100
+house,OH-15,2026,OH,15,,Brennan Barrington,L,2110,0,0,0,counting,30.03,100
+house,OH-15,2026,OH,15,,Gary Josephson,W,0,0,0,0,counting,30.03,100
+house,OH-15,2026,OH,15,,Samuel Ronan,W,0,0,0,0,counting,30.03,100
 house,OK-01,2026,OK,1,,Mark Tedford,R,0,0,0,0,pending,0,100
 house,OK-01,2026,OK,1,,John Croisant,D,0,0,0,0,pending,0,100
 house,OK-02,2026,OK,2,,Josh Brecheen,R,0,0,0,0,pending,0,100
@@ -1157,13 +1158,13 @@ house,PA-16,2026,PA,16,,Justin Wagner,D,0,0,0,0,pending,0,100
 house,PA-16,2026,PA,16,,Mike Kelly,R,0,0,0,0,pending,0,100
 house,PA-17,2026,PA,17,,Chris Deluzio,D,0,0,0,0,pending,0,100
 house,PA-17,2026,PA,17,,Tony Guy,R,0,0,0,0,pending,0,100
-house,RI-01,2026,RI,1,,Gabriel Amo,D,60339,0,0,0,counting,43.63,100
-house,RI-01,2026,RI,1,,Kellie Keenan,R,27595,0,0,0,counting,43.63,100
-house,RI-01,2026,RI,1,,Pedro DeSouza,I,3821,0,0,0,counting,43.63,100
-house,RI-01,2026,RI,1,,Write-in,I,142,0,0,0,counting,43.63,100
-house,RI-02,2026,RI,2,,Seth Magaziner,D,60736,0,0,0,counting,47.29,100
-house,RI-02,2026,RI,2,,Victor Mellor,R,40686,0,0,0,counting,47.29,100
-house,RI-02,2026,RI,2,,Write-in,I,278,0,0,0,counting,47.29,100
+house,RI-01,2026,RI,1,,Gabriel Amo,D,74477,0,0,0,counting,53.1,100
+house,RI-01,2026,RI,1,,Kellie Keenan,R,32720,0,0,0,counting,53.1,100
+house,RI-01,2026,RI,1,,Pedro DeSouza,I,4481,0,0,0,counting,53.1,100
+house,RI-01,2026,RI,1,,Write-in,I,165,0,0,0,counting,53.1,100
+house,RI-02,2026,RI,2,,Seth Magaziner,D,72708,0,0,0,counting,56.98,100
+house,RI-02,2026,RI,2,,Victor Mellor,R,49477,0,0,0,counting,56.98,100
+house,RI-02,2026,RI,2,,Write-in,I,350,0,0,0,counting,56.98,100
 house,SC-01,2026,SC,1,,Jenny Costa Honeycutt,R,2044,0,0,0,counting,1.23,100
 house,SC-01,2026,SC,1,,Nancy Lacore,D,1455,0,0,0,counting,1.23,100
 house,SC-01,2026,SC,1,,Bill Reeside,L,74,0,0,0,counting,1.23,100
@@ -1172,10 +1173,10 @@ house,SC-02,2026,SC,2,,Joe Wilson,R,38345,0,0,0,counting,25.29,100
 house,SC-02,2026,SC,2,,Zyon Khalifa,D,34451,0,0,0,counting,25.29,100
 house,SC-02,2026,SC,2,,Dayna Alane Smith,O,704,0,0,0,counting,25.29,100
 house,SC-02,2026,SC,2,,Write-in,I,50,0,0,0,counting,25.29,100
-house,SC-03,2026,SC,3,,Sheri Biggs,R,96214,0,0,0,counting,56.66,100
-house,SC-03,2026,SC,3,,Eunice Lehmacher,D,64373,0,0,0,counting,56.66,100
-house,SC-03,2026,SC,3,,Brian Corriea,L,2726,0,0,0,counting,56.66,100
-house,SC-03,2026,SC,3,,Write-in,I,80,0,0,0,counting,56.66,100
+house,SC-03,2026,SC,3,,Sheri Biggs,R,96214,1,0,0,final,56.66,100
+house,SC-03,2026,SC,3,,Eunice Lehmacher,D,64373,0,0,0,final,56.66,100
+house,SC-03,2026,SC,3,,Brian Corriea,L,2726,0,0,0,final,56.66,100
+house,SC-03,2026,SC,3,,Write-in,I,80,0,0,0,final,56.66,100
 house,SC-04,2026,SC,4,,Courtney McClain,D,80038,0,0,0,counting,48.87,100
 house,SC-04,2026,SC,4,,William Timmons,R,58920,0,0,0,counting,48.87,100
 house,SC-04,2026,SC,4,,Jessica Ethridge,L,2601,0,0,0,counting,48.87,100
@@ -1183,21 +1184,21 @@ house,SC-04,2026,SC,4,,Write-in,I,94,0,0,0,counting,48.87,100
 house,SC-05,2026,SC,5,,Mallory Dittmer,D,95960,0,0,0,counting,63.14,100
 house,SC-05,2026,SC,5,,Wes Climer,R,87087,0,0,0,counting,63.14,100
 house,SC-05,2026,SC,5,,Write-in,I,81,0,0,0,counting,63.14,100
-house,SC-06,2026,SC,6,,Jim Clyburn,D,23452,0,0,0,counting,13.32,100
-house,SC-06,2026,SC,6,,John Peterson,R,15630,0,0,0,counting,13.32,100
-house,SC-06,2026,SC,6,,Write-in,I,28,0,0,0,counting,13.32,100
+house,SC-06,2026,SC,6,,Jim Clyburn,D,23452,1,0,0,final,13.32,100
+house,SC-06,2026,SC,6,,John Peterson,R,15630,0,0,0,final,13.32,100
+house,SC-06,2026,SC,6,,Write-in,I,28,0,0,0,final,13.32,100
 house,SC-07,2026,SC,7,,Russell Fry,R,97576,0,0,0,counting,63.62,100
 house,SC-07,2026,SC,7,,John Vincent,D,86656,0,0,0,counting,63.62,100
 house,SC-07,2026,SC,7,,Write-in,I,118,0,0,0,counting,63.62,100
 house,SD-00,2026,SD,0,,Marty Jackley,R,0,0,0,0,pending,0,100
 house,SD-00,2026,SD,0,,Nikki Gronli,D,0,0,0,0,pending,0,100
-house,TN-01,2026,TN,1,,Diana Harshbarger,R,15106,0,0,0,counting,8.67,100
-house,TN-01,2026,TN,1,,Kristi Burke,D,6938,0,0,0,counting,8.67,100
-house,TN-01,2026,TN,1,,Joshua Ray Ashburn,I,154,0,0,0,counting,8.67,100
-house,TN-01,2026,TN,1,,Richard G. Baker,I,146,0,0,0,counting,8.67,100
-house,TN-01,2026,TN,1,,Chris Campbell,I,115,0,0,0,counting,8.67,100
-house,TN-01,2026,TN,1,,Billy Cody,I,90,0,0,0,counting,8.67,100
-house,TN-01,2026,TN,1,,Tyler Brice Mitchell McClain,I,48,0,0,0,counting,8.67,100
+house,TN-01,2026,TN,1,,Diana Harshbarger,R,16243,0,0,0,counting,9.28,100
+house,TN-01,2026,TN,1,,Kristi Burke,D,7367,0,0,0,counting,9.28,100
+house,TN-01,2026,TN,1,,Joshua Ray Ashburn,I,166,0,0,0,counting,9.28,100
+house,TN-01,2026,TN,1,,Richard G. Baker,I,152,0,0,0,counting,9.28,100
+house,TN-01,2026,TN,1,,Chris Campbell,I,119,0,0,0,counting,9.28,100
+house,TN-01,2026,TN,1,,Billy Cody,I,97,0,0,0,counting,9.28,100
+house,TN-01,2026,TN,1,,Tyler Brice Mitchell McClain,I,50,0,0,0,counting,9.28,100
 house,TN-02,2026,TN,2,,Tim Burchett,R,3761,0,0,0,counting,1.92,100
 house,TN-02,2026,TN,2,,Michaela Barnett,D,1160,0,0,0,counting,1.92,100
 house,TN-02,2026,TN,2,,Bruce Fine,I,32,0,0,0,counting,1.92,100
@@ -1209,18 +1210,18 @@ house,TN-03,2026,TN,3,,Dean Arnold,I,114,0,0,0,counting,7.03,100
 house,TN-03,2026,TN,3,,Donnie Lynn Ownby,I,56,0,0,0,counting,7.03,100
 house,TN-03,2026,TN,3,,Jean Howard-Hill,I,51,0,0,0,counting,7.03,100
 house,TN-03,2026,TN,3,,Edward John Roland,I,30,0,0,0,counting,7.03,100
-house,TN-04,2026,TN,4,,Scott DesJarlais,R,10552,0,0,0,counting,6.38,100
-house,TN-04,2026,TN,4,,Victoria Broderick,D,5536,0,0,0,counting,6.38,100
-house,TN-04,2026,TN,4,,Jacob Kristopher Anders,I,218,0,0,0,counting,6.38,100
-house,TN-04,2026,TN,4,,Clay Faircloth,I,115,0,0,0,counting,6.38,100
-house,TN-05,2026,TN,5,,Charlie Hatcher,R,14442,0,0,0,counting,8.31,100
-house,TN-05,2026,TN,5,,Chaz Molder,D,6600,0,0,0,counting,8.31,100
-house,TN-05,2026,TN,5,,James A. Johnson,I,273,0,0,0,counting,8.31,100
-house,TN-05,2026,TN,5,,Micheál O'Leary,I,65,0,0,0,counting,8.31,100
-house,TN-06,2026,TN,6,,Johnny Garrett,R,39274,0,0,0,counting,24.81,100
-house,TN-06,2026,TN,6,,Mike Croley,D,23569,0,0,0,counting,24.81,100
-house,TN-06,2026,TN,6,,Christopher B. Monday,I,675,0,0,0,counting,24.81,100
-house,TN-06,2026,TN,6,,Angus Purdy,I,398,0,0,0,counting,24.81,100
+house,TN-04,2026,TN,4,,Scott DesJarlais,R,11158,0,0,0,counting,6.72,100
+house,TN-04,2026,TN,4,,Victoria Broderick,D,5796,0,0,0,counting,6.72,100
+house,TN-04,2026,TN,4,,Jacob Kristopher Anders,I,232,0,0,0,counting,6.72,100
+house,TN-04,2026,TN,4,,Clay Faircloth,I,125,0,0,0,counting,6.72,100
+house,TN-05,2026,TN,5,,Charlie Hatcher,R,14720,0,0,0,counting,8.45,100
+house,TN-05,2026,TN,5,,Chaz Molder,D,6675,0,0,0,counting,8.45,100
+house,TN-05,2026,TN,5,,James A. Johnson,I,281,0,0,0,counting,8.45,100
+house,TN-05,2026,TN,5,,Micheál O'Leary,I,66,0,0,0,counting,8.45,100
+house,TN-06,2026,TN,6,,Johnny Garrett,R,46293,0,0,0,counting,29.47,100
+house,TN-06,2026,TN,6,,Mike Croley,D,28389,0,0,0,counting,29.47,100
+house,TN-06,2026,TN,6,,Christopher B. Monday,I,795,0,0,0,counting,29.47,100
+house,TN-06,2026,TN,6,,Angus Purdy,I,450,0,0,0,counting,29.47,100
 house,TN-07,2026,TN,7,,Matt Van Epps,R,12749,0,0,0,counting,7.97,100
 house,TN-07,2026,TN,7,,Darden Copeland,D,7522,0,0,0,counting,7.97,100
 house,TN-07,2026,TN,7,,Andrew J. Koontz,I,165,0,0,0,counting,7.97,100
@@ -1233,10 +1234,10 @@ house,TN-08,2026,TN,8,,Horace Taylor,I,32,0,0,0,counting,2.88,100
 house,TN-08,2026,TN,8,,"Pamela Jeanine ""P."" Moses",I,28,0,0,0,counting,2.88,100
 house,TN-08,2026,TN,8,,"Henry J. Ward, III",I,22,0,0,0,counting,2.88,100
 house,TN-08,2026,TN,8,,Antonio Futch,I,7,0,0,0,counting,2.88,100
-house,TN-09,2026,TN,9,,Brent Taylor,R,14030,0,0,0,counting,8.35,100
-house,TN-09,2026,TN,9,,Justin Pearson,D,7022,0,0,0,counting,8.35,100
-house,TN-09,2026,TN,9,,Dennis Clark,I,249,0,0,0,counting,8.35,100
-house,TN-09,2026,TN,9,,Michelle Davis Head,I,202,0,0,0,counting,8.35,100
+house,TN-09,2026,TN,9,,Brent Taylor,R,14455,0,0,0,counting,8.54,100
+house,TN-09,2026,TN,9,,Justin Pearson,D,7089,0,0,0,counting,8.54,100
+house,TN-09,2026,TN,9,,Dennis Clark,I,262,0,0,0,counting,8.54,100
+house,TN-09,2026,TN,9,,Michelle Davis Head,I,203,0,0,0,counting,8.54,100
 house,TX-01,2026,TX,1,,Nathaniel Moran,R,8686,0,0,1,counting,4.25,100
 house,TX-01,2026,TX,1,,Yolanda Prince,D,3226,0,0,0,counting,4.25,100
 house,TX-02,2026,TX,2,,Shaun Finnie,D,0,0,0,0,pending,0,100
@@ -1258,14 +1259,14 @@ house,TX-09,2026,TX,9,,Leticia Gutierrez,D,0,0,0,0,pending,0,100
 house,TX-09,2026,TX,9,,Alex Mealer,R,0,0,0,0,pending,0,100
 house,TX-10,2026,TX,10,,Caitlin Rourk,D,31071,0,0,0,counting,22.45,100
 house,TX-10,2026,TX,10,,Chris Gober,R,29074,0,0,0,counting,22.45,100
-house,TX-11,2026,TX,11,,Claire Reynolds,D,6777,0,0,0,counting,3.2,100
-house,TX-11,2026,TX,11,,August Pfluger,R,1969,0,0,1,counting,3.2,100
+house,TX-11,2026,TX,11,,August Pfluger,R,24961,0,0,1,counting,14.77,100
+house,TX-11,2026,TX,11,,Claire Reynolds,D,15362,0,0,0,counting,14.77,100
 house,TX-12,2026,TX,12,,Angela Rodriguez Prilliman,D,93692,0,0,0,counting,63.36,100
 house,TX-12,2026,TX,12,,Craig Goldman,R,76361,0,0,1,counting,63.36,100
 house,TX-13,2026,TX,13,,Ronny Jackson,R,61529,0,0,1,counting,37.34,100
 house,TX-13,2026,TX,13,,Mark Nair,D,42560,0,0,0,counting,37.34,100
-house,TX-14,2026,TX,14,,Randy Weber,R,85489,0,0,1,counting,63.01,100
-house,TX-14,2026,TX,14,,Thurman Bartie,D,83762,0,0,0,counting,63.01,100
+house,TX-14,2026,TX,14,,Randy Weber,R,101927,0,0,1,counting,73.88,100
+house,TX-14,2026,TX,14,,Thurman Bartie,D,96527,0,0,0,counting,73.88,100
 house,TX-15,2026,TX,15,,Monica De La Cruz,R,0,0,0,1,pending,0,100
 house,TX-15,2026,TX,15,,Bobby Pulido,D,0,0,0,0,pending,0,100
 house,TX-16,2026,TX,16,,Veronica Escobar,D,0,0,0,1,pending,0,100
@@ -1282,20 +1283,20 @@ house,TX-21,2026,TX,21,,Kristin Hook,D,32618,0,0,0,counting,23.83,100
 house,TX-21,2026,TX,21,,Mark Teixeira,R,31142,0,0,0,counting,23.83,100
 house,TX-22,2026,TX,22,,Trever Nehls,R,78771,0,0,0,counting,53.41,100
 house,TX-22,2026,TX,22,,Marquette Greene-Scott,D,64214,0,0,0,counting,53.41,100
-house,TX-23,2026,TX,23,,Katy Padilla Stout,D,0,0,0,0,pending,0,100
-house,TX-23,2026,TX,23,,Brandon Herrera,R,0,0,0,0,pending,0,100
-house,TX-23,2026,TX,23,,Ben Mendoza,I,0,0,0,0,pending,0,100
+house,TX-23,2026,TX,23,,Katy Padilla Stout,D,74633,0,0,0,counting,50.26,100
+house,TX-23,2026,TX,23,,Brandon Herrera,R,54173,0,0,0,counting,50.26,100
+house,TX-23,2026,TX,23,,Ben Mendoza,I,4186,0,0,0,counting,50.26,100
 house,TX-24,2026,TX,24,,Beth Van Duyne,R,134139,0,0,1,counting,97.17,100
 house,TX-24,2026,TX,24,,Kevin Burge,D,123465,0,0,0,counting,97.17,100
-house,TX-25,2026,TX,25,,Dione Sims,D,77880,0,0,0,counting,39.93,100
-house,TX-25,2026,TX,25,,Roger Williams,R,29311,0,0,1,counting,39.93,100
+house,TX-25,2026,TX,25,,Dione Sims,D,79486,0,0,0,counting,42.57,100
+house,TX-25,2026,TX,25,,Roger Williams,R,34801,0,0,1,counting,42.57,100
 house,TX-26,2026,TX,26,,Brandon Gill,R,125215,0,0,1,counting,90.66,100
 house,TX-26,2026,TX,26,,Steven Shook,D,115540,0,0,0,counting,90.66,100
 house,TX-26,2026,TX,26,,Phil Gray,L,2540,0,0,0,counting,90.66,100
-house,TX-27,2026,TX,27,,Tanya Lloyd,D,42229,0,0,0,counting,25.22,100
-house,TX-27,2026,TX,27,,Michael Cloud,R,25175,0,0,1,counting,25.22,100
-house,TX-27,2026,TX,27,,Wayne Raasch,W,0,0,0,0,counting,25.22,100
-house,TX-27,2026,TX,27,,Write-in,I,0,0,0,0,counting,25.22,100
+house,TX-27,2026,TX,27,,Tanya Lloyd,D,43674,0,0,0,counting,26.77,100
+house,TX-27,2026,TX,27,,Michael Cloud,R,27856,0,0,1,counting,26.77,100
+house,TX-27,2026,TX,27,,Wayne Raasch,W,0,0,0,0,counting,26.77,100
+house,TX-27,2026,TX,27,,Write-in,I,0,0,0,0,counting,26.77,100
 house,TX-28,2026,TX,28,,Henry Cuellar,D,0,0,0,1,pending,0,100
 house,TX-28,2026,TX,28,,Tano Tijerina,R,0,0,0,0,pending,0,100
 house,TX-28,2026,TX,28,,Marlón Durán,G,0,0,0,0,pending,0,100
@@ -1306,8 +1307,8 @@ house,TX-30,2026,TX,30,,Everett Jackson,R,29672,0,0,0,counting,76.72,100
 house,TX-31,2026,TX,31,,Justin Early,D,64132,0,0,0,counting,47.64,100
 house,TX-31,2026,TX,31,,John Carter,R,61777,0,0,1,counting,47.64,100
 house,TX-31,2026,TX,31,,Greg Stoker,G,1550,0,0,0,counting,47.64,100
-house,TX-32,2026,TX,32,,Dan Barrios,D,103716,0,0,0,counting,71.52,100
-house,TX-32,2026,TX,32,,Jace Yarbrough,R,86431,0,0,0,counting,71.52,100
+house,TX-32,2026,TX,32,,Dan Barrios,D,103968,0,0,0,counting,71.87,100
+house,TX-32,2026,TX,32,,Jace Yarbrough,R,87102,0,0,0,counting,71.87,100
 house,TX-33,2026,TX,33,,Colin Allred,D,120581,0,0,0,counting,61.04,100
 house,TX-33,2026,TX,33,,Patrick Gillespie,R,28995,0,0,0,counting,61.04,100
 house,TX-33,2026,TX,33,,Write-in,I,0,0,0,0,counting,61.04,100
@@ -1358,17 +1359,17 @@ house,VA-03,2026,VA,3,,Edwin Rivera,R,12229,0,0,0,counting,15.73,100
 house,VA-03,2026,VA,3,,Stephen C. Woll,I,1002,0,0,0,counting,15.73,100
 house,VA-03,2026,VA,3,,Makiba A. Gaines,I,878,0,0,0,counting,15.73,100
 house,VA-03,2026,VA,3,,Write-in,I,86,0,0,0,counting,15.73,100
-house,VA-04,2026,VA,4,,Jennifer McClellan,D,75768,0,0,0,counting,33.89,100
-house,VA-04,2026,VA,4,,Robert Murray,R,36082,0,0,0,counting,33.89,100
-house,VA-04,2026,VA,4,,"Joan E. ""Andrews"" Bell",I,1528,0,0,0,counting,33.89,100
-house,VA-04,2026,VA,4,,Write-in,I,232,0,0,0,counting,33.89,100
+house,VA-04,2026,VA,4,,Jennifer McClellan,D,75768,1,0,0,final,33.89,100
+house,VA-04,2026,VA,4,,Robert Murray,R,36082,0,0,0,final,33.89,100
+house,VA-04,2026,VA,4,,"Joan E. ""Andrews"" Bell",I,1528,0,0,0,final,33.89,100
+house,VA-04,2026,VA,4,,Write-in,I,232,0,0,0,final,33.89,100
 house,VA-05,2026,VA,5,,Tom Perriello,D,55934,0,0,0,counting,32.77,100
 house,VA-05,2026,VA,5,,John McGuire,R,52725,0,0,0,counting,32.77,100
 house,VA-05,2026,VA,5,,Cooke C. Harvey,I,1997,0,0,0,counting,32.77,100
 house,VA-05,2026,VA,5,,Write-in,I,243,0,0,0,counting,32.77,100
-house,VA-06,2026,VA,6,,Ben Cline,R,64690,0,0,0,counting,37.29,100
-house,VA-06,2026,VA,6,,Beth Macy,D,61613,0,0,0,counting,37.29,100
-house,VA-06,2026,VA,6,,Write-in,I,279,0,0,0,counting,37.29,100
+house,VA-06,2026,VA,6,,Ben Cline,R,64690,1,0,0,final,37.29,100
+house,VA-06,2026,VA,6,,Beth Macy,D,61613,0,0,0,final,37.29,100
+house,VA-06,2026,VA,6,,Write-in,I,279,0,0,0,final,37.29,100
 house,VA-07,2026,VA,7,,Eugene Vindman,D,105234,0,0,0,counting,48.86,100
 house,VA-07,2026,VA,7,,Doug Ollivant,R,54764,0,0,0,counting,48.86,100
 house,VA-07,2026,VA,7,,Alaha Ahrar,I,2106,0,0,0,counting,48.86,100
@@ -1381,9 +1382,9 @@ house,VA-08,2026,VA,8,,Tony Sabio,R,14215,0,0,0,counting,22.94,100
 house,VA-08,2026,VA,8,,Tim S. Sharman,I,1214,0,0,0,counting,22.94,100
 house,VA-08,2026,VA,8,,Shelly M. Arnoldi,L,1129,0,0,0,counting,22.94,100
 house,VA-08,2026,VA,8,,Write-in,I,254,0,0,0,counting,22.94,100
-house,VA-09,2026,VA,9,,Morgan Griffith,R,75362,0,0,0,counting,32.53,100
-house,VA-09,2026,VA,9,,Joy Powers,D,35306,0,0,0,counting,32.53,100
-house,VA-09,2026,VA,9,,Write-in,I,286,0,0,0,counting,32.53,100
+house,VA-09,2026,VA,9,,Morgan Griffith,R,75362,1,0,0,final,32.53,100
+house,VA-09,2026,VA,9,,Joy Powers,D,35306,0,0,0,final,32.53,100
+house,VA-09,2026,VA,9,,Write-in,I,286,0,0,0,final,32.53,100
 house,VA-10,2026,VA,10,,Suhas Subramanyam,D,173870,0,0,0,counting,81.65,100
 house,VA-10,2026,VA,10,,Dave Beckwith,R,95271,0,0,0,counting,81.65,100
 house,VA-10,2026,VA,10,,Ahsen Mujeeb Malik,I,5478,0,0,0,counting,81.65,100
@@ -1455,11 +1456,11 @@ governor,AK,2026,AK,,,Dave Bronson,R,0,0,0,0,pending,0,100
 governor,AK,2026,AK,,,"Jonathan S. ""JKT"" Kreiss-Tomkins",I,0,0,0,0,pending,0,100
 governor,AK,2026,AK,,,Treg Taylor,R,0,0,0,0,pending,0,100
 governor,AK,2026,AK,,,Bernadette M. Wilson,R,0,0,0,0,pending,0,100
-governor,AL,2026,AL,,,Tommy Tuberville,R,5290,0,0,0,counting,0.61,100
-governor,AL,2026,AL,,,Doug Jones,D,5216,0,0,0,counting,0.61,100
-governor,AR,2026,AR,,,Fredrick Love,D,0,0,0,0,pending,0,100
-governor,AR,2026,AR,,,Sarah Huckabee Sanders,R,0,0,0,0,pending,0,100
-governor,AR,2026,AR,,,Colt Shelby,L,0,0,0,0,pending,0,100
+governor,AL,2026,AL,,,Doug Jones,D,8560,0,0,0,counting,0.99,100
+governor,AL,2026,AL,,,Tommy Tuberville,R,8438,0,0,0,counting,0.99,100
+governor,AR,2026,AR,,,Sarah Huckabee Sanders,R,988,0,0,0,counting,0.16,100
+governor,AR,2026,AR,,,Fredrick Love,D,384,0,0,0,counting,0.16,100
+governor,AR,2026,AR,,,Colt Shelby,L,158,0,0,0,counting,0.16,100
 governor,AZ,2026,AZ,,,Andy Biggs,R,0,0,0,0,pending,0,100
 governor,AZ,2026,AZ,,,Katie Hobbs,D,0,0,0,0,pending,0,100
 governor,AZ,2026,AZ,,,Risa Lombardo,G,0,0,0,0,pending,0,100
@@ -1478,15 +1479,15 @@ governor,CT,2026,CT,,,Ryan Fazio,R,0,0,0,0,pending,0,100
 governor,CT,2026,CT,,,Zenobia Adgers,W,0,0,0,0,pending,0,100
 governor,CT,2026,CT,,,Christian Noe,W,0,0,0,0,pending,0,100
 governor,CT,2026,CT,,,L. Lee Whitnum,W,0,0,0,0,pending,0,100
-governor,FL,2026,FL,,,Byron Donalds,R,4011426,0,0,0,counting,89.87,100
-governor,FL,2026,FL,,,David Jolly,D,3920577,0,0,0,counting,89.87,100
-governor,FL,2026,FL,,,Scott Eckhard Jewett,L,36549,0,0,0,counting,89.87,100
-governor,FL,2026,FL,,,Frank J. Russo,I,22407,0,0,0,counting,89.87,100
-governor,FL,2026,FL,,,Charles Burkett,I,14690,0,0,0,counting,89.87,100
-governor,FL,2026,FL,,,Dean Ocean Abrams,I,12006,0,0,0,counting,89.87,100
-governor,FL,2026,FL,,,"Jeffrey Peter ""Dr. Jeff"" Datto",I,8063,0,0,0,counting,89.87,100
-governor,FL,2026,FL,,,"Moliere ""Moe"" Dimanche",I,7290,0,0,0,counting,89.87,100
-governor,FL,2026,FL,,,Write-in,I,3760,0,0,0,counting,89.87,100
+governor,FL,2026,FL,,,Byron Donalds,R,4033046,0,0,0,counting,90.32,100
+governor,FL,2026,FL,,,David Jolly,D,3938015,0,0,0,counting,90.32,100
+governor,FL,2026,FL,,,Scott Eckhard Jewett,L,36728,0,0,0,counting,90.32,100
+governor,FL,2026,FL,,,Frank J. Russo,I,22554,0,0,0,counting,90.32,100
+governor,FL,2026,FL,,,Charles Burkett,I,14788,0,0,0,counting,90.32,100
+governor,FL,2026,FL,,,Dean Ocean Abrams,I,12079,0,0,0,counting,90.32,100
+governor,FL,2026,FL,,,"Jeffrey Peter ""Dr. Jeff"" Datto",I,8108,0,0,0,counting,90.32,100
+governor,FL,2026,FL,,,"Moliere ""Moe"" Dimanche",I,7331,0,0,0,counting,90.32,100
+governor,FL,2026,FL,,,Write-in,I,3760,0,0,0,counting,90.32,100
 governor,GA,2026,GA,,,Keisha Lance Bottoms,D,1505655,0,0,0,counting,54.68,100
 governor,GA,2026,GA,,,Rick Jackson,R,1048711,0,0,0,counting,54.68,100
 governor,HI,2026,HI,,,Gary Cordery,R,0,0,0,0,pending,0,100
@@ -1503,8 +1504,8 @@ governor,ID,2026,ID,,,Jacob Burnett,I,0,0,0,0,pending,0,100
 governor,IL,2026,IL,,,JB Pritzker,D,0,0,0,0,pending,0,100
 governor,IL,2026,IL,,,Darren Bailey,R,0,0,0,0,pending,0,100
 governor,IL,2026,IL,,,Collin Corbett,I,0,0,0,0,pending,0,100
-governor,KS,2026,KS,,,Cindy Holscher,D,139906,0,0,0,counting,19.79,100
-governor,KS,2026,KS,,,Ty Masterson,R,87647,0,0,0,counting,19.79,100
+governor,KS,2026,KS,,,Cindy Holscher,D,269680,0,0,0,counting,37.24,100
+governor,KS,2026,KS,,,Ty Masterson,R,158596,0,0,0,counting,37.24,100
 governor,MA,2026,MA,,,Maura Healey,D,0,0,0,0,pending,0,100
 governor,MA,2026,MA,,,Michael Roger Minogue,R,0,0,0,0,pending,0,100
 governor,MA,2026,MA,,,James,I,0,0,0,0,pending,0,100
@@ -1516,21 +1517,21 @@ governor,MD,2026,MD,,,Write-in,I,0,0,0,0,pending,0,100
 governor,ME,2026,ME,,,Hannah Pingree,D,0,0,0,0,pending,0,100
 governor,ME,2026,ME,,,Bobby Charles,R,0,0,0,0,pending,0,100
 governor,ME,2026,ME,,,Rick Bennett,I,0,0,0,0,pending,0,100
-governor,MI,2026,MI,,,Jocelyn Benson,D,247830,0,0,0,counting,8.52,100
-governor,MI,2026,MI,,,John James,R,169850,0,0,0,counting,8.52,100
-governor,MI,2026,MI,,,Anthony Hudson,L,3038,0,0,0,counting,8.52,100
-governor,MI,2026,MI,,,Douglas Campbell,G,1340,0,0,0,counting,8.52,100
-governor,MI,2026,MI,,,Donna Brandenburg,O,1208,0,0,0,counting,8.52,100
-governor,MI,2026,MI,,,Write-in,I,10,0,0,0,counting,8.52,100
-governor,MI,2026,MI,,,Cecelia Lea Adkins,W,0,0,0,0,counting,8.52,100
-governor,MI,2026,MI,,,Timothy J Badgley,W,0,0,0,0,counting,8.52,100
-governor,MI,2026,MI,,,Justin Paul Blackburn,W,0,0,0,0,counting,8.52,100
-governor,MI,2026,MI,,,Angelo Scott Brown,W,0,0,0,0,counting,8.52,100
-governor,MI,2026,MI,,,Joseph Michael Hunt,W,0,0,0,0,counting,8.52,100
-governor,MI,2026,MI,,,Henry Joseph Lester,W,0,0,0,0,counting,8.52,100
-governor,MI,2026,MI,,,Evan Sebastian Space,W,0,0,0,0,counting,8.52,100
-governor,MI,2026,MI,,,William James Stahl,W,0,0,0,0,counting,8.52,100
-governor,MI,2026,MI,,,Kimberly Ruby-Ann Thomas,W,0,0,0,0,counting,8.52,100
+governor,MI,2026,MI,,,Jocelyn Benson,D,267249,0,0,0,counting,9.48,100
+governor,MI,2026,MI,,,John James,R,197239,0,0,0,counting,9.48,100
+governor,MI,2026,MI,,,Anthony Hudson,L,3565,0,0,0,counting,9.48,100
+governor,MI,2026,MI,,,Douglas Campbell,G,1489,0,0,0,counting,9.48,100
+governor,MI,2026,MI,,,Donna Brandenburg,O,1360,0,0,0,counting,9.48,100
+governor,MI,2026,MI,,,Write-in,I,20,0,0,0,counting,9.48,100
+governor,MI,2026,MI,,,Cecelia Lea Adkins,W,0,0,0,0,counting,9.48,100
+governor,MI,2026,MI,,,Timothy J Badgley,W,0,0,0,0,counting,9.48,100
+governor,MI,2026,MI,,,Justin Paul Blackburn,W,0,0,0,0,counting,9.48,100
+governor,MI,2026,MI,,,Angelo Scott Brown,W,0,0,0,0,counting,9.48,100
+governor,MI,2026,MI,,,Joseph Michael Hunt,W,0,0,0,0,counting,9.48,100
+governor,MI,2026,MI,,,Henry Joseph Lester,W,0,0,0,0,counting,9.48,100
+governor,MI,2026,MI,,,Evan Sebastian Space,W,0,0,0,0,counting,9.48,100
+governor,MI,2026,MI,,,William James Stahl,W,0,0,0,0,counting,9.48,100
+governor,MI,2026,MI,,,Kimberly Ruby-Ann Thomas,W,0,0,0,0,counting,9.48,100
 governor,MN,2026,MN,,,Steven Young,G,0,0,0,0,pending,0,100
 governor,MN,2026,MN,,,Amy Klobuchar,D,0,0,0,0,pending,0,100
 governor,MN,2026,MN,,,Lisa Demuth,R,0,0,0,0,pending,0,100
@@ -1539,10 +1540,10 @@ governor,NE,2026,NE,,,Jim Pillen,R,0,0,0,0,pending,0,100
 governor,NE,2026,NE,,,Lynne Walz,D,0,0,0,0,pending,0,100
 governor,NE,2026,NE,,,Rick Beard,O,0,0,0,0,pending,0,100
 governor,NE,2026,NE,,,Brett Lindstrom,O,0,0,0,0,pending,0,100
-governor,NH,2026,NH,,,Kelly Ayotte,R,104198,0,0,0,counting,29.24,100
-governor,NH,2026,NH,,,Cinde Warmington,D,93745,0,0,0,counting,29.24,100
-governor,NH,2026,NH,,,Stephen Villee,L,3234,0,0,0,counting,29.24,100
-governor,NH,2026,NH,,,Write-in,I,361,0,0,0,counting,29.24,100
+governor,NH,2026,NH,,,Kelly Ayotte,R,115421,0,0,0,counting,32.41,100
+governor,NH,2026,NH,,,Cinde Warmington,D,103974,0,0,0,counting,32.41,100
+governor,NH,2026,NH,,,Stephen Villee,L,3559,0,0,0,counting,32.41,100
+governor,NH,2026,NH,,,Write-in,I,411,0,0,0,counting,32.41,100
 governor,NM,2026,NM,,,Deb Haaland,D,0,0,0,0,pending,0,100
 governor,NM,2026,NM,,,Gregg Hull,R,0,0,0,0,pending,0,100
 governor,NV,2026,NV,,,Aaron Ford,D,0,0,0,0,pending,0,100
@@ -1550,12 +1551,12 @@ governor,NV,2026,NV,,,Joe Lombardo,R,0,0,0,0,pending,0,100
 governor,NV,2026,NV,,,Danielle Ford,I,0,0,0,0,pending,0,100
 governor,NY,2026,NY,,,Kathy Hochul,D,0,0,0,0,pending,0,100
 governor,NY,2026,NY,,,Bruce Blakeman,R,0,0,0,0,pending,0,100
-governor,OH,2026,OH,,,Amy Acton,D,1040051,0,0,0,counting,37.8,100
-governor,OH,2026,OH,,,Vivek Ramaswamy,R,719196,0,0,0,counting,37.8,100
-governor,OH,2026,OH,,,Don Kissick,L,46986,0,0,0,counting,37.8,100
-governor,OH,2026,OH,,,Timothy Grady,W,0,0,0,0,counting,37.8,100
-governor,OH,2026,OH,,,Heather Hill,W,0,0,0,0,counting,37.8,100
-governor,OH,2026,OH,,,Renea Turner,W,0,0,0,0,counting,37.8,100
+governor,OH,2026,OH,,,Amy Acton,D,1132789,0,0,0,counting,42.48,100
+governor,OH,2026,OH,,,Vivek Ramaswamy,R,840361,0,0,0,counting,42.48,100
+governor,OH,2026,OH,,,Don Kissick,L,56674,0,0,0,counting,42.48,100
+governor,OH,2026,OH,,,Timothy Grady,W,0,0,0,0,counting,42.48,100
+governor,OH,2026,OH,,,Heather Hill,W,0,0,0,0,counting,42.48,100
+governor,OH,2026,OH,,,Renea Turner,W,0,0,0,0,counting,42.48,100
 governor,OK,2026,OK,,,Mike Mazzei,R,0,0,0,0,pending,0,100
 governor,OK,2026,OK,,,Cyndi Munson,D,0,0,0,0,pending,0,100
 governor,OK,2026,OK,,,Orlando Lynn Bush,I,0,0,0,0,pending,0,100
@@ -1568,12 +1569,12 @@ governor,OR,2026,OR,,,Write-in,I,0,0,0,0,pending,0,100
 governor,PA,2026,PA,,,Josh Shapiro,D,0,0,0,0,pending,0,100
 governor,PA,2026,PA,,,Stacy Garrity,R,0,0,0,0,pending,0,100
 governor,PA,2026,PA,,,Ken Krawchuk,L,0,0,0,0,pending,0,100
-governor,RI,2026,RI,,,Helena Buonanno Foulkes,D,109335,0,0,0,counting,45.73,100
-governor,RI,2026,RI,,,Kenneth Block,I,54735,0,0,0,counting,45.73,100
-governor,RI,2026,RI,,,Aaron C. Guckian,R,27882,0,0,0,counting,45.73,100
-governor,RI,2026,RI,,,C. D. Reynolds,I,1205,0,0,0,counting,45.73,100
-governor,RI,2026,RI,,,Jasjit S. Gotra,I,978,0,0,0,counting,45.73,100
-governor,RI,2026,RI,,,Write-in,I,590,0,0,0,counting,45.73,100
+governor,RI,2026,RI,,,Helena Buonanno Foulkes,D,156005,0,0,0,counting,65.15,100
+governor,RI,2026,RI,,,Kenneth Block,I,78833,0,0,0,counting,65.15,100
+governor,RI,2026,RI,,,Aaron C. Guckian,R,38838,0,0,0,counting,65.15,100
+governor,RI,2026,RI,,,C. D. Reynolds,I,1624,0,0,0,counting,65.15,100
+governor,RI,2026,RI,,,Jasjit S. Gotra,I,1309,0,0,0,counting,65.15,100
+governor,RI,2026,RI,,,Write-in,I,810,0,0,0,counting,65.15,100
 governor,SC,2026,SC,,,Alan Wilson,R,425041,0,0,0,counting,41.14,100
 governor,SC,2026,SC,,,Jermaine Johnson,D,404444,0,0,0,counting,41.14,100
 governor,SC,2026,SC,,,Michael Addison,O,5870,0,0,0,counting,41.14,100
@@ -1581,29 +1582,29 @@ governor,SC,2026,SC,,,Walid Hakim,G,3205,0,0,0,counting,41.14,100
 governor,SC,2026,SC,,,Write-in,I,390,0,0,0,counting,41.14,100
 governor,SD,2026,SD,,,Larry Rhoden,R,0,0,0,0,pending,0,100
 governor,SD,2026,SD,,,Dan Ahlers,D,0,0,0,0,pending,0,100
-governor,TN,2026,TN,,,Marsha Blackburn,R,140914,0,0,0,counting,11.29,100
-governor,TN,2026,TN,,,Jerri Green,D,87823,0,0,0,counting,11.29,100
-governor,TN,2026,TN,,,David Hatley,I,26790,0,0,0,counting,11.29,100
-governor,TN,2026,TN,,,Lauren Pinkston,I,3387,0,0,0,counting,11.29,100
-governor,TN,2026,TN,,,Dean Brewer,I,449,0,0,0,counting,11.29,100
-governor,TN,2026,TN,,,Ray Brown,I,363,0,0,0,counting,11.29,100
-governor,TN,2026,TN,,,Wendell Jackson,I,235,0,0,0,counting,11.29,100
-governor,TN,2026,TN,,,Eddie Lee Murphy,I,208,0,0,0,counting,11.29,100
-governor,TN,2026,TN,,,Charles Van Morgan,I,165,0,0,0,counting,11.29,100
-governor,TN,2026,TN,,,Misam Abidi,I,155,0,0,0,counting,11.29,100
-governor,TN,2026,TN,,,Robert C. Vick,I,155,0,0,0,counting,11.29,100
-governor,TN,2026,TN,,,L. Webb Taylor,I,127,0,0,0,counting,11.29,100
-governor,TN,2026,TN,,,Victor L. Scoggin,I,82,0,0,0,counting,11.29,100
-governor,TN,2026,TN,,,Dave Seeman,I,62,0,0,0,counting,11.29,100
-governor,TN,2026,TN,,,Karl Knox Smithson,I,39,0,0,0,counting,11.29,100
-governor,TX,2026,TX,,,Gina Hinojosa,D,1724781,0,0,0,counting,30.7,100
-governor,TX,2026,TX,,,Greg Abbott,R,1304489,0,0,1,counting,30.7,100
-governor,TX,2026,TX,,,Pat Dixon,L,39737,0,0,0,counting,30.7,100
-governor,TX,2026,TX,,,Edward Earl Giles,W,0,0,0,0,counting,30.7,100
-governor,TX,2026,TX,,,Jenn Mack,W,0,0,0,0,counting,30.7,100
-governor,TX,2026,TX,,,Jinghpaw Majoishingra,W,0,0,0,0,counting,30.7,100
-governor,TX,2026,TX,,,Mike Miller,W,0,0,0,0,counting,30.7,100
-governor,TX,2026,TX,,,Write-in,I,0,0,0,0,counting,30.7,100
+governor,TN,2026,TN,,,Marsha Blackburn,R,151392,0,0,0,counting,12.16,100
+governor,TN,2026,TN,,,Jerri Green,D,94825,0,0,0,counting,12.16,100
+governor,TN,2026,TN,,,David Hatley,I,29112,0,0,0,counting,12.16,100
+governor,TN,2026,TN,,,Lauren Pinkston,I,3640,0,0,0,counting,12.16,100
+governor,TN,2026,TN,,,Dean Brewer,I,490,0,0,0,counting,12.16,100
+governor,TN,2026,TN,,,Ray Brown,I,393,0,0,0,counting,12.16,100
+governor,TN,2026,TN,,,Wendell Jackson,I,249,0,0,0,counting,12.16,100
+governor,TN,2026,TN,,,Eddie Lee Murphy,I,226,0,0,0,counting,12.16,100
+governor,TN,2026,TN,,,Charles Van Morgan,I,176,0,0,0,counting,12.16,100
+governor,TN,2026,TN,,,Misam Abidi,I,169,0,0,0,counting,12.16,100
+governor,TN,2026,TN,,,Robert C. Vick,I,167,0,0,0,counting,12.16,100
+governor,TN,2026,TN,,,L. Webb Taylor,I,134,0,0,0,counting,12.16,100
+governor,TN,2026,TN,,,Victor L. Scoggin,I,89,0,0,0,counting,12.16,100
+governor,TN,2026,TN,,,Dave Seeman,I,68,0,0,0,counting,12.16,100
+governor,TN,2026,TN,,,Karl Knox Smithson,I,42,0,0,0,counting,12.16,100
+governor,TX,2026,TX,,,Gina Hinojosa,D,2142923,0,0,0,counting,37.61,100
+governor,TX,2026,TX,,,Greg Abbott,R,1569834,0,0,1,counting,37.61,100
+governor,TX,2026,TX,,,Pat Dixon,L,47725,0,0,0,counting,37.61,100
+governor,TX,2026,TX,,,Edward Earl Giles,W,0,0,0,0,counting,37.61,100
+governor,TX,2026,TX,,,Jenn Mack,W,0,0,0,0,counting,37.61,100
+governor,TX,2026,TX,,,Jinghpaw Majoishingra,W,0,0,0,0,counting,37.61,100
+governor,TX,2026,TX,,,Mike Miller,W,0,0,0,0,counting,37.61,100
+governor,TX,2026,TX,,,Write-in,I,0,0,0,0,counting,37.61,100
 governor,VT,2026,VT,,,Phil Scott,R,42023,0,0,0,counting,100,100
 governor,VT,2026,VT,,,Amanda Janoo,D,30911,0,0,0,counting,100,100
 governor,VT,2026,VT,,,Brian Judd,I,718,0,0,0,counting,100,100
