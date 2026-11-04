@@ -1,15 +1,12 @@
 [
  {
   "phase": "pre-election",
-  "updated_at": "2026-11-04T02:24:11Z",
+  "updated_at": "2026-11-04T02:30:35Z",
   "source": "CivicAPI, unofficial",
   "races": 76,
   "called": 0,
   "counting": 0,
-  "problems": [
-   "CivicAPI search: /race/search?country=US&province=AZ&startDate=2026-11-03&endDate=2026-11-03&limit=500: HTTP 000 curl: (28) Operation timed out after 45002 milliseconds with 0 b",
-   "no live source yet for 7 statewide races, 9 U.S. House races, 30 Arizona Senate races, 30 Arizona House races"
-  ],
+  "problems": [],
   "local_problems": []
  }
 ]
