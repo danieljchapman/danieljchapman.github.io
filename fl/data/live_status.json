@@ -1,18 +1,16 @@
 [
  {
-  "phase": "pre-election",
-  "updated_at": "2026-11-04T01:01:41Z",
+  "phase": "counting",
+  "updated_at": "2026-11-04T01:05:08Z",
   "source": "Florida Division of Elections, unofficial",
   "races": 174,
-  "called": 0,
-  "counting": 0,
+  "called": 5,
+  "counting": 134,
   "precincts": [
-   0,
+   3691,
    5626
   ],
-  "problems": [
-   "CivicAPI fallback: CivicAPI /race/search?country=US&province=FL&startDate=2026-11-03&endDate=2026-11-03&limit=1000: The read operation timed out"
-  ],
+  "problems": [],
   "local_problems": []
  }
 ]
