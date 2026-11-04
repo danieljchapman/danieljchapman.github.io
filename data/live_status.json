@@ -1,7 +1,7 @@
 [
  {
   "phase": "pre-election",
-  "updated_at": "2026-11-04T00:59:24Z",
+  "updated_at": "2026-11-04T01:04:23Z",
   "source": "Texas Secretary of State election-night results, unofficial",
   "races": 224,
   "called": 0,
@@ -9,7 +9,6 @@
   "problems": [],
   "local_problems": [
    "collin: Collin: no results CSV for 2026-11-03 posted yet",
-   "clarity:Travis: Travis: no Clarity election on 2026-11-03 yet",
    "clarity:Dallas: Dallas: no Clarity election on 2026-11-03 yet"
   ],
   "turnout": {
