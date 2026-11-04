@@ -22,8 +22,8 @@ senate,DE,2026,DE,,,"Michael ""Dr. Mike"" Katz",R,0,0,0,0,pending,0,100
 senate,FL,2026,FL,,special,Ashley Moody,R,368586,0,0,1,counting,8,100
 senate,FL,2026,FL,,special,Angie Nixon,D,343263,0,0,0,counting,8,100
 senate,FL,2026,FL,,special,Neil J. Gillespie,I,7512,0,0,0,counting,8,100
-senate,GA,2026,GA,,,Mike Collins,R,0,0,0,0,pending,0,100
-senate,GA,2026,GA,,,Jon Ossoff,D,0,0,0,1,pending,0,100
+senate,GA,2026,GA,,,Jon Ossoff,D,520317,0,0,1,counting,15,100
+senate,GA,2026,GA,,,Mike Collins,R,196043,0,0,0,counting,15,100
 senate,IA,2026,IA,,,Ashley Hinson,R,0,0,0,0,pending,0,100
 senate,IA,2026,IA,,,Josh Turek,D,0,0,0,0,pending,0,100
 senate,IA,2026,IA,,,Thomas Laehn,L,0,0,0,0,pending,0,100
@@ -134,9 +134,9 @@ senate,TN,2026,TN,,,"Catherine Barcel ""Barcy"" Whitson",I,0,0,0,0,pending,0,100
 senate,TX,2026,TX,,,James Talarico,D,0,0,0,0,pending,0,100
 senate,TX,2026,TX,,,Ken Paxton,R,0,0,0,0,pending,0,100
 senate,TX,2026,TX,,,Ted Brown,L,0,0,0,0,pending,0,100
-senate,VA,2026,VA,,,Mark Warner,D,0,0,0,0,pending,0,100
-senate,VA,2026,VA,,,Bert Mizusawa,R,0,0,0,0,pending,0,100
-senate,VA,2026,VA,,,Write-in,I,0,0,0,0,pending,0,100
+senate,VA,2026,VA,,,Bert Mizusawa,R,6802,0,0,0,counting,0,100
+senate,VA,2026,VA,,,Mark Warner,D,6418,0,0,0,counting,0,100
+senate,VA,2026,VA,,,Write-in,I,20,0,0,0,counting,0,100
 senate,WV,2026,WV,,,Shelley Moore Capito,R,0,0,0,0,pending,0,100
 senate,WV,2026,WV,,,Rachel Fetty Anderson,D,0,0,0,0,pending,0,100
 senate,WV,2026,WV,,,S. Marshall Wilson,C,0,0,0,0,pending,0,100
@@ -1453,8 +1453,8 @@ governor,FL,2026,FL,,,Write-in,I,984,0,0,0,counting,8,100
 governor,FL,2026,FL,,,Dean Ocean Abrams,I,922,0,0,0,counting,8,100
 governor,FL,2026,FL,,,"Jeffrey Peter ""Dr. Jeff"" Datto",I,539,0,0,0,counting,8,100
 governor,FL,2026,FL,,,"Moliere ""Moe"" Dimanche",I,476,0,0,0,counting,8,100
-governor,GA,2026,GA,,,Rick Jackson,R,0,0,0,0,pending,0,100
-governor,GA,2026,GA,,,Keisha Lance Bottoms,D,0,0,0,0,pending,0,100
+governor,GA,2026,GA,,,Keisha Lance Bottoms,D,486918,0,0,0,counting,15,100
+governor,GA,2026,GA,,,Rick Jackson,R,228670,0,0,0,counting,15,100
 governor,HI,2026,HI,,,Gary Cordery,R,0,0,0,0,pending,0,100
 governor,HI,2026,HI,,,Josh Green,D,0,0,0,0,pending,0,100
 governor,IA,2026,IA,,,Zach Lahn,R,0,0,0,0,pending,0,100
