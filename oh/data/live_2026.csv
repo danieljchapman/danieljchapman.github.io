@@ -1,8 +1,8 @@
 level,race,year,office,plan,unit,unit_name,candidate,party,votes,status,reporting,reporting_total
-statewide,2026 Governor,2026,Governor,,39001,Adams,Vivek Ramaswamy,R,3641,counting,7,21
-statewide,2026 Governor,2026,Governor,,39001,Adams,Amy Acton,D,1658,counting,7,21
-statewide,2026 Governor,2026,Governor,,39001,Adams,Don Kissick,L,270,counting,7,21
-statewide,2026 Governor,2026,Governor,,39001,Adams,Write-ins,W,0,counting,7,21
+statewide,2026 Governor,2026,Governor,,39001,Adams,Vivek Ramaswamy,R,5047,counting,16,21
+statewide,2026 Governor,2026,Governor,,39001,Adams,Amy Acton,D,2054,counting,16,21
+statewide,2026 Governor,2026,Governor,,39001,Adams,Don Kissick,L,412,counting,16,21
+statewide,2026 Governor,2026,Governor,,39001,Adams,Write-ins,W,0,counting,16,21
 statewide,2026 Governor,2026,Governor,,39003,Allen,Vivek Ramaswamy,R,22004,counting,88,88
 statewide,2026 Governor,2026,Governor,,39003,Allen,Amy Acton,D,11485,counting,88,88
 statewide,2026 Governor,2026,Governor,,39003,Allen,Don Kissick,L,1741,counting,88,88
@@ -31,26 +31,26 @@ statewide,2026 Governor,2026,Governor,,39015,Brown,Vivek Ramaswamy,R,4568,counti
 statewide,2026 Governor,2026,Governor,,39015,Brown,Amy Acton,D,2307,counting,4,33
 statewide,2026 Governor,2026,Governor,,39015,Brown,Don Kissick,L,257,counting,4,33
 statewide,2026 Governor,2026,Governor,,39015,Brown,Write-ins,W,0,counting,4,33
-statewide,2026 Governor,2026,Governor,,39017,Butler,Vivek Ramaswamy,R,39188,counting,82,292
-statewide,2026 Governor,2026,Governor,,39017,Butler,Amy Acton,D,37982,counting,82,292
-statewide,2026 Governor,2026,Governor,,39017,Butler,Don Kissick,L,1923,counting,82,292
-statewide,2026 Governor,2026,Governor,,39017,Butler,Write-ins,W,0,counting,82,292
+statewide,2026 Governor,2026,Governor,,39017,Butler,Vivek Ramaswamy,R,57592,counting,196,292
+statewide,2026 Governor,2026,Governor,,39017,Butler,Amy Acton,D,51329,counting,196,292
+statewide,2026 Governor,2026,Governor,,39017,Butler,Don Kissick,L,3025,counting,196,292
+statewide,2026 Governor,2026,Governor,,39017,Butler,Write-ins,W,0,counting,196,292
 statewide,2026 Governor,2026,Governor,,39019,Carroll,Vivek Ramaswamy,R,6709,counting,22,23
 statewide,2026 Governor,2026,Governor,,39019,Carroll,Amy Acton,D,2945,counting,22,23
 statewide,2026 Governor,2026,Governor,,39019,Carroll,Don Kissick,L,597,counting,22,23
 statewide,2026 Governor,2026,Governor,,39019,Carroll,Write-ins,W,0,counting,22,23
-statewide,2026 Governor,2026,Governor,,39021,Champaign,Vivek Ramaswamy,R,9121,counting,28,31
-statewide,2026 Governor,2026,Governor,,39021,Champaign,Amy Acton,D,4737,counting,28,31
-statewide,2026 Governor,2026,Governor,,39021,Champaign,Don Kissick,L,888,counting,28,31
-statewide,2026 Governor,2026,Governor,,39021,Champaign,Write-ins,W,0,counting,28,31
+statewide,2026 Governor,2026,Governor,,39021,Champaign,Vivek Ramaswamy,R,9664,counting,31,31
+statewide,2026 Governor,2026,Governor,,39021,Champaign,Amy Acton,D,4913,counting,31,31
+statewide,2026 Governor,2026,Governor,,39021,Champaign,Don Kissick,L,948,counting,31,31
+statewide,2026 Governor,2026,Governor,,39021,Champaign,Write-ins,W,0,counting,31,31
 statewide,2026 Governor,2026,Governor,,39023,Clark,Vivek Ramaswamy,R,21224,counting,59,78
 statewide,2026 Governor,2026,Governor,,39023,Clark,Amy Acton,D,17826,counting,59,78
 statewide,2026 Governor,2026,Governor,,39023,Clark,Don Kissick,L,1845,counting,59,78
 statewide,2026 Governor,2026,Governor,,39023,Clark,Write-ins,W,0,counting,59,78
-statewide,2026 Governor,2026,Governor,,39025,Clermont,Vivek Ramaswamy,R,25535,counting,44,168
-statewide,2026 Governor,2026,Governor,,39025,Clermont,Amy Acton,D,20974,counting,44,168
-statewide,2026 Governor,2026,Governor,,39025,Clermont,Don Kissick,L,1335,counting,44,168
-statewide,2026 Governor,2026,Governor,,39025,Clermont,Write-ins,W,0,counting,44,168
+statewide,2026 Governor,2026,Governor,,39025,Clermont,Vivek Ramaswamy,R,25535,counting,102,168
+statewide,2026 Governor,2026,Governor,,39025,Clermont,Amy Acton,D,20974,counting,102,168
+statewide,2026 Governor,2026,Governor,,39025,Clermont,Don Kissick,L,1335,counting,102,168
+statewide,2026 Governor,2026,Governor,,39025,Clermont,Write-ins,W,0,counting,102,168
 statewide,2026 Governor,2026,Governor,,39027,Clinton,Vivek Ramaswamy,R,4911,counting,6,36
 statewide,2026 Governor,2026,Governor,,39027,Clinton,Amy Acton,D,2824,counting,6,36
 statewide,2026 Governor,2026,Governor,,39027,Clinton,Don Kissick,L,290,counting,6,36
@@ -99,26 +99,26 @@ statewide,2026 Governor,2026,Governor,,39049,Franklin,Amy Acton,D,195159,countin
 statewide,2026 Governor,2026,Governor,,39049,Franklin,Vivek Ramaswamy,R,59691,counting,254,889
 statewide,2026 Governor,2026,Governor,,39049,Franklin,Don Kissick,L,4740,counting,254,889
 statewide,2026 Governor,2026,Governor,,39049,Franklin,Write-ins,W,0,counting,254,889
-statewide,2026 Governor,2026,Governor,,39051,Fulton,Vivek Ramaswamy,R,6277,counting,13,29
-statewide,2026 Governor,2026,Governor,,39051,Fulton,Amy Acton,D,4198,counting,13,29
-statewide,2026 Governor,2026,Governor,,39051,Fulton,Don Kissick,L,482,counting,13,29
-statewide,2026 Governor,2026,Governor,,39051,Fulton,Write-ins,W,0,counting,13,29
+statewide,2026 Governor,2026,Governor,,39051,Fulton,Vivek Ramaswamy,R,10337,counting,29,29
+statewide,2026 Governor,2026,Governor,,39051,Fulton,Amy Acton,D,6165,counting,29,29
+statewide,2026 Governor,2026,Governor,,39051,Fulton,Don Kissick,L,841,counting,29,29
+statewide,2026 Governor,2026,Governor,,39051,Fulton,Write-ins,W,0,counting,29,29
 statewide,2026 Governor,2026,Governor,,39053,Gallia,Vivek Ramaswamy,R,5898,counting,26,26
 statewide,2026 Governor,2026,Governor,,39053,Gallia,Amy Acton,D,2424,counting,26,26
 statewide,2026 Governor,2026,Governor,,39053,Gallia,Don Kissick,L,307,counting,26,26
 statewide,2026 Governor,2026,Governor,,39053,Gallia,Write-ins,W,0,counting,26,26
-statewide,2026 Governor,2026,Governor,,39055,Geauga,Vivek Ramaswamy,R,9701,counting,27,79
-statewide,2026 Governor,2026,Governor,,39055,Geauga,Amy Acton,D,8650,counting,27,79
-statewide,2026 Governor,2026,Governor,,39055,Geauga,Don Kissick,L,533,counting,27,79
-statewide,2026 Governor,2026,Governor,,39055,Geauga,Write-ins,W,0,counting,27,79
-statewide,2026 Governor,2026,Governor,,39057,Greene,Amy Acton,D,21286,counting,33,151
-statewide,2026 Governor,2026,Governor,,39057,Greene,Vivek Ramaswamy,R,19805,counting,33,151
-statewide,2026 Governor,2026,Governor,,39057,Greene,Don Kissick,L,1067,counting,33,151
-statewide,2026 Governor,2026,Governor,,39057,Greene,Write-ins,W,0,counting,33,151
-statewide,2026 Governor,2026,Governor,,39059,Guernsey,Vivek Ramaswamy,R,6000,counting,21,35
-statewide,2026 Governor,2026,Governor,,39059,Guernsey,Amy Acton,D,3277,counting,21,35
-statewide,2026 Governor,2026,Governor,,39059,Guernsey,Don Kissick,L,440,counting,21,35
-statewide,2026 Governor,2026,Governor,,39059,Guernsey,Write-ins,W,0,counting,21,35
+statewide,2026 Governor,2026,Governor,,39055,Geauga,Vivek Ramaswamy,R,9701,counting,78,79
+statewide,2026 Governor,2026,Governor,,39055,Geauga,Amy Acton,D,8650,counting,78,79
+statewide,2026 Governor,2026,Governor,,39055,Geauga,Don Kissick,L,533,counting,78,79
+statewide,2026 Governor,2026,Governor,,39055,Geauga,Write-ins,W,0,counting,78,79
+statewide,2026 Governor,2026,Governor,,39057,Greene,Vivek Ramaswamy,R,24732,counting,67,151
+statewide,2026 Governor,2026,Governor,,39057,Greene,Amy Acton,D,24227,counting,67,151
+statewide,2026 Governor,2026,Governor,,39057,Greene,Don Kissick,L,1475,counting,67,151
+statewide,2026 Governor,2026,Governor,,39057,Greene,Write-ins,W,0,counting,67,151
+statewide,2026 Governor,2026,Governor,,39059,Guernsey,Vivek Ramaswamy,R,7996,counting,35,35
+statewide,2026 Governor,2026,Governor,,39059,Guernsey,Amy Acton,D,4059,counting,35,35
+statewide,2026 Governor,2026,Governor,,39059,Guernsey,Don Kissick,L,637,counting,35,35
+statewide,2026 Governor,2026,Governor,,39059,Guernsey,Write-ins,W,0,counting,35,35
 statewide,2026 Governor,2026,Governor,,39061,Hamilton,Amy Acton,D,116244,counting,130,563
 statewide,2026 Governor,2026,Governor,,39061,Hamilton,Vivek Ramaswamy,R,44993,counting,130,563
 statewide,2026 Governor,2026,Governor,,39061,Hamilton,Don Kissick,L,2927,counting,130,563
@@ -147,10 +147,10 @@ statewide,2026 Governor,2026,Governor,,39073,Hocking,Vivek Ramaswamy,R,2860,coun
 statewide,2026 Governor,2026,Governor,,39073,Hocking,Amy Acton,D,2399,counting,2,20
 statewide,2026 Governor,2026,Governor,,39073,Hocking,Don Kissick,L,211,counting,2,20
 statewide,2026 Governor,2026,Governor,,39073,Hocking,Write-ins,W,0,counting,2,20
-statewide,2026 Governor,2026,Governor,,39075,Holmes,Vivek Ramaswamy,R,4162,counting,8,17
-statewide,2026 Governor,2026,Governor,,39075,Holmes,Amy Acton,D,1354,counting,8,17
-statewide,2026 Governor,2026,Governor,,39075,Holmes,Don Kissick,L,161,counting,8,17
-statewide,2026 Governor,2026,Governor,,39075,Holmes,Write-ins,W,0,counting,8,17
+statewide,2026 Governor,2026,Governor,,39075,Holmes,Vivek Ramaswamy,R,6409,counting,16,17
+statewide,2026 Governor,2026,Governor,,39075,Holmes,Amy Acton,D,1773,counting,16,17
+statewide,2026 Governor,2026,Governor,,39075,Holmes,Don Kissick,L,286,counting,16,17
+statewide,2026 Governor,2026,Governor,,39075,Holmes,Write-ins,W,0,counting,16,17
 statewide,2026 Governor,2026,Governor,,39077,Huron,Vivek Ramaswamy,R,7578,counting,24,46
 statewide,2026 Governor,2026,Governor,,39077,Huron,Amy Acton,D,5479,counting,24,46
 statewide,2026 Governor,2026,Governor,,39077,Huron,Don Kissick,L,738,counting,24,46
@@ -159,10 +159,10 @@ statewide,2026 Governor,2026,Governor,,39079,Jackson,Vivek Ramaswamy,R,5450,coun
 statewide,2026 Governor,2026,Governor,,39079,Jackson,Amy Acton,D,2816,counting,22,29
 statewide,2026 Governor,2026,Governor,,39079,Jackson,Don Kissick,L,336,counting,22,29
 statewide,2026 Governor,2026,Governor,,39079,Jackson,Write-ins,W,0,counting,22,29
-statewide,2026 Governor,2026,Governor,,39081,Jefferson,Vivek Ramaswamy,R,10078,counting,37,55
-statewide,2026 Governor,2026,Governor,,39081,Jefferson,Amy Acton,D,6535,counting,37,55
-statewide,2026 Governor,2026,Governor,,39081,Jefferson,Don Kissick,L,779,counting,37,55
-statewide,2026 Governor,2026,Governor,,39081,Jefferson,Write-ins,W,0,counting,37,55
+statewide,2026 Governor,2026,Governor,,39081,Jefferson,Vivek Ramaswamy,R,12969,counting,54,55
+statewide,2026 Governor,2026,Governor,,39081,Jefferson,Amy Acton,D,7706,counting,54,55
+statewide,2026 Governor,2026,Governor,,39081,Jefferson,Don Kissick,L,1041,counting,54,55
+statewide,2026 Governor,2026,Governor,,39081,Jefferson,Write-ins,W,0,counting,54,55
 statewide,2026 Governor,2026,Governor,,39083,Knox,Vivek Ramaswamy,R,15071,counting,53,53
 statewide,2026 Governor,2026,Governor,,39083,Knox,Amy Acton,D,8044,counting,53,53
 statewide,2026 Governor,2026,Governor,,39083,Knox,Don Kissick,L,950,counting,53,53
@@ -263,10 +263,10 @@ statewide,2026 Governor,2026,Governor,,39131,Pike,Vivek Ramaswamy,R,5402,countin
 statewide,2026 Governor,2026,Governor,,39131,Pike,Amy Acton,D,2811,counting,22,22
 statewide,2026 Governor,2026,Governor,,39131,Pike,Don Kissick,L,307,counting,22,22
 statewide,2026 Governor,2026,Governor,,39131,Pike,Write-ins,W,0,counting,22,22
-statewide,2026 Governor,2026,Governor,,39133,Portage,Amy Acton,D,16604,counting,15,126
-statewide,2026 Governor,2026,Governor,,39133,Portage,Vivek Ramaswamy,R,10068,counting,15,126
-statewide,2026 Governor,2026,Governor,,39133,Portage,Don Kissick,L,830,counting,15,126
-statewide,2026 Governor,2026,Governor,,39133,Portage,Write-ins,W,0,counting,15,126
+statewide,2026 Governor,2026,Governor,,39133,Portage,Amy Acton,D,22546,counting,56,126
+statewide,2026 Governor,2026,Governor,,39133,Portage,Vivek Ramaswamy,R,18120,counting,56,126
+statewide,2026 Governor,2026,Governor,,39133,Portage,Don Kissick,L,1575,counting,56,126
+statewide,2026 Governor,2026,Governor,,39133,Portage,Write-ins,W,0,counting,56,126
 statewide,2026 Governor,2026,Governor,,39135,Preble,Vivek Ramaswamy,R,10457,counting,65,65
 statewide,2026 Governor,2026,Governor,,39135,Preble,Amy Acton,D,4169,counting,65,65
 statewide,2026 Governor,2026,Governor,,39135,Preble,Don Kissick,L,676,counting,65,65
@@ -339,10 +339,10 @@ statewide,2026 Governor,2026,Governor,,39169,Wayne,Vivek Ramaswamy,R,11505,count
 statewide,2026 Governor,2026,Governor,,39169,Wayne,Amy Acton,D,9575,counting,14,66
 statewide,2026 Governor,2026,Governor,,39169,Wayne,Don Kissick,L,651,counting,14,66
 statewide,2026 Governor,2026,Governor,,39169,Wayne,Write-ins,W,0,counting,14,66
-statewide,2026 Governor,2026,Governor,,39171,Williams,Vivek Ramaswamy,R,7114,counting,23,26
-statewide,2026 Governor,2026,Governor,,39171,Williams,Amy Acton,D,3766,counting,23,26
-statewide,2026 Governor,2026,Governor,,39171,Williams,Don Kissick,L,614,counting,23,26
-statewide,2026 Governor,2026,Governor,,39171,Williams,Write-ins,W,0,counting,23,26
+statewide,2026 Governor,2026,Governor,,39171,Williams,Vivek Ramaswamy,R,7884,counting,24,26
+statewide,2026 Governor,2026,Governor,,39171,Williams,Amy Acton,D,4146,counting,24,26
+statewide,2026 Governor,2026,Governor,,39171,Williams,Don Kissick,L,715,counting,24,26
+statewide,2026 Governor,2026,Governor,,39171,Williams,Write-ins,W,0,counting,24,26
 statewide,2026 Governor,2026,Governor,,39173,Wood,Amy Acton,D,17991,counting,29,99
 statewide,2026 Governor,2026,Governor,,39173,Wood,Vivek Ramaswamy,R,11181,counting,29,99
 statewide,2026 Governor,2026,Governor,,39173,Wood,Don Kissick,L,912,counting,29,99
@@ -351,8 +351,8 @@ statewide,2026 Governor,2026,Governor,,39175,Wyandot,Vivek Ramaswamy,R,6204,coun
 statewide,2026 Governor,2026,Governor,,39175,Wyandot,Amy Acton,D,2966,counting,23,23
 statewide,2026 Governor,2026,Governor,,39175,Wyandot,Don Kissick,L,668,counting,23,23
 statewide,2026 Governor,2026,Governor,,39175,Wyandot,Write-ins,W,0,counting,23,23
-statewide,2026 Attorney General,2026,Attorney General,,39001,Adams,Keith Faber,R,4081,counting,7,21
-statewide,2026 Attorney General,2026,Attorney General,,39001,Adams,John Kulewicz,D,1472,counting,7,21
+statewide,2026 Attorney General,2026,Attorney General,,39001,Adams,Keith Faber,R,5648,counting,16,21
+statewide,2026 Attorney General,2026,Attorney General,,39001,Adams,John Kulewicz,D,1846,counting,16,21
 statewide,2026 Attorney General,2026,Attorney General,,39003,Allen,Keith Faber,R,24384,counting,88,88
 statewide,2026 Attorney General,2026,Attorney General,,39003,Allen,John Kulewicz,D,10819,counting,88,88
 statewide,2026 Attorney General,2026,Attorney General,,39005,Ashland,Keith Faber,R,13908,counting,39,39
@@ -367,16 +367,16 @@ statewide,2026 Attorney General,2026,Attorney General,,39013,Belmont,Keith Faber
 statewide,2026 Attorney General,2026,Attorney General,,39013,Belmont,John Kulewicz,D,6228,counting,35,69
 statewide,2026 Attorney General,2026,Attorney General,,39015,Brown,Keith Faber,R,4920,counting,4,33
 statewide,2026 Attorney General,2026,Attorney General,,39015,Brown,John Kulewicz,D,2172,counting,4,33
-statewide,2026 Attorney General,2026,Attorney General,,39017,Butler,Keith Faber,R,41729,counting,82,292
-statewide,2026 Attorney General,2026,Attorney General,,39017,Butler,John Kulewicz,D,36303,counting,82,292
+statewide,2026 Attorney General,2026,Attorney General,,39017,Butler,Keith Faber,R,61734,counting,196,292
+statewide,2026 Attorney General,2026,Attorney General,,39017,Butler,John Kulewicz,D,48610,counting,196,292
 statewide,2026 Attorney General,2026,Attorney General,,39019,Carroll,Keith Faber,R,7474,counting,22,23
 statewide,2026 Attorney General,2026,Attorney General,,39019,Carroll,John Kulewicz,D,2748,counting,22,23
-statewide,2026 Attorney General,2026,Attorney General,,39021,Champaign,Keith Faber,R,10275,counting,28,31
-statewide,2026 Attorney General,2026,Attorney General,,39021,Champaign,John Kulewicz,D,4324,counting,28,31
+statewide,2026 Attorney General,2026,Attorney General,,39021,Champaign,Keith Faber,R,10899,counting,31,31
+statewide,2026 Attorney General,2026,Attorney General,,39021,Champaign,John Kulewicz,D,4476,counting,31,31
 statewide,2026 Attorney General,2026,Attorney General,,39023,Clark,Keith Faber,R,23965,counting,59,78
 statewide,2026 Attorney General,2026,Attorney General,,39023,Clark,John Kulewicz,D,17384,counting,59,78
-statewide,2026 Attorney General,2026,Attorney General,,39025,Clermont,Keith Faber,R,27316,counting,44,168
-statewide,2026 Attorney General,2026,Attorney General,,39025,Clermont,John Kulewicz,D,20113,counting,44,168
+statewide,2026 Attorney General,2026,Attorney General,,39025,Clermont,Keith Faber,R,27316,counting,102,168
+statewide,2026 Attorney General,2026,Attorney General,,39025,Clermont,John Kulewicz,D,20113,counting,102,168
 statewide,2026 Attorney General,2026,Attorney General,,39027,Clinton,Keith Faber,R,5326,counting,6,36
 statewide,2026 Attorney General,2026,Attorney General,,39027,Clinton,John Kulewicz,D,2633,counting,6,36
 statewide,2026 Attorney General,2026,Attorney General,,39029,Columbiana,Keith Faber,R,23704,counting,73,73
@@ -401,16 +401,16 @@ statewide,2026 Attorney General,2026,Attorney General,,39047,Fayette,Keith Faber
 statewide,2026 Attorney General,2026,Attorney General,,39047,Fayette,John Kulewicz,D,2405,counting,25,25
 statewide,2026 Attorney General,2026,Attorney General,,39049,Franklin,John Kulewicz,D,187660,counting,254,889
 statewide,2026 Attorney General,2026,Attorney General,,39049,Franklin,Keith Faber,R,67837,counting,254,889
-statewide,2026 Attorney General,2026,Attorney General,,39051,Fulton,Keith Faber,R,7055,counting,13,29
-statewide,2026 Attorney General,2026,Attorney General,,39051,Fulton,John Kulewicz,D,3851,counting,13,29
+statewide,2026 Attorney General,2026,Attorney General,,39051,Fulton,Keith Faber,R,11651,counting,29,29
+statewide,2026 Attorney General,2026,Attorney General,,39051,Fulton,John Kulewicz,D,5591,counting,29,29
 statewide,2026 Attorney General,2026,Attorney General,,39053,Gallia,Keith Faber,R,6356,counting,26,26
 statewide,2026 Attorney General,2026,Attorney General,,39053,Gallia,John Kulewicz,D,2251,counting,26,26
-statewide,2026 Attorney General,2026,Attorney General,,39055,Geauga,Keith Faber,R,10565,counting,27,79
-statewide,2026 Attorney General,2026,Attorney General,,39055,Geauga,John Kulewicz,D,8190,counting,27,79
-statewide,2026 Attorney General,2026,Attorney General,,39057,Greene,Keith Faber,R,21690,counting,33,151
-statewide,2026 Attorney General,2026,Attorney General,,39057,Greene,John Kulewicz,D,20333,counting,33,151
-statewide,2026 Attorney General,2026,Attorney General,,39059,Guernsey,Keith Faber,R,6566,counting,21,35
-statewide,2026 Attorney General,2026,Attorney General,,39059,Guernsey,John Kulewicz,D,3064,counting,21,35
+statewide,2026 Attorney General,2026,Attorney General,,39055,Geauga,Keith Faber,R,10565,counting,78,79
+statewide,2026 Attorney General,2026,Attorney General,,39055,Geauga,John Kulewicz,D,8190,counting,78,79
+statewide,2026 Attorney General,2026,Attorney General,,39057,Greene,Keith Faber,R,27234,counting,67,151
+statewide,2026 Attorney General,2026,Attorney General,,39057,Greene,John Kulewicz,D,23019,counting,67,151
+statewide,2026 Attorney General,2026,Attorney General,,39059,Guernsey,Keith Faber,R,8818,counting,35,35
+statewide,2026 Attorney General,2026,Attorney General,,39059,Guernsey,John Kulewicz,D,3772,counting,35,35
 statewide,2026 Attorney General,2026,Attorney General,,39061,Hamilton,John Kulewicz,D,113470,counting,130,563
 statewide,2026 Attorney General,2026,Attorney General,,39061,Hamilton,Keith Faber,R,49381,counting,130,563
 statewide,2026 Attorney General,2026,Attorney General,,39063,Hancock,Keith Faber,R,18081,counting,58,60
@@ -425,14 +425,14 @@ statewide,2026 Attorney General,2026,Attorney General,,39071,Highland,Keith Fabe
 statewide,2026 Attorney General,2026,Attorney General,,39071,Highland,John Kulewicz,D,1787,counting,0,31
 statewide,2026 Attorney General,2026,Attorney General,,39073,Hocking,Keith Faber,R,3217,counting,2,20
 statewide,2026 Attorney General,2026,Attorney General,,39073,Hocking,John Kulewicz,D,2247,counting,2,20
-statewide,2026 Attorney General,2026,Attorney General,,39075,Holmes,Keith Faber,R,4358,counting,8,17
-statewide,2026 Attorney General,2026,Attorney General,,39075,Holmes,John Kulewicz,D,1252,counting,8,17
+statewide,2026 Attorney General,2026,Attorney General,,39075,Holmes,Keith Faber,R,6785,counting,16,17
+statewide,2026 Attorney General,2026,Attorney General,,39075,Holmes,John Kulewicz,D,1591,counting,16,17
 statewide,2026 Attorney General,2026,Attorney General,,39077,Huron,Keith Faber,R,8395,counting,24,46
 statewide,2026 Attorney General,2026,Attorney General,,39077,Huron,John Kulewicz,D,5215,counting,24,46
 statewide,2026 Attorney General,2026,Attorney General,,39079,Jackson,Keith Faber,R,5973,counting,22,29
 statewide,2026 Attorney General,2026,Attorney General,,39079,Jackson,John Kulewicz,D,2555,counting,22,29
-statewide,2026 Attorney General,2026,Attorney General,,39081,Jefferson,Keith Faber,R,10795,counting,37,55
-statewide,2026 Attorney General,2026,Attorney General,,39081,Jefferson,John Kulewicz,D,6592,counting,37,55
+statewide,2026 Attorney General,2026,Attorney General,,39081,Jefferson,Keith Faber,R,13880,counting,54,55
+statewide,2026 Attorney General,2026,Attorney General,,39081,Jefferson,John Kulewicz,D,7793,counting,54,55
 statewide,2026 Attorney General,2026,Attorney General,,39083,Knox,Keith Faber,R,16412,counting,53,53
 statewide,2026 Attorney General,2026,Attorney General,,39083,Knox,John Kulewicz,D,7511,counting,53,53
 statewide,2026 Attorney General,2026,Attorney General,,39085,Lake,Keith Faber,R,41974,counting,114,163
@@ -483,8 +483,8 @@ statewide,2026 Attorney General,2026,Attorney General,,39129,Pickaway,Keith Fabe
 statewide,2026 Attorney General,2026,Attorney General,,39129,Pickaway,John Kulewicz,D,4311,counting,15,46
 statewide,2026 Attorney General,2026,Attorney General,,39131,Pike,Keith Faber,R,5819,counting,22,22
 statewide,2026 Attorney General,2026,Attorney General,,39131,Pike,John Kulewicz,D,2598,counting,22,22
-statewide,2026 Attorney General,2026,Attorney General,,39133,Portage,John Kulewicz,D,16094,counting,15,126
-statewide,2026 Attorney General,2026,Attorney General,,39133,Portage,Keith Faber,R,11057,counting,15,126
+statewide,2026 Attorney General,2026,Attorney General,,39133,Portage,John Kulewicz,D,21531,counting,56,126
+statewide,2026 Attorney General,2026,Attorney General,,39133,Portage,Keith Faber,R,20093,counting,56,126
 statewide,2026 Attorney General,2026,Attorney General,,39135,Preble,Keith Faber,R,11596,counting,65,65
 statewide,2026 Attorney General,2026,Attorney General,,39135,Preble,John Kulewicz,D,3744,counting,65,65
 statewide,2026 Attorney General,2026,Attorney General,,39137,Putnam,Keith Faber,R,12832,counting,25,25
@@ -521,14 +521,14 @@ statewide,2026 Attorney General,2026,Attorney General,,39167,Washington,Keith Fa
 statewide,2026 Attorney General,2026,Attorney General,,39167,Washington,John Kulewicz,D,7693,counting,50,50
 statewide,2026 Attorney General,2026,Attorney General,,39169,Wayne,Keith Faber,R,12627,counting,14,66
 statewide,2026 Attorney General,2026,Attorney General,,39169,Wayne,John Kulewicz,D,8985,counting,14,66
-statewide,2026 Attorney General,2026,Attorney General,,39171,Williams,Keith Faber,R,7952,counting,23,26
-statewide,2026 Attorney General,2026,Attorney General,,39171,Williams,John Kulewicz,D,3458,counting,23,26
+statewide,2026 Attorney General,2026,Attorney General,,39171,Williams,Keith Faber,R,8829,counting,24,26
+statewide,2026 Attorney General,2026,Attorney General,,39171,Williams,John Kulewicz,D,3827,counting,24,26
 statewide,2026 Attorney General,2026,Attorney General,,39173,Wood,John Kulewicz,D,17074,counting,29,99
 statewide,2026 Attorney General,2026,Attorney General,,39173,Wood,Keith Faber,R,12621,counting,29,99
 statewide,2026 Attorney General,2026,Attorney General,,39175,Wyandot,Keith Faber,R,6261,counting,23,23
 statewide,2026 Attorney General,2026,Attorney General,,39175,Wyandot,John Kulewicz,D,2637,counting,23,23
-statewide,2026 Auditor,2026,Auditor,,39001,Adams,Frank LaRose,R,4062,counting,7,21
-statewide,2026 Auditor,2026,Auditor,,39001,Adams,Annette Blackwell,D,1508,counting,7,21
+statewide,2026 Auditor,2026,Auditor,,39001,Adams,Frank LaRose,R,5644,counting,16,21
+statewide,2026 Auditor,2026,Auditor,,39001,Adams,Annette Blackwell,D,1870,counting,16,21
 statewide,2026 Auditor,2026,Auditor,,39003,Allen,Frank LaRose,R,24068,counting,88,88
 statewide,2026 Auditor,2026,Auditor,,39003,Allen,Annette Blackwell,D,11030,counting,88,88
 statewide,2026 Auditor,2026,Auditor,,39005,Ashland,Frank LaRose,R,14074,counting,39,39
@@ -543,16 +543,16 @@ statewide,2026 Auditor,2026,Auditor,,39013,Belmont,Frank LaRose,R,11060,counting
 statewide,2026 Auditor,2026,Auditor,,39013,Belmont,Annette Blackwell,D,6068,counting,35,69
 statewide,2026 Auditor,2026,Auditor,,39015,Brown,Frank LaRose,R,4957,counting,4,33
 statewide,2026 Auditor,2026,Auditor,,39015,Brown,Annette Blackwell,D,2129,counting,4,33
-statewide,2026 Auditor,2026,Auditor,,39017,Butler,Frank LaRose,R,42568,counting,82,292
-statewide,2026 Auditor,2026,Auditor,,39017,Butler,Annette Blackwell,D,35843,counting,82,292
+statewide,2026 Auditor,2026,Auditor,,39017,Butler,Frank LaRose,R,62867,counting,196,292
+statewide,2026 Auditor,2026,Auditor,,39017,Butler,Annette Blackwell,D,47984,counting,196,292
 statewide,2026 Auditor,2026,Auditor,,39019,Carroll,Frank LaRose,R,7549,counting,22,23
 statewide,2026 Auditor,2026,Auditor,,39019,Carroll,Annette Blackwell,D,2688,counting,22,23
-statewide,2026 Auditor,2026,Auditor,,39021,Champaign,Frank LaRose,R,10292,counting,28,31
-statewide,2026 Auditor,2026,Auditor,,39021,Champaign,Annette Blackwell,D,4302,counting,28,31
+statewide,2026 Auditor,2026,Auditor,,39021,Champaign,Frank LaRose,R,10916,counting,31,31
+statewide,2026 Auditor,2026,Auditor,,39021,Champaign,Annette Blackwell,D,4453,counting,31,31
 statewide,2026 Auditor,2026,Auditor,,39023,Clark,Frank LaRose,R,24047,counting,59,78
 statewide,2026 Auditor,2026,Auditor,,39023,Clark,Annette Blackwell,D,17194,counting,59,78
-statewide,2026 Auditor,2026,Auditor,,39025,Clermont,Frank LaRose,R,27731,counting,44,168
-statewide,2026 Auditor,2026,Auditor,,39025,Clermont,Annette Blackwell,D,19757,counting,44,168
+statewide,2026 Auditor,2026,Auditor,,39025,Clermont,Frank LaRose,R,27731,counting,102,168
+statewide,2026 Auditor,2026,Auditor,,39025,Clermont,Annette Blackwell,D,19757,counting,102,168
 statewide,2026 Auditor,2026,Auditor,,39027,Clinton,Frank LaRose,R,5318,counting,6,36
 statewide,2026 Auditor,2026,Auditor,,39027,Clinton,Annette Blackwell,D,2611,counting,6,36
 statewide,2026 Auditor,2026,Auditor,,39029,Columbiana,Frank LaRose,R,24087,counting,73,73
@@ -577,16 +577,16 @@ statewide,2026 Auditor,2026,Auditor,,39047,Fayette,Frank LaRose,R,6642,counting,
 statewide,2026 Auditor,2026,Auditor,,39047,Fayette,Annette Blackwell,D,2383,counting,25,25
 statewide,2026 Auditor,2026,Auditor,,39049,Franklin,Annette Blackwell,D,183548,counting,254,889
 statewide,2026 Auditor,2026,Auditor,,39049,Franklin,Frank LaRose,R,72168,counting,254,889
-statewide,2026 Auditor,2026,Auditor,,39051,Fulton,Frank LaRose,R,7130,counting,13,29
-statewide,2026 Auditor,2026,Auditor,,39051,Fulton,Annette Blackwell,D,3779,counting,13,29
+statewide,2026 Auditor,2026,Auditor,,39051,Fulton,Frank LaRose,R,11784,counting,29,29
+statewide,2026 Auditor,2026,Auditor,,39051,Fulton,Annette Blackwell,D,5470,counting,29,29
 statewide,2026 Auditor,2026,Auditor,,39053,Gallia,Frank LaRose,R,6364,counting,26,26
 statewide,2026 Auditor,2026,Auditor,,39053,Gallia,Annette Blackwell,D,2236,counting,26,26
-statewide,2026 Auditor,2026,Auditor,,39055,Geauga,Frank LaRose,R,10864,counting,27,79
-statewide,2026 Auditor,2026,Auditor,,39055,Geauga,Annette Blackwell,D,8005,counting,27,79
-statewide,2026 Auditor,2026,Auditor,,39057,Greene,Frank LaRose,R,22090,counting,33,151
-statewide,2026 Auditor,2026,Auditor,,39057,Greene,Annette Blackwell,D,19962,counting,33,151
-statewide,2026 Auditor,2026,Auditor,,39059,Guernsey,Frank LaRose,R,6605,counting,21,35
-statewide,2026 Auditor,2026,Auditor,,39059,Guernsey,Annette Blackwell,D,3057,counting,21,35
+statewide,2026 Auditor,2026,Auditor,,39055,Geauga,Frank LaRose,R,10864,counting,78,79
+statewide,2026 Auditor,2026,Auditor,,39055,Geauga,Annette Blackwell,D,8005,counting,78,79
+statewide,2026 Auditor,2026,Auditor,,39057,Greene,Frank LaRose,R,27663,counting,67,151
+statewide,2026 Auditor,2026,Auditor,,39057,Greene,Annette Blackwell,D,22596,counting,67,151
+statewide,2026 Auditor,2026,Auditor,,39059,Guernsey,Frank LaRose,R,8876,counting,35,35
+statewide,2026 Auditor,2026,Auditor,,39059,Guernsey,Annette Blackwell,D,3760,counting,35,35
 statewide,2026 Auditor,2026,Auditor,,39061,Hamilton,Annette Blackwell,D,111287,counting,130,563
 statewide,2026 Auditor,2026,Auditor,,39061,Hamilton,Frank LaRose,R,51445,counting,130,563
 statewide,2026 Auditor,2026,Auditor,,39063,Hancock,Frank LaRose,R,18307,counting,58,60
@@ -601,14 +601,14 @@ statewide,2026 Auditor,2026,Auditor,,39071,Highland,Frank LaRose,R,3639,counting
 statewide,2026 Auditor,2026,Auditor,,39071,Highland,Annette Blackwell,D,1784,counting,0,31
 statewide,2026 Auditor,2026,Auditor,,39073,Hocking,Frank LaRose,R,3229,counting,2,20
 statewide,2026 Auditor,2026,Auditor,,39073,Hocking,Annette Blackwell,D,2237,counting,2,20
-statewide,2026 Auditor,2026,Auditor,,39075,Holmes,Frank LaRose,R,4424,counting,8,17
-statewide,2026 Auditor,2026,Auditor,,39075,Holmes,Annette Blackwell,D,1227,counting,8,17
+statewide,2026 Auditor,2026,Auditor,,39075,Holmes,Frank LaRose,R,6855,counting,16,17
+statewide,2026 Auditor,2026,Auditor,,39075,Holmes,Annette Blackwell,D,1576,counting,16,17
 statewide,2026 Auditor,2026,Auditor,,39077,Huron,Frank LaRose,R,8528,counting,24,46
 statewide,2026 Auditor,2026,Auditor,,39077,Huron,Annette Blackwell,D,5137,counting,24,46
 statewide,2026 Auditor,2026,Auditor,,39079,Jackson,Frank LaRose,R,6045,counting,22,29
 statewide,2026 Auditor,2026,Auditor,,39079,Jackson,Annette Blackwell,D,2512,counting,22,29
-statewide,2026 Auditor,2026,Auditor,,39081,Jefferson,Frank LaRose,R,11207,counting,37,55
-statewide,2026 Auditor,2026,Auditor,,39081,Jefferson,Annette Blackwell,D,6492,counting,37,55
+statewide,2026 Auditor,2026,Auditor,,39081,Jefferson,Frank LaRose,R,14419,counting,54,55
+statewide,2026 Auditor,2026,Auditor,,39081,Jefferson,Annette Blackwell,D,7638,counting,54,55
 statewide,2026 Auditor,2026,Auditor,,39083,Knox,Frank LaRose,R,16550,counting,53,53
 statewide,2026 Auditor,2026,Auditor,,39083,Knox,Annette Blackwell,D,7387,counting,53,53
 statewide,2026 Auditor,2026,Auditor,,39085,Lake,Frank LaRose,R,43793,counting,114,163
@@ -659,8 +659,8 @@ statewide,2026 Auditor,2026,Auditor,,39129,Pickaway,Frank LaRose,R,8503,counting
 statewide,2026 Auditor,2026,Auditor,,39129,Pickaway,Annette Blackwell,D,4145,counting,15,46
 statewide,2026 Auditor,2026,Auditor,,39131,Pike,Frank LaRose,R,5805,counting,22,22
 statewide,2026 Auditor,2026,Auditor,,39131,Pike,Annette Blackwell,D,2569,counting,22,22
-statewide,2026 Auditor,2026,Auditor,,39133,Portage,Annette Blackwell,D,15659,counting,15,126
-statewide,2026 Auditor,2026,Auditor,,39133,Portage,Frank LaRose,R,11529,counting,15,126
+statewide,2026 Auditor,2026,Auditor,,39133,Portage,Annette Blackwell,D,20957,counting,56,126
+statewide,2026 Auditor,2026,Auditor,,39133,Portage,Frank LaRose,R,20715,counting,56,126
 statewide,2026 Auditor,2026,Auditor,,39135,Preble,Frank LaRose,R,11491,counting,65,65
 statewide,2026 Auditor,2026,Auditor,,39135,Preble,Annette Blackwell,D,3825,counting,65,65
 statewide,2026 Auditor,2026,Auditor,,39137,Putnam,Frank LaRose,R,12667,counting,25,25
@@ -697,15 +697,15 @@ statewide,2026 Auditor,2026,Auditor,,39167,Washington,Frank LaRose,R,14221,count
 statewide,2026 Auditor,2026,Auditor,,39167,Washington,Annette Blackwell,D,7571,counting,50,50
 statewide,2026 Auditor,2026,Auditor,,39169,Wayne,Frank LaRose,R,12852,counting,14,66
 statewide,2026 Auditor,2026,Auditor,,39169,Wayne,Annette Blackwell,D,8800,counting,14,66
-statewide,2026 Auditor,2026,Auditor,,39171,Williams,Frank LaRose,R,7984,counting,23,26
-statewide,2026 Auditor,2026,Auditor,,39171,Williams,Annette Blackwell,D,3408,counting,23,26
+statewide,2026 Auditor,2026,Auditor,,39171,Williams,Frank LaRose,R,8863,counting,24,26
+statewide,2026 Auditor,2026,Auditor,,39171,Williams,Annette Blackwell,D,3778,counting,24,26
 statewide,2026 Auditor,2026,Auditor,,39173,Wood,Annette Blackwell,D,16560,counting,29,99
 statewide,2026 Auditor,2026,Auditor,,39173,Wood,Frank LaRose,R,13219,counting,29,99
 statewide,2026 Auditor,2026,Auditor,,39175,Wyandot,Frank LaRose,R,6348,counting,23,23
 statewide,2026 Auditor,2026,Auditor,,39175,Wyandot,Annette Blackwell,D,2564,counting,23,23
-statewide,2026 Secretary of State,2026,Secretary of State,,39001,Adams,Robert Sprague,R,3884,counting,7,21
-statewide,2026 Secretary of State,2026,Secretary of State,,39001,Adams,Allison Russo,D,1500,counting,7,21
-statewide,2026 Secretary of State,2026,Secretary of State,,39001,Adams,Tom Pruss,L,169,counting,7,21
+statewide,2026 Secretary of State,2026,Secretary of State,,39001,Adams,Robert Sprague,R,5373,counting,16,21
+statewide,2026 Secretary of State,2026,Secretary of State,,39001,Adams,Allison Russo,D,1857,counting,16,21
+statewide,2026 Secretary of State,2026,Secretary of State,,39001,Adams,Tom Pruss,L,261,counting,16,21
 statewide,2026 Secretary of State,2026,Secretary of State,,39003,Allen,Robert Sprague,R,23020,counting,88,88
 statewide,2026 Secretary of State,2026,Secretary of State,,39003,Allen,Allison Russo,D,11069,counting,88,88
 statewide,2026 Secretary of State,2026,Secretary of State,,39003,Allen,Tom Pruss,L,1066,counting,88,88
@@ -727,21 +727,21 @@ statewide,2026 Secretary of State,2026,Secretary of State,,39013,Belmont,Tom Pru
 statewide,2026 Secretary of State,2026,Secretary of State,,39015,Brown,Robert Sprague,R,4715,counting,4,33
 statewide,2026 Secretary of State,2026,Secretary of State,,39015,Brown,Allison Russo,D,2185,counting,4,33
 statewide,2026 Secretary of State,2026,Secretary of State,,39015,Brown,Tom Pruss,L,187,counting,4,33
-statewide,2026 Secretary of State,2026,Secretary of State,,39017,Butler,Robert Sprague,R,40294,counting,82,292
-statewide,2026 Secretary of State,2026,Secretary of State,,39017,Butler,Allison Russo,D,36163,counting,82,292
-statewide,2026 Secretary of State,2026,Secretary of State,,39017,Butler,Tom Pruss,L,1997,counting,82,292
+statewide,2026 Secretary of State,2026,Secretary of State,,39017,Butler,Robert Sprague,R,59343,counting,196,292
+statewide,2026 Secretary of State,2026,Secretary of State,,39017,Butler,Allison Russo,D,48447,counting,196,292
+statewide,2026 Secretary of State,2026,Secretary of State,,39017,Butler,Tom Pruss,L,3127,counting,196,292
 statewide,2026 Secretary of State,2026,Secretary of State,,39019,Carroll,Robert Sprague,R,7153,counting,22,23
 statewide,2026 Secretary of State,2026,Secretary of State,,39019,Carroll,Allison Russo,D,2777,counting,22,23
 statewide,2026 Secretary of State,2026,Secretary of State,,39019,Carroll,Tom Pruss,L,326,counting,22,23
-statewide,2026 Secretary of State,2026,Secretary of State,,39021,Champaign,Robert Sprague,R,9715,counting,28,31
-statewide,2026 Secretary of State,2026,Secretary of State,,39021,Champaign,Allison Russo,D,4308,counting,28,31
-statewide,2026 Secretary of State,2026,Secretary of State,,39021,Champaign,Tom Pruss,L,575,counting,28,31
+statewide,2026 Secretary of State,2026,Secretary of State,,39021,Champaign,Robert Sprague,R,10298,counting,31,31
+statewide,2026 Secretary of State,2026,Secretary of State,,39021,Champaign,Allison Russo,D,4463,counting,31,31
+statewide,2026 Secretary of State,2026,Secretary of State,,39021,Champaign,Tom Pruss,L,613,counting,31,31
 statewide,2026 Secretary of State,2026,Secretary of State,,39023,Clark,Robert Sprague,R,22590,counting,59,78
 statewide,2026 Secretary of State,2026,Secretary of State,,39023,Clark,Allison Russo,D,17357,counting,59,78
 statewide,2026 Secretary of State,2026,Secretary of State,,39023,Clark,Tom Pruss,L,1379,counting,59,78
-statewide,2026 Secretary of State,2026,Secretary of State,,39025,Clermont,Robert Sprague,R,26174,counting,44,168
-statewide,2026 Secretary of State,2026,Secretary of State,,39025,Clermont,Allison Russo,D,19884,counting,44,168
-statewide,2026 Secretary of State,2026,Secretary of State,,39025,Clermont,Tom Pruss,L,1451,counting,44,168
+statewide,2026 Secretary of State,2026,Secretary of State,,39025,Clermont,Robert Sprague,R,26174,counting,102,168
+statewide,2026 Secretary of State,2026,Secretary of State,,39025,Clermont,Allison Russo,D,19884,counting,102,168
+statewide,2026 Secretary of State,2026,Secretary of State,,39025,Clermont,Tom Pruss,L,1451,counting,102,168
 statewide,2026 Secretary of State,2026,Secretary of State,,39027,Clinton,Robert Sprague,R,5111,counting,6,36
 statewide,2026 Secretary of State,2026,Secretary of State,,39027,Clinton,Allison Russo,D,2609,counting,6,36
 statewide,2026 Secretary of State,2026,Secretary of State,,39027,Clinton,Tom Pruss,L,236,counting,6,36
@@ -778,21 +778,21 @@ statewide,2026 Secretary of State,2026,Secretary of State,,39047,Fayette,Tom Pru
 statewide,2026 Secretary of State,2026,Secretary of State,,39049,Franklin,Allison Russo,D,188672,counting,254,889
 statewide,2026 Secretary of State,2026,Secretary of State,,39049,Franklin,Robert Sprague,R,62167,counting,254,889
 statewide,2026 Secretary of State,2026,Secretary of State,,39049,Franklin,Tom Pruss,L,5388,counting,254,889
-statewide,2026 Secretary of State,2026,Secretary of State,,39051,Fulton,Robert Sprague,R,6679,counting,13,29
-statewide,2026 Secretary of State,2026,Secretary of State,,39051,Fulton,Allison Russo,D,3820,counting,13,29
-statewide,2026 Secretary of State,2026,Secretary of State,,39051,Fulton,Tom Pruss,L,386,counting,13,29
+statewide,2026 Secretary of State,2026,Secretary of State,,39051,Fulton,Robert Sprague,R,11003,counting,29,29
+statewide,2026 Secretary of State,2026,Secretary of State,,39051,Fulton,Allison Russo,D,5521,counting,29,29
+statewide,2026 Secretary of State,2026,Secretary of State,,39051,Fulton,Tom Pruss,L,696,counting,29,29
 statewide,2026 Secretary of State,2026,Secretary of State,,39053,Gallia,Robert Sprague,R,6229,counting,26,26
 statewide,2026 Secretary of State,2026,Secretary of State,,39053,Gallia,Allison Russo,D,2227,counting,26,26
 statewide,2026 Secretary of State,2026,Secretary of State,,39053,Gallia,Tom Pruss,L,184,counting,26,26
-statewide,2026 Secretary of State,2026,Secretary of State,,39055,Geauga,Robert Sprague,R,10178,counting,27,79
-statewide,2026 Secretary of State,2026,Secretary of State,,39055,Geauga,Allison Russo,D,8118,counting,27,79
-statewide,2026 Secretary of State,2026,Secretary of State,,39055,Geauga,Tom Pruss,L,523,counting,27,79
-statewide,2026 Secretary of State,2026,Secretary of State,,39057,Greene,Robert Sprague,R,20824,counting,33,151
-statewide,2026 Secretary of State,2026,Secretary of State,,39057,Greene,Allison Russo,D,20197,counting,33,151
-statewide,2026 Secretary of State,2026,Secretary of State,,39057,Greene,Tom Pruss,L,1043,counting,33,151
-statewide,2026 Secretary of State,2026,Secretary of State,,39059,Guernsey,Robert Sprague,R,6228,counting,21,35
-statewide,2026 Secretary of State,2026,Secretary of State,,39059,Guernsey,Allison Russo,D,3065,counting,21,35
-statewide,2026 Secretary of State,2026,Secretary of State,,39059,Guernsey,Tom Pruss,L,330,counting,21,35
+statewide,2026 Secretary of State,2026,Secretary of State,,39055,Geauga,Robert Sprague,R,10178,counting,78,79
+statewide,2026 Secretary of State,2026,Secretary of State,,39055,Geauga,Allison Russo,D,8118,counting,78,79
+statewide,2026 Secretary of State,2026,Secretary of State,,39055,Geauga,Tom Pruss,L,523,counting,78,79
+statewide,2026 Secretary of State,2026,Secretary of State,,39057,Greene,Robert Sprague,R,26008,counting,67,151
+statewide,2026 Secretary of State,2026,Secretary of State,,39057,Greene,Allison Russo,D,22828,counting,67,151
+statewide,2026 Secretary of State,2026,Secretary of State,,39057,Greene,Tom Pruss,L,1439,counting,67,151
+statewide,2026 Secretary of State,2026,Secretary of State,,39059,Guernsey,Robert Sprague,R,8351,counting,35,35
+statewide,2026 Secretary of State,2026,Secretary of State,,39059,Guernsey,Allison Russo,D,3784,counting,35,35
+statewide,2026 Secretary of State,2026,Secretary of State,,39059,Guernsey,Tom Pruss,L,455,counting,35,35
 statewide,2026 Secretary of State,2026,Secretary of State,,39061,Hamilton,Allison Russo,D,112804,counting,130,563
 statewide,2026 Secretary of State,2026,Secretary of State,,39061,Hamilton,Robert Sprague,R,46682,counting,130,563
 statewide,2026 Secretary of State,2026,Secretary of State,,39061,Hamilton,Tom Pruss,L,3482,counting,130,563
@@ -814,18 +814,18 @@ statewide,2026 Secretary of State,2026,Secretary of State,,39071,Highland,Tom Pr
 statewide,2026 Secretary of State,2026,Secretary of State,,39073,Hocking,Robert Sprague,R,3036,counting,2,20
 statewide,2026 Secretary of State,2026,Secretary of State,,39073,Hocking,Allison Russo,D,2284,counting,2,20
 statewide,2026 Secretary of State,2026,Secretary of State,,39073,Hocking,Tom Pruss,L,138,counting,2,20
-statewide,2026 Secretary of State,2026,Secretary of State,,39075,Holmes,Robert Sprague,R,4248,counting,8,17
-statewide,2026 Secretary of State,2026,Secretary of State,,39075,Holmes,Allison Russo,D,1217,counting,8,17
-statewide,2026 Secretary of State,2026,Secretary of State,,39075,Holmes,Tom Pruss,L,145,counting,8,17
+statewide,2026 Secretary of State,2026,Secretary of State,,39075,Holmes,Robert Sprague,R,6558,counting,16,17
+statewide,2026 Secretary of State,2026,Secretary of State,,39075,Holmes,Allison Russo,D,1573,counting,16,17
+statewide,2026 Secretary of State,2026,Secretary of State,,39075,Holmes,Tom Pruss,L,240,counting,16,17
 statewide,2026 Secretary of State,2026,Secretary of State,,39077,Huron,Robert Sprague,R,7929,counting,24,46
 statewide,2026 Secretary of State,2026,Secretary of State,,39077,Huron,Allison Russo,D,5217,counting,24,46
 statewide,2026 Secretary of State,2026,Secretary of State,,39077,Huron,Tom Pruss,L,499,counting,24,46
 statewide,2026 Secretary of State,2026,Secretary of State,,39079,Jackson,Robert Sprague,R,5767,counting,22,29
 statewide,2026 Secretary of State,2026,Secretary of State,,39079,Jackson,Allison Russo,D,2578,counting,22,29
 statewide,2026 Secretary of State,2026,Secretary of State,,39079,Jackson,Tom Pruss,L,213,counting,22,29
-statewide,2026 Secretary of State,2026,Secretary of State,,39081,Jefferson,Robert Sprague,R,10527,counting,37,55
-statewide,2026 Secretary of State,2026,Secretary of State,,39081,Jefferson,Allison Russo,D,6601,counting,37,55
-statewide,2026 Secretary of State,2026,Secretary of State,,39081,Jefferson,Tom Pruss,L,535,counting,37,55
+statewide,2026 Secretary of State,2026,Secretary of State,,39081,Jefferson,Robert Sprague,R,13561,counting,54,55
+statewide,2026 Secretary of State,2026,Secretary of State,,39081,Jefferson,Allison Russo,D,7753,counting,54,55
+statewide,2026 Secretary of State,2026,Secretary of State,,39081,Jefferson,Tom Pruss,L,697,counting,54,55
 statewide,2026 Secretary of State,2026,Secretary of State,,39083,Knox,Robert Sprague,R,15707,counting,53,53
 statewide,2026 Secretary of State,2026,Secretary of State,,39083,Knox,Allison Russo,D,7511,counting,53,53
 statewide,2026 Secretary of State,2026,Secretary of State,,39083,Knox,Tom Pruss,L,787,counting,53,53
@@ -901,9 +901,9 @@ statewide,2026 Secretary of State,2026,Secretary of State,,39129,Pickaway,Tom Pr
 statewide,2026 Secretary of State,2026,Secretary of State,,39131,Pike,Robert Sprague,R,5528,counting,22,22
 statewide,2026 Secretary of State,2026,Secretary of State,,39131,Pike,Allison Russo,D,2648,counting,22,22
 statewide,2026 Secretary of State,2026,Secretary of State,,39131,Pike,Tom Pruss,L,258,counting,22,22
-statewide,2026 Secretary of State,2026,Secretary of State,,39133,Portage,Allison Russo,D,16058,counting,15,126
-statewide,2026 Secretary of State,2026,Secretary of State,,39133,Portage,Robert Sprague,R,10534,counting,15,126
-statewide,2026 Secretary of State,2026,Secretary of State,,39133,Portage,Tom Pruss,L,664,counting,15,126
+statewide,2026 Secretary of State,2026,Secretary of State,,39133,Portage,Allison Russo,D,21542,counting,56,126
+statewide,2026 Secretary of State,2026,Secretary of State,,39133,Portage,Robert Sprague,R,18935,counting,56,126
+statewide,2026 Secretary of State,2026,Secretary of State,,39133,Portage,Tom Pruss,L,1285,counting,56,126
 statewide,2026 Secretary of State,2026,Secretary of State,,39135,Preble,Robert Sprague,R,10913,counting,65,65
 statewide,2026 Secretary of State,2026,Secretary of State,,39135,Preble,Allison Russo,D,3834,counting,65,65
 statewide,2026 Secretary of State,2026,Secretary of State,,39135,Preble,Tom Pruss,L,555,counting,65,65
@@ -958,17 +958,17 @@ statewide,2026 Secretary of State,2026,Secretary of State,,39167,Washington,Tom 
 statewide,2026 Secretary of State,2026,Secretary of State,,39169,Wayne,Robert Sprague,R,12132,counting,14,66
 statewide,2026 Secretary of State,2026,Secretary of State,,39169,Wayne,Allison Russo,D,9041,counting,14,66
 statewide,2026 Secretary of State,2026,Secretary of State,,39169,Wayne,Tom Pruss,L,464,counting,14,66
-statewide,2026 Secretary of State,2026,Secretary of State,,39171,Williams,Robert Sprague,R,7590,counting,23,26
-statewide,2026 Secretary of State,2026,Secretary of State,,39171,Williams,Allison Russo,D,3350,counting,23,26
-statewide,2026 Secretary of State,2026,Secretary of State,,39171,Williams,Tom Pruss,L,438,counting,23,26
+statewide,2026 Secretary of State,2026,Secretary of State,,39171,Williams,Robert Sprague,R,8407,counting,24,26
+statewide,2026 Secretary of State,2026,Secretary of State,,39171,Williams,Allison Russo,D,3719,counting,24,26
+statewide,2026 Secretary of State,2026,Secretary of State,,39171,Williams,Tom Pruss,L,502,counting,24,26
 statewide,2026 Secretary of State,2026,Secretary of State,,39173,Wood,Allison Russo,D,16820,counting,29,99
 statewide,2026 Secretary of State,2026,Secretary of State,,39173,Wood,Robert Sprague,R,12115,counting,29,99
 statewide,2026 Secretary of State,2026,Secretary of State,,39173,Wood,Tom Pruss,L,834,counting,29,99
 statewide,2026 Secretary of State,2026,Secretary of State,,39175,Wyandot,Robert Sprague,R,6703,counting,23,23
 statewide,2026 Secretary of State,2026,Secretary of State,,39175,Wyandot,Allison Russo,D,2639,counting,23,23
 statewide,2026 Secretary of State,2026,Secretary of State,,39175,Wyandot,Tom Pruss,L,468,counting,23,23
-statewide,2026 Treasurer,2026,Treasurer,,39001,Adams,Jay Edwards,R,3970,counting,7,21
-statewide,2026 Treasurer,2026,Treasurer,,39001,Adams,Seth Walsh,D,1535,counting,7,21
+statewide,2026 Treasurer,2026,Treasurer,,39001,Adams,Jay Edwards,R,5529,counting,16,21
+statewide,2026 Treasurer,2026,Treasurer,,39001,Adams,Seth Walsh,D,1907,counting,16,21
 statewide,2026 Treasurer,2026,Treasurer,,39003,Allen,Jay Edwards,R,23687,counting,88,88
 statewide,2026 Treasurer,2026,Treasurer,,39003,Allen,Seth Walsh,D,11317,counting,88,88
 statewide,2026 Treasurer,2026,Treasurer,,39005,Ashland,Jay Edwards,R,13814,counting,39,39
@@ -983,16 +983,16 @@ statewide,2026 Treasurer,2026,Treasurer,,39013,Belmont,Jay Edwards,R,10794,count
 statewide,2026 Treasurer,2026,Treasurer,,39013,Belmont,Seth Walsh,D,6196,counting,35,69
 statewide,2026 Treasurer,2026,Treasurer,,39015,Brown,Jay Edwards,R,4863,counting,4,33
 statewide,2026 Treasurer,2026,Treasurer,,39015,Brown,Seth Walsh,D,2207,counting,4,33
-statewide,2026 Treasurer,2026,Treasurer,,39017,Butler,Jay Edwards,R,41767,counting,82,292
-statewide,2026 Treasurer,2026,Treasurer,,39017,Butler,Seth Walsh,D,36422,counting,82,292
+statewide,2026 Treasurer,2026,Treasurer,,39017,Butler,Jay Edwards,R,61668,counting,196,292
+statewide,2026 Treasurer,2026,Treasurer,,39017,Butler,Seth Walsh,D,48828,counting,196,292
 statewide,2026 Treasurer,2026,Treasurer,,39019,Carroll,Jay Edwards,R,7391,counting,22,23
 statewide,2026 Treasurer,2026,Treasurer,,39019,Carroll,Seth Walsh,D,2773,counting,22,23
-statewide,2026 Treasurer,2026,Treasurer,,39021,Champaign,Jay Edwards,R,10148,counting,28,31
-statewide,2026 Treasurer,2026,Treasurer,,39021,Champaign,Seth Walsh,D,4350,counting,28,31
+statewide,2026 Treasurer,2026,Treasurer,,39021,Champaign,Jay Edwards,R,10758,counting,31,31
+statewide,2026 Treasurer,2026,Treasurer,,39021,Champaign,Seth Walsh,D,4508,counting,31,31
 statewide,2026 Treasurer,2026,Treasurer,,39023,Clark,Jay Edwards,R,23519,counting,59,78
 statewide,2026 Treasurer,2026,Treasurer,,39023,Clark,Seth Walsh,D,17566,counting,59,78
-statewide,2026 Treasurer,2026,Treasurer,,39025,Clermont,Jay Edwards,R,27190,counting,44,168
-statewide,2026 Treasurer,2026,Treasurer,,39025,Clermont,Seth Walsh,D,20097,counting,44,168
+statewide,2026 Treasurer,2026,Treasurer,,39025,Clermont,Jay Edwards,R,27190,counting,102,168
+statewide,2026 Treasurer,2026,Treasurer,,39025,Clermont,Seth Walsh,D,20097,counting,102,168
 statewide,2026 Treasurer,2026,Treasurer,,39027,Clinton,Jay Edwards,R,5280,counting,6,36
 statewide,2026 Treasurer,2026,Treasurer,,39027,Clinton,Seth Walsh,D,2629,counting,6,36
 statewide,2026 Treasurer,2026,Treasurer,,39029,Columbiana,Jay Edwards,R,23387,counting,73,73
@@ -1017,16 +1017,16 @@ statewide,2026 Treasurer,2026,Treasurer,,39047,Fayette,Jay Edwards,R,6561,counti
 statewide,2026 Treasurer,2026,Treasurer,,39047,Fayette,Seth Walsh,D,2428,counting,25,25
 statewide,2026 Treasurer,2026,Treasurer,,39049,Franklin,Seth Walsh,D,185453,counting,254,889
 statewide,2026 Treasurer,2026,Treasurer,,39049,Franklin,Jay Edwards,R,67456,counting,254,889
-statewide,2026 Treasurer,2026,Treasurer,,39051,Fulton,Jay Edwards,R,6979,counting,13,29
-statewide,2026 Treasurer,2026,Treasurer,,39051,Fulton,Seth Walsh,D,3879,counting,13,29
+statewide,2026 Treasurer,2026,Treasurer,,39051,Fulton,Jay Edwards,R,11520,counting,29,29
+statewide,2026 Treasurer,2026,Treasurer,,39051,Fulton,Seth Walsh,D,5642,counting,29,29
 statewide,2026 Treasurer,2026,Treasurer,,39053,Gallia,Jay Edwards,R,6299,counting,26,26
 statewide,2026 Treasurer,2026,Treasurer,,39053,Gallia,Seth Walsh,D,2202,counting,26,26
-statewide,2026 Treasurer,2026,Treasurer,,39055,Geauga,Jay Edwards,R,10616,counting,27,79
-statewide,2026 Treasurer,2026,Treasurer,,39055,Geauga,Seth Walsh,D,8099,counting,27,79
-statewide,2026 Treasurer,2026,Treasurer,,39057,Greene,Jay Edwards,R,21653,counting,33,151
-statewide,2026 Treasurer,2026,Treasurer,,39057,Greene,Seth Walsh,D,20303,counting,33,151
-statewide,2026 Treasurer,2026,Treasurer,,39059,Guernsey,Jay Edwards,R,6477,counting,21,35
-statewide,2026 Treasurer,2026,Treasurer,,39059,Guernsey,Seth Walsh,D,3067,counting,21,35
+statewide,2026 Treasurer,2026,Treasurer,,39055,Geauga,Jay Edwards,R,10616,counting,78,79
+statewide,2026 Treasurer,2026,Treasurer,,39055,Geauga,Seth Walsh,D,8099,counting,78,79
+statewide,2026 Treasurer,2026,Treasurer,,39057,Greene,Jay Edwards,R,27111,counting,67,151
+statewide,2026 Treasurer,2026,Treasurer,,39057,Greene,Seth Walsh,D,23005,counting,67,151
+statewide,2026 Treasurer,2026,Treasurer,,39059,Guernsey,Jay Edwards,R,8702,counting,35,35
+statewide,2026 Treasurer,2026,Treasurer,,39059,Guernsey,Seth Walsh,D,3773,counting,35,35
 statewide,2026 Treasurer,2026,Treasurer,,39061,Hamilton,Seth Walsh,D,112823,counting,130,563
 statewide,2026 Treasurer,2026,Treasurer,,39061,Hamilton,Jay Edwards,R,48857,counting,130,563
 statewide,2026 Treasurer,2026,Treasurer,,39063,Hancock,Jay Edwards,R,17970,counting,58,60
@@ -1041,14 +1041,14 @@ statewide,2026 Treasurer,2026,Treasurer,,39071,Highland,Jay Edwards,R,3546,count
 statewide,2026 Treasurer,2026,Treasurer,,39071,Highland,Seth Walsh,D,1806,counting,0,31
 statewide,2026 Treasurer,2026,Treasurer,,39073,Hocking,Jay Edwards,R,3212,counting,2,20
 statewide,2026 Treasurer,2026,Treasurer,,39073,Hocking,Seth Walsh,D,2262,counting,2,20
-statewide,2026 Treasurer,2026,Treasurer,,39075,Holmes,Jay Edwards,R,4334,counting,8,17
-statewide,2026 Treasurer,2026,Treasurer,,39075,Holmes,Seth Walsh,D,1235,counting,8,17
+statewide,2026 Treasurer,2026,Treasurer,,39075,Holmes,Jay Edwards,R,6724,counting,16,17
+statewide,2026 Treasurer,2026,Treasurer,,39075,Holmes,Seth Walsh,D,1591,counting,16,17
 statewide,2026 Treasurer,2026,Treasurer,,39077,Huron,Jay Edwards,R,8295,counting,24,46
 statewide,2026 Treasurer,2026,Treasurer,,39077,Huron,Seth Walsh,D,5270,counting,24,46
 statewide,2026 Treasurer,2026,Treasurer,,39079,Jackson,Jay Edwards,R,5916,counting,22,29
 statewide,2026 Treasurer,2026,Treasurer,,39079,Jackson,Seth Walsh,D,2533,counting,22,29
-statewide,2026 Treasurer,2026,Treasurer,,39081,Jefferson,Jay Edwards,R,10886,counting,37,55
-statewide,2026 Treasurer,2026,Treasurer,,39081,Jefferson,Seth Walsh,D,6654,counting,37,55
+statewide,2026 Treasurer,2026,Treasurer,,39081,Jefferson,Jay Edwards,R,14003,counting,54,55
+statewide,2026 Treasurer,2026,Treasurer,,39081,Jefferson,Seth Walsh,D,7850,counting,54,55
 statewide,2026 Treasurer,2026,Treasurer,,39083,Knox,Jay Edwards,R,16341,counting,53,53
 statewide,2026 Treasurer,2026,Treasurer,,39083,Knox,Seth Walsh,D,7525,counting,53,53
 statewide,2026 Treasurer,2026,Treasurer,,39085,Lake,Jay Edwards,R,41599,counting,114,163
@@ -1099,8 +1099,8 @@ statewide,2026 Treasurer,2026,Treasurer,,39129,Pickaway,Jay Edwards,R,8274,count
 statewide,2026 Treasurer,2026,Treasurer,,39129,Pickaway,Seth Walsh,D,4293,counting,15,46
 statewide,2026 Treasurer,2026,Treasurer,,39131,Pike,Jay Edwards,R,5742,counting,22,22
 statewide,2026 Treasurer,2026,Treasurer,,39131,Pike,Seth Walsh,D,2656,counting,22,22
-statewide,2026 Treasurer,2026,Treasurer,,39133,Portage,Seth Walsh,D,16085,counting,15,126
-statewide,2026 Treasurer,2026,Treasurer,,39133,Portage,Jay Edwards,R,11035,counting,15,126
+statewide,2026 Treasurer,2026,Treasurer,,39133,Portage,Seth Walsh,D,21540,counting,56,126
+statewide,2026 Treasurer,2026,Treasurer,,39133,Portage,Jay Edwards,R,19923,counting,56,126
 statewide,2026 Treasurer,2026,Treasurer,,39135,Preble,Jay Edwards,R,11305,counting,65,65
 statewide,2026 Treasurer,2026,Treasurer,,39135,Preble,Seth Walsh,D,3896,counting,65,65
 statewide,2026 Treasurer,2026,Treasurer,,39137,Putnam,Jay Edwards,R,12512,counting,25,25
@@ -1137,14 +1137,14 @@ statewide,2026 Treasurer,2026,Treasurer,,39167,Washington,Jay Edwards,R,14673,co
 statewide,2026 Treasurer,2026,Treasurer,,39167,Washington,Seth Walsh,D,7519,counting,50,50
 statewide,2026 Treasurer,2026,Treasurer,,39169,Wayne,Jay Edwards,R,12519,counting,14,66
 statewide,2026 Treasurer,2026,Treasurer,,39169,Wayne,Seth Walsh,D,8956,counting,14,66
-statewide,2026 Treasurer,2026,Treasurer,,39171,Williams,Jay Edwards,R,7845,counting,23,26
-statewide,2026 Treasurer,2026,Treasurer,,39171,Williams,Seth Walsh,D,3449,counting,23,26
+statewide,2026 Treasurer,2026,Treasurer,,39171,Williams,Jay Edwards,R,8701,counting,24,26
+statewide,2026 Treasurer,2026,Treasurer,,39171,Williams,Seth Walsh,D,3830,counting,24,26
 statewide,2026 Treasurer,2026,Treasurer,,39173,Wood,Seth Walsh,D,17010,counting,29,99
 statewide,2026 Treasurer,2026,Treasurer,,39173,Wood,Jay Edwards,R,12631,counting,29,99
 statewide,2026 Treasurer,2026,Treasurer,,39175,Wyandot,Jay Edwards,R,6186,counting,23,23
 statewide,2026 Treasurer,2026,Treasurer,,39175,Wyandot,Seth Walsh,D,2674,counting,23,23
-statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39001,Adams,Daniel Hawkins,R,4039,counting,7,21
-statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39001,Adams,Marilyn Zayas,D,1491,counting,7,21
+statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39001,Adams,Daniel Hawkins,R,5618,counting,16,21
+statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39001,Adams,Marilyn Zayas,D,1850,counting,16,21
 statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39003,Allen,Daniel Hawkins,R,23581,counting,88,88
 statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39003,Allen,Marilyn Zayas,D,11355,counting,88,88
 statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39005,Ashland,Daniel Hawkins,R,13805,counting,39,39
@@ -1159,16 +1159,16 @@ statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",
 statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39013,Belmont,Marilyn Zayas,D,6283,counting,35,69
 statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39015,Brown,Daniel Hawkins,R,4874,counting,4,33
 statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39015,Brown,Marilyn Zayas,D,2196,counting,4,33
-statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39017,Butler,Daniel Hawkins,R,41599,counting,82,292
-statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39017,Butler,Marilyn Zayas,D,36706,counting,82,292
+statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39017,Butler,Daniel Hawkins,R,61465,counting,196,292
+statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39017,Butler,Marilyn Zayas,D,49272,counting,196,292
 statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39019,Carroll,Daniel Hawkins,R,7367,counting,22,23
 statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39019,Carroll,Marilyn Zayas,D,2818,counting,22,23
-statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39021,Champaign,Daniel Hawkins,R,10087,counting,28,31
-statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39021,Champaign,Marilyn Zayas,D,4419,counting,28,31
+statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39021,Champaign,Daniel Hawkins,R,10698,counting,31,31
+statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39021,Champaign,Marilyn Zayas,D,4578,counting,31,31
 statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39023,Clark,Daniel Hawkins,R,23498,counting,59,78
 statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39023,Clark,Marilyn Zayas,D,17621,counting,59,78
-statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39025,Clermont,Daniel Hawkins,R,27023,counting,44,168
-statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39025,Clermont,Marilyn Zayas,D,20290,counting,44,168
+statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39025,Clermont,Daniel Hawkins,R,27023,counting,102,168
+statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39025,Clermont,Marilyn Zayas,D,20290,counting,102,168
 statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39027,Clinton,Daniel Hawkins,R,5254,counting,6,36
 statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39027,Clinton,Marilyn Zayas,D,2668,counting,6,36
 statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39029,Columbiana,Daniel Hawkins,R,23442,counting,73,73
@@ -1193,16 +1193,16 @@ statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",
 statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39047,Fayette,Marilyn Zayas,D,2439,counting,25,25
 statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39049,Franklin,Marilyn Zayas,D,187300,counting,254,889
 statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39049,Franklin,Daniel Hawkins,R,66623,counting,254,889
-statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39051,Fulton,Daniel Hawkins,R,6961,counting,13,29
-statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39051,Fulton,Marilyn Zayas,D,3900,counting,13,29
+statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39051,Fulton,Daniel Hawkins,R,11475,counting,29,29
+statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39051,Fulton,Marilyn Zayas,D,5710,counting,29,29
 statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39053,Gallia,Daniel Hawkins,R,6324,counting,26,26
 statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39053,Gallia,Marilyn Zayas,D,2242,counting,26,26
-statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39055,Geauga,Daniel Hawkins,R,10394,counting,27,79
-statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39055,Geauga,Marilyn Zayas,D,8323,counting,27,79
-statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39057,Greene,Daniel Hawkins,R,21479,counting,33,151
-statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39057,Greene,Marilyn Zayas,D,20561,counting,33,151
-statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39059,Guernsey,Daniel Hawkins,R,6419,counting,21,35
-statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39059,Guernsey,Marilyn Zayas,D,3143,counting,21,35
+statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39055,Geauga,Daniel Hawkins,R,10394,counting,78,79
+statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39055,Geauga,Marilyn Zayas,D,8323,counting,78,79
+statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39057,Greene,Daniel Hawkins,R,26944,counting,67,151
+statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39057,Greene,Marilyn Zayas,D,23301,counting,67,151
+statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39059,Guernsey,Daniel Hawkins,R,8644,counting,35,35
+statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39059,Guernsey,Marilyn Zayas,D,3872,counting,35,35
 statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39061,Hamilton,Marilyn Zayas,D,113610,counting,130,563
 statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39061,Hamilton,Daniel Hawkins,R,48459,counting,130,563
 statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39063,Hancock,Daniel Hawkins,R,17906,counting,58,60
@@ -1217,14 +1217,14 @@ statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",
 statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39071,Highland,Marilyn Zayas,D,1810,counting,0,31
 statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39073,Hocking,Daniel Hawkins,R,3149,counting,2,20
 statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39073,Hocking,Marilyn Zayas,D,2281,counting,2,20
-statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39075,Holmes,Daniel Hawkins,R,4344,counting,8,17
-statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39075,Holmes,Marilyn Zayas,D,1244,counting,8,17
+statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39075,Holmes,Daniel Hawkins,R,6740,counting,16,17
+statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39075,Holmes,Marilyn Zayas,D,1604,counting,16,17
 statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39077,Huron,Daniel Hawkins,R,8268,counting,24,46
 statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39077,Huron,Marilyn Zayas,D,5290,counting,24,46
 statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39079,Jackson,Daniel Hawkins,R,5919,counting,22,29
 statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39079,Jackson,Marilyn Zayas,D,2571,counting,22,29
-statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39081,Jefferson,Daniel Hawkins,R,10926,counting,37,55
-statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39081,Jefferson,Marilyn Zayas,D,6631,counting,37,55
+statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39081,Jefferson,Daniel Hawkins,R,14056,counting,54,55
+statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39081,Jefferson,Marilyn Zayas,D,7819,counting,54,55
 statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39083,Knox,Daniel Hawkins,R,16339,counting,53,53
 statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39083,Knox,Marilyn Zayas,D,7532,counting,53,53
 statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39085,Lake,Marilyn Zayas,D,41876,counting,114,163
@@ -1275,8 +1275,8 @@ statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",
 statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39129,Pickaway,Marilyn Zayas,D,4328,counting,15,46
 statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39131,Pike,Daniel Hawkins,R,5729,counting,22,22
 statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39131,Pike,Marilyn Zayas,D,2670,counting,22,22
-statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39133,Portage,Marilyn Zayas,D,16187,counting,15,126
-statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39133,Portage,Daniel Hawkins,R,10938,counting,15,126
+statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39133,Portage,Marilyn Zayas,D,21779,counting,56,126
+statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39133,Portage,Daniel Hawkins,R,19712,counting,56,126
 statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39135,Preble,Daniel Hawkins,R,11329,counting,65,65
 statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39135,Preble,Marilyn Zayas,D,3930,counting,65,65
 statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39137,Putnam,Daniel Hawkins,R,12504,counting,25,25
@@ -1313,14 +1313,14 @@ statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",
 statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39167,Washington,Marilyn Zayas,D,7722,counting,50,50
 statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39169,Wayne,Daniel Hawkins,R,12456,counting,14,66
 statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39169,Wayne,Marilyn Zayas,D,9111,counting,14,66
-statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39171,Williams,Daniel Hawkins,R,7831,counting,23,26
-statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39171,Williams,Marilyn Zayas,D,3484,counting,23,26
+statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39171,Williams,Daniel Hawkins,R,8690,counting,24,26
+statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39171,Williams,Marilyn Zayas,D,3870,counting,24,26
 statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39173,Wood,Marilyn Zayas,D,17122,counting,29,99
 statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39173,Wood,Daniel Hawkins,R,12567,counting,29,99
 statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39175,Wyandot,Daniel Hawkins,R,6178,counting,23,23
 statewide,"2026 Supreme Court, Hawkins seat",2026,"Supreme Court, Hawkins seat",,39175,Wyandot,Marilyn Zayas,D,2704,counting,23,23
-statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39001,Adams,Colleen O'Donnell,R,3983,counting,7,21
-statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39001,Adams,Jennifer Brunner,D,1537,counting,7,21
+statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39001,Adams,Colleen O'Donnell,R,5518,counting,16,21
+statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39001,Adams,Jennifer Brunner,D,1928,counting,16,21
 statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39003,Allen,Colleen O'Donnell,R,23312,counting,88,88
 statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39003,Allen,Jennifer Brunner,D,11418,counting,88,88
 statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39005,Ashland,Colleen O'Donnell,R,13742,counting,39,39
@@ -1335,16 +1335,16 @@ statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",
 statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39013,Belmont,Jennifer Brunner,D,6552,counting,35,69
 statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39015,Brown,Colleen O'Donnell,R,4846,counting,4,33
 statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39015,Brown,Jennifer Brunner,D,2219,counting,4,33
-statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39017,Butler,Colleen O'Donnell,R,41284,counting,82,292
-statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39017,Butler,Jennifer Brunner,D,37104,counting,82,292
+statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39017,Butler,Colleen O'Donnell,R,61028,counting,196,292
+statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39017,Butler,Jennifer Brunner,D,49815,counting,196,292
 statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39019,Carroll,Colleen O'Donnell,R,7273,counting,22,23
 statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39019,Carroll,Jennifer Brunner,D,2899,counting,22,23
-statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39021,Champaign,Colleen O'Donnell,R,9984,counting,28,31
-statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39021,Champaign,Jennifer Brunner,D,4501,counting,28,31
+statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39021,Champaign,Colleen O'Donnell,R,10588,counting,31,31
+statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39021,Champaign,Jennifer Brunner,D,4667,counting,31,31
 statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39023,Clark,Colleen O'Donnell,R,23192,counting,59,78
 statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39023,Clark,Jennifer Brunner,D,17891,counting,59,78
-statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39025,Clermont,Colleen O'Donnell,R,26893,counting,44,168
-statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39025,Clermont,Jennifer Brunner,D,20392,counting,44,168
+statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39025,Clermont,Colleen O'Donnell,R,26893,counting,102,168
+statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39025,Clermont,Jennifer Brunner,D,20392,counting,102,168
 statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39027,Clinton,Colleen O'Donnell,R,5193,counting,6,36
 statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39027,Clinton,Jennifer Brunner,D,2730,counting,6,36
 statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39029,Columbiana,Colleen O'Donnell,R,23208,counting,73,73
@@ -1369,16 +1369,16 @@ statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",
 statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39047,Fayette,Jennifer Brunner,D,2510,counting,25,25
 statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39049,Franklin,Jennifer Brunner,D,189654,counting,254,889
 statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39049,Franklin,Colleen O'Donnell,R,65152,counting,254,889
-statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39051,Fulton,Colleen O'Donnell,R,6868,counting,13,29
-statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39051,Fulton,Jennifer Brunner,D,4001,counting,13,29
+statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39051,Fulton,Colleen O'Donnell,R,11355,counting,29,29
+statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39051,Fulton,Jennifer Brunner,D,5831,counting,29,29
 statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39053,Gallia,Colleen O'Donnell,R,6268,counting,26,26
 statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39053,Gallia,Jennifer Brunner,D,2317,counting,26,26
-statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39055,Geauga,Colleen O'Donnell,R,10431,counting,27,79
-statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39055,Geauga,Jennifer Brunner,D,8283,counting,27,79
-statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39057,Greene,Colleen O'Donnell,R,21413,counting,33,151
-statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39057,Greene,Jennifer Brunner,D,20683,counting,33,151
-statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39059,Guernsey,Colleen O'Donnell,R,6341,counting,21,35
-statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39059,Guernsey,Jennifer Brunner,D,3233,counting,21,35
+statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39055,Geauga,Colleen O'Donnell,R,10431,counting,78,79
+statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39055,Geauga,Jennifer Brunner,D,8283,counting,78,79
+statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39057,Greene,Colleen O'Donnell,R,26858,counting,67,151
+statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39057,Greene,Jennifer Brunner,D,23443,counting,67,151
+statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39059,Guernsey,Colleen O'Donnell,R,8529,counting,35,35
+statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39059,Guernsey,Jennifer Brunner,D,3994,counting,35,35
 statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39061,Hamilton,Jennifer Brunner,D,113518,counting,130,563
 statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39061,Hamilton,Colleen O'Donnell,R,48389,counting,130,563
 statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39063,Hancock,Colleen O'Donnell,R,17879,counting,58,60
@@ -1393,14 +1393,14 @@ statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",
 statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39071,Highland,Jennifer Brunner,D,1827,counting,0,31
 statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39073,Hocking,Colleen O'Donnell,R,3105,counting,2,20
 statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39073,Hocking,Jennifer Brunner,D,2330,counting,2,20
-statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39075,Holmes,Colleen O'Donnell,R,4283,counting,8,17
-statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39075,Holmes,Jennifer Brunner,D,1270,counting,8,17
+statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39075,Holmes,Colleen O'Donnell,R,6650,counting,16,17
+statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39075,Holmes,Jennifer Brunner,D,1654,counting,16,17
 statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39077,Huron,Colleen O'Donnell,R,8239,counting,24,46
 statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39077,Huron,Jennifer Brunner,D,5303,counting,24,46
 statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39079,Jackson,Colleen O'Donnell,R,5838,counting,22,29
 statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39079,Jackson,Jennifer Brunner,D,2674,counting,22,29
-statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39081,Jefferson,Colleen O'Donnell,R,10724,counting,37,55
-statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39081,Jefferson,Jennifer Brunner,D,6799,counting,37,55
+statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39081,Jefferson,Colleen O'Donnell,R,13794,counting,54,55
+statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39081,Jefferson,Jennifer Brunner,D,8023,counting,54,55
 statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39083,Knox,Colleen O'Donnell,R,16056,counting,53,53
 statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39083,Knox,Jennifer Brunner,D,7774,counting,53,53
 statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39085,Lake,Jennifer Brunner,D,41989,counting,114,163
@@ -1451,8 +1451,8 @@ statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",
 statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39129,Pickaway,Jennifer Brunner,D,4396,counting,15,46
 statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39131,Pike,Colleen O'Donnell,R,5607,counting,22,22
 statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39131,Pike,Jennifer Brunner,D,2755,counting,22,22
-statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39133,Portage,Jennifer Brunner,D,16242,counting,15,126
-statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39133,Portage,Colleen O'Donnell,R,10873,counting,15,126
+statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39133,Portage,Jennifer Brunner,D,21835,counting,56,126
+statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39133,Portage,Colleen O'Donnell,R,19657,counting,56,126
 statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39135,Preble,Colleen O'Donnell,R,11240,counting,65,65
 statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39135,Preble,Jennifer Brunner,D,3993,counting,65,65
 statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39137,Putnam,Colleen O'Donnell,R,12409,counting,25,25
@@ -1489,17 +1489,17 @@ statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",
 statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39167,Washington,Jennifer Brunner,D,7973,counting,50,50
 statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39169,Wayne,Colleen O'Donnell,R,12389,counting,14,66
 statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39169,Wayne,Jennifer Brunner,D,9126,counting,14,66
-statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39171,Williams,Colleen O'Donnell,R,7769,counting,23,26
-statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39171,Williams,Jennifer Brunner,D,3528,counting,23,26
+statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39171,Williams,Colleen O'Donnell,R,8627,counting,24,26
+statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39171,Williams,Jennifer Brunner,D,3915,counting,24,26
 statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39173,Wood,Jennifer Brunner,D,17263,counting,29,99
 statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39173,Wood,Colleen O'Donnell,R,12457,counting,29,99
 statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39175,Wyandot,Colleen O'Donnell,R,6122,counting,23,23
 statewide,"2026 Supreme Court, Brunner seat",2026,"Supreme Court, Brunner seat",,39175,Wyandot,Jennifer Brunner,D,2738,counting,23,23
-statewide,2026 Senate,2026,Senate,,39001,Adams,Jon Husted,R,3658,counting,7,21
-statewide,2026 Senate,2026,Senate,,39001,Adams,Sherrod Brown,D,1555,counting,7,21
-statewide,2026 Senate,2026,Senate,,39001,Adams,William Redpath,L,228,counting,7,21
-statewide,2026 Senate,2026,Senate,,39001,Adams,Greg Levy,O,158,counting,7,21
-statewide,2026 Senate,2026,Senate,,39001,Adams,Write-ins,W,0,counting,7,21
+statewide,2026 Senate,2026,Senate,,39001,Adams,Jon Husted,R,5055,counting,16,21
+statewide,2026 Senate,2026,Senate,,39001,Adams,Sherrod Brown,D,1914,counting,16,21
+statewide,2026 Senate,2026,Senate,,39001,Adams,William Redpath,L,331,counting,16,21
+statewide,2026 Senate,2026,Senate,,39001,Adams,Greg Levy,O,239,counting,16,21
+statewide,2026 Senate,2026,Senate,,39001,Adams,Write-ins,W,0,counting,16,21
 statewide,2026 Senate,2026,Senate,,39003,Allen,Jon Husted,R,21992,counting,88,88
 statewide,2026 Senate,2026,Senate,,39003,Allen,Sherrod Brown,D,11066,counting,88,88
 statewide,2026 Senate,2026,Senate,,39003,Allen,William Redpath,L,1337,counting,88,88
@@ -1535,31 +1535,31 @@ statewide,2026 Senate,2026,Senate,,39015,Brown,Sherrod Brown,D,2227,counting,4,3
 statewide,2026 Senate,2026,Senate,,39015,Brown,William Redpath,L,226,counting,4,33
 statewide,2026 Senate,2026,Senate,,39015,Brown,Greg Levy,O,125,counting,4,33
 statewide,2026 Senate,2026,Senate,,39015,Brown,Write-ins,W,0,counting,4,33
-statewide,2026 Senate,2026,Senate,,39017,Butler,Jon Husted,R,39549,counting,82,292
-statewide,2026 Senate,2026,Senate,,39017,Butler,Sherrod Brown,D,36635,counting,82,292
-statewide,2026 Senate,2026,Senate,,39017,Butler,William Redpath,L,1702,counting,82,292
-statewide,2026 Senate,2026,Senate,,39017,Butler,Greg Levy,O,1226,counting,82,292
-statewide,2026 Senate,2026,Senate,,39017,Butler,Write-ins,W,0,counting,82,292
+statewide,2026 Senate,2026,Senate,,39017,Butler,Jon Husted,R,58174,counting,196,292
+statewide,2026 Senate,2026,Senate,,39017,Butler,Sherrod Brown,D,49080,counting,196,292
+statewide,2026 Senate,2026,Senate,,39017,Butler,William Redpath,L,2762,counting,196,292
+statewide,2026 Senate,2026,Senate,,39017,Butler,Greg Levy,O,1927,counting,196,292
+statewide,2026 Senate,2026,Senate,,39017,Butler,Write-ins,W,0,counting,196,292
 statewide,2026 Senate,2026,Senate,,39019,Carroll,Jon Husted,R,6720,counting,22,23
 statewide,2026 Senate,2026,Senate,,39019,Carroll,Sherrod Brown,D,2788,counting,22,23
 statewide,2026 Senate,2026,Senate,,39019,Carroll,William Redpath,L,467,counting,22,23
 statewide,2026 Senate,2026,Senate,,39019,Carroll,Greg Levy,O,291,counting,22,23
 statewide,2026 Senate,2026,Senate,,39019,Carroll,Write-ins,W,0,counting,22,23
-statewide,2026 Senate,2026,Senate,,39021,Champaign,Jon Husted,R,9082,counting,28,31
-statewide,2026 Senate,2026,Senate,,39021,Champaign,Sherrod Brown,D,4495,counting,28,31
-statewide,2026 Senate,2026,Senate,,39021,Champaign,William Redpath,L,692,counting,28,31
-statewide,2026 Senate,2026,Senate,,39021,Champaign,Greg Levy,O,457,counting,28,31
-statewide,2026 Senate,2026,Senate,,39021,Champaign,Write-ins,W,0,counting,28,31
+statewide,2026 Senate,2026,Senate,,39021,Champaign,Jon Husted,R,9623,counting,31,31
+statewide,2026 Senate,2026,Senate,,39021,Champaign,Sherrod Brown,D,4670,counting,31,31
+statewide,2026 Senate,2026,Senate,,39021,Champaign,William Redpath,L,735,counting,31,31
+statewide,2026 Senate,2026,Senate,,39021,Champaign,Greg Levy,O,474,counting,31,31
+statewide,2026 Senate,2026,Senate,,39021,Champaign,Write-ins,W,0,counting,31,31
 statewide,2026 Senate,2026,Senate,,39023,Clark,Jon Husted,R,21970,counting,59,78
 statewide,2026 Senate,2026,Senate,,39023,Clark,Sherrod Brown,D,17318,counting,59,78
 statewide,2026 Senate,2026,Senate,,39023,Clark,William Redpath,L,1355,counting,59,78
 statewide,2026 Senate,2026,Senate,,39023,Clark,Greg Levy,O,1027,counting,59,78
 statewide,2026 Senate,2026,Senate,,39023,Clark,Write-ins,W,0,counting,59,78
-statewide,2026 Senate,2026,Senate,,39025,Clermont,Jon Husted,R,25564,counting,44,168
-statewide,2026 Senate,2026,Senate,,39025,Clermont,Sherrod Brown,D,20206,counting,44,168
-statewide,2026 Senate,2026,Senate,,39025,Clermont,William Redpath,L,1304,counting,44,168
-statewide,2026 Senate,2026,Senate,,39025,Clermont,Greg Levy,O,799,counting,44,168
-statewide,2026 Senate,2026,Senate,,39025,Clermont,Write-ins,W,0,counting,44,168
+statewide,2026 Senate,2026,Senate,,39025,Clermont,Jon Husted,R,25564,counting,102,168
+statewide,2026 Senate,2026,Senate,,39025,Clermont,Sherrod Brown,D,20206,counting,102,168
+statewide,2026 Senate,2026,Senate,,39025,Clermont,William Redpath,L,1304,counting,102,168
+statewide,2026 Senate,2026,Senate,,39025,Clermont,Greg Levy,O,799,counting,102,168
+statewide,2026 Senate,2026,Senate,,39025,Clermont,Write-ins,W,0,counting,102,168
 statewide,2026 Senate,2026,Senate,,39027,Clinton,Jon Husted,R,4835,counting,6,36
 statewide,2026 Senate,2026,Senate,,39027,Clinton,Sherrod Brown,D,2715,counting,6,36
 statewide,2026 Senate,2026,Senate,,39027,Clinton,William Redpath,L,273,counting,6,36
@@ -1620,31 +1620,31 @@ statewide,2026 Senate,2026,Senate,,39049,Franklin,Jon Husted,R,62271,counting,25
 statewide,2026 Senate,2026,Senate,,39049,Franklin,Greg Levy,O,4096,counting,254,889
 statewide,2026 Senate,2026,Senate,,39049,Franklin,William Redpath,L,3870,counting,254,889
 statewide,2026 Senate,2026,Senate,,39049,Franklin,Write-ins,W,0,counting,254,889
-statewide,2026 Senate,2026,Senate,,39051,Fulton,Jon Husted,R,6477,counting,13,29
-statewide,2026 Senate,2026,Senate,,39051,Fulton,Sherrod Brown,D,3940,counting,13,29
-statewide,2026 Senate,2026,Senate,,39051,Fulton,William Redpath,L,362,counting,13,29
-statewide,2026 Senate,2026,Senate,,39051,Fulton,Greg Levy,O,185,counting,13,29
-statewide,2026 Senate,2026,Senate,,39051,Fulton,Write-ins,W,0,counting,13,29
+statewide,2026 Senate,2026,Senate,,39051,Fulton,Jon Husted,R,10632,counting,29,29
+statewide,2026 Senate,2026,Senate,,39051,Fulton,Sherrod Brown,D,5743,counting,29,29
+statewide,2026 Senate,2026,Senate,,39051,Fulton,William Redpath,L,650,counting,29,29
+statewide,2026 Senate,2026,Senate,,39051,Fulton,Greg Levy,O,334,counting,29,29
+statewide,2026 Senate,2026,Senate,,39051,Fulton,Write-ins,W,0,counting,29,29
 statewide,2026 Senate,2026,Senate,,39053,Gallia,Jon Husted,R,5812,counting,26,26
 statewide,2026 Senate,2026,Senate,,39053,Gallia,Sherrod Brown,D,2328,counting,26,26
 statewide,2026 Senate,2026,Senate,,39053,Gallia,William Redpath,L,335,counting,26,26
 statewide,2026 Senate,2026,Senate,,39053,Gallia,Greg Levy,O,187,counting,26,26
 statewide,2026 Senate,2026,Senate,,39053,Gallia,Write-ins,W,0,counting,26,26
-statewide,2026 Senate,2026,Senate,,39055,Geauga,Jon Husted,R,9942,counting,27,79
-statewide,2026 Senate,2026,Senate,,39055,Geauga,Sherrod Brown,D,8366,counting,27,79
-statewide,2026 Senate,2026,Senate,,39055,Geauga,William Redpath,L,459,counting,27,79
-statewide,2026 Senate,2026,Senate,,39055,Geauga,Greg Levy,O,208,counting,27,79
-statewide,2026 Senate,2026,Senate,,39055,Geauga,Write-ins,W,0,counting,27,79
-statewide,2026 Senate,2026,Senate,,39057,Greene,Sherrod Brown,D,20570,counting,33,151
-statewide,2026 Senate,2026,Senate,,39057,Greene,Jon Husted,R,20432,counting,33,151
-statewide,2026 Senate,2026,Senate,,39057,Greene,William Redpath,L,885,counting,33,151
-statewide,2026 Senate,2026,Senate,,39057,Greene,Greg Levy,O,544,counting,33,151
-statewide,2026 Senate,2026,Senate,,39057,Greene,Write-ins,W,0,counting,33,151
-statewide,2026 Senate,2026,Senate,,39059,Guernsey,Jon Husted,R,5978,counting,21,35
-statewide,2026 Senate,2026,Senate,,39059,Guernsey,Sherrod Brown,D,3116,counting,21,35
-statewide,2026 Senate,2026,Senate,,39059,Guernsey,William Redpath,L,392,counting,21,35
-statewide,2026 Senate,2026,Senate,,39059,Guernsey,Greg Levy,O,221,counting,21,35
-statewide,2026 Senate,2026,Senate,,39059,Guernsey,Write-ins,W,0,counting,21,35
+statewide,2026 Senate,2026,Senate,,39055,Geauga,Jon Husted,R,9942,counting,78,79
+statewide,2026 Senate,2026,Senate,,39055,Geauga,Sherrod Brown,D,8366,counting,78,79
+statewide,2026 Senate,2026,Senate,,39055,Geauga,William Redpath,L,459,counting,78,79
+statewide,2026 Senate,2026,Senate,,39055,Geauga,Greg Levy,O,208,counting,78,79
+statewide,2026 Senate,2026,Senate,,39055,Geauga,Write-ins,W,0,counting,78,79
+statewide,2026 Senate,2026,Senate,,39057,Greene,Jon Husted,R,25496,counting,67,151
+statewide,2026 Senate,2026,Senate,,39057,Greene,Sherrod Brown,D,23265,counting,67,151
+statewide,2026 Senate,2026,Senate,,39057,Greene,William Redpath,L,1240,counting,67,151
+statewide,2026 Senate,2026,Senate,,39057,Greene,Greg Levy,O,728,counting,67,151
+statewide,2026 Senate,2026,Senate,,39057,Greene,Write-ins,W,0,counting,67,151
+statewide,2026 Senate,2026,Senate,,39059,Guernsey,Jon Husted,R,7959,counting,35,35
+statewide,2026 Senate,2026,Senate,,39059,Guernsey,Sherrod Brown,D,3845,counting,35,35
+statewide,2026 Senate,2026,Senate,,39059,Guernsey,William Redpath,L,562,counting,35,35
+statewide,2026 Senate,2026,Senate,,39059,Guernsey,Greg Levy,O,323,counting,35,35
+statewide,2026 Senate,2026,Senate,,39059,Guernsey,Write-ins,W,0,counting,35,35
 statewide,2026 Senate,2026,Senate,,39061,Hamilton,Sherrod Brown,D,112603,counting,130,563
 statewide,2026 Senate,2026,Senate,,39061,Hamilton,Jon Husted,R,45865,counting,130,563
 statewide,2026 Senate,2026,Senate,,39061,Hamilton,Greg Levy,O,2956,counting,130,563
@@ -1680,11 +1680,11 @@ statewide,2026 Senate,2026,Senate,,39073,Hocking,Sherrod Brown,D,2290,counting,2
 statewide,2026 Senate,2026,Senate,,39073,Hocking,William Redpath,L,140,counting,2,20
 statewide,2026 Senate,2026,Senate,,39073,Hocking,Greg Levy,O,119,counting,2,20
 statewide,2026 Senate,2026,Senate,,39073,Hocking,Write-ins,W,0,counting,2,20
-statewide,2026 Senate,2026,Senate,,39075,Holmes,Jon Husted,R,4189,counting,8,17
-statewide,2026 Senate,2026,Senate,,39075,Holmes,Sherrod Brown,D,1292,counting,8,17
-statewide,2026 Senate,2026,Senate,,39075,Holmes,William Redpath,L,150,counting,8,17
-statewide,2026 Senate,2026,Senate,,39075,Holmes,Greg Levy,O,85,counting,8,17
-statewide,2026 Senate,2026,Senate,,39075,Holmes,Write-ins,W,0,counting,8,17
+statewide,2026 Senate,2026,Senate,,39075,Holmes,Jon Husted,R,6439,counting,16,17
+statewide,2026 Senate,2026,Senate,,39075,Holmes,Sherrod Brown,D,1648,counting,16,17
+statewide,2026 Senate,2026,Senate,,39075,Holmes,William Redpath,L,277,counting,16,17
+statewide,2026 Senate,2026,Senate,,39075,Holmes,Greg Levy,O,143,counting,16,17
+statewide,2026 Senate,2026,Senate,,39075,Holmes,Write-ins,W,0,counting,16,17
 statewide,2026 Senate,2026,Senate,,39077,Huron,Jon Husted,R,7529,counting,24,46
 statewide,2026 Senate,2026,Senate,,39077,Huron,Sherrod Brown,D,5312,counting,24,46
 statewide,2026 Senate,2026,Senate,,39077,Huron,William Redpath,L,576,counting,24,46
@@ -1695,11 +1695,11 @@ statewide,2026 Senate,2026,Senate,,39079,Jackson,Sherrod Brown,D,2643,counting,2
 statewide,2026 Senate,2026,Senate,,39079,Jackson,William Redpath,L,293,counting,22,29
 statewide,2026 Senate,2026,Senate,,39079,Jackson,Greg Levy,O,178,counting,22,29
 statewide,2026 Senate,2026,Senate,,39079,Jackson,Write-ins,W,0,counting,22,29
-statewide,2026 Senate,2026,Senate,,39081,Jefferson,Jon Husted,R,10159,counting,37,55
-statewide,2026 Senate,2026,Senate,,39081,Jefferson,Sherrod Brown,D,6521,counting,37,55
-statewide,2026 Senate,2026,Senate,,39081,Jefferson,William Redpath,L,581,counting,37,55
-statewide,2026 Senate,2026,Senate,,39081,Jefferson,Greg Levy,O,422,counting,37,55
-statewide,2026 Senate,2026,Senate,,39081,Jefferson,Write-ins,W,0,counting,37,55
+statewide,2026 Senate,2026,Senate,,39081,Jefferson,Jon Husted,R,13043,counting,54,55
+statewide,2026 Senate,2026,Senate,,39081,Jefferson,Sherrod Brown,D,7679,counting,54,55
+statewide,2026 Senate,2026,Senate,,39081,Jefferson,William Redpath,L,775,counting,54,55
+statewide,2026 Senate,2026,Senate,,39081,Jefferson,Greg Levy,O,568,counting,54,55
+statewide,2026 Senate,2026,Senate,,39081,Jefferson,Write-ins,W,0,counting,54,55
 statewide,2026 Senate,2026,Senate,,39083,Knox,Jon Husted,R,15218,counting,53,53
 statewide,2026 Senate,2026,Senate,,39083,Knox,Sherrod Brown,D,7632,counting,53,53
 statewide,2026 Senate,2026,Senate,,39083,Knox,William Redpath,L,840,counting,53,53
@@ -1825,11 +1825,11 @@ statewide,2026 Senate,2026,Senate,,39131,Pike,Sherrod Brown,D,2683,counting,22,2
 statewide,2026 Senate,2026,Senate,,39131,Pike,William Redpath,L,311,counting,22,22
 statewide,2026 Senate,2026,Senate,,39131,Pike,Greg Levy,O,183,counting,22,22
 statewide,2026 Senate,2026,Senate,,39131,Pike,Write-ins,W,0,counting,22,22
-statewide,2026 Senate,2026,Senate,,39133,Portage,Sherrod Brown,D,15985,counting,15,126
-statewide,2026 Senate,2026,Senate,,39133,Portage,Jon Husted,R,10349,counting,15,126
-statewide,2026 Senate,2026,Senate,,39133,Portage,William Redpath,L,636,counting,15,126
-statewide,2026 Senate,2026,Senate,,39133,Portage,Greg Levy,O,556,counting,15,126
-statewide,2026 Senate,2026,Senate,,39133,Portage,Write-ins,W,0,counting,15,126
+statewide,2026 Senate,2026,Senate,,39133,Portage,Sherrod Brown,D,21457,counting,56,126
+statewide,2026 Senate,2026,Senate,,39133,Portage,Jon Husted,R,18534,counting,56,126
+statewide,2026 Senate,2026,Senate,,39133,Portage,William Redpath,L,1245,counting,56,126
+statewide,2026 Senate,2026,Senate,,39133,Portage,Greg Levy,O,985,counting,56,126
+statewide,2026 Senate,2026,Senate,,39133,Portage,Write-ins,W,0,counting,56,126
 statewide,2026 Senate,2026,Senate,,39135,Preble,Jon Husted,R,10453,counting,65,65
 statewide,2026 Senate,2026,Senate,,39135,Preble,Sherrod Brown,D,3893,counting,65,65
 statewide,2026 Senate,2026,Senate,,39135,Preble,William Redpath,L,694,counting,65,65
@@ -1920,11 +1920,11 @@ statewide,2026 Senate,2026,Senate,,39169,Wayne,Sherrod Brown,D,9111,counting,14,
 statewide,2026 Senate,2026,Senate,,39169,Wayne,William Redpath,L,547,counting,14,66
 statewide,2026 Senate,2026,Senate,,39169,Wayne,Greg Levy,O,362,counting,14,66
 statewide,2026 Senate,2026,Senate,,39169,Wayne,Write-ins,W,0,counting,14,66
-statewide,2026 Senate,2026,Senate,,39171,Williams,Jon Husted,R,7338,counting,23,26
-statewide,2026 Senate,2026,Senate,,39171,Williams,Sherrod Brown,D,3475,counting,23,26
-statewide,2026 Senate,2026,Senate,,39171,Williams,William Redpath,L,443,counting,23,26
-statewide,2026 Senate,2026,Senate,,39171,Williams,Greg Levy,O,305,counting,23,26
-statewide,2026 Senate,2026,Senate,,39171,Williams,Write-ins,W,0,counting,23,26
+statewide,2026 Senate,2026,Senate,,39171,Williams,Jon Husted,R,8101,counting,24,26
+statewide,2026 Senate,2026,Senate,,39171,Williams,Sherrod Brown,D,3833,counting,24,26
+statewide,2026 Senate,2026,Senate,,39171,Williams,William Redpath,L,516,counting,24,26
+statewide,2026 Senate,2026,Senate,,39171,Williams,Greg Levy,O,366,counting,24,26
+statewide,2026 Senate,2026,Senate,,39171,Williams,Write-ins,W,0,counting,24,26
 statewide,2026 Senate,2026,Senate,,39173,Wood,Sherrod Brown,D,17220,counting,29,99
 statewide,2026 Senate,2026,Senate,,39173,Wood,Jon Husted,R,11636,counting,29,99
 statewide,2026 Senate,2026,Senate,,39173,Wood,William Redpath,L,671,counting,29,99
@@ -1938,47 +1938,47 @@ statewide,2026 Senate,2026,Senate,,39175,Wyandot,Write-ins,W,0,counting,23,23
 ushouse,2026 U.S. House,2026,U.S. House,c2025,1,,Greg Landsman,D,115572,counting,281,784
 ushouse,2026 U.S. House,2026,U.S. House,c2025,1,,Eric Conroy,R,83495,counting,281,784
 ushouse,2026 U.S. House,2026,U.S. House,c2025,1,,Nathan Weise,L,4954,counting,281,784
-ushouse,2026 U.S. House,2026,U.S. House,c2025,2,,David Taylor,R,129583,counting,512,738
-ushouse,2026 U.S. House,2026,U.S. House,c2025,2,,Jen Mazzuckelli,D,79048,counting,512,738
+ushouse,2026 U.S. House,2026,U.S. House,c2025,2,,David Taylor,R,131151,counting,579,738
+ushouse,2026 U.S. House,2026,U.S. House,c2025,2,,Jen Mazzuckelli,D,79409,counting,579,738
 ushouse,2026 U.S. House,2026,U.S. House,c2025,3,,Joyce Beatty,D,135875,counting,254,889
 ushouse,2026 U.S. House,2026,U.S. House,c2025,3,,Cleophus Dulaney,R,35374,counting,254,889
-ushouse,2026 U.S. House,2026,U.S. House,c2025,4,,Jim Jordan,R,175719,counting,597,794
-ushouse,2026 U.S. House,2026,U.S. House,c2025,4,,Joshua Kolasinski,D,86363,counting,597,794
-ushouse,2026 U.S. House,2026,U.S. House,c2025,4,,Tracey Tackett,I,11641,counting,597,794
+ushouse,2026 U.S. House,2026,U.S. House,c2025,4,,Jim Jordan,R,176320,counting,600,794
+ushouse,2026 U.S. House,2026,U.S. House,c2025,4,,Joshua Kolasinski,D,86496,counting,600,794
+ushouse,2026 U.S. House,2026,U.S. House,c2025,4,,Tracey Tackett,I,11687,counting,600,794
 ushouse,2026 U.S. House,2026,U.S. House,c2025,5,,Bob Latta,R,132416,counting,471,665
 ushouse,2026 U.S. House,2026,U.S. House,c2025,5,,Brian Shaver,D,112691,counting,471,665
 ushouse,2026 U.S. House,2026,U.S. House,c2025,5,,Michael Veloff,L,7761,counting,471,665
-ushouse,2026 U.S. House,2026,U.S. House,c2025,6,,Michael Rulli,R,135963,counting,605,886
-ushouse,2026 U.S. House,2026,U.S. House,c2025,6,,Elizabeth Kirtley,D,94305,counting,605,886
+ushouse,2026 U.S. House,2026,U.S. House,c2025,6,,Michael Rulli,R,139785,counting,630,886
+ushouse,2026 U.S. House,2026,U.S. House,c2025,6,,Elizabeth Kirtley,D,95534,counting,630,886
 ushouse,2026 U.S. House,2026,U.S. House,c2025,7,,Brian Poindexter,D,94682,counting,155,1126
 ushouse,2026 U.S. House,2026,U.S. House,c2025,7,,Max Miller,R,77487,counting,155,1126
 ushouse,2026 U.S. House,2026,U.S. House,c2025,7,,Write-ins,W,0,counting,155,1126
-ushouse,2026 U.S. House,2026,U.S. House,c2025,8,,Warren Davidson,R,96050,counting,345,1050
-ushouse,2026 U.S. House,2026,U.S. House,c2025,8,,Vanessa Enoch,D,90017,counting,345,1050
-ushouse,2026 U.S. House,2026,U.S. House,c2025,9,,Derek Merrin,R,79193,counting,260,629
-ushouse,2026 U.S. House,2026,U.S. House,c2025,9,,Marcy Kaptur,D,54416,counting,260,629
-ushouse,2026 U.S. House,2026,U.S. House,c2025,9,,Write-ins,W,0,counting,260,629
-ushouse,2026 U.S. House,2026,U.S. House,c2025,10,,Kristina Knickerbocker,D,97483,counting,306,824
-ushouse,2026 U.S. House,2026,U.S. House,c2025,10,,Mike Turner,R,78418,counting,306,824
-ushouse,2026 U.S. House,2026,U.S. House,c2025,10,,Thomas McMasters,L,4379,counting,306,824
+ushouse,2026 U.S. House,2026,U.S. House,c2025,8,,Warren Davidson,R,111323,counting,459,1050
+ushouse,2026 U.S. House,2026,U.S. House,c2025,8,,Vanessa Enoch,D,100211,counting,459,1050
+ushouse,2026 U.S. House,2026,U.S. House,c2025,9,,Derek Merrin,R,84334,counting,277,629
+ushouse,2026 U.S. House,2026,U.S. House,c2025,9,,Marcy Kaptur,D,56870,counting,277,629
+ushouse,2026 U.S. House,2026,U.S. House,c2025,9,,Write-ins,W,0,counting,277,629
+ushouse,2026 U.S. House,2026,U.S. House,c2025,10,,Kristina Knickerbocker,D,102463,counting,454,824
+ushouse,2026 U.S. House,2026,U.S. House,c2025,10,,Mike Turner,R,88154,counting,454,824
+ushouse,2026 U.S. House,2026,U.S. House,c2025,10,,Thomas McMasters,L,5021,counting,454,824
 ushouse,2026 U.S. House,2026,U.S. House,c2025,11,,Shontel Brown,D,79289,counting,0,897
 ushouse,2026 U.S. House,2026,U.S. House,c2025,11,,Mike Kirchner,R,11417,counting,0,897
-ushouse,2026 U.S. House,2026,U.S. House,c2025,12,,Troy Balderson,R,135992,counting,385,655
-ushouse,2026 U.S. House,2026,U.S. House,c2025,12,,Jerrad Christian,D,91951,counting,385,655
-ushouse,2026 U.S. House,2026,U.S. House,c2025,13,,Emilia Sykes,D,96241,counting,149,771
-ushouse,2026 U.S. House,2026,U.S. House,c2025,13,,Carey Coleman,R,49409,counting,149,771
-ushouse,2026 U.S. House,2026,U.S. House,c2025,13,,Sandeep Dixit,I,1965,counting,149,771
-ushouse,2026 U.S. House,2026,U.S. House,c2025,14,,David Joyce,R,127893,counting,572,842
-ushouse,2026 U.S. House,2026,U.S. House,c2025,14,,Maria Jukic,D,113427,counting,572,842
+ushouse,2026 U.S. House,2026,U.S. House,c2025,12,,Troy Balderson,R,139987,counting,407,655
+ushouse,2026 U.S. House,2026,U.S. House,c2025,12,,Jerrad Christian,D,92958,counting,407,655
+ushouse,2026 U.S. House,2026,U.S. House,c2025,13,,Emilia Sykes,D,97876,counting,190,771
+ushouse,2026 U.S. House,2026,U.S. House,c2025,13,,Carey Coleman,R,50817,counting,190,771
+ushouse,2026 U.S. House,2026,U.S. House,c2025,13,,Sandeep Dixit,I,2025,counting,190,771
+ushouse,2026 U.S. House,2026,U.S. House,c2025,14,,David Joyce,R,135355,counting,664,842
+ushouse,2026 U.S. House,2026,U.S. House,c2025,14,,Maria Jukic,D,117320,counting,664,842
 ushouse,2026 U.S. House,2026,U.S. House,c2025,15,,Don Leonard,D,73258,counting,406,1180
 ushouse,2026 U.S. House,2026,U.S. House,c2025,15,,Mike Carey,R,63955,counting,406,1180
 ushouse,2026 U.S. House,2026,U.S. House,c2025,15,,Brennan Barrington,L,3610,counting,406,1180
 ushouse,2026 U.S. House,2026,U.S. House,c2025,15,,Write-ins,W,0,counting,406,1180
-senate,2026 Senate,2026,Senate,s2023,1,,Craig Riedel,R,93978,counting,271,301
+senate,2026 Senate,2026,Senate,s2023,1,,Craig Riedel,R,100083,counting,288,301
 senate,2026 Senate,2026,Senate,s2023,3,,Stacie Baker,D,31958,counting,270,959
 senate,2026 Senate,2026,Senate,s2023,3,,Michele Reynolds,R,27703,counting,270,959
-senate,2026 Senate,2026,Senate,s2023,5,,Phil Plummer,R,60342,counting,406,868
-senate,2026 Senate,2026,Senate,s2023,5,,Jeffrey Harris,D,34823,counting,406,868
+senate,2026 Senate,2026,Senate,s2023,5,,Phil Plummer,R,60389,counting,520,868
+senate,2026 Senate,2026,Senate,s2023,5,,Jeffrey Harris,D,34828,counting,520,868
 senate,2026 Senate,2026,Senate,s2023,7,,Zac Haines,R,66173,counting,275,748
 senate,2026 Senate,2026,Senate,s2023,7,,Cara Jacob,D,56460,counting,275,748
 senate,2026 Senate,2026,Senate,s2023,9,,Catherine Ingram,D,61289,counting,130,563
@@ -1992,8 +1992,8 @@ senate,2026 Senate,2026,Senate,s2023,15,,Latyna Humphrey,D,47822,counting,254,88
 senate,2026 Senate,2026,Senate,s2023,15,,Joseph Healy,R,7520,counting,254,889
 senate,2026 Senate,2026,Senate,s2023,17,,Shane Wilkin,R,60269,counting,274,355
 senate,2026 Senate,2026,Senate,s2023,17,,Brian Deer,D,30123,counting,274,355
-senate,2026 Senate,2026,Senate,s2023,19,,Ryan Rivers,R,64094,counting,163,273
-senate,2026 Senate,2026,Senate,s2023,19,,Scott Charland,D,52324,counting,163,273
+senate,2026 Senate,2026,Senate,s2023,19,,Ryan Rivers,R,66500,counting,171,273
+senate,2026 Senate,2026,Senate,s2023,19,,Scott Charland,D,52683,counting,171,273
 senate,2026 Senate,2026,Senate,s2023,21,,Kent Smith,D,44808,counting,0,897
 senate,2026 Senate,2026,Senate,s2023,21,,Mikhail Alterman,R,4687,counting,0,897
 senate,2026 Senate,2026,Senate,s2023,23,,Bride Sweeney,D,33177,counting,0,897
@@ -2001,12 +2001,12 @@ senate,2026 Senate,2026,Senate,s2023,23,,Robert Dintaman,R,6890,counting,0,897
 senate,2026 Senate,2026,Senate,s2023,25,,Bill DeMora,D,51298,counting,254,889
 senate,2026 Senate,2026,Senate,s2023,25,,Don Roberts,R,15786,counting,254,889
 senate,2026 Senate,2026,Senate,s2023,25,,Write-ins,W,0,counting,254,889
-senate,2026 Senate,2026,Senate,s2023,27,,Mike Roberto,D,42097,counting,69,576
-senate,2026 Senate,2026,Senate,s2023,27,,Steve Demetriou,R,25828,counting,69,576
+senate,2026 Senate,2026,Senate,s2023,27,,Mike Roberto,D,47657,counting,161,576
+senate,2026 Senate,2026,Senate,s2023,27,,Steve Demetriou,R,34677,counting,161,576
 senate,2026 Senate,2026,Senate,s2023,29,,Jane Timken,R,48744,counting,107,274
 senate,2026 Senate,2026,Senate,s2023,29,,Thomas West,D,43671,counting,107,274
-senate,2026 Senate,2026,Senate,s2023,31,,Al Landis,R,59255,counting,291,524
-senate,2026 Senate,2026,Senate,s2023,31,,Laura Sirot,D,33715,counting,291,524
+senate,2026 Senate,2026,Senate,s2023,31,,Al Landis,R,60712,counting,305,524
+senate,2026 Senate,2026,Senate,s2023,31,,Laura Sirot,D,34281,counting,305,524
 senate,2026 Senate,2026,Senate,s2023,33,,Al Cutrona,R,72170,counting,307,308
 senate,2026 Senate,2026,Senate,s2023,33,,Michael Kripchak,D,60350,counting,307,308
 house,2026 House,2026,House,h2023,1,,Dontavius Jarrells,D,16110,counting,254,889
@@ -2074,8 +2074,8 @@ house,2026 House,2026,House,h2023,33,,Veronica Sims,D,13152,counting,27,371
 house,2026 House,2026,House,h2023,33,,Napoleon Rodgers,R,2378,counting,27,371
 house,2026 House,2026,House,h2023,34,,Derrick Hall,D,13236,counting,27,371
 house,2026 House,2026,House,h2023,34,,Craig Shubert,R,5194,counting,27,371
-house,2026 House,2026,House,h2023,35,,Samantha Salamon,D,12656,counting,69,576
-house,2026 House,2026,House,h2023,35,,Vik Sandhu,R,6829,counting,69,576
+house,2026 House,2026,House,h2023,35,,Samantha Salamon,D,14238,counting,161,576
+house,2026 House,2026,House,h2023,35,,Vik Sandhu,R,8690,counting,161,576
 house,2026 House,2026,House,h2023,36,,Rose Lounsbury,D,18779,counting,191,381
 house,2026 House,2026,House,h2023,36,,Andrea White,R,11973,counting,191,381
 house,2026 House,2026,House,h2023,36,,Chuck Horn,I,728,counting,191,381
@@ -2084,9 +2084,9 @@ house,2026 House,2026,House,h2023,37,,Tom Young,R,18683,counting,191,381
 house,2026 House,2026,House,h2023,38,,Desiree Tims,D,20133,counting,191,381
 house,2026 House,2026,House,h2023,39,,Daquan Neal,D,13477,counting,191,381
 house,2026 House,2026,House,h2023,39,,Mark Campbell,R,10191,counting,191,381
-house,2026 House,2026,House,h2023,40,,Rodney Creech,R,20234,counting,338,738
-house,2026 House,2026,House,h2023,40,,Timothy Hornbacker,D,9658,counting,338,738
-house,2026 House,2026,House,h2023,40,,Joshua Umbaugh,L,1512,counting,338,738
+house,2026 House,2026,House,h2023,40,,Rodney Creech,R,20281,counting,452,738
+house,2026 House,2026,House,h2023,40,,Timothy Hornbacker,D,9661,counting,452,738
+house,2026 House,2026,House,h2023,40,,Joshua Umbaugh,L,1514,counting,452,738
 house,2026 House,2026,House,h2023,41,,Ian Chamberlin,R,0,pending,0,280
 house,2026 House,2026,House,h2023,41,,Erika White,D,0,pending,0,280
 house,2026 House,2026,House,h2023,42,,Robert McMahon,R,0,pending,0,280
@@ -2097,13 +2097,13 @@ house,2026 House,2026,House,h2023,43,,David Karmol,R,0,pending,0,280
 house,2026 House,2026,House,h2023,44,,Edward Schimmel,R,3540,counting,65,415
 house,2026 House,2026,House,h2023,44,,David Fournier,D,3516,counting,65,415
 house,2026 House,2026,House,h2023,44,,Lyndsey Stough,I,191,counting,65,415
-house,2026 House,2026,House,h2023,45,,Jennifer Gross,R,17399,counting,82,292
-house,2026 House,2026,House,h2023,45,,Jayson Ameer Rasheed,D,14885,counting,82,292
-house,2026 House,2026,House,h2023,46,,Thomas Hall,R,9509,counting,82,292
-house,2026 House,2026,House,h2023,46,,Benjamin McCall,D,8935,counting,82,292
-house,2026 House,2026,House,h2023,47,,Diane Mullins,R,11929,counting,82,292
-house,2026 House,2026,House,h2023,47,,Jordan Haire,D,10834,counting,82,292
-house,2026 House,2026,House,h2023,47,,Jason Purviance,L,685,counting,82,292
+house,2026 House,2026,House,h2023,45,,Jennifer Gross,R,24163,counting,196,292
+house,2026 House,2026,House,h2023,45,,Jayson Ameer Rasheed,D,19542,counting,196,292
+house,2026 House,2026,House,h2023,46,,Thomas Hall,R,18678,counting,196,292
+house,2026 House,2026,House,h2023,46,,Benjamin McCall,D,13540,counting,196,292
+house,2026 House,2026,House,h2023,47,,Diane Mullins,R,15802,counting,196,292
+house,2026 House,2026,House,h2023,47,,Jordan Haire,D,13823,counting,196,292
+house,2026 House,2026,House,h2023,47,,Jason Purviance,L,932,counting,196,292
 house,2026 House,2026,House,h2023,48,,Christina Hagan,R,20242,counting,107,274
 house,2026 House,2026,House,h2023,48,,Nick Morris,D,16813,counting,107,274
 house,2026 House,2026,House,h2023,49,,Krista Allison,D,15938,counting,107,274
@@ -2134,11 +2134,11 @@ house,2026 House,2026,House,h2023,60,,Shelby Kimball,D,22059,counting,79,180
 house,2026 House,2026,House,h2023,60,,Brian Lorenz,R,18150,counting,79,180
 house,2026 House,2026,House,h2023,61,,Shawn Stevens,R,23891,counting,132,233
 house,2026 House,2026,House,h2023,61,,Vince McGrail,D,20280,counting,132,233
-house,2026 House,2026,House,h2023,62,,Jean Schmidt,R,14365,counting,44,168
-house,2026 House,2026,House,h2023,62,,Ian Schwartz,D,13437,counting,44,168
-house,2026 House,2026,House,h2023,62,,Ron Grethel,L,1650,counting,44,168
-house,2026 House,2026,House,h2023,63,,Adam Bird,R,14680,counting,48,201
-house,2026 House,2026,House,h2023,63,,Debbie Davidson,D,8231,counting,48,201
+house,2026 House,2026,House,h2023,62,,Jean Schmidt,R,14365,counting,102,168
+house,2026 House,2026,House,h2023,62,,Ian Schwartz,D,13437,counting,102,168
+house,2026 House,2026,House,h2023,62,,Ron Grethel,L,1650,counting,102,168
+house,2026 House,2026,House,h2023,63,,Adam Bird,R,14680,counting,106,201
+house,2026 House,2026,House,h2023,63,,Debbie Davidson,D,8231,counting,106,201
 house,2026 House,2026,House,h2023,64,,Nick Santucci,R,26375,counting,156,158
 house,2026 House,2026,House,h2023,65,,David Thomas,R,26006,counting,204,262
 house,2026 House,2026,House,h2023,65,,John Barbo,D,19641,counting,204,262
@@ -2151,13 +2151,13 @@ house,2026 House,2026,House,h2023,68,,Thad Claggett,R,17341,counting,55,96
 house,2026 House,2026,House,h2023,68,,Mason Blankenship,D,16476,counting,55,96
 house,2026 House,2026,House,h2023,69,,Kevin Miller,R,23248,counting,94,240
 house,2026 House,2026,House,h2023,69,,Amy Rigsby,D,10437,counting,94,240
-house,2026 House,2026,House,h2023,70,,Brian Lampton,R,15290,counting,33,151
-house,2026 House,2026,House,h2023,70,,Kim McCarthy,D,14940,counting,33,151
-house,2026 House,2026,House,h2023,71,,Levi Dean,R,15606,counting,98,265
-house,2026 House,2026,House,h2023,71,,Krista Magaw,D,10579,counting,98,265
-house,2026 House,2026,House,h2023,72,,Jeff Clapper,D,11372,counting,15,126
-house,2026 House,2026,House,h2023,72,,Heidi Workman,R,8067,counting,15,126
-house,2026 House,2026,House,h2023,72,,Michael Fricke,L,534,counting,15,126
+house,2026 House,2026,House,h2023,70,,Brian Lampton,R,18115,counting,67,151
+house,2026 House,2026,House,h2023,70,,Kim McCarthy,D,16791,counting,67,151
+house,2026 House,2026,House,h2023,71,,Levi Dean,R,18221,counting,132,265
+house,2026 House,2026,House,h2023,71,,Krista Magaw,D,11446,counting,132,265
+house,2026 House,2026,House,h2023,72,,Jeff Clapper,D,15179,counting,56,126
+house,2026 House,2026,House,h2023,72,,Heidi Workman,R,14913,counting,56,126
+house,2026 House,2026,House,h2023,72,,Michael Fricke,L,983,counting,56,126
 house,2026 House,2026,House,h2023,73,,Whittney Wood,D,11867,counting,6,111
 house,2026 House,2026,House,h2023,73,,Jeff LaRe,R,11486,counting,6,111
 house,2026 House,2026,House,h2023,74,,Bernard Willis,R,18730,counting,59,78
@@ -2174,8 +2174,8 @@ house,2026 House,2026,House,h2023,79,,Monica Blasdel,R,29069,counting,95,96
 house,2026 House,2026,House,h2023,79,,Bob Guy,D,12334,counting,95,96
 house,2026 House,2026,House,h2023,80,,Johnathan Newman,R,26364,counting,68,130
 house,2026 House,2026,House,h2023,80,,Katie Wagner,D,13451,counting,68,130
-house,2026 House,2026,House,h2023,81,,Patti Rockey,R,23988,counting,92,111
-house,2026 House,2026,House,h2023,81,,David Swanson,D,11749,counting,92,111
+house,2026 House,2026,House,h2023,81,,Patti Rockey,R,29328,counting,109,111
+house,2026 House,2026,House,h2023,81,,David Swanson,D,13979,counting,109,111
 house,2026 House,2026,House,h2023,82,,Roy Klopfenstein,R,33656,final,106,106
 house,2026 House,2026,House,h2023,82,,Maddux McCray,D,11067,final,106,106
 house,2026 House,2026,House,h2023,82,,Christopher Elder,L,1819,final,106,106
@@ -2183,8 +2183,8 @@ house,2026 House,2026,House,h2023,83,,Ty Mathews,R,27080,counting,106,117
 house,2026 House,2026,House,h2023,83,,Sheila Coressel,D,12733,counting,106,117
 house,2026 House,2026,House,h2023,84,,Angie King,R,32239,counting,94,121
 house,2026 House,2026,House,h2023,84,,Arienne Childrey,D,8215,counting,94,121
-house,2026 House,2026,House,h2023,85,,Tim Barhorst,R,33243,counting,100,103
-house,2026 House,2026,House,h2023,85,,Victoria Maddox,D,11134,counting,100,103
+house,2026 House,2026,House,h2023,85,,Tim Barhorst,R,33853,final,103,103
+house,2026 House,2026,House,h2023,85,,Victoria Maddox,D,11296,final,103,103
 house,2026 House,2026,House,h2023,86,,Ben Weber,R,23202,counting,68,98
 house,2026 House,2026,House,h2023,86,,Kent Halloran,D,16778,counting,68,98
 house,2026 House,2026,House,h2023,87,,Jeffrey McClain,R,24741,counting,87,136
@@ -2196,8 +2196,8 @@ house,2026 House,2026,House,h2023,88,,Aaron Jones,D,15386,counting,95,109
 house,2026 House,2026,House,h2023,89,,Caleb Stidham,R,26504,counting,122,144
 house,2026 House,2026,House,h2023,89,,Easton Retzke,D,20754,counting,122,144
 house,2026 House,2026,House,h2023,89,,Write-ins,W,0,counting,122,144
-house,2026 House,2026,House,h2023,90,,Justin Pizzulli,R,18167,counting,79,131
-house,2026 House,2026,House,h2023,90,,Collin Docterman,D,8716,counting,79,131
+house,2026 House,2026,House,h2023,90,,Justin Pizzulli,R,19728,counting,88,131
+house,2026 House,2026,House,h2023,90,,Collin Docterman,D,9096,counting,88,131
 house,2026 House,2026,House,h2023,91,,Bob Peterson,R,19223,counting,112,143
 house,2026 House,2026,House,h2023,91,,Amy Wright,D,8319,counting,112,143
 house,2026 House,2026,House,h2023,92,,Mark Johnson,R,20815,counting,120,138
@@ -2206,14 +2206,14 @@ house,2026 House,2026,House,h2023,93,,Jason Stephens,R,20760,counting,107,139
 house,2026 House,2026,House,h2023,93,,Jessica Harper,D,9195,counting,107,139
 house,2026 House,2026,House,h2023,94,,Kevin Ritter,R,25078,final,127,127
 house,2026 House,2026,House,h2023,94,,Wenda Sheard,D,16119,final,127,127
-house,2026 House,2026,House,h2023,95,,Ty Moore,R,19991,counting,154,202
-house,2026 House,2026,House,h2023,95,,Paul Cameron,D,14126,counting,154,202
-house,2026 House,2026,House,h2023,96,,Ron Ferguson,R,19960,counting,92,144
-house,2026 House,2026,House,h2023,96,,Charrie Foglio,D,11087,counting,92,144
-house,2026 House,2026,House,h2023,97,,Adam Holmes,R,23371,counting,89,103
-house,2026 House,2026,House,h2023,97,,Kris Geis,I,6313,counting,89,103
-house,2026 House,2026,House,h2023,97,,Tim Godwin,L,4244,counting,89,103
-house,2026 House,2026,House,h2023,98,,Mark Hiner,R,22400,counting,84,93
-house,2026 House,2026,House,h2023,98,,Scott Grund,D,9907,counting,84,93
-house,2026 House,2026,House,h2023,99,,Sarah Arthur,R,13128,counting,75,183
-house,2026 House,2026,House,h2023,99,,Louis Murphy,D,10154,counting,75,183
+house,2026 House,2026,House,h2023,95,,Ty Moore,R,20753,counting,168,202
+house,2026 House,2026,House,h2023,95,,Paul Cameron,D,14283,counting,168,202
+house,2026 House,2026,House,h2023,96,,Ron Ferguson,R,23103,counting,109,144
+house,2026 House,2026,House,h2023,96,,Charrie Foglio,D,12316,counting,109,144
+house,2026 House,2026,House,h2023,97,,Adam Holmes,R,24818,final,103,103
+house,2026 House,2026,House,h2023,97,,Kris Geis,I,6538,final,103,103
+house,2026 House,2026,House,h2023,97,,Tim Godwin,L,4514,final,103,103
+house,2026 House,2026,House,h2023,98,,Mark Hiner,R,24810,counting,92,93
+house,2026 House,2026,House,h2023,98,,Scott Grund,D,10253,counting,92,93
+house,2026 House,2026,House,h2023,99,,Sarah Arthur,R,13128,counting,126,183
+house,2026 House,2026,House,h2023,99,,Louis Murphy,D,10154,counting,126,183
