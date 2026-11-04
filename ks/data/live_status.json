@@ -1,16 +1,19 @@
 [
  {
   "phase": "counting",
-  "updated_at": "2026-11-04T04:03:44Z",
+  "updated_at": "2026-11-04T04:18:12Z",
   "source": "CivicAPI, unofficial",
   "races": 137,
   "called": 2,
   "counting": 96,
   "problems": [
    "CivicAPI search (Kansas State Senate): /race/search?country=US&province=KS&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Kansas%20State%20Senate: HT",
+   "CivicAPI search (Kansas Governor): /race/search?country=US&province=KS&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Kansas%20Governor: HTTP 000",
+   "CivicAPI search (Kansas Attorney General): /race/search?country=US&province=KS&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Kansas%20Attorney%20General",
    "2026 Insurance Commissioner: county sums differ from the statewide total for Daniel Hawkins, Dinah Sykes, Ric Koehn",
-   "1 race not sent by CivicAPI this time; kept the last published numbers",
-   "no live source yet for 2 Kansas Senate races"
+   "2026 Secretary of State : /race/87165: HTTP 502  error code: 502\n",
+   "4 races not sent by CivicAPI this time; kept the last published numbers",
+   "no live source yet for 2 statewide races, 2 Kansas Senate races"
   ],
   "local_problems": []
  }
