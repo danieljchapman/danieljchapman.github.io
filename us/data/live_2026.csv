@@ -28,10 +28,10 @@ senate,IA,2026,IA,,,Josh Turek,D,687967,1,0,0,final,99,100
 senate,IA,2026,IA,,,Ashley Hinson,R,631030,0,0,0,final,99,100
 senate,IA,2026,IA,,,Thomas Laehn,L,42165,0,0,0,final,99,100
 senate,IA,2026,IA,,,Write-in,I,0,0,0,0,final,99,100
-senate,ID,2026,ID,,,Jim Risch,R,385901,1,0,0,final,94.14,100
-senate,ID,2026,ID,,,Todd Achilles,I,230186,0,0,0,final,94.14,100
-senate,ID,2026,ID,,,Natalie M Fleming,I,47371,0,0,0,final,94.14,100
-senate,ID,2026,ID,,,Matt Loesby,L,19714,0,0,0,final,94.14,100
+senate,ID,2026,ID,,,Jim Risch,R,386157,1,0,0,final,94.19,100
+senate,ID,2026,ID,,,Todd Achilles,I,230255,0,0,0,final,94.19,100
+senate,ID,2026,ID,,,Natalie M Fleming,I,47397,0,0,0,final,94.19,100
+senate,ID,2026,ID,,,Matt Loesby,L,19729,0,0,0,final,94.19,100
 senate,IL,2026,IL,,,Juliana Stratton,D,2301965,1,0,0,final,78.55,100
 senate,IL,2026,IL,,,Don Tracy,R,1293056,0,0,0,final,78.55,100
 senate,IL,2026,IL,,,Whitfield Harrington Jr.,O,57806,0,0,0,final,78.55,100
@@ -75,15 +75,15 @@ senate,MT,2026,MT,,,Kurt Alme,R,201399,1,0,0,final,73.99,100
 senate,MT,2026,MT,,,Seth Bodnar,I,159468,0,0,0,final,73.99,100
 senate,MT,2026,MT,,,Alani Bankhead,D,49813,0,0,0,final,73.99,100
 senate,MT,2026,MT,,,Kyle Austin,L,7579,0,0,0,final,73.99,100
-senate,NC,2026,NC,,,Roy Cooper,D,2463773,1,0,0,final,100,100
-senate,NC,2026,NC,,,Michael Whatley,R,1640663,0,0,0,final,100,100
-senate,NC,2026,NC,,,Shannon Bray,L,55674,0,0,0,final,100,100
-senate,NC,2026,NC,,,Michael Dublin,G,36368,0,0,0,final,100,100
-senate,NE,2026,NE,,,Pete Ricketts,R,367378,1,0,0,final,94.46,100
-senate,NE,2026,NE,,,Dan Osborn,I,319810,0,0,0,final,94.46,100
-senate,NE,2026,NE,,,Robin Richards,O,18791,0,0,0,final,94.46,100
-senate,NE,2026,NE,,,Mike Marvin,O,15742,0,0,0,final,94.46,100
-senate,NE,2026,NE,,,Chuck Conboy,O,8774,0,0,0,final,94.46,100
+senate,NC,2026,NC,,,Roy Cooper,D,2467963,1,0,0,final,100,100
+senate,NC,2026,NC,,,Michael Whatley,R,1643088,0,0,0,final,100,100
+senate,NC,2026,NC,,,Shannon Bray,L,55726,0,0,0,final,100,100
+senate,NC,2026,NC,,,Michael Dublin,G,36404,0,0,0,final,100,100
+senate,NE,2026,NE,,,Pete Ricketts,R,370411,1,0,0,final,95.08,100
+senate,NE,2026,NE,,,Dan Osborn,I,321218,0,0,0,final,95.08,100
+senate,NE,2026,NE,,,Robin Richards,O,18937,0,0,0,final,95.08,100
+senate,NE,2026,NE,,,Mike Marvin,O,15848,0,0,0,final,95.08,100
+senate,NE,2026,NE,,,Chuck Conboy,O,8846,0,0,0,final,95.08,100
 senate,NH,2026,NH,,,Chris Pappas,D,219480,1,0,0,final,59.29,100
 senate,NH,2026,NH,,,John E. Sununu,R,180913,0,0,0,final,59.29,100
 senate,NH,2026,NH,,,Edmond Laplante,C,7692,0,0,0,final,59.29,100
@@ -529,10 +529,10 @@ house,IA-03,2026,IA,3,,Write-in,I,0,0,0,0,final,100,100
 house,IA-04,2026,IA,4,,Chris McGowan,R,178845,1,0,0,final,100,100
 house,IA-04,2026,IA,4,,Dave Dawson,D,123940,0,0,0,final,100,100
 house,IA-04,2026,IA,4,,Write-in,I,0,0,0,0,final,100,100
-house,ID-01,2026,ID,1,,Russ Fulcher,R,234038,1,0,0,final,99,100
-house,ID-01,2026,ID,1,,Kaylee Peterson,D,104118,0,0,0,final,99,100
-house,ID-01,2026,ID,1,,Sarah Zabel Peterson,I,21951,0,0,0,final,99,100
-house,ID-01,2026,ID,1,,Brendan Gomez,C,3296,0,0,0,final,99,100
+house,ID-01,2026,ID,1,,Russ Fulcher,R,234296,1,0,0,final,99,100
+house,ID-01,2026,ID,1,,Kaylee Peterson,D,104207,0,0,0,final,99,100
+house,ID-01,2026,ID,1,,Sarah Zabel Peterson,I,21968,0,0,0,final,99,100
+house,ID-01,2026,ID,1,,Brendan Gomez,C,3302,0,0,0,final,99,100
 house,ID-02,2026,ID,2,,Mike Simpson,R,164130,1,0,0,final,85.56,100
 house,ID-02,2026,ID,2,,Ellie Gilbreath,D,128922,0,0,0,final,85.56,100
 house,ID-02,2026,ID,2,,Tripp Hutchinson,I,11138,0,0,0,final,85.56,100
@@ -870,9 +870,9 @@ house,MT-02,2026,MT,2,,Troy Downing,R,119897,1,0,0,final,72.53,100
 house,MT-02,2026,MT,2,,Brian Miller,D,66491,0,0,0,final,72.53,100
 house,MT-02,2026,MT,2,,Michael Eisenhauer,I,16106,0,0,0,final,72.53,100
 house,MT-02,2026,MT,2,,Patrick McCracken,L,3705,0,0,0,final,72.53,100
-house,NC-01,2026,NC,1,,Don Davis,D,152443,0,0,0,counting,96.98,100
-house,NC-01,2026,NC,1,,Laurie Buckhout,R,143872,0,0,0,counting,96.98,100
-house,NC-01,2026,NC,1,,Tom Bailey,L,9734,0,0,0,counting,96.98,100
+house,NC-01,2026,NC,1,,Don Davis,D,156565,0,0,0,counting,99,100
+house,NC-01,2026,NC,1,,Laurie Buckhout,R,146279,0,0,0,counting,99,100
+house,NC-01,2026,NC,1,,Tom Bailey,L,9886,0,0,0,counting,99,100
 house,NC-02,2026,NC,2,,Deborah Ross,D,245402,1,0,0,final,100,100
 house,NC-02,2026,NC,2,,Gene Douglass,R,76763,0,0,0,final,100,100
 house,NC-02,2026,NC,2,,Matt Laszacs,L,4267,0,0,0,final,100,100
@@ -914,18 +914,18 @@ house,ND-00,2026,ND,0,,Trygve Hammer,D,85892,0,0,0,final,100,100
 house,ND-00,2026,ND,0,,Charles Tuttle,I,9282,0,0,0,final,100,100
 house,ND-00,2026,ND,0,,Helene Neville,I,4604,0,0,0,final,100,100
 house,ND-00,2026,ND,0,,Write-in,I,340,0,0,0,final,100,100
-house,NE-01,2026,NE,1,,Mike Flood,R,121374,0,0,0,counting,94.89,100
-house,NE-01,2026,NE,1,,Chris Backemeyer,D,113134,0,0,0,counting,94.89,100
-house,NE-01,2026,NE,1,,Nik Sandman,L,4380,0,0,0,counting,94.89,100
-house,NE-01,2026,NE,1,,Dan Hartong,O,4184,0,0,0,counting,94.89,100
+house,NE-01,2026,NE,1,,Mike Flood,R,122874,0,0,0,counting,95.78,100
+house,NE-01,2026,NE,1,,Chris Backemeyer,D,113806,0,0,0,counting,95.78,100
+house,NE-01,2026,NE,1,,Nik Sandman,L,4436,0,0,0,counting,95.78,100
+house,NE-01,2026,NE,1,,Dan Hartong,O,4235,0,0,0,counting,95.78,100
 house,NE-02,2026,NE,2,,Denise Powell,D,138733,1,0,0,final,100,100
 house,NE-02,2026,NE,2,,Brinker Harding,R,100895,0,0,0,final,100,100
 house,NE-02,2026,NE,2,,Eric Michael Foreman,L,6310,0,0,0,final,100,100
-house,NE-03,2026,NE,3,,Adrian Smith,R,170650,1,0,0,final,90.01,100
-house,NE-03,2026,NE,3,,Becky Stille,D,48035,0,0,0,final,90.01,100
-house,NE-03,2026,NE,3,,Mark Cohen,I,7848,0,0,0,final,90.01,100
-house,NE-03,2026,NE,3,,David Else,O,6910,0,0,0,final,90.01,100
-house,NE-03,2026,NE,3,,Macey Budke,O,6693,0,0,0,final,90.01,100
+house,NE-03,2026,NE,3,,Adrian Smith,R,172321,1,0,0,final,90.93,100
+house,NE-03,2026,NE,3,,Becky Stille,D,48495,0,0,0,final,90.93,100
+house,NE-03,2026,NE,3,,Mark Cohen,I,7974,0,0,0,final,90.93,100
+house,NE-03,2026,NE,3,,David Else,O,7008,0,0,0,final,90.93,100
+house,NE-03,2026,NE,3,,Macey Budke,O,6794,0,0,0,final,90.93,100
 house,NH-01,2026,NH,1,,Stefany Shaheen,D,113124,1,0,0,final,59.83,100
 house,NH-01,2026,NH,1,,Anthony DiLorenzo,R,93328,0,0,0,final,59.83,100
 house,NH-01,2026,NH,1,,Write-in,I,364,0,0,0,final,59.83,100
@@ -1567,12 +1567,12 @@ governor,HI,2026,HI,,,Gary Cordery,R,75978,0,0,0,final,66.19,100
 governor,IA,2026,IA,,,Rob Sand,D,757745,1,0,0,final,100,100
 governor,IA,2026,IA,,,Zach Lahn,R,606996,0,0,0,final,100,100
 governor,IA,2026,IA,,,Write-in,I,0,0,0,0,final,100,100
-governor,ID,2026,ID,,,Brad Little,R,391420,1,0,0,final,94.2,100
-governor,ID,2026,ID,,,Terri Pickens,D,221700,0,0,0,final,94.2,100
-governor,ID,2026,ID,,,John R. Stegner,I,52278,0,0,0,final,94.2,100
-governor,ID,2026,ID,,,Paul Sand,L,11078,0,0,0,final,94.2,100
-governor,ID,2026,ID,,,Pro-Life,C,9137,0,0,0,final,94.2,100
-governor,ID,2026,ID,,,Jacob Burnett,I,268,0,0,0,final,94.2,100
+governor,ID,2026,ID,,,Brad Little,R,391655,1,0,0,final,94.25,100
+governor,ID,2026,ID,,,Terri Pickens,D,221777,0,0,0,final,94.25,100
+governor,ID,2026,ID,,,John R. Stegner,I,52311,0,0,0,final,94.25,100
+governor,ID,2026,ID,,,Paul Sand,L,11087,0,0,0,final,94.25,100
+governor,ID,2026,ID,,,Pro-Life,C,9153,0,0,0,final,94.25,100
+governor,ID,2026,ID,,,Jacob Burnett,I,268,0,0,0,final,94.25,100
 governor,IL,2026,IL,,,JB Pritzker,D,2227634,1,0,0,final,77.14,100
 governor,IL,2026,IL,,,Darren Bailey,R,1240191,0,0,0,final,77.14,100
 governor,IL,2026,IL,,,Collin Corbett,I,119478,0,0,0,final,77.14,100
@@ -1608,10 +1608,10 @@ governor,MN,2026,MN,,,Amy Klobuchar,D,1569096,1,0,0,final,100,100
 governor,MN,2026,MN,,,Lisa Demuth,R,1205800,0,0,0,final,100,100
 governor,MN,2026,MN,,,Steven Young,G,51385,0,0,0,final,100,100
 governor,MN,2026,MN,,,Write-in,I,2474,0,0,0,final,100,100
-governor,NE,2026,NE,,,Jim Pillen,R,370368,1,0,0,final,94.43,100
-governor,NE,2026,NE,,,Lynne Walz,D,310091,0,0,0,final,94.43,100
-governor,NE,2026,NE,,,Brett Lindstrom,O,32128,0,0,0,final,94.43,100
-governor,NE,2026,NE,,,Rick Beard,O,19379,0,0,0,final,94.43,100
+governor,NE,2026,NE,,,Jim Pillen,R,373465,1,0,0,final,95.04,100
+governor,NE,2026,NE,,,Lynne Walz,D,311363,0,0,0,final,95.04,100
+governor,NE,2026,NE,,,Brett Lindstrom,O,32362,0,0,0,final,95.04,100
+governor,NE,2026,NE,,,Rick Beard,O,19532,0,0,0,final,95.04,100
 governor,NH,2026,NH,,,Kelly Ayotte,R,219311,1,0,0,final,59.24,100
 governor,NH,2026,NH,,,Cinde Warmington,D,182309,0,0,0,final,59.24,100
 governor,NH,2026,NH,,,Stephen Villee,L,6175,0,0,0,final,59.24,100
