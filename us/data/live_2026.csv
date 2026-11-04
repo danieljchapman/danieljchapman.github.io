@@ -1,8 +1,8 @@
 level,race,year,state,district,seat,candidate,party,votes,winner,unopposed,incumbent,status,reporting,reporting_total
-senate,AK,2026,AK,,,Dan Sullivan,R,101097,0,0,0,counting,71.85,100
-senate,AK,2026,AK,,,Mary Peltola,D,99312,0,0,0,counting,71.85,100
-senate,AK,2026,AK,,,Gerald L. Heikes,R,4504,0,0,0,counting,71.85,100
-senate,AK,2026,AK,,,Daniel J. Jr. Sullivan,I,3462,0,0,0,counting,71.85,100
+senate,AK,2026,AK,,,Dan Sullivan,R,101576,0,0,0,counting,72.49,100
+senate,AK,2026,AK,,,Mary Peltola,D,100504,0,0,0,counting,72.49,100
+senate,AK,2026,AK,,,Gerald L. Heikes,R,4631,0,0,0,counting,72.49,100
+senate,AK,2026,AK,,,Daniel J. Jr. Sullivan,I,3507,0,0,0,counting,72.49,100
 senate,AL,2026,AL,,,Barry Moore,R,917347,1,0,0,final,97.71,100
 senate,AL,2026,AL,,,Everett Wess,D,759335,0,0,0,final,97.71,100
 senate,AR,2026,AR,,,Tom Cotton,R,480526,1,0,0,final,100,100
@@ -169,10 +169,10 @@ senate,WV,2026,WV,,,Rachel Fetty Anderson,D,172922,0,0,0,final,74.92,100
 senate,WV,2026,WV,,,S. Marshall Wilson,C,17139,0,0,0,final,74.92,100
 senate,WY,2026,WY,,,Harriet Hageman,R,122157,1,0,0,final,86.28,100
 senate,WY,2026,WY,,,James W. Byrd,D,65097,0,0,0,final,86.28,100
-house,AK-00,2026,AK,0,,Nick Begich III,R,103877,0,0,0,counting,71.32,100
-house,AK-00,2026,AK,0,,Bill Hill,I,83314,0,0,0,counting,71.32,100
-house,AK-00,2026,AK,0,,Eric Hafner,D,14976,0,0,0,counting,71.32,100
-house,AK-00,2026,AK,0,,"James C. ""Jim"" McDermott",L,5594,0,0,0,counting,71.32,100
+house,AK-00,2026,AK,0,,Nick Begich III,R,104573,0,0,0,counting,71.94,100
+house,AK-00,2026,AK,0,,Bill Hill,I,84169,0,0,0,counting,71.94,100
+house,AK-00,2026,AK,0,,Eric Hafner,D,15155,0,0,0,counting,71.94,100
+house,AK-00,2026,AK,0,,"James C. ""Jim"" McDermott",L,5665,0,0,0,counting,71.94,100
 house,AL-01,2026,AL,1,,Jerry Carl,R,137025,1,0,0,final,94.41,100
 house,AL-01,2026,AL,1,,Clyde Jones,D,94940,0,0,0,final,94.41,100
 house,AL-02,2026,AL,2,,Shomari Figures,D,124422,1,0,0,final,93.53,100
@@ -243,8 +243,8 @@ house,CA-02,2026,CA,2,,Jared Huffman,D,105508,1,0,0,final,59.26,100
 house,CA-02,2026,CA,2,,Robin Littau,R,49069,0,0,0,final,59.26,100
 house,CA-03,2026,CA,3,,Ami Bera,D,95372,1,0,0,final,100,100
 house,CA-03,2026,CA,3,,Robb Tucker,R,71774,0,0,0,final,100,100
-house,CA-04,2026,CA,4,,Eric Jones,D,60616,0,0,0,counting,45.73,100
-house,CA-04,2026,CA,4,,Mike Thompson,D,57083,0,0,0,counting,45.73,100
+house,CA-04,2026,CA,4,,Eric Jones,D,61198,0,0,0,counting,46.16,100
+house,CA-04,2026,CA,4,,Mike Thompson,D,57609,0,0,0,counting,46.16,100
 house,CA-05,2026,CA,5,,Tom McClintock,R,102646,1,0,0,final,100,100
 house,CA-05,2026,CA,5,,Michael Masuda,D,79957,0,0,0,final,100,100
 house,CA-06,2026,CA,6,,Richard Pan,D,86732,1,0,0,final,100,100
@@ -265,48 +265,48 @@ house,CA-13,2026,CA,13,,Adam Gray,D,57232,0,0,0,counting,100,100
 house,CA-13,2026,CA,13,,Kevin Lincoln,R,36009,0,0,0,counting,100,100
 house,CA-14,2026,CA,14,,Aisha Wahab,D,66923,0,0,0,counting,100,100
 house,CA-14,2026,CA,14,,Melissa Hernandez,D,50891,0,0,0,counting,100,100
-house,CA-15,2026,CA,15,,Kevin Mullin,D,96506,1,0,0,final,45.95,100
-house,CA-15,2026,CA,15,,Charles Hoelter,R,27452,0,0,0,final,45.95,100
-house,CA-16,2026,CA,16,,Sam Liccardo,D,107919,1,0,0,final,52.64,100
-house,CA-16,2026,CA,16,,Peter Sundin Soulé,R,33960,0,0,0,final,52.64,100
+house,CA-15,2026,CA,15,,Kevin Mullin,D,101072,1,0,0,final,100,100
+house,CA-15,2026,CA,15,,Charles Hoelter,R,29546,0,0,0,final,100,100
+house,CA-16,2026,CA,16,,Sam Liccardo,D,109418,1,0,0,final,100,100
+house,CA-16,2026,CA,16,,Peter Sundin Soulé,R,34765,0,0,0,final,100,100
 house,CA-17,2026,CA,17,,Ro Khanna,D,72129,1,0,0,final,100,100
 house,CA-17,2026,CA,17,,Ritesh Tandon,R,30127,0,0,0,final,100,100
 house,CA-18,2026,CA,18,,Zoe Lofgren,D,68941,1,0,0,final,36.73,100
 house,CA-18,2026,CA,18,,Shane Lewis,R,27262,0,0,0,final,36.73,100
-house,CA-19,2026,CA,19,,Jimmy Panetta,D,124429,1,0,0,final,64.97,100
-house,CA-19,2026,CA,19,,Peter Verbica,R,47115,0,0,0,final,64.97,100
+house,CA-19,2026,CA,19,,Jimmy Panetta,D,125241,1,0,0,final,65.89,100
+house,CA-19,2026,CA,19,,Peter Verbica,R,48739,0,0,0,final,65.89,100
 house,CA-20,2026,CA,20,,Vince Fong,R,85494,1,0,0,final,56.79,100
 house,CA-20,2026,CA,20,,Sandra Van Scotter,D,51777,0,0,0,final,56.79,100
 house,CA-21,2026,CA,21,,Jim Costa,D,53874,1,0,0,final,100,100
 house,CA-21,2026,CA,21,,Kyle Kirkland,R,32732,0,0,0,final,100,100
 house,CA-22,2026,CA,22,,Randy Villegas,D,48821,1,0,0,final,29.56,100
 house,CA-22,2026,CA,22,,David Valadao,R,25627,0,0,0,final,29.56,100
-house,CA-23,2026,CA,23,,Jay Obernolte,R,60371,0,0,0,counting,47.43,100
-house,CA-23,2026,CA,23,,Tessa Lynn Hodge,D,56469,0,0,0,counting,47.43,100
-house,CA-24,2026,CA,24,,Salud Carbajal,D,104489,1,0,0,final,60.52,100
-house,CA-24,2026,CA,24,,Bob Smith,R,53371,0,0,0,final,60.52,100
-house,CA-25,2026,CA,25,,Raul Ruiz,D,68125,1,0,0,final,41.45,100
-house,CA-25,2026,CA,25,,Joe Males,R,37374,0,0,0,final,41.45,100
+house,CA-23,2026,CA,23,,Jay Obernolte,R,64748,0,0,0,counting,51.3,100
+house,CA-23,2026,CA,23,,Tessa Lynn Hodge,D,61636,0,0,0,counting,51.3,100
+house,CA-24,2026,CA,24,,Salud Carbajal,D,108231,1,0,0,final,62.98,100
+house,CA-24,2026,CA,24,,Bob Smith,R,56044,0,0,0,final,62.98,100
+house,CA-25,2026,CA,25,,Raul Ruiz,D,68301,1,0,0,final,41.61,100
+house,CA-25,2026,CA,25,,Joe Males,R,37590,0,0,0,final,41.61,100
 house,CA-26,2026,CA,26,,Jacqui Irwin,D,101429,1,0,0,final,63.38,100
 house,CA-26,2026,CA,26,,Sam Gallucci,R,61703,0,0,0,final,63.38,100
 house,CA-27,2026,CA,27,,George Whitesides,D,87742,1,0,0,final,100,100
 house,CA-27,2026,CA,27,,Jason Gibbs,R,51140,0,0,0,final,100,100
-house,CA-28,2026,CA,28,,Judy Chu,D,119343,1,0,0,final,66.34,100
-house,CA-28,2026,CA,28,,April Verlato,R,53678,0,0,0,final,66.34,100
+house,CA-28,2026,CA,28,,Judy Chu,D,120768,1,0,0,final,67.63,100
+house,CA-28,2026,CA,28,,April Verlato,R,55611,0,0,0,final,67.63,100
 house,CA-29,2026,CA,29,,Luz Rivas,D,61905,1,0,0,final,100,100
 house,CA-29,2026,CA,29,,Angélica María Dueñas,D,38732,0,0,0,final,100,100
 house,CA-30,2026,CA,30,,Laura Friedman,D,123364,1,0,0,final,100,100
 house,CA-30,2026,CA,30,,Scott Meyers,R,38411,0,0,0,final,100,100
-house,CA-31,2026,CA,31,,Gil Cisneros,D,95813,1,0,0,final,57.81,100
-house,CA-31,2026,CA,31,,Eric Ching,R,52436,0,0,0,final,57.81,100
+house,CA-31,2026,CA,31,,Gil Cisneros,D,97549,1,0,0,final,58.88,100
+house,CA-31,2026,CA,31,,Eric Ching,R,53462,0,0,0,final,58.88,100
 house,CA-32,2026,CA,32,,Brad Sherman,D,114840,1,0,0,final,66.16,100
 house,CA-32,2026,CA,32,,Larry Thompson,R,57733,0,0,0,final,66.16,100
-house,CA-33,2026,CA,33,,Pete Aguilar,D,69035,1,0,0,final,39.79,100
-house,CA-33,2026,CA,33,,Stephanie Vargas,R,32799,0,0,0,final,39.79,100
+house,CA-33,2026,CA,33,,Pete Aguilar,D,75526,1,0,0,final,43.66,100
+house,CA-33,2026,CA,33,,Stephanie Vargas,R,36204,0,0,0,final,43.66,100
 house,CA-34,2026,CA,34,,Angela Gonzales-Torres,D,62015,0,0,0,counting,100,100
 house,CA-34,2026,CA,34,,Jimmy Gomez,D,44484,0,0,0,counting,100,100
-house,CA-35,2026,CA,35,,Norma Torres,D,61759,1,0,0,final,37.04,100
-house,CA-35,2026,CA,35,,Mike Cargile,R,32699,0,0,0,final,37.04,100
+house,CA-35,2026,CA,35,,Norma Torres,D,67853,1,0,0,final,40.6,100
+house,CA-35,2026,CA,35,,Mike Cargile,R,35697,0,0,0,final,40.6,100
 house,CA-36,2026,CA,36,,Ted Lieu,D,141840,1,0,0,final,100,100
 house,CA-36,2026,CA,36,,Houston Brignano,R,58559,0,0,0,final,100,100
 house,CA-37,2026,CA,37,,Sydney Kamlager-Dove,D,68458,1,0,0,final,100,100
@@ -863,9 +863,9 @@ house,MS-03,2026,MS,3,,Erik Kiehle,L,3127,0,0,0,final,99,100
 house,MS-04,2026,MS,4,,Mike Ezell,R,131074,1,0,0,final,88.7,100
 house,MS-04,2026,MS,4,,Jeffrey Hulum,D,76856,0,0,0,final,88.7,100
 house,MS-04,2026,MS,4,,Carl Boyanton,I,6588,0,0,0,final,88.7,100
-house,MT-01,2026,MT,1,,Sam Forstag,D,108736,1,0,0,final,74.63,100
-house,MT-01,2026,MT,1,,Aaron Flint,R,96535,0,0,0,final,74.63,100
-house,MT-01,2026,MT,1,,Nick Sheedy,L,5852,0,0,0,final,74.63,100
+house,MT-01,2026,MT,1,,Sam Forstag,D,108767,1,0,0,final,74.67,100
+house,MT-01,2026,MT,1,,Aaron Flint,R,96597,0,0,0,final,74.67,100
+house,MT-01,2026,MT,1,,Nick Sheedy,L,5858,0,0,0,final,74.67,100
 house,MT-02,2026,MT,2,,Troy Downing,R,119897,1,0,0,final,72.53,100
 house,MT-02,2026,MT,2,,Brian Miller,D,66491,0,0,0,final,72.53,100
 house,MT-02,2026,MT,2,,Michael Eisenhauer,I,16106,0,0,0,final,72.53,100
@@ -1521,10 +1521,10 @@ house,WY-00,2026,WY,0,,Chuck Gray,R,99891,1,0,0,final,84.09,100
 house,WY-00,2026,WY,0,,Lisa F. Kinney,D,61687,0,0,0,final,84.09,100
 house,WY-00,2026,WY,0,,Shawn Johnson,L,13665,0,0,0,final,84.09,100
 house,WY-00,2026,WY,0,,Jeffrey Haggit,C,8060,0,0,0,final,84.09,100
-governor,AK,2026,AK,,,"Jonathan S. ""JKT"" Kreiss-Tomkins",D,100907,0,0,0,counting,70.88,100
-governor,AK,2026,AK,,,Bernadette M. Wilson,R,60824,0,0,0,counting,70.88,100
-governor,AK,2026,AK,,,Dave Bronson,R,29177,0,0,0,counting,70.88,100
-governor,AK,2026,AK,,,Treg Taylor,R,15251,0,0,0,counting,70.88,100
+governor,AK,2026,AK,,,"Jonathan S. ""JKT"" Kreiss-Tomkins",D,101802,0,0,0,counting,71.5,100
+governor,AK,2026,AK,,,Bernadette M. Wilson,R,61217,0,0,0,counting,71.5,100
+governor,AK,2026,AK,,,Dave Bronson,R,29438,0,0,0,counting,71.5,100
+governor,AK,2026,AK,,,Treg Taylor,R,15498,0,0,0,counting,71.5,100
 governor,AL,2026,AL,,,Tommy Tuberville,R,872445,1,0,0,final,97.65,100
 governor,AL,2026,AL,,,Doug Jones,D,803468,0,0,0,final,97.65,100
 governor,AR,2026,AR,,,Sarah Huckabee Sanders,R,477040,1,0,0,final,100,100
@@ -1537,8 +1537,8 @@ governor,AZ,2026,AZ,,,Teri Hourihan,O,15388,0,0,0,final,60.24,100
 governor,AZ,2026,AZ,,,Write-in,I,1173,0,0,0,final,60.24,100
 governor,AZ,2026,AZ,,,Alice Novoa,R,6,0,0,0,final,60.24,100
 governor,AZ,2026,AZ,,,Gertritrude Gonzalez,R,2,0,0,0,final,60.24,100
-governor,CA,2026,CA,,,Xavier Becerra,D,4801559,1,0,0,final,55.56,100
-governor,CA,2026,CA,,,Steve Hilton,R,2697156,0,0,0,final,55.56,100
+governor,CA,2026,CA,,,Xavier Becerra,D,4833584,1,0,0,final,55.97,100
+governor,CA,2026,CA,,,Steve Hilton,R,2720294,0,0,0,final,55.97,100
 governor,CO,2026,CO,,,Phil Weiser,D,1311730,1,0,0,final,75.65,100
 governor,CO,2026,CO,,,Victor Marx,R,718834,0,0,0,final,75.65,100
 governor,CO,2026,CO,,,Greg Lopez,I,59597,0,0,0,final,75.65,100
