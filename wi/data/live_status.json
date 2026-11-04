@@ -1,13 +1,13 @@
 [
  {
   "phase": "counting",
-  "updated_at": "2026-11-04T03:47:32Z",
+  "updated_at": "2026-11-04T03:49:47Z",
   "source": "CivicAPI (county results), unofficial",
   "races": 120,
   "called": 0,
   "counting": 105,
   "problems": [
-   "2026 Secretary of State : /race/87493: HTTP 000 curl: (28) Operation timed out after 45001 milliseconds with 0 bytes received ",
+   "2026 Governor : /race/87491: HTTP 502  error code: 502\n",
    "1 race not sent by CivicAPI this time; kept the last published numbers"
   ],
   "local_problems": []
