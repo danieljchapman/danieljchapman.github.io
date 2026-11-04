@@ -1,7 +1,7 @@
 [
  {
   "phase": "counting",
-  "updated_at": "2026-11-04T02:23:58Z",
+  "updated_at": "2026-11-04T02:29:00Z",
   "source": "Texas Secretary of State election-night results, unofficial",
   "races": 224,
   "called": 3,
@@ -10,7 +10,7 @@
   "local_problems": [
    "clarity:Tarrant: https://results.enr.clarityelections.com/TX/Tarrant/127297/current_ver.txt: HTTP 502",
    "collin: Collin: no results CSV for 2026-11-03 posted yet",
-   "clarity:Williamson: https://results.enr.clarityelections.com/TX/Williamson/127488/current_ver.txt: HTTP 500",
+   "clarity:Williamson: https://results.enr.clarityelections.com/TX/Williamson/127488/current_ver.txt: HTTP 502",
    "civicapi williamson County Judge: https://civicapi.org/api/v2/race/56120: HTTP 502",
    "clarity:Denton: https://results.enr.clarityelections.com/TX/Denton/127398/current_ver.txt: HTTP 502",
    "civicapi denton County Judge: https://civicapi.org/api/v2/race/55904: HTTP 502",
