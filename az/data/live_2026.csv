@@ -239,51 +239,66 @@ statewide,2026 Governor,2026,Governor,,04027,Yuma,Teri Hourihan,NL,180,final,32.
 statewide,2026 Governor,2026,Governor,,04027,Yuma,Write-in,I,13,final,32.7,100
 statewide,2026 Governor,2026,Governor,,04027,Yuma,Alice Novoa,R,0,final,32.7,100
 statewide,2026 Governor,2026,Governor,,04027,Yuma,Gertritrude Gonzalez,R,0,final,32.7,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04001,Apache,Brian Matlock,D,8174,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04001,Apache,Les Presmyk,R,3917,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04001,Apache,Write-in,I,24,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04003,Cochise,Les Presmyk,R,15310,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04003,Cochise,Brian Matlock,D,14356,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04003,Cochise,Write-in,I,36,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04005,Coconino,Brian Matlock,D,23275,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04005,Coconino,Les Presmyk,R,10410,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04005,Coconino,Write-in,I,24,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04007,Gila,Les Presmyk,R,8203,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04007,Gila,Brian Matlock,D,4493,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04007,Gila,Write-in,I,19,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04009,Graham,Les Presmyk,R,4670,counting,100,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04009,Graham,Brian Matlock,D,2088,counting,100,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04009,Graham,Write-in,I,6,counting,100,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04011,Greenlee,Brian Matlock,D,549,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04011,Greenlee,Les Presmyk,R,497,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04011,Greenlee,Write-in,I,0,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04012,La Paz,Brian Matlock,D,0,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04012,La Paz,Les Presmyk,R,0,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04012,La Paz,Write-in,I,0,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04013,Maricopa,Brian Matlock,D,538267,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04013,Maricopa,Les Presmyk,R,429085,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04013,Maricopa,Write-in,I,802,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04015,Mohave,Les Presmyk,R,36644,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04015,Mohave,Brian Matlock,D,14458,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04015,Mohave,Write-in,I,36,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04017,Navajo,Brian Matlock,D,0,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04017,Navajo,Les Presmyk,R,0,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04017,Navajo,Write-in,I,0,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04019,Pima,Brian Matlock,D,169762,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04019,Pima,Les Presmyk,R,90252,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04019,Pima,Write-in,I,290,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04021,Pinal,Les Presmyk,R,48070,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04021,Pinal,Brian Matlock,D,45654,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04021,Pinal,Write-in,I,72,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04023,Santa Cruz,Brian Matlock,D,6755,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04023,Santa Cruz,Les Presmyk,R,2249,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04023,Santa Cruz,Write-in,I,2,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04025,Yavapai,Les Presmyk,R,52908,counting,96.49,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04025,Yavapai,Brian Matlock,D,32755,counting,96.49,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04025,Yavapai,Write-in,I,62,counting,96.49,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04027,Yuma,Brian Matlock,D,10484,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04027,Yuma,Les Presmyk,R,10101,counting,0,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04027,Yuma,Write-in,I,20,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04001,Apache,Adrian Fontes,D,8056,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04001,Apache,Alexander Kolodin,R,3792,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04001,Apache,Duwayne Collier,G,294,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04001,Apache,Write-in,I,14,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04003,Cochise,Adrian Fontes,D,14808,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04003,Cochise,Alexander Kolodin,R,14621,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04003,Cochise,Duwayne Collier,G,553,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04003,Cochise,Write-in,I,20,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04005,Coconino,Adrian Fontes,D,23881,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04005,Coconino,Alexander Kolodin,R,9550,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04005,Coconino,Duwayne Collier,G,593,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04005,Coconino,Write-in,I,11,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04007,Gila,Alexander Kolodin,R,7909,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04007,Gila,Adrian Fontes,D,4799,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04007,Gila,Duwayne Collier,G,174,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04007,Gila,Write-in,I,3,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04009,Graham,Alexander Kolodin,R,4527,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04009,Graham,Adrian Fontes,D,2176,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04009,Graham,Duwayne Collier,G,100,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04009,Graham,Write-in,I,3,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04011,Greenlee,Adrian Fontes,D,563,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04011,Greenlee,Alexander Kolodin,R,459,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04011,Greenlee,Duwayne Collier,G,21,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04011,Greenlee,Write-in,I,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04012,La Paz,Adrian Fontes,D,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04012,La Paz,Duwayne Collier,G,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04012,La Paz,Alexander Kolodin,R,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04012,La Paz,Write-in,I,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04013,Maricopa,Adrian Fontes,D,588566,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04013,Maricopa,Alexander Kolodin,R,399426,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04013,Maricopa,Duwayne Collier,G,11124,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04013,Maricopa,Write-in,I,335,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04015,Mohave,Alexander Kolodin,R,35726,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04015,Mohave,Adrian Fontes,D,15121,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04015,Mohave,Duwayne Collier,G,748,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04015,Mohave,Write-in,I,28,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04017,Navajo,Adrian Fontes,D,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04017,Navajo,Duwayne Collier,G,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04017,Navajo,Alexander Kolodin,R,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04017,Navajo,Write-in,I,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04019,Pima,Adrian Fontes,D,176310,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04019,Pima,Alexander Kolodin,R,82560,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04019,Pima,Duwayne Collier,G,3621,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04019,Pima,Write-in,I,112,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04021,Pinal,Adrian Fontes,D,48136,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04021,Pinal,Alexander Kolodin,R,45510,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04021,Pinal,Duwayne Collier,G,1360,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04021,Pinal,Write-in,I,43,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04023,Santa Cruz,Adrian Fontes,D,7019,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04023,Santa Cruz,Alexander Kolodin,R,2045,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04023,Santa Cruz,Duwayne Collier,G,120,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04023,Santa Cruz,Write-in,I,2,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04025,Yavapai,Alexander Kolodin,R,50636,counting,96.49,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04025,Yavapai,Adrian Fontes,D,35577,counting,96.49,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04025,Yavapai,Duwayne Collier,G,1105,counting,96.49,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04025,Yavapai,Write-in,I,35,counting,96.49,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04027,Yuma,Adrian Fontes,D,10740,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04027,Yuma,Alexander Kolodin,R,9834,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04027,Yuma,Duwayne Collier,G,346,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04027,Yuma,Write-in,I,9,counting,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04001,Apache,Teresa Ruiz,D,8057,counting,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04001,Apache,Kimberly Yee,R,4087,counting,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04001,Apache,Write-in,I,20,counting,0,100
@@ -308,9 +323,9 @@ statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Publi
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04007,Gila,Davis Gerard,G,0,counting,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04007,Gila,"Stephen ""Dr.Stephen Neal"" Neal jr.",NL,0,counting,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04007,Gila,Gerard Davis,G,0,counting,0,100
-statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04009,Graham,Kimberly Yee,R,4774,counting,100,100
-statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04009,Graham,Teresa Ruiz,D,2080,counting,100,100
-statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04009,Graham,Write-in,I,9,counting,100,100
+statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04009,Graham,Kimberly Yee,R,6310,counting,100,100
+statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04009,Graham,Teresa Ruiz,D,2820,counting,100,100
+statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04009,Graham,Write-in,I,14,counting,100,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04009,Graham,Davis Gerard,G,0,counting,100,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04009,Graham,"Stephen ""Dr.Stephen Neal"" Neal jr.",NL,0,counting,100,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04009,Graham,Gerard Davis,G,0,counting,100,100
@@ -338,12 +353,12 @@ statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Publi
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04015,Mohave,"Stephen ""Dr.Stephen Neal"" Neal jr.",NL,2,counting,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04015,Mohave,Gerard Davis,G,2,counting,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04015,Mohave,Davis Gerard,G,0,counting,0,100
-statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04017,Navajo,Teresa Ruiz,D,0,counting,0,100
+statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04017,Navajo,Kimberly Yee,R,10663,counting,0,100
+statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04017,Navajo,Teresa Ruiz,D,8645,counting,0,100
+statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04017,Navajo,Write-in,I,24,counting,0,100
+statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04017,Navajo,"Stephen ""Dr.Stephen Neal"" Neal jr.",NL,1,counting,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04017,Navajo,Davis Gerard,G,0,counting,0,100
-statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04017,Navajo,"Stephen ""Dr.Stephen Neal"" Neal jr.",NL,0,counting,0,100
-statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04017,Navajo,Kimberly Yee,R,0,counting,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04017,Navajo,Gerard Davis,G,0,counting,0,100
-statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04017,Navajo,Write-in,I,0,counting,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04019,Pima,Teresa Ruiz,D,172439,counting,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04019,Pima,Kimberly Yee,R,89198,counting,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04019,Pima,Write-in,I,234,counting,0,100
@@ -386,9 +401,9 @@ statewide,2026 Treasurer,2026,Treasurer,,04005,Coconino,Write-in,I,20,counting,0
 statewide,2026 Treasurer,2026,Treasurer,,04007,Gila,Elijah Norton,R,8222,counting,0,100
 statewide,2026 Treasurer,2026,Treasurer,,04007,Gila,Nick Mansour,D,4534,counting,0,100
 statewide,2026 Treasurer,2026,Treasurer,,04007,Gila,Write-in,I,11,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,04009,Graham,Elijah Norton,R,4724,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,04009,Graham,Nick Mansour,D,2041,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,04009,Graham,Write-in,I,11,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,04009,Graham,Elijah Norton,R,6287,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,04009,Graham,Nick Mansour,D,2732,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,04009,Graham,Write-in,I,19,counting,100,100
 statewide,2026 Treasurer,2026,Treasurer,,04011,Greenlee,Nick Mansour,D,548,counting,0,100
 statewide,2026 Treasurer,2026,Treasurer,,04011,Greenlee,Elijah Norton,R,489,counting,0,100
 statewide,2026 Treasurer,2026,Treasurer,,04011,Greenlee,Write-in,I,2,counting,0,100
@@ -401,9 +416,9 @@ statewide,2026 Treasurer,2026,Treasurer,,04013,Maricopa,Write-in,I,602,counting,
 statewide,2026 Treasurer,2026,Treasurer,,04015,Mohave,Elijah Norton,R,36505,counting,0,100
 statewide,2026 Treasurer,2026,Treasurer,,04015,Mohave,Nick Mansour,D,14727,counting,0,100
 statewide,2026 Treasurer,2026,Treasurer,,04015,Mohave,Write-in,I,55,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,04017,Navajo,Nick Mansour,D,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,04017,Navajo,Elijah Norton,R,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,04017,Navajo,Write-in,I,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,04017,Navajo,Elijah Norton,R,10562,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,04017,Navajo,Nick Mansour,D,8628,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,04017,Navajo,Write-in,I,28,counting,0,100
 statewide,2026 Treasurer,2026,Treasurer,,04019,Pima,Nick Mansour,D,174522,counting,0,100
 statewide,2026 Treasurer,2026,Treasurer,,04019,Pima,Elijah Norton,R,86990,counting,0,100
 statewide,2026 Treasurer,2026,Treasurer,,04019,Pima,Write-in,I,184,counting,0,100
@@ -681,63 +696,48 @@ house,2026 House,2026,House,l2022,30,,Mike Gannuscio,R,33765,counting,17,100
 house,2026 House,2026,House,l2022,30,,David Rose,R,32235,counting,17,100
 house,2026 House,2026,House,l2022,30,,Brian McMahan,D,16223,counting,17,100
 house,2026 House,2026,House,l2022,30,,Write-in,I,161,counting,17,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04001,Apache,Adrian Fontes,D,8056,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04001,Apache,Alexander Kolodin,R,3792,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04001,Apache,Duwayne Collier,G,294,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04001,Apache,Write-in,I,14,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04003,Cochise,Adrian Fontes,D,14808,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04003,Cochise,Alexander Kolodin,R,14621,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04003,Cochise,Duwayne Collier,G,553,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04003,Cochise,Write-in,I,20,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04005,Coconino,Adrian Fontes,D,23881,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04005,Coconino,Alexander Kolodin,R,9550,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04005,Coconino,Duwayne Collier,G,593,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04005,Coconino,Write-in,I,11,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04007,Gila,Alexander Kolodin,R,7909,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04007,Gila,Adrian Fontes,D,4799,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04007,Gila,Duwayne Collier,G,174,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04007,Gila,Write-in,I,3,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04009,Graham,Alexander Kolodin,R,4527,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04009,Graham,Adrian Fontes,D,2176,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04009,Graham,Duwayne Collier,G,100,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04009,Graham,Write-in,I,3,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04011,Greenlee,Adrian Fontes,D,563,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04011,Greenlee,Alexander Kolodin,R,459,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04011,Greenlee,Duwayne Collier,G,21,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04011,Greenlee,Write-in,I,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04012,La Paz,Adrian Fontes,D,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04012,La Paz,Duwayne Collier,G,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04012,La Paz,Alexander Kolodin,R,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04012,La Paz,Write-in,I,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04013,Maricopa,Adrian Fontes,D,588566,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04013,Maricopa,Alexander Kolodin,R,399426,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04013,Maricopa,Duwayne Collier,G,11124,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04013,Maricopa,Write-in,I,335,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04015,Mohave,Alexander Kolodin,R,35726,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04015,Mohave,Adrian Fontes,D,15121,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04015,Mohave,Duwayne Collier,G,748,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04015,Mohave,Write-in,I,28,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04017,Navajo,Adrian Fontes,D,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04017,Navajo,Duwayne Collier,G,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04017,Navajo,Alexander Kolodin,R,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04017,Navajo,Write-in,I,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04019,Pima,Adrian Fontes,D,176310,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04019,Pima,Alexander Kolodin,R,82560,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04019,Pima,Duwayne Collier,G,3621,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04019,Pima,Write-in,I,112,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04021,Pinal,Adrian Fontes,D,48136,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04021,Pinal,Alexander Kolodin,R,45510,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04021,Pinal,Duwayne Collier,G,1360,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04021,Pinal,Write-in,I,43,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04023,Santa Cruz,Adrian Fontes,D,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04023,Santa Cruz,Duwayne Collier,G,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04023,Santa Cruz,Alexander Kolodin,R,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04023,Santa Cruz,Write-in,I,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04025,Yavapai,Alexander Kolodin,R,50636,counting,96.49,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04025,Yavapai,Adrian Fontes,D,35577,counting,96.49,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04025,Yavapai,Duwayne Collier,G,1105,counting,96.49,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04025,Yavapai,Write-in,I,35,counting,96.49,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04027,Yuma,Adrian Fontes,D,10740,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04027,Yuma,Alexander Kolodin,R,9834,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04027,Yuma,Duwayne Collier,G,346,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04027,Yuma,Write-in,I,9,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04001,Apache,Brian Matlock,D,8174,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04001,Apache,Les Presmyk,R,3917,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04001,Apache,Write-in,I,24,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04003,Cochise,Les Presmyk,R,15310,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04003,Cochise,Brian Matlock,D,14356,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04003,Cochise,Write-in,I,36,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04005,Coconino,Brian Matlock,D,23275,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04005,Coconino,Les Presmyk,R,10410,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04005,Coconino,Write-in,I,24,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04007,Gila,Les Presmyk,R,8203,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04007,Gila,Brian Matlock,D,4493,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04007,Gila,Write-in,I,19,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04009,Graham,Les Presmyk,R,4670,counting,100,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04009,Graham,Brian Matlock,D,2088,counting,100,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04009,Graham,Write-in,I,6,counting,100,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04011,Greenlee,Brian Matlock,D,549,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04011,Greenlee,Les Presmyk,R,497,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04011,Greenlee,Write-in,I,0,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04012,La Paz,Brian Matlock,D,0,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04012,La Paz,Les Presmyk,R,0,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04012,La Paz,Write-in,I,0,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04013,Maricopa,Brian Matlock,D,538267,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04013,Maricopa,Les Presmyk,R,429085,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04013,Maricopa,Write-in,I,802,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04015,Mohave,Les Presmyk,R,36644,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04015,Mohave,Brian Matlock,D,14458,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04015,Mohave,Write-in,I,36,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04017,Navajo,Brian Matlock,D,0,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04017,Navajo,Les Presmyk,R,0,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04017,Navajo,Write-in,I,0,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04019,Pima,Brian Matlock,D,169762,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04019,Pima,Les Presmyk,R,90252,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04019,Pima,Write-in,I,290,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04021,Pinal,Les Presmyk,R,48070,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04021,Pinal,Brian Matlock,D,45654,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04021,Pinal,Write-in,I,72,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04023,Santa Cruz,Brian Matlock,D,6755,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04023,Santa Cruz,Les Presmyk,R,2249,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04023,Santa Cruz,Write-in,I,2,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04025,Yavapai,Les Presmyk,R,52908,counting,96.49,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04025,Yavapai,Brian Matlock,D,32755,counting,96.49,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04025,Yavapai,Write-in,I,62,counting,96.49,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04027,Yuma,Brian Matlock,D,10484,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04027,Yuma,Les Presmyk,R,10101,counting,0,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04027,Yuma,Write-in,I,20,counting,0,100
