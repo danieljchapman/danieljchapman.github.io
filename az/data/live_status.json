@@ -1,12 +1,16 @@
 [
  {
   "phase": "counting",
-  "updated_at": "2026-11-04T05:23:00Z",
+  "updated_at": "2026-11-04T05:26:10Z",
   "source": "CivicAPI, unofficial",
   "races": 76,
   "called": 6,
   "counting": 70,
-  "problems": [],
+  "problems": [
+   "CivicAPI search: /race/search?country=US&province=AZ&startDate=2026-11-03&endDate=2026-11-03&limit=500: HTTP 504  error code: 504\n",
+   "76 races not sent by CivicAPI this time; kept the last published numbers",
+   "no live source yet for 7 statewide races, 9 U.S. House races, 30 Arizona Senate races, 30 Arizona House races"
+  ],
   "local_problems": []
  }
 ]
