@@ -1,13 +1,13 @@
 [
  {
-  "phase": "counting",
-  "updated_at": "2026-11-04T05:20:08Z",
+  "phase": "final",
+  "updated_at": "2026-11-04T05:25:09Z",
   "source": "Florida Division of Elections, unofficial",
   "races": 174,
-  "called": 117,
-  "counting": 25,
+  "called": 142,
+  "counting": 0,
   "precincts": [
-   5574,
+   5626,
    5626
   ],
   "problems": [],
