@@ -1,18 +1,20 @@
 [
  {
   "phase": "counting",
-  "updated_at": "2026-11-04T04:56:15Z",
+  "updated_at": "2026-11-04T05:10:14Z",
   "source": "CivicAPI, unofficial",
   "races": 137,
   "called": 4,
   "counting": 93,
   "problems": [
    "CivicAPI search (Kansas State House): /race/search?country=US&province=KS&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Kansas%20State%20House: HTT",
+   "CivicAPI search (Kansas US): /race/search?country=US&province=KS&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Kansas%20US: HTTP 502  erro",
    "CivicAPI search (Kansas Governor): /race/search?country=US&province=KS&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Kansas%20Governor: HTTP 502",
-   "CivicAPI search (Kansas Insurance): /race/search?country=US&province=KS&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Kansas%20Insurance: HTTP 00",
-   "2026 Attorney General : /race/87164: HTTP 502  error code: 502\n",
-   "2 races not sent by CivicAPI this time; kept the last published numbers",
-   "no live source yet for 2 statewide races"
+   "CivicAPI search (Kansas Attorney General): /race/search?country=US&province=KS&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Kansas%20Attorney%20General",
+   "CivicAPI search (Kansas State Treasurer): /race/search?country=US&province=KS&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Kansas%20State%20Treasurer:",
+   "CivicAPI search (Kansas Insurance): /race/search?country=US&province=KS&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Kansas%20Insurance: HTTP 50",
+   "95 races not sent by CivicAPI this time; kept the last published numbers",
+   "no live source yet for 5 statewide races, 4 U.S. House races, 125 Kansas House races"
   ],
   "local_problems": []
  }
