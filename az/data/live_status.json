@@ -1,15 +1,14 @@
 [
  {
   "phase": "pre-election",
-  "updated_at": "2026-11-04T02:22:57Z",
+  "updated_at": "2026-11-04T02:24:11Z",
   "source": "CivicAPI, unofficial",
   "races": 76,
   "called": 0,
   "counting": 0,
   "problems": [
-   "2026 Attorney General : /race/86930: HTTP 502  error code: 502\n",
-   "2026 Secretary of State : /race/86929: HTTP 000 curl: (28) Operation timed out after 45001 milliseconds with 0 bytes received ",
-   "2026 Treasurer : /race/86933: HTTP 502  error code: 502\n"
+   "CivicAPI search: /race/search?country=US&province=AZ&startDate=2026-11-03&endDate=2026-11-03&limit=500: HTTP 000 curl: (28) Operation timed out after 45002 milliseconds with 0 b",
+   "no live source yet for 7 statewide races, 9 U.S. House races, 30 Arizona Senate races, 30 Arizona House races"
   ],
   "local_problems": []
  }
