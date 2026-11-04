@@ -1,18 +1,19 @@
 [
  {
   "phase": "counting",
-  "updated_at": "2026-11-04T01:45:13Z",
+  "updated_at": "2026-11-04T01:50:56Z",
   "source": "Texas Secretary of State election-night results, unofficial",
   "races": 224,
-  "called": 1,
-  "counting": 64,
+  "called": 2,
+  "counting": 82,
   "problems": [],
   "local_problems": [
    "clarity:Tarrant: https://results.enr.clarityelections.com/TX/Tarrant/127297/current_ver.txt: HTTP 502",
    "collin: Collin: no results CSV for 2026-11-03 posted yet",
    "clarity:Williamson: https://results.enr.clarityelections.com/TX/Williamson/127488/current_ver.txt: HTTP 502",
    "clarity:Denton: https://results.enr.clarityelections.com/TX/Denton/127398/current_ver.txt: HTTP 502",
-   "clarity:Travis: https://results.enr.clarityelections.com/TX/Travis/127492/current_ver.txt: HTTP 502",
+   "civicapi denton County Judge: https://civicapi.org/api/v2/race/55904: HTTP 502",
+   "clarity:Travis: https://results.enr.clarityelections.com/TX/Travis/127492/current_ver.txt: HTTP 500",
    "clarity:Dallas: Dallas: no Clarity election on 2026-11-03 yet",
    "fort bend: https://results.enr.clarityelections.com/TX/Fort_Bend/127480/current_ver.txt: HTTP 502"
   ],
@@ -52,7 +53,7 @@
     ],
     "48497": [
      59841,
-     0
+     24069
     ],
     "48495": [
      4190,
@@ -96,7 +97,7 @@
     ],
     "48475": [
      7027,
-     0
+     1649
     ],
     "48473": [
      46110,
@@ -124,7 +125,7 @@
     ],
     "48461": [
      2079,
-     10
+     612
     ],
     "48459": [
      31152,
@@ -196,7 +197,7 @@
     ],
     "48425": [
      7577,
-     3211
+     4231
     ],
     "48423": [
      164156,
@@ -220,7 +221,7 @@
     ],
     "48413": [
      1779,
-     0
+     915
     ],
     "48411": [
      3774,
@@ -328,7 +329,7 @@
     ],
     "48359": [
      1395,
-     0
+     418
     ],
     "48357": [
      5221,
@@ -444,7 +445,7 @@
     ],
     "48297": [
      7686,
-     0
+     116
     ],
     "48295": [
      1878,
@@ -528,15 +529,15 @@
     ],
     "48255": [
      8281,
-     0
+     2363
     ],
     "48253": [
      11231,
-     0
+     2691
     ],
     "48251": [
      135277,
-     0
+     53256
     ],
     "48249": [
      26107,
@@ -692,7 +693,7 @@
     ],
     "48173": [
      857,
-     0
+     367
     ],
     "48171": [
      22570,
@@ -728,7 +729,7 @@
     ],
     "48155": [
      779,
-     0
+     407
     ],
     "48153": [
      3582,
@@ -784,7 +785,7 @@
     ],
     "48125": [
      1363,
-     441
+     486
     ],
     "48123": [
      11657,
@@ -792,11 +793,11 @@
     ],
     "48121": [
      688032,
-     0
+     293330
     ],
     "48119": [
      4116,
-     0
+     1268
     ],
     "48117": [
      8821,
@@ -832,7 +833,7 @@
     ],
     "48101": [
      979,
-     0
+     535
     ],
     "48099": [
      47037,
@@ -944,7 +945,7 @@
     ],
     "48045": [
      1022,
-     37
+     406
     ],
     "48043": [
      7119,
@@ -956,7 +957,7 @@
     ],
     "48039": [
      261323,
-     0
+     116771
     ],
     "48037": [
      61596,
@@ -964,7 +965,7 @@
     ],
     "48035": [
      13761,
-     4623
+     4844
     ],
     "48033": [
      477,
@@ -1020,7 +1021,7 @@
     ],
     "48007": [
      19867,
-     0
+     8593
     ],
     "48005": [
      56330,
