@@ -65,9 +65,9 @@ statewide,2026 Attorney General,2026,Attorney General,,19041,Clay,Write-ins,W,0,
 statewide,2026 Attorney General,2026,Attorney General,,19043,Clayton,Brenna Bird,R,4298,counting,91.7,100
 statewide,2026 Attorney General,2026,Attorney General,,19043,Clayton,Nathan Willems,D,2943,counting,91.7,100
 statewide,2026 Attorney General,2026,Attorney General,,19043,Clayton,Write-ins,W,0,counting,91.7,100
-statewide,2026 Attorney General,2026,Attorney General,,19045,Clinton,Brenna Bird,R,9482,counting,95.8,100
-statewide,2026 Attorney General,2026,Attorney General,,19045,Clinton,Nathan Willems,D,8707,counting,95.8,100
-statewide,2026 Attorney General,2026,Attorney General,,19045,Clinton,Write-ins,W,0,counting,95.8,100
+statewide,2026 Attorney General,2026,Attorney General,,19045,Clinton,Brenna Bird,R,9482,counting,100,100
+statewide,2026 Attorney General,2026,Attorney General,,19045,Clinton,Nathan Willems,D,8707,counting,100,100
+statewide,2026 Attorney General,2026,Attorney General,,19045,Clinton,Write-ins,W,0,counting,100,100
 statewide,2026 Attorney General,2026,Attorney General,,19047,Crawford,Brenna Bird,R,3069,counting,100,100
 statewide,2026 Attorney General,2026,Attorney General,,19047,Crawford,Nathan Willems,D,1811,counting,100,100
 statewide,2026 Attorney General,2026,Attorney General,,19047,Crawford,Write-ins,W,0,counting,100,100
@@ -2177,8 +2177,8 @@ statewide,2026 Treasurer,2026,Treasurer,,19195,Worth,Write-ins,W,0,counting,0,10
 statewide,2026 Treasurer,2026,Treasurer,,19197,Wright,Roby Smith,R,0,counting,0,100
 statewide,2026 Treasurer,2026,Treasurer,,19197,Wright,John Norwood,D,0,counting,0,100
 statewide,2026 Treasurer,2026,Treasurer,,19197,Wright,Write-ins,W,0,counting,0,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,1,,Christina Bohannan,D,174234,final,95,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,1,,Mariannette Miller-Meeks,R,139193,final,95,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,1,,Christina Bohannan,D,174284,final,95,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,1,,Mariannette Miller-Meeks,R,139166,final,95,100
 ushouse,2026 U.S. House,2026,U.S. House,c2022,1,,Michael Bridgford,I,11967,final,95,100
 ushouse,2026 U.S. House,2026,U.S. House,c2022,1,,Write-ins,W,0,final,95,100
 ushouse,2026 U.S. House,2026,U.S. House,c2022,2,,Lindsay James,D,171512,final,100,100
@@ -2239,9 +2239,9 @@ senate,2026 Senate,2026,Senate,s2022,31,,Write-ins,W,0,pending,0,100
 senate,2026 Senate,2026,Senate,s2022,33,,Carrie Koelker,R,17383,counting,25,100
 senate,2026 Senate,2026,Senate,s2022,33,,Mary Ungs-Sogaard,D,11722,counting,25,100
 senate,2026 Senate,2026,Senate,s2022,33,,Write-ins,W,0,counting,25,100
-senate,2026 Senate,2026,Senate,s2022,35,,Joe Stutting,R,13508,counting,8,100
-senate,2026 Senate,2026,Senate,s2022,35,,Mike Zimmer,D,12521,counting,8,100
-senate,2026 Senate,2026,Senate,s2022,35,,Write-ins,W,0,counting,8,100
+senate,2026 Senate,2026,Senate,s2022,35,,Joe Stutting,R,13508,counting,25,100
+senate,2026 Senate,2026,Senate,s2022,35,,Mike Zimmer,D,12521,counting,25,100
+senate,2026 Senate,2026,Senate,s2022,35,,Write-ins,W,0,counting,25,100
 senate,2026 Senate,2026,Senate,s2022,37,,Molly Donahue,D,18833,counting,50,100
 senate,2026 Senate,2026,Senate,s2022,37,,Randy Marzen,R,11350,counting,50,100
 senate,2026 Senate,2026,Senate,s2022,37,,Write-ins,W,0,counting,50,100
@@ -2449,9 +2449,9 @@ house,2026 House,2026,House,h2022,67,,Write-ins,W,0,counting,25,100
 house,2026 House,2026,House,h2022,68,,Chad Ingels,R,7930,counting,25,100
 house,2026 House,2026,House,h2022,68,,Scott Bodley,D,4353,counting,25,100
 house,2026 House,2026,House,h2022,68,,Write-ins,W,0,counting,25,100
-house,2026 House,2026,House,h2022,69,,Randy Meier,D,5956,counting,0,100
-house,2026 House,2026,House,h2022,69,,Tom Determann,R,5565,counting,0,100
-house,2026 House,2026,House,h2022,69,,Write-ins,W,0,counting,0,100
+house,2026 House,2026,House,h2022,69,,Randy Meier,D,5956,counting,50,100
+house,2026 House,2026,House,h2022,69,,Tom Determann,R,5565,counting,50,100
+house,2026 House,2026,House,h2022,69,,Write-ins,W,0,counting,50,100
 house,2026 House,2026,House,h2022,70,,Norlin Mommsen,R,7448,counting,25,100
 house,2026 House,2026,House,h2022,70,,George Pickup,D,7020,counting,25,100
 house,2026 House,2026,House,h2022,70,,Write-ins,W,0,counting,25,100
