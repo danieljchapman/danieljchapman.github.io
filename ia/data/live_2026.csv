@@ -140,9 +140,9 @@ statewide,2026 Attorney General,2026,Attorney General,,19091,Humboldt,Write-ins,
 statewide,2026 Attorney General,2026,Attorney General,,19093,Ida,Brenna Bird,R,0,counting,0,100
 statewide,2026 Attorney General,2026,Attorney General,,19093,Ida,Nathan Willems,D,0,counting,0,100
 statewide,2026 Attorney General,2026,Attorney General,,19093,Ida,Write-ins,W,0,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,19095,Iowa,Brenna Bird,R,4373,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,19095,Iowa,Nathan Willems,D,3366,counting,0,100
-statewide,2026 Attorney General,2026,Attorney General,,19095,Iowa,Write-ins,W,0,counting,0,100
+statewide,2026 Attorney General,2026,Attorney General,,19095,Iowa,Brenna Bird,R,4373,counting,100,100
+statewide,2026 Attorney General,2026,Attorney General,,19095,Iowa,Nathan Willems,D,3366,counting,100,100
+statewide,2026 Attorney General,2026,Attorney General,,19095,Iowa,Write-ins,W,0,counting,100,100
 statewide,2026 Attorney General,2026,Attorney General,,19097,Jackson,Brenna Bird,R,4878,counting,100,100
 statewide,2026 Attorney General,2026,Attorney General,,19097,Jackson,Nathan Willems,D,3404,counting,100,100
 statewide,2026 Attorney General,2026,Attorney General,,19097,Jackson,Write-ins,W,0,counting,100,100
@@ -734,9 +734,9 @@ statewide,2026 Governor,2026,Governor,,19091,Humboldt,Write-ins,W,0,final,100,10
 statewide,2026 Governor,2026,Governor,,19093,Ida,Zach Lahn,R,1857,final,100,100
 statewide,2026 Governor,2026,Governor,,19093,Ida,Rob Sand,D,931,final,100,100
 statewide,2026 Governor,2026,Governor,,19093,Ida,Write-ins,W,0,final,100,100
-statewide,2026 Governor,2026,Governor,,19095,Iowa,Zach Lahn,R,4125,final,98.8,100
-statewide,2026 Governor,2026,Governor,,19095,Iowa,Rob Sand,D,3764,final,98.8,100
-statewide,2026 Governor,2026,Governor,,19095,Iowa,Write-ins,W,0,final,98.8,100
+statewide,2026 Governor,2026,Governor,,19095,Iowa,Zach Lahn,R,4125,final,100,100
+statewide,2026 Governor,2026,Governor,,19095,Iowa,Rob Sand,D,3764,final,100,100
+statewide,2026 Governor,2026,Governor,,19095,Iowa,Write-ins,W,0,final,100,100
 statewide,2026 Governor,2026,Governor,,19097,Jackson,Zach Lahn,R,4541,final,100,100
 statewide,2026 Governor,2026,Governor,,19097,Jackson,Rob Sand,D,3975,final,100,100
 statewide,2026 Governor,2026,Governor,,19097,Jackson,Write-ins,W,0,final,100,100
@@ -1328,9 +1328,9 @@ statewide,2026 Secretary of State,2026,Secretary of State,,19091,Humboldt,Write-
 statewide,2026 Secretary of State,2026,Secretary of State,,19093,Ida,Paul Pate,R,0,counting,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,19093,Ida,Ryan Peterman,D,0,counting,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,19093,Ida,Write-ins,W,0,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19095,Iowa,Paul Pate,R,4896,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19095,Iowa,Ryan Peterman,D,2870,counting,0,100
-statewide,2026 Secretary of State,2026,Secretary of State,,19095,Iowa,Write-ins,W,0,counting,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19095,Iowa,Paul Pate,R,4896,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19095,Iowa,Ryan Peterman,D,2870,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,19095,Iowa,Write-ins,W,0,counting,100,100
 statewide,2026 Secretary of State,2026,Secretary of State,,19097,Jackson,Paul Pate,R,5132,counting,100,100
 statewide,2026 Secretary of State,2026,Secretary of State,,19097,Jackson,Ryan Peterman,D,3090,counting,100,100
 statewide,2026 Secretary of State,2026,Secretary of State,,19097,Jackson,Write-ins,W,0,counting,100,100
@@ -1672,10 +1672,10 @@ statewide,2026 Senate,2026,Senate,,19093,Ida,Ashley Hinson,R,1862,final,100,100
 statewide,2026 Senate,2026,Senate,,19093,Ida,Josh Turek,D,803,final,100,100
 statewide,2026 Senate,2026,Senate,,19093,Ida,Thomas Laehn,L,88,final,100,100
 statewide,2026 Senate,2026,Senate,,19093,Ida,Write-ins,W,0,final,100,100
-statewide,2026 Senate,2026,Senate,,19095,Iowa,Ashley Hinson,R,4364,final,99,100
-statewide,2026 Senate,2026,Senate,,19095,Iowa,Josh Turek,D,3225,final,99,100
-statewide,2026 Senate,2026,Senate,,19095,Iowa,Thomas Laehn,L,292,final,99,100
-statewide,2026 Senate,2026,Senate,,19095,Iowa,Write-ins,W,0,final,99,100
+statewide,2026 Senate,2026,Senate,,19095,Iowa,Ashley Hinson,R,4364,final,100,100
+statewide,2026 Senate,2026,Senate,,19095,Iowa,Josh Turek,D,3225,final,100,100
+statewide,2026 Senate,2026,Senate,,19095,Iowa,Thomas Laehn,L,292,final,100,100
+statewide,2026 Senate,2026,Senate,,19095,Iowa,Write-ins,W,0,final,100,100
 statewide,2026 Senate,2026,Senate,,19097,Jackson,Ashley Hinson,R,4832,final,100,100
 statewide,2026 Senate,2026,Senate,,19097,Jackson,Josh Turek,D,3334,final,100,100
 statewide,2026 Senate,2026,Senate,,19097,Jackson,Thomas Laehn,L,335,final,100,100
@@ -2021,9 +2021,9 @@ statewide,2026 Treasurer,2026,Treasurer,,19091,Humboldt,Write-ins,W,0,counting,0
 statewide,2026 Treasurer,2026,Treasurer,,19093,Ida,Roby Smith,R,0,counting,0,100
 statewide,2026 Treasurer,2026,Treasurer,,19093,Ida,John Norwood,D,0,counting,0,100
 statewide,2026 Treasurer,2026,Treasurer,,19093,Ida,Write-ins,W,0,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19095,Iowa,Roby Smith,R,4515,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19095,Iowa,John Norwood,D,3115,counting,0,100
-statewide,2026 Treasurer,2026,Treasurer,,19095,Iowa,Write-ins,W,0,counting,0,100
+statewide,2026 Treasurer,2026,Treasurer,,19095,Iowa,Roby Smith,R,4515,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19095,Iowa,John Norwood,D,3115,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,19095,Iowa,Write-ins,W,0,counting,100,100
 statewide,2026 Treasurer,2026,Treasurer,,19097,Jackson,Roby Smith,R,4904,counting,100,100
 statewide,2026 Treasurer,2026,Treasurer,,19097,Jackson,John Norwood,D,3193,counting,100,100
 statewide,2026 Treasurer,2026,Treasurer,,19097,Jackson,Write-ins,W,0,counting,100,100
@@ -2177,10 +2177,10 @@ statewide,2026 Treasurer,2026,Treasurer,,19195,Worth,Write-ins,W,0,counting,0,10
 statewide,2026 Treasurer,2026,Treasurer,,19197,Wright,Roby Smith,R,0,counting,0,100
 statewide,2026 Treasurer,2026,Treasurer,,19197,Wright,John Norwood,D,0,counting,0,100
 statewide,2026 Treasurer,2026,Treasurer,,19197,Wright,Write-ins,W,0,counting,0,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,1,,Christina Bohannan,D,172833,final,94,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,1,,Mariannette Miller-Meeks,R,138049,final,94,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,1,,Michael Bridgford,I,11905,final,94,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,1,,Write-ins,W,0,final,94,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,1,,Christina Bohannan,D,174234,final,95,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,1,,Mariannette Miller-Meeks,R,139193,final,95,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,1,,Michael Bridgford,I,11967,final,95,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,1,,Write-ins,W,0,final,95,100
 ushouse,2026 U.S. House,2026,U.S. House,c2022,2,,Lindsay James,D,171512,final,100,100
 ushouse,2026 U.S. House,2026,U.S. House,c2022,2,,Joe Mitchell,R,157722,final,100,100
 ushouse,2026 U.S. House,2026,U.S. House,c2022,2,,Rick Stewart,L,9500,final,100,100
