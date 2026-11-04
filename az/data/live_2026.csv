@@ -1,34 +1,49 @@
 level,race,year,office,plan,unit,unit_name,candidate,party,votes,status,reporting,reporting_total
 statewide,2026 Attorney General,2026,Attorney General,,04001,Apache,Kris Mayes,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04001,Apache,Warren Petersen,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,04001,Apache,Write-in,I,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04003,Cochise,Kris Mayes,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04003,Cochise,Warren Petersen,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,04003,Cochise,Write-in,I,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04005,Coconino,Kris Mayes,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04005,Coconino,Warren Petersen,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,04005,Coconino,Write-in,I,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04007,Gila,Kris Mayes,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04007,Gila,Warren Petersen,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,04007,Gila,Write-in,I,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04009,Graham,Kris Mayes,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04009,Graham,Warren Petersen,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,04009,Graham,Write-in,I,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04011,Greenlee,Kris Mayes,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04011,Greenlee,Warren Petersen,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,04011,Greenlee,Write-in,I,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04012,La Paz,Kris Mayes,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04012,La Paz,Warren Petersen,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,04012,La Paz,Write-in,I,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04013,Maricopa,Kris Mayes,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04013,Maricopa,Warren Petersen,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,04013,Maricopa,Write-in,I,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04015,Mohave,Kris Mayes,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04015,Mohave,Warren Petersen,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,04015,Mohave,Write-in,I,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04017,Navajo,Kris Mayes,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04017,Navajo,Warren Petersen,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,04017,Navajo,Write-in,I,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04019,Pima,Kris Mayes,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04019,Pima,Warren Petersen,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,04019,Pima,Write-in,I,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04021,Pinal,Kris Mayes,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04021,Pinal,Warren Petersen,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,04021,Pinal,Write-in,I,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04023,Santa Cruz,Kris Mayes,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04023,Santa Cruz,Warren Petersen,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,04023,Santa Cruz,Write-in,I,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04025,Yavapai,Kris Mayes,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04025,Yavapai,Warren Petersen,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,04025,Yavapai,Write-in,I,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04027,Yuma,Kris Mayes,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04027,Yuma,Warren Petersen,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,04027,Yuma,Write-in,I,0,pending,0,100
 statewide,2026 Corporation Commission,2026,Corporation Commission,,04001,Apache,Clara Pratte,D,0,pending,0,100
 statewide,2026 Corporation Commission,2026,Corporation Commission,,04001,Apache,Jonathon Hill,D,0,pending,0,100
 statewide,2026 Corporation Commission,2026,Corporation Commission,,04001,Apache,Mike Cease,G,0,pending,0,100
@@ -123,62 +138,107 @@ statewide,2026 Governor,2026,Governor,,04001,Apache,Katie Hobbs,D,0,pending,0,10
 statewide,2026 Governor,2026,Governor,,04001,Apache,Risa Lombardo,G,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04001,Apache,Teri Hourihan,NL,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04001,Apache,Andy Biggs,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,04001,Apache,Gertritrude Gonzalez,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,04001,Apache,Alice Novoa,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,04001,Apache,Write-in,I,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04003,Cochise,Katie Hobbs,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04003,Cochise,Risa Lombardo,G,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04003,Cochise,Teri Hourihan,NL,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04003,Cochise,Andy Biggs,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,04003,Cochise,Gertritrude Gonzalez,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,04003,Cochise,Alice Novoa,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,04003,Cochise,Write-in,I,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04005,Coconino,Katie Hobbs,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04005,Coconino,Risa Lombardo,G,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04005,Coconino,Teri Hourihan,NL,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04005,Coconino,Andy Biggs,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,04005,Coconino,Gertritrude Gonzalez,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,04005,Coconino,Alice Novoa,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,04005,Coconino,Write-in,I,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04007,Gila,Katie Hobbs,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04007,Gila,Risa Lombardo,G,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04007,Gila,Teri Hourihan,NL,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04007,Gila,Andy Biggs,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,04007,Gila,Gertritrude Gonzalez,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,04007,Gila,Alice Novoa,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,04007,Gila,Write-in,I,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04009,Graham,Katie Hobbs,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04009,Graham,Risa Lombardo,G,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04009,Graham,Teri Hourihan,NL,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04009,Graham,Andy Biggs,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,04009,Graham,Gertritrude Gonzalez,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,04009,Graham,Alice Novoa,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,04009,Graham,Write-in,I,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04011,Greenlee,Katie Hobbs,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04011,Greenlee,Risa Lombardo,G,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04011,Greenlee,Teri Hourihan,NL,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04011,Greenlee,Andy Biggs,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,04011,Greenlee,Gertritrude Gonzalez,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,04011,Greenlee,Alice Novoa,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,04011,Greenlee,Write-in,I,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04012,La Paz,Katie Hobbs,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04012,La Paz,Risa Lombardo,G,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04012,La Paz,Teri Hourihan,NL,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04012,La Paz,Andy Biggs,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,04012,La Paz,Gertritrude Gonzalez,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,04012,La Paz,Alice Novoa,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,04012,La Paz,Write-in,I,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04013,Maricopa,Katie Hobbs,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04013,Maricopa,Risa Lombardo,G,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04013,Maricopa,Teri Hourihan,NL,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04013,Maricopa,Andy Biggs,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,04013,Maricopa,Gertritrude Gonzalez,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,04013,Maricopa,Alice Novoa,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,04013,Maricopa,Write-in,I,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04015,Mohave,Katie Hobbs,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04015,Mohave,Risa Lombardo,G,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04015,Mohave,Teri Hourihan,NL,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04015,Mohave,Andy Biggs,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,04015,Mohave,Gertritrude Gonzalez,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,04015,Mohave,Alice Novoa,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,04015,Mohave,Write-in,I,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04017,Navajo,Katie Hobbs,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04017,Navajo,Risa Lombardo,G,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04017,Navajo,Teri Hourihan,NL,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04017,Navajo,Andy Biggs,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,04017,Navajo,Gertritrude Gonzalez,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,04017,Navajo,Alice Novoa,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,04017,Navajo,Write-in,I,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04019,Pima,Katie Hobbs,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04019,Pima,Risa Lombardo,G,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04019,Pima,Teri Hourihan,NL,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04019,Pima,Andy Biggs,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,04019,Pima,Gertritrude Gonzalez,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,04019,Pima,Alice Novoa,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,04019,Pima,Write-in,I,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04021,Pinal,Katie Hobbs,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04021,Pinal,Risa Lombardo,G,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04021,Pinal,Teri Hourihan,NL,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04021,Pinal,Andy Biggs,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,04021,Pinal,Gertritrude Gonzalez,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,04021,Pinal,Alice Novoa,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,04021,Pinal,Write-in,I,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04023,Santa Cruz,Katie Hobbs,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04023,Santa Cruz,Risa Lombardo,G,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04023,Santa Cruz,Teri Hourihan,NL,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04023,Santa Cruz,Andy Biggs,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,04023,Santa Cruz,Gertritrude Gonzalez,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,04023,Santa Cruz,Alice Novoa,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,04023,Santa Cruz,Write-in,I,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04025,Yavapai,Katie Hobbs,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04025,Yavapai,Risa Lombardo,G,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04025,Yavapai,Teri Hourihan,NL,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04025,Yavapai,Andy Biggs,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,04025,Yavapai,Gertritrude Gonzalez,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,04025,Yavapai,Alice Novoa,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,04025,Yavapai,Write-in,I,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04027,Yuma,Katie Hobbs,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04027,Yuma,Risa Lombardo,G,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04027,Yuma,Teri Hourihan,NL,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04027,Yuma,Andy Biggs,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,04027,Yuma,Gertritrude Gonzalez,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,04027,Yuma,Alice Novoa,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,04027,Yuma,Write-in,I,0,pending,0,100
 statewide,2026 Mine Inspector,2026,Mine Inspector,,04001,Apache,Brian Matlock,D,0,pending,0,100
 statewide,2026 Mine Inspector,2026,Mine Inspector,,04001,Apache,Les Presmyk,R,0,pending,0,100
 statewide,2026 Mine Inspector,2026,Mine Inspector,,04001,Apache,Write-in,I,0,pending,0,100
@@ -227,108 +287,153 @@ statewide,2026 Mine Inspector,2026,Mine Inspector,,04027,Yuma,Write-in,I,0,pendi
 statewide,2026 Secretary of State,2026,Secretary of State,,04001,Apache,Adrian Fontes,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,04001,Apache,Duwayne Collier,G,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,04001,Apache,Alexander Kolodin,R,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04001,Apache,Write-in,I,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,04003,Cochise,Adrian Fontes,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,04003,Cochise,Duwayne Collier,G,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,04003,Cochise,Alexander Kolodin,R,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04003,Cochise,Write-in,I,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,04005,Coconino,Adrian Fontes,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,04005,Coconino,Duwayne Collier,G,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,04005,Coconino,Alexander Kolodin,R,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04005,Coconino,Write-in,I,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,04007,Gila,Adrian Fontes,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,04007,Gila,Duwayne Collier,G,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,04007,Gila,Alexander Kolodin,R,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04007,Gila,Write-in,I,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,04009,Graham,Adrian Fontes,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,04009,Graham,Duwayne Collier,G,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,04009,Graham,Alexander Kolodin,R,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04009,Graham,Write-in,I,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,04011,Greenlee,Adrian Fontes,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,04011,Greenlee,Duwayne Collier,G,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,04011,Greenlee,Alexander Kolodin,R,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04011,Greenlee,Write-in,I,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,04012,La Paz,Adrian Fontes,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,04012,La Paz,Duwayne Collier,G,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,04012,La Paz,Alexander Kolodin,R,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04012,La Paz,Write-in,I,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,04013,Maricopa,Adrian Fontes,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,04013,Maricopa,Duwayne Collier,G,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,04013,Maricopa,Alexander Kolodin,R,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04013,Maricopa,Write-in,I,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,04015,Mohave,Adrian Fontes,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,04015,Mohave,Duwayne Collier,G,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,04015,Mohave,Alexander Kolodin,R,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04015,Mohave,Write-in,I,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,04017,Navajo,Adrian Fontes,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,04017,Navajo,Duwayne Collier,G,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,04017,Navajo,Alexander Kolodin,R,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04017,Navajo,Write-in,I,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,04019,Pima,Adrian Fontes,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,04019,Pima,Duwayne Collier,G,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,04019,Pima,Alexander Kolodin,R,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04019,Pima,Write-in,I,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,04021,Pinal,Adrian Fontes,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,04021,Pinal,Duwayne Collier,G,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,04021,Pinal,Alexander Kolodin,R,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04021,Pinal,Write-in,I,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,04023,Santa Cruz,Adrian Fontes,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,04023,Santa Cruz,Duwayne Collier,G,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,04023,Santa Cruz,Alexander Kolodin,R,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04023,Santa Cruz,Write-in,I,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,04025,Yavapai,Adrian Fontes,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,04025,Yavapai,Duwayne Collier,G,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,04025,Yavapai,Alexander Kolodin,R,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04025,Yavapai,Write-in,I,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,04027,Yuma,Adrian Fontes,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,04027,Yuma,Duwayne Collier,G,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,04027,Yuma,Alexander Kolodin,R,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04027,Yuma,Write-in,I,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04001,Apache,Teresa Ruiz,D,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04001,Apache,Davis Gerard,G,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04001,Apache,"Stephen ""Dr.Stephen Neal"" Neal jr.",NL,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04001,Apache,Kimberly Yee,R,0,pending,0,100
+statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04001,Apache,Gerard Davis,G,0,pending,0,100
+statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04001,Apache,Write-in,I,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04003,Cochise,Teresa Ruiz,D,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04003,Cochise,Davis Gerard,G,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04003,Cochise,"Stephen ""Dr.Stephen Neal"" Neal jr.",NL,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04003,Cochise,Kimberly Yee,R,0,pending,0,100
+statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04003,Cochise,Gerard Davis,G,0,pending,0,100
+statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04003,Cochise,Write-in,I,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04005,Coconino,Teresa Ruiz,D,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04005,Coconino,Davis Gerard,G,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04005,Coconino,"Stephen ""Dr.Stephen Neal"" Neal jr.",NL,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04005,Coconino,Kimberly Yee,R,0,pending,0,100
+statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04005,Coconino,Gerard Davis,G,0,pending,0,100
+statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04005,Coconino,Write-in,I,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04007,Gila,Teresa Ruiz,D,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04007,Gila,Davis Gerard,G,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04007,Gila,"Stephen ""Dr.Stephen Neal"" Neal jr.",NL,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04007,Gila,Kimberly Yee,R,0,pending,0,100
+statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04007,Gila,Gerard Davis,G,0,pending,0,100
+statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04007,Gila,Write-in,I,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04009,Graham,Teresa Ruiz,D,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04009,Graham,Davis Gerard,G,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04009,Graham,"Stephen ""Dr.Stephen Neal"" Neal jr.",NL,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04009,Graham,Kimberly Yee,R,0,pending,0,100
+statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04009,Graham,Gerard Davis,G,0,pending,0,100
+statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04009,Graham,Write-in,I,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04011,Greenlee,Teresa Ruiz,D,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04011,Greenlee,Davis Gerard,G,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04011,Greenlee,"Stephen ""Dr.Stephen Neal"" Neal jr.",NL,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04011,Greenlee,Kimberly Yee,R,0,pending,0,100
+statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04011,Greenlee,Gerard Davis,G,0,pending,0,100
+statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04011,Greenlee,Write-in,I,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04012,La Paz,Teresa Ruiz,D,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04012,La Paz,Davis Gerard,G,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04012,La Paz,"Stephen ""Dr.Stephen Neal"" Neal jr.",NL,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04012,La Paz,Kimberly Yee,R,0,pending,0,100
+statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04012,La Paz,Gerard Davis,G,0,pending,0,100
+statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04012,La Paz,Write-in,I,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04013,Maricopa,Teresa Ruiz,D,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04013,Maricopa,Davis Gerard,G,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04013,Maricopa,"Stephen ""Dr.Stephen Neal"" Neal jr.",NL,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04013,Maricopa,Kimberly Yee,R,0,pending,0,100
+statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04013,Maricopa,Gerard Davis,G,0,pending,0,100
+statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04013,Maricopa,Write-in,I,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04015,Mohave,Teresa Ruiz,D,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04015,Mohave,Davis Gerard,G,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04015,Mohave,"Stephen ""Dr.Stephen Neal"" Neal jr.",NL,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04015,Mohave,Kimberly Yee,R,0,pending,0,100
+statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04015,Mohave,Gerard Davis,G,0,pending,0,100
+statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04015,Mohave,Write-in,I,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04017,Navajo,Teresa Ruiz,D,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04017,Navajo,Davis Gerard,G,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04017,Navajo,"Stephen ""Dr.Stephen Neal"" Neal jr.",NL,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04017,Navajo,Kimberly Yee,R,0,pending,0,100
+statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04017,Navajo,Gerard Davis,G,0,pending,0,100
+statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04017,Navajo,Write-in,I,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04019,Pima,Teresa Ruiz,D,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04019,Pima,Davis Gerard,G,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04019,Pima,"Stephen ""Dr.Stephen Neal"" Neal jr.",NL,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04019,Pima,Kimberly Yee,R,0,pending,0,100
+statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04019,Pima,Gerard Davis,G,0,pending,0,100
+statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04019,Pima,Write-in,I,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04021,Pinal,Teresa Ruiz,D,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04021,Pinal,Davis Gerard,G,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04021,Pinal,"Stephen ""Dr.Stephen Neal"" Neal jr.",NL,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04021,Pinal,Kimberly Yee,R,0,pending,0,100
+statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04021,Pinal,Gerard Davis,G,0,pending,0,100
+statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04021,Pinal,Write-in,I,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04023,Santa Cruz,Teresa Ruiz,D,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04023,Santa Cruz,Davis Gerard,G,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04023,Santa Cruz,"Stephen ""Dr.Stephen Neal"" Neal jr.",NL,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04023,Santa Cruz,Kimberly Yee,R,0,pending,0,100
+statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04023,Santa Cruz,Gerard Davis,G,0,pending,0,100
+statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04023,Santa Cruz,Write-in,I,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04025,Yavapai,Teresa Ruiz,D,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04025,Yavapai,Davis Gerard,G,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04025,Yavapai,"Stephen ""Dr.Stephen Neal"" Neal jr.",NL,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04025,Yavapai,Kimberly Yee,R,0,pending,0,100
+statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04025,Yavapai,Gerard Davis,G,0,pending,0,100
+statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04025,Yavapai,Write-in,I,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04027,Yuma,Teresa Ruiz,D,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04027,Yuma,Davis Gerard,G,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04027,Yuma,"Stephen ""Dr.Stephen Neal"" Neal jr.",NL,0,pending,0,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04027,Yuma,Kimberly Yee,R,0,pending,0,100
+statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04027,Yuma,Gerard Davis,G,0,pending,0,100
+statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04027,Yuma,Write-in,I,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,04001,Apache,Nick Mansour,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,04001,Apache,Elijah Norton,R,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,04001,Apache,Write-in,I,0,pending,0,100
