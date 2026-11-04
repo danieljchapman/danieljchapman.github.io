@@ -23,7 +23,7 @@ FIELDS = ['level', 'race', 'year', 'state', 'district', 'seat', 'candidate', 'pa
           'reporting', 'reporting_total']
 
 
-def get(rid, tries=4):
+def get(rid, tries=6):
     last = None
     for i in range(tries):
         p = subprocess.run(['curl', '-sS', '--compressed', '-m', '90', '-w', '\n%{http_code}', API + str(rid)], capture_output=True, text=True)
@@ -31,7 +31,7 @@ def get(rid, tries=4):
         if code == '200':
             return json.loads(body)
         last = f'HTTP {code or "?"} {p.stderr.strip()[:120]}'
-        time.sleep(2 + 3 * i)
+        time.sleep(3 + 4 * i)   # about a minute in all: CivicAPI's 502s on election night last longer than a few seconds
     raise RuntimeError(f'race {rid}: {last}')
 
 
@@ -52,11 +52,28 @@ def main():
     rows, problems, counts = [], [], {}
     called = counting = total = 0
     test = False
+    # the last published rows, so a level CivicAPI fails to send keeps its previous numbers instead of vanishing
+    # (Nov 3, 8:21 pm ET: a 502 on the Senate record published a page with no Senate races)
+    prev = []
+    try:
+        prev = list(csv.DictReader(open(os.path.join(a.out, 'live_2026.csv'))))
+    except OSError:
+        pass
     for level, rid in NATIONAL.items():
         try:
             d = get(rid)
         except RuntimeError as e:
-            problems.append(str(e)); continue
+            old = [r for r in prev if r['level'] == level]
+            if not old:
+                raise SystemExit(f'{level}: {e}; no earlier {level} results to keep; not writing')
+            problems.append(f'{level}: {e}; kept the previous {level} numbers')
+            rows += old
+            first = {}
+            for r in old:
+                first.setdefault(r['race'], r['status'])
+            counts[level] = len(first)
+            total += len(first); called += sum(v == 'final' for v in first.values()); counting += sum(v == 'counting' for v in first.values())
+            continue
         test = test or bool(d.get('test_data'))
         zero = bool(d.get('test_data')) and not a.keep_test
         n = 0
