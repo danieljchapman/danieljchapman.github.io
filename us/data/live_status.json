@@ -1,19 +1,17 @@
 [
  {
   "phase": "counting",
-  "updated_at": "2026-11-04T02:03:25Z",
+  "updated_at": "2026-11-04T02:08:57Z",
   "source": "CivicAPI (civicapi.org), unofficial",
   "races": 506,
-  "called": 76,
-  "counting": 166,
+  "called": 88,
+  "counting": 179,
   "counts": {
    "senate": 35,
    "house": 435,
    "governor": 36
   },
   "test_data_zeroed": false,
-  "problems": [
-   "house: race 87524: HTTP 502 ; kept the previous house numbers"
-  ]
+  "problems": []
  }
 ]
