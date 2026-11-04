@@ -1,15 +1,17 @@
 [
  {
   "phase": "counting",
-  "updated_at": "2026-11-04T02:15:54Z",
+  "updated_at": "2026-11-04T02:27:03Z",
   "source": "CivicAPI, unofficial",
   "races": 136,
   "called": 0,
-  "counting": 2,
+  "counting": 7,
   "problems": [
-   "CivicAPI search (Iowa State Senate): /race/search?country=US&province=IA&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Iowa%20State%20Senate: HTTP",
-   "CivicAPI search (Iowa Governor): /race/search?country=US&province=IA&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Iowa%20Governor: HTTP 502  ",
-   "no live source yet for 1 statewide race, 25 Iowa Senate races"
+   "CivicAPI search (Iowa US): /race/search?country=US&province=IA&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Iowa%20US: HTTP 000 curl: (",
+   "CivicAPI search (Iowa Secretary): /race/search?country=US&province=IA&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Iowa%20Secretary: HTTP 502 ",
+   "2026 Treasurer : /race/87155: HTTP 000 curl: (28) Operation timed out after 45002 milliseconds with 0 bytes received ",
+   "2 races not sent by CivicAPI this time; kept the last published numbers",
+   "no live source yet for 3 statewide races, 4 U.S. House races"
   ],
   "local_problems": []
  }
