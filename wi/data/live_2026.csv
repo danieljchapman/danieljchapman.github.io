@@ -1,652 +1,1732 @@
 level,race,year,office,plan,unit,unit_name,candidate,party,votes,status,reporting,reporting_total
 statewide,2026 Attorney General,2026,Attorney General,,55001,Adams,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55001,Adams,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55001,Adams,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55003,Ashland,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55003,Ashland,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55003,Ashland,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55005,Barron,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55005,Barron,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55005,Barron,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55007,Bayfield,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55007,Bayfield,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55007,Bayfield,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55009,Brown,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55009,Brown,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55009,Brown,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55011,Buffalo,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55011,Buffalo,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55011,Buffalo,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55013,Burnett,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55013,Burnett,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55013,Burnett,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55015,Calumet,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55015,Calumet,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55015,Calumet,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55017,Chippewa,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55017,Chippewa,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55017,Chippewa,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55019,Clark,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55019,Clark,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55019,Clark,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55021,Columbia,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55021,Columbia,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55021,Columbia,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55023,Crawford,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55023,Crawford,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55023,Crawford,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55025,Dane,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55025,Dane,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55025,Dane,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55027,Dodge,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55027,Dodge,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55027,Dodge,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55029,Door,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55029,Door,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55029,Door,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55031,Douglas,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55031,Douglas,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55031,Douglas,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55033,Dunn,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55033,Dunn,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55033,Dunn,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55035,Eau Claire,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55035,Eau Claire,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55035,Eau Claire,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55037,Florence,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55037,Florence,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55037,Florence,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55039,Fond du Lac,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55039,Fond du Lac,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55039,Fond du Lac,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55041,Forest,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55041,Forest,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55041,Forest,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55043,Grant,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55043,Grant,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55043,Grant,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55045,Green,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55045,Green,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55045,Green,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55047,Green Lake,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55047,Green Lake,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55047,Green Lake,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55049,Iowa,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55049,Iowa,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55049,Iowa,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55051,Iron,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55051,Iron,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55051,Iron,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55053,Jackson,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55053,Jackson,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55053,Jackson,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55055,Jefferson,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55055,Jefferson,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55055,Jefferson,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55057,Juneau,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55057,Juneau,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55057,Juneau,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55059,Kenosha,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55059,Kenosha,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55059,Kenosha,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55061,Kewaunee,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55061,Kewaunee,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55061,Kewaunee,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55063,La Crosse,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55063,La Crosse,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55063,La Crosse,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55065,Lafayette,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55065,Lafayette,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55065,Lafayette,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55067,Langlade,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55067,Langlade,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55067,Langlade,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55069,Lincoln,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55069,Lincoln,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55069,Lincoln,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55071,Manitowoc,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55071,Manitowoc,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55071,Manitowoc,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55073,Marathon,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55073,Marathon,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55073,Marathon,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55075,Marinette,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55075,Marinette,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55075,Marinette,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55077,Marquette,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55077,Marquette,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55077,Marquette,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55078,Menominee,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55078,Menominee,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55078,Menominee,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55079,Milwaukee,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55079,Milwaukee,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55079,Milwaukee,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55081,Monroe,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55081,Monroe,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55081,Monroe,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55083,Oconto,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55083,Oconto,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55083,Oconto,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55085,Oneida,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55085,Oneida,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55085,Oneida,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55087,Outagamie,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55087,Outagamie,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55087,Outagamie,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55089,Ozaukee,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55089,Ozaukee,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55089,Ozaukee,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55091,Pepin,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55091,Pepin,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55091,Pepin,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55093,Pierce,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55093,Pierce,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55093,Pierce,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55095,Polk,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55095,Polk,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55095,Polk,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55097,Portage,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55097,Portage,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55097,Portage,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55099,Price,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55099,Price,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55099,Price,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55101,Racine,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55101,Racine,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55101,Racine,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55103,Richland,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55103,Richland,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55103,Richland,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55105,Rock,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55105,Rock,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55105,Rock,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55107,Rusk,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55107,Rusk,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55107,Rusk,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55111,Sauk,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55111,Sauk,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55111,Sauk,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55113,Sawyer,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55113,Sawyer,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55113,Sawyer,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55115,Shawano,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55115,Shawano,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55115,Shawano,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55117,Sheboygan,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55117,Sheboygan,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55117,Sheboygan,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55109,St. Croix,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55109,St. Croix,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55109,St. Croix,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55119,Taylor,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55119,Taylor,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55119,Taylor,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55121,Trempealeau,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55121,Trempealeau,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55121,Trempealeau,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55123,Vernon,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55123,Vernon,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55123,Vernon,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55125,Vilas,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55125,Vilas,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55125,Vilas,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55127,Walworth,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55127,Walworth,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55127,Walworth,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55129,Washburn,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55129,Washburn,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55129,Washburn,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55131,Washington,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55131,Washington,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55131,Washington,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55133,Waukesha,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55133,Waukesha,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55133,Waukesha,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55135,Waupaca,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55135,Waupaca,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55135,Waupaca,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55137,Waushara,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55137,Waushara,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55137,Waushara,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55139,Winnebago,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55139,Winnebago,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55139,Winnebago,Write-in,W,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55141,Wood,Josh Kaul,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,55141,Wood,Eric Toney,R,0,pending,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55141,Wood,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55001,Adams,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55001,Adams,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55001,Adams,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55001,Adams,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55001,Adams,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55001,Adams,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55001,Adams,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55001,Adams,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55001,Adams,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55001,Adams,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55001,Adams,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55001,Adams,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55003,Ashland,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55003,Ashland,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55003,Ashland,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55003,Ashland,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55003,Ashland,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55003,Ashland,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55003,Ashland,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55003,Ashland,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55003,Ashland,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55003,Ashland,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55003,Ashland,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55003,Ashland,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55005,Barron,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55005,Barron,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55005,Barron,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55005,Barron,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55005,Barron,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55005,Barron,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55005,Barron,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55005,Barron,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55005,Barron,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55005,Barron,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55005,Barron,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55005,Barron,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55007,Bayfield,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55007,Bayfield,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55007,Bayfield,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55007,Bayfield,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55007,Bayfield,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55007,Bayfield,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55007,Bayfield,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55007,Bayfield,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55007,Bayfield,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55007,Bayfield,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55007,Bayfield,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55007,Bayfield,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55009,Brown,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55009,Brown,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55009,Brown,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55009,Brown,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55009,Brown,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55009,Brown,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55009,Brown,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55009,Brown,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55009,Brown,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55009,Brown,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55009,Brown,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55009,Brown,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55011,Buffalo,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55011,Buffalo,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55011,Buffalo,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55011,Buffalo,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55011,Buffalo,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55011,Buffalo,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55011,Buffalo,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55011,Buffalo,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55011,Buffalo,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55011,Buffalo,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55011,Buffalo,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55011,Buffalo,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55013,Burnett,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55013,Burnett,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55013,Burnett,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55013,Burnett,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55013,Burnett,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55013,Burnett,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55013,Burnett,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55013,Burnett,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55013,Burnett,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55013,Burnett,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55013,Burnett,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55013,Burnett,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55015,Calumet,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55015,Calumet,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55015,Calumet,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55015,Calumet,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55015,Calumet,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55015,Calumet,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55015,Calumet,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55015,Calumet,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55015,Calumet,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55015,Calumet,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55015,Calumet,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55015,Calumet,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55017,Chippewa,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55017,Chippewa,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55017,Chippewa,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55017,Chippewa,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55017,Chippewa,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55017,Chippewa,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55017,Chippewa,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55017,Chippewa,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55017,Chippewa,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55017,Chippewa,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55017,Chippewa,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55017,Chippewa,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55019,Clark,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55019,Clark,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55019,Clark,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55019,Clark,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55019,Clark,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55019,Clark,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55019,Clark,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55019,Clark,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55019,Clark,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55019,Clark,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55019,Clark,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55019,Clark,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55021,Columbia,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55021,Columbia,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55021,Columbia,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55021,Columbia,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55021,Columbia,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55021,Columbia,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55021,Columbia,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55021,Columbia,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55021,Columbia,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55021,Columbia,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55021,Columbia,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55021,Columbia,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55023,Crawford,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55023,Crawford,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55023,Crawford,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55023,Crawford,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55023,Crawford,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55023,Crawford,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55023,Crawford,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55023,Crawford,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55023,Crawford,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55023,Crawford,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55023,Crawford,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55023,Crawford,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55025,Dane,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55025,Dane,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55025,Dane,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55025,Dane,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55025,Dane,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55025,Dane,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55025,Dane,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55025,Dane,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55025,Dane,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55025,Dane,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55025,Dane,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55025,Dane,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55027,Dodge,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55027,Dodge,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55027,Dodge,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55027,Dodge,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55027,Dodge,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55027,Dodge,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55027,Dodge,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55027,Dodge,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55027,Dodge,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55027,Dodge,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55027,Dodge,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55027,Dodge,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55029,Door,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55029,Door,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55029,Door,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55029,Door,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55029,Door,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55029,Door,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55029,Door,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55029,Door,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55029,Door,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55029,Door,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55029,Door,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55029,Door,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55031,Douglas,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55031,Douglas,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55031,Douglas,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55031,Douglas,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55031,Douglas,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55031,Douglas,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55031,Douglas,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55031,Douglas,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55031,Douglas,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55031,Douglas,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55031,Douglas,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55031,Douglas,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55033,Dunn,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55033,Dunn,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55033,Dunn,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55033,Dunn,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55033,Dunn,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55033,Dunn,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55033,Dunn,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55033,Dunn,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55033,Dunn,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55033,Dunn,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55033,Dunn,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55033,Dunn,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55035,Eau Claire,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55035,Eau Claire,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55035,Eau Claire,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55035,Eau Claire,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55035,Eau Claire,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55035,Eau Claire,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55035,Eau Claire,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55035,Eau Claire,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55035,Eau Claire,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55035,Eau Claire,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55035,Eau Claire,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55035,Eau Claire,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55037,Florence,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55037,Florence,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55037,Florence,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55037,Florence,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55037,Florence,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55037,Florence,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55037,Florence,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55037,Florence,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55037,Florence,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55037,Florence,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55037,Florence,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55037,Florence,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55039,Fond du Lac,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55039,Fond du Lac,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55039,Fond du Lac,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55039,Fond du Lac,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55039,Fond du Lac,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55039,Fond du Lac,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55039,Fond du Lac,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55039,Fond du Lac,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55039,Fond du Lac,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55039,Fond du Lac,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55039,Fond du Lac,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55039,Fond du Lac,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55041,Forest,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55041,Forest,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55041,Forest,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55041,Forest,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55041,Forest,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55041,Forest,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55041,Forest,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55041,Forest,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55041,Forest,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55041,Forest,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55041,Forest,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55041,Forest,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55043,Grant,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55043,Grant,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55043,Grant,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55043,Grant,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55043,Grant,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55043,Grant,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55043,Grant,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55043,Grant,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55043,Grant,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55043,Grant,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55043,Grant,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55043,Grant,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55045,Green,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55045,Green,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55045,Green,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55045,Green,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55045,Green,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55045,Green,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55045,Green,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55045,Green,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55045,Green,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55045,Green,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55045,Green,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55045,Green,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55047,Green Lake,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55047,Green Lake,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55047,Green Lake,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55047,Green Lake,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55047,Green Lake,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55047,Green Lake,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55047,Green Lake,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55047,Green Lake,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55047,Green Lake,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55047,Green Lake,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55047,Green Lake,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55047,Green Lake,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55049,Iowa,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55049,Iowa,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55049,Iowa,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55049,Iowa,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55049,Iowa,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55049,Iowa,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55049,Iowa,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55049,Iowa,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55049,Iowa,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55049,Iowa,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55049,Iowa,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55049,Iowa,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55051,Iron,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55051,Iron,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55051,Iron,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55051,Iron,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55051,Iron,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55051,Iron,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55051,Iron,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55051,Iron,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55051,Iron,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55051,Iron,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55051,Iron,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55051,Iron,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55053,Jackson,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55053,Jackson,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55053,Jackson,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55053,Jackson,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55053,Jackson,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55053,Jackson,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55053,Jackson,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55053,Jackson,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55053,Jackson,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55053,Jackson,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55053,Jackson,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55053,Jackson,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55055,Jefferson,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55055,Jefferson,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55055,Jefferson,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55055,Jefferson,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55055,Jefferson,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55055,Jefferson,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55055,Jefferson,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55055,Jefferson,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55055,Jefferson,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55055,Jefferson,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55055,Jefferson,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55055,Jefferson,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55057,Juneau,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55057,Juneau,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55057,Juneau,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55057,Juneau,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55057,Juneau,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55057,Juneau,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55057,Juneau,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55057,Juneau,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55057,Juneau,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55057,Juneau,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55057,Juneau,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55057,Juneau,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55059,Kenosha,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55059,Kenosha,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55059,Kenosha,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55059,Kenosha,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55059,Kenosha,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55059,Kenosha,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55059,Kenosha,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55059,Kenosha,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55059,Kenosha,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55059,Kenosha,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55059,Kenosha,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55059,Kenosha,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55061,Kewaunee,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55061,Kewaunee,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55061,Kewaunee,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55061,Kewaunee,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55061,Kewaunee,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55061,Kewaunee,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55061,Kewaunee,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55061,Kewaunee,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55061,Kewaunee,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55061,Kewaunee,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55061,Kewaunee,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55061,Kewaunee,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55063,La Crosse,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55063,La Crosse,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55063,La Crosse,Write-in,W,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55063,La Crosse,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55063,La Crosse,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55063,La Crosse,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55063,La Crosse,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55063,La Crosse,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55063,La Crosse,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55063,La Crosse,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55063,La Crosse,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55063,La Crosse,Reese Woods / Daniel Wagner,I,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55065,Lafayette,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55065,Lafayette,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55065,Lafayette,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55065,Lafayette,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55065,Lafayette,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55065,Lafayette,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55065,Lafayette,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55065,Lafayette,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55065,Lafayette,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55065,Lafayette,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55065,Lafayette,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55065,Lafayette,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55067,Langlade,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55067,Langlade,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55067,Langlade,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55067,Langlade,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55067,Langlade,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55067,Langlade,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55067,Langlade,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55067,Langlade,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55067,Langlade,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55067,Langlade,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55067,Langlade,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55067,Langlade,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55069,Lincoln,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55069,Lincoln,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55069,Lincoln,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55069,Lincoln,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55069,Lincoln,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55069,Lincoln,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55069,Lincoln,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55069,Lincoln,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55069,Lincoln,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55069,Lincoln,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55069,Lincoln,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55069,Lincoln,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55071,Manitowoc,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55071,Manitowoc,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55071,Manitowoc,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55071,Manitowoc,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55071,Manitowoc,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55071,Manitowoc,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55071,Manitowoc,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55071,Manitowoc,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55071,Manitowoc,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55071,Manitowoc,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55071,Manitowoc,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55071,Manitowoc,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55073,Marathon,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55073,Marathon,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55073,Marathon,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55073,Marathon,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55073,Marathon,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55073,Marathon,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55073,Marathon,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55073,Marathon,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55073,Marathon,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55073,Marathon,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55073,Marathon,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55073,Marathon,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55075,Marinette,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55075,Marinette,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55075,Marinette,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55075,Marinette,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55075,Marinette,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55075,Marinette,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55075,Marinette,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55075,Marinette,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55075,Marinette,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55075,Marinette,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55075,Marinette,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55075,Marinette,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55077,Marquette,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55077,Marquette,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55077,Marquette,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55077,Marquette,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55077,Marquette,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55077,Marquette,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55077,Marquette,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55077,Marquette,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55077,Marquette,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55077,Marquette,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55077,Marquette,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55077,Marquette,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55078,Menominee,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55078,Menominee,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55078,Menominee,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55078,Menominee,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55078,Menominee,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55078,Menominee,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55078,Menominee,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55078,Menominee,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55078,Menominee,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55078,Menominee,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55078,Menominee,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55078,Menominee,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55079,Milwaukee,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55079,Milwaukee,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55079,Milwaukee,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55079,Milwaukee,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55079,Milwaukee,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55079,Milwaukee,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55079,Milwaukee,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55079,Milwaukee,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55079,Milwaukee,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55079,Milwaukee,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55079,Milwaukee,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55079,Milwaukee,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55081,Monroe,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55081,Monroe,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55081,Monroe,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55081,Monroe,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55081,Monroe,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55081,Monroe,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55081,Monroe,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55081,Monroe,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55081,Monroe,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55081,Monroe,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55081,Monroe,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55081,Monroe,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55083,Oconto,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55083,Oconto,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55083,Oconto,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55083,Oconto,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55083,Oconto,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55083,Oconto,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55083,Oconto,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55083,Oconto,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55083,Oconto,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55083,Oconto,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55083,Oconto,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55083,Oconto,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55085,Oneida,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55085,Oneida,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55085,Oneida,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55085,Oneida,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55085,Oneida,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55085,Oneida,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55085,Oneida,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55085,Oneida,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55085,Oneida,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55085,Oneida,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55085,Oneida,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55085,Oneida,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55087,Outagamie,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55087,Outagamie,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55087,Outagamie,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55087,Outagamie,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55087,Outagamie,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55087,Outagamie,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55087,Outagamie,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55087,Outagamie,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55087,Outagamie,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55087,Outagamie,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55087,Outagamie,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55087,Outagamie,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55089,Ozaukee,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55089,Ozaukee,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55089,Ozaukee,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55089,Ozaukee,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55089,Ozaukee,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55089,Ozaukee,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55089,Ozaukee,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55089,Ozaukee,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55089,Ozaukee,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55089,Ozaukee,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55089,Ozaukee,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55089,Ozaukee,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55091,Pepin,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55091,Pepin,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55091,Pepin,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55091,Pepin,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55091,Pepin,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55091,Pepin,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55091,Pepin,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55091,Pepin,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55091,Pepin,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55091,Pepin,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55091,Pepin,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55091,Pepin,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55093,Pierce,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55093,Pierce,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55093,Pierce,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55093,Pierce,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55093,Pierce,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55093,Pierce,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55093,Pierce,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55093,Pierce,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55093,Pierce,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55093,Pierce,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55093,Pierce,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55093,Pierce,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55095,Polk,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55095,Polk,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55095,Polk,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55095,Polk,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55095,Polk,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55095,Polk,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55095,Polk,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55095,Polk,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55095,Polk,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55095,Polk,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55095,Polk,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55095,Polk,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55097,Portage,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55097,Portage,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55097,Portage,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55097,Portage,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55097,Portage,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55097,Portage,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55097,Portage,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55097,Portage,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55097,Portage,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55097,Portage,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55097,Portage,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55097,Portage,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55099,Price,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55099,Price,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55099,Price,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55099,Price,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55099,Price,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55099,Price,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55099,Price,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55099,Price,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55099,Price,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55099,Price,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55099,Price,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55099,Price,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55101,Racine,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55101,Racine,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55101,Racine,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55101,Racine,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55101,Racine,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55101,Racine,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55101,Racine,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55101,Racine,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55101,Racine,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55101,Racine,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55101,Racine,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55101,Racine,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55103,Richland,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55103,Richland,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55103,Richland,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55103,Richland,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55103,Richland,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55103,Richland,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55103,Richland,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55103,Richland,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55103,Richland,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55103,Richland,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55103,Richland,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55103,Richland,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55105,Rock,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55105,Rock,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55105,Rock,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55105,Rock,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55105,Rock,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55105,Rock,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55105,Rock,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55105,Rock,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55105,Rock,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55105,Rock,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55105,Rock,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55105,Rock,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55107,Rusk,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55107,Rusk,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55107,Rusk,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55107,Rusk,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55107,Rusk,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55107,Rusk,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55107,Rusk,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55107,Rusk,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55107,Rusk,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55107,Rusk,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55107,Rusk,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55107,Rusk,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55111,Sauk,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55111,Sauk,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55111,Sauk,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55111,Sauk,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55111,Sauk,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55111,Sauk,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55111,Sauk,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55111,Sauk,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55111,Sauk,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55111,Sauk,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55111,Sauk,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55111,Sauk,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55113,Sawyer,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55113,Sawyer,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55113,Sawyer,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55113,Sawyer,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55113,Sawyer,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55113,Sawyer,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55113,Sawyer,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55113,Sawyer,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55113,Sawyer,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55113,Sawyer,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55113,Sawyer,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55113,Sawyer,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55115,Shawano,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55115,Shawano,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55115,Shawano,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55115,Shawano,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55115,Shawano,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55115,Shawano,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55115,Shawano,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55115,Shawano,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55115,Shawano,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55115,Shawano,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55115,Shawano,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55115,Shawano,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55117,Sheboygan,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55117,Sheboygan,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55117,Sheboygan,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55117,Sheboygan,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55117,Sheboygan,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55117,Sheboygan,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55117,Sheboygan,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55117,Sheboygan,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55117,Sheboygan,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55117,Sheboygan,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55117,Sheboygan,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55117,Sheboygan,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55109,St. Croix,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55109,St. Croix,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55109,St. Croix,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55109,St. Croix,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55109,St. Croix,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55109,St. Croix,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55109,St. Croix,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55109,St. Croix,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55109,St. Croix,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55109,St. Croix,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55109,St. Croix,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55109,St. Croix,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55119,Taylor,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55119,Taylor,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55119,Taylor,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55119,Taylor,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55119,Taylor,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55119,Taylor,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55119,Taylor,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55119,Taylor,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55119,Taylor,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55119,Taylor,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55119,Taylor,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55119,Taylor,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55121,Trempealeau,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55121,Trempealeau,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55121,Trempealeau,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55121,Trempealeau,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55121,Trempealeau,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55121,Trempealeau,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55121,Trempealeau,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55121,Trempealeau,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55121,Trempealeau,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55121,Trempealeau,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55121,Trempealeau,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55121,Trempealeau,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55123,Vernon,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55123,Vernon,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55123,Vernon,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55123,Vernon,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55123,Vernon,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55123,Vernon,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55123,Vernon,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55123,Vernon,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55123,Vernon,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55123,Vernon,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55123,Vernon,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55123,Vernon,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55125,Vilas,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55125,Vilas,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55125,Vilas,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55125,Vilas,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55125,Vilas,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55125,Vilas,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55125,Vilas,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55125,Vilas,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55125,Vilas,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55125,Vilas,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55125,Vilas,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55125,Vilas,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55127,Walworth,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55127,Walworth,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55127,Walworth,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55127,Walworth,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55127,Walworth,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55127,Walworth,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55127,Walworth,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55127,Walworth,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55127,Walworth,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55127,Walworth,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55127,Walworth,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55127,Walworth,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55129,Washburn,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55129,Washburn,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55129,Washburn,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55129,Washburn,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55129,Washburn,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55129,Washburn,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55129,Washburn,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55129,Washburn,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55129,Washburn,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55129,Washburn,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55129,Washburn,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55129,Washburn,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55131,Washington,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55131,Washington,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55131,Washington,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55131,Washington,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55131,Washington,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55131,Washington,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55131,Washington,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55131,Washington,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55131,Washington,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55131,Washington,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55131,Washington,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55131,Washington,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55133,Waukesha,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55133,Waukesha,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55133,Waukesha,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55133,Waukesha,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55133,Waukesha,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55133,Waukesha,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55133,Waukesha,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55133,Waukesha,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55133,Waukesha,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55133,Waukesha,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55133,Waukesha,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55133,Waukesha,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55135,Waupaca,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55135,Waupaca,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55135,Waupaca,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55135,Waupaca,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55135,Waupaca,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55135,Waupaca,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55135,Waupaca,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55135,Waupaca,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55135,Waupaca,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55135,Waupaca,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55135,Waupaca,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55135,Waupaca,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55137,Waushara,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55137,Waushara,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55137,Waushara,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55137,Waushara,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55137,Waushara,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55137,Waushara,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55137,Waushara,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55137,Waushara,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55137,Waushara,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55137,Waushara,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55137,Waushara,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55137,Waushara,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55139,Winnebago,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55139,Winnebago,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55139,Winnebago,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55139,Winnebago,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55139,Winnebago,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55139,Winnebago,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55139,Winnebago,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55139,Winnebago,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55139,Winnebago,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55139,Winnebago,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55139,Winnebago,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55139,Winnebago,Write-in,W,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55141,Wood,David Crowley,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,55141,Wood,Tom Tiffany,R,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55141,Wood,Ieshuh Griffin,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55141,Wood,Jamie Jo Carothers,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55141,Wood,David D. King,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55141,Wood,Chad Muellenberg,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55141,Wood,Mary Morgan,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55141,Wood,Mark Grimek,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55141,Wood,Brayden Donnelly,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55141,Wood,Christine Kirchmiller,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55141,Wood,Reese Woods / Daniel Wagner,I,0,pending,0,100
+statewide,2026 Governor,2026,Governor,,55141,Wood,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55001,Adams,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55001,Adams,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55001,Adams,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55001,Adams,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55001,Adams,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55003,Ashland,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55003,Ashland,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55003,Ashland,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55003,Ashland,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55003,Ashland,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55005,Barron,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55005,Barron,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55005,Barron,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55005,Barron,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55005,Barron,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55007,Bayfield,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55007,Bayfield,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55007,Bayfield,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55007,Bayfield,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55007,Bayfield,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55009,Brown,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55009,Brown,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55009,Brown,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55009,Brown,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55009,Brown,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55011,Buffalo,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55011,Buffalo,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55011,Buffalo,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55011,Buffalo,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55011,Buffalo,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55013,Burnett,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55013,Burnett,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55013,Burnett,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55013,Burnett,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55013,Burnett,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55015,Calumet,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55015,Calumet,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55015,Calumet,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55015,Calumet,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55015,Calumet,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55017,Chippewa,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55017,Chippewa,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55017,Chippewa,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55017,Chippewa,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55017,Chippewa,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55019,Clark,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55019,Clark,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55019,Clark,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55019,Clark,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55019,Clark,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55021,Columbia,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55021,Columbia,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55021,Columbia,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55021,Columbia,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55021,Columbia,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55023,Crawford,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55023,Crawford,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55023,Crawford,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55023,Crawford,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55023,Crawford,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55025,Dane,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55025,Dane,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55025,Dane,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55025,Dane,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55025,Dane,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55027,Dodge,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55027,Dodge,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55027,Dodge,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55027,Dodge,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55027,Dodge,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55029,Door,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55029,Door,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55029,Door,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55029,Door,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55029,Door,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55031,Douglas,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55031,Douglas,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55031,Douglas,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55031,Douglas,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55031,Douglas,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55033,Dunn,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55033,Dunn,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55033,Dunn,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55033,Dunn,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55033,Dunn,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55035,Eau Claire,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55035,Eau Claire,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55035,Eau Claire,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55035,Eau Claire,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55035,Eau Claire,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55037,Florence,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55037,Florence,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55037,Florence,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55037,Florence,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55037,Florence,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55039,Fond du Lac,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55039,Fond du Lac,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55039,Fond du Lac,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55039,Fond du Lac,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55039,Fond du Lac,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55041,Forest,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55041,Forest,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55041,Forest,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55041,Forest,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55041,Forest,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55043,Grant,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55043,Grant,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55043,Grant,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55043,Grant,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55043,Grant,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55045,Green,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55045,Green,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55045,Green,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55045,Green,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55045,Green,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55047,Green Lake,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55047,Green Lake,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55047,Green Lake,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55047,Green Lake,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55047,Green Lake,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55049,Iowa,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55049,Iowa,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55049,Iowa,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55049,Iowa,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55049,Iowa,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55051,Iron,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55051,Iron,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55051,Iron,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55051,Iron,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55051,Iron,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55053,Jackson,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55053,Jackson,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55053,Jackson,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55053,Jackson,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55053,Jackson,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55055,Jefferson,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55055,Jefferson,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55055,Jefferson,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55055,Jefferson,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55055,Jefferson,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55057,Juneau,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55057,Juneau,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55057,Juneau,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55057,Juneau,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55057,Juneau,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55059,Kenosha,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55059,Kenosha,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55059,Kenosha,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55059,Kenosha,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55059,Kenosha,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55061,Kewaunee,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55061,Kewaunee,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55061,Kewaunee,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55061,Kewaunee,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55061,Kewaunee,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55063,La Crosse,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55063,La Crosse,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55063,La Crosse,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55063,La Crosse,Write-in,W,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55063,La Crosse,Michael Chianese,I,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55065,Lafayette,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55065,Lafayette,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55065,Lafayette,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55065,Lafayette,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55065,Lafayette,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55067,Langlade,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55067,Langlade,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55067,Langlade,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55067,Langlade,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55067,Langlade,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55069,Lincoln,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55069,Lincoln,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55069,Lincoln,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55069,Lincoln,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55069,Lincoln,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55071,Manitowoc,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55071,Manitowoc,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55071,Manitowoc,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55071,Manitowoc,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55071,Manitowoc,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55073,Marathon,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55073,Marathon,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55073,Marathon,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55073,Marathon,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55073,Marathon,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55075,Marinette,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55075,Marinette,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55075,Marinette,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55075,Marinette,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55075,Marinette,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55077,Marquette,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55077,Marquette,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55077,Marquette,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55077,Marquette,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55077,Marquette,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55078,Menominee,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55078,Menominee,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55078,Menominee,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55078,Menominee,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55078,Menominee,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55079,Milwaukee,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55079,Milwaukee,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55079,Milwaukee,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55079,Milwaukee,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55079,Milwaukee,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55081,Monroe,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55081,Monroe,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55081,Monroe,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55081,Monroe,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55081,Monroe,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55083,Oconto,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55083,Oconto,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55083,Oconto,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55083,Oconto,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55083,Oconto,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55085,Oneida,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55085,Oneida,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55085,Oneida,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55085,Oneida,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55085,Oneida,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55087,Outagamie,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55087,Outagamie,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55087,Outagamie,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55087,Outagamie,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55087,Outagamie,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55089,Ozaukee,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55089,Ozaukee,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55089,Ozaukee,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55089,Ozaukee,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55089,Ozaukee,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55091,Pepin,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55091,Pepin,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55091,Pepin,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55091,Pepin,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55091,Pepin,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55093,Pierce,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55093,Pierce,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55093,Pierce,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55093,Pierce,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55093,Pierce,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55095,Polk,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55095,Polk,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55095,Polk,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55095,Polk,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55095,Polk,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55097,Portage,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55097,Portage,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55097,Portage,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55097,Portage,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55097,Portage,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55099,Price,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55099,Price,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55099,Price,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55099,Price,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55099,Price,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55101,Racine,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55101,Racine,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55101,Racine,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55101,Racine,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55101,Racine,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55103,Richland,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55103,Richland,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55103,Richland,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55103,Richland,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55103,Richland,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55105,Rock,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55105,Rock,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55105,Rock,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55105,Rock,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55105,Rock,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55107,Rusk,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55107,Rusk,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55107,Rusk,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55107,Rusk,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55107,Rusk,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55111,Sauk,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55111,Sauk,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55111,Sauk,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55111,Sauk,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55111,Sauk,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55113,Sawyer,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55113,Sawyer,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55113,Sawyer,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55113,Sawyer,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55113,Sawyer,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55115,Shawano,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55115,Shawano,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55115,Shawano,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55115,Shawano,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55115,Shawano,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55117,Sheboygan,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55117,Sheboygan,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55117,Sheboygan,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55117,Sheboygan,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55117,Sheboygan,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55109,St. Croix,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55109,St. Croix,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55109,St. Croix,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55109,St. Croix,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55109,St. Croix,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55119,Taylor,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55119,Taylor,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55119,Taylor,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55119,Taylor,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55119,Taylor,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55121,Trempealeau,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55121,Trempealeau,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55121,Trempealeau,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55121,Trempealeau,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55121,Trempealeau,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55123,Vernon,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55123,Vernon,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55123,Vernon,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55123,Vernon,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55123,Vernon,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55125,Vilas,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55125,Vilas,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55125,Vilas,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55125,Vilas,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55125,Vilas,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55127,Walworth,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55127,Walworth,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55127,Walworth,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55127,Walworth,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55127,Walworth,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55129,Washburn,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55129,Washburn,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55129,Washburn,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55129,Washburn,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55129,Washburn,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55131,Washington,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55131,Washington,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55131,Washington,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55131,Washington,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55131,Washington,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55133,Waukesha,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55133,Waukesha,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55133,Waukesha,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55133,Waukesha,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55133,Waukesha,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55135,Waupaca,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55135,Waupaca,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55135,Waupaca,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55135,Waupaca,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55135,Waupaca,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55137,Waushara,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55137,Waushara,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55137,Waushara,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55137,Waushara,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55137,Waushara,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55139,Winnebago,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55139,Winnebago,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55139,Winnebago,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55139,Winnebago,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55139,Winnebago,Write-in,W,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55141,Wood,JoCasta Zamarripa,D,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55141,Wood,Jay Schroeder,R,0,pending,0,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55141,Wood,Pete Karas,G,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55141,Wood,Michael Chianese,I,0,pending,0,100
+statewide,2026 Secretary of State,2026,Secretary of State,,55141,Wood,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55001,Adams,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55001,Adams,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55001,Adams,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55001,Adams,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55003,Ashland,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55003,Ashland,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55003,Ashland,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55003,Ashland,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55005,Barron,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55005,Barron,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55005,Barron,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55005,Barron,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55007,Bayfield,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55007,Bayfield,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55007,Bayfield,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55007,Bayfield,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55009,Brown,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55009,Brown,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55009,Brown,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55009,Brown,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55011,Buffalo,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55011,Buffalo,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55011,Buffalo,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55011,Buffalo,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55013,Burnett,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55013,Burnett,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55013,Burnett,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55013,Burnett,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55015,Calumet,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55015,Calumet,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55015,Calumet,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55015,Calumet,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55017,Chippewa,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55017,Chippewa,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55017,Chippewa,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55017,Chippewa,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55019,Clark,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55019,Clark,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55019,Clark,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55019,Clark,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55021,Columbia,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55021,Columbia,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55021,Columbia,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55021,Columbia,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55023,Crawford,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55023,Crawford,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55023,Crawford,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55023,Crawford,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55025,Dane,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55025,Dane,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55025,Dane,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55025,Dane,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55027,Dodge,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55027,Dodge,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55027,Dodge,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55027,Dodge,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55029,Door,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55029,Door,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55029,Door,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55029,Door,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55031,Douglas,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55031,Douglas,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55031,Douglas,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55031,Douglas,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55033,Dunn,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55033,Dunn,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55033,Dunn,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55033,Dunn,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55035,Eau Claire,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55035,Eau Claire,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55035,Eau Claire,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55035,Eau Claire,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55037,Florence,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55037,Florence,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55037,Florence,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55037,Florence,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55039,Fond du Lac,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55039,Fond du Lac,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55039,Fond du Lac,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55039,Fond du Lac,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55041,Forest,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55041,Forest,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55041,Forest,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55041,Forest,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55043,Grant,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55043,Grant,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55043,Grant,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55043,Grant,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55045,Green,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55045,Green,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55045,Green,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55045,Green,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55047,Green Lake,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55047,Green Lake,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55047,Green Lake,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55047,Green Lake,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55049,Iowa,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55049,Iowa,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55049,Iowa,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55049,Iowa,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55051,Iron,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55051,Iron,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55051,Iron,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55051,Iron,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55053,Jackson,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55053,Jackson,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55053,Jackson,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55053,Jackson,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55055,Jefferson,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55055,Jefferson,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55055,Jefferson,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55055,Jefferson,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55057,Juneau,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55057,Juneau,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55057,Juneau,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55057,Juneau,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55059,Kenosha,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55059,Kenosha,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55059,Kenosha,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55059,Kenosha,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55061,Kewaunee,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55061,Kewaunee,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55061,Kewaunee,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55061,Kewaunee,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55063,La Crosse,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55063,La Crosse,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55063,La Crosse,Write-in,W,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55063,La Crosse,Joseph Kexel,I,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55065,Lafayette,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55065,Lafayette,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55065,Lafayette,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55065,Lafayette,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55067,Langlade,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55067,Langlade,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55067,Langlade,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55067,Langlade,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55069,Lincoln,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55069,Lincoln,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55069,Lincoln,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55069,Lincoln,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55071,Manitowoc,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55071,Manitowoc,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55071,Manitowoc,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55071,Manitowoc,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55073,Marathon,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55073,Marathon,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55073,Marathon,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55073,Marathon,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55075,Marinette,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55075,Marinette,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55075,Marinette,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55075,Marinette,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55077,Marquette,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55077,Marquette,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55077,Marquette,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55077,Marquette,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55078,Menominee,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55078,Menominee,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55078,Menominee,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55078,Menominee,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55079,Milwaukee,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55079,Milwaukee,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55079,Milwaukee,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55079,Milwaukee,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55081,Monroe,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55081,Monroe,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55081,Monroe,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55081,Monroe,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55083,Oconto,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55083,Oconto,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55083,Oconto,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55083,Oconto,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55085,Oneida,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55085,Oneida,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55085,Oneida,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55085,Oneida,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55087,Outagamie,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55087,Outagamie,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55087,Outagamie,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55087,Outagamie,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55089,Ozaukee,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55089,Ozaukee,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55089,Ozaukee,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55089,Ozaukee,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55091,Pepin,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55091,Pepin,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55091,Pepin,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55091,Pepin,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55093,Pierce,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55093,Pierce,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55093,Pierce,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55093,Pierce,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55095,Polk,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55095,Polk,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55095,Polk,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55095,Polk,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55097,Portage,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55097,Portage,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55097,Portage,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55097,Portage,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55099,Price,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55099,Price,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55099,Price,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55099,Price,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55101,Racine,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55101,Racine,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55101,Racine,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55101,Racine,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55103,Richland,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55103,Richland,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55103,Richland,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55103,Richland,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55105,Rock,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55105,Rock,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55105,Rock,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55105,Rock,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55107,Rusk,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55107,Rusk,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55107,Rusk,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55107,Rusk,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55111,Sauk,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55111,Sauk,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55111,Sauk,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55111,Sauk,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55113,Sawyer,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55113,Sawyer,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55113,Sawyer,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55113,Sawyer,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55115,Shawano,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55115,Shawano,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55115,Shawano,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55115,Shawano,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55117,Sheboygan,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55117,Sheboygan,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55117,Sheboygan,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55117,Sheboygan,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55109,St. Croix,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55109,St. Croix,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55109,St. Croix,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55109,St. Croix,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55119,Taylor,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55119,Taylor,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55119,Taylor,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55119,Taylor,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55121,Trempealeau,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55121,Trempealeau,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55121,Trempealeau,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55121,Trempealeau,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55123,Vernon,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55123,Vernon,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55123,Vernon,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55123,Vernon,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55125,Vilas,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55125,Vilas,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55125,Vilas,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55125,Vilas,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55127,Walworth,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55127,Walworth,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55127,Walworth,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55127,Walworth,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55129,Washburn,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55129,Washburn,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55129,Washburn,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55129,Washburn,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55131,Washington,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55131,Washington,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55131,Washington,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55131,Washington,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55133,Waukesha,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55133,Waukesha,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55133,Waukesha,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55133,Waukesha,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55135,Waupaca,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55135,Waupaca,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55135,Waupaca,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55135,Waupaca,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55137,Waushara,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55137,Waushara,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55137,Waushara,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55137,Waushara,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55139,Winnebago,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55139,Winnebago,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55139,Winnebago,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55139,Winnebago,Write-in,W,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55141,Wood,Yee Leng Xiong,D,0,pending,0,100
 statewide,2026 Treasurer,2026,Treasurer,,55141,Wood,John S. Leiber,R,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55141,Wood,Joseph Kexel,I,0,pending,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55141,Wood,Write-in,W,0,pending,0,100
 senate,2026 Senate,2026,Senate,s2024,1,,Nic Cravillion,R,0,pending,0,100
 senate,2026 Senate,2026,Senate,s2024,1,,Mark Becker,I,0,pending,0,100
 senate,2026 Senate,2026,Senate,s2024,3,,Tim Carpenter,D,0,pending,0,100
