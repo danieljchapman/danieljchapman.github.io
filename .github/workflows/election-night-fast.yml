@@ -46,7 +46,8 @@ jobs:
           while [ "$(date +%s)" -lt "$end" ]; do
             start=$(date +%s); n=$((n + 1))
             echo "::group::Update $n at $(date -u +%H:%M:%S) UTC"
-            if bash tools/fetch_live.sh; then fails=0; else fails=$((fails + 1)); echo "::warning::Update $n failed"; fi
+            # a hung request (Nov 3: one update sat for 15+ minutes) must not stall the loop
+            if timeout 240 bash tools/fetch_live.sh; then fails=0; else fails=$((fails + 1)); echo "::warning::Update $n failed"; fi
             echo "::endgroup::"
             # next update 5 minutes after this one started (sooner if the run took longer)
             wait=$(( 300 - ($(date +%s) - start) ))
