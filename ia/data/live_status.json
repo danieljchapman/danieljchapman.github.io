@@ -1,11 +1,11 @@
 [
  {
   "phase": "counting",
-  "updated_at": "2026-11-04T04:20:05Z",
+  "updated_at": "2026-11-04T04:33:58Z",
   "source": "CivicAPI, unofficial",
   "races": 136,
   "called": 1,
-  "counting": 85,
+  "counting": 94,
   "problems": [
    "CivicAPI search (Iowa State House): /race/search?country=US&province=IA&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Iowa%20State%20House: HTTP "
   ],
