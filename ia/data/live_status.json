@@ -1,15 +1,12 @@
 [
  {
   "phase": "counting",
-  "updated_at": "2026-11-04T07:07:46Z",
+  "updated_at": "2026-11-04T07:14:47Z",
   "source": "CivicAPI, unofficial",
   "races": 136,
   "called": 6,
   "counting": 92,
-  "problems": [
-   "CivicAPI search (Iowa State Auditor): /race/search?country=US&province=IA&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Iowa%20State%20Auditor: HTT",
-   "no live source yet for 1 statewide race"
-  ],
+  "problems": [],
   "local_problems": []
  }
 ]
