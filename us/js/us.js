@@ -241,6 +241,8 @@
     return c;
   }
   const isCalled = (r) => !!(r && r.year === 2026 && r.win);
+  // fully counted: every 2024 race; a 2026 race once called and at 100% of the expected vote (a call alone means 'projected')
+  const counted = (r) => !!r && (r.year === 2024 || (r.status === 'final' && (r.unopposed || (r.reporting != null && r.reporting >= 100))));
 
   // ---------- state map (Senate, governor) ----------
   let stateGeo = null;
@@ -450,6 +452,7 @@
     const st = el('p', 'lx-note');
     let line = '';
     if (r.unopposed && r.win) line = `${r.win.name} is unopposed.`;
+    else if (year === 2026 && r.status === 'final' && !counted(r) && r.win) line = `${r.win.name} (${r.win.party}) is projected to win` + (r.margin != null && r.total ? ` and leads by ${(r.margin * 100).toFixed(1)} points` + (r.reporting != null ? ` with about ${Math.round(r.reporting)}% of the expected vote counted.` : '.') : '.');
     else if (year === 2024 || r.status === 'final') line = r.win ? `${r.win.name} (${r.win.party}) won` + (r.margin != null ? ` by ${(r.margin * 100).toFixed(1)} points.` : '.') : 'Result final.';
     else if (r.status === 'counting') line = `${r.lead.name} (${r.lead.party}) leads by ${(r.margin * 100).toFixed(1)} points` + (r.reporting != null ? ` with about ${Math.round(r.reporting)}% of the expected vote counted.` : '.') + ' Not called yet.';
     else line = 'No votes counted yet.';
@@ -538,7 +541,7 @@
     const x0 = new Date((POLLS().since || '2026-08-01') + 'T00:00:00Z'), x1 = new Date('2026-11-04T00:00:00Z');
     const x = d3.scaleUtc().domain([x0, x1]).range([m.l, W - m.r]);
     const act = act0;
-    const final = r && (r.status === 'final');
+    const final = counted(r);
     const vals = rec.polls.map((p) => p.m).concat(rec.curve ? rec.curve.map((c) => c[1]) : []).concat([0, rec.final.m]).concat(act != null ? [act] : []);
     const lo = d3.min(vals), hi = d3.max(vals), pad = Math.max(2, (hi - lo) * 0.12);
     const y = d3.scaleLinear().domain([lo - pad, hi + pad]).nice().range([H - m.b, m.t]);
@@ -573,7 +576,7 @@
       const ay = y(act);
       svg.append('path').attr('class', 'res' + (final ? '' : ' partial')).attr('d', d3.symbol(d3.symbolDiamond, 70)()).attr('transform', `translate(${ed},${ay})`).attr('fill', col(act));
       svg.append('text').attr('class', 'res-l').attr('x', W - m.r + 11).attr('y', ay + 4 + (Math.abs(ay - y(rec.final.m)) < 12 ? (ay > y(rec.final.m) ? 9 : -9) : 0))
-        .text(`${final || opts.actual != null ? 'Result' : 'So far'} ${pairLabel(rec.pair, act)}`);
+        .text(`${final ? 'Result' : 'So far'} ${pairLabel(rec.pair, act)}`);
     }
     // click/tap a dot to show that poll below the chart (works on phones, where hover doesn't).
     // A transparent layer over the plot picks the nearest dot, so small or overlapping dots are easy to hit.
@@ -639,7 +642,7 @@
     const act = actualPair(rec, r), miss = pollMiss(rec, r);
     const how = rec.final.method === 'loess' ? `trend line through ${rec.final.n} polls` : `average of ${rec.final.n} ${rec.final.n === 1 ? 'poll' : 'polls'} in the last 30 days`;
     let line = `Final polling average: ${pairLabel(rec.pair, rec.final.m)} (${rec.pair[0][0]} vs. ${rec.pair[1][0]}; ${how}, as of ${fmtDate(rec.final.asof)}).`;
-    if (act != null) line += r.status === 'final' ? ` Result: ${pairLabel(rec.pair, act)}. ${missText(rec, miss)}` : ` Current count: ${pairLabel(rec.pair, act)} (not final).`;
+    if (act != null) line += counted(r) ? ` Result: ${pairLabel(rec.pair, act)}. ${missText(rec, miss)}` : ` Current count: ${pairLabel(rec.pair, act)} (not final).`;
     wrap.append(el('p', 'lx-note', line));
     const part = rec.polls.filter((p) => p.part).length;
     wrap.append(el('p', 'lx-note lx-polls-key', `Dots are polls of likely voters (tap or click one for details); hollow dots${part ? ` (${part})` : ''} were sponsored by a party or campaign. Larger dots count fully; a pollster's repeat polls within two weeks share one poll's weight.${r && r.state === 'AK' ? ' Alaska polls show first choices.' : ''}`));
@@ -656,8 +659,8 @@
     const g = P.generic;
     const R = d3.sum(races, (r) => d3.sum(r.cands.filter((c) => c.party === 'R'), (c) => c.votes)), D = d3.sum(races, (r) => d3.sum(r.cands.filter((c) => c.party === 'D'), (c) => c.votes)), T = d3.sum(races, (r) => r.total);
     const act = T ? (D - R) / T * 100 : null;
-    const done = races.length && races.every((r) => r.status === 'final');
-    pollChart(box, g, done ? { status: 'final' } : null, { w: 760, h: 220, r: 70, actual: act });
+    const done = races.length && races.every((r) => counted(r));
+    pollChart(box, g, done ? { year: 2024 } : null,   /* stands for 'fully counted' */ { w: 760, h: 220, r: 70, actual: act });
     let line = `Final generic-ballot average: ${pairLabel(g.pair, g.final.m)} (trend line through ${g.final.n} national polls of likely voters, as of ${fmtDate(g.final.asof)}).`;
     if (act != null) line += ` National House vote ${done ? '' : 'counted so far'}: ${pairLabel(g.pair, act)}${done ? '. ' + missText(g, act - g.final.m) : ' (not final).'}`;
     line += ' The national vote adds up contested races only, so uncontested seats pull it away from the generic ballot a little.';
@@ -687,7 +690,7 @@
     $('race-count').textContent = `${list.length} of ${races.length} races`;
     $('col-counted').hidden = year !== 2026;
     $('col-polls').hidden = year !== 2026;
-    const showMiss = year === 2026 && races.some((r) => r.status === 'final' && pollMiss(pollRec(r.level, r), r) != null);
+    const showMiss = year === 2026 && races.some((r) => counted(r) && pollMiss(pollRec(r.level, r), r) != null);
     $('col-miss').hidden = !showMiss;
     d3.select(tb).selectAll('tr').data(list, (r) => r.key).join('tr')
       .classed('sel', (r) => r.key === sel)
@@ -705,7 +708,7 @@
         if (year === 2026) {
           const rec = pollRec(r.level, r);
           td(rec ? pairLabel(rec.pair, rec.final.m) : '', 'lx-cell-pct');
-          if (showMiss) { const mi = r.status === 'final' ? pollMiss(rec, r) : null; td(mi == null ? '' : (mi > 0 ? lastCap(rec.pair[0][0]) : lastCap(rec.pair[1][0])) + ' +' + Math.abs(mi).toFixed(1) + ' vs polls'); }
+          if (showMiss) { const mi = counted(r) ? pollMiss(rec, r) : null; td(mi == null ? '' : (mi > 0 ? lastCap(rec.pair[0][0]) : lastCap(rec.pair[1][0])) + ' +' + Math.abs(mi).toFixed(1) + ' vs polls'); }
         }
       });
   }

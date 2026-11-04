@@ -192,6 +192,8 @@
     const S = sw.data.find((r) => r.race === p.race) || null;
     const pending = !S || S.total_votes === 0;
     const status = S ? S.status : 'pending';
+    // called but not fully counted (CivicAPI calls races early): 'projected to win', not 'won'
+    const done = status === 'final' && (year !== 2026 || S.precincts_reporting_pct == null || S.precincts_reporting_pct >= 0.9995);
     const rows = (S && byRace.get(S.race)) || [];
     const C = cs.data.filter((r) => r.race === p.race).sort((a, b) => a.rank - b.rank);
     LX.liveBanner(document.getElementById('sw-live'), year);
@@ -211,15 +213,15 @@
       const lead = C[0];
       add(lead.candidate, true);
       if (S.rep_votes && S.dem_votes) {
-        add(status === 'final' ? ` won the ${year} ${oname} race by ` : ` leads the ${year} ${oname} race by `);
+        add(done ? ` won the ${year} ${oname} race by ` : status === 'final' ? ` is projected to win the ${year} ${oname} race, leading by ` : ` leads the ${year} ${oname} race by `);
         // very close races (under 0.1 point, e.g. 2020 Chief Justice by 401 votes) are stated in votes
         if (Math.abs(S.margin) < 0.001) add(fmt(Math.abs(S.rep_votes - S.dem_votes)) + (Math.abs(S.rep_votes - S.dem_votes) === 1 ? ' vote' : ' votes'), true);
         else { add(Math.abs(S.margin * 100).toFixed(1) + ' points', true); add(` (${S.margin_label})`); }
       } else {
-        add(status === 'final' ? ` won the ${year} ${oname} race with ` : ` leads the ${year} ${oname} race with `);
+        add(done ? ` won the ${year} ${oname} race with ` : status === 'final' ? ` is projected to win the ${year} ${oname} race, leading with ` : ` leads the ${year} ${oname} race with `);
         add(pct(lead.pct), true); add(' of the vote');
       }
-      if (status === 'counting') { if (S.precincts_reporting_pct != null) { add(', with '); add(pct(S.precincts_reporting_pct).replace('.0%', '%'), true, 'precincts_reporting_pct'); add(' of precincts reporting.'); } else { add(', with '); add(String(S.counties_reporting), true, 'counties_reporting'); add(' of 100 counties reporting.'); } }
+      if (status === 'counting' || (status === 'final' && !done)) { if (S.precincts_reporting_pct != null) { add(', with '); add(pct(S.precincts_reporting_pct).replace('.0%', '%'), true, 'precincts_reporting_pct'); add(' of precincts reporting.'); } else { add(', with '); add(String(S.counties_reporting), true, 'counties_reporting'); add(' of 100 counties reporting.'); } }
       else { add(', carrying '); add(String(lead.party === 'R' ? S.counties_rep : lead.party === 'D' ? S.counties_dem : S.counties_other), true); add(' of 100 counties.'); }
       if (S.prev_race && S.shift != null) {
         add(` Compared with ${S.prev_race}, the statewide margin moved `);
