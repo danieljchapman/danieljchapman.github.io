@@ -3,11 +3,11 @@ senate,AK,2026,AK,,,Gerald L. Heikes,R,0,0,0,0,pending,0,100
 senate,AK,2026,AK,,,Mary Peltola,D,0,0,0,0,pending,0,100
 senate,AK,2026,AK,,,Daniel J. Jr. Sullivan,I,0,0,0,0,pending,0,100
 senate,AK,2026,AK,,,Dan Sullivan,R,0,0,0,1,pending,0,100
-senate,AL,2026,AL,,,Barry Moore,R,40738,0,0,0,counting,4.09,100
-senate,AL,2026,AL,,,Everett Wess,D,29425,0,0,0,counting,4.09,100
-senate,AR,2026,AR,,,Tom Cotton,R,5444,0,0,0,counting,0.75,100
-senate,AR,2026,AR,,,Hallie Shoffner,D,1679,0,0,0,counting,0.75,100
-senate,AR,2026,AR,,,Jeff Wadlin,L,208,0,0,0,counting,0.75,100
+senate,AL,2026,AL,,,Barry Moore,R,51964,0,0,0,counting,5.11,100
+senate,AL,2026,AL,,,Everett Wess,D,35767,0,0,0,counting,5.11,100
+senate,AR,2026,AR,,,Tom Cotton,R,18620,0,0,0,counting,2.64,100
+senate,AR,2026,AR,,,Hallie Shoffner,D,6636,0,0,0,counting,2.64,100
+senate,AR,2026,AR,,,Jeff Wadlin,L,712,0,0,0,counting,2.64,100
 senate,CO,2026,CO,,,Mark Baisley,R,0,0,0,0,pending,0,100
 senate,CO,2026,CO,,,John Hickenlooper,D,0,0,0,0,pending,0,100
 senate,CO,2026,CO,,,Bob Chew,O,0,0,0,0,pending,0,100
@@ -17,13 +17,13 @@ senate,CO,2026,CO,,,Adam Withrow,O,0,0,0,0,pending,0,100
 senate,CO,2026,CO,,,Donald Willoughby,W,0,0,0,0,pending,0,100
 senate,CO,2026,CO,,,Will Powers,W,0,0,0,0,pending,0,100
 senate,CO,2026,CO,,,Ryan Apelbaum,W,0,0,0,0,pending,0,100
-senate,DE,2026,DE,,,Chris Coons,D,100636,1,0,0,final,35.84,100
-senate,DE,2026,DE,,,"Michael ""Dr. Mike"" Katz",R,49153,0,0,0,final,35.84,100
-senate,FL,2026,FL,,special,Ashley Moody,R,4127809,0,0,1,counting,90.87,100
-senate,FL,2026,FL,,special,Angie Nixon,D,3894930,0,0,0,counting,90.87,100
-senate,FL,2026,FL,,special,Neil J. Gillespie,I,92369,0,0,0,counting,90.87,100
-senate,GA,2026,GA,,,Jon Ossoff,D,1612112,1,0,1,final,54.71,100
-senate,GA,2026,GA,,,Mike Collins,R,941936,0,0,0,final,54.71,100
+senate,DE,2026,DE,,,Chris Coons,D,118384,1,0,0,final,42.72,100
+senate,DE,2026,DE,,,"Michael ""Dr. Mike"" Katz",R,60169,0,0,0,final,42.72,100
+senate,FL,2026,FL,,special,Ashley Moody,R,4133658,0,0,1,counting,90.97,100
+senate,FL,2026,FL,,special,Angie Nixon,D,3898536,0,0,0,counting,90.97,100
+senate,FL,2026,FL,,special,Neil J. Gillespie,I,92478,0,0,0,counting,90.97,100
+senate,GA,2026,GA,,,Jon Ossoff,D,1863444,1,0,1,final,66.31,100
+senate,GA,2026,GA,,,Mike Collins,R,1232321,0,0,0,final,66.31,100
 senate,IA,2026,IA,,,Ashley Hinson,R,0,0,0,0,pending,0,100
 senate,IA,2026,IA,,,Josh Turek,D,0,0,0,0,pending,0,100
 senate,IA,2026,IA,,,Thomas Laehn,L,0,0,0,0,pending,0,100
@@ -35,9 +35,9 @@ senate,ID,2026,ID,,,Todd Achilles,I,0,0,0,0,pending,0,100
 senate,IL,2026,IL,,,Juliana Stratton,D,0,1,0,0,final,0,100
 senate,IL,2026,IL,,,Don Tracy,R,0,0,0,0,final,0,100
 senate,IL,2026,IL,,,Whitfield Harrington Jr.,O,0,0,0,0,final,0,100
-senate,KS,2026,KS,,,Adam Hamilton,D,279641,0,0,0,counting,38.78,100
-senate,KS,2026,KS,,,Roger Marshall,R,156293,0,0,0,counting,38.78,100
-senate,KS,2026,KS,,,David C Graham,L,8301,0,0,0,counting,38.78,100
+senate,KS,2026,KS,,,Adam Hamilton,D,291992,0,0,0,counting,41.23,100
+senate,KS,2026,KS,,,Roger Marshall,R,168190,0,0,0,counting,41.23,100
+senate,KS,2026,KS,,,David C Graham,L,12174,0,0,0,counting,41.23,100
 senate,KY,2026,KY,,,Andy Barr,R,567996,0,0,0,counting,65.33,100
 senate,KY,2026,KY,,,Charles Booker,D,493513,0,0,0,counting,65.33,100
 senate,KY,2026,KY,,,Christopher Campbell,O,21623,0,0,0,counting,65.33,100
@@ -48,20 +48,20 @@ senate,MA,2026,MA,,,Edward J. Markey,D,23820,1,0,0,final,1.01,100
 senate,MA,2026,MA,,,John Deaton,R,2749,0,0,0,final,1.01,100
 senate,MA,2026,MA,,,Joe Tache,O,2042,0,0,0,final,1.01,100
 senate,MA,2026,MA,,,Shiva Ayyadurai,I,351,0,0,0,final,1.01,100
-senate,ME,2026,ME,,,Susan Collins,R,21478,0,0,0,counting,5.53,100
-senate,ME,2026,ME,,,Troy Jackson,D,19354,0,0,0,counting,5.53,100
-senate,ME,2026,ME,,,Write-in,I,171,0,0,0,counting,5.53,100
-senate,MI,2026,MI,,,Abdul El-Sayed,D,278932,0,0,0,counting,10.53,100
-senate,MI,2026,MI,,,Mike Rogers,R,234321,0,0,0,counting,10.53,100
-senate,MI,2026,MI,,,Lydia Christensen,L,4598,0,0,0,counting,10.53,100
-senate,MI,2026,MI,,,Tim Long,O,1981,0,0,0,counting,10.53,100
-senate,MI,2026,MI,,,Douglas P. Marsh,G,1293,0,0,0,counting,10.53,100
-senate,MI,2026,MI,,,Walter P. Kristy,O,580,0,0,0,counting,10.53,100
-senate,MI,2026,MI,,,Write-in,I,74,0,0,0,counting,10.53,100
-senate,MI,2026,MI,,,Robert Trevor-Blair Davis,W,0,0,0,0,counting,10.53,100
-senate,MI,2026,MI,,,George Earnest Huffman,W,0,0,0,0,counting,10.53,100
-senate,MI,2026,MI,,,Craig Henley Johnson II,W,0,0,0,0,counting,10.53,100
-senate,MI,2026,MI,,,Daniel Varney Tamba Pawa,W,0,0,0,0,counting,10.53,100
+senate,ME,2026,ME,,,Susan Collins,R,23333,0,0,0,counting,5.93,100
+senate,ME,2026,ME,,,Troy Jackson,D,20468,0,0,0,counting,5.93,100
+senate,ME,2026,ME,,,Write-in,I,177,0,0,0,counting,5.93,100
+senate,MI,2026,MI,,,Abdul El-Sayed,D,298637,0,0,0,counting,11.43,100
+senate,MI,2026,MI,,,Mike Rogers,R,258475,0,0,0,counting,11.43,100
+senate,MI,2026,MI,,,Lydia Christensen,L,5062,0,0,0,counting,11.43,100
+senate,MI,2026,MI,,,Tim Long,O,2191,0,0,0,counting,11.43,100
+senate,MI,2026,MI,,,Douglas P. Marsh,G,1380,0,0,0,counting,11.43,100
+senate,MI,2026,MI,,,Walter P. Kristy,O,636,0,0,0,counting,11.43,100
+senate,MI,2026,MI,,,Write-in,I,82,0,0,0,counting,11.43,100
+senate,MI,2026,MI,,,Robert Trevor-Blair Davis,W,0,0,0,0,counting,11.43,100
+senate,MI,2026,MI,,,George Earnest Huffman,W,0,0,0,0,counting,11.43,100
+senate,MI,2026,MI,,,Craig Henley Johnson II,W,0,0,0,0,counting,11.43,100
+senate,MI,2026,MI,,,Daniel Varney Tamba Pawa,W,0,0,0,0,counting,11.43,100
 senate,MN,2026,MN,,,Marisa Simonetti,I,0,0,0,0,pending,0,100
 senate,MN,2026,MN,,,Rebecca Whiting,L,0,0,0,0,pending,0,100
 senate,MN,2026,MN,,,Peggy Flanagan,D,0,0,0,0,pending,0,100
@@ -78,49 +78,49 @@ senate,NC,2026,NC,,,Roy Cooper,D,1815990,1,0,0,final,67.03,100
 senate,NC,2026,NC,,,Michael Whatley,R,1095234,0,0,0,final,67.03,100
 senate,NC,2026,NC,,,Shannon Bray,L,32134,0,0,0,final,67.03,100
 senate,NC,2026,NC,,,Michael Dublin,G,22859,0,0,0,final,67.03,100
-senate,NE,2026,NE,,,Dan Osborn,I,79855,0,0,0,counting,17.75,100
-senate,NE,2026,NE,,,Pete Ricketts,R,50327,0,0,0,counting,17.75,100
-senate,NE,2026,NE,,,Robin Richards,O,3454,0,0,0,counting,17.75,100
-senate,NE,2026,NE,,,Mike Marvin,O,2321,0,0,0,counting,17.75,100
-senate,NE,2026,NE,,,Chuck Conboy,O,1281,0,0,0,counting,17.75,100
-senate,NH,2026,NH,,,Chris Pappas,D,130594,0,0,0,counting,34.15,100
-senate,NH,2026,NH,,,John E. Sununu,R,99869,0,0,0,counting,34.15,100
-senate,NH,2026,NH,,,Edmond Laplante,C,4496,0,0,0,counting,34.15,100
-senate,NH,2026,NH,,,Write-in,I,410,0,0,0,counting,34.15,100
-senate,NJ,2026,NJ,,,Cory Booker,D,849576,1,0,0,final,36.19,100
-senate,NJ,2026,NJ,,,Justin Murphy,R,413395,0,0,0,final,36.19,100
-senate,NJ,2026,NJ,,,Veronica Fernandez,I,17495,0,0,0,final,36.19,100
-senate,NJ,2026,NJ,,,Joanne Kuniansky,O,11037,0,0,0,final,36.19,100
-senate,NJ,2026,NJ,,,Write-in,I,1169,0,0,0,final,36.19,100
-senate,NJ,2026,NJ,,,Adam Sheridan,W,2,0,0,0,final,36.19,100
-senate,NJ,2026,NJ,,,Eduardo Castille,I,1,0,0,0,final,36.19,100
-senate,NJ,2026,NJ,,,Geoff Rickly,I,1,0,0,0,final,36.19,100
-senate,NJ,2026,NJ,,,Gary Stout,W,1,0,0,0,final,36.19,100
-senate,NJ,2026,NJ,,,Heier,W,1,0,0,0,final,36.19,100
-senate,NJ,2026,NJ,,,Someone From Out of State,W,1,0,0,0,final,36.19,100
-senate,NJ,2026,NJ,,,William Hunt,W,1,0,0,0,final,36.19,100
-senate,NJ,2026,NJ,,,Andy Kim,W,1,0,0,0,final,36.19,100
-senate,NJ,2026,NJ,,,Bryce Harper,W,1,0,0,0,final,36.19,100
-senate,NJ,2026,NJ,,,Richard tabor,W,1,0,0,0,final,36.19,100
-senate,NJ,2026,NJ,,,Thomas Massie,W,1,0,0,0,final,36.19,100
-senate,NJ,2026,NJ,,,Free Palestine,W,1,0,0,0,final,36.19,100
-senate,NJ,2026,NJ,,,Fred Porter,W,1,0,0,0,final,36.19,100
-senate,NJ,2026,NJ,,,God,W,1,0,0,0,final,36.19,100
-senate,NJ,2026,NJ,,,Loretta Kelly,W,1,0,0,0,final,36.19,100
-senate,NJ,2026,NJ,,,Emily Wallace,W,1,0,0,0,final,36.19,100
-senate,NJ,2026,NJ,,,optimus prime,W,1,0,0,0,final,36.19,100
-senate,NJ,2026,NJ,,,Clifford P. Case,W,1,0,0,0,final,36.19,100
-senate,NJ,2026,NJ,,,Jeff Van Drew,W,1,0,0,0,final,36.19,100
-senate,NJ,2026,NJ,,,Shawn Riggins,I,0,0,0,0,final,36.19,100
+senate,NE,2026,NE,,,Dan Osborn,I,107448,0,0,0,counting,23.17,100
+senate,NE,2026,NE,,,Pete Ricketts,R,62870,0,0,0,counting,23.17,100
+senate,NE,2026,NE,,,Robin Richards,O,4359,0,0,0,counting,23.17,100
+senate,NE,2026,NE,,,Mike Marvin,O,2890,0,0,0,counting,23.17,100
+senate,NE,2026,NE,,,Chuck Conboy,O,1607,0,0,0,counting,23.17,100
+senate,NH,2026,NH,,,Chris Pappas,D,132378,0,0,0,counting,34.59,100
+senate,NH,2026,NH,,,John E. Sununu,R,101015,0,0,0,counting,34.59,100
+senate,NH,2026,NH,,,Edmond Laplante,C,4575,0,0,0,counting,34.59,100
+senate,NH,2026,NH,,,Write-in,I,423,0,0,0,counting,34.59,100
+senate,NJ,2026,NJ,,,Cory Booker,D,961441,1,0,0,final,40.76,100
+senate,NJ,2026,NJ,,,Justin Murphy,R,458697,0,0,0,final,40.76,100
+senate,NJ,2026,NJ,,,Veronica Fernandez,I,21064,0,0,0,final,40.76,100
+senate,NJ,2026,NJ,,,Joanne Kuniansky,O,13197,0,0,0,final,40.76,100
+senate,NJ,2026,NJ,,,Write-in,I,1548,0,0,0,final,40.76,100
+senate,NJ,2026,NJ,,,Adam Sheridan,W,2,0,0,0,final,40.76,100
+senate,NJ,2026,NJ,,,Eduardo Castille,I,1,0,0,0,final,40.76,100
+senate,NJ,2026,NJ,,,Geoff Rickly,I,1,0,0,0,final,40.76,100
+senate,NJ,2026,NJ,,,Gary Stout,W,1,0,0,0,final,40.76,100
+senate,NJ,2026,NJ,,,Heier,W,1,0,0,0,final,40.76,100
+senate,NJ,2026,NJ,,,Someone From Out of State,W,1,0,0,0,final,40.76,100
+senate,NJ,2026,NJ,,,William Hunt,W,1,0,0,0,final,40.76,100
+senate,NJ,2026,NJ,,,Andy Kim,W,1,0,0,0,final,40.76,100
+senate,NJ,2026,NJ,,,Bryce Harper,W,1,0,0,0,final,40.76,100
+senate,NJ,2026,NJ,,,Richard tabor,W,1,0,0,0,final,40.76,100
+senate,NJ,2026,NJ,,,Thomas Massie,W,1,0,0,0,final,40.76,100
+senate,NJ,2026,NJ,,,Free Palestine,W,1,0,0,0,final,40.76,100
+senate,NJ,2026,NJ,,,Fred Porter,W,1,0,0,0,final,40.76,100
+senate,NJ,2026,NJ,,,God,W,1,0,0,0,final,40.76,100
+senate,NJ,2026,NJ,,,Loretta Kelly,W,1,0,0,0,final,40.76,100
+senate,NJ,2026,NJ,,,Emily Wallace,W,1,0,0,0,final,40.76,100
+senate,NJ,2026,NJ,,,optimus prime,W,1,0,0,0,final,40.76,100
+senate,NJ,2026,NJ,,,Clifford P. Case,W,1,0,0,0,final,40.76,100
+senate,NJ,2026,NJ,,,Jeff Van Drew,W,1,0,0,0,final,40.76,100
+senate,NJ,2026,NJ,,,Shawn Riggins,I,0,0,0,0,final,40.76,100
 senate,NM,2026,NM,,,Ben Ray Luján,D,0,0,0,0,pending,0,100
 senate,NM,2026,NM,,,Larry Marker,R,0,0,0,0,pending,0,100
-senate,OH,2026,OH,,special,Sherrod Brown,D,1156477,0,0,0,counting,46.01,100
-senate,OH,2026,OH,,special,Jon Husted,R,946918,0,0,0,counting,46.01,100
-senate,OH,2026,OH,,special,William B. Redpath,L,50595,0,0,0,counting,46.01,100
-senate,OH,2026,OH,,special,Greg Levy,O,38364,0,0,0,counting,46.01,100
-senate,OH,2026,OH,,special,Stephen Faris,W,0,0,0,0,counting,46.01,100
-senate,OH,2026,OH,,special,Anthony Holliman,W,0,0,0,0,counting,46.01,100
-senate,OH,2026,OH,,special,Timothy Telymonde,W,0,0,0,0,counting,46.01,100
+senate,OH,2026,OH,,special,Sherrod Brown,D,1205632,0,0,0,counting,48.98,100
+senate,OH,2026,OH,,special,Jon Husted,R,1030170,0,0,0,counting,48.98,100
+senate,OH,2026,OH,,special,William B. Redpath,L,56219,0,0,0,counting,48.98,100
+senate,OH,2026,OH,,special,Greg Levy,O,41817,0,0,0,counting,48.98,100
+senate,OH,2026,OH,,special,Stephen Faris,W,0,0,0,0,counting,48.98,100
+senate,OH,2026,OH,,special,Anthony Holliman,W,0,0,0,0,counting,48.98,100
+senate,OH,2026,OH,,special,Timothy Telymonde,W,0,0,0,0,counting,48.98,100
 senate,OK,2026,OK,,,Kevin Hern,R,0,0,0,0,pending,0,100
 senate,OK,2026,OK,,,N'Kiyla Jasmine Thomas,D,0,0,0,0,pending,0,100
 senate,OK,2026,OK,,,Sevier White,L,0,0,0,0,pending,0,100
@@ -135,31 +135,31 @@ senate,RI,2026,RI,,,John F. Reed,D,210548,1,0,0,final,74.3,100
 senate,RI,2026,RI,,,Raymond T. McKay,R,93359,0,0,0,final,74.3,100
 senate,RI,2026,RI,,,Michael Bahry,I,12008,0,0,0,final,74.3,100
 senate,RI,2026,RI,,,Write-in,I,600,0,0,0,final,74.3,100
-senate,SC,2026,SC,,,Annie Andrews,D,719186,0,0,0,counting,66.42,100
-senate,SC,2026,SC,,,Darline Graham,R,603307,0,0,0,counting,66.42,100
-senate,SC,2026,SC,,,Kasie Whitener,L,12690,0,0,0,counting,66.42,100
-senate,SC,2026,SC,,,Mark Hackett,C,8944,0,0,0,counting,66.42,100
-senate,SC,2026,SC,,,Write-in,I,2651,0,0,0,counting,66.42,100
+senate,SC,2026,SC,,,Annie Andrews,D,435332,0,0,0,counting,41.46,100
+senate,SC,2026,SC,,,Darline Graham,R,391139,0,0,0,counting,41.46,100
+senate,SC,2026,SC,,,Kasie Whitener,L,7279,0,0,0,counting,41.46,100
+senate,SC,2026,SC,,,Mark Hackett,C,5177,0,0,0,counting,41.46,100
+senate,SC,2026,SC,,,Write-in,I,1670,0,0,0,counting,41.46,100
 senate,SD,2026,SD,,,Mike Rounds,R,0,0,0,0,pending,0,100
 senate,SD,2026,SD,,,Brian Bengs,I,0,0,0,0,pending,0,100
-senate,TN,2026,TN,,,Bill Hagerty,R,334095,0,0,0,counting,23.64,100
-senate,TN,2026,TN,,,Marquita Bradshaw,D,203879,0,0,0,counting,23.64,100
-senate,TN,2026,TN,,,Robert Jones,I,2186,0,0,0,counting,23.64,100
-senate,TN,2026,TN,,,Tharon Chandler,I,1863,0,0,0,counting,23.64,100
-senate,TN,2026,TN,,,"Catherine Barcel ""Barcy"" Whitson",I,1220,0,0,0,counting,23.64,100
-senate,TN,2026,TN,,,Andrew Gerena,I,1192,0,0,0,counting,23.64,100
-senate,TN,2026,TN,,,Jeremy Dean Hearn,I,1112,0,0,0,counting,23.64,100
-senate,TN,2026,TN,,,"David Sutman, Jr.",I,664,0,0,0,counting,23.64,100
-senate,TN,2026,TN,,,James William Macon III,I,575,0,0,0,counting,23.64,100
-senate,TN,2026,TN,,,Yoshi D. Matthews,I,573,0,0,0,counting,23.64,100
-senate,TX,2026,TX,,,James Talarico,D,2417452,0,0,0,counting,41,100
-senate,TX,2026,TX,,,Ken Paxton,R,1619829,0,0,0,counting,41,100
-senate,TX,2026,TX,,,Ted Brown,L,62413,0,0,0,counting,41,100
-senate,TX,2026,TX,,,Avery Ayers,W,0,0,0,0,counting,41,100
-senate,TX,2026,TX,,,"Bradford ""Brad"" Hall",W,0,0,0,0,counting,41,100
-senate,TX,2026,TX,,,Zul Mohamed,W,0,0,0,0,counting,41,100
-senate,TX,2026,TX,,,Jade Simmons,W,0,0,0,0,counting,41,100
-senate,TX,2026,TX,,,Write-in,I,0,0,0,0,counting,41,100
+senate,TN,2026,TN,,,Bill Hagerty,R,433692,0,0,0,counting,35.42,100
+senate,TN,2026,TN,,,Marquita Bradshaw,D,371754,0,0,0,counting,35.42,100
+senate,TN,2026,TN,,,Robert Jones,I,3298,0,0,0,counting,35.42,100
+senate,TN,2026,TN,,,Tharon Chandler,I,2766,0,0,0,counting,35.42,100
+senate,TN,2026,TN,,,"Catherine Barcel ""Barcy"" Whitson",I,1816,0,0,0,counting,35.42,100
+senate,TN,2026,TN,,,Jeremy Dean Hearn,I,1811,0,0,0,counting,35.42,100
+senate,TN,2026,TN,,,Andrew Gerena,I,1810,0,0,0,counting,35.42,100
+senate,TN,2026,TN,,,"David Sutman, Jr.",I,1103,0,0,0,counting,35.42,100
+senate,TN,2026,TN,,,James William Macon III,I,1048,0,0,0,counting,35.42,100
+senate,TN,2026,TN,,,Yoshi D. Matthews,I,1043,0,0,0,counting,35.42,100
+senate,TX,2026,TX,,,James Talarico,D,2472404,0,0,0,counting,41.79,100
+senate,TX,2026,TX,,,Ken Paxton,R,1642742,0,0,0,counting,41.79,100
+senate,TX,2026,TX,,,Ted Brown,L,63545,0,0,0,counting,41.79,100
+senate,TX,2026,TX,,,Avery Ayers,W,0,0,0,0,counting,41.79,100
+senate,TX,2026,TX,,,"Bradford ""Brad"" Hall",W,0,0,0,0,counting,41.79,100
+senate,TX,2026,TX,,,Zul Mohamed,W,0,0,0,0,counting,41.79,100
+senate,TX,2026,TX,,,Jade Simmons,W,0,0,0,0,counting,41.79,100
+senate,TX,2026,TX,,,Write-in,I,0,0,0,0,counting,41.79,100
 senate,VA,2026,VA,,,Mark Warner,D,780371,1,0,0,final,35.14,100
 senate,VA,2026,VA,,,Bert Mizusawa,R,519435,0,0,0,final,35.14,100
 senate,VA,2026,VA,,,Write-in,I,3684,0,0,0,final,35.14,100
@@ -1512,11 +1512,11 @@ governor,AK,2026,AK,,,Dave Bronson,R,0,0,0,0,pending,0,100
 governor,AK,2026,AK,,,"Jonathan S. ""JKT"" Kreiss-Tomkins",I,0,0,0,0,pending,0,100
 governor,AK,2026,AK,,,Treg Taylor,R,0,0,0,0,pending,0,100
 governor,AK,2026,AK,,,Bernadette M. Wilson,R,0,0,0,0,pending,0,100
-governor,AL,2026,AL,,,Tommy Tuberville,R,38193,0,0,0,counting,4.04,100
-governor,AL,2026,AL,,,Doug Jones,D,31212,0,0,0,counting,4.04,100
-governor,AR,2026,AR,,,Sarah Huckabee Sanders,R,18244,0,0,0,counting,2.64,100
-governor,AR,2026,AR,,,Fredrick Love,D,5936,0,0,0,counting,2.64,100
-governor,AR,2026,AR,,,Colt Shelby,L,1773,0,0,0,counting,2.64,100
+governor,AL,2026,AL,,,Tommy Tuberville,R,46624,0,0,0,counting,4.94,100
+governor,AL,2026,AL,,,Doug Jones,D,38187,0,0,0,counting,4.94,100
+governor,AR,2026,AR,,,Sarah Huckabee Sanders,R,22531,0,0,0,counting,3.43,100
+governor,AR,2026,AR,,,Fredrick Love,D,9122,0,0,0,counting,3.43,100
+governor,AR,2026,AR,,,Colt Shelby,L,2141,0,0,0,counting,3.43,100
 governor,AZ,2026,AZ,,,Andy Biggs,R,0,0,0,0,pending,0,100
 governor,AZ,2026,AZ,,,Katie Hobbs,D,0,0,0,0,pending,0,100
 governor,AZ,2026,AZ,,,Gertritrude Gonzalez,R,0,0,0,0,pending,0,100
@@ -1538,15 +1538,15 @@ governor,CT,2026,CT,,,Ned Lamont,D,1412,0,0,0,counting,0.2,100
 governor,CT,2026,CT,,,Zenobia Adgers,W,0,0,0,0,counting,0.2,100
 governor,CT,2026,CT,,,Christian Noe,W,0,0,0,0,counting,0.2,100
 governor,CT,2026,CT,,,L. Lee Whitnum,W,0,0,0,0,counting,0.2,100
-governor,FL,2026,FL,,,Byron Donalds,R,4062472,0,0,0,counting,90.9,100
-governor,FL,2026,FL,,,David Jolly,D,3959982,0,0,0,counting,90.9,100
-governor,FL,2026,FL,,,Scott Eckhard Jewett,L,37002,0,0,0,counting,90.9,100
-governor,FL,2026,FL,,,Frank J. Russo,I,22724,0,0,0,counting,90.9,100
-governor,FL,2026,FL,,,Charles Burkett,I,14901,0,0,0,counting,90.9,100
-governor,FL,2026,FL,,,Dean Ocean Abrams,I,12168,0,0,0,counting,90.9,100
-governor,FL,2026,FL,,,"Jeffrey Peter ""Dr. Jeff"" Datto",I,8330,0,0,0,counting,90.9,100
-governor,FL,2026,FL,,,"Moliere ""Moe"" Dimanche",I,7400,0,0,0,counting,90.9,100
-governor,FL,2026,FL,,,Write-in,I,3760,0,0,0,counting,90.9,100
+governor,FL,2026,FL,,,Byron Donalds,R,4065423,0,0,0,counting,90.98,100
+governor,FL,2026,FL,,,David Jolly,D,3963591,0,0,0,counting,90.98,100
+governor,FL,2026,FL,,,Scott Eckhard Jewett,L,37039,0,0,0,counting,90.98,100
+governor,FL,2026,FL,,,Frank J. Russo,I,22741,0,0,0,counting,90.98,100
+governor,FL,2026,FL,,,Charles Burkett,I,14918,0,0,0,counting,90.98,100
+governor,FL,2026,FL,,,Dean Ocean Abrams,I,12182,0,0,0,counting,90.98,100
+governor,FL,2026,FL,,,"Jeffrey Peter ""Dr. Jeff"" Datto",I,8339,0,0,0,counting,90.98,100
+governor,FL,2026,FL,,,"Moliere ""Moe"" Dimanche",I,7411,0,0,0,counting,90.98,100
+governor,FL,2026,FL,,,Write-in,I,3760,0,0,0,counting,90.98,100
 governor,GA,2026,GA,,,Keisha Lance Bottoms,D,1505655,0,0,0,counting,54.68,100
 governor,GA,2026,GA,,,Rick Jackson,R,1048711,0,0,0,counting,54.68,100
 governor,HI,2026,HI,,,Gary Cordery,R,0,0,0,0,pending,0,100
@@ -1563,8 +1563,8 @@ governor,ID,2026,ID,,,Jacob Burnett,I,0,0,0,0,pending,0,100
 governor,IL,2026,IL,,,JB Pritzker,D,0,0,0,0,pending,0,100
 governor,IL,2026,IL,,,Darren Bailey,R,0,0,0,0,pending,0,100
 governor,IL,2026,IL,,,Collin Corbett,I,0,0,0,0,pending,0,100
-governor,KS,2026,KS,,,Cindy Holscher,D,275267,0,0,0,counting,38.68,100
-governor,KS,2026,KS,,,Ty Masterson,R,169509,0,0,0,counting,38.68,100
+governor,KS,2026,KS,,,Cindy Holscher,D,288971,0,0,0,counting,41.04,100
+governor,KS,2026,KS,,,Ty Masterson,R,183014,0,0,0,counting,41.04,100
 governor,MA,2026,MA,,,Maura Healey,D,0,0,0,0,pending,0,100
 governor,MA,2026,MA,,,Michael Roger Minogue,R,0,0,0,0,pending,0,100
 governor,MA,2026,MA,,,James,I,0,0,0,0,pending,0,100
@@ -1573,34 +1573,34 @@ governor,MD,2026,MD,,,Dan Cox,R,0,0,0,0,pending,0,100
 governor,MD,2026,MD,,,Andy Ellis,G,0,0,0,0,pending,0,100
 governor,MD,2026,MD,,,Cathy White,O,0,0,0,0,pending,0,100
 governor,MD,2026,MD,,,Write-in,I,0,0,0,0,pending,0,100
-governor,ME,2026,ME,,,Hannah Pingree,D,20786,0,0,0,counting,5.7,100
-governor,ME,2026,ME,,,Bobby Charles,R,18116,0,0,0,counting,5.7,100
-governor,ME,2026,ME,,,Rick Bennett,I,3304,0,0,0,counting,5.7,100
-governor,MI,2026,MI,,,Jocelyn Benson,D,314654,0,0,0,counting,11.4,100
-governor,MI,2026,MI,,,John James,R,243722,0,0,0,counting,11.4,100
-governor,MI,2026,MI,,,Anthony Hudson,L,4417,0,0,0,counting,11.4,100
-governor,MI,2026,MI,,,Douglas Campbell,G,1804,0,0,0,counting,11.4,100
-governor,MI,2026,MI,,,Donna Brandenburg,O,1712,0,0,0,counting,11.4,100
-governor,MI,2026,MI,,,Write-in,I,35,0,0,0,counting,11.4,100
-governor,MI,2026,MI,,,Cecelia Lea Adkins,W,0,0,0,0,counting,11.4,100
-governor,MI,2026,MI,,,Timothy J Badgley,W,0,0,0,0,counting,11.4,100
-governor,MI,2026,MI,,,Justin Paul Blackburn,W,0,0,0,0,counting,11.4,100
-governor,MI,2026,MI,,,Angelo Scott Brown,W,0,0,0,0,counting,11.4,100
-governor,MI,2026,MI,,,Joseph Michael Hunt,W,0,0,0,0,counting,11.4,100
-governor,MI,2026,MI,,,Henry Joseph Lester,W,0,0,0,0,counting,11.4,100
-governor,MI,2026,MI,,,Evan Sebastian Space,W,0,0,0,0,counting,11.4,100
-governor,MI,2026,MI,,,William James Stahl,W,0,0,0,0,counting,11.4,100
-governor,MI,2026,MI,,,Kimberly Ruby-Ann Thomas,W,0,0,0,0,counting,11.4,100
+governor,ME,2026,ME,,,Hannah Pingree,D,23816,0,0,0,counting,6.61,100
+governor,ME,2026,ME,,,Bobby Charles,R,21360,0,0,0,counting,6.61,100
+governor,ME,2026,ME,,,Rick Bennett,I,3786,0,0,0,counting,6.61,100
+governor,MI,2026,MI,,,Jocelyn Benson,D,317661,0,0,0,counting,11.52,100
+governor,MI,2026,MI,,,John James,R,246460,0,0,0,counting,11.52,100
+governor,MI,2026,MI,,,Anthony Hudson,L,4477,0,0,0,counting,11.52,100
+governor,MI,2026,MI,,,Douglas Campbell,G,1826,0,0,0,counting,11.52,100
+governor,MI,2026,MI,,,Donna Brandenburg,O,1750,0,0,0,counting,11.52,100
+governor,MI,2026,MI,,,Write-in,I,39,0,0,0,counting,11.52,100
+governor,MI,2026,MI,,,Cecelia Lea Adkins,W,0,0,0,0,counting,11.52,100
+governor,MI,2026,MI,,,Timothy J Badgley,W,0,0,0,0,counting,11.52,100
+governor,MI,2026,MI,,,Justin Paul Blackburn,W,0,0,0,0,counting,11.52,100
+governor,MI,2026,MI,,,Angelo Scott Brown,W,0,0,0,0,counting,11.52,100
+governor,MI,2026,MI,,,Joseph Michael Hunt,W,0,0,0,0,counting,11.52,100
+governor,MI,2026,MI,,,Henry Joseph Lester,W,0,0,0,0,counting,11.52,100
+governor,MI,2026,MI,,,Evan Sebastian Space,W,0,0,0,0,counting,11.52,100
+governor,MI,2026,MI,,,William James Stahl,W,0,0,0,0,counting,11.52,100
+governor,MI,2026,MI,,,Kimberly Ruby-Ann Thomas,W,0,0,0,0,counting,11.52,100
 governor,MN,2026,MN,,,Steven Young,G,0,0,0,0,pending,0,100
 governor,MN,2026,MN,,,Amy Klobuchar,D,0,0,0,0,pending,0,100
 governor,MN,2026,MN,,,Lisa Demuth,R,0,0,0,0,pending,0,100
 governor,MN,2026,MN,,,Write-in,I,0,0,0,0,pending,0,100
-governor,NE,2026,NE,,,Lynne Walz,D,80387,0,0,0,counting,17.76,100
-governor,NE,2026,NE,,,Jim Pillen,R,49509,0,0,0,counting,17.76,100
-governor,NE,2026,NE,,,Brett Lindstrom,O,5176,0,0,0,counting,17.76,100
-governor,NE,2026,NE,,,Rick Beard,O,2598,0,0,0,counting,17.76,100
-governor,NH,2026,NH,,,Kelly Ayotte,R,122889,0,0,0,counting,34.42,100
-governor,NH,2026,NH,,,Cinde Warmington,D,110158,0,0,0,counting,34.42,100
+governor,NE,2026,NE,,,Lynne Walz,D,107870,0,0,0,counting,23.18,100
+governor,NE,2026,NE,,,Jim Pillen,R,61869,0,0,0,counting,23.18,100
+governor,NE,2026,NE,,,Brett Lindstrom,O,6647,0,0,0,counting,23.18,100
+governor,NE,2026,NE,,,Rick Beard,O,3322,0,0,0,counting,23.18,100
+governor,NH,2026,NH,,,Kelly Ayotte,R,122902,0,0,0,counting,34.42,100
+governor,NH,2026,NH,,,Cinde Warmington,D,110163,0,0,0,counting,34.42,100
 governor,NH,2026,NH,,,Stephen Villee,L,3754,0,0,0,counting,34.42,100
 governor,NH,2026,NH,,,Write-in,I,433,0,0,0,counting,34.42,100
 governor,NM,2026,NM,,,Deb Haaland,D,0,0,0,0,pending,0,100
@@ -1608,15 +1608,15 @@ governor,NM,2026,NM,,,Gregg Hull,R,0,0,0,0,pending,0,100
 governor,NV,2026,NV,,,Aaron Ford,D,0,0,0,0,pending,0,100
 governor,NV,2026,NV,,,Joe Lombardo,R,0,0,0,0,pending,0,100
 governor,NV,2026,NV,,,Danielle Ford,I,0,0,0,0,pending,0,100
-governor,NY,2026,NY,,,Kathy Hochul,D,146798,0,0,0,counting,3.26,100
-governor,NY,2026,NY,,,Bruce Blakeman,R,79406,0,0,0,counting,3.26,100
-governor,NY,2026,NY,,,Write-in,I,428,0,0,0,counting,3.26,100
-governor,OH,2026,OH,,,Amy Acton,D,1223802,0,0,0,counting,47.29,100
-governor,OH,2026,OH,,,Vivek Ramaswamy,R,969558,0,0,0,counting,47.29,100
-governor,OH,2026,OH,,,Don Kissick,L,66317,0,0,0,counting,47.29,100
-governor,OH,2026,OH,,,Timothy Grady,W,0,0,0,0,counting,47.29,100
-governor,OH,2026,OH,,,Heather Hill,W,0,0,0,0,counting,47.29,100
-governor,OH,2026,OH,,,Renea Turner,W,0,0,0,0,counting,47.29,100
+governor,NY,2026,NY,,,Kathy Hochul,D,204258,0,0,0,counting,4.4,100
+governor,NY,2026,NY,,,Bruce Blakeman,R,101354,0,0,0,counting,4.4,100
+governor,NY,2026,NY,,,Write-in,I,566,0,0,0,counting,4.4,100
+governor,OH,2026,OH,,,Amy Acton,D,1251951,0,0,0,counting,48.98,100
+governor,OH,2026,OH,,,Vivek Ramaswamy,R,1018415,0,0,0,counting,48.98,100
+governor,OH,2026,OH,,,Don Kissick,L,70249,0,0,0,counting,48.98,100
+governor,OH,2026,OH,,,Timothy Grady,W,0,0,0,0,counting,48.98,100
+governor,OH,2026,OH,,,Heather Hill,W,0,0,0,0,counting,48.98,100
+governor,OH,2026,OH,,,Renea Turner,W,0,0,0,0,counting,48.98,100
 governor,OK,2026,OK,,,Mike Mazzei,R,0,0,0,0,pending,0,100
 governor,OK,2026,OK,,,Cyndi Munson,D,0,0,0,0,pending,0,100
 governor,OK,2026,OK,,,Orlando Lynn Bush,I,0,0,0,0,pending,0,100
@@ -1640,31 +1640,31 @@ governor,SC,2026,SC,,,Jermaine Johnson,D,404444,0,0,0,counting,41.14,100
 governor,SC,2026,SC,,,Michael Addison,O,5870,0,0,0,counting,41.14,100
 governor,SC,2026,SC,,,Walid Hakim,G,3205,0,0,0,counting,41.14,100
 governor,SC,2026,SC,,,Write-in,I,390,0,0,0,counting,41.14,100
-governor,SD,2026,SD,,,Larry Rhoden,R,0,0,0,0,pending,0,100
-governor,SD,2026,SD,,,Dan Ahlers,D,0,0,0,0,pending,0,100
-governor,TN,2026,TN,,,Jerri Green,D,316016,0,0,0,counting,29.17,100
-governor,TN,2026,TN,,,Marsha Blackburn,R,288372,0,0,0,counting,29.17,100
-governor,TN,2026,TN,,,David Hatley,I,57157,0,0,0,counting,29.17,100
-governor,TN,2026,TN,,,Lauren Pinkston,I,6735,0,0,0,counting,29.17,100
-governor,TN,2026,TN,,,Dean Brewer,I,1033,0,0,0,counting,29.17,100
-governor,TN,2026,TN,,,Ray Brown,I,894,0,0,0,counting,29.17,100
-governor,TN,2026,TN,,,Wendell Jackson,I,722,0,0,0,counting,29.17,100
-governor,TN,2026,TN,,,Eddie Lee Murphy,I,708,0,0,0,counting,29.17,100
-governor,TN,2026,TN,,,Misam Abidi,I,609,0,0,0,counting,29.17,100
-governor,TN,2026,TN,,,Robert C. Vick,I,534,0,0,0,counting,29.17,100
-governor,TN,2026,TN,,,L. Webb Taylor,I,452,0,0,0,counting,29.17,100
-governor,TN,2026,TN,,,Charles Van Morgan,I,374,0,0,0,counting,29.17,100
-governor,TN,2026,TN,,,Victor L. Scoggin,I,250,0,0,0,counting,29.17,100
-governor,TN,2026,TN,,,Dave Seeman,I,236,0,0,0,counting,29.17,100
-governor,TN,2026,TN,,,Karl Knox Smithson,I,192,0,0,0,counting,29.17,100
-governor,TX,2026,TX,,,Gina Hinojosa,D,2349334,0,0,0,counting,41.49,100
-governor,TX,2026,TX,,,Greg Abbott,R,1746205,0,0,1,counting,41.49,100
-governor,TX,2026,TX,,,Pat Dixon,L,52579,0,0,0,counting,41.49,100
-governor,TX,2026,TX,,,Edward Earl Giles,W,0,0,0,0,counting,41.49,100
-governor,TX,2026,TX,,,Jenn Mack,W,0,0,0,0,counting,41.49,100
-governor,TX,2026,TX,,,Jinghpaw Majoishingra,W,0,0,0,0,counting,41.49,100
-governor,TX,2026,TX,,,Mike Miller,W,0,0,0,0,counting,41.49,100
-governor,TX,2026,TX,,,Write-in,I,0,0,0,0,counting,41.49,100
+governor,SD,2026,SD,,,Dan Ahlers,D,671,0,0,0,counting,0.34,100
+governor,SD,2026,SD,,,Larry Rhoden,R,624,0,0,0,counting,0.34,100
+governor,TN,2026,TN,,,Jerri Green,D,319190,0,0,0,counting,29.71,100
+governor,TN,2026,TN,,,Marsha Blackburn,R,295622,0,0,0,counting,29.71,100
+governor,TN,2026,TN,,,David Hatley,I,58721,0,0,0,counting,29.71,100
+governor,TN,2026,TN,,,Lauren Pinkston,I,7043,0,0,0,counting,29.71,100
+governor,TN,2026,TN,,,Dean Brewer,I,1068,0,0,0,counting,29.71,100
+governor,TN,2026,TN,,,Ray Brown,I,914,0,0,0,counting,29.71,100
+governor,TN,2026,TN,,,Eddie Lee Murphy,I,728,0,0,0,counting,29.71,100
+governor,TN,2026,TN,,,Wendell Jackson,I,727,0,0,0,counting,29.71,100
+governor,TN,2026,TN,,,Misam Abidi,I,626,0,0,0,counting,29.71,100
+governor,TN,2026,TN,,,Robert C. Vick,I,567,0,0,0,counting,29.71,100
+governor,TN,2026,TN,,,L. Webb Taylor,I,458,0,0,0,counting,29.71,100
+governor,TN,2026,TN,,,Charles Van Morgan,I,386,0,0,0,counting,29.71,100
+governor,TN,2026,TN,,,Victor L. Scoggin,I,254,0,0,0,counting,29.71,100
+governor,TN,2026,TN,,,Dave Seeman,I,243,0,0,0,counting,29.71,100
+governor,TN,2026,TN,,,Karl Knox Smithson,I,201,0,0,0,counting,29.71,100
+governor,TX,2026,TX,,,Gina Hinojosa,D,2403341,0,0,0,counting,42.29,100
+governor,TX,2026,TX,,,Greg Abbott,R,1771022,0,0,1,counting,42.29,100
+governor,TX,2026,TX,,,Pat Dixon,L,53242,0,0,0,counting,42.29,100
+governor,TX,2026,TX,,,Edward Earl Giles,W,0,0,0,0,counting,42.29,100
+governor,TX,2026,TX,,,Jenn Mack,W,0,0,0,0,counting,42.29,100
+governor,TX,2026,TX,,,Jinghpaw Majoishingra,W,0,0,0,0,counting,42.29,100
+governor,TX,2026,TX,,,Mike Miller,W,0,0,0,0,counting,42.29,100
+governor,TX,2026,TX,,,Write-in,I,0,0,0,0,counting,42.29,100
 governor,VT,2026,VT,,,Phil Scott,R,42023,0,0,0,counting,100,100
 governor,VT,2026,VT,,,Amanda Janoo,D,30911,0,0,0,counting,100,100
 governor,VT,2026,VT,,,Brian Judd,I,718,0,0,0,counting,100,100
