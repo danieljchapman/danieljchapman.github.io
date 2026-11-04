@@ -217,9 +217,9 @@ house,AZ-04,2026,AZ,4,,Zuhdi Jasser,R,75216,0,0,0,final,59.85,100
 house,AZ-04,2026,AZ,4,,Tisha Benoit,O,4643,0,0,0,final,59.85,100
 house,AZ-04,2026,AZ,4,,Write-in,I,392,0,0,0,final,59.85,100
 house,AZ-04,2026,AZ,4,,Steven Sanders,O,35,0,0,0,final,59.85,100
-house,AZ-05,2026,AZ,5,,Elizabeth Lee,D,121692,0,0,0,counting,68.86,100
-house,AZ-05,2026,AZ,5,,Mark Lamb,R,119727,0,0,0,counting,68.86,100
-house,AZ-05,2026,AZ,5,,Write-in,I,354,0,0,0,counting,68.86,100
+house,AZ-05,2026,AZ,5,,Mark Lamb,R,137240,0,0,0,counting,76.58,100
+house,AZ-05,2026,AZ,5,,Elizabeth Lee,D,131226,0,0,0,counting,76.58,100
+house,AZ-05,2026,AZ,5,,Write-in,I,435,0,0,0,counting,76.58,100
 house,AZ-06,2026,AZ,6,,JoAnna Mendoza,D,157269,1,0,0,final,83.92,100
 house,AZ-06,2026,AZ,6,,Juan Ciscomani,R,133502,0,0,0,final,83.92,100
 house,AZ-06,2026,AZ,6,,Jereme Peters,L,3605,0,0,0,final,83.92,100
@@ -232,11 +232,11 @@ house,AZ-07,2026,AZ,7,,Write-in,I,273,0,0,0,final,43.54,100
 house,AZ-08,2026,AZ,8,,Abraham Hamadeh,R,127063,0,0,0,counting,70.81,100
 house,AZ-08,2026,AZ,8,,Bernadette Greene-Placentia,D,121500,0,0,0,counting,70.81,100
 house,AZ-08,2026,AZ,8,,Write-in,I,483,0,0,0,counting,70.81,100
-house,AZ-09,2026,AZ,9,,Paul Gosar,R,122872,1,0,0,final,60.66,100
-house,AZ-09,2026,AZ,9,,Danielle Sterbinsky,D,88686,0,0,0,final,60.66,100
-house,AZ-09,2026,AZ,9,,Write-in,I,220,0,0,0,final,60.66,100
-house,AZ-09,2026,AZ,9,,William Perry,I,24,0,0,0,final,60.66,100
-house,AZ-09,2026,AZ,9,,G. Seville Hatch,I,11,0,0,0,final,60.66,100
+house,AZ-09,2026,AZ,9,,Paul Gosar,R,138732,1,0,0,final,100,100
+house,AZ-09,2026,AZ,9,,Danielle Sterbinsky,D,101203,0,0,0,final,100,100
+house,AZ-09,2026,AZ,9,,Write-in,I,283,0,0,0,final,100,100
+house,AZ-09,2026,AZ,9,,William Perry,I,24,0,0,0,final,100,100
+house,AZ-09,2026,AZ,9,,G. Seville Hatch,I,11,0,0,0,final,100,100
 house,CA-01,2026,CA,1,,Mike McGuire,D,87640,1,0,0,final,59.82,100
 house,CA-01,2026,CA,1,,James Gallagher,R,65733,0,0,0,final,59.82,100
 house,CA-02,2026,CA,2,,Jared Huffman,D,105910,1,0,0,final,59.87,100
@@ -1314,10 +1314,10 @@ house,TX-08,2026,TX,8,,Jessica Steinmann,R,134092,1,0,0,final,90.37,100
 house,TX-08,2026,TX,8,,Laura Jones,D,109888,0,0,0,final,90.37,100
 house,TX-09,2026,TX,9,,Leticia Gutierrez,D,82569,0,0,0,counting,54.32,100
 house,TX-09,2026,TX,9,,Alex Mealer,R,62280,0,0,0,counting,54.32,100
-house,TX-10,2026,TX,10,,Chris Gober,R,161355,1,0,0,final,99,100
-house,TX-10,2026,TX,10,,Caitlin Rourk,D,138691,0,0,0,final,99,100
-house,TX-11,2026,TX,11,,August Pfluger,R,138609,1,0,1,final,85.3,100
-house,TX-11,2026,TX,11,,Claire Reynolds,D,94293,0,0,0,final,85.3,100
+house,TX-10,2026,TX,10,,Chris Gober,R,161425,1,0,0,final,99,100
+house,TX-10,2026,TX,10,,Caitlin Rourk,D,138832,0,0,0,final,99,100
+house,TX-11,2026,TX,11,,August Pfluger,R,138627,1,0,1,final,85.33,100
+house,TX-11,2026,TX,11,,Claire Reynolds,D,94353,0,0,0,final,85.33,100
 house,TX-12,2026,TX,12,,Craig Goldman,R,144438,1,0,1,final,99,100
 house,TX-12,2026,TX,12,,Angela Rodriguez Prilliman,D,127456,0,0,0,final,99,100
 house,TX-13,2026,TX,13,,Ronny Jackson,R,158134,1,0,1,final,86.93,100
@@ -1350,8 +1350,8 @@ house,TX-25,2026,TX,25,,Dione Sims,D,122854,0,0,0,final,98.92,100
 house,TX-26,2026,TX,26,,Brandon Gill,R,182648,1,0,1,final,99,100
 house,TX-26,2026,TX,26,,Steven Shook,D,147944,0,0,0,final,99,100
 house,TX-26,2026,TX,26,,Phil Gray,L,4308,0,0,0,final,99,100
-house,TX-27,2026,TX,27,,Michael Cloud,R,144468,0,0,1,counting,99,100
-house,TX-27,2026,TX,27,,Tanya Lloyd,D,137853,0,0,0,counting,99,100
+house,TX-27,2026,TX,27,,Michael Cloud,R,144474,0,0,1,counting,99,100
+house,TX-27,2026,TX,27,,Tanya Lloyd,D,137928,0,0,0,counting,99,100
 house,TX-27,2026,TX,27,,Wayne Raasch,W,0,0,0,0,counting,99,100
 house,TX-27,2026,TX,27,,Write-in,I,0,0,0,0,counting,99,100
 house,TX-28,2026,TX,28,,Henry Cuellar,D,112930,1,0,1,final,65.36,100
@@ -1671,14 +1671,14 @@ governor,TN,2026,TN,,,L. Webb Taylor,I,1118,0,0,0,final,90.9,100
 governor,TN,2026,TN,,,Dave Seeman,I,870,0,0,0,final,90.9,100
 governor,TN,2026,TN,,,Victor L. Scoggin,I,817,0,0,0,final,90.9,100
 governor,TN,2026,TN,,,Karl Knox Smithson,I,494,0,0,0,final,90.9,100
-governor,TX,2026,TX,,,Gina Hinojosa,D,5057297,1,0,0,final,95.8,100
-governor,TX,2026,TX,,,Greg Abbott,R,4379571,0,0,1,final,95.8,100
-governor,TX,2026,TX,,,Pat Dixon,L,140943,0,0,0,final,95.8,100
-governor,TX,2026,TX,,,Edward Earl Giles,W,0,0,0,0,final,95.8,100
-governor,TX,2026,TX,,,Jenn Mack,W,0,0,0,0,final,95.8,100
-governor,TX,2026,TX,,,Jinghpaw Majoishingra,W,0,0,0,0,final,95.8,100
-governor,TX,2026,TX,,,Mike Miller,W,0,0,0,0,final,95.8,100
-governor,TX,2026,TX,,,Write-in,I,0,0,0,0,final,95.8,100
+governor,TX,2026,TX,,,Gina Hinojosa,D,5060187,1,0,0,final,95.84,100
+governor,TX,2026,TX,,,Greg Abbott,R,4380181,0,0,1,final,95.84,100
+governor,TX,2026,TX,,,Pat Dixon,L,140973,0,0,0,final,95.84,100
+governor,TX,2026,TX,,,Edward Earl Giles,W,0,0,0,0,final,95.84,100
+governor,TX,2026,TX,,,Jenn Mack,W,0,0,0,0,final,95.84,100
+governor,TX,2026,TX,,,Jinghpaw Majoishingra,W,0,0,0,0,final,95.84,100
+governor,TX,2026,TX,,,Mike Miller,W,0,0,0,0,final,95.84,100
+governor,TX,2026,TX,,,Write-in,I,0,0,0,0,final,95.84,100
 governor,VT,2026,VT,,,Phil Scott,R,160813,1,0,0,final,100,100
 governor,VT,2026,VT,,,Amanda Janoo,D,140665,0,0,0,final,100,100
 governor,VT,2026,VT,,,Brian Judd,I,2582,0,0,0,final,100,100
