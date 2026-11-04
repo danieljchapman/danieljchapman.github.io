@@ -1,12 +1,15 @@
 [
  {
   "phase": "pre-election",
-  "updated_at": "2026-11-04T02:48:38Z",
+  "updated_at": "2026-11-04T02:56:14Z",
   "source": "CivicAPI, unofficial",
   "races": 76,
   "called": 0,
   "counting": 0,
-  "problems": [],
+  "problems": [
+   "2026 Attorney General : /race/86930: HTTP 502  error code: 502\n",
+   "2026 Governor : /race/86928: HTTP 502  error code: 502\n"
+  ],
   "local_problems": []
  }
 ]

@@ -1,49 +1,34 @@
 level,race,year,office,plan,unit,unit_name,candidate,party,votes,status,reporting,reporting_total
 statewide,2026 Attorney General,2026,Attorney General,,04001,Apache,Kris Mayes,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04001,Apache,Warren Petersen,R,0,pending,0,100
-statewide,2026 Attorney General,2026,Attorney General,,04001,Apache,Write-in,I,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04003,Cochise,Kris Mayes,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04003,Cochise,Warren Petersen,R,0,pending,0,100
-statewide,2026 Attorney General,2026,Attorney General,,04003,Cochise,Write-in,I,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04005,Coconino,Kris Mayes,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04005,Coconino,Warren Petersen,R,0,pending,0,100
-statewide,2026 Attorney General,2026,Attorney General,,04005,Coconino,Write-in,I,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04007,Gila,Kris Mayes,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04007,Gila,Warren Petersen,R,0,pending,0,100
-statewide,2026 Attorney General,2026,Attorney General,,04007,Gila,Write-in,I,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04009,Graham,Kris Mayes,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04009,Graham,Warren Petersen,R,0,pending,0,100
-statewide,2026 Attorney General,2026,Attorney General,,04009,Graham,Write-in,I,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04011,Greenlee,Kris Mayes,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04011,Greenlee,Warren Petersen,R,0,pending,0,100
-statewide,2026 Attorney General,2026,Attorney General,,04011,Greenlee,Write-in,I,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04012,La Paz,Kris Mayes,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04012,La Paz,Warren Petersen,R,0,pending,0,100
-statewide,2026 Attorney General,2026,Attorney General,,04012,La Paz,Write-in,I,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04013,Maricopa,Kris Mayes,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04013,Maricopa,Warren Petersen,R,0,pending,0,100
-statewide,2026 Attorney General,2026,Attorney General,,04013,Maricopa,Write-in,I,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04015,Mohave,Kris Mayes,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04015,Mohave,Warren Petersen,R,0,pending,0,100
-statewide,2026 Attorney General,2026,Attorney General,,04015,Mohave,Write-in,I,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04017,Navajo,Kris Mayes,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04017,Navajo,Warren Petersen,R,0,pending,0,100
-statewide,2026 Attorney General,2026,Attorney General,,04017,Navajo,Write-in,I,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04019,Pima,Kris Mayes,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04019,Pima,Warren Petersen,R,0,pending,0,100
-statewide,2026 Attorney General,2026,Attorney General,,04019,Pima,Write-in,I,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04021,Pinal,Kris Mayes,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04021,Pinal,Warren Petersen,R,0,pending,0,100
-statewide,2026 Attorney General,2026,Attorney General,,04021,Pinal,Write-in,I,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04023,Santa Cruz,Kris Mayes,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04023,Santa Cruz,Warren Petersen,R,0,pending,0,100
-statewide,2026 Attorney General,2026,Attorney General,,04023,Santa Cruz,Write-in,I,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04025,Yavapai,Kris Mayes,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04025,Yavapai,Warren Petersen,R,0,pending,0,100
-statewide,2026 Attorney General,2026,Attorney General,,04025,Yavapai,Write-in,I,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04027,Yuma,Kris Mayes,D,0,pending,0,100
 statewide,2026 Attorney General,2026,Attorney General,,04027,Yuma,Warren Petersen,R,0,pending,0,100
-statewide,2026 Attorney General,2026,Attorney General,,04027,Yuma,Write-in,I,0,pending,0,100
 statewide,2026 Corporation Commission,2026,Corporation Commission,,04001,Apache,Clara Pratte,D,0,pending,0,100
 statewide,2026 Corporation Commission,2026,Corporation Commission,,04001,Apache,Jonathon Hill,D,0,pending,0,100
 statewide,2026 Corporation Commission,2026,Corporation Commission,,04001,Apache,Mike Cease,G,0,pending,0,100
@@ -138,107 +123,62 @@ statewide,2026 Governor,2026,Governor,,04001,Apache,Katie Hobbs,D,0,pending,0,10
 statewide,2026 Governor,2026,Governor,,04001,Apache,Risa Lombardo,G,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04001,Apache,Teri Hourihan,NL,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04001,Apache,Andy Biggs,R,0,pending,0,100
-statewide,2026 Governor,2026,Governor,,04001,Apache,Gertritrude Gonzalez,R,0,pending,0,100
-statewide,2026 Governor,2026,Governor,,04001,Apache,Alice Novoa,R,0,pending,0,100
-statewide,2026 Governor,2026,Governor,,04001,Apache,Write-in,I,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04003,Cochise,Katie Hobbs,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04003,Cochise,Risa Lombardo,G,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04003,Cochise,Teri Hourihan,NL,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04003,Cochise,Andy Biggs,R,0,pending,0,100
-statewide,2026 Governor,2026,Governor,,04003,Cochise,Gertritrude Gonzalez,R,0,pending,0,100
-statewide,2026 Governor,2026,Governor,,04003,Cochise,Alice Novoa,R,0,pending,0,100
-statewide,2026 Governor,2026,Governor,,04003,Cochise,Write-in,I,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04005,Coconino,Katie Hobbs,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04005,Coconino,Risa Lombardo,G,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04005,Coconino,Teri Hourihan,NL,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04005,Coconino,Andy Biggs,R,0,pending,0,100
-statewide,2026 Governor,2026,Governor,,04005,Coconino,Gertritrude Gonzalez,R,0,pending,0,100
-statewide,2026 Governor,2026,Governor,,04005,Coconino,Alice Novoa,R,0,pending,0,100
-statewide,2026 Governor,2026,Governor,,04005,Coconino,Write-in,I,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04007,Gila,Katie Hobbs,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04007,Gila,Risa Lombardo,G,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04007,Gila,Teri Hourihan,NL,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04007,Gila,Andy Biggs,R,0,pending,0,100
-statewide,2026 Governor,2026,Governor,,04007,Gila,Gertritrude Gonzalez,R,0,pending,0,100
-statewide,2026 Governor,2026,Governor,,04007,Gila,Alice Novoa,R,0,pending,0,100
-statewide,2026 Governor,2026,Governor,,04007,Gila,Write-in,I,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04009,Graham,Katie Hobbs,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04009,Graham,Risa Lombardo,G,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04009,Graham,Teri Hourihan,NL,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04009,Graham,Andy Biggs,R,0,pending,0,100
-statewide,2026 Governor,2026,Governor,,04009,Graham,Gertritrude Gonzalez,R,0,pending,0,100
-statewide,2026 Governor,2026,Governor,,04009,Graham,Alice Novoa,R,0,pending,0,100
-statewide,2026 Governor,2026,Governor,,04009,Graham,Write-in,I,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04011,Greenlee,Katie Hobbs,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04011,Greenlee,Risa Lombardo,G,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04011,Greenlee,Teri Hourihan,NL,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04011,Greenlee,Andy Biggs,R,0,pending,0,100
-statewide,2026 Governor,2026,Governor,,04011,Greenlee,Gertritrude Gonzalez,R,0,pending,0,100
-statewide,2026 Governor,2026,Governor,,04011,Greenlee,Alice Novoa,R,0,pending,0,100
-statewide,2026 Governor,2026,Governor,,04011,Greenlee,Write-in,I,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04012,La Paz,Katie Hobbs,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04012,La Paz,Risa Lombardo,G,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04012,La Paz,Teri Hourihan,NL,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04012,La Paz,Andy Biggs,R,0,pending,0,100
-statewide,2026 Governor,2026,Governor,,04012,La Paz,Gertritrude Gonzalez,R,0,pending,0,100
-statewide,2026 Governor,2026,Governor,,04012,La Paz,Alice Novoa,R,0,pending,0,100
-statewide,2026 Governor,2026,Governor,,04012,La Paz,Write-in,I,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04013,Maricopa,Katie Hobbs,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04013,Maricopa,Risa Lombardo,G,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04013,Maricopa,Teri Hourihan,NL,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04013,Maricopa,Andy Biggs,R,0,pending,0,100
-statewide,2026 Governor,2026,Governor,,04013,Maricopa,Gertritrude Gonzalez,R,0,pending,0,100
-statewide,2026 Governor,2026,Governor,,04013,Maricopa,Alice Novoa,R,0,pending,0,100
-statewide,2026 Governor,2026,Governor,,04013,Maricopa,Write-in,I,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04015,Mohave,Katie Hobbs,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04015,Mohave,Risa Lombardo,G,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04015,Mohave,Teri Hourihan,NL,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04015,Mohave,Andy Biggs,R,0,pending,0,100
-statewide,2026 Governor,2026,Governor,,04015,Mohave,Gertritrude Gonzalez,R,0,pending,0,100
-statewide,2026 Governor,2026,Governor,,04015,Mohave,Alice Novoa,R,0,pending,0,100
-statewide,2026 Governor,2026,Governor,,04015,Mohave,Write-in,I,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04017,Navajo,Katie Hobbs,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04017,Navajo,Risa Lombardo,G,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04017,Navajo,Teri Hourihan,NL,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04017,Navajo,Andy Biggs,R,0,pending,0,100
-statewide,2026 Governor,2026,Governor,,04017,Navajo,Gertritrude Gonzalez,R,0,pending,0,100
-statewide,2026 Governor,2026,Governor,,04017,Navajo,Alice Novoa,R,0,pending,0,100
-statewide,2026 Governor,2026,Governor,,04017,Navajo,Write-in,I,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04019,Pima,Katie Hobbs,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04019,Pima,Risa Lombardo,G,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04019,Pima,Teri Hourihan,NL,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04019,Pima,Andy Biggs,R,0,pending,0,100
-statewide,2026 Governor,2026,Governor,,04019,Pima,Gertritrude Gonzalez,R,0,pending,0,100
-statewide,2026 Governor,2026,Governor,,04019,Pima,Alice Novoa,R,0,pending,0,100
-statewide,2026 Governor,2026,Governor,,04019,Pima,Write-in,I,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04021,Pinal,Katie Hobbs,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04021,Pinal,Risa Lombardo,G,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04021,Pinal,Teri Hourihan,NL,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04021,Pinal,Andy Biggs,R,0,pending,0,100
-statewide,2026 Governor,2026,Governor,,04021,Pinal,Gertritrude Gonzalez,R,0,pending,0,100
-statewide,2026 Governor,2026,Governor,,04021,Pinal,Alice Novoa,R,0,pending,0,100
-statewide,2026 Governor,2026,Governor,,04021,Pinal,Write-in,I,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04023,Santa Cruz,Katie Hobbs,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04023,Santa Cruz,Risa Lombardo,G,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04023,Santa Cruz,Teri Hourihan,NL,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04023,Santa Cruz,Andy Biggs,R,0,pending,0,100
-statewide,2026 Governor,2026,Governor,,04023,Santa Cruz,Gertritrude Gonzalez,R,0,pending,0,100
-statewide,2026 Governor,2026,Governor,,04023,Santa Cruz,Alice Novoa,R,0,pending,0,100
-statewide,2026 Governor,2026,Governor,,04023,Santa Cruz,Write-in,I,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04025,Yavapai,Katie Hobbs,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04025,Yavapai,Risa Lombardo,G,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04025,Yavapai,Teri Hourihan,NL,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04025,Yavapai,Andy Biggs,R,0,pending,0,100
-statewide,2026 Governor,2026,Governor,,04025,Yavapai,Gertritrude Gonzalez,R,0,pending,0,100
-statewide,2026 Governor,2026,Governor,,04025,Yavapai,Alice Novoa,R,0,pending,0,100
-statewide,2026 Governor,2026,Governor,,04025,Yavapai,Write-in,I,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04027,Yuma,Katie Hobbs,D,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04027,Yuma,Risa Lombardo,G,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04027,Yuma,Teri Hourihan,NL,0,pending,0,100
 statewide,2026 Governor,2026,Governor,,04027,Yuma,Andy Biggs,R,0,pending,0,100
-statewide,2026 Governor,2026,Governor,,04027,Yuma,Gertritrude Gonzalez,R,0,pending,0,100
-statewide,2026 Governor,2026,Governor,,04027,Yuma,Alice Novoa,R,0,pending,0,100
-statewide,2026 Governor,2026,Governor,,04027,Yuma,Write-in,I,0,pending,0,100
 statewide,2026 Mine Inspector,2026,Mine Inspector,,04001,Apache,Brian Matlock,D,0,pending,0,100
 statewide,2026 Mine Inspector,2026,Mine Inspector,,04001,Apache,Les Presmyk,R,0,pending,0,100
 statewide,2026 Mine Inspector,2026,Mine Inspector,,04001,Apache,Write-in,I,0,pending,0,100
