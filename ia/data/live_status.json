@@ -1,15 +1,14 @@
 [
  {
   "phase": "counting",
-  "updated_at": "2026-11-04T07:00:43Z",
+  "updated_at": "2026-11-04T07:07:46Z",
   "source": "CivicAPI, unofficial",
   "races": 136,
   "called": 6,
   "counting": 92,
   "problems": [
-   "CivicAPI search (Iowa US): /race/search?country=US&province=IA&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Iowa%20US: HTTP 000 curl: (",
-   "5 races not sent by CivicAPI this time; kept the last published numbers",
-   "no live source yet for 1 statewide race, 4 U.S. House races"
+   "CivicAPI search (Iowa State Auditor): /race/search?country=US&province=IA&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Iowa%20State%20Auditor: HTT",
+   "no live source yet for 1 statewide race"
   ],
   "local_problems": []
  }
