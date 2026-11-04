@@ -1,7 +1,7 @@
 level,race,year,office,plan,unit,unit_name,candidate,party,votes,status,reporting,reporting_total
-statewide,2026 Attorney General,2026,Attorney General,,04001,Apache,Kris Mayes,D,9910,counting,100,100
-statewide,2026 Attorney General,2026,Attorney General,,04001,Apache,Warren Petersen,R,5955,counting,100,100
-statewide,2026 Attorney General,2026,Attorney General,,04001,Apache,Write-in,I,21,counting,100,100
+statewide,2026 Attorney General,2026,Attorney General,,04001,Apache,Kris Mayes,D,11789,counting,100,100
+statewide,2026 Attorney General,2026,Attorney General,,04001,Apache,Warren Petersen,R,6360,counting,100,100
+statewide,2026 Attorney General,2026,Attorney General,,04001,Apache,Write-in,I,27,counting,100,100
 statewide,2026 Attorney General,2026,Attorney General,,04003,Cochise,Warren Petersen,R,22221,counting,100,100
 statewide,2026 Attorney General,2026,Attorney General,,04003,Cochise,Kris Mayes,D,18087,counting,100,100
 statewide,2026 Attorney General,2026,Attorney General,,04003,Cochise,Write-in,I,41,counting,100,100
@@ -44,12 +44,12 @@ statewide,2026 Attorney General,2026,Attorney General,,04025,Yavapai,Write-in,I,
 statewide,2026 Attorney General,2026,Attorney General,,04027,Yuma,Kris Mayes,D,11919,counting,100,100
 statewide,2026 Attorney General,2026,Attorney General,,04027,Yuma,Warren Petersen,R,11066,counting,100,100
 statewide,2026 Attorney General,2026,Attorney General,,04027,Yuma,Write-in,I,17,counting,100,100
-statewide,2026 Corporation Commission,2026,Corporation Commission,,04001,Apache,Jonathon Hill,D,8078,counting,100,100
-statewide,2026 Corporation Commission,2026,Corporation Commission,,04001,Apache,Clara Pratte,D,7826,counting,100,100
-statewide,2026 Corporation Commission,2026,Corporation Commission,,04001,Apache,Kevin Thompson,R,5180,counting,100,100
-statewide,2026 Corporation Commission,2026,Corporation Commission,,04001,Apache,Ralph Heap,R,4979,counting,100,100
-statewide,2026 Corporation Commission,2026,Corporation Commission,,04001,Apache,Mike Cease,G,368,counting,100,100
-statewide,2026 Corporation Commission,2026,Corporation Commission,,04001,Apache,Write-in,I,19,counting,100,100
+statewide,2026 Corporation Commission,2026,Corporation Commission,,04001,Apache,Jonathon Hill,D,9474,counting,100,100
+statewide,2026 Corporation Commission,2026,Corporation Commission,,04001,Apache,Clara Pratte,D,9061,counting,100,100
+statewide,2026 Corporation Commission,2026,Corporation Commission,,04001,Apache,Kevin Thompson,R,5500,counting,100,100
+statewide,2026 Corporation Commission,2026,Corporation Commission,,04001,Apache,Ralph Heap,R,5164,counting,100,100
+statewide,2026 Corporation Commission,2026,Corporation Commission,,04001,Apache,Mike Cease,G,423,counting,100,100
+statewide,2026 Corporation Commission,2026,Corporation Commission,,04001,Apache,Write-in,I,24,counting,100,100
 statewide,2026 Corporation Commission,2026,Corporation Commission,,04003,Cochise,Kevin Thompson,R,21629,counting,100,100
 statewide,2026 Corporation Commission,2026,Corporation Commission,,04003,Cochise,Ralph Heap,R,19875,counting,100,100
 statewide,2026 Corporation Commission,2026,Corporation Commission,,04003,Cochise,Clara Pratte,D,15912,counting,100,100
@@ -134,11 +134,11 @@ statewide,2026 Corporation Commission,2026,Corporation Commission,,04027,Yuma,Jo
 statewide,2026 Corporation Commission,2026,Corporation Commission,,04027,Yuma,Ralph Heap,R,9597,counting,100,100
 statewide,2026 Corporation Commission,2026,Corporation Commission,,04027,Yuma,Mike Cease,G,713,counting,100,100
 statewide,2026 Corporation Commission,2026,Corporation Commission,,04027,Yuma,Write-in,I,28,counting,100,100
-statewide,2026 Governor,2026,Governor,,04001,Apache,Katie Hobbs,D,10014,final,100,100
-statewide,2026 Governor,2026,Governor,,04001,Apache,Andy Biggs,R,5589,final,100,100
-statewide,2026 Governor,2026,Governor,,04001,Apache,Risa Lombardo,G,203,final,100,100
-statewide,2026 Governor,2026,Governor,,04001,Apache,Teri Hourihan,NL,176,final,100,100
-statewide,2026 Governor,2026,Governor,,04001,Apache,Write-in,I,20,final,100,100
+statewide,2026 Governor,2026,Governor,,04001,Apache,Katie Hobbs,D,11917,final,100,100
+statewide,2026 Governor,2026,Governor,,04001,Apache,Andy Biggs,R,5894,final,100,100
+statewide,2026 Governor,2026,Governor,,04001,Apache,Risa Lombardo,G,271,final,100,100
+statewide,2026 Governor,2026,Governor,,04001,Apache,Teri Hourihan,NL,203,final,100,100
+statewide,2026 Governor,2026,Governor,,04001,Apache,Write-in,I,24,final,100,100
 statewide,2026 Governor,2026,Governor,,04001,Apache,Alice Novoa,R,0,final,100,100
 statewide,2026 Governor,2026,Governor,,04001,Apache,Gertritrude Gonzalez,R,0,final,100,100
 statewide,2026 Governor,2026,Governor,,04003,Cochise,Andy Biggs,R,21269,final,100,100
@@ -239,9 +239,9 @@ statewide,2026 Governor,2026,Governor,,04027,Yuma,Teri Hourihan,NL,206,final,100
 statewide,2026 Governor,2026,Governor,,04027,Yuma,Write-in,I,16,final,100,100
 statewide,2026 Governor,2026,Governor,,04027,Yuma,Alice Novoa,R,0,final,100,100
 statewide,2026 Governor,2026,Governor,,04027,Yuma,Gertritrude Gonzalez,R,0,final,100,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04001,Apache,Brian Matlock,D,9859,counting,100,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04001,Apache,Les Presmyk,R,5819,counting,100,100
-statewide,2026 Mine Inspector,2026,Mine Inspector,,04001,Apache,Write-in,I,40,counting,100,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04001,Apache,Brian Matlock,D,11772,counting,100,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04001,Apache,Les Presmyk,R,6159,counting,100,100
+statewide,2026 Mine Inspector,2026,Mine Inspector,,04001,Apache,Write-in,I,47,counting,100,100
 statewide,2026 Mine Inspector,2026,Mine Inspector,,04003,Cochise,Les Presmyk,R,22981,counting,100,100
 statewide,2026 Mine Inspector,2026,Mine Inspector,,04003,Cochise,Brian Matlock,D,16972,counting,100,100
 statewide,2026 Mine Inspector,2026,Mine Inspector,,04003,Cochise,Write-in,I,46,counting,100,100
@@ -284,10 +284,10 @@ statewide,2026 Mine Inspector,2026,Mine Inspector,,04025,Yavapai,Write-in,I,64,c
 statewide,2026 Mine Inspector,2026,Mine Inspector,,04027,Yuma,Brian Matlock,D,11517,counting,100,100
 statewide,2026 Mine Inspector,2026,Mine Inspector,,04027,Yuma,Les Presmyk,R,11219,counting,100,100
 statewide,2026 Mine Inspector,2026,Mine Inspector,,04027,Yuma,Write-in,I,24,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04001,Apache,Adrian Fontes,D,9677,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04001,Apache,Alexander Kolodin,R,5689,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04001,Apache,Duwayne Collier,G,419,counting,100,100
-statewide,2026 Secretary of State,2026,Secretary of State,,04001,Apache,Write-in,I,22,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04001,Apache,Adrian Fontes,D,11472,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04001,Apache,Alexander Kolodin,R,6051,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04001,Apache,Duwayne Collier,G,532,counting,100,100
+statewide,2026 Secretary of State,2026,Secretary of State,,04001,Apache,Write-in,I,30,counting,100,100
 statewide,2026 Secretary of State,2026,Secretary of State,,04003,Cochise,Alexander Kolodin,R,22179,counting,100,100
 statewide,2026 Secretary of State,2026,Secretary of State,,04003,Cochise,Adrian Fontes,D,17408,counting,100,100
 statewide,2026 Secretary of State,2026,Secretary of State,,04003,Cochise,Duwayne Collier,G,745,counting,100,100
@@ -344,9 +344,9 @@ statewide,2026 Secretary of State,2026,Secretary of State,,04027,Yuma,Adrian Fon
 statewide,2026 Secretary of State,2026,Secretary of State,,04027,Yuma,Alexander Kolodin,R,10918,counting,100,100
 statewide,2026 Secretary of State,2026,Secretary of State,,04027,Yuma,Duwayne Collier,G,404,counting,100,100
 statewide,2026 Secretary of State,2026,Secretary of State,,04027,Yuma,Write-in,I,10,counting,100,100
-statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04001,Apache,Teresa Ruiz,D,9708,counting,100,100
-statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04001,Apache,Kimberly Yee,R,6074,counting,100,100
-statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04001,Apache,Write-in,I,29,counting,100,100
+statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04001,Apache,Teresa Ruiz,D,11543,counting,100,100
+statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04001,Apache,Kimberly Yee,R,6504,counting,100,100
+statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04001,Apache,Write-in,I,41,counting,100,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04001,Apache,"Stephen ""Dr.Stephen Neal"" Neal jr.",NL,3,counting,100,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04001,Apache,Gerard Davis,G,2,counting,100,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04001,Apache,Davis Gerard,G,0,counting,100,100
@@ -434,9 +434,9 @@ statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Publi
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04027,Yuma,Gerard Davis,G,1,counting,100,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04027,Yuma,Davis Gerard,G,0,counting,100,100
 statewide,2026 Superintendent of Public Instruction,2026,Superintendent of Public Instruction,,04027,Yuma,"Stephen ""Dr.Stephen Neal"" Neal jr.",NL,0,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,04001,Apache,Nick Mansour,D,9630,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,04001,Apache,Elijah Norton,R,6112,counting,100,100
-statewide,2026 Treasurer,2026,Treasurer,,04001,Apache,Write-in,I,34,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,04001,Apache,Nick Mansour,D,11459,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,04001,Apache,Elijah Norton,R,6546,counting,100,100
+statewide,2026 Treasurer,2026,Treasurer,,04001,Apache,Write-in,I,41,counting,100,100
 statewide,2026 Treasurer,2026,Treasurer,,04003,Cochise,Elijah Norton,R,22940,counting,100,100
 statewide,2026 Treasurer,2026,Treasurer,,04003,Cochise,Nick Mansour,D,17127,counting,100,100
 statewide,2026 Treasurer,2026,Treasurer,,04003,Cochise,Write-in,I,55,counting,100,100
@@ -485,10 +485,10 @@ ushouse,2026 U.S. House,2026,U.S. House,c2022,1,,Monica Alponte,L,4840,counting,
 ushouse,2026 U.S. House,2026,U.S. House,c2022,1,,Write-in,I,147,counting,73,100
 ushouse,2026 U.S. House,2026,U.S. House,c2022,1,,Dev Gupta,I,8,counting,73,100
 ushouse,2026 U.S. House,2026,U.S. House,c2022,1,,Gage Dylan Thunder,I,6,counting,73,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,2,,Eli Crane,R,110269,counting,63,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,2,,Jonathan Nez,D,106908,counting,63,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,2,,Curtis Goodwin,L,3551,counting,63,100
-ushouse,2026 U.S. House,2026,U.S. House,c2022,2,,Write-in,I,99,counting,63,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,2,,Eli Crane,R,110451,counting,63,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,2,,Jonathan Nez,D,109051,counting,63,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,2,,Curtis Goodwin,L,3573,counting,63,100
+ushouse,2026 U.S. House,2026,U.S. House,c2022,2,,Write-in,I,100,counting,63,100
 ushouse,2026 U.S. House,2026,U.S. House,c2022,3,,Yassamin Ansari,D,79267,final,25,100
 ushouse,2026 U.S. House,2026,U.S. House,c2022,3,,Alan Aversa,NL,5410,final,25,100
 ushouse,2026 U.S. House,2026,U.S. House,c2022,3,,David Redkey,G,4375,final,25,100
@@ -535,9 +535,9 @@ senate,2026 Senate,2026,Senate,l2022,4,,Write-in,I,64,counting,0,100
 senate,2026 Senate,2026,Senate,l2022,5,,Christine Marsh,D,41991,final,0,100
 senate,2026 Senate,2026,Senate,l2022,5,,Jason LaForest,NL,6682,final,0,100
 senate,2026 Senate,2026,Senate,l2022,5,,Write-in,I,279,final,0,100
-senate,2026 Senate,2026,Senate,l2022,6,,Jamescita Peshlakai,D,32025,final,43,100
-senate,2026 Senate,2026,Senate,l2022,6,,Lloyd Johnson,R,13570,final,43,100
-senate,2026 Senate,2026,Senate,l2022,6,,Write-in,I,70,final,43,100
+senate,2026 Senate,2026,Senate,l2022,6,,Jamescita Peshlakai,D,33959,final,43,100
+senate,2026 Senate,2026,Senate,l2022,6,,Lloyd Johnson,R,13930,final,43,100
+senate,2026 Senate,2026,Senate,l2022,6,,Write-in,I,77,final,43,100
 senate,2026 Senate,2026,Senate,l2022,7,,Wendy Rogers,R,38205,counting,0,100
 senate,2026 Senate,2026,Senate,l2022,7,,"Michiel ""Mike"" Montiel",D,29660,counting,0,100
 senate,2026 Senate,2026,Senate,l2022,7,,Write-in,I,68,counting,0,100
@@ -632,10 +632,10 @@ house,2026 House,2026,House,l2022,4,,Write-in,I,62,counting,0,100
 house,2026 House,2026,House,l2022,5,,Sarah Liguori,D,37924,final,0,100
 house,2026 House,2026,House,l2022,5,,Aaron Marquez,D,36141,final,0,100
 house,2026 House,2026,House,l2022,5,,Write-in,I,1019,final,0,100
-house,2026 House,2026,House,l2022,6,,Mae Peshlakai,D,27754,final,43,100
-house,2026 House,2026,House,l2022,6,,Ian Teller,D,26203,final,43,100
-house,2026 House,2026,House,l2022,6,,Brendan Trachsel,G,6233,final,43,100
-house,2026 House,2026,House,l2022,6,,Write-in,I,841,final,43,100
+house,2026 House,2026,House,l2022,6,,Mae Peshlakai,D,29038,final,43,100
+house,2026 House,2026,House,l2022,6,,Ian Teller,D,27626,final,43,100
+house,2026 House,2026,House,l2022,6,,Brendan Trachsel,G,6406,final,43,100
+house,2026 House,2026,House,l2022,6,,Write-in,I,862,final,43,100
 house,2026 House,2026,House,l2022,6,,"Royce ""Rj"" Mark Jenkins",R,307,final,43,100
 house,2026 House,2026,House,l2022,7,,"Walter ""Walt"" Blackman",R,36207,counting,0,100
 house,2026 House,2026,House,l2022,7,,David Cook Sr.,R,35065,counting,0,100
