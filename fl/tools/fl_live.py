@@ -17,9 +17,14 @@ Writes:
 reporting / reporting_total are precincts reported / precincts for that race (a county's, or summed over a district's counties).
 A race is final when every precinct has reported. Write-in candidates are combined as 'Write-ins'.
 
-Usage: python3 fl_live.py [--file FILE] [--out DIR]
+Fallback (election night, Nov 3 2026, owner's choice): while the Division's file still has no votes at all, the vote counts come
+from CivicAPI (civicapi.org), which collects county results sooner. The state file still supplies the ballot, counties and
+precinct totals; CivicAPI's votes are matched to it by last name, and its percent reporting is turned into precincts
+(percent x the race's precincts). Once the state file has any votes, it is used alone again. --no-civic turns this off.
+
+Usage: python3 fl_live.py [--file FILE] [--out DIR] [--no-civic]
 """
-import argparse, csv, datetime, io, json, os, sys, time, urllib.request
+import argparse, csv, datetime, io, json, os, re, sys, time, unicodedata, urllib.request
 from collections import defaultdict
 
 URL = 'https://flelectionfiles.floridados.gov/enightfilespublic/20261103_ElecResultsFL.txt'
@@ -136,8 +141,111 @@ def build(text, cty, unopp):
     return rows, races, problems, prec
 
 
+CIVIC = 'https://civicapi.org/api/v2'
+CIVIC_STATEWIDE = {'Florida Governor': 'Governor', 'Florida US Senate Special': 'Senate', 'Florida US Senate': 'Senate',
+                   'Florida Attorney General': 'Attorney General', 'Florida Chief Financial Officer': 'Chief Financial Officer',
+                   'Florida Commissioner of Agriculture': 'Agriculture Commissioner'}
+CIVIC_DISTRICT = [(r'^Florida US House (\d+)$', 'ushouse'), (r'^Florida State Senate (\d+)(?: Special)?$', 'senate'), (r'^Florida State House (\d+)$', 'house')]
+
+
+def civic_get(path):
+    last = None
+    for i in range(3):
+        try:
+            req = urllib.request.Request(CIVIC + path, headers={'User-Agent': UA})
+            with urllib.request.urlopen(req, timeout=60) as r:
+                return json.loads(r.read())
+        except Exception as e:
+            last = e; time.sleep(3 + 3 * i)
+    raise RuntimeError(f'CivicAPI {path}: {last}')
+
+
+def _norm(x):
+    return ''.join(c for c in unicodedata.normalize('NFD', str(x).lower()) if unicodedata.category(c) != 'Mn' and c.isalnum())
+
+
+def _last(x):
+    parts = [p for p in re.split(r'\s+', re.sub(r',?\s+(Jr\.?|Sr\.?|II|III|IV)$', '', str(x).strip())) if p]
+    return _norm(parts[-1]) if parts else ''
+
+
+def civic_overlay(rows, cty, problems):
+    """Fill the state file's rows with CivicAPI's votes. Returns the number of races filled."""
+    found = civic_get('/race/search?country=US&province=FL&startDate=2026-11-03&endDate=2026-11-03&limit=1000')['races']
+    sw, di = {}, {}
+    for r in found:
+        nm = r['election_name'].strip()
+        if nm in CIVIC_STATEWIDE:
+            sw[CIVIC_STATEWIDE[nm]] = r
+            continue
+        for pat, lvl in CIVIC_DISTRICT:
+            m = re.match(pat, nm)
+            if m:
+                di[(lvl, int(m.group(1)))] = r
+    if any(r.get('test_data') for r in list(sw.values()) + list(di.values())):
+        problems.append('CivicAPI marks some races as test data; not used')
+        return 0
+    by_name = {_norm(v['name']): v['fips'] for v in cty.values()}
+
+    def fill(rs, cands, pct):
+        got = {}
+        for c in cands or []:
+            k = 'writeins' if 'write' in c['name'].lower() else _last(c['name'])
+            got[k] = got.get(k, 0) + int(c.get('votes') or 0)
+        win = {('writeins' if 'write' in c['name'].lower() else _last(c['name'])) for c in cands or [] if c.get('winner')}
+        any_votes = sum(got.values()) > 0
+        for r in rs:
+            k = 'writeins' if r['candidate'] == 'Write-ins' else _last(r['candidate'])
+            r['votes'] = got.get(k, 0)
+            t = int(r['reporting_total'] or 0)
+            r['reporting'] = min(t, round((pct or 0) / 100 * t))
+            r['status'] = 'final' if win else 'counting' if any_votes else 'pending'
+        return any_votes
+
+    n = 0
+    groups = defaultdict(list)
+    for r in rows:
+        if r['votes'] == '':
+            continue   # unopposed
+        groups[(r['level'], r['office'] if r['level'] == 'statewide' else int(r['unit']))].append(r)
+    for office, race in sw.items():
+        try:
+            det = civic_get(f"/race/{race['id']}")
+        except RuntimeError as e:
+            problems.append(str(e)[:160]); continue
+        regions = {}
+        for k, reg in (det.get('region_results') or {}).items():
+            f = reg.get('fips') or by_name.get(_norm(re.sub(r'\s+County$', '', reg.get('name', k))))
+            if f:
+                regions[str(f)] = reg
+        rs = groups.get(('statewide', office), [])
+        if not regions:
+            problems.append(f'{office}: CivicAPI has no county results'); continue
+        filled = False
+        for f in {r['unit'] for r in rs}:
+            reg = regions.get(str(f))
+            filled |= fill([r for r in rs if r['unit'] == f], reg.get('candidates') if reg else [], reg.get('percent_reporting') if reg else 0)
+        win = any(c.get('winner') for c in det.get('candidates') or [])
+        if win:
+            for r in rs:
+                r['status'] = 'final'
+        n += filled
+    for key, race in di.items():
+        rs = groups.get(key)
+        if rs:
+            n += fill(rs, race.get('candidates'), race.get('percent_reporting'))
+    # statewide status is per race, not per county: counting if any county has votes
+    for (lvl, k), rs in groups.items():
+        if lvl == 'statewide' and any(r['status'] != 'final' for r in rs):
+            st = 'counting' if any(r['votes'] for r in rs) else 'pending'
+            for r in rs:
+                r['status'] = st
+    return n
+
+
 def main():
     ap = argparse.ArgumentParser()
+    ap.add_argument('--no-civic', action='store_true', help="don't fall back to CivicAPI while the state file has no votes")
     ap.add_argument('--file', help='read this results file instead of downloading')
     ap.add_argument('--out', default='.')
     a = ap.parse_args()
@@ -148,6 +256,19 @@ def main():
     rows, races, problems, prec = build(raw.decode('cp1252', errors='replace'), cty, unopp)
     if not races:
         raise SystemExit('no statewide or district races found; not writing')
+    source = 'Florida Division of Elections, unofficial'
+    if not a.no_civic and not any(r['votes'] for r in rows if r['votes'] != ''):
+        try:
+            if civic_overlay(rows, cty, problems):
+                source = "CivicAPI, unofficial (until the Division of Elections' file has votes)"
+                for r in rows:
+                    key = r['race'] if r['level'] == 'statewide' else f"{r['race']} {r['unit']}"
+                    if r['votes'] != '':
+                        races[key] = r['status']
+                gov = {r['unit']: (r['reporting'], r['reporting_total']) for r in rows if r['office'] == 'Governor'}
+                prec = [sum(int(g) for g, t in gov.values()), sum(int(t) for g, t in gov.values())]
+        except Exception as e:
+            problems.append(f'CivicAPI fallback: {str(e)[:160]}')
     unopposed = {f"{r['race']} {r['unit']}" for r in rows if r['votes'] == ''}
     contested = [k for k in races if k not in unopposed]
     n_final = sum(races[k] == 'final' for k in contested)
@@ -157,7 +278,7 @@ def main():
     with open(os.path.join(a.out, 'live_2026.csv'), 'w', newline='') as fh:
         w = csv.DictWriter(fh, fieldnames=FIELDS); w.writeheader(); w.writerows(rows)
     now = datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
-    json.dump([{'phase': phase, 'updated_at': now, 'source': 'Florida Division of Elections, unofficial', 'races': len(races), 'called': n_final,
+    json.dump([{'phase': phase, 'updated_at': now, 'source': source, 'races': len(races), 'called': n_final,
                 'counting': n_count, 'precincts': prec, 'problems': problems[:20], 'local_problems': []}],
               open(os.path.join(a.out, 'live_status.json'), 'w'), indent=1)
     print(json.dumps({'races': len(races), 'contested': len(contested), 'rows': len(rows), 'phase': phase, 'final': n_final, 'counting': n_count,
