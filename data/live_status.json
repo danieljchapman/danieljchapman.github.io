@@ -1,13 +1,14 @@
 [
  {
-  "phase": "pre-election",
-  "updated_at": "2026-11-04T01:09:23Z",
+  "phase": "counting",
+  "updated_at": "2026-11-04T01:14:24Z",
   "source": "Texas Secretary of State election-night results, unofficial",
   "races": 224,
   "called": 0,
-  "counting": 0,
+  "counting": 25,
   "problems": [],
   "local_problems": [
+   "clarity:Tarrant: https://results.enr.clarityelections.com/TX/Tarrant/127297/current_ver.txt: HTTP 502",
    "collin: Collin: no results CSV for 2026-11-03 posted yet",
    "clarity:Dallas: Dallas: no Clarity election on 2026-11-03 yet"
   ],
@@ -15,7 +16,7 @@
    "counties": {
     "48353": [
      8835,
-     0
+     2190
     ],
     "48335": [
      4473,
@@ -199,7 +200,7 @@
     ],
     "48421": [
      1366,
-     0
+     409
     ],
     "48419": [
      16476,
@@ -303,7 +304,7 @@
     ],
     "48369": [
      4516,
-     0
+     776
     ],
     "48367": [
      133925,
@@ -371,7 +372,7 @@
     ],
     "48331": [
      17565,
-     0
+     6351
     ],
     "48329": [
      99805,
@@ -483,7 +484,7 @@
     ],
     "48275": [
      2262,
-     0
+     35
     ],
     "48273": [
      18028,
@@ -963,7 +964,7 @@
     ],
     "48033": [
      477,
-     0
+     5
     ],
     "48031": [
      11369,
@@ -1023,7 +1024,7 @@
     ],
     "48003": [
      10820,
-     0
+     2839
     ],
     "48001": [
      31222,
