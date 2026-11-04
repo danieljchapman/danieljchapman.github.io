@@ -1,7 +1,7 @@
 level,race,year,office,plan,unit,unit_name,candidate,party,votes,status,reporting,reporting_total
-statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,12001,Alachua,Joey Mendoza Atkins,D,67984,counting,61,63
-statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,12001,Alachua,Wilton Simpson,R,34940,counting,61,63
-statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,12001,Alachua,Write-ins,W,0,counting,61,63
+statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,12001,Alachua,Joey Mendoza Atkins,D,67984,counting,0,63
+statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,12001,Alachua,Wilton Simpson,R,34940,counting,0,63
+statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,12001,Alachua,Write-ins,W,0,counting,0,63
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,12003,Baker,Wilton Simpson,R,8116,counting,9,9
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,12003,Baker,Joey Mendoza Atkins,D,1597,counting,9,9
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,12003,Baker,Write-ins,W,0,counting,9,9
@@ -11,8 +11,8 @@ statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,12005,Bay
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,12007,Bradford,Wilton Simpson,R,7186,counting,13,13
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,12007,Bradford,Joey Mendoza Atkins,D,2354,counting,13,13
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,12007,Bradford,Write-ins,W,0,counting,13,13
-statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,12009,Brevard,Wilton Simpson,R,148428,counting,156,156
-statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,12009,Brevard,Joey Mendoza Atkins,D,113534,counting,156,156
+statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,12009,Brevard,Wilton Simpson,R,148461,counting,156,156
+statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,12009,Brevard,Joey Mendoza Atkins,D,113676,counting,156,156
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,12009,Brevard,Write-ins,W,0,counting,156,156
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,12011,Broward,Joey Mendoza Atkins,D,430753,counting,342,346
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,12011,Broward,Wilton Simpson,R,217030,counting,342,346
@@ -104,8 +104,8 @@ statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,12069,Lak
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,12071,Lee,Wilton Simpson,R,180424,counting,99,99
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,12071,Lee,Joey Mendoza Atkins,D,118442,counting,99,99
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,12071,Lee,Write-ins,W,0,counting,99,99
-statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,12073,Leon,Joey Mendoza Atkins,D,78865,counting,134,134
-statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,12073,Leon,Wilton Simpson,R,42961,counting,134,134
+statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,12073,Leon,Joey Mendoza Atkins,D,79762,counting,134,134
+statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,12073,Leon,Wilton Simpson,R,43194,counting,134,134
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,12073,Leon,Write-ins,W,0,counting,134,134
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,12075,Levy,Wilton Simpson,R,13019,counting,13,13
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,12075,Levy,Joey Mendoza Atkins,D,4903,counting,13,13
@@ -125,9 +125,9 @@ statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,12083,Mar
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,12085,Martin,Wilton Simpson,R,47294,counting,29,29
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,12085,Martin,Joey Mendoza Atkins,D,27742,counting,29,29
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,12085,Martin,Write-ins,W,0,counting,29,29
-statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,12086,Miami-Dade,Joey Mendoza Atkins,D,414031,counting,667,718
-statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,12086,Miami-Dade,Wilton Simpson,R,356498,counting,667,718
-statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,12086,Miami-Dade,Write-ins,W,0,counting,667,718
+statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,12086,Miami-Dade,Joey Mendoza Atkins,D,414031,counting,718,718
+statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,12086,Miami-Dade,Wilton Simpson,R,356498,counting,718,718
+statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,12086,Miami-Dade,Write-ins,W,0,counting,718,718
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,12087,Monroe,Wilton Simpson,R,17179,counting,33,33
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,12087,Monroe,Joey Mendoza Atkins,D,14461,counting,33,33
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,12087,Monroe,Write-ins,W,0,counting,33,33
@@ -200,16 +200,16 @@ statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,12131,Wal
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,12133,Washington,Wilton Simpson,R,7144,counting,12,12
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,12133,Washington,Joey Mendoza Atkins,D,1823,counting,12,12
 statewide,2026 Agriculture Commissioner,2026,Agriculture Commissioner,,12133,Washington,Write-ins,W,0,counting,12,12
-statewide,2026 Attorney General,2026,Attorney General,,12001,Alachua,Jose Rodriguez,D,69553,counting,61,63
-statewide,2026 Attorney General,2026,Attorney General,,12001,Alachua,James Uthmeier,R,34132,counting,61,63
+statewide,2026 Attorney General,2026,Attorney General,,12001,Alachua,Jose Rodriguez,D,69553,counting,0,63
+statewide,2026 Attorney General,2026,Attorney General,,12001,Alachua,James Uthmeier,R,34132,counting,0,63
 statewide,2026 Attorney General,2026,Attorney General,,12003,Baker,James Uthmeier,R,8172,counting,9,9
 statewide,2026 Attorney General,2026,Attorney General,,12003,Baker,Jose Rodriguez,D,1565,counting,9,9
 statewide,2026 Attorney General,2026,Attorney General,,12005,Bay,James Uthmeier,R,48778,counting,30,30
 statewide,2026 Attorney General,2026,Attorney General,,12005,Bay,Jose Rodriguez,D,20823,counting,30,30
 statewide,2026 Attorney General,2026,Attorney General,,12007,Bradford,James Uthmeier,R,7226,counting,13,13
 statewide,2026 Attorney General,2026,Attorney General,,12007,Bradford,Jose Rodriguez,D,2386,counting,13,13
-statewide,2026 Attorney General,2026,Attorney General,,12009,Brevard,James Uthmeier,R,149965,counting,156,156
-statewide,2026 Attorney General,2026,Attorney General,,12009,Brevard,Jose Rodriguez,D,113633,counting,156,156
+statewide,2026 Attorney General,2026,Attorney General,,12009,Brevard,James Uthmeier,R,150001,counting,156,156
+statewide,2026 Attorney General,2026,Attorney General,,12009,Brevard,Jose Rodriguez,D,113771,counting,156,156
 statewide,2026 Attorney General,2026,Attorney General,,12011,Broward,Jose Rodriguez,D,440308,counting,342,346
 statewide,2026 Attorney General,2026,Attorney General,,12011,Broward,James Uthmeier,R,213946,counting,342,346
 statewide,2026 Attorney General,2026,Attorney General,,12013,Calhoun,James Uthmeier,R,3431,counting,14,14
@@ -270,8 +270,8 @@ statewide,2026 Attorney General,2026,Attorney General,,12069,Lake,James Uthmeier
 statewide,2026 Attorney General,2026,Attorney General,,12069,Lake,Jose Rodriguez,D,72670,counting,92,92
 statewide,2026 Attorney General,2026,Attorney General,,12071,Lee,James Uthmeier,R,184572,counting,99,99
 statewide,2026 Attorney General,2026,Attorney General,,12071,Lee,Jose Rodriguez,D,117115,counting,99,99
-statewide,2026 Attorney General,2026,Attorney General,,12073,Leon,Jose Rodriguez,D,81061,counting,134,134
-statewide,2026 Attorney General,2026,Attorney General,,12073,Leon,James Uthmeier,R,41687,counting,134,134
+statewide,2026 Attorney General,2026,Attorney General,,12073,Leon,Jose Rodriguez,D,81974,counting,134,134
+statewide,2026 Attorney General,2026,Attorney General,,12073,Leon,James Uthmeier,R,41917,counting,134,134
 statewide,2026 Attorney General,2026,Attorney General,,12075,Levy,James Uthmeier,R,13021,counting,13,13
 statewide,2026 Attorney General,2026,Attorney General,,12075,Levy,Jose Rodriguez,D,5009,counting,13,13
 statewide,2026 Attorney General,2026,Attorney General,,12077,Liberty,James Uthmeier,R,2092,counting,8,8
@@ -284,8 +284,8 @@ statewide,2026 Attorney General,2026,Attorney General,,12083,Marion,James Uthmei
 statewide,2026 Attorney General,2026,Attorney General,,12083,Marion,Jose Rodriguez,D,60578,counting,106,106
 statewide,2026 Attorney General,2026,Attorney General,,12085,Martin,James Uthmeier,R,48041,counting,29,29
 statewide,2026 Attorney General,2026,Attorney General,,12085,Martin,Jose Rodriguez,D,27629,counting,29,29
-statewide,2026 Attorney General,2026,Attorney General,,12086,Miami-Dade,Jose Rodriguez,D,428727,counting,667,718
-statewide,2026 Attorney General,2026,Attorney General,,12086,Miami-Dade,James Uthmeier,R,343229,counting,667,718
+statewide,2026 Attorney General,2026,Attorney General,,12086,Miami-Dade,Jose Rodriguez,D,428727,counting,718,718
+statewide,2026 Attorney General,2026,Attorney General,,12086,Miami-Dade,James Uthmeier,R,343229,counting,718,718
 statewide,2026 Attorney General,2026,Attorney General,,12087,Monroe,James Uthmeier,R,17022,counting,33,33
 statewide,2026 Attorney General,2026,Attorney General,,12087,Monroe,Jose Rodriguez,D,14844,counting,33,33
 statewide,2026 Attorney General,2026,Attorney General,,12089,Nassau,James Uthmeier,R,35608,counting,18,18
@@ -334,16 +334,16 @@ statewide,2026 Attorney General,2026,Attorney General,,12131,Walton,James Uthmei
 statewide,2026 Attorney General,2026,Attorney General,,12131,Walton,Jose Rodriguez,D,8139,counting,22,22
 statewide,2026 Attorney General,2026,Attorney General,,12133,Washington,James Uthmeier,R,7196,counting,12,12
 statewide,2026 Attorney General,2026,Attorney General,,12133,Washington,Jose Rodriguez,D,1803,counting,12,12
-statewide,2026 Chief Financial Officer,2026,Chief Financial Officer,,12001,Alachua,Annette Taddeo,D,68321,counting,61,63
-statewide,2026 Chief Financial Officer,2026,Chief Financial Officer,,12001,Alachua,Blaise Ingoglia,R,34737,counting,61,63
+statewide,2026 Chief Financial Officer,2026,Chief Financial Officer,,12001,Alachua,Annette Taddeo,D,68321,counting,0,63
+statewide,2026 Chief Financial Officer,2026,Chief Financial Officer,,12001,Alachua,Blaise Ingoglia,R,34737,counting,0,63
 statewide,2026 Chief Financial Officer,2026,Chief Financial Officer,,12003,Baker,Blaise Ingoglia,R,8115,counting,9,9
 statewide,2026 Chief Financial Officer,2026,Chief Financial Officer,,12003,Baker,Annette Taddeo,D,1585,counting,9,9
 statewide,2026 Chief Financial Officer,2026,Chief Financial Officer,,12005,Bay,Blaise Ingoglia,R,48677,counting,30,30
 statewide,2026 Chief Financial Officer,2026,Chief Financial Officer,,12005,Bay,Annette Taddeo,D,20742,counting,30,30
 statewide,2026 Chief Financial Officer,2026,Chief Financial Officer,,12007,Bradford,Blaise Ingoglia,R,7144,counting,13,13
 statewide,2026 Chief Financial Officer,2026,Chief Financial Officer,,12007,Bradford,Annette Taddeo,D,2389,counting,13,13
-statewide,2026 Chief Financial Officer,2026,Chief Financial Officer,,12009,Brevard,Blaise Ingoglia,R,149513,counting,156,156
-statewide,2026 Chief Financial Officer,2026,Chief Financial Officer,,12009,Brevard,Annette Taddeo,D,112729,counting,156,156
+statewide,2026 Chief Financial Officer,2026,Chief Financial Officer,,12009,Brevard,Blaise Ingoglia,R,149549,counting,156,156
+statewide,2026 Chief Financial Officer,2026,Chief Financial Officer,,12009,Brevard,Annette Taddeo,D,112866,counting,156,156
 statewide,2026 Chief Financial Officer,2026,Chief Financial Officer,,12011,Broward,Annette Taddeo,D,432597,counting,342,346
 statewide,2026 Chief Financial Officer,2026,Chief Financial Officer,,12011,Broward,Blaise Ingoglia,R,215157,counting,342,346
 statewide,2026 Chief Financial Officer,2026,Chief Financial Officer,,12013,Calhoun,Blaise Ingoglia,R,3398,counting,14,14
@@ -404,8 +404,8 @@ statewide,2026 Chief Financial Officer,2026,Chief Financial Officer,,12069,Lake,
 statewide,2026 Chief Financial Officer,2026,Chief Financial Officer,,12069,Lake,Annette Taddeo,D,72151,counting,92,92
 statewide,2026 Chief Financial Officer,2026,Chief Financial Officer,,12071,Lee,Blaise Ingoglia,R,179712,counting,99,99
 statewide,2026 Chief Financial Officer,2026,Chief Financial Officer,,12071,Lee,Annette Taddeo,D,119445,counting,99,99
-statewide,2026 Chief Financial Officer,2026,Chief Financial Officer,,12073,Leon,Annette Taddeo,D,80405,counting,134,134
-statewide,2026 Chief Financial Officer,2026,Chief Financial Officer,,12073,Leon,Blaise Ingoglia,R,41362,counting,134,134
+statewide,2026 Chief Financial Officer,2026,Chief Financial Officer,,12073,Leon,Annette Taddeo,D,81305,counting,134,134
+statewide,2026 Chief Financial Officer,2026,Chief Financial Officer,,12073,Leon,Blaise Ingoglia,R,41598,counting,134,134
 statewide,2026 Chief Financial Officer,2026,Chief Financial Officer,,12075,Levy,Blaise Ingoglia,R,12887,counting,13,13
 statewide,2026 Chief Financial Officer,2026,Chief Financial Officer,,12075,Levy,Annette Taddeo,D,4894,counting,13,13
 statewide,2026 Chief Financial Officer,2026,Chief Financial Officer,,12077,Liberty,Blaise Ingoglia,R,2065,counting,8,8
@@ -418,8 +418,8 @@ statewide,2026 Chief Financial Officer,2026,Chief Financial Officer,,12083,Mario
 statewide,2026 Chief Financial Officer,2026,Chief Financial Officer,,12083,Marion,Annette Taddeo,D,60349,counting,106,106
 statewide,2026 Chief Financial Officer,2026,Chief Financial Officer,,12085,Martin,Blaise Ingoglia,R,46893,counting,29,29
 statewide,2026 Chief Financial Officer,2026,Chief Financial Officer,,12085,Martin,Annette Taddeo,D,28135,counting,29,29
-statewide,2026 Chief Financial Officer,2026,Chief Financial Officer,,12086,Miami-Dade,Annette Taddeo,D,420110,counting,667,718
-statewide,2026 Chief Financial Officer,2026,Chief Financial Officer,,12086,Miami-Dade,Blaise Ingoglia,R,349355,counting,667,718
+statewide,2026 Chief Financial Officer,2026,Chief Financial Officer,,12086,Miami-Dade,Annette Taddeo,D,420110,counting,718,718
+statewide,2026 Chief Financial Officer,2026,Chief Financial Officer,,12086,Miami-Dade,Blaise Ingoglia,R,349355,counting,718,718
 statewide,2026 Chief Financial Officer,2026,Chief Financial Officer,,12087,Monroe,Blaise Ingoglia,R,17079,counting,33,33
 statewide,2026 Chief Financial Officer,2026,Chief Financial Officer,,12087,Monroe,Annette Taddeo,D,14612,counting,33,33
 statewide,2026 Chief Financial Officer,2026,Chief Financial Officer,,12089,Nassau,Blaise Ingoglia,R,35335,counting,18,18
@@ -468,15 +468,15 @@ statewide,2026 Chief Financial Officer,2026,Chief Financial Officer,,12131,Walto
 statewide,2026 Chief Financial Officer,2026,Chief Financial Officer,,12131,Walton,Annette Taddeo,D,8088,counting,22,22
 statewide,2026 Chief Financial Officer,2026,Chief Financial Officer,,12133,Washington,Blaise Ingoglia,R,7130,counting,12,12
 statewide,2026 Chief Financial Officer,2026,Chief Financial Officer,,12133,Washington,Annette Taddeo,D,1825,counting,12,12
-statewide,2026 Governor,2026,Governor,,12001,Alachua,David Jolly,D,69117,counting,61,63
-statewide,2026 Governor,2026,Governor,,12001,Alachua,Byron Donalds,R,33965,counting,61,63
-statewide,2026 Governor,2026,Governor,,12001,Alachua,Scott Jewett,L,496,counting,61,63
-statewide,2026 Governor,2026,Governor,,12001,Alachua,Dean Abrams,I,212,counting,61,63
-statewide,2026 Governor,2026,Governor,,12001,Alachua,Frank J. Russo,I,183,counting,61,63
-statewide,2026 Governor,2026,Governor,,12001,Alachua,Charles Burkett,I,176,counting,61,63
-statewide,2026 Governor,2026,Governor,,12001,Alachua,"Moliere ""Moe"" Dimanche",I,110,counting,61,63
-statewide,2026 Governor,2026,Governor,,12001,Alachua,"Jeffrey ""Dr. Jeff"" Datto",I,74,counting,61,63
-statewide,2026 Governor,2026,Governor,,12001,Alachua,Write-ins,W,0,counting,61,63
+statewide,2026 Governor,2026,Governor,,12001,Alachua,David Jolly,D,69117,counting,0,63
+statewide,2026 Governor,2026,Governor,,12001,Alachua,Byron Donalds,R,33965,counting,0,63
+statewide,2026 Governor,2026,Governor,,12001,Alachua,Scott Jewett,L,496,counting,0,63
+statewide,2026 Governor,2026,Governor,,12001,Alachua,Dean Abrams,I,212,counting,0,63
+statewide,2026 Governor,2026,Governor,,12001,Alachua,Frank J. Russo,I,183,counting,0,63
+statewide,2026 Governor,2026,Governor,,12001,Alachua,Charles Burkett,I,176,counting,0,63
+statewide,2026 Governor,2026,Governor,,12001,Alachua,"Moliere ""Moe"" Dimanche",I,110,counting,0,63
+statewide,2026 Governor,2026,Governor,,12001,Alachua,"Jeffrey ""Dr. Jeff"" Datto",I,74,counting,0,63
+statewide,2026 Governor,2026,Governor,,12001,Alachua,Write-ins,W,0,counting,0,63
 statewide,2026 Governor,2026,Governor,,12003,Baker,Byron Donalds,R,7977,counting,9,9
 statewide,2026 Governor,2026,Governor,,12003,Baker,David Jolly,D,1637,counting,9,9
 statewide,2026 Governor,2026,Governor,,12003,Baker,Scott Jewett,L,50,counting,9,9
@@ -504,10 +504,10 @@ statewide,2026 Governor,2026,Governor,,12007,Bradford,Charles Burkett,I,20,count
 statewide,2026 Governor,2026,Governor,,12007,Bradford,"Jeffrey ""Dr. Jeff"" Datto",I,10,counting,13,13
 statewide,2026 Governor,2026,Governor,,12007,Bradford,"Moliere ""Moe"" Dimanche",I,3,counting,13,13
 statewide,2026 Governor,2026,Governor,,12007,Bradford,Write-ins,W,0,counting,13,13
-statewide,2026 Governor,2026,Governor,,12009,Brevard,Byron Donalds,R,145960,counting,156,156
-statewide,2026 Governor,2026,Governor,,12009,Brevard,David Jolly,D,115172,counting,156,156
-statewide,2026 Governor,2026,Governor,,12009,Brevard,Scott Jewett,L,1624,counting,156,156
-statewide,2026 Governor,2026,Governor,,12009,Brevard,Frank J. Russo,I,761,counting,156,156
+statewide,2026 Governor,2026,Governor,,12009,Brevard,Byron Donalds,R,145992,counting,156,156
+statewide,2026 Governor,2026,Governor,,12009,Brevard,David Jolly,D,115313,counting,156,156
+statewide,2026 Governor,2026,Governor,,12009,Brevard,Scott Jewett,L,1626,counting,156,156
+statewide,2026 Governor,2026,Governor,,12009,Brevard,Frank J. Russo,I,762,counting,156,156
 statewide,2026 Governor,2026,Governor,,12009,Brevard,Charles Burkett,I,512,counting,156,156
 statewide,2026 Governor,2026,Governor,,12009,Brevard,Dean Abrams,I,504,counting,156,156
 statewide,2026 Governor,2026,Governor,,12009,Brevard,"Jeffrey ""Dr. Jeff"" Datto",I,241,counting,156,156
@@ -783,13 +783,13 @@ statewide,2026 Governor,2026,Governor,,12071,Lee,Dean Abrams,I,369,counting,99,9
 statewide,2026 Governor,2026,Governor,,12071,Lee,"Jeffrey ""Dr. Jeff"" Datto",I,257,counting,99,99
 statewide,2026 Governor,2026,Governor,,12071,Lee,"Moliere ""Moe"" Dimanche",I,174,counting,99,99
 statewide,2026 Governor,2026,Governor,,12071,Lee,Write-ins,W,0,counting,99,99
-statewide,2026 Governor,2026,Governor,,12073,Leon,David Jolly,D,82853,counting,134,134
-statewide,2026 Governor,2026,Governor,,12073,Leon,Byron Donalds,R,39718,counting,134,134
-statewide,2026 Governor,2026,Governor,,12073,Leon,Scott Jewett,L,467,counting,134,134
-statewide,2026 Governor,2026,Governor,,12073,Leon,Frank J. Russo,I,266,counting,134,134
-statewide,2026 Governor,2026,Governor,,12073,Leon,Dean Abrams,I,161,counting,134,134
-statewide,2026 Governor,2026,Governor,,12073,Leon,Charles Burkett,I,148,counting,134,134
-statewide,2026 Governor,2026,Governor,,12073,Leon,"Moliere ""Moe"" Dimanche",I,134,counting,134,134
+statewide,2026 Governor,2026,Governor,,12073,Leon,David Jolly,D,83777,counting,134,134
+statewide,2026 Governor,2026,Governor,,12073,Leon,Byron Donalds,R,39948,counting,134,134
+statewide,2026 Governor,2026,Governor,,12073,Leon,Scott Jewett,L,471,counting,134,134
+statewide,2026 Governor,2026,Governor,,12073,Leon,Frank J. Russo,I,271,counting,134,134
+statewide,2026 Governor,2026,Governor,,12073,Leon,Dean Abrams,I,165,counting,134,134
+statewide,2026 Governor,2026,Governor,,12073,Leon,Charles Burkett,I,149,counting,134,134
+statewide,2026 Governor,2026,Governor,,12073,Leon,"Moliere ""Moe"" Dimanche",I,135,counting,134,134
 statewide,2026 Governor,2026,Governor,,12073,Leon,"Jeffrey ""Dr. Jeff"" Datto",I,85,counting,134,134
 statewide,2026 Governor,2026,Governor,,12073,Leon,Write-ins,W,0,counting,134,134
 statewide,2026 Governor,2026,Governor,,12075,Levy,Byron Donalds,R,12785,counting,13,13
@@ -846,15 +846,15 @@ statewide,2026 Governor,2026,Governor,,12085,Martin,Dean Abrams,I,81,counting,29
 statewide,2026 Governor,2026,Governor,,12085,Martin,"Jeffrey ""Dr. Jeff"" Datto",I,47,counting,29,29
 statewide,2026 Governor,2026,Governor,,12085,Martin,"Moliere ""Moe"" Dimanche",I,41,counting,29,29
 statewide,2026 Governor,2026,Governor,,12085,Martin,Write-ins,W,0,counting,29,29
-statewide,2026 Governor,2026,Governor,,12086,Miami-Dade,David Jolly,D,412393,counting,667,718
-statewide,2026 Governor,2026,Governor,,12086,Miami-Dade,Byron Donalds,R,358206,counting,667,718
-statewide,2026 Governor,2026,Governor,,12086,Miami-Dade,Frank J. Russo,I,2657,counting,667,718
-statewide,2026 Governor,2026,Governor,,12086,Miami-Dade,Scott Jewett,L,2575,counting,667,718
-statewide,2026 Governor,2026,Governor,,12086,Miami-Dade,Charles Burkett,I,1694,counting,667,718
-statewide,2026 Governor,2026,Governor,,12086,Miami-Dade,"Jeffrey ""Dr. Jeff"" Datto",I,1057,counting,667,718
-statewide,2026 Governor,2026,Governor,,12086,Miami-Dade,Dean Abrams,I,858,counting,667,718
-statewide,2026 Governor,2026,Governor,,12086,Miami-Dade,"Moliere ""Moe"" Dimanche",I,775,counting,667,718
-statewide,2026 Governor,2026,Governor,,12086,Miami-Dade,Write-ins,W,0,counting,667,718
+statewide,2026 Governor,2026,Governor,,12086,Miami-Dade,David Jolly,D,412393,counting,718,718
+statewide,2026 Governor,2026,Governor,,12086,Miami-Dade,Byron Donalds,R,358206,counting,718,718
+statewide,2026 Governor,2026,Governor,,12086,Miami-Dade,Frank J. Russo,I,2657,counting,718,718
+statewide,2026 Governor,2026,Governor,,12086,Miami-Dade,Scott Jewett,L,2575,counting,718,718
+statewide,2026 Governor,2026,Governor,,12086,Miami-Dade,Charles Burkett,I,1694,counting,718,718
+statewide,2026 Governor,2026,Governor,,12086,Miami-Dade,"Jeffrey ""Dr. Jeff"" Datto",I,1057,counting,718,718
+statewide,2026 Governor,2026,Governor,,12086,Miami-Dade,Dean Abrams,I,858,counting,718,718
+statewide,2026 Governor,2026,Governor,,12086,Miami-Dade,"Moliere ""Moe"" Dimanche",I,775,counting,718,718
+statewide,2026 Governor,2026,Governor,,12086,Miami-Dade,Write-ins,W,0,counting,718,718
 statewide,2026 Governor,2026,Governor,,12087,Monroe,Byron Donalds,R,17179,counting,33,33
 statewide,2026 Governor,2026,Governor,,12087,Monroe,David Jolly,D,14763,counting,33,33
 statewide,2026 Governor,2026,Governor,,12087,Monroe,Scott Jewett,L,131,counting,33,33
@@ -1071,9 +1071,9 @@ statewide,2026 Governor,2026,Governor,,12133,Washington,Frank J. Russo,I,19,coun
 statewide,2026 Governor,2026,Governor,,12133,Washington,"Moliere ""Moe"" Dimanche",I,15,counting,12,12
 statewide,2026 Governor,2026,Governor,,12133,Washington,"Jeffrey ""Dr. Jeff"" Datto",I,10,counting,12,12
 statewide,2026 Governor,2026,Governor,,12133,Washington,Write-ins,W,0,counting,12,12
-statewide,2026 Senate,2026,Senate,,12001,Alachua,Angie Nixon,D,69313,counting,61,63
-statewide,2026 Senate,2026,Senate,,12001,Alachua,Ashley Moody,R,34270,counting,61,63
-statewide,2026 Senate,2026,Senate,,12001,Alachua,Neil J. Gillespie,I,966,counting,61,63
+statewide,2026 Senate,2026,Senate,,12001,Alachua,Angie Nixon,D,69313,counting,0,63
+statewide,2026 Senate,2026,Senate,,12001,Alachua,Ashley Moody,R,34270,counting,0,63
+statewide,2026 Senate,2026,Senate,,12001,Alachua,Neil J. Gillespie,I,966,counting,0,63
 statewide,2026 Senate,2026,Senate,,12003,Baker,Ashley Moody,R,8171,counting,9,9
 statewide,2026 Senate,2026,Senate,,12003,Baker,Angie Nixon,D,1571,counting,9,9
 statewide,2026 Senate,2026,Senate,,12003,Baker,Neil J. Gillespie,I,84,counting,9,9
@@ -1083,9 +1083,9 @@ statewide,2026 Senate,2026,Senate,,12005,Bay,Neil J. Gillespie,I,804,counting,30
 statewide,2026 Senate,2026,Senate,,12007,Bradford,Ashley Moody,R,7233,counting,13,13
 statewide,2026 Senate,2026,Senate,,12007,Bradford,Angie Nixon,D,2385,counting,13,13
 statewide,2026 Senate,2026,Senate,,12007,Bradford,Neil J. Gillespie,I,97,counting,13,13
-statewide,2026 Senate,2026,Senate,,12009,Brevard,Ashley Moody,R,150632,counting,156,156
-statewide,2026 Senate,2026,Senate,,12009,Brevard,Angie Nixon,D,111456,counting,156,156
-statewide,2026 Senate,2026,Senate,,12009,Brevard,Neil J. Gillespie,I,3626,counting,156,156
+statewide,2026 Senate,2026,Senate,,12009,Brevard,Ashley Moody,R,150665,counting,156,156
+statewide,2026 Senate,2026,Senate,,12009,Brevard,Angie Nixon,D,111598,counting,156,156
+statewide,2026 Senate,2026,Senate,,12009,Brevard,Neil J. Gillespie,I,3628,counting,156,156
 statewide,2026 Senate,2026,Senate,,12011,Broward,Angie Nixon,D,432214,counting,342,346
 statewide,2026 Senate,2026,Senate,,12011,Broward,Ashley Moody,R,219725,counting,342,346
 statewide,2026 Senate,2026,Senate,,12011,Broward,Neil J. Gillespie,I,6638,counting,342,346
@@ -1176,9 +1176,9 @@ statewide,2026 Senate,2026,Senate,,12069,Lake,Neil J. Gillespie,I,2127,counting,
 statewide,2026 Senate,2026,Senate,,12071,Lee,Ashley Moody,R,182801,counting,99,99
 statewide,2026 Senate,2026,Senate,,12071,Lee,Angie Nixon,D,117839,counting,99,99
 statewide,2026 Senate,2026,Senate,,12071,Lee,Neil J. Gillespie,I,3196,counting,99,99
-statewide,2026 Senate,2026,Senate,,12073,Leon,Angie Nixon,D,80584,counting,134,134
-statewide,2026 Senate,2026,Senate,,12073,Leon,Ashley Moody,R,42098,counting,134,134
-statewide,2026 Senate,2026,Senate,,12073,Leon,Neil J. Gillespie,I,1271,counting,134,134
+statewide,2026 Senate,2026,Senate,,12073,Leon,Angie Nixon,D,81517,counting,134,134
+statewide,2026 Senate,2026,Senate,,12073,Leon,Ashley Moody,R,42334,counting,134,134
+statewide,2026 Senate,2026,Senate,,12073,Leon,Neil J. Gillespie,I,1277,counting,134,134
 statewide,2026 Senate,2026,Senate,,12075,Levy,Ashley Moody,R,12935,counting,13,13
 statewide,2026 Senate,2026,Senate,,12075,Levy,Angie Nixon,D,4956,counting,13,13
 statewide,2026 Senate,2026,Senate,,12075,Levy,Neil J. Gillespie,I,241,counting,13,13
@@ -1197,9 +1197,9 @@ statewide,2026 Senate,2026,Senate,,12083,Marion,Neil J. Gillespie,I,1909,countin
 statewide,2026 Senate,2026,Senate,,12085,Martin,Ashley Moody,R,47861,counting,29,29
 statewide,2026 Senate,2026,Senate,,12085,Martin,Angie Nixon,D,27593,counting,29,29
 statewide,2026 Senate,2026,Senate,,12085,Martin,Neil J. Gillespie,I,810,counting,29,29
-statewide,2026 Senate,2026,Senate,,12086,Miami-Dade,Angie Nixon,D,412910,counting,667,718
-statewide,2026 Senate,2026,Senate,,12086,Miami-Dade,Ashley Moody,R,358067,counting,667,718
-statewide,2026 Senate,2026,Senate,,12086,Miami-Dade,Neil J. Gillespie,I,8736,counting,667,718
+statewide,2026 Senate,2026,Senate,,12086,Miami-Dade,Angie Nixon,D,412910,counting,718,718
+statewide,2026 Senate,2026,Senate,,12086,Miami-Dade,Ashley Moody,R,358067,counting,718,718
+statewide,2026 Senate,2026,Senate,,12086,Miami-Dade,Neil J. Gillespie,I,8736,counting,718,718
 statewide,2026 Senate,2026,Senate,,12087,Monroe,Ashley Moody,R,17407,counting,33,33
 statewide,2026 Senate,2026,Senate,,12087,Monroe,Angie Nixon,D,14549,counting,33,33
 statewide,2026 Senate,2026,Senate,,12087,Monroe,Neil J. Gillespie,I,314,counting,33,33
@@ -1284,11 +1284,11 @@ house,2026 House,2026,House,h2022,5,,Shane Abbott,R,53977,final,70,70
 house,2026 House,2026,House,h2022,5,,Alex Finney,D,15640,final,70,70
 house,2026 House,2026,House,h2022,6,,Tricia Berry,R,48328,final,30,30
 house,2026 House,2026,House,h2022,6,,Stephanie Leonard,D,21037,final,30,30
-house,2026 House,2026,House,h2022,9,,Allison Tant,D,56485,final,97,97
-house,2026 House,2026,House,h2022,9,,Tracy Robinson,R,32632,final,97,97
-house,2026 House,2026,House,h2022,10,,Marshall Rawson,R,43074,counting,72,73
-house,2026 House,2026,House,h2022,10,,Merrillee Malwitz Jipson,D,20030,counting,72,73
-house,2026 House,2026,House,h2022,10,,Write-ins,W,0,counting,72,73
+house,2026 House,2026,House,h2022,9,,Allison Tant,D,56893,final,97,97
+house,2026 House,2026,House,h2022,9,,Tracy Robinson,R,32768,final,97,97
+house,2026 House,2026,House,h2022,10,,Marshall Rawson,R,43074,counting,61,73
+house,2026 House,2026,House,h2022,10,,Merrillee Malwitz Jipson,D,20030,counting,61,73
+house,2026 House,2026,House,h2022,10,,Write-ins,W,0,counting,61,73
 house,2026 House,2026,House,h2022,12,,Terrance Freeman,R,32660,final,29,29
 house,2026 House,2026,House,h2022,12,,Benjamin Sandlin,D,30415,final,29,29
 house,2026 House,2026,House,h2022,15,,Dean Black,R,54548,final,38,38
@@ -1302,8 +1302,8 @@ house,2026 House,2026,House,h2022,19,,Sam Greco,R,54263,final,37,37
 house,2026 House,2026,House,h2022,19,,Suzanna Pavelle,D,38394,final,37,37
 house,2026 House,2026,House,h2022,20,,Judson Sapp,R,51641,final,73,73
 house,2026 House,2026,House,h2022,20,,Lee Butler,D,21482,final,73,73
-house,2026 House,2026,House,h2022,22,,Amy Trask,D,40402,counting,48,49
-house,2026 House,2026,House,h2022,22,,Chad Johnson,R,38313,counting,48,49
+house,2026 House,2026,House,h2022,22,,Amy Trask,D,40402,counting,23,49
+house,2026 House,2026,House,h2022,22,,Chad Johnson,R,38313,counting,23,49
 house,2026 House,2026,House,h2022,23,,J.J. Grow,R,61262,final,37,37
 house,2026 House,2026,House,h2022,23,,Mark Baker,D,24589,final,37,37
 house,2026 House,2026,House,h2022,25,,Taylor Yarkosky,R,44414,final,40,40
@@ -1317,16 +1317,16 @@ house,2026 House,2026,House,h2022,28,,Sammy Jackson,D,31333,final,64,64
 house,2026 House,2026,House,h2022,28,,"Joseph ""Joe"" Hannoush",L,1368,final,64,64
 house,2026 House,2026,House,h2022,29,,Webster Barnaby,R,35074,final,39,39
 house,2026 House,2026,House,h2022,29,,Don Kanfer,D,33053,final,39,39
-house,2026 House,2026,House,h2022,30,,Chase Tramont,R,51192,final,44,44
-house,2026 House,2026,House,h2022,30,,Edwin Munoz,D,30830,final,44,44
-house,2026 House,2026,House,h2022,31,,Matt Woodside,R,46318,final,53,53
-house,2026 House,2026,House,h2022,31,,Daniel Cicirelli,D,31016,final,53,53
-house,2026 House,2026,House,h2022,32,,Brian Hodgers,R,49205,final,54,54
-house,2026 House,2026,House,h2022,32,,Juan J. Hinojosa,D,35752,final,54,54
-house,2026 House,2026,House,h2022,33,,Monique Miller,R,35694,final,33,33
-house,2026 House,2026,House,h2022,33,,Daniel R. McDow,D,35603,final,33,33
+house,2026 House,2026,House,h2022,30,,Chase Tramont,R,51199,final,44,44
+house,2026 House,2026,House,h2022,30,,Edwin Munoz,D,30847,final,44,44
+house,2026 House,2026,House,h2022,31,,Matt Woodside,R,46333,final,53,53
+house,2026 House,2026,House,h2022,31,,Daniel Cicirelli,D,31066,final,53,53
+house,2026 House,2026,House,h2022,32,,Brian Hodgers,R,49215,final,54,54
+house,2026 House,2026,House,h2022,32,,Juan J. Hinojosa,D,35791,final,54,54
+house,2026 House,2026,House,h2022,33,,Monique Miller,R,35696,final,33,33
+house,2026 House,2026,House,h2022,33,,Daniel R. McDow,D,35632,final,33,33
 house,2026 House,2026,House,h2022,34,,Robert Brackett,R,54885,final,42,42
-house,2026 House,2026,House,h2022,34,,Jordyn Balderas,D,32180,final,42,42
+house,2026 House,2026,House,h2022,34,,Jordyn Balderas,D,32186,final,42,42
 house,2026 House,2026,House,h2022,35,,Eric Gray,D,41028,final,55,55
 house,2026 House,2026,House,h2022,35,,Erika Booth,R,32103,final,55,55
 house,2026 House,2026,House,h2022,36,,Darryl Block,D,37855,final,29,29
@@ -1448,30 +1448,30 @@ house,2026 House,2026,House,h2022,102,,"Michael ""Mike"" Friend",D,42884,countin
 house,2026 House,2026,House,h2022,102,,Mery Lopez-Palma,R,28754,counting,39,40
 house,2026 House,2026,House,h2022,103,,Robin Bartleman,D,47020,counting,32,33
 house,2026 House,2026,House,h2022,103,,Imtiaz Mohammad,R,20750,counting,32,33
-house,2026 House,2026,House,h2022,106,,Lucia Baez-Geller,D,30759,counting,41,45
-house,2026 House,2026,House,h2022,106,,FabiÃ¡n Basabe,R,26266,counting,41,45
-house,2026 House,2026,House,h2022,108,,Daphne Campbell,D,39102,counting,67,73
-house,2026 House,2026,House,h2022,108,,Wancito Francius,R,9245,counting,67,73
-house,2026 House,2026,House,h2022,113,,Gloria Romero Roses,D,24552,counting,39,42
-house,2026 House,2026,House,h2022,113,,Bruno A. Barreiro,R,20425,counting,39,42
-house,2026 House,2026,House,h2022,113,,Write-ins,W,0,counting,39,42
-house,2026 House,2026,House,h2022,115,,Omar Blanco,R,37569,counting,50,54
-house,2026 House,2026,House,h2022,115,,Marcos Reyes,D,33163,counting,50,54
-house,2026 House,2026,House,h2022,116,,Ashley Perez-Biliskov,R,33360,counting,41,45
-house,2026 House,2026,House,h2022,116,,Nicolas Ramos,D,22947,counting,41,45
-house,2026 House,2026,House,h2022,117,,Kevin Chambliss,D,29184,counting,36,39
-house,2026 House,2026,House,h2022,117,,Miguel Granda,R,16260,counting,36,39
-house,2026 House,2026,House,h2022,118,,Mike Redondo,R,35830,counting,46,50
-house,2026 House,2026,House,h2022,118,,"Armando ""A.C."" Castillo",D,25628,counting,46,50
-house,2026 House,2026,House,h2022,119,,Juan Porras,R,34091,counting,41,45
-house,2026 House,2026,House,h2022,119,,Rey Sordo,D,26907,counting,41,45
+house,2026 House,2026,House,h2022,106,,Lucia Baez-Geller,D,30759,final,45,45
+house,2026 House,2026,House,h2022,106,,FabiÃ¡n Basabe,R,26266,final,45,45
+house,2026 House,2026,House,h2022,108,,Daphne Campbell,D,39102,final,73,73
+house,2026 House,2026,House,h2022,108,,Wancito Francius,R,9245,final,73,73
+house,2026 House,2026,House,h2022,113,,Gloria Romero Roses,D,24552,final,42,42
+house,2026 House,2026,House,h2022,113,,Bruno A. Barreiro,R,20425,final,42,42
+house,2026 House,2026,House,h2022,113,,Write-ins,W,0,final,42,42
+house,2026 House,2026,House,h2022,115,,Omar Blanco,R,37569,final,54,54
+house,2026 House,2026,House,h2022,115,,Marcos Reyes,D,33163,final,54,54
+house,2026 House,2026,House,h2022,116,,Ashley Perez-Biliskov,R,33360,final,45,45
+house,2026 House,2026,House,h2022,116,,Nicolas Ramos,D,22947,final,45,45
+house,2026 House,2026,House,h2022,117,,Kevin Chambliss,D,29184,final,39,39
+house,2026 House,2026,House,h2022,117,,Miguel Granda,R,16260,final,39,39
+house,2026 House,2026,House,h2022,118,,Mike Redondo,R,35830,final,50,50
+house,2026 House,2026,House,h2022,118,,"Armando ""A.C."" Castillo",D,25628,final,50,50
+house,2026 House,2026,House,h2022,119,,Juan Porras,R,34091,final,45,45
+house,2026 House,2026,House,h2022,119,,Rey Sordo,D,26907,final,45,45
 senate,2026 Senate,2026,Senate,s2022,2,,Jay Trumbull,R,145305,final,145,145
 senate,2026 Senate,2026,Senate,s2022,2,,Lauren Donahoo,D,57177,final,145,145
-senate,2026 Senate,2026,Senate,s2022,6,,Jennifer Bradley,R,121772,counting,156,157
-senate,2026 Senate,2026,Senate,s2022,6,,Jason Bellamy-Fults,D,85346,counting,156,157
-senate,2026 Senate,2026,Senate,s2022,6,,Joseph Thornton,O,2029,counting,156,157
-senate,2026 Senate,2026,Senate,s2022,8,,Jake Johansson,R,124762,final,148,148
-senate,2026 Senate,2026,Senate,s2022,8,,Judy M. Ngying,D,95981,final,148,148
+senate,2026 Senate,2026,Senate,s2022,6,,Jennifer Bradley,R,121772,counting,119,157
+senate,2026 Senate,2026,Senate,s2022,6,,Jason Bellamy-Fults,D,85346,counting,119,157
+senate,2026 Senate,2026,Senate,s2022,6,,Joseph Thornton,O,2029,counting,119,157
+senate,2026 Senate,2026,Senate,s2022,8,,Jake Johansson,R,124773,final,148,148
+senate,2026 Senate,2026,Senate,s2022,8,,Judy M. Ngying,D,96004,final,148,148
 senate,2026 Senate,2026,Senate,s2022,8,,Gabriel Wozniak,L,3921,final,148,148
 senate,2026 Senate,2026,Senate,s2022,10,,John Lowndes,D,124629,final,106,106
 senate,2026 Senate,2026,Senate,s2022,10,,Jason Brodeur,R,98286,final,106,106
@@ -1498,24 +1498,24 @@ senate,2026 Senate,2026,Senate,s2022,30,,Lauren Book,D,114882,counting,109,110
 senate,2026 Senate,2026,Senate,s2022,30,,Hector Rivera,R,67997,counting,109,110
 senate,2026 Senate,2026,Senate,s2022,32,,Rosalind Osgood,D,142506,counting,98,99
 senate,2026 Senate,2026,Senate,s2022,32,,Crescente Furnaguera,I,22973,counting,98,99
-senate,2026 Senate,2026,Senate,s2022,34,,Ashley Gantt,D,114746,counting,155,167
-senate,2026 Senate,2026,Senate,s2022,34,,Elizabeth Jeanty,R,30836,counting,155,167
-senate,2026 Senate,2026,Senate,s2022,36,,Ileana Garcia,R,70707,counting,130,140
-senate,2026 Senate,2026,Senate,s2022,36,,George LavÃ­n,D,68906,counting,130,140
-senate,2026 Senate,2026,Senate,s2022,38,,Alexis Calatayud,R,92538,counting,150,162
-senate,2026 Senate,2026,Senate,s2022,38,,Richard Lamondin,D,90884,counting,150,162
-senate,2026 Senate,2026,Senate,s2022,38,,"Jeffrey ""Doc"" Solomon",I,3356,counting,150,162
-senate,2026 Senate,2026,Senate,s2022,40,,Ana Rodriguez,R,94842,counting,139,148
-senate,2026 Senate,2026,Senate,s2022,40,,Jose Stoute,D,74985,counting,139,148
-senate,2026 Senate,2026,Senate,s2022,40,,Ramiro Orta,I,1859,counting,139,148
+senate,2026 Senate,2026,Senate,s2022,34,,Ashley Gantt,D,114746,final,167,167
+senate,2026 Senate,2026,Senate,s2022,34,,Elizabeth Jeanty,R,30836,final,167,167
+senate,2026 Senate,2026,Senate,s2022,36,,Ileana Garcia,R,70707,final,140,140
+senate,2026 Senate,2026,Senate,s2022,36,,George LavÃ­n,D,68906,final,140,140
+senate,2026 Senate,2026,Senate,s2022,38,,Alexis Calatayud,R,92538,final,162,162
+senate,2026 Senate,2026,Senate,s2022,38,,Richard Lamondin,D,90884,final,162,162
+senate,2026 Senate,2026,Senate,s2022,38,,"Jeffrey ""Doc"" Solomon",I,3356,final,162,162
+senate,2026 Senate,2026,Senate,s2022,40,,Ana Rodriguez,R,94842,final,148,148
+senate,2026 Senate,2026,Senate,s2022,40,,Jose Stoute,D,74985,final,148,148
+senate,2026 Senate,2026,Senate,s2022,40,,Ramiro Orta,I,1859,final,148,148
 ushouse,2026 U.S. House,2026,U.S. House,c2026,1,,Jimmy Patronis,R,181483,final,188,188
 ushouse,2026 U.S. House,2026,U.S. House,c2026,1,,Gay Valimont,D,103042,final,188,188
 ushouse,2026 U.S. House,2026,U.S. House,c2026,1,,Tyler L. Davis,I,5302,final,188,188
-ushouse,2026 U.S. House,2026,U.S. House,c2026,2,,Austin Rogers,R,160746,final,330,330
-ushouse,2026 U.S. House,2026,U.S. House,c2026,2,,Amanda Green,D,146862,final,330,330
-ushouse,2026 U.S. House,2026,U.S. House,c2026,3,,Kat Cammack,R,164789,counting,244,246
-ushouse,2026 U.S. House,2026,U.S. House,c2026,3,,Seth Harp,D,128533,counting,244,246
-ushouse,2026 U.S. House,2026,U.S. House,c2026,3,,Mike Klein,I,5571,counting,244,246
+ushouse,2026 U.S. House,2026,U.S. House,c2026,2,,Austin Rogers,R,160968,final,330,330
+ushouse,2026 U.S. House,2026,U.S. House,c2026,2,,Amanda Green,D,147791,final,330,330
+ushouse,2026 U.S. House,2026,U.S. House,c2026,3,,Kat Cammack,R,164789,counting,183,246
+ushouse,2026 U.S. House,2026,U.S. House,c2026,3,,Seth Harp,D,128533,counting,183,246
+ushouse,2026 U.S. House,2026,U.S. House,c2026,3,,Mike Klein,I,5571,counting,183,246
 ushouse,2026 U.S. House,2026,U.S. House,c2026,4,,Aaron Bean,R,150780,final,144,144
 ushouse,2026 U.S. House,2026,U.S. House,c2026,4,,"LaShonda ""L.J."" Holloway",D,143950,final,144,144
 ushouse,2026 U.S. House,2026,U.S. House,c2026,4,,Todd Schaefer,I,3175,final,144,144
@@ -1530,8 +1530,8 @@ ushouse,2026 U.S. House,2026,U.S. House,c2026,6,,Write-ins,W,0,final,225,225
 ushouse,2026 U.S. House,2026,U.S. House,c2026,7,,Ryan Elijah,R,161019,final,156,156
 ushouse,2026 U.S. House,2026,U.S. House,c2026,7,,Bale Dalton,D,159113,final,156,156
 ushouse,2026 U.S. House,2026,U.S. House,c2026,7,,Christopher Dennison,L,3471,final,156,156
-ushouse,2026 U.S. House,2026,U.S. House,c2026,8,,Mike Haridopolos,R,168097,final,183,183
-ushouse,2026 U.S. House,2026,U.S. House,c2026,8,,Jennifer Jenkins,D,147148,final,183,183
+ushouse,2026 U.S. House,2026,U.S. House,c2026,8,,Mike Haridopolos,R,168132,final,183,183
+ushouse,2026 U.S. House,2026,U.S. House,c2026,8,,Jennifer Jenkins,D,147288,final,183,183
 ushouse,2026 U.S. House,2026,U.S. House,c2026,9,,Darren Soto,D,143174,final,222,222
 ushouse,2026 U.S. House,2026,U.S. House,c2026,9,,Dan Green,R,141697,final,222,222
 ushouse,2026 U.S. House,2026,U.S. House,c2026,11,,Joe Strada,R,193518,final,160,160
@@ -1574,21 +1574,21 @@ ushouse,2026 U.S. House,2026,U.S. House,c2026,22,,Pia Dandiya,D,152448,counting,
 ushouse,2026 U.S. House,2026,U.S. House,c2026,22,,Casey Askar,R,141492,counting,233,234
 ushouse,2026 U.S. House,2026,U.S. House,c2026,23,,Lois Frankel,D,168189,final,385,385
 ushouse,2026 U.S. House,2026,U.S. House,c2026,23,,Deborah Adeimy,R,88289,final,385,385
-ushouse,2026 U.S. House,2026,U.S. House,c2026,24,,Oliver G. Gilbert,D,163901,counting,206,220
-ushouse,2026 U.S. House,2026,U.S. House,c2026,24,,Te Brown,R,39309,counting,206,220
-ushouse,2026 U.S. House,2026,U.S. House,c2026,24,,Write-ins,W,0,counting,206,220
-ushouse,2026 U.S. House,2026,U.S. House,c2026,25,,Jared Moskowitz,D,143140,counting,317,324
-ushouse,2026 U.S. House,2026,U.S. House,c2026,25,,Scott Singer,R,130353,counting,317,324
-ushouse,2026 U.S. House,2026,U.S. House,c2026,25,,Peter Jassenoff,L,5856,counting,317,324
-ushouse,2026 U.S. House,2026,U.S. House,c2026,25,,Write-ins,W,0,counting,317,324
-ushouse,2026 U.S. House,2026,U.S. House,c2026,26,,Mario Diaz-Balart,R,114194,counting,151,159
-ushouse,2026 U.S. House,2026,U.S. House,c2026,26,,Nicole Locklin,D,112320,counting,151,159
-ushouse,2026 U.S. House,2026,U.S. House,c2026,26,,Deborah Meidinger Hosey,I,2334,counting,151,159
-ushouse,2026 U.S. House,2026,U.S. House,c2026,27,,Maria Salazar,R,123838,counting,203,219
-ushouse,2026 U.S. House,2026,U.S. House,c2026,27,,Eliott Rodriguez,D,122513,counting,203,219
-ushouse,2026 U.S. House,2026,U.S. House,c2026,28,,Carlos A. Gimenez,R,124377,counting,194,207
-ushouse,2026 U.S. House,2026,U.S. House,c2026,28,,"Phil ""Felipe"" Ehr",D,107274,counting,194,207
-ushouse,2026 U.S. House,2026,U.S. House,c2026,28,,Eddy Rojas,I,3425,counting,194,207
+ushouse,2026 U.S. House,2026,U.S. House,c2026,24,,Oliver G. Gilbert,D,163901,counting,219,220
+ushouse,2026 U.S. House,2026,U.S. House,c2026,24,,Te Brown,R,39309,counting,219,220
+ushouse,2026 U.S. House,2026,U.S. House,c2026,24,,Write-ins,W,0,counting,219,220
+ushouse,2026 U.S. House,2026,U.S. House,c2026,25,,Jared Moskowitz,D,143140,counting,322,324
+ushouse,2026 U.S. House,2026,U.S. House,c2026,25,,Scott Singer,R,130353,counting,322,324
+ushouse,2026 U.S. House,2026,U.S. House,c2026,25,,Peter Jassenoff,L,5856,counting,322,324
+ushouse,2026 U.S. House,2026,U.S. House,c2026,25,,Write-ins,W,0,counting,322,324
+ushouse,2026 U.S. House,2026,U.S. House,c2026,26,,Mario Diaz-Balart,R,114194,counting,158,159
+ushouse,2026 U.S. House,2026,U.S. House,c2026,26,,Nicole Locklin,D,112320,counting,158,159
+ushouse,2026 U.S. House,2026,U.S. House,c2026,26,,Deborah Meidinger Hosey,I,2334,counting,158,159
+ushouse,2026 U.S. House,2026,U.S. House,c2026,27,,Maria Salazar,R,123838,final,219,219
+ushouse,2026 U.S. House,2026,U.S. House,c2026,27,,Eliott Rodriguez,D,122513,final,219,219
+ushouse,2026 U.S. House,2026,U.S. House,c2026,28,,Carlos A. Gimenez,R,124377,final,207,207
+ushouse,2026 U.S. House,2026,U.S. House,c2026,28,,"Phil ""Felipe"" Ehr",D,107274,final,207,207
+ushouse,2026 U.S. House,2026,U.S. House,c2026,28,,Eddy Rojas,I,3425,final,207,207
 house,2026 House,2026,House,h2022,7,,Jason Shoaf,R,,final,,
 house,2026 House,2026,House,h2022,8,,Gallop Franklin,D,,final,,
 house,2026 House,2026,House,h2022,11,,Sam Garrison,R,,final,,
