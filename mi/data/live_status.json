@@ -1,14 +1,12 @@
 [
  {
   "phase": "counting",
-  "updated_at": "2026-11-04T05:37:03Z",
+  "updated_at": "2026-11-04T05:39:38Z",
   "source": "CivicAPI, unofficial",
   "races": 165,
   "called": 7,
-  "counting": 113,
-  "problems": [
-   "CivicAPI search (Michigan State House): /race/search?country=US&province=MI&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Michigan%20State%20House: H"
-  ],
+  "counting": 119,
+  "problems": [],
   "local_problems": []
  }
 ]
