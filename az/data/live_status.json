@@ -1,11 +1,11 @@
 [
  {
   "phase": "counting",
-  "updated_at": "2026-11-05T15:39:43Z",
+  "updated_at": "2026-11-05T22:08:30Z",
   "source": "CivicAPI, unofficial",
   "races": 76,
-  "called": 33,
-  "counting": 43,
+  "called": 34,
+  "counting": 42,
   "problems": [],
   "local_problems": []
  }
