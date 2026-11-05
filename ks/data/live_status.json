@@ -1,19 +1,12 @@
 [
  {
   "phase": "counting",
-  "updated_at": "2026-11-05T07:35:17Z",
+  "updated_at": "2026-11-05T15:49:35Z",
   "source": "CivicAPI, unofficial",
   "races": 137,
-  "called": 53,
+  "called": 92,
   "counting": 45,
-  "problems": [
-   "CivicAPI search (Kansas State House): /race/search?country=US&province=KS&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Kansas%20State%20House: HTT",
-   "CivicAPI search (Kansas State Senate): /race/search?country=US&province=KS&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Kansas%20State%20Senate: HT",
-   "CivicAPI search (Kansas US): /race/search?country=US&province=KS&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Kansas%20US: HTTP 522  erro",
-   "CivicAPI search (Kansas Governor): /race/search?country=US&province=KS&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Kansas%20Governor: HTTP 522",
-   "94 races not sent by CivicAPI this time; kept the last published numbers",
-   "no live source yet for 2 statewide races, 4 U.S. House races, 2 Kansas Senate races, 125 Kansas House races"
-  ],
+  "problems": [],
   "local_problems": []
  }
 ]
