@@ -1,220 +1,414 @@
 level,race,year,office,plan,unit,unit_name,candidate,party,votes,status,reporting,reporting_total
-statewide,2026 Attorney General,2026,Attorney General,,55001,Adams,Eric Toney,R,6163,final,95,100
-statewide,2026 Attorney General,2026,Attorney General,,55001,Adams,Josh Kaul,D,4033,final,95,100
-statewide,2026 Attorney General,2026,Attorney General,,55001,Adams,Write-in,W,0,final,95,100
-statewide,2026 Attorney General,2026,Attorney General,,55003,Ashland,Josh Kaul,D,3874,final,93.8,100
-statewide,2026 Attorney General,2026,Attorney General,,55003,Ashland,Eric Toney,R,2852,final,93.8,100
-statewide,2026 Attorney General,2026,Attorney General,,55003,Ashland,Write-in,W,0,final,93.8,100
-statewide,2026 Attorney General,2026,Attorney General,,55005,Barron,Eric Toney,R,12287,final,97.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55005,Barron,Josh Kaul,D,7834,final,97.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55005,Barron,Write-in,W,0,final,97.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55007,Bayfield,Josh Kaul,D,5722,final,96.4,100
-statewide,2026 Attorney General,2026,Attorney General,,55007,Bayfield,Eric Toney,R,3787,final,96.4,100
-statewide,2026 Attorney General,2026,Attorney General,,55007,Bayfield,Write-in,W,0,final,96.4,100
-statewide,2026 Attorney General,2026,Attorney General,,55009,Brown,Josh Kaul,D,58889,final,98,100
-statewide,2026 Attorney General,2026,Attorney General,,55009,Brown,Eric Toney,R,55024,final,98,100
-statewide,2026 Attorney General,2026,Attorney General,,55009,Brown,Write-in,W,0,final,98,100
-statewide,2026 Attorney General,2026,Attorney General,,55011,Buffalo,Eric Toney,R,3774,final,95.7,100
-statewide,2026 Attorney General,2026,Attorney General,,55011,Buffalo,Josh Kaul,D,2485,final,95.7,100
-statewide,2026 Attorney General,2026,Attorney General,,55011,Buffalo,Write-in,W,0,final,95.7,100
-statewide,2026 Attorney General,2026,Attorney General,,55013,Burnett,Eric Toney,R,5449,final,95.8,100
-statewide,2026 Attorney General,2026,Attorney General,,55013,Burnett,Josh Kaul,D,3125,final,95.8,100
-statewide,2026 Attorney General,2026,Attorney General,,55013,Burnett,Write-in,W,0,final,95.8,100
-statewide,2026 Attorney General,2026,Attorney General,,55015,Calumet,Eric Toney,R,14194,final,98,100
-statewide,2026 Attorney General,2026,Attorney General,,55015,Calumet,Josh Kaul,D,11068,final,98,100
-statewide,2026 Attorney General,2026,Attorney General,,55015,Calumet,Write-in,W,0,final,98,100
-statewide,2026 Attorney General,2026,Attorney General,,55017,Chippewa,Eric Toney,R,16683,final,97.7,100
-statewide,2026 Attorney General,2026,Attorney General,,55017,Chippewa,Josh Kaul,D,13242,final,97.7,100
-statewide,2026 Attorney General,2026,Attorney General,,55017,Chippewa,Write-in,W,0,final,97.7,100
-statewide,2026 Attorney General,2026,Attorney General,,55019,Clark,Eric Toney,R,7397,final,98,100
-statewide,2026 Attorney General,2026,Attorney General,,55019,Clark,Josh Kaul,D,4123,final,98,100
-statewide,2026 Attorney General,2026,Attorney General,,55019,Clark,Write-in,W,0,final,98,100
-statewide,2026 Attorney General,2026,Attorney General,,55021,Columbia,Josh Kaul,D,14249,final,97.3,100
-statewide,2026 Attorney General,2026,Attorney General,,55021,Columbia,Eric Toney,R,12771,final,97.3,100
-statewide,2026 Attorney General,2026,Attorney General,,55021,Columbia,Write-in,W,0,final,97.3,100
-statewide,2026 Attorney General,2026,Attorney General,,55023,Crawford,Josh Kaul,D,3574,final,96.3,100
-statewide,2026 Attorney General,2026,Attorney General,,55023,Crawford,Eric Toney,R,3434,final,96.3,100
-statewide,2026 Attorney General,2026,Attorney General,,55023,Crawford,Write-in,W,0,final,96.3,100
-statewide,2026 Attorney General,2026,Attorney General,,55025,Dane,Josh Kaul,D,249329,final,98.9,100
-statewide,2026 Attorney General,2026,Attorney General,,55025,Dane,Eric Toney,R,60594,final,98.9,100
-statewide,2026 Attorney General,2026,Attorney General,,55025,Dane,Write-in,W,0,final,98.9,100
-statewide,2026 Attorney General,2026,Attorney General,,55027,Dodge,Eric Toney,R,23065,final,98.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55027,Dodge,Josh Kaul,D,13670,final,98.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55027,Dodge,Write-in,W,0,final,98.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55029,Door,Josh Kaul,D,9406,final,95.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55029,Door,Eric Toney,R,8080,final,95.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55029,Door,Write-in,W,0,final,95.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55031,Douglas,Josh Kaul,D,11286,final,96.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55031,Douglas,Eric Toney,R,7878,final,96.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55031,Douglas,Write-in,W,0,final,96.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55033,Dunn,Eric Toney,R,10186,final,97.1,100
-statewide,2026 Attorney General,2026,Attorney General,,55033,Dunn,Josh Kaul,D,9410,final,97.1,100
-statewide,2026 Attorney General,2026,Attorney General,,55033,Dunn,Write-in,W,0,final,97.1,100
-statewide,2026 Attorney General,2026,Attorney General,,55035,Eau Claire,Josh Kaul,D,31659,final,99,100
-statewide,2026 Attorney General,2026,Attorney General,,55035,Eau Claire,Eric Toney,R,19005,final,99,100
-statewide,2026 Attorney General,2026,Attorney General,,55035,Eau Claire,Write-in,W,0,final,99,100
-statewide,2026 Attorney General,2026,Attorney General,,55037,Florence,Eric Toney,R,1754,final,87.5,100
-statewide,2026 Attorney General,2026,Attorney General,,55037,Florence,Josh Kaul,D,682,final,87.5,100
-statewide,2026 Attorney General,2026,Attorney General,,55037,Florence,Write-in,W,0,final,87.5,100
-statewide,2026 Attorney General,2026,Attorney General,,55039,Fond du Lac,Eric Toney,R,27461,final,98.3,100
-statewide,2026 Attorney General,2026,Attorney General,,55039,Fond du Lac,Josh Kaul,D,16386,final,98.3,100
-statewide,2026 Attorney General,2026,Attorney General,,55039,Fond du Lac,Write-in,W,0,final,98.3,100
-statewide,2026 Attorney General,2026,Attorney General,,55041,Forest,Eric Toney,R,2506,final,93.3,100
-statewide,2026 Attorney General,2026,Attorney General,,55041,Forest,Josh Kaul,D,1490,final,93.3,100
-statewide,2026 Attorney General,2026,Attorney General,,55041,Forest,Write-in,W,0,final,93.3,100
-statewide,2026 Attorney General,2026,Attorney General,,55043,Grant,Eric Toney,R,10358,final,98.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55043,Grant,Josh Kaul,D,9118,final,98.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55043,Grant,Write-in,W,0,final,98.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55045,Green,Josh Kaul,D,9441,final,95.8,100
-statewide,2026 Attorney General,2026,Attorney General,,55045,Green,Eric Toney,R,7625,final,95.8,100
-statewide,2026 Attorney General,2026,Attorney General,,55045,Green,Write-in,W,0,final,95.8,100
-statewide,2026 Attorney General,2026,Attorney General,,55047,Green Lake,Eric Toney,R,5418,final,93.8,100
-statewide,2026 Attorney General,2026,Attorney General,,55047,Green Lake,Josh Kaul,D,2896,final,93.8,100
-statewide,2026 Attorney General,2026,Attorney General,,55047,Green Lake,Write-in,W,0,final,93.8,100
-statewide,2026 Attorney General,2026,Attorney General,,55049,Iowa,Josh Kaul,D,6811,final,96.6,100
-statewide,2026 Attorney General,2026,Attorney General,,55049,Iowa,Eric Toney,R,4606,final,96.6,100
-statewide,2026 Attorney General,2026,Attorney General,,55049,Iowa,Write-in,W,0,final,96.6,100
-statewide,2026 Attorney General,2026,Attorney General,,55051,Iron,Eric Toney,R,1911,final,93.3,100
-statewide,2026 Attorney General,2026,Attorney General,,55051,Iron,Josh Kaul,D,1266,final,93.3,100
-statewide,2026 Attorney General,2026,Attorney General,,55051,Iron,Write-in,W,0,final,93.3,100
-statewide,2026 Attorney General,2026,Attorney General,,55053,Jackson,Eric Toney,R,4398,final,96.9,100
-statewide,2026 Attorney General,2026,Attorney General,,55053,Jackson,Josh Kaul,D,3859,final,96.9,100
-statewide,2026 Attorney General,2026,Attorney General,,55053,Jackson,Write-in,W,0,final,96.9,100
-statewide,2026 Attorney General,2026,Attorney General,,55055,Jefferson,Eric Toney,R,20236,final,96.8,100
-statewide,2026 Attorney General,2026,Attorney General,,55055,Jefferson,Josh Kaul,D,17587,final,96.8,100
-statewide,2026 Attorney General,2026,Attorney General,,55055,Jefferson,Write-in,W,0,final,96.8,100
-statewide,2026 Attorney General,2026,Attorney General,,55057,Juneau,Eric Toney,R,6506,final,96.4,100
-statewide,2026 Attorney General,2026,Attorney General,,55057,Juneau,Josh Kaul,D,4185,final,96.4,100
-statewide,2026 Attorney General,2026,Attorney General,,55057,Juneau,Write-in,W,0,final,96.4,100
-statewide,2026 Attorney General,2026,Attorney General,,55059,Kenosha,Josh Kaul,D,35743,final,98.4,100
-statewide,2026 Attorney General,2026,Attorney General,,55059,Kenosha,Eric Toney,R,30938,final,98.4,100
-statewide,2026 Attorney General,2026,Attorney General,,55059,Kenosha,Write-in,W,0,final,98.4,100
-statewide,2026 Attorney General,2026,Attorney General,,55061,Kewaunee,Eric Toney,R,6001,final,92.9,100
-statewide,2026 Attorney General,2026,Attorney General,,55061,Kewaunee,Josh Kaul,D,3617,final,92.9,100
-statewide,2026 Attorney General,2026,Attorney General,,55061,Kewaunee,Write-in,W,0,final,92.9,100
-statewide,2026 Attorney General,2026,Attorney General,,55063,La Crosse,Josh Kaul,D,35189,final,98.1,100
-statewide,2026 Attorney General,2026,Attorney General,,55063,La Crosse,Eric Toney,R,21723,final,98.1,100
-statewide,2026 Attorney General,2026,Attorney General,,55063,La Crosse,Write-in,W,0,final,98.1,100
-statewide,2026 Attorney General,2026,Attorney General,,55065,Lafayette,Eric Toney,R,3574,final,96.4,100
-statewide,2026 Attorney General,2026,Attorney General,,55065,Lafayette,Josh Kaul,D,2954,final,96.4,100
-statewide,2026 Attorney General,2026,Attorney General,,55065,Lafayette,Write-in,W,0,final,96.4,100
-statewide,2026 Attorney General,2026,Attorney General,,55067,Langlade,Eric Toney,R,5639,final,95.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55067,Langlade,Josh Kaul,D,3133,final,95.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55067,Langlade,Write-in,W,0,final,95.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55069,Lincoln,Eric Toney,R,7637,final,96.3,100
-statewide,2026 Attorney General,2026,Attorney General,,55069,Lincoln,Josh Kaul,D,5326,final,96.3,100
-statewide,2026 Attorney General,2026,Attorney General,,55069,Lincoln,Write-in,W,0,final,96.3,100
-statewide,2026 Attorney General,2026,Attorney General,,55071,Manitowoc,Eric Toney,R,19637,final,97.5,100
-statewide,2026 Attorney General,2026,Attorney General,,55071,Manitowoc,Josh Kaul,D,14510,final,97.5,100
-statewide,2026 Attorney General,2026,Attorney General,,55071,Manitowoc,Write-in,W,0,final,97.5,100
-statewide,2026 Attorney General,2026,Attorney General,,55073,Marathon,Eric Toney,R,33461,final,98.9,100
-statewide,2026 Attorney General,2026,Attorney General,,55073,Marathon,Josh Kaul,D,27224,final,98.9,100
-statewide,2026 Attorney General,2026,Attorney General,,55073,Marathon,Write-in,W,0,final,98.9,100
-statewide,2026 Attorney General,2026,Attorney General,,55075,Marinette,Eric Toney,R,11490,final,96.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55075,Marinette,Josh Kaul,D,6230,final,96.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55075,Marinette,Write-in,W,0,final,96.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55077,Marquette,Eric Toney,R,4681,final,94.7,100
-statewide,2026 Attorney General,2026,Attorney General,,55077,Marquette,Josh Kaul,D,2798,final,94.7,100
-statewide,2026 Attorney General,2026,Attorney General,,55077,Marquette,Write-in,W,0,final,94.7,100
-statewide,2026 Attorney General,2026,Attorney General,,55078,Menominee,Josh Kaul,D,921,final,80,100
-statewide,2026 Attorney General,2026,Attorney General,,55078,Menominee,Eric Toney,R,240,final,80,100
-statewide,2026 Attorney General,2026,Attorney General,,55078,Menominee,Write-in,W,0,final,80,100
-statewide,2026 Attorney General,2026,Attorney General,,55079,Milwaukee,Josh Kaul,D,268664,final,98.8,100
-statewide,2026 Attorney General,2026,Attorney General,,55079,Milwaukee,Eric Toney,R,85130,final,98.8,100
-statewide,2026 Attorney General,2026,Attorney General,,55079,Milwaukee,Write-in,W,0,final,98.8,100
-statewide,2026 Attorney General,2026,Attorney General,,55081,Monroe,Eric Toney,R,10099,final,97.3,100
-statewide,2026 Attorney General,2026,Attorney General,,55081,Monroe,Josh Kaul,D,7411,final,97.3,100
-statewide,2026 Attorney General,2026,Attorney General,,55081,Monroe,Write-in,W,0,final,97.3,100
-statewide,2026 Attorney General,2026,Attorney General,,55083,Oconto,Eric Toney,R,12716,final,96.6,100
-statewide,2026 Attorney General,2026,Attorney General,,55083,Oconto,Josh Kaul,D,6087,final,96.6,100
-statewide,2026 Attorney General,2026,Attorney General,,55083,Oconto,Write-in,W,0,final,96.6,100
-statewide,2026 Attorney General,2026,Attorney General,,55085,Oneida,Eric Toney,R,11222,final,100,100
-statewide,2026 Attorney General,2026,Attorney General,,55085,Oneida,Josh Kaul,D,8807,final,100,100
-statewide,2026 Attorney General,2026,Attorney General,,55085,Oneida,Write-in,W,12,final,100,100
-statewide,2026 Attorney General,2026,Attorney General,,55087,Outagamie,Josh Kaul,D,42765,final,98.9,100
-statewide,2026 Attorney General,2026,Attorney General,,55087,Outagamie,Eric Toney,R,42435,final,98.9,100
-statewide,2026 Attorney General,2026,Attorney General,,55087,Outagamie,Write-in,W,0,final,98.9,100
-statewide,2026 Attorney General,2026,Attorney General,,55089,Ozaukee,Eric Toney,R,26543,final,100,100
-statewide,2026 Attorney General,2026,Attorney General,,55089,Ozaukee,Josh Kaul,D,24223,final,100,100
-statewide,2026 Attorney General,2026,Attorney General,,55089,Ozaukee,Write-in,W,33,final,100,100
-statewide,2026 Attorney General,2026,Attorney General,,55091,Pepin,Eric Toney,R,2025,final,90.9,100
-statewide,2026 Attorney General,2026,Attorney General,,55091,Pepin,Josh Kaul,D,1335,final,90.9,100
-statewide,2026 Attorney General,2026,Attorney General,,55091,Pepin,Write-in,W,0,final,90.9,100
-statewide,2026 Attorney General,2026,Attorney General,,55093,Pierce,Eric Toney,R,10614,final,96.3,100
-statewide,2026 Attorney General,2026,Attorney General,,55093,Pierce,Josh Kaul,D,9059,final,96.3,100
-statewide,2026 Attorney General,2026,Attorney General,,55093,Pierce,Write-in,W,0,final,96.3,100
-statewide,2026 Attorney General,2026,Attorney General,,55095,Polk,Eric Toney,R,13406,final,97.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55095,Polk,Josh Kaul,D,8058,final,97.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55095,Polk,Write-in,W,0,final,97.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55097,Portage,Josh Kaul,D,19433,final,97,100
-statewide,2026 Attorney General,2026,Attorney General,,55097,Portage,Eric Toney,R,14639,final,97,100
-statewide,2026 Attorney General,2026,Attorney General,,55097,Portage,Write-in,W,0,final,97,100
-statewide,2026 Attorney General,2026,Attorney General,,55099,Price,Eric Toney,R,4271,final,95.7,100
-statewide,2026 Attorney General,2026,Attorney General,,55099,Price,Josh Kaul,D,2599,final,95.7,100
-statewide,2026 Attorney General,2026,Attorney General,,55099,Price,Write-in,W,0,final,95.7,100
-statewide,2026 Attorney General,2026,Attorney General,,55101,Racine,Josh Kaul,D,42504,final,98.9,100
-statewide,2026 Attorney General,2026,Attorney General,,55101,Racine,Eric Toney,R,39498,final,98.9,100
-statewide,2026 Attorney General,2026,Attorney General,,55101,Racine,Write-in,W,0,final,98.9,100
-statewide,2026 Attorney General,2026,Attorney General,,55103,Richland,Josh Kaul,D,3450,final,95.5,100
-statewide,2026 Attorney General,2026,Attorney General,,55103,Richland,Eric Toney,R,3404,final,95.5,100
-statewide,2026 Attorney General,2026,Attorney General,,55103,Richland,Write-in,W,0,final,95.5,100
-statewide,2026 Attorney General,2026,Attorney General,,55105,Rock,Josh Kaul,D,40001,final,98.1,100
-statewide,2026 Attorney General,2026,Attorney General,,55105,Rock,Eric Toney,R,26955,final,98.1,100
-statewide,2026 Attorney General,2026,Attorney General,,55105,Rock,Write-in,W,0,final,98.1,100
-statewide,2026 Attorney General,2026,Attorney General,,55107,Rusk,Eric Toney,R,4160,final,97,100
-statewide,2026 Attorney General,2026,Attorney General,,55107,Rusk,Josh Kaul,D,2261,final,97,100
-statewide,2026 Attorney General,2026,Attorney General,,55107,Rusk,Write-in,W,0,final,97,100
-statewide,2026 Attorney General,2026,Attorney General,,55111,Sauk,Josh Kaul,D,15963,final,98,100
-statewide,2026 Attorney General,2026,Attorney General,,55111,Sauk,Eric Toney,R,13390,final,98,100
-statewide,2026 Attorney General,2026,Attorney General,,55111,Sauk,Write-in,W,0,final,98,100
-statewide,2026 Attorney General,2026,Attorney General,,55113,Sawyer,Eric Toney,R,5016,final,95.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55113,Sawyer,Josh Kaul,D,4099,final,95.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55113,Sawyer,Write-in,W,0,final,95.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55115,Shawano,Eric Toney,R,11196,final,97.7,100
-statewide,2026 Attorney General,2026,Attorney General,,55115,Shawano,Josh Kaul,D,6151,final,97.7,100
-statewide,2026 Attorney General,2026,Attorney General,,55115,Shawano,Write-in,W,0,final,97.7,100
-statewide,2026 Attorney General,2026,Attorney General,,55117,Sheboygan,Eric Toney,R,28020,final,96.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55117,Sheboygan,Josh Kaul,D,23705,final,96.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55117,Sheboygan,Write-in,W,0,final,96.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55109,St. Croix,Eric Toney,R,26527,final,97.5,100
-statewide,2026 Attorney General,2026,Attorney General,,55109,St. Croix,Josh Kaul,D,20490,final,97.5,100
-statewide,2026 Attorney General,2026,Attorney General,,55109,St. Croix,Write-in,W,0,final,97.5,100
-statewide,2026 Attorney General,2026,Attorney General,,55119,Taylor,Josh Kaul,D,0,final,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55119,Taylor,Eric Toney,R,0,final,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55119,Taylor,Write-in,W,0,final,0,100
-statewide,2026 Attorney General,2026,Attorney General,,55121,Trempealeau,Eric Toney,R,6642,final,96.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55121,Trempealeau,Josh Kaul,D,5622,final,96.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55121,Trempealeau,Write-in,W,0,final,96.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55123,Vernon,Josh Kaul,D,6908,final,97,100
-statewide,2026 Attorney General,2026,Attorney General,,55123,Vernon,Eric Toney,R,6372,final,97,100
-statewide,2026 Attorney General,2026,Attorney General,,55123,Vernon,Write-in,W,0,final,97,100
-statewide,2026 Attorney General,2026,Attorney General,,55125,Vilas,Eric Toney,R,7904,final,93.3,100
-statewide,2026 Attorney General,2026,Attorney General,,55125,Vilas,Josh Kaul,D,5138,final,93.3,100
-statewide,2026 Attorney General,2026,Attorney General,,55125,Vilas,Write-in,W,0,final,93.3,100
-statewide,2026 Attorney General,2026,Attorney General,,55127,Walworth,Eric Toney,R,25980,final,97.4,100
-statewide,2026 Attorney General,2026,Attorney General,,55127,Walworth,Josh Kaul,D,20053,final,97.4,100
-statewide,2026 Attorney General,2026,Attorney General,,55127,Walworth,Write-in,W,0,final,97.4,100
-statewide,2026 Attorney General,2026,Attorney General,,55129,Washburn,Eric Toney,R,5341,final,96,100
-statewide,2026 Attorney General,2026,Attorney General,,55129,Washburn,Josh Kaul,D,3439,final,96,100
-statewide,2026 Attorney General,2026,Attorney General,,55129,Washburn,Write-in,W,0,final,96,100
-statewide,2026 Attorney General,2026,Attorney General,,55131,Washington,Eric Toney,R,46562,final,97.7,100
-statewide,2026 Attorney General,2026,Attorney General,,55131,Washington,Josh Kaul,D,23945,final,97.7,100
-statewide,2026 Attorney General,2026,Attorney General,,55131,Washington,Write-in,W,0,final,97.7,100
-statewide,2026 Attorney General,2026,Attorney General,,55133,Waukesha,Eric Toney,R,124661,final,98.9,100
-statewide,2026 Attorney General,2026,Attorney General,,55133,Waukesha,Josh Kaul,D,92848,final,98.9,100
-statewide,2026 Attorney General,2026,Attorney General,,55133,Waukesha,Write-in,W,0,final,98.9,100
-statewide,2026 Attorney General,2026,Attorney General,,55135,Waupaca,Eric Toney,R,14524,final,97.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55135,Waupaca,Josh Kaul,D,8443,final,97.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55135,Waupaca,Write-in,W,0,final,97.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55137,Waushara,Eric Toney,R,7194,final,96.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55137,Waushara,Josh Kaul,D,3842,final,96.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55137,Waushara,Write-in,W,0,final,96.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55139,Winnebago,Josh Kaul,D,38317,final,94.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55139,Winnebago,Eric Toney,R,33788,final,94.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55139,Winnebago,Write-in,W,0,final,94.2,100
-statewide,2026 Attorney General,2026,Attorney General,,55141,Wood,Eric Toney,R,17672,final,100,100
-statewide,2026 Attorney General,2026,Attorney General,,55141,Wood,Josh Kaul,D,14314,final,100,100
-statewide,2026 Attorney General,2026,Attorney General,,55141,Wood,Write-in,W,0,final,100,100
+senate,2026 Senate,2026,Senate,s2024,3,,Tim Carpenter,D,0,pending,0,100
+senate,2026 Senate,2026,Senate,s2024,27,,Dianne Hesselbein,D,0,pending,0,100
+house,2026 Assembly,2026,Assembly,a2024,9,,Priscilla A. Prado,D,0,pending,0,100
+house,2026 Assembly,2026,Assembly,a2024,9,,Sam Guerrero,R,0,pending,0,100
+house,2026 Assembly,2026,Assembly,a2024,12,,"Russell Antonio Goodwin, Sr.",D,0,pending,0,100
+house,2026 Assembly,2026,Assembly,a2024,27,,Lindee Brill,R,0,pending,0,100
+house,2026 Assembly,2026,Assembly,a2024,33,,Maria Elena Bisabarros,D,0,pending,0,100
+house,2026 Assembly,2026,Assembly,a2024,33,,Steve Wicklund,R,0,pending,0,100
+house,2026 Assembly,2026,Assembly,a2024,46,,Joan Fitzgerald,D,0,pending,0,100
+house,2026 Assembly,2026,Assembly,a2024,46,,John Donohue,R,0,pending,0,100
+house,2026 Assembly,2026,Assembly,a2024,83,,Dave Maxey,R,0,pending,0,100
+house,2026 Assembly,2026,Assembly,a2024,84,,Chuck Wichgers,R,0,pending,0,100
+house,2026 Assembly,2026,Assembly,a2024,97,,Cindi Duchow,R,0,pending,0,100
+house,2026 Assembly,2026,Assembly,a2024,99,,Barbara Dittrich,R,0,pending,0,100
+house,2026 Assembly,2026,Assembly,a2024,63,,Robert Wittke,R,15635,final,32,100
+house,2026 Assembly,2026,Assembly,a2024,63,,Eddie Phanichkul,D,13594,final,32,100
+house,2026 Assembly,2026,Assembly,a2024,8,,Ismael Luna,D,8039,final,49,100
+house,2026 Assembly,2026,Assembly,a2024,8,,Angel Sanchez,R,1327,final,49,100
+house,2026 Assembly,2026,Assembly,a2024,72,,Scott Krug,R,16343,final,49,100
+house,2026 Assembly,2026,Assembly,a2024,72,,Christine Maltese,D,10814,final,49,100
+house,2026 Assembly,2026,Assembly,a2024,17,,Supreme Moore Omokunde,D,19592,final,49,100
+house,2026 Assembly,2026,Assembly,a2024,17,,Charlene Abughrin,R,2783,final,49,100
+house,2026 Assembly,2026,Assembly,a2024,81,,Alex Joers,D,25180,final,48,100
+house,2026 Assembly,2026,Assembly,a2024,81,,Mark S. Maier,R,9494,final,48,100
+house,2026 Assembly,2026,Assembly,a2024,26,,Joe Sheehan,D,12937,final,48,100
+house,2026 Assembly,2026,Assembly,a2024,26,,John Belanger,R,9268,final,48,100
+house,2026 Assembly,2026,Assembly,a2024,90,,Amaad Rivera-Wagner,D,11320,final,48,100
+house,2026 Assembly,2026,Assembly,a2024,90,,Jessica Henderson,R,7133,final,48,100
+house,2026 Assembly,2026,Assembly,a2024,47,,Randy Udell,D,25146,final,49,100
+house,2026 Assembly,2026,Assembly,a2024,47,,Sandy Bakk,R,7577,final,49,100
+house,2026 Assembly,2026,Assembly,a2024,47,,Democrat,D,0,final,49,100
+house,2026 Assembly,2026,Assembly,a2024,56,,Anthony W. Phillips,R,17183,final,32,100
+house,2026 Assembly,2026,Assembly,a2024,56,,Grace Abitz,D,11540,final,32,100
+house,2026 Assembly,2026,Assembly,a2024,1,,Joel Kitchens,R,18292,final,24,100
+house,2026 Assembly,2026,Assembly,a2024,1,,Renee A. Paplham,D,13603,final,24,100
+senate,2026 Senate,2026,Senate,s2024,19,,Rachael Ann Cabral-Guevara,R,51175,final,14,100
+senate,2026 Senate,2026,Senate,s2024,19,,Emily Daniels Tseffos,D,35081,final,14,100
+house,2026 Assembly,2026,Assembly,a2024,65,,Ben DeSmidt,D,13336,final,49,100
+house,2026 Assembly,2026,Assembly,a2024,65,,Valerie Kretchmer,R,8636,final,49,100
+house,2026 Assembly,2026,Assembly,a2024,10,,Darrin Madison,D,20564,final,48,100
+house,2026 Assembly,2026,Assembly,a2024,10,,Robert Longwell-Grice,G,2303,final,48,100
+house,2026 Assembly,2026,Assembly,a2024,74,,Chanz Green,R,17956,final,12,100
+house,2026 Assembly,2026,Assembly,a2024,74,,Paul Johnson,D,12864,final,12,100
+house,2026 Assembly,2026,Assembly,a2024,74,,Republican,R,0,final,12,100
+house,2026 Assembly,2026,Assembly,a2024,19,,Ryan Clancy,D,26030,final,49,100
+house,2026 Assembly,2026,Assembly,a2024,19,,Yasmine B. Outlaw,R,3852,final,49,100
+statewide,2026 Treasurer,2026,Treasurer,,55001,Adams,John S. Leiber,R,6424,final,95,100
+statewide,2026 Treasurer,2026,Treasurer,,55001,Adams,Yee Leng Xiong,D,3726,final,95,100
+statewide,2026 Treasurer,2026,Treasurer,,55001,Adams,Joseph Kexel,I,0,final,95,100
+statewide,2026 Treasurer,2026,Treasurer,,55001,Adams,Write-in,W,0,final,95,100
+statewide,2026 Treasurer,2026,Treasurer,,55003,Ashland,Yee Leng Xiong,D,3761,final,93.8,100
+statewide,2026 Treasurer,2026,Treasurer,,55003,Ashland,John S. Leiber,R,2934,final,93.8,100
+statewide,2026 Treasurer,2026,Treasurer,,55003,Ashland,Joseph Kexel,I,0,final,93.8,100
+statewide,2026 Treasurer,2026,Treasurer,,55003,Ashland,Write-in,W,0,final,93.8,100
+statewide,2026 Treasurer,2026,Treasurer,,55005,Barron,John S. Leiber,R,12908,final,97.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55005,Barron,Yee Leng Xiong,D,7180,final,97.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55005,Barron,Joseph Kexel,I,0,final,97.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55005,Barron,Write-in,W,0,final,97.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55007,Bayfield,Yee Leng Xiong,D,5495,final,96.4,100
+statewide,2026 Treasurer,2026,Treasurer,,55007,Bayfield,John S. Leiber,R,3985,final,96.4,100
+statewide,2026 Treasurer,2026,Treasurer,,55007,Bayfield,Joseph Kexel,I,0,final,96.4,100
+statewide,2026 Treasurer,2026,Treasurer,,55007,Bayfield,Write-in,W,0,final,96.4,100
+statewide,2026 Treasurer,2026,Treasurer,,55009,Brown,John S. Leiber,R,57977,final,98,100
+statewide,2026 Treasurer,2026,Treasurer,,55009,Brown,Yee Leng Xiong,D,54943,final,98,100
+statewide,2026 Treasurer,2026,Treasurer,,55009,Brown,Joseph Kexel,I,0,final,98,100
+statewide,2026 Treasurer,2026,Treasurer,,55009,Brown,Write-in,W,0,final,98,100
+statewide,2026 Treasurer,2026,Treasurer,,55011,Buffalo,John S. Leiber,R,4058,final,95.7,100
+statewide,2026 Treasurer,2026,Treasurer,,55011,Buffalo,Yee Leng Xiong,D,2141,final,95.7,100
+statewide,2026 Treasurer,2026,Treasurer,,55011,Buffalo,Joseph Kexel,I,0,final,95.7,100
+statewide,2026 Treasurer,2026,Treasurer,,55011,Buffalo,Write-in,W,0,final,95.7,100
+statewide,2026 Treasurer,2026,Treasurer,,55013,Burnett,John S. Leiber,R,5643,final,95.8,100
+statewide,2026 Treasurer,2026,Treasurer,,55013,Burnett,Yee Leng Xiong,D,2910,final,95.8,100
+statewide,2026 Treasurer,2026,Treasurer,,55013,Burnett,Joseph Kexel,I,0,final,95.8,100
+statewide,2026 Treasurer,2026,Treasurer,,55013,Burnett,Write-in,W,0,final,95.8,100
+statewide,2026 Treasurer,2026,Treasurer,,55015,Calumet,John S. Leiber,R,14848,final,98,100
+statewide,2026 Treasurer,2026,Treasurer,,55015,Calumet,Yee Leng Xiong,D,10168,final,98,100
+statewide,2026 Treasurer,2026,Treasurer,,55015,Calumet,Joseph Kexel,I,0,final,98,100
+statewide,2026 Treasurer,2026,Treasurer,,55015,Calumet,Write-in,W,0,final,98,100
+statewide,2026 Treasurer,2026,Treasurer,,55017,Chippewa,John S. Leiber,R,17627,final,97.7,100
+statewide,2026 Treasurer,2026,Treasurer,,55017,Chippewa,Yee Leng Xiong,D,11968,final,97.7,100
+statewide,2026 Treasurer,2026,Treasurer,,55017,Chippewa,Joseph Kexel,I,0,final,97.7,100
+statewide,2026 Treasurer,2026,Treasurer,,55017,Chippewa,Write-in,W,0,final,97.7,100
+statewide,2026 Treasurer,2026,Treasurer,,55019,Clark,John S. Leiber,R,7934,final,98,100
+statewide,2026 Treasurer,2026,Treasurer,,55019,Clark,Yee Leng Xiong,D,3582,final,98,100
+statewide,2026 Treasurer,2026,Treasurer,,55019,Clark,Joseph Kexel,I,0,final,98,100
+statewide,2026 Treasurer,2026,Treasurer,,55019,Clark,Write-in,W,0,final,98,100
+statewide,2026 Treasurer,2026,Treasurer,,55021,Columbia,John S. Leiber,R,13571,final,97.3,100
+statewide,2026 Treasurer,2026,Treasurer,,55021,Columbia,Yee Leng Xiong,D,13072,final,97.3,100
+statewide,2026 Treasurer,2026,Treasurer,,55021,Columbia,Joseph Kexel,I,0,final,97.3,100
+statewide,2026 Treasurer,2026,Treasurer,,55021,Columbia,Write-in,W,0,final,97.3,100
+statewide,2026 Treasurer,2026,Treasurer,,55023,Crawford,John S. Leiber,R,3724,final,96.3,100
+statewide,2026 Treasurer,2026,Treasurer,,55023,Crawford,Yee Leng Xiong,D,3220,final,96.3,100
+statewide,2026 Treasurer,2026,Treasurer,,55023,Crawford,Joseph Kexel,I,0,final,96.3,100
+statewide,2026 Treasurer,2026,Treasurer,,55023,Crawford,Write-in,W,0,final,96.3,100
+statewide,2026 Treasurer,2026,Treasurer,,55025,Dane,Yee Leng Xiong,D,239651,final,98.9,100
+statewide,2026 Treasurer,2026,Treasurer,,55025,Dane,John S. Leiber,R,67032,final,98.9,100
+statewide,2026 Treasurer,2026,Treasurer,,55025,Dane,Joseph Kexel,I,0,final,98.9,100
+statewide,2026 Treasurer,2026,Treasurer,,55025,Dane,Write-in,W,0,final,98.9,100
+statewide,2026 Treasurer,2026,Treasurer,,55027,Dodge,John S. Leiber,R,24194,final,98.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55027,Dodge,Yee Leng Xiong,D,12213,final,98.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55027,Dodge,Joseph Kexel,I,0,final,98.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55027,Dodge,Write-in,W,0,final,98.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55029,Door,John S. Leiber,R,8655,final,95.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55029,Door,Yee Leng Xiong,D,8630,final,95.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55029,Door,Joseph Kexel,I,0,final,95.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55029,Door,Write-in,W,0,final,95.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55031,Douglas,Yee Leng Xiong,D,10826,final,96.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55031,Douglas,John S. Leiber,R,8266,final,96.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55031,Douglas,Joseph Kexel,I,0,final,96.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55031,Douglas,Write-in,W,0,final,96.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55033,Dunn,John S. Leiber,R,10676,final,97.1,100
+statewide,2026 Treasurer,2026,Treasurer,,55033,Dunn,Yee Leng Xiong,D,8824,final,97.1,100
+statewide,2026 Treasurer,2026,Treasurer,,55033,Dunn,Joseph Kexel,I,0,final,97.1,100
+statewide,2026 Treasurer,2026,Treasurer,,55033,Dunn,Write-in,W,0,final,97.1,100
+statewide,2026 Treasurer,2026,Treasurer,,55035,Eau Claire,Yee Leng Xiong,D,30108,final,99,100
+statewide,2026 Treasurer,2026,Treasurer,,55035,Eau Claire,John S. Leiber,R,19958,final,99,100
+statewide,2026 Treasurer,2026,Treasurer,,55035,Eau Claire,Joseph Kexel,I,0,final,99,100
+statewide,2026 Treasurer,2026,Treasurer,,55035,Eau Claire,Write-in,W,0,final,99,100
+statewide,2026 Treasurer,2026,Treasurer,,55037,Florence,John S. Leiber,R,1794,final,87.5,100
+statewide,2026 Treasurer,2026,Treasurer,,55037,Florence,Yee Leng Xiong,D,627,final,87.5,100
+statewide,2026 Treasurer,2026,Treasurer,,55037,Florence,Joseph Kexel,I,0,final,87.5,100
+statewide,2026 Treasurer,2026,Treasurer,,55037,Florence,Write-in,W,0,final,87.5,100
+statewide,2026 Treasurer,2026,Treasurer,,55039,Fond du Lac,John S. Leiber,R,27985,final,98.3,100
+statewide,2026 Treasurer,2026,Treasurer,,55039,Fond du Lac,Yee Leng Xiong,D,15274,final,98.3,100
+statewide,2026 Treasurer,2026,Treasurer,,55039,Fond du Lac,Joseph Kexel,I,0,final,98.3,100
+statewide,2026 Treasurer,2026,Treasurer,,55039,Fond du Lac,Write-in,W,0,final,98.3,100
+statewide,2026 Treasurer,2026,Treasurer,,55041,Forest,John S. Leiber,R,2649,final,93.3,100
+statewide,2026 Treasurer,2026,Treasurer,,55041,Forest,Yee Leng Xiong,D,1317,final,93.3,100
+statewide,2026 Treasurer,2026,Treasurer,,55041,Forest,Joseph Kexel,I,0,final,93.3,100
+statewide,2026 Treasurer,2026,Treasurer,,55041,Forest,Write-in,W,0,final,93.3,100
+statewide,2026 Treasurer,2026,Treasurer,,55043,Grant,John S. Leiber,R,11098,final,98.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55043,Grant,Yee Leng Xiong,D,8443,final,98.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55043,Grant,Joseph Kexel,I,0,final,98.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55043,Grant,Write-in,W,0,final,98.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55045,Green,Yee Leng Xiong,D,8542,final,95.8,100
+statewide,2026 Treasurer,2026,Treasurer,,55045,Green,John S. Leiber,R,8293,final,95.8,100
+statewide,2026 Treasurer,2026,Treasurer,,55045,Green,Joseph Kexel,I,0,final,95.8,100
+statewide,2026 Treasurer,2026,Treasurer,,55045,Green,Write-in,W,0,final,95.8,100
+statewide,2026 Treasurer,2026,Treasurer,,55047,Green Lake,John S. Leiber,R,5665,final,93.8,100
+statewide,2026 Treasurer,2026,Treasurer,,55047,Green Lake,Yee Leng Xiong,D,2570,final,93.8,100
+statewide,2026 Treasurer,2026,Treasurer,,55047,Green Lake,Joseph Kexel,I,0,final,93.8,100
+statewide,2026 Treasurer,2026,Treasurer,,55047,Green Lake,Write-in,W,0,final,93.8,100
+statewide,2026 Treasurer,2026,Treasurer,,55049,Iowa,Yee Leng Xiong,D,6149,final,96.6,100
+statewide,2026 Treasurer,2026,Treasurer,,55049,Iowa,John S. Leiber,R,5160,final,96.6,100
+statewide,2026 Treasurer,2026,Treasurer,,55049,Iowa,Joseph Kexel,I,0,final,96.6,100
+statewide,2026 Treasurer,2026,Treasurer,,55049,Iowa,Write-in,W,0,final,96.6,100
+statewide,2026 Treasurer,2026,Treasurer,,55051,Iron,John S. Leiber,R,1985,final,93.3,100
+statewide,2026 Treasurer,2026,Treasurer,,55051,Iron,Yee Leng Xiong,D,1164,final,93.3,100
+statewide,2026 Treasurer,2026,Treasurer,,55051,Iron,Joseph Kexel,I,0,final,93.3,100
+statewide,2026 Treasurer,2026,Treasurer,,55051,Iron,Write-in,W,0,final,93.3,100
+statewide,2026 Treasurer,2026,Treasurer,,55053,Jackson,John S. Leiber,R,4761,final,96.9,100
+statewide,2026 Treasurer,2026,Treasurer,,55053,Jackson,Yee Leng Xiong,D,3422,final,96.9,100
+statewide,2026 Treasurer,2026,Treasurer,,55053,Jackson,Joseph Kexel,I,0,final,96.9,100
+statewide,2026 Treasurer,2026,Treasurer,,55053,Jackson,Write-in,W,0,final,96.9,100
+statewide,2026 Treasurer,2026,Treasurer,,55055,Jefferson,John S. Leiber,R,21275,final,96.8,100
+statewide,2026 Treasurer,2026,Treasurer,,55055,Jefferson,Yee Leng Xiong,D,16194,final,96.8,100
+statewide,2026 Treasurer,2026,Treasurer,,55055,Jefferson,Joseph Kexel,I,0,final,96.8,100
+statewide,2026 Treasurer,2026,Treasurer,,55055,Jefferson,Write-in,W,0,final,96.8,100
+statewide,2026 Treasurer,2026,Treasurer,,55057,Juneau,John S. Leiber,R,6889,final,96.4,100
+statewide,2026 Treasurer,2026,Treasurer,,55057,Juneau,Yee Leng Xiong,D,3737,final,96.4,100
+statewide,2026 Treasurer,2026,Treasurer,,55057,Juneau,Joseph Kexel,I,0,final,96.4,100
+statewide,2026 Treasurer,2026,Treasurer,,55057,Juneau,Write-in,W,0,final,96.4,100
+statewide,2026 Treasurer,2026,Treasurer,,55059,Kenosha,Yee Leng Xiong,D,33913,final,98.4,100
+statewide,2026 Treasurer,2026,Treasurer,,55059,Kenosha,John S. Leiber,R,32315,final,98.4,100
+statewide,2026 Treasurer,2026,Treasurer,,55059,Kenosha,Joseph Kexel,I,0,final,98.4,100
+statewide,2026 Treasurer,2026,Treasurer,,55059,Kenosha,Write-in,W,0,final,98.4,100
+statewide,2026 Treasurer,2026,Treasurer,,55061,Kewaunee,John S. Leiber,R,6385,final,92.9,100
+statewide,2026 Treasurer,2026,Treasurer,,55061,Kewaunee,Yee Leng Xiong,D,3117,final,92.9,100
+statewide,2026 Treasurer,2026,Treasurer,,55061,Kewaunee,Joseph Kexel,I,0,final,92.9,100
+statewide,2026 Treasurer,2026,Treasurer,,55061,Kewaunee,Write-in,W,0,final,92.9,100
+statewide,2026 Treasurer,2026,Treasurer,,55063,La Crosse,Yee Leng Xiong,D,33193,final,98.1,100
+statewide,2026 Treasurer,2026,Treasurer,,55063,La Crosse,John S. Leiber,R,23161,final,98.1,100
+statewide,2026 Treasurer,2026,Treasurer,,55063,La Crosse,Write-in,W,0,final,98.1,100
+statewide,2026 Treasurer,2026,Treasurer,,55063,La Crosse,Joseph Kexel,I,0,final,98.1,100
+statewide,2026 Treasurer,2026,Treasurer,,55065,Lafayette,John S. Leiber,R,3911,final,96.4,100
+statewide,2026 Treasurer,2026,Treasurer,,55065,Lafayette,Yee Leng Xiong,D,2535,final,96.4,100
+statewide,2026 Treasurer,2026,Treasurer,,55065,Lafayette,Joseph Kexel,I,0,final,96.4,100
+statewide,2026 Treasurer,2026,Treasurer,,55065,Lafayette,Write-in,W,0,final,96.4,100
+statewide,2026 Treasurer,2026,Treasurer,,55067,Langlade,John S. Leiber,R,5844,final,95.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55067,Langlade,Yee Leng Xiong,D,2882,final,95.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55067,Langlade,Joseph Kexel,I,0,final,95.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55067,Langlade,Write-in,W,0,final,95.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55069,Lincoln,John S. Leiber,R,7975,final,96.3,100
+statewide,2026 Treasurer,2026,Treasurer,,55069,Lincoln,Yee Leng Xiong,D,4912,final,96.3,100
+statewide,2026 Treasurer,2026,Treasurer,,55069,Lincoln,Joseph Kexel,I,0,final,96.3,100
+statewide,2026 Treasurer,2026,Treasurer,,55069,Lincoln,Write-in,W,0,final,96.3,100
+statewide,2026 Treasurer,2026,Treasurer,,55071,Manitowoc,John S. Leiber,R,20720,final,97.5,100
+statewide,2026 Treasurer,2026,Treasurer,,55071,Manitowoc,Yee Leng Xiong,D,13180,final,97.5,100
+statewide,2026 Treasurer,2026,Treasurer,,55071,Manitowoc,Joseph Kexel,I,0,final,97.5,100
+statewide,2026 Treasurer,2026,Treasurer,,55071,Manitowoc,Write-in,W,0,final,97.5,100
+statewide,2026 Treasurer,2026,Treasurer,,55073,Marathon,John S. Leiber,R,34443,final,98.9,100
+statewide,2026 Treasurer,2026,Treasurer,,55073,Marathon,Yee Leng Xiong,D,25781,final,98.9,100
+statewide,2026 Treasurer,2026,Treasurer,,55073,Marathon,Joseph Kexel,I,0,final,98.9,100
+statewide,2026 Treasurer,2026,Treasurer,,55073,Marathon,Write-in,W,0,final,98.9,100
+statewide,2026 Treasurer,2026,Treasurer,,55075,Marinette,John S. Leiber,R,12019,final,96.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55075,Marinette,Yee Leng Xiong,D,5519,final,96.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55075,Marinette,Joseph Kexel,I,0,final,96.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55075,Marinette,Write-in,W,0,final,96.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55077,Marquette,John S. Leiber,R,4904,final,94.7,100
+statewide,2026 Treasurer,2026,Treasurer,,55077,Marquette,Yee Leng Xiong,D,2519,final,94.7,100
+statewide,2026 Treasurer,2026,Treasurer,,55077,Marquette,Joseph Kexel,I,0,final,94.7,100
+statewide,2026 Treasurer,2026,Treasurer,,55077,Marquette,Write-in,W,0,final,94.7,100
+statewide,2026 Treasurer,2026,Treasurer,,55078,Menominee,Yee Leng Xiong,D,895,final,80,100
+statewide,2026 Treasurer,2026,Treasurer,,55078,Menominee,John S. Leiber,R,265,final,80,100
+statewide,2026 Treasurer,2026,Treasurer,,55078,Menominee,Joseph Kexel,I,0,final,80,100
+statewide,2026 Treasurer,2026,Treasurer,,55078,Menominee,Write-in,W,0,final,80,100
+statewide,2026 Treasurer,2026,Treasurer,,55079,Milwaukee,Yee Leng Xiong,D,259304,final,98.8,100
+statewide,2026 Treasurer,2026,Treasurer,,55079,Milwaukee,John S. Leiber,R,90226,final,98.8,100
+statewide,2026 Treasurer,2026,Treasurer,,55079,Milwaukee,Joseph Kexel,I,0,final,98.8,100
+statewide,2026 Treasurer,2026,Treasurer,,55079,Milwaukee,Write-in,W,0,final,98.8,100
+statewide,2026 Treasurer,2026,Treasurer,,55081,Monroe,John S. Leiber,R,10768,final,97.3,100
+statewide,2026 Treasurer,2026,Treasurer,,55081,Monroe,Yee Leng Xiong,D,6578,final,97.3,100
+statewide,2026 Treasurer,2026,Treasurer,,55081,Monroe,Joseph Kexel,I,0,final,97.3,100
+statewide,2026 Treasurer,2026,Treasurer,,55081,Monroe,Write-in,W,0,final,97.3,100
+statewide,2026 Treasurer,2026,Treasurer,,55083,Oconto,John S. Leiber,R,13280,final,96.6,100
+statewide,2026 Treasurer,2026,Treasurer,,55083,Oconto,Yee Leng Xiong,D,5367,final,96.6,100
+statewide,2026 Treasurer,2026,Treasurer,,55083,Oconto,Joseph Kexel,I,0,final,96.6,100
+statewide,2026 Treasurer,2026,Treasurer,,55083,Oconto,Write-in,W,0,final,96.6,100
+statewide,2026 Treasurer,2026,Treasurer,,55085,Oneida,John S. Leiber,R,11732,final,100,100
+statewide,2026 Treasurer,2026,Treasurer,,55085,Oneida,Yee Leng Xiong,D,8075,final,100,100
+statewide,2026 Treasurer,2026,Treasurer,,55085,Oneida,Write-in,W,12,final,100,100
+statewide,2026 Treasurer,2026,Treasurer,,55085,Oneida,Joseph Kexel,I,0,final,100,100
+statewide,2026 Treasurer,2026,Treasurer,,55087,Outagamie,John S. Leiber,R,44248,final,98.9,100
+statewide,2026 Treasurer,2026,Treasurer,,55087,Outagamie,Yee Leng Xiong,D,40098,final,98.9,100
+statewide,2026 Treasurer,2026,Treasurer,,55087,Outagamie,Joseph Kexel,I,0,final,98.9,100
+statewide,2026 Treasurer,2026,Treasurer,,55087,Outagamie,Write-in,W,0,final,98.9,100
+statewide,2026 Treasurer,2026,Treasurer,,55089,Ozaukee,John S. Leiber,R,27797,final,100,100
+statewide,2026 Treasurer,2026,Treasurer,,55089,Ozaukee,Yee Leng Xiong,D,22275,final,100,100
+statewide,2026 Treasurer,2026,Treasurer,,55089,Ozaukee,Write-in,W,37,final,100,100
+statewide,2026 Treasurer,2026,Treasurer,,55089,Ozaukee,Joseph Kexel,I,0,final,100,100
+statewide,2026 Treasurer,2026,Treasurer,,55091,Pepin,John S. Leiber,R,2150,final,90.9,100
+statewide,2026 Treasurer,2026,Treasurer,,55091,Pepin,Yee Leng Xiong,D,1175,final,90.9,100
+statewide,2026 Treasurer,2026,Treasurer,,55091,Pepin,Joseph Kexel,I,0,final,90.9,100
+statewide,2026 Treasurer,2026,Treasurer,,55091,Pepin,Write-in,W,0,final,90.9,100
+statewide,2026 Treasurer,2026,Treasurer,,55093,Pierce,John S. Leiber,R,11144,final,96.3,100
+statewide,2026 Treasurer,2026,Treasurer,,55093,Pierce,Yee Leng Xiong,D,8492,final,96.3,100
+statewide,2026 Treasurer,2026,Treasurer,,55093,Pierce,Joseph Kexel,I,0,final,96.3,100
+statewide,2026 Treasurer,2026,Treasurer,,55093,Pierce,Write-in,W,0,final,96.3,100
+statewide,2026 Treasurer,2026,Treasurer,,55095,Polk,John S. Leiber,R,13852,final,97.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55095,Polk,Yee Leng Xiong,D,7542,final,97.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55095,Polk,Joseph Kexel,I,0,final,97.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55095,Polk,Write-in,W,0,final,97.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55097,Portage,Yee Leng Xiong,D,18666,final,97,100
+statewide,2026 Treasurer,2026,Treasurer,,55097,Portage,John S. Leiber,R,15232,final,97,100
+statewide,2026 Treasurer,2026,Treasurer,,55097,Portage,Joseph Kexel,I,0,final,97,100
+statewide,2026 Treasurer,2026,Treasurer,,55097,Portage,Write-in,W,0,final,97,100
+statewide,2026 Treasurer,2026,Treasurer,,55099,Price,John S. Leiber,R,4433,final,95.7,100
+statewide,2026 Treasurer,2026,Treasurer,,55099,Price,Yee Leng Xiong,D,2383,final,95.7,100
+statewide,2026 Treasurer,2026,Treasurer,,55099,Price,Joseph Kexel,I,0,final,95.7,100
+statewide,2026 Treasurer,2026,Treasurer,,55099,Price,Write-in,W,0,final,95.7,100
+statewide,2026 Treasurer,2026,Treasurer,,55101,Racine,John S. Leiber,R,41654,final,98.9,100
+statewide,2026 Treasurer,2026,Treasurer,,55101,Racine,Yee Leng Xiong,D,39775,final,98.9,100
+statewide,2026 Treasurer,2026,Treasurer,,55101,Racine,Joseph Kexel,I,0,final,98.9,100
+statewide,2026 Treasurer,2026,Treasurer,,55101,Racine,Write-in,W,0,final,98.9,100
+statewide,2026 Treasurer,2026,Treasurer,,55103,Richland,John S. Leiber,R,3739,final,95.5,100
+statewide,2026 Treasurer,2026,Treasurer,,55103,Richland,Yee Leng Xiong,D,3047,final,95.5,100
+statewide,2026 Treasurer,2026,Treasurer,,55103,Richland,Joseph Kexel,I,0,final,95.5,100
+statewide,2026 Treasurer,2026,Treasurer,,55103,Richland,Write-in,W,0,final,95.5,100
+statewide,2026 Treasurer,2026,Treasurer,,55105,Rock,Yee Leng Xiong,D,37343,final,98.1,100
+statewide,2026 Treasurer,2026,Treasurer,,55105,Rock,John S. Leiber,R,28525,final,98.1,100
+statewide,2026 Treasurer,2026,Treasurer,,55105,Rock,Joseph Kexel,I,0,final,98.1,100
+statewide,2026 Treasurer,2026,Treasurer,,55105,Rock,Write-in,W,0,final,98.1,100
+statewide,2026 Treasurer,2026,Treasurer,,55107,Rusk,John S. Leiber,R,4416,final,97,100
+statewide,2026 Treasurer,2026,Treasurer,,55107,Rusk,Yee Leng Xiong,D,1985,final,97,100
+statewide,2026 Treasurer,2026,Treasurer,,55107,Rusk,Joseph Kexel,I,0,final,97,100
+statewide,2026 Treasurer,2026,Treasurer,,55107,Rusk,Write-in,W,0,final,97,100
+statewide,2026 Treasurer,2026,Treasurer,,55111,Sauk,John S. Leiber,R,14580,final,98,100
+statewide,2026 Treasurer,2026,Treasurer,,55111,Sauk,Yee Leng Xiong,D,14428,final,98,100
+statewide,2026 Treasurer,2026,Treasurer,,55111,Sauk,Joseph Kexel,I,0,final,98,100
+statewide,2026 Treasurer,2026,Treasurer,,55111,Sauk,Write-in,W,0,final,98,100
+statewide,2026 Treasurer,2026,Treasurer,,55113,Sawyer,John S. Leiber,R,5238,final,95.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55113,Sawyer,Yee Leng Xiong,D,3826,final,95.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55113,Sawyer,Joseph Kexel,I,0,final,95.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55113,Sawyer,Write-in,W,0,final,95.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55115,Shawano,John S. Leiber,R,11668,final,97.7,100
+statewide,2026 Treasurer,2026,Treasurer,,55115,Shawano,Yee Leng Xiong,D,5659,final,97.7,100
+statewide,2026 Treasurer,2026,Treasurer,,55115,Shawano,Joseph Kexel,I,0,final,97.7,100
+statewide,2026 Treasurer,2026,Treasurer,,55115,Shawano,Write-in,W,0,final,97.7,100
+statewide,2026 Treasurer,2026,Treasurer,,55117,Sheboygan,John S. Leiber,R,29404,final,96.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55117,Sheboygan,Yee Leng Xiong,D,21872,final,96.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55117,Sheboygan,Joseph Kexel,I,0,final,96.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55117,Sheboygan,Write-in,W,0,final,96.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55109,St. Croix,John S. Leiber,R,27807,final,97.5,100
+statewide,2026 Treasurer,2026,Treasurer,,55109,St. Croix,Yee Leng Xiong,D,19104,final,97.5,100
+statewide,2026 Treasurer,2026,Treasurer,,55109,St. Croix,Joseph Kexel,I,0,final,97.5,100
+statewide,2026 Treasurer,2026,Treasurer,,55109,St. Croix,Write-in,W,0,final,97.5,100
+statewide,2026 Treasurer,2026,Treasurer,,55119,Taylor,Yee Leng Xiong,D,0,final,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55119,Taylor,John S. Leiber,R,0,final,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55119,Taylor,Joseph Kexel,I,0,final,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55119,Taylor,Write-in,W,0,final,0,100
+statewide,2026 Treasurer,2026,Treasurer,,55121,Trempealeau,John S. Leiber,R,7115,final,96.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55121,Trempealeau,Yee Leng Xiong,D,5025,final,96.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55121,Trempealeau,Joseph Kexel,I,0,final,96.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55121,Trempealeau,Write-in,W,0,final,96.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55123,Vernon,John S. Leiber,R,6854,final,97,100
+statewide,2026 Treasurer,2026,Treasurer,,55123,Vernon,Yee Leng Xiong,D,6275,final,97,100
+statewide,2026 Treasurer,2026,Treasurer,,55123,Vernon,Joseph Kexel,I,0,final,97,100
+statewide,2026 Treasurer,2026,Treasurer,,55123,Vernon,Write-in,W,0,final,97,100
+statewide,2026 Treasurer,2026,Treasurer,,55125,Vilas,John S. Leiber,R,8101,final,93.3,100
+statewide,2026 Treasurer,2026,Treasurer,,55125,Vilas,Yee Leng Xiong,D,4770,final,93.3,100
+statewide,2026 Treasurer,2026,Treasurer,,55125,Vilas,Joseph Kexel,I,0,final,93.3,100
+statewide,2026 Treasurer,2026,Treasurer,,55125,Vilas,Write-in,W,0,final,93.3,100
+statewide,2026 Treasurer,2026,Treasurer,,55127,Walworth,John S. Leiber,R,27105,final,97.4,100
+statewide,2026 Treasurer,2026,Treasurer,,55127,Walworth,Yee Leng Xiong,D,18616,final,97.4,100
+statewide,2026 Treasurer,2026,Treasurer,,55127,Walworth,Joseph Kexel,I,0,final,97.4,100
+statewide,2026 Treasurer,2026,Treasurer,,55127,Walworth,Write-in,W,0,final,97.4,100
+statewide,2026 Treasurer,2026,Treasurer,,55129,Washburn,John S. Leiber,R,5582,final,96,100
+statewide,2026 Treasurer,2026,Treasurer,,55129,Washburn,Yee Leng Xiong,D,3067,final,96,100
+statewide,2026 Treasurer,2026,Treasurer,,55129,Washburn,Joseph Kexel,I,0,final,96,100
+statewide,2026 Treasurer,2026,Treasurer,,55129,Washburn,Write-in,W,0,final,96,100
+statewide,2026 Treasurer,2026,Treasurer,,55131,Washington,John S. Leiber,R,48281,final,97.7,100
+statewide,2026 Treasurer,2026,Treasurer,,55131,Washington,Yee Leng Xiong,D,21595,final,97.7,100
+statewide,2026 Treasurer,2026,Treasurer,,55131,Washington,Joseph Kexel,I,0,final,97.7,100
+statewide,2026 Treasurer,2026,Treasurer,,55131,Washington,Write-in,W,0,final,97.7,100
+statewide,2026 Treasurer,2026,Treasurer,,55133,Waukesha,John S. Leiber,R,130427,final,98.9,100
+statewide,2026 Treasurer,2026,Treasurer,,55133,Waukesha,Yee Leng Xiong,D,85259,final,98.9,100
+statewide,2026 Treasurer,2026,Treasurer,,55133,Waukesha,Joseph Kexel,I,0,final,98.9,100
+statewide,2026 Treasurer,2026,Treasurer,,55133,Waukesha,Write-in,W,0,final,98.9,100
+statewide,2026 Treasurer,2026,Treasurer,,55135,Waupaca,John S. Leiber,R,15034,final,97.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55135,Waupaca,Yee Leng Xiong,D,7739,final,97.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55135,Waupaca,Joseph Kexel,I,0,final,97.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55135,Waupaca,Write-in,W,0,final,97.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55137,Waushara,John S. Leiber,R,7439,final,96.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55137,Waushara,Yee Leng Xiong,D,3477,final,96.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55137,Waushara,Joseph Kexel,I,0,final,96.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55137,Waushara,Write-in,W,0,final,96.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55139,Winnebago,Yee Leng Xiong,D,35924,final,94.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55139,Winnebago,John S. Leiber,R,35575,final,94.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55139,Winnebago,Joseph Kexel,I,0,final,94.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55139,Winnebago,Write-in,W,0,final,94.2,100
+statewide,2026 Treasurer,2026,Treasurer,,55141,Wood,John S. Leiber,R,18676,final,100,100
+statewide,2026 Treasurer,2026,Treasurer,,55141,Wood,Yee Leng Xiong,D,13132,final,100,100
+statewide,2026 Treasurer,2026,Treasurer,,55141,Wood,Joseph Kexel,I,0,final,100,100
+statewide,2026 Treasurer,2026,Treasurer,,55141,Wood,Write-in,W,0,final,100,100
+house,2026 Assembly,2026,Assembly,a2024,49,,Travis Tranel,R,13392,final,25,100
+house,2026 Assembly,2026,Assembly,a2024,49,,John Rindy,D,10186,final,25,100
+house,2026 Assembly,2026,Assembly,a2024,58,,Bernie Newman,R,19724,final,65,100
+house,2026 Assembly,2026,Assembly,a2024,58,,Dennis D. Degenhardt,D,9680,final,65,100
+house,2026 Assembly,2026,Assembly,a2024,58,,Write-in,W,0,final,65,100
+house,2026 Assembly,2026,Assembly,a2024,3,,Ron Tusler,R,16727,final,32,100
+house,2026 Assembly,2026,Assembly,a2024,3,,Michael J. Goodwin,D,11596,final,32,100
+senate,2026 Senate,2026,Senate,s2024,21,,Trevor Jung,D,43325,final,33,100
+senate,2026 Senate,2026,Senate,s2024,21,,Jim Croft,R,33145,final,33,100
+house,2026 Assembly,2026,Assembly,a2024,67,,David Armstrong,R,16587,final,25,100
+house,2026 Assembly,2026,Assembly,a2024,67,,Indiana Thompson,D,9566,final,25,100
+house,2026 Assembly,2026,Assembly,a2024,67,,Democrat,D,0,final,25,100
+house,2026 Assembly,2026,Assembly,a2024,76,,Dina Nina Martinez-Rutherford,D,31577,final,48,100
+house,2026 Assembly,2026,Assembly,a2024,76,,Nina Chat,R,2497,final,48,100
+house,2026 Assembly,2026,Assembly,a2024,85,,John Kroll,D,12377,final,48,100
+house,2026 Assembly,2026,Assembly,a2024,85,,Patrick Snyder,R,10512,final,48,100
+house,2026 Assembly,2026,Assembly,a2024,42,,Maureen McCarville,D,19180,final,32,100
+house,2026 Assembly,2026,Assembly,a2024,42,,Keith F. Miller,R,11772,final,32,100
+house,2026 Assembly,2026,Assembly,a2024,51,,Ben Gruber,D,14863,final,20,100
+house,2026 Assembly,2026,Assembly,a2024,51,,Todd Novak,R,11907,final,20,100
+house,2026 Assembly,2026,Assembly,a2024,51,,Nathan Tataje,I,447,final,20,100
+house,2026 Assembly,2026,Assembly,a2024,60,,Marty Ryan,R,12091,final,48,100
+house,2026 Assembly,2026,Assembly,a2024,60,,Tiffany Brault,I,9273,final,48,100
+house,2026 Assembly,2026,Assembly,a2024,5,,Joy Goeben,R,14759,final,32,100
+house,2026 Assembly,2026,Assembly,a2024,5,,Justin Schumacher,D,11456,final,32,100
+house,2026 Assembly,2026,Assembly,a2024,5,,David Schupbach,G,702,final,32,100
+senate,2026 Senate,2026,Senate,s2024,23,,Romaine Robert Quinn,R,42834,final,10,100
+senate,2026 Senate,2026,Senate,s2024,23,,Jeff Foster,D,23694,final,10,100
+house,2026 Assembly,2026,Assembly,a2024,69,,Karen Hurd,R,10900,final,15,100
+house,2026 Assembly,2026,Assembly,a2024,69,,Roger Halls,D,4532,final,15,100
+house,2026 Assembly,2026,Assembly,a2024,69,,Josh Kelley,I,849,final,15,100
+house,2026 Assembly,2026,Assembly,a2024,14,,Angelito Tenorio,D,14060,final,48,100
+house,2026 Assembly,2026,Assembly,a2024,14,,AmyRose Murphy,R,8367,final,48,100
+house,2026 Assembly,2026,Assembly,a2024,78,,Shelia Stubbs,D,26206,final,48,100
+house,2026 Assembly,2026,Assembly,a2024,78,,Henry Johnson,R,4537,final,48,100
+house,2026 Assembly,2026,Assembly,a2024,35,,Calvin Callahan,R,17863,final,28,100
+house,2026 Assembly,2026,Assembly,a2024,35,,Elizabeth McCrank,D,10354,final,28,100
+house,2026 Assembly,2026,Assembly,a2024,35,,Democrat,D,0,final,28,100
+house,2026 Assembly,2026,Assembly,a2024,35,,Write-in,W,0,final,28,100
+house,2026 Assembly,2026,Assembly,a2024,44,,Ann Roe,D,14786,final,49,100
+house,2026 Assembly,2026,Assembly,a2024,44,,Ron Woodman,R,9144,final,49,100
+senate,2026 Senate,2026,Senate,s2024,7,,Chris J. Larson,D,59787,final,50,100
+senate,2026 Senate,2026,Senate,s2024,7,,Mike Moeller,R,21936,final,50,100
+house,2026 Assembly,2026,Assembly,a2024,53,,Becky Nichols,D,13177,final,32,100
+house,2026 Assembly,2026,Assembly,a2024,53,,David Daniels,R,9394,final,32,100
+house,2026 Assembly,2026,Assembly,a2024,53,,Rachael Dowling,I,1530,final,32,100
+house,2026 Assembly,2026,Assembly,a2024,62,,Angelina M. Cruz,D,13444,final,49,100
+house,2026 Assembly,2026,Assembly,a2024,62,,Mike Bellagio,R,6789,final,49,100
+house,2026 Assembly,2026,Assembly,a2024,7,,Karen Kirsch,D,14184,final,49,100
+house,2026 Assembly,2026,Assembly,a2024,7,,Lee Whiting,R,6891,final,49,100
+senate,2026 Senate,2026,Senate,s2024,25,,Erik Severson,R,45820,final,11,100
+senate,2026 Senate,2026,Senate,s2024,25,,Charly Ray,D,40897,final,11,100
+house,2026 Assembly,2026,Assembly,a2024,71,,Vinnie Miresse,D,17135,final,32,100
+house,2026 Assembly,2026,Assembly,a2024,71,,Jeff Disher,R,11309,final,32,100
+house,2026 Assembly,2026,Assembly,a2024,28,,Rob Kreibich,R,17609,final,24,100
+house,2026 Assembly,2026,Assembly,a2024,28,,Robin Lillesve,D,10274,final,24,100
+house,2026 Assembly,2026,Assembly,a2024,92,,Jeremiah Fredrickson,D,13870,final,32,100
+house,2026 Assembly,2026,Assembly,a2024,92,,Clint Moses,R,12106,final,32,100
+house,2026 Assembly,2026,Assembly,a2024,37,,Mark Born,R,14331,final,24,100
+house,2026 Assembly,2026,Assembly,a2024,37,,LaToya Bates,D,8435,final,24,100
+senate,2026 Senate,2026,Senate,s2024,9,,Amy Binsfeld,R,41376,final,19,100
+senate,2026 Senate,2026,Senate,s2024,9,,Christian Ellis,I,32225,final,19,100
+house,2026 Assembly,2026,Assembly,a2024,55,,Nate Gustafson,R,16608,final,31,100
+house,2026 Assembly,2026,Assembly,a2024,55,,Alex Corrigan,D,13197,final,31,100
+house,2026 Assembly,2026,Assembly,a2024,64,,Tip McGuire,D,13561,final,49,100
+house,2026 Assembly,2026,Assembly,a2024,64,,Ed Hibsch,R,8255,final,49,100
+house,2026 Assembly,2026,Assembly,a2024,21,,Daniel J. Bukiewicz,D,15942,final,49,100
+house,2026 Assembly,2026,Assembly,a2024,21,,Dylan Pfaffenbach,R,9567,final,49,100
+house,2026 Assembly,2026,Assembly,a2024,30,,Kevin Knoke,D,16336,final,31,100
+house,2026 Assembly,2026,Assembly,a2024,30,,Shannon Zimmerman,R,14513,final,31,100
+house,2026 Assembly,2026,Assembly,a2024,94,,Steve Doyle,D,16847,final,32,100
+house,2026 Assembly,2026,Assembly,a2024,94,,Keith Purnell,R,12861,final,32,100
+house,2026 Assembly,2026,Assembly,a2024,94,,Democrat,D,0,final,32,100
+house,2026 Assembly,2026,Assembly,a2024,94,,Write-in,W,0,final,32,100
+house,2026 Assembly,2026,Assembly,a2024,39,,Alex Dallman,R,17484,final,12,100
+house,2026 Assembly,2026,Assembly,a2024,39,,Michael Skivington,D,8886,final,12,100
 statewide,2026 Governor,2026,Governor,,55001,Adams,Tom Tiffany,R,6282,final,90.4,100
 statewide,2026 Governor,2026,Governor,,55001,Adams,David Crowley,D,3925,final,90.4,100
 statewide,2026 Governor,2026,Governor,,55001,Adams,Ieshuh Griffin,I,0,final,90.4,100
@@ -1079,6 +1273,10 @@ statewide,2026 Governor,2026,Governor,,55141,Wood,Brayden Donnelly,I,0,final,100
 statewide,2026 Governor,2026,Governor,,55141,Wood,Christine Kirchmiller,I,0,final,100,100
 statewide,2026 Governor,2026,Governor,,55141,Wood,Reese Woods / Daniel Wagner,I,0,final,100,100
 statewide,2026 Governor,2026,Governor,,55141,Wood,Write-in,W,0,final,100,100
+house,2026 Assembly,2026,Assembly,a2024,48,,Andrew Hysell,D,22012,final,33,100
+house,2026 Assembly,2026,Assembly,a2024,48,,Mark Kjorlie,R,7875,final,33,100
+senate,2026 Senate,2026,Senate,s2024,11,,Ellen Schutt,R,48761,final,20,100
+senate,2026 Senate,2026,Senate,s2024,11,,Adam Duda,D,31549,final,20,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55001,Adams,Jay Schroeder,R,6107,final,95,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55001,Adams,JoCasta Zamarripa,D,3652,final,95,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55001,Adams,Pete Karas,G,433,final,95,100
@@ -1439,546 +1637,344 @@ statewide,2026 Secretary of State,2026,Secretary of State,,55141,Wood,JoCasta Za
 statewide,2026 Secretary of State,2026,Secretary of State,,55141,Wood,Pete Karas,G,1109,final,100,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55141,Wood,Michael Chianese,I,0,final,100,100
 statewide,2026 Secretary of State,2026,Secretary of State,,55141,Wood,Write-in,W,0,final,100,100
-statewide,2026 Treasurer,2026,Treasurer,,55001,Adams,John S. Leiber,R,6424,final,95,100
-statewide,2026 Treasurer,2026,Treasurer,,55001,Adams,Yee Leng Xiong,D,3726,final,95,100
-statewide,2026 Treasurer,2026,Treasurer,,55001,Adams,Joseph Kexel,I,0,final,95,100
-statewide,2026 Treasurer,2026,Treasurer,,55001,Adams,Write-in,W,0,final,95,100
-statewide,2026 Treasurer,2026,Treasurer,,55003,Ashland,Yee Leng Xiong,D,3761,final,93.8,100
-statewide,2026 Treasurer,2026,Treasurer,,55003,Ashland,John S. Leiber,R,2934,final,93.8,100
-statewide,2026 Treasurer,2026,Treasurer,,55003,Ashland,Joseph Kexel,I,0,final,93.8,100
-statewide,2026 Treasurer,2026,Treasurer,,55003,Ashland,Write-in,W,0,final,93.8,100
-statewide,2026 Treasurer,2026,Treasurer,,55005,Barron,John S. Leiber,R,12908,final,97.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55005,Barron,Yee Leng Xiong,D,7180,final,97.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55005,Barron,Joseph Kexel,I,0,final,97.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55005,Barron,Write-in,W,0,final,97.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55007,Bayfield,Yee Leng Xiong,D,5495,final,96.4,100
-statewide,2026 Treasurer,2026,Treasurer,,55007,Bayfield,John S. Leiber,R,3985,final,96.4,100
-statewide,2026 Treasurer,2026,Treasurer,,55007,Bayfield,Joseph Kexel,I,0,final,96.4,100
-statewide,2026 Treasurer,2026,Treasurer,,55007,Bayfield,Write-in,W,0,final,96.4,100
-statewide,2026 Treasurer,2026,Treasurer,,55009,Brown,John S. Leiber,R,57977,final,98,100
-statewide,2026 Treasurer,2026,Treasurer,,55009,Brown,Yee Leng Xiong,D,54943,final,98,100
-statewide,2026 Treasurer,2026,Treasurer,,55009,Brown,Joseph Kexel,I,0,final,98,100
-statewide,2026 Treasurer,2026,Treasurer,,55009,Brown,Write-in,W,0,final,98,100
-statewide,2026 Treasurer,2026,Treasurer,,55011,Buffalo,John S. Leiber,R,4058,final,95.7,100
-statewide,2026 Treasurer,2026,Treasurer,,55011,Buffalo,Yee Leng Xiong,D,2141,final,95.7,100
-statewide,2026 Treasurer,2026,Treasurer,,55011,Buffalo,Joseph Kexel,I,0,final,95.7,100
-statewide,2026 Treasurer,2026,Treasurer,,55011,Buffalo,Write-in,W,0,final,95.7,100
-statewide,2026 Treasurer,2026,Treasurer,,55013,Burnett,John S. Leiber,R,5643,final,95.8,100
-statewide,2026 Treasurer,2026,Treasurer,,55013,Burnett,Yee Leng Xiong,D,2910,final,95.8,100
-statewide,2026 Treasurer,2026,Treasurer,,55013,Burnett,Joseph Kexel,I,0,final,95.8,100
-statewide,2026 Treasurer,2026,Treasurer,,55013,Burnett,Write-in,W,0,final,95.8,100
-statewide,2026 Treasurer,2026,Treasurer,,55015,Calumet,John S. Leiber,R,14848,final,98,100
-statewide,2026 Treasurer,2026,Treasurer,,55015,Calumet,Yee Leng Xiong,D,10168,final,98,100
-statewide,2026 Treasurer,2026,Treasurer,,55015,Calumet,Joseph Kexel,I,0,final,98,100
-statewide,2026 Treasurer,2026,Treasurer,,55015,Calumet,Write-in,W,0,final,98,100
-statewide,2026 Treasurer,2026,Treasurer,,55017,Chippewa,John S. Leiber,R,17627,final,97.7,100
-statewide,2026 Treasurer,2026,Treasurer,,55017,Chippewa,Yee Leng Xiong,D,11968,final,97.7,100
-statewide,2026 Treasurer,2026,Treasurer,,55017,Chippewa,Joseph Kexel,I,0,final,97.7,100
-statewide,2026 Treasurer,2026,Treasurer,,55017,Chippewa,Write-in,W,0,final,97.7,100
-statewide,2026 Treasurer,2026,Treasurer,,55019,Clark,John S. Leiber,R,7934,final,98,100
-statewide,2026 Treasurer,2026,Treasurer,,55019,Clark,Yee Leng Xiong,D,3582,final,98,100
-statewide,2026 Treasurer,2026,Treasurer,,55019,Clark,Joseph Kexel,I,0,final,98,100
-statewide,2026 Treasurer,2026,Treasurer,,55019,Clark,Write-in,W,0,final,98,100
-statewide,2026 Treasurer,2026,Treasurer,,55021,Columbia,John S. Leiber,R,13571,final,97.3,100
-statewide,2026 Treasurer,2026,Treasurer,,55021,Columbia,Yee Leng Xiong,D,13072,final,97.3,100
-statewide,2026 Treasurer,2026,Treasurer,,55021,Columbia,Joseph Kexel,I,0,final,97.3,100
-statewide,2026 Treasurer,2026,Treasurer,,55021,Columbia,Write-in,W,0,final,97.3,100
-statewide,2026 Treasurer,2026,Treasurer,,55023,Crawford,John S. Leiber,R,3724,final,96.3,100
-statewide,2026 Treasurer,2026,Treasurer,,55023,Crawford,Yee Leng Xiong,D,3220,final,96.3,100
-statewide,2026 Treasurer,2026,Treasurer,,55023,Crawford,Joseph Kexel,I,0,final,96.3,100
-statewide,2026 Treasurer,2026,Treasurer,,55023,Crawford,Write-in,W,0,final,96.3,100
-statewide,2026 Treasurer,2026,Treasurer,,55025,Dane,Yee Leng Xiong,D,239651,final,98.9,100
-statewide,2026 Treasurer,2026,Treasurer,,55025,Dane,John S. Leiber,R,67032,final,98.9,100
-statewide,2026 Treasurer,2026,Treasurer,,55025,Dane,Joseph Kexel,I,0,final,98.9,100
-statewide,2026 Treasurer,2026,Treasurer,,55025,Dane,Write-in,W,0,final,98.9,100
-statewide,2026 Treasurer,2026,Treasurer,,55027,Dodge,John S. Leiber,R,24194,final,98.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55027,Dodge,Yee Leng Xiong,D,12213,final,98.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55027,Dodge,Joseph Kexel,I,0,final,98.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55027,Dodge,Write-in,W,0,final,98.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55029,Door,John S. Leiber,R,8655,final,95.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55029,Door,Yee Leng Xiong,D,8630,final,95.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55029,Door,Joseph Kexel,I,0,final,95.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55029,Door,Write-in,W,0,final,95.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55031,Douglas,Yee Leng Xiong,D,10826,final,96.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55031,Douglas,John S. Leiber,R,8266,final,96.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55031,Douglas,Joseph Kexel,I,0,final,96.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55031,Douglas,Write-in,W,0,final,96.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55033,Dunn,John S. Leiber,R,10676,final,97.1,100
-statewide,2026 Treasurer,2026,Treasurer,,55033,Dunn,Yee Leng Xiong,D,8824,final,97.1,100
-statewide,2026 Treasurer,2026,Treasurer,,55033,Dunn,Joseph Kexel,I,0,final,97.1,100
-statewide,2026 Treasurer,2026,Treasurer,,55033,Dunn,Write-in,W,0,final,97.1,100
-statewide,2026 Treasurer,2026,Treasurer,,55035,Eau Claire,Yee Leng Xiong,D,30108,final,99,100
-statewide,2026 Treasurer,2026,Treasurer,,55035,Eau Claire,John S. Leiber,R,19958,final,99,100
-statewide,2026 Treasurer,2026,Treasurer,,55035,Eau Claire,Joseph Kexel,I,0,final,99,100
-statewide,2026 Treasurer,2026,Treasurer,,55035,Eau Claire,Write-in,W,0,final,99,100
-statewide,2026 Treasurer,2026,Treasurer,,55037,Florence,John S. Leiber,R,1794,final,87.5,100
-statewide,2026 Treasurer,2026,Treasurer,,55037,Florence,Yee Leng Xiong,D,627,final,87.5,100
-statewide,2026 Treasurer,2026,Treasurer,,55037,Florence,Joseph Kexel,I,0,final,87.5,100
-statewide,2026 Treasurer,2026,Treasurer,,55037,Florence,Write-in,W,0,final,87.5,100
-statewide,2026 Treasurer,2026,Treasurer,,55039,Fond du Lac,John S. Leiber,R,27985,final,98.3,100
-statewide,2026 Treasurer,2026,Treasurer,,55039,Fond du Lac,Yee Leng Xiong,D,15274,final,98.3,100
-statewide,2026 Treasurer,2026,Treasurer,,55039,Fond du Lac,Joseph Kexel,I,0,final,98.3,100
-statewide,2026 Treasurer,2026,Treasurer,,55039,Fond du Lac,Write-in,W,0,final,98.3,100
-statewide,2026 Treasurer,2026,Treasurer,,55041,Forest,John S. Leiber,R,2649,final,93.3,100
-statewide,2026 Treasurer,2026,Treasurer,,55041,Forest,Yee Leng Xiong,D,1317,final,93.3,100
-statewide,2026 Treasurer,2026,Treasurer,,55041,Forest,Joseph Kexel,I,0,final,93.3,100
-statewide,2026 Treasurer,2026,Treasurer,,55041,Forest,Write-in,W,0,final,93.3,100
-statewide,2026 Treasurer,2026,Treasurer,,55043,Grant,John S. Leiber,R,11098,final,98.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55043,Grant,Yee Leng Xiong,D,8443,final,98.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55043,Grant,Joseph Kexel,I,0,final,98.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55043,Grant,Write-in,W,0,final,98.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55045,Green,Yee Leng Xiong,D,8542,final,95.8,100
-statewide,2026 Treasurer,2026,Treasurer,,55045,Green,John S. Leiber,R,8293,final,95.8,100
-statewide,2026 Treasurer,2026,Treasurer,,55045,Green,Joseph Kexel,I,0,final,95.8,100
-statewide,2026 Treasurer,2026,Treasurer,,55045,Green,Write-in,W,0,final,95.8,100
-statewide,2026 Treasurer,2026,Treasurer,,55047,Green Lake,John S. Leiber,R,5665,final,93.8,100
-statewide,2026 Treasurer,2026,Treasurer,,55047,Green Lake,Yee Leng Xiong,D,2570,final,93.8,100
-statewide,2026 Treasurer,2026,Treasurer,,55047,Green Lake,Joseph Kexel,I,0,final,93.8,100
-statewide,2026 Treasurer,2026,Treasurer,,55047,Green Lake,Write-in,W,0,final,93.8,100
-statewide,2026 Treasurer,2026,Treasurer,,55049,Iowa,Yee Leng Xiong,D,6149,final,96.6,100
-statewide,2026 Treasurer,2026,Treasurer,,55049,Iowa,John S. Leiber,R,5160,final,96.6,100
-statewide,2026 Treasurer,2026,Treasurer,,55049,Iowa,Joseph Kexel,I,0,final,96.6,100
-statewide,2026 Treasurer,2026,Treasurer,,55049,Iowa,Write-in,W,0,final,96.6,100
-statewide,2026 Treasurer,2026,Treasurer,,55051,Iron,John S. Leiber,R,1985,final,93.3,100
-statewide,2026 Treasurer,2026,Treasurer,,55051,Iron,Yee Leng Xiong,D,1164,final,93.3,100
-statewide,2026 Treasurer,2026,Treasurer,,55051,Iron,Joseph Kexel,I,0,final,93.3,100
-statewide,2026 Treasurer,2026,Treasurer,,55051,Iron,Write-in,W,0,final,93.3,100
-statewide,2026 Treasurer,2026,Treasurer,,55053,Jackson,John S. Leiber,R,4761,final,96.9,100
-statewide,2026 Treasurer,2026,Treasurer,,55053,Jackson,Yee Leng Xiong,D,3422,final,96.9,100
-statewide,2026 Treasurer,2026,Treasurer,,55053,Jackson,Joseph Kexel,I,0,final,96.9,100
-statewide,2026 Treasurer,2026,Treasurer,,55053,Jackson,Write-in,W,0,final,96.9,100
-statewide,2026 Treasurer,2026,Treasurer,,55055,Jefferson,John S. Leiber,R,21275,final,96.8,100
-statewide,2026 Treasurer,2026,Treasurer,,55055,Jefferson,Yee Leng Xiong,D,16194,final,96.8,100
-statewide,2026 Treasurer,2026,Treasurer,,55055,Jefferson,Joseph Kexel,I,0,final,96.8,100
-statewide,2026 Treasurer,2026,Treasurer,,55055,Jefferson,Write-in,W,0,final,96.8,100
-statewide,2026 Treasurer,2026,Treasurer,,55057,Juneau,John S. Leiber,R,6889,final,96.4,100
-statewide,2026 Treasurer,2026,Treasurer,,55057,Juneau,Yee Leng Xiong,D,3737,final,96.4,100
-statewide,2026 Treasurer,2026,Treasurer,,55057,Juneau,Joseph Kexel,I,0,final,96.4,100
-statewide,2026 Treasurer,2026,Treasurer,,55057,Juneau,Write-in,W,0,final,96.4,100
-statewide,2026 Treasurer,2026,Treasurer,,55059,Kenosha,Yee Leng Xiong,D,33913,final,98.4,100
-statewide,2026 Treasurer,2026,Treasurer,,55059,Kenosha,John S. Leiber,R,32315,final,98.4,100
-statewide,2026 Treasurer,2026,Treasurer,,55059,Kenosha,Joseph Kexel,I,0,final,98.4,100
-statewide,2026 Treasurer,2026,Treasurer,,55059,Kenosha,Write-in,W,0,final,98.4,100
-statewide,2026 Treasurer,2026,Treasurer,,55061,Kewaunee,John S. Leiber,R,6385,final,92.9,100
-statewide,2026 Treasurer,2026,Treasurer,,55061,Kewaunee,Yee Leng Xiong,D,3117,final,92.9,100
-statewide,2026 Treasurer,2026,Treasurer,,55061,Kewaunee,Joseph Kexel,I,0,final,92.9,100
-statewide,2026 Treasurer,2026,Treasurer,,55061,Kewaunee,Write-in,W,0,final,92.9,100
-statewide,2026 Treasurer,2026,Treasurer,,55063,La Crosse,Yee Leng Xiong,D,33193,final,98.1,100
-statewide,2026 Treasurer,2026,Treasurer,,55063,La Crosse,John S. Leiber,R,23161,final,98.1,100
-statewide,2026 Treasurer,2026,Treasurer,,55063,La Crosse,Write-in,W,0,final,98.1,100
-statewide,2026 Treasurer,2026,Treasurer,,55063,La Crosse,Joseph Kexel,I,0,final,98.1,100
-statewide,2026 Treasurer,2026,Treasurer,,55065,Lafayette,John S. Leiber,R,3911,final,96.4,100
-statewide,2026 Treasurer,2026,Treasurer,,55065,Lafayette,Yee Leng Xiong,D,2535,final,96.4,100
-statewide,2026 Treasurer,2026,Treasurer,,55065,Lafayette,Joseph Kexel,I,0,final,96.4,100
-statewide,2026 Treasurer,2026,Treasurer,,55065,Lafayette,Write-in,W,0,final,96.4,100
-statewide,2026 Treasurer,2026,Treasurer,,55067,Langlade,John S. Leiber,R,5844,final,95.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55067,Langlade,Yee Leng Xiong,D,2882,final,95.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55067,Langlade,Joseph Kexel,I,0,final,95.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55067,Langlade,Write-in,W,0,final,95.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55069,Lincoln,John S. Leiber,R,7975,final,96.3,100
-statewide,2026 Treasurer,2026,Treasurer,,55069,Lincoln,Yee Leng Xiong,D,4912,final,96.3,100
-statewide,2026 Treasurer,2026,Treasurer,,55069,Lincoln,Joseph Kexel,I,0,final,96.3,100
-statewide,2026 Treasurer,2026,Treasurer,,55069,Lincoln,Write-in,W,0,final,96.3,100
-statewide,2026 Treasurer,2026,Treasurer,,55071,Manitowoc,John S. Leiber,R,20720,final,97.5,100
-statewide,2026 Treasurer,2026,Treasurer,,55071,Manitowoc,Yee Leng Xiong,D,13180,final,97.5,100
-statewide,2026 Treasurer,2026,Treasurer,,55071,Manitowoc,Joseph Kexel,I,0,final,97.5,100
-statewide,2026 Treasurer,2026,Treasurer,,55071,Manitowoc,Write-in,W,0,final,97.5,100
-statewide,2026 Treasurer,2026,Treasurer,,55073,Marathon,John S. Leiber,R,34443,final,98.9,100
-statewide,2026 Treasurer,2026,Treasurer,,55073,Marathon,Yee Leng Xiong,D,25781,final,98.9,100
-statewide,2026 Treasurer,2026,Treasurer,,55073,Marathon,Joseph Kexel,I,0,final,98.9,100
-statewide,2026 Treasurer,2026,Treasurer,,55073,Marathon,Write-in,W,0,final,98.9,100
-statewide,2026 Treasurer,2026,Treasurer,,55075,Marinette,John S. Leiber,R,12019,final,96.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55075,Marinette,Yee Leng Xiong,D,5519,final,96.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55075,Marinette,Joseph Kexel,I,0,final,96.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55075,Marinette,Write-in,W,0,final,96.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55077,Marquette,John S. Leiber,R,4904,final,94.7,100
-statewide,2026 Treasurer,2026,Treasurer,,55077,Marquette,Yee Leng Xiong,D,2519,final,94.7,100
-statewide,2026 Treasurer,2026,Treasurer,,55077,Marquette,Joseph Kexel,I,0,final,94.7,100
-statewide,2026 Treasurer,2026,Treasurer,,55077,Marquette,Write-in,W,0,final,94.7,100
-statewide,2026 Treasurer,2026,Treasurer,,55078,Menominee,Yee Leng Xiong,D,895,final,80,100
-statewide,2026 Treasurer,2026,Treasurer,,55078,Menominee,John S. Leiber,R,265,final,80,100
-statewide,2026 Treasurer,2026,Treasurer,,55078,Menominee,Joseph Kexel,I,0,final,80,100
-statewide,2026 Treasurer,2026,Treasurer,,55078,Menominee,Write-in,W,0,final,80,100
-statewide,2026 Treasurer,2026,Treasurer,,55079,Milwaukee,Yee Leng Xiong,D,259304,final,98.8,100
-statewide,2026 Treasurer,2026,Treasurer,,55079,Milwaukee,John S. Leiber,R,90226,final,98.8,100
-statewide,2026 Treasurer,2026,Treasurer,,55079,Milwaukee,Joseph Kexel,I,0,final,98.8,100
-statewide,2026 Treasurer,2026,Treasurer,,55079,Milwaukee,Write-in,W,0,final,98.8,100
-statewide,2026 Treasurer,2026,Treasurer,,55081,Monroe,John S. Leiber,R,10768,final,97.3,100
-statewide,2026 Treasurer,2026,Treasurer,,55081,Monroe,Yee Leng Xiong,D,6578,final,97.3,100
-statewide,2026 Treasurer,2026,Treasurer,,55081,Monroe,Joseph Kexel,I,0,final,97.3,100
-statewide,2026 Treasurer,2026,Treasurer,,55081,Monroe,Write-in,W,0,final,97.3,100
-statewide,2026 Treasurer,2026,Treasurer,,55083,Oconto,John S. Leiber,R,13280,final,96.6,100
-statewide,2026 Treasurer,2026,Treasurer,,55083,Oconto,Yee Leng Xiong,D,5367,final,96.6,100
-statewide,2026 Treasurer,2026,Treasurer,,55083,Oconto,Joseph Kexel,I,0,final,96.6,100
-statewide,2026 Treasurer,2026,Treasurer,,55083,Oconto,Write-in,W,0,final,96.6,100
-statewide,2026 Treasurer,2026,Treasurer,,55085,Oneida,John S. Leiber,R,11732,final,100,100
-statewide,2026 Treasurer,2026,Treasurer,,55085,Oneida,Yee Leng Xiong,D,8075,final,100,100
-statewide,2026 Treasurer,2026,Treasurer,,55085,Oneida,Write-in,W,12,final,100,100
-statewide,2026 Treasurer,2026,Treasurer,,55085,Oneida,Joseph Kexel,I,0,final,100,100
-statewide,2026 Treasurer,2026,Treasurer,,55087,Outagamie,John S. Leiber,R,44248,final,98.9,100
-statewide,2026 Treasurer,2026,Treasurer,,55087,Outagamie,Yee Leng Xiong,D,40098,final,98.9,100
-statewide,2026 Treasurer,2026,Treasurer,,55087,Outagamie,Joseph Kexel,I,0,final,98.9,100
-statewide,2026 Treasurer,2026,Treasurer,,55087,Outagamie,Write-in,W,0,final,98.9,100
-statewide,2026 Treasurer,2026,Treasurer,,55089,Ozaukee,John S. Leiber,R,27797,final,100,100
-statewide,2026 Treasurer,2026,Treasurer,,55089,Ozaukee,Yee Leng Xiong,D,22275,final,100,100
-statewide,2026 Treasurer,2026,Treasurer,,55089,Ozaukee,Write-in,W,37,final,100,100
-statewide,2026 Treasurer,2026,Treasurer,,55089,Ozaukee,Joseph Kexel,I,0,final,100,100
-statewide,2026 Treasurer,2026,Treasurer,,55091,Pepin,John S. Leiber,R,2150,final,90.9,100
-statewide,2026 Treasurer,2026,Treasurer,,55091,Pepin,Yee Leng Xiong,D,1175,final,90.9,100
-statewide,2026 Treasurer,2026,Treasurer,,55091,Pepin,Joseph Kexel,I,0,final,90.9,100
-statewide,2026 Treasurer,2026,Treasurer,,55091,Pepin,Write-in,W,0,final,90.9,100
-statewide,2026 Treasurer,2026,Treasurer,,55093,Pierce,John S. Leiber,R,11144,final,96.3,100
-statewide,2026 Treasurer,2026,Treasurer,,55093,Pierce,Yee Leng Xiong,D,8492,final,96.3,100
-statewide,2026 Treasurer,2026,Treasurer,,55093,Pierce,Joseph Kexel,I,0,final,96.3,100
-statewide,2026 Treasurer,2026,Treasurer,,55093,Pierce,Write-in,W,0,final,96.3,100
-statewide,2026 Treasurer,2026,Treasurer,,55095,Polk,John S. Leiber,R,13852,final,97.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55095,Polk,Yee Leng Xiong,D,7542,final,97.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55095,Polk,Joseph Kexel,I,0,final,97.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55095,Polk,Write-in,W,0,final,97.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55097,Portage,Yee Leng Xiong,D,18666,final,97,100
-statewide,2026 Treasurer,2026,Treasurer,,55097,Portage,John S. Leiber,R,15232,final,97,100
-statewide,2026 Treasurer,2026,Treasurer,,55097,Portage,Joseph Kexel,I,0,final,97,100
-statewide,2026 Treasurer,2026,Treasurer,,55097,Portage,Write-in,W,0,final,97,100
-statewide,2026 Treasurer,2026,Treasurer,,55099,Price,John S. Leiber,R,4433,final,95.7,100
-statewide,2026 Treasurer,2026,Treasurer,,55099,Price,Yee Leng Xiong,D,2383,final,95.7,100
-statewide,2026 Treasurer,2026,Treasurer,,55099,Price,Joseph Kexel,I,0,final,95.7,100
-statewide,2026 Treasurer,2026,Treasurer,,55099,Price,Write-in,W,0,final,95.7,100
-statewide,2026 Treasurer,2026,Treasurer,,55101,Racine,John S. Leiber,R,41654,final,98.9,100
-statewide,2026 Treasurer,2026,Treasurer,,55101,Racine,Yee Leng Xiong,D,39775,final,98.9,100
-statewide,2026 Treasurer,2026,Treasurer,,55101,Racine,Joseph Kexel,I,0,final,98.9,100
-statewide,2026 Treasurer,2026,Treasurer,,55101,Racine,Write-in,W,0,final,98.9,100
-statewide,2026 Treasurer,2026,Treasurer,,55103,Richland,John S. Leiber,R,3739,final,95.5,100
-statewide,2026 Treasurer,2026,Treasurer,,55103,Richland,Yee Leng Xiong,D,3047,final,95.5,100
-statewide,2026 Treasurer,2026,Treasurer,,55103,Richland,Joseph Kexel,I,0,final,95.5,100
-statewide,2026 Treasurer,2026,Treasurer,,55103,Richland,Write-in,W,0,final,95.5,100
-statewide,2026 Treasurer,2026,Treasurer,,55105,Rock,Yee Leng Xiong,D,37343,final,98.1,100
-statewide,2026 Treasurer,2026,Treasurer,,55105,Rock,John S. Leiber,R,28525,final,98.1,100
-statewide,2026 Treasurer,2026,Treasurer,,55105,Rock,Joseph Kexel,I,0,final,98.1,100
-statewide,2026 Treasurer,2026,Treasurer,,55105,Rock,Write-in,W,0,final,98.1,100
-statewide,2026 Treasurer,2026,Treasurer,,55107,Rusk,John S. Leiber,R,4416,final,97,100
-statewide,2026 Treasurer,2026,Treasurer,,55107,Rusk,Yee Leng Xiong,D,1985,final,97,100
-statewide,2026 Treasurer,2026,Treasurer,,55107,Rusk,Joseph Kexel,I,0,final,97,100
-statewide,2026 Treasurer,2026,Treasurer,,55107,Rusk,Write-in,W,0,final,97,100
-statewide,2026 Treasurer,2026,Treasurer,,55111,Sauk,John S. Leiber,R,14580,final,98,100
-statewide,2026 Treasurer,2026,Treasurer,,55111,Sauk,Yee Leng Xiong,D,14428,final,98,100
-statewide,2026 Treasurer,2026,Treasurer,,55111,Sauk,Joseph Kexel,I,0,final,98,100
-statewide,2026 Treasurer,2026,Treasurer,,55111,Sauk,Write-in,W,0,final,98,100
-statewide,2026 Treasurer,2026,Treasurer,,55113,Sawyer,John S. Leiber,R,5238,final,95.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55113,Sawyer,Yee Leng Xiong,D,3826,final,95.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55113,Sawyer,Joseph Kexel,I,0,final,95.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55113,Sawyer,Write-in,W,0,final,95.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55115,Shawano,John S. Leiber,R,11668,final,97.7,100
-statewide,2026 Treasurer,2026,Treasurer,,55115,Shawano,Yee Leng Xiong,D,5659,final,97.7,100
-statewide,2026 Treasurer,2026,Treasurer,,55115,Shawano,Joseph Kexel,I,0,final,97.7,100
-statewide,2026 Treasurer,2026,Treasurer,,55115,Shawano,Write-in,W,0,final,97.7,100
-statewide,2026 Treasurer,2026,Treasurer,,55117,Sheboygan,John S. Leiber,R,29404,final,96.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55117,Sheboygan,Yee Leng Xiong,D,21872,final,96.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55117,Sheboygan,Joseph Kexel,I,0,final,96.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55117,Sheboygan,Write-in,W,0,final,96.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55109,St. Croix,John S. Leiber,R,27807,final,97.5,100
-statewide,2026 Treasurer,2026,Treasurer,,55109,St. Croix,Yee Leng Xiong,D,19104,final,97.5,100
-statewide,2026 Treasurer,2026,Treasurer,,55109,St. Croix,Joseph Kexel,I,0,final,97.5,100
-statewide,2026 Treasurer,2026,Treasurer,,55109,St. Croix,Write-in,W,0,final,97.5,100
-statewide,2026 Treasurer,2026,Treasurer,,55119,Taylor,Yee Leng Xiong,D,0,final,0,100
-statewide,2026 Treasurer,2026,Treasurer,,55119,Taylor,John S. Leiber,R,0,final,0,100
-statewide,2026 Treasurer,2026,Treasurer,,55119,Taylor,Joseph Kexel,I,0,final,0,100
-statewide,2026 Treasurer,2026,Treasurer,,55119,Taylor,Write-in,W,0,final,0,100
-statewide,2026 Treasurer,2026,Treasurer,,55121,Trempealeau,John S. Leiber,R,7115,final,96.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55121,Trempealeau,Yee Leng Xiong,D,5025,final,96.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55121,Trempealeau,Joseph Kexel,I,0,final,96.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55121,Trempealeau,Write-in,W,0,final,96.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55123,Vernon,John S. Leiber,R,6854,final,97,100
-statewide,2026 Treasurer,2026,Treasurer,,55123,Vernon,Yee Leng Xiong,D,6275,final,97,100
-statewide,2026 Treasurer,2026,Treasurer,,55123,Vernon,Joseph Kexel,I,0,final,97,100
-statewide,2026 Treasurer,2026,Treasurer,,55123,Vernon,Write-in,W,0,final,97,100
-statewide,2026 Treasurer,2026,Treasurer,,55125,Vilas,John S. Leiber,R,8101,final,93.3,100
-statewide,2026 Treasurer,2026,Treasurer,,55125,Vilas,Yee Leng Xiong,D,4770,final,93.3,100
-statewide,2026 Treasurer,2026,Treasurer,,55125,Vilas,Joseph Kexel,I,0,final,93.3,100
-statewide,2026 Treasurer,2026,Treasurer,,55125,Vilas,Write-in,W,0,final,93.3,100
-statewide,2026 Treasurer,2026,Treasurer,,55127,Walworth,John S. Leiber,R,27105,final,97.4,100
-statewide,2026 Treasurer,2026,Treasurer,,55127,Walworth,Yee Leng Xiong,D,18616,final,97.4,100
-statewide,2026 Treasurer,2026,Treasurer,,55127,Walworth,Joseph Kexel,I,0,final,97.4,100
-statewide,2026 Treasurer,2026,Treasurer,,55127,Walworth,Write-in,W,0,final,97.4,100
-statewide,2026 Treasurer,2026,Treasurer,,55129,Washburn,John S. Leiber,R,5582,final,96,100
-statewide,2026 Treasurer,2026,Treasurer,,55129,Washburn,Yee Leng Xiong,D,3067,final,96,100
-statewide,2026 Treasurer,2026,Treasurer,,55129,Washburn,Joseph Kexel,I,0,final,96,100
-statewide,2026 Treasurer,2026,Treasurer,,55129,Washburn,Write-in,W,0,final,96,100
-statewide,2026 Treasurer,2026,Treasurer,,55131,Washington,John S. Leiber,R,48281,final,97.7,100
-statewide,2026 Treasurer,2026,Treasurer,,55131,Washington,Yee Leng Xiong,D,21595,final,97.7,100
-statewide,2026 Treasurer,2026,Treasurer,,55131,Washington,Joseph Kexel,I,0,final,97.7,100
-statewide,2026 Treasurer,2026,Treasurer,,55131,Washington,Write-in,W,0,final,97.7,100
-statewide,2026 Treasurer,2026,Treasurer,,55133,Waukesha,John S. Leiber,R,130427,final,98.9,100
-statewide,2026 Treasurer,2026,Treasurer,,55133,Waukesha,Yee Leng Xiong,D,85259,final,98.9,100
-statewide,2026 Treasurer,2026,Treasurer,,55133,Waukesha,Joseph Kexel,I,0,final,98.9,100
-statewide,2026 Treasurer,2026,Treasurer,,55133,Waukesha,Write-in,W,0,final,98.9,100
-statewide,2026 Treasurer,2026,Treasurer,,55135,Waupaca,John S. Leiber,R,15034,final,97.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55135,Waupaca,Yee Leng Xiong,D,7739,final,97.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55135,Waupaca,Joseph Kexel,I,0,final,97.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55135,Waupaca,Write-in,W,0,final,97.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55137,Waushara,John S. Leiber,R,7439,final,96.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55137,Waushara,Yee Leng Xiong,D,3477,final,96.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55137,Waushara,Joseph Kexel,I,0,final,96.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55137,Waushara,Write-in,W,0,final,96.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55139,Winnebago,Yee Leng Xiong,D,35924,final,94.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55139,Winnebago,John S. Leiber,R,35575,final,94.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55139,Winnebago,Joseph Kexel,I,0,final,94.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55139,Winnebago,Write-in,W,0,final,94.2,100
-statewide,2026 Treasurer,2026,Treasurer,,55141,Wood,John S. Leiber,R,18676,final,100,100
-statewide,2026 Treasurer,2026,Treasurer,,55141,Wood,Yee Leng Xiong,D,13132,final,100,100
-statewide,2026 Treasurer,2026,Treasurer,,55141,Wood,Joseph Kexel,I,0,final,100,100
-statewide,2026 Treasurer,2026,Treasurer,,55141,Wood,Write-in,W,0,final,100,100
-senate,2026 Senate,2026,Senate,s2024,1,,Nic Cravillion,R,49821,final,14,100
-senate,2026 Senate,2026,Senate,s2024,1,,Mark Becker,I,36141,final,14,100
-senate,2026 Senate,2026,Senate,s2024,3,,Tim Carpenter,D,0,final,0,100
-senate,2026 Senate,2026,Senate,s2024,5,,Robyn Vining,D,50107,final,33,100
-senate,2026 Senate,2026,Senate,s2024,5,,Mike Roberts,R,37794,final,33,100
-senate,2026 Senate,2026,Senate,s2024,7,,Chris J. Larson,D,59787,final,50,100
-senate,2026 Senate,2026,Senate,s2024,7,,Mike Moeller,R,21936,final,50,100
-senate,2026 Senate,2026,Senate,s2024,9,,Amy Binsfeld,R,41376,final,19,100
-senate,2026 Senate,2026,Senate,s2024,9,,Christian Ellis,I,32225,final,19,100
-senate,2026 Senate,2026,Senate,s2024,11,,Ellen Schutt,R,48761,final,20,100
-senate,2026 Senate,2026,Senate,s2024,11,,Adam Duda,D,31549,final,20,100
+house,2026 Assembly,2026,Assembly,a2024,57,,Kevin Krentz,R,18148,final,14,100
+house,2026 Assembly,2026,Assembly,a2024,57,,Joey Marschall,D,9434,final,14,100
+senate,2026 Senate,2026,Senate,s2024,29,,Cory Tomczyk,R,43989,final,33,100
+senate,2026 Senate,2026,Senate,s2024,29,,Gillian Battino,D,34618,final,33,100
+house,2026 Assembly,2026,Assembly,a2024,23,,Deb Andraca,D,22387,final,65,100
+house,2026 Assembly,2026,Assembly,a2024,23,,Aleaner Pabonnie,R,10263,final,65,100
+house,2026 Assembly,2026,Assembly,a2024,23,,Write-in,W,0,final,65,100
+house,2026 Assembly,2026,Assembly,a2024,87,,Brent Jacobson,R,17269,final,20,100
+house,2026 Assembly,2026,Assembly,a2024,87,,Bob Look,D,10977,final,20,100
+house,2026 Assembly,2026,Assembly,a2024,32,,Amanda Nedweski,R,16364,final,32,100
+house,2026 Assembly,2026,Assembly,a2024,32,,Greg Miller,D,10239,final,32,100
+house,2026 Assembly,2026,Assembly,a2024,96,,Tara Johnson,D,16250,final,33,100
+house,2026 Assembly,2026,Assembly,a2024,96,,Jim Green,R,10417,final,33,100
+house,2026 Assembly,2026,Assembly,a2024,96,,Write-in,W,0,final,33,100
+house,2026 Assembly,2026,Assembly,a2024,41,,Tony Kurtz,R,14728,final,14,100
+house,2026 Assembly,2026,Assembly,a2024,41,,Zach Commons,D,9888,final,14,100
+house,2026 Assembly,2026,Assembly,a2024,50,,Bill Oemichen,D,18462,final,24,100
+house,2026 Assembly,2026,Assembly,a2024,50,,Jon Aleckson,R,11709,final,24,100
 senate,2026 Senate,2026,Senate,s2024,13,,John Jagler,R,46762,final,10,100
 senate,2026 Senate,2026,Senate,s2024,13,,Sasha Ripley,D,27349,final,10,100
+house,2026 Assembly,2026,Assembly,a2024,59,,Bradley Petersen,R,22111,final,33,100
+house,2026 Assembly,2026,Assembly,a2024,59,,Jack Holzman,D,8332,final,33,100
+house,2026 Assembly,2026,Assembly,a2024,59,,Write-in,W,0,final,33,100
+senate,2026 Senate,2026,Senate,s2024,31,,Jeff Smith,D,48231,final,20,100
+senate,2026 Senate,2026,Senate,s2024,31,,Michele Magadance Skinner,R,34302,final,20,100
+house,2026 Assembly,2026,Assembly,a2024,16,,Kalan Haywood,D,14774,final,49,100
+house,2026 Assembly,2026,Assembly,a2024,16,,Alciro Deacon,R,1043,final,49,100
+house,2026 Assembly,2026,Assembly,a2024,80,,Mike Bare,D,28840,final,48,100
+house,2026 Assembly,2026,Assembly,a2024,80,,Simran Arora,R,7778,final,48,100
+house,2026 Assembly,2026,Assembly,a2024,25,,Paul Tittl,R,13268,final,32,100
+house,2026 Assembly,2026,Assembly,a2024,25,,Christopher Able,D,10867,final,32,100
+house,2026 Assembly,2026,Assembly,a2024,89,,Ryan Spaude,D,12608,final,48,100
+house,2026 Assembly,2026,Assembly,a2024,89,,Bobby R. Lindsey,R,9717,final,48,100
+house,2026 Assembly,2026,Assembly,a2024,34,,Rob Swearingen,R,19083,final,66,100
+house,2026 Assembly,2026,Assembly,a2024,34,,Merlin Van Buren,D,13142,final,66,100
+house,2026 Assembly,2026,Assembly,a2024,34,,Write-in,W,0,final,66,100
+house,2026 Assembly,2026,Assembly,a2024,98,,Jim Piwowarczyk,R,21681,final,31,100
+house,2026 Assembly,2026,Assembly,a2024,98,,Matt Philibert,D,10617,final,31,100
+house,2026 Assembly,2026,Assembly,a2024,43,,Brienne Brown,D,15461,final,19,100
+house,2026 Assembly,2026,Assembly,a2024,43,,Paul McGraw,R,10848,final,19,100
+house,2026 Assembly,2026,Assembly,a2024,52,,Lee Snodgrass,D,15878,final,49,100
+house,2026 Assembly,2026,Assembly,a2024,52,,Reive Pullen,R,9086,final,49,100
 senate,2026 Senate,2026,Senate,s2024,15,,Mark Spreitzer,D,41249,final,20,100
 senate,2026 Senate,2026,Senate,s2024,15,,Scott Fleming,R,27304,final,20,100
 senate,2026 Senate,2026,Senate,s2024,15,,Christopher Dean,I,3368,final,20,100
-senate,2026 Senate,2026,Senate,s2024,17,,Jenna Jacobson,D,43775,final,11,100
-senate,2026 Senate,2026,Senate,s2024,17,,Howard Marklein,R,37593,final,11,100
-senate,2026 Senate,2026,Senate,s2024,19,,Rachael Ann Cabral-Guevara,R,51175,final,14,100
-senate,2026 Senate,2026,Senate,s2024,19,,Emily Daniels Tseffos,D,35081,final,14,100
-senate,2026 Senate,2026,Senate,s2024,21,,Trevor Jung,D,43325,final,33,100
-senate,2026 Senate,2026,Senate,s2024,21,,Jim Croft,R,33145,final,33,100
-senate,2026 Senate,2026,Senate,s2024,23,,Romaine Robert Quinn,R,42834,final,10,100
-senate,2026 Senate,2026,Senate,s2024,23,,Jeff Foster,D,23694,final,10,100
-senate,2026 Senate,2026,Senate,s2024,25,,Erik Severson,R,45820,final,11,100
-senate,2026 Senate,2026,Senate,s2024,25,,Charly Ray,D,40897,final,11,100
-senate,2026 Senate,2026,Senate,s2024,27,,Dianne Hesselbein,D,0,final,0,100
-senate,2026 Senate,2026,Senate,s2024,27,,Nathan Kalmoe,I,0,final,0,100
-senate,2026 Senate,2026,Senate,s2024,29,,Cory Tomczyk,R,43989,final,33,100
-senate,2026 Senate,2026,Senate,s2024,29,,Gillian Battino,D,34618,final,33,100
-senate,2026 Senate,2026,Senate,s2024,31,,Jeff Smith,D,48231,final,20,100
-senate,2026 Senate,2026,Senate,s2024,31,,Michele Magadance Skinner,R,34302,final,20,100
-senate,2026 Senate,2026,Senate,s2024,33,,Chris Kapenga,R,65014,final,20,100
-senate,2026 Senate,2026,Senate,s2024,33,,Mike Van Someren,D,33657,final,20,100
-senate,2026 Senate,2026,Senate,s2024,33,,Democrat,D,0,final,20,100
-house,2026 Assembly,2026,Assembly,a2024,1,,Joel Kitchens,R,18292,final,24,100
-house,2026 Assembly,2026,Assembly,a2024,1,,Renee A. Paplham,D,13603,final,24,100
-house,2026 Assembly,2026,Assembly,a2024,2,,Shae Sortwell,R,16071,final,24,100
-house,2026 Assembly,2026,Assembly,a2024,2,,Alicia Saunders,D,11774,final,24,100
-house,2026 Assembly,2026,Assembly,a2024,3,,Ron Tusler,R,16727,final,32,100
-house,2026 Assembly,2026,Assembly,a2024,3,,Michael J. Goodwin,D,11596,final,32,100
-house,2026 Assembly,2026,Assembly,a2024,4,,David Steffen,R,17935,final,32,100
-house,2026 Assembly,2026,Assembly,a2024,4,,Alexia Unertl,D,11061,final,32,100
-house,2026 Assembly,2026,Assembly,a2024,5,,Joy Goeben,R,14759,final,32,100
-house,2026 Assembly,2026,Assembly,a2024,5,,Justin Schumacher,D,11456,final,32,100
-house,2026 Assembly,2026,Assembly,a2024,5,,David Schupbach,G,702,final,32,100
-house,2026 Assembly,2026,Assembly,a2024,6,,Elijah Behnke,R,15894,final,16,100
-house,2026 Assembly,2026,Assembly,a2024,6,,Shirley Hinze,D,8980,final,16,100
-house,2026 Assembly,2026,Assembly,a2024,7,,Karen Kirsch,D,14184,final,49,100
-house,2026 Assembly,2026,Assembly,a2024,7,,Lee Whiting,R,6891,final,49,100
-house,2026 Assembly,2026,Assembly,a2024,8,,Ismael Luna,D,8039,final,49,100
-house,2026 Assembly,2026,Assembly,a2024,8,,Angel Sanchez,R,1327,final,49,100
-house,2026 Assembly,2026,Assembly,a2024,9,,Priscilla A. Prado,D,0,pending,0,100
-house,2026 Assembly,2026,Assembly,a2024,9,,Sam Guerrero,R,0,pending,0,100
-house,2026 Assembly,2026,Assembly,a2024,9,,Samuel Guerreo,R,0,pending,0,100
-house,2026 Assembly,2026,Assembly,a2024,10,,Darrin Madison,D,20564,final,48,100
-house,2026 Assembly,2026,Assembly,a2024,10,,Robert Longwell-Grice,G,2303,final,48,100
-house,2026 Assembly,2026,Assembly,a2024,11,,Sequanna Taylor,D,15331,final,49,100
-house,2026 Assembly,2026,Assembly,a2024,11,,Shandowlyon Reaves,R,1420,final,49,100
-house,2026 Assembly,2026,Assembly,a2024,12,,"Russell Antonio Goodwin, Sr.",D,0,final,0,100
-house,2026 Assembly,2026,Assembly,a2024,13,,Amy Zimmerman,D,21117,final,32,100
-house,2026 Assembly,2026,Assembly,a2024,13,,Mike Morgan,R,12515,final,32,100
-house,2026 Assembly,2026,Assembly,a2024,14,,Angelito Tenorio,D,14060,final,48,100
-house,2026 Assembly,2026,Assembly,a2024,14,,AmyRose Murphy,R,8367,final,48,100
-house,2026 Assembly,2026,Assembly,a2024,15,,Adam Neylon,R,17074,final,48,100
-house,2026 Assembly,2026,Assembly,a2024,15,,Stephen Tryon,D,14036,final,48,100
-house,2026 Assembly,2026,Assembly,a2024,16,,Kalan Haywood,D,14774,final,49,100
-house,2026 Assembly,2026,Assembly,a2024,16,,Alciro Deacon,R,1043,final,49,100
-house,2026 Assembly,2026,Assembly,a2024,17,,Supreme Moore Omokunde,D,19592,final,49,100
-house,2026 Assembly,2026,Assembly,a2024,17,,Charlene Abughrin,R,2783,final,49,100
+house,2026 Assembly,2026,Assembly,a2024,73,,Angela Stroud,D,17146,final,24,100
+house,2026 Assembly,2026,Assembly,a2024,73,,Frank Kostka,R,9455,final,24,100
 house,2026 Assembly,2026,Assembly,a2024,18,,Margaret Arney,D,17410,final,49,100
 house,2026 Assembly,2026,Assembly,a2024,18,,Joel Richmond,R,2598,final,49,100
-house,2026 Assembly,2026,Assembly,a2024,19,,Ryan Clancy,D,26030,final,49,100
-house,2026 Assembly,2026,Assembly,a2024,19,,Yasmine B. Outlaw,R,3852,final,49,100
+house,2026 Assembly,2026,Assembly,a2024,82,,Bryson Reyes,R,12603,final,49,100
+house,2026 Assembly,2026,Assembly,a2024,82,,Rico Camacho,D,12002,final,49,100
+house,2026 Assembly,2026,Assembly,a2024,91,,Jodi Emerson,D,16495,final,33,100
+house,2026 Assembly,2026,Assembly,a2024,91,,Bruce Stabenow,R,11209,final,33,100
+house,2026 Assembly,2026,Assembly,a2024,91,,Democrat,D,0,final,33,100
+house,2026 Assembly,2026,Assembly,a2024,36,,Jeffrey L. Mursau,R,18485,final,20,100
+house,2026 Assembly,2026,Assembly,a2024,36,,Shena Chapman,I,7762,final,20,100
+house,2026 Assembly,2026,Assembly,a2024,45,,Clinton Anderson,D,12831,final,49,100
+house,2026 Assembly,2026,Assembly,a2024,45,,Jocelyn Jordan,R,8276,final,49,100
+house,2026 Assembly,2026,Assembly,a2024,45,,Democrat,D,0,final,49,100
+senate,2026 Senate,2026,Senate,s2024,17,,Jenna Jacobson,D,43775,final,11,100
+senate,2026 Senate,2026,Senate,s2024,17,,Howard Marklein,R,37593,final,11,100
+house,2026 Assembly,2026,Assembly,a2024,2,,Shae Sortwell,R,16071,final,24,100
+house,2026 Assembly,2026,Assembly,a2024,2,,Alicia Saunders,D,11774,final,24,100
+house,2026 Assembly,2026,Assembly,a2024,66,,Greta Neubauer,D,13985,final,48,100
+house,2026 Assembly,2026,Assembly,a2024,66,,Gina Cefalu Paulick,R,9354,final,48,100
+house,2026 Assembly,2026,Assembly,a2024,11,,Sequanna Taylor,D,15331,final,49,100
+house,2026 Assembly,2026,Assembly,a2024,11,,Shandowlyon Reaves,R,1420,final,49,100
+house,2026 Assembly,2026,Assembly,a2024,75,,Duke Tucker,R,18486,final,33,100
+house,2026 Assembly,2026,Assembly,a2024,75,,Keith Mogel,D,10734,final,33,100
 house,2026 Assembly,2026,Assembly,a2024,20,,Christine Sinicki,D,17979,final,48,100
 house,2026 Assembly,2026,Assembly,a2024,20,,Kyle Cleary,R,8106,final,48,100
 house,2026 Assembly,2026,Assembly,a2024,20,,Democrat,D,0,final,48,100
-house,2026 Assembly,2026,Assembly,a2024,21,,Daniel J. Bukiewicz,D,15942,final,49,100
-house,2026 Assembly,2026,Assembly,a2024,21,,Dylan Pfaffenbach,R,9567,final,49,100
+house,2026 Assembly,2026,Assembly,a2024,29,,Treig Pronschinske,R,15887,final,19,100
+house,2026 Assembly,2026,Assembly,a2024,29,,Chris Danou,D,10243,final,19,100
+house,2026 Assembly,2026,Assembly,a2024,93,,Christian Phelps,D,17627,final,25,100
+house,2026 Assembly,2026,Assembly,a2024,93,,Michael Ayala,R,10953,final,25,100
+house,2026 Assembly,2026,Assembly,a2024,38,,William Penterman,R,15482,final,32,100
+house,2026 Assembly,2026,Assembly,a2024,38,,Terri Wenkman,D,9474,final,32,100
+senate,2026 Senate,2026,Senate,s2024,1,,Nic Cravillion,R,49821,final,14,100
+senate,2026 Senate,2026,Senate,s2024,1,,Mark Becker,I,36141,final,14,100
+house,2026 Assembly,2026,Assembly,a2024,4,,David Steffen,R,17935,final,32,100
+house,2026 Assembly,2026,Assembly,a2024,4,,Alexia Unertl,D,11061,final,32,100
+house,2026 Assembly,2026,Assembly,a2024,68,,Rob Summerfield,R,16415,final,17,100
+house,2026 Assembly,2026,Assembly,a2024,68,,Elisha King,D,7875,final,17,100
+house,2026 Assembly,2026,Assembly,a2024,13,,Amy Zimmerman,D,21117,final,32,100
+house,2026 Assembly,2026,Assembly,a2024,13,,Mike Morgan,R,12515,final,32,100
+house,2026 Assembly,2026,Assembly,a2024,77,,Renuka Mayadev,D,24232,final,48,100
+house,2026 Assembly,2026,Assembly,a2024,77,,Jane McCormick,R,2830,final,48,100
 house,2026 Assembly,2026,Assembly,a2024,22,,Paul Melotik,R,17739,final,66,100
 house,2026 Assembly,2026,Assembly,a2024,22,,Dana Glasstein,D,15696,final,66,100
 house,2026 Assembly,2026,Assembly,a2024,22,,Democrat,D,0,final,66,100
 house,2026 Assembly,2026,Assembly,a2024,22,,Write-in,W,0,final,66,100
-house,2026 Assembly,2026,Assembly,a2024,23,,Deb Andraca,D,22387,final,65,100
-house,2026 Assembly,2026,Assembly,a2024,23,,Aleaner Pabonnie,R,10263,final,65,100
-house,2026 Assembly,2026,Assembly,a2024,23,,Write-in,W,0,final,65,100
-house,2026 Assembly,2026,Assembly,a2024,24,,Dan Knodl,R,17687,final,32,100
-house,2026 Assembly,2026,Assembly,a2024,24,,Matt Brown,D,15036,final,32,100
-house,2026 Assembly,2026,Assembly,a2024,25,,Paul Tittl,R,13268,final,32,100
-house,2026 Assembly,2026,Assembly,a2024,25,,Christopher Able,D,10867,final,32,100
-house,2026 Assembly,2026,Assembly,a2024,26,,Joe Sheehan,D,12937,final,48,100
-house,2026 Assembly,2026,Assembly,a2024,26,,John Belanger,R,9268,final,48,100
-house,2026 Assembly,2026,Assembly,a2024,27,,Lindee Brill,R,0,final,0,100
-house,2026 Assembly,2026,Assembly,a2024,28,,Rob Kreibich,R,17609,final,24,100
-house,2026 Assembly,2026,Assembly,a2024,28,,Robin Lillesve,D,10274,final,24,100
-house,2026 Assembly,2026,Assembly,a2024,29,,Treig Pronschinske,R,15887,final,19,100
-house,2026 Assembly,2026,Assembly,a2024,29,,Chris Danou,D,10243,final,19,100
-house,2026 Assembly,2026,Assembly,a2024,30,,Kevin Knoke,D,16336,final,31,100
-house,2026 Assembly,2026,Assembly,a2024,30,,Shannon Zimmerman,R,14513,final,31,100
-house,2026 Assembly,2026,Assembly,a2024,31,,Tyler August,R,15232,final,32,100
-house,2026 Assembly,2026,Assembly,a2024,31,,John Perryman,D,10613,final,32,100
-house,2026 Assembly,2026,Assembly,a2024,32,,Amanda Nedweski,R,16364,final,32,100
-house,2026 Assembly,2026,Assembly,a2024,32,,Greg Miller,D,10239,final,32,100
-house,2026 Assembly,2026,Assembly,a2024,33,,Maria Elena Bisabarros,D,0,pending,0,100
-house,2026 Assembly,2026,Assembly,a2024,33,,Steve Wicklund,R,0,pending,0,100
-house,2026 Assembly,2026,Assembly,a2024,33,,Rick Stacey,R,0,pending,0,100
-house,2026 Assembly,2026,Assembly,a2024,34,,Rob Swearingen,R,19083,final,66,100
-house,2026 Assembly,2026,Assembly,a2024,34,,Merlin Van Buren,D,13142,final,66,100
-house,2026 Assembly,2026,Assembly,a2024,34,,Write-in,W,0,final,66,100
-house,2026 Assembly,2026,Assembly,a2024,35,,Calvin Callahan,R,17863,final,28,100
-house,2026 Assembly,2026,Assembly,a2024,35,,Elizabeth McCrank,D,10354,final,28,100
-house,2026 Assembly,2026,Assembly,a2024,35,,Democrat,D,0,final,28,100
-house,2026 Assembly,2026,Assembly,a2024,35,,Write-in,W,0,final,28,100
-house,2026 Assembly,2026,Assembly,a2024,36,,Jeffrey L. Mursau,R,18485,final,20,100
-house,2026 Assembly,2026,Assembly,a2024,36,,Shena Chapman,I,7762,final,20,100
-house,2026 Assembly,2026,Assembly,a2024,37,,Mark Born,R,14331,final,24,100
-house,2026 Assembly,2026,Assembly,a2024,37,,LaToya Bates,D,8435,final,24,100
-house,2026 Assembly,2026,Assembly,a2024,38,,William Penterman,R,15482,final,32,100
-house,2026 Assembly,2026,Assembly,a2024,38,,Terri Wenkman,D,9474,final,32,100
-house,2026 Assembly,2026,Assembly,a2024,39,,Alex Dallman,R,17484,final,12,100
-house,2026 Assembly,2026,Assembly,a2024,39,,Michael Skivington,D,8886,final,12,100
-house,2026 Assembly,2026,Assembly,a2024,40,,Karen DeSanto,D,15372,final,32,100
-house,2026 Assembly,2026,Assembly,a2024,40,,Julie Helmer,R,11139,final,32,100
-house,2026 Assembly,2026,Assembly,a2024,41,,Tony Kurtz,R,14728,final,14,100
-house,2026 Assembly,2026,Assembly,a2024,41,,Zach Commons,D,9888,final,14,100
-house,2026 Assembly,2026,Assembly,a2024,42,,Maureen McCarville,D,19180,final,32,100
-house,2026 Assembly,2026,Assembly,a2024,42,,Keith F. Miller,R,11772,final,32,100
-house,2026 Assembly,2026,Assembly,a2024,43,,Brienne Brown,D,15461,final,19,100
-house,2026 Assembly,2026,Assembly,a2024,43,,Paul McGraw,R,10848,final,19,100
-house,2026 Assembly,2026,Assembly,a2024,44,,Ann Roe,D,14786,final,49,100
-house,2026 Assembly,2026,Assembly,a2024,44,,Ron Woodman,R,9144,final,49,100
-house,2026 Assembly,2026,Assembly,a2024,45,,Clinton Anderson,D,12831,final,49,100
-house,2026 Assembly,2026,Assembly,a2024,45,,Jocelyn Jordan,R,8276,final,49,100
-house,2026 Assembly,2026,Assembly,a2024,45,,Democrat,D,0,final,49,100
-house,2026 Assembly,2026,Assembly,a2024,46,,Joan Fitzgerald,D,0,pending,0,100
-house,2026 Assembly,2026,Assembly,a2024,46,,John Donohue,R,0,pending,0,100
-house,2026 Assembly,2026,Assembly,a2024,46,,John Donahue,R,0,pending,0,100
-house,2026 Assembly,2026,Assembly,a2024,47,,Randy Udell,D,25146,final,49,100
-house,2026 Assembly,2026,Assembly,a2024,47,,Sandy Bakk,R,7577,final,49,100
-house,2026 Assembly,2026,Assembly,a2024,47,,Democrat,D,0,final,49,100
-house,2026 Assembly,2026,Assembly,a2024,48,,Andrew Hysell,D,22012,final,33,100
-house,2026 Assembly,2026,Assembly,a2024,48,,Mark Kjorlie,R,7875,final,33,100
-house,2026 Assembly,2026,Assembly,a2024,49,,Travis Tranel,R,13392,final,25,100
-house,2026 Assembly,2026,Assembly,a2024,49,,John Rindy,D,10186,final,25,100
-house,2026 Assembly,2026,Assembly,a2024,50,,Bill Oemichen,D,18462,final,24,100
-house,2026 Assembly,2026,Assembly,a2024,50,,Jon Aleckson,R,11709,final,24,100
-house,2026 Assembly,2026,Assembly,a2024,51,,Ben Gruber,D,14863,final,20,100
-house,2026 Assembly,2026,Assembly,a2024,51,,Todd Novak,R,11907,final,20,100
-house,2026 Assembly,2026,Assembly,a2024,51,,Nathan Tataje,I,447,final,20,100
-house,2026 Assembly,2026,Assembly,a2024,52,,Lee Snodgrass,D,15878,final,49,100
-house,2026 Assembly,2026,Assembly,a2024,52,,Reive Pullen,R,9086,final,49,100
-house,2026 Assembly,2026,Assembly,a2024,53,,Becky Nichols,D,13177,final,32,100
-house,2026 Assembly,2026,Assembly,a2024,53,,David Daniels,R,9394,final,32,100
-house,2026 Assembly,2026,Assembly,a2024,53,,Rachael Dowling,I,1530,final,32,100
-house,2026 Assembly,2026,Assembly,a2024,54,,Lori Palmeri,D,12294,final,48,100
-house,2026 Assembly,2026,Assembly,a2024,54,,Tim Paterson,R,7964,final,48,100
-house,2026 Assembly,2026,Assembly,a2024,55,,Nate Gustafson,R,16608,final,31,100
-house,2026 Assembly,2026,Assembly,a2024,55,,Alex Corrigan,D,13197,final,31,100
-house,2026 Assembly,2026,Assembly,a2024,56,,Anthony W. Phillips,R,17183,final,32,100
-house,2026 Assembly,2026,Assembly,a2024,56,,Grace Abitz,D,11540,final,32,100
-house,2026 Assembly,2026,Assembly,a2024,57,,Kevin Krentz,R,18148,final,14,100
-house,2026 Assembly,2026,Assembly,a2024,57,,Joey Marschall,D,9434,final,14,100
-house,2026 Assembly,2026,Assembly,a2024,58,,Bernie Newman,R,19724,final,65,100
-house,2026 Assembly,2026,Assembly,a2024,58,,Dennis D. Degenhardt,D,9680,final,65,100
-house,2026 Assembly,2026,Assembly,a2024,58,,Write-in,W,0,final,65,100
-house,2026 Assembly,2026,Assembly,a2024,59,,Bradley Petersen,R,22111,final,33,100
-house,2026 Assembly,2026,Assembly,a2024,59,,Jack Holzman,D,8332,final,33,100
-house,2026 Assembly,2026,Assembly,a2024,59,,Write-in,W,0,final,33,100
-house,2026 Assembly,2026,Assembly,a2024,60,,Marty Ryan,R,12091,final,48,100
-house,2026 Assembly,2026,Assembly,a2024,60,,Tiffany Brault,I,9273,final,48,100
-house,2026 Assembly,2026,Assembly,a2024,61,,Ben Brist,D,15100,final,48,100
-house,2026 Assembly,2026,Assembly,a2024,61,,Bob Donovan,R,11745,final,48,100
-house,2026 Assembly,2026,Assembly,a2024,62,,Angelina M. Cruz,D,13444,final,49,100
-house,2026 Assembly,2026,Assembly,a2024,62,,Mike Bellagio,R,6789,final,49,100
-house,2026 Assembly,2026,Assembly,a2024,63,,Robert Wittke,R,15635,final,32,100
-house,2026 Assembly,2026,Assembly,a2024,63,,Eddie Phanichkul,D,13594,final,32,100
-house,2026 Assembly,2026,Assembly,a2024,64,,Tip McGuire,D,13561,final,49,100
-house,2026 Assembly,2026,Assembly,a2024,64,,Ed Hibsch,R,8255,final,49,100
-house,2026 Assembly,2026,Assembly,a2024,65,,Ben DeSmidt,D,13336,final,49,100
-house,2026 Assembly,2026,Assembly,a2024,65,,Valerie Kretchmer,R,8636,final,49,100
-house,2026 Assembly,2026,Assembly,a2024,66,,Greta Neubauer,D,13985,final,48,100
-house,2026 Assembly,2026,Assembly,a2024,66,,Gina Cefalu Paulick,R,9354,final,48,100
-house,2026 Assembly,2026,Assembly,a2024,67,,David Armstrong,R,16587,final,25,100
-house,2026 Assembly,2026,Assembly,a2024,67,,Indiana Thompson,D,9566,final,25,100
-house,2026 Assembly,2026,Assembly,a2024,67,,Democrat,D,0,final,25,100
-house,2026 Assembly,2026,Assembly,a2024,68,,Rob Summerfield,R,16415,final,17,100
-house,2026 Assembly,2026,Assembly,a2024,68,,Elisha King,D,7875,final,17,100
-house,2026 Assembly,2026,Assembly,a2024,69,,Karen Hurd,R,10900,final,15,100
-house,2026 Assembly,2026,Assembly,a2024,69,,Roger Halls,D,4532,final,15,100
-house,2026 Assembly,2026,Assembly,a2024,69,,Josh Kelley,I,849,final,15,100
-house,2026 Assembly,2026,Assembly,a2024,70,,Nancy VanderMeer,R,13850,final,25,100
-house,2026 Assembly,2026,Assembly,a2024,70,,Stephanie Stuve-Bodeen,D,8794,final,25,100
-house,2026 Assembly,2026,Assembly,a2024,70,,Stephanie Stuve Bodeen,D,0,final,25,100
-house,2026 Assembly,2026,Assembly,a2024,71,,Vinnie Miresse,D,17135,final,32,100
-house,2026 Assembly,2026,Assembly,a2024,71,,Jeff Disher,R,11309,final,32,100
-house,2026 Assembly,2026,Assembly,a2024,72,,Scott Krug,R,16343,final,49,100
-house,2026 Assembly,2026,Assembly,a2024,72,,Christine Maltese,D,10814,final,49,100
-house,2026 Assembly,2026,Assembly,a2024,73,,Angela Stroud,D,17146,final,24,100
-house,2026 Assembly,2026,Assembly,a2024,73,,Frank Kostka,R,9455,final,24,100
-house,2026 Assembly,2026,Assembly,a2024,74,,Chanz Green,R,17956,final,12,100
-house,2026 Assembly,2026,Assembly,a2024,74,,Paul Johnson,D,12864,final,12,100
-house,2026 Assembly,2026,Assembly,a2024,74,,Republican,R,0,final,12,100
-house,2026 Assembly,2026,Assembly,a2024,75,,Duke Tucker,R,18486,final,33,100
-house,2026 Assembly,2026,Assembly,a2024,75,,Keith Mogel,D,10734,final,33,100
-house,2026 Assembly,2026,Assembly,a2024,76,,Dina Nina Martinez-Rutherford,D,31577,final,48,100
-house,2026 Assembly,2026,Assembly,a2024,76,,Nina Chat,R,2497,final,48,100
-house,2026 Assembly,2026,Assembly,a2024,77,,Renuka Mayadev,D,24232,final,48,100
-house,2026 Assembly,2026,Assembly,a2024,77,,Jane McCormick,R,2830,final,48,100
-house,2026 Assembly,2026,Assembly,a2024,78,,Shelia Stubbs,D,26206,final,48,100
-house,2026 Assembly,2026,Assembly,a2024,78,,Henry Johnson,R,4537,final,48,100
-house,2026 Assembly,2026,Assembly,a2024,79,,Lisa Subeck,D,29409,final,48,100
-house,2026 Assembly,2026,Assembly,a2024,79,,John Fons,R,3704,final,48,100
-house,2026 Assembly,2026,Assembly,a2024,80,,Mike Bare,D,28840,final,48,100
-house,2026 Assembly,2026,Assembly,a2024,80,,Simran Arora,R,7778,final,48,100
-house,2026 Assembly,2026,Assembly,a2024,81,,Alex Joers,D,25180,final,48,100
-house,2026 Assembly,2026,Assembly,a2024,81,,Mark S. Maier,R,9494,final,48,100
-house,2026 Assembly,2026,Assembly,a2024,82,,Bryson Reyes,R,12603,final,49,100
-house,2026 Assembly,2026,Assembly,a2024,82,,Rico Camacho,D,12002,final,49,100
-house,2026 Assembly,2026,Assembly,a2024,83,,Dave Maxey,R,0,final,0,100
-house,2026 Assembly,2026,Assembly,a2024,84,,Chuck Wichgers,R,0,final,0,100
-house,2026 Assembly,2026,Assembly,a2024,85,,John Kroll,D,12377,final,48,100
-house,2026 Assembly,2026,Assembly,a2024,85,,Patrick Snyder,R,10512,final,48,100
 house,2026 Assembly,2026,Assembly,a2024,86,,John Spiros,R,16760,final,50,100
 house,2026 Assembly,2026,Assembly,a2024,86,,Andy Wuethrich,D,10477,final,50,100
-house,2026 Assembly,2026,Assembly,a2024,87,,Brent Jacobson,R,17269,final,20,100
-house,2026 Assembly,2026,Assembly,a2024,87,,Bob Look,D,10977,final,20,100
-house,2026 Assembly,2026,Assembly,a2024,88,,Brandy Tollefson,D,14593,final,47,100
-house,2026 Assembly,2026,Assembly,a2024,88,,Ben Franklin,R,12267,final,47,100
-house,2026 Assembly,2026,Assembly,a2024,88,,Democrat,D,0,final,47,100
-house,2026 Assembly,2026,Assembly,a2024,89,,Ryan Spaude,D,12608,final,48,100
-house,2026 Assembly,2026,Assembly,a2024,89,,Bobby R. Lindsey,R,9717,final,48,100
-house,2026 Assembly,2026,Assembly,a2024,90,,Amaad Rivera-Wagner,D,11320,final,48,100
-house,2026 Assembly,2026,Assembly,a2024,90,,Jessica Henderson,R,7133,final,48,100
-house,2026 Assembly,2026,Assembly,a2024,91,,Jodi Emerson,D,16495,final,33,100
-house,2026 Assembly,2026,Assembly,a2024,91,,Bruce Stabenow,R,11209,final,33,100
-house,2026 Assembly,2026,Assembly,a2024,91,,Democrat,D,0,final,33,100
-house,2026 Assembly,2026,Assembly,a2024,92,,Jeremiah Fredrickson,D,13870,final,32,100
-house,2026 Assembly,2026,Assembly,a2024,92,,Clint Moses,R,12106,final,32,100
-house,2026 Assembly,2026,Assembly,a2024,93,,Christian Phelps,D,17627,final,25,100
-house,2026 Assembly,2026,Assembly,a2024,93,,Michael Ayala,R,10953,final,25,100
-house,2026 Assembly,2026,Assembly,a2024,94,,Steve Doyle,D,16847,final,32,100
-house,2026 Assembly,2026,Assembly,a2024,94,,Keith Purnell,R,12861,final,32,100
-house,2026 Assembly,2026,Assembly,a2024,94,,Democrat,D,0,final,32,100
-house,2026 Assembly,2026,Assembly,a2024,94,,Write-in,W,0,final,32,100
+house,2026 Assembly,2026,Assembly,a2024,31,,Tyler August,R,15232,final,32,100
+house,2026 Assembly,2026,Assembly,a2024,31,,John Perryman,D,10613,final,32,100
 house,2026 Assembly,2026,Assembly,a2024,95,,Jill Billings,D,14451,final,32,100
 house,2026 Assembly,2026,Assembly,a2024,95,,Cedric Schnitzler,R,9677,final,32,100
 house,2026 Assembly,2026,Assembly,a2024,95,,Paul Michael Weber,I,484,final,32,100
 house,2026 Assembly,2026,Assembly,a2024,95,,Write-in,W,0,final,32,100
-house,2026 Assembly,2026,Assembly,a2024,96,,Tara Johnson,D,16250,final,33,100
-house,2026 Assembly,2026,Assembly,a2024,96,,Jim Green,R,10417,final,33,100
-house,2026 Assembly,2026,Assembly,a2024,96,,Write-in,W,0,final,33,100
-house,2026 Assembly,2026,Assembly,a2024,97,,Cindi Duchow,R,0,final,0,100
-house,2026 Assembly,2026,Assembly,a2024,98,,Jim Piwowarczyk,R,21681,final,31,100
-house,2026 Assembly,2026,Assembly,a2024,98,,Matt Philibert,D,10617,final,31,100
-house,2026 Assembly,2026,Assembly,a2024,99,,Barbara Dittrich,R,0,final,0,100
+house,2026 Assembly,2026,Assembly,a2024,40,,Karen DeSanto,D,15372,final,32,100
+house,2026 Assembly,2026,Assembly,a2024,40,,Julie Helmer,R,11139,final,32,100
+house,2026 Assembly,2026,Assembly,a2024,61,,Ben Brist,D,15100,final,48,100
+house,2026 Assembly,2026,Assembly,a2024,61,,Bob Donovan,R,11745,final,48,100
+house,2026 Assembly,2026,Assembly,a2024,6,,Elijah Behnke,R,15894,final,16,100
+house,2026 Assembly,2026,Assembly,a2024,6,,Shirley Hinze,D,8980,final,16,100
+house,2026 Assembly,2026,Assembly,a2024,70,,Nancy VanderMeer,R,13850,final,25,100
+house,2026 Assembly,2026,Assembly,a2024,70,,Stephanie Stuve-Bodeen,D,8794,final,25,100
+house,2026 Assembly,2026,Assembly,a2024,70,,Stephanie Stuve Bodeen,D,0,final,25,100
+house,2026 Assembly,2026,Assembly,a2024,15,,Adam Neylon,R,17074,final,48,100
+house,2026 Assembly,2026,Assembly,a2024,15,,Stephen Tryon,D,14036,final,48,100
+senate,2026 Senate,2026,Senate,s2024,33,,Chris Kapenga,R,65014,final,20,100
+senate,2026 Senate,2026,Senate,s2024,33,,Mike Van Someren,D,33657,final,20,100
+senate,2026 Senate,2026,Senate,s2024,33,,Democrat,D,0,final,20,100
+house,2026 Assembly,2026,Assembly,a2024,79,,Lisa Subeck,D,29409,final,48,100
+house,2026 Assembly,2026,Assembly,a2024,79,,John Fons,R,3704,final,48,100
+house,2026 Assembly,2026,Assembly,a2024,24,,Dan Knodl,R,17687,final,32,100
+house,2026 Assembly,2026,Assembly,a2024,24,,Matt Brown,D,15036,final,32,100
+house,2026 Assembly,2026,Assembly,a2024,88,,Brandy Tollefson,D,14593,final,47,100
+house,2026 Assembly,2026,Assembly,a2024,88,,Ben Franklin,R,12267,final,47,100
+house,2026 Assembly,2026,Assembly,a2024,88,,Democrat,D,0,final,47,100
+statewide,2026 Attorney General,2026,Attorney General,,55001,Adams,Eric Toney,R,6163,final,95,100
+statewide,2026 Attorney General,2026,Attorney General,,55001,Adams,Josh Kaul,D,4033,final,95,100
+statewide,2026 Attorney General,2026,Attorney General,,55001,Adams,Write-in,W,0,final,95,100
+statewide,2026 Attorney General,2026,Attorney General,,55003,Ashland,Josh Kaul,D,3874,final,93.8,100
+statewide,2026 Attorney General,2026,Attorney General,,55003,Ashland,Eric Toney,R,2852,final,93.8,100
+statewide,2026 Attorney General,2026,Attorney General,,55003,Ashland,Write-in,W,0,final,93.8,100
+statewide,2026 Attorney General,2026,Attorney General,,55005,Barron,Eric Toney,R,12287,final,97.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55005,Barron,Josh Kaul,D,7834,final,97.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55005,Barron,Write-in,W,0,final,97.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55007,Bayfield,Josh Kaul,D,5722,final,96.4,100
+statewide,2026 Attorney General,2026,Attorney General,,55007,Bayfield,Eric Toney,R,3787,final,96.4,100
+statewide,2026 Attorney General,2026,Attorney General,,55007,Bayfield,Write-in,W,0,final,96.4,100
+statewide,2026 Attorney General,2026,Attorney General,,55009,Brown,Josh Kaul,D,58889,final,98,100
+statewide,2026 Attorney General,2026,Attorney General,,55009,Brown,Eric Toney,R,55024,final,98,100
+statewide,2026 Attorney General,2026,Attorney General,,55009,Brown,Write-in,W,0,final,98,100
+statewide,2026 Attorney General,2026,Attorney General,,55011,Buffalo,Eric Toney,R,3774,final,95.7,100
+statewide,2026 Attorney General,2026,Attorney General,,55011,Buffalo,Josh Kaul,D,2485,final,95.7,100
+statewide,2026 Attorney General,2026,Attorney General,,55011,Buffalo,Write-in,W,0,final,95.7,100
+statewide,2026 Attorney General,2026,Attorney General,,55013,Burnett,Eric Toney,R,5449,final,95.8,100
+statewide,2026 Attorney General,2026,Attorney General,,55013,Burnett,Josh Kaul,D,3125,final,95.8,100
+statewide,2026 Attorney General,2026,Attorney General,,55013,Burnett,Write-in,W,0,final,95.8,100
+statewide,2026 Attorney General,2026,Attorney General,,55015,Calumet,Eric Toney,R,14194,final,98,100
+statewide,2026 Attorney General,2026,Attorney General,,55015,Calumet,Josh Kaul,D,11068,final,98,100
+statewide,2026 Attorney General,2026,Attorney General,,55015,Calumet,Write-in,W,0,final,98,100
+statewide,2026 Attorney General,2026,Attorney General,,55017,Chippewa,Eric Toney,R,16683,final,97.7,100
+statewide,2026 Attorney General,2026,Attorney General,,55017,Chippewa,Josh Kaul,D,13242,final,97.7,100
+statewide,2026 Attorney General,2026,Attorney General,,55017,Chippewa,Write-in,W,0,final,97.7,100
+statewide,2026 Attorney General,2026,Attorney General,,55019,Clark,Eric Toney,R,7397,final,98,100
+statewide,2026 Attorney General,2026,Attorney General,,55019,Clark,Josh Kaul,D,4123,final,98,100
+statewide,2026 Attorney General,2026,Attorney General,,55019,Clark,Write-in,W,0,final,98,100
+statewide,2026 Attorney General,2026,Attorney General,,55021,Columbia,Josh Kaul,D,14249,final,97.3,100
+statewide,2026 Attorney General,2026,Attorney General,,55021,Columbia,Eric Toney,R,12771,final,97.3,100
+statewide,2026 Attorney General,2026,Attorney General,,55021,Columbia,Write-in,W,0,final,97.3,100
+statewide,2026 Attorney General,2026,Attorney General,,55023,Crawford,Josh Kaul,D,3574,final,96.3,100
+statewide,2026 Attorney General,2026,Attorney General,,55023,Crawford,Eric Toney,R,3434,final,96.3,100
+statewide,2026 Attorney General,2026,Attorney General,,55023,Crawford,Write-in,W,0,final,96.3,100
+statewide,2026 Attorney General,2026,Attorney General,,55025,Dane,Josh Kaul,D,249329,final,98.9,100
+statewide,2026 Attorney General,2026,Attorney General,,55025,Dane,Eric Toney,R,60594,final,98.9,100
+statewide,2026 Attorney General,2026,Attorney General,,55025,Dane,Write-in,W,0,final,98.9,100
+statewide,2026 Attorney General,2026,Attorney General,,55027,Dodge,Eric Toney,R,23065,final,98.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55027,Dodge,Josh Kaul,D,13670,final,98.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55027,Dodge,Write-in,W,0,final,98.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55029,Door,Josh Kaul,D,9406,final,95.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55029,Door,Eric Toney,R,8080,final,95.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55029,Door,Write-in,W,0,final,95.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55031,Douglas,Josh Kaul,D,11286,final,96.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55031,Douglas,Eric Toney,R,7878,final,96.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55031,Douglas,Write-in,W,0,final,96.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55033,Dunn,Eric Toney,R,10186,final,97.1,100
+statewide,2026 Attorney General,2026,Attorney General,,55033,Dunn,Josh Kaul,D,9410,final,97.1,100
+statewide,2026 Attorney General,2026,Attorney General,,55033,Dunn,Write-in,W,0,final,97.1,100
+statewide,2026 Attorney General,2026,Attorney General,,55035,Eau Claire,Josh Kaul,D,31659,final,99,100
+statewide,2026 Attorney General,2026,Attorney General,,55035,Eau Claire,Eric Toney,R,19005,final,99,100
+statewide,2026 Attorney General,2026,Attorney General,,55035,Eau Claire,Write-in,W,0,final,99,100
+statewide,2026 Attorney General,2026,Attorney General,,55037,Florence,Eric Toney,R,1754,final,87.5,100
+statewide,2026 Attorney General,2026,Attorney General,,55037,Florence,Josh Kaul,D,682,final,87.5,100
+statewide,2026 Attorney General,2026,Attorney General,,55037,Florence,Write-in,W,0,final,87.5,100
+statewide,2026 Attorney General,2026,Attorney General,,55039,Fond du Lac,Eric Toney,R,27461,final,98.3,100
+statewide,2026 Attorney General,2026,Attorney General,,55039,Fond du Lac,Josh Kaul,D,16386,final,98.3,100
+statewide,2026 Attorney General,2026,Attorney General,,55039,Fond du Lac,Write-in,W,0,final,98.3,100
+statewide,2026 Attorney General,2026,Attorney General,,55041,Forest,Eric Toney,R,2506,final,93.3,100
+statewide,2026 Attorney General,2026,Attorney General,,55041,Forest,Josh Kaul,D,1490,final,93.3,100
+statewide,2026 Attorney General,2026,Attorney General,,55041,Forest,Write-in,W,0,final,93.3,100
+statewide,2026 Attorney General,2026,Attorney General,,55043,Grant,Eric Toney,R,10358,final,98.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55043,Grant,Josh Kaul,D,9118,final,98.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55043,Grant,Write-in,W,0,final,98.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55045,Green,Josh Kaul,D,9441,final,95.8,100
+statewide,2026 Attorney General,2026,Attorney General,,55045,Green,Eric Toney,R,7625,final,95.8,100
+statewide,2026 Attorney General,2026,Attorney General,,55045,Green,Write-in,W,0,final,95.8,100
+statewide,2026 Attorney General,2026,Attorney General,,55047,Green Lake,Eric Toney,R,5418,final,93.8,100
+statewide,2026 Attorney General,2026,Attorney General,,55047,Green Lake,Josh Kaul,D,2896,final,93.8,100
+statewide,2026 Attorney General,2026,Attorney General,,55047,Green Lake,Write-in,W,0,final,93.8,100
+statewide,2026 Attorney General,2026,Attorney General,,55049,Iowa,Josh Kaul,D,6811,final,96.6,100
+statewide,2026 Attorney General,2026,Attorney General,,55049,Iowa,Eric Toney,R,4606,final,96.6,100
+statewide,2026 Attorney General,2026,Attorney General,,55049,Iowa,Write-in,W,0,final,96.6,100
+statewide,2026 Attorney General,2026,Attorney General,,55051,Iron,Eric Toney,R,1911,final,93.3,100
+statewide,2026 Attorney General,2026,Attorney General,,55051,Iron,Josh Kaul,D,1266,final,93.3,100
+statewide,2026 Attorney General,2026,Attorney General,,55051,Iron,Write-in,W,0,final,93.3,100
+statewide,2026 Attorney General,2026,Attorney General,,55053,Jackson,Eric Toney,R,4398,final,96.9,100
+statewide,2026 Attorney General,2026,Attorney General,,55053,Jackson,Josh Kaul,D,3859,final,96.9,100
+statewide,2026 Attorney General,2026,Attorney General,,55053,Jackson,Write-in,W,0,final,96.9,100
+statewide,2026 Attorney General,2026,Attorney General,,55055,Jefferson,Eric Toney,R,20236,final,96.8,100
+statewide,2026 Attorney General,2026,Attorney General,,55055,Jefferson,Josh Kaul,D,17587,final,96.8,100
+statewide,2026 Attorney General,2026,Attorney General,,55055,Jefferson,Write-in,W,0,final,96.8,100
+statewide,2026 Attorney General,2026,Attorney General,,55057,Juneau,Eric Toney,R,6506,final,96.4,100
+statewide,2026 Attorney General,2026,Attorney General,,55057,Juneau,Josh Kaul,D,4185,final,96.4,100
+statewide,2026 Attorney General,2026,Attorney General,,55057,Juneau,Write-in,W,0,final,96.4,100
+statewide,2026 Attorney General,2026,Attorney General,,55059,Kenosha,Josh Kaul,D,35743,final,98.4,100
+statewide,2026 Attorney General,2026,Attorney General,,55059,Kenosha,Eric Toney,R,30938,final,98.4,100
+statewide,2026 Attorney General,2026,Attorney General,,55059,Kenosha,Write-in,W,0,final,98.4,100
+statewide,2026 Attorney General,2026,Attorney General,,55061,Kewaunee,Eric Toney,R,6001,final,92.9,100
+statewide,2026 Attorney General,2026,Attorney General,,55061,Kewaunee,Josh Kaul,D,3617,final,92.9,100
+statewide,2026 Attorney General,2026,Attorney General,,55061,Kewaunee,Write-in,W,0,final,92.9,100
+statewide,2026 Attorney General,2026,Attorney General,,55063,La Crosse,Josh Kaul,D,35189,final,98.1,100
+statewide,2026 Attorney General,2026,Attorney General,,55063,La Crosse,Eric Toney,R,21723,final,98.1,100
+statewide,2026 Attorney General,2026,Attorney General,,55063,La Crosse,Write-in,W,0,final,98.1,100
+statewide,2026 Attorney General,2026,Attorney General,,55065,Lafayette,Eric Toney,R,3574,final,96.4,100
+statewide,2026 Attorney General,2026,Attorney General,,55065,Lafayette,Josh Kaul,D,2954,final,96.4,100
+statewide,2026 Attorney General,2026,Attorney General,,55065,Lafayette,Write-in,W,0,final,96.4,100
+statewide,2026 Attorney General,2026,Attorney General,,55067,Langlade,Eric Toney,R,5639,final,95.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55067,Langlade,Josh Kaul,D,3133,final,95.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55067,Langlade,Write-in,W,0,final,95.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55069,Lincoln,Eric Toney,R,7637,final,96.3,100
+statewide,2026 Attorney General,2026,Attorney General,,55069,Lincoln,Josh Kaul,D,5326,final,96.3,100
+statewide,2026 Attorney General,2026,Attorney General,,55069,Lincoln,Write-in,W,0,final,96.3,100
+statewide,2026 Attorney General,2026,Attorney General,,55071,Manitowoc,Eric Toney,R,19637,final,97.5,100
+statewide,2026 Attorney General,2026,Attorney General,,55071,Manitowoc,Josh Kaul,D,14510,final,97.5,100
+statewide,2026 Attorney General,2026,Attorney General,,55071,Manitowoc,Write-in,W,0,final,97.5,100
+statewide,2026 Attorney General,2026,Attorney General,,55073,Marathon,Eric Toney,R,33461,final,98.9,100
+statewide,2026 Attorney General,2026,Attorney General,,55073,Marathon,Josh Kaul,D,27224,final,98.9,100
+statewide,2026 Attorney General,2026,Attorney General,,55073,Marathon,Write-in,W,0,final,98.9,100
+statewide,2026 Attorney General,2026,Attorney General,,55075,Marinette,Eric Toney,R,11490,final,96.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55075,Marinette,Josh Kaul,D,6230,final,96.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55075,Marinette,Write-in,W,0,final,96.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55077,Marquette,Eric Toney,R,4681,final,94.7,100
+statewide,2026 Attorney General,2026,Attorney General,,55077,Marquette,Josh Kaul,D,2798,final,94.7,100
+statewide,2026 Attorney General,2026,Attorney General,,55077,Marquette,Write-in,W,0,final,94.7,100
+statewide,2026 Attorney General,2026,Attorney General,,55078,Menominee,Josh Kaul,D,921,final,80,100
+statewide,2026 Attorney General,2026,Attorney General,,55078,Menominee,Eric Toney,R,240,final,80,100
+statewide,2026 Attorney General,2026,Attorney General,,55078,Menominee,Write-in,W,0,final,80,100
+statewide,2026 Attorney General,2026,Attorney General,,55079,Milwaukee,Josh Kaul,D,268664,final,98.8,100
+statewide,2026 Attorney General,2026,Attorney General,,55079,Milwaukee,Eric Toney,R,85130,final,98.8,100
+statewide,2026 Attorney General,2026,Attorney General,,55079,Milwaukee,Write-in,W,0,final,98.8,100
+statewide,2026 Attorney General,2026,Attorney General,,55081,Monroe,Eric Toney,R,10099,final,97.3,100
+statewide,2026 Attorney General,2026,Attorney General,,55081,Monroe,Josh Kaul,D,7411,final,97.3,100
+statewide,2026 Attorney General,2026,Attorney General,,55081,Monroe,Write-in,W,0,final,97.3,100
+statewide,2026 Attorney General,2026,Attorney General,,55083,Oconto,Eric Toney,R,12716,final,96.6,100
+statewide,2026 Attorney General,2026,Attorney General,,55083,Oconto,Josh Kaul,D,6087,final,96.6,100
+statewide,2026 Attorney General,2026,Attorney General,,55083,Oconto,Write-in,W,0,final,96.6,100
+statewide,2026 Attorney General,2026,Attorney General,,55085,Oneida,Eric Toney,R,11222,final,100,100
+statewide,2026 Attorney General,2026,Attorney General,,55085,Oneida,Josh Kaul,D,8807,final,100,100
+statewide,2026 Attorney General,2026,Attorney General,,55085,Oneida,Write-in,W,12,final,100,100
+statewide,2026 Attorney General,2026,Attorney General,,55087,Outagamie,Josh Kaul,D,42765,final,98.9,100
+statewide,2026 Attorney General,2026,Attorney General,,55087,Outagamie,Eric Toney,R,42435,final,98.9,100
+statewide,2026 Attorney General,2026,Attorney General,,55087,Outagamie,Write-in,W,0,final,98.9,100
+statewide,2026 Attorney General,2026,Attorney General,,55089,Ozaukee,Eric Toney,R,26543,final,100,100
+statewide,2026 Attorney General,2026,Attorney General,,55089,Ozaukee,Josh Kaul,D,24223,final,100,100
+statewide,2026 Attorney General,2026,Attorney General,,55089,Ozaukee,Write-in,W,33,final,100,100
+statewide,2026 Attorney General,2026,Attorney General,,55091,Pepin,Eric Toney,R,2025,final,90.9,100
+statewide,2026 Attorney General,2026,Attorney General,,55091,Pepin,Josh Kaul,D,1335,final,90.9,100
+statewide,2026 Attorney General,2026,Attorney General,,55091,Pepin,Write-in,W,0,final,90.9,100
+statewide,2026 Attorney General,2026,Attorney General,,55093,Pierce,Eric Toney,R,10614,final,96.3,100
+statewide,2026 Attorney General,2026,Attorney General,,55093,Pierce,Josh Kaul,D,9059,final,96.3,100
+statewide,2026 Attorney General,2026,Attorney General,,55093,Pierce,Write-in,W,0,final,96.3,100
+statewide,2026 Attorney General,2026,Attorney General,,55095,Polk,Eric Toney,R,13406,final,97.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55095,Polk,Josh Kaul,D,8058,final,97.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55095,Polk,Write-in,W,0,final,97.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55097,Portage,Josh Kaul,D,19433,final,97,100
+statewide,2026 Attorney General,2026,Attorney General,,55097,Portage,Eric Toney,R,14639,final,97,100
+statewide,2026 Attorney General,2026,Attorney General,,55097,Portage,Write-in,W,0,final,97,100
+statewide,2026 Attorney General,2026,Attorney General,,55099,Price,Eric Toney,R,4271,final,95.7,100
+statewide,2026 Attorney General,2026,Attorney General,,55099,Price,Josh Kaul,D,2599,final,95.7,100
+statewide,2026 Attorney General,2026,Attorney General,,55099,Price,Write-in,W,0,final,95.7,100
+statewide,2026 Attorney General,2026,Attorney General,,55101,Racine,Josh Kaul,D,42504,final,98.9,100
+statewide,2026 Attorney General,2026,Attorney General,,55101,Racine,Eric Toney,R,39498,final,98.9,100
+statewide,2026 Attorney General,2026,Attorney General,,55101,Racine,Write-in,W,0,final,98.9,100
+statewide,2026 Attorney General,2026,Attorney General,,55103,Richland,Josh Kaul,D,3450,final,95.5,100
+statewide,2026 Attorney General,2026,Attorney General,,55103,Richland,Eric Toney,R,3404,final,95.5,100
+statewide,2026 Attorney General,2026,Attorney General,,55103,Richland,Write-in,W,0,final,95.5,100
+statewide,2026 Attorney General,2026,Attorney General,,55105,Rock,Josh Kaul,D,40001,final,98.1,100
+statewide,2026 Attorney General,2026,Attorney General,,55105,Rock,Eric Toney,R,26955,final,98.1,100
+statewide,2026 Attorney General,2026,Attorney General,,55105,Rock,Write-in,W,0,final,98.1,100
+statewide,2026 Attorney General,2026,Attorney General,,55107,Rusk,Eric Toney,R,4160,final,97,100
+statewide,2026 Attorney General,2026,Attorney General,,55107,Rusk,Josh Kaul,D,2261,final,97,100
+statewide,2026 Attorney General,2026,Attorney General,,55107,Rusk,Write-in,W,0,final,97,100
+statewide,2026 Attorney General,2026,Attorney General,,55111,Sauk,Josh Kaul,D,15963,final,98,100
+statewide,2026 Attorney General,2026,Attorney General,,55111,Sauk,Eric Toney,R,13390,final,98,100
+statewide,2026 Attorney General,2026,Attorney General,,55111,Sauk,Write-in,W,0,final,98,100
+statewide,2026 Attorney General,2026,Attorney General,,55113,Sawyer,Eric Toney,R,5016,final,95.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55113,Sawyer,Josh Kaul,D,4099,final,95.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55113,Sawyer,Write-in,W,0,final,95.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55115,Shawano,Eric Toney,R,11196,final,97.7,100
+statewide,2026 Attorney General,2026,Attorney General,,55115,Shawano,Josh Kaul,D,6151,final,97.7,100
+statewide,2026 Attorney General,2026,Attorney General,,55115,Shawano,Write-in,W,0,final,97.7,100
+statewide,2026 Attorney General,2026,Attorney General,,55117,Sheboygan,Eric Toney,R,28020,final,96.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55117,Sheboygan,Josh Kaul,D,23705,final,96.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55117,Sheboygan,Write-in,W,0,final,96.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55109,St. Croix,Eric Toney,R,26527,final,97.5,100
+statewide,2026 Attorney General,2026,Attorney General,,55109,St. Croix,Josh Kaul,D,20490,final,97.5,100
+statewide,2026 Attorney General,2026,Attorney General,,55109,St. Croix,Write-in,W,0,final,97.5,100
+statewide,2026 Attorney General,2026,Attorney General,,55119,Taylor,Josh Kaul,D,0,final,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55119,Taylor,Eric Toney,R,0,final,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55119,Taylor,Write-in,W,0,final,0,100
+statewide,2026 Attorney General,2026,Attorney General,,55121,Trempealeau,Eric Toney,R,6642,final,96.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55121,Trempealeau,Josh Kaul,D,5622,final,96.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55121,Trempealeau,Write-in,W,0,final,96.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55123,Vernon,Josh Kaul,D,6908,final,97,100
+statewide,2026 Attorney General,2026,Attorney General,,55123,Vernon,Eric Toney,R,6372,final,97,100
+statewide,2026 Attorney General,2026,Attorney General,,55123,Vernon,Write-in,W,0,final,97,100
+statewide,2026 Attorney General,2026,Attorney General,,55125,Vilas,Eric Toney,R,7904,final,93.3,100
+statewide,2026 Attorney General,2026,Attorney General,,55125,Vilas,Josh Kaul,D,5138,final,93.3,100
+statewide,2026 Attorney General,2026,Attorney General,,55125,Vilas,Write-in,W,0,final,93.3,100
+statewide,2026 Attorney General,2026,Attorney General,,55127,Walworth,Eric Toney,R,25980,final,97.4,100
+statewide,2026 Attorney General,2026,Attorney General,,55127,Walworth,Josh Kaul,D,20053,final,97.4,100
+statewide,2026 Attorney General,2026,Attorney General,,55127,Walworth,Write-in,W,0,final,97.4,100
+statewide,2026 Attorney General,2026,Attorney General,,55129,Washburn,Eric Toney,R,5341,final,96,100
+statewide,2026 Attorney General,2026,Attorney General,,55129,Washburn,Josh Kaul,D,3439,final,96,100
+statewide,2026 Attorney General,2026,Attorney General,,55129,Washburn,Write-in,W,0,final,96,100
+statewide,2026 Attorney General,2026,Attorney General,,55131,Washington,Eric Toney,R,46562,final,97.7,100
+statewide,2026 Attorney General,2026,Attorney General,,55131,Washington,Josh Kaul,D,23945,final,97.7,100
+statewide,2026 Attorney General,2026,Attorney General,,55131,Washington,Write-in,W,0,final,97.7,100
+statewide,2026 Attorney General,2026,Attorney General,,55133,Waukesha,Eric Toney,R,124661,final,98.9,100
+statewide,2026 Attorney General,2026,Attorney General,,55133,Waukesha,Josh Kaul,D,92848,final,98.9,100
+statewide,2026 Attorney General,2026,Attorney General,,55133,Waukesha,Write-in,W,0,final,98.9,100
+statewide,2026 Attorney General,2026,Attorney General,,55135,Waupaca,Eric Toney,R,14524,final,97.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55135,Waupaca,Josh Kaul,D,8443,final,97.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55135,Waupaca,Write-in,W,0,final,97.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55137,Waushara,Eric Toney,R,7194,final,96.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55137,Waushara,Josh Kaul,D,3842,final,96.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55137,Waushara,Write-in,W,0,final,96.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55139,Winnebago,Josh Kaul,D,38317,final,94.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55139,Winnebago,Eric Toney,R,33788,final,94.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55139,Winnebago,Write-in,W,0,final,94.2,100
+statewide,2026 Attorney General,2026,Attorney General,,55141,Wood,Eric Toney,R,17672,final,100,100
+statewide,2026 Attorney General,2026,Attorney General,,55141,Wood,Josh Kaul,D,14314,final,100,100
+statewide,2026 Attorney General,2026,Attorney General,,55141,Wood,Write-in,W,0,final,100,100
+senate,2026 Senate,2026,Senate,s2024,5,,Robyn Vining,D,50107,final,33,100
+senate,2026 Senate,2026,Senate,s2024,5,,Mike Roberts,R,37794,final,33,100
+house,2026 Assembly,2026,Assembly,a2024,54,,Lori Palmeri,D,12294,final,48,100
+house,2026 Assembly,2026,Assembly,a2024,54,,Tim Paterson,R,7964,final,48,100
