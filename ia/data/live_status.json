@@ -1,23 +1,12 @@
 [
  {
   "phase": "counting",
-  "updated_at": "2026-11-05T07:34:43Z",
+  "updated_at": "2026-11-05T15:46:51Z",
   "source": "CivicAPI, unofficial",
   "races": 136,
-  "called": 56,
+  "called": 91,
   "counting": 43,
-  "problems": [
-   "CivicAPI search (Iowa State House): /race/search?country=US&province=IA&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Iowa%20State%20House: HTTP ",
-   "CivicAPI search (Iowa State Senate): /race/search?country=US&province=IA&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Iowa%20State%20Senate: HTTP",
-   "CivicAPI search (Iowa US): /race/search?country=US&province=IA&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Iowa%20US: HTTP 522  error ",
-   "CivicAPI search (Iowa Governor): /race/search?country=US&province=IA&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Iowa%20Governor: HTTP 522  ",
-   "CivicAPI search (Iowa Secretary): /race/search?country=US&province=IA&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Iowa%20Secretary: HTTP 522 ",
-   "CivicAPI search (Iowa Attorney General): /race/search?country=US&province=IA&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Iowa%20Attorney%20General: ",
-   "CivicAPI search (Iowa State Auditor): /race/search?country=US&province=IA&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Iowa%20State%20Auditor: HTT",
-   "CivicAPI search (Iowa State Treasurer): /race/search?country=US&province=IA&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Iowa%20State%20Treasurer: H",
-   "99 races not sent by CivicAPI this time; kept the last published numbers",
-   "no live source yet for 7 statewide races, 4 U.S. House races, 25 Iowa Senate races, 100 Iowa House races"
-  ],
+  "problems": [],
   "local_problems": []
  }
 ]
