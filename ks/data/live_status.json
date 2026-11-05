@@ -1,14 +1,12 @@
 [
  {
   "phase": "counting",
-  "updated_at": "2026-11-04T20:03:55Z",
+  "updated_at": "2026-11-05T00:58:18Z",
   "source": "CivicAPI, unofficial",
   "races": 137,
-  "called": 91,
-  "counting": 46,
-  "problems": [
-   "2026 Insurance Commissioner: county sums differ from the statewide total for Daniel Hawkins, Dinah Sykes, Ric Koehn"
-  ],
+  "called": 92,
+  "counting": 45,
+  "problems": [],
   "local_problems": []
  }
 ]
