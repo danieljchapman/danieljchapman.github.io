@@ -1,12 +1,21 @@
 [
  {
   "phase": "counting",
-  "updated_at": "2026-11-05T01:00:46Z",
+  "updated_at": "2026-11-05T07:27:36Z",
   "source": "CivicAPI, unofficial",
   "races": 165,
-  "called": 122,
+  "called": 90,
   "counting": 36,
-  "problems": [],
+  "problems": [
+   "CivicAPI search (Michigan State House): /race/search?country=US&province=MI&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Michigan%20State%20House: H",
+   "CivicAPI search (Michigan State Senate): /race/search?country=US&province=MI&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Michigan%20State%20Senate: ",
+   "CivicAPI search (Michigan US): /race/search?country=US&province=MI&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Michigan%20US: HTTP 522  er",
+   "CivicAPI search (Michigan Governor): /race/search?country=US&province=MI&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Michigan%20Governor: HTTP 5",
+   "CivicAPI search (Michigan Secretary of State): /race/search?country=US&province=MI&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Michigan%20Secretary%20of%2",
+   "CivicAPI search (Michigan Attorney General): /race/search?country=US&province=MI&startDate=2026-11-03&endDate=2026-11-03&limit=1000&query=Michigan%20Attorney%20Gener",
+   "126 races not sent by CivicAPI this time; kept the last published numbers",
+   "no live source yet for 4 statewide races, 13 U.S. House races, 38 Michigan Senate races, 110 Michigan House races"
+  ],
   "local_problems": []
  }
 ]
