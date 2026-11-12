@@ -1,8 +1,8 @@
 level,race,year,state,district,seat,candidate,party,votes,winner,unopposed,incumbent,status,reporting,reporting_total
-senate,AK,2026,AK,,,Mary Peltola,D,118926,0,0,0,counting,83.77,100
-senate,AK,2026,AK,,,Dan Sullivan,R,114676,0,0,0,counting,83.77,100
-senate,AK,2026,AK,,,Gerald L. Heikes,R,5318,0,0,0,counting,83.77,100
-senate,AK,2026,AK,,,Daniel J. Jr. Sullivan,I,4027,0,0,0,counting,83.77,100
+senate,AK,2026,AK,,,Mary Peltola,D,121487,0,0,0,counting,85.69,100
+senate,AK,2026,AK,,,Dan Sullivan,R,117512,0,0,0,counting,85.69,100
+senate,AK,2026,AK,,,Gerald L. Heikes,R,5426,0,0,0,counting,85.69,100
+senate,AK,2026,AK,,,Daniel J. Jr. Sullivan,I,4100,0,0,0,counting,85.69,100
 senate,AL,2026,AL,,,Barry Moore,R,917347,1,0,0,final,97.71,100
 senate,AL,2026,AL,,,Everett Wess,D,759336,0,0,0,final,97.71,100
 senate,AR,2026,AR,,,Tom Cotton,R,480869,1,0,0,final,90.13,100
@@ -259,10 +259,10 @@ senate,WV,2026,WV,,,Rachel Fetty Anderson,D,173656,0,0,0,final,75.16,100
 senate,WV,2026,WV,,,S. Marshall Wilson,C,17183,0,0,0,final,75.16,100
 senate,WY,2026,WY,,,Harriet Hageman,R,122174,1,0,0,final,86.29,100
 senate,WY,2026,WY,,,James W. Byrd,D,65105,0,0,0,final,86.29,100
-house,AK-00,2026,AK,0,,Nick Begich III,R,118337,0,0,0,counting,83.14,100
-house,AK-00,2026,AK,0,,Bill Hill,I,99240,0,0,0,counting,83.14,100
-house,AK-00,2026,AK,0,,Eric Hafner,D,18121,0,0,0,counting,83.14,100
-house,AK-00,2026,AK,0,,"James C. ""Jim"" McDermott",L,6497,0,0,0,counting,83.14,100
+house,AK-00,2026,AK,0,,Nick Begich III,R,121324,0,0,0,counting,85.06,100
+house,AK-00,2026,AK,0,,Bill Hill,I,101297,0,0,0,counting,85.06,100
+house,AK-00,2026,AK,0,,Eric Hafner,D,18562,0,0,0,counting,85.06,100
+house,AK-00,2026,AK,0,,"James C. ""Jim"" McDermott",L,6606,0,0,0,counting,85.06,100
 house,AL-01,2026,AL,1,,Jerry Carl,R,137025,1,0,0,final,95.47,100
 house,AL-01,2026,AL,1,,Clyde Jones,D,94940,0,0,0,final,95.47,100
 house,AL-02,2026,AL,2,,Shomari Figures,D,124422,1,0,0,final,98.39,100
@@ -335,24 +335,24 @@ house,CA-03,2026,CA,3,,Ami Bera,D,158686,1,0,0,final,81.46,100
 house,CA-03,2026,CA,3,,Robb Tucker,R,111356,0,0,0,final,81.46,100
 house,CA-04,2026,CA,4,,Eric Jones,D,105129,0,0,0,counting,72.07,100
 house,CA-04,2026,CA,4,,Mike Thompson,D,96940,0,0,0,counting,72.07,100
-house,CA-05,2026,CA,5,,Tom McClintock,R,146751,1,0,0,final,83.88,100
-house,CA-05,2026,CA,5,,Michael Masuda,D,114574,0,0,0,final,83.88,100
+house,CA-05,2026,CA,5,,Tom McClintock,R,146768,1,0,0,final,83.89,100
+house,CA-05,2026,CA,5,,Michael Masuda,D,114586,0,0,0,final,83.89,100
 house,CA-06,2026,CA,6,,Richard Pan,D,142647,1,0,0,final,80.8,100
 house,CA-06,2026,CA,6,,Kevin Kiley,I,98368,0,0,0,final,80.8,100
-house,CA-07,2026,CA,7,,Doris Matsui,D,123958,1,0,0,final,81.08,100
-house,CA-07,2026,CA,7,,Mai Vang,D,108613,0,0,0,final,81.08,100
-house,CA-08,2026,CA,8,,John Garamendi,D,187434,1,0,0,final,95.25,100
-house,CA-08,2026,CA,8,,Rudy Recile,R,68228,0,0,0,final,95.25,100
-house,CA-09,2026,CA,9,,Josh Harder,D,139355,1,0,0,final,91.55,100
-house,CA-09,2026,CA,9,,John McBride,R,68983,0,0,0,final,91.55,100
+house,CA-07,2026,CA,7,,Doris Matsui,D,124027,1,0,0,final,81.14,100
+house,CA-07,2026,CA,7,,Mai Vang,D,108703,0,0,0,final,81.14,100
+house,CA-08,2026,CA,8,,John Garamendi,D,187483,1,0,0,final,95.28,100
+house,CA-08,2026,CA,8,,Rudy Recile,R,68256,0,0,0,final,95.28,100
+house,CA-09,2026,CA,9,,Josh Harder,D,140542,1,0,0,final,92.24,100
+house,CA-09,2026,CA,9,,John McBride,R,69377,0,0,0,final,92.24,100
 house,CA-10,2026,CA,10,,Mark DeSaulnier,D,210794,1,0,0,final,91.12,100
 house,CA-10,2026,CA,10,,Jeff Frese,R,91726,0,0,0,final,91.12,100
 house,CA-11,2026,CA,11,,Scott Wiener,D,160400,1,0,0,final,92.66,100
 house,CA-11,2026,CA,11,,Connie Chan,D,140395,0,0,0,final,92.66,100
 house,CA-12,2026,CA,12,,Lateefah Simon,D,201788,1,0,0,final,84.34,100
 house,CA-12,2026,CA,12,,Jamie Joyce,D,48545,0,0,0,final,84.34,100
-house,CA-13,2026,CA,13,,Adam Gray,D,95939,1,0,0,final,89.48,100
-house,CA-13,2026,CA,13,,Kevin Lincoln,R,58823,0,0,0,final,89.48,100
+house,CA-13,2026,CA,13,,Adam Gray,D,96169,1,0,0,final,89.66,100
+house,CA-13,2026,CA,13,,Kevin Lincoln,R,58900,0,0,0,final,89.66,100
 house,CA-14,2026,CA,14,,Aisha Wahab,D,120060,1,0,0,final,86.49,100
 house,CA-14,2026,CA,14,,Melissa Hernandez,D,88461,0,0,0,final,86.49,100
 house,CA-15,2026,CA,15,,Kevin Mullin,D,165147,1,0,0,final,80.37,100
@@ -1685,10 +1685,10 @@ house,WY-00,2026,WY,0,,Chuck Gray,R,99906,1,0,0,final,84.05,100
 house,WY-00,2026,WY,0,,Lisa F. Kinney,D,61689,0,0,0,final,84.05,100
 house,WY-00,2026,WY,0,,Shawn Johnson,L,13667,0,0,0,final,84.05,100
 house,WY-00,2026,WY,0,,Jeffrey Haggit,C,7961,0,0,0,final,84.05,100
-governor,AK,2026,AK,,,"Jonathan S. ""JKT"" Kreiss-Tomkins",D,119860,0,0,0,counting,82.61,100
-governor,AK,2026,AK,,,Bernadette M. Wilson,R,69199,0,0,0,counting,82.61,100
-governor,AK,2026,AK,,,Dave Bronson,R,33590,0,0,0,counting,82.61,100
-governor,AK,2026,AK,,,Treg Taylor,R,17619,0,0,0,counting,82.61,100
+governor,AK,2026,AK,,,"Jonathan S. ""JKT"" Kreiss-Tomkins",D,122353,0,0,0,counting,84.5,100
+governor,AK,2026,AK,,,Bernadette M. Wilson,R,71231,0,0,0,counting,84.5,100
+governor,AK,2026,AK,,,Dave Bronson,R,34188,0,0,0,counting,84.5,100
+governor,AK,2026,AK,,,Treg Taylor,R,18012,0,0,0,counting,84.5,100
 governor,AL,2026,AL,,,Tommy Tuberville,R,873339,1,0,0,final,97.87,100
 governor,AL,2026,AL,,,Doug Jones,D,806270,0,0,0,final,97.87,100
 governor,AR,2026,AR,,,Sarah Huckabee Sanders,R,477365,1,0,0,final,90.02,100
@@ -1701,8 +1701,8 @@ governor,AZ,2026,AZ,,,Teri Hourihan,O,23493,0,0,0,final,80.9,100
 governor,AZ,2026,AZ,,,Write-in,I,1736,0,0,0,final,80.9,100
 governor,AZ,2026,AZ,,,Alice Novoa,R,17,0,0,0,final,80.9,100
 governor,AZ,2026,AZ,,,Gertritrude Gonzalez,R,10,0,0,0,final,80.9,100
-governor,CA,2026,CA,,,Xavier Becerra,D,8082703,1,0,0,final,91.18,100
-governor,CA,2026,CA,,,Steve Hilton,R,4223627,0,0,0,final,91.18,100
+governor,CA,2026,CA,,,Xavier Becerra,D,8084229,1,0,0,final,91.19,100
+governor,CA,2026,CA,,,Steve Hilton,R,4224318,0,0,0,final,91.19,100
 governor,CO,2026,CO,,,Phil Weiser,D,1623206,1,0,0,final,93.64,100
 governor,CO,2026,CO,,,Victor Marx,R,883736,0,0,0,final,93.64,100
 governor,CO,2026,CO,,,Greg Lopez,I,73610,0,0,0,final,93.64,100
